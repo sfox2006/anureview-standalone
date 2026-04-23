@@ -47,8 +47,8 @@
   --bg-muted:     #f1f5f9;
   --surface:      #ffffff;
   --ink:          #0f172a;
-  --ink-muted:    #64748b;
-  --ink-faint:    #94a3b8;
+  --ink-muted:    #374151;
+  --ink-faint:    #64748b;
   --line:         #e2e8f0;
   --line-strong:  #cbd5e1;
   --radius-sm:    10px;
@@ -71,8 +71,8 @@
   --bg-muted:    #334155;
   --surface:     #1e293b;
   --ink:         #f1f5f9;
-  --ink-muted:   #94a3b8;
-  --ink-faint:   #64748b;
+  --ink-muted:   #cbd5e1;
+  --ink-faint:   #94a3b8;
   --line:        #334155;
   --line-strong: #475569;
   --shadow-sm:   0 1px 3px rgba(0,0,0,.3);
@@ -220,9 +220,10 @@ body {
   pointer-events: none;
 }
 .hero .eyebrow { color: #BE830E; }
-.hero-heading { color: #ffffff; }
+.hero .hero-heading { color: #ffffff !important; }
 .hero-heading em { color: #BE830E; font-style: italic; }
-.hero-body { color: rgba(255,255,255,0.65); }
+.hero-body { color: rgba(255,255,255,0.92); }
+.hero-body strong { color: #ffffff; font-weight: 700; }
 .hero-body strong { color: #ffffff; }
 [data-hero="centered"] .hero {
   grid-template-columns: 1fr;
@@ -240,7 +241,7 @@ body {
   font-weight: 800;
   line-height: 1.05;
   letter-spacing: -0.03em;
-  color: var(--ink);
+  color: #ffffff;
   margin-bottom: 20px;
 }
 .hero-heading em {
@@ -294,8 +295,8 @@ body {
   height: 48px;
   padding: 0 20px;
   border-radius: 999px;
-  border: 1.5px solid var(--line-strong);
-  color: var(--ink-muted);
+  border: 1.5px solid rgba(255,255,255,0.5);
+  color: rgba(255,255,255,0.9);
   font: inherit;
   font-size: 0.9rem;
   font-weight: 600;
@@ -304,9 +305,9 @@ body {
   transition: border-color var(--transition), color var(--transition), background var(--transition);
 }
 .btn-ghost:hover {
-  border-color: var(--accent);
-  color: var(--accent);
-  background: var(--accent-light);
+  border-color: #ffffff;
+  color: #ffffff;
+  background: rgba(255,255,255,0.1);
 }
 
 .btn-submit { width: 100%; height: 52px; font-size: 0.95rem; border-radius: var(--radius-md); }
@@ -319,9 +320,9 @@ body {
   border-radius: var(--radius-lg);
   backdrop-filter: blur(8px);
 }
-.hero-right .panel-label { color: rgba(255,255,255,0.5); }
-.hero-right .feature-list li { color: rgba(255,255,255,0.8); }
-.hero-right .panel-note { color: rgba(255,255,255,0.4); border-top-color: rgba(255,255,255,0.12); }
+.hero-right .panel-label { color: rgba(255,255,255,0.65); }
+.hero-right .feature-list li { color: rgba(255,255,255,0.92); }
+.hero-right .panel-note { color: rgba(255,255,255,0.6); border-top-color: rgba(255,255,255,0.18); }
 .panel-label {
   font-size: 0.7rem;
   font-weight: 700;
@@ -376,7 +377,7 @@ body {
   transform: translateY(-2px);
   box-shadow: var(--shadow-md);
 }
-.stat-card--muted .stat-num { color: var(--ink-muted); }
+.stat-card--muted .stat-num { color: var(--ink); opacity: 0.55; }
 .stat-num {
   display: block;
   font-family: var(--font-head);
@@ -421,7 +422,7 @@ body {
   margin: 0;
   font-size: 0.82rem;
   font-weight: 600;
-  color: var(--ink-muted);
+  color: var(--ink);
 }
 
 /* ── College tabs ───────────────────────────────────────── */
@@ -463,8 +464,10 @@ body {
 .college-tab.is-active .ctab-label { color: var(--accent-text); }
 .ctab-sub {
   font-size: 0.8rem;
-  color: var(--ink-muted);
+  color: var(--ink);
+  opacity: 0.65;
 }
+.college-tab.is-active .ctab-sub { opacity: 0.8; }
 
 /* ── Directory section ──────────────────────────────────── */
 .directory { margin-top: 40px; }
@@ -485,7 +488,8 @@ body {
 .directory-note {
   max-width: 38ch;
   font-size: 0.88rem;
-  color: var(--ink-muted);
+  color: var(--ink);
+  opacity: 0.7;
   line-height: 1.6;
 }
 
@@ -631,8 +635,8 @@ select.field, .field select {
 }
 .results-meta-text {
   font-size: 0.8rem;
-  color: var(--ink-faint);
-  font-weight: 500;
+  color: var(--ink-muted);
+  font-weight: 600;
 }
 .results-grid {
   display: grid;
@@ -669,7 +673,8 @@ select.field, .field select {
 }
 .result-snippet {
   font-size: 0.82rem;
-  color: var(--ink-muted);
+  color: var(--ink);
+  opacity: 0.75;
   line-height: 1.5;
   margin-bottom: 10px;
   display: -webkit-box;
@@ -706,7 +711,7 @@ select.field, .field select {
   padding: 0 9px;
   border-radius: 999px;
   background: var(--bg-muted);
-  color: var(--ink-muted);
+  color: var(--ink);
   font-size: 0.75rem;
   font-weight: 600;
   border: 1px solid var(--line);
@@ -775,6 +780,7 @@ select.field, .field select {
   font-size: 0.88rem;
   line-height: 1.6;
   max-width: 28ch;
+  color: var(--ink-muted);
 }
 
 .detail-top {
@@ -843,7 +849,7 @@ select.field, .field select {
 .metric-label {
   font-size: 0.7rem;
   font-weight: 600;
-  color: var(--ink-faint);
+  color: var(--ink-muted);
   text-transform: uppercase;
   letter-spacing: 0.04em;
   margin-bottom: 4px;
@@ -883,7 +889,7 @@ select.field, .field select {
 }
 .section-sub {
   font-size: 0.78rem;
-  color: var(--ink-faint);
+  color: var(--ink-muted);
 }
 
 /* ── Facts ────────────────────────────────────────────────── */
