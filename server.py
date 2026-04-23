@@ -1,6 +1,7 @@
 from __future__ import annotations
 
 import json
+import os
 import re
 import tempfile
 from datetime import datetime, timedelta
@@ -15,8 +16,8 @@ ANREVIEW_STORAGE_DIR = Path(tempfile.gettempdir()) / "ANReview"
 ANREVIEW_REVIEWS_PATH = ANREVIEW_STORAGE_DIR / "shared-reviews.json"
 ANREVIEW_REPORTS_PATH = ANREVIEW_STORAGE_DIR / "review-reports.json"
 ANREVIEW_CATALOG_CACHE_PATH = ANREVIEW_STORAGE_DIR / "catalog-cache.json"
-HOST = "127.0.0.1"
-PORT = 8000
+HOST = "0.0.0.0"
+PORT = int(os.environ.get("PORT", "8000"))
 CACHE_TTL = timedelta(hours=12)
 CACHE_VERSION = 2
 REQUEST_HEADERS = {
