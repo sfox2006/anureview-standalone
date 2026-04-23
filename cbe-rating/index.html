@@ -1,0 +1,268 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>ANReview | ANU Economics and Business Ratings</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Instrument+Serif:ital@0;1&family=Space+Grotesk:wght@400;500;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="styles.css">
+  </head>
+  <body>
+    <main class="shell">
+      <section class="hero">
+        <div class="hero-copy">
+          <p class="eyebrow">ANReview for ANU CBE and Law</p>
+          <h1>ANReview gives ANU students a place to say what classes and professors actually feel like.</h1>
+          <p class="hero-text">
+            Browse official ANU CBE and ANU Law School courses and staff, compare ratings, and leave shared anonymous
+            reviews through a local server-backed prototype.
+          </p>
+          <div class="hero-actions">
+            <a class="hero-button" href="#directory">Explore ratings</a>
+            <a class="hero-link" href="#sources">See official sources</a>
+          </div>
+        </div>
+
+        <aside class="hero-panel">
+          <p class="panel-label">What this version includes</p>
+          <ul class="panel-list">
+            <li>CBE catalogue seeded from ANU Programs and Courses</li>
+            <li>Law catalogue seeded from ANU program pages</li>
+            <li>Staff profiles seeded from CBE and ANU Law School pages</li>
+            <li>Shared review posting backed by the local Python server</li>
+            <li>Separate course and professor views with reporting tools</li>
+          </ul>
+          <p class="panel-note">Data snapshot aligned to publicly available ANU pages accessed on 12 April 2026.</p>
+        </aside>
+      </section>
+
+      <section class="college-switch" aria-label="College selection">
+        <button id="all-colleges-tab" class="college-tab is-active" type="button" data-college="all">
+          <span class="college-tab-eyebrow">All</span>
+          <strong>All ANReview areas</strong>
+          <small>Browse CBE and Law together</small>
+        </button>
+        <button id="cbe-tab" class="college-tab" type="button" data-college="cbe">
+          <span class="college-tab-eyebrow">CBE</span>
+          <strong>College of Business and Economics</strong>
+          <small>Economics, management, finance, marketing</small>
+        </button>
+        <button id="law-tab" class="college-tab" type="button" data-college="law">
+          <span class="college-tab-eyebrow">Law</span>
+          <strong>ANU Law School</strong>
+          <small>LLB(Hons), JD, clinics, capstones, law academics</small>
+        </button>
+      </section>
+
+      <section class="stat-strip" aria-label="Site summary">
+        <article class="stat-card">
+          <p class="stat-label">Courses seeded</p>
+          <strong id="course-count">0</strong>
+        </article>
+        <article class="stat-card">
+          <p class="stat-label">Staff profiles</p>
+          <strong id="staff-count">0</strong>
+        </article>
+        <article class="stat-card">
+          <p class="stat-label">Total reviews</p>
+          <strong id="review-count">0</strong>
+        </article>
+        <article class="stat-card">
+          <p class="stat-label">Open reports</p>
+          <strong id="moderation-count">0</strong>
+        </article>
+      </section>
+
+      <section class="status-bar" aria-label="Sync status">
+        <p id="sync-status">Connecting to local ANReview server...</p>
+      </section>
+
+      <section id="directory" class="directory">
+        <div class="directory-head">
+          <div>
+            <p class="eyebrow">Directory</p>
+            <h2>Find a course or professor fast.</h2>
+          </div>
+          <p class="directory-note">
+            Pick a college and mode first, then narrow by school, level, or keyword. Select any card to inspect
+            detailed ratings and post your own review.
+          </p>
+        </div>
+
+        <section class="type-switch" aria-label="Browse mode">
+          <button id="courses-tab" class="type-tab is-active" type="button" data-type="course">Courses</button>
+          <button id="professors-tab" class="type-tab" type="button" data-type="academic">Professors</button>
+        </section>
+
+        <section class="filters-card" aria-label="Filters">
+          <label class="field">
+            <span>Search</span>
+            <input id="search-input" type="search" placeholder="Search ECON1101, Timo Henckel, management...">
+          </label>
+
+          <label class="field">
+            <span>School</span>
+            <select id="school-filter">
+              <option value="all">All CBE schools</option>
+            </select>
+          </label>
+
+          <label class="field">
+            <span>Level</span>
+            <select id="level-filter">
+              <option value="all">All levels</option>
+              <option value="UGRD">Undergraduate</option>
+              <option value="PGRD">Postgraduate</option>
+            </select>
+          </label>
+
+          <label class="field field-inline">
+            <span>Sort</span>
+            <select id="sort-filter">
+              <option value="rating">Top rated first</option>
+              <option value="reviews">Most reviewed</option>
+              <option value="name">Alphabetical</option>
+            </select>
+          </label>
+        </section>
+
+        <section class="content-grid">
+          <div class="list-panel">
+            <div class="list-header">
+              <h3>Results</h3>
+              <p id="results-meta">Loading items...</p>
+            </div>
+            <div id="results-grid" class="results-grid"></div>
+          </div>
+
+          <aside class="detail-panel">
+            <div id="detail-empty" class="detail-empty">
+              <p class="eyebrow">Selection</p>
+              <h3>Choose a course or professor.</h3>
+              <p>
+                The right-hand panel will show official metadata, linked staff or courses, rating breakdowns, and
+                recent anonymous reviews.
+              </p>
+            </div>
+
+            <div id="detail-view" class="detail-view is-hidden">
+              <div class="detail-top">
+                <div>
+                  <p id="detail-type" class="pill">Course</p>
+                  <h3 id="detail-title"></h3>
+                  <p id="detail-subtitle" class="detail-subtitle"></p>
+                </div>
+                <div class="score-chip">
+                  <span id="detail-score">0.0</span>
+                  <small>overall</small>
+                </div>
+              </div>
+
+              <div class="detail-metrics">
+                <article class="metric-card">
+                  <p>Overall</p>
+                  <strong id="metric-overall">0.0</strong>
+                </article>
+                <article class="metric-card">
+                  <p id="metric-a-label">Clarity</p>
+                  <strong id="metric-a">0.0</strong>
+                </article>
+                <article class="metric-card">
+                  <p id="metric-b-label">Support</p>
+                  <strong id="metric-b">0.0</strong>
+                </article>
+                <article class="metric-card">
+                  <p id="metric-c-label">Assessment</p>
+                  <strong id="metric-c">0.0</strong>
+                </article>
+              </div>
+
+              <div class="detail-sections">
+                <section class="info-card">
+                  <h4>Official details</h4>
+                  <dl id="detail-facts" class="facts"></dl>
+                </section>
+
+                <section class="info-card">
+                  <h4 id="detail-linked-title">Linked staff</h4>
+                  <div id="detail-links" class="link-pills"></div>
+                </section>
+
+                <section class="info-card">
+                  <div class="section-head">
+                    <h4>Anonymous reviews</h4>
+                    <p id="review-summary"></p>
+                  </div>
+                  <div id="review-list" class="review-list"></div>
+                </section>
+
+                <section class="info-card">
+                  <div class="section-head">
+                    <h4>Post a review</h4>
+                    <p>Reviews are saved to the local ANReview server and shared across anyone using this instance.</p>
+                  </div>
+
+                  <form id="review-form" class="review-form">
+                    <label class="field">
+                      <span>Your name</span>
+                      <input id="review-author" type="text" maxlength="40" placeholder="Anonymous by default">
+                    </label>
+
+                    <div class="review-grid">
+                      <label class="field">
+                        <span>Overall</span>
+                        <select id="review-overall"></select>
+                      </label>
+                      <label class="field">
+                        <span id="review-metric-a-label">Clarity</span>
+                        <select id="review-metric-a"></select>
+                      </label>
+                      <label class="field">
+                        <span id="review-metric-b-label">Support</span>
+                        <select id="review-metric-b"></select>
+                      </label>
+                      <label class="field">
+                        <span id="review-metric-c-label">Assessment</span>
+                        <select id="review-metric-c"></select>
+                      </label>
+                    </div>
+
+                    <label class="field">
+                      <span>Tags</span>
+                      <input id="review-tags" type="text" maxlength="80" placeholder="clear lectures, heavy workload, useful tutorials">
+                    </label>
+
+                    <label class="field">
+                      <span>Comment</span>
+                      <textarea id="review-comment" rows="5" maxlength="600" placeholder="Share the honest version students usually only say privately. Keep it specific and fair."></textarea>
+                    </label>
+
+                    <button class="submit-button" type="submit">Publish review</button>
+                    <p id="review-feedback" class="form-feedback" aria-live="polite"></p>
+                  </form>
+                </section>
+              </div>
+            </div>
+          </aside>
+        </section>
+      </section>
+
+      <section id="sources" class="sources-card">
+        <div>
+          <p class="eyebrow">Sources</p>
+          <h2>Official data references used in this prototype.</h2>
+        </div>
+        <ul id="source-list" class="source-list"></ul>
+        <p class="sources-note">
+          This site is an independent prototype, not an ANU service. The seeded catalogue comes from public ANU pages,
+          while ratings on this build combine demo seed content with shared local server submissions.
+        </p>
+      </section>
+    </main>
+
+    <script src="data.js"></script>
+    <script src="app.js"></script>
+  </body>
+</html>
