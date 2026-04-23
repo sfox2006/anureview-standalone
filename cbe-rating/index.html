@@ -3,114 +3,157 @@
   <head>
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
-    <title>ANReview | ANU Economics and Business Ratings</title>
+    <title>ANReview | ANU Course & Lecturer Ratings</title>
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Instrument+Serif:ital@0;1&family=Space+Grotesk:wght@400;500;700&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Bricolage+Grotesque:opsz,wght@12..96,400;12..96,500;12..96,600;12..96,700;12..96,800&family=DM+Sans:ital,opsz,wght@0,9..40,400;0,9..40,500;0,9..40,600;1,9..40,400&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="styles.css">
   </head>
   <body>
+
+    <!-- ── NAV ─────────────────────────────────────────────── -->
+    <header class="site-header">
+      <div class="header-inner">
+        <a class="wordmark" href="#">
+          <span class="wordmark-an">AN</span><span class="wordmark-review">Review</span>
+          <span class="wordmark-badge">CBE + Law</span>
+        </a>
+        <nav class="header-nav">
+          <a href="#directory" class="nav-link">Courses</a>
+          <a href="#directory" class="nav-link" id="nav-professors">Professors</a>
+          <a href="#sources" class="nav-link">Sources</a>
+          <span class="nav-dot" id="sync-dot" title="Connecting…"></span>
+        </nav>
+      </div>
+    </header>
+
     <main class="shell">
+
+      <!-- ── HERO ────────────────────────────────────────────── -->
       <section class="hero">
-        <div class="hero-copy">
-          <p class="eyebrow">ANReview for ANU CBE and Law</p>
-          <h1>ANReview gives ANU students a place to say what classes and professors actually feel like.</h1>
-          <p class="hero-text">
-            Browse official ANU CBE and ANU Law School courses and staff, compare ratings, and leave shared anonymous
-            reviews through a local server-backed prototype.
+        <div class="hero-left">
+          <p class="eyebrow">Student-powered · ANU CBE &amp; Law</p>
+          <h1 class="hero-heading">
+            Know what a course<br>
+            <em>actually</em> feels like.
+          </h1>
+          <p class="hero-body">
+            Official course descriptions only tell half the story.
+            ANReview fills the gap — but only because students like you take a few minutes
+            to share their honest experience. Every review you leave helps the student
+            coming after you make a better decision. <strong>If we all contribute, we all benefit.</strong>
           </p>
           <div class="hero-actions">
-            <a class="hero-button" href="#directory">Explore ratings</a>
-            <a class="hero-link" href="#sources">See official sources</a>
+            <a class="btn-primary" href="#directory">Browse ratings</a>
+            <a class="btn-ghost" href="#sources">Data sources</a>
           </div>
         </div>
 
-        <aside class="hero-panel">
-          <p class="panel-label">What this version includes</p>
-          <ul class="panel-list">
-            <li>CBE catalogue seeded from ANU Programs and Courses</li>
-            <li>Law catalogue seeded from ANU program pages</li>
-            <li>Staff profiles seeded from CBE and ANU Law School pages</li>
-            <li>Shared review posting backed by the local Python server</li>
-            <li>Separate course and professor views with reporting tools</li>
+        <aside class="hero-right">
+          <p class="panel-label">What's inside this build</p>
+          <ul class="feature-list">
+            <li>
+              <span class="feature-icon">📚</span>
+              CBE courses seeded from ANU Programs &amp; Courses
+            </li>
+            <li>
+              <span class="feature-icon">⚖️</span>
+              Law courses seeded from ANU Law program pages
+            </li>
+            <li>
+              <span class="feature-icon">👤</span>
+              Staff profiles from CBE &amp; ANU Law School directories
+            </li>
+            <li>
+              <span class="feature-icon">🔒</span>
+              Anonymous shared reviews — backed by local server
+            </li>
+            <li>
+              <span class="feature-icon">🚩</span>
+              Reporting tools for community moderation
+            </li>
           </ul>
-          <p class="panel-note">Data snapshot aligned to publicly available ANU pages accessed on 12 April 2026.</p>
+          <p class="panel-note">Data snapshot: publicly available ANU pages, 12 April 2026.</p>
         </aside>
       </section>
 
-      <section class="college-switch" aria-label="College selection">
-        <button id="all-colleges-tab" class="college-tab is-active" type="button" data-college="all">
-          <span class="college-tab-eyebrow">All</span>
-          <strong>All ANReview areas</strong>
-          <small>Browse CBE and Law together</small>
-        </button>
-        <button id="cbe-tab" class="college-tab" type="button" data-college="cbe">
-          <span class="college-tab-eyebrow">CBE</span>
-          <strong>College of Business and Economics</strong>
-          <small>Economics, management, finance, marketing</small>
-        </button>
-        <button id="law-tab" class="college-tab" type="button" data-college="law">
-          <span class="college-tab-eyebrow">Law</span>
-          <strong>ANU Law School</strong>
-          <small>LLB(Hons), JD, clinics, capstones, law academics</small>
-        </button>
-      </section>
-
+      <!-- ── STATS ────────────────────────────────────────────── -->
       <section class="stat-strip" aria-label="Site summary">
         <article class="stat-card">
-          <p class="stat-label">Courses seeded</p>
-          <strong id="course-count">0</strong>
+          <strong id="course-count" class="stat-num">—</strong>
+          <p class="stat-label">Courses</p>
         </article>
         <article class="stat-card">
+          <strong id="staff-count" class="stat-num">—</strong>
           <p class="stat-label">Staff profiles</p>
-          <strong id="staff-count">0</strong>
         </article>
         <article class="stat-card">
-          <p class="stat-label">Total reviews</p>
-          <strong id="review-count">0</strong>
+          <strong id="review-count" class="stat-num">—</strong>
+          <p class="stat-label">Reviews</p>
         </article>
-        <article class="stat-card">
+        <article class="stat-card stat-card--muted">
+          <strong id="moderation-count" class="stat-num">—</strong>
           <p class="stat-label">Open reports</p>
-          <strong id="moderation-count">0</strong>
         </article>
       </section>
 
-      <section class="status-bar" aria-label="Sync status">
-        <p id="sync-status">Connecting to local ANReview server...</p>
+      <!-- ── SYNC STATUS ──────────────────────────────────────── -->
+      <div class="status-bar" aria-label="Sync status">
+        <span class="status-dot"></span>
+        <p id="sync-status">Connecting to local ANReview server…</p>
+      </div>
+
+      <!-- ── COLLEGE TABS ─────────────────────────────────────── -->
+      <section class="college-switch" aria-label="College selection">
+        <button id="all-colleges-tab" class="college-tab is-active" type="button" data-college="all">
+          <span class="ctab-label">All areas</span>
+          <span class="ctab-sub">CBE + Law combined</span>
+        </button>
+        <button id="cbe-tab" class="college-tab" type="button" data-college="cbe">
+          <span class="ctab-label">CBE</span>
+          <span class="ctab-sub">Business &amp; Economics</span>
+        </button>
+        <button id="law-tab" class="college-tab" type="button" data-college="law">
+          <span class="ctab-label">Law</span>
+          <span class="ctab-sub">ANU Law School</span>
+        </button>
       </section>
 
+      <!-- ── DIRECTORY ────────────────────────────────────────── -->
       <section id="directory" class="directory">
         <div class="directory-head">
           <div>
             <p class="eyebrow">Directory</p>
-            <h2>Find a course or professor fast.</h2>
+            <h2 class="directory-title">Find a course or professor.</h2>
           </div>
-          <p class="directory-note">
-            Pick a college and mode first, then narrow by school, level, or keyword. Select any card to inspect
-            detailed ratings and post your own review.
-          </p>
+          <p class="directory-note">Filter by college and type, then narrow by school, level or keyword. Select any card to see ratings and leave a review.</p>
         </div>
 
-        <section class="type-switch" aria-label="Browse mode">
+        <!-- Type toggle -->
+        <div class="type-switch" aria-label="Browse mode">
           <button id="courses-tab" class="type-tab is-active" type="button" data-type="course">Courses</button>
           <button id="professors-tab" class="type-tab" type="button" data-type="academic">Professors</button>
-        </section>
+        </div>
 
-        <section class="filters-card" aria-label="Filters">
-          <label class="field">
-            <span>Search</span>
-            <input id="search-input" type="search" placeholder="Search ECON1101, Timo Henckel, management...">
+        <!-- Filters -->
+        <div class="filters-card" aria-label="Filters">
+          <label class="field field--search">
+            <span class="field-label">Search</span>
+            <div class="input-wrap">
+              <svg class="input-icon" viewBox="0 0 20 20" fill="none"><circle cx="8.5" cy="8.5" r="5.5" stroke="currentColor" stroke-width="1.6"/><path d="M13 13l3.5 3.5" stroke="currentColor" stroke-width="1.6" stroke-linecap="round"/></svg>
+              <input id="search-input" type="search" placeholder="Search ECON1101, Timo Henckel, management…">
+            </div>
           </label>
 
           <label class="field">
-            <span>School</span>
+            <span class="field-label">School</span>
             <select id="school-filter">
-              <option value="all">All CBE schools</option>
+              <option value="all">All schools</option>
             </select>
           </label>
 
           <label class="field">
-            <span>Level</span>
+            <span class="field-label">Level</span>
             <select id="level-filter">
               <option value="all">All levels</option>
               <option value="UGRD">Undergraduate</option>
@@ -118,151 +161,248 @@
             </select>
           </label>
 
-          <label class="field field-inline">
-            <span>Sort</span>
+          <label class="field">
+            <span class="field-label">Sort</span>
             <select id="sort-filter">
-              <option value="rating">Top rated first</option>
+              <option value="rating">Top rated</option>
               <option value="reviews">Most reviewed</option>
               <option value="name">Alphabetical</option>
             </select>
           </label>
-        </section>
+        </div>
 
-        <section class="content-grid">
+        <!-- Content grid -->
+        <div class="content-grid">
+
+          <!-- List panel -->
           <div class="list-panel">
             <div class="list-header">
-              <h3>Results</h3>
-              <p id="results-meta">Loading items...</p>
+              <h3 class="list-heading">Results</h3>
+              <p id="results-meta" class="results-meta-text">Loading…</p>
             </div>
             <div id="results-grid" class="results-grid"></div>
           </div>
 
+          <!-- Detail panel -->
           <aside class="detail-panel">
             <div id="detail-empty" class="detail-empty">
-              <p class="eyebrow">Selection</p>
-              <h3>Choose a course or professor.</h3>
-              <p>
-                The right-hand panel will show official metadata, linked staff or courses, rating breakdowns, and
-                recent anonymous reviews.
-              </p>
+              <div class="detail-empty-icon">↗</div>
+              <h3>Select a course or professor</h3>
+              <p>Ratings, official metadata, linked staff or courses, and anonymous reviews will appear here.</p>
             </div>
 
             <div id="detail-view" class="detail-view is-hidden">
               <div class="detail-top">
-                <div>
-                  <p id="detail-type" class="pill">Course</p>
-                  <h3 id="detail-title"></h3>
+                <div class="detail-top-text">
+                  <span id="detail-type" class="pill">Course</span>
+                  <h3 id="detail-title" class="detail-title"></h3>
                   <p id="detail-subtitle" class="detail-subtitle"></p>
                 </div>
                 <div class="score-chip">
-                  <span id="detail-score">0.0</span>
-                  <small>overall</small>
+                  <span id="detail-score">—</span>
+                  <small>/ 5</small>
                 </div>
               </div>
 
               <div class="detail-metrics">
                 <article class="metric-card">
-                  <p>Overall</p>
-                  <strong id="metric-overall">0.0</strong>
+                  <p class="metric-label">Overall</p>
+                  <strong id="metric-overall" class="metric-val">—</strong>
                 </article>
                 <article class="metric-card">
-                  <p id="metric-a-label">Clarity</p>
-                  <strong id="metric-a">0.0</strong>
+                  <p id="metric-a-label" class="metric-label">Clarity</p>
+                  <strong id="metric-a" class="metric-val">—</strong>
                 </article>
                 <article class="metric-card">
-                  <p id="metric-b-label">Support</p>
-                  <strong id="metric-b">0.0</strong>
+                  <p id="metric-b-label" class="metric-label">Support</p>
+                  <strong id="metric-b" class="metric-val">—</strong>
                 </article>
                 <article class="metric-card">
-                  <p id="metric-c-label">Assessment</p>
-                  <strong id="metric-c">0.0</strong>
+                  <p id="metric-c-label" class="metric-label">Assessment</p>
+                  <strong id="metric-c" class="metric-val">—</strong>
                 </article>
               </div>
 
               <div class="detail-sections">
                 <section class="info-card">
-                  <h4>Official details</h4>
+                  <h4 class="info-heading">Official details</h4>
                   <dl id="detail-facts" class="facts"></dl>
                 </section>
 
                 <section class="info-card">
-                  <h4 id="detail-linked-title">Linked staff</h4>
+                  <h4 id="detail-linked-title" class="info-heading">Linked staff</h4>
                   <div id="detail-links" class="link-pills"></div>
                 </section>
 
                 <section class="info-card">
                   <div class="section-head">
-                    <h4>Anonymous reviews</h4>
-                    <p id="review-summary"></p>
+                    <h4 class="info-heading">Anonymous reviews</h4>
+                    <p id="review-summary" class="section-sub"></p>
                   </div>
                   <div id="review-list" class="review-list"></div>
                 </section>
 
-                <section class="info-card">
+                <section class="info-card info-card--form">
                   <div class="section-head">
-                    <h4>Post a review</h4>
-                    <p>Reviews are saved to the local ANReview server and shared across anyone using this instance.</p>
+                    <h4 class="info-heading">Leave a review</h4>
+                    <p class="section-sub">Saved to the shared ANReview server — visible to everyone on this instance.</p>
                   </div>
 
                   <form id="review-form" class="review-form">
                     <label class="field">
-                      <span>Your name</span>
-                      <input id="review-author" type="text" maxlength="40" placeholder="Anonymous by default">
+                      <span class="field-label">Your name <span class="field-optional">(optional)</span></span>
+                      <input id="review-author" type="text" maxlength="40" placeholder="Anonymous">
                     </label>
 
-                    <div class="review-grid">
+                    <div class="review-ratings-grid">
                       <label class="field">
-                        <span>Overall</span>
+                        <span class="field-label">Overall</span>
                         <select id="review-overall"></select>
                       </label>
                       <label class="field">
-                        <span id="review-metric-a-label">Clarity</span>
+                        <span id="review-metric-a-label" class="field-label">Clarity</span>
                         <select id="review-metric-a"></select>
                       </label>
                       <label class="field">
-                        <span id="review-metric-b-label">Support</span>
+                        <span id="review-metric-b-label" class="field-label">Support</span>
                         <select id="review-metric-b"></select>
                       </label>
                       <label class="field">
-                        <span id="review-metric-c-label">Assessment</span>
+                        <span id="review-metric-c-label" class="field-label">Assessment</span>
                         <select id="review-metric-c"></select>
                       </label>
                     </div>
 
                     <label class="field">
-                      <span>Tags</span>
+                      <span class="field-label">Tags <span class="field-optional">(comma-separated)</span></span>
                       <input id="review-tags" type="text" maxlength="80" placeholder="clear lectures, heavy workload, useful tutorials">
                     </label>
 
                     <label class="field">
-                      <span>Comment</span>
+                      <span class="field-label">Comment <span class="field-optional">(min 20 chars)</span></span>
                       <textarea id="review-comment" rows="5" maxlength="600" placeholder="Share the honest version students usually only say privately. Keep it specific and fair."></textarea>
                     </label>
 
-                    <button class="submit-button" type="submit">Publish review</button>
+                    <button class="btn-primary btn-submit" type="submit">Publish review</button>
                     <p id="review-feedback" class="form-feedback" aria-live="polite"></p>
                   </form>
                 </section>
               </div>
             </div>
           </aside>
-        </section>
+        </div>
       </section>
 
-      <section id="sources" class="sources-card">
-        <div>
-          <p class="eyebrow">Sources</p>
-          <h2>Official data references used in this prototype.</h2>
+      <!-- ── SOURCES ───────────────────────────────────────────── -->
+      <section id="sources" class="sources-section">
+        <div class="sources-head">
+          <p class="eyebrow">Data sources</p>
+          <h2 class="sources-title">Official ANU references.</h2>
+          <p class="sources-note">This is an independent prototype, not an ANU service. The seeded catalogue comes from public ANU pages; ratings combine demo seed content with shared local server submissions.</p>
         </div>
         <ul id="source-list" class="source-list"></ul>
-        <p class="sources-note">
-          This site is an independent prototype, not an ANU service. The seeded catalogue comes from public ANU pages,
-          while ratings on this build combine demo seed content with shared local server submissions.
-        </p>
       </section>
+
     </main>
+
+    <!-- ── TWEAKS PANEL ─────────────────────────────────────── -->
+    <div id="tweaks-panel" class="tweaks-panel is-hidden">
+      <p class="tweaks-title">Tweaks</p>
+      <div class="tweaks-group">
+        <p class="tweaks-label">Colour theme</p>
+        <div class="tweaks-swatches">
+          <button class="swatch swatch--gold is-selected" data-theme="gold" title="ANU Gold"></button>
+          <button class="swatch swatch--ink" data-theme="ink" title="Deep Ink"></button>
+          <button class="swatch swatch--cobalt" data-theme="cobalt" title="Cobalt Blue"></button>
+          <button class="swatch swatch--crimson" data-theme="crimson" title="Crimson Red"></button>
+        </div>
+      </div>
+      <div class="tweaks-group">
+        <p class="tweaks-label">Dark mode</p>
+        <label class="tweaks-toggle">
+          <input type="checkbox" id="dark-mode-toggle">
+          <span class="toggle-track"><span class="toggle-thumb"></span></span>
+        </label>
+      </div>
+      <div class="tweaks-group">
+        <p class="tweaks-label">Hero style</p>
+        <div class="tweaks-row">
+          <button class="tweak-btn is-selected" data-hero="split">Split</button>
+          <button class="tweak-btn" data-hero="centered">Centred</button>
+        </div>
+      </div>
+    </div>
 
     <script src="data.js"></script>
     <script src="app.js"></script>
+    <script>
+      // ── Tweaks wiring ──────────────────────────────────────────
+      const TWEAK_DEFAULTS = /*EDITMODE-BEGIN*/{
+        "theme": "gold",
+        "dark": false,
+        "hero": "centered"
+      }/*EDITMODE-END*/;
+
+      let tweakState = { ...TWEAK_DEFAULTS };
+
+      function applyTweaks() {
+        document.documentElement.setAttribute('data-theme', tweakState.theme);
+        document.documentElement.classList.toggle('dark', tweakState.dark);
+        document.documentElement.setAttribute('data-hero', tweakState.hero);
+        document.getElementById('dark-mode-toggle').checked = tweakState.dark;
+        document.querySelectorAll('.swatch').forEach(s => s.classList.toggle('is-selected', s.dataset.theme === tweakState.theme));
+        document.querySelectorAll('[data-hero]').forEach(b => b.classList.toggle('is-selected', b.dataset.hero === tweakState.hero));
+      }
+
+      document.querySelectorAll('.swatch').forEach(s => {
+        s.addEventListener('click', () => {
+          tweakState.theme = s.dataset.theme;
+          applyTweaks();
+          window.parent.postMessage({ type: '__edit_mode_set_keys', edits: { theme: tweakState.theme } }, '*');
+        });
+      });
+
+      document.getElementById('dark-mode-toggle').addEventListener('change', e => {
+        tweakState.dark = e.target.checked;
+        applyTweaks();
+        window.parent.postMessage({ type: '__edit_mode_set_keys', edits: { dark: tweakState.dark } }, '*');
+      });
+
+      document.querySelectorAll('[data-hero]').forEach(b => {
+        b.addEventListener('click', () => {
+          tweakState.hero = b.dataset.hero;
+          applyTweaks();
+          window.parent.postMessage({ type: '__edit_mode_set_keys', edits: { hero: tweakState.hero } }, '*');
+        });
+      });
+
+      window.addEventListener('message', e => {
+        if (e.data?.type === '__activate_edit_mode') {
+          document.getElementById('tweaks-panel').classList.remove('is-hidden');
+        }
+        if (e.data?.type === '__deactivate_edit_mode') {
+          document.getElementById('tweaks-panel').classList.add('is-hidden');
+        }
+      });
+
+      window.parent.postMessage({ type: '__edit_mode_available' }, '*');
+      applyTweaks();
+
+      // Nav shortcut to professors tab
+      document.getElementById('nav-professors').addEventListener('click', () => {
+        document.getElementById('professors-tab').click();
+      });
+
+      // Sync dot colour
+      const origSyncStatus = window.updateSyncStatus;
+      const syncDot = document.getElementById('sync-dot');
+      const syncObs = new MutationObserver(() => {
+        const txt = document.getElementById('sync-status').textContent;
+        syncDot.classList.toggle('is-live', txt.includes('live'));
+        syncDot.classList.toggle('is-error', txt.includes('unavailable') || txt.includes('Unable'));
+        syncDot.title = txt;
+      });
+      syncObs.observe(document.getElementById('sync-status'), { childList: true, characterData: true, subtree: true });
+    </script>
   </body>
 </html>
