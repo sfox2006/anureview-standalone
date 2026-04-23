@@ -19,7 +19,7 @@ ANREVIEW_CATALOG_CACHE_PATH = ANREVIEW_STORAGE_DIR / "catalog-cache.json"
 HOST = "0.0.0.0"
 PORT = int(os.environ.get("PORT", "8000"))
 CACHE_TTL = timedelta(hours=12)
-CACHE_VERSION = 2
+CACHE_VERSION = 3
 REQUEST_HEADERS = {
     "User-Agent": "ANReview Local Sync/1.0 (+http://127.0.0.1:8000/cbe-rating/)",
 }
@@ -46,6 +46,25 @@ CBE_SCHOOL_SOURCES = [
         "schoolCode": "RSM",
         "url": "https://rsm.anu.edu.au/about/people",
     },
+]
+
+COURSE_CATALOG_SOURCES = [
+    "https://programsandcourses.anu.edu.au/program/allb",
+    "https://programsandcourses.anu.edu.au/program/mjd",
+    "https://programsandcourses.anu.edu.au/program/bfinn",
+    "https://programsandcourses.anu.edu.au/major/ACMK-MAJ",
+    "https://programsandcourses.anu.edu.au/major/CPMK-MAJ",
+    "https://programsandcourses.anu.edu.au/major/QFIN-MAJ",
+    "https://programsandcourses.anu.edu.au/program/bcomm",
+    "https://programsandcourses.anu.edu.au/major/ACCT-MAJ",
+    "https://programsandcourses.anu.edu.au/2025/major/BUSA-MAJ",
+    "https://programsandcourses.anu.edu.au/major/BUSN-MAJ",
+    "https://programsandcourses.anu.edu.au/major/CORP-MAJ",
+    "https://programsandcourses.anu.edu.au/major/ECST-MAJ",
+    "https://programsandcourses.anu.edu.au/major/FINM-MAJ",
+    "https://programsandcourses.anu.edu.au/major/INTB-MAJ",
+    "https://programsandcourses.anu.edu.au/major/MGMT-MAJ",
+    "https://programsandcourses.anu.edu.au/major/MARK-MAJ",
 ]
 
 LAW_CARD_RE = re.compile(
@@ -215,6 +234,89 @@ def build_academic_entry(
     }
 
 
+def build_school_code(school: str, college: str, code: str) -> str:
+    if code:
+        return code
+    known_codes = {
+        "Research School of Accounting": "RSA",
+        "Research School of Economics": "RSE",
+        "Research School of Finance, Actuarial Studies and Statistics": "RSFAS",
+        "Research School of Management": "RSM",
+        "ANU Law School": "LAW",
+    }
+    if school in known_codes:
+        return known_codes[school]
+    if "law" in school.lower() or "law" in college.lower():
+        return "LAW"
+    letters = [part[0] for part in re.findall(r"[A-Za-z]+", school)]
+    return "".join(letters[:5]).upper() or "ANU"
+
+
+def level_label_to_code(level: str) -> str:
+    value = level.upper()
+    if value in {"UGRD", "PGRD"}:
+        return value
+    return "PGRD" if "POST" in value or "GRAD" in value else "UGRD"
+
+
+def shorten_course_summary(summary: str) -> str:
+    cleaned = clean_html_text(summary)
+    if not cleaned:
+        return cleaned
+
+    sentences = [
+        sentence.strip()
+        for sentence in re.split(r"(?<=[.!?])\s+", cleaned)
+        if sentence.strip()
+    ]
+    if not sentences:
+        return cleaned[:280].rstrip(" ,;") + ("." if len(cleaned) > 280 else "")
+
+    chosen: list[str] = []
+    total_chars = 0
+    for sentence in sentences:
+        chosen.append(sentence)
+        total_chars += len(sentence)
+        if len(chosen) >= 2 and total_chars >= 140:
+            break
+        if len(chosen) == 3:
+            break
+
+    compact = " ".join(chosen).strip()
+    if len(compact) > 360:
+        compact = compact[:357].rstrip(" ,;") + "..."
+    return compact
+
+
+def build_course_entry(
+    *,
+    code: str,
+    name: str,
+    school: str,
+    college: str,
+    level: str,
+    summary: str,
+    handbook_url: str,
+    terms: list[str],
+    tags: list[str],
+) -> dict:
+    return {
+        "id": code,
+        "type": "course",
+        "code": code,
+        "name": name,
+        "school": school or college or "ANU",
+        "schoolCode": build_school_code(school or college or "ANU", college, ""),
+        "level": level_label_to_code(level),
+        "terms": terms or ["See ANU course page"],
+        "conveners": [],
+        "handbookUrl": handbook_url,
+        "summary": shorten_course_summary(summary) or f"Official ANU course listing for {code}.",
+        "tags": tags[:4] if tags else [code[:4].lower()],
+        "reviewMetrics": ["Teaching quality", "Workload fairness", "Assessment design"],
+    }
+
+
 def extract_page_urls(start_url: str, html: str) -> list[str]:
     found = set()
     for href in re.findall(r'href="(\?page=[^"]+)"', html):
@@ -344,6 +446,85 @@ def sync_law_academics() -> list[dict]:
     return sorted(academics_by_id.values(), key=lambda item: item["name"])
 
 
+def extract_course_codes_from_catalog_page(url: str) -> list[str]:
+    html = fetch_html(url)
+    codes = {
+        match.group("code")
+        for match in re.finditer(r"/(?:20\d{2}/)?course/(?P<code>[A-Z]{4}[0-9]{4})", html)
+    }
+    return sorted(codes)
+
+
+def parse_course_page(code: str) -> dict | None:
+    html = fetch_html(f"https://programsandcourses.anu.edu.au/course/{code}")
+
+    name_match = re.search(r'<meta name="course-name" content="(?P<value>.*?)"', html, re.S)
+    desc_match = re.search(r'<meta name="course-description" content="(?P<value>.*?)"', html, re.S)
+    school_match = re.search(
+        r'<p class="intro__degree-description__text">.*?<span class="first-owner">(?P<value>.*?)</span>',
+        html,
+        re.S,
+    )
+    college_match = re.search(
+        r'<span class="degree-summary__code-heading"><i class="fa fa-group degree-summary__code-icon-group"></i>ANU College</span>\s*<span class="degree-summary__code-text">(?P<value>.*?)</span>',
+        html,
+        re.S,
+    )
+    level_match = re.search(
+        r'<span class="degree-summary__code-heading"><i class="fa fa-book degree-summary__code-book-icon"></i>Academic career</span>\s*<span class="degree-summary__code-text">(?P<value>.*?)</span>',
+        html,
+        re.S,
+    )
+    tags_match = re.search(
+        r'<span class="degree-summary__code-heading"><i class="fa fa-tag degree-summary__code-tag-icon"></i>Areas of interest</span>\s*<span class="degree-summary__code-text">(?P<value>.*?)</span>',
+        html,
+        re.S,
+    )
+    canonical_match = re.search(r'<link href="(?P<value>https://programsandcourses\.anu\.edu\.au/course/[^"]+)" rel="canonical"', html)
+
+    if not name_match:
+        return None
+
+    terms = [
+        clean_html_text(term)
+        for term in re.findall(r'<h3>(First Semester|Second Semester|Summer Session|Autumn Session|Winter Session|Spring Session)</h3>', html)
+    ]
+    unique_terms = list(dict.fromkeys(terms))
+
+    tags = []
+    if tags_match:
+        tags.extend(
+            sanitize_text(part.lower(), 32)
+            for part in re.split(r",|/|\||\n", clean_html_text(tags_match.group("value")))
+            if sanitize_text(part.lower(), 32)
+        )
+
+    return build_course_entry(
+        code=code,
+        name=clean_html_text(name_match.group("value")),
+        school=clean_html_text(school_match.group("value")) if school_match else "",
+        college=clean_html_text(college_match.group("value")) if college_match else "",
+        level=clean_html_text(level_match.group("value")) if level_match else "UGRD",
+        summary=clean_html_text(desc_match.group("value")) if desc_match else "",
+        handbook_url=canonical_match.group("value") if canonical_match else f"https://programsandcourses.anu.edu.au/course/{code}",
+        terms=unique_terms,
+        tags=tags,
+    )
+
+
+def sync_catalog_courses() -> list[dict]:
+    codes: set[str] = set()
+    for url in COURSE_CATALOG_SOURCES:
+        codes.update(extract_course_codes_from_catalog_page(url))
+
+    courses: list[dict] = []
+    for code in sorted(codes):
+        course = parse_course_page(code)
+        if course:
+            courses.append(course)
+    return courses
+
+
 def load_catalog_cache() -> dict | None:
     if not ANREVIEW_CATALOG_CACHE_PATH.exists():
         return None
@@ -367,7 +548,7 @@ def load_catalog_cache() -> dict | None:
     counts = payload.get("counts") or {}
     if datetime.now() - generated > CACHE_TTL:
         return None
-    if counts.get("cbe", 0) <= 0 or counts.get("law", 0) <= 0:
+    if counts.get("cbe", 0) <= 0 or counts.get("law", 0) <= 0 or counts.get("courses", 0) <= 0:
         return None
     return payload
 
@@ -379,11 +560,14 @@ def build_catalog_payload() -> dict:
 
     cbe = sync_cbe_academics()
     law = sync_law_academics()
+    courses = sync_catalog_courses()
     payload = {
         "version": CACHE_VERSION,
         "generatedAt": datetime.now().isoformat(timespec="seconds"),
+        "courses": courses,
         "academics": cbe + law,
         "counts": {
+            "courses": len(courses),
             "cbe": len(cbe),
             "law": len(law),
             "total": len(cbe) + len(law),
@@ -430,8 +614,9 @@ class AppHandler(SimpleHTTPRequestHandler):
                 send_json(
                     self,
                     {
+                        "courses": [],
                         "academics": [],
-                        "counts": {"cbe": 0, "law": 0, "total": 0},
+                        "counts": {"courses": 0, "cbe": 0, "law": 0, "total": 0},
                         "error": str(error),
                     },
                     status=503,

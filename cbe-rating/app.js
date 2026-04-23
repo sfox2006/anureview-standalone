@@ -143,12 +143,32 @@ function mergeOfficialAcademics(officialAcademics) {
   ];
 }
 
+function mergeOfficialCourses(officialCourses) {
+  const existingById = new Map(dataset.courses.map((course) => [course.id, course]));
+  const merged = officialCourses.map((course) => {
+    const existing = existingById.get(course.id) || {};
+    return {
+      ...existing,
+      ...course,
+      tags: course.tags?.length ? course.tags : existing.tags || [],
+      terms: course.terms?.length ? course.terms : existing.terms || [],
+      reviewMetrics: existing.reviewMetrics || course.reviewMetrics || ["Teaching quality", "Workload fairness", "Assessment design"]
+    };
+  });
+  const seen = new Set(merged.map((course) => course.id));
+  dataset.courses = [
+    ...merged,
+    ...dataset.courses.filter((course) => !seen.has(course.id))
+  ];
+}
+
 async function fetchOfficialCatalog() {
   const response = await fetch("/api/anreview/catalog");
   const payload = await response.json();
   if (!response.ok) {
     throw new Error(payload.error || "Unable to load official ANU faculty data.");
   }
+  mergeOfficialCourses(payload.courses || []);
   mergeOfficialAcademics(payload.academics || []);
 }
 
