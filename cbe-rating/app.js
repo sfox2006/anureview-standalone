@@ -180,40 +180,15 @@ function mergeOfficialCourses(officialCourses) {
   ];
 }
 
-async function fetchOfficialCatalog() {
-  updateSyncStatus("Syncing official ANReview catalogue...");
-  const response = await fetch("/api/anreview/catalog");
-  const payload = await response.json();
-  if (!response.ok) {
-    throw new Error(payload.error || "Unable to load official ANU catalogue data.");
-  }
-  mergeOfficialCourses(payload.courses || []);
-  mergeOfficialAcademics(payload.academics || []);
+function announceBundledCatalog() {
+  const courseCount = dataset.courses.length;
+  const academics = dataset.academics;
+  const cbeCount = academics.filter((item) => getCollegeForItem(item) === "cbe").length;
+  const lawCount = academics.filter((item) => getCollegeForItem(item) === "law").length;
+  const cassCount = academics.filter((item) => getCollegeForItem(item) === "cass").length;
   updateSyncStatus(
-    `Official ANReview catalogue sync live. ${payload.counts?.courses || 0} courses, ${payload.counts?.cbe || 0} CBE academics, ${payload.counts?.law || 0} Law academics, and ${payload.counts?.cass || 0} CASS academics loaded.`
+    `Using fixed ANReview catalogue snapshot. ${courseCount} courses, ${cbeCount} CBE academics, ${lawCount} Law academics, and ${cassCount} CASS academics loaded instantly.`
   );
-}
-
-async function loadOfficialCatalogWithRetry(maxAttempts = 3) {
-  let lastError = null;
-  for (let attempt = 1; attempt <= maxAttempts; attempt += 1) {
-    try {
-      await fetchOfficialCatalog();
-      return true;
-    } catch (error) {
-      lastError = error;
-      if (attempt < maxAttempts) {
-        updateSyncStatus(`Official catalogue not ready yet. Retrying sync (${attempt + 1}/${maxAttempts})...`);
-        await delay(1500 * attempt);
-      }
-    }
-  }
-
-  updateSyncStatus("Using bundled ANReview snapshot for now. Refresh in a moment if the server has just restarted.");
-  if (lastError) {
-    updateFeedback(lastError.message || "Unable to refresh official faculty data.", true);
-  }
-  return false;
 }
 
 async function fetchSharedReviews() {
@@ -718,8 +693,7 @@ async function init() {
   syncTypeTabs();
   renderSources();
   bindFilters();
-
-  await loadOfficialCatalogWithRetry();
+  announceBundledCatalog();
 
   populateSchoolFilter();
   state.selectedId = filteredItems()[0]?.id || dataset.courses[0]?.id || null;
