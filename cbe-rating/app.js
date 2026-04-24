@@ -24,6 +24,8 @@ const elements = {
   lawTab: document.getElementById("law-tab"),
   cassTab: document.getElementById("cass-tab"),
   capTab: document.getElementById("cap-tab"),
+  csmTab: document.getElementById("csm-tab"),
+  cssTab: document.getElementById("css-tab"),
   coursesTab: document.getElementById("courses-tab"),
   professorsTab: document.getElementById("professors-tab"),
   searchInput: document.getElementById("search-input"),
@@ -84,6 +86,31 @@ function getCollegeForItem(item) {
   const college = `${item.college || ""}`.toLowerCase();
   const schoolCode = `${item.schoolCode || ""}`.toUpperCase();
   const schoolText = `${item.school || ""} ${item.schoolCode || ""}`.toLowerCase();
+  if (
+    college.includes("science and medicine") ||
+    ["PHYS", "CHEM", "BIOL", "SMP", "JCSMR", "RSAA", "RSES", "CSM", "SOMAP"].includes(schoolCode) ||
+    schoolText.includes("physics") ||
+    schoolText.includes("chemistry") ||
+    schoolText.includes("biology") ||
+    schoolText.includes("medicine and psychology") ||
+    schoolText.includes("medical research") ||
+    schoolText.includes("astronomy") ||
+    schoolText.includes("earth sciences")
+  ) {
+    return "csm";
+  }
+  if (
+    college.includes("systems and society") ||
+    ["COMP", "CYB", "ENGN", "MSI", "FENS", "CPAS", "CSS", "SOE", "SOC", "FSOEA"].includes(schoolCode) ||
+    schoolText.includes("computing") ||
+    schoolText.includes("cybernetics") ||
+    schoolText.includes("engineering") ||
+    schoolText.includes("mathematical sciences") ||
+    schoolText.includes("environment and society") ||
+    schoolText.includes("public awareness of science")
+  ) {
+    return "css";
+  }
   if (
     college.includes("asia and the pacific") ||
     schoolCode === "CAP" ||
@@ -213,8 +240,10 @@ function announceBundledCatalog() {
   const lawCount = academics.filter((item) => getCollegeForItem(item) === "law").length;
   const cassCount = academics.filter((item) => getCollegeForItem(item) === "cass").length;
   const capCount = academics.filter((item) => getCollegeForItem(item) === "cap").length;
+  const csmCount = academics.filter((item) => getCollegeForItem(item) === "csm").length;
+  const cssCount = academics.filter((item) => getCollegeForItem(item) === "css").length;
   updateSyncStatus(
-    `Using fixed ANReview catalogue snapshot. ${courseCount} courses, ${cbeCount} CBE academics, ${lawCount} CLGP academics, ${cassCount} CASS academics, and ${capCount} CAP academics loaded instantly.`
+    `Using fixed ANReview catalogue snapshot. ${courseCount} courses, ${cbeCount} CBE academics, ${lawCount} CLGP academics, ${cassCount} CASS academics, ${capCount} CAP academics, ${csmCount} CSM academics, and ${cssCount} CSS academics loaded instantly.`
   );
 }
 
@@ -230,7 +259,14 @@ async function fetchSharedReviews() {
 }
 
 function populateSchoolFilter() {
-  const schools = [...new Set(allItems().filter((item) => state.college === "all" || getCollegeForItem(item) === state.college).map((item) => item.school))].sort((a, b) => a.localeCompare(b));
+  const schools = [...new Set(
+    allItems()
+      .filter((item) => state.college === "all" || getCollegeForItem(item) === state.college)
+      .filter((item) => !state.type || item.type === state.type)
+      .filter((item) => state.level === "all" || !item.level || item.level === state.level)
+      .map((item) => item.school)
+      .filter(Boolean)
+  )].sort((a, b) => a.localeCompare(b));
   elements.schoolFilter.innerHTML = "";
   const base = document.createElement("option");
   base.value = "all";
@@ -304,6 +340,8 @@ function syncCollegeTabs() {
   elements.lawTab.classList.toggle("is-active", state.college === "law");
   elements.cassTab.classList.toggle("is-active", state.college === "cass");
   elements.capTab.classList.toggle("is-active", state.college === "cap");
+  elements.csmTab.classList.toggle("is-active", state.college === "csm");
+  elements.cssTab.classList.toggle("is-active", state.college === "css");
 }
 
 function syncTypeTabs() {
@@ -665,6 +703,7 @@ function bindFilters() {
     button.addEventListener("click", () => {
       state.type = button.dataset.type;
       syncTypeTabs();
+      populateSchoolFilter();
       if (state.selectedId && getItemById(state.selectedId)?.type !== state.type) {
         state.selectedId = filteredItems()[0]?.id || null;
       }
@@ -673,7 +712,7 @@ function bindFilters() {
     });
   });
 
-  [elements.allCollegesTab, elements.cbeTab, elements.lawTab, elements.cassTab, elements.capTab].forEach((button) => {
+  [elements.allCollegesTab, elements.cbeTab, elements.lawTab, elements.cassTab, elements.capTab, elements.csmTab, elements.cssTab].forEach((button) => {
     button.addEventListener("click", () => {
       state.college = button.dataset.college;
       syncCollegeTabs();
@@ -697,6 +736,7 @@ function bindFilters() {
   });
   elements.levelFilter.addEventListener("change", () => {
     state.level = elements.levelFilter.value;
+    populateSchoolFilter();
     if (state.selectedId && !filteredItems().some((item) => item.id === state.selectedId)) {
       state.selectedId = filteredItems()[0]?.id || null;
     }

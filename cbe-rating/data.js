@@ -204,6 +204,78 @@ window.ANREVIEW_DATA = {
     {
       "label": "nceph.anu.edu.au/people/profile-directory",
       "url": "https://nceph.anu.edu.au/people/profile-directory"
+    },
+    {
+      "label": "programsandcourses.anu.edu.au/program/BCOMP",
+      "url": "https://programsandcourses.anu.edu.au/program/BCOMP"
+    },
+    {
+      "label": "programsandcourses.anu.edu.au/program/AENGI",
+      "url": "https://programsandcourses.anu.edu.au/program/AENGI"
+    },
+    {
+      "label": "programsandcourses.anu.edu.au/program/7706XMCOMP",
+      "url": "https://programsandcourses.anu.edu.au/program/7706XMCOMP"
+    },
+    {
+      "label": "programsandcourses.anu.edu.au/program/MACYB",
+      "url": "https://programsandcourses.anu.edu.au/program/MACYB"
+    },
+    {
+      "label": "programsandcourses.anu.edu.au/program/VACYB",
+      "url": "https://programsandcourses.anu.edu.au/program/VACYB"
+    },
+    {
+      "label": "programsandcourses.anu.edu.au/major/HCCC-MAJ",
+      "url": "https://programsandcourses.anu.edu.au/major/HCCC-MAJ"
+    },
+    {
+      "label": "programsandcourses.anu.edu.au/specialisation/HCCM-SPEC",
+      "url": "https://programsandcourses.anu.edu.au/specialisation/HCCM-SPEC"
+    },
+    {
+      "label": "programsandcourses.anu.edu.au/specialisation/PCOM-SPEC",
+      "url": "https://programsandcourses.anu.edu.au/specialisation/PCOM-SPEC"
+    },
+    {
+      "label": "programsandcourses.anu.edu.au/program/BSC",
+      "url": "https://programsandcourses.anu.edu.au/program/BSC"
+    },
+    {
+      "label": "programsandcourses.anu.edu.au/program/ASCAD",
+      "url": "https://programsandcourses.anu.edu.au/program/ASCAD"
+    },
+    {
+      "label": "programsandcourses.anu.edu.au/program/BHLTH",
+      "url": "https://programsandcourses.anu.edu.au/program/BHLTH"
+    },
+    {
+      "label": "programsandcourses.anu.edu.au/program/BMEDS",
+      "url": "https://programsandcourses.anu.edu.au/program/BMEDS"
+    },
+    {
+      "label": "programsandcourses.anu.edu.au/program/MBIOT",
+      "url": "https://programsandcourses.anu.edu.au/program/MBIOT"
+    },
+    {
+      "label": "programsandcourses.anu.edu.au/program/APHSC",
+      "url": "https://programsandcourses.anu.edu.au/program/APHSC"
+    },
+    {
+      "label": "programsandcourses.anu.edu.au/program/NSCAA",
+      "url": "https://programsandcourses.anu.edu.au/program/NSCAA"
+    },
+    {
+      "label": "comp.anu.edu.au/people/",
+      "url": "https://comp.anu.edu.au/people/"
+    },
+    {
+      "label": "cybernetics.anu.edu.au/people/",
+      "url": "https://cybernetics.anu.edu.au/people/"
+    },
+    {
+      "label": "physics.anu.edu.au/contact/people/",
+      "url": "https://physics.anu.edu.au/contact/people/"
     }
   ],
   "academics": [
@@ -599,6 +671,94 @@ window.ANREVIEW_DATA = {
       ]
     },
     {
+      "id": "phys-aj-mitchell",
+      "type": "academic",
+      "name": "AJ Mitchell",
+      "position": "Dr",
+      "focus": "Physics",
+      "school": "Research School of Physics",
+      "schoolCode": "PHYS",
+      "college": "ANU College of Science and Medicine",
+      "profileUrl": "https://physics.anu.edu.au/contact/people/profile.php?ID=1796",
+      "email": "",
+      "office": "",
+      "linkedCourses": [],
+      "reviewMetrics": [
+        "Clarity",
+        "Support",
+        "Engagement"
+      ],
+      "tags": [
+        "physics"
+      ]
+    },
+    {
+      "id": "comp-aaron-quigley",
+      "type": "academic",
+      "name": "Aaron Quigley",
+      "position": "College Dean Professor ACM Distinguished Member",
+      "focus": "School of Computing",
+      "school": "School of Computing",
+      "schoolCode": "COMP",
+      "college": "ANU College of Systems and Society",
+      "profileUrl": "https://comp.anu.edu.au/people/aaron-quigley/",
+      "email": "aaron.quigley@anu.edu.au",
+      "office": "Skaidrite Darius Building 108",
+      "linkedCourses": [],
+      "reviewMetrics": [
+        "Clarity",
+        "Support",
+        "Engagement"
+      ],
+      "tags": [
+        "comp"
+      ]
+    },
+    {
+      "id": "phys-aaron-tranter",
+      "type": "academic",
+      "name": "Aaron Tranter",
+      "position": "Dr",
+      "focus": "Physics",
+      "school": "Research School of Physics",
+      "schoolCode": "PHYS",
+      "college": "ANU College of Science and Medicine",
+      "profileUrl": "https://physics.anu.edu.au/contact/people/profile.php?ID=1984",
+      "email": "",
+      "office": "",
+      "linkedCourses": [],
+      "reviewMetrics": [
+        "Clarity",
+        "Support",
+        "Engagement"
+      ],
+      "tags": [
+        "physics"
+      ]
+    },
+    {
+      "id": "phys-adam-nagy-sochacki",
+      "type": "academic",
+      "name": "Adam Nagy-Sochacki",
+      "position": "Dr",
+      "focus": "Physics",
+      "school": "Research School of Physics",
+      "schoolCode": "PHYS",
+      "college": "ANU College of Science and Medicine",
+      "profileUrl": "https://physics.anu.edu.au/contact/people/profile.php?ID=3275",
+      "email": "",
+      "office": "",
+      "linkedCourses": [],
+      "reviewMetrics": [
+        "Clarity",
+        "Support",
+        "Engagement"
+      ],
+      "tags": [
+        "physics"
+      ]
+    },
+    {
       "id": "adam-nie",
       "type": "academic",
       "name": "Adam Nie",
@@ -619,6 +779,50 @@ window.ANREVIEW_DATA = {
         "Clarity",
         "Support",
         "Engagement"
+      ]
+    },
+    {
+      "id": "phys-adrian-ankiewicz",
+      "type": "academic",
+      "name": "Adrian Ankiewicz",
+      "position": "Dr",
+      "focus": "Physics",
+      "school": "Research School of Physics",
+      "schoolCode": "PHYS",
+      "college": "ANU College of Science and Medicine",
+      "profileUrl": "https://physics.anu.edu.au/contact/people/profile.php?ID=594",
+      "email": "",
+      "office": "",
+      "linkedCourses": [],
+      "reviewMetrics": [
+        "Clarity",
+        "Support",
+        "Engagement"
+      ],
+      "tags": [
+        "physics"
+      ]
+    },
+    {
+      "id": "comp-ahad-n-zehmakan",
+      "type": "academic",
+      "name": "Ahad N. Zehmakan",
+      "position": "Senior Lecturer",
+      "focus": "School of Computing",
+      "school": "School of Computing",
+      "schoolCode": "COMP",
+      "college": "ANU College of Systems and Society",
+      "profileUrl": "https://comp.anu.edu.au/people/ahad-zehmakan/",
+      "email": "ahadn.zehmakan@anu.edu.au",
+      "office": "Hanna Neumann Building 145, Office 2.18",
+      "linkedCourses": [],
+      "reviewMetrics": [
+        "Clarity",
+        "Support",
+        "Engagement"
+      ],
+      "tags": [
+        "comp"
       ]
     },
     {
@@ -645,6 +849,28 @@ window.ANREVIEW_DATA = {
       ]
     },
     {
+      "id": "phys-alaleh-amin-zadeh",
+      "type": "academic",
+      "name": "Alaleh Amin Zadeh",
+      "position": "Dr",
+      "focus": "Physics",
+      "school": "Research School of Physics",
+      "schoolCode": "PHYS",
+      "college": "ANU College of Science and Medicine",
+      "profileUrl": "https://physics.anu.edu.au/contact/people/profile.php?ID=2927",
+      "email": "",
+      "office": "",
+      "linkedCourses": [],
+      "reviewMetrics": [
+        "Clarity",
+        "Support",
+        "Engagement"
+      ],
+      "tags": [
+        "physics"
+      ]
+    },
+    {
       "id": "clgp-regn-alam-talib",
       "type": "academic",
       "name": "Alam Talib Balzan PhD",
@@ -668,6 +894,94 @@ window.ANREVIEW_DATA = {
       ]
     },
     {
+      "id": "phys-alasdair-mclean",
+      "type": "academic",
+      "name": "Alasdair McLean",
+      "position": "Dr",
+      "focus": "Physics",
+      "school": "Research School of Physics",
+      "schoolCode": "PHYS",
+      "college": "ANU College of Science and Medicine",
+      "profileUrl": "https://physics.anu.edu.au/contact/people/profile.php?ID=3634",
+      "email": "",
+      "office": "",
+      "linkedCourses": [],
+      "reviewMetrics": [
+        "Clarity",
+        "Support",
+        "Engagement"
+      ],
+      "tags": [
+        "physics"
+      ]
+    },
+    {
+      "id": "comp-alberto-f-mart-n",
+      "type": "academic",
+      "name": "Alberto F. Martín",
+      "position": "Senior Lecturer",
+      "focus": "School of Computing",
+      "school": "School of Computing",
+      "schoolCode": "COMP",
+      "college": "ANU College of Systems and Society",
+      "profileUrl": "https://comp.anu.edu.au/people/alberto-martin/",
+      "email": "Alberto.F.Martin@anu.edu.au",
+      "office": "Hanna Neumann Building 145, Office 4.16",
+      "linkedCourses": [],
+      "reviewMetrics": [
+        "Clarity",
+        "Support",
+        "Engagement"
+      ],
+      "tags": [
+        "comp"
+      ]
+    },
+    {
+      "id": "phys-aleese-barron",
+      "type": "academic",
+      "name": "Aleese Barron",
+      "position": "Dr",
+      "focus": "Physics",
+      "school": "Research School of Physics",
+      "schoolCode": "PHYS",
+      "college": "ANU College of Science and Medicine",
+      "profileUrl": "https://physics.anu.edu.au/contact/people/profile.php?ID=3091",
+      "email": "",
+      "office": "",
+      "linkedCourses": [],
+      "reviewMetrics": [
+        "Clarity",
+        "Support",
+        "Engagement"
+      ],
+      "tags": [
+        "physics"
+      ]
+    },
+    {
+      "id": "comp-alex-potanin",
+      "type": "academic",
+      "name": "Alex Potanin",
+      "position": "Associate Professor MIEAust",
+      "focus": "School of Computing",
+      "school": "School of Computing",
+      "schoolCode": "COMP",
+      "college": "ANU College of Systems and Society",
+      "profileUrl": "https://comp.anu.edu.au/people/alex-potanin/",
+      "email": "alex.potanin@anu.edu.au",
+      "office": "Skaidrite Darius Building 108, Office N328",
+      "linkedCourses": [],
+      "reviewMetrics": [
+        "Clarity",
+        "Support",
+        "Engagement"
+      ],
+      "tags": [
+        "comp"
+      ]
+    },
+    {
       "id": "alex-tietge",
       "type": "academic",
       "name": "Alex Tietge",
@@ -687,6 +1001,28 @@ window.ANREVIEW_DATA = {
         "Clarity",
         "Support",
         "Engagement"
+      ]
+    },
+    {
+      "id": "phys-alexander-kiy",
+      "type": "academic",
+      "name": "Alexander Kiy",
+      "position": "Dr",
+      "focus": "Physics",
+      "school": "Research School of Physics",
+      "schoolCode": "PHYS",
+      "college": "ANU College of Science and Medicine",
+      "profileUrl": "https://physics.anu.edu.au/contact/people/profile.php?ID=2385",
+      "email": "",
+      "office": "",
+      "linkedCourses": [],
+      "reviewMetrics": [
+        "Clarity",
+        "Support",
+        "Engagement"
+      ],
+      "tags": [
+        "physics"
       ]
     },
     {
@@ -736,6 +1072,72 @@ window.ANREVIEW_DATA = {
       ]
     },
     {
+      "id": "phys-alissa-flatley",
+      "type": "academic",
+      "name": "Alissa Flatley",
+      "position": "Dr",
+      "focus": "Physics",
+      "school": "Research School of Physics",
+      "schoolCode": "PHYS",
+      "college": "ANU College of Science and Medicine",
+      "profileUrl": "https://physics.anu.edu.au/contact/people/profile.php?ID=3642",
+      "email": "",
+      "office": "",
+      "linkedCourses": [],
+      "reviewMetrics": [
+        "Clarity",
+        "Support",
+        "Engagement"
+      ],
+      "tags": [
+        "physics"
+      ]
+    },
+    {
+      "id": "comp-alwen-tiu",
+      "type": "academic",
+      "name": "Alwen Tiu",
+      "position": "Associate Professor",
+      "focus": "School of Computing",
+      "school": "School of Computing",
+      "schoolCode": "COMP",
+      "college": "ANU College of Systems and Society",
+      "profileUrl": "https://comp.anu.edu.au/people/alwen-tiu/",
+      "email": "alwen.tiu@anu.edu.au",
+      "office": "+61 2 6125 3666 Skaidrite Darius Building 108, Office N215",
+      "linkedCourses": [],
+      "reviewMetrics": [
+        "Clarity",
+        "Support",
+        "Engagement"
+      ],
+      "tags": [
+        "comp"
+      ]
+    },
+    {
+      "id": "comp-amanda-barnard-am",
+      "type": "academic",
+      "name": "Amanda Barnard AM",
+      "position": "FAIP FRSC FACS CP Senior Professor Associate Director Strategic Initiatives Computational Science Lead",
+      "focus": "School of Computing",
+      "school": "School of Computing",
+      "schoolCode": "COMP",
+      "college": "ANU College of Systems and Society",
+      "profileUrl": "https://comp.anu.edu.au/people/amanda-barnard/",
+      "email": "amanda.s.barnard@anu.edu.au",
+      "office": "Hanna Neumann Building 145, Office 4.21",
+      "linkedCourses": [],
+      "reviewMetrics": [
+        "Clarity",
+        "Support",
+        "Engagement"
+      ],
+      "tags": [
+        "comp"
+      ]
+    },
+    {
       "id": "amelia-simpson",
       "type": "academic",
       "name": "Amelia Simpson",
@@ -782,6 +1184,160 @@ window.ANREVIEW_DATA = {
       ]
     },
     {
+      "id": "cyb-amy-mclennan",
+      "type": "academic",
+      "name": "Amy McLennan",
+      "position": "Associate Professor",
+      "focus": "School of Cybernetics",
+      "school": "School of Cybernetics",
+      "schoolCode": "CYB",
+      "college": "ANU College of Systems and Society",
+      "profileUrl": "https://cybernetics.anu.edu.au/people/amy-mcLennan/",
+      "email": "Amy.McLennan@anu.edu.au",
+      "office": "Birch Building",
+      "linkedCourses": [],
+      "reviewMetrics": [
+        "Clarity",
+        "Support",
+        "Engagement"
+      ],
+      "tags": [
+        "cyb"
+      ]
+    },
+    {
+      "id": "phys-ana-casas-ramos",
+      "type": "academic",
+      "name": "Ana Casas Ramos",
+      "position": "Dr",
+      "focus": "Physics",
+      "school": "Research School of Physics",
+      "schoolCode": "PHYS",
+      "college": "ANU College of Science and Medicine",
+      "profileUrl": "https://physics.anu.edu.au/contact/people/profile.php?ID=3379",
+      "email": "",
+      "office": "",
+      "linkedCourses": [],
+      "reviewMetrics": [
+        "Clarity",
+        "Support",
+        "Engagement"
+      ],
+      "tags": [
+        "physics"
+      ]
+    },
+    {
+      "id": "phys-anatoli-kheifets",
+      "type": "academic",
+      "name": "Anatoli Kheifets",
+      "position": "Professor",
+      "focus": "Physics",
+      "school": "Research School of Physics",
+      "schoolCode": "PHYS",
+      "college": "ANU College of Science and Medicine",
+      "profileUrl": "https://physics.anu.edu.au/contact/people/profile.php?ID=26",
+      "email": "",
+      "office": "",
+      "linkedCourses": [],
+      "reviewMetrics": [
+        "Clarity",
+        "Support",
+        "Engagement"
+      ],
+      "tags": [
+        "physics"
+      ]
+    },
+    {
+      "id": "phys-andrei-komar",
+      "type": "academic",
+      "name": "Andrei Komar",
+      "position": "Dr",
+      "focus": "Physics",
+      "school": "Research School of Physics",
+      "schoolCode": "PHYS",
+      "college": "ANU College of Science and Medicine",
+      "profileUrl": "https://physics.anu.edu.au/contact/people/profile.php?ID=1452",
+      "email": "",
+      "office": "",
+      "linkedCourses": [],
+      "reviewMetrics": [
+        "Clarity",
+        "Support",
+        "Engagement"
+      ],
+      "tags": [
+        "physics"
+      ]
+    },
+    {
+      "id": "phys-andrei-rode",
+      "type": "academic",
+      "name": "Andrei Rode",
+      "position": "Professor",
+      "focus": "Physics",
+      "school": "Research School of Physics",
+      "schoolCode": "PHYS",
+      "college": "ANU College of Science and Medicine",
+      "profileUrl": "https://physics.anu.edu.au/contact/people/profile.php?ID=356",
+      "email": "",
+      "office": "",
+      "linkedCourses": [],
+      "reviewMetrics": [
+        "Clarity",
+        "Support",
+        "Engagement"
+      ],
+      "tags": [
+        "physics"
+      ]
+    },
+    {
+      "id": "phys-andrew-emeritus-stuchbery",
+      "type": "academic",
+      "name": "Andrew Emeritus Stuchbery",
+      "position": "Professor",
+      "focus": "Physics",
+      "school": "Research School of Physics",
+      "schoolCode": "PHYS",
+      "college": "ANU College of Science and Medicine",
+      "profileUrl": "https://physics.anu.edu.au/contact/people/profile.php?ID=142",
+      "email": "",
+      "office": "",
+      "linkedCourses": [],
+      "reviewMetrics": [
+        "Clarity",
+        "Support",
+        "Engagement"
+      ],
+      "tags": [
+        "physics"
+      ]
+    },
+    {
+      "id": "phys-andrew-kingston",
+      "type": "academic",
+      "name": "Andrew Kingston",
+      "position": "Dr",
+      "focus": "Physics",
+      "school": "Research School of Physics",
+      "schoolCode": "PHYS",
+      "college": "ANU College of Science and Medicine",
+      "profileUrl": "https://physics.anu.edu.au/contact/people/profile.php?ID=67",
+      "email": "",
+      "office": "",
+      "linkedCourses": [],
+      "reviewMetrics": [
+        "Clarity",
+        "Support",
+        "Engagement"
+      ],
+      "tags": [
+        "physics"
+      ]
+    },
+    {
       "id": "andrew-macintosh",
       "type": "academic",
       "name": "Andrew Macintosh",
@@ -825,6 +1381,94 @@ window.ANREVIEW_DATA = {
         "Clarity",
         "Support",
         "Engagement"
+      ]
+    },
+    {
+      "id": "phys-andrew-truscott",
+      "type": "academic",
+      "name": "Andrew Truscott",
+      "position": "Professor",
+      "focus": "Physics",
+      "school": "Research School of Physics",
+      "schoolCode": "PHYS",
+      "college": "ANU College of Science and Medicine",
+      "profileUrl": "https://physics.anu.edu.au/contact/people/profile.php?ID=9",
+      "email": "",
+      "office": "",
+      "linkedCourses": [],
+      "reviewMetrics": [
+        "Clarity",
+        "Support",
+        "Engagement"
+      ],
+      "tags": [
+        "physics"
+      ]
+    },
+    {
+      "id": "phys-andrew-wade",
+      "type": "academic",
+      "name": "Andrew Wade",
+      "position": "Dr",
+      "focus": "Physics",
+      "school": "Research School of Physics",
+      "schoolCode": "PHYS",
+      "college": "ANU College of Science and Medicine",
+      "profileUrl": "https://physics.anu.edu.au/contact/people/profile.php?ID=899",
+      "email": "",
+      "office": "",
+      "linkedCourses": [],
+      "reviewMetrics": [
+        "Clarity",
+        "Support",
+        "Engagement"
+      ],
+      "tags": [
+        "physics"
+      ]
+    },
+    {
+      "id": "phys-ankie-larsson",
+      "type": "academic",
+      "name": "Ankie Larsson",
+      "position": "Dr",
+      "focus": "Physics",
+      "school": "Research School of Physics",
+      "schoolCode": "PHYS",
+      "college": "ANU College of Science and Medicine",
+      "profileUrl": "https://physics.anu.edu.au/contact/people/profile.php?ID=1669",
+      "email": "",
+      "office": "",
+      "linkedCourses": [],
+      "reviewMetrics": [
+        "Clarity",
+        "Support",
+        "Engagement"
+      ],
+      "tags": [
+        "physics"
+      ]
+    },
+    {
+      "id": "phys-anna-herring",
+      "type": "academic",
+      "name": "Anna Herring",
+      "position": "Dr",
+      "focus": "Physics",
+      "school": "Research School of Physics",
+      "schoolCode": "PHYS",
+      "college": "ANU College of Science and Medicine",
+      "profileUrl": "https://physics.anu.edu.au/contact/people/profile.php?ID=1857",
+      "email": "",
+      "office": "",
+      "linkedCourses": [],
+      "reviewMetrics": [
+        "Clarity",
+        "Support",
+        "Engagement"
+      ],
+      "tags": [
+        "physics"
       ]
     },
     {
@@ -898,6 +1542,28 @@ window.ANREVIEW_DATA = {
       ]
     },
     {
+      "id": "comp-anne-ozdowska",
+      "type": "academic",
+      "name": "Anne Ozdowska",
+      "position": "Research Fellow",
+      "focus": "School of Computing",
+      "school": "School of Computing",
+      "schoolCode": "COMP",
+      "college": "ANU College of Systems and Society",
+      "profileUrl": "https://comp.anu.edu.au/people/anne-ozdowska/",
+      "email": "anne.ozdowska@anu.edu.au",
+      "office": "",
+      "linkedCourses": [],
+      "reviewMetrics": [
+        "Clarity",
+        "Support",
+        "Engagement"
+      ],
+      "tags": [
+        "comp"
+      ]
+    },
+    {
       "id": "annika-reynolds-theythem",
       "type": "academic",
       "name": "Annika Reynolds (they/them)",
@@ -941,6 +1607,50 @@ window.ANREVIEW_DATA = {
         "Clarity",
         "Support",
         "Engagement"
+      ]
+    },
+    {
+      "id": "comp-antony-hosking",
+      "type": "academic",
+      "name": "Antony Hosking",
+      "position": "Professor School Director ACM Distinguished Scientist",
+      "focus": "School of Computing",
+      "school": "School of Computing",
+      "schoolCode": "COMP",
+      "college": "ANU College of Systems and Society",
+      "profileUrl": "https://comp.anu.edu.au/people/antony-hosking/",
+      "email": "antony.hosking@anu.edu.au",
+      "office": "+61 2 6125 9358 Skaidrite Darius Building 108, Office N338",
+      "linkedCourses": [],
+      "reviewMetrics": [
+        "Clarity",
+        "Support",
+        "Engagement"
+      ],
+      "tags": [
+        "comp"
+      ]
+    },
+    {
+      "id": "phys-anuradha-patel",
+      "type": "academic",
+      "name": "Anuradha Patel",
+      "position": "Dr",
+      "focus": "Physics",
+      "school": "Research School of Physics",
+      "schoolCode": "PHYS",
+      "college": "ANU College of Science and Medicine",
+      "profileUrl": "https://physics.anu.edu.au/contact/people/profile.php?ID=3572",
+      "email": "",
+      "office": "",
+      "linkedCourses": [],
+      "reviewMetrics": [
+        "Clarity",
+        "Support",
+        "Engagement"
+      ],
+      "tags": [
+        "physics"
       ]
     },
     {
@@ -1516,6 +2226,28 @@ window.ANREVIEW_DATA = {
       "tags": [
         "chl",
         "asia-pacific"
+      ]
+    },
+    {
+      "id": "cyb-ash-lenton",
+      "type": "academic",
+      "name": "Ash Lenton",
+      "position": "Associate Professor",
+      "focus": "School of Cybernetics",
+      "school": "School of Cybernetics",
+      "schoolCode": "CYB",
+      "college": "ANU College of Systems and Society",
+      "profileUrl": "https://cybernetics.anu.edu.au/people/ash-lenton/",
+      "email": "ash.lenton@anu.edu.au",
+      "office": "Birch Building",
+      "linkedCourses": [],
+      "reviewMetrics": [
+        "Clarity",
+        "Support",
+        "Engagement"
+      ],
+      "tags": [
+        "cyb"
       ]
     },
     {
@@ -3457,6 +4189,50 @@ window.ANREVIEW_DATA = {
       ]
     },
     {
+      "id": "phys-barry-emeritus-ninham",
+      "type": "academic",
+      "name": "Barry Emeritus Ninham",
+      "position": "Professor",
+      "focus": "Physics",
+      "school": "Research School of Physics",
+      "schoolCode": "PHYS",
+      "college": "ANU College of Science and Medicine",
+      "profileUrl": "https://physics.anu.edu.au/contact/people/profile.php?ID=610",
+      "email": "",
+      "office": "",
+      "linkedCourses": [],
+      "reviewMetrics": [
+        "Clarity",
+        "Support",
+        "Engagement"
+      ],
+      "tags": [
+        "physics"
+      ]
+    },
+    {
+      "id": "phys-barry-luther-davies",
+      "type": "academic",
+      "name": "Barry Luther-Davies",
+      "position": "Professor",
+      "focus": "Physics",
+      "school": "Research School of Physics",
+      "schoolCode": "PHYS",
+      "college": "ANU College of Science and Medicine",
+      "profileUrl": "https://physics.anu.edu.au/contact/people/profile.php?ID=352",
+      "email": "",
+      "office": "",
+      "linkedCourses": [],
+      "reviewMetrics": [
+        "Clarity",
+        "Support",
+        "Engagement"
+      ],
+      "tags": [
+        "physics"
+      ]
+    },
+    {
       "id": "barry-yau",
       "type": "academic",
       "name": "Barry Yau",
@@ -3477,6 +4253,160 @@ window.ANREVIEW_DATA = {
         "Clarity",
         "Support",
         "Engagement"
+      ]
+    },
+    {
+      "id": "phys-ben-buchler",
+      "type": "academic",
+      "name": "Ben Buchler",
+      "position": "Professor",
+      "focus": "Physics",
+      "school": "Research School of Physics",
+      "schoolCode": "PHYS",
+      "college": "ANU College of Science and Medicine",
+      "profileUrl": "https://physics.anu.edu.au/contact/people/profile.php?ID=295",
+      "email": "",
+      "office": "",
+      "linkedCourses": [],
+      "reviewMetrics": [
+        "Clarity",
+        "Support",
+        "Engagement"
+      ],
+      "tags": [
+        "physics"
+      ]
+    },
+    {
+      "id": "comp-ben-mashford",
+      "type": "academic",
+      "name": "Ben Mashford",
+      "position": "Research Fellow",
+      "focus": "School of Computing",
+      "school": "School of Computing",
+      "schoolCode": "COMP",
+      "college": "ANU College of Systems and Society",
+      "profileUrl": "https://comp.anu.edu.au/people/ben-mashford/",
+      "email": "benjamin.mashford@anu.edu.au",
+      "office": "",
+      "linkedCourses": [],
+      "reviewMetrics": [
+        "Clarity",
+        "Support",
+        "Engagement"
+      ],
+      "tags": [
+        "comp"
+      ]
+    },
+    {
+      "id": "comp-ben-swift",
+      "type": "academic",
+      "name": "Ben Swift",
+      "position": "Senior Lecturer",
+      "focus": "School of Computing",
+      "school": "School of Computing",
+      "schoolCode": "COMP",
+      "college": "ANU College of Systems and Society",
+      "profileUrl": "https://comp.anu.edu.au/people/ben-swift/",
+      "email": "ben.swift@anu.edu.au",
+      "office": "+61 2 6125 7027 Birch Building 35",
+      "linkedCourses": [],
+      "reviewMetrics": [
+        "Clarity",
+        "Support",
+        "Engagement"
+      ],
+      "tags": [
+        "comp"
+      ]
+    },
+    {
+      "id": "cyb-ben-swift",
+      "type": "academic",
+      "name": "Ben Swift",
+      "position": "Senior Lecturer",
+      "focus": "School of Cybernetics",
+      "school": "School of Cybernetics",
+      "schoolCode": "CYB",
+      "college": "ANU College of Systems and Society",
+      "profileUrl": "https://cybernetics.anu.edu.au/people/ben-swift/",
+      "email": "ben.swift@anu.edu.au",
+      "office": "Birch Building",
+      "linkedCourses": [],
+      "reviewMetrics": [
+        "Clarity",
+        "Support",
+        "Engagement"
+      ],
+      "tags": [
+        "cyb"
+      ]
+    },
+    {
+      "id": "phys-benjamin-whale",
+      "type": "academic",
+      "name": "Benjamin Whale",
+      "position": "Dr",
+      "focus": "Physics",
+      "school": "Research School of Physics",
+      "schoolCode": "PHYS",
+      "college": "ANU College of Science and Medicine",
+      "profileUrl": "https://physics.anu.edu.au/contact/people/profile.php?ID=213",
+      "email": "",
+      "office": "",
+      "linkedCourses": [],
+      "reviewMetrics": [
+        "Clarity",
+        "Support",
+        "Engagement"
+      ],
+      "tags": [
+        "physics"
+      ]
+    },
+    {
+      "id": "comp-bernardo-nunes",
+      "type": "academic",
+      "name": "Bernardo Nunes",
+      "position": "Senior Lecturer Sub Dean—Educational Programs",
+      "focus": "School of Computing",
+      "school": "School of Computing",
+      "schoolCode": "COMP",
+      "college": "ANU College of Systems and Society",
+      "profileUrl": "https://comp.anu.edu.au/people/bernardo-nunes/",
+      "email": "bernardo.nunes@anu.edu.au",
+      "office": "Skaidrite Darius Building 108, Office N311",
+      "linkedCourses": [],
+      "reviewMetrics": [
+        "Clarity",
+        "Support",
+        "Engagement"
+      ],
+      "tags": [
+        "comp"
+      ]
+    },
+    {
+      "id": "phys-bianca-sawyer",
+      "type": "academic",
+      "name": "Bianca Sawyer",
+      "position": "Dr",
+      "focus": "Physics",
+      "school": "Research School of Physics",
+      "schoolCode": "PHYS",
+      "college": "ANU College of Science and Medicine",
+      "profileUrl": "https://physics.anu.edu.au/contact/people/profile.php?ID=3021",
+      "email": "",
+      "office": "",
+      "linkedCourses": [],
+      "reviewMetrics": [
+        "Clarity",
+        "Support",
+        "Engagement"
+      ],
+      "tags": [
+        "physics"
       ]
     },
     {
@@ -3547,6 +4477,182 @@ window.ANREVIEW_DATA = {
         "Clarity",
         "Support",
         "Engagement"
+      ]
+    },
+    {
+      "id": "phys-bogdan-matviichuk",
+      "type": "academic",
+      "name": "Bogdan Matviichuk",
+      "position": "Dr",
+      "focus": "Physics",
+      "school": "Research School of Physics",
+      "schoolCode": "PHYS",
+      "college": "ANU College of Science and Medicine",
+      "profileUrl": "https://physics.anu.edu.au/contact/people/profile.php?ID=3366",
+      "email": "",
+      "office": "",
+      "linkedCourses": [],
+      "reviewMetrics": [
+        "Clarity",
+        "Support",
+        "Engagement"
+      ],
+      "tags": [
+        "physics"
+      ]
+    },
+    {
+      "id": "phys-boyd-blackwell",
+      "type": "academic",
+      "name": "Boyd Blackwell",
+      "position": "Professor",
+      "focus": "Physics",
+      "school": "Research School of Physics",
+      "schoolCode": "PHYS",
+      "college": "ANU College of Science and Medicine",
+      "profileUrl": "https://physics.anu.edu.au/contact/people/profile.php?ID=412",
+      "email": "",
+      "office": "",
+      "linkedCourses": [],
+      "reviewMetrics": [
+        "Clarity",
+        "Support",
+        "Engagement"
+      ],
+      "tags": [
+        "physics"
+      ]
+    },
+    {
+      "id": "phys-bram-slagmolen",
+      "type": "academic",
+      "name": "Bram Slagmolen",
+      "position": "Associate Professor",
+      "focus": "Physics",
+      "school": "Research School of Physics",
+      "schoolCode": "PHYS",
+      "college": "ANU College of Science and Medicine",
+      "profileUrl": "https://physics.anu.edu.au/contact/people/profile.php?ID=298",
+      "email": "",
+      "office": "",
+      "linkedCourses": [],
+      "reviewMetrics": [
+        "Clarity",
+        "Support",
+        "Engagement"
+      ],
+      "tags": [
+        "physics"
+      ]
+    },
+    {
+      "id": "phys-brendan-mccormick",
+      "type": "academic",
+      "name": "Brendan McCormick",
+      "position": "Dr",
+      "focus": "Physics",
+      "school": "Research School of Physics",
+      "schoolCode": "PHYS",
+      "college": "ANU College of Science and Medicine",
+      "profileUrl": "https://physics.anu.edu.au/contact/people/profile.php?ID=1710",
+      "email": "",
+      "office": "",
+      "linkedCourses": [],
+      "reviewMetrics": [
+        "Clarity",
+        "Support",
+        "Engagement"
+      ],
+      "tags": [
+        "physics"
+      ]
+    },
+    {
+      "id": "comp-brendan-mckay",
+      "type": "academic",
+      "name": "Brendan McKay",
+      "position": "Professor Emeritus FAA, FAMS",
+      "focus": "School of Computing",
+      "school": "School of Computing",
+      "schoolCode": "COMP",
+      "college": "ANU College of Systems and Society",
+      "profileUrl": "https://comp.anu.edu.au/people/brendan-mckay/",
+      "email": "brendan.mckay@anu.edu.au",
+      "office": "+61 2 6125 3845 Hanna Neumann Building 145, Office 2.25",
+      "linkedCourses": [],
+      "reviewMetrics": [
+        "Clarity",
+        "Support",
+        "Engagement"
+      ],
+      "tags": [
+        "comp"
+      ]
+    },
+    {
+      "id": "cyb-brendan-traw",
+      "type": "academic",
+      "name": "Brendan Traw",
+      "position": "Distinguished Professor",
+      "focus": "School of Cybernetics",
+      "school": "School of Cybernetics",
+      "schoolCode": "CYB",
+      "college": "ANU College of Systems and Society",
+      "profileUrl": "https://cybernetics.anu.edu.au/people/brendan-traw/",
+      "email": "Brendan.Traw@anu.edu.au",
+      "office": "Birch Building",
+      "linkedCourses": [],
+      "reviewMetrics": [
+        "Clarity",
+        "Support",
+        "Engagement"
+      ],
+      "tags": [
+        "cyb"
+      ]
+    },
+    {
+      "id": "phys-brenton-emeritus-lewis",
+      "type": "academic",
+      "name": "Brenton Emeritus Lewis",
+      "position": "Professor",
+      "focus": "Physics",
+      "school": "Research School of Physics",
+      "schoolCode": "PHYS",
+      "college": "ANU College of Science and Medicine",
+      "profileUrl": "https://physics.anu.edu.au/contact/people/profile.php?ID=18",
+      "email": "",
+      "office": "",
+      "linkedCourses": [],
+      "reviewMetrics": [
+        "Clarity",
+        "Support",
+        "Engagement"
+      ],
+      "tags": [
+        "physics"
+      ]
+    },
+    {
+      "id": "phys-brian-robson",
+      "type": "academic",
+      "name": "Brian Robson",
+      "position": "Professor",
+      "focus": "Physics",
+      "school": "Research School of Physics",
+      "schoolCode": "PHYS",
+      "college": "ANU College of Science and Medicine",
+      "profileUrl": "https://physics.anu.edu.au/contact/people/profile.php?ID=330",
+      "email": "",
+      "office": "",
+      "linkedCourses": [],
+      "reviewMetrics": [
+        "Clarity",
+        "Support",
+        "Engagement"
+      ],
+      "tags": [
+        "physics"
       ]
     },
     {
@@ -3642,6 +4748,94 @@ window.ANREVIEW_DATA = {
       ]
     },
     {
+      "id": "phys-carsten-ronning",
+      "type": "academic",
+      "name": "Carsten Ronning",
+      "position": "Professor",
+      "focus": "Physics",
+      "school": "Research School of Physics",
+      "schoolCode": "PHYS",
+      "college": "ANU College of Science and Medicine",
+      "profileUrl": "https://physics.anu.edu.au/contact/people/profile.php?ID=3102",
+      "email": "",
+      "office": "",
+      "linkedCourses": [],
+      "reviewMetrics": [
+        "Clarity",
+        "Support",
+        "Engagement"
+      ],
+      "tags": [
+        "physics"
+      ]
+    },
+    {
+      "id": "comp-catherine-galvin",
+      "type": "academic",
+      "name": "Catherine Galvin",
+      "position": "Lecturer",
+      "focus": "School of Computing",
+      "school": "School of Computing",
+      "schoolCode": "COMP",
+      "college": "ANU College of Systems and Society",
+      "profileUrl": "https://comp.anu.edu.au/people/catherine-galvin/",
+      "email": "catherine.galvin@anu.edu.au",
+      "office": "Engineering Building (32), E201",
+      "linkedCourses": [],
+      "reviewMetrics": [
+        "Clarity",
+        "Support",
+        "Engagement"
+      ],
+      "tags": [
+        "comp"
+      ]
+    },
+    {
+      "id": "phys-cedric-simenel",
+      "type": "academic",
+      "name": "Cedric Simenel",
+      "position": "Professor",
+      "focus": "Physics",
+      "school": "Research School of Physics",
+      "schoolCode": "PHYS",
+      "college": "ANU College of Science and Medicine",
+      "profileUrl": "https://physics.anu.edu.au/contact/people/profile.php?ID=709",
+      "email": "",
+      "office": "",
+      "linkedCourses": [],
+      "reviewMetrics": [
+        "Clarity",
+        "Support",
+        "Engagement"
+      ],
+      "tags": [
+        "physics"
+      ]
+    },
+    {
+      "id": "phys-celine-boehm",
+      "type": "academic",
+      "name": "Celine Boehm",
+      "position": "Professor",
+      "focus": "Physics",
+      "school": "Research School of Physics",
+      "schoolCode": "PHYS",
+      "college": "ANU College of Science and Medicine",
+      "profileUrl": "https://physics.anu.edu.au/contact/people/profile.php?ID=3549",
+      "email": "",
+      "office": "",
+      "linkedCourses": [],
+      "reviewMetrics": [
+        "Clarity",
+        "Support",
+        "Engagement"
+      ],
+      "tags": [
+        "physics"
+      ]
+    },
+    {
       "id": "clgp-craw-changchen-ge",
       "type": "academic",
       "name": "Changchen Ge Postdoctoral",
@@ -3662,6 +4856,50 @@ window.ANREVIEW_DATA = {
       "tags": [
         "crawford",
         "public policy"
+      ]
+    },
+    {
+      "id": "phys-chaohao-chen",
+      "type": "academic",
+      "name": "Chaohao Chen",
+      "position": "Dr",
+      "focus": "Physics",
+      "school": "Research School of Physics",
+      "schoolCode": "PHYS",
+      "college": "ANU College of Science and Medicine",
+      "profileUrl": "https://physics.anu.edu.au/contact/people/profile.php?ID=3164",
+      "email": "",
+      "office": "",
+      "linkedCourses": [],
+      "reviewMetrics": [
+        "Clarity",
+        "Support",
+        "Engagement"
+      ],
+      "tags": [
+        "physics"
+      ]
+    },
+    {
+      "id": "comp-charini-nanayakkara",
+      "type": "academic",
+      "name": "Charini Nanayakkara",
+      "position": "Research Fellow",
+      "focus": "School of Computing",
+      "school": "School of Computing",
+      "schoolCode": "COMP",
+      "college": "ANU College of Systems and Society",
+      "profileUrl": "https://comp.anu.edu.au/people/charini-nanayakkara/",
+      "email": "charini.nanayakkara@anu.edu.au",
+      "office": "Skaidrite Darius Building 108, Office N322",
+      "linkedCourses": [],
+      "reviewMetrics": [
+        "Clarity",
+        "Support",
+        "Engagement"
+      ],
+      "tags": [
+        "comp"
       ]
     },
     {
@@ -3688,6 +4926,116 @@ window.ANREVIEW_DATA = {
       ]
     },
     {
+      "id": "comp-charles-gretton",
+      "type": "academic",
+      "name": "Charles Gretton",
+      "position": "FIEAust Director of Attention and Innovation, Integrated AI Network Associate Professor",
+      "focus": "School of Computing",
+      "school": "School of Computing",
+      "schoolCode": "COMP",
+      "college": "ANU College of Systems and Society",
+      "profileUrl": "https://comp.anu.edu.au/people/charles-gretton/",
+      "email": "charles.gretton@anu.edu.au",
+      "office": "+61 2 6125 4001 Hanna Neumann Building 145, Office 3.22",
+      "linkedCourses": [],
+      "reviewMetrics": [
+        "Clarity",
+        "Support",
+        "Engagement"
+      ],
+      "tags": [
+        "comp"
+      ]
+    },
+    {
+      "id": "comp-charles-martin",
+      "type": "academic",
+      "name": "Charles Martin",
+      "position": "Senior Lecturer SFHEA",
+      "focus": "School of Computing",
+      "school": "School of Computing",
+      "schoolCode": "COMP",
+      "college": "ANU College of Systems and Society",
+      "profileUrl": "https://comp.anu.edu.au/people/charles-martin/",
+      "email": "charles.martin@anu.edu.au",
+      "office": "+61 2 6125 3139 Hanna Neumann Building 145, Office 2.37",
+      "linkedCourses": [],
+      "reviewMetrics": [
+        "Clarity",
+        "Support",
+        "Engagement"
+      ],
+      "tags": [
+        "comp"
+      ]
+    },
+    {
+      "id": "phys-chathura-bandutunga",
+      "type": "academic",
+      "name": "Chathura Bandutunga",
+      "position": "Dr",
+      "focus": "Physics",
+      "school": "Research School of Physics",
+      "schoolCode": "PHYS",
+      "college": "ANU College of Science and Medicine",
+      "profileUrl": "https://physics.anu.edu.au/contact/people/profile.php?ID=1463",
+      "email": "",
+      "office": "",
+      "linkedCourses": [],
+      "reviewMetrics": [
+        "Clarity",
+        "Support",
+        "Engagement"
+      ],
+      "tags": [
+        "physics"
+      ]
+    },
+    {
+      "id": "comp-cheng-xue",
+      "type": "academic",
+      "name": "Cheng Xue",
+      "position": "Research Fellow",
+      "focus": "School of Computing",
+      "school": "School of Computing",
+      "schoolCode": "COMP",
+      "college": "ANU College of Systems and Society",
+      "profileUrl": "https://comp.anu.edu.au/people/cheng-xue/",
+      "email": "u5123690@anu.edu.au",
+      "office": "Hanna Neumann Building 145, Office 3.31",
+      "linkedCourses": [],
+      "reviewMetrics": [
+        "Clarity",
+        "Support",
+        "Engagement"
+      ],
+      "tags": [
+        "comp"
+      ]
+    },
+    {
+      "id": "phys-chennupati-jagadish",
+      "type": "academic",
+      "name": "Chennupati Jagadish",
+      "position": "Professor",
+      "focus": "Physics",
+      "school": "Research School of Physics",
+      "schoolCode": "PHYS",
+      "college": "ANU College of Science and Medicine",
+      "profileUrl": "https://physics.anu.edu.au/contact/people/profile.php?ID=106",
+      "email": "",
+      "office": "",
+      "linkedCourses": [],
+      "reviewMetrics": [
+        "Clarity",
+        "Support",
+        "Engagement"
+      ],
+      "tags": [
+        "physics"
+      ]
+    },
+    {
       "id": "clgp-regn-chikaodili-orakwue",
       "type": "academic",
       "name": "Chikaodili Orakwue Balzan PhD",
@@ -3708,6 +5056,116 @@ window.ANREVIEW_DATA = {
       "tags": [
         "regnet",
         "regulation and governance"
+      ]
+    },
+    {
+      "id": "comp-chirath-hettiarachchi",
+      "type": "academic",
+      "name": "Chirath Hettiarachchi",
+      "position": "Research Fellow",
+      "focus": "School of Computing",
+      "school": "School of Computing",
+      "schoolCode": "COMP",
+      "college": "ANU College of Systems and Society",
+      "profileUrl": "https://comp.anu.edu.au/people/chirath-hettiarachchi/",
+      "email": "Chirath.Hettiarachchi@anu.edu.au",
+      "office": "Hanna Neumann Blg (145), 3.16",
+      "linkedCourses": [],
+      "reviewMetrics": [
+        "Clarity",
+        "Support",
+        "Engagement"
+      ],
+      "tags": [
+        "comp"
+      ]
+    },
+    {
+      "id": "cyb-chris-danta",
+      "type": "academic",
+      "name": "Chris Danta",
+      "position": "Professor",
+      "focus": "School of Cybernetics",
+      "school": "School of Cybernetics",
+      "schoolCode": "CYB",
+      "college": "ANU College of Systems and Society",
+      "profileUrl": "https://cybernetics.anu.edu.au/people/chris-danta/",
+      "email": "Christopher.Danta@anu.edu.au",
+      "office": "Birch Building",
+      "linkedCourses": [],
+      "reviewMetrics": [
+        "Clarity",
+        "Support",
+        "Engagement"
+      ],
+      "tags": [
+        "cyb"
+      ]
+    },
+    {
+      "id": "phys-christian-notthoff",
+      "type": "academic",
+      "name": "Christian Notthoff",
+      "position": "Dr",
+      "focus": "Physics",
+      "school": "Research School of Physics",
+      "schoolCode": "PHYS",
+      "college": "ANU College of Science and Medicine",
+      "profileUrl": "https://physics.anu.edu.au/contact/people/profile.php?ID=2090",
+      "email": "",
+      "office": "",
+      "linkedCourses": [],
+      "reviewMetrics": [
+        "Clarity",
+        "Support",
+        "Engagement"
+      ],
+      "tags": [
+        "physics"
+      ]
+    },
+    {
+      "id": "phys-christine-charles",
+      "type": "academic",
+      "name": "Christine Charles",
+      "position": "Professor",
+      "focus": "Physics",
+      "school": "Research School of Physics",
+      "schoolCode": "PHYS",
+      "college": "ANU College of Science and Medicine",
+      "profileUrl": "https://physics.anu.edu.au/contact/people/profile.php?ID=406",
+      "email": "",
+      "office": "",
+      "linkedCourses": [],
+      "reviewMetrics": [
+        "Clarity",
+        "Support",
+        "Engagement"
+      ],
+      "tags": [
+        "physics"
+      ]
+    },
+    {
+      "id": "phys-christopher-stokes-griffin",
+      "type": "academic",
+      "name": "Christopher Stokes-Griffin",
+      "position": "Dr",
+      "focus": "Physics",
+      "school": "Research School of Physics",
+      "schoolCode": "PHYS",
+      "college": "ANU College of Science and Medicine",
+      "profileUrl": "https://physics.anu.edu.au/contact/people/profile.php?ID=3067",
+      "email": "",
+      "office": "",
+      "linkedCourses": [],
+      "reviewMetrics": [
+        "Clarity",
+        "Support",
+        "Engagement"
+      ],
+      "tags": [
+        "physics"
       ]
     },
     {
@@ -3734,6 +5192,28 @@ window.ANREVIEW_DATA = {
       ]
     },
     {
+      "id": "phys-claus-fahlander",
+      "type": "academic",
+      "name": "Claus Fahlander",
+      "position": "Professor",
+      "focus": "Physics",
+      "school": "Research School of Physics",
+      "schoolCode": "PHYS",
+      "college": "ANU College of Science and Medicine",
+      "profileUrl": "https://physics.anu.edu.au/contact/people/profile.php?ID=2094",
+      "email": "",
+      "office": "",
+      "linkedCourses": [],
+      "reviewMetrics": [
+        "Clarity",
+        "Support",
+        "Engagement"
+      ],
+      "tags": [
+        "physics"
+      ]
+    },
+    {
       "id": "clement-yongxi-chen",
       "type": "academic",
       "name": "Clement Yongxi Chen",
@@ -3754,6 +5234,28 @@ window.ANREVIEW_DATA = {
         "Clarity",
         "Support",
         "Engagement"
+      ]
+    },
+    {
+      "id": "phys-cormac-corr",
+      "type": "academic",
+      "name": "Cormac Corr",
+      "position": "Associate Professor",
+      "focus": "Physics",
+      "school": "Research School of Physics",
+      "schoolCode": "PHYS",
+      "college": "ANU College of Science and Medicine",
+      "profileUrl": "https://physics.anu.edu.au/contact/people/profile.php?ID=409",
+      "email": "",
+      "office": "",
+      "linkedCourses": [],
+      "reviewMetrics": [
+        "Clarity",
+        "Support",
+        "Engagement"
+      ],
+      "tags": [
+        "physics"
       ]
     },
     {
@@ -3780,6 +5282,72 @@ window.ANREVIEW_DATA = {
       ]
     },
     {
+      "id": "comp-dan-andrews",
+      "type": "academic",
+      "name": "Dan Andrews",
+      "position": "Associate Professor (with JCSMR)",
+      "focus": "School of Computing",
+      "school": "School of Computing",
+      "schoolCode": "COMP",
+      "college": "ANU College of Systems and Society",
+      "profileUrl": "https://comp.anu.edu.au/people/dan-andrews/",
+      "email": "dan.andrews@anu.edu.au",
+      "office": "Hanna Neumann Building 145, Office 4.36",
+      "linkedCourses": [],
+      "reviewMetrics": [
+        "Clarity",
+        "Support",
+        "Engagement"
+      ],
+      "tags": [
+        "comp"
+      ]
+    },
+    {
+      "id": "phys-daniel-bennett",
+      "type": "academic",
+      "name": "Daniel Bennett",
+      "position": "Dr",
+      "focus": "Physics",
+      "school": "Research School of Physics",
+      "schoolCode": "PHYS",
+      "college": "ANU College of Science and Medicine",
+      "profileUrl": "https://physics.anu.edu.au/contact/people/profile.php?ID=3383",
+      "email": "",
+      "office": "",
+      "linkedCourses": [],
+      "reviewMetrics": [
+        "Clarity",
+        "Support",
+        "Engagement"
+      ],
+      "tags": [
+        "physics"
+      ]
+    },
+    {
+      "id": "phys-daniel-shaddock",
+      "type": "academic",
+      "name": "Daniel Shaddock",
+      "position": "Professor",
+      "focus": "Physics",
+      "school": "Research School of Physics",
+      "schoolCode": "PHYS",
+      "college": "ANU College of Science and Medicine",
+      "profileUrl": "https://physics.anu.edu.au/contact/people/profile.php?ID=297",
+      "email": "",
+      "office": "",
+      "linkedCourses": [],
+      "reviewMetrics": [
+        "Clarity",
+        "Support",
+        "Engagement"
+      ],
+      "tags": [
+        "physics"
+      ]
+    },
+    {
       "id": "clgp-regn-daniel-yilma",
       "type": "academic",
       "name": "Daniel Yilma Balzan PhD",
@@ -3800,6 +5368,28 @@ window.ANREVIEW_DATA = {
       "tags": [
         "regnet",
         "regulation and governance"
+      ]
+    },
+    {
+      "id": "phys-daria-assoc-smirnova",
+      "type": "academic",
+      "name": "Daria Assoc Smirnova",
+      "position": "Professor",
+      "focus": "Physics",
+      "school": "Research School of Physics",
+      "schoolCode": "PHYS",
+      "college": "ANU College of Science and Medicine",
+      "profileUrl": "https://physics.anu.edu.au/contact/people/profile.php?ID=1525",
+      "email": "",
+      "office": "",
+      "linkedCourses": [],
+      "reviewMetrics": [
+        "Clarity",
+        "Support",
+        "Engagement"
+      ],
+      "tags": [
+        "physics"
       ]
     },
     {
@@ -3849,6 +5439,28 @@ window.ANREVIEW_DATA = {
       ]
     },
     {
+      "id": "phys-david-emeritus-hinde",
+      "type": "academic",
+      "name": "David Emeritus Hinde",
+      "position": "Professor",
+      "focus": "Physics",
+      "school": "Research School of Physics",
+      "schoolCode": "PHYS",
+      "college": "ANU College of Science and Medicine",
+      "profileUrl": "https://physics.anu.edu.au/contact/people/profile.php?ID=140",
+      "email": "",
+      "office": "",
+      "linkedCourses": [],
+      "reviewMetrics": [
+        "Clarity",
+        "Support",
+        "Engagement"
+      ],
+      "tags": [
+        "physics"
+      ]
+    },
+    {
       "id": "david-hambly",
       "type": "academic",
       "name": "David Hambly",
@@ -3895,6 +5507,116 @@ window.ANREVIEW_DATA = {
       ]
     },
     {
+      "id": "phys-david-pulford",
+      "type": "academic",
+      "name": "David Pulford",
+      "position": "Dr",
+      "focus": "Physics",
+      "school": "Research School of Physics",
+      "schoolCode": "PHYS",
+      "college": "ANU College of Science and Medicine",
+      "profileUrl": "https://physics.anu.edu.au/contact/people/profile.php?ID=1711",
+      "email": "",
+      "office": "",
+      "linkedCourses": [],
+      "reviewMetrics": [
+        "Clarity",
+        "Support",
+        "Engagement"
+      ],
+      "tags": [
+        "physics"
+      ]
+    },
+    {
+      "id": "phys-david-rabeling",
+      "type": "academic",
+      "name": "David Rabeling",
+      "position": "Dr",
+      "focus": "Physics",
+      "school": "Research School of Physics",
+      "schoolCode": "PHYS",
+      "college": "ANU College of Science and Medicine",
+      "profileUrl": "https://physics.anu.edu.au/contact/people/profile.php?ID=1677",
+      "email": "",
+      "office": "",
+      "linkedCourses": [],
+      "reviewMetrics": [
+        "Clarity",
+        "Support",
+        "Engagement"
+      ],
+      "tags": [
+        "physics"
+      ]
+    },
+    {
+      "id": "phys-david-tilbrook",
+      "type": "academic",
+      "name": "David Tilbrook",
+      "position": "Dr",
+      "focus": "Physics",
+      "school": "Research School of Physics",
+      "schoolCode": "PHYS",
+      "college": "ANU College of Science and Medicine",
+      "profileUrl": "https://physics.anu.edu.au/contact/people/profile.php?ID=2416",
+      "email": "",
+      "office": "",
+      "linkedCourses": [],
+      "reviewMetrics": [
+        "Clarity",
+        "Support",
+        "Engagement"
+      ],
+      "tags": [
+        "physics"
+      ]
+    },
+    {
+      "id": "comp-dawei-chen",
+      "type": "academic",
+      "name": "Dawei Chen",
+      "position": "Research Fellow",
+      "focus": "School of Computing",
+      "school": "School of Computing",
+      "schoolCode": "COMP",
+      "college": "ANU College of Systems and Society",
+      "profileUrl": "https://comp.anu.edu.au/people/dawei-chen/",
+      "email": "dawei.chen@anu.edu.au",
+      "office": "Skaidrite Darius Building 108, Office N317",
+      "linkedCourses": [],
+      "reviewMetrics": [
+        "Clarity",
+        "Support",
+        "Engagement"
+      ],
+      "tags": [
+        "comp"
+      ]
+    },
+    {
+      "id": "phys-deane-larkman",
+      "type": "academic",
+      "name": "Deane Larkman",
+      "position": "Dr",
+      "focus": "Physics",
+      "school": "Research School of Physics",
+      "schoolCode": "PHYS",
+      "college": "ANU College of Science and Medicine",
+      "profileUrl": "https://physics.anu.edu.au/contact/people/profile.php?ID=456",
+      "email": "",
+      "office": "",
+      "linkedCourses": [],
+      "reviewMetrics": [
+        "Clarity",
+        "Support",
+        "Engagement"
+      ],
+      "tags": [
+        "physics"
+      ]
+    },
+    {
       "id": "dennis-pearce",
       "type": "academic",
       "name": "Dennis Pearce",
@@ -3938,6 +5660,94 @@ window.ANREVIEW_DATA = {
         "Clarity",
         "Support",
         "Engagement"
+      ]
+    },
+    {
+      "id": "phys-dige-wang",
+      "type": "academic",
+      "name": "Dige Wang",
+      "position": "Dr",
+      "focus": "Physics",
+      "school": "Research School of Physics",
+      "schoolCode": "PHYS",
+      "college": "ANU College of Science and Medicine",
+      "profileUrl": "https://physics.anu.edu.au/contact/people/profile.php?ID=2019",
+      "email": "",
+      "office": "",
+      "linkedCourses": [],
+      "reviewMetrics": [
+        "Clarity",
+        "Support",
+        "Engagement"
+      ],
+      "tags": [
+        "physics"
+      ]
+    },
+    {
+      "id": "phys-dimitrios-tsifakis",
+      "type": "academic",
+      "name": "Dimitrios Tsifakis",
+      "position": "Dr",
+      "focus": "Physics",
+      "school": "Research School of Physics",
+      "schoolCode": "PHYS",
+      "college": "ANU College of Science and Medicine",
+      "profileUrl": "https://physics.anu.edu.au/contact/people/profile.php?ID=149",
+      "email": "",
+      "office": "",
+      "linkedCourses": [],
+      "reviewMetrics": [
+        "Clarity",
+        "Support",
+        "Engagement"
+      ],
+      "tags": [
+        "physics"
+      ]
+    },
+    {
+      "id": "phys-dirk-koenig",
+      "type": "academic",
+      "name": "Dirk Koenig",
+      "position": "Dr",
+      "focus": "Physics",
+      "school": "Research School of Physics",
+      "schoolCode": "PHYS",
+      "college": "ANU College of Science and Medicine",
+      "profileUrl": "https://physics.anu.edu.au/contact/people/profile.php?ID=2830",
+      "email": "",
+      "office": "",
+      "linkedCourses": [],
+      "reviewMetrics": [
+        "Clarity",
+        "Support",
+        "Engagement"
+      ],
+      "tags": [
+        "physics"
+      ]
+    },
+    {
+      "id": "comp-dirk-pattinson",
+      "type": "academic",
+      "name": "Dirk Pattinson",
+      "position": "Professor",
+      "focus": "School of Computing",
+      "school": "School of Computing",
+      "schoolCode": "COMP",
+      "college": "ANU College of Systems and Society",
+      "profileUrl": "https://comp.anu.edu.au/people/dirk-pattinson/",
+      "email": "dirk.pattinson@anu.edu.au",
+      "office": "+61 2 6125 8612 Skaidrite Darius Building 108, Office N334",
+      "linkedCourses": [],
+      "reviewMetrics": [
+        "Clarity",
+        "Support",
+        "Engagement"
+      ],
+      "tags": [
+        "comp"
       ]
     },
     {
@@ -9035,29 +10845,6 @@ window.ANREVIEW_DATA = {
       ]
     },
     {
-      "id": "mohammed-alsudairi",
-      "type": "academic",
-      "name": "Dr Mohammed Alsudairi",
-      "school": "Centre for Arab and Islamic Studies",
-      "schoolCode": "CASS",
-      "college": "CASS",
-      "position": "Lecturer in Politics and International Relations (The Arabian Peninsula, China and the Middle East), Centre for Arab and Islamic Studies",
-      "focus": "Centre for Arab and Islamic Studies",
-      "email": "Mohammed.Alsudairi@anu.edu.au",
-      "office": "Centre for Arab and Islamic Studies",
-      "profileUrl": "https://researchportalplus.anu.edu.au/en/persons/mohammed-alsudairi",
-      "tags": [
-        "cass",
-        "centre for arab and islamic stud"
-      ],
-      "linkedCourses": [],
-      "reviewMetrics": [
-        "Clarity",
-        "Support",
-        "Engagement"
-      ]
-    },
-    {
       "id": "cap-ciw-mohammed-alsudairi",
       "type": "academic",
       "name": "Dr Mohammed Alsudairi",
@@ -9333,29 +11120,6 @@ window.ANREVIEW_DATA = {
       "tags": [
         "regnet",
         "regulation and governance"
-      ]
-    },
-    {
-      "id": "cap-bell-519a159d-d3ed-45a0-9da7-ce2758b94fe1",
-      "type": "academic",
-      "name": "Dr Nicholas Hoare Pacific",
-      "position": "Academic",
-      "focus": "History Biography",
-      "school": "Coral Bell School of Asia Pacific Affairs",
-      "schoolCode": "BELL",
-      "college": "ANU College of Asia and the Pacific",
-      "profileUrl": "https://researchportalplus.anu.edu.au/en/persons/519a159d-d3ed-45a0-9da7-ce2758b94fe1",
-      "email": "",
-      "office": "",
-      "linkedCourses": [],
-      "reviewMetrics": [
-        "Clarity",
-        "Support",
-        "Engagement"
-      ],
-      "tags": [
-        "bell",
-        "asia-pacific affairs"
       ]
     },
     {
@@ -12228,6 +13992,160 @@ window.ANREVIEW_DATA = {
       ]
     },
     {
+      "id": "phys-duk-yong-associate-choi",
+      "type": "academic",
+      "name": "Duk-Yong Associate Choi",
+      "position": "Professor",
+      "focus": "Physics",
+      "school": "Research School of Physics",
+      "schoolCode": "PHYS",
+      "college": "ANU College of Science and Medicine",
+      "profileUrl": "https://physics.anu.edu.au/contact/people/profile.php?ID=350",
+      "email": "",
+      "office": "",
+      "linkedCourses": [],
+      "reviewMetrics": [
+        "Clarity",
+        "Support",
+        "Engagement"
+      ],
+      "tags": [
+        "physics"
+      ]
+    },
+    {
+      "id": "comp-dylan-campbell",
+      "type": "academic",
+      "name": "Dylan Campbell",
+      "position": "Senior Lecturer ARC DECRA Fellow VComp Convener PhB Convener",
+      "focus": "School of Computing",
+      "school": "School of Computing",
+      "schoolCode": "COMP",
+      "college": "ANU College of Systems and Society",
+      "profileUrl": "https://comp.anu.edu.au/people/dylan-campbell/",
+      "email": "dylan.campbell@anu.edu.au",
+      "office": "+61 2 6125 7779 Brian Anderson Building 115, Office B149",
+      "linkedCourses": [],
+      "reviewMetrics": [
+        "Clarity",
+        "Support",
+        "Engagement"
+      ],
+      "tags": [
+        "comp"
+      ]
+    },
+    {
+      "id": "comp-eduardo-souza",
+      "type": "academic",
+      "name": "Eduardo Souza",
+      "position": "Research Fellow",
+      "focus": "School of Computing",
+      "school": "School of Computing",
+      "schoolCode": "COMP",
+      "college": "ANU College of Systems and Society",
+      "profileUrl": "https://comp.anu.edu.au/people/eduardo-souza/",
+      "email": "luiseduardo.desouzaamorim@anu.edu.au",
+      "office": "Skaidrite Darius Building 108, N228",
+      "linkedCourses": [],
+      "reviewMetrics": [
+        "Clarity",
+        "Support",
+        "Engagement"
+      ],
+      "tags": [
+        "comp"
+      ]
+    },
+    {
+      "id": "comp-edward-kim",
+      "type": "academic",
+      "name": "Edward Kim",
+      "position": "Research Fellow",
+      "focus": "School of Computing",
+      "school": "School of Computing",
+      "schoolCode": "COMP",
+      "college": "ANU College of Systems and Society",
+      "profileUrl": "https://comp.anu.edu.au/people/edward-kim/",
+      "email": "edward.kim@anu.edu.au",
+      "office": "Skaidrite Darius Building 108, Office N323",
+      "linkedCourses": [],
+      "reviewMetrics": [
+        "Clarity",
+        "Support",
+        "Engagement"
+      ],
+      "tags": [
+        "comp"
+      ]
+    },
+    {
+      "id": "phys-edward-simpson",
+      "type": "academic",
+      "name": "Edward Simpson",
+      "position": "Dr",
+      "focus": "Physics",
+      "school": "Research School of Physics",
+      "schoolCode": "PHYS",
+      "college": "ANU College of Science and Medicine",
+      "profileUrl": "https://physics.anu.edu.au/contact/people/profile.php?ID=1707",
+      "email": "",
+      "office": "",
+      "linkedCourses": [],
+      "reviewMetrics": [
+        "Clarity",
+        "Support",
+        "Engagement"
+      ],
+      "tags": [
+        "physics"
+      ]
+    },
+    {
+      "id": "comp-ehsan-nabavi",
+      "type": "academic",
+      "name": "Ehsan Nabavi",
+      "position": "Senior Lecturer",
+      "focus": "School of Computing",
+      "school": "School of Computing",
+      "schoolCode": "COMP",
+      "college": "ANU College of Systems and Society",
+      "profileUrl": "https://comp.anu.edu.au/people/ehsan-nabavi/",
+      "email": "ehsan.navabi@anu.edu.au",
+      "office": "",
+      "linkedCourses": [],
+      "reviewMetrics": [
+        "Clarity",
+        "Support",
+        "Engagement"
+      ],
+      "tags": [
+        "comp"
+      ]
+    },
+    {
+      "id": "phys-eliezer-estrecho",
+      "type": "academic",
+      "name": "Eliezer Estrecho",
+      "position": "Dr",
+      "focus": "Physics",
+      "school": "Research School of Physics",
+      "schoolCode": "PHYS",
+      "college": "ANU College of Science and Medicine",
+      "profileUrl": "https://physics.anu.edu.au/contact/people/profile.php?ID=1704",
+      "email": "",
+      "office": "",
+      "linkedCourses": [],
+      "reviewMetrics": [
+        "Clarity",
+        "Support",
+        "Engagement"
+      ],
+      "tags": [
+        "physics"
+      ]
+    },
+    {
       "id": "clgp-regn-elisha-manirampa",
       "type": "academic",
       "name": "Elisha Manirampa Balzan PhD",
@@ -12271,6 +14189,28 @@ window.ANREVIEW_DATA = {
         "Clarity",
         "Support",
         "Engagement"
+      ]
+    },
+    {
+      "id": "phys-elizabeth-williams",
+      "type": "academic",
+      "name": "Elizabeth Williams",
+      "position": "Dr",
+      "focus": "Physics",
+      "school": "Research School of Physics",
+      "schoolCode": "PHYS",
+      "college": "ANU College of Science and Medicine",
+      "profileUrl": "https://physics.anu.edu.au/contact/people/profile.php?ID=1260",
+      "email": "",
+      "office": "",
+      "linkedCourses": [],
+      "reviewMetrics": [
+        "Clarity",
+        "Support",
+        "Engagement"
+      ],
+      "tags": [
+        "physics"
       ]
     },
     {
@@ -12781,6 +14721,28 @@ window.ANREVIEW_DATA = {
       ]
     },
     {
+      "id": "phys-emily-rose-rees",
+      "type": "academic",
+      "name": "Emily Rose Rees",
+      "position": "Dr",
+      "focus": "Physics",
+      "school": "Research School of Physics",
+      "schoolCode": "PHYS",
+      "college": "ANU College of Science and Medicine",
+      "profileUrl": "https://physics.anu.edu.au/contact/people/profile.php?ID=2797",
+      "email": "",
+      "office": "",
+      "linkedCourses": [],
+      "reviewMetrics": [
+        "Clarity",
+        "Support",
+        "Engagement"
+      ],
+      "tags": [
+        "physics"
+      ]
+    },
+    {
       "id": "emma-aisbett",
       "type": "academic",
       "name": "Emma Aisbett",
@@ -12825,6 +14787,28 @@ window.ANREVIEW_DATA = {
       "tags": [
         "regnet",
         "regulation and governance"
+      ]
+    },
+    {
+      "id": "phys-erich-emeritus-weigold",
+      "type": "academic",
+      "name": "Erich Emeritus Weigold",
+      "position": "Professor",
+      "focus": "Physics",
+      "school": "Research School of Physics",
+      "schoolCode": "PHYS",
+      "college": "ANU College of Science and Medicine",
+      "profileUrl": "https://physics.anu.edu.au/contact/people/profile.php?ID=36",
+      "email": "",
+      "office": "",
+      "linkedCourses": [],
+      "reviewMetrics": [
+        "Clarity",
+        "Support",
+        "Engagement"
+      ],
+      "tags": [
+        "physics"
       ]
     },
     {
@@ -12874,6 +14858,28 @@ window.ANREVIEW_DATA = {
       ]
     },
     {
+      "id": "phys-eugene-associate-gamaly",
+      "type": "academic",
+      "name": "Eugene Associate Gamaly",
+      "position": "Professor",
+      "focus": "Physics",
+      "school": "Research School of Physics",
+      "schoolCode": "PHYS",
+      "college": "ANU College of Science and Medicine",
+      "profileUrl": "https://physics.anu.edu.au/contact/people/profile.php?ID=346",
+      "email": "",
+      "office": "",
+      "linkedCourses": [],
+      "reviewMetrics": [
+        "Clarity",
+        "Support",
+        "Engagement"
+      ],
+      "tags": [
+        "physics"
+      ]
+    },
+    {
       "id": "eve-lester",
       "type": "academic",
       "name": "Eve Lester",
@@ -12897,6 +14903,50 @@ window.ANREVIEW_DATA = {
       ]
     },
     {
+      "id": "comp-fabian-muehlboeck",
+      "type": "academic",
+      "name": "Fabian Muehlboeck",
+      "position": "Lecturer ARC DECRA Fellow",
+      "focus": "School of Computing",
+      "school": "School of Computing",
+      "schoolCode": "COMP",
+      "college": "ANU College of Systems and Society",
+      "profileUrl": "https://comp.anu.edu.au/people/fabian-muehlboeck/",
+      "email": "fabian.muehlboeck@anu.edu.au",
+      "office": "Skaidrite Darius Building 108, N217",
+      "linkedCourses": [],
+      "reviewMetrics": [
+        "Clarity",
+        "Support",
+        "Engagement"
+      ],
+      "tags": [
+        "comp"
+      ]
+    },
+    {
+      "id": "phys-facundo-memolio",
+      "type": "academic",
+      "name": "Facundo Memolio",
+      "position": "Professor",
+      "focus": "Physics",
+      "school": "Research School of Physics",
+      "schoolCode": "PHYS",
+      "college": "ANU College of Science and Medicine",
+      "profileUrl": "https://physics.anu.edu.au/contact/people/profile.php?ID=3688",
+      "email": "",
+      "office": "",
+      "linkedCourses": [],
+      "reviewMetrics": [
+        "Clarity",
+        "Support",
+        "Engagement"
+      ],
+      "tags": [
+        "physics"
+      ]
+    },
+    {
       "id": "faith-gordon",
       "type": "academic",
       "name": "Faith Gordon",
@@ -12917,6 +14967,50 @@ window.ANREVIEW_DATA = {
         "Clarity",
         "Support",
         "Engagement"
+      ]
+    },
+    {
+      "id": "phys-felipe-kremer",
+      "type": "academic",
+      "name": "Felipe Kremer",
+      "position": "Dr",
+      "focus": "Physics",
+      "school": "Research School of Physics",
+      "schoolCode": "PHYS",
+      "college": "ANU College of Science and Medicine",
+      "profileUrl": "https://physics.anu.edu.au/contact/people/profile.php?ID=1166",
+      "email": "",
+      "office": "",
+      "linkedCourses": [],
+      "reviewMetrics": [
+        "Clarity",
+        "Support",
+        "Engagement"
+      ],
+      "tags": [
+        "physics"
+      ]
+    },
+    {
+      "id": "comp-felipe-trevizan",
+      "type": "academic",
+      "name": "Felipe Trevizan",
+      "position": "Associate Professor BComp Convener",
+      "focus": "School of Computing",
+      "school": "School of Computing",
+      "schoolCode": "COMP",
+      "college": "ANU College of Systems and Society",
+      "profileUrl": "https://comp.anu.edu.au/people/felipe-trevizan/",
+      "email": "felipe.trevizan@anu.edu.au",
+      "office": "+61 2 6125 7542 Hanna Neumann Building 145, Office 3.20",
+      "linkedCourses": [],
+      "reviewMetrics": [
+        "Clarity",
+        "Support",
+        "Engagement"
+      ],
+      "tags": [
+        "comp"
       ]
     },
     {
@@ -12989,6 +15083,72 @@ window.ANREVIEW_DATA = {
       ]
     },
     {
+      "id": "cyb-gabriela-ferraro",
+      "type": "academic",
+      "name": "Gabriela Ferraro",
+      "position": "Research Fellow",
+      "focus": "School of Cybernetics",
+      "school": "School of Cybernetics",
+      "schoolCode": "CYB",
+      "college": "ANU College of Systems and Society",
+      "profileUrl": "https://cybernetics.anu.edu.au/people/Gabriela-Ferraro/",
+      "email": "Gabriela.Ferraro@anu.edu.au",
+      "office": "Birch Building",
+      "linkedCourses": [],
+      "reviewMetrics": [
+        "Clarity",
+        "Support",
+        "Engagement"
+      ],
+      "tags": [
+        "cyb"
+      ]
+    },
+    {
+      "id": "phys-gavin-young",
+      "type": "academic",
+      "name": "Gavin Young",
+      "position": "Dr",
+      "focus": "Physics",
+      "school": "Research School of Physics",
+      "schoolCode": "PHYS",
+      "college": "ANU College of Science and Medicine",
+      "profileUrl": "https://physics.anu.edu.au/contact/people/profile.php?ID=1965",
+      "email": "",
+      "office": "",
+      "linkedCourses": [],
+      "reviewMetrics": [
+        "Clarity",
+        "Support",
+        "Engagement"
+      ],
+      "tags": [
+        "physics"
+      ]
+    },
+    {
+      "id": "phys-geoff-gillett",
+      "type": "academic",
+      "name": "Geoff Gillett",
+      "position": "Dr",
+      "focus": "Physics",
+      "school": "Research School of Physics",
+      "schoolCode": "PHYS",
+      "college": "ANU College of Science and Medicine",
+      "profileUrl": "https://physics.anu.edu.au/contact/people/profile.php?ID=3242",
+      "email": "",
+      "office": "",
+      "linkedCourses": [],
+      "reviewMetrics": [
+        "Clarity",
+        "Support",
+        "Engagement"
+      ],
+      "tags": [
+        "physics"
+      ]
+    },
+    {
       "id": "cap-bell-0ae26cf6-842b-4f4f-88f5-9ce528150c52",
       "type": "academic",
       "name": "George Lawson Modernity Contentious",
@@ -13009,6 +15169,28 @@ window.ANREVIEW_DATA = {
       "tags": [
         "bell",
         "asia-pacific affairs"
+      ]
+    },
+    {
+      "id": "phys-gerd-schroeder-turk",
+      "type": "academic",
+      "name": "Gerd Schroeder-Turk",
+      "position": "Dr",
+      "focus": "Physics",
+      "school": "Research School of Physics",
+      "schoolCode": "PHYS",
+      "college": "ANU College of Science and Medicine",
+      "profileUrl": "https://physics.anu.edu.au/contact/people/profile.php?ID=1657",
+      "email": "",
+      "office": "",
+      "linkedCourses": [],
+      "reviewMetrics": [
+        "Clarity",
+        "Support",
+        "Engagement"
+      ],
+      "tags": [
+        "physics"
       ]
     },
     {
@@ -13058,6 +15240,116 @@ window.ANREVIEW_DATA = {
       ]
     },
     {
+      "id": "comp-giuseppe-barca",
+      "type": "academic",
+      "name": "Giuseppe Barca",
+      "position": "Associate Professor",
+      "focus": "School of Computing",
+      "school": "School of Computing",
+      "schoolCode": "COMP",
+      "college": "ANU College of Systems and Society",
+      "profileUrl": "https://comp.anu.edu.au/people/giuseppe-barca/",
+      "email": "giuseppe.barca@anu.edu.au",
+      "office": "Hanna Neumann Building 145, Office 4.23",
+      "linkedCourses": [],
+      "reviewMetrics": [
+        "Clarity",
+        "Support",
+        "Engagement"
+      ],
+      "tags": [
+        "comp"
+      ]
+    },
+    {
+      "id": "phys-glenn-myers",
+      "type": "academic",
+      "name": "Glenn Myers",
+      "position": "Dr",
+      "focus": "Physics",
+      "school": "Research School of Physics",
+      "schoolCode": "PHYS",
+      "college": "ANU College of Science and Medicine",
+      "profileUrl": "https://physics.anu.edu.au/contact/people/profile.php?ID=81",
+      "email": "",
+      "office": "",
+      "linkedCourses": [],
+      "reviewMetrics": [
+        "Clarity",
+        "Support",
+        "Engagement"
+      ],
+      "tags": [
+        "physics"
+      ]
+    },
+    {
+      "id": "phys-gordon-foote",
+      "type": "academic",
+      "name": "Gordon Foote",
+      "position": "Dr",
+      "focus": "Physics",
+      "school": "Research School of Physics",
+      "schoolCode": "PHYS",
+      "college": "ANU College of Science and Medicine",
+      "profileUrl": "https://physics.anu.edu.au/contact/people/profile.php?ID=139",
+      "email": "",
+      "office": "",
+      "linkedCourses": [],
+      "reviewMetrics": [
+        "Clarity",
+        "Support",
+        "Engagement"
+      ],
+      "tags": [
+        "physics"
+      ]
+    },
+    {
+      "id": "comp-graham-williams",
+      "type": "academic",
+      "name": "Graham Williams",
+      "position": "Professor Data Science Lead Chief Scientist, Software Innovation Institute",
+      "focus": "School of Computing",
+      "school": "School of Computing",
+      "schoolCode": "COMP",
+      "college": "ANU College of Systems and Society",
+      "profileUrl": "https://comp.anu.edu.au/people/graham-williams/",
+      "email": "graham.williams@anu.edu.au",
+      "office": "+61 2 6125 3195 Skaidrite Darius Building 108, Office N316",
+      "linkedCourses": [],
+      "reviewMetrics": [
+        "Clarity",
+        "Support",
+        "Engagement"
+      ],
+      "tags": [
+        "comp"
+      ]
+    },
+    {
+      "id": "phys-greg-clark",
+      "type": "academic",
+      "name": "Greg Clark",
+      "position": "Dr",
+      "focus": "Physics",
+      "school": "Research School of Physics",
+      "schoolCode": "PHYS",
+      "college": "ANU College of Science and Medicine",
+      "profileUrl": "https://physics.anu.edu.au/contact/people/profile.php?ID=3118",
+      "email": "",
+      "office": "",
+      "linkedCourses": [],
+      "reviewMetrics": [
+        "Clarity",
+        "Support",
+        "Engagement"
+      ],
+      "tags": [
+        "physics"
+      ]
+    },
+    {
       "id": "greg-weeks",
       "type": "academic",
       "name": "Greg Weeks",
@@ -13101,6 +15393,138 @@ window.ANREVIEW_DATA = {
         "Clarity",
         "Support",
         "Engagement"
+      ]
+    },
+    {
+      "id": "phys-gregory-lane",
+      "type": "academic",
+      "name": "Gregory Lane",
+      "position": "Professor",
+      "focus": "Physics",
+      "school": "Research School of Physics",
+      "schoolCode": "PHYS",
+      "college": "ANU College of Science and Medicine",
+      "profileUrl": "https://physics.anu.edu.au/contact/people/profile.php?ID=127",
+      "email": "",
+      "office": "",
+      "linkedCourses": [],
+      "reviewMetrics": [
+        "Clarity",
+        "Support",
+        "Engagement"
+      ],
+      "tags": [
+        "physics"
+      ]
+    },
+    {
+      "id": "comp-hanna-kurniawati",
+      "type": "academic",
+      "name": "Hanna Kurniawati",
+      "position": "Professor SmartSat CRC Chair in System Autonomy, Intelligence and Decision Making",
+      "focus": "School of Computing",
+      "school": "School of Computing",
+      "schoolCode": "COMP",
+      "college": "ANU College of Systems and Society",
+      "profileUrl": "https://comp.anu.edu.au/people/hanna-kurniawati/",
+      "email": "hanna.kurniawati@anu.edu.au",
+      "office": "+61 2 6125 1577 Skaidrite Darius Building 108, Office N325",
+      "linkedCourses": [],
+      "reviewMetrics": [
+        "Clarity",
+        "Support",
+        "Engagement"
+      ],
+      "tags": [
+        "comp"
+      ]
+    },
+    {
+      "id": "comp-hanna-suominen",
+      "type": "academic",
+      "name": "Hanna Suominen",
+      "position": "Professor Associate Director (Neuroinformatics), Eccles Institute SFHEA",
+      "focus": "School of Computing",
+      "school": "School of Computing",
+      "schoolCode": "COMP",
+      "college": "ANU College of Systems and Society",
+      "profileUrl": "https://comp.anu.edu.au/people/hanna-suominen/",
+      "email": "hanna.suominen@anu.edu.au",
+      "office": "+61 2 6125 3257 Hanna Neumann Building 145, Office 2.35",
+      "linkedCourses": [],
+      "reviewMetrics": [
+        "Clarity",
+        "Support",
+        "Engagement"
+      ],
+      "tags": [
+        "comp"
+      ]
+    },
+    {
+      "id": "cyb-hannah-feldman",
+      "type": "academic",
+      "name": "Hannah Feldman",
+      "position": "Research Fellow",
+      "focus": "School of Cybernetics",
+      "school": "School of Cybernetics",
+      "schoolCode": "CYB",
+      "college": "ANU College of Systems and Society",
+      "profileUrl": "https://cybernetics.anu.edu.au/people/hannah-feldman/",
+      "email": "Hannah.Feldman@anu.edu.au",
+      "office": "Birch Building",
+      "linkedCourses": [],
+      "reviewMetrics": [
+        "Clarity",
+        "Support",
+        "Engagement"
+      ],
+      "tags": [
+        "cyb"
+      ]
+    },
+    {
+      "id": "phys-hans-emeritus-bachor",
+      "type": "academic",
+      "name": "Hans Emeritus Bachor",
+      "position": "Professor",
+      "focus": "Physics",
+      "school": "Research School of Physics",
+      "schoolCode": "PHYS",
+      "college": "ANU College of Science and Medicine",
+      "profileUrl": "https://physics.anu.edu.au/contact/people/profile.php?ID=695",
+      "email": "",
+      "office": "",
+      "linkedCourses": [],
+      "reviewMetrics": [
+        "Clarity",
+        "Support",
+        "Engagement"
+      ],
+      "tags": [
+        "physics"
+      ]
+    },
+    {
+      "id": "comp-haojie-zhuang",
+      "type": "academic",
+      "name": "Haojie Zhuang",
+      "position": "Research Fellow",
+      "focus": "School of Computing",
+      "school": "School of Computing",
+      "schoolCode": "COMP",
+      "college": "ANU College of Systems and Society",
+      "profileUrl": "https://comp.anu.edu.au/people/haojie-zhuang/",
+      "email": "haojie.zhuang@anu.edu.au",
+      "office": "Hanna Neumann Building 145, Office 3.24",
+      "linkedCourses": [],
+      "reviewMetrics": [
+        "Clarity",
+        "Support",
+        "Engagement"
+      ],
+      "tags": [
+        "comp"
       ]
     },
     {
@@ -13152,6 +15576,72 @@ window.ANREVIEW_DATA = {
       ]
     },
     {
+      "id": "phys-hiroshi-katsumata",
+      "type": "academic",
+      "name": "Hiroshi Katsumata",
+      "position": "Professor",
+      "focus": "Physics",
+      "school": "Research School of Physics",
+      "schoolCode": "PHYS",
+      "college": "ANU College of Science and Medicine",
+      "profileUrl": "https://physics.anu.edu.au/contact/people/profile.php?ID=3446",
+      "email": "",
+      "office": "",
+      "linkedCourses": [],
+      "reviewMetrics": [
+        "Clarity",
+        "Support",
+        "Engagement"
+      ],
+      "tags": [
+        "physics"
+      ]
+    },
+    {
+      "id": "phys-hoe-tan",
+      "type": "academic",
+      "name": "Hoe Tan",
+      "position": "Professor",
+      "focus": "Physics",
+      "school": "Research School of Physics",
+      "schoolCode": "PHYS",
+      "college": "ANU College of Science and Medicine",
+      "profileUrl": "https://physics.anu.edu.au/contact/people/profile.php?ID=85",
+      "email": "",
+      "office": "",
+      "linkedCourses": [],
+      "reviewMetrics": [
+        "Clarity",
+        "Support",
+        "Engagement"
+      ],
+      "tags": [
+        "physics"
+      ]
+    },
+    {
+      "id": "comp-hongdong-li",
+      "type": "academic",
+      "name": "Hongdong Li",
+      "position": "Professor",
+      "focus": "School of Computing",
+      "school": "School of Computing",
+      "schoolCode": "COMP",
+      "college": "ANU College of Systems and Society",
+      "profileUrl": "https://comp.anu.edu.au/people/hongdong-li/",
+      "email": "hongdong.li@anu.edu.au",
+      "office": "+61 2 6125 7708 Brian Anderson Building 115, Office B163",
+      "linkedCourses": [],
+      "reviewMetrics": [
+        "Clarity",
+        "Support",
+        "Engagement"
+      ],
+      "tags": [
+        "comp"
+      ]
+    },
+    {
       "id": "janet-lee",
       "type": "academic",
       "name": "Honorary Associate Professor Janet Lee",
@@ -13172,6 +15662,116 @@ window.ANREVIEW_DATA = {
         "Clarity",
         "Support",
         "Engagement"
+      ]
+    },
+    {
+      "id": "phys-horst-punzmann",
+      "type": "academic",
+      "name": "Horst Punzmann",
+      "position": "Dr",
+      "focus": "Physics",
+      "school": "Research School of Physics",
+      "schoolCode": "PHYS",
+      "college": "ANU College of Science and Medicine",
+      "profileUrl": "https://physics.anu.edu.au/contact/people/profile.php?ID=417",
+      "email": "",
+      "office": "",
+      "linkedCourses": [],
+      "reviewMetrics": [
+        "Clarity",
+        "Support",
+        "Engagement"
+      ],
+      "tags": [
+        "physics"
+      ]
+    },
+    {
+      "id": "phys-huma-latif",
+      "type": "academic",
+      "name": "Huma Latif",
+      "position": "Dr",
+      "focus": "Physics",
+      "school": "Research School of Physics",
+      "schoolCode": "PHYS",
+      "college": "ANU College of Science and Medicine",
+      "profileUrl": "https://physics.anu.edu.au/contact/people/profile.php?ID=2042",
+      "email": "",
+      "office": "",
+      "linkedCourses": [],
+      "reviewMetrics": [
+        "Clarity",
+        "Support",
+        "Engagement"
+      ],
+      "tags": [
+        "physics"
+      ]
+    },
+    {
+      "id": "phys-igor-ivanov",
+      "type": "academic",
+      "name": "Igor Ivanov",
+      "position": "Dr",
+      "focus": "Physics",
+      "school": "Research School of Physics",
+      "schoolCode": "PHYS",
+      "college": "ANU College of Science and Medicine",
+      "profileUrl": "https://physics.anu.edu.au/contact/people/profile.php?ID=10",
+      "email": "",
+      "office": "",
+      "linkedCourses": [],
+      "reviewMetrics": [
+        "Clarity",
+        "Support",
+        "Engagement"
+      ],
+      "tags": [
+        "physics"
+      ]
+    },
+    {
+      "id": "phys-igor-skryabin",
+      "type": "academic",
+      "name": "Igor Skryabin",
+      "position": "Dr",
+      "focus": "Physics",
+      "school": "Research School of Physics",
+      "schoolCode": "PHYS",
+      "college": "ANU College of Science and Medicine",
+      "profileUrl": "https://physics.anu.edu.au/contact/people/profile.php?ID=2018",
+      "email": "",
+      "office": "",
+      "linkedCourses": [],
+      "reviewMetrics": [
+        "Clarity",
+        "Support",
+        "Engagement"
+      ],
+      "tags": [
+        "physics"
+      ]
+    },
+    {
+      "id": "phys-ilya-shadrivov",
+      "type": "academic",
+      "name": "Ilya Shadrivov",
+      "position": "Professor",
+      "focus": "Physics",
+      "school": "Research School of Physics",
+      "schoolCode": "PHYS",
+      "college": "ANU College of Science and Medicine",
+      "profileUrl": "https://physics.anu.edu.au/contact/people/profile.php?ID=380",
+      "email": "",
+      "office": "",
+      "linkedCourses": [],
+      "reviewMetrics": [
+        "Clarity",
+        "Support",
+        "Engagement"
+      ],
+      "tags": [
+        "physics"
       ]
     },
     {
@@ -13221,6 +15821,50 @@ window.ANREVIEW_DATA = {
       ]
     },
     {
+      "id": "phys-jackson-dowie",
+      "type": "academic",
+      "name": "Jackson Dowie",
+      "position": "Dr",
+      "focus": "Physics",
+      "school": "Research School of Physics",
+      "schoolCode": "PHYS",
+      "college": "ANU College of Science and Medicine",
+      "profileUrl": "https://physics.anu.edu.au/contact/people/profile.php?ID=1991",
+      "email": "",
+      "office": "",
+      "linkedCourses": [],
+      "reviewMetrics": [
+        "Clarity",
+        "Support",
+        "Engagement"
+      ],
+      "tags": [
+        "physics"
+      ]
+    },
+    {
+      "id": "phys-jacob-buete",
+      "type": "academic",
+      "name": "Jacob Buete",
+      "position": "Dr",
+      "focus": "Physics",
+      "school": "Research School of Physics",
+      "schoolCode": "PHYS",
+      "college": "ANU College of Science and Medicine",
+      "profileUrl": "https://physics.anu.edu.au/contact/people/profile.php?ID=2471",
+      "email": "",
+      "office": "",
+      "linkedCourses": [],
+      "reviewMetrics": [
+        "Clarity",
+        "Support",
+        "Engagement"
+      ],
+      "tags": [
+        "physics"
+      ]
+    },
+    {
       "id": "james-fisher",
       "type": "academic",
       "name": "James Fisher",
@@ -13265,6 +15909,28 @@ window.ANREVIEW_DATA = {
         "Clarity",
         "Support",
         "Engagement"
+      ]
+    },
+    {
+      "id": "phys-james-stuart",
+      "type": "academic",
+      "name": "James Stuart",
+      "position": "Dr",
+      "focus": "Physics",
+      "school": "Research School of Physics",
+      "schoolCode": "PHYS",
+      "college": "ANU College of Science and Medicine",
+      "profileUrl": "https://physics.anu.edu.au/contact/people/profile.php?ID=2128",
+      "email": "",
+      "office": "",
+      "linkedCourses": [],
+      "reviewMetrics": [
+        "Clarity",
+        "Support",
+        "Engagement"
+      ],
+      "tags": [
+        "physics"
       ]
     },
     {
@@ -13385,6 +16051,94 @@ window.ANREVIEW_DATA = {
       ]
     },
     {
+      "id": "phys-jesper-munch",
+      "type": "academic",
+      "name": "Jesper Munch",
+      "position": "Professor",
+      "focus": "Physics",
+      "school": "Research School of Physics",
+      "schoolCode": "PHYS",
+      "college": "ANU College of Science and Medicine",
+      "profileUrl": "https://physics.anu.edu.au/contact/people/profile.php?ID=3054",
+      "email": "",
+      "office": "",
+      "linkedCourses": [],
+      "reviewMetrics": [
+        "Clarity",
+        "Support",
+        "Engagement"
+      ],
+      "tags": [
+        "physics"
+      ]
+    },
+    {
+      "id": "cyb-jessamy-perriam",
+      "type": "academic",
+      "name": "Jessamy Perriam",
+      "position": "Associate Director (Education) Senior Lecturer",
+      "focus": "School of Cybernetics",
+      "school": "School of Cybernetics",
+      "schoolCode": "CYB",
+      "college": "ANU College of Systems and Society",
+      "profileUrl": "https://cybernetics.anu.edu.au/people/jessamy-perriam/",
+      "email": "jessamy.perriam@anu.edu.au",
+      "office": "Birch Building",
+      "linkedCourses": [],
+      "reviewMetrics": [
+        "Clarity",
+        "Support",
+        "Engagement"
+      ],
+      "tags": [
+        "cyb"
+      ]
+    },
+    {
+      "id": "phys-jesse-everett",
+      "type": "academic",
+      "name": "Jesse Everett",
+      "position": "Dr",
+      "focus": "Physics",
+      "school": "Research School of Physics",
+      "schoolCode": "PHYS",
+      "college": "ANU College of Science and Medicine",
+      "profileUrl": "https://physics.anu.edu.au/contact/people/profile.php?ID=831",
+      "email": "",
+      "office": "",
+      "linkedCourses": [],
+      "reviewMetrics": [
+        "Clarity",
+        "Support",
+        "Engagement"
+      ],
+      "tags": [
+        "physics"
+      ]
+    },
+    {
+      "id": "phys-jessica-eastman",
+      "type": "academic",
+      "name": "Jessica Eastman",
+      "position": "Dr",
+      "focus": "Physics",
+      "school": "Research School of Physics",
+      "schoolCode": "PHYS",
+      "college": "ANU College of Science and Medicine",
+      "profileUrl": "https://physics.anu.edu.au/contact/people/profile.php?ID=1690",
+      "email": "",
+      "office": "",
+      "linkedCourses": [],
+      "reviewMetrics": [
+        "Clarity",
+        "Support",
+        "Engagement"
+      ],
+      "tags": [
+        "physics"
+      ]
+    },
+    {
       "id": "jessica-hambly",
       "type": "academic",
       "name": "Jessica Hambly",
@@ -13406,6 +16160,292 @@ window.ANREVIEW_DATA = {
         "Clarity",
         "Support",
         "Engagement"
+      ]
+    },
+    {
+      "id": "phys-jian-rui-soh",
+      "type": "academic",
+      "name": "Jian Rui Soh",
+      "position": "Dr",
+      "focus": "Physics",
+      "school": "Research School of Physics",
+      "schoolCode": "PHYS",
+      "college": "ANU College of Science and Medicine",
+      "profileUrl": "https://physics.anu.edu.au/contact/people/profile.php?ID=3611",
+      "email": "",
+      "office": "",
+      "linkedCourses": [],
+      "reviewMetrics": [
+        "Clarity",
+        "Support",
+        "Engagement"
+      ],
+      "tags": [
+        "physics"
+      ]
+    },
+    {
+      "id": "phys-jiayi-qin",
+      "type": "academic",
+      "name": "Jiayi Qin",
+      "position": "Dr",
+      "focus": "Physics",
+      "school": "Research School of Physics",
+      "schoolCode": "PHYS",
+      "college": "ANU College of Science and Medicine",
+      "profileUrl": "https://physics.anu.edu.au/contact/people/profile.php?ID=2061",
+      "email": "",
+      "office": "",
+      "linkedCourses": [],
+      "reviewMetrics": [
+        "Clarity",
+        "Support",
+        "Engagement"
+      ],
+      "tags": [
+        "physics"
+      ]
+    },
+    {
+      "id": "phys-jie-zhao",
+      "type": "academic",
+      "name": "Jie Zhao",
+      "position": "Dr",
+      "focus": "Physics",
+      "school": "Research School of Physics",
+      "schoolCode": "PHYS",
+      "college": "ANU College of Science and Medicine",
+      "profileUrl": "https://physics.anu.edu.au/contact/people/profile.php?ID=1726",
+      "email": "",
+      "office": "",
+      "linkedCourses": [],
+      "reviewMetrics": [
+        "Clarity",
+        "Support",
+        "Engagement"
+      ],
+      "tags": [
+        "physics"
+      ]
+    },
+    {
+      "id": "phys-jim-emeritus-williams",
+      "type": "academic",
+      "name": "Jim Emeritus Williams",
+      "position": "Professor",
+      "focus": "Physics",
+      "school": "Research School of Physics",
+      "schoolCode": "PHYS",
+      "college": "ANU College of Science and Medicine",
+      "profileUrl": "https://physics.anu.edu.au/contact/people/profile.php?ID=579",
+      "email": "",
+      "office": "",
+      "linkedCourses": [],
+      "reviewMetrics": [
+        "Clarity",
+        "Support",
+        "Engagement"
+      ],
+      "tags": [
+        "physics"
+      ]
+    },
+    {
+      "id": "comp-jing-jiang",
+      "type": "academic",
+      "name": "Jing Jiang",
+      "position": "Professor Acting Delegated Authority Research Graduate Research Executive",
+      "focus": "School of Computing",
+      "school": "School of Computing",
+      "schoolCode": "COMP",
+      "college": "ANU College of Systems and Society",
+      "profileUrl": "https://comp.anu.edu.au/people/jing-jiang/",
+      "email": "Jing.Jiang@anu.edu.au",
+      "office": "",
+      "linkedCourses": [],
+      "reviewMetrics": [
+        "Clarity",
+        "Support",
+        "Engagement"
+      ],
+      "tags": [
+        "comp"
+      ]
+    },
+    {
+      "id": "comp-jing-zhang",
+      "type": "academic",
+      "name": "Jing Zhang",
+      "position": "Senior Lecturer HDR Co-Convener Intelligent Systems",
+      "focus": "School of Computing",
+      "school": "School of Computing",
+      "schoolCode": "COMP",
+      "college": "ANU College of Systems and Society",
+      "profileUrl": "https://comp.anu.edu.au/people/jing-zhang/",
+      "email": "jing.zhang@anu.edu.au",
+      "office": "Brian Anderson Building 115, Office B161",
+      "linkedCourses": [],
+      "reviewMetrics": [
+        "Clarity",
+        "Support",
+        "Engagement"
+      ],
+      "tags": [
+        "comp"
+      ]
+    },
+    {
+      "id": "phys-jiri-janousek",
+      "type": "academic",
+      "name": "Jiri Janousek",
+      "position": "Dr",
+      "focus": "Physics",
+      "school": "Research School of Physics",
+      "schoolCode": "PHYS",
+      "college": "ANU College of Science and Medicine",
+      "profileUrl": "https://physics.anu.edu.au/contact/people/profile.php?ID=301",
+      "email": "",
+      "office": "",
+      "linkedCourses": [],
+      "reviewMetrics": [
+        "Clarity",
+        "Support",
+        "Engagement"
+      ],
+      "tags": [
+        "physics"
+      ]
+    },
+    {
+      "id": "comp-jochen-renz",
+      "type": "academic",
+      "name": "Jochen Renz",
+      "position": "Professor",
+      "focus": "School of Computing",
+      "school": "School of Computing",
+      "schoolCode": "COMP",
+      "college": "ANU College of Systems and Society",
+      "profileUrl": "https://comp.anu.edu.au/people/jochen-renz/",
+      "email": "jochen.renz@anu.edu.au",
+      "office": "+61 2 6125 1767 Hanna Neumann Building 145, Office 3.35",
+      "linkedCourses": [],
+      "reviewMetrics": [
+        "Clarity",
+        "Support",
+        "Engagement"
+      ],
+      "tags": [
+        "comp"
+      ]
+    },
+    {
+      "id": "phys-johannes-eichholz",
+      "type": "academic",
+      "name": "Johannes Eichholz",
+      "position": "Dr",
+      "focus": "Physics",
+      "school": "Research School of Physics",
+      "schoolCode": "PHYS",
+      "college": "ANU College of Science and Medicine",
+      "profileUrl": "https://physics.anu.edu.au/contact/people/profile.php?ID=2525",
+      "email": "",
+      "office": "",
+      "linkedCourses": [],
+      "reviewMetrics": [
+        "Clarity",
+        "Support",
+        "Engagement"
+      ],
+      "tags": [
+        "physics"
+      ]
+    },
+    {
+      "id": "phys-john-associate-debs",
+      "type": "academic",
+      "name": "John Associate Debs",
+      "position": "Professor",
+      "focus": "Physics",
+      "school": "Research School of Physics",
+      "schoolCode": "PHYS",
+      "college": "ANU College of Science and Medicine",
+      "profileUrl": "https://physics.anu.edu.au/contact/people/profile.php?ID=246",
+      "email": "",
+      "office": "",
+      "linkedCourses": [],
+      "reviewMetrics": [
+        "Clarity",
+        "Support",
+        "Engagement"
+      ],
+      "tags": [
+        "physics"
+      ]
+    },
+    {
+      "id": "phys-john-holmes",
+      "type": "academic",
+      "name": "John Holmes",
+      "position": "Dr",
+      "focus": "Physics",
+      "school": "Research School of Physics",
+      "schoolCode": "PHYS",
+      "college": "ANU College of Science and Medicine",
+      "profileUrl": "https://physics.anu.edu.au/contact/people/profile.php?ID=3083",
+      "email": "",
+      "office": "",
+      "linkedCourses": [],
+      "reviewMetrics": [
+        "Clarity",
+        "Support",
+        "Engagement"
+      ],
+      "tags": [
+        "physics"
+      ]
+    },
+    {
+      "id": "phys-john-howard",
+      "type": "academic",
+      "name": "John Howard",
+      "position": "Professor",
+      "focus": "Physics",
+      "school": "Research School of Physics",
+      "schoolCode": "PHYS",
+      "college": "ANU College of Science and Medicine",
+      "profileUrl": "https://physics.anu.edu.au/contact/people/profile.php?ID=413",
+      "email": "",
+      "office": "",
+      "linkedCourses": [],
+      "reviewMetrics": [
+        "Clarity",
+        "Support",
+        "Engagement"
+      ],
+      "tags": [
+        "physics"
+      ]
+    },
+    {
+      "id": "comp-john-lloyd",
+      "type": "academic",
+      "name": "John Lloyd",
+      "position": "Professor Emeritus",
+      "focus": "School of Computing",
+      "school": "School of Computing",
+      "schoolCode": "COMP",
+      "college": "ANU College of Systems and Society",
+      "profileUrl": "https://comp.anu.edu.au/people/john-lloyd/",
+      "email": "john.lloyd@anu.edu.au",
+      "office": "+61 2 6125 8633",
+      "linkedCourses": [],
+      "reviewMetrics": [
+        "Clarity",
+        "Support",
+        "Engagement"
+      ],
+      "tags": [
+        "comp"
       ]
     },
     {
@@ -13478,6 +16518,50 @@ window.ANREVIEW_DATA = {
       ]
     },
     {
+      "id": "comp-john-slaney",
+      "type": "academic",
+      "name": "John Slaney",
+      "position": "Professor Emeritus",
+      "focus": "School of Computing",
+      "school": "School of Computing",
+      "schoolCode": "COMP",
+      "college": "ANU College of Systems and Society",
+      "profileUrl": "https://comp.anu.edu.au/people/john-slaney/",
+      "email": "John.Slaney@anu.edu.au",
+      "office": "+61 2 6125 8607 Hanna Neumann Building 145, Office 2.20",
+      "linkedCourses": [],
+      "reviewMetrics": [
+        "Clarity",
+        "Support",
+        "Engagement"
+      ],
+      "tags": [
+        "comp"
+      ]
+    },
+    {
+      "id": "comp-john-taylor",
+      "type": "academic",
+      "name": "John Taylor",
+      "position": "Professor",
+      "focus": "School of Computing",
+      "school": "School of Computing",
+      "schoolCode": "COMP",
+      "college": "ANU College of Systems and Society",
+      "profileUrl": "https://comp.anu.edu.au/people/john-taylor/",
+      "email": "john.taylor@anu.edu.au",
+      "office": "Hanna Neumann Building 145, Office 4.22",
+      "linkedCourses": [],
+      "reviewMetrics": [
+        "Clarity",
+        "Support",
+        "Engagement"
+      ],
+      "tags": [
+        "comp"
+      ]
+    },
+    {
       "id": "jolyon-ford",
       "type": "academic",
       "name": "Jolyon Ford",
@@ -13522,6 +16606,72 @@ window.ANREVIEW_DATA = {
         "Clarity",
         "Support",
         "Engagement"
+      ]
+    },
+    {
+      "id": "phys-joseph-hope",
+      "type": "academic",
+      "name": "Joseph Hope",
+      "position": "Professor",
+      "focus": "Physics",
+      "school": "Research School of Physics",
+      "schoolCode": "PHYS",
+      "college": "ANU College of Science and Medicine",
+      "profileUrl": "https://physics.anu.edu.au/contact/people/profile.php?ID=292",
+      "email": "",
+      "office": "",
+      "linkedCourses": [],
+      "reviewMetrics": [
+        "Clarity",
+        "Support",
+        "Engagement"
+      ],
+      "tags": [
+        "physics"
+      ]
+    },
+    {
+      "id": "comp-josh-andres",
+      "type": "academic",
+      "name": "Josh Andres",
+      "position": "Senior Lecturer",
+      "focus": "School of Computing",
+      "school": "School of Computing",
+      "schoolCode": "COMP",
+      "college": "ANU College of Systems and Society",
+      "profileUrl": "https://comp.anu.edu.au/people/josh-andres/",
+      "email": "Josh.Andres@anu.edu.au",
+      "office": "Birch Building",
+      "linkedCourses": [],
+      "reviewMetrics": [
+        "Clarity",
+        "Support",
+        "Engagement"
+      ],
+      "tags": [
+        "comp"
+      ]
+    },
+    {
+      "id": "phys-joshua-machacek",
+      "type": "academic",
+      "name": "Joshua Machacek",
+      "position": "Dr",
+      "focus": "Physics",
+      "school": "Research School of Physics",
+      "schoolCode": "PHYS",
+      "college": "ANU College of Science and Medicine",
+      "profileUrl": "https://physics.anu.edu.au/contact/people/profile.php?ID=745",
+      "email": "",
+      "office": "",
+      "linkedCourses": [],
+      "reviewMetrics": [
+        "Clarity",
+        "Support",
+        "Engagement"
+      ],
+      "tags": [
+        "physics"
       ]
     },
     {
@@ -13571,6 +16721,28 @@ window.ANREVIEW_DATA = {
       ]
     },
     {
+      "id": "phys-julieanne-dougherty",
+      "type": "academic",
+      "name": "Julieanne Dougherty",
+      "position": "Dr",
+      "focus": "Physics",
+      "school": "Research School of Physics",
+      "schoolCode": "PHYS",
+      "college": "ANU College of Science and Medicine",
+      "profileUrl": "https://physics.anu.edu.au/contact/people/profile.php?ID=3381",
+      "email": "",
+      "office": "",
+      "linkedCourses": [],
+      "reviewMetrics": [
+        "Clarity",
+        "Support",
+        "Engagement"
+      ],
+      "tags": [
+        "physics"
+      ]
+    },
+    {
       "id": "justin-mccaul",
       "type": "academic",
       "name": "Justin McCaul",
@@ -13591,6 +16763,50 @@ window.ANREVIEW_DATA = {
         "Clarity",
         "Support",
         "Engagement"
+      ]
+    },
+    {
+      "id": "phys-kaitlin-cook",
+      "type": "academic",
+      "name": "Kaitlin Cook",
+      "position": "Dr",
+      "focus": "Physics",
+      "school": "Research School of Physics",
+      "schoolCode": "PHYS",
+      "college": "ANU College of Science and Medicine",
+      "profileUrl": "https://physics.anu.edu.au/contact/people/profile.php?ID=1502",
+      "email": "",
+      "office": "",
+      "linkedCourses": [],
+      "reviewMetrics": [
+        "Clarity",
+        "Support",
+        "Engagement"
+      ],
+      "tags": [
+        "physics"
+      ]
+    },
+    {
+      "id": "phys-karl-wette",
+      "type": "academic",
+      "name": "Karl Wette",
+      "position": "Dr",
+      "focus": "Physics",
+      "school": "Research School of Physics",
+      "schoolCode": "PHYS",
+      "college": "ANU College of Science and Medicine",
+      "profileUrl": "https://physics.anu.edu.au/contact/people/profile.php?ID=2232",
+      "email": "",
+      "office": "",
+      "linkedCourses": [],
+      "reviewMetrics": [
+        "Clarity",
+        "Support",
+        "Engagement"
+      ],
+      "tags": [
+        "physics"
       ]
     },
     {
@@ -13615,6 +16831,116 @@ window.ANREVIEW_DATA = {
         "Clarity",
         "Support",
         "Engagement"
+      ]
+    },
+    {
+      "id": "phys-kaushal-vora",
+      "type": "academic",
+      "name": "Kaushal Vora",
+      "position": "Dr",
+      "focus": "Physics",
+      "school": "Research School of Physics",
+      "schoolCode": "PHYS",
+      "college": "ANU College of Science and Medicine",
+      "profileUrl": "https://physics.anu.edu.au/contact/people/profile.php?ID=122",
+      "email": "",
+      "office": "",
+      "linkedCourses": [],
+      "reviewMetrics": [
+        "Clarity",
+        "Support",
+        "Engagement"
+      ],
+      "tags": [
+        "physics"
+      ]
+    },
+    {
+      "id": "phys-keith-emeritus-fifield",
+      "type": "academic",
+      "name": "Keith Emeritus Fifield",
+      "position": "Professor",
+      "focus": "Physics",
+      "school": "Research School of Physics",
+      "schoolCode": "PHYS",
+      "college": "ANU College of Science and Medicine",
+      "profileUrl": "https://physics.anu.edu.au/contact/people/profile.php?ID=138",
+      "email": "",
+      "office": "",
+      "linkedCourses": [],
+      "reviewMetrics": [
+        "Clarity",
+        "Support",
+        "Engagement"
+      ],
+      "tags": [
+        "physics"
+      ]
+    },
+    {
+      "id": "phys-kenneth-baldwin",
+      "type": "academic",
+      "name": "Kenneth Baldwin",
+      "position": "Professor",
+      "focus": "Physics",
+      "school": "Research School of Physics",
+      "schoolCode": "PHYS",
+      "college": "ANU College of Science and Medicine",
+      "profileUrl": "https://physics.anu.edu.au/contact/people/profile.php?ID=21",
+      "email": "",
+      "office": "",
+      "linkedCourses": [],
+      "reviewMetrics": [
+        "Clarity",
+        "Support",
+        "Engagement"
+      ],
+      "tags": [
+        "physics"
+      ]
+    },
+    {
+      "id": "comp-kerry-taylor",
+      "type": "academic",
+      "name": "Kerry Taylor",
+      "position": "Professor BADA Convener",
+      "focus": "School of Computing",
+      "school": "School of Computing",
+      "schoolCode": "COMP",
+      "college": "ANU College of Systems and Society",
+      "profileUrl": "https://comp.anu.edu.au/people/kerry-taylor/",
+      "email": "kerry.taylor@anu.edu.au",
+      "office": "+61 2 6125 8560 Skaidrite Darius Building 108, Office N326",
+      "linkedCourses": [],
+      "reviewMetrics": [
+        "Clarity",
+        "Support",
+        "Engagement"
+      ],
+      "tags": [
+        "comp"
+      ]
+    },
+    {
+      "id": "phys-keshu-huang",
+      "type": "academic",
+      "name": "Keshu Huang",
+      "position": "Dr",
+      "focus": "Physics",
+      "school": "Research School of Physics",
+      "schoolCode": "PHYS",
+      "college": "ANU College of Science and Medicine",
+      "profileUrl": "https://physics.anu.edu.au/contact/people/profile.php?ID=1936",
+      "email": "",
+      "office": "",
+      "linkedCourses": [],
+      "reviewMetrics": [
+        "Clarity",
+        "Support",
+        "Engagement"
+      ],
+      "tags": [
+        "physics"
       ]
     },
     {
@@ -13687,6 +17013,160 @@ window.ANREVIEW_DATA = {
       ]
     },
     {
+      "id": "phys-kirill-koshelev",
+      "type": "academic",
+      "name": "Kirill Koshelev",
+      "position": "Dr",
+      "focus": "Physics",
+      "school": "Research School of Physics",
+      "schoolCode": "PHYS",
+      "college": "ANU College of Science and Medicine",
+      "profileUrl": "https://physics.anu.edu.au/contact/people/profile.php?ID=2290",
+      "email": "",
+      "office": "",
+      "linkedCourses": [],
+      "reviewMetrics": [
+        "Clarity",
+        "Support",
+        "Engagement"
+      ],
+      "tags": [
+        "physics"
+      ]
+    },
+    {
+      "id": "phys-kirk-mckenzie",
+      "type": "academic",
+      "name": "Kirk McKenzie",
+      "position": "Professor",
+      "focus": "Physics",
+      "school": "Research School of Physics",
+      "schoolCode": "PHYS",
+      "college": "ANU College of Science and Medicine",
+      "profileUrl": "https://physics.anu.edu.au/contact/people/profile.php?ID=2653",
+      "email": "",
+      "office": "",
+      "linkedCourses": [],
+      "reviewMetrics": [
+        "Clarity",
+        "Support",
+        "Engagement"
+      ],
+      "tags": [
+        "physics"
+      ]
+    },
+    {
+      "id": "phys-klara-steklova",
+      "type": "academic",
+      "name": "Klara Steklova",
+      "position": "Dr",
+      "focus": "Physics",
+      "school": "Research School of Physics",
+      "schoolCode": "PHYS",
+      "college": "ANU College of Science and Medicine",
+      "profileUrl": "https://physics.anu.edu.au/contact/people/profile.php?ID=2985",
+      "email": "",
+      "office": "",
+      "linkedCourses": [],
+      "reviewMetrics": [
+        "Clarity",
+        "Support",
+        "Engagement"
+      ],
+      "tags": [
+        "physics"
+      ]
+    },
+    {
+      "id": "phys-ksenia-maximova",
+      "type": "academic",
+      "name": "Ksenia Maximova",
+      "position": "Dr",
+      "focus": "Physics",
+      "school": "Research School of Physics",
+      "schoolCode": "PHYS",
+      "college": "ANU College of Science and Medicine",
+      "profileUrl": "https://physics.anu.edu.au/contact/people/profile.php?ID=2881",
+      "email": "",
+      "office": "",
+      "linkedCourses": [],
+      "reviewMetrics": [
+        "Clarity",
+        "Support",
+        "Engagement"
+      ],
+      "tags": [
+        "physics"
+      ]
+    },
+    {
+      "id": "phys-kunlun-yan",
+      "type": "academic",
+      "name": "Kunlun Yan",
+      "position": "Dr",
+      "focus": "Physics",
+      "school": "Research School of Physics",
+      "schoolCode": "PHYS",
+      "college": "ANU College of Science and Medicine",
+      "profileUrl": "https://physics.anu.edu.au/contact/people/profile.php?ID=982",
+      "email": "",
+      "office": "",
+      "linkedCourses": [],
+      "reviewMetrics": [
+        "Clarity",
+        "Support",
+        "Engagement"
+      ],
+      "tags": [
+        "physics"
+      ]
+    },
+    {
+      "id": "phys-lan-fu",
+      "type": "academic",
+      "name": "Lan Fu",
+      "position": "Professor",
+      "focus": "Physics",
+      "school": "Research School of Physics",
+      "schoolCode": "PHYS",
+      "college": "ANU College of Science and Medicine",
+      "profileUrl": "https://physics.anu.edu.au/contact/people/profile.php?ID=108",
+      "email": "",
+      "office": "",
+      "linkedCourses": [],
+      "reviewMetrics": [
+        "Clarity",
+        "Support",
+        "Engagement"
+      ],
+      "tags": [
+        "physics"
+      ]
+    },
+    {
+      "id": "phys-lara-gillan",
+      "type": "academic",
+      "name": "Lara Gillan",
+      "position": "Dr",
+      "focus": "Physics",
+      "school": "Research School of Physics",
+      "schoolCode": "PHYS",
+      "college": "ANU College of Science and Medicine",
+      "profileUrl": "https://physics.anu.edu.au/contact/people/profile.php?ID=3013",
+      "email": "",
+      "office": "",
+      "linkedCourses": [],
+      "reviewMetrics": [
+        "Clarity",
+        "Support",
+        "Engagement"
+      ],
+      "tags": [
+        "physics"
+      ]
+    },
+    {
       "id": "cap-chl-eae4f85e-7800-4ddf-abbe-01faf512c79d",
       "type": "academic",
       "name": "Larissa Schneider Main Group",
@@ -13733,6 +17213,28 @@ window.ANREVIEW_DATA = {
       ]
     },
     {
+      "id": "phys-lawrence-cram",
+      "type": "academic",
+      "name": "Lawrence Cram",
+      "position": "Professor",
+      "focus": "Physics",
+      "school": "Research School of Physics",
+      "schoolCode": "PHYS",
+      "college": "ANU College of Science and Medicine",
+      "profileUrl": "https://physics.anu.edu.au/contact/people/profile.php?ID=1658",
+      "email": "",
+      "office": "",
+      "linkedCourses": [],
+      "reviewMetrics": [
+        "Clarity",
+        "Support",
+        "Engagement"
+      ],
+      "tags": [
+        "physics"
+      ]
+    },
+    {
       "id": "leighton-mcdonald",
       "type": "academic",
       "name": "Leighton McDonald",
@@ -13756,6 +17258,138 @@ window.ANREVIEW_DATA = {
       ]
     },
     {
+      "id": "phys-levi-beeching",
+      "type": "academic",
+      "name": "Levi Beeching",
+      "position": "Dr",
+      "focus": "Physics",
+      "school": "Research School of Physics",
+      "schoolCode": "PHYS",
+      "college": "ANU College of Science and Medicine",
+      "profileUrl": "https://physics.anu.edu.au/contact/people/profile.php?ID=1578",
+      "email": "",
+      "office": "",
+      "linkedCourses": [],
+      "reviewMetrics": [
+        "Clarity",
+        "Support",
+        "Engagement"
+      ],
+      "tags": [
+        "physics"
+      ]
+    },
+    {
+      "id": "comp-lexing-xie",
+      "type": "academic",
+      "name": "Lexing Xie",
+      "position": "Professor",
+      "focus": "School of Computing",
+      "school": "School of Computing",
+      "schoolCode": "COMP",
+      "college": "ANU College of Systems and Society",
+      "profileUrl": "https://comp.anu.edu.au/people/lexing-xie/",
+      "email": "lexing.xie@anu.edu.au",
+      "office": "+61 2 6125 1646 Hanna Neumann Building 145, Office 3.37",
+      "linkedCourses": [],
+      "reviewMetrics": [
+        "Clarity",
+        "Support",
+        "Engagement"
+      ],
+      "tags": [
+        "comp"
+      ]
+    },
+    {
+      "id": "phys-li-lily-li",
+      "type": "academic",
+      "name": "Li (Lily) Li",
+      "position": "Dr",
+      "focus": "Physics",
+      "school": "Research School of Physics",
+      "schoolCode": "PHYS",
+      "college": "ANU College of Science and Medicine",
+      "profileUrl": "https://physics.anu.edu.au/contact/people/profile.php?ID=1528",
+      "email": "",
+      "office": "",
+      "linkedCourses": [],
+      "reviewMetrics": [
+        "Clarity",
+        "Support",
+        "Engagement"
+      ],
+      "tags": [
+        "physics"
+      ]
+    },
+    {
+      "id": "comp-liam-o-connor",
+      "type": "academic",
+      "name": "Liam O'Connor",
+      "position": "Senior Lecturer",
+      "focus": "School of Computing",
+      "school": "School of Computing",
+      "schoolCode": "COMP",
+      "college": "ANU College of Systems and Society",
+      "profileUrl": "https://comp.anu.edu.au/people/liam-oconnor/",
+      "email": "liam.oconnor@anu.edu.au",
+      "office": "",
+      "linkedCourses": [],
+      "reviewMetrics": [
+        "Clarity",
+        "Support",
+        "Engagement"
+      ],
+      "tags": [
+        "comp"
+      ]
+    },
+    {
+      "id": "comp-liang-zheng",
+      "type": "academic",
+      "name": "Liang Zheng",
+      "position": "Associate Professor FHEA Associate Director International",
+      "focus": "School of Computing",
+      "school": "School of Computing",
+      "schoolCode": "COMP",
+      "college": "ANU College of Systems and Society",
+      "profileUrl": "https://comp.anu.edu.au/people/liang-zheng/",
+      "email": "liang.zheng@anu.edu.au",
+      "office": "+61 2 6125 1613 Brian Anderson Building, Office B160",
+      "linkedCourses": [],
+      "reviewMetrics": [
+        "Clarity",
+        "Support",
+        "Engagement"
+      ],
+      "tags": [
+        "comp"
+      ]
+    },
+    {
+      "id": "phys-lilli-ling-sun",
+      "type": "academic",
+      "name": "Lilli (Ling) Sun",
+      "position": "Dr",
+      "focus": "Physics",
+      "school": "Research School of Physics",
+      "schoolCode": "PHYS",
+      "college": "ANU College of Science and Medicine",
+      "profileUrl": "https://physics.anu.edu.au/contact/people/profile.php?ID=2800",
+      "email": "",
+      "office": "",
+      "linkedCourses": [],
+      "reviewMetrics": [
+        "Clarity",
+        "Support",
+        "Engagement"
+      ],
+      "tags": [
+        "physics"
+      ]
+    },
+    {
       "id": "lily-chen",
       "type": "academic",
       "name": "Lily Chen",
@@ -13776,6 +17410,28 @@ window.ANREVIEW_DATA = {
         "Clarity",
         "Support",
         "Engagement"
+      ]
+    },
+    {
+      "id": "phys-lincoln-paterson",
+      "type": "academic",
+      "name": "Lincoln Paterson",
+      "position": "Dr",
+      "focus": "Physics",
+      "school": "Research School of Physics",
+      "schoolCode": "PHYS",
+      "college": "ANU College of Science and Medicine",
+      "profileUrl": "https://physics.anu.edu.au/contact/people/profile.php?ID=2353",
+      "email": "",
+      "office": "",
+      "linkedCourses": [],
+      "reviewMetrics": [
+        "Clarity",
+        "Support",
+        "Engagement"
+      ],
+      "tags": [
+        "physics"
       ]
     },
     {
@@ -13803,6 +17459,28 @@ window.ANREVIEW_DATA = {
       ]
     },
     {
+      "id": "phys-lindsey-bignell",
+      "type": "academic",
+      "name": "Lindsey Bignell",
+      "position": "Dr",
+      "focus": "Physics",
+      "school": "Research School of Physics",
+      "schoolCode": "PHYS",
+      "college": "ANU College of Science and Medicine",
+      "profileUrl": "https://physics.anu.edu.au/contact/people/profile.php?ID=2180",
+      "email": "",
+      "office": "",
+      "linkedCourses": [],
+      "reviewMetrics": [
+        "Clarity",
+        "Support",
+        "Engagement"
+      ],
+      "tags": [
+        "physics"
+      ]
+    },
+    {
       "id": "lisa-strelein",
       "type": "academic",
       "name": "Lisa Strelein",
@@ -13823,6 +17501,28 @@ window.ANREVIEW_DATA = {
         "Clarity",
         "Support",
         "Engagement"
+      ]
+    },
+    {
+      "id": "phys-louisa-o-connor",
+      "type": "academic",
+      "name": "Louisa O'Connor",
+      "position": "Dr",
+      "focus": "Physics",
+      "school": "Research School of Physics",
+      "schoolCode": "PHYS",
+      "college": "ANU College of Science and Medicine",
+      "profileUrl": "https://physics.anu.edu.au/contact/people/profile.php?ID=3121",
+      "email": "",
+      "office": "",
+      "linkedCourses": [],
+      "reviewMetrics": [
+        "Clarity",
+        "Support",
+        "Engagement"
+      ],
+      "tags": [
+        "physics"
       ]
     },
     {
@@ -13849,6 +17549,28 @@ window.ANREVIEW_DATA = {
       ]
     },
     {
+      "id": "phys-ludovic-essor-rapp",
+      "type": "academic",
+      "name": "Ludovic essor Rapp",
+      "position": "Associate Professor",
+      "focus": "Physics",
+      "school": "Research School of Physics",
+      "schoolCode": "PHYS",
+      "college": "ANU College of Science and Medicine",
+      "profileUrl": "https://physics.anu.edu.au/contact/people/profile.php?ID=1202",
+      "email": "",
+      "office": "",
+      "linkedCourses": [],
+      "reviewMetrics": [
+        "Clarity",
+        "Support",
+        "Engagement"
+      ],
+      "tags": [
+        "physics"
+      ]
+    },
+    {
       "id": "lynn-dumoulin",
       "type": "academic",
       "name": "Lynn DuMoulin",
@@ -13869,6 +17591,160 @@ window.ANREVIEW_DATA = {
         "Clarity",
         "Support",
         "Engagement"
+      ]
+    },
+    {
+      "id": "phys-maarten-vos",
+      "type": "academic",
+      "name": "Maarten Vos",
+      "position": "Associate Professor",
+      "focus": "Physics",
+      "school": "Research School of Physics",
+      "schoolCode": "PHYS",
+      "college": "ANU College of Science and Medicine",
+      "profileUrl": "https://physics.anu.edu.au/contact/people/profile.php?ID=25",
+      "email": "",
+      "office": "",
+      "linkedCourses": [],
+      "reviewMetrics": [
+        "Clarity",
+        "Support",
+        "Engagement"
+      ],
+      "tags": [
+        "physics"
+      ]
+    },
+    {
+      "id": "phys-mahananda-dasgupta",
+      "type": "academic",
+      "name": "Mahananda Dasgupta",
+      "position": "Professor",
+      "focus": "Physics",
+      "school": "Research School of Physics",
+      "schoolCode": "PHYS",
+      "college": "ANU College of Science and Medicine",
+      "profileUrl": "https://physics.anu.edu.au/contact/people/profile.php?ID=146",
+      "email": "",
+      "office": "",
+      "linkedCourses": [],
+      "reviewMetrics": [
+        "Clarity",
+        "Support",
+        "Engagement"
+      ],
+      "tags": [
+        "physics"
+      ]
+    },
+    {
+      "id": "phys-mahdi-davoodianidalik",
+      "type": "academic",
+      "name": "Mahdi Davoodianidalik",
+      "position": "Dr",
+      "focus": "Physics",
+      "school": "Research School of Physics",
+      "schoolCode": "PHYS",
+      "college": "ANU College of Science and Medicine",
+      "profileUrl": "https://physics.anu.edu.au/contact/people/profile.php?ID=2264",
+      "email": "",
+      "office": "",
+      "linkedCourses": [],
+      "reviewMetrics": [
+        "Clarity",
+        "Support",
+        "Engagement"
+      ],
+      "tags": [
+        "physics"
+      ]
+    },
+    {
+      "id": "phys-mahyar-madadi",
+      "type": "academic",
+      "name": "Mahyar Madadi",
+      "position": "Dr",
+      "focus": "Physics",
+      "school": "Research School of Physics",
+      "schoolCode": "PHYS",
+      "college": "ANU College of Science and Medicine",
+      "profileUrl": "https://physics.anu.edu.au/contact/people/profile.php?ID=65",
+      "email": "",
+      "office": "",
+      "linkedCourses": [],
+      "reviewMetrics": [
+        "Clarity",
+        "Support",
+        "Engagement"
+      ],
+      "tags": [
+        "physics"
+      ]
+    },
+    {
+      "id": "cyb-maia-gould",
+      "type": "academic",
+      "name": "Maia Gould",
+      "position": "Associate Professor",
+      "focus": "School of Cybernetics",
+      "school": "School of Cybernetics",
+      "schoolCode": "CYB",
+      "college": "ANU College of Systems and Society",
+      "profileUrl": "https://cybernetics.anu.edu.au/people/maia-gould/",
+      "email": "Maia.Gould@anu.edu.au",
+      "office": "Birch Building",
+      "linkedCourses": [],
+      "reviewMetrics": [
+        "Clarity",
+        "Support",
+        "Engagement"
+      ],
+      "tags": [
+        "cyb"
+      ]
+    },
+    {
+      "id": "phys-malcolm-gray",
+      "type": "academic",
+      "name": "Malcolm Gray",
+      "position": "Associate Professor",
+      "focus": "Physics",
+      "school": "Research School of Physics",
+      "schoolCode": "PHYS",
+      "college": "ANU College of Science and Medicine",
+      "profileUrl": "https://physics.anu.edu.au/contact/people/profile.php?ID=1903",
+      "email": "",
+      "office": "",
+      "linkedCourses": [],
+      "reviewMetrics": [
+        "Clarity",
+        "Support",
+        "Engagement"
+      ],
+      "tags": [
+        "physics"
+      ]
+    },
+    {
+      "id": "phys-marcus-doherty",
+      "type": "academic",
+      "name": "Marcus Doherty",
+      "position": "Dr",
+      "focus": "Physics",
+      "school": "Research School of Physics",
+      "schoolCode": "PHYS",
+      "college": "ANU College of Science and Medicine",
+      "profileUrl": "https://physics.anu.edu.au/contact/people/profile.php?ID=1355",
+      "email": "",
+      "office": "",
+      "linkedCourses": [],
+      "reviewMetrics": [
+        "Clarity",
+        "Support",
+        "Engagement"
+      ],
+      "tags": [
+        "physics"
       ]
     },
     {
@@ -13893,6 +17769,50 @@ window.ANREVIEW_DATA = {
         "Clarity",
         "Support",
         "Engagement"
+      ]
+    },
+    {
+      "id": "phys-maria-del-rocio-camacho-morales",
+      "type": "academic",
+      "name": "Maria del Rocio Camacho-Morales",
+      "position": "Dr",
+      "focus": "Physics",
+      "school": "Research School of Physics",
+      "schoolCode": "PHYS",
+      "college": "ANU College of Science and Medicine",
+      "profileUrl": "https://physics.anu.edu.au/contact/people/profile.php?ID=1924",
+      "email": "",
+      "office": "",
+      "linkedCourses": [],
+      "reviewMetrics": [
+        "Clarity",
+        "Support",
+        "Engagement"
+      ],
+      "tags": [
+        "physics"
+      ]
+    },
+    {
+      "id": "phys-mariam-akhtar",
+      "type": "academic",
+      "name": "Mariam Akhtar",
+      "position": "Dr",
+      "focus": "Physics",
+      "school": "Research School of Physics",
+      "schoolCode": "PHYS",
+      "college": "ANU College of Science and Medicine",
+      "profileUrl": "https://physics.anu.edu.au/contact/people/profile.php?ID=3025",
+      "email": "",
+      "office": "",
+      "linkedCourses": [],
+      "reviewMetrics": [
+        "Clarity",
+        "Support",
+        "Engagement"
+      ],
+      "tags": [
+        "physics"
       ]
     },
     {
@@ -13942,6 +17862,28 @@ window.ANREVIEW_DATA = {
       ]
     },
     {
+      "id": "phys-mark-knackstedt",
+      "type": "academic",
+      "name": "Mark Knackstedt",
+      "position": "Professor",
+      "focus": "Physics",
+      "school": "Research School of Physics",
+      "schoolCode": "PHYS",
+      "college": "ANU College of Science and Medicine",
+      "profileUrl": "https://physics.anu.edu.au/contact/people/profile.php?ID=52",
+      "email": "",
+      "office": "",
+      "linkedCourses": [],
+      "reviewMetrics": [
+        "Clarity",
+        "Support",
+        "Engagement"
+      ],
+      "tags": [
+        "physics"
+      ]
+    },
+    {
       "id": "mark-nolan",
       "type": "academic",
       "name": "Mark Nolan",
@@ -13962,6 +17904,50 @@ window.ANREVIEW_DATA = {
         "Clarity",
         "Support",
         "Engagement"
+      ]
+    },
+    {
+      "id": "phys-mary-gray",
+      "type": "academic",
+      "name": "Mary Gray",
+      "position": "Dr",
+      "focus": "Physics",
+      "school": "Research School of Physics",
+      "schoolCode": "PHYS",
+      "college": "ANU College of Science and Medicine",
+      "profileUrl": "https://physics.anu.edu.au/contact/people/profile.php?ID=2729",
+      "email": "",
+      "office": "",
+      "linkedCourses": [],
+      "reviewMetrics": [
+        "Clarity",
+        "Support",
+        "Engagement"
+      ],
+      "tags": [
+        "physics"
+      ]
+    },
+    {
+      "id": "phys-maryna-bilokur",
+      "type": "academic",
+      "name": "Maryna Bilokur",
+      "position": "Dr",
+      "focus": "Physics",
+      "school": "Research School of Physics",
+      "schoolCode": "PHYS",
+      "college": "ANU College of Science and Medicine",
+      "profileUrl": "https://physics.anu.edu.au/contact/people/profile.php?ID=2951",
+      "email": "",
+      "office": "",
+      "linkedCourses": [],
+      "reviewMetrics": [
+        "Clarity",
+        "Support",
+        "Engagement"
+      ],
+      "tags": [
+        "physics"
       ]
     },
     {
@@ -14012,6 +17998,28 @@ window.ANREVIEW_DATA = {
       ]
     },
     {
+      "id": "comp-matthew-hole",
+      "type": "academic",
+      "name": "Matthew Hole",
+      "position": "Professor ITER Science Fellow",
+      "focus": "School of Computing",
+      "school": "School of Computing",
+      "schoolCode": "COMP",
+      "college": "ANU College of Systems and Society",
+      "profileUrl": "https://comp.anu.edu.au/people/matthew-hole/",
+      "email": "matthew.hole@anu.edu.au",
+      "office": "+61 2 6125 7606 Hanna Neumann Building 145, Office 3.56",
+      "linkedCourses": [],
+      "reviewMetrics": [
+        "Clarity",
+        "Support",
+        "Engagement"
+      ],
+      "tags": [
+        "comp"
+      ]
+    },
+    {
       "id": "matthew-lilley",
       "type": "academic",
       "name": "Matthew Lilley",
@@ -14057,6 +18065,50 @@ window.ANREVIEW_DATA = {
       ]
     },
     {
+      "id": "phys-matthew-parry",
+      "type": "academic",
+      "name": "Matthew Parry",
+      "position": "Dr",
+      "focus": "Physics",
+      "school": "Research School of Physics",
+      "schoolCode": "PHYS",
+      "college": "ANU College of Science and Medicine",
+      "profileUrl": "https://physics.anu.edu.au/contact/people/profile.php?ID=1999",
+      "email": "",
+      "office": "",
+      "linkedCourses": [],
+      "reviewMetrics": [
+        "Clarity",
+        "Support",
+        "Engagement"
+      ],
+      "tags": [
+        "physics"
+      ]
+    },
+    {
+      "id": "phys-matthew-quinn",
+      "type": "academic",
+      "name": "Matthew Quinn",
+      "position": "Dr",
+      "focus": "Physics",
+      "school": "Research School of Physics",
+      "schoolCode": "PHYS",
+      "college": "ANU College of Science and Medicine",
+      "profileUrl": "https://physics.anu.edu.au/contact/people/profile.php?ID=1872",
+      "email": "",
+      "office": "",
+      "linkedCourses": [],
+      "reviewMetrics": [
+        "Clarity",
+        "Support",
+        "Engagement"
+      ],
+      "tags": [
+        "physics"
+      ]
+    },
+    {
       "id": "matthew-zagor",
       "type": "academic",
       "name": "Matthew Zagor",
@@ -14080,6 +18132,50 @@ window.ANREVIEW_DATA = {
       ]
     },
     {
+      "id": "comp-mengxuan-zhang",
+      "type": "academic",
+      "name": "Mengxuan Zhang",
+      "position": "Senior Lecturer",
+      "focus": "School of Computing",
+      "school": "School of Computing",
+      "schoolCode": "COMP",
+      "college": "ANU College of Systems and Society",
+      "profileUrl": "https://comp.anu.edu.au/people/mengxuan-zhang/",
+      "email": "mengxuan.zhang@anu.edu.au",
+      "office": "+61 2 6125 9005 Hanna Neumann Building #145, Office 3.14",
+      "linkedCourses": [],
+      "reviewMetrics": [
+        "Clarity",
+        "Support",
+        "Engagement"
+      ],
+      "tags": [
+        "comp"
+      ]
+    },
+    {
+      "id": "comp-miaomiao-liu",
+      "type": "academic",
+      "name": "Miaomiao Liu",
+      "position": "Associate Professor MMLCV Convener",
+      "focus": "School of Computing",
+      "school": "School of Computing",
+      "schoolCode": "COMP",
+      "college": "ANU College of Systems and Society",
+      "profileUrl": "https://comp.anu.edu.au/people/miaomiao-liu/",
+      "email": "miaomiao.liu@anu.edu.au",
+      "office": "+61 2 6125 3723 Brian Anderson Building 115, Office B158",
+      "linkedCourses": [],
+      "reviewMetrics": [
+        "Clarity",
+        "Support",
+        "Engagement"
+      ],
+      "tags": [
+        "comp"
+      ]
+    },
+    {
       "id": "michael-bliss",
       "type": "academic",
       "name": "Michael Bliss",
@@ -14100,6 +18196,72 @@ window.ANREVIEW_DATA = {
         "Clarity",
         "Support",
         "Engagement"
+      ]
+    },
+    {
+      "id": "phys-michael-fraser",
+      "type": "academic",
+      "name": "Michael Fraser",
+      "position": "Dr",
+      "focus": "Physics",
+      "school": "Research School of Physics",
+      "schoolCode": "PHYS",
+      "college": "ANU College of Science and Medicine",
+      "profileUrl": "https://physics.anu.edu.au/contact/people/profile.php?ID=1408",
+      "email": "",
+      "office": "",
+      "linkedCourses": [],
+      "reviewMetrics": [
+        "Clarity",
+        "Support",
+        "Engagement"
+      ],
+      "tags": [
+        "physics"
+      ]
+    },
+    {
+      "id": "phys-michael-hall",
+      "type": "academic",
+      "name": "Michael Hall",
+      "position": "Dr",
+      "focus": "Physics",
+      "school": "Research School of Physics",
+      "schoolCode": "PHYS",
+      "college": "ANU College of Science and Medicine",
+      "profileUrl": "https://physics.anu.edu.au/contact/people/profile.php?ID=984",
+      "email": "",
+      "office": "",
+      "linkedCourses": [],
+      "reviewMetrics": [
+        "Clarity",
+        "Support",
+        "Engagement"
+      ],
+      "tags": [
+        "physics"
+      ]
+    },
+    {
+      "id": "phys-michael-ireland",
+      "type": "academic",
+      "name": "Michael Ireland",
+      "position": "Associate Professor",
+      "focus": "Physics",
+      "school": "Research School of Physics",
+      "schoolCode": "PHYS",
+      "college": "ANU College of Science and Medicine",
+      "profileUrl": "https://physics.anu.edu.au/contact/people/profile.php?ID=2792",
+      "email": "",
+      "office": "",
+      "linkedCourses": [],
+      "reviewMetrics": [
+        "Clarity",
+        "Support",
+        "Engagement"
+      ],
+      "tags": [
+        "physics"
       ]
     },
     {
@@ -14149,6 +18311,116 @@ window.ANREVIEW_DATA = {
       ]
     },
     {
+      "id": "comp-michael-norrish",
+      "type": "academic",
+      "name": "Michael Norrish",
+      "position": "Associate Professor Computing Foundations Lead BAC Convener",
+      "focus": "School of Computing",
+      "school": "School of Computing",
+      "schoolCode": "COMP",
+      "college": "ANU College of Systems and Society",
+      "profileUrl": "https://comp.anu.edu.au/people/michael-norrish/",
+      "email": "Michael.Norrish@anu.edu.au",
+      "office": "Skaidrite Darius Building 108, Office N233",
+      "linkedCourses": [],
+      "reviewMetrics": [
+        "Clarity",
+        "Support",
+        "Engagement"
+      ],
+      "tags": [
+        "comp"
+      ]
+    },
+    {
+      "id": "phys-michael-shats",
+      "type": "academic",
+      "name": "Michael Shats",
+      "position": "Professor",
+      "focus": "Physics",
+      "school": "Research School of Physics",
+      "schoolCode": "PHYS",
+      "college": "ANU College of Science and Medicine",
+      "profileUrl": "https://physics.anu.edu.au/contact/people/profile.php?ID=415",
+      "email": "",
+      "office": "",
+      "linkedCourses": [],
+      "reviewMetrics": [
+        "Clarity",
+        "Support",
+        "Engagement"
+      ],
+      "tags": [
+        "physics"
+      ]
+    },
+    {
+      "id": "phys-michael-smith",
+      "type": "academic",
+      "name": "Michael Smith",
+      "position": "Dr",
+      "focus": "Physics",
+      "school": "Research School of Physics",
+      "schoolCode": "PHYS",
+      "college": "ANU College of Science and Medicine",
+      "profileUrl": "https://physics.anu.edu.au/contact/people/profile.php?ID=601",
+      "email": "",
+      "office": "",
+      "linkedCourses": [],
+      "reviewMetrics": [
+        "Clarity",
+        "Support",
+        "Engagement"
+      ],
+      "tags": [
+        "physics"
+      ]
+    },
+    {
+      "id": "phys-michael-turner",
+      "type": "academic",
+      "name": "Michael Turner",
+      "position": "Dr",
+      "focus": "Physics",
+      "school": "Research School of Physics",
+      "schoolCode": "PHYS",
+      "college": "ANU College of Science and Medicine",
+      "profileUrl": "https://physics.anu.edu.au/contact/people/profile.php?ID=45",
+      "email": "",
+      "office": "",
+      "linkedCourses": [],
+      "reviewMetrics": [
+        "Clarity",
+        "Support",
+        "Engagement"
+      ],
+      "tags": [
+        "physics"
+      ]
+    },
+    {
+      "id": "phys-michaela-froehlich",
+      "type": "academic",
+      "name": "Michaela Froehlich",
+      "position": "Dr",
+      "focus": "Physics",
+      "school": "Research School of Physics",
+      "schoolCode": "PHYS",
+      "college": "ANU College of Science and Medicine",
+      "profileUrl": "https://physics.anu.edu.au/contact/people/profile.php?ID=1315",
+      "email": "",
+      "office": "",
+      "linkedCourses": [],
+      "reviewMetrics": [
+        "Clarity",
+        "Support",
+        "Engagement"
+      ],
+      "tags": [
+        "physics"
+      ]
+    },
+    {
       "id": "michelle-worthington",
       "type": "academic",
       "name": "Michelle Worthington",
@@ -14192,6 +18464,72 @@ window.ANREVIEW_DATA = {
         "Clarity",
         "Support",
         "Engagement"
+      ]
+    },
+    {
+      "id": "phys-mika-kohonen",
+      "type": "academic",
+      "name": "Mika Kohonen",
+      "position": "Dr",
+      "focus": "Physics",
+      "school": "Research School of Physics",
+      "schoolCode": "PHYS",
+      "college": "ANU College of Science and Medicine",
+      "profileUrl": "https://physics.anu.edu.au/contact/people/profile.php?ID=919",
+      "email": "",
+      "office": "",
+      "linkedCourses": [],
+      "reviewMetrics": [
+        "Clarity",
+        "Support",
+        "Engagement"
+      ],
+      "tags": [
+        "physics"
+      ]
+    },
+    {
+      "id": "phys-mikhail-lapine",
+      "type": "academic",
+      "name": "Mikhail Lapine",
+      "position": "Associate Professor",
+      "focus": "Physics",
+      "school": "Research School of Physics",
+      "schoolCode": "PHYS",
+      "college": "ANU College of Science and Medicine",
+      "profileUrl": "https://physics.anu.edu.au/contact/people/profile.php?ID=398",
+      "email": "",
+      "office": "",
+      "linkedCourses": [],
+      "reviewMetrics": [
+        "Clarity",
+        "Support",
+        "Engagement"
+      ],
+      "tags": [
+        "physics"
+      ]
+    },
+    {
+      "id": "comp-minh-bui",
+      "type": "academic",
+      "name": "Minh Bui",
+      "position": "Associate Professor HDR Convener Computational Science",
+      "focus": "School of Computing",
+      "school": "School of Computing",
+      "schoolCode": "COMP",
+      "college": "ANU College of Systems and Society",
+      "profileUrl": "https://comp.anu.edu.au/people/minh-bui/",
+      "email": "m.bui@anu.edu.au",
+      "office": "+61 2 6125 0047 Hanna Neumann Building 145, Office 4.25",
+      "linkedCourses": [],
+      "reviewMetrics": [
+        "Clarity",
+        "Support",
+        "Engagement"
+      ],
+      "tags": [
+        "comp"
       ]
     },
     {
@@ -14284,6 +18622,28 @@ window.ANREVIEW_DATA = {
         "Clarity",
         "Support",
         "Engagement"
+      ]
+    },
+    {
+      "id": "phys-morgan-hedges",
+      "type": "academic",
+      "name": "Morgan Hedges",
+      "position": "Dr",
+      "focus": "Physics",
+      "school": "Research School of Physics",
+      "schoolCode": "PHYS",
+      "college": "ANU College of Science and Medicine",
+      "profileUrl": "https://physics.anu.edu.au/contact/people/profile.php?ID=503",
+      "email": "",
+      "office": "",
+      "linkedCourses": [],
+      "reviewMetrics": [
+        "Clarity",
+        "Support",
+        "Engagement"
+      ],
+      "tags": [
+        "physics"
       ]
     },
     {
@@ -14862,6 +19222,72 @@ window.ANREVIEW_DATA = {
       ]
     },
     {
+      "id": "comp-muhammad-farhan",
+      "type": "academic",
+      "name": "Muhammad Farhan",
+      "position": "Research Fellow",
+      "focus": "School of Computing",
+      "school": "School of Computing",
+      "schoolCode": "COMP",
+      "college": "ANU College of Systems and Society",
+      "profileUrl": "https://comp.anu.edu.au/people/muhammad-farhan/",
+      "email": "muhammad.farhan@anu.edu.au",
+      "office": "Hanna Neumann Building 145, Office 4.27",
+      "linkedCourses": [],
+      "reviewMetrics": [
+        "Clarity",
+        "Support",
+        "Engagement"
+      ],
+      "tags": [
+        "comp"
+      ]
+    },
+    {
+      "id": "phys-mukunda-honorary-das",
+      "type": "academic",
+      "name": "Mukunda Honorary Das",
+      "position": "Professor",
+      "focus": "Physics",
+      "school": "Research School of Physics",
+      "schoolCode": "PHYS",
+      "college": "ANU College of Science and Medicine",
+      "profileUrl": "https://physics.anu.edu.au/contact/people/profile.php?ID=334",
+      "email": "",
+      "office": "",
+      "linkedCourses": [],
+      "reviewMetrics": [
+        "Clarity",
+        "Support",
+        "Engagement"
+      ],
+      "tags": [
+        "physics"
+      ]
+    },
+    {
+      "id": "phys-murray-batchelor",
+      "type": "academic",
+      "name": "Murray Batchelor",
+      "position": "Professor",
+      "focus": "Physics",
+      "school": "Research School of Physics",
+      "schoolCode": "PHYS",
+      "college": "ANU College of Science and Medicine",
+      "profileUrl": "https://physics.anu.edu.au/contact/people/profile.php?ID=316",
+      "email": "",
+      "office": "",
+      "linkedCourses": [],
+      "reviewMetrics": [
+        "Clarity",
+        "Support",
+        "Engagement"
+      ],
+      "tags": [
+        "physics"
+      ]
+    },
+    {
       "id": "alistair-ott",
       "type": "academic",
       "name": "Mx Alistair Ott",
@@ -14882,6 +19308,72 @@ window.ANREVIEW_DATA = {
         "Clarity",
         "Support",
         "Engagement"
+      ]
+    },
+    {
+      "id": "phys-mykhaylo-lysevych",
+      "type": "academic",
+      "name": "Mykhaylo Lysevych",
+      "position": "Dr",
+      "focus": "Physics",
+      "school": "Research School of Physics",
+      "schoolCode": "PHYS",
+      "college": "ANU College of Science and Medicine",
+      "profileUrl": "https://physics.anu.edu.au/contact/people/profile.php?ID=485",
+      "email": "",
+      "office": "",
+      "linkedCourses": [],
+      "reviewMetrics": [
+        "Clarity",
+        "Support",
+        "Engagement"
+      ],
+      "tags": [
+        "physics"
+      ]
+    },
+    {
+      "id": "phys-nail-akhmediev",
+      "type": "academic",
+      "name": "Nail Akhmediev",
+      "position": "Professor",
+      "focus": "Physics",
+      "school": "Research School of Physics",
+      "schoolCode": "PHYS",
+      "college": "ANU College of Science and Medicine",
+      "profileUrl": "https://physics.anu.edu.au/contact/people/profile.php?ID=325",
+      "email": "",
+      "office": "",
+      "linkedCourses": [],
+      "reviewMetrics": [
+        "Clarity",
+        "Support",
+        "Engagement"
+      ],
+      "tags": [
+        "physics"
+      ]
+    },
+    {
+      "id": "phys-naiyin-wang",
+      "type": "academic",
+      "name": "Naiyin Wang",
+      "position": "Dr",
+      "focus": "Physics",
+      "school": "Research School of Physics",
+      "schoolCode": "PHYS",
+      "college": "ANU College of Science and Medicine",
+      "profileUrl": "https://physics.anu.edu.au/contact/people/profile.php?ID=1786",
+      "email": "",
+      "office": "",
+      "linkedCourses": [],
+      "reviewMetrics": [
+        "Clarity",
+        "Support",
+        "Engagement"
+      ],
+      "tags": [
+        "physics"
       ]
     },
     {
@@ -14954,6 +19446,94 @@ window.ANREVIEW_DATA = {
       ]
     },
     {
+      "id": "phys-navneet-krishnan",
+      "type": "academic",
+      "name": "Navneet Krishnan",
+      "position": "Dr",
+      "focus": "Physics",
+      "school": "Research School of Physics",
+      "schoolCode": "PHYS",
+      "college": "ANU College of Science and Medicine",
+      "profileUrl": "https://physics.anu.edu.au/contact/people/profile.php?ID=2760",
+      "email": "",
+      "office": "",
+      "linkedCourses": [],
+      "reviewMetrics": [
+        "Clarity",
+        "Support",
+        "Engagement"
+      ],
+      "tags": [
+        "physics"
+      ]
+    },
+    {
+      "id": "phys-neelima-kandula",
+      "type": "academic",
+      "name": "Neelima Kandula",
+      "position": "Dr",
+      "focus": "Physics",
+      "school": "Research School of Physics",
+      "schoolCode": "PHYS",
+      "college": "ANU College of Science and Medicine",
+      "profileUrl": "https://physics.anu.edu.au/contact/people/profile.php?ID=3249",
+      "email": "",
+      "office": "",
+      "linkedCourses": [],
+      "reviewMetrics": [
+        "Clarity",
+        "Support",
+        "Engagement"
+      ],
+      "tags": [
+        "physics"
+      ]
+    },
+    {
+      "id": "phys-neil-manson",
+      "type": "academic",
+      "name": "Neil Manson",
+      "position": "Professor",
+      "focus": "Physics",
+      "school": "Research School of Physics",
+      "schoolCode": "PHYS",
+      "college": "ANU College of Science and Medicine",
+      "profileUrl": "https://physics.anu.edu.au/contact/people/profile.php?ID=351",
+      "email": "",
+      "office": "",
+      "linkedCourses": [],
+      "reviewMetrics": [
+        "Clarity",
+        "Support",
+        "Engagement"
+      ],
+      "tags": [
+        "physics"
+      ]
+    },
+    {
+      "id": "comp-nhan-ly-trong",
+      "type": "academic",
+      "name": "Nhan Ly-Trong",
+      "position": "Research Fellow",
+      "focus": "School of Computing",
+      "school": "School of Computing",
+      "schoolCode": "COMP",
+      "college": "ANU College of Systems and Society",
+      "profileUrl": "https://comp.anu.edu.au/people/nhan-ly-trong/",
+      "email": "trong.ly@anu.edu.au",
+      "office": "Hanna Neumann Building 145, Level 4",
+      "linkedCourses": [],
+      "reviewMetrics": [
+        "Clarity",
+        "Support",
+        "Engagement"
+      ],
+      "tags": [
+        "comp"
+      ]
+    },
+    {
       "id": "nicholas-seddon",
       "type": "academic",
       "name": "Nicholas Seddon",
@@ -14974,6 +19554,28 @@ window.ANREVIEW_DATA = {
         "Clarity",
         "Support",
         "Engagement"
+      ]
+    },
+    {
+      "id": "comp-nick-barnes",
+      "type": "academic",
+      "name": "Nick Barnes",
+      "position": "Professor Associate Director Academic Staff Development",
+      "focus": "School of Computing",
+      "school": "School of Computing",
+      "schoolCode": "COMP",
+      "college": "ANU College of Systems and Society",
+      "profileUrl": "https://comp.anu.edu.au/people/nick-barnes/",
+      "email": "nick.barnes@anu.edu.au",
+      "office": "+61 2 6125 2867 Brian Anderson Building 115, Office B156",
+      "linkedCourses": [],
+      "reviewMetrics": [
+        "Clarity",
+        "Support",
+        "Engagement"
+      ],
+      "tags": [
+        "comp"
       ]
     },
     {
@@ -15002,6 +19604,72 @@ window.ANREVIEW_DATA = {
       ]
     },
     {
+      "id": "phys-nicolas-associate-francois",
+      "type": "academic",
+      "name": "Nicolas Associate Francois",
+      "position": "Professor",
+      "focus": "Physics",
+      "school": "Research School of Physics",
+      "schoolCode": "PHYS",
+      "college": "ANU College of Science and Medicine",
+      "profileUrl": "https://physics.anu.edu.au/contact/people/profile.php?ID=1387",
+      "email": "",
+      "office": "",
+      "linkedCourses": [],
+      "reviewMetrics": [
+        "Clarity",
+        "Support",
+        "Engagement"
+      ],
+      "tags": [
+        "physics"
+      ]
+    },
+    {
+      "id": "phys-nikolai-lobanov",
+      "type": "academic",
+      "name": "Nikolai Lobanov",
+      "position": "Dr",
+      "focus": "Physics",
+      "school": "Research School of Physics",
+      "schoolCode": "PHYS",
+      "college": "ANU College of Science and Medicine",
+      "profileUrl": "https://physics.anu.edu.au/contact/people/profile.php?ID=147",
+      "email": "",
+      "office": "",
+      "linkedCourses": [],
+      "reviewMetrics": [
+        "Clarity",
+        "Support",
+        "Engagement"
+      ],
+      "tags": [
+        "physics"
+      ]
+    },
+    {
+      "id": "phys-nils-herrmann",
+      "type": "academic",
+      "name": "Nils Herrmann",
+      "position": "Dr",
+      "focus": "Physics",
+      "school": "Research School of Physics",
+      "schoolCode": "PHYS",
+      "college": "ANU College of Science and Medicine",
+      "profileUrl": "https://physics.anu.edu.au/contact/people/profile.php?ID=3290",
+      "email": "",
+      "office": "",
+      "linkedCourses": [],
+      "reviewMetrics": [
+        "Clarity",
+        "Support",
+        "Engagement"
+      ],
+      "tags": [
+        "physics"
+      ]
+    },
+    {
       "id": "ning-wang",
       "type": "academic",
       "name": "Ning Wang",
@@ -15022,6 +19690,204 @@ window.ANREVIEW_DATA = {
         "Clarity",
         "Support",
         "Engagement"
+      ]
+    },
+    {
+      "id": "comp-nisansala-yatapanage",
+      "type": "academic",
+      "name": "Nisansala Yatapanage",
+      "position": "Senior Lecturer Interim Associate Director Engagement and Impact FHEA, MBCS, MACM",
+      "focus": "School of Computing",
+      "school": "School of Computing",
+      "schoolCode": "COMP",
+      "college": "ANU College of Systems and Society",
+      "profileUrl": "https://comp.anu.edu.au/people/nisansala-yatapanage/",
+      "email": "nisansala.yatapanage@anu.edu.au",
+      "office": "Skaidrite Darius Building 108, Office N235",
+      "linkedCourses": [],
+      "reviewMetrics": [
+        "Clarity",
+        "Support",
+        "Engagement"
+      ],
+      "tags": [
+        "comp"
+      ]
+    },
+    {
+      "id": "phys-noemie-bastidon",
+      "type": "academic",
+      "name": "Noemie Bastidon",
+      "position": "Dr",
+      "focus": "Physics",
+      "school": "Research School of Physics",
+      "schoolCode": "PHYS",
+      "college": "ANU College of Science and Medicine",
+      "profileUrl": "https://physics.anu.edu.au/contact/people/profile.php?ID=2720",
+      "email": "",
+      "office": "",
+      "linkedCourses": [],
+      "reviewMetrics": [
+        "Clarity",
+        "Support",
+        "Engagement"
+      ],
+      "tags": [
+        "physics"
+      ]
+    },
+    {
+      "id": "phys-olaf-delgado-friedrichs",
+      "type": "academic",
+      "name": "Olaf Delgado-Friedrichs",
+      "position": "Dr",
+      "focus": "Physics",
+      "school": "Research School of Physics",
+      "schoolCode": "PHYS",
+      "college": "ANU College of Science and Medicine",
+      "profileUrl": "https://physics.anu.edu.au/contact/people/profile.php?ID=641",
+      "email": "",
+      "office": "",
+      "linkedCourses": [],
+      "reviewMetrics": [
+        "Clarity",
+        "Support",
+        "Engagement"
+      ],
+      "tags": [
+        "physics"
+      ]
+    },
+    {
+      "id": "phys-olga-bazaka",
+      "type": "academic",
+      "name": "Olga Bazaka",
+      "position": "Dr",
+      "focus": "Physics",
+      "school": "Research School of Physics",
+      "schoolCode": "PHYS",
+      "college": "ANU College of Science and Medicine",
+      "profileUrl": "https://physics.anu.edu.au/contact/people/profile.php?ID=3693",
+      "email": "",
+      "office": "",
+      "linkedCourses": [],
+      "reviewMetrics": [
+        "Clarity",
+        "Support",
+        "Engagement"
+      ],
+      "tags": [
+        "physics"
+      ]
+    },
+    {
+      "id": "phys-oliver-thearle",
+      "type": "academic",
+      "name": "Oliver Thearle",
+      "position": "Dr",
+      "focus": "Physics",
+      "school": "Research School of Physics",
+      "schoolCode": "PHYS",
+      "college": "ANU College of Science and Medicine",
+      "profileUrl": "https://physics.anu.edu.au/contact/people/profile.php?ID=1732",
+      "email": "",
+      "office": "",
+      "linkedCourses": [],
+      "reviewMetrics": [
+        "Clarity",
+        "Support",
+        "Engagement"
+      ],
+      "tags": [
+        "physics"
+      ]
+    },
+    {
+      "id": "phys-olivier-lee-cheong-lem",
+      "type": "academic",
+      "name": "Olivier Lee Cheong Lem",
+      "position": "Dr",
+      "focus": "Physics",
+      "school": "Research School of Physics",
+      "schoolCode": "PHYS",
+      "college": "ANU College of Science and Medicine",
+      "profileUrl": "https://physics.anu.edu.au/contact/people/profile.php?ID=2579",
+      "email": "",
+      "office": "",
+      "linkedCourses": [],
+      "reviewMetrics": [
+        "Clarity",
+        "Support",
+        "Engagement"
+      ],
+      "tags": [
+        "physics"
+      ]
+    },
+    {
+      "id": "phys-ornella-piccinni",
+      "type": "academic",
+      "name": "Ornella Piccinni",
+      "position": "Dr",
+      "focus": "Physics",
+      "school": "Research School of Physics",
+      "schoolCode": "PHYS",
+      "college": "ANU College of Science and Medicine",
+      "profileUrl": "https://physics.anu.edu.au/contact/people/profile.php?ID=3378",
+      "email": "",
+      "office": "",
+      "linkedCourses": [],
+      "reviewMetrics": [
+        "Clarity",
+        "Support",
+        "Engagement"
+      ],
+      "tags": [
+        "physics"
+      ]
+    },
+    {
+      "id": "phys-paal-eric-oeren",
+      "type": "academic",
+      "name": "Paal-Eric Oeren",
+      "position": "Dr",
+      "focus": "Physics",
+      "school": "Research School of Physics",
+      "schoolCode": "PHYS",
+      "college": "ANU College of Science and Medicine",
+      "profileUrl": "https://physics.anu.edu.au/contact/people/profile.php?ID=2352",
+      "email": "",
+      "office": "",
+      "linkedCourses": [],
+      "reviewMetrics": [
+        "Clarity",
+        "Support",
+        "Engagement"
+      ],
+      "tags": [
+        "physics"
+      ]
+    },
+    {
+      "id": "comp-pascal-bercher",
+      "type": "academic",
+      "name": "Pascal Bercher",
+      "position": "Associate Professor ARC DECRA Fellow",
+      "focus": "School of Computing",
+      "school": "School of Computing",
+      "schoolCode": "COMP",
+      "college": "ANU College of Systems and Society",
+      "profileUrl": "https://comp.anu.edu.au/people/pascal-bercher/",
+      "email": "pascal.bercher@anu.edu.au",
+      "office": "+61 2 6125 0322 Hanna Neumann Building 145, Office 3.36",
+      "linkedCourses": [],
+      "reviewMetrics": [
+        "Clarity",
+        "Support",
+        "Engagement"
+      ],
+      "tags": [
+        "comp"
       ]
     },
     {
@@ -15049,6 +19915,28 @@ window.ANREVIEW_DATA = {
       ]
     },
     {
+      "id": "comp-patrik-haslum",
+      "type": "academic",
+      "name": "Patrik Haslum",
+      "position": "Associate Professor HDR Co-Convener Intelligent Systems",
+      "focus": "School of Computing",
+      "school": "School of Computing",
+      "schoolCode": "COMP",
+      "college": "ANU College of Systems and Society",
+      "profileUrl": "https://comp.anu.edu.au/people/patrik-haslum/",
+      "email": "patrik.haslum@anu.edu.au",
+      "office": "+61 2 6125 1812 Hanna Neumann Building 145, Office 3.18",
+      "linkedCourses": [],
+      "reviewMetrics": [
+        "Clarity",
+        "Support",
+        "Engagement"
+      ],
+      "tags": [
+        "comp"
+      ]
+    },
+    {
       "id": "Patsypayne.com",
       "type": "academic",
       "name": "Patsy Payne",
@@ -15072,6 +19960,28 @@ window.ANREVIEW_DATA = {
       ]
     },
     {
+      "id": "phys-paul-altin",
+      "type": "academic",
+      "name": "Paul Altin",
+      "position": "Dr",
+      "focus": "Physics",
+      "school": "Research School of Physics",
+      "schoolCode": "PHYS",
+      "college": "ANU College of Science and Medicine",
+      "profileUrl": "https://physics.anu.edu.au/contact/people/profile.php?ID=224",
+      "email": "",
+      "office": "",
+      "linkedCourses": [],
+      "reviewMetrics": [
+        "Clarity",
+        "Support",
+        "Engagement"
+      ],
+      "tags": [
+        "physics"
+      ]
+    },
+    {
       "id": "paul-chen",
       "type": "academic",
       "name": "Paul Chen",
@@ -15092,6 +20002,72 @@ window.ANREVIEW_DATA = {
         "Clarity",
         "Support",
         "Engagement"
+      ]
+    },
+    {
+      "id": "phys-paul-fraser",
+      "type": "academic",
+      "name": "Paul Fraser",
+      "position": "Dr",
+      "focus": "Physics",
+      "school": "Research School of Physics",
+      "schoolCode": "PHYS",
+      "college": "ANU College of Science and Medicine",
+      "profileUrl": "https://physics.anu.edu.au/contact/people/profile.php?ID=3253",
+      "email": "",
+      "office": "",
+      "linkedCourses": [],
+      "reviewMetrics": [
+        "Clarity",
+        "Support",
+        "Engagement"
+      ],
+      "tags": [
+        "physics"
+      ]
+    },
+    {
+      "id": "phys-paul-sibley",
+      "type": "academic",
+      "name": "Paul Sibley",
+      "position": "Dr",
+      "focus": "Physics",
+      "school": "Research School of Physics",
+      "schoolCode": "PHYS",
+      "college": "ANU College of Science and Medicine",
+      "profileUrl": "https://physics.anu.edu.au/contact/people/profile.php?ID=1976",
+      "email": "",
+      "office": "",
+      "linkedCourses": [],
+      "reviewMetrics": [
+        "Clarity",
+        "Support",
+        "Engagement"
+      ],
+      "tags": [
+        "physics"
+      ]
+    },
+    {
+      "id": "cyb-paul-wong",
+      "type": "academic",
+      "name": "Paul Wong",
+      "position": "Senior Lecturer",
+      "focus": "School of Cybernetics",
+      "school": "School of Cybernetics",
+      "schoolCode": "CYB",
+      "college": "ANU College of Systems and Society",
+      "profileUrl": "https://cybernetics.anu.edu.au/people/paul-wong/",
+      "email": "Paul.Wong@anu.edu.au",
+      "office": "Birch Building",
+      "linkedCourses": [],
+      "reviewMetrics": [
+        "Clarity",
+        "Support",
+        "Engagement"
+      ],
+      "tags": [
+        "cyb"
       ]
     },
     {
@@ -15138,6 +20114,50 @@ window.ANREVIEW_DATA = {
         "Clarity",
         "Support",
         "Engagement"
+      ]
+    },
+    {
+      "id": "phys-pavel-tonkaev",
+      "type": "academic",
+      "name": "Pavel Tonkaev",
+      "position": "Dr",
+      "focus": "Physics",
+      "school": "Research School of Physics",
+      "schoolCode": "PHYS",
+      "college": "ANU College of Science and Medicine",
+      "profileUrl": "https://physics.anu.edu.au/contact/people/profile.php?ID=2873",
+      "email": "",
+      "office": "",
+      "linkedCourses": [],
+      "reviewMetrics": [
+        "Clarity",
+        "Support",
+        "Engagement"
+      ],
+      "tags": [
+        "physics"
+      ]
+    },
+    {
+      "id": "comp-penny-kyburz",
+      "type": "academic",
+      "name": "Penny Kyburz",
+      "position": "Professor SFHEA, IEEE Senior Member Associate Dean (Education)",
+      "focus": "School of Computing",
+      "school": "School of Computing",
+      "schoolCode": "COMP",
+      "college": "ANU College of Systems and Society",
+      "profileUrl": "https://comp.anu.edu.au/people/penny-kyburz/",
+      "email": "penny.kyburz@anu.edu.au",
+      "office": "Skaidrite Darius Building 108, Office N330",
+      "linkedCourses": [],
+      "reviewMetrics": [
+        "Clarity",
+        "Support",
+        "Engagement"
+      ],
+      "tags": [
+        "comp"
       ]
     },
     {
@@ -15188,6 +20208,94 @@ window.ANREVIEW_DATA = {
       ]
     },
     {
+      "id": "comp-peter-christen",
+      "type": "academic",
+      "name": "Peter Christen",
+      "position": "Professor Emeritus SFHEA",
+      "focus": "School of Computing",
+      "school": "School of Computing",
+      "schoolCode": "COMP",
+      "college": "ANU College of Systems and Society",
+      "profileUrl": "https://comp.anu.edu.au/people/peter-christen/",
+      "email": "peter.christen@anu.edu.au",
+      "office": "Skaidrite Darius Building 108, Office N333",
+      "linkedCourses": [],
+      "reviewMetrics": [
+        "Clarity",
+        "Support",
+        "Engagement"
+      ],
+      "tags": [
+        "comp"
+      ]
+    },
+    {
+      "id": "comp-peter-hoefner",
+      "type": "academic",
+      "name": "Peter Hoefner",
+      "position": "Professor Associate Director Education",
+      "focus": "School of Computing",
+      "school": "School of Computing",
+      "schoolCode": "COMP",
+      "college": "ANU College of Systems and Society",
+      "profileUrl": "https://comp.anu.edu.au/people/peter-hoefner/",
+      "email": "peter.hoefner@anu.edu.au",
+      "office": "+61 2 6125 0159 Skaidrite Darius Building 108, Office N234",
+      "linkedCourses": [],
+      "reviewMetrics": [
+        "Clarity",
+        "Support",
+        "Engagement"
+      ],
+      "tags": [
+        "comp"
+      ]
+    },
+    {
+      "id": "phys-peter-linardakis",
+      "type": "academic",
+      "name": "Peter Linardakis",
+      "position": "Dr",
+      "focus": "Physics",
+      "school": "Research School of Physics",
+      "schoolCode": "PHYS",
+      "college": "ANU College of Science and Medicine",
+      "profileUrl": "https://physics.anu.edu.au/contact/people/profile.php?ID=1441",
+      "email": "",
+      "office": "",
+      "linkedCourses": [],
+      "reviewMetrics": [
+        "Clarity",
+        "Support",
+        "Engagement"
+      ],
+      "tags": [
+        "physics"
+      ]
+    },
+    {
+      "id": "phys-peter-riggs",
+      "type": "academic",
+      "name": "Peter Riggs",
+      "position": "Dr",
+      "focus": "Physics",
+      "school": "Research School of Physics",
+      "schoolCode": "PHYS",
+      "college": "ANU College of Science and Medicine",
+      "profileUrl": "https://physics.anu.edu.au/contact/people/profile.php?ID=902",
+      "email": "",
+      "office": "",
+      "linkedCourses": [],
+      "reviewMetrics": [
+        "Clarity",
+        "Support",
+        "Engagement"
+      ],
+      "tags": [
+        "physics"
+      ]
+    },
+    {
       "id": "peter-sutherland",
       "type": "academic",
       "name": "Peter Sutherland",
@@ -15211,6 +20319,72 @@ window.ANREVIEW_DATA = {
       ]
     },
     {
+      "id": "phys-peter-vouzas",
+      "type": "academic",
+      "name": "Peter Vouzas",
+      "position": "Dr",
+      "focus": "Physics",
+      "school": "Research School of Physics",
+      "schoolCode": "PHYS",
+      "college": "ANU College of Science and Medicine",
+      "profileUrl": "https://physics.anu.edu.au/contact/people/profile.php?ID=1706",
+      "email": "",
+      "office": "",
+      "linkedCourses": [],
+      "reviewMetrics": [
+        "Clarity",
+        "Support",
+        "Engagement"
+      ],
+      "tags": [
+        "physics"
+      ]
+    },
+    {
+      "id": "phys-phil-dooley",
+      "type": "academic",
+      "name": "Phil Dooley",
+      "position": "Dr",
+      "focus": "Physics",
+      "school": "Research School of Physics",
+      "schoolCode": "PHYS",
+      "college": "ANU College of Science and Medicine",
+      "profileUrl": "https://physics.anu.edu.au/contact/people/profile.php?ID=2057",
+      "email": "",
+      "office": "",
+      "linkedCourses": [],
+      "reviewMetrics": [
+        "Clarity",
+        "Support",
+        "Engagement"
+      ],
+      "tags": [
+        "physics"
+      ]
+    },
+    {
+      "id": "phys-philipp-loesel",
+      "type": "academic",
+      "name": "Philipp Loesel",
+      "position": "Dr",
+      "focus": "Physics",
+      "school": "Research School of Physics",
+      "schoolCode": "PHYS",
+      "college": "ANU College of Science and Medicine",
+      "profileUrl": "https://physics.anu.edu.au/contact/people/profile.php?ID=3160",
+      "email": "",
+      "office": "",
+      "linkedCourses": [],
+      "reviewMetrics": [
+        "Clarity",
+        "Support",
+        "Engagement"
+      ],
+      "tags": [
+        "physics"
+      ]
+    },
+    {
       "id": "philippa-ryan",
       "type": "academic",
       "name": "Philippa Ryan",
@@ -15231,6 +20405,28 @@ window.ANREVIEW_DATA = {
         "Clarity",
         "Support",
         "Engagement"
+      ]
+    },
+    {
+      "id": "phys-ping-koy-lam",
+      "type": "academic",
+      "name": "Ping Koy Lam",
+      "position": "Professor",
+      "focus": "Physics",
+      "school": "Research School of Physics",
+      "schoolCode": "PHYS",
+      "college": "ANU College of Science and Medicine",
+      "profileUrl": "https://physics.anu.edu.au/contact/people/profile.php?ID=294",
+      "email": "",
+      "office": "",
+      "linkedCourses": [],
+      "reviewMetrics": [
+        "Clarity",
+        "Support",
+        "Engagement"
+      ],
+      "tags": [
+        "physics"
       ]
     },
     {
@@ -16865,6 +22061,28 @@ window.ANREVIEW_DATA = {
         "Clarity",
         "Support",
         "Engagement"
+      ]
+    },
+    {
+      "id": "cyb-professor-angie-abdilla",
+      "type": "academic",
+      "name": "Professor Angie Abdilla",
+      "position": "Professor",
+      "focus": "School of Cybernetics",
+      "school": "School of Cybernetics",
+      "schoolCode": "CYB",
+      "college": "ANU College of Systems and Society",
+      "profileUrl": "https://cybernetics.anu.edu.au/people/Angie-Abdilla/",
+      "email": "",
+      "office": "Virtual Appointment",
+      "linkedCourses": [],
+      "reviewMetrics": [
+        "Clarity",
+        "Support",
+        "Engagement"
+      ],
+      "tags": [
+        "cyb"
       ]
     },
     {
@@ -19265,6 +24483,28 @@ window.ANREVIEW_DATA = {
       ]
     },
     {
+      "id": "phys-qingbo-sun",
+      "type": "academic",
+      "name": "Qingbo Sun",
+      "position": "Dr",
+      "focus": "Physics",
+      "school": "Research School of Physics",
+      "schoolCode": "PHYS",
+      "college": "ANU College of Science and Medicine",
+      "profileUrl": "https://physics.anu.edu.au/contact/people/profile.php?ID=2882",
+      "email": "",
+      "office": "",
+      "linkedCourses": [],
+      "reviewMetrics": [
+        "Clarity",
+        "Support",
+        "Engagement"
+      ],
+      "tags": [
+        "physics"
+      ]
+    },
+    {
       "id": "quan-vu",
       "type": "academic",
       "name": "Quan Vu",
@@ -19308,6 +24548,94 @@ window.ANREVIEW_DATA = {
         "Clarity",
         "Support",
         "Engagement"
+      ]
+    },
+    {
+      "id": "comp-rahul-shome",
+      "type": "academic",
+      "name": "Rahul Shome",
+      "position": "Senior Lecturer",
+      "focus": "School of Computing",
+      "school": "School of Computing",
+      "schoolCode": "COMP",
+      "college": "ANU College of Systems and Society",
+      "profileUrl": "https://comp.anu.edu.au/people/rahul-shome/",
+      "email": "rahul.shome@anu.edu.au",
+      "office": "Skaidrite Darius Building 108, Office N315",
+      "linkedCourses": [],
+      "reviewMetrics": [
+        "Clarity",
+        "Support",
+        "Engagement"
+      ],
+      "tags": [
+        "comp"
+      ]
+    },
+    {
+      "id": "comp-ranald-clouston",
+      "type": "academic",
+      "name": "Ranald Clouston",
+      "position": "Lecturer HDR Convener Computing Foundations MComp Co-Convener",
+      "focus": "School of Computing",
+      "school": "School of Computing",
+      "schoolCode": "COMP",
+      "college": "ANU College of Systems and Society",
+      "profileUrl": "https://comp.anu.edu.au/people/ranald-clouston/",
+      "email": "ranald.clouston@anu.edu.au",
+      "office": "+61 2 6125 7833 Skaidrite Darius Building 108, Office N214",
+      "linkedCourses": [],
+      "reviewMetrics": [
+        "Clarity",
+        "Support",
+        "Engagement"
+      ],
+      "tags": [
+        "comp"
+      ]
+    },
+    {
+      "id": "phys-ray-roberts",
+      "type": "academic",
+      "name": "Ray Roberts",
+      "position": "Dr",
+      "focus": "Physics",
+      "school": "Research School of Physics",
+      "schoolCode": "PHYS",
+      "college": "ANU College of Science and Medicine",
+      "profileUrl": "https://physics.anu.edu.au/contact/people/profile.php?ID=2218",
+      "email": "",
+      "office": "",
+      "linkedCourses": [],
+      "reviewMetrics": [
+        "Clarity",
+        "Support",
+        "Engagement"
+      ],
+      "tags": [
+        "physics"
+      ]
+    },
+    {
+      "id": "phys-raymond-chan",
+      "type": "academic",
+      "name": "Raymond Chan",
+      "position": "Dr",
+      "focus": "Physics",
+      "school": "Research School of Physics",
+      "schoolCode": "PHYS",
+      "college": "ANU College of Science and Medicine",
+      "profileUrl": "https://physics.anu.edu.au/contact/people/profile.php?ID=1745",
+      "email": "",
+      "office": "",
+      "linkedCourses": [],
+      "reviewMetrics": [
+        "Clarity",
+        "Support",
+        "Engagement"
+      ],
+      "tags": [
+        "physics"
       ]
     },
     {
@@ -19360,6 +24688,28 @@ window.ANREVIEW_DATA = {
       ]
     },
     {
+      "id": "phys-remi-bernard",
+      "type": "academic",
+      "name": "Remi Bernard",
+      "position": "Dr",
+      "focus": "Physics",
+      "school": "Research School of Physics",
+      "schoolCode": "PHYS",
+      "college": "ANU College of Science and Medicine",
+      "profileUrl": "https://physics.anu.edu.au/contact/people/profile.php?ID=2712",
+      "email": "",
+      "office": "",
+      "linkedCourses": [],
+      "reviewMetrics": [
+        "Clarity",
+        "Support",
+        "Engagement"
+      ],
+      "tags": [
+        "physics"
+      ]
+    },
+    {
       "id": "richard-chisholm",
       "type": "academic",
       "name": "Richard Chisholm",
@@ -19380,6 +24730,72 @@ window.ANREVIEW_DATA = {
         "Clarity",
         "Support",
         "Engagement"
+      ]
+    },
+    {
+      "id": "phys-richard-garrett",
+      "type": "academic",
+      "name": "Richard Garrett",
+      "position": "Dr",
+      "focus": "Physics",
+      "school": "Research School of Physics",
+      "schoolCode": "PHYS",
+      "college": "ANU College of Science and Medicine",
+      "profileUrl": "https://physics.anu.edu.au/contact/people/profile.php?ID=3312",
+      "email": "",
+      "office": "",
+      "linkedCourses": [],
+      "reviewMetrics": [
+        "Clarity",
+        "Support",
+        "Engagement"
+      ],
+      "tags": [
+        "physics"
+      ]
+    },
+    {
+      "id": "comp-richard-hartley",
+      "type": "academic",
+      "name": "Richard Hartley",
+      "position": "FRS FAA Distinguished Professor Emeritus",
+      "focus": "School of Computing",
+      "school": "School of Computing",
+      "schoolCode": "COMP",
+      "college": "ANU College of Systems and Society",
+      "profileUrl": "https://comp.anu.edu.au/people/richard-hartley/",
+      "email": "richard.hartley@anu.edu.au",
+      "office": "+61 2 6125 8668 Brian Anderson Building 115, Office B148",
+      "linkedCourses": [],
+      "reviewMetrics": [
+        "Clarity",
+        "Support",
+        "Engagement"
+      ],
+      "tags": [
+        "comp"
+      ]
+    },
+    {
+      "id": "phys-richard-henley",
+      "type": "academic",
+      "name": "Richard Henley",
+      "position": "Dr",
+      "focus": "Physics",
+      "school": "Research School of Physics",
+      "schoolCode": "PHYS",
+      "college": "ANU College of Science and Medicine",
+      "profileUrl": "https://physics.anu.edu.au/contact/people/profile.php?ID=2181",
+      "email": "",
+      "office": "",
+      "linkedCourses": [],
+      "reviewMetrics": [
+        "Clarity",
+        "Support",
+        "Engagement"
+      ],
+      "tags": [
+        "physics"
       ]
     },
     {
@@ -19429,6 +24845,72 @@ window.ANREVIEW_DATA = {
       ]
     },
     {
+      "id": "phys-rick-walsh",
+      "type": "academic",
+      "name": "Rick Walsh",
+      "position": "Dr",
+      "focus": "Physics",
+      "school": "Research School of Physics",
+      "schoolCode": "PHYS",
+      "college": "ANU College of Science and Medicine",
+      "profileUrl": "https://physics.anu.edu.au/contact/people/profile.php?ID=58",
+      "email": "",
+      "office": "",
+      "linkedCourses": [],
+      "reviewMetrics": [
+        "Clarity",
+        "Support",
+        "Engagement"
+      ],
+      "tags": [
+        "physics"
+      ]
+    },
+    {
+      "id": "phys-robert-corkery",
+      "type": "academic",
+      "name": "Robert Corkery",
+      "position": "Dr",
+      "focus": "Physics",
+      "school": "Research School of Physics",
+      "schoolCode": "PHYS",
+      "college": "ANU College of Science and Medicine",
+      "profileUrl": "https://physics.anu.edu.au/contact/people/profile.php?ID=1536",
+      "email": "",
+      "office": "",
+      "linkedCourses": [],
+      "reviewMetrics": [
+        "Clarity",
+        "Support",
+        "Engagement"
+      ],
+      "tags": [
+        "physics"
+      ]
+    },
+    {
+      "id": "phys-robert-emeritus-elliman",
+      "type": "academic",
+      "name": "Robert Emeritus Elliman",
+      "position": "Professor",
+      "focus": "Physics",
+      "school": "Research School of Physics",
+      "schoolCode": "PHYS",
+      "college": "ANU College of Science and Medicine",
+      "profileUrl": "https://physics.anu.edu.au/contact/people/profile.php?ID=105",
+      "email": "",
+      "office": "",
+      "linkedCourses": [],
+      "reviewMetrics": [
+        "Clarity",
+        "Support",
+        "Engagement"
+      ],
+      "tags": [
+        "physics"
+      ]
+    },
+    {
       "id": "robert-french",
       "type": "academic",
       "name": "Robert French",
@@ -19449,6 +24931,28 @@ window.ANREVIEW_DATA = {
         "Clarity",
         "Support",
         "Engagement"
+      ]
+    },
+    {
+      "id": "phys-robert-mceachran",
+      "type": "academic",
+      "name": "Robert McEachran",
+      "position": "Professor",
+      "focus": "Physics",
+      "school": "Research School of Physics",
+      "schoolCode": "PHYS",
+      "college": "ANU College of Science and Medicine",
+      "profileUrl": "https://physics.anu.edu.au/contact/people/profile.php?ID=38",
+      "email": "",
+      "office": "",
+      "linkedCourses": [],
+      "reviewMetrics": [
+        "Clarity",
+        "Support",
+        "Engagement"
+      ],
+      "tags": [
+        "physics"
       ]
     },
     {
@@ -19475,6 +24979,72 @@ window.ANREVIEW_DATA = {
       ]
     },
     {
+      "id": "phys-robert-renz-marcelo-gregorio",
+      "type": "academic",
+      "name": "Robert Renz Marcelo Gregorio",
+      "position": "Dr",
+      "focus": "Physics",
+      "school": "Research School of Physics",
+      "schoolCode": "PHYS",
+      "college": "ANU College of Science and Medicine",
+      "profileUrl": "https://physics.anu.edu.au/contact/people/profile.php?ID=3585",
+      "email": "",
+      "office": "",
+      "linkedCourses": [],
+      "reviewMetrics": [
+        "Clarity",
+        "Support",
+        "Engagement"
+      ],
+      "tags": [
+        "physics"
+      ]
+    },
+    {
+      "id": "phys-robert-sok",
+      "type": "academic",
+      "name": "Robert Sok",
+      "position": "Dr",
+      "focus": "Physics",
+      "school": "Research School of Physics",
+      "schoolCode": "PHYS",
+      "college": "ANU College of Science and Medicine",
+      "profileUrl": "https://physics.anu.edu.au/contact/people/profile.php?ID=56",
+      "email": "",
+      "office": "",
+      "linkedCourses": [],
+      "reviewMetrics": [
+        "Clarity",
+        "Support",
+        "Engagement"
+      ],
+      "tags": [
+        "physics"
+      ]
+    },
+    {
+      "id": "phys-robert-ward",
+      "type": "academic",
+      "name": "Robert Ward",
+      "position": "Professor",
+      "focus": "Physics",
+      "school": "Research School of Physics",
+      "schoolCode": "PHYS",
+      "college": "ANU College of Science and Medicine",
+      "profileUrl": "https://physics.anu.edu.au/contact/people/profile.php?ID=1230",
+      "email": "",
+      "office": "",
+      "linkedCourses": [],
+      "reviewMetrics": [
+        "Clarity",
+        "Support",
+        "Engagement"
+      ],
+      "tags": [
+        "physics"
+      ]
+    },
+    {
       "id": "robin-creyke",
       "type": "academic",
       "name": "Robin Creyke",
@@ -19495,6 +25065,50 @@ window.ANREVIEW_DATA = {
         "Clarity",
         "Support",
         "Engagement"
+      ]
+    },
+    {
+      "id": "comp-robin-stanton",
+      "type": "academic",
+      "name": "Robin Stanton",
+      "position": "Emeritus Professor",
+      "focus": "School of Computing",
+      "school": "School of Computing",
+      "schoolCode": "COMP",
+      "college": "ANU College of Systems and Society",
+      "profileUrl": "https://comp.anu.edu.au/people/robin-stanton/",
+      "email": "robin.stanton@anu.edu.au",
+      "office": "",
+      "linkedCourses": [],
+      "reviewMetrics": [
+        "Clarity",
+        "Support",
+        "Engagement"
+      ],
+      "tags": [
+        "comp"
+      ]
+    },
+    {
+      "id": "phys-roderick-boswell",
+      "type": "academic",
+      "name": "Roderick Boswell",
+      "position": "Professor",
+      "focus": "Physics",
+      "school": "Research School of Physics",
+      "schoolCode": "PHYS",
+      "college": "ANU College of Science and Medicine",
+      "profileUrl": "https://physics.anu.edu.au/contact/people/profile.php?ID=411",
+      "email": "",
+      "office": "",
+      "linkedCourses": [],
+      "reviewMetrics": [
+        "Clarity",
+        "Support",
+        "Engagement"
+      ],
+      "tags": [
+        "physics"
       ]
     },
     {
@@ -19544,6 +25158,116 @@ window.ANREVIEW_DATA = {
       ]
     },
     {
+      "id": "phys-rose-ahlefeldt",
+      "type": "academic",
+      "name": "Rose Ahlefeldt",
+      "position": "Associate Professor",
+      "focus": "Physics",
+      "school": "Research School of Physics",
+      "schoolCode": "PHYS",
+      "college": "ANU College of Science and Medicine",
+      "profileUrl": "https://physics.anu.edu.au/contact/people/profile.php?ID=570",
+      "email": "",
+      "office": "",
+      "linkedCourses": [],
+      "reviewMetrics": [
+        "Clarity",
+        "Support",
+        "Engagement"
+      ],
+      "tags": [
+        "physics"
+      ]
+    },
+    {
+      "id": "phys-rowina-nathan",
+      "type": "academic",
+      "name": "Rowina Nathan",
+      "position": "Dr",
+      "focus": "Physics",
+      "school": "Research School of Physics",
+      "schoolCode": "PHYS",
+      "college": "ANU College of Science and Medicine",
+      "profileUrl": "https://physics.anu.edu.au/contact/people/profile.php?ID=3653",
+      "email": "",
+      "office": "",
+      "linkedCourses": [],
+      "reviewMetrics": [
+        "Clarity",
+        "Support",
+        "Engagement"
+      ],
+      "tags": [
+        "physics"
+      ]
+    },
+    {
+      "id": "phys-rozalina-binti-zakaria",
+      "type": "academic",
+      "name": "Rozalina Binti Zakaria",
+      "position": "Associate Professor",
+      "focus": "Physics",
+      "school": "Research School of Physics",
+      "schoolCode": "PHYS",
+      "college": "ANU College of Science and Medicine",
+      "profileUrl": "https://physics.anu.edu.au/contact/people/profile.php?ID=3627",
+      "email": "",
+      "office": "",
+      "linkedCourses": [],
+      "reviewMetrics": [
+        "Clarity",
+        "Support",
+        "Engagement"
+      ],
+      "tags": [
+        "physics"
+      ]
+    },
+    {
+      "id": "phys-rugang-geng",
+      "type": "academic",
+      "name": "Rugang Geng",
+      "position": "Dr",
+      "focus": "Physics",
+      "school": "Research School of Physics",
+      "schoolCode": "PHYS",
+      "college": "ANU College of Science and Medicine",
+      "profileUrl": "https://physics.anu.edu.au/contact/people/profile.php?ID=3320",
+      "email": "",
+      "office": "",
+      "linkedCourses": [],
+      "reviewMetrics": [
+        "Clarity",
+        "Support",
+        "Engagement"
+      ],
+      "tags": [
+        "physics"
+      ]
+    },
+    {
+      "id": "comp-ruiqi-li",
+      "type": "academic",
+      "name": "Ruiqi Li",
+      "position": "Research Fellow",
+      "focus": "School of Computing",
+      "school": "School of Computing",
+      "schoolCode": "COMP",
+      "college": "ANU College of Systems and Society",
+      "profileUrl": "https://comp.anu.edu.au/people/ruiqi-li/",
+      "email": "ruiqi.li@anu.edu.au",
+      "office": "Hanna Neumann Building 145, Level 3",
+      "linkedCourses": [],
+      "reviewMetrics": [
+        "Clarity",
+        "Support",
+        "Engagement"
+      ],
+      "tags": [
+        "comp"
+      ]
+    },
+    {
       "id": "ruoying-chen",
       "type": "academic",
       "name": "Ruoying Chen",
@@ -19590,6 +25314,50 @@ window.ANREVIEW_DATA = {
       ]
     },
     {
+      "id": "phys-ryan-thomas",
+      "type": "academic",
+      "name": "Ryan Thomas",
+      "position": "Dr",
+      "focus": "Physics",
+      "school": "Research School of Physics",
+      "schoolCode": "PHYS",
+      "college": "ANU College of Science and Medicine",
+      "profileUrl": "https://physics.anu.edu.au/contact/people/profile.php?ID=2823",
+      "email": "",
+      "office": "",
+      "linkedCourses": [],
+      "reviewMetrics": [
+        "Clarity",
+        "Support",
+        "Engagement"
+      ],
+      "tags": [
+        "physics"
+      ]
+    },
+    {
+      "id": "cyb-safiya-okai-ugbaje",
+      "type": "academic",
+      "name": "Safiya Okai-Ugbaje",
+      "position": "Senior Lecturer",
+      "focus": "School of Cybernetics",
+      "school": "School of Cybernetics",
+      "schoolCode": "CYB",
+      "college": "ANU College of Systems and Society",
+      "profileUrl": "https://cybernetics.anu.edu.au/people/safiya-okai-ugbaje/",
+      "email": "Safiya.Okai-Ugbaje@anu.edu.au",
+      "office": "Birch Building",
+      "linkedCourses": [],
+      "reviewMetrics": [
+        "Clarity",
+        "Support",
+        "Engagement"
+      ],
+      "tags": [
+        "cyb"
+      ]
+    },
+    {
       "id": "cap-bell-2e6ba16d-ef64-453a-99fc-c179644b47b7",
       "type": "academic",
       "name": "Salā Dr George Carter Senior",
@@ -19613,6 +25381,94 @@ window.ANREVIEW_DATA = {
       ]
     },
     {
+      "id": "phys-samuel-legge",
+      "type": "academic",
+      "name": "Samuel Legge",
+      "position": "Dr",
+      "focus": "Physics",
+      "school": "Research School of Physics",
+      "schoolCode": "PHYS",
+      "college": "ANU College of Science and Medicine",
+      "profileUrl": "https://physics.anu.edu.au/contact/people/profile.php?ID=2850",
+      "email": "",
+      "office": "",
+      "linkedCourses": [],
+      "reviewMetrics": [
+        "Clarity",
+        "Support",
+        "Engagement"
+      ],
+      "tags": [
+        "physics"
+      ]
+    },
+    {
+      "id": "comp-sandaru-seneviratne",
+      "type": "academic",
+      "name": "Sandaru Seneviratne",
+      "position": "Research Fellow",
+      "focus": "School of Computing",
+      "school": "School of Computing",
+      "schoolCode": "COMP",
+      "college": "ANU College of Systems and Society",
+      "profileUrl": "https://comp.anu.edu.au/people/sandaru-seneviratne/",
+      "email": "sandaru.seneviratne@anu.edu.au",
+      "office": "",
+      "linkedCourses": [],
+      "reviewMetrics": [
+        "Clarity",
+        "Support",
+        "Engagement"
+      ],
+      "tags": [
+        "comp"
+      ]
+    },
+    {
+      "id": "phys-sandra-elizabeth-saji",
+      "type": "academic",
+      "name": "Sandra Elizabeth Saji",
+      "position": "Dr",
+      "focus": "Physics",
+      "school": "Research School of Physics",
+      "schoolCode": "PHYS",
+      "college": "ANU College of Science and Medicine",
+      "profileUrl": "https://physics.anu.edu.au/contact/people/profile.php?ID=3323",
+      "email": "",
+      "office": "",
+      "linkedCourses": [],
+      "reviewMetrics": [
+        "Clarity",
+        "Support",
+        "Engagement"
+      ],
+      "tags": [
+        "physics"
+      ]
+    },
+    {
+      "id": "phys-sanjoy-nandi",
+      "type": "academic",
+      "name": "Sanjoy Nandi",
+      "position": "Dr",
+      "focus": "Physics",
+      "school": "Research School of Physics",
+      "schoolCode": "PHYS",
+      "college": "ANU College of Science and Medicine",
+      "profileUrl": "https://physics.anu.edu.au/contact/people/profile.php?ID=1425",
+      "email": "",
+      "office": "",
+      "linkedCourses": [],
+      "reviewMetrics": [
+        "Clarity",
+        "Support",
+        "Engagement"
+      ],
+      "tags": [
+        "physics"
+      ]
+    },
+    {
       "id": "sarah-heathcote",
       "type": "academic",
       "name": "Sarah Heathcote",
@@ -19633,6 +25489,28 @@ window.ANREVIEW_DATA = {
         "Clarity",
         "Support",
         "Engagement"
+      ]
+    },
+    {
+      "id": "phys-saranya-reddy-shriram",
+      "type": "academic",
+      "name": "Saranya Reddy Shriram",
+      "position": "Dr",
+      "focus": "Physics",
+      "school": "Research School of Physics",
+      "schoolCode": "PHYS",
+      "college": "ANU College of Science and Medicine",
+      "profileUrl": "https://physics.anu.edu.au/contact/people/profile.php?ID=3333",
+      "email": "",
+      "office": "",
+      "linkedCourses": [],
+      "reviewMetrics": [
+        "Clarity",
+        "Support",
+        "Engagement"
+      ],
+      "tags": [
+        "physics"
       ]
     },
     {
@@ -19682,6 +25560,226 @@ window.ANREVIEW_DATA = {
       ]
     },
     {
+      "id": "phys-sean-hodgman",
+      "type": "academic",
+      "name": "Sean Hodgman",
+      "position": "Dr",
+      "focus": "Physics",
+      "school": "Research School of Physics",
+      "schoolCode": "PHYS",
+      "college": "ANU College of Science and Medicine",
+      "profileUrl": "https://physics.anu.edu.au/contact/people/profile.php?ID=547",
+      "email": "",
+      "office": "",
+      "linkedCourses": [],
+      "reviewMetrics": [
+        "Clarity",
+        "Support",
+        "Engagement"
+      ],
+      "tags": [
+        "physics"
+      ]
+    },
+    {
+      "id": "phys-sergey-kruk",
+      "type": "academic",
+      "name": "Sergey Kruk",
+      "position": "Dr",
+      "focus": "Physics",
+      "school": "Research School of Physics",
+      "schoolCode": "PHYS",
+      "college": "ANU College of Science and Medicine",
+      "profileUrl": "https://physics.anu.edu.au/contact/people/profile.php?ID=1168",
+      "email": "",
+      "office": "",
+      "linkedCourses": [],
+      "reviewMetrics": [
+        "Clarity",
+        "Support",
+        "Engagement"
+      ],
+      "tags": [
+        "physics"
+      ]
+    },
+    {
+      "id": "phys-shahinur-rahman",
+      "type": "academic",
+      "name": "Shahinur Rahman",
+      "position": "Dr",
+      "focus": "Physics",
+      "school": "Research School of Physics",
+      "schoolCode": "PHYS",
+      "college": "ANU College of Science and Medicine",
+      "profileUrl": "https://physics.anu.edu.au/contact/people/profile.php?ID=2336",
+      "email": "",
+      "office": "",
+      "linkedCourses": [],
+      "reviewMetrics": [
+        "Clarity",
+        "Support",
+        "Engagement"
+      ],
+      "tags": [
+        "physics"
+      ]
+    },
+    {
+      "id": "phys-shan-liu",
+      "type": "academic",
+      "name": "Shan Liu",
+      "position": "Dr",
+      "focus": "Physics",
+      "school": "Research School of Physics",
+      "schoolCode": "PHYS",
+      "college": "ANU College of Science and Medicine",
+      "profileUrl": "https://physics.anu.edu.au/contact/people/profile.php?ID=2187",
+      "email": "",
+      "office": "",
+      "linkedCourses": [],
+      "reviewMetrics": [
+        "Clarity",
+        "Support",
+        "Engagement"
+      ],
+      "tags": [
+        "physics"
+      ]
+    },
+    {
+      "id": "phys-shane-latham",
+      "type": "academic",
+      "name": "Shane Latham",
+      "position": "Dr",
+      "focus": "Physics",
+      "school": "Research School of Physics",
+      "schoolCode": "PHYS",
+      "college": "ANU College of Science and Medicine",
+      "profileUrl": "https://physics.anu.edu.au/contact/people/profile.php?ID=50",
+      "email": "",
+      "office": "",
+      "linkedCourses": [],
+      "reviewMetrics": [
+        "Clarity",
+        "Support",
+        "Engagement"
+      ],
+      "tags": [
+        "physics"
+      ]
+    },
+    {
+      "id": "phys-shankar-dutt",
+      "type": "academic",
+      "name": "Shankar Dutt",
+      "position": "Dr",
+      "focus": "Physics",
+      "school": "Research School of Physics",
+      "schoolCode": "PHYS",
+      "college": "ANU College of Science and Medicine",
+      "profileUrl": "https://physics.anu.edu.au/contact/people/profile.php?ID=2406",
+      "email": "",
+      "office": "",
+      "linkedCourses": [],
+      "reviewMetrics": [
+        "Clarity",
+        "Support",
+        "Engagement"
+      ],
+      "tags": [
+        "physics"
+      ]
+    },
+    {
+      "id": "phys-shannon-essor-notley",
+      "type": "academic",
+      "name": "Shannon essor Notley",
+      "position": "Associate Professor",
+      "focus": "Physics",
+      "school": "Research School of Physics",
+      "schoolCode": "PHYS",
+      "college": "ANU College of Science and Medicine",
+      "profileUrl": "https://physics.anu.edu.au/contact/people/profile.php?ID=60",
+      "email": "",
+      "office": "",
+      "linkedCourses": [],
+      "reviewMetrics": [
+        "Clarity",
+        "Support",
+        "Engagement"
+      ],
+      "tags": [
+        "physics"
+      ]
+    },
+    {
+      "id": "phys-sheon-chua",
+      "type": "academic",
+      "name": "Sheon Chua",
+      "position": "Dr",
+      "focus": "Physics",
+      "school": "Research School of Physics",
+      "schoolCode": "PHYS",
+      "college": "ANU College of Science and Medicine",
+      "profileUrl": "https://physics.anu.edu.au/contact/people/profile.php?ID=2818",
+      "email": "",
+      "office": "",
+      "linkedCourses": [],
+      "reviewMetrics": [
+        "Clarity",
+        "Support",
+        "Engagement"
+      ],
+      "tags": [
+        "physics"
+      ]
+    },
+    {
+      "id": "comp-shoaib-akram",
+      "type": "academic",
+      "name": "Shoaib Akram",
+      "position": "Senior Lecturer",
+      "focus": "School of Computing",
+      "school": "School of Computing",
+      "schoolCode": "COMP",
+      "college": "ANU College of Systems and Society",
+      "profileUrl": "https://comp.anu.edu.au/people/shoaib-akram/",
+      "email": "shoaib.akram@anu.edu.au",
+      "office": "Skaidrite Darius Building 108, Office N319",
+      "linkedCourses": [],
+      "reviewMetrics": [
+        "Clarity",
+        "Support",
+        "Engagement"
+      ],
+      "tags": [
+        "comp"
+      ]
+    },
+    {
+      "id": "phys-simon-haine",
+      "type": "academic",
+      "name": "Simon Haine",
+      "position": "Dr",
+      "focus": "Physics",
+      "school": "Research School of Physics",
+      "schoolCode": "PHYS",
+      "college": "ANU College of Science and Medicine",
+      "profileUrl": "https://physics.anu.edu.au/contact/people/profile.php?ID=2476",
+      "email": "",
+      "office": "",
+      "linkedCourses": [],
+      "reviewMetrics": [
+        "Clarity",
+        "Support",
+        "Engagement"
+      ],
+      "tags": [
+        "physics"
+      ]
+    },
+    {
       "id": "cap-chl-f0231570-231f-43b4-a0ab-1613b6f95f19",
       "type": "academic",
       "name": "Sina Emde",
@@ -19728,6 +25826,50 @@ window.ANREVIEW_DATA = {
       ]
     },
     {
+      "id": "phys-stefan-pavetich",
+      "type": "academic",
+      "name": "Stefan Pavetich",
+      "position": "Dr",
+      "focus": "Physics",
+      "school": "Research School of Physics",
+      "schoolCode": "PHYS",
+      "college": "ANU College of Science and Medicine",
+      "profileUrl": "https://physics.anu.edu.au/contact/people/profile.php?ID=1861",
+      "email": "",
+      "office": "",
+      "linkedCourses": [],
+      "reviewMetrics": [
+        "Clarity",
+        "Support",
+        "Engagement"
+      ],
+      "tags": [
+        "physics"
+      ]
+    },
+    {
+      "id": "phys-stephen-associate-gibson",
+      "type": "academic",
+      "name": "Stephen Associate Gibson",
+      "position": "Professor",
+      "focus": "Physics",
+      "school": "Research School of Physics",
+      "schoolCode": "PHYS",
+      "college": "ANU College of Science and Medicine",
+      "profileUrl": "https://physics.anu.edu.au/contact/people/profile.php?ID=1",
+      "email": "",
+      "office": "",
+      "linkedCourses": [],
+      "reviewMetrics": [
+        "Clarity",
+        "Support",
+        "Engagement"
+      ],
+      "tags": [
+        "physics"
+      ]
+    },
+    {
       "id": "stephen-bottomley",
       "type": "academic",
       "name": "Stephen Bottomley",
@@ -19748,6 +25890,94 @@ window.ANREVIEW_DATA = {
         "Clarity",
         "Support",
         "Engagement"
+      ]
+    },
+    {
+      "id": "phys-stephen-buckman",
+      "type": "academic",
+      "name": "Stephen Buckman",
+      "position": "Professor",
+      "focus": "Physics",
+      "school": "Research School of Physics",
+      "schoolCode": "PHYS",
+      "college": "ANU College of Science and Medicine",
+      "profileUrl": "https://physics.anu.edu.au/contact/people/profile.php?ID=19",
+      "email": "",
+      "office": "",
+      "linkedCourses": [],
+      "reviewMetrics": [
+        "Clarity",
+        "Support",
+        "Engagement"
+      ],
+      "tags": [
+        "physics"
+      ]
+    },
+    {
+      "id": "phys-stephen-emeritus-hyde",
+      "type": "academic",
+      "name": "Stephen Emeritus Hyde",
+      "position": "Professor",
+      "focus": "Physics",
+      "school": "Research School of Physics",
+      "schoolCode": "PHYS",
+      "college": "ANU College of Science and Medicine",
+      "profileUrl": "https://physics.anu.edu.au/contact/people/profile.php?ID=70",
+      "email": "",
+      "office": "",
+      "linkedCourses": [],
+      "reviewMetrics": [
+        "Clarity",
+        "Support",
+        "Engagement"
+      ],
+      "tags": [
+        "physics"
+      ]
+    },
+    {
+      "id": "comp-stephen-gould",
+      "type": "academic",
+      "name": "Stephen Gould",
+      "position": "Professor ARC Future Fellow Intelligent Systems Lead",
+      "focus": "School of Computing",
+      "school": "School of Computing",
+      "schoolCode": "COMP",
+      "college": "ANU College of Systems and Society",
+      "profileUrl": "https://comp.anu.edu.au/people/stephen-gould/",
+      "email": "stephen.gould@anu.edu.au",
+      "office": "+61 2 6125 8642 Brian Anderson Building 115, Office B165",
+      "linkedCourses": [],
+      "reviewMetrics": [
+        "Clarity",
+        "Support",
+        "Engagement"
+      ],
+      "tags": [
+        "comp"
+      ]
+    },
+    {
+      "id": "phys-stephen-madden",
+      "type": "academic",
+      "name": "Stephen Madden",
+      "position": "Professor",
+      "focus": "Physics",
+      "school": "Research School of Physics",
+      "schoolCode": "PHYS",
+      "college": "ANU College of Science and Medicine",
+      "profileUrl": "https://physics.anu.edu.au/contact/people/profile.php?ID=348",
+      "email": "",
+      "office": "",
+      "linkedCourses": [],
+      "reviewMetrics": [
+        "Clarity",
+        "Support",
+        "Engagement"
+      ],
+      "tags": [
+        "physics"
       ]
     },
     {
@@ -19775,6 +26005,50 @@ window.ANREVIEW_DATA = {
       ]
     },
     {
+      "id": "phys-stephen-tims",
+      "type": "academic",
+      "name": "Stephen Tims",
+      "position": "Associate Professor",
+      "focus": "Physics",
+      "school": "Research School of Physics",
+      "schoolCode": "PHYS",
+      "college": "ANU College of Science and Medicine",
+      "profileUrl": "https://physics.anu.edu.au/contact/people/profile.php?ID=126",
+      "email": "",
+      "office": "",
+      "linkedCourses": [],
+      "reviewMetrics": [
+        "Clarity",
+        "Support",
+        "Engagement"
+      ],
+      "tags": [
+        "physics"
+      ]
+    },
+    {
+      "id": "comp-steve-blackburn",
+      "type": "academic",
+      "name": "Steve Blackburn",
+      "position": "Professor ACM Fellow",
+      "focus": "School of Computing",
+      "school": "School of Computing",
+      "schoolCode": "COMP",
+      "college": "ANU College of Systems and Society",
+      "profileUrl": "https://comp.anu.edu.au/people/steve-blackburn/",
+      "email": "steve.blackburn@anu.edu.au",
+      "office": "+61 2 6125 4821 Skaidrite Darius Building 108, Office N232",
+      "linkedCourses": [],
+      "reviewMetrics": [
+        "Clarity",
+        "Support",
+        "Engagement"
+      ],
+      "tags": [
+        "comp"
+      ]
+    },
+    {
       "id": "clgp-craw-steven-cork",
       "type": "academic",
       "name": "Steven Cork Adjunct",
@@ -19798,6 +26072,72 @@ window.ANREVIEW_DATA = {
       ]
     },
     {
+      "id": "phys-stjepan-marcelja",
+      "type": "academic",
+      "name": "Stjepan Marcelja",
+      "position": "Dr",
+      "focus": "Physics",
+      "school": "Research School of Physics",
+      "schoolCode": "PHYS",
+      "college": "ANU College of Science and Medicine",
+      "profileUrl": "https://physics.anu.edu.au/contact/people/profile.php?ID=634",
+      "email": "",
+      "office": "",
+      "linkedCourses": [],
+      "reviewMetrics": [
+        "Clarity",
+        "Support",
+        "Engagement"
+      ],
+      "tags": [
+        "physics"
+      ]
+    },
+    {
+      "id": "phys-stuart-szigeti",
+      "type": "academic",
+      "name": "Stuart Szigeti",
+      "position": "Dr",
+      "focus": "Physics",
+      "school": "Research School of Physics",
+      "schoolCode": "PHYS",
+      "college": "ANU College of Science and Medicine",
+      "profileUrl": "https://physics.anu.edu.au/contact/people/profile.php?ID=252",
+      "email": "",
+      "office": "",
+      "linkedCourses": [],
+      "reviewMetrics": [
+        "Clarity",
+        "Support",
+        "Engagement"
+      ],
+      "tags": [
+        "physics"
+      ]
+    },
+    {
+      "id": "phys-suk-ho-choi",
+      "type": "academic",
+      "name": "Suk-Ho Choi",
+      "position": "Professor",
+      "focus": "Physics",
+      "school": "Research School of Physics",
+      "schoolCode": "PHYS",
+      "college": "ANU College of Science and Medicine",
+      "profileUrl": "https://physics.anu.edu.au/contact/people/profile.php?ID=668",
+      "email": "",
+      "office": "",
+      "linkedCourses": [],
+      "reviewMetrics": [
+        "Clarity",
+        "Support",
+        "Engagement"
+      ],
+      "tags": [
+        "physics"
+      ]
+    },
+    {
       "id": "sumonkanti-das",
       "type": "academic",
       "name": "Sumonkanti Das",
@@ -19818,6 +26158,28 @@ window.ANREVIEW_DATA = {
         "Clarity",
         "Support",
         "Engagement"
+      ]
+    },
+    {
+      "id": "cyb-sungyeon-hong",
+      "type": "academic",
+      "name": "Sungyeon Hong",
+      "position": "Lecturer",
+      "focus": "School of Cybernetics",
+      "school": "School of Cybernetics",
+      "schoolCode": "CYB",
+      "college": "ANU College of Systems and Society",
+      "profileUrl": "https://cybernetics.anu.edu.au/people/sungyeon-hong/",
+      "email": "Sungyeon.Hong@anu.edu.au",
+      "office": "Birch Building",
+      "linkedCourses": [],
+      "reviewMetrics": [
+        "Clarity",
+        "Support",
+        "Engagement"
+      ],
+      "tags": [
+        "cyb"
       ]
     },
     {
@@ -19845,6 +26207,226 @@ window.ANREVIEW_DATA = {
       ]
     },
     {
+      "id": "comp-susan-hansen",
+      "type": "academic",
+      "name": "Susan Hansen",
+      "position": "Associate Professor",
+      "focus": "School of Computing",
+      "school": "School of Computing",
+      "schoolCode": "COMP",
+      "college": "ANU College of Systems and Society",
+      "profileUrl": "https://comp.anu.edu.au/people/susan-hansen/",
+      "email": "susan.hansen@anu.edu.au",
+      "office": "",
+      "linkedCourses": [],
+      "reviewMetrics": [
+        "Clarity",
+        "Support",
+        "Engagement"
+      ],
+      "tags": [
+        "comp"
+      ]
+    },
+    {
+      "id": "comp-sylvie-thi-baux",
+      "type": "academic",
+      "name": "Sylvie Thiébaux",
+      "position": "Senior Professor AAAI Fellow",
+      "focus": "School of Computing",
+      "school": "School of Computing",
+      "schoolCode": "COMP",
+      "college": "ANU College of Systems and Society",
+      "profileUrl": "https://comp.anu.edu.au/people/sylvie-thiebaux/",
+      "email": "sylvie.thiebaux@anu.edu.au",
+      "office": "+61 2 6125 8678 Hanna Neumann Building 145, Office 3.23",
+      "linkedCourses": [],
+      "reviewMetrics": [
+        "Clarity",
+        "Support",
+        "Engagement"
+      ],
+      "tags": [
+        "comp"
+      ]
+    },
+    {
+      "id": "phys-terry-mcrae",
+      "type": "academic",
+      "name": "Terry McRae",
+      "position": "Dr",
+      "focus": "Physics",
+      "school": "Research School of Physics",
+      "schoolCode": "PHYS",
+      "college": "ANU College of Science and Medicine",
+      "profileUrl": "https://physics.anu.edu.au/contact/people/profile.php?ID=1853",
+      "email": "",
+      "office": "",
+      "linkedCourses": [],
+      "reviewMetrics": [
+        "Clarity",
+        "Support",
+        "Engagement"
+      ],
+      "tags": [
+        "physics"
+      ]
+    },
+    {
+      "id": "phys-tezer-esat",
+      "type": "academic",
+      "name": "Tezer Esat",
+      "position": "Dr",
+      "focus": "Physics",
+      "school": "Research School of Physics",
+      "schoolCode": "PHYS",
+      "college": "ANU College of Science and Medicine",
+      "profileUrl": "https://physics.anu.edu.au/contact/people/profile.php?ID=1501",
+      "email": "",
+      "office": "",
+      "linkedCourses": [],
+      "reviewMetrics": [
+        "Clarity",
+        "Support",
+        "Engagement"
+      ],
+      "tags": [
+        "physics"
+      ]
+    },
+    {
+      "id": "comp-thang-bui",
+      "type": "academic",
+      "name": "Thang Bui",
+      "position": "Senior Lecturer CADAN, DADAN, MADAN, GCDE Convener",
+      "focus": "School of Computing",
+      "school": "School of Computing",
+      "schoolCode": "COMP",
+      "college": "ANU College of Systems and Society",
+      "profileUrl": "https://comp.anu.edu.au/people/thang-bui/",
+      "email": "Thang.Bui@anu.edu.au",
+      "office": "Hanna Neumann Building 145, Office 2.22",
+      "linkedCourses": [],
+      "reviewMetrics": [
+        "Clarity",
+        "Support",
+        "Engagement"
+      ],
+      "tags": [
+        "comp"
+      ]
+    },
+    {
+      "id": "cyb-thomas-biedermann",
+      "type": "academic",
+      "name": "Thomas Biedermann",
+      "position": "Senior Lecturer",
+      "focus": "School of Cybernetics",
+      "school": "School of Cybernetics",
+      "schoolCode": "CYB",
+      "college": "ANU College of Systems and Society",
+      "profileUrl": "https://cybernetics.anu.edu.au/people/thomas-biedermann/",
+      "email": "Thomas.Biedermann@anu.edu.au",
+      "office": "Birch Building",
+      "linkedCourses": [],
+      "reviewMetrics": [
+        "Clarity",
+        "Support",
+        "Engagement"
+      ],
+      "tags": [
+        "cyb"
+      ]
+    },
+    {
+      "id": "comp-thomas-haines",
+      "type": "academic",
+      "name": "Thomas Haines",
+      "position": "Senior Lecturer ARC DECRA Fellow",
+      "focus": "School of Computing",
+      "school": "School of Computing",
+      "schoolCode": "COMP",
+      "college": "ANU College of Systems and Society",
+      "profileUrl": "https://comp.anu.edu.au/people/thomas-haines/",
+      "email": "thomas.haines@anu.edu.au",
+      "office": "Skaidrite Darius Building 108, Office N216",
+      "linkedCourses": [],
+      "reviewMetrics": [
+        "Clarity",
+        "Support",
+        "Engagement"
+      ],
+      "tags": [
+        "comp"
+      ]
+    },
+    {
+      "id": "comp-thomas-wong",
+      "type": "academic",
+      "name": "Thomas Wong",
+      "position": "Research Fellow",
+      "focus": "School of Computing",
+      "school": "School of Computing",
+      "schoolCode": "COMP",
+      "college": "ANU College of Systems and Society",
+      "profileUrl": "https://comp.anu.edu.au/people/thomas-wong/",
+      "email": "Thomas.Wong@anu.edu.au",
+      "office": "+61413681781 RN Robertson Building, C213A",
+      "linkedCourses": [],
+      "reviewMetrics": [
+        "Clarity",
+        "Support",
+        "Engagement"
+      ],
+      "tags": [
+        "comp"
+      ]
+    },
+    {
+      "id": "comp-thushara-abhayapala",
+      "type": "academic",
+      "name": "Thushara Abhayapala",
+      "position": "Professor",
+      "focus": "School of Computing",
+      "school": "School of Computing",
+      "schoolCode": "COMP",
+      "college": "ANU College of Systems and Society",
+      "profileUrl": "https://comp.anu.edu.au/people/thushara-abhayapala/",
+      "email": "thushara.abhayapala@anu.edu.au",
+      "office": "Engineering Building (32), E211",
+      "linkedCourses": [],
+      "reviewMetrics": [
+        "Clarity",
+        "Support",
+        "Engagement"
+      ],
+      "tags": [
+        "comp"
+      ]
+    },
+    {
+      "id": "phys-tibor-emeritus-kibedi",
+      "type": "academic",
+      "name": "Tibor Emeritus Kibedi",
+      "position": "Professor",
+      "focus": "Physics",
+      "school": "Research School of Physics",
+      "schoolCode": "PHYS",
+      "college": "ANU College of Science and Medicine",
+      "profileUrl": "https://physics.anu.edu.au/contact/people/profile.php?ID=143",
+      "email": "",
+      "office": "",
+      "linkedCourses": [],
+      "reviewMetrics": [
+        "Clarity",
+        "Support",
+        "Engagement"
+      ],
+      "tags": [
+        "physics"
+      ]
+    },
+    {
       "id": "tim-bonyhady",
       "type": "academic",
       "name": "Tim Bonyhady",
@@ -19865,6 +26447,72 @@ window.ANREVIEW_DATA = {
         "Clarity",
         "Support",
         "Engagement"
+      ]
+    },
+    {
+      "id": "comp-timothy-molloy",
+      "type": "academic",
+      "name": "Timothy Molloy",
+      "position": "Senior Lecturer",
+      "focus": "School of Computing",
+      "school": "School of Computing",
+      "schoolCode": "COMP",
+      "college": "ANU College of Systems and Society",
+      "profileUrl": "https://comp.anu.edu.au/people/timothy-molloy/",
+      "email": "timothy.molloy@anu.edu.au",
+      "office": "Birch Building (35), Level 2",
+      "linkedCourses": [],
+      "reviewMetrics": [
+        "Clarity",
+        "Support",
+        "Engagement"
+      ],
+      "tags": [
+        "comp"
+      ]
+    },
+    {
+      "id": "phys-tom-mcgoram",
+      "type": "academic",
+      "name": "Tom McGoram",
+      "position": "Dr",
+      "focus": "Physics",
+      "school": "Research School of Physics",
+      "schoolCode": "PHYS",
+      "college": "ANU College of Science and Medicine",
+      "profileUrl": "https://physics.anu.edu.au/contact/people/profile.php?ID=3125",
+      "email": "",
+      "office": "",
+      "linkedCourses": [],
+      "reviewMetrics": [
+        "Clarity",
+        "Support",
+        "Engagement"
+      ],
+      "tags": [
+        "physics"
+      ]
+    },
+    {
+      "id": "phys-tom-ratcliff",
+      "type": "academic",
+      "name": "Tom Ratcliff",
+      "position": "Dr",
+      "focus": "Physics",
+      "school": "Research School of Physics",
+      "schoolCode": "PHYS",
+      "college": "ANU College of Science and Medicine",
+      "profileUrl": "https://physics.anu.edu.au/contact/people/profile.php?ID=1135",
+      "email": "",
+      "office": "",
+      "linkedCourses": [],
+      "reviewMetrics": [
+        "Clarity",
+        "Support",
+        "Engagement"
+      ],
+      "tags": [
+        "physics"
       ]
     },
     {
@@ -19891,6 +26539,160 @@ window.ANREVIEW_DATA = {
       ]
     },
     {
+      "id": "phys-tuomas-haggren",
+      "type": "academic",
+      "name": "Tuomas Haggren",
+      "position": "Dr",
+      "focus": "Physics",
+      "school": "Research School of Physics",
+      "schoolCode": "PHYS",
+      "college": "ANU College of Science and Medicine",
+      "profileUrl": "https://physics.anu.edu.au/contact/people/profile.php?ID=2444",
+      "email": "",
+      "office": "",
+      "linkedCourses": [],
+      "reviewMetrics": [
+        "Clarity",
+        "Support",
+        "Engagement"
+      ],
+      "tags": [
+        "physics"
+      ]
+    },
+    {
+      "id": "phys-ulli-troitzsch",
+      "type": "academic",
+      "name": "Ulli Troitzsch",
+      "position": "Dr",
+      "focus": "Physics",
+      "school": "Research School of Physics",
+      "schoolCode": "PHYS",
+      "college": "ANU College of Science and Medicine",
+      "profileUrl": "https://physics.anu.edu.au/contact/people/profile.php?ID=2972",
+      "email": "",
+      "office": "",
+      "linkedCourses": [],
+      "reviewMetrics": [
+        "Clarity",
+        "Support",
+        "Engagement"
+      ],
+      "tags": [
+        "physics"
+      ]
+    },
+    {
+      "id": "phys-vanessa-robins",
+      "type": "academic",
+      "name": "Vanessa Robins",
+      "position": "Dr",
+      "focus": "Physics",
+      "school": "Research School of Physics",
+      "schoolCode": "PHYS",
+      "college": "ANU College of Science and Medicine",
+      "profileUrl": "https://physics.anu.edu.au/contact/people/profile.php?ID=75",
+      "email": "",
+      "office": "",
+      "linkedCourses": [],
+      "reviewMetrics": [
+        "Clarity",
+        "Support",
+        "Engagement"
+      ],
+      "tags": [
+        "physics"
+      ]
+    },
+    {
+      "id": "phys-victor-pantano",
+      "type": "academic",
+      "name": "Victor Pantano",
+      "position": "Dr",
+      "focus": "Physics",
+      "school": "Research School of Physics",
+      "schoolCode": "PHYS",
+      "college": "ANU College of Science and Medicine",
+      "profileUrl": "https://physics.anu.edu.au/contact/people/profile.php?ID=2217",
+      "email": "",
+      "office": "",
+      "linkedCourses": [],
+      "reviewMetrics": [
+        "Clarity",
+        "Support",
+        "Engagement"
+      ],
+      "tags": [
+        "physics"
+      ]
+    },
+    {
+      "id": "phys-vikram-sharma",
+      "type": "academic",
+      "name": "Vikram Sharma",
+      "position": "Dr",
+      "focus": "Physics",
+      "school": "Research School of Physics",
+      "schoolCode": "PHYS",
+      "college": "ANU College of Science and Medicine",
+      "profileUrl": "https://physics.anu.edu.au/contact/people/profile.php?ID=3666",
+      "email": "",
+      "office": "",
+      "linkedCourses": [],
+      "reviewMetrics": [
+        "Clarity",
+        "Support",
+        "Engagement"
+      ],
+      "tags": [
+        "physics"
+      ]
+    },
+    {
+      "id": "phys-vincent-craig",
+      "type": "academic",
+      "name": "Vincent Craig",
+      "position": "Professor",
+      "focus": "Physics",
+      "school": "Research School of Physics",
+      "schoolCode": "PHYS",
+      "college": "ANU College of Science and Medicine",
+      "profileUrl": "https://physics.anu.edu.au/contact/people/profile.php?ID=73",
+      "email": "",
+      "office": "",
+      "linkedCourses": [],
+      "reviewMetrics": [
+        "Clarity",
+        "Support",
+        "Engagement"
+      ],
+      "tags": [
+        "physics"
+      ]
+    },
+    {
+      "id": "phys-vincent-daria",
+      "type": "academic",
+      "name": "Vincent Daria",
+      "position": "Dr",
+      "focus": "Physics",
+      "school": "Research School of Physics",
+      "schoolCode": "PHYS",
+      "college": "ANU College of Science and Medicine",
+      "profileUrl": "https://physics.anu.edu.au/contact/people/profile.php?ID=281",
+      "email": "",
+      "office": "",
+      "linkedCourses": [],
+      "reviewMetrics": [
+        "Clarity",
+        "Support",
+        "Engagement"
+      ],
+      "tags": [
+        "physics"
+      ]
+    },
+    {
       "id": "vivien-holmes",
       "type": "academic",
       "name": "Vivien Holmes",
@@ -19912,6 +26714,72 @@ window.ANREVIEW_DATA = {
         "Clarity",
         "Support",
         "Engagement"
+      ]
+    },
+    {
+      "id": "phys-vladimir-bazhanov",
+      "type": "academic",
+      "name": "Vladimir Bazhanov",
+      "position": "Professor",
+      "focus": "Physics",
+      "school": "Research School of Physics",
+      "schoolCode": "PHYS",
+      "college": "ANU College of Science and Medicine",
+      "profileUrl": "https://physics.anu.edu.au/contact/people/profile.php?ID=324",
+      "email": "",
+      "office": "",
+      "linkedCourses": [],
+      "reviewMetrics": [
+        "Clarity",
+        "Support",
+        "Engagement"
+      ],
+      "tags": [
+        "physics"
+      ]
+    },
+    {
+      "id": "phys-vladimir-mangazeev",
+      "type": "academic",
+      "name": "Vladimir Mangazeev",
+      "position": "Associate Professor",
+      "focus": "Physics",
+      "school": "Research School of Physics",
+      "schoolCode": "PHYS",
+      "college": "ANU College of Science and Medicine",
+      "profileUrl": "https://physics.anu.edu.au/contact/people/profile.php?ID=327",
+      "email": "",
+      "office": "",
+      "linkedCourses": [],
+      "reviewMetrics": [
+        "Clarity",
+        "Support",
+        "Engagement"
+      ],
+      "tags": [
+        "physics"
+      ]
+    },
+    {
+      "id": "phys-vladlen-shvedov",
+      "type": "academic",
+      "name": "Vladlen Shvedov",
+      "position": "Dr",
+      "focus": "Physics",
+      "school": "Research School of Physics",
+      "schoolCode": "PHYS",
+      "college": "ANU College of Science and Medicine",
+      "profileUrl": "https://physics.anu.edu.au/contact/people/profile.php?ID=361",
+      "email": "",
+      "office": "",
+      "linkedCourses": [],
+      "reviewMetrics": [
+        "Clarity",
+        "Support",
+        "Engagement"
+      ],
+      "tags": [
+        "physics"
       ]
     },
     {
@@ -19962,6 +26830,28 @@ window.ANREVIEW_DATA = {
       ]
     },
     {
+      "id": "phys-wei-wen-wong",
+      "type": "academic",
+      "name": "Wei Wen Wong",
+      "position": "Dr",
+      "focus": "Physics",
+      "school": "Research School of Physics",
+      "schoolCode": "PHYS",
+      "college": "ANU College of Science and Medicine",
+      "profileUrl": "https://physics.anu.edu.au/contact/people/profile.php?ID=2453",
+      "email": "",
+      "office": "",
+      "linkedCourses": [],
+      "reviewMetrics": [
+        "Clarity",
+        "Support",
+        "Engagement"
+      ],
+      "tags": [
+        "physics"
+      ]
+    },
+    {
       "id": "wenting-cheng",
       "type": "academic",
       "name": "Wenting Cheng",
@@ -19982,6 +26872,50 @@ window.ANREVIEW_DATA = {
         "Clarity",
         "Support",
         "Engagement"
+      ]
+    },
+    {
+      "id": "phys-wieslaw-krolikowski",
+      "type": "academic",
+      "name": "Wieslaw Krolikowski",
+      "position": "Professor",
+      "focus": "Physics",
+      "school": "Research School of Physics",
+      "schoolCode": "PHYS",
+      "college": "ANU College of Science and Medicine",
+      "profileUrl": "https://physics.anu.edu.au/contact/people/profile.php?ID=357",
+      "email": "",
+      "office": "",
+      "linkedCourses": [],
+      "reviewMetrics": [
+        "Clarity",
+        "Support",
+        "Engagement"
+      ],
+      "tags": [
+        "physics"
+      ]
+    },
+    {
+      "id": "phys-wilfred-fullagar",
+      "type": "academic",
+      "name": "Wilfred Fullagar",
+      "position": "Dr",
+      "focus": "Physics",
+      "school": "Research School of Physics",
+      "schoolCode": "PHYS",
+      "college": "ANU College of Science and Medicine",
+      "profileUrl": "https://physics.anu.edu.au/contact/people/profile.php?ID=1565",
+      "email": "",
+      "office": "",
+      "linkedCourses": [],
+      "reviewMetrics": [
+        "Clarity",
+        "Support",
+        "Engagement"
+      ],
+      "tags": [
+        "physics"
       ]
     },
     {
@@ -20031,6 +26965,160 @@ window.ANREVIEW_DATA = {
       ]
     },
     {
+      "id": "phys-wonkeun-chang",
+      "type": "academic",
+      "name": "Wonkeun Chang",
+      "position": "Dr",
+      "focus": "Physics",
+      "school": "Research School of Physics",
+      "schoolCode": "PHYS",
+      "college": "ANU College of Science and Medicine",
+      "profileUrl": "https://physics.anu.edu.au/contact/people/profile.php?ID=684",
+      "email": "",
+      "office": "",
+      "linkedCourses": [],
+      "reviewMetrics": [
+        "Clarity",
+        "Support",
+        "Engagement"
+      ],
+      "tags": [
+        "physics"
+      ]
+    },
+    {
+      "id": "phys-xi-wen-guan",
+      "type": "academic",
+      "name": "Xi-Wen Guan",
+      "position": "Professor",
+      "focus": "Physics",
+      "school": "Research School of Physics",
+      "schoolCode": "PHYS",
+      "college": "ANU College of Science and Medicine",
+      "profileUrl": "https://physics.anu.edu.au/contact/people/profile.php?ID=318",
+      "email": "",
+      "office": "",
+      "linkedCourses": [],
+      "reviewMetrics": [
+        "Clarity",
+        "Support",
+        "Engagement"
+      ],
+      "tags": [
+        "physics"
+      ]
+    },
+    {
+      "id": "comp-xiaoyu-sun",
+      "type": "academic",
+      "name": "Xiaoyu Sun",
+      "position": "Lecturer MComp Co-Convener",
+      "focus": "School of Computing",
+      "school": "School of Computing",
+      "schoolCode": "COMP",
+      "college": "ANU College of Systems and Society",
+      "profileUrl": "https://comp.anu.edu.au/people/xiaoyu-sun/",
+      "email": "Xiaoyu.sun1@anu.edu.au",
+      "office": "Skaidrite Darius Building 108, Office N324",
+      "linkedCourses": [],
+      "reviewMetrics": [
+        "Clarity",
+        "Support",
+        "Engagement"
+      ],
+      "tags": [
+        "comp"
+      ]
+    },
+    {
+      "id": "phys-xilin-lu",
+      "type": "academic",
+      "name": "Xilin Lu",
+      "position": "Dr",
+      "focus": "Physics",
+      "school": "Research School of Physics",
+      "schoolCode": "PHYS",
+      "college": "ANU College of Science and Medicine",
+      "profileUrl": "https://physics.anu.edu.au/contact/people/profile.php?ID=2358",
+      "email": "",
+      "office": "",
+      "linkedCourses": [],
+      "reviewMetrics": [
+        "Clarity",
+        "Support",
+        "Engagement"
+      ],
+      "tags": [
+        "physics"
+      ]
+    },
+    {
+      "id": "phys-xin-tan",
+      "type": "academic",
+      "name": "Xin Tan",
+      "position": "Dr",
+      "focus": "Physics",
+      "school": "Research School of Physics",
+      "schoolCode": "PHYS",
+      "college": "ANU College of Science and Medicine",
+      "profileUrl": "https://physics.anu.edu.au/contact/people/profile.php?ID=2335",
+      "email": "",
+      "office": "",
+      "linkedCourses": [],
+      "reviewMetrics": [
+        "Clarity",
+        "Support",
+        "Engagement"
+      ],
+      "tags": [
+        "physics"
+      ]
+    },
+    {
+      "id": "phys-xingshuo-huang",
+      "type": "academic",
+      "name": "Xingshuo Huang",
+      "position": "Dr",
+      "focus": "Physics",
+      "school": "Research School of Physics",
+      "schoolCode": "PHYS",
+      "college": "ANU College of Science and Medicine",
+      "profileUrl": "https://physics.anu.edu.au/contact/people/profile.php?ID=2241",
+      "email": "",
+      "office": "",
+      "linkedCourses": [],
+      "reviewMetrics": [
+        "Clarity",
+        "Support",
+        "Engagement"
+      ],
+      "tags": [
+        "physics"
+      ]
+    },
+    {
+      "id": "phys-ya-zhang",
+      "type": "academic",
+      "name": "Ya Zhang",
+      "position": "Dr",
+      "focus": "Physics",
+      "school": "Research School of Physics",
+      "schoolCode": "PHYS",
+      "college": "ANU College of Science and Medicine",
+      "profileUrl": "https://physics.anu.edu.au/contact/people/profile.php?ID=2040",
+      "email": "",
+      "office": "",
+      "linkedCourses": [],
+      "reviewMetrics": [
+        "Clarity",
+        "Support",
+        "Engagement"
+      ],
+      "tags": [
+        "physics"
+      ]
+    },
+    {
       "id": "clgp-regn-yan-zhang-0",
       "type": "academic",
       "name": "Yan Zhang Deputy",
@@ -20051,6 +27139,28 @@ window.ANREVIEW_DATA = {
       "tags": [
         "regnet",
         "regulation and governance"
+      ]
+    },
+    {
+      "id": "phys-yana-izdebskaya",
+      "type": "academic",
+      "name": "Yana Izdebskaya",
+      "position": "Dr",
+      "focus": "Physics",
+      "school": "Research School of Physics",
+      "schoolCode": "PHYS",
+      "college": "ANU College of Science and Medicine",
+      "profileUrl": "https://physics.anu.edu.au/contact/people/profile.php?ID=394",
+      "email": "",
+      "office": "",
+      "linkedCourses": [],
+      "reviewMetrics": [
+        "Clarity",
+        "Support",
+        "Engagement"
+      ],
+      "tags": [
+        "physics"
       ]
     },
     {
@@ -20100,6 +27210,270 @@ window.ANREVIEW_DATA = {
       ]
     },
     {
+      "id": "phys-yiyi-zhong",
+      "type": "academic",
+      "name": "Yiyi Zhong",
+      "position": "Dr",
+      "focus": "Physics",
+      "school": "Research School of Physics",
+      "schoolCode": "PHYS",
+      "college": "ANU College of Science and Medicine",
+      "profileUrl": "https://physics.anu.edu.au/contact/people/profile.php?ID=2382",
+      "email": "",
+      "office": "",
+      "linkedCourses": [],
+      "reviewMetrics": [
+        "Clarity",
+        "Support",
+        "Engagement"
+      ],
+      "tags": [
+        "physics"
+      ]
+    },
+    {
+      "id": "phys-yokasundery-muniandy",
+      "type": "academic",
+      "name": "Yokasundery Muniandy",
+      "position": "Dr",
+      "focus": "Physics",
+      "school": "Research School of Physics",
+      "schoolCode": "PHYS",
+      "college": "ANU College of Science and Medicine",
+      "profileUrl": "https://physics.anu.edu.au/contact/people/profile.php?ID=3669",
+      "email": "",
+      "office": "",
+      "linkedCourses": [],
+      "reviewMetrics": [
+        "Clarity",
+        "Support",
+        "Engagement"
+      ],
+      "tags": [
+        "physics"
+      ]
+    },
+    {
+      "id": "comp-yongbo-chen",
+      "type": "academic",
+      "name": "Yongbo Chen",
+      "position": "Research Fellow",
+      "focus": "School of Computing",
+      "school": "School of Computing",
+      "schoolCode": "COMP",
+      "college": "ANU College of Systems and Society",
+      "profileUrl": "https://comp.anu.edu.au/people/yongbo-chen/",
+      "email": "Yongbo.Chen@anu.edu.au",
+      "office": "Skaidrite Darius Building 108, Office N323",
+      "linkedCourses": [],
+      "reviewMetrics": [
+        "Clarity",
+        "Support",
+        "Engagement"
+      ],
+      "tags": [
+        "comp"
+      ]
+    },
+    {
+      "id": "comp-yonghui-liu",
+      "type": "academic",
+      "name": "Yonghui Liu",
+      "position": "Research Fellow",
+      "focus": "School of Computing",
+      "school": "School of Computing",
+      "schoolCode": "COMP",
+      "college": "ANU College of Systems and Society",
+      "profileUrl": "https://comp.anu.edu.au/people/yonghui-liu/",
+      "email": "Yonghui.Liu@anu.edu.au",
+      "office": "Brian Anderson Building 115",
+      "linkedCourses": [],
+      "reviewMetrics": [
+        "Clarity",
+        "Support",
+        "Engagement"
+      ],
+      "tags": [
+        "comp"
+      ]
+    },
+    {
+      "id": "comp-yue-liu",
+      "type": "academic",
+      "name": "Yue Liu",
+      "position": "Research Fellow",
+      "focus": "School of Computing",
+      "school": "School of Computing",
+      "schoolCode": "COMP",
+      "college": "ANU College of Systems and Society",
+      "profileUrl": "https://comp.anu.edu.au/people/yue-liu/",
+      "email": "Yue.Liu1@anu.edu.au",
+      "office": "Hanna Neumann Building, 3.24",
+      "linkedCourses": [],
+      "reviewMetrics": [
+        "Clarity",
+        "Support",
+        "Engagement"
+      ],
+      "tags": [
+        "comp"
+      ]
+    },
+    {
+      "id": "phys-yulai-zhang",
+      "type": "academic",
+      "name": "Yulai Zhang",
+      "position": "Dr",
+      "focus": "Physics",
+      "school": "Research School of Physics",
+      "schoolCode": "PHYS",
+      "college": "ANU College of Science and Medicine",
+      "profileUrl": "https://physics.anu.edu.au/contact/people/profile.php?ID=2699",
+      "email": "",
+      "office": "",
+      "linkedCourses": [],
+      "reviewMetrics": [
+        "Clarity",
+        "Support",
+        "Engagement"
+      ],
+      "tags": [
+        "physics"
+      ]
+    },
+    {
+      "id": "comp-yun-kuen-marco-cheung",
+      "type": "academic",
+      "name": "Yun Kuen (Marco) Cheung",
+      "position": "Senior Lecturer",
+      "focus": "School of Computing",
+      "school": "School of Computing",
+      "schoolCode": "COMP",
+      "college": "ANU College of Systems and Society",
+      "profileUrl": "https://comp.anu.edu.au/people/marco-cheung/",
+      "email": "yunkuen.cheung@anu.edu.au",
+      "office": "Hanna Neumann Building 145, Office 3.19",
+      "linkedCourses": [],
+      "reviewMetrics": [
+        "Clarity",
+        "Support",
+        "Engagement"
+      ],
+      "tags": [
+        "comp"
+      ]
+    },
+    {
+      "id": "comp-yunzhong-hou",
+      "type": "academic",
+      "name": "Yunzhong Hou",
+      "position": "Research Fellow",
+      "focus": "School of Computing",
+      "school": "School of Computing",
+      "schoolCode": "COMP",
+      "college": "ANU College of Systems and Society",
+      "profileUrl": "https://comp.anu.edu.au/people/yunzhong-hou/",
+      "email": "yunzhong.hou@anu.edu.au",
+      "office": "Brian Anderson Building 115, Office B141",
+      "linkedCourses": [],
+      "reviewMetrics": [
+        "Clarity",
+        "Support",
+        "Engagement"
+      ],
+      "tags": [
+        "comp"
+      ]
+    },
+    {
+      "id": "phys-yuri-kivshar",
+      "type": "academic",
+      "name": "Yuri Kivshar",
+      "position": "Professor",
+      "focus": "Physics",
+      "school": "Research School of Physics",
+      "schoolCode": "PHYS",
+      "college": "ANU College of Science and Medicine",
+      "profileUrl": "https://physics.anu.edu.au/contact/people/profile.php?ID=391",
+      "email": "",
+      "office": "",
+      "linkedCourses": [],
+      "reviewMetrics": [
+        "Clarity",
+        "Support",
+        "Engagement"
+      ],
+      "tags": [
+        "physics"
+      ]
+    },
+    {
+      "id": "phys-yusuke-yokoyama",
+      "type": "academic",
+      "name": "Yusuke Yokoyama",
+      "position": "Professor",
+      "focus": "Physics",
+      "school": "Research School of Physics",
+      "schoolCode": "PHYS",
+      "college": "ANU College of Science and Medicine",
+      "profileUrl": "https://physics.anu.edu.au/contact/people/profile.php?ID=2477",
+      "email": "",
+      "office": "",
+      "linkedCourses": [],
+      "reviewMetrics": [
+        "Clarity",
+        "Support",
+        "Engagement"
+      ],
+      "tags": [
+        "physics"
+      ]
+    },
+    {
+      "id": "phys-zain-mehdi",
+      "type": "academic",
+      "name": "Zain Mehdi",
+      "position": "Dr",
+      "focus": "Physics",
+      "school": "Research School of Physics",
+      "schoolCode": "PHYS",
+      "college": "ANU College of Science and Medicine",
+      "profileUrl": "https://physics.anu.edu.au/contact/people/profile.php?ID=2574",
+      "email": "",
+      "office": "",
+      "linkedCourses": [],
+      "reviewMetrics": [
+        "Clarity",
+        "Support",
+        "Engagement"
+      ],
+      "tags": [
+        "physics"
+      ]
+    },
+    {
+      "id": "phys-zbigniew-stachurski",
+      "type": "academic",
+      "name": "Zbigniew Stachurski",
+      "position": "Dr",
+      "focus": "Physics",
+      "school": "Research School of Physics",
+      "schoolCode": "PHYS",
+      "college": "ANU College of Science and Medicine",
+      "profileUrl": "https://physics.anu.edu.au/contact/people/profile.php?ID=3144",
+      "email": "",
+      "office": "",
+      "linkedCourses": [],
+      "reviewMetrics": [
+        "Clarity",
+        "Support",
+        "Engagement"
+      ],
+      "tags": [
+        "physics"
+      ]
+    },
+    {
       "id": "clgp-regn-zelalem-tesfaye-sirna",
       "type": "academic",
       "name": "Zelalem Tesfaye Sirna Deputy",
@@ -20123,6 +27497,28 @@ window.ANREVIEW_DATA = {
       ]
     },
     {
+      "id": "phys-zhe-rex-li",
+      "type": "academic",
+      "name": "Zhe (Rex) Li",
+      "position": "Dr",
+      "focus": "Physics",
+      "school": "Research School of Physics",
+      "schoolCode": "PHYS",
+      "college": "ANU College of Science and Medicine",
+      "profileUrl": "https://physics.anu.edu.au/contact/people/profile.php?ID=1223",
+      "email": "",
+      "office": "",
+      "linkedCourses": [],
+      "reviewMetrics": [
+        "Clarity",
+        "Support",
+        "Engagement"
+      ],
+      "tags": [
+        "physics"
+      ]
+    },
+    {
       "id": "zhi-yang-tho",
       "type": "academic",
       "name": "Zhi Yang Tho",
@@ -20143,6 +27539,72 @@ window.ANREVIEW_DATA = {
         "Clarity",
         "Support",
         "Engagement"
+      ]
+    },
+    {
+      "id": "phys-ziyuan-li",
+      "type": "academic",
+      "name": "Ziyuan Li",
+      "position": "Dr",
+      "focus": "Physics",
+      "school": "Research School of Physics",
+      "schoolCode": "PHYS",
+      "college": "ANU College of Science and Medicine",
+      "profileUrl": "https://physics.anu.edu.au/contact/people/profile.php?ID=852",
+      "email": "",
+      "office": "",
+      "linkedCourses": [],
+      "reviewMetrics": [
+        "Clarity",
+        "Support",
+        "Engagement"
+      ],
+      "tags": [
+        "physics"
+      ]
+    },
+    {
+      "id": "phys-zuzana-slavkovska",
+      "type": "academic",
+      "name": "Zuzana Slavkovska",
+      "position": "Dr",
+      "focus": "Physics",
+      "school": "Research School of Physics",
+      "schoolCode": "PHYS",
+      "college": "ANU College of Science and Medicine",
+      "profileUrl": "https://physics.anu.edu.au/contact/people/profile.php?ID=2572",
+      "email": "",
+      "office": "",
+      "linkedCourses": [],
+      "reviewMetrics": [
+        "Clarity",
+        "Support",
+        "Engagement"
+      ],
+      "tags": [
+        "physics"
+      ]
+    },
+    {
+      "id": "phys-agomir-prof-neshev",
+      "type": "academic",
+      "name": "agomir Prof Neshev",
+      "position": "Dr",
+      "focus": "Physics",
+      "school": "Research School of Physics",
+      "schoolCode": "PHYS",
+      "college": "ANU College of Science and Medicine",
+      "profileUrl": "https://physics.anu.edu.au/contact/people/profile.php?ID=381",
+      "email": "",
+      "office": "",
+      "linkedCourses": [],
+      "reviewMetrics": [
+        "Clarity",
+        "Support",
+        "Engagement"
+      ],
+      "tags": [
+        "physics"
       ]
     }
   ],
@@ -21245,7 +28707,7 @@ window.ANREVIEW_DATA = {
       "name": "Asian Economies",
       "college": "ANU College of Law, Governance and Policy",
       "school": "Crawford School of Public Policy",
-      "schoolCode": "LAW",
+      "schoolCode": "CRAW",
       "level": "UGRD",
       "terms": [
         "See ANU course page"
@@ -22266,6 +29728,310 @@ window.ANREVIEW_DATA = {
       ]
     },
     {
+      "id": "astr6002",
+      "type": "course",
+      "code": "ASTR6002",
+      "name": "Galaxies and Cosmology",
+      "summary": "The goal of this course is to provide students with an overview of extragalactic astronomy and the astrophysics that describes galaxies and the universe. We will study the properties of galaxies and galactic nuclei, stellar and gas dynamics, clusters of galaxies, the large scale distribution of galaxies and galaxy clusters and their use as cosmological tools. The students will further get an overview of cosmology with emphasis on the cosmic microwave background, galaxies and related phenomena at high redshift, and cosmic structure formation.",
+      "school": "Research School of Astronomy and Astrophysics",
+      "schoolCode": "PHYS",
+      "college": "ANU College of Science and Medicine",
+      "level": "PGRD",
+      "terms": [],
+      "conveners": [
+        "Prof Matthew Colless",
+        "Prof Matthew Colless"
+      ],
+      "handbookUrl": "https://programsandcourses.anu.edu.au/course/ASTR6002",
+      "reviewMetrics": [
+        "Teaching quality",
+        "Workload fairness",
+        "Assessment design"
+      ],
+      "tags": [
+        "science and medicine"
+      ]
+    },
+    {
+      "id": "astr6007",
+      "type": "course",
+      "code": "ASTR6007",
+      "name": "Stars",
+      "summary": "This course provides an introduction to stellar structure, evolution, and atmospheres. It covers the basic physical processes that govern the behaviour of stars, including hydrostatic equilibrium, thermal balance, nuclear energy generation, and radiation transport, the application of these principles to modeling the life cycle of stars from birth to the main sequence to death, and the development of tools to deduce stars' physical properties from the light they emit. This course is co-taught with undergraduate students but assessed separately.",
+      "school": "Research School of Astronomy and Astrophysics",
+      "schoolCode": "PHYS",
+      "college": "ANU College of Science and Medicine",
+      "level": "PGRD",
+      "terms": [],
+      "conveners": [
+        "Prof Helmut Jerjen",
+        "Prof Helmut Jerjen"
+      ],
+      "handbookUrl": "https://programsandcourses.anu.edu.au/course/ASTR6007",
+      "reviewMetrics": [
+        "Teaching quality",
+        "Workload fairness",
+        "Assessment design"
+      ],
+      "tags": [
+        "science and medicine"
+      ]
+    },
+    {
+      "id": "astr6013",
+      "type": "course",
+      "code": "ASTR6013",
+      "name": "Astrophysical Processes",
+      "summary": "This course provides an introduction to the physical processes that underlie almost all astrophysical phenomena: radiation and fluid dynamics. The course is split evenly between those two topics, with an emphasis on basic physical processes rather than astrophysical applications. The radiation portion of the class covers the statistical mechanics of radiation fields, radiative transfer, plasma emission processes (free and synchrotron radiation), and line formation.",
+      "school": "Research School of Astronomy and Astrophysics",
+      "schoolCode": "PHYS",
+      "college": "ANU College of Science and Medicine",
+      "level": "PGRD",
+      "terms": [],
+      "conveners": [],
+      "handbookUrl": "https://programsandcourses.anu.edu.au/course/ASTR6013",
+      "reviewMetrics": [
+        "Teaching quality",
+        "Workload fairness",
+        "Assessment design"
+      ],
+      "tags": [
+        "science and medicine"
+      ]
+    },
+    {
+      "id": "astr8001",
+      "type": "course",
+      "code": "ASTR8001",
+      "name": "Astronomy and Astrophysics Research Project",
+      "summary": "A selection of research projects from within the Research School of Astronomy and Astrophysics (RSAA) will be on offer. Students will undertake an individual project within one of the many cutting edge research groups in the Research School. Project areas range from planetary science to cosmology, instrumentation to theory.",
+      "school": "Research School of Astronomy and Astrophysics",
+      "schoolCode": "PHYS",
+      "college": "ANU College of Science and Medicine",
+      "level": "PGRD",
+      "terms": [],
+      "conveners": [
+        "Prof Matthew Colless",
+        "Prof Matthew Colless"
+      ],
+      "handbookUrl": "https://programsandcourses.anu.edu.au/course/ASTR8001",
+      "reviewMetrics": [
+        "Teaching quality",
+        "Workload fairness",
+        "Assessment design"
+      ],
+      "tags": [
+        "science and medicine"
+      ]
+    },
+    {
+      "id": "astr8004",
+      "type": "course",
+      "code": "ASTR8004",
+      "name": "Astronomical Computing",
+      "summary": "This course provides students with the skills necessary to write computer programs for the construction of models of astronomical processes, for the analysis of data and for multi-dimensional simulations. The skills acquired in this course are essential for every research area in astronomy and astrophysics.",
+      "school": "Research School of Astronomy and Astrophysics",
+      "schoolCode": "PHYS",
+      "college": "ANU College of Science and Medicine",
+      "level": "PGRD",
+      "terms": [],
+      "conveners": [
+        "Prof Christoph Federrath",
+        "Prof Christoph Federrath"
+      ],
+      "handbookUrl": "https://programsandcourses.anu.edu.au/course/ASTR8004",
+      "reviewMetrics": [
+        "Teaching quality",
+        "Workload fairness",
+        "Assessment design"
+      ],
+      "tags": [
+        "science and medicine"
+      ]
+    },
+    {
+      "id": "astr8006",
+      "type": "course",
+      "code": "ASTR8006",
+      "name": "Galaxies",
+      "summary": "The course provides an overview of galaxies from the emergence of the first galaxies and their halos, the evolution of galaxies over cosmic time, and the local Universe. The course goes deeper into the properties of disk and elliptical galaxies, including the Milky Way, large scale structure, multiphase components of galaxies, and the baryon cycle. Recent results from observations and simulations are integrated into established analytic models of galaxy formation and evolution.",
+      "school": "Research School of Astronomy and Astrophysics",
+      "schoolCode": "PHYS",
+      "college": "ANU College of Science and Medicine",
+      "level": "PGRD",
+      "terms": [],
+      "conveners": [],
+      "handbookUrl": "https://programsandcourses.anu.edu.au/course/ASTR8006",
+      "reviewMetrics": [
+        "Teaching quality",
+        "Workload fairness",
+        "Assessment design"
+      ],
+      "tags": [
+        "science and medicine"
+      ]
+    },
+    {
+      "id": "astr8011",
+      "type": "course",
+      "code": "ASTR8011",
+      "name": "Observational Techniques",
+      "summary": "This course is designed to introduce students to the concept of astronomical observations. Through this course, they will gain familiarity with many of the key techniques involved in planning observations and analysing the resulting data. This course aims to provide useful reference information in a lecture format but to reinforce practical skills with both group and individual activities.",
+      "school": "Research School of Astronomy and Astrophysics",
+      "schoolCode": "PHYS",
+      "college": "ANU College of Science and Medicine",
+      "level": "PGRD",
+      "terms": [],
+      "conveners": [
+        "Prof Christian Wolf",
+        "Prof Christian Wolf"
+      ],
+      "handbookUrl": "https://programsandcourses.anu.edu.au/course/ASTR8011",
+      "reviewMetrics": [
+        "Teaching quality",
+        "Workload fairness",
+        "Assessment design"
+      ],
+      "tags": [
+        "science and medicine"
+      ]
+    },
+    {
+      "id": "astr8016",
+      "type": "course",
+      "code": "ASTR8016",
+      "name": "Optical Instrumentation",
+      "summary": "This course covers topics related to active areas of optical and infrared instrumentation research. The course spans a variety of subjects to introduce a global understanding of optical scientific instrumentation, covering areas including optics, detectors, signal and noise. It uses examples from astronomical instrumentation but the principles covered can also be applied to other types of optical scientific instrumentation, including those used in medical, environmental, physics, and other applications.",
+      "school": "Research School of Astronomy and Astrophysics",
+      "schoolCode": "PHYS",
+      "college": "ANU College of Science and Medicine",
+      "level": "PGRD",
+      "terms": [],
+      "conveners": [],
+      "handbookUrl": "https://programsandcourses.anu.edu.au/course/ASTR8016",
+      "reviewMetrics": [
+        "Teaching quality",
+        "Workload fairness",
+        "Assessment design"
+      ],
+      "tags": [
+        "science and medicine"
+      ]
+    },
+    {
+      "id": "astr8020",
+      "type": "course",
+      "code": "ASTR8020",
+      "name": "Diffuse Matter and Star Formation",
+      "summary": "This course covers the physics of diffuse matter in the universe, and the processes by which that diffuse matter collapses to produce new stars. The first part of the course surveys the physical processes that govern diffuse matter, with particular emphasis on the non-equilibrium thermodynamics and statistical mechanics of low-density matter, the mechanisms by which such matter radiates, and the interpretation of observed radation from diffuse material. The second part covers the major phases of diffuse matter in the Universe and their properties.",
+      "school": "Research School of Astronomy and Astrophysics",
+      "schoolCode": "PHYS",
+      "college": "ANU College of Science and Medicine",
+      "level": "PGRD",
+      "terms": [],
+      "conveners": [],
+      "handbookUrl": "https://programsandcourses.anu.edu.au/course/ASTR8020",
+      "reviewMetrics": [
+        "Teaching quality",
+        "Workload fairness",
+        "Assessment design"
+      ],
+      "tags": [
+        "science and medicine"
+      ]
+    },
+    {
+      "id": "astr8021",
+      "type": "course",
+      "code": "ASTR8021",
+      "name": "Astrophysical Processes II",
+      "summary": "This course provides a survey of physical processes occuring in astrophysical environments, including astrophysical fluid dynamics and magnetohydrodynamics, dynamics of relativistic particles, and mechanisms of radiation production. Topics in fluid dynamics include Eulerian and Lagrangian formulations of fluid mechanics, flow characteristics and shock formation in both magnetised and non-magnetised flows, and mechanisms of non-ideal magnetohydrodynamics. The relativistic particles portion of the course includes particle acceleration, transport, and interaction with magnetic fields.",
+      "school": "Research School of Astronomy and Astrophysics",
+      "schoolCode": "PHYS",
+      "college": "ANU College of Science and Medicine",
+      "level": "PGRD",
+      "terms": [],
+      "conveners": [
+        "Prof Michael Ireland",
+        "Prof Michael Ireland"
+      ],
+      "handbookUrl": "https://programsandcourses.anu.edu.au/course/ASTR8021",
+      "reviewMetrics": [
+        "Teaching quality",
+        "Workload fairness",
+        "Assessment design"
+      ],
+      "tags": [
+        "science and medicine"
+      ]
+    },
+    {
+      "id": "astr8022",
+      "type": "course",
+      "code": "ASTR8022",
+      "name": "Stars II and Exoplanets",
+      "summary": "The first two thirds of this course covers stellar and exoplanetary atmospheres and spectroscopy, including the physics of line formation, equlibrium versus non-equilibrium statistical mechanics in stellar and planetary atmospheres, and the interpretation of spectra. The last third provides a broad survey of exoplanets, including formation mechanisms, exoplanetary evolution and cooling, and observational techniques used to discover and characterise exoplanets.",
+      "school": "Research School of Astronomy and Astrophysics",
+      "schoolCode": "PHYS",
+      "college": "ANU College of Science and Medicine",
+      "level": "PGRD",
+      "terms": [],
+      "conveners": [],
+      "handbookUrl": "https://programsandcourses.anu.edu.au/course/ASTR8022",
+      "reviewMetrics": [
+        "Teaching quality",
+        "Workload fairness",
+        "Assessment design"
+      ],
+      "tags": [
+        "science and medicine"
+      ]
+    },
+    {
+      "id": "astr8030",
+      "type": "course",
+      "code": "ASTR8030",
+      "name": "Astronomy and Astrophysics Research Skills",
+      "summary": "Students will learn about the process of designing a research project within the broad context of existing astronomy and astrophysics knowledge. A selection of research projects from within the Research School of Astronomy and Astrophysics (RSAA) will be on offer for students to base their research proposal on. Students will design an individual project within one of the many cutting edge research groups in the Research School.",
+      "school": "Research School of Astronomy and Astrophysics",
+      "schoolCode": "PHYS",
+      "college": "ANU College of Science and Medicine",
+      "level": "UGRD",
+      "terms": [],
+      "conveners": [],
+      "handbookUrl": "https://programsandcourses.anu.edu.au/course/ASTR8030",
+      "reviewMetrics": [
+        "Teaching quality",
+        "Workload fairness",
+        "Assessment design"
+      ],
+      "tags": [
+        "science and medicine"
+      ]
+    },
+    {
+      "id": "astr8031",
+      "type": "course",
+      "code": "ASTR8031",
+      "name": "Astrophysics Literature Research Project",
+      "summary": "In this course, you will critically read the astrophysical literature to better understand how to effectively present scientific findings, primarily within your chosen topic. You will learn to evaluate arguments, methods and lines of evidence. You will assess how well the conclusions drawn from studies are justified.",
+      "school": "Research School of Astronomy and Astrophysics",
+      "schoolCode": "PHYS",
+      "college": "ANU College of Science and Medicine",
+      "level": "UGRD",
+      "terms": [],
+      "conveners": [],
+      "handbookUrl": "https://programsandcourses.anu.edu.au/course/ASTR8031",
+      "reviewMetrics": [
+        "Teaching quality",
+        "Workload fairness",
+        "Assessment design"
+      ],
+      "tags": [
+        "science and medicine"
+      ]
+    },
+    {
       "id": "bapa1001",
       "type": "course",
       "code": "BAPA1001",
@@ -22574,6 +30340,1114 @@ window.ANREVIEW_DATA = {
         "Teaching quality",
         "Workload fairness",
         "Assessment design"
+      ]
+    },
+    {
+      "id": "biol1008",
+      "type": "course",
+      "code": "BIOL1008",
+      "name": "Human Biology",
+      "summary": "The course comprises an introduction to many aspects of human biology with an emphasis on fundamental functions, interactions and the integration of major human physiological systems. Topics discussed may vary according to expert availability, and typically include the maintenance of homeostasis and responses to internal and external stimuli by major systems and organs such as digestive, nervous, hormonal, reproductive, immune and other bodily functions. Students will learn about human physiology, causes for disruption to bodily functions and how the body responds to restore health and maintain growth.",
+      "school": "Biology Teaching and Learning Centre",
+      "schoolCode": "BIOL",
+      "college": "ANU College of Science and Medicine",
+      "level": "UGRD",
+      "terms": [],
+      "conveners": [],
+      "handbookUrl": "https://programsandcourses.anu.edu.au/course/BIOL1008",
+      "reviewMetrics": [
+        "Teaching quality",
+        "Workload fairness",
+        "Assessment design"
+      ],
+      "tags": [
+        "science and medicine"
+      ]
+    },
+    {
+      "id": "biol1020",
+      "type": "course",
+      "code": "BIOL1020",
+      "name": "Foundations of life",
+      "summary": "This course provides an introduction to the biochemical, cellular, genetic and evolutionary aspects of life on Earth. It is structured around four content areas: (a) The Chemistry of Life, which covers the chemical foundations that underpin cellular life; (b) The Cell, which covers the structure and replication of cells, the basic unit of life on Earth. This section will also examine key aspects of cellular metabolism; (c) Genetics, which covers the inheritance of DNA, the genetic material of life, and charts how the information stored in DNA is decoded into the proteins that facilitate cellular biology; (d) Mechanisms of Evolution, which provides an introduction to the processes that have generated the diversity of life on Earth.",
+      "school": "Biology Teaching and Learning Centre",
+      "schoolCode": "BIOL",
+      "college": "ANU College of Science and Medicine",
+      "level": "UGRD",
+      "terms": [],
+      "conveners": [
+        "Dr Andras Keszei",
+        "Dr Andras Keszei"
+      ],
+      "handbookUrl": "https://programsandcourses.anu.edu.au/course/BIOL1020",
+      "reviewMetrics": [
+        "Teaching quality",
+        "Workload fairness",
+        "Assessment design"
+      ],
+      "tags": [
+        "science and medicine"
+      ]
+    },
+    {
+      "id": "biol1030",
+      "type": "course",
+      "code": "BIOL1030",
+      "name": "Diversity of Life",
+      "summary": "This introductory biology course explores the diversity of living organisms on Earth. Students will: (a) Investigate the evolutionary history and relationships among major lineages, developing an understanding of how life has diversified over time; (b) Examine the unique biology of bacteria, archaea, protists, fungi, plants, and animals; (c) Delve into the structure and function of plants and animals, including development, nutrition, physiology, reproduction, and behaviour; (d) Explore ecological principles, such as population dynamics, ecosystems, and global change, that connect organisms to broader environmental patterns and conservation issues. Through lectures, laboratory practicals, and assessment items, students will build scientific literacy, analytical skills, and an appreciation for the complexity and interconnectedness of life forms and their environment.",
+      "school": "Biology Teaching and Learning Centre",
+      "schoolCode": "BIOL",
+      "college": "ANU College of Science and Medicine",
+      "level": "UGRD",
+      "terms": [],
+      "conveners": [
+        "Dr Andras Keszei",
+        "Dr Andras Keszei"
+      ],
+      "handbookUrl": "https://programsandcourses.anu.edu.au/course/BIOL1030",
+      "reviewMetrics": [
+        "Teaching quality",
+        "Workload fairness",
+        "Assessment design"
+      ],
+      "tags": [
+        "science and medicine"
+      ]
+    },
+    {
+      "id": "biol2001",
+      "type": "course",
+      "code": "BIOL2001",
+      "name": "Introduction to Quantitative Biology",
+      "summary": "This course equips biology students with skills in basic quantitative data analyses approaches used in Biology and Ecology, including statistics and computing programming in R. Such skills are important for experimental design and for analysing and interpreting quantitative datasets. Topics covered include elementary computer programming in R, probability and statistics, and introduction to statistical modelling.",
+      "school": "Biology Teaching and Learning Centre",
+      "schoolCode": "BIOL",
+      "college": "ANU College of Science and Medicine",
+      "level": "UGRD",
+      "terms": [],
+      "conveners": [
+        "Dr Ana Sequeira",
+        "Dr Ana Sequeira"
+      ],
+      "handbookUrl": "https://programsandcourses.anu.edu.au/course/BIOL2001",
+      "reviewMetrics": [
+        "Teaching quality",
+        "Workload fairness",
+        "Assessment design"
+      ],
+      "tags": [
+        "science and medicine"
+      ]
+    },
+    {
+      "id": "biol2117",
+      "type": "course",
+      "code": "BIOL2117",
+      "name": "Cell Biology",
+      "summary": "This course examines the biology of cells, the basic units of life on Earth. The course addresses several central themes in cellular biology, including: the origin and early evolution of cells, cellular division and replication, the transport of proteins and other macromolecules within cells, the compartmentalisation of cellular metabolism, the functions of organelles in protists, animals and plants, the cellular basis of differentiation, and signalling between and within cells. Students will be exposed to the latest breakthroughs in the field and learn key cellular biology techniques.",
+      "school": "Biology Teaching and Learning Centre",
+      "schoolCode": "BIOL",
+      "college": "ANU College of Science and Medicine",
+      "level": "UGRD",
+      "terms": [],
+      "conveners": [],
+      "handbookUrl": "https://programsandcourses.anu.edu.au/course/BIOL2117",
+      "reviewMetrics": [
+        "Teaching quality",
+        "Workload fairness",
+        "Assessment design"
+      ],
+      "tags": [
+        "science and medicine"
+      ]
+    },
+    {
+      "id": "biol2142",
+      "type": "course",
+      "code": "BIOL2142",
+      "name": "General Microbiology",
+      "summary": "Microorganisms play a significant role in medicine, agriculture, the environment, and many facets of our daily lives. This course focuses on the general principles of microbiology, providing students with an understanding of the fundamental concepts of the biology of microorganisms. The course includes the following topics: bacterial cell structure and function; genetic systems of bacteria, bacteriophages and plasmids; microbial growth and metabolism; energy and nutrient harvesting; microorganisms and the environment; control of microorganisms; introduction to viruses; food and industrial microbiology.",
+      "school": "Biology Teaching and Learning Centre",
+      "schoolCode": "BIOL",
+      "college": "ANU College of Science and Medicine",
+      "level": "UGRD",
+      "terms": [],
+      "conveners": [
+        "Dr Denisse Leyton",
+        "Dr Denisse Leyton"
+      ],
+      "handbookUrl": "https://programsandcourses.anu.edu.au/course/BIOL2142",
+      "reviewMetrics": [
+        "Teaching quality",
+        "Workload fairness",
+        "Assessment design"
+      ],
+      "tags": [
+        "science and medicine"
+      ]
+    },
+    {
+      "id": "biol2151",
+      "type": "course",
+      "code": "BIOL2151",
+      "name": "Genetics",
+      "summary": "Have you ever watched a crime show on TV and wondered just how DNA forensic analysis really works? Does everyone really have a unique DNA fingerprint? Have you been tempted to spend $100 to get your own DNA tested?",
+      "school": "Biology Teaching and Learning Centre",
+      "schoolCode": "BIOL",
+      "college": "ANU College of Science and Medicine",
+      "level": "UGRD",
+      "terms": [],
+      "conveners": [
+        "Prof Rod Peakall",
+        "Prof Rod Peakall"
+      ],
+      "handbookUrl": "https://programsandcourses.anu.edu.au/course/BIOL2151",
+      "reviewMetrics": [
+        "Teaching quality",
+        "Workload fairness",
+        "Assessment design"
+      ],
+      "tags": [
+        "science and medicine"
+      ]
+    },
+    {
+      "id": "biol2161",
+      "type": "course",
+      "code": "BIOL2161",
+      "name": "Genes: Replication and Expression",
+      "summary": "Genetics underpins many contemporary issues in health, technology and agriculture. Modern biology has been transformed by advances in DNA sequencing, whole-genome synthesis and the application of gene technologies to a wide range of problems. These include the development of mRNA vaccines, targeted gene therapies, novel cancer treatments, stress-resilient high-yield crops and more sustainable food products.",
+      "school": "Biology Teaching and Learning Centre",
+      "schoolCode": "BIOL",
+      "college": "ANU College of Science and Medicine",
+      "level": "UGRD",
+      "terms": [],
+      "conveners": [
+        "Dr Joanna Melonek",
+        "Dr Joanna Melonek"
+      ],
+      "handbookUrl": "https://programsandcourses.anu.edu.au/course/BIOL2161",
+      "reviewMetrics": [
+        "Teaching quality",
+        "Workload fairness",
+        "Assessment design"
+      ],
+      "tags": [
+        "science and medicine"
+      ]
+    },
+    {
+      "id": "biol2171",
+      "type": "course",
+      "code": "BIOL2171",
+      "name": "Biochemistry and Nutrition",
+      "summary": "Experience your own metabolism! You eat, drink, exercise and sleep. Without noticing, your body adapts to these situations changing your metabolism and adapting to different energy requirements.",
+      "school": "Biology Teaching and Learning Centre",
+      "schoolCode": "BIOL",
+      "college": "ANU College of Science and Medicine",
+      "level": "UGRD",
+      "terms": [],
+      "conveners": [
+        "Dr Christina Spry",
+        "Dr Christina Spry"
+      ],
+      "handbookUrl": "https://programsandcourses.anu.edu.au/course/BIOL2171",
+      "reviewMetrics": [
+        "Teaching quality",
+        "Workload fairness",
+        "Assessment design"
+      ],
+      "tags": [
+        "science and medicine"
+      ]
+    },
+    {
+      "id": "biol2174",
+      "type": "course",
+      "code": "BIOL2174",
+      "name": "Cell Physiology in Health and Disease",
+      "summary": "The molecular processes taking place inside cells underlie life itself. Understanding these cellular activities enables us to appreciate the normal functions of living cells, to explain the molecular basis of diseases and inspires the development of new treatments. This course deals with the basic physiology of cells and the origins of disease, with a particular emphasis on membrane transport processes.",
+      "school": "Biology Teaching and Learning Centre",
+      "schoolCode": "BIOL",
+      "college": "ANU College of Science and Medicine",
+      "level": "UGRD",
+      "terms": [],
+      "conveners": [
+        "Prof Ben Corry",
+        "Prof Ben Corry"
+      ],
+      "handbookUrl": "https://programsandcourses.anu.edu.au/course/BIOL2174",
+      "reviewMetrics": [
+        "Teaching quality",
+        "Workload fairness",
+        "Assessment design"
+      ],
+      "tags": [
+        "science and medicine"
+      ]
+    },
+    {
+      "id": "biol2202",
+      "type": "course",
+      "code": "BIOL2202",
+      "name": "Experimental Design and Analysis in Biology",
+      "summary": "Science is fundamentally about testing ideas, not collecting facts. But how do we test ideas? We do so by analysing numbers to reveal patterns, and then by designing experiments to exclude competing ideas that might explain what causes these patterns.",
+      "school": "Biology Teaching and Learning Centre",
+      "schoolCode": "BIOL",
+      "college": "ANU College of Science and Medicine",
+      "level": "UGRD",
+      "terms": [],
+      "conveners": [],
+      "handbookUrl": "https://programsandcourses.anu.edu.au/course/BIOL2202",
+      "reviewMetrics": [
+        "Teaching quality",
+        "Workload fairness",
+        "Assessment design"
+      ],
+      "tags": [
+        "science and medicine"
+      ]
+    },
+    {
+      "id": "biol3023",
+      "type": "course",
+      "code": "BIOL3023",
+      "name": "Special Topics in Biology",
+      "summary": "This course allows students to pursue a special topic of individual or small-group study in order to gain particular or additional knowledge in a biology topic, usually not covered in courses taught elsewhere in the University. Depending on the topic, students may be required to develop and implement a research plan under the supervision of an academic member of staff; to pursue a guided reading program; to develop and implement a project with external stakeholders and/or practitioners under the supervision of an academic member of staff; and/or to take part in selected lectures, workshops, tutorials, seminars, discussion groups, field trips and other activities. The details of the topic will be negotiated between the student and the supervisor/s, or the academic proposer for small-groups, and approved by RSB Associate Director (Science) Education.",
+      "school": "Biology Teaching and Learning Centre",
+      "schoolCode": "BIOL",
+      "college": "ANU College of Science and Medicine",
+      "level": "UGRD",
+      "terms": [],
+      "conveners": [
+        "Prof Maja Adamska",
+        "Prof Maja Adamska"
+      ],
+      "handbookUrl": "https://programsandcourses.anu.edu.au/course/BIOL3023",
+      "reviewMetrics": [
+        "Teaching quality",
+        "Workload fairness",
+        "Assessment design"
+      ],
+      "tags": [
+        "science and medicine"
+      ]
+    },
+    {
+      "id": "biol3107",
+      "type": "course",
+      "code": "BIOL3107",
+      "name": "Advances in Medical and Plant Biochemistry",
+      "summary": "Rapid advances in plant and animal biochemistry over recent years have fundamentally changed fields of science ranging from medicine to agriculture and food security. This course will present these recent advances exploring both the specifics and commonalities that exist in biochemistry when comparing mammalian and plant systems. The medical biochemistry stream will cover topics such as cancer metabolism, personalised immunology, molecular mechanisms related to drug development, ion channel function and aspects of translational medicine.",
+      "school": "Biology Teaching and Learning Centre and the John Curtin School of Medical Research",
+      "schoolCode": "BIOL",
+      "college": "ANU College of Science and Medicine",
+      "level": "UGRD",
+      "terms": [],
+      "conveners": [
+        "Dr Kai Xun Chan",
+        "Dr Kai Xun Chan"
+      ],
+      "handbookUrl": "https://programsandcourses.anu.edu.au/course/BIOL3107",
+      "reviewMetrics": [
+        "Teaching quality",
+        "Workload fairness",
+        "Assessment design"
+      ],
+      "tags": [
+        "science and medicine"
+      ]
+    },
+    {
+      "id": "biol3108",
+      "type": "course",
+      "code": "BIOL3108",
+      "name": "Hallmarks of Cancer",
+      "summary": "What is cancer, and why is it a major cause of death in Australia? This course covers the Hallmarks of Cancer as described by Hanahan and Weinberg in their seminal papers of 2000 and 2011. The Hallmarks of Cancer course provides the journey of discovery required to appreciate how normal cell biology and molecular genetics are derailed to drive cancer.",
+      "school": "John Curtin School of Medical Research",
+      "schoolCode": "JCSMR",
+      "college": "ANU College of Science and Medicine",
+      "level": "UGRD",
+      "terms": [],
+      "conveners": [
+        "Prof Leonie Quinn",
+        "Prof Leonie Quinn"
+      ],
+      "handbookUrl": "https://programsandcourses.anu.edu.au/course/BIOL3108",
+      "reviewMetrics": [
+        "Teaching quality",
+        "Workload fairness",
+        "Assessment design"
+      ],
+      "tags": [
+        "science and medicine"
+      ]
+    },
+    {
+      "id": "biol3141",
+      "type": "course",
+      "code": "BIOL3141",
+      "name": "Infection and Immunity",
+      "summary": "This course will investigate host responses to microbial infections: innate reactions including the complement system, and phagocytic cells; adaptive immunity including clonal selection theory, antibodies, roles of B and T lymphocytes, antigens and antigen presentation, and molecular genetics of antigen receptors; bacterial diseases, focussing on molecular explanations of pathogenesis and virulence of selected pathogens and toxins; viruses and viral infections with an emphasis on replication strategies, host and tissue specificity, effects of viruses on cells (cell death, transformation, latency), and determinants of viral virulence. Honours Pathway Option (HPO) An honours pathway option may be offered this year. The HPO typically involves participation in a journal club analysing and presenting recent advances in immunology.",
+      "school": "Biology Teaching and Learning Centre",
+      "schoolCode": "BIOL",
+      "college": "ANU College of Science and Medicine",
+      "level": "UGRD",
+      "terms": [],
+      "conveners": [],
+      "handbookUrl": "https://programsandcourses.anu.edu.au/course/BIOL3141",
+      "reviewMetrics": [
+        "Teaching quality",
+        "Workload fairness",
+        "Assessment design"
+      ],
+      "tags": [
+        "science and medicine"
+      ]
+    },
+    {
+      "id": "biol3142",
+      "type": "course",
+      "code": "BIOL3142",
+      "name": "Biomedical Parasitology",
+      "summary": "Every 30 seconds someone is killed by a parasite. Parasites also cause damage to the livestock industry worth several billions of dollars each year. This course offers an overview of the biological and molecular bases of important parasitic diseases and an understanding of the enormous impact parasites have on endemic communities.",
+      "school": "Biology Teaching and Learning Centre",
+      "schoolCode": "BIOL",
+      "college": "ANU College of Science and Medicine",
+      "level": "UGRD",
+      "terms": [],
+      "conveners": [
+        "Prof Alexander Maier",
+        "Prof Alexander Maier"
+      ],
+      "handbookUrl": "https://programsandcourses.anu.edu.au/course/BIOL3142",
+      "reviewMetrics": [
+        "Teaching quality",
+        "Workload fairness",
+        "Assessment design"
+      ],
+      "tags": [
+        "science and medicine"
+      ]
+    },
+    {
+      "id": "biol3144",
+      "type": "course",
+      "code": "BIOL3144",
+      "name": "Advanced and Applied Immunology",
+      "summary": "The immune response is our key defence against disease. In this course you will delve deep into the intricate workings of the immune system and discover how it protects us from infectious disease and cancer, underpins the development of vaccines and can be used as a tool or a target in modern therapeutics. You will also investigate how imbalances in the immune system can lead to the development of diseases such as autoimmunity, allergy and immunodeficiency.",
+      "school": "John Curtin School of Medical Research",
+      "schoolCode": "JCSMR",
+      "college": "ANU College of Science and Medicine",
+      "level": "UGRD",
+      "terms": [],
+      "conveners": [
+        "Dr Julia Ellyard",
+        "Dr Julia Ellyard"
+      ],
+      "handbookUrl": "https://programsandcourses.anu.edu.au/course/BIOL3144",
+      "reviewMetrics": [
+        "Teaching quality",
+        "Workload fairness",
+        "Assessment design"
+      ],
+      "tags": [
+        "science and medicine"
+      ]
+    },
+    {
+      "id": "biol3161",
+      "type": "course",
+      "code": "BIOL3161",
+      "name": "Genomics and its Applications",
+      "summary": "The aim of this course is to teach Genomics, spanning ecosystems, evolution, host-microbe, assembly, epigenomics, and transcriptomics. We consider plants, microbes, and animals from model organisms to foundation species. The course will cover recent developments in 3rd gen, long read, genomics with labs applied to soils, trees and insect gene expression.",
+      "school": "Biology Teaching and Learning Centre",
+      "schoolCode": "BIOL",
+      "college": "ANU College of Science and Medicine",
+      "level": "UGRD",
+      "terms": [],
+      "conveners": [
+        "Prof Justin Borevitz",
+        "Prof Justin Borevitz"
+      ],
+      "handbookUrl": "https://programsandcourses.anu.edu.au/course/BIOL3161",
+      "reviewMetrics": [
+        "Teaching quality",
+        "Workload fairness",
+        "Assessment design"
+      ],
+      "tags": [
+        "science and medicine"
+      ]
+    },
+    {
+      "id": "biol3190",
+      "type": "course",
+      "code": "BIOL3190",
+      "name": "Medical Science in the Workplace",
+      "summary": "This course is designed to provide an opportunity for students undertaking the Bachelor of Medical Science to learn about applications of the medical sciences in the work place. Various guest speakers, who will be professionals in different areas of medical science and/or research, will discuss their work, career, ethics and legal liability. Visits to work places such as different departments of the Canberra Hospital, research schools and pathology laboratories will be organised.",
+      "school": "Biology Teaching and Learning Centre",
+      "schoolCode": "BIOL",
+      "college": "ANU College of Science and Medicine",
+      "level": "UGRD",
+      "terms": [],
+      "conveners": [
+        "Dr Emily Furlong",
+        "Dr Emily Furlong"
+      ],
+      "handbookUrl": "https://programsandcourses.anu.edu.au/course/BIOL3190",
+      "reviewMetrics": [
+        "Teaching quality",
+        "Workload fairness",
+        "Assessment design"
+      ],
+      "tags": [
+        "science and medicine"
+      ]
+    },
+    {
+      "id": "biol3191",
+      "type": "course",
+      "code": "BIOL3191",
+      "name": "Bioethics and Society",
+      "summary": "Rapid advances in the biosciences, biotechnology and biomedicine represent a challenge to our society and raise some very difficult ethical questions. Since its advent in the mid 20th century the field of bioethics has engaged with such issues and developed a range of responses and proposals. In this course you will consider diverse perspectives through readings, tutorial discussions and lectures.",
+      "school": "Biology Teaching and Learning Centre",
+      "schoolCode": "BIOL",
+      "college": "ANU College of Science and Medicine",
+      "level": "UGRD",
+      "terms": [],
+      "conveners": [],
+      "handbookUrl": "https://programsandcourses.anu.edu.au/course/BIOL3191",
+      "reviewMetrics": [
+        "Teaching quality",
+        "Workload fairness",
+        "Assessment design"
+      ],
+      "tags": [
+        "science and medicine"
+      ]
+    },
+    {
+      "id": "biol3208",
+      "type": "course",
+      "code": "BIOL3208",
+      "name": "Biology Research Project",
+      "summary": "This course is specially tailored for students attracted to, or wondering about research. Students are immersed in a real research environment and in the practice of research. They are integrated in a research team and get direct experience in core components of research activities, from posing a question, defining hypotheses to address it, and the appropriate approaches to examine these hypotheses; data analysis and rigorous presentation, interpretation of results, and most importantly their critical assessment and discussion in the context of the current body of knowledge.",
+      "school": "Biology Teaching and Learning Centre",
+      "schoolCode": "BIOL",
+      "college": "ANU College of Science and Medicine",
+      "level": "UGRD",
+      "terms": [],
+      "conveners": [
+        "Dr Kai Xun Chan",
+        "Prof Celeste Linde"
+      ],
+      "handbookUrl": "https://programsandcourses.anu.edu.au/course/BIOL3208",
+      "reviewMetrics": [
+        "Teaching quality",
+        "Workload fairness",
+        "Assessment design"
+      ],
+      "tags": [
+        "science and medicine"
+      ]
+    },
+    {
+      "id": "biol3209",
+      "type": "course",
+      "code": "BIOL3209",
+      "name": "Biology Research Project",
+      "summary": "This course is specially tailored for students attracted to, or wondering about research. Students are immersed in a real research environment and in the practice of research. They are integrated in a research team and get direct experience in core components of research activities, from posing a question, defining hypotheses to address it, and the appropriate approaches to examine these hypotheses; data analysis and rigorous presentation, interpretation of results, and most importantly their critical assessment and discussion in the context of the current body of knowledge.",
+      "school": "Biology Teaching and Learning Centre",
+      "schoolCode": "BIOL",
+      "college": "ANU College of Science and Medicine",
+      "level": "UGRD",
+      "terms": [],
+      "conveners": [
+        "Dr Kai Xun Chan",
+        "Prof Celeste Linde"
+      ],
+      "handbookUrl": "https://programsandcourses.anu.edu.au/course/BIOL3209",
+      "reviewMetrics": [
+        "Teaching quality",
+        "Workload fairness",
+        "Assessment design"
+      ],
+      "tags": [
+        "science and medicine"
+      ]
+    },
+    {
+      "id": "biol6006",
+      "type": "course",
+      "code": "BIOL6006",
+      "name": "Genetics",
+      "summary": "Have you ever watched a crime show on TV and wondered just how DNA forensic analysis really works? Does everyone really have a unique DNA fingerprint? Have you been tempted to spend $100 to get your own DNA tested?",
+      "school": "Biology Teaching and Learning Centre",
+      "schoolCode": "BIOL",
+      "college": "ANU College of Science and Medicine",
+      "level": "PGRD",
+      "terms": [],
+      "conveners": [
+        "Prof Rod Peakall",
+        "Prof Rod Peakall"
+      ],
+      "handbookUrl": "https://programsandcourses.anu.edu.au/course/BIOL6006",
+      "reviewMetrics": [
+        "Teaching quality",
+        "Workload fairness",
+        "Assessment design"
+      ],
+      "tags": [
+        "science and medicine"
+      ]
+    },
+    {
+      "id": "biol6106",
+      "type": "course",
+      "code": "BIOL6106",
+      "name": "Biosecurity",
+      "summary": "Biosecurity safeguards our industries, our environment, our livelihoods, and our way of life. Yet we are constantly challenged by biosecurity risks which are dynamic and evolving in an ever-changing world. Risks that require us to innovate, integrate, and communicate across disciplines and perspectives.",
+      "school": "Biology Teaching and Learning Centre",
+      "schoolCode": "BIOL",
+      "college": "ANU College of Science and Medicine",
+      "level": "PGRD",
+      "terms": [],
+      "conveners": [
+        "Dr Mareike Moeller",
+        "Prof Benjamin Schwessinger"
+      ],
+      "handbookUrl": "https://programsandcourses.anu.edu.au/course/BIOL6106",
+      "reviewMetrics": [
+        "Teaching quality",
+        "Workload fairness",
+        "Assessment design"
+      ],
+      "tags": [
+        "science and medicine"
+      ]
+    },
+    {
+      "id": "biol6107",
+      "type": "course",
+      "code": "BIOL6107",
+      "name": "Advances in Medical and Plant Biochemistry",
+      "summary": "Rapid advances in plant and animal biochemistry over recent years have fundamentally changed fields of science ranging from medicine to agriculture and food security. This course will present these recent advances exploring both the specifics and commonalities that exist in biochemistry when comparing mammalian and plant systems. The medical biochemistry stream will cover topics such as cancer metabolism, personalised immunology, molecular mechanisms related to drug development, ion channel function and aspects of translational medicine.",
+      "school": "Biology Teaching and Learning Centre and the John Curtin School of Medical Research",
+      "schoolCode": "BIOL",
+      "college": "ANU College of Science and Medicine",
+      "level": "PGRD",
+      "terms": [],
+      "conveners": [
+        "Dr Kai Xun Chan",
+        "Dr Kai Xun Chan"
+      ],
+      "handbookUrl": "https://programsandcourses.anu.edu.au/course/BIOL6107",
+      "reviewMetrics": [
+        "Teaching quality",
+        "Workload fairness",
+        "Assessment design"
+      ],
+      "tags": [
+        "science and medicine"
+      ]
+    },
+    {
+      "id": "biol6108",
+      "type": "course",
+      "code": "BIOL6108",
+      "name": "Hallmarks of Cancer",
+      "summary": "What is cancer, and why is it a major cause of death in Australia? This course covers the Hallmarks of Cancer as described by Hanahan and Weinberg in their seminal papers of 2000 and 2011. The Hallmarks of Cancer course provides the journey of discovery required to appreciate how normal cell biology and molecular genetics are derailed to drive cancer.",
+      "school": "John Curtin School of Medical Research",
+      "schoolCode": "JCSMR",
+      "college": "ANU College of Science and Medicine",
+      "level": "PGRD",
+      "terms": [],
+      "conveners": [
+        "Prof Leonie Quinn",
+        "Prof Leonie Quinn"
+      ],
+      "handbookUrl": "https://programsandcourses.anu.edu.au/course/BIOL6108",
+      "reviewMetrics": [
+        "Teaching quality",
+        "Workload fairness",
+        "Assessment design"
+      ],
+      "tags": [
+        "science and medicine"
+      ]
+    },
+    {
+      "id": "biol6117",
+      "type": "course",
+      "code": "BIOL6117",
+      "name": "Cell Biology",
+      "summary": "This course examines the biology of cells, the basic units of life on Earth. The course addresses several central themes in cellular biology, including: the origin and early evolution of cells, cellular division and replication, the transport of proteins and other macromolecules within cells, the compartmentalisation of cellular metabolism, the functions of organelles in protists, animals and plants, the cellular basis of differentiation, and signalling between and within cells. Students will be exposed to the latest breakthroughs in the field and learn key cellular biology techniques.",
+      "school": "Biology Teaching and Learning Centre",
+      "schoolCode": "BIOL",
+      "college": "ANU College of Science and Medicine",
+      "level": "PGRD",
+      "terms": [],
+      "conveners": [],
+      "handbookUrl": "https://programsandcourses.anu.edu.au/course/BIOL6117",
+      "reviewMetrics": [
+        "Teaching quality",
+        "Workload fairness",
+        "Assessment design"
+      ],
+      "tags": [
+        "science and medicine"
+      ]
+    },
+    {
+      "id": "biol6141",
+      "type": "course",
+      "code": "BIOL6141",
+      "name": "Infection and Immunity",
+      "summary": "This course will investigate host responses to microbial infections: innate reactions including the complement system, and phagocytic cells; adaptive immunity including clonal selection theory, antibodies, roles of B and T lymphocytes, antigens and antigen presentation, and molecular genetics of antigen receptors; bacterial diseases, focussing on molecular explanations of pathogenesis and virulence of selected pathogens and toxins; viruses and viral infections with an emphasis on replication strategies, host and tissue specificity, effects of viruses on cells (cell death, transformation, latency), and determinants of viral virulence. Note: Graduate students attend joint classes with undergraduates but will be assessed separately",
+      "school": "Biology Teaching and Learning Centre",
+      "schoolCode": "BIOL",
+      "college": "ANU College of Science and Medicine",
+      "level": "PGRD",
+      "terms": [],
+      "conveners": [],
+      "handbookUrl": "https://programsandcourses.anu.edu.au/course/BIOL6141",
+      "reviewMetrics": [
+        "Teaching quality",
+        "Workload fairness",
+        "Assessment design"
+      ],
+      "tags": [
+        "science and medicine"
+      ]
+    },
+    {
+      "id": "biol6142",
+      "type": "course",
+      "code": "BIOL6142",
+      "name": "General Microbiology",
+      "summary": "Microorganisms play a significant role in medicine, agriculture, the environment, and many facets of our daily lives. This course focuses on the general principles of microbiology, providing students with an understanding of the fundamental concepts of the biology of microorganisms. The course includes the following topics: bacterial cell structure and function; genetic systems of bacteria, bacteriophages and plasmids; microbial growth and metabolism; energy and nutrient harvesting; microorganisms and the environment; control of microorganisms; introduction to viruses; food and industrial microbiology.",
+      "school": "Biology Teaching and Learning Centre",
+      "schoolCode": "BIOL",
+      "college": "ANU College of Science and Medicine",
+      "level": "PGRD",
+      "terms": [],
+      "conveners": [
+        "Dr Denisse Leyton",
+        "Dr Denisse Leyton"
+      ],
+      "handbookUrl": "https://programsandcourses.anu.edu.au/course/BIOL6142",
+      "reviewMetrics": [
+        "Teaching quality",
+        "Workload fairness",
+        "Assessment design"
+      ],
+      "tags": [
+        "science and medicine"
+      ]
+    },
+    {
+      "id": "biol6144",
+      "type": "course",
+      "code": "BIOL6144",
+      "name": "Advanced and Applied Immunology",
+      "summary": "The immune response is our key defence against disease. In this course you will delve deep into the intricate workings of the immune system and discover how it protects us from infectious disease and cancer, underpins the development of vaccines and can be used as a tool or a target in modern therapeutics. You will also investigate how imbalances in the immune system can lead to the development of diseases such as autoimmunity, allergy and immunodeficiency.",
+      "school": "John Curtin School of Medical Research",
+      "schoolCode": "JCSMR",
+      "college": "ANU College of Science and Medicine",
+      "level": "PGRD",
+      "terms": [],
+      "conveners": [
+        "Dr Julia Ellyard",
+        "Dr Julia Ellyard"
+      ],
+      "handbookUrl": "https://programsandcourses.anu.edu.au/course/BIOL6144",
+      "reviewMetrics": [
+        "Teaching quality",
+        "Workload fairness",
+        "Assessment design"
+      ],
+      "tags": [
+        "science and medicine"
+      ]
+    },
+    {
+      "id": "biol6161",
+      "type": "course",
+      "code": "BIOL6161",
+      "name": "Genes: Replication and Expression",
+      "summary": "Genetics underpins many contemporary issues in health, technology and agriculture. Modern biology has been transformed by advances in DNA sequencing, whole-genome synthesis and the application of gene technologies to a wide range of problems. These include the development of mRNA vaccines, targeted gene therapies, novel cancer treatments, stress-resilient high-yield crops and more sustainable food products.",
+      "school": "Biology Teaching and Learning Centre",
+      "schoolCode": "BIOL",
+      "college": "ANU College of Science and Medicine",
+      "level": "PGRD",
+      "terms": [],
+      "conveners": [
+        "Dr Joanna Melonek",
+        "Dr Joanna Melonek"
+      ],
+      "handbookUrl": "https://programsandcourses.anu.edu.au/course/BIOL6161",
+      "reviewMetrics": [
+        "Teaching quality",
+        "Workload fairness",
+        "Assessment design"
+      ],
+      "tags": [
+        "science and medicine"
+      ]
+    },
+    {
+      "id": "biol6162",
+      "type": "course",
+      "code": "BIOL6162",
+      "name": "Molecular Gene Technology",
+      "summary": "This course provides an introduction to the principles and practice of recombinant DNA technology. It has a focus on how biological processes can be exploited and manipulated for practical purposes, rather than how they operate in nature. The course also introduces some of the main problem solving skills used routinely in molecular biology.",
+      "school": "Biology Teaching and Learning Centre",
+      "schoolCode": "BIOL",
+      "college": "ANU College of Science and Medicine",
+      "level": "PGRD",
+      "terms": [],
+      "conveners": [],
+      "handbookUrl": "https://programsandcourses.anu.edu.au/course/BIOL6162",
+      "reviewMetrics": [
+        "Teaching quality",
+        "Workload fairness",
+        "Assessment design"
+      ],
+      "tags": [
+        "science and medicine"
+      ]
+    },
+    {
+      "id": "biol6163",
+      "type": "course",
+      "code": "BIOL6163",
+      "name": "Genomics and its Applications",
+      "summary": "The aim of this course is to teach genomics, transcriptomics, proteomics, metabolomics and phonemics using model organisms representing plants and animals. The course will cover recent developments in genomics, gene expression and small RNAs, synthetic biology, epigenetics, proteomics, fast-forward genetics and next-generation mapping. An objective of the course is to develop skills in experimental design within the context of learning about biology including: regulation of transcription and translation, stress response, signal transduction and the engineering and regulation of metabolic pathways.",
+      "school": "Biology Teaching and Learning Centre",
+      "schoolCode": "BIOL",
+      "college": "ANU College of Science and Medicine",
+      "level": "PGRD",
+      "terms": [],
+      "conveners": [
+        "Prof Justin Borevitz",
+        "Prof Justin Borevitz"
+      ],
+      "handbookUrl": "https://programsandcourses.anu.edu.au/course/BIOL6163",
+      "reviewMetrics": [
+        "Teaching quality",
+        "Workload fairness",
+        "Assessment design"
+      ],
+      "tags": [
+        "science and medicine"
+      ]
+    },
+    {
+      "id": "biol6171",
+      "type": "course",
+      "code": "BIOL6171",
+      "name": "Biochemistry and Nutrition",
+      "summary": "Experience your own metabolism! You eat, drink, exercise and sleep. Without noticing, your body adapts to these situations changing your metabolism and adapting to different energy requirements.",
+      "school": "Biology Teaching and Learning Centre",
+      "schoolCode": "BIOL",
+      "college": "ANU College of Science and Medicine",
+      "level": "PGRD",
+      "terms": [],
+      "conveners": [
+        "Dr Christina Spry",
+        "Dr Christina Spry"
+      ],
+      "handbookUrl": "https://programsandcourses.anu.edu.au/course/BIOL6171",
+      "reviewMetrics": [
+        "Teaching quality",
+        "Workload fairness",
+        "Assessment design"
+      ],
+      "tags": [
+        "science and medicine"
+      ]
+    },
+    {
+      "id": "biol6174",
+      "type": "course",
+      "code": "BIOL6174",
+      "name": "Cell Physiology in Health and Disease",
+      "summary": "The molecular processes taking place inside cells underlie life itself. Understanding these cellular activities enables us to appreciate the normal functions of living cells, to explain the molecular basis of diseases and inspires the development of new treatments. This course deals with the basic physiology of cells and the origins of disease, with a particular emphasis on membrane transport processes.",
+      "school": "Biology Teaching and Learning Centre",
+      "schoolCode": "BIOL",
+      "college": "ANU College of Science and Medicine",
+      "level": "PGRD",
+      "terms": [],
+      "conveners": [
+        "Prof Ben Corry",
+        "Prof Ben Corry"
+      ],
+      "handbookUrl": "https://programsandcourses.anu.edu.au/course/BIOL6174",
+      "reviewMetrics": [
+        "Teaching quality",
+        "Workload fairness",
+        "Assessment design"
+      ],
+      "tags": [
+        "science and medicine"
+      ]
+    },
+    {
+      "id": "biol6177",
+      "type": "course",
+      "code": "BIOL6177",
+      "name": "Advances in Molecular Plant Science",
+      "summary": "The integration of molecular biology, biochemistry, genetics, next-generation sequencing, genome editing and cell biology has had an enormous impact on plant science in recent years. This course will present current understanding in several key areas and demonstrate how conceptual and technical advances provide new insights in plant biology and new approaches for crop improvement and agriculture. Two introductory lectures will be given on plant structure and function prior to the major topics, which will include plant development, nitrogen fixation, epigenetics and regulation of gene expression, next-generation tools for crop improvement, photosynthesis, structural biology in plants, plant immunity, and redox regulation and signalling.",
+      "school": "Biology Teaching and Learning Centre",
+      "schoolCode": "BIOL",
+      "college": "ANU College of Science and Medicine",
+      "level": "PGRD",
+      "terms": [],
+      "conveners": [
+        "Dr Florence Danila",
+        "Prof Ulrike Mathesius"
+      ],
+      "handbookUrl": "https://programsandcourses.anu.edu.au/course/BIOL6177",
+      "reviewMetrics": [
+        "Teaching quality",
+        "Workload fairness",
+        "Assessment design"
+      ],
+      "tags": [
+        "science and medicine"
+      ]
+    },
+    {
+      "id": "biol6188",
+      "type": "course",
+      "code": "BIOL6188",
+      "name": "ANU SynBio Challenge Team Project",
+      "summary": "Since its much heralded inception in the early 2000’s, Synthetic Biology (SynBio) has gained significant attention and sizeable funding from public and private sectors around the world. From its emergence as a boldly stated intention to engineer biology, through to an increasingly mature and diverse discipline, the field continues to promise solutions to the global challenges we face today. It is becoming increasingly possible to engineer living cells in the same way as digital technology, complete with dedicated program languages and assembly tools to quickly and modularly combine biological “parts” for a tailored purpose.",
+      "school": "Biology Teaching and Learning Centre and the Research School of Chemistry",
+      "schoolCode": "CHEM",
+      "college": "ANU College of Science and Medicine",
+      "level": "PGRD",
+      "terms": [],
+      "conveners": [
+        "Dr Joseph Brock",
+        "Dr Joseph Brock"
+      ],
+      "handbookUrl": "https://programsandcourses.anu.edu.au/course/BIOL6188",
+      "reviewMetrics": [
+        "Teaching quality",
+        "Workload fairness",
+        "Assessment design"
+      ],
+      "tags": [
+        "science and medicine"
+      ]
+    },
+    {
+      "id": "biol6191",
+      "type": "course",
+      "code": "BIOL6191",
+      "name": "Bioethics and Society",
+      "summary": "Rapid advances in the biosciences, biotechnology and biomedicine represent a challenge to our society and raise some very difficult ethical questions. Since its advent in the mid 20th century the field of bioethics has engaged with such issues and developed a range of responses and proposals. In this course you will consider diverse perspectives through readings, tutorial discussions and lectures.",
+      "school": "Biology Teaching and Learning Centre",
+      "schoolCode": "BIOL",
+      "college": "ANU College of Science and Medicine",
+      "level": "PGRD",
+      "terms": [],
+      "conveners": [],
+      "handbookUrl": "https://programsandcourses.anu.edu.au/course/BIOL6191",
+      "reviewMetrics": [
+        "Teaching quality",
+        "Workload fairness",
+        "Assessment design"
+      ],
+      "tags": [
+        "science and medicine"
+      ]
+    },
+    {
+      "id": "biol6204",
+      "type": "course",
+      "code": "BIOL6204",
+      "name": "Genetics of Human Disease",
+      "summary": "This course provides an introduction to new discoveries in areas of importance to our understanding of human genetics and disease. Fuelled by sequencing of the human genome and new methods of investigating biological function, research into the genetic and molecular causes of human disease is advancing at a rapid pace. We will examine not only the genetic abnormalities underlying human disease and disorders but also the breakdown in physiological processes and molecular biology caused by the genetic lesion.",
+      "school": "John Curtin School of Medical Research",
+      "schoolCode": "JCSMR",
+      "college": "ANU College of Science and Medicine",
+      "level": "PGRD",
+      "terms": [],
+      "conveners": [
+        "Dr Julia Ellyard",
+        "Dr Julia Ellyard"
+      ],
+      "handbookUrl": "https://programsandcourses.anu.edu.au/course/BIOL6204",
+      "reviewMetrics": [
+        "Teaching quality",
+        "Workload fairness",
+        "Assessment design"
+      ],
+      "tags": [
+        "science and medicine"
+      ]
+    },
+    {
+      "id": "biol6205",
+      "type": "course",
+      "code": "BIOL6205",
+      "name": "Genomic Medicine",
+      "summary": "This course provides a deep understanding of the genetic and molecular basics of human health, including diseases and the impact of environmental factors on well-being. Recent advances in genomics, transcriptomics, proteomics and biocomputing, coupled with innovative genome editing and molecular therapeutic technologies, enabled unprecedented capabilities to monitor health, identify molecular drivers and treat human diseases with critical effects on quality of life and economy. Advanced analytical technologies drive the development of personalised therapeutic approaches to treat disease, guiding therapeutic decisions and treatment selection based on the specific biomolecular background of the patients.",
+      "school": "John Curtin School of Medical Research",
+      "schoolCode": "JCSMR",
+      "college": "ANU College of Science and Medicine",
+      "level": "PGRD",
+      "terms": [],
+      "conveners": [],
+      "handbookUrl": "https://programsandcourses.anu.edu.au/course/BIOL6205",
+      "reviewMetrics": [
+        "Teaching quality",
+        "Workload fairness",
+        "Assessment design"
+      ],
+      "tags": [
+        "science and medicine"
+      ]
+    },
+    {
+      "id": "biol6243",
+      "type": "course",
+      "code": "BIOL6243",
+      "name": "Bioinformatics and its Applications",
+      "summary": "This course introduces the key methods and technologies of bioinformatics as pertinent to genomics. These are the fastest growing fields of biology and perhaps science. Bioinformatics is a rapidly growing scientific discipline at the interface of genomics, statistics and computer science.",
+      "school": "Biology Teaching and Learning Centre",
+      "schoolCode": "BIOL",
+      "college": "ANU College of Science and Medicine",
+      "level": "PGRD",
+      "terms": [],
+      "conveners": [],
+      "handbookUrl": "https://programsandcourses.anu.edu.au/course/BIOL6243",
+      "reviewMetrics": [
+        "Teaching quality",
+        "Workload fairness",
+        "Assessment design"
+      ],
+      "tags": [
+        "science and medicine"
+      ]
+    },
+    {
+      "id": "biol8291",
+      "type": "course",
+      "code": "BIOL8291",
+      "name": "Research Presentation Skills",
+      "summary": "This course is designed to provide students with the opportunity to develop reading, writing and presentation skills that are now critical in career development and advancement in science. This course will be taught as a series of workshops emphasizing scientific writing and communicating to a scientific audience through written work, oral and poster presentations. The course is tailored to provide peer-review and instructor feedback via in-class workshops and online assistance in order to improve the presentation skills of individual students.",
+      "school": "Research School of Chemistry and the Biology Teaching and Learning Centre",
+      "schoolCode": "CHEM",
+      "college": "ANU College of Science and Medicine",
+      "level": "PGRD",
+      "terms": [],
+      "conveners": [
+        "Dr Mirindi Eric Dusenge",
+        "Prof Wai Hong Tham"
+      ],
+      "handbookUrl": "https://programsandcourses.anu.edu.au/course/BIOL8291",
+      "reviewMetrics": [
+        "Teaching quality",
+        "Workload fairness",
+        "Assessment design"
+      ],
+      "tags": [
+        "science and medicine"
+      ]
+    },
+    {
+      "id": "biol8700",
+      "type": "course",
+      "code": "BIOL8700",
+      "name": "Research Proposal",
+      "summary": "This course provides students the opportunity to develop an original research proposal. Students will enhance their skills in interpreting, synthesising and critically analysing published literature and subsequently apply their knowledge to new questions in biology. Workshops will consist of discussing research ideas, learning strategies for robust experimental design and analyses, and peer-review activities designed to enhance writing and communication skills.",
+      "school": "Biology Teaching and Learning Centre",
+      "schoolCode": "BIOL",
+      "college": "ANU College of Science and Medicine",
+      "level": "PGRD",
+      "terms": [],
+      "conveners": [
+        "Dr Florence Danila",
+        "Prof Colin Jackson"
+      ],
+      "handbookUrl": "https://programsandcourses.anu.edu.au/course/BIOL8700",
+      "reviewMetrics": [
+        "Teaching quality",
+        "Workload fairness",
+        "Assessment design"
+      ],
+      "tags": [
+        "science and medicine"
+      ]
+    },
+    {
+      "id": "biol8702",
+      "type": "course",
+      "code": "BIOL8702",
+      "name": "Advanced Research Techniques",
+      "summary": "This course will introduce students to a variety of state-of-the-art techniques, both practically and theoretically, that are commonly used in the research fields of molecular biology and genetics.",
+      "school": "Biology Teaching and Learning Centre",
+      "schoolCode": "BIOL",
+      "college": "ANU College of Science and Medicine",
+      "level": "PGRD",
+      "terms": [],
+      "conveners": [],
+      "handbookUrl": "https://programsandcourses.anu.edu.au/course/BIOL8702",
+      "reviewMetrics": [
+        "Teaching quality",
+        "Workload fairness",
+        "Assessment design"
+      ],
+      "tags": [
+        "science and medicine"
+      ]
+    },
+    {
+      "id": "biol8704",
+      "type": "course",
+      "code": "BIOL8704",
+      "name": "Biology Literature Research Project",
+      "summary": "In this course, you will critically read the biological literature to better understand how to effectively present scientific findings. You will learn to evaluate arguments, methods and lines of evidence. You will assess how well the conclusions drawn from studies are justified.",
+      "school": "Biology Teaching and Learning Centre",
+      "schoolCode": "BIOL",
+      "college": "ANU College of Science and Medicine",
+      "level": "PGRD",
+      "terms": [],
+      "conveners": [],
+      "handbookUrl": "https://programsandcourses.anu.edu.au/course/BIOL8704",
+      "reviewMetrics": [
+        "Teaching quality",
+        "Workload fairness",
+        "Assessment design"
+      ],
+      "tags": [
+        "science and medicine"
+      ]
+    },
+    {
+      "id": "biol8707",
+      "type": "course",
+      "code": "BIOL8707",
+      "name": "Biotechnology Practicum",
+      "summary": "This course provides an opportunity for Masters students to apply and develop professional skills in a range of laboratories and service facilities at the ANU. This course offers opportunities to network with professional staff and organisations, to acquire skills, knowledge and professional attributes which will facilitate future employment and career outcomes. The practicum will be under the direct supervision of a workplace professional, within the ANU College of Science and Medicine or elsewhere as approved by the convenor.",
+      "school": "Biology Teaching and Learning Centre and the Research School of Chemistry",
+      "schoolCode": "CHEM",
+      "college": "ANU College of Science and Medicine",
+      "level": "PGRD",
+      "terms": [],
+      "conveners": [],
+      "handbookUrl": "https://programsandcourses.anu.edu.au/course/BIOL8707",
+      "reviewMetrics": [
+        "Teaching quality",
+        "Workload fairness",
+        "Assessment design"
+      ],
+      "tags": [
+        "science and medicine"
       ]
     },
     {
@@ -23337,6 +32211,291 @@ window.ANREVIEW_DATA = {
       ]
     },
     {
+      "id": "chem1101",
+      "type": "course",
+      "code": "CHEM1101",
+      "name": "Chemistry 1",
+      "summary": "The following syllabus provides a general guide to the topics to be discussed: Atomic structure and bonding: electronic structure of atoms, quantum numbers, orbitals and energy levels, filling sequence, periodicity of atomic properties, octet ‘rule’, chemical bonds - ionic, covalent - energetics, H-bonds, Lewis structures, shapes of molecules, VSEPR theory, valence bond theory, hybridisation, resonance, molecular orbital theory of simple homonuclear diatomic molecules. Equilibrium: Haber process as example of the Law of mass action, equilibrium constants, Kc and Kp, Le Chatelier’s principle, reaction quotient, endo- and exo-thermic reactions. Acids/bases and aqueous equilibria: classical, Lowry-Brønsted, and Lewis definitions, pH of aqueous solutions, strengths of acids and bases - Ka and Kb, titration curves, buffers, extent of hydrolysis - weak acids/bases, solubility products.",
+      "school": "Research School of Chemistry",
+      "schoolCode": "CHEM",
+      "college": "ANU College of Science and Medicine",
+      "level": "UGRD",
+      "terms": [],
+      "conveners": [],
+      "handbookUrl": "https://programsandcourses.anu.edu.au/course/CHEM1101",
+      "reviewMetrics": [
+        "Teaching quality",
+        "Workload fairness",
+        "Assessment design"
+      ],
+      "tags": [
+        "science and medicine"
+      ]
+    },
+    {
+      "id": "chem1201",
+      "type": "course",
+      "code": "CHEM1201",
+      "name": "Chemistry 2",
+      "summary": "The following syllabus provides a general guide to the topics to be discussed: Chemistry of the elements: periodicity exemplified, descriptive chemistry of non-metallic groups VII, VI and V, silicates - structural variety, close packing geometries, transition metals, coordination chemistry - ligands, isomerism, stability, biological examples. Intermolecular forces, states of matter, liquefaction, vapour pressure, molar heat capacity, phase diagrams (one component), melting, boiling, critical phenomena and lattice energies. Solutions: solubility, phase diagrams of multicomponent systems, colligative properties, Raoult’s law, deviations from ideality, mp depression/bp elevation, osmosis.",
+      "school": "Research School of Chemistry",
+      "schoolCode": "CHEM",
+      "college": "ANU College of Science and Medicine",
+      "level": "UGRD",
+      "terms": [],
+      "conveners": [],
+      "handbookUrl": "https://programsandcourses.anu.edu.au/course/CHEM1201",
+      "reviewMetrics": [
+        "Teaching quality",
+        "Workload fairness",
+        "Assessment design"
+      ],
+      "tags": [
+        "science and medicine"
+      ]
+    },
+    {
+      "id": "chem6201",
+      "type": "course",
+      "code": "CHEM6201",
+      "name": "Synthetic Aspects of Medicinal Chemistry",
+      "summary": "From designed structures to natural products, medicinal agents to functional materials to biological targets, organic substances are everywhere! The purpose of this course is to teach how to analyse structures and devise ways to make them. The lecture material will focus on the most important structures, reactions and mechanisms, topics and themes of contemporary Organic Chemistry and highlight applications of organic compounds in medicine.",
+      "school": "Research School of Chemistry",
+      "schoolCode": "CHEM",
+      "college": "ANU College of Science and Medicine",
+      "level": "PGRD",
+      "terms": [],
+      "conveners": [
+        "Prof Mick Sherburn",
+        "Prof Mick Sherburn"
+      ],
+      "handbookUrl": "https://programsandcourses.anu.edu.au/course/CHEM6201",
+      "reviewMetrics": [
+        "Teaching quality",
+        "Workload fairness",
+        "Assessment design"
+      ],
+      "tags": [
+        "science and medicine"
+      ]
+    },
+    {
+      "id": "chem6203",
+      "type": "course",
+      "code": "CHEM6203",
+      "name": "Chemical Structure and Reactivity 2",
+      "summary": "This course will assume an undergraduate level knowledge and understanding of chemical structure and reactivity and the methods of structural elucidation. The course will continue to develop an integrated approach to chemical education through instruction in theoretical and practical aspects of inorganic and organic chemistry. The organic component of the course will be centred on the important area of carbonyl chemistry and highlight the significance and applications of this area of chemistry.",
+      "school": "Research School of Chemistry",
+      "schoolCode": "CHEM",
+      "college": "ANU College of Science and Medicine",
+      "level": "PGRD",
+      "terms": [],
+      "conveners": [],
+      "handbookUrl": "https://programsandcourses.anu.edu.au/course/CHEM6203",
+      "reviewMetrics": [
+        "Teaching quality",
+        "Workload fairness",
+        "Assessment design"
+      ],
+      "tags": [
+        "science and medicine"
+      ]
+    },
+    {
+      "id": "chem6204",
+      "type": "course",
+      "code": "CHEM6204",
+      "name": "Chemical Structure and Reactivity 1",
+      "summary": "This course will provide students with a well-rounded, integrated background in chemistry at the second year level covering key concepts in chemistry with a particular emphasis on the structure and function of molecules. The course is divided into two components: organic chemistry (~50%) and inorganic chemistry (~50%) with some physical chemistry included. The organic chemistry component will focus on an in-depth analysis of several types of organic reactions from a mechanistic and stereochemical viewpoint with particular reference to natural products and the synthesis of compounds of biological and commercial importance.",
+      "school": "Research School of Chemistry",
+      "schoolCode": "CHEM",
+      "college": "ANU College of Science and Medicine",
+      "level": "PGRD",
+      "terms": [],
+      "conveners": [
+        "Prof Mick Sherburn",
+        "Prof Mick Sherburn"
+      ],
+      "handbookUrl": "https://programsandcourses.anu.edu.au/course/CHEM6204",
+      "reviewMetrics": [
+        "Teaching quality",
+        "Workload fairness",
+        "Assessment design"
+      ],
+      "tags": [
+        "science and medicine"
+      ]
+    },
+    {
+      "id": "chem6206",
+      "type": "course",
+      "code": "CHEM6206",
+      "name": "Catalysis in Chemistry",
+      "summary": "Over the last 20-30 years the face of chemical synthesis has changed quite dramatically to a realm where many key reactions intimately rely on the presence of a catalyst. Key advances continue to be made in this area particularly with regards to the use of chiral catalysts in the synthesis of enantiomerically pure compounds. This course will focus on the use of catalysts in small molecule synthesis.",
+      "school": "Research School of Chemistry",
+      "schoolCode": "CHEM",
+      "college": "ANU College of Science and Medicine",
+      "level": "PGRD",
+      "terms": [],
+      "conveners": [
+        "Prof Mark Humphrey",
+        "Prof Mark Humphrey"
+      ],
+      "handbookUrl": "https://programsandcourses.anu.edu.au/course/CHEM6206",
+      "reviewMetrics": [
+        "Teaching quality",
+        "Workload fairness",
+        "Assessment design"
+      ],
+      "tags": [
+        "science and medicine"
+      ]
+    },
+    {
+      "id": "chem6208",
+      "type": "course",
+      "code": "CHEM6208",
+      "name": "Computational Chemistry",
+      "summary": "This course will cover various aspects in computational chemistry, including: density-functional theory, molecular dynamics, multi-configurational wavefunction methods, an introduction to solid-state electronic structure theory, computation of reaction mechanisms, and an introduction to machine learning. A focus will be placed on the underlying chemical theory behind each method and its real world applications. The laboratory sessions provide students with experience in the computational chemistry techniques used to model the structures, properties and chemical reactivity of molecules.",
+      "school": "Research School of Chemistry",
+      "schoolCode": "CHEM",
+      "college": "ANU College of Science and Medicine",
+      "level": "PGRD",
+      "terms": [],
+      "conveners": [],
+      "handbookUrl": "https://programsandcourses.anu.edu.au/course/CHEM6208",
+      "reviewMetrics": [
+        "Teaching quality",
+        "Workload fairness",
+        "Assessment design"
+      ],
+      "tags": [
+        "science and medicine"
+      ]
+    },
+    {
+      "id": "chem6210",
+      "type": "course",
+      "code": "CHEM6210",
+      "name": "Structure Elucidation in Chemistry",
+      "summary": "Structural elucidation is essential in all areas of chemistry, from understanding the behaviour of engineered enzymes or functional materials, to the creation of new medicines to treat disease. This course describes the fundamentals of chemical structure and symmetry, and the use of molecular orbital theory and quantum mechanics to understand molecular properties and chemical spectroscopy. It has a major focus on problem solving and acquiring applied skills to deploy concepts of symmetry, spectroscopy, spectrometry and diffraction to define chemical structure across all states of matter.",
+      "school": "Research School of Chemistry",
+      "schoolCode": "CHEM",
+      "college": "ANU College of Science and Medicine",
+      "level": "PGRD",
+      "terms": [],
+      "conveners": [
+        "Prof Malcolm McLeod",
+        "Prof Malcolm McLeod"
+      ],
+      "handbookUrl": "https://programsandcourses.anu.edu.au/course/CHEM6210",
+      "reviewMetrics": [
+        "Teaching quality",
+        "Workload fairness",
+        "Assessment design"
+      ],
+      "tags": [
+        "science and medicine"
+      ]
+    },
+    {
+      "id": "chem6211",
+      "type": "course",
+      "code": "CHEM6211",
+      "name": "Chemical Biology 1",
+      "summary": "Chemistry has changed rapidly over the past decades and techniques that were once exclusively applied to small molecules are now routinely used with larger molecules, such as proteins. This course will be the first introduction of students to the field of chemical biology, which spans chemistry, biology and physics. Biological molecules and systems are analysed and modified using chemical principles and techniques.",
+      "school": "Research School of Chemistry",
+      "schoolCode": "CHEM",
+      "college": "ANU College of Science and Medicine",
+      "level": "PGRD",
+      "terms": [],
+      "conveners": [],
+      "handbookUrl": "https://programsandcourses.anu.edu.au/course/CHEM6211",
+      "reviewMetrics": [
+        "Teaching quality",
+        "Workload fairness",
+        "Assessment design"
+      ],
+      "tags": [
+        "science and medicine"
+      ]
+    },
+    {
+      "id": "chem6213",
+      "type": "course",
+      "code": "CHEM6213",
+      "name": "Soft Matter",
+      "summary": "Soft materials are ubiquitous in our modern daily lives. From the plastic packaging used in the food industry to new lightweight materials for aeronautics, soft matter research is changing the way we live, work and play. The physical principles of soft matter also underpin our understanding of natural materials, such proteins.",
+      "school": "Research School of Chemistry",
+      "schoolCode": "CHEM",
+      "college": "ANU College of Science and Medicine",
+      "level": "PGRD",
+      "terms": [],
+      "conveners": [
+        "Prof Zongyou Yin",
+        "Prof Zongyou Yin"
+      ],
+      "handbookUrl": "https://programsandcourses.anu.edu.au/course/CHEM6213",
+      "reviewMetrics": [
+        "Teaching quality",
+        "Workload fairness",
+        "Assessment design"
+      ],
+      "tags": [
+        "science and medicine"
+      ]
+    },
+    {
+      "id": "chem6324",
+      "type": "course",
+      "code": "CHEM6324",
+      "name": "Advanced Protein Technologies: Laboratory course",
+      "summary": "Modern chemistry and biochemistry depends on the ability to make, change and analyse proteins and enzymes. In this course, students will practice all of the steps required to modify genetic information in DNA, and to produce proteins in bacterial cells (in vivo ) and in a test tube ( in vitro ). In addition, the course will teach the fundamental biochemical principles of DNA mutagenesis, protein production and purification, and analysis of proteins by bioinformatics and various biophysical techniques.",
+      "school": "Research School of Chemistry",
+      "schoolCode": "CHEM",
+      "college": "ANU College of Science and Medicine",
+      "level": "PGRD",
+      "terms": [],
+      "conveners": [
+        "Prof Thomas Huber",
+        "Prof Thomas Huber"
+      ],
+      "handbookUrl": "https://programsandcourses.anu.edu.au/course/CHEM6324",
+      "reviewMetrics": [
+        "Teaching quality",
+        "Workload fairness",
+        "Assessment design"
+      ],
+      "tags": [
+        "science and medicine"
+      ]
+    },
+    {
+      "id": "chem6327",
+      "type": "course",
+      "code": "CHEM6327",
+      "name": "Current Topics in Chemical and Synthetic Biology",
+      "summary": "Chemical biology is the manipulation of biological systems through the use of tools that have primarily been developed through synthetic chemistry. This advanced course focuses on providing an introduction to chemical biology via the study of papers published within the last five years in scientific journals. Areas that will be covered will include the design and generation of novel enzymes through incorporation of unnatural amino acids, computation design of new enzymes with specific properties, the use of fluorescent chemicals/proteins in biology, combinatorial chemistry and drug design, and glycobiology - the manipulation of sugars that are recognised by cells/proteins.",
+      "school": "Research School of Chemistry",
+      "schoolCode": "CHEM",
+      "college": "ANU College of Science and Medicine",
+      "level": "PGRD",
+      "terms": [],
+      "conveners": [
+        "Prof Colin Jackson",
+        "Prof Colin Jackson"
+      ],
+      "handbookUrl": "https://programsandcourses.anu.edu.au/course/CHEM6327",
+      "reviewMetrics": [
+        "Teaching quality",
+        "Workload fairness",
+        "Assessment design"
+      ],
+      "tags": [
+        "science and medicine"
+      ]
+    },
+    {
       "id": "chin1012",
       "type": "course",
       "code": "CHIN1012",
@@ -23810,6 +32969,28 @@ window.ANREVIEW_DATA = {
       ]
     },
     {
+      "id": "chmd2005",
+      "type": "course",
+      "code": "CHMD2005",
+      "name": "Health Humanities",
+      "summary": "This course introduces students to the field of health humanities, highlighting the ways humanities can throw light on complex inter-relationships between culture, medicine and health. It focuses on the health humanities in performance, text and visual media and is divided into modules to enable students to practice perspective-taking, observation, embodied learning and creative synthesis: 1) Personal accounts of illness - pathographies 2) Representations of the body and selfhood 3) Embodiment and health 4) Institutions and health care These four modules will be linked through three health humanities themes: cultural constructions of health and health care; narrative and visual representations of illness, health and well-being; and performance and health. Expert seminars will be presented by writers, dance artists, visual artists, and game developers.",
+      "school": "School of Medicine and Psychology",
+      "schoolCode": "SMP",
+      "college": "ANU College of Science and Medicine",
+      "level": "UGRD",
+      "terms": [],
+      "conveners": [],
+      "handbookUrl": "https://programsandcourses.anu.edu.au/course/CHMD2005",
+      "reviewMetrics": [
+        "Teaching quality",
+        "Workload fairness",
+        "Assessment design"
+      ],
+      "tags": [
+        "science and medicine"
+      ]
+    },
+    {
       "id": "chst3211",
       "type": "course",
       "code": "CHST3211",
@@ -23980,20 +33161,21 @@ window.ANREVIEW_DATA = {
       "name": "Programming as Problem Solving",
       "college": "ANU College of Systems and Society",
       "school": "School of Computing",
-      "schoolCode": "SOC",
+      "schoolCode": "COMP",
       "level": "UGRD",
-      "terms": [
-        "First Semester",
-        "Second Semester"
+      "terms": [],
+      "conveners": [
+        "Dr Michael Norrish",
+        "Dr Ranald Clouston"
       ],
-      "conveners": [],
-      "handbookUrl": "https://programsandcourses.anu.edu.au/course/comp1100",
-      "summary": "This course is the first of three core computer science courses on programming. It introduces students to the field of computer science as a discipline for solving problems through computation and provides the foundation for more advanced courses on programming and software development.",
+      "handbookUrl": "https://programsandcourses.anu.edu.au/course/COMP1100",
+      "summary": "This course is the first of three core computer science courses on programming. It introduces students to the field of computer science as a discipline for solving problems through computation and provides the foundation for more advanced courses on programming and software development. Data structures and algorithms, the key concepts at the core of computer science, receive their first treatment in this course.",
       "tags": [
         "business information systems",
         "computer science",
         "information technology",
-        "software engineering"
+        "software engineering",
+        "systems and society"
       ],
       "reviewMetrics": [
         "Teaching quality",
@@ -24008,25 +33190,101 @@ window.ANREVIEW_DATA = {
       "name": "Structured Programming",
       "college": "ANU College of Systems and Society",
       "school": "School of Computing",
-      "schoolCode": "SOC",
+      "schoolCode": "COMP",
       "level": "UGRD",
-      "terms": [
-        "First Semester",
-        "Second Semester"
+      "terms": [],
+      "conveners": [
+        "Dr Fabian Muehlboeck",
+        "Dr Liam O'Connor"
       ],
-      "conveners": [],
-      "handbookUrl": "https://programsandcourses.anu.edu.au/course/comp1110",
-      "summary": "This programming course teaches basic concepts in imperative and object-oriented programming and corresponding data structures. Students will learn to use an industrial-strength object-oriented programming language and form basic mental models of how computer programs execute and interact with their environment.",
+      "handbookUrl": "https://programsandcourses.anu.edu.au/course/COMP1110",
+      "summary": "This programming course teaches basic concepts in imperative and object-oriented programming and corresponding data structures. Students will learn to use an industrial-strength object-oriented programming language and form basic mental models of how computer programs execute and interact with their environment. The course focuses on key aspects of solving programming problems: reasoning about a problem description to design appropriate data representations and function/method descriptions, to find examples, to write, test, debug, and otherwise evaluate the relevant code, and to present and defend their approach.",
       "tags": [
         "business information systems",
         "bioinformatics",
         "computer science",
-        "information technology"
+        "information technology",
+        "systems and society"
       ],
       "reviewMetrics": [
         "Teaching quality",
         "Workload fairness",
         "Assessment design"
+      ]
+    },
+    {
+      "id": "comp1130",
+      "type": "course",
+      "code": "COMP1130",
+      "name": "Programming as Problem Solving (Advanced)",
+      "summary": "This course is a variation on Programming for Problem Solving ( COMP1100 ). It covers the same topics in more depth, requiring addtional contact hours to allow students to deepen their understanding and experience. They will understand the foundations of program semantics, program proof, and implementation of the programming language features that they have learned in the course.",
+      "school": "School of Computing",
+      "schoolCode": "COMP",
+      "college": "ANU College of Systems and Society",
+      "level": "UGRD",
+      "terms": [],
+      "conveners": [
+        "Prof Dirk Pattinson",
+        "Prof Dirk Pattinson"
+      ],
+      "handbookUrl": "https://programsandcourses.anu.edu.au/course/COMP1130",
+      "reviewMetrics": [
+        "Teaching quality",
+        "Workload fairness",
+        "Assessment design"
+      ],
+      "tags": [
+        "systems and society"
+      ]
+    },
+    {
+      "id": "comp1140",
+      "type": "course",
+      "code": "COMP1140",
+      "name": "Structured Programming (Advanced)",
+      "summary": "This course is an advanced variation of Structured Programming ( COMP1110 ), and as such, teaches the same concepts in more depth, with corresponding additional content and assessment. This programming course teaches basic concepts in imperative and object-oriented programming and corresponding data structures. Students will learn to use an industrial-strength object-oriented programming language and form basic mental models of how computer programs execute and interact with their environment.",
+      "school": "School of Computing",
+      "schoolCode": "COMP",
+      "college": "ANU College of Systems and Society",
+      "level": "UGRD",
+      "terms": [],
+      "conveners": [
+        "Dr Fabian Muehlboeck",
+        "Dr Fabian Muehlboeck"
+      ],
+      "handbookUrl": "https://programsandcourses.anu.edu.au/course/COMP1140",
+      "reviewMetrics": [
+        "Teaching quality",
+        "Workload fairness",
+        "Assessment design"
+      ],
+      "tags": [
+        "systems and society"
+      ]
+    },
+    {
+      "id": "comp1600",
+      "type": "course",
+      "code": "COMP1600",
+      "name": "Foundations of Computing",
+      "summary": "This course presents some formal notations that are commonly used for the description of computation and of computing systems, for the specification of software and for mathematically rigorous arguments about program properties. The following areas of study constitute the backbone of the course. Predicate calculus and natural deduction, inductive definitions of data types as a basis for recursive functions and structural induction, formal language theory (particularly regular expressions, finite state machines and context-free grammars), and specification languages.",
+      "school": "School of Computing",
+      "schoolCode": "COMP",
+      "college": "ANU College of Systems and Society",
+      "level": "UGRD",
+      "terms": [],
+      "conveners": [
+        "Prof Dirk Pattinson",
+        "Prof Dirk Pattinson"
+      ],
+      "handbookUrl": "https://programsandcourses.anu.edu.au/course/COMP1600",
+      "reviewMetrics": [
+        "Teaching quality",
+        "Workload fairness",
+        "Assessment design"
+      ],
+      "tags": [
+        "systems and society"
       ]
     },
     {
@@ -24036,24 +33294,139 @@ window.ANREVIEW_DATA = {
       "name": "Web Development and Design",
       "college": "ANU College of Systems and Society",
       "school": "School of Computing",
-      "schoolCode": "SOC",
+      "schoolCode": "COMP",
       "level": "UGRD",
-      "terms": [
-        "See ANU course page"
-      ],
+      "terms": [],
       "conveners": [],
-      "handbookUrl": "https://programsandcourses.anu.edu.au/course/comp1710",
-      "summary": "This course introduces the construction of web sites and web interface/interaction design. There is a key focus on the on new media / multimedia and its delivery on the world wide web.",
+      "handbookUrl": "https://programsandcourses.anu.edu.au/course/COMP1710",
+      "summary": "This course introduces the construction of web sites and web interface/interaction design. There is a key focus on the on new media / multimedia and its delivery on the world wide web. The course introduces multimedia as a combination of text, graphics, video, animation and sound for the purposes of information access, storage and dissemination.",
       "tags": [
         "digital arts",
         "visual arts",
         "information technology",
-        "software engineering"
+        "software engineering",
+        "systems and society"
       ],
       "reviewMetrics": [
         "Teaching quality",
         "Workload fairness",
         "Assessment design"
+      ]
+    },
+    {
+      "id": "comp1720",
+      "type": "course",
+      "code": "COMP1720",
+      "name": "Art and Interaction Computing",
+      "summary": "This course introduces the fundamentals of coding and design required to create expressive interactive artworks. Students will learn how to conceptualise, plan, and realise an original interactive artwork using a high-level programming language. They will experiment with computer graphics, sound, and input devices and learn programming concepts required for accomplishing their creative objectives.",
+      "school": "School of Computing",
+      "schoolCode": "COMP",
+      "college": "ANU College of Systems and Society",
+      "level": "UGRD",
+      "terms": [],
+      "conveners": [],
+      "handbookUrl": "https://programsandcourses.anu.edu.au/course/COMP1720",
+      "reviewMetrics": [
+        "Teaching quality",
+        "Workload fairness",
+        "Assessment design"
+      ],
+      "tags": [
+        "systems and society"
+      ]
+    },
+    {
+      "id": "comp1730",
+      "type": "course",
+      "code": "COMP1730",
+      "name": "Programming for Scientists",
+      "summary": "This course teaches introductory programming, fundamental programming language and computer science concepts, and computational problem solving illustrated with applications common in science and engineering, such as data analysis, visualisation, and image processing. We will take a different approach, including prompting and working with GenAI, with emphasis on testing, debugging and problem decomposition, and using GenAI to help understand code. These skills will empower students to write software with the aid of GenAI.",
+      "school": "School of Computing",
+      "schoolCode": "COMP",
+      "college": "ANU College of Systems and Society",
+      "level": "UGRD",
+      "terms": [],
+      "conveners": [],
+      "handbookUrl": "https://programsandcourses.anu.edu.au/course/COMP1730",
+      "reviewMetrics": [
+        "Teaching quality",
+        "Workload fairness",
+        "Assessment design"
+      ],
+      "tags": [
+        "systems and society"
+      ]
+    },
+    {
+      "id": "comp2100",
+      "type": "course",
+      "code": "COMP2100",
+      "name": "Software Construction",
+      "summary": "This course extensively explores the fundamental principles and practices necessary for creating medium-scale software projects, with a specific focus on the object-oriented programming paradigm. By blending theoretical understanding with hands-on practice, students establish a robust foundation in software construction, drawing from their prior programming experience. Key topics, including programming techniques at large, life cycle models, data manipulation techniques, and GUI concepts, are highlighted to foster a comprehensive grasp of software development.",
+      "school": "School of Computing",
+      "schoolCode": "COMP",
+      "college": "ANU College of Systems and Society",
+      "level": "UGRD",
+      "terms": [],
+      "conveners": [
+        "Dr Charles Gretton",
+        "Dr Dylan Campbell"
+      ],
+      "handbookUrl": "https://programsandcourses.anu.edu.au/course/COMP2100",
+      "reviewMetrics": [
+        "Teaching quality",
+        "Workload fairness",
+        "Assessment design"
+      ],
+      "tags": [
+        "systems and society"
+      ]
+    },
+    {
+      "id": "comp2120",
+      "type": "course",
+      "code": "COMP2120",
+      "name": "Software Engineering",
+      "summary": "Real-world software development is a complex and dynamic activity involving people, technology and processes interacting within a complex environment of clients, users and other stakeholders while being observant of technological, physical, social, legal, and ethical constraints. This course will empower students with the ability and confidence necessary to exercise critical thinking and professional judgment to select and apply appropriate knowledge, practices and tools to the development of non-trivial software systems. This will be achieved by introducing students to important design methodologies.",
+      "school": "School of Computing",
+      "schoolCode": "COMP",
+      "college": "ANU College of Systems and Society",
+      "level": "UGRD",
+      "terms": [],
+      "conveners": [
+        "Dr Xiaoyu Sun",
+        "Dr Xiaoyu Sun"
+      ],
+      "handbookUrl": "https://programsandcourses.anu.edu.au/course/COMP2120",
+      "reviewMetrics": [
+        "Teaching quality",
+        "Workload fairness",
+        "Assessment design"
+      ],
+      "tags": [
+        "systems and society"
+      ]
+    },
+    {
+      "id": "comp2300",
+      "type": "course",
+      "code": "COMP2300",
+      "name": "Computer Architecture",
+      "summary": "This course is a rigorous introduction to the design of digital circuits and computer architecture. It provides technical foundations for how a computer system is built from the bottom up and how the high-level programming languages you learn in other courses are translated into simple instructions the computer executes. The course introduces the different abstraction layers necessary to make a computer system work, and a key focus is the connection between hardware and software.",
+      "school": "School of Computing",
+      "schoolCode": "COMP",
+      "college": "ANU College of Systems and Society",
+      "level": "UGRD",
+      "terms": [],
+      "conveners": [],
+      "handbookUrl": "https://programsandcourses.anu.edu.au/course/COMP2300",
+      "reviewMetrics": [
+        "Teaching quality",
+        "Workload fairness",
+        "Assessment design"
+      ],
+      "tags": [
+        "systems and society"
       ]
     },
     {
@@ -24063,20 +33436,21 @@ window.ANREVIEW_DATA = {
       "name": "Relational Databases",
       "college": "ANU College of Systems and Society",
       "school": "School of Computing",
-      "schoolCode": "SOC",
+      "schoolCode": "COMP",
       "level": "UGRD",
-      "terms": [
-        "First Semester",
-        "Second Semester"
+      "terms": [],
+      "conveners": [
+        "Dr Miaomiao Liu",
+        "Dr Thang Bui"
       ],
-      "conveners": [],
-      "handbookUrl": "https://programsandcourses.anu.edu.au/course/comp2400",
-      "summary": "This course is an introduction to relational databases and the general skills for designing and using them. Topics include the relational data model, SQL, data modelling tools such as the entity-relationship model, functional dependencies, and (de-)normalisation, query processing and optimisation, and potential social and economic impacts of database desi...",
+      "handbookUrl": "https://programsandcourses.anu.edu.au/course/COMP2400",
+      "summary": "This course is an introduction to relational databases and the general skills for designing and using them. Topics include the relational data model, SQL, data modelling tools such as the entity-relationship model, functional dependencies, and (de-)normalisation, query processing and optimisation, and potential social and economic impacts of database design, for instance through (in-)security. Current development of database systems based on models other than the relational (known asNoSQL databases) will be introduced at the end of the course.",
       "tags": [
         "information technology",
         "software engineering",
         "information systems",
-        "algorithms and data"
+        "algorithms and data",
+        "systems and society"
       ],
       "reviewMetrics": [
         "Teaching quality",
@@ -24109,6 +33483,623 @@ window.ANREVIEW_DATA = {
         "Teaching quality",
         "Workload fairness",
         "Assessment design"
+      ]
+    },
+    {
+      "id": "comp3540",
+      "type": "course",
+      "code": "COMP3540",
+      "name": "Game Development",
+      "summary": "This course will provide a holistic grounding for game development, including elements of design, development, and production. Students will learn about key theories of game design and development and develop practical game development skills using leading professional development tools. Students will additionally learn from experienced industry professionals via guest lectures and engagement opportunities.",
+      "school": "School of Computing",
+      "schoolCode": "COMP",
+      "college": "ANU College of Systems and Society",
+      "level": "UGRD",
+      "terms": [],
+      "conveners": [],
+      "handbookUrl": "https://programsandcourses.anu.edu.au/course/COMP3540",
+      "reviewMetrics": [
+        "Teaching quality",
+        "Workload fairness",
+        "Assessment design"
+      ],
+      "tags": [
+        "systems and society"
+      ]
+    },
+    {
+      "id": "comp3670",
+      "type": "course",
+      "code": "COMP3670",
+      "name": "Introduction to Machine Learning",
+      "summary": "Essential foundations for any machine learning application are a basic statistical analysis of the data to be processed, a solid understanding of the mathematical foundations underpinning machine learning as well as the basic classes of learning/adaptation concepts. Those foundations are bundled in this single, introductory course to machine learning in preparation for deeper explorations into the topic, but also as a standalone unit.",
+      "school": "School of Computing",
+      "schoolCode": "COMP",
+      "college": "ANU College of Systems and Society",
+      "level": "UGRD",
+      "terms": [],
+      "conveners": [
+        "Dr Yun Kuen Cheung",
+        "Dr Yun Kuen Cheung"
+      ],
+      "handbookUrl": "https://programsandcourses.anu.edu.au/course/COMP3670",
+      "reviewMetrics": [
+        "Teaching quality",
+        "Workload fairness",
+        "Assessment design"
+      ],
+      "tags": [
+        "systems and society"
+      ]
+    },
+    {
+      "id": "comp3900",
+      "type": "course",
+      "code": "COMP3900",
+      "name": "Human-Computer Interaction",
+      "summary": "This course will provide an overview of the field of Human-Computer Interaction (HCI) and will introduce students to key interaction and experience design paradigms, approaches and methods. The course will equip students with theory, methods, and techniques to investigate different design situations, develop and prototype novel design ideas, and engage with the ethical dimensions of technology design.",
+      "school": "School of Computing",
+      "schoolCode": "COMP",
+      "college": "ANU College of Systems and Society",
+      "level": "UGRD",
+      "terms": [],
+      "conveners": [],
+      "handbookUrl": "https://programsandcourses.anu.edu.au/course/COMP3900",
+      "reviewMetrics": [
+        "Teaching quality",
+        "Workload fairness",
+        "Assessment design"
+      ],
+      "tags": [
+        "systems and society"
+      ]
+    },
+    {
+      "id": "comp4350",
+      "type": "course",
+      "code": "COMP4350",
+      "name": "Sound and Music Computing",
+      "summary": "Do you want to create sound and music with your computer? Do you want to build new kinds of musical instruments? Do you want to be a part of a laptop band?",
+      "school": "School of Computing",
+      "schoolCode": "COMP",
+      "college": "ANU College of Systems and Society",
+      "level": "UGRD",
+      "terms": [],
+      "conveners": [],
+      "handbookUrl": "https://programsandcourses.anu.edu.au/course/COMP4350",
+      "reviewMetrics": [
+        "Teaching quality",
+        "Workload fairness",
+        "Assessment design"
+      ],
+      "tags": [
+        "systems and society"
+      ]
+    },
+    {
+      "id": "comp4528",
+      "type": "course",
+      "code": "COMP4528",
+      "name": "Computer Vision",
+      "summary": "Computer Vision is an important field of Artificial Intelligence concerned with automatically extracting useful information from images or videos. The explosive growth in digital imaging technologies, vision datasets and deep learning makes the problems of automated image interpretation even more exciting and more relevant than ever. This course introduces students to fundamental problems in computer vision and foundational techniques for solving them.",
+      "school": "School of Computing",
+      "schoolCode": "COMP",
+      "college": "ANU College of Systems and Society",
+      "level": "UGRD",
+      "terms": [],
+      "conveners": [
+        "Dr Jing Zhang",
+        "Dr Jing Zhang"
+      ],
+      "handbookUrl": "https://programsandcourses.anu.edu.au/course/COMP4528",
+      "reviewMetrics": [
+        "Teaching quality",
+        "Workload fairness",
+        "Assessment design"
+      ],
+      "tags": [
+        "systems and society"
+      ]
+    },
+    {
+      "id": "comp4610",
+      "type": "course",
+      "code": "COMP4610",
+      "name": "Computer Graphics",
+      "summary": "Computer graphics are an essential part of modern software. In this course, students will learn about fundamental algorithms, data structures and programming models used in 3D graphics applications. These key concepts in computer graphics programming will be covered from their mathematical foundations through to their application in domains such as data visualisation, virtual reality, computer games and film animation/VFX.",
+      "school": "School of Computing",
+      "schoolCode": "COMP",
+      "college": "ANU College of Systems and Society",
+      "level": "UGRD",
+      "terms": [],
+      "conveners": [
+        "Prof Hongdong Li",
+        "Prof Hongdong Li"
+      ],
+      "handbookUrl": "https://programsandcourses.anu.edu.au/course/COMP4610",
+      "reviewMetrics": [
+        "Teaching quality",
+        "Workload fairness",
+        "Assessment design"
+      ],
+      "tags": [
+        "systems and society"
+      ]
+    },
+    {
+      "id": "comp6120",
+      "type": "course",
+      "code": "COMP6120",
+      "name": "Software Engineering",
+      "summary": "Real-world software development is a complex and dynamic activity involving people, technology and processes interacting within a complex environment of clients, users and other stakeholders while being observant of technological, physical, social, legal, and ethical constraints. This course will empower students with the ability and confidence necessary to exercise critical thinking and professional judgment to select and apply appropriate knowledge, practices and tools to the development of non-trivial software systems. This will be achieved by introducing students to important design methodologies.",
+      "school": "School of Computing",
+      "schoolCode": "COMP",
+      "college": "ANU College of Systems and Society",
+      "level": "PGRD",
+      "terms": [],
+      "conveners": [
+        "Dr Xiaoyu Sun",
+        "Dr Xiaoyu Sun"
+      ],
+      "handbookUrl": "https://programsandcourses.anu.edu.au/course/COMP6120",
+      "reviewMetrics": [
+        "Teaching quality",
+        "Workload fairness",
+        "Assessment design"
+      ],
+      "tags": [
+        "systems and society"
+      ]
+    },
+    {
+      "id": "comp6260",
+      "type": "course",
+      "code": "COMP6260",
+      "name": "Foundations of Computing",
+      "summary": "This course presents some formal notations that are commonly used for the description of computation and of computing systems, for the specification of software and for mathematically rigorous arguments about program properties. The following areas of study constitute the backbone of the course. Predicate calculus and natural deduction, inductive definitions of data types as a basis for recursive functions and structural induction, formal language theory (particularly regular expressions, finite state machines and context-free grammars), and specification languages.",
+      "school": "School of Computing",
+      "schoolCode": "COMP",
+      "college": "ANU College of Systems and Society",
+      "level": "PGRD",
+      "terms": [],
+      "conveners": [
+        "Prof Dirk Pattinson",
+        "Prof Dirk Pattinson"
+      ],
+      "handbookUrl": "https://programsandcourses.anu.edu.au/course/COMP6260",
+      "reviewMetrics": [
+        "Teaching quality",
+        "Workload fairness",
+        "Assessment design"
+      ],
+      "tags": [
+        "systems and society"
+      ]
+    },
+    {
+      "id": "comp6390",
+      "type": "course",
+      "code": "COMP6390",
+      "name": "Human-Computer Interaction",
+      "summary": "This course will provide an overview of the field of Human-Computer Interaction (HCI) and will introduce students to key interaction and experience design paradigms, approaches and methods. The course will equip students with theory, methods, and techniques to investigate different design situations, develop and prototype novel design ideas, and engage with the ethical dimensions of technology design.",
+      "school": "School of Computing",
+      "schoolCode": "COMP",
+      "college": "ANU College of Systems and Society",
+      "level": "PGRD",
+      "terms": [],
+      "conveners": [],
+      "handbookUrl": "https://programsandcourses.anu.edu.au/course/COMP6390",
+      "reviewMetrics": [
+        "Teaching quality",
+        "Workload fairness",
+        "Assessment design"
+      ],
+      "tags": [
+        "systems and society"
+      ]
+    },
+    {
+      "id": "comp6442",
+      "type": "course",
+      "code": "COMP6442",
+      "name": "Software Construction",
+      "summary": "This course extensively explores the fundamental principles and practices necessary for creating medium-scale software projects, with a specific focus on the object-oriented programming paradigm. By blending theoretical understanding with hands-on practice, students establish a robust foundation in software construction, drawing from their prior programming experience. Key topics, including programming techniques at large, life cycle models, data manipulation techniques, and GUI concepts, are highlighted to foster a comprehensive grasp of software development.",
+      "school": "School of Computing",
+      "schoolCode": "COMP",
+      "college": "ANU College of Systems and Society",
+      "level": "PGRD",
+      "terms": [],
+      "conveners": [
+        "Dr Charles Gretton",
+        "Dr Dylan Campbell"
+      ],
+      "handbookUrl": "https://programsandcourses.anu.edu.au/course/COMP6442",
+      "reviewMetrics": [
+        "Teaching quality",
+        "Workload fairness",
+        "Assessment design"
+      ],
+      "tags": [
+        "systems and society"
+      ]
+    },
+    {
+      "id": "comp6464",
+      "type": "course",
+      "code": "COMP6464",
+      "name": "High Performance Scientific Computing",
+      "summary": "This course provides an introduction to High Performance Computing with an orientation towards applications in science and engineering. Aspects of numerical computing and the design and construction of sophisticated scientific software will be considered. The focus will be on the C and C++ programming languages, although reflecting the reality of modern scientific computation this course will also touch on other languages such as Python, Java and FORTRAN95.",
+      "school": "School of Computing",
+      "schoolCode": "COMP",
+      "college": "ANU College of Systems and Society",
+      "level": "PGRD",
+      "terms": [],
+      "conveners": [],
+      "handbookUrl": "https://programsandcourses.anu.edu.au/course/COMP6464",
+      "reviewMetrics": [
+        "Teaching quality",
+        "Workload fairness",
+        "Assessment design"
+      ],
+      "tags": [
+        "systems and society"
+      ]
+    },
+    {
+      "id": "comp6528",
+      "type": "course",
+      "code": "COMP6528",
+      "name": "Computer Vision",
+      "summary": "Computer Vision is an important field of Artificial Intelligence concerned with automatically extracting useful information from images or videos. The explosive growth in digital imaging technologies, vision datasets and deep learning makes the problems of automated image interpretation even more exciting and more relevant than ever. This course introduces students to fundamental problems in computer vision and foundational techniques for solving them.",
+      "school": "School of Computing",
+      "schoolCode": "COMP",
+      "college": "ANU College of Systems and Society",
+      "level": "PGRD",
+      "terms": [],
+      "conveners": [
+        "Dr Jing Zhang",
+        "Dr Jing Zhang"
+      ],
+      "handbookUrl": "https://programsandcourses.anu.edu.au/course/COMP6528",
+      "reviewMetrics": [
+        "Teaching quality",
+        "Workload fairness",
+        "Assessment design"
+      ],
+      "tags": [
+        "systems and society"
+      ]
+    },
+    {
+      "id": "comp6540",
+      "type": "course",
+      "code": "COMP6540",
+      "name": "Game Development",
+      "summary": "This course will provide a holistic grounding for game development, including elements of design, development, and production. Students will learn about key theories of game design and development and develop practical game development skills using leading professional development tools. Students will additionally learn from experienced industry professionals via guest lectures and engagement opportunities.",
+      "school": "School of Computing",
+      "schoolCode": "COMP",
+      "college": "ANU College of Systems and Society",
+      "level": "PGRD",
+      "terms": [],
+      "conveners": [],
+      "handbookUrl": "https://programsandcourses.anu.edu.au/course/COMP6540",
+      "reviewMetrics": [
+        "Teaching quality",
+        "Workload fairness",
+        "Assessment design"
+      ],
+      "tags": [
+        "systems and society"
+      ]
+    },
+    {
+      "id": "comp6720",
+      "type": "course",
+      "code": "COMP6720",
+      "name": "Art and Interaction Computing",
+      "summary": "This course introduces the fundamentals of coding and design required to create expressive interactive artworks. Students will learn how to conceptualise, realise, and evaluate an original interactive artwork using a high-level programming language. They will experiment with computer graphics, sound, and input devices and learn programming concepts required for accomplishing their creative objectives.",
+      "school": "School of Computing",
+      "schoolCode": "COMP",
+      "college": "ANU College of Systems and Society",
+      "level": "PGRD",
+      "terms": [],
+      "conveners": [],
+      "handbookUrl": "https://programsandcourses.anu.edu.au/course/COMP6720",
+      "reviewMetrics": [
+        "Teaching quality",
+        "Workload fairness",
+        "Assessment design"
+      ],
+      "tags": [
+        "systems and society"
+      ]
+    },
+    {
+      "id": "comp6730",
+      "type": "course",
+      "code": "COMP6730",
+      "name": "Programming for Scientists",
+      "summary": "This course teaches introductory programming, fundamental programming language and computer science concepts, and computational problem solving illustrated with applications common in science and engineering, such as data analysis, visualisation, and image processing. We will take a different approach, including prompting and working with GenAI, with emphasis on testing, debugging and problem decomposition, and using GenAI to help understand code. These skills will empower students to write software with the aid of GenAI.",
+      "school": "School of Computing",
+      "schoolCode": "COMP",
+      "college": "ANU College of Systems and Society",
+      "level": "PGRD",
+      "terms": [],
+      "conveners": [
+        "Dr Dan Andrews",
+        "Dr Dan Andrews"
+      ],
+      "handbookUrl": "https://programsandcourses.anu.edu.au/course/COMP6730",
+      "reviewMetrics": [
+        "Teaching quality",
+        "Workload fairness",
+        "Assessment design"
+      ],
+      "tags": [
+        "systems and society"
+      ]
+    },
+    {
+      "id": "comp6780",
+      "type": "course",
+      "code": "COMP6780",
+      "name": "Web Development and Design",
+      "summary": "This course introduces the construction of web sites and web interface/interaction design. There is a key focus on the on new media / multimedia and its delivery on the world wide web. The course introduces multimedia as a combination of text, graphics, video, animation and sound for the purposes of information access, storage and dissemination.",
+      "school": "School of Computing",
+      "schoolCode": "COMP",
+      "college": "ANU College of Systems and Society",
+      "level": "PGRD",
+      "terms": [],
+      "conveners": [],
+      "handbookUrl": "https://programsandcourses.anu.edu.au/course/COMP6780",
+      "reviewMetrics": [
+        "Teaching quality",
+        "Workload fairness",
+        "Assessment design"
+      ],
+      "tags": [
+        "systems and society"
+      ]
+    },
+    {
+      "id": "comp7710",
+      "type": "course",
+      "code": "COMP7710",
+      "name": "Programming Fundamentals",
+      "summary": "This course provides Students with the opportunity to develop a solid understanding of programming that is essential before progressing to more advanced concepts. It is structured to demonstrate and provide the students with practice in the fundamentals of structured programming. It is designed for Postgraduate students who do not have a programming background.",
+      "school": "School of Computing",
+      "schoolCode": "COMP",
+      "college": "ANU College of Systems and Society",
+      "level": "PGRD",
+      "terms": [],
+      "conveners": [
+        "Dr Bernardo Pereira Nunes",
+        "Dr Bernardo Pereira Nunes"
+      ],
+      "handbookUrl": "https://programsandcourses.anu.edu.au/course/COMP7710",
+      "reviewMetrics": [
+        "Teaching quality",
+        "Workload fairness",
+        "Assessment design"
+      ],
+      "tags": [
+        "systems and society"
+      ]
+    },
+    {
+      "id": "comp8280",
+      "type": "course",
+      "code": "COMP8280",
+      "name": "Responsible Practice, Innovation and Leadership",
+      "summary": "This professional practice course for computing and engineering graduate students focuses on developing professional and communication skills essential for the 21st-century workplace. The course builds upon individual capacity, and further develops students’ professional skills, values, and attributes in ways that directly complement their technical expertise. These skills will enable students to perform effectively in the complex transdisciplinary environments in which computing and engineering professionals operate.",
+      "school": "School of Computing",
+      "schoolCode": "COMP",
+      "college": "ANU College of Systems and Society",
+      "level": "PGRD",
+      "terms": [],
+      "conveners": [
+        "Dr Catherine Galvin",
+        "Dr Catherine Galvin"
+      ],
+      "handbookUrl": "https://programsandcourses.anu.edu.au/course/COMP8280",
+      "reviewMetrics": [
+        "Teaching quality",
+        "Workload fairness",
+        "Assessment design"
+      ],
+      "tags": [
+        "systems and society"
+      ]
+    },
+    {
+      "id": "comp8300",
+      "type": "course",
+      "code": "COMP8300",
+      "name": "Parallel Systems",
+      "summary": "A practically oriented introduction to programming paradigms for parallel computers. Considers definitions of program efficiency on parallel computers, addresses the modelling, analysis and measurement of program performance. Description, implementation and use of parallel programming languages, parallel features of operating systems, library routines and applications.",
+      "school": "School of Computing",
+      "schoolCode": "COMP",
+      "college": "ANU College of Systems and Society",
+      "level": "PGRD",
+      "terms": [],
+      "conveners": [],
+      "handbookUrl": "https://programsandcourses.anu.edu.au/course/COMP8300",
+      "reviewMetrics": [
+        "Teaching quality",
+        "Workload fairness",
+        "Assessment design"
+      ],
+      "tags": [
+        "systems and society"
+      ]
+    },
+    {
+      "id": "comp8350",
+      "type": "course",
+      "code": "COMP8350",
+      "name": "Sound and Music Computing",
+      "summary": "Do you want to create sound and music with your computer? Do you want to build new kinds of musical instruments? Do you want to be a part of a laptop band?",
+      "school": "ANU College of Systems and Society",
+      "schoolCode": "CSS",
+      "college": "ANU College of Systems and Society",
+      "level": "PGRD",
+      "terms": [],
+      "conveners": [],
+      "handbookUrl": "https://programsandcourses.anu.edu.au/course/COMP8350",
+      "reviewMetrics": [
+        "Teaching quality",
+        "Workload fairness",
+        "Assessment design"
+      ],
+      "tags": [
+        "systems and society"
+      ]
+    },
+    {
+      "id": "comp8410",
+      "type": "course",
+      "code": "COMP8410",
+      "name": "Data Mining",
+      "summary": "Massive amounts of data are collected by public and private organisations, while the Web offers rich information about almost every aspect of human life and society. Analysing such data can provide significant benefits to an organisation or research project. This course provides a practical focus on the technology and research in the area of data mining.",
+      "school": "School of Computing",
+      "schoolCode": "COMP",
+      "college": "ANU College of Systems and Society",
+      "level": "PGRD",
+      "terms": [],
+      "conveners": [
+        "Dr Kerry Taylor",
+        "Dr Kerry Taylor"
+      ],
+      "handbookUrl": "https://programsandcourses.anu.edu.au/course/COMP8410",
+      "reviewMetrics": [
+        "Teaching quality",
+        "Workload fairness",
+        "Assessment design"
+      ],
+      "tags": [
+        "systems and society"
+      ]
+    },
+    {
+      "id": "comp8539",
+      "type": "course",
+      "code": "COMP8539",
+      "name": "Advanced Topics in Computer Vision",
+      "summary": "The goal of Computer Vision is to enable the computer or AI agent to ‘see’ and ‘understand’ the world like if not better than human beings. To that end, the computer needs to use sensors such as RGB or depth sensors to interact with the world. It mainly includes the understanding of the environment (scene understanding), humans, and further interaction with humans.",
+      "school": "School of Computing",
+      "schoolCode": "COMP",
+      "college": "ANU College of Systems and Society",
+      "level": "PGRD",
+      "terms": [],
+      "conveners": [],
+      "handbookUrl": "https://programsandcourses.anu.edu.au/course/COMP8539",
+      "reviewMetrics": [
+        "Teaching quality",
+        "Workload fairness",
+        "Assessment design"
+      ],
+      "tags": [
+        "systems and society"
+      ]
+    },
+    {
+      "id": "comp8600",
+      "type": "course",
+      "code": "COMP8600",
+      "name": "Statistical Machine Learning",
+      "summary": "This course provides a broad but thorough introduction to the methods and practice of statistical machine learning. Topics covered will include Bayesian inference and maximum likelihood; regression, classification, density estimation, clustering, principal and independent component analysis; parametric, semi-parametric, and non-parametric models; basis functions, neural networks, kernel methods, and graphical models; deterministic and stochastic optimisation; overfitting, regularisation, and validation.",
+      "school": "School of Computing",
+      "schoolCode": "COMP",
+      "college": "ANU College of Systems and Society",
+      "level": "PGRD",
+      "terms": [],
+      "conveners": [
+        "Prof Lexing Xie",
+        "Prof Lexing Xie"
+      ],
+      "handbookUrl": "https://programsandcourses.anu.edu.au/course/COMP8600",
+      "reviewMetrics": [
+        "Teaching quality",
+        "Workload fairness",
+        "Assessment design"
+      ],
+      "tags": [
+        "systems and society"
+      ]
+    },
+    {
+      "id": "comp8610",
+      "type": "course",
+      "code": "COMP8610",
+      "name": "Computer Graphics",
+      "summary": "Computer graphics are an essential part of modern software. In this course, students will learn about fundamental algorithms, data structures and programming models used in 3D graphics applications. These key concepts in computer graphics programming will be covered from their mathematical foundations through to their application in domains such as data visualisation, virtual reality, computer games and film animation/VFX.",
+      "school": "School of Computing",
+      "schoolCode": "COMP",
+      "college": "ANU College of Systems and Society",
+      "level": "PGRD",
+      "terms": [],
+      "conveners": [
+        "Prof Hongdong Li",
+        "Prof Hongdong Li"
+      ],
+      "handbookUrl": "https://programsandcourses.anu.edu.au/course/COMP8610",
+      "reviewMetrics": [
+        "Teaching quality",
+        "Workload fairness",
+        "Assessment design"
+      ],
+      "tags": [
+        "systems and society"
+      ]
+    },
+    {
+      "id": "comp8715",
+      "type": "course",
+      "code": "COMP8715",
+      "name": "Advanced Computing Team Project",
+      "summary": "COMP8715 is an annual course (6+6) that must be completed twice, in consecutive semesters. Students will conduct a project, under supervision, that will act as a capstone to their degree program, and increase the depth of their knowledge in the computing area. The project will be undertaken in small teams.",
+      "school": "School of Computing",
+      "schoolCode": "COMP",
+      "college": "ANU College of Systems and Society",
+      "level": "PGRD",
+      "terms": [],
+      "conveners": [
+        "Dr Nisansala Yatapanage",
+        "Dr Nisansala Yatapanage"
+      ],
+      "handbookUrl": "https://programsandcourses.anu.edu.au/course/COMP8715",
+      "reviewMetrics": [
+        "Teaching quality",
+        "Workload fairness",
+        "Assessment design"
+      ],
+      "tags": [
+        "systems and society"
+      ]
+    },
+    {
+      "id": "comp8830",
+      "type": "course",
+      "code": "COMP8830",
+      "name": "Computing Internship",
+      "summary": "This course will enable computer science students to develop competencies expected of professionals working in business, government or the broader community. A list of available internship opportunities will be maintained for which students can apply. A holistic selection process will be used to select the best applicant for each opportunity.",
+      "school": "School of Computing",
+      "schoolCode": "COMP",
+      "college": "ANU College of Systems and Society",
+      "level": "PGRD",
+      "terms": [],
+      "conveners": [
+        "Dr Anne Ozdowska",
+        "Dr Nisansala Yatapanage"
+      ],
+      "handbookUrl": "https://programsandcourses.anu.edu.au/course/COMP8830",
+      "reviewMetrics": [
+        "Teaching quality",
+        "Workload fairness",
+        "Assessment design"
+      ],
+      "tags": [
+        "systems and society"
       ]
     },
     {
@@ -24526,6 +34517,125 @@ window.ANREVIEW_DATA = {
       ],
       "tags": [
         "public policy"
+      ]
+    },
+    {
+      "id": "cybn6001",
+      "type": "course",
+      "code": "CYBN6001",
+      "name": "Framing Questions about Cybernetic Systems",
+      "summary": "In this course we will start to create practitioners of Applied Cybernetics who can carefully examine new and emerging cybernetic systems, the building blocks they are made from, and the questions they raise for human society and our ecosystems. Through the course, we will challenge students to take different approaches to studying and understanding cybernetic systems: systems with human, technological, and environmental components. These approaches do not start with identifying and solving problems, but instead start with framing questions about these systems, their building blocks and the dynamic relationships between their human, technological, and environmental components.",
+      "school": "School of Cybernetics",
+      "schoolCode": "CYB",
+      "college": "ANU College of Systems and Society",
+      "level": "PGRD",
+      "terms": [],
+      "conveners": [
+        "Dr Ash Lenton",
+        "Dr Ash Lenton"
+      ],
+      "handbookUrl": "https://programsandcourses.anu.edu.au/course/CYBN6001",
+      "reviewMetrics": [
+        "Teaching quality",
+        "Workload fairness",
+        "Assessment design"
+      ],
+      "tags": [
+        "systems and society"
+      ]
+    },
+    {
+      "id": "cybn6002",
+      "type": "course",
+      "code": "CYBN6002",
+      "name": "Cybernetic Practice",
+      "summary": "In this course, we will build on the conceptual approach to Applied Cybernetics developed in CYBN6001. Students will investigate and analyse socio-environmental-technological systems using cybernetic methodologies. Through the course, we will challenge students to study and analyse various examples of cybernetic systems, employing systems analysis and complementary methodologies to explore concepts of safety, sustainability, responsibility and scale.",
+      "school": "School of Cybernetics",
+      "schoolCode": "CYB",
+      "college": "ANU College of Systems and Society",
+      "level": "PGRD",
+      "terms": [],
+      "conveners": [],
+      "handbookUrl": "https://programsandcourses.anu.edu.au/course/CYBN6002",
+      "reviewMetrics": [
+        "Teaching quality",
+        "Workload fairness",
+        "Assessment design"
+      ],
+      "tags": [
+        "systems and society"
+      ]
+    },
+    {
+      "id": "cybn8001",
+      "type": "course",
+      "code": "CYBN8001",
+      "name": "Building Cyber-Physical Systems",
+      "summary": "This is an annual course split into two parts which enables students to analyze and create cyber-physical systems both individually and in diverse teams under academic supervision. This course will create disciplinary experts who have a hands-on understanding of new and emerging technological constellations and their separate components. Participants will complete a range of lab-based projects to develop a technical understanding of systems as designed objects which embody values.",
+      "school": "School of Cybernetics",
+      "schoolCode": "CYB",
+      "college": "ANU College of Systems and Society",
+      "level": "PGRD",
+      "terms": [],
+      "conveners": [
+        "Dr Safiya Okai-Ugbaje",
+        "Dr Safiya Okai-Ugbaje"
+      ],
+      "handbookUrl": "https://programsandcourses.anu.edu.au/course/CYBN8001",
+      "reviewMetrics": [
+        "Teaching quality",
+        "Workload fairness",
+        "Assessment design"
+      ],
+      "tags": [
+        "systems and society"
+      ]
+    },
+    {
+      "id": "cybn8002",
+      "type": "course",
+      "code": "CYBN8002",
+      "name": "Projects in Applied Cybernetics",
+      "summary": "In this course, students will engage in projects and special topics developed in consultation with the convenor. The course will enable students to develop applied cybernetic competencies expected of professionals working in business, government, academia, or the broader community. Students can propose industry engagement or research projects, but these will need to be established following negotiations between the ANU and the potential host organisations or project sponsors.",
+      "school": "School of Cybernetics",
+      "schoolCode": "CYB",
+      "college": "ANU College of Systems and Society",
+      "level": "PGRD",
+      "terms": [],
+      "conveners": [
+        "Dr Jessamy Perriam",
+        "Dr Jessamy Perriam"
+      ],
+      "handbookUrl": "https://programsandcourses.anu.edu.au/course/CYBN8002",
+      "reviewMetrics": [
+        "Teaching quality",
+        "Workload fairness",
+        "Assessment design"
+      ],
+      "tags": [
+        "systems and society"
+      ]
+    },
+    {
+      "id": "cybn8005",
+      "type": "course",
+      "code": "CYBN8005",
+      "name": "Applied Cybernetics Professional Experience",
+      "summary": "Applied Cybernetics Professional Experience Placement gives the student exposure to applying approaches and skills learned in CYBN6001, CYBN6002, and CYBN8001 in a professional environment. Students will be embedded within an industry, community, government, start-up or academic organisation as a practitioner of Applied Cybernetics to contribute to a project related to cybernetic systems.",
+      "school": "School of Cybernetics",
+      "schoolCode": "CYB",
+      "college": "ANU College of Systems and Society",
+      "level": "PGRD",
+      "terms": [],
+      "conveners": [],
+      "handbookUrl": "https://programsandcourses.anu.edu.au/course/CYBN8005",
+      "reviewMetrics": [
+        "Teaching quality",
+        "Workload fairness",
+        "Assessment design"
+      ],
+      "tags": [
+        "systems and society"
       ]
     },
     {
@@ -25709,6 +35819,50 @@ window.ANREVIEW_DATA = {
       ]
     },
     {
+      "id": "emsc2010",
+      "type": "course",
+      "code": "EMSC2010",
+      "name": "Data Science for Earth System Scientists",
+      "summary": "Discover how to ask better questions — and find meaningful answers. Data science is the most powerful tool we have for separating scientific fact from fiction. In this course, you'll explore practical and relevant problems in Earth and Environmental Sciences by learning how to interpret data, assess uncertainty, model outcomes and make informed decisions.",
+      "school": "Fenner School of Environment and Society and the Research School of Earth Sciences",
+      "schoolCode": "FENS",
+      "college": "ANU College of Systems and Society",
+      "level": "UGRD",
+      "terms": [],
+      "conveners": [],
+      "handbookUrl": "https://programsandcourses.anu.edu.au/course/EMSC2010",
+      "reviewMetrics": [
+        "Teaching quality",
+        "Workload fairness",
+        "Assessment design"
+      ],
+      "tags": [
+        "systems and society"
+      ]
+    },
+    {
+      "id": "emsc6022",
+      "type": "course",
+      "code": "EMSC6022",
+      "name": "Planetary Science",
+      "summary": "How did the Earth form? How do planets form? How can we search for life beyond Earth?",
+      "school": "Research School of Earth Sciences",
+      "schoolCode": "RSES",
+      "college": "ANU College of Science and Medicine",
+      "level": "PGRD",
+      "terms": [],
+      "conveners": [],
+      "handbookUrl": "https://programsandcourses.anu.edu.au/course/EMSC6022",
+      "reviewMetrics": [
+        "Teaching quality",
+        "Workload fairness",
+        "Assessment design"
+      ],
+      "tags": [
+        "science and medicine"
+      ]
+    },
+    {
       "id": "engl1100",
       "type": "course",
       "code": "ENGL1100",
@@ -26368,6 +36522,247 @@ window.ANREVIEW_DATA = {
       ]
     },
     {
+      "id": "engn1211",
+      "type": "course",
+      "code": "ENGN1211",
+      "name": "Engineering Design 1: Discovering Engineering",
+      "summary": "Discovering Engineering is the foundation course for engineering. The course invites students to discover engineering by tackling an open-ended design project, as well as learning a variety of essential technical and non-technical skills. The major project for the course is to work in teams to design and build a robot rover that can autonomously navigate around a maze.",
+      "school": "School of Engineering",
+      "schoolCode": "ENGN",
+      "college": "ANU College of Systems and Society",
+      "level": "UGRD",
+      "terms": [],
+      "conveners": [
+        "Dr Kiara Bruggeman",
+        "Dr Kiara Bruggeman"
+      ],
+      "handbookUrl": "https://programsandcourses.anu.edu.au/course/ENGN1211",
+      "reviewMetrics": [
+        "Teaching quality",
+        "Workload fairness",
+        "Assessment design"
+      ],
+      "tags": [
+        "systems and society"
+      ]
+    },
+    {
+      "id": "engn1217",
+      "type": "course",
+      "code": "ENGN1217",
+      "name": "Introduction to Mechanics",
+      "summary": "This course introduces the fundamental principles in mechanics. Structural design applications of a variety of problems are developed throughout the course using examples that elucidate the theory of mechanics. The primary aim of this course is to provide a solid foundation for students in the field of mechanical engineering.",
+      "school": "School of Engineering",
+      "schoolCode": "ENGN",
+      "college": "ANU College of Systems and Society",
+      "level": "UGRD",
+      "terms": [],
+      "conveners": [
+        "Dr Kiara Bruggeman",
+        "Dr Kiara Bruggeman"
+      ],
+      "handbookUrl": "https://programsandcourses.anu.edu.au/course/ENGN1217",
+      "reviewMetrics": [
+        "Teaching quality",
+        "Workload fairness",
+        "Assessment design"
+      ],
+      "tags": [
+        "systems and society"
+      ]
+    },
+    {
+      "id": "engn1218",
+      "type": "course",
+      "code": "ENGN1218",
+      "name": "Introduction to Electronics",
+      "summary": "This course introduces students to the fundamentals of electrical and electronic engineering. It provides the students with an understanding of basic electrical quantities, circuit elements and circuit analysis techniques. It also provides an understanding of the principles and operation of diodes (which are the basis of the ubiquitous DC power supply circuit) and operational amplifiers (which provide the easiest method to build an amplifier circuit).",
+      "school": "School of Engineering",
+      "schoolCode": "ENGN",
+      "college": "ANU College of Systems and Society",
+      "level": "UGRD",
+      "terms": [],
+      "conveners": [
+        "Prof Salman Durrani",
+        "Prof Salman Durrani"
+      ],
+      "handbookUrl": "https://programsandcourses.anu.edu.au/course/ENGN1218",
+      "reviewMetrics": [
+        "Teaching quality",
+        "Workload fairness",
+        "Assessment design"
+      ],
+      "tags": [
+        "systems and society"
+      ]
+    },
+    {
+      "id": "engn2217",
+      "type": "course",
+      "code": "ENGN2217",
+      "name": "Mechanical Systems and Design",
+      "summary": "Drawing on a well-established Mechanics of Materials curriculum, this course introduces students to the fundamentals of the mechanics of deformable bodies, with key topics including stress, strain, constitutive relations, loading modes (axial, shear, torsion), stress transformations, and analysis of simple structures (beams, shafts, columns). These concepts represent essential knowledge for many engineering fields, such as aerospace, civil and mechanical, as well as a wide range of related disciplines. ENGN2217 encourages students’ learning by tackling topics from a variety of analytical, computational and experimental perspectives.",
+      "school": "School of Engineering",
+      "schoolCode": "ENGN",
+      "college": "ANU College of Systems and Society",
+      "level": "UGRD",
+      "terms": [],
+      "conveners": [],
+      "handbookUrl": "https://programsandcourses.anu.edu.au/course/ENGN2217",
+      "reviewMetrics": [
+        "Teaching quality",
+        "Workload fairness",
+        "Assessment design"
+      ],
+      "tags": [
+        "systems and society"
+      ]
+    },
+    {
+      "id": "engn2218",
+      "type": "course",
+      "code": "ENGN2218",
+      "name": "Electronic Systems and Design",
+      "summary": "ENGN2218 Electrical Systems & Design builds directly on ENGN1218 Introduction to Electrical Systems by developing the students' understanding of the principles and operation of advanced electronic circuits and devices (bipolar junction transistor, operational amplifier, filters, digital logic gates, ADC and DAC, 555 Timer and Instrumentation amplifiers). It also emphasizes the importance of modelling the behaviour of complex electronic circuits and devices using systematic mathematical techniques. PSPICE is used extensively in the analysis and design.",
+      "school": "School of Engineering",
+      "schoolCode": "ENGN",
+      "college": "ANU College of Systems and Society",
+      "level": "UGRD",
+      "terms": [],
+      "conveners": [
+        "Prof Klaus Weber",
+        "Prof Klaus Weber"
+      ],
+      "handbookUrl": "https://programsandcourses.anu.edu.au/course/ENGN2218",
+      "reviewMetrics": [
+        "Teaching quality",
+        "Workload fairness",
+        "Assessment design"
+      ],
+      "tags": [
+        "systems and society"
+      ]
+    },
+    {
+      "id": "engn2219",
+      "type": "course",
+      "code": "ENGN2219",
+      "name": "Computer Architecture",
+      "summary": "This course is a rigorous introduction to the design of digital circuits and computer architecture. It provides technical foundations for how a computer system is built from the bottom up and how the high-level programming languages you learn in other courses are translated into simple instructions the computer executes. The course introduces the different abstraction layers necessary to make a computer system work, and a key focus is the connection between hardware and software.",
+      "school": "School of Computing",
+      "schoolCode": "COMP",
+      "college": "ANU College of Systems and Society",
+      "level": "UGRD",
+      "terms": [],
+      "conveners": [],
+      "handbookUrl": "https://programsandcourses.anu.edu.au/course/ENGN2219",
+      "reviewMetrics": [
+        "Teaching quality",
+        "Workload fairness",
+        "Assessment design"
+      ],
+      "tags": [
+        "systems and society"
+      ]
+    },
+    {
+      "id": "engn2222",
+      "type": "course",
+      "code": "ENGN2222",
+      "name": "Engineering Thermodynamics",
+      "summary": "This course conveys the fundamental thermodynamic principles and analysis methods. The topics covered include basic concepts and definitions, first law of thermodynamics and its applications to closed and open systems, second law of thermodynamics, equations of state, thermodynamic property relations, ideal gas mixtures, psychrometrics, reacting mixtures, chemical and phase equilibrium. The course briefly explores relations between thermodynamics and information theory.",
+      "school": "School of Engineering",
+      "schoolCode": "ENGN",
+      "college": "ANU College of Systems and Society",
+      "level": "UGRD",
+      "terms": [],
+      "conveners": [],
+      "handbookUrl": "https://programsandcourses.anu.edu.au/course/ENGN2222",
+      "reviewMetrics": [
+        "Teaching quality",
+        "Workload fairness",
+        "Assessment design"
+      ],
+      "tags": [
+        "systems and society"
+      ]
+    },
+    {
+      "id": "engn2228",
+      "type": "course",
+      "code": "ENGN2228",
+      "name": "Signals and Systems",
+      "summary": "The concepts of signals and systems are at the heart of our modern world. They exist in a wide range of engineering disciplines ranging from electrical and electronic systems, mechanical systems, thermal and chemical systems, to biomedical system . This course presents the common principles, theory and techniques fundamental to the analysis and design of continuous-time and discrete-time signals and systems applicable to all engineering disciplines.",
+      "school": "School of Engineering",
+      "schoolCode": "ENGN",
+      "college": "ANU College of Systems and Society",
+      "level": "UGRD",
+      "terms": [],
+      "conveners": [
+        "Prof Jochen Trumpf",
+        "Prof Jochen Trumpf"
+      ],
+      "handbookUrl": "https://programsandcourses.anu.edu.au/course/ENGN2228",
+      "reviewMetrics": [
+        "Teaching quality",
+        "Workload fairness",
+        "Assessment design"
+      ],
+      "tags": [
+        "systems and society"
+      ]
+    },
+    {
+      "id": "engn2300",
+      "type": "course",
+      "code": "ENGN2300",
+      "name": "Engineering Design 2: Systems Approaches for Design",
+      "summary": "Engineering Design 2: Systems Approaches for Design will build your proficiency to abstract, visualise, communicate and deliver engineering designs. ED2 is the second course in the interdisciplinary engineering design core, which situates design within the life-cycle of systems. You will undertake a project using a systems approach to design, which is a formal process for generating robust and relevant engineering designs, applicable to all areas of engineering.",
+      "school": "School of Engineering",
+      "schoolCode": "ENGN",
+      "college": "ANU College of Systems and Society",
+      "level": "UGRD",
+      "terms": [],
+      "conveners": [
+        "Dr Jeremy Smith",
+        "Dr Jeremy Smith"
+      ],
+      "handbookUrl": "https://programsandcourses.anu.edu.au/course/ENGN2300",
+      "reviewMetrics": [
+        "Teaching quality",
+        "Workload fairness",
+        "Assessment design"
+      ],
+      "tags": [
+        "systems and society"
+      ]
+    },
+    {
+      "id": "engn2301",
+      "type": "course",
+      "code": "ENGN2301",
+      "name": "Engineering Design 3: Systems Approaches for Analysis",
+      "summary": "Engineering Design 3: Systems Approaches for Analysis will develop your skills to undertake formal testing and evaluation of an engineering design as a technical process in the life-cycle of a system. ED3 is the third course in the interdisciplinary engineering design core, which situates design within the life-cycle of a system. You will learn how to design and execute engineering testing and analysis processes to improve design outcomes.",
+      "school": "School of Engineering",
+      "schoolCode": "ENGN",
+      "college": "ANU College of Systems and Society",
+      "level": "UGRD",
+      "terms": [],
+      "conveners": [
+        "Dr Hualin Zhan",
+        "Prof Kylie Catchpole"
+      ],
+      "handbookUrl": "https://programsandcourses.anu.edu.au/course/ENGN2301",
+      "reviewMetrics": [
+        "Teaching quality",
+        "Workload fairness",
+        "Assessment design"
+      ],
+      "tags": [
+        "systems and society"
+      ]
+    },
+    {
       "id": "engn3013",
       "type": "course",
       "code": "ENGN3013",
@@ -26396,30 +36791,201 @@ window.ANREVIEW_DATA = {
       ]
     },
     {
+      "id": "engn3100",
+      "type": "course",
+      "code": "ENGN3100",
+      "name": "Practical Experience",
+      "summary": "The Bachelor of Engineering (Honours), Bachelor of Engineering (Research and Development) (Honours) and Bachelor of Engineering (Honours) in Software Engineering degrees at the ANU are accredited by Engineers Australia. A requirement of Engineers Australia, as part of the degree accreditation, is that ALL students MUST complete the equivalent of 12 weeks of full-time work experience outside the University during their studies. This is implemented in the engineering degrees at the ANU as ENGN3100.",
+      "school": "School of Engineering",
+      "schoolCode": "ENGN",
+      "college": "ANU College of Systems and Society",
+      "level": "UGRD",
+      "terms": [],
+      "conveners": [
+        "Dr Katia Alexander",
+        "Dr Katia Alexander"
+      ],
+      "handbookUrl": "https://programsandcourses.anu.edu.au/course/ENGN3100",
+      "reviewMetrics": [
+        "Teaching quality",
+        "Workload fairness",
+        "Assessment design"
+      ],
+      "tags": [
+        "systems and society"
+      ]
+    },
+    {
+      "id": "engn3200",
+      "type": "course",
+      "code": "ENGN3200",
+      "name": "Engineering Internship",
+      "summary": "The aim of this course is to use the internship experience to enable students to develop their engineering skills and practice. Students will undertake industry placements and assessed for academic credit. The internships will be aligned with the aims of the engineering program and its areas of specialisation.",
+      "school": "School of Engineering",
+      "schoolCode": "ENGN",
+      "college": "ANU College of Systems and Society",
+      "level": "UGRD",
+      "terms": [],
+      "conveners": [
+        "Dr Xiaolin Wang",
+        "Dr Xiaolin Wang"
+      ],
+      "handbookUrl": "https://programsandcourses.anu.edu.au/course/ENGN3200",
+      "reviewMetrics": [
+        "Teaching quality",
+        "Workload fairness",
+        "Assessment design"
+      ],
+      "tags": [
+        "systems and society"
+      ]
+    },
+    {
+      "id": "engn3300",
+      "type": "course",
+      "code": "ENGN3300",
+      "name": "Engineering Design 4A: Systems Approaches for Management",
+      "summary": "In Engineering Design 4A: Systems Approaches for Management, you will develop industry-relevant techniques to manage a design project over the entire system life cycle, from problem conception through to project retirement. ED4A is the fourth course in the interdisciplinary engineering design core, and is followed by Engineering Design 4B: Systems Approaches for Operations. The project selected from a pool of projects that are representative of typical final year capstone projects, allowing you to design the management process for a significant engineering project.",
+      "school": "School of Engineering",
+      "schoolCode": "ENGN",
+      "college": "ANU College of Systems and Society",
+      "level": "UGRD",
+      "terms": [],
+      "conveners": [],
+      "handbookUrl": "https://programsandcourses.anu.edu.au/course/ENGN3300",
+      "reviewMetrics": [
+        "Teaching quality",
+        "Workload fairness",
+        "Assessment design"
+      ],
+      "tags": [
+        "systems and society"
+      ]
+    },
+    {
+      "id": "engn3301",
+      "type": "course",
+      "code": "ENGN3301",
+      "name": "Engineering Design 4B: Systems Approaches for Operations",
+      "summary": "In Engineering Design 4B: Systems Approaches for Operations, you will learn industry-relevant techniques to operate and innovate an engineering system over the entire system life cycle, from problem conception through to system retirement. Engineering Design 4B is the fifth course in the interdisciplinary engineering design core. The project in this course explores the management and operation processes in a complex system in operations.",
+      "school": "School of Engineering",
+      "schoolCode": "ENGN",
+      "college": "ANU College of Systems and Society",
+      "level": "UGRD",
+      "terms": [],
+      "conveners": [
+        "Dr Nicolo Malagutti",
+        "Dr Nicolo Malagutti"
+      ],
+      "handbookUrl": "https://programsandcourses.anu.edu.au/course/ENGN3301",
+      "reviewMetrics": [
+        "Teaching quality",
+        "Workload fairness",
+        "Assessment design"
+      ],
+      "tags": [
+        "systems and society"
+      ]
+    },
+    {
+      "id": "engn4300",
+      "type": "course",
+      "code": "ENGN4300",
+      "name": "Capstone Design Project",
+      "summary": "In Capstone Design Project, you will work as an independent group to deliver value on a real-world project. Teams will work to define and scope their project in consultation with project hosts, and tailor and manage system life-cycle processes to the delivery of the project. Students will undertake skills modules during the project, designed to improve the quality of the final deliverables.",
+      "school": "School of Engineering",
+      "schoolCode": "ENGN",
+      "college": "ANU College of Systems and Society",
+      "level": "UGRD",
+      "terms": [],
+      "conveners": [
+        "Dr Zena Assaad",
+        "Dr Zena Assaad"
+      ],
+      "handbookUrl": "https://programsandcourses.anu.edu.au/course/ENGN4300",
+      "reviewMetrics": [
+        "Teaching quality",
+        "Workload fairness",
+        "Assessment design"
+      ],
+      "tags": [
+        "systems and society"
+      ]
+    },
+    {
+      "id": "engn4350",
+      "type": "course",
+      "code": "ENGN4350",
+      "name": "Individual Project",
+      "summary": "In this course, students undertake an individual engineering research or design project under supervision. Students are encouraged to put forward their own ideas for the individual project, or they may select a project from a range of projects offered by researchers across the ANU. The topic area would normally be expected to be in the same area as the major (or one of the majors) being completed by the student.",
+      "school": "School of Engineering",
+      "schoolCode": "ENGN",
+      "college": "ANU College of Systems and Society",
+      "level": "UGRD",
+      "terms": [],
+      "conveners": [
+        "Prof Yuerui Lu",
+        "Prof Yuerui Lu"
+      ],
+      "handbookUrl": "https://programsandcourses.anu.edu.au/course/ENGN4350",
+      "reviewMetrics": [
+        "Teaching quality",
+        "Workload fairness",
+        "Assessment design"
+      ],
+      "tags": [
+        "systems and society"
+      ]
+    },
+    {
       "id": "envs1003",
       "type": "course",
       "code": "ENVS1003",
       "name": "Introduction to Environmental and Social Research",
       "college": "ANU College of Systems and Society",
       "school": "Fenner School of Environment and Society",
-      "schoolCode": "FSOEA",
+      "schoolCode": "FENS",
       "level": "UGRD",
-      "terms": [
-        "Second Semester"
+      "terms": [],
+      "conveners": [
+        "Dr Matthew Brookhouse",
+        "Dr Matthew Brookhouse"
       ],
-      "conveners": [],
-      "handbookUrl": "https://programsandcourses.anu.edu.au/course/envs1003",
-      "summary": "In environment and sustainability fields, research plays a major role in identifying the response of human and natural systems to spatial and temporal differences, disturbances and management actions. Achieving these research outcomes relies upon establishing research questions and testable hypotheses, applying appropriate data collection and analysis met...",
+      "handbookUrl": "https://programsandcourses.anu.edu.au/course/ENVS1003",
+      "summary": "In environment and sustainability fields, research plays a major role in identifying the response of human and natural systems to spatial and temporal differences, disturbances and management actions. Achieving these research outcomes relies upon establishing research questions and testable hypotheses, applying appropriate data collection and analysis methods, critically assessing results, and effectively communicating the observations. That process is common to all science-based disciplines.",
       "tags": [
         "forestry",
         "geography",
         "interdisciplinary studies - sust",
-        "environmental studies"
+        "environmental studies",
+        "systems and society"
       ],
       "reviewMetrics": [
         "Teaching quality",
         "Workload fairness",
         "Assessment design"
+      ]
+    },
+    {
+      "id": "envs2002",
+      "type": "course",
+      "code": "ENVS2002",
+      "name": "Environmental Measurement, Modelling and Monitoring",
+      "summary": "Ecosystems worldwide are under stress. Global and local assessments of biodiversity continue to report deteriorating ecosystems and species loss. Measuring, monitoring and modelling these changes, as well as designing and analysing experiments aimed at testing potential management actions are central to restoration and conservation responses.",
+      "school": "Fenner School of Environment and Society",
+      "schoolCode": "FENS",
+      "college": "ANU College of Systems and Society",
+      "level": "UGRD",
+      "terms": [],
+      "conveners": [],
+      "handbookUrl": "https://programsandcourses.anu.edu.au/course/ENVS2002",
+      "reviewMetrics": [
+        "Teaching quality",
+        "Workload fairness",
+        "Assessment design"
+      ],
+      "tags": [
+        "systems and society"
       ]
     },
     {
@@ -26501,6 +37067,31 @@ window.ANREVIEW_DATA = {
         "Teaching quality",
         "Workload fairness",
         "Assessment design"
+      ]
+    },
+    {
+      "id": "envs2015",
+      "type": "course",
+      "code": "ENVS2015",
+      "name": "GIS and Spatial Analysis",
+      "summary": "This course provides an introduction to Geographic Information Systems (GIS) and is based around a hypothetical, but realistic Environmental Impact Study in a small regional catchment. GIS are widely used by government agencies and research organistions in the environmental sciences and to assist with resource and environmental management decision making, in part due to the rapid growth in the availability of high quality digital spatial data. This course aims to develop both a solid theoretical understanding and a comprehensive practical grounding through the construction and integration of a range of spatial models.",
+      "school": "Fenner School of Environment and Society",
+      "schoolCode": "FENS",
+      "college": "ANU College of Systems and Society",
+      "level": "UGRD",
+      "terms": [],
+      "conveners": [
+        "Dr Bruce Doran",
+        "Dr Bruce Doran"
+      ],
+      "handbookUrl": "https://programsandcourses.anu.edu.au/course/ENVS2015",
+      "reviewMetrics": [
+        "Teaching quality",
+        "Workload fairness",
+        "Assessment design"
+      ],
+      "tags": [
+        "systems and society"
       ]
     },
     {
@@ -26637,6 +37228,31 @@ window.ANREVIEW_DATA = {
         "Teaching quality",
         "Workload fairness",
         "Assessment design"
+      ]
+    },
+    {
+      "id": "envs6013",
+      "type": "course",
+      "code": "ENVS6013",
+      "name": "Society and Environmental Change",
+      "summary": "In a time of rapid population growth, unlimited economic growth and the threat of climate change, it is increasingly obvious that we need a transformation in the way we manage our resources, environment and economies. However, bringing about such societal change is not easy, whether it be at the global, national or local level. This course considers the complex drivers behind societal change in pursuit of environmental objectives.",
+      "school": "Fenner School of Environment and Society",
+      "schoolCode": "FENS",
+      "college": "ANU College of Systems and Society",
+      "level": "PGRD",
+      "terms": [],
+      "conveners": [
+        "Dr Edwina Fingleton-Smith",
+        "Dr Edwina Fingleton-Smith"
+      ],
+      "handbookUrl": "https://programsandcourses.anu.edu.au/course/ENVS6013",
+      "reviewMetrics": [
+        "Teaching quality",
+        "Workload fairness",
+        "Assessment design"
+      ],
+      "tags": [
+        "systems and society"
       ]
     },
     {
@@ -27683,24 +38299,120 @@ window.ANREVIEW_DATA = {
       ]
     },
     {
+      "id": "hlmd3000",
+      "type": "course",
+      "code": "HLMD3000",
+      "name": "Health and Medicine Internship",
+      "summary": "This course provides an opportunity for high-achieving Health and Medicine students to apply and develop professional skills and attributes in an area of their choice. This course offers opportunities to network with professional organisations such as local and national government and industry, and to acquire skills, knowledge and professional attributes which will facilitate future employment and career outcomes. The internship will be under the direct supervision of a workplace professional, with access to an appropriate academic within the ANU College of Health and Medicine.",
+      "school": "ANU College of Science and Medicine",
+      "schoolCode": "CSM",
+      "college": "ANU College of Science and Medicine",
+      "level": "UGRD",
+      "terms": [],
+      "conveners": [],
+      "handbookUrl": "https://programsandcourses.anu.edu.au/course/HLMD3000",
+      "reviewMetrics": [
+        "Teaching quality",
+        "Workload fairness",
+        "Assessment design"
+      ],
+      "tags": [
+        "science and medicine"
+      ]
+    },
+    {
+      "id": "hlmd3021",
+      "type": "course",
+      "code": "HLMD3021",
+      "name": "Health and Medicine Research Project",
+      "summary": "The course allows students to pursue a research project on a topic that extends coursework learning. The course is centred on conducting original research under an academic supervisor, in order to develop independent research skills and experience. The details of the project will be negotiated between the student and the supervisor/s and be approved by the relevant School’s Associate Director (Science Education) prior to enrolment.",
+      "school": "ANU College of Science and Medicine",
+      "schoolCode": "CSM",
+      "college": "ANU College of Science and Medicine",
+      "level": "UGRD",
+      "terms": [],
+      "conveners": [],
+      "handbookUrl": "https://programsandcourses.anu.edu.au/course/HLMD3021",
+      "reviewMetrics": [
+        "Teaching quality",
+        "Workload fairness",
+        "Assessment design"
+      ],
+      "tags": [
+        "science and medicine"
+      ]
+    },
+    {
+      "id": "hlth1001",
+      "type": "course",
+      "code": "HLTH1001",
+      "name": "Health in the 21st Century",
+      "summary": "This course provides an introduction to the health arena. Students completing the course will learn about the biological, behavioural, social and ecological determinants of health and will develop a capacity to view health issues from scientific, social, cultural and policy perspectives using a transdisciplinary approach. Students will gain insight into current and historical health challenges faced locally and globally.",
+      "school": "School of Medicine and Psychology",
+      "schoolCode": "SMP",
+      "college": "ANU College of Science and Medicine",
+      "level": "UGRD",
+      "terms": [],
+      "conveners": [
+        "Dr Rosalie Aroni",
+        "Dr Rosalie Aroni"
+      ],
+      "handbookUrl": "https://programsandcourses.anu.edu.au/course/HLTH1001",
+      "reviewMetrics": [
+        "Teaching quality",
+        "Workload fairness",
+        "Assessment design"
+      ],
+      "tags": [
+        "science and medicine"
+      ]
+    },
+    {
+      "id": "hlth1002",
+      "type": "course",
+      "code": "HLTH1002",
+      "name": "Research Methods in the Health Sciences",
+      "summary": "This course will introduce students to both the theories and practice of research, with a specific emphasis on research in the health arena. Students will learn techniques for identifying a topic for inquiry, reviewing the literature using systematic search techniques, identifying evidence gaps and formulating an answerable research question. The course is designed to help students learn the practical skills of protocol development, including foundational knowledge of sampling, recruitment, data collection and analysis as well as evaluation.",
+      "school": "School of Medicine and Psychology",
+      "schoolCode": "SMP",
+      "college": "ANU College of Science and Medicine",
+      "level": "UGRD",
+      "terms": [],
+      "conveners": [
+        "Dr Rosalie Aroni",
+        "Dr Rosalie Aroni"
+      ],
+      "handbookUrl": "https://programsandcourses.anu.edu.au/course/HLTH1002",
+      "reviewMetrics": [
+        "Teaching quality",
+        "Workload fairness",
+        "Assessment design"
+      ],
+      "tags": [
+        "science and medicine"
+      ]
+    },
+    {
       "id": "hlth2001",
       "type": "course",
       "code": "HLTH2001",
       "name": "Health Systems and Policy: An Introduction",
       "college": "ANU College of Science and Medicine",
       "school": "School of Medicine and Psychology",
-      "schoolCode": "SOMAP",
+      "schoolCode": "SMP",
       "level": "UGRD",
-      "terms": [
-        "First Semester"
+      "terms": [],
+      "conveners": [
+        "Dr Andrew Mathieson",
+        "Dr Andrew Mathieson"
       ],
-      "conveners": [],
-      "handbookUrl": "https://programsandcourses.anu.edu.au/course/hlth2001",
-      "summary": "This course will provide students with an introduction to several health systems, various health policies, the concept of health stewardship and provide an opportunity to carry out a rudimentary analysis of health policy. The World Health Organisation model will be outlined and examined.",
+      "handbookUrl": "https://programsandcourses.anu.edu.au/course/HLTH2001",
+      "summary": "This course will provide students with an introduction to several health systems, various health policies, the concept of health stewardship and provide an opportunity to carry out a rudimentary analysis of health policy. The World Health Organisation model will be outlined and examined. The Australian health care system will be used as a case study to improve student understandings of health systems, health policy, policy analysis and health stewardship.",
       "tags": [
         "policy studies",
         "public health",
-        "health"
+        "health",
+        "science and medicine"
       ],
       "reviewMetrics": [
         "Teaching quality",
@@ -27709,12 +38421,106 @@ window.ANREVIEW_DATA = {
       ]
     },
     {
+      "id": "hlth2002",
+      "type": "course",
+      "code": "HLTH2002",
+      "name": "Introduction to Global Health: Issues, Theories and Practices",
+      "summary": "This course outlines and examines global health issues, theories and practices. A transdisciplinary approach is drawn upon to analyse the current challenges, actors and forms of health governance. Key stakeholders in global health and their roles, including the World Health Organisation, World Bank, the World Trade Organization, philanthropic and private actors, and public/private partnerships are identified and discussed.",
+      "school": "School of Medicine and Psychology",
+      "schoolCode": "SMP",
+      "college": "ANU College of Science and Medicine",
+      "level": "UGRD",
+      "terms": [],
+      "conveners": [
+        "Dr Rosalie Aroni",
+        "Dr Rosalie Aroni"
+      ],
+      "handbookUrl": "https://programsandcourses.anu.edu.au/course/HLTH2002",
+      "reviewMetrics": [
+        "Teaching quality",
+        "Workload fairness",
+        "Assessment design"
+      ],
+      "tags": [
+        "science and medicine"
+      ]
+    },
+    {
+      "id": "hlth3001",
+      "type": "course",
+      "code": "HLTH3001",
+      "name": "Aboriginal and Torres Strait Islander Health",
+      "summary": "In this course students will develop their understanding of the health issues confronting Aboriginal and Torres Strait Islander people in the 21st century, and their basis in Aboriginal and Torres Strait Islander post-colonization history. Students will learn about Aboriginal and Torres Strait Islander history and its impact on community, culture and health.",
+      "school": "School of Medicine and Psychology",
+      "schoolCode": "SMP",
+      "college": "ANU College of Science and Medicine",
+      "level": "UGRD",
+      "terms": [],
+      "conveners": [],
+      "handbookUrl": "https://programsandcourses.anu.edu.au/course/HLTH3001",
+      "reviewMetrics": [
+        "Teaching quality",
+        "Workload fairness",
+        "Assessment design"
+      ],
+      "tags": [
+        "science and medicine"
+      ]
+    },
+    {
+      "id": "hlth3002",
+      "type": "course",
+      "code": "HLTH3002",
+      "name": "Professional Practice in Health Science",
+      "summary": "This course will require students to apply their understanding of the principles of health research and health/medical ethics to complex case studies of health issues of the past and current century. This will be complemented with professional development workshops on self-awareness, effective teamwork and leadership, developing an evidence based curriculum vitae, addressing key selection criteria and interview skills. An introduction to career paths in Health Science will be given through a series of invited speakers who will present their career experiences and highlights.",
+      "school": "School of Medicine and Psychology",
+      "schoolCode": "SMP",
+      "college": "ANU College of Science and Medicine",
+      "level": "UGRD",
+      "terms": [],
+      "conveners": [
+        "Dr Andrew Mathieson",
+        "Dr Andrew Mathieson"
+      ],
+      "handbookUrl": "https://programsandcourses.anu.edu.au/course/HLTH3002",
+      "reviewMetrics": [
+        "Teaching quality",
+        "Workload fairness",
+        "Assessment design"
+      ],
+      "tags": [
+        "science and medicine"
+      ]
+    },
+    {
+      "id": "hlth3004",
+      "type": "course",
+      "code": "HLTH3004",
+      "name": "Wicked Problems in Health Science",
+      "summary": "Wicked problems are complex, but not insoluble, problems that address important social and cultural issues. They require intensive cross-boundary collaboration to develop solutions to this problem, in this context, for this population. This course is designed to develop the ability of students to work together in a transdisciplinary fashion to understand the debates and challenges underpinning a selected wicked problem.",
+      "school": "School of Medicine and Psychology",
+      "schoolCode": "SMP",
+      "college": "ANU College of Science and Medicine",
+      "level": "UGRD",
+      "terms": [],
+      "conveners": [],
+      "handbookUrl": "https://programsandcourses.anu.edu.au/course/HLTH3004",
+      "reviewMetrics": [
+        "Teaching quality",
+        "Workload fairness",
+        "Assessment design"
+      ],
+      "tags": [
+        "science and medicine"
+      ]
+    },
+    {
       "id": "hons4300",
       "type": "course",
       "code": "HONS4300",
       "name": "Final Honours Grade",
       "college": "ANU College of Law, Governance and Policy",
-      "school": "ANU College of Law, Governance and Policy",
+      "school": "ANU Law School",
       "schoolCode": "LAW",
       "level": "UGRD",
       "terms": [
@@ -30870,6 +41676,50 @@ window.ANREVIEW_DATA = {
       ]
     },
     {
+      "id": "math1003",
+      "type": "course",
+      "code": "MATH1003",
+      "name": "Algebra and Calculus Methods",
+      "summary": "This is a course covering the elementary methods necessary for mathematical modelling. Emphasis will be placed on developing facility, technique and use in applications. Modelling of processes and phenomena which occur in economics, engineering and the physical, environmental and life sciences will be used as a vehicle throughout.",
+      "school": "Mathematical Sciences Institute",
+      "schoolCode": "MSI",
+      "college": "ANU College of Systems and Society",
+      "level": "UGRD",
+      "terms": [],
+      "conveners": [],
+      "handbookUrl": "https://programsandcourses.anu.edu.au/course/MATH1003",
+      "reviewMetrics": [
+        "Teaching quality",
+        "Workload fairness",
+        "Assessment design"
+      ],
+      "tags": [
+        "systems and society"
+      ]
+    },
+    {
+      "id": "math1005",
+      "type": "course",
+      "code": "MATH1005",
+      "name": "Discrete Mathematical Models",
+      "summary": "Introduction to discrete mathematics and its use in mathematical modelling. Emphasis will be placed on developing facility, technique and use in applications. Modelling of processes and phenomena which occur in the physical, environmental and life sciences, especially computer science, will be used as a vehicle throughout.",
+      "school": "Mathematical Sciences Institute",
+      "schoolCode": "MSI",
+      "college": "ANU College of Systems and Society",
+      "level": "UGRD",
+      "terms": [],
+      "conveners": [],
+      "handbookUrl": "https://programsandcourses.anu.edu.au/course/MATH1005",
+      "reviewMetrics": [
+        "Teaching quality",
+        "Workload fairness",
+        "Assessment design"
+      ],
+      "tags": [
+        "systems and society"
+      ]
+    },
+    {
       "id": "math1013",
       "type": "course",
       "code": "MATH1013",
@@ -30878,15 +41728,16 @@ window.ANREVIEW_DATA = {
       "school": "Mathematical Sciences Institute",
       "schoolCode": "MSI",
       "level": "UGRD",
-      "terms": [
-        "First Semester",
-        "Second Semester"
+      "terms": [],
+      "conveners": [
+        "Dr Griff Ware",
+        "Dr Griff Ware"
       ],
-      "conveners": [],
-      "handbookUrl": "https://programsandcourses.anu.edu.au/course/math1013",
-      "summary": "This course covers single-variable calculus and introductory linear algebra. The emphasis is on understanding the material such that it both can be applied across a range of fields including the physical and biological sciences, engineering and information technologies, economics and commerce, and can also serve as a base for future mathematics courses.",
+      "handbookUrl": "https://programsandcourses.anu.edu.au/course/MATH1013",
+      "summary": "This course covers single-variable calculus and introductory linear algebra. The emphasis is on understanding the material such that it both can be applied across a range of fields including the physical and biological sciences, engineering and information technologies, economics and commerce, and can also serve as a base for future mathematics courses. Many applications and connections with other fields will be discussed although not developed in detail.",
       "tags": [
-        "mathematics"
+        "mathematics",
+        "systems and society"
       ],
       "reviewMetrics": [
         "Teaching quality",
@@ -30903,15 +41754,16 @@ window.ANREVIEW_DATA = {
       "school": "Mathematical Sciences Institute",
       "schoolCode": "MSI",
       "level": "UGRD",
-      "terms": [
-        "First Semester",
-        "Second Semester"
+      "terms": [],
+      "conveners": [
+        "Dr Alexandria Rose",
+        "Dr Alexandria Rose"
       ],
-      "conveners": [],
-      "handbookUrl": "https://programsandcourses.anu.edu.au/course/math1014",
-      "summary": "This course continues on from MATH1013 . It emphasises an understanding of the fundamental results from calculus and linear algebra which both can be applied across a range of fields including the physical and biological sciences, engineering and information technologies, economics and commerce, and can also serve as a base for future mathematics courses.",
+      "handbookUrl": "https://programsandcourses.anu.edu.au/course/MATH1014",
+      "summary": "This course continues on from MATH1013 . It emphasises an understanding of the fundamental results from calculus and linear algebra which both can be applied across a range of fields including the physical and biological sciences, engineering and information technologies, economics and commerce, and can also serve as a base for future mathematics courses. Many applications and connections with other fields will be discussed although not developed in detail.",
       "tags": [
-        "mathematics"
+        "mathematics",
+        "systems and society"
       ],
       "reviewMetrics": [
         "Teaching quality",
@@ -30953,14 +41805,16 @@ window.ANREVIEW_DATA = {
       "school": "Mathematical Sciences Institute",
       "schoolCode": "MSI",
       "level": "UGRD",
-      "terms": [
-        "First Semester"
+      "terms": [],
+      "conveners": [
+        "Dr Vigleik Angeltveit",
+        "Dr Vigleik Angeltveit"
       ],
-      "conveners": [],
-      "handbookUrl": "https://programsandcourses.anu.edu.au/course/math1115",
-      "summary": "This course begins an in-depth study of the fundamental concepts of calculus and linear algebra, with a particular emphasis on the underlying foundations of mathematics. The use and understanding of proof and abstract ideas will allow students to develop analytical skills which will form a base for further study in fundamental mathematics, as well as prov...",
+      "handbookUrl": "https://programsandcourses.anu.edu.au/course/MATH1115",
+      "summary": "This course begins an in-depth study of the fundamental concepts of calculus and linear algebra, with a particular emphasis on the underlying foundations of mathematics. The use and understanding of proof and abstract ideas will allow students to develop analytical skills which will form a base for further study in fundamental mathematics, as well as providing a foundation for a wide range of quantitative areas such as actuarial studies, computer science, economics, engineering, physics and statistics. Topics to be covered include: Calculus/Analysis - suprema and infima of sets of real numbers, completeness, Riemann-Darboux definition of integration, introductory formal logic, axioms for the real numbers, convergence, limits, continuity, existence of extrema, differentiation, applications of derivatives, proof of the fundamental theorem of calculus, Taylor polynomials, l'Hospital's rules, inverse functions; Linear Algebra - solving linear equations, matrix equations, linear independence, matrix transformations, matrix operations, matrix inverses, abstract vector spaces, subspaces, dimension and rank, determinants, Cramer's rule, complex numbers, eigenvectors and eigenvalues.",
       "tags": [
-        "mathematics"
+        "mathematics",
+        "systems and society"
       ],
       "reviewMetrics": [
         "Teaching quality",
@@ -30977,19 +41831,278 @@ window.ANREVIEW_DATA = {
       "school": "Mathematical Sciences Institute",
       "schoolCode": "MSI",
       "level": "UGRD",
-      "terms": [
-        "Second Semester"
-      ],
+      "terms": [],
       "conveners": [],
-      "handbookUrl": "https://programsandcourses.anu.edu.au/course/math1116",
-      "summary": "This course continues on from MATH1115, providing an in-depth development of fundamental concepts of calculus and linear algebra, with a particular emphasis on the underlying foundations of mathematics. The use and understanding of proof and abstract ideas will allow students to develop analytical skills which will form a base for further study in fundame...",
+      "handbookUrl": "https://programsandcourses.anu.edu.au/course/MATH1116",
+      "summary": "This course continues on from MATH1115, providing an in-depth development of fundamental concepts of calculus and linear algebra, with a particular emphasis on the underlying foundations of mathematics. The use and understanding of proof and abstract ideas will allow students to develop analytical skills which will form a base for further study in fundamental mathematics, as well as providing a foundation for a wide range of quantitative areas such as actuarial studies, computer science, economics, engineering, physics and statistics. Topics to be covered include: Calculus/Analysis – sequences and series, convergence tests, power series, Taylor series, a short introduction to metric spaces in the context of the calculus of functions of several variables, generalisation of the real analysis theory studied in MATH1115 to multivariable functions including limits and continuity, double integrals, Fubini's theorem, integrability of continuous functions, partial derivatives, gradients and directional derivatives, differentiation of multivariable functions, extreme values, vector-valued functions.",
       "tags": [
-        "mathematics"
+        "mathematics",
+        "systems and society"
       ],
       "reviewMetrics": [
         "Teaching quality",
         "Workload fairness",
         "Assessment design"
+      ]
+    },
+    {
+      "id": "math2222",
+      "type": "course",
+      "code": "MATH2222",
+      "name": "Introduction to Mathematical Thinking: Problem-Solving and Proofs",
+      "summary": "This course focuses on the language of mathematical arguments. Rather than attacking advanced topics, we will use simple mathematics to develop an understanding of how results are established. We begin with clearly stated and plausible assumptions or axioms and then develop a more and more complex theory from them.",
+      "school": "Mathematical Sciences Institute",
+      "schoolCode": "MSI",
+      "college": "ANU College of Systems and Society",
+      "level": "UGRD",
+      "terms": [],
+      "conveners": [
+        "Prof Uri Onn",
+        "Prof Uri Onn"
+      ],
+      "handbookUrl": "https://programsandcourses.anu.edu.au/course/MATH2222",
+      "reviewMetrics": [
+        "Teaching quality",
+        "Workload fairness",
+        "Assessment design"
+      ],
+      "tags": [
+        "systems and society"
+      ]
+    },
+    {
+      "id": "math2301",
+      "type": "course",
+      "code": "MATH2301",
+      "name": "Games, Graphs and Machines",
+      "summary": "This course is designed to introduce students to abstraction and its role in modeling problems mathematically. It focuses on discrete mathematics with elements of computer science, and is designed for students with a broad range of backgrounds. Topics to be covered include: Foundations: Relations on sets, including equivalence and partial order relations, properties of functions, arithmetic of integers modulo n.",
+      "school": "Mathematical Sciences Institute",
+      "schoolCode": "MSI",
+      "college": "ANU College of Systems and Society",
+      "level": "UGRD",
+      "terms": [],
+      "conveners": [
+        "Dr Asilata Bapat",
+        "Dr Asilata Bapat"
+      ],
+      "handbookUrl": "https://programsandcourses.anu.edu.au/course/MATH2301",
+      "reviewMetrics": [
+        "Teaching quality",
+        "Workload fairness",
+        "Assessment design"
+      ],
+      "tags": [
+        "systems and society"
+      ]
+    },
+    {
+      "id": "math2305",
+      "type": "course",
+      "code": "MATH2305",
+      "name": "Applied Mathematics I",
+      "summary": "This course shows the modelling process in the context of differential equations and case studies from a number of areas such as population dynamics, economics, electric circuits, mechanical systems, fluid flow, physics and astrophysics. Analytic methods from the elementary theory of differential equations and calculus will be provided to allow for the analysis of the various models being investigated. The numerical package MATLAB will be used to study model behaviour and to obtain deeper understanding of the consequences of analytical studies.",
+      "school": "Mathematical Sciences Institute",
+      "schoolCode": "MSI",
+      "college": "ANU College of Systems and Society",
+      "level": "UGRD",
+      "terms": [],
+      "conveners": [],
+      "handbookUrl": "https://programsandcourses.anu.edu.au/course/MATH2305",
+      "reviewMetrics": [
+        "Teaching quality",
+        "Workload fairness",
+        "Assessment design"
+      ],
+      "tags": [
+        "systems and society"
+      ]
+    },
+    {
+      "id": "math2307",
+      "type": "course",
+      "code": "MATH2307",
+      "name": "Bioinformatics and Biological Modelling",
+      "summary": "The course begins with a detailed discussion of sequence alignment algorithms that are critical for assessing the relatedness of DNA, RNA and amino acid sequences. We then proceed to studying Markov chains and hidden Markov models as important examples of biological models for such sequences. The main algorithms and several applications will be explained.",
+      "school": "Mathematical Sciences Institute",
+      "schoolCode": "MSI",
+      "college": "ANU College of Systems and Society",
+      "level": "UGRD",
+      "terms": [],
+      "conveners": [
+        "Dr Xia Hua",
+        "Dr Xia Hua"
+      ],
+      "handbookUrl": "https://programsandcourses.anu.edu.au/course/MATH2307",
+      "reviewMetrics": [
+        "Teaching quality",
+        "Workload fairness",
+        "Assessment design"
+      ],
+      "tags": [
+        "systems and society"
+      ]
+    },
+    {
+      "id": "math6005",
+      "type": "course",
+      "code": "MATH6005",
+      "name": "Discrete Mathematical Models",
+      "summary": "Introduction to discrete mathematics and its use in mathematical modelling. Emphasis will be placed on developing facility, technique and use in applications. Modelling of processes and phenomena which occur in the physical, environmental and life sciences, especially computer science, will be used as a vehicle throughout.",
+      "school": "Mathematical Sciences Institute",
+      "schoolCode": "MSI",
+      "college": "ANU College of Systems and Society",
+      "level": "PGRD",
+      "terms": [],
+      "conveners": [],
+      "handbookUrl": "https://programsandcourses.anu.edu.au/course/MATH6005",
+      "reviewMetrics": [
+        "Teaching quality",
+        "Workload fairness",
+        "Assessment design"
+      ],
+      "tags": [
+        "systems and society"
+      ]
+    },
+    {
+      "id": "math6100",
+      "type": "course",
+      "code": "MATH6100",
+      "name": "Bioinformatics and Biological Modelling",
+      "summary": "The course begins with a detailed discussion of sequence alignment algorithms that are critical for assessing the relatedness of DNA, RNA and amino acid sequences. We then proceed to studying Markov chains and hidden Markov models as important examples of biological models for such sequences. The main algorithms and several applications will be explained.",
+      "school": "Mathematical Sciences Institute",
+      "schoolCode": "MSI",
+      "college": "ANU College of Systems and Society",
+      "level": "PGRD",
+      "terms": [],
+      "conveners": [
+        "Dr Xia Hua",
+        "Dr Xia Hua"
+      ],
+      "handbookUrl": "https://programsandcourses.anu.edu.au/course/MATH6100",
+      "reviewMetrics": [
+        "Teaching quality",
+        "Workload fairness",
+        "Assessment design"
+      ],
+      "tags": [
+        "systems and society"
+      ]
+    },
+    {
+      "id": "math6103",
+      "type": "course",
+      "code": "MATH6103",
+      "name": "Scientific and Industrial Modelling",
+      "summary": "The use of mathematical models has grown rapidly in recent years, owing to the advent of cheap and powerful computers, expanding from applications in the physical and earth sciences to the biological and environmental sciences, and now into industry and commerce. In this course we study: The process of starting with an initial succinct non-mathematical description of a problem Formulate associated mathematical models. Introduce new mathematical techniques and then determine and interpret solutions that are useful in a real life context.",
+      "school": "Mathematical Sciences Institute",
+      "schoolCode": "MSI",
+      "college": "ANU College of Systems and Society",
+      "level": "PGRD",
+      "terms": [],
+      "conveners": [],
+      "handbookUrl": "https://programsandcourses.anu.edu.au/course/MATH6103",
+      "reviewMetrics": [
+        "Teaching quality",
+        "Workload fairness",
+        "Assessment design"
+      ],
+      "tags": [
+        "systems and society"
+      ]
+    },
+    {
+      "id": "math6111",
+      "type": "course",
+      "code": "MATH6111",
+      "name": "Scientific Computing",
+      "summary": "This course explores elements of scientific computing, focusing on methods for solving or approximating the solution of calculus and linear algebra problems associated with real-world applications. By drawing on non-trivial problems from disciplines including physics, engineering and chemistry, and sophisticated scientific computing and visualisation environments, students are introduced to the basic computational concepts of stability, accuracy and efficiency. New numerical methods and techniques are developed to solve progressively more challenging problems.",
+      "school": "Mathematical Sciences Institute",
+      "schoolCode": "MSI",
+      "college": "ANU College of Systems and Society",
+      "level": "PGRD",
+      "terms": [],
+      "conveners": [],
+      "handbookUrl": "https://programsandcourses.anu.edu.au/course/MATH6111",
+      "reviewMetrics": [
+        "Teaching quality",
+        "Workload fairness",
+        "Assessment design"
+      ],
+      "tags": [
+        "systems and society"
+      ]
+    },
+    {
+      "id": "math6208",
+      "type": "course",
+      "code": "MATH6208",
+      "name": "Advanced Mathematical Bioinformatics",
+      "summary": "This course begins with a brief review of some of the areas of probability and statistics needed for applications to bioinformatics problems. Typical problems addressed by bioinformaticians are identifying functionally different parts of a genome, searching DNA or protein databases to find sequences which are functionally similar to a given query sequence, or inferring the relatedness of different species by measuring the similarity of their genomes. The course will cover the mathematical theory behind algorithms commonly used by biologists and also give examples of current research.",
+      "school": "Mathematical Sciences Institute",
+      "schoolCode": "MSI",
+      "college": "ANU College of Systems and Society",
+      "level": "PGRD",
+      "terms": [],
+      "conveners": [
+        "Dr Xia Hua",
+        "Dr Xia Hua"
+      ],
+      "handbookUrl": "https://programsandcourses.anu.edu.au/course/MATH6208",
+      "reviewMetrics": [
+        "Teaching quality",
+        "Workload fairness",
+        "Assessment design"
+      ],
+      "tags": [
+        "systems and society"
+      ]
+    },
+    {
+      "id": "math8201",
+      "type": "course",
+      "code": "MATH8201",
+      "name": "Topics in Computational Maths",
+      "summary": "This course will introduce students to current research trends in an area of computational mathematics. Topics covered each year will vary but will cover one or more of those listed below, or even new emerging topics: Data mining algorithms Multiscale and multilevel techniques The numerical solution of PDEs Optimisation, approximation in particular of high-dimensional functions Algorithms for the solution of linear systems of equations including iterative methods.",
+      "school": "Mathematical Sciences Institute",
+      "schoolCode": "MSI",
+      "college": "ANU College of Systems and Society",
+      "level": "PGRD",
+      "terms": [],
+      "conveners": [],
+      "handbookUrl": "https://programsandcourses.anu.edu.au/course/MATH8201",
+      "reviewMetrics": [
+        "Teaching quality",
+        "Workload fairness",
+        "Assessment design"
+      ],
+      "tags": [
+        "systems and society"
+      ]
+    },
+    {
+      "id": "math8202",
+      "type": "course",
+      "code": "MATH8202",
+      "name": "Theory of Partial Differential Equations",
+      "summary": "The course will discuss the three main classes of equations, elliptic, parabolic and hyperbolic. It is intended both for mathematics students continuing to honours work and for other students using mathematics at a high level in theoretical physics, engineering and information technology, and mathematical economics. Topics to be covered will include fundamental solutions, maximum principles, regularity (smoothness) of solutions, variational problems, Holder and Sobolev spaces.",
+      "school": "Mathematical Sciences Institute",
+      "schoolCode": "MSI",
+      "college": "ANU College of Systems and Society",
+      "level": "PGRD",
+      "terms": [],
+      "conveners": [
+        "Prof Xu-Jia Wang",
+        "Prof Xu-Jia Wang"
+      ],
+      "handbookUrl": "https://programsandcourses.anu.edu.au/course/MATH8202",
+      "reviewMetrics": [
+        "Teaching quality",
+        "Workload fairness",
+        "Assessment design"
+      ],
+      "tags": [
+        "systems and society"
       ]
     },
     {
@@ -31301,6 +42414,225 @@ window.ANREVIEW_DATA = {
         "Teaching quality",
         "Workload fairness",
         "Assessment design"
+      ]
+    },
+    {
+      "id": "medn1101",
+      "type": "course",
+      "code": "MEDN1101",
+      "name": "Anatomy and Physiology 1",
+      "summary": "In this course students will develop a comprehensive understanding of the morphology and function of the human body from cells to systems. Students will closely examine the anatomical structure and typical physiological function of the musculoskeletal system. Students will study the musculoskeletal and related structures and be given an insight into the implications of disruption of these.",
+      "school": "School of Medicine and Psychology",
+      "schoolCode": "SMP",
+      "college": "ANU College of Science and Medicine",
+      "level": "UGRD",
+      "terms": [],
+      "conveners": [
+        "Dr Nicole Vargas",
+        "Dr Nicole Vargas"
+      ],
+      "handbookUrl": "https://programsandcourses.anu.edu.au/course/MEDN1101",
+      "reviewMetrics": [
+        "Teaching quality",
+        "Workload fairness",
+        "Assessment design"
+      ],
+      "tags": [
+        "science and medicine"
+      ]
+    },
+    {
+      "id": "medn2002",
+      "type": "course",
+      "code": "MEDN2002",
+      "name": "Pathogenesis of Human Disease",
+      "summary": "This course is designed to introduce students to the aetiology and pathgogenesis of human disease. Examples of common medical conditions will be used to illustrate the pathophysiology of various categories of human disease. Normal responses to disease in the body will be discussed as well as goals of medical therapies to address the pathology or support normal function.",
+      "school": "School of Medicine and Psychology",
+      "schoolCode": "SMP",
+      "college": "ANU College of Science and Medicine",
+      "level": "UGRD",
+      "terms": [],
+      "conveners": [
+        "Dr Suzanne Estaphan",
+        "Dr Suzanne Estaphan"
+      ],
+      "handbookUrl": "https://programsandcourses.anu.edu.au/course/MEDN2002",
+      "reviewMetrics": [
+        "Teaching quality",
+        "Workload fairness",
+        "Assessment design"
+      ],
+      "tags": [
+        "science and medicine"
+      ]
+    },
+    {
+      "id": "medn2201",
+      "type": "course",
+      "code": "MEDN2201",
+      "name": "Anatomy and Physiology 2",
+      "summary": "This course adopts a systems-based approach to explore the structure and function of the cardiovascular, respiratory, urinary, gastrointestinal, and reproductive systems. Students will develop an understanding of typical anatomy and the cellular and molecular mechanisms that underpin normal physiological processes. Students will integrate and apply knowledge of these systems in maintaining homeostasis, particularly in the contexts of nutrition, energy metabolism, exercise, and examine how disruptions can lead to disease.",
+      "school": "School of Medicine and Psychology",
+      "schoolCode": "SMP",
+      "college": "ANU College of Science and Medicine",
+      "level": "UGRD",
+      "terms": [],
+      "conveners": [
+        "Dr Kathleen Miles",
+        "Dr Kathleen Miles"
+      ],
+      "handbookUrl": "https://programsandcourses.anu.edu.au/course/MEDN2201",
+      "reviewMetrics": [
+        "Teaching quality",
+        "Workload fairness",
+        "Assessment design"
+      ],
+      "tags": [
+        "science and medicine"
+      ]
+    },
+    {
+      "id": "medn2222",
+      "type": "course",
+      "code": "MEDN2222",
+      "name": "Exquisite Corpse - Insight into the Human Body",
+      "summary": "The aim of this course is to provide an introduction to anatomy through visual arts, using an integrated approach. Students will have an opportunity to gain knowledge and visual comprehension of the structures that compose the human body and develop communication skills relevant to both disciplines. The structure and function of the body will be explored and put in context using a variety of two-dimensional and three-dimensional materials and processes including live and anatomical models.",
+      "school": "School of Medicine and Psychology",
+      "schoolCode": "SMP",
+      "college": "ANU College of Science and Medicine",
+      "level": "UGRD",
+      "terms": [],
+      "conveners": [],
+      "handbookUrl": "https://programsandcourses.anu.edu.au/course/MEDN2222",
+      "reviewMetrics": [
+        "Teaching quality",
+        "Workload fairness",
+        "Assessment design"
+      ],
+      "tags": [
+        "science and medicine"
+      ]
+    },
+    {
+      "id": "medn3820",
+      "type": "course",
+      "code": "MEDN3820",
+      "name": "Biomedical Imaging: Principles, Technologies and Applications in Health Sciences",
+      "summary": "This course introduces the broad concepts of biomedical imaging across a range of modalities. It provides a foundation towards the understanding of how modern biomedical imaging technologies generate multi-dimensional data for analysis and diagnosis. Key technologies covered include: XRay, CT, MRI, FMRI, Ultrasound, light microscopy, and medical imaging processing.",
+      "school": "John Curtin School of Medical Research",
+      "schoolCode": "JCSMR",
+      "college": "ANU College of Science and Medicine",
+      "level": "UGRD",
+      "terms": [],
+      "conveners": [
+        "Dr Steve Lee",
+        "Dr Steve Lee"
+      ],
+      "handbookUrl": "https://programsandcourses.anu.edu.au/course/MEDN3820",
+      "reviewMetrics": [
+        "Teaching quality",
+        "Workload fairness",
+        "Assessment design"
+      ],
+      "tags": [
+        "science and medicine"
+      ]
+    },
+    {
+      "id": "medn6001",
+      "type": "course",
+      "code": "MEDN6001",
+      "name": "Health and Medical Physiology",
+      "summary": "This course uses a systems approach to explain the cellular and molecular mechanisms of the normal functions of the skeletal muscles, heart, lungs, kidneys, circulatory system, stomach, intestine, liver, and pancreas. The interaction of physiological systems in nutrition, energy metabolism and exercise is introduced. Students will develop a contextualised understanding of how external signals elicit changes in cellular function and how the autonomic nervous and endocrine systems orchestrate physiological responses to external and internal stimuli.",
+      "school": "School of Medicine and Psychology",
+      "schoolCode": "SMP",
+      "college": "ANU College of Science and Medicine",
+      "level": "PGRD",
+      "terms": [],
+      "conveners": [
+        "Dr Kathleen Miles",
+        "Dr Kathleen Miles"
+      ],
+      "handbookUrl": "https://programsandcourses.anu.edu.au/course/MEDN6001",
+      "reviewMetrics": [
+        "Teaching quality",
+        "Workload fairness",
+        "Assessment design"
+      ],
+      "tags": [
+        "science and medicine"
+      ]
+    },
+    {
+      "id": "medn6002",
+      "type": "course",
+      "code": "MEDN6002",
+      "name": "Pathogenesis of Human Disease",
+      "summary": "This course is designed to introduce students to the aetiology and pathogenesis of human disease. Examples of common medical conditions will be used to illustrate the pathophysiology of various categories of human disease. Normal responses to disease in the body will be discussed as well as goals of medical therapies to address the pathology or support normal function.",
+      "school": "School of Medicine and Psychology",
+      "schoolCode": "SMP",
+      "college": "ANU College of Science and Medicine",
+      "level": "PGRD",
+      "terms": [],
+      "conveners": [
+        "Dr Suzanne Estaphan",
+        "Dr Suzanne Estaphan"
+      ],
+      "handbookUrl": "https://programsandcourses.anu.edu.au/course/MEDN6002",
+      "reviewMetrics": [
+        "Teaching quality",
+        "Workload fairness",
+        "Assessment design"
+      ],
+      "tags": [
+        "science and medicine"
+      ]
+    },
+    {
+      "id": "medn6820",
+      "type": "course",
+      "code": "MEDN6820",
+      "name": "Biomedical Imaging: Principles, Technologies and Applications in Health Sciences",
+      "summary": "This course introduces the broad concepts of biomedical imaging across a range of modalities. It provides a foundation towards the understanding of how modern biomedical imaging technologies generate multi-dimensional data for analysis and diagnosis. Key technologies covered include: XRay, CT, MRI, FMRI, Ultrasound, light microscopy, and medical imaging processing.",
+      "school": "John Curtin School of Medical Research",
+      "schoolCode": "JCSMR",
+      "college": "ANU College of Science and Medicine",
+      "level": "PGRD",
+      "terms": [],
+      "conveners": [
+        "Dr Steve Lee",
+        "Dr Steve Lee"
+      ],
+      "handbookUrl": "https://programsandcourses.anu.edu.au/course/MEDN6820",
+      "reviewMetrics": [
+        "Teaching quality",
+        "Workload fairness",
+        "Assessment design"
+      ],
+      "tags": [
+        "science and medicine"
+      ]
+    },
+    {
+      "id": "medn8007",
+      "type": "course",
+      "code": "MEDN8007",
+      "name": "Computational Biomedicine Project",
+      "summary": "The deluge of data from our newfound ability to sequence genomes and visualise molecules from thousands of cells and individuals will revolutionise healthcare. Computational solutions, from distributed computing to deep learning, are increasingly essential to biomedical progress. While the transformation at the interface of high-throughput experimentation and computer science is underway, biomedical research is generating data at a faster pace than we are able to process and interpret it.",
+      "school": "John Curtin School of Medical Research",
+      "schoolCode": "JCSMR",
+      "college": "ANU College of Science and Medicine",
+      "level": "PGRD",
+      "terms": [],
+      "conveners": [],
+      "handbookUrl": "https://programsandcourses.anu.edu.au/course/MEDN8007",
+      "reviewMetrics": [
+        "Teaching quality",
+        "Workload fairness",
+        "Assessment design"
+      ],
+      "tags": [
+        "science and medicine"
       ]
     },
     {
@@ -31944,6 +43276,53 @@ window.ANREVIEW_DATA = {
         "Teaching quality",
         "Workload fairness",
         "Assessment design"
+      ]
+    },
+    {
+      "id": "neur3101",
+      "type": "course",
+      "code": "NEUR3101",
+      "name": "Cellular Neuroscience",
+      "summary": "The course provides in-depth exposure to the cellular mechanisms utilised by neurons. Emphasis will be put on the following areas: the role of different classes of ion channels in affecting neuronal excitability, the mechanisms involved in electrical and chemical transmission, how transmitted signals are integrated by the neurons and across networks, and how different forms of synaptic plasticity may underlie learning and memory. Where appropriate insights will be provided into disease states such as epilepsy and Alzheimer's disease.",
+      "school": "John Curtin School of Medical Research",
+      "schoolCode": "JCSMR",
+      "college": "ANU College of Science and Medicine",
+      "level": "UGRD",
+      "terms": [],
+      "conveners": [
+        "Prof Ehsan Arabzadeh",
+        "Prof John Bekkers"
+      ],
+      "handbookUrl": "https://programsandcourses.anu.edu.au/course/NEUR3101",
+      "reviewMetrics": [
+        "Teaching quality",
+        "Workload fairness",
+        "Assessment design"
+      ],
+      "tags": [
+        "science and medicine"
+      ]
+    },
+    {
+      "id": "neur3112",
+      "type": "course",
+      "code": "NEUR3112",
+      "name": "Systems Neuroscience",
+      "summary": "In this course you will learn about the main neuronal systems involved in how animals interact with the environment. The course will cover the principal sensory and motor systems, focusing in particular on bridging the gap between molecular/cellular neuroscience and higher-level perception and behaviour. Topics to be covered include: anatomy, physiology and functions of the major senses, motor systems and the biological basis of behaviour.",
+      "school": "John Curtin School of Medical Research",
+      "schoolCode": "JCSMR",
+      "college": "ANU College of Science and Medicine",
+      "level": "UGRD",
+      "terms": [],
+      "conveners": [],
+      "handbookUrl": "https://programsandcourses.anu.edu.au/course/NEUR3112",
+      "reviewMetrics": [
+        "Teaching quality",
+        "Workload fairness",
+        "Assessment design"
+      ],
+      "tags": [
+        "science and medicine"
       ]
     },
     {
@@ -33545,6 +44924,153 @@ window.ANREVIEW_DATA = {
       ]
     },
     {
+      "id": "phys1001",
+      "type": "course",
+      "code": "PHYS1001",
+      "name": "Foundations of Physics",
+      "summary": "Nationally recognised with two teaching awards, Foundations of Physics aims to teach you to think like a physicist ! A course for anyone who wants to get a solid foundation in basic-physics concepts, or needs to catch up before entering into a major. It will also teach you skills and an approach to problem solving that you will take forward in your life.",
+      "school": "Research School of Physics",
+      "schoolCode": "PHYS",
+      "college": "ANU College of Science and Medicine",
+      "level": "UGRD",
+      "terms": [],
+      "conveners": [
+        "Dr Ksenia Maximova",
+        "Dr Ksenia Maximova"
+      ],
+      "handbookUrl": "https://programsandcourses.anu.edu.au/course/PHYS1001",
+      "reviewMetrics": [
+        "Teaching quality",
+        "Workload fairness",
+        "Assessment design"
+      ],
+      "tags": [
+        "science and medicine"
+      ]
+    },
+    {
+      "id": "phys1004",
+      "type": "course",
+      "code": "PHYS1004",
+      "name": "Life Physics",
+      "summary": "The concepts of physics can be used to help understand many systems and processes in living organisms and the environment. For example, the physics of momentum and energy help us to understand the effects of collisions and impacts; the physics of heat and energy helps us to understand how changes in temperature affect both our bodies and the world around us; the physics of sound and light helps us understand how we hear and see. In addition, physics has provided us with ideas and technologies which have revolutionised medicine and studies of biology and the environment, including techniques such as carbon dating, ultrasound, PET scans and more.",
+      "school": "Research School of Physics",
+      "schoolCode": "PHYS",
+      "college": "ANU College of Science and Medicine",
+      "level": "UGRD",
+      "terms": [],
+      "conveners": [
+        "Prof Adrian Sheppard",
+        "Prof Adrian Sheppard"
+      ],
+      "handbookUrl": "https://programsandcourses.anu.edu.au/course/PHYS1004",
+      "reviewMetrics": [
+        "Teaching quality",
+        "Workload fairness",
+        "Assessment design"
+      ],
+      "tags": [
+        "science and medicine"
+      ]
+    },
+    {
+      "id": "phys1101",
+      "type": "course",
+      "code": "PHYS1101",
+      "name": "Physics I",
+      "summary": "Physics 1 introduces the fundamentals of university physics, and should be taken by all students planning to major or minor in physics. The course focuses on using modelling and estimation to figure out the physics of complex real-world situations, on applying the mathematical concepts of vectors and vector fields, and on experimental skills. It is taught in small-group hands-on workshops and laboratories.",
+      "school": "Research School of Physics",
+      "schoolCode": "PHYS",
+      "college": "ANU College of Science and Medicine",
+      "level": "UGRD",
+      "terms": [],
+      "conveners": [],
+      "handbookUrl": "https://programsandcourses.anu.edu.au/course/PHYS1101",
+      "reviewMetrics": [
+        "Teaching quality",
+        "Workload fairness",
+        "Assessment design"
+      ],
+      "tags": [
+        "science and medicine"
+      ]
+    },
+    {
+      "id": "phys6101",
+      "type": "course",
+      "code": "PHYS6101",
+      "name": "Advanced Quantum Mechanics",
+      "summary": "This core physics course develops quantum mechanics. Quantum mechanics will be generalised to a broad range of systems, from matter to photons. Topics covered will include foundations, symmetries, angular momentum, and the Lagrangian formulation of quantum mechanics.",
+      "school": "Research School of Physics",
+      "schoolCode": "PHYS",
+      "college": "ANU College of Science and Medicine",
+      "level": "PGRD",
+      "terms": [],
+      "conveners": [
+        "Prof Joseph Hope",
+        "Prof Joseph Hope"
+      ],
+      "handbookUrl": "https://programsandcourses.anu.edu.au/course/PHYS6101",
+      "reviewMetrics": [
+        "Teaching quality",
+        "Workload fairness",
+        "Assessment design"
+      ],
+      "tags": [
+        "science and medicine"
+      ]
+    },
+    {
+      "id": "phys6205",
+      "type": "course",
+      "code": "PHYS6205",
+      "name": "Physics for Future Leaders",
+      "summary": "This course is aimed at two groups of students: Non-physics students: to teach them about how physics can help them make the world a better place. Physics students: to teach them about how their physics knowledge can be applied to make the world a better place. The course will cover topics such as global warming, energy change, bushfires and nuclear power, and show how an understanding of physics can help future leaders make better decisions.",
+      "school": "Research School of Physics",
+      "schoolCode": "PHYS",
+      "college": "ANU College of Science and Medicine",
+      "level": "PGRD",
+      "terms": [],
+      "conveners": [
+        "Prof Paul Francis",
+        "Prof Paul Francis"
+      ],
+      "handbookUrl": "https://programsandcourses.anu.edu.au/course/PHYS6205",
+      "reviewMetrics": [
+        "Teaching quality",
+        "Workload fairness",
+        "Assessment design"
+      ],
+      "tags": [
+        "science and medicine"
+      ]
+    },
+    {
+      "id": "phys8721",
+      "type": "course",
+      "code": "PHYS8721",
+      "name": "Advanced Imaging Methods and Systems",
+      "summary": "Imaging is one of the most important tools in scientific discovery; as they say, \"seeing is believing.\" It can give conclusive evidence of certain properties, structures, composition and even processes providing invaluable insight into objects of interest. There are many ways to image matter; the right choice depends on the scale, time-frame, and property of interest. Objects can be imaged in 2D or 3D with various probes including electromagnetic radiation, particles, and acoustic waves.",
+      "school": "Research School of Physics",
+      "schoolCode": "PHYS",
+      "college": "ANU College of Science and Medicine",
+      "level": "PGRD",
+      "terms": [],
+      "conveners": [
+        "Dr Glenn Myers",
+        "Dr Glenn Myers"
+      ],
+      "handbookUrl": "https://programsandcourses.anu.edu.au/course/PHYS8721",
+      "reviewMetrics": [
+        "Teaching quality",
+        "Workload fairness",
+        "Assessment design"
+      ],
+      "tags": [
+        "science and medicine"
+      ]
+    },
+    {
       "id": "pogo7901",
       "type": "course",
       "code": "POGO7901",
@@ -33842,8 +45368,8 @@ window.ANREVIEW_DATA = {
       "name": "Science, Technology and Public Policy",
       "summary": "Science and technology (S&T) play a key role in shaping public policy issues in practically every sector. National governments and multilateral agencies (e.g., the United Nations) have high expectations of technological solutions to major policy problems related to the economy, public health, education, energy, agriculture, environment, defence and more. Yet, novel technologies also demand government intervention such as regulation in the public good.",
       "school": "Centre for the Public Awareness of Science and the Crawford School of Public Policy",
-      "schoolCode": "CRAW",
-      "college": "ANU College of Law, Governance and Policy",
+      "schoolCode": "CPAS",
+      "college": "ANU College of Systems and Society",
       "level": "PGRD",
       "terms": [],
       "conveners": [],
@@ -33854,7 +45380,8 @@ window.ANREVIEW_DATA = {
         "Assessment design"
       ],
       "tags": [
-        "public policy"
+        "public policy",
+        "systems and society"
       ]
     },
     {
@@ -35518,19 +47045,21 @@ window.ANREVIEW_DATA = {
       "name": "Psychology 1: Understanding Mind, Brain and Behaviour",
       "college": "ANU College of Science and Medicine",
       "school": "School of Medicine and Psychology",
-      "schoolCode": "SOMAP",
+      "schoolCode": "SMP",
       "level": "UGRD",
-      "terms": [
-        "First Semester"
+      "terms": [],
+      "conveners": [
+        "Dr Bradley Jack",
+        "Dr Bradley Jack"
       ],
-      "conveners": [],
-      "handbookUrl": "https://programsandcourses.anu.edu.au/course/psyc1003",
-      "summary": "The PSYC1003 course will address some of the most fundamental questions in psychology: How does the human mind process information so that we can make sense of the world, remember things, and solve problems? How do perceptual systems work?",
+      "handbookUrl": "https://programsandcourses.anu.edu.au/course/PSYC1003",
+      "summary": "The PSYC1003 course will address some of the most fundamental questions in psychology: How does the human mind process information so that we can make sense of the world, remember things, and solve problems? How do perceptual systems work? What is the role of attention in psychological processes?",
       "tags": [
         "human sciences",
         "philosophy",
         "medical science",
-        "psychology"
+        "psychology",
+        "science and medicine"
       ],
       "reviewMetrics": [
         "Teaching quality",
@@ -35545,21 +47074,45 @@ window.ANREVIEW_DATA = {
       "name": "Psychology 2: Understanding People in Context",
       "college": "ANU College of Science and Medicine",
       "school": "School of Medicine and Psychology",
-      "schoolCode": "SOMAP",
+      "schoolCode": "SMP",
       "level": "UGRD",
-      "terms": [
-        "Second Semester"
+      "terms": [],
+      "conveners": [
+        "Dr Charlie Crimston",
+        "Dr Charlie Crimston"
       ],
-      "conveners": [],
-      "handbookUrl": "https://programsandcourses.anu.edu.au/course/psyc1004",
-      "summary": "In this course three key areas of psychology will be introduced: social psychology, personality psychology & developmental psychology. The course will chart key developments, theories and foundational research that continues to have an impact on current approaches.",
+      "handbookUrl": "https://programsandcourses.anu.edu.au/course/PSYC1004",
+      "summary": "In this course three key areas of psychology will be introduced: social psychology, personality psychology & developmental psychology. The course will chart key developments, theories and foundational research that continues to have an impact on current approaches. The course will address the big questions in psychology, such as: How does the social environment influence the way people think, feel and behave?",
       "tags": [
-        "psychology"
+        "psychology",
+        "science and medicine"
       ],
       "reviewMetrics": [
         "Teaching quality",
         "Workload fairness",
         "Assessment design"
+      ]
+    },
+    {
+      "id": "psyc1005",
+      "type": "course",
+      "code": "PSYC1005",
+      "name": "The Wellbeing Formula: The Science and Practice of Making a Good Life",
+      "summary": "The Wellbeing Formula will introduce you to the psychological science and practice of wellbeing. It will draw on psychological theory, research evidence, and practical techniques to help you understand the factors that create flourishing individuals, communities, and societies. Specifically, this course will provide you with an understanding of current theoretical models and research evidence regarding the factors that promote the capacity for people to thrive.",
+      "school": "School of Medicine and Psychology",
+      "schoolCode": "SMP",
+      "college": "ANU College of Science and Medicine",
+      "level": "UGRD",
+      "terms": [],
+      "conveners": [],
+      "handbookUrl": "https://programsandcourses.anu.edu.au/course/PSYC1005",
+      "reviewMetrics": [
+        "Teaching quality",
+        "Workload fairness",
+        "Assessment design"
+      ],
+      "tags": [
+        "science and medicine"
       ]
     },
     {
@@ -35569,16 +47122,15 @@ window.ANREVIEW_DATA = {
       "name": "Social Psychology",
       "college": "ANU College of Science and Medicine",
       "school": "School of Medicine and Psychology",
-      "schoolCode": "SOMAP",
+      "schoolCode": "SMP",
       "level": "UGRD",
-      "terms": [
-        "Second Semester"
-      ],
+      "terms": [],
       "conveners": [],
-      "handbookUrl": "https://programsandcourses.anu.edu.au/course/psyc2001",
+      "handbookUrl": "https://programsandcourses.anu.edu.au/course/PSYC2001",
       "summary": "This course offers a broad introduction to social psychology, the scientific study of how people’s thoughts, feelings and behaviour are influenced by other people. We will explore a large variety of social psychology topics in the course, including attitudes, group processes, leadership, prejudice, social support, and attributions.",
       "tags": [
-        "psychology"
+        "psychology",
+        "science and medicine"
       ],
       "reviewMetrics": [
         "Teaching quality",
@@ -35593,16 +47145,15 @@ window.ANREVIEW_DATA = {
       "name": "Developmental Psychology",
       "college": "ANU College of Science and Medicine",
       "school": "School of Medicine and Psychology",
-      "schoolCode": "SOMAP",
+      "schoolCode": "SMP",
       "level": "UGRD",
-      "terms": [
-        "See ANU course page"
-      ],
+      "terms": [],
       "conveners": [],
-      "handbookUrl": "https://programsandcourses.anu.edu.au/course/psyc2002",
+      "handbookUrl": "https://programsandcourses.anu.edu.au/course/PSYC2002",
       "summary": "How much of our behaviour is learned or innate? How much does the culture in which we are raised affect the person we become? What is the relationship between our childhood behaviours and experiences and our adult self?",
       "tags": [
-        "psychology"
+        "psychology",
+        "science and medicine"
       ],
       "reviewMetrics": [
         "Teaching quality",
@@ -35617,18 +47168,17 @@ window.ANREVIEW_DATA = {
       "name": "Biological Basis of Psychology",
       "college": "ANU College of Science and Medicine",
       "school": "School of Medicine and Psychology",
-      "schoolCode": "SOMAP",
+      "schoolCode": "SMP",
       "level": "UGRD",
-      "terms": [
-        "Second Semester"
-      ],
+      "terms": [],
       "conveners": [],
-      "handbookUrl": "https://programsandcourses.anu.edu.au/course/psyc2007",
-      "summary": "Our ability to perceive the world, think and remember things depends upon the functioning of our brain. In this course we will look at the workings of the brain, with particular focus on understanding aspects of brain function that are of particular importance to psychology.",
+      "handbookUrl": "https://programsandcourses.anu.edu.au/course/PSYC2007",
+      "summary": "Our ability to perceive the world, think and remember things depends upon the functioning of our brain. In this course we will look at the workings of the brain, with particular focus on understanding aspects of brain function that are of particular importance to psychology. Consequently, this course focus on the link between neuroscience and psychological functioning.",
       "tags": [
         "human sciences",
         "psychology",
-        "neuroscience"
+        "neuroscience",
+        "science and medicine"
       ],
       "reviewMetrics": [
         "Teaching quality",
@@ -35643,16 +47193,15 @@ window.ANREVIEW_DATA = {
       "name": "Cognition",
       "college": "ANU College of Science and Medicine",
       "school": "School of Medicine and Psychology",
-      "schoolCode": "SOMAP",
+      "schoolCode": "SMP",
       "level": "UGRD",
-      "terms": [
-        "Second Semester"
-      ],
+      "terms": [],
       "conveners": [],
-      "handbookUrl": "https://programsandcourses.anu.edu.au/course/psyc2008",
+      "handbookUrl": "https://programsandcourses.anu.edu.au/course/PSYC2008",
       "summary": "This course provides an in-depth survey of cognitive psychology: the scientific study of how we think. Topics covered include: methodological approaches to cognitive psychology, attention, awareness, visual imagery, face and object perception, learning, memory, decision-making, language, and social cognition.",
       "tags": [
-        "psychology"
+        "psychology",
+        "science and medicine"
       ],
       "reviewMetrics": [
         "Teaching quality",
@@ -35667,16 +47216,18 @@ window.ANREVIEW_DATA = {
       "name": "Quantitative Methods in Psychology",
       "college": "ANU College of Science and Medicine",
       "school": "School of Medicine and Psychology",
-      "schoolCode": "SOMAP",
+      "schoolCode": "SMP",
       "level": "UGRD",
-      "terms": [
-        "First Semester"
+      "terms": [],
+      "conveners": [
+        "Dr Ho Huynh",
+        "Dr Ho Huynh"
       ],
-      "conveners": [],
-      "handbookUrl": "https://programsandcourses.anu.edu.au/course/psyc2009",
+      "handbookUrl": "https://programsandcourses.anu.edu.au/course/PSYC2009",
       "summary": "An introduction to selected quantitative techniques widely used in psychological research and practice, including applications of statistical techniques in the design and analysis of experiments and surveys, and in psychological measurement.",
       "tags": [
-        "psychology"
+        "psychology",
+        "science and medicine"
       ],
       "reviewMetrics": [
         "Teaching quality",
@@ -35712,27 +47263,76 @@ window.ANREVIEW_DATA = {
       ]
     },
     {
+      "id": "psyc2012",
+      "type": "course",
+      "code": "PSYC2012",
+      "name": "Culture and Psychology",
+      "summary": "The aim of this course is to explore the concept of culture and demonstrate how psychological science is a product of the culture in which psychologists are embedded. The course situates mainstream psychology in the culture from which it has emerged and then explores some psychological implications of practicing psychology as a Eurocentric science, particularly in the context of the colonial history of Australia. Students will also learn how to apply their knowledge of cross-cultural differences in their real lives and work, and develop an understanding of difficulties practitioners may face in working with clients whose culture is different from their own.",
+      "school": "School of Medicine and Psychology",
+      "schoolCode": "SMP",
+      "college": "ANU College of Science and Medicine",
+      "level": "UGRD",
+      "terms": [],
+      "conveners": [
+        "Dr Olivia Evans",
+        "Dr Olivia Evans"
+      ],
+      "handbookUrl": "https://programsandcourses.anu.edu.au/course/PSYC2012",
+      "reviewMetrics": [
+        "Teaching quality",
+        "Workload fairness",
+        "Assessment design"
+      ],
+      "tags": [
+        "science and medicine"
+      ]
+    },
+    {
       "id": "psyc3018",
       "type": "course",
       "code": "PSYC3018",
       "name": "Advanced Research Methods",
       "college": "ANU College of Science and Medicine",
       "school": "School of Medicine and Psychology",
-      "schoolCode": "SOMAP",
+      "schoolCode": "SMP",
       "level": "UGRD",
-      "terms": [
-        "First Semester"
+      "terms": [],
+      "conveners": [
+        "Dr Seamus Donnelly",
+        "Dr Seamus Donnelly"
       ],
-      "conveners": [],
-      "handbookUrl": "https://programsandcourses.anu.edu.au/course/psyc3018",
-      "summary": "In this course, you will build on and consolidate knowledge gained in PSYC2009. The course is geared particularly towards fostering a deep understanding of Analysis of Variance (ANOVA) and Multiple Regression Correlation (MRC) approaches to data analysis.",
+      "handbookUrl": "https://programsandcourses.anu.edu.au/course/PSYC3018",
+      "summary": "In this course, you will build on and consolidate knowledge gained in PSYC2009. The course is geared particularly towards fostering a deep understanding of Analysis of Variance (ANOVA) and Multiple Regression Correlation (MRC) approaches to data analysis. The primary focus of this course is on conceptual understanding of the various topics and the two approaches, with a secondary focus on implementation and use of ANOVA and MRC techniques (in JASP).",
       "tags": [
-        "psychology"
+        "psychology",
+        "science and medicine"
       ],
       "reviewMetrics": [
         "Teaching quality",
         "Workload fairness",
         "Assessment design"
+      ]
+    },
+    {
+      "id": "psyc3020",
+      "type": "course",
+      "code": "PSYC3020",
+      "name": "Health Psychology",
+      "summary": "This course will provide a broad introduction to Health Psychology, as well as an in-depth look at some of the key topics in the discipline. Key aims of the course will be to explore (a) the factors that influence our health, (b) the challenges to people’s health posed by their lifestyles and behaviours (e.g., low physical activity levels, smoking), (c) dominant and emerging theoretical models of health behaviour, and (d) how interventions can be used to help change people’s health-related behaviours. Throughout the course, there will be an emphasis on critically evaluating current understandings, theories, and approaches.",
+      "school": "School of Medicine and Psychology",
+      "schoolCode": "SMP",
+      "college": "ANU College of Science and Medicine",
+      "level": "UGRD",
+      "terms": [],
+      "conveners": [],
+      "handbookUrl": "https://programsandcourses.anu.edu.au/course/PSYC3020",
+      "reviewMetrics": [
+        "Teaching quality",
+        "Workload fairness",
+        "Assessment design"
+      ],
+      "tags": [
+        "science and medicine"
       ]
     },
     {
@@ -35742,16 +47342,15 @@ window.ANREVIEW_DATA = {
       "name": "Psychopathology Across the Lifespan",
       "college": "ANU College of Science and Medicine",
       "school": "School of Medicine and Psychology",
-      "schoolCode": "SOMAP",
+      "schoolCode": "SMP",
       "level": "UGRD",
-      "terms": [
-        "First Semester"
-      ],
+      "terms": [],
       "conveners": [],
-      "handbookUrl": "https://programsandcourses.anu.edu.au/course/psyc3025",
-      "summary": "This course offers an integrative approach to psychological disorders, in which abnormal behaviour and psychopathology are contrasted with \"normal\" functioning. The course uses case examples, video material, and knowledge from both research and clinical perspectives to help bring alive the challenges of diagnosis, assessment, conceptualisation, and treatm...",
+      "handbookUrl": "https://programsandcourses.anu.edu.au/course/PSYC3025",
+      "summary": "This course offers an integrative approach to psychological disorders, in which abnormal behaviour and psychopathology are contrasted with \"normal\" functioning. The course uses case examples, video material, and knowledge from both research and clinical perspectives to help bring alive the challenges of diagnosis, assessment, conceptualisation, and treatment of major psychological disorders across the lifespan. Specific focus is given to clinical descriptions, individual differences, and biological, psychological, social, and cultural influences.",
       "tags": [
-        "psychology"
+        "psychology",
+        "science and medicine"
       ],
       "reviewMetrics": [
         "Teaching quality",
@@ -35766,21 +47365,45 @@ window.ANREVIEW_DATA = {
       "name": "Personality Psychology",
       "college": "ANU College of Science and Medicine",
       "school": "School of Medicine and Psychology",
-      "schoolCode": "SOMAP",
+      "schoolCode": "SMP",
       "level": "UGRD",
-      "terms": [
-        "Second Semester"
+      "terms": [],
+      "conveners": [
+        "Prof Boris Bizumic",
+        "Prof Boris Bizumic"
       ],
-      "conveners": [],
-      "handbookUrl": "https://programsandcourses.anu.edu.au/course/psyc3026",
-      "summary": "This course presents both in-depth and broad coverage of personality psychology. The main aims of the course are to critically review and discuss key theoretical and empirical approaches to personality.",
+      "handbookUrl": "https://programsandcourses.anu.edu.au/course/PSYC3026",
+      "summary": "This course presents both in-depth and broad coverage of personality psychology. The main aims of the course are to critically review and discuss key theoretical and empirical approaches to personality. A special emphasis is placed on developing scholarly appraisals of significant trends in the field.",
       "tags": [
-        "psychology"
+        "psychology",
+        "science and medicine"
       ],
       "reviewMetrics": [
         "Teaching quality",
         "Workload fairness",
         "Assessment design"
+      ]
+    },
+    {
+      "id": "psyc3202",
+      "type": "course",
+      "code": "PSYC3202",
+      "name": "Developmental Psychology",
+      "summary": "How much of our behaviour is learned or innate? How much does the culture in which we are raised affect the person we become? What is the relationship between our childhood behaviours and experiences and our adult self?",
+      "school": "School of Medicine and Psychology",
+      "schoolCode": "SMP",
+      "college": "ANU College of Science and Medicine",
+      "level": "UGRD",
+      "terms": [],
+      "conveners": [],
+      "handbookUrl": "https://programsandcourses.anu.edu.au/course/PSYC3202",
+      "reviewMetrics": [
+        "Teaching quality",
+        "Workload fairness",
+        "Assessment design"
+      ],
+      "tags": [
+        "science and medicine"
       ]
     },
     {
@@ -35978,6 +47601,472 @@ window.ANREVIEW_DATA = {
       ],
       "tags": [
         "regulation"
+      ]
+    },
+    {
+      "id": "scnc2101",
+      "type": "course",
+      "code": "SCNC2101",
+      "name": "Advanced Studies Course",
+      "summary": "This is an Advanced Studies Course (ASC) within the PhB (Hons) - Science degree. Students do multiple ASCs during their degree studies, each specifically designed to provide a strong research focus customised to each student. These courses are taken under the direction of the academic supervisor of a student in the PhB (Hons) - Science degree, but may involve teaching and learning from a very wide variety of sources.",
+      "school": "ANU College of Science and Medicine",
+      "schoolCode": "CSM",
+      "college": "ANU College of Science and Medicine",
+      "level": "UGRD",
+      "terms": [],
+      "conveners": [
+        "Prof Ulrike Mathesius",
+        "Prof Ulrike Mathesius"
+      ],
+      "handbookUrl": "https://programsandcourses.anu.edu.au/course/SCNC2101",
+      "reviewMetrics": [
+        "Teaching quality",
+        "Workload fairness",
+        "Assessment design"
+      ],
+      "tags": [
+        "science and medicine"
+      ]
+    },
+    {
+      "id": "scnc3101",
+      "type": "course",
+      "code": "SCNC3101",
+      "name": "Advanced Studies Course",
+      "summary": "This is an Advanced Studies Course (ASC) within the PhB (Hons) - Science degree. Students do multiple ASCs during their degree studies, each specifically designed to provide a strong research focus customised to each student. These courses are taken under the direction of the academic supervisor of a student in the PhB (Hons) - Science degree, but may involve teaching and learning from a very wide variety of sources.",
+      "school": "ANU College of Science and Medicine",
+      "schoolCode": "CSM",
+      "college": "ANU College of Science and Medicine",
+      "level": "UGRD",
+      "terms": [],
+      "conveners": [
+        "Prof Ulrike Mathesius",
+        "Prof Ulrike Mathesius"
+      ],
+      "handbookUrl": "https://programsandcourses.anu.edu.au/course/SCNC3101",
+      "reviewMetrics": [
+        "Teaching quality",
+        "Workload fairness",
+        "Assessment design"
+      ],
+      "tags": [
+        "science and medicine"
+      ]
+    },
+    {
+      "id": "scnc8000",
+      "type": "course",
+      "code": "SCNC8000",
+      "name": "Science Internship",
+      "summary": "This course provides an opportunity for high-achieving graduate science students to apply and develop professional skills and attributes in an area of their choice. This course offers opportunities to network with professional organisations such as local and national government and industry, and to acquire skills, knowledge and professional attributes which will facilitate future employment and career outcomes. The internship will be under the direct supervision of a workplace professional, with access to an appropriate academic within the ANU Colleges of Science.",
+      "school": "ANU College of Science and Medicine",
+      "schoolCode": "CSM",
+      "college": "ANU College of Science and Medicine",
+      "level": "PGRD",
+      "terms": [],
+      "conveners": [
+        "Dr Matt Thompson",
+        "Dr Matt Thompson"
+      ],
+      "handbookUrl": "https://programsandcourses.anu.edu.au/course/SCNC8000",
+      "reviewMetrics": [
+        "Teaching quality",
+        "Workload fairness",
+        "Assessment design"
+      ],
+      "tags": [
+        "science and medicine"
+      ]
+    },
+    {
+      "id": "scom2031",
+      "type": "course",
+      "code": "SCOM2031",
+      "name": "Science, Risk, and Misinformation",
+      "summary": "Uncertainty is everywhere. We casually, often unknowingly, take risks and accept uncertainty many times a day without a second thought. However, in the sciences, and in science communication , we cannot afford to be blasé.",
+      "school": "Centre for the Public Awareness of Science",
+      "schoolCode": "CPAS",
+      "college": "ANU College of Systems and Society",
+      "level": "UGRD",
+      "terms": [],
+      "conveners": [
+        "Dr Matt Nurse",
+        "Dr Matt Nurse"
+      ],
+      "handbookUrl": "https://programsandcourses.anu.edu.au/course/SCOM2031",
+      "reviewMetrics": [
+        "Teaching quality",
+        "Workload fairness",
+        "Assessment design"
+      ],
+      "tags": [
+        "systems and society"
+      ]
+    },
+    {
+      "id": "scom3003",
+      "type": "course",
+      "code": "SCOM3003",
+      "name": "Science Communication Research Project",
+      "summary": "In this course, academics at the Australian National Centre for the Public Awareness of Science (CPAS) offer supervision for an original research project to motivated third year students undertaking a Science Communication Major (SCOM-MAJ) or Science Communication Minor (SCOM-MIN). Students will devise their own science communication research project in collaboration with the supervisor, or can pursue a topic already offered by the supervisor. The course can be taken as 6 or 12 units: A 6-unit project can take the form of a comprehensive literature review, a content analysis, the creation and evaluation of a science communication tool or artefact, or similar - research projects that do not involve human participants except in some cases a small pilot test.",
+      "school": "Centre for the Public Awareness of Science",
+      "schoolCode": "CPAS",
+      "college": "ANU College of Systems and Society",
+      "level": "UGRD",
+      "terms": [],
+      "conveners": [
+        "Dr Anna-Sophie Jurgens",
+        "Dr Anna-Sophie Jurgens"
+      ],
+      "handbookUrl": "https://programsandcourses.anu.edu.au/course/SCOM3003",
+      "reviewMetrics": [
+        "Teaching quality",
+        "Workload fairness",
+        "Assessment design"
+      ],
+      "tags": [
+        "systems and society"
+      ]
+    },
+    {
+      "id": "scom3029",
+      "type": "course",
+      "code": "SCOM3029",
+      "name": "Science Communication and Planetary Crises",
+      "summary": "The world's challenges appear to be increasingly complex. Environmental, social and economic challenges are now recognised to be highly interdependent, with some commentators describing a state of polycrisis: where many crises - such as climate change, economic inequality, biodiversity loss and food security - all occur at once, and also have highly interconnected and compounding effects. Scientific and other forms of knowledge are critical for effectively addressing these challenges, but doing so is likely to require more than the documentation of disasters, the development of technical solutions, and the setting of deadlines.",
+      "school": "Centre for the Public Awareness of Science",
+      "schoolCode": "CPAS",
+      "college": "ANU College of Systems and Society",
+      "level": "UGRD",
+      "terms": [],
+      "conveners": [
+        "Dr Jasper Montana",
+        "Dr Jasper Montana"
+      ],
+      "handbookUrl": "https://programsandcourses.anu.edu.au/course/SCOM3029",
+      "reviewMetrics": [
+        "Teaching quality",
+        "Workload fairness",
+        "Assessment design"
+      ],
+      "tags": [
+        "systems and society"
+      ]
+    },
+    {
+      "id": "scom3033",
+      "type": "course",
+      "code": "SCOM3033",
+      "name": "Health Promotion Principles and Practice",
+      "summary": "This interdisciplinary course will provide students with an overview of the factors that influence health in society, and how knowledge of these factors is used to create intervention programs to improve public health. Students will learn how public health campaigns are planned, implemented and evaluated and will have the opportunity to engage with and learn from practitioners in the field. Each student will work within a group to identify a particular health issue and then develop, deliver and evaluate a specific health promotion initiative.",
+      "school": "Centre for the Public Awareness of Science",
+      "schoolCode": "CPAS",
+      "college": "ANU College of Systems and Society",
+      "level": "UGRD",
+      "terms": [],
+      "conveners": [
+        "Dr Laura Dawes",
+        "Dr Laura Dawes"
+      ],
+      "handbookUrl": "https://programsandcourses.anu.edu.au/course/SCOM3033",
+      "reviewMetrics": [
+        "Teaching quality",
+        "Workload fairness",
+        "Assessment design"
+      ],
+      "tags": [
+        "systems and society"
+      ]
+    },
+    {
+      "id": "scom6001",
+      "type": "course",
+      "code": "SCOM6001",
+      "name": "Fundamentals of Science Communication and Engagement",
+      "summary": "Science and technology topics are core elements of modern life but which provoke a range of reactions and responses. Understanding why people react to issues they way that they do and, crucially, how to continue to facilitate meaningful conversations to build towards a consensus position is a skill vital to anyone wanting to work in any context involving people, especially science, business and policy. This course will provide students with the ability to identify areas of both contention and consensus and the skills to ensure constructive engagement and collaboration.",
+      "school": "Centre for the Public Awareness of Science",
+      "schoolCode": "CPAS",
+      "college": "ANU College of Systems and Society",
+      "level": "PGRD",
+      "terms": [],
+      "conveners": [
+        "Dr Fabien Medvecky",
+        "Dr Fabien Medvecky"
+      ],
+      "handbookUrl": "https://programsandcourses.anu.edu.au/course/SCOM6001",
+      "reviewMetrics": [
+        "Teaching quality",
+        "Workload fairness",
+        "Assessment design"
+      ],
+      "tags": [
+        "systems and society"
+      ]
+    },
+    {
+      "id": "scom6003",
+      "type": "course",
+      "code": "SCOM6003",
+      "name": "Science in Film and Fiction",
+      "summary": "How real are aliens, and how does it shape the scientific study of astrobiology? What role did Star Trek 's Lt Uhura play in recruiting astronauts to the NASA space program? How might The Day After Tomorrow impact the public understanding of climate change?",
+      "school": "Centre for the Public Awareness of Science",
+      "schoolCode": "CPAS",
+      "college": "ANU College of Systems and Society",
+      "level": "PGRD",
+      "terms": [],
+      "conveners": [
+        "Dr Brad Tucker",
+        "Dr Brad Tucker"
+      ],
+      "handbookUrl": "https://programsandcourses.anu.edu.au/course/SCOM6003",
+      "reviewMetrics": [
+        "Teaching quality",
+        "Workload fairness",
+        "Assessment design"
+      ],
+      "tags": [
+        "systems and society"
+      ]
+    },
+    {
+      "id": "scom6007",
+      "type": "course",
+      "code": "SCOM6007",
+      "name": "From Creativity to Impact: Science Communication Project Design",
+      "summary": "This course is about creating your own science communication passion project! Using design thinking and inspiration from diverse guest presenters, you’ll develop a project idea, pilot it in a supportive real-world context, then report on your pilot. Lectures and interactive workshops will share approaches to help you get creative, find your purpose, discover diverse methods, create effective partnerships, source funding (if required), and manage and evaluate your project.",
+      "school": "Centre for the Public Awareness of Science",
+      "schoolCode": "CPAS",
+      "college": "ANU College of Systems and Society",
+      "level": "PGRD",
+      "terms": [],
+      "conveners": [],
+      "handbookUrl": "https://programsandcourses.anu.edu.au/course/SCOM6007",
+      "reviewMetrics": [
+        "Teaching quality",
+        "Workload fairness",
+        "Assessment design"
+      ],
+      "tags": [
+        "systems and society"
+      ]
+    },
+    {
+      "id": "scom6012",
+      "type": "course",
+      "code": "SCOM6012",
+      "name": "Communicating Science Online",
+      "summary": "The internet and social media sit at the heart of the modern communication of scientific information. But are you using the web in the best possible ways to communicate? This intensive course focuses on providing you with the skills and knowledge so you can understand - and excel at - communicating science online.",
+      "school": "Centre for the Public Awareness of Science",
+      "schoolCode": "CPAS",
+      "college": "ANU College of Systems and Society",
+      "level": "PGRD",
+      "terms": [],
+      "conveners": [
+        "Dr Will Grant",
+        "Dr Will Grant"
+      ],
+      "handbookUrl": "https://programsandcourses.anu.edu.au/course/SCOM6012",
+      "reviewMetrics": [
+        "Teaching quality",
+        "Workload fairness",
+        "Assessment design"
+      ],
+      "tags": [
+        "systems and society"
+      ]
+    },
+    {
+      "id": "scom6015",
+      "type": "course",
+      "code": "SCOM6015",
+      "name": "Public Speaking About Science",
+      "summary": "This is a practical course which aims to develop public speaking skills. The emphasis is on presenting science live to a general audience. Students learn to adapt presentation skills for different audiences, different aims, diverse scientific content and various time limits.",
+      "school": "Centre for the Public Awareness of Science",
+      "schoolCode": "CPAS",
+      "college": "ANU College of Systems and Society",
+      "level": "PGRD",
+      "terms": [],
+      "conveners": [
+        "Dr Will Grant",
+        "Dr Will Grant"
+      ],
+      "handbookUrl": "https://programsandcourses.anu.edu.au/course/SCOM6015",
+      "reviewMetrics": [
+        "Teaching quality",
+        "Workload fairness",
+        "Assessment design"
+      ],
+      "tags": [
+        "systems and society"
+      ]
+    },
+    {
+      "id": "scom6016",
+      "type": "course",
+      "code": "SCOM6016",
+      "name": "Science, Journalism and Society",
+      "summary": "For many people, the media is the only way they interact with any kind of scientific information. However the way science is presented by media outlets can influence the way society perceives issues, and consequently how they respond to them. This course examines the roles and relationships between science, journalists and society and the factors which influence them.",
+      "school": "Centre for the Public Awareness of Science",
+      "schoolCode": "CPAS",
+      "college": "ANU College of Systems and Society",
+      "level": "PGRD",
+      "terms": [],
+      "conveners": [
+        "Dr Faranak Hardcastle",
+        "Dr Faranak Hardcastle"
+      ],
+      "handbookUrl": "https://programsandcourses.anu.edu.au/course/SCOM6016",
+      "reviewMetrics": [
+        "Teaching quality",
+        "Workload fairness",
+        "Assessment design"
+      ],
+      "tags": [
+        "systems and society"
+      ]
+    },
+    {
+      "id": "scom6027",
+      "type": "course",
+      "code": "SCOM6027",
+      "name": "Science Politics",
+      "summary": "The interface between evidence and political decision making is of fundamental importance to modern society. Yet while our techniques of enquiry have allowed us to learn ever more about the world - and our collective ability to enact change has become ever more powerful - the relationship between evidence and action has never been entirely smooth. Indeed, things may even be getting worse.",
+      "school": "Centre for the Public Awareness of Science",
+      "schoolCode": "CPAS",
+      "college": "ANU College of Systems and Society",
+      "level": "PGRD",
+      "terms": [],
+      "conveners": [
+        "Dr Dan Santos",
+        "Dr Dan Santos"
+      ],
+      "handbookUrl": "https://programsandcourses.anu.edu.au/course/SCOM6027",
+      "reviewMetrics": [
+        "Teaching quality",
+        "Workload fairness",
+        "Assessment design"
+      ],
+      "tags": [
+        "systems and society"
+      ]
+    },
+    {
+      "id": "scom6029",
+      "type": "course",
+      "code": "SCOM6029",
+      "name": "Science Communication and Planetary Crises",
+      "summary": "The world's challenges appear to be increasingly complex. Environmental, social and economic challenges are now recognised to be highly interdependent, with some commentators describing a state of polycrisis: where many crises - such as climate change, economic inequality, biodiversity loss and food security - all occur at once, and also have highly interconnected and compounding effects. Scientific and other forms of knowledge are critical for effectively addressing these challenges, but doing so is likely to require more than the documentation of disasters, the development of technical solutions, and the setting of deadlines.",
+      "school": "Centre for the Public Awareness of Science",
+      "schoolCode": "CPAS",
+      "college": "ANU College of Systems and Society",
+      "level": "PGRD",
+      "terms": [],
+      "conveners": [
+        "Dr Jasper Montana",
+        "Dr Jasper Montana"
+      ],
+      "handbookUrl": "https://programsandcourses.anu.edu.au/course/SCOM6029",
+      "reviewMetrics": [
+        "Teaching quality",
+        "Workload fairness",
+        "Assessment design"
+      ],
+      "tags": [
+        "systems and society"
+      ]
+    },
+    {
+      "id": "scom6031",
+      "type": "course",
+      "code": "SCOM6031",
+      "name": "Science, Risk, and Misinformation",
+      "summary": "Uncertainty is everywhere. We casually, often unknowingly, take risks and accept uncertainty many times a day without a second thought. However, in the sciences, and in science communication , we cannot afford to be blasé.",
+      "school": "Centre for the Public Awareness of Science",
+      "schoolCode": "CPAS",
+      "college": "ANU College of Systems and Society",
+      "level": "PGRD",
+      "terms": [],
+      "conveners": [
+        "Dr Matt Nurse",
+        "Dr Matt Nurse"
+      ],
+      "handbookUrl": "https://programsandcourses.anu.edu.au/course/SCOM6031",
+      "reviewMetrics": [
+        "Teaching quality",
+        "Workload fairness",
+        "Assessment design"
+      ],
+      "tags": [
+        "systems and society"
+      ]
+    },
+    {
+      "id": "scom6032",
+      "type": "course",
+      "code": "SCOM6032",
+      "name": "Making Modern Science",
+      "summary": "Modern science reaches way beyond laboratories and scholarly institutions. It is part of an integrated world where scientists routinely explain their work to non-scientists – to secure funding, or drive policy, or build a career. Scientists communicate beyond their scientific colleagues to promote innovations, to improve how we live, or secure justice.",
+      "school": "Centre for the Public Awareness of Science",
+      "schoolCode": "CPAS",
+      "college": "ANU College of Systems and Society",
+      "level": "PGRD",
+      "terms": [],
+      "conveners": [],
+      "handbookUrl": "https://programsandcourses.anu.edu.au/course/SCOM6032",
+      "reviewMetrics": [
+        "Teaching quality",
+        "Workload fairness",
+        "Assessment design"
+      ],
+      "tags": [
+        "systems and society"
+      ]
+    },
+    {
+      "id": "scom6501",
+      "type": "course",
+      "code": "SCOM6501",
+      "name": "Science Communication Strategy and Leadership",
+      "summary": "This course focuses on strategically communicating science to achieve organisational outcomes and to achieve measurable impact. It provides participants with a thorough and practical understanding of the process used in leading the development of a communication strategy, including the development of a strategic framework and accompanying action plan that allocates resources, responsibilities and timeframes. It has a strong emphasis on relating theory from a range of disciplines to current industry best practice in implementing a strategic approach to planning communication activities.",
+      "school": "Centre for the Public Awareness of Science",
+      "schoolCode": "CPAS",
+      "college": "ANU College of Systems and Society",
+      "level": "PGRD",
+      "terms": [],
+      "conveners": [],
+      "handbookUrl": "https://programsandcourses.anu.edu.au/course/SCOM6501",
+      "reviewMetrics": [
+        "Teaching quality",
+        "Workload fairness",
+        "Assessment design"
+      ],
+      "tags": [
+        "systems and society"
+      ]
+    },
+    {
+      "id": "scom8014",
+      "type": "course",
+      "code": "SCOM8014",
+      "name": "Communicating Science with the Public",
+      "summary": "This course dives into the history, theory and practice of science communication at an advanced level. It covers contemporary competing theories in science communication, the historical roots of the discipline, and a deep understanding of science communication professional practice. It is targeted at students specialising in science communication and provides a solid foundation for further studies in science communication, touching on multiple communication mediums, considerations of different aims and audiences, and some specifics of communicating particular kinds of scientific information.",
+      "school": "Centre for the Public Awareness of Science",
+      "schoolCode": "CPAS",
+      "college": "ANU College of Systems and Society",
+      "level": "PGRD",
+      "terms": [],
+      "conveners": [
+        "Dr Fabien Medvecky",
+        "Dr Fabien Medvecky"
+      ],
+      "handbookUrl": "https://programsandcourses.anu.edu.au/course/SCOM8014",
+      "reviewMetrics": [
+        "Teaching quality",
+        "Workload fairness",
+        "Assessment design"
+      ],
+      "tags": [
+        "systems and society"
       ]
     },
     {
