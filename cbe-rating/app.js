@@ -30,6 +30,7 @@ const elements = {
   coursesTab: document.getElementById("courses-tab"),
   professorsTab: document.getElementById("professors-tab"),
   searchInput: document.getElementById("search-input"),
+  contextFilterLabel: document.getElementById("context-filter-label"),
   schoolFilter: document.getElementById("school-filter"),
   levelFilter: document.getElementById("level-filter"),
   sortFilter: document.getElementById("sort-filter"),
@@ -162,6 +163,14 @@ function filteredOnlyCurrentType() {
   return filteredItems().filter((item) => !state.type || item.type === state.type);
 }
 
+function getCoursePrefix(item) {
+  if (item.type !== "course" || !item.code) {
+    return "";
+  }
+  const match = `${item.code}`.toUpperCase().match(/^[A-Z]+/);
+  return match ? match[0] : "";
+}
+
 function syncRoute() {
   if (state.view === "detail" && state.selectedId) {
     window.history.replaceState(null, "", `#item=${encodeURIComponent(state.selectedId)}`);
@@ -292,23 +301,27 @@ async function fetchSharedReviews() {
 }
 
 function populateSchoolFilter() {
-  const schools = [...new Set(
+  const isCourseMode = state.type === "course";
+  const optionLabel = isCourseMode ? "Course code letters" : "School";
+  const baseLabel = isCourseMode ? "All course code letters" : "All schools";
+  const options = [...new Set(
     allItems()
       .filter((item) => state.college === "all" || getCollegeForItem(item) === state.college)
       .filter((item) => !state.type || item.type === state.type)
       .filter((item) => state.level === "all" || !item.level || item.level === state.level)
-      .map((item) => item.school)
+      .map((item) => (isCourseMode ? getCoursePrefix(item) : item.school))
       .filter(Boolean)
   )].sort((a, b) => a.localeCompare(b));
+  elements.contextFilterLabel.textContent = optionLabel;
   elements.schoolFilter.innerHTML = "";
   const base = document.createElement("option");
   base.value = "all";
-  base.textContent = "All schools";
+  base.textContent = baseLabel;
   elements.schoolFilter.appendChild(base);
-  schools.forEach((school) => {
+  options.forEach((optionValue) => {
     const option = document.createElement("option");
-    option.value = school;
-    option.textContent = school;
+    option.value = optionValue;
+    option.textContent = optionValue;
     elements.schoolFilter.appendChild(option);
   });
   if (![...elements.schoolFilter.options].some((option) => option.value === state.school)) {
@@ -332,8 +345,14 @@ function filteredItems() {
       if (state.type && item.type !== state.type) {
         return false;
       }
-      if (state.school !== "all" && item.school !== state.school) {
-        return false;
+      if (state.school !== "all") {
+        if (item.type === "course") {
+          if (getCoursePrefix(item) !== state.school) {
+            return false;
+          }
+        } else if (item.school !== state.school) {
+          return false;
+        }
       }
       if (state.level !== "all" && item.level && item.level !== state.level) {
         return false;
