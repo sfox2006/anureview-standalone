@@ -20,7 +20,7 @@ BUNDLED_DATA_PATH = WORKSPACE_DIR / "cbe-rating" / "data.js"
 HOST = "0.0.0.0"
 PORT = int(os.environ.get("PORT", "8000"))
 CACHE_TTL = timedelta(hours=12)
-CACHE_VERSION = 8
+CACHE_VERSION = 9
 REQUEST_HEADERS = {
     "User-Agent": "ANReview Local Sync/1.0 (+http://127.0.0.1:8000/cbe-rating/)",
 }
@@ -76,6 +76,17 @@ COURSE_CATALOG_SOURCES = [
     "https://programsandcourses.anu.edu.au/program/BPLSC",
     "https://programsandcourses.anu.edu.au/major/POLS-MAJ",
     "https://programsandcourses.anu.edu.au/major/IREL-MAJ",
+    "https://programsandcourses.anu.edu.au/program/BARTS",
+    "https://programsandcourses.anu.edu.au/major/HIST-MAJ",
+    "https://programsandcourses.anu.edu.au/major/ENGL-MAJ",
+    "https://programsandcourses.anu.edu.au/major/PHIL-MAJ",
+    "https://programsandcourses.anu.edu.au/major/SOCY-MAJ",
+    "https://programsandcourses.anu.edu.au/major/ANTH-MAJ",
+    "https://programsandcourses.anu.edu.au/major/CRIM-MAJ",
+    "https://programsandcourses.anu.edu.au/major/DEST-MAJ",
+    "https://programsandcourses.anu.edu.au/major/PPOL-MAJ",
+    "https://programsandcourses.anu.edu.au/major/LING-MAJ",
+    "https://programsandcourses.anu.edu.au/major/DEMO-MAJ",
 ]
 
 LAW_CARD_RE = re.compile(

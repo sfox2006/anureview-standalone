@@ -1,5 +1,5 @@
 window.ANREVIEW_DATA = {
-  generatedAt: "2026-04-24T13:43:57",
+  generatedAt: "2026-04-24T13:58:46",
   sources: [
     { label: "ANU Programs and Courses: Bachelor of Economics", url: "https://programsandcourses.anu.edu.au/program/becon" },
     { label: "ANU Programs and Courses: Econometrics Minor", url: "https://programsandcourses.anu.edu.au/minor/EMET-MIN" },
@@ -36,7 +36,18 @@ window.ANREVIEW_DATA = {
     { label: "ANU Programs and Courses: Political Science Major", url: "https://programsandcourses.anu.edu.au/major/POLS-MAJ" },
     { label: "ANU Programs and Courses: International Relations Major", url: "https://programsandcourses.anu.edu.au/major/IREL-MAJ" },
     { label: "ANU School of Politics & International Relations: Academics", url: "https://politicsir.cass.anu.edu.au/people/academics" },
-    { label: "ANU CASS People Directory", url: "https://cass.anu.edu.au/research/people" }
+    { label: "ANU CASS People Directory", url: "https://cass.anu.edu.au/research/people" },
+    { label: "ANU Programs and Courses: Bachelor of Arts", url: "https://programsandcourses.anu.edu.au/program/BARTS" },
+    { label: "ANU Programs and Courses: History Major", url: "https://programsandcourses.anu.edu.au/major/HIST-MAJ" },
+    { label: "ANU Programs and Courses: English Major", url: "https://programsandcourses.anu.edu.au/major/ENGL-MAJ" },
+    { label: "ANU Programs and Courses: Philosophy Major", url: "https://programsandcourses.anu.edu.au/major/PHIL-MAJ" },
+    { label: "ANU Programs and Courses: Sociology Major", url: "https://programsandcourses.anu.edu.au/major/SOCY-MAJ" },
+    { label: "ANU Programs and Courses: Anthropology Major", url: "https://programsandcourses.anu.edu.au/major/ANTH-MAJ" },
+    { label: "ANU Programs and Courses: Criminology Major", url: "https://programsandcourses.anu.edu.au/major/CRIM-MAJ" },
+    { label: "ANU Programs and Courses: Development Studies Major", url: "https://programsandcourses.anu.edu.au/major/DEST-MAJ" },
+    { label: "ANU Programs and Courses: Public Policy Major", url: "https://programsandcourses.anu.edu.au/major/PPOL-MAJ" },
+    { label: "ANU Programs and Courses: Linguistics Major", url: "https://programsandcourses.anu.edu.au/major/LING-MAJ" },
+    { label: "ANU Programs and Courses: Demography Major", url: "https://programsandcourses.anu.edu.au/major/DEMO-MAJ" }
   ],
   academics: [
   {
@@ -8866,17 +8877,17 @@ window.ANREVIEW_DATA = {
     "id": "elisa-decourcy",
     "type": "academic",
     "name": "Dr Elisa deCourcy",
-    "school": "Humanities Research Centre",
+    "school": "Centre for Art History & Art Theory",
     "schoolCode": "CASS",
     "college": "CASS",
-    "position": "HRC Adjunct Fellow, Humanities Research Centre",
-    "focus": "Humanities Research Centre",
+    "position": "Honorary Lecturer, Centre for Art History & Art Theory",
+    "focus": "Centre for Art History & Art Theory",
     "email": "Elisa.DeCourcy@anu.edu.au",
-    "office": "Humanities Research Centre",
+    "office": "Centre for Art History & Art Theory",
     "profileUrl": "https://researchportalplus.anu.edu.au/en/persons/elisa-decourcy",
     "tags": [
       "cass",
-      "humanities research centre"
+      "centre for art history & art the"
     ],
     "linkedCourses": [],
     "reviewMetrics": [
@@ -13287,6 +13298,523 @@ window.ANREVIEW_DATA = {
     ]
   },
   {
+    "id": "ANIP3005",
+    "type": "course",
+    "code": "ANIP3005",
+    "name": "Australian National Internships Program B",
+    "college": "ANU College of Arts and Social Sciences",
+    "school": "Australian National Internships Program",
+    "schoolCode": "ANIP",
+    "level": "UGRD",
+    "terms": [
+      "First Semester",
+      "Second Semester"
+    ],
+    "conveners": [],
+    "handbookUrl": "https://programsandcourses.anu.edu.au/course/anip3005",
+    "summary": "The Australian National Internships Program provides students from any discipline with the opportunity to undertake a significant research project within a work place. Academic credit will be awarded towards the students' degrees.",
+    "tags": [
+      "law",
+      "policy studies",
+      "political sciences",
+      "commerce"
+    ],
+    "reviewMetrics": [
+      "Teaching quality",
+      "Workload fairness",
+      "Assessment design"
+    ]
+  },
+  {
+    "id": "ANTH1002",
+    "type": "course",
+    "code": "ANTH1002",
+    "name": "Culture and Human Diversity: Introducing Anthropology",
+    "college": "ANU College of Arts and Social Sciences",
+    "school": "School of Archaeology and Anthropology",
+    "schoolCode": "SOAAA",
+    "level": "UGRD",
+    "terms": [
+      "First Semester"
+    ],
+    "conveners": [],
+    "handbookUrl": "https://programsandcourses.anu.edu.au/course/anth1002",
+    "summary": "The three disciplines of Anthropology, Archaeology and Biological Anthropology originally stem from a common quest to understand human beings as embodied subjects of culture and evolution. Each of the disciplines shares a core concern with cultural identity, difference and change across time and space, in both material and nonmaterial worlds.",
+    "tags": [
+      "anthropology",
+      "archaeology",
+      "biological anthropology"
+    ],
+    "reviewMetrics": [
+      "Teaching quality",
+      "Workload fairness",
+      "Assessment design"
+    ]
+  },
+  {
+    "id": "ANTH1003",
+    "type": "course",
+    "code": "ANTH1003",
+    "name": "Anthropology: Critical Foundations",
+    "college": "ANU College of Arts and Social Sciences",
+    "school": "School of Archaeology and Anthropology",
+    "schoolCode": "SOAAA",
+    "level": "UGRD",
+    "terms": [
+      "Second Semester"
+    ],
+    "conveners": [],
+    "handbookUrl": "https://programsandcourses.anu.edu.au/course/anth1003",
+    "summary": "This course introduces students to key concepts and debates in the discipline of anthropology, ranging from ritual, totems, kinship, and personhood to the nature/culture distinction and postcolonial critique. The course takes a multi-modal approach, familiarising students with some of the discipline's classic texts, films and sites of ethnographic engagem...",
+    "tags": [
+      "anthropology",
+      "archaeology",
+      "development studies",
+      "australian indigenous studies"
+    ],
+    "reviewMetrics": [
+      "Teaching quality",
+      "Workload fairness",
+      "Assessment design"
+    ]
+  },
+  {
+    "id": "ANTH2005",
+    "type": "course",
+    "code": "ANTH2005",
+    "name": "Traditional Australian Indigenous Cultures, Societies and Environment",
+    "college": "ANU College of Arts and Social Sciences",
+    "school": "School of Archaeology and Anthropology",
+    "schoolCode": "SOAAA",
+    "level": "UGRD",
+    "terms": [
+      "Second Semester"
+    ],
+    "conveners": [],
+    "handbookUrl": "https://programsandcourses.anu.edu.au/course/anth2005",
+    "summary": "Pre-invasion Indigenous cultures have long been seen as the social, economic and ecological prototype of the hunting and gathering way of life. The aim of this course is to convey a basic anthropological understanding of the customary or ‘traditional’ practices and beliefs as they were at the threshold of colonisation and to critically engage with represe...",
+    "tags": [
+      "anthropology",
+      "australian indigenous studies"
+    ],
+    "reviewMetrics": [
+      "Teaching quality",
+      "Workload fairness",
+      "Assessment design"
+    ]
+  },
+  {
+    "id": "ANTH2009",
+    "type": "course",
+    "code": "ANTH2009",
+    "name": "Culture and Development",
+    "college": "ANU College of Arts and Social Sciences",
+    "school": "School of Archaeology and Anthropology",
+    "schoolCode": "SOAAA",
+    "level": "UGRD",
+    "terms": [
+      "First Semester"
+    ],
+    "conveners": [],
+    "handbookUrl": "https://programsandcourses.anu.edu.au/course/anth2009",
+    "summary": "This course examines mainstream and alternative concepts of development by focusing on development issues and case studies located in so-called Third World countries. It examines the historical background to development ideas and practices, and the cultural presuppositions and assumptions on which they are consequently based, as well as the ways in which...",
+    "tags": [
+      "anthropology",
+      "development studies",
+      "environmental studies",
+      "economic history"
+    ],
+    "reviewMetrics": [
+      "Teaching quality",
+      "Workload fairness",
+      "Assessment design"
+    ]
+  },
+  {
+    "id": "ANTH2017",
+    "type": "course",
+    "code": "ANTH2017",
+    "name": "Culture, Social Justice and Aboriginal Society Today",
+    "college": "ANU College of Arts and Social Sciences",
+    "school": "School of Archaeology and Anthropology",
+    "schoolCode": "SOAAA",
+    "level": "UGRD",
+    "terms": [
+      "First Semester"
+    ],
+    "conveners": [],
+    "handbookUrl": "https://programsandcourses.anu.edu.au/course/anth2017",
+    "summary": "This course explores some of the structures in place that propel Australian settler-colonialism by analysing the terrains where diverse and complex surviving Indigenous social orders encounter the state in many of its guises. We will experiment with a range of analytical approaches that deconstruct misrepresentations and advance Indigenous perspectives, f...",
+    "tags": [
+      "anthropology"
+    ],
+    "reviewMetrics": [
+      "Teaching quality",
+      "Workload fairness",
+      "Assessment design"
+    ]
+  },
+  {
+    "id": "ANTH2020",
+    "type": "course",
+    "code": "ANTH2020",
+    "name": "Cultures of Innovation: Anthropology of Science and Technology",
+    "college": "ANU College of Arts and Social Sciences",
+    "school": "School of Archaeology and Anthropology",
+    "schoolCode": "SOAAA",
+    "level": "UGRD",
+    "terms": [
+      "See ANU course page"
+    ],
+    "conveners": [],
+    "handbookUrl": "https://programsandcourses.anu.edu.au/course/anth2020",
+    "summary": "Whether seen as boosting productivity and health, hazarding the destruction of social relations, or quietly constituting the most mundane contours of our lives; science and technology exert inordinate force in shaping the social and material worlds we inhabit and our intimate senses of ourselves. This course interrogates this state of affairs by tracking...",
+    "tags": [
+      "development studies",
+      "environmental studies",
+      "sociology"
+    ],
+    "reviewMetrics": [
+      "Teaching quality",
+      "Workload fairness",
+      "Assessment design"
+    ]
+  },
+  {
+    "id": "ANTH2025",
+    "type": "course",
+    "code": "ANTH2025",
+    "name": "Gender in Cross-Cultural Perspective",
+    "college": "ANU College of Arts and Social Sciences",
+    "school": "School of Archaeology and Anthropology",
+    "schoolCode": "SOAAA",
+    "level": "UGRD",
+    "terms": [
+      "Second Semester"
+    ],
+    "conveners": [],
+    "handbookUrl": "https://programsandcourses.anu.edu.au/course/anth2025",
+    "summary": "Anthropology is uniquely situated to look into concepts and theories of gender, sex and sexuality through its concern with the culturally-specific character of human categories and practices. This course explores gender, sex and sexuality across a range of cultural settings seeking, in the process, to question most of what we - including most theorists of...",
+    "tags": [
+      "anthropology",
+      "gender studies"
+    ],
+    "reviewMetrics": [
+      "Teaching quality",
+      "Workload fairness",
+      "Assessment design"
+    ]
+  },
+  {
+    "id": "ANTH2026",
+    "type": "course",
+    "code": "ANTH2026",
+    "name": "Medicine, Healing and the Body",
+    "college": "ANU College of Arts and Social Sciences",
+    "school": "School of Archaeology and Anthropology",
+    "schoolCode": "SOAAA",
+    "level": "UGRD",
+    "terms": [
+      "See ANU course page"
+    ],
+    "conveners": [],
+    "handbookUrl": "https://programsandcourses.anu.edu.au/course/anth2026",
+    "summary": "The course provides an introduction to the field of medical anthropology. It includes the application of different forms of social and cultural analysis to the study of health, illness, and healing.",
+    "tags": [
+      "anthropology",
+      "philosophy",
+      "sociology",
+      "medicine"
+    ],
+    "reviewMetrics": [
+      "Teaching quality",
+      "Workload fairness",
+      "Assessment design"
+    ]
+  },
+  {
+    "id": "ANTH2027",
+    "type": "course",
+    "code": "ANTH2027",
+    "name": "EthnoLab 1: Anthropological Methods",
+    "college": "ANU College of Arts and Social Sciences",
+    "school": "School of Archaeology and Anthropology",
+    "schoolCode": "SOAAA",
+    "level": "UGRD",
+    "terms": [
+      "Second Semester"
+    ],
+    "conveners": [],
+    "handbookUrl": "https://programsandcourses.anu.edu.au/course/anth2027",
+    "summary": "The ANU is a portal into the wider world—as societies become ever more interconnected, it is vital to understand the complex cultural dynamics that grip our lives at home and around the globe. Anthropology offers a set of methodological tools and theoretically informed questions to understand how culture is represented and made meaningful in the world today.",
+    "tags": [
+      "anthropology",
+      "development studies",
+      "environmental studies",
+      "policy studies"
+    ],
+    "reviewMetrics": [
+      "Teaching quality",
+      "Workload fairness",
+      "Assessment design"
+    ]
+  },
+  {
+    "id": "ANTH2122",
+    "type": "course",
+    "code": "ANTH2122",
+    "name": "Economic Anthropology: cross-cultural alternatives to capitalism",
+    "college": "ANU College of Arts and Social Sciences",
+    "school": "School of Archaeology and Anthropology",
+    "schoolCode": "SOAAA",
+    "level": "UGRD",
+    "terms": [
+      "See ANU course page"
+    ],
+    "conveners": [],
+    "handbookUrl": "https://programsandcourses.anu.edu.au/course/anth2122",
+    "summary": "We tend to think of economic matters as hard realities, they are after all the systems by which sustenance, production, and wealth are organised in our lives. Yet these material foundations of life have been, and are, radically differently organised in different cultural contexts from the deep past to contemporary times.",
+    "tags": [
+      "anthropology",
+      "economics"
+    ],
+    "reviewMetrics": [
+      "Teaching quality",
+      "Workload fairness",
+      "Assessment design"
+    ]
+  },
+  {
+    "id": "ANTH2129",
+    "type": "course",
+    "code": "ANTH2129",
+    "name": "Crossing Borders: Migration, Displacement and Im/mobility",
+    "college": "ANU College of Arts and Social Sciences",
+    "school": "School of Archaeology and Anthropology",
+    "schoolCode": "SOAAA",
+    "level": "UGRD",
+    "terms": [
+      "First Semester"
+    ],
+    "conveners": [],
+    "handbookUrl": "https://programsandcourses.anu.edu.au/course/anth2129",
+    "summary": "Introducing the Anthropology of Migration. Crossing Borders covers the core theories and key case studies students will need to make sense of the complex terrain of contemporary migration, both voluntary and forced.",
+    "tags": [
+      "anthropology"
+    ],
+    "reviewMetrics": [
+      "Teaching quality",
+      "Workload fairness",
+      "Assessment design"
+    ]
+  },
+  {
+    "id": "ANTH2130",
+    "type": "course",
+    "code": "ANTH2130",
+    "name": "Violence and Terror",
+    "college": "ANU College of Arts and Social Sciences",
+    "school": "School of Archaeology and Anthropology",
+    "schoolCode": "SOAAA",
+    "level": "UGRD",
+    "terms": [
+      "First Semester"
+    ],
+    "conveners": [],
+    "handbookUrl": "https://programsandcourses.anu.edu.au/course/anth2130",
+    "summary": "Anthropological perspectives on violence consider how social life is shaped through different forms of engagement with force and intimidation, and foreground concerns of meaning, representation and symbolism—understanding violence as a form of socio-cultural expression as much as instrument of coercion. In this course, we will be approaching violence as u...",
+    "tags": [
+      "anthropology"
+    ],
+    "reviewMetrics": [
+      "Teaching quality",
+      "Workload fairness",
+      "Assessment design"
+    ]
+  },
+  {
+    "id": "ANTH3010",
+    "type": "course",
+    "code": "ANTH3010",
+    "name": "Contemporary Anthropological Theory: Special Topics",
+    "college": "ANU College of Arts and Social Sciences",
+    "school": "School of Archaeology and Anthropology",
+    "schoolCode": "SOAAA",
+    "level": "UGRD",
+    "terms": [
+      "Second Semester"
+    ],
+    "conveners": [],
+    "handbookUrl": "https://programsandcourses.anu.edu.au/course/anth3010",
+    "summary": "This seminar is part of the “special topics” curriculum and offers an in-depth exploration of specific themes and research methodologies aligned with the expertise of the faculty member leading the course (subject to regular rotation). Each offering of this seminar will focus on a different ethnographic and theoretical problem at the forefront of the disc...",
+    "tags": [
+      "anthropology"
+    ],
+    "reviewMetrics": [
+      "Teaching quality",
+      "Workload fairness",
+      "Assessment design"
+    ]
+  },
+  {
+    "id": "ANTH3018",
+    "type": "course",
+    "code": "ANTH3018",
+    "name": "Unfreedoms: Anthropological Explorations of Oppression, Tyranny and Domination",
+    "college": "ANU College of Arts and Social Sciences",
+    "school": "School of Archaeology and Anthropology",
+    "schoolCode": "SOAAA",
+    "level": "UGRD",
+    "terms": [
+      "First Semester"
+    ],
+    "conveners": [],
+    "handbookUrl": "https://programsandcourses.anu.edu.au/course/anth3018",
+    "summary": "Freedom occupies a key place in modern theory and public discourse. The capacity to make choices is often described as the most fundamental feature of humanity: In many contemporary social theory texts free will - the ability to become an agentive subject and choose between different courses of action - is what defines the human condition.",
+    "tags": [
+      "anthropology",
+      "development studies",
+      "political sciences"
+    ],
+    "reviewMetrics": [
+      "Teaching quality",
+      "Workload fairness",
+      "Assessment design"
+    ]
+  },
+  {
+    "id": "ANTH3059",
+    "type": "course",
+    "code": "ANTH3059",
+    "name": "EthnoLab 2: Applied Anthropology",
+    "college": "ANU College of Arts and Social Sciences",
+    "school": "School of Archaeology and Anthropology",
+    "schoolCode": "SOAAA",
+    "level": "UGRD",
+    "terms": [
+      "First Semester"
+    ],
+    "conveners": [],
+    "handbookUrl": "https://programsandcourses.anu.edu.au/course/anth3059",
+    "summary": "This class offers hands-on experience in designing and executing a research project. Over one semester, students will learn how to identify a research problem, conduct ethnographic and archival research, and present their findings.",
+    "tags": [
+      "anthropology",
+      "cultural studies",
+      "development studies",
+      "policy studies"
+    ],
+    "reviewMetrics": [
+      "Teaching quality",
+      "Workload fairness",
+      "Assessment design"
+    ]
+  },
+  {
+    "id": "ARCH2004",
+    "type": "course",
+    "code": "ARCH2004",
+    "name": "Australian Archaeology",
+    "college": "ANU College of Arts and Social Sciences",
+    "school": "School of Archaeology and Anthropology",
+    "schoolCode": "SOAAA",
+    "level": "UGRD",
+    "terms": [
+      "First Semester"
+    ],
+    "conveners": [],
+    "handbookUrl": "https://programsandcourses.anu.edu.au/course/arch2004",
+    "summary": "Australia has a unique and important human history. During a 50,000 year period geographically varied cultural systems formed across the continent, adjusting in response to social and environmental circumstances.",
+    "tags": [
+      "archaeology",
+      "australian indigenous studies"
+    ],
+    "reviewMetrics": [
+      "Teaching quality",
+      "Workload fairness",
+      "Assessment design"
+    ]
+  },
+  {
+    "id": "ARCH2037",
+    "type": "course",
+    "code": "ARCH2037",
+    "name": "From Empire to Invasions: the Archaeology of Europe from the Romans to the Vikings",
+    "college": "ANU College of Arts and Social Sciences",
+    "school": "School of Archaeology and Anthropology",
+    "schoolCode": "SOAAA",
+    "level": "UGRD",
+    "terms": [
+      "First Semester"
+    ],
+    "conveners": [],
+    "handbookUrl": "https://programsandcourses.anu.edu.au/course/arch2037",
+    "summary": "The first millennium CE was a turbulent period in western Eurasia: Empires formed and crumbled, new social formations emerged, new technologies were invented, and the seeds of the modern world were planted. In this course, students will explore the shifting social, political and ideological conformations of first millennium CE Europe through the lens of t...",
+    "tags": [
+      "archaeology",
+      "classics and ancient history",
+      "history",
+      "european studies"
+    ],
+    "reviewMetrics": [
+      "Teaching quality",
+      "Workload fairness",
+      "Assessment design"
+    ]
+  },
+  {
+    "id": "ARCH2055",
+    "type": "course",
+    "code": "ARCH2055",
+    "name": "Archaeological Field Schools and Fieldwork Practice",
+    "college": "ANU College of Arts and Social Sciences",
+    "school": "School of Archaeology and Anthropology",
+    "schoolCode": "SOAAA",
+    "level": "UGRD",
+    "terms": [
+      "Spring Session"
+    ],
+    "conveners": [],
+    "handbookUrl": "https://programsandcourses.anu.edu.au/course/arch2055",
+    "summary": "This course develops practical skills in archaeological fieldwork on field schools administered or co-administered by faculty members of the School of Archaeology and Anthropology. The participants learn modern techniques in archaeological excavation, survey, building recording and applications in cultural heritage management.",
+    "tags": [
+      "archaeology",
+      "classics and ancient history",
+      "history"
+    ],
+    "reviewMetrics": [
+      "Teaching quality",
+      "Workload fairness",
+      "Assessment design"
+    ]
+  },
+  {
+    "id": "ARCH2058",
+    "type": "course",
+    "code": "ARCH2058",
+    "name": "European Prehistory from Cultivation to the Celts",
+    "college": "ANU College of Arts and Social Sciences",
+    "school": "School of Archaeology and Anthropology",
+    "schoolCode": "SOAAA",
+    "level": "UGRD",
+    "terms": [
+      "See ANU course page"
+    ],
+    "conveners": [],
+    "handbookUrl": "https://programsandcourses.anu.edu.au/course/arch2058",
+    "summary": "This course will serve as an introduction to the prehistory of Europe from the first farming communities to the Roman era from the Balkans to Britain, and Norway to the Iberian Peninsula. From 8000 BC to the 1st century AD people on the European continent developed new technologies, adopted unique ways of life and built the monuments which fill our TV scr...",
+    "tags": [
+      "archaeology",
+      "classics and ancient history",
+      "history",
+      "heritage studies"
+    ],
+    "reviewMetrics": [
+      "Teaching quality",
+      "Workload fairness",
+      "Assessment design"
+    ]
+  },
+  {
     "id": "ASIA1025",
     "type": "course",
     "code": "ASIA1025",
@@ -13392,6 +13920,84 @@ window.ANREVIEW_DATA = {
     ]
   },
   {
+    "id": "ASIA2001",
+    "type": "course",
+    "code": "ASIA2001",
+    "name": "Language in Asia and the Pacific",
+    "college": "ANU College of Asia and the Pacific",
+    "school": "School of Culture History and Language",
+    "schoolCode": "SOCHA",
+    "level": "UGRD",
+    "terms": [
+      "First Semester"
+    ],
+    "conveners": [],
+    "handbookUrl": "https://programsandcourses.anu.edu.au/course/asia2001",
+    "summary": "This course is an introduction to the languages of Asia and the Pacific that explores the diversity, complexity and vitality of languages of the regions to our north and east. The course uses case studies from a number of countries and societies to cover topics such as: the history and power of spoken and written forms of language (eg.",
+    "tags": [
+      "asian languages",
+      "non language asian studies",
+      "pacific studies",
+      "asia pacific studies"
+    ],
+    "reviewMetrics": [
+      "Teaching quality",
+      "Workload fairness",
+      "Assessment design"
+    ]
+  },
+  {
+    "id": "ASIA2009",
+    "type": "course",
+    "code": "ASIA2009",
+    "name": "The Making of Modern Japan: From Samurai to Economic Superpower and Beyond",
+    "college": "ANU College of Asia and the Pacific",
+    "school": "School of Culture History and Language",
+    "schoolCode": "SOCHA",
+    "level": "UGRD",
+    "terms": [
+      "First Semester"
+    ],
+    "conveners": [],
+    "handbookUrl": "https://programsandcourses.anu.edu.au/course/asia2009",
+    "summary": "This course traces the history of Japan from the 17th century to the present, examining the dynamics of the early modern period (Tokugawa era), the Meiji revolution, the political, social and economic transformations of the early 20th century, the tumultuous 1930s and 1940s, and the dynamics of the post-1945 era. Thematic issues to be covered include nati...",
+    "tags": [
+      "non language asian studies",
+      "history",
+      "asian studies",
+      "asia pacific studies"
+    ],
+    "reviewMetrics": [
+      "Teaching quality",
+      "Workload fairness",
+      "Assessment design"
+    ]
+  },
+  {
+    "id": "ASIA2016",
+    "type": "course",
+    "code": "ASIA2016",
+    "name": "The Mongol Empire in World History",
+    "college": "ANU College of Asia and the Pacific",
+    "school": "School of Culture History and Language",
+    "schoolCode": "SOCHA",
+    "level": "UGRD",
+    "terms": [
+      "First Semester"
+    ],
+    "conveners": [],
+    "handbookUrl": "https://programsandcourses.anu.edu.au/course/asia2016",
+    "summary": "In the 13th century, Mongol armies created one of the largest empires in world history, stretching at its height from the Sea of Japan to the Mediterranean, from the South China Sea to the Baltic. Although short-lived, this empire had a profound influence on world history, creating unprecedented cultural and economic links between East and West and transf...",
+    "tags": [
+      "non language asian studies"
+    ],
+    "reviewMetrics": [
+      "Teaching quality",
+      "Workload fairness",
+      "Assessment design"
+    ]
+  },
+  {
     "id": "ASIA2026",
     "type": "course",
     "code": "ASIA2026",
@@ -13444,6 +14050,61 @@ window.ANREVIEW_DATA = {
     ]
   },
   {
+    "id": "ASIA2037",
+    "type": "course",
+    "code": "ASIA2037",
+    "name": "History of Modern China",
+    "college": "ANU College of Asia and the Pacific",
+    "school": "School of Culture History and Language",
+    "schoolCode": "SOCHA",
+    "level": "UGRD",
+    "terms": [
+      "Second Semester",
+      "First Semester"
+    ],
+    "conveners": [],
+    "handbookUrl": "https://programsandcourses.anu.edu.au/course/asia2037",
+    "summary": "This course introduces the history of China from Qing dynasty to the end of Cultural Revolution. This period marked some of the greatest triumphs and tragedies of China’s long history: from the glories of the Qing empire to the degradation of famine, internal dissent, and foreign invasion.",
+    "tags": [
+      "non language asian studies",
+      "history",
+      "asian studies",
+      "asia pacific studies"
+    ],
+    "reviewMetrics": [
+      "Teaching quality",
+      "Workload fairness",
+      "Assessment design"
+    ]
+  },
+  {
+    "id": "ASIA2040",
+    "type": "course",
+    "code": "ASIA2040",
+    "name": "The Making of Modern Korea",
+    "college": "ANU College of Asia and the Pacific",
+    "school": "School of Culture History and Language",
+    "schoolCode": "SOCHA",
+    "level": "UGRD",
+    "terms": [
+      "First Semester"
+    ],
+    "conveners": [],
+    "handbookUrl": "https://programsandcourses.anu.edu.au/course/asia2040",
+    "summary": "This course will introduce students to the history of Korea from 1800 to the present with an emphasis on modernity, family, social hierarchy, imperialism, and capitalism. Using primary sources, literary works, and video resources, we will explore such topics as: the birth of modern Korea amidst imperialism in the 19th century; culture, society, and family...",
+    "tags": [
+      "non language asian studies",
+      "cultural studies",
+      "history",
+      "asian studies"
+    ],
+    "reviewMetrics": [
+      "Teaching quality",
+      "Workload fairness",
+      "Assessment design"
+    ]
+  },
+  {
     "id": "ASIA2041",
     "type": "course",
     "code": "ASIA2041",
@@ -13463,6 +14124,58 @@ window.ANREVIEW_DATA = {
       "non language asian studies",
       "cultural studies",
       "asia pacific studies"
+    ],
+    "reviewMetrics": [
+      "Teaching quality",
+      "Workload fairness",
+      "Assessment design"
+    ]
+  },
+  {
+    "id": "ASIA2044",
+    "type": "course",
+    "code": "ASIA2044",
+    "name": "Chinese History: The Imperial Period (221 BC - 1800)",
+    "college": "ANU College of Asia and the Pacific",
+    "school": "School of Culture History and Language",
+    "schoolCode": "SOCHA",
+    "level": "UGRD",
+    "terms": [
+      "First Semester"
+    ],
+    "conveners": [],
+    "handbookUrl": "https://programsandcourses.anu.edu.au/course/asia2044",
+    "summary": "Much of the world's history has been shaped by experiences of empires. Even after the collapse of the major historic imperial powers during the second half of the twentieth century, the legacies of those empires continue to shape contemporary life.",
+    "tags": [
+      "asian languages",
+      "cultural studies",
+      "history",
+      "asian studies"
+    ],
+    "reviewMetrics": [
+      "Teaching quality",
+      "Workload fairness",
+      "Assessment design"
+    ]
+  },
+  {
+    "id": "ASIA2054",
+    "type": "course",
+    "code": "ASIA2054",
+    "name": "Chinese Philosophy: Creation and Development",
+    "college": "ANU College of Asia and the Pacific",
+    "school": "School of Culture History and Language",
+    "schoolCode": "SOCHA",
+    "level": "UGRD",
+    "terms": [
+      "Second Semester"
+    ],
+    "conveners": [],
+    "handbookUrl": "https://programsandcourses.anu.edu.au/course/asia2054",
+    "summary": "This is an introductory course in Chinese philosophy. Drawing on the diverse Chinese thinkers from ancient times, including Confucians, Daoist, Legalists, and more, the course demonstrates that early Chinese philosophical is both interesting in its own right and potentially relevant to contemporary philosophical problems.",
+    "tags": [
+      "non language asian studies",
+      "philosophy"
     ],
     "reviewMetrics": [
       "Teaching quality",
@@ -13513,6 +14226,30 @@ window.ANREVIEW_DATA = {
       "development studies",
       "asian studies",
       "applied economics"
+    ],
+    "reviewMetrics": [
+      "Teaching quality",
+      "Workload fairness",
+      "Assessment design"
+    ]
+  },
+  {
+    "id": "ASIA2072",
+    "type": "course",
+    "code": "ASIA2072",
+    "name": "Taiwan: History and Culture",
+    "college": "ANU College of Asia and the Pacific",
+    "school": "School of Culture History and Language",
+    "schoolCode": "SOCHA",
+    "level": "UGRD",
+    "terms": [
+      "Second Semester"
+    ],
+    "conveners": [],
+    "handbookUrl": "https://programsandcourses.anu.edu.au/course/asia2072",
+    "summary": "This course will explore various facets of Taiwan's history and culture, spanning from the prehistoric era (Palaeolithic, Neolithic and Iron Age) to the present day. It will examine the significant events across different periods, encompassing the Dutch (1624–1662), Spanish (1626-1642), Zheng (Koxinga) (1662-1683), Qing (1683-1895), Japanese (1895–1945)...",
+    "tags": [
+      "non language asian studies"
     ],
     "reviewMetrics": [
       "Teaching quality",
@@ -13572,6 +14309,33 @@ window.ANREVIEW_DATA = {
     ]
   },
   {
+    "id": "ASIA2103",
+    "type": "course",
+    "code": "ASIA2103",
+    "name": "Language in Asia and the Pacific (L)",
+    "college": "ANU College of Asia and the Pacific",
+    "school": "School of Culture History and Language",
+    "schoolCode": "SOCHA",
+    "level": "UGRD",
+    "terms": [
+      "First Semester"
+    ],
+    "conveners": [],
+    "handbookUrl": "https://programsandcourses.anu.edu.au/course/asia2103",
+    "summary": "This course is an introduction to the languages of Asia and the Pacific that explores the diversity, complexity and vitality of languages of the regions to our north and east. The course uses case studies from a number of countries and societies to cover topics such as: the history and power of spoken and written forms of language (eg.",
+    "tags": [
+      "asian languages",
+      "non language asian studies",
+      "pacific studies",
+      "asian studies"
+    ],
+    "reviewMetrics": [
+      "Teaching quality",
+      "Workload fairness",
+      "Assessment design"
+    ]
+  },
+  {
     "id": "ASIA2222",
     "type": "course",
     "code": "ASIA2222",
@@ -13591,6 +14355,31 @@ window.ANREVIEW_DATA = {
       "asian studies",
       "asia pacific studies",
       "asia-pacific studies"
+    ],
+    "reviewMetrics": [
+      "Teaching quality",
+      "Workload fairness",
+      "Assessment design"
+    ]
+  },
+  {
+    "id": "ASIA2270",
+    "type": "course",
+    "code": "ASIA2270",
+    "name": "India Past and Present: The Impact of Pre-colonial History on India Today",
+    "college": "ANU College of Asia and the Pacific",
+    "school": "School of Culture History and Language",
+    "schoolCode": "SOCHA",
+    "level": "UGRD",
+    "terms": [
+      "See ANU course page"
+    ],
+    "conveners": [],
+    "handbookUrl": "https://programsandcourses.anu.edu.au/course/asia2270",
+    "summary": "This course examines the impact of India’s history up to 1757 on Contemporary India. Studies focus on the development of the Indus cultures, Hinduism, Jainism, Buddhism; Islam in South Asia; and European and British colonialism in India.",
+    "tags": [
+      "history",
+      "asian studies"
     ],
     "reviewMetrics": [
       "Teaching quality",
@@ -13626,6 +14415,60 @@ window.ANREVIEW_DATA = {
     ]
   },
   {
+    "id": "ASIA2307",
+    "type": "course",
+    "code": "ASIA2307",
+    "name": "History of Empire in Asia",
+    "college": "ANU College of Asia and the Pacific",
+    "school": "School of Culture History and Language",
+    "schoolCode": "SOCHA",
+    "level": "UGRD",
+    "terms": [
+      "First Semester"
+    ],
+    "conveners": [],
+    "handbookUrl": "https://programsandcourses.anu.edu.au/course/asia2307",
+    "summary": "This course examines the place of empire in shaping the history of Asia. It asks what makes empires distinct, how they were constructed and held together, how they operated in theory and practice, and why they disintegrated or transitioned into other forms.",
+    "tags": [
+      "anthropology",
+      "classics and ancient history",
+      "cultural studies",
+      "history"
+    ],
+    "reviewMetrics": [
+      "Teaching quality",
+      "Workload fairness",
+      "Assessment design"
+    ]
+  },
+  {
+    "id": "ASIA2308",
+    "type": "course",
+    "code": "ASIA2308",
+    "name": "Linguistic Histories in Asia and the Pacific",
+    "college": "ANU College of Asia and the Pacific",
+    "school": "School of Culture History and Language",
+    "schoolCode": "SOCHA",
+    "level": "UGRD",
+    "terms": [
+      "First Semester"
+    ],
+    "conveners": [],
+    "handbookUrl": "https://programsandcourses.anu.edu.au/course/asia2308",
+    "summary": "This course explores the human past – both recent and distant – of the Asia-Pacific region through a transdisciplinary lens. The Asia-Pacific is renowned for its incredible cultural, social and linguistic diversity, and this course explores the processes of continuity and transformation over time that have shaped today’s diversity.",
+    "tags": [
+      "asian languages",
+      "pacific studies",
+      "asian studies",
+      "asia-pacific studies"
+    ],
+    "reviewMetrics": [
+      "Teaching quality",
+      "Workload fairness",
+      "Assessment design"
+    ]
+  },
+  {
     "id": "ASIA2516",
     "type": "course",
     "code": "ASIA2516",
@@ -13645,6 +14488,194 @@ window.ANREVIEW_DATA = {
       "development studies",
       "international relations",
       "political sciences"
+    ],
+    "reviewMetrics": [
+      "Teaching quality",
+      "Workload fairness",
+      "Assessment design"
+    ]
+  },
+  {
+    "id": "ASIA3011",
+    "type": "course",
+    "code": "ASIA3011",
+    "name": "Samurai Society and Social Control in Japan",
+    "college": "ANU College of Asia and the Pacific",
+    "school": "School of Culture History and Language",
+    "schoolCode": "SOCHA",
+    "level": "UGRD",
+    "terms": [
+      "Second Semester"
+    ],
+    "conveners": [],
+    "handbookUrl": "https://programsandcourses.anu.edu.au/course/asia3011",
+    "summary": "This course treats the development of Japanese culture from earliest times to the early 19th century in the context of the major political and social forces that moulded the country's history. The course covers major periods and cultural epochs of Japanese history, but particular attention will be paid to samurai culture and systems of social control from...",
+    "tags": [
+      "non language asian studies",
+      "cultural studies",
+      "history",
+      "asian studies"
+    ],
+    "reviewMetrics": [
+      "Teaching quality",
+      "Workload fairness",
+      "Assessment design"
+    ]
+  },
+  {
+    "id": "ASIA3030",
+    "type": "course",
+    "code": "ASIA3030",
+    "name": "History of the State System in Southeast Asia",
+    "college": "ANU College of Asia and the Pacific",
+    "school": "School of Culture History and Language",
+    "schoolCode": "SOCHA",
+    "level": "UGRD",
+    "terms": [
+      "First Semester"
+    ],
+    "conveners": [],
+    "handbookUrl": "https://programsandcourses.anu.edu.au/course/asia3030",
+    "summary": "This course will trace the emergence of the international order in Southeast Asia. It will examine the different types of polity that have been established in the region, and how they defined relations with their neighbours and with the more distant civilisations of China, India and the Muslim world.",
+    "tags": [
+      "non language asian studies",
+      "history",
+      "political sciences",
+      "international business"
+    ],
+    "reviewMetrics": [
+      "Teaching quality",
+      "Workload fairness",
+      "Assessment design"
+    ]
+  },
+  {
+    "id": "ASIA3272",
+    "type": "course",
+    "code": "ASIA3272",
+    "name": "Truth and Falsity in Indian History and Politics",
+    "college": "ANU College of Asia and the Pacific",
+    "school": "School of Culture History and Language",
+    "schoolCode": "SOCHA",
+    "level": "UGRD",
+    "terms": [
+      "First Semester"
+    ],
+    "conveners": [],
+    "handbookUrl": "https://programsandcourses.anu.edu.au/course/asia3272",
+    "summary": "Contemporary India finds itself at the intersection of the trajectories of a number of widely varying notions of truth, falsity, authenticity and illegitimacy. The variation in these trajectories—in their cultural origins and in their content—can make their crossings unpredictable and explosive and often unintelligible.",
+    "tags": [
+      "history",
+      "asian studies",
+      "asia pacific studies",
+      "asia-pacific studies"
+    ],
+    "reviewMetrics": [
+      "Teaching quality",
+      "Workload fairness",
+      "Assessment design"
+    ]
+  },
+  {
+    "id": "BIAN2064",
+    "type": "course",
+    "code": "BIAN2064",
+    "name": "Anthropology of Environmental Disasters",
+    "college": "ANU College of Arts and Social Sciences",
+    "school": "School of Archaeology and Anthropology",
+    "schoolCode": "SOAAA",
+    "level": "UGRD",
+    "terms": [
+      "First Semester"
+    ],
+    "conveners": [],
+    "handbookUrl": "https://programsandcourses.anu.edu.au/course/bian2064",
+    "summary": "This course provides an overview of the types of environmental disasters that commonly affect both human and non-human primates. When considering humans alone, the course will examine the effect of environmental disasters cross-culturally by comparing victimology along with how different populations have prepared for, responded to and recovered from past...",
+    "tags": [
+      "anthropology",
+      "biological anthropology",
+      "biodiversity conservation"
+    ],
+    "reviewMetrics": [
+      "Teaching quality",
+      "Workload fairness",
+      "Assessment design"
+    ]
+  },
+  {
+    "id": "BIAN2119",
+    "type": "course",
+    "code": "BIAN2119",
+    "name": "Nutrition, Disease and the Environment",
+    "college": "ANU College of Arts and Social Sciences",
+    "school": "School of Archaeology and Anthropology",
+    "schoolCode": "SOAAA",
+    "level": "UGRD",
+    "terms": [
+      "See ANU course page"
+    ],
+    "conveners": [],
+    "handbookUrl": "https://programsandcourses.anu.edu.au/course/bian2119",
+    "summary": "All primates (non-human and human) have the capacity for flexible biological responses to environmental change. Due to the wide range of environments in which primate species are found this flexibility often results in extreme adaptability in diet and food intake.",
+    "tags": [
+      "anthropology",
+      "archaeology",
+      "biological anthropology",
+      "biology"
+    ],
+    "reviewMetrics": [
+      "Teaching quality",
+      "Workload fairness",
+      "Assessment design"
+    ]
+  },
+  {
+    "id": "BIAN3113",
+    "type": "course",
+    "code": "BIAN3113",
+    "name": "Human Evolution",
+    "college": "ANU College of Arts and Social Sciences",
+    "school": "School of Archaeology and Anthropology",
+    "schoolCode": "SOAAA",
+    "level": "UGRD",
+    "terms": [
+      "First Semester"
+    ],
+    "conveners": [],
+    "handbookUrl": "https://programsandcourses.anu.edu.au/course/bian3113",
+    "summary": "This course will provide an introduction to the fossil evidence for human evolution in the context of living great apes and modern humans. The course will proceed chronologically from our earliest human ancestors, who originated around 7 million years ago, up until modern humans who inhabit the world today.",
+    "tags": [
+      "anthropology",
+      "biological anthropology",
+      "human sciences",
+      "evolution and ecology"
+    ],
+    "reviewMetrics": [
+      "Teaching quality",
+      "Workload fairness",
+      "Assessment design"
+    ]
+  },
+  {
+    "id": "BIAN3127",
+    "type": "course",
+    "code": "BIAN3127",
+    "name": "Primate Behaviour and Conservation",
+    "college": "ANU College of Arts and Social Sciences",
+    "school": "School of Archaeology and Anthropology",
+    "schoolCode": "SOAAA",
+    "level": "UGRD",
+    "terms": [
+      "Second Semester"
+    ],
+    "conveners": [],
+    "handbookUrl": "https://programsandcourses.anu.edu.au/course/bian3127",
+    "summary": "This course examines the behaviour, ecology and conservation of living non-human primates. Primates include monkeys, apes, and strepsirhines, as well people.",
+    "tags": [
+      "biological anthropology",
+      "environmental studies",
+      "zoology",
+      "biology"
     ],
     "reviewMetrics": [
       "Teaching quality",
@@ -14413,6 +15444,114 @@ window.ANREVIEW_DATA = {
     ]
   },
   {
+    "id": "CLAS2014",
+    "type": "course",
+    "code": "CLAS2014",
+    "name": "Democrats, Tyrants, and Emperors: The Art of Government in the Ancient Mediterranean",
+    "college": "ANU College of Arts and Social Sciences",
+    "school": "School of Literature, Languages and Linguistics",
+    "schoolCode": "SOLLA",
+    "level": "UGRD",
+    "terms": [
+      "First Semester"
+    ],
+    "conveners": [],
+    "handbookUrl": "https://programsandcourses.anu.edu.au/course/clas2014",
+    "summary": "This course examines the different types of government which existed in the Mediterranean world (encompassing Europe, North Africa, and the Near East) between the Bronze Age and the Early Medieval Period. Monarchy was a dominant form of government: there were great empires ruled by kings and queens, from Assyria and Pharaonic Egypt to the territories conq...",
+    "tags": [
+      "classics and ancient history",
+      "history",
+      "philosophy",
+      "european studies"
+    ],
+    "reviewMetrics": [
+      "Teaching quality",
+      "Workload fairness",
+      "Assessment design"
+    ]
+  },
+  {
+    "id": "CLAS2015",
+    "type": "course",
+    "code": "CLAS2015",
+    "name": "Alexander the Great and the Hellenistic World: An Age of Transformation and Discovery",
+    "college": "ANU College of Arts and Social Sciences",
+    "school": "School of Literature, Languages and Linguistics",
+    "schoolCode": "SOLLA",
+    "level": "UGRD",
+    "terms": [
+      "Second Semester"
+    ],
+    "conveners": [],
+    "handbookUrl": "https://programsandcourses.anu.edu.au/course/clas2015",
+    "summary": "From ascending to the throne of Macedon in 336 BC until his death in Babylon in 323 BC at the age of 32, Alexander III of Macedon’s ambitious campaigns in Europe, North Africa, and Asia exploded the Greek world in unprecedented ways. In this course you will join Alexander on his conquests and immerse yourself in his legacy: the vibrant, diverse, violent...",
+    "tags": [
+      "archaeology",
+      "art history",
+      "classics and ancient history",
+      "history"
+    ],
+    "reviewMetrics": [
+      "Teaching quality",
+      "Workload fairness",
+      "Assessment design"
+    ]
+  },
+  {
+    "id": "CLAS3001",
+    "type": "course",
+    "code": "CLAS3001",
+    "name": "Rome: The Eternal City from Antiquity to the Early Middle Ages",
+    "college": "ANU College of Arts and Social Sciences",
+    "school": "School of Literature, Languages and Linguistics",
+    "schoolCode": "SOLLA",
+    "level": "UGRD",
+    "terms": [
+      "Second Semester"
+    ],
+    "conveners": [],
+    "handbookUrl": "https://programsandcourses.anu.edu.au/course/clas3001",
+    "summary": "Rome is a city that fires the imagination. It is the city of seven hills, the city where all roads lead, the capital of the world ( caput mundi ).",
+    "tags": [
+      "art history",
+      "classics and ancient history",
+      "history",
+      "european studies"
+    ],
+    "reviewMetrics": [
+      "Teaching quality",
+      "Workload fairness",
+      "Assessment design"
+    ]
+  },
+  {
+    "id": "CLAS3003",
+    "type": "course",
+    "code": "CLAS3003",
+    "name": "Faith and Belief in Ancient Greece and Rome",
+    "college": "ANU College of Arts and Social Sciences",
+    "school": "School of Literature, Languages and Linguistics",
+    "schoolCode": "SOLLA",
+    "level": "UGRD",
+    "terms": [
+      "Second Semester"
+    ],
+    "conveners": [],
+    "handbookUrl": "https://programsandcourses.anu.edu.au/course/clas3003",
+    "summary": "The Greek and Roman gods are perhaps one of the best-known elements of Classical culture. And yet there is no ancient Greek word for religion.",
+    "tags": [
+      "archaeology",
+      "classics and ancient history",
+      "history",
+      "philosophy"
+    ],
+    "reviewMetrics": [
+      "Teaching quality",
+      "Workload fairness",
+      "Assessment design"
+    ]
+  },
+  {
     "id": "COMP1100",
     "type": "course",
     "code": "COMP1100",
@@ -14551,6 +15690,165 @@ window.ANREVIEW_DATA = {
     ]
   },
   {
+    "id": "CRIM1001",
+    "type": "course",
+    "code": "CRIM1001",
+    "name": "Criminological Imaginations: Understanding Criminality",
+    "college": "ANU College of Arts and Social Sciences",
+    "school": "POLIS: The Centre for Social Policy Research",
+    "schoolCode": "PTCFS",
+    "level": "UGRD",
+    "terms": [
+      "First Semester"
+    ],
+    "conveners": [],
+    "handbookUrl": "https://programsandcourses.anu.edu.au/course/crim1001",
+    "summary": "This course will introduce students to the canon of criminology and map the key theoretical frameworks that have been advanced to explain individual criminality and deviance. The course will encourage students to engage their 'criminological imaginations' to understand the causes of criminal offending and the infraction of social norms and values.",
+    "tags": [
+      "law",
+      "policy studies",
+      "sociology",
+      "criminology"
+    ],
+    "reviewMetrics": [
+      "Teaching quality",
+      "Workload fairness",
+      "Assessment design"
+    ]
+  },
+  {
+    "id": "CRIM1002",
+    "type": "course",
+    "code": "CRIM1002",
+    "name": "Criminological Perspectives: Understanding Crime",
+    "college": "ANU College of Arts and Social Sciences",
+    "school": "POLIS: The Centre for Social Policy Research",
+    "schoolCode": "PTCFS",
+    "level": "UGRD",
+    "terms": [
+      "Second Semester"
+    ],
+    "conveners": [],
+    "handbookUrl": "https://programsandcourses.anu.edu.au/course/crim1002",
+    "summary": "This course will introduce students to the history of social, structural, and critically framed theories that have been advanced to explain the criminal event as distinct from the criminal offender. Students will begin by exploring historical and contemporary theories that examine the situational and structural influences on crime, including Anomie/Strain...",
+    "tags": [
+      "law",
+      "policy studies",
+      "sociology",
+      "criminology"
+    ],
+    "reviewMetrics": [
+      "Teaching quality",
+      "Workload fairness",
+      "Assessment design"
+    ]
+  },
+  {
+    "id": "CRIM2003",
+    "type": "course",
+    "code": "CRIM2003",
+    "name": "Controversies in Crime Control",
+    "college": "ANU College of Arts and Social Sciences",
+    "school": "School of Sociology",
+    "schoolCode": "SOS",
+    "level": "UGRD",
+    "terms": [
+      "See ANU course page"
+    ],
+    "conveners": [],
+    "handbookUrl": "https://programsandcourses.anu.edu.au/course/crim2003",
+    "summary": "Controversies in Crime Control provides students with an introduction to the crime control field from a sociological vista. This course examines the social functions of deviance and explores the various strategies of securitization - e.g.",
+    "tags": [
+      "criminology"
+    ],
+    "reviewMetrics": [
+      "Teaching quality",
+      "Workload fairness",
+      "Assessment design"
+    ]
+  },
+  {
+    "id": "CRIM2005",
+    "type": "course",
+    "code": "CRIM2005",
+    "name": "Alcohol, Drugs and Crime: Promoting Health and Preventing Consequences",
+    "college": "ANU College of Arts and Social Sciences",
+    "school": "POLIS: The Centre for Social Policy Research",
+    "schoolCode": "PTCFS",
+    "level": "UGRD",
+    "terms": [
+      "Second Semester"
+    ],
+    "conveners": [],
+    "handbookUrl": "https://programsandcourses.anu.edu.au/course/crim2005",
+    "summary": "Australia has been famously described as having a 'wet culture', one in which alcohol consumption (and its consequences) have become intertwined into the social and recreational fabric of Australian society and bringing with it a number of serious social and personal consequences. Drug use on the other hand is much less common but no less problematic, acc...",
+    "tags": [
+      "law",
+      "policy studies",
+      "sociology",
+      "criminology"
+    ],
+    "reviewMetrics": [
+      "Teaching quality",
+      "Workload fairness",
+      "Assessment design"
+    ]
+  },
+  {
+    "id": "CRIM2006",
+    "type": "course",
+    "code": "CRIM2006",
+    "name": "Young People and Crime: Developmental Criminology and its Discontents",
+    "college": "ANU College of Arts and Social Sciences",
+    "school": "POLIS: The Centre for Social Policy Research",
+    "schoolCode": "PTCFS",
+    "level": "UGRD",
+    "terms": [
+      "Second Semester"
+    ],
+    "conveners": [],
+    "handbookUrl": "https://programsandcourses.anu.edu.au/course/crim2006",
+    "summary": "Around the world, the vast majority of crime and antisocial behaviour is committed by young people. This course will introduce students to developmental criminology as a foundation for understanding the causes and correlates of youth offending and antisocial behaviour across the life-course.",
+    "tags": [
+      "policy studies",
+      "sociology",
+      "psychology",
+      "criminology"
+    ],
+    "reviewMetrics": [
+      "Teaching quality",
+      "Workload fairness",
+      "Assessment design"
+    ]
+  },
+  {
+    "id": "CRIM2009",
+    "type": "course",
+    "code": "CRIM2009",
+    "name": "Corruption in our world",
+    "college": "ANU College of Arts and Social Sciences",
+    "school": "POLIS: The Centre for Social Policy Research",
+    "schoolCode": "PTCFS",
+    "level": "UGRD",
+    "terms": [
+      "Summer Session"
+    ],
+    "conveners": [],
+    "handbookUrl": "https://programsandcourses.anu.edu.au/course/crim2009",
+    "summary": "With the World Bank estimating that globally about $1 trillion per year is paid in bribes, and that this illegality leads to poor economic performance and human rights violations, this course examines the phenomenon of corruption, identifies the contexts within which it flourishes, explores means of measuring it, and analyses the opportunity structure for...",
+    "tags": [
+      "law",
+      "policy studies",
+      "sociology",
+      "criminology"
+    ],
+    "reviewMetrics": [
+      "Teaching quality",
+      "Workload fairness",
+      "Assessment design"
+    ]
+  },
+  {
     "id": "CRIM2010",
     "type": "course",
     "code": "CRIM2010",
@@ -14568,6 +15866,166 @@ window.ANREVIEW_DATA = {
     "summary": "Cybercrime is now commonplace and presents new challenges in the prevention and detection of crime. Drawing on a broad introduction to the history, functions and technologies of the Internet this course addresses issues of prevention and regulation and also describes the evolution of criminal activities involving computers.",
     "tags": [
       "computer science",
+      "criminology"
+    ],
+    "reviewMetrics": [
+      "Teaching quality",
+      "Workload fairness",
+      "Assessment design"
+    ]
+  },
+  {
+    "id": "CRIM3001",
+    "type": "course",
+    "code": "CRIM3001",
+    "name": "Professional Perspectives on Crime and Prevention",
+    "college": "ANU College of Arts and Social Sciences",
+    "school": "POLIS: The Centre for Social Policy Research",
+    "schoolCode": "PTCFS",
+    "level": "UGRD",
+    "terms": [
+      "Second Semester"
+    ],
+    "conveners": [],
+    "handbookUrl": "https://programsandcourses.anu.edu.au/course/crim3001",
+    "summary": "This course provides a topic-specific understanding of responses to crime and deviance by a range of government and non-government agencies - for example: criminal justice, academia and business and industry. Our aim is to focus on crimes of contemporary national interest and the list of topics will vary each year depending on current political and crimin...",
+    "tags": [
+      "law",
+      "policy studies",
+      "sociology",
+      "criminology"
+    ],
+    "reviewMetrics": [
+      "Teaching quality",
+      "Workload fairness",
+      "Assessment design"
+    ]
+  },
+  {
+    "id": "CRIM3002",
+    "type": "course",
+    "code": "CRIM3002",
+    "name": "Corruption in Sport",
+    "college": "ANU College of Arts and Social Sciences",
+    "school": "POLIS: The Centre for Social Policy Research",
+    "schoolCode": "PTCFS",
+    "level": "UGRD",
+    "terms": [
+      "Second Semester"
+    ],
+    "conveners": [],
+    "handbookUrl": "https://programsandcourses.anu.edu.au/course/crim3002",
+    "summary": "As the world becomes a more interconnected place, sport has become a cultural sphere in which localities, regions, and nations meet to compete individually or as teams for prizes ranging from simple peer recognition, health, and fitness to celebrity status. Yet there is a darker side to sport.",
+    "tags": [
+      "law",
+      "sociology",
+      "criminology"
+    ],
+    "reviewMetrics": [
+      "Teaching quality",
+      "Workload fairness",
+      "Assessment design"
+    ]
+  },
+  {
+    "id": "CRIM3003",
+    "type": "course",
+    "code": "CRIM3003",
+    "name": "Criminology at the Scene 1",
+    "college": "ANU College of Arts and Social Sciences",
+    "school": "POLIS: The Centre for Social Policy Research",
+    "schoolCode": "PTCFS",
+    "level": "UGRD",
+    "terms": [
+      "Winter Session"
+    ],
+    "conveners": [],
+    "handbookUrl": "https://programsandcourses.anu.edu.au/course/crim3003",
+    "summary": "Crime and the social conditions which drive or suppress criminal behaviour vary from place to place. Criminology at the Scene is designed to break down the artificial barriers of understanding crime in different contexts which can incubate in a purely classroom setting.",
+    "tags": [
+      "anthropology",
+      "sociology",
+      "criminology"
+    ],
+    "reviewMetrics": [
+      "Teaching quality",
+      "Workload fairness",
+      "Assessment design"
+    ]
+  },
+  {
+    "id": "CRIM3005",
+    "type": "course",
+    "code": "CRIM3005",
+    "name": "Diversity and Crime: Equality in the Criminal Justice System",
+    "college": "ANU College of Arts and Social Sciences",
+    "school": "POLIS: The Centre for Social Policy Research",
+    "schoolCode": "PTCFS",
+    "level": "UGRD",
+    "terms": [
+      "First Semester"
+    ],
+    "conveners": [],
+    "handbookUrl": "https://programsandcourses.anu.edu.au/course/crim3005",
+    "summary": "Contemporary societies comprise of diverse populations. Diversity can be the result of not only internal dimensions (such as ethnicity, gender, and age) but also different historical, social, and institutional processes with each population encountering unique risks and needs.",
+    "tags": [
+      "cultural studies",
+      "gender studies",
+      "australian indigenous studies",
+      "sociology"
+    ],
+    "reviewMetrics": [
+      "Teaching quality",
+      "Workload fairness",
+      "Assessment design"
+    ]
+  },
+  {
+    "id": "CRIM3006",
+    "type": "course",
+    "code": "CRIM3006",
+    "name": "Crime Prevention: Evaluation Theory and Practice",
+    "college": "ANU College of Arts and Social Sciences",
+    "school": "POLIS: The Centre for Social Policy Research",
+    "schoolCode": "PTCFS",
+    "level": "UGRD",
+    "terms": [
+      "Second Semester"
+    ],
+    "conveners": [],
+    "handbookUrl": "https://programsandcourses.anu.edu.au/course/crim3006",
+    "summary": "There are multiple strategies that are implemented by individuals, communities, institutions, and agencies that are designed to target the individual, social, and environmental causes of crime. The prevention of crime is multifaceted and involves theory, scientific evidence, the application of an appropriate framework, intervention, and evaluation.",
+    "tags": [
+      "social research",
+      "psychology",
+      "security studies",
+      "criminology"
+    ],
+    "reviewMetrics": [
+      "Teaching quality",
+      "Workload fairness",
+      "Assessment design"
+    ]
+  },
+  {
+    "id": "CRIM3010",
+    "type": "course",
+    "code": "CRIM3010",
+    "name": "Doing Criminology: Advanced Research Methods",
+    "college": "ANU College of Arts and Social Sciences",
+    "school": "POLIS: The Centre for Social Policy Research",
+    "schoolCode": "PTCFS",
+    "level": "UGRD",
+    "terms": [
+      "First Semester"
+    ],
+    "conveners": [],
+    "handbookUrl": "https://programsandcourses.anu.edu.au/course/crim3010",
+    "summary": "Evidence-based policy development has emerged as key foundation of private enterprise and public service. Whether you are a policy officer, program manager or senior executive, understanding research and the research process is critical to innovation and improvement.",
+    "tags": [
+      "law",
+      "social research",
+      "sociology",
       "criminology"
     ],
     "reviewMetrics": [
@@ -14604,6 +16062,60 @@ window.ANREVIEW_DATA = {
     ]
   },
   {
+    "id": "DEMO2001",
+    "type": "course",
+    "code": "DEMO2001",
+    "name": "Understanding Population Change",
+    "college": "ANU College of Arts and Social Sciences",
+    "school": "School of Demography",
+    "schoolCode": "SOD",
+    "level": "UGRD",
+    "terms": [
+      "Second Semester"
+    ],
+    "conveners": [],
+    "handbookUrl": "https://programsandcourses.anu.edu.au/course/demo2001",
+    "summary": "This course introduces key population issues in Australia, other developed countries and less developed countries. It covers a range of topics including the relationships between population size and available resources; social, biological and economic influences on population growth rates; fertility decline and population ageing; and, population distribut...",
+    "tags": [
+      "geography",
+      "population studies",
+      "sociology",
+      "demography"
+    ],
+    "reviewMetrics": [
+      "Teaching quality",
+      "Workload fairness",
+      "Assessment design"
+    ]
+  },
+  {
+    "id": "DEMO2002",
+    "type": "course",
+    "code": "DEMO2002",
+    "name": "Population Analysis",
+    "college": "ANU College of Arts and Social Sciences",
+    "school": "School of Demography",
+    "schoolCode": "SOD",
+    "level": "UGRD",
+    "terms": [
+      "First Semester"
+    ],
+    "conveners": [],
+    "handbookUrl": "https://programsandcourses.anu.edu.au/course/demo2002",
+    "summary": "This course provides the basic analytical foundation for understanding societal change. It focuses on the key measures and techniques used to study the diversity of demographic change occurring in Australia and throughout the world.",
+    "tags": [
+      "population studies",
+      "economics",
+      "computer science",
+      "demography"
+    ],
+    "reviewMetrics": [
+      "Teaching quality",
+      "Workload fairness",
+      "Assessment design"
+    ]
+  },
+  {
     "id": "DEMO2003",
     "type": "course",
     "code": "DEMO2003",
@@ -14624,6 +16136,115 @@ window.ANREVIEW_DATA = {
       "political sciences",
       "population studies",
       "demography"
+    ],
+    "reviewMetrics": [
+      "Teaching quality",
+      "Workload fairness",
+      "Assessment design"
+    ]
+  },
+  {
+    "id": "DEMO2004",
+    "type": "course",
+    "code": "DEMO2004",
+    "name": "Social Inequalities in Health",
+    "college": "ANU College of Arts and Social Sciences",
+    "school": "School of Demography",
+    "schoolCode": "SOD",
+    "level": "UGRD",
+    "terms": [
+      "Second Semester"
+    ],
+    "conveners": [],
+    "handbookUrl": "https://programsandcourses.anu.edu.au/course/demo2004",
+    "summary": "This course is designed to introduce students to the social and socio-structural factors influencing the health of individuals and populations, along with social theories which explain how health and health inequalities are shaped over the lifespan. The first portion of the course will centre on how to measure, interpret, and holestically understand commo...",
+    "tags": [
+      "anthropology",
+      "health medicine and the body",
+      "population studies",
+      "social research"
+    ],
+    "reviewMetrics": [
+      "Teaching quality",
+      "Workload fairness",
+      "Assessment design"
+    ]
+  },
+  {
+    "id": "DEMO3001",
+    "type": "course",
+    "code": "DEMO3001",
+    "name": "Population Policy Case Studies",
+    "college": "ANU College of Arts and Social Sciences",
+    "school": "School of Demography",
+    "schoolCode": "SOD",
+    "level": "UGRD",
+    "terms": [
+      "See ANU course page"
+    ],
+    "conveners": [],
+    "handbookUrl": "https://programsandcourses.anu.edu.au/course/demo3001",
+    "summary": "In this course, students will evaluate how demography matters for policy design and policy analysis. Very few countries have official, or explicit, population policies, but many social policies are a result of demographic change, or are designed to influence demographic change.",
+    "tags": [
+      "anthropology",
+      "international relations",
+      "policy studies",
+      "sociology"
+    ],
+    "reviewMetrics": [
+      "Teaching quality",
+      "Workload fairness",
+      "Assessment design"
+    ]
+  },
+  {
+    "id": "DEMO3002",
+    "type": "course",
+    "code": "DEMO3002",
+    "name": "Demographic Research Internship",
+    "college": "ANU College of Arts and Social Sciences",
+    "school": "School of Demography",
+    "schoolCode": "SOD",
+    "level": "UGRD",
+    "terms": [
+      "First Semester",
+      "Second Semester"
+    ],
+    "conveners": [],
+    "handbookUrl": "https://programsandcourses.anu.edu.au/course/demo3002",
+    "summary": "This course provides students with the opportunity to work closely with a faculty member in the School of Demography on a research project in a field of interest. Students will develop real-world research skills and an understanding of how demographic research is conducted.",
+    "tags": [
+      "population studies",
+      "social research",
+      "actuarial studies",
+      "public health"
+    ],
+    "reviewMetrics": [
+      "Teaching quality",
+      "Workload fairness",
+      "Assessment design"
+    ]
+  },
+  {
+    "id": "DEMO3010",
+    "type": "course",
+    "code": "DEMO3010",
+    "name": "Perspectives on Sex, Gender and Population",
+    "college": "ANU College of Arts and Social Sciences",
+    "school": "School of Demography",
+    "schoolCode": "SOD",
+    "level": "UGRD",
+    "terms": [
+      "Second Semester"
+    ],
+    "conveners": [],
+    "handbookUrl": "https://programsandcourses.anu.edu.au/course/demo3010",
+    "summary": "Did you know that worldwide, women tend to live longer than men, but spend more years in ill health? Or that women do more unpaid work in the home, while they earn less money in the labor market than men, even for equal work?",
+    "tags": [
+      "anthropology",
+      "gender studies",
+      "policy studies",
+      "population studies"
     ],
     "reviewMetrics": [
       "Teaching quality",
@@ -15444,6 +17065,693 @@ window.ANREVIEW_DATA = {
     ]
   },
   {
+    "id": "ENGL1100",
+    "type": "course",
+    "code": "ENGL1100",
+    "name": "Secrets and Lies: Literature and the Self",
+    "college": "ANU College of Arts and Social Sciences",
+    "school": "School of Literature, Languages and Linguistics",
+    "schoolCode": "SOLLA",
+    "level": "UGRD",
+    "terms": [
+      "First Semester"
+    ],
+    "conveners": [],
+    "handbookUrl": "https://programsandcourses.anu.edu.au/course/engl1100",
+    "summary": "This course will examine how literary texts contain layers of concealment, deception and revelation. We will examine how the act of storytelling constructs the storyteller, whether an identifiable person as narrator or a shadowy presence behind the text.",
+    "tags": [
+      "english",
+      "literature",
+      "film"
+    ],
+    "reviewMetrics": [
+      "Teaching quality",
+      "Workload fairness",
+      "Assessment design"
+    ]
+  },
+  {
+    "id": "ENGL1200",
+    "type": "course",
+    "code": "ENGL1200",
+    "name": "Imagined Worlds",
+    "college": "ANU College of Arts and Social Sciences",
+    "school": "School of Literature, Languages and Linguistics",
+    "schoolCode": "SOLLA",
+    "level": "UGRD",
+    "terms": [
+      "Second Semester"
+    ],
+    "conveners": [],
+    "handbookUrl": "https://programsandcourses.anu.edu.au/course/engl1200",
+    "summary": "‘Say a body. Where none. … A place.",
+    "tags": [
+      "english"
+    ],
+    "reviewMetrics": [
+      "Teaching quality",
+      "Workload fairness",
+      "Assessment design"
+    ]
+  },
+  {
+    "id": "ENGL2015",
+    "type": "course",
+    "code": "ENGL2015",
+    "name": "Creative Writing",
+    "college": "ANU College of Arts and Social Sciences",
+    "school": "School of Literature, Languages and Linguistics",
+    "schoolCode": "SOLLA",
+    "level": "UGRD",
+    "terms": [
+      "First Semester"
+    ],
+    "conveners": [],
+    "handbookUrl": "https://programsandcourses.anu.edu.au/course/engl2015",
+    "summary": "This course emphasizes writing process and revision through encouraging students to write and develop their own prose and poetry, and by using writers’ manuscripts and published works as examples. It teaches close reading and analysis of published prose and poetry as the means by which writers historically learned to write, and as a skill necessary for re...",
+    "tags": [
+      "drama",
+      "english",
+      "literature"
+    ],
+    "reviewMetrics": [
+      "Teaching quality",
+      "Workload fairness",
+      "Assessment design"
+    ]
+  },
+  {
+    "id": "ENGL2020",
+    "type": "course",
+    "code": "ENGL2020",
+    "name": "Texts in Performance",
+    "college": "ANU College of Arts and Social Sciences",
+    "school": "School of Literature, Languages and Linguistics",
+    "schoolCode": "SOLLA",
+    "level": "UGRD",
+    "terms": [
+      "See ANU course page"
+    ],
+    "conveners": [],
+    "handbookUrl": "https://programsandcourses.anu.edu.au/course/engl2020",
+    "summary": "This course focuses on embodying the dramatic text. In workshops, students will use practice-as-research methods to explore how elements of staging—space, movement, voice, and relationship with audience—make meaning in drama.",
+    "tags": [
+      "drama",
+      "english",
+      "design arts",
+      "creative arts"
+    ],
+    "reviewMetrics": [
+      "Teaching quality",
+      "Workload fairness",
+      "Assessment design"
+    ]
+  },
+  {
+    "id": "ENGL2022",
+    "type": "course",
+    "code": "ENGL2022",
+    "name": "Jane Austen History and Fiction",
+    "college": "ANU College of Arts and Social Sciences",
+    "school": "School of Literature, Languages and Linguistics",
+    "schoolCode": "SOLLA",
+    "level": "UGRD",
+    "terms": [
+      "First Semester"
+    ],
+    "conveners": [],
+    "handbookUrl": "https://programsandcourses.anu.edu.au/course/engl2022",
+    "summary": "This interdisciplinary course will focus on five novels by Jane Austen: Sense and Sensibility , Pride and Prejudice, Mansfield Park , Emma and Persuasion . Each novel will provide a starting point from which we will explore the representation of broad themes of historical and literary significance relating to late eighteenth and early nineteenth century B...",
+    "tags": [
+      "english",
+      "gender studies",
+      "history",
+      "literature"
+    ],
+    "reviewMetrics": [
+      "Teaching quality",
+      "Workload fairness",
+      "Assessment design"
+    ]
+  },
+  {
+    "id": "ENGL2023",
+    "type": "course",
+    "code": "ENGL2023",
+    "name": "Feeling Bad in Contemporary Literature",
+    "college": "ANU College of Arts and Social Sciences",
+    "school": "School of Literature, Languages and Linguistics",
+    "schoolCode": "SOLLA",
+    "level": "UGRD",
+    "terms": [
+      "Second Semester"
+    ],
+    "conveners": [],
+    "handbookUrl": "https://programsandcourses.anu.edu.au/course/engl2023",
+    "summary": "While statistics tell us that life is steadily getting better, many experience the contemporary through a kind of malaise, or in other words, feeling bad. This course examines how key sites of negative affect in today’s culture—illness, trauma and death—shape our understanding of feeling as a collective event.",
+    "tags": [
+      "english"
+    ],
+    "reviewMetrics": [
+      "Teaching quality",
+      "Workload fairness",
+      "Assessment design"
+    ]
+  },
+  {
+    "id": "ENGL2027",
+    "type": "course",
+    "code": "ENGL2027",
+    "name": "Queens, Tyrants, Traitors: Power Play on the Early Modern Stage",
+    "college": "ANU College of Arts and Social Sciences",
+    "school": "School of Literature, Languages and Linguistics",
+    "schoolCode": "SOLLA",
+    "level": "UGRD",
+    "terms": [
+      "See ANU course page"
+    ],
+    "conveners": [],
+    "handbookUrl": "https://programsandcourses.anu.edu.au/course/engl2027",
+    "summary": "The reign of Elizabeth I fostered a new social technology – the public theatre – and with it an explosion of playwriting that has influenced how we think about power and public identity to this day. The Queen staged her authority in elaborate rituals, called herself a ‘prince’, declined to marry, and produced no direct heir.",
+    "tags": [
+      "engl"
+    ],
+    "reviewMetrics": [
+      "Teaching quality",
+      "Workload fairness",
+      "Assessment design"
+    ]
+  },
+  {
+    "id": "ENGL2040",
+    "type": "course",
+    "code": "ENGL2040",
+    "name": "The Making of Literature: Topics in Literary Production and Reception",
+    "college": "ANU College of Arts and Social Sciences",
+    "school": "School of Literature, Languages and Linguistics",
+    "schoolCode": "SOLLA",
+    "level": "UGRD",
+    "terms": [
+      "First Semester"
+    ],
+    "conveners": [],
+    "handbookUrl": "https://programsandcourses.anu.edu.au/course/engl2040",
+    "summary": "This course examines questions of how literary texts are produced and read. It introduces students to the back story of literary works, examining how they come to take their eventual form on the page or stage, and what happens to them once they are made.",
+    "tags": [
+      "drama",
+      "english",
+      "history"
+    ],
+    "reviewMetrics": [
+      "Teaching quality",
+      "Workload fairness",
+      "Assessment design"
+    ]
+  },
+  {
+    "id": "ENGL2067",
+    "type": "course",
+    "code": "ENGL2067",
+    "name": "Adaptation: From Text to Screen",
+    "college": "ANU College of Arts and Social Sciences",
+    "school": "School of Literature, Languages and Linguistics",
+    "schoolCode": "SOLLA",
+    "level": "UGRD",
+    "terms": [
+      "See ANU course page"
+    ],
+    "conveners": [],
+    "handbookUrl": "https://programsandcourses.anu.edu.au/course/engl2067",
+    "summary": "Cinematic adaptations of novels, short stories and plays have dominated the box office and film industry awards for some decades, often provoking fierce debate about their fidelity, or otherwise, to the original; discussions about how the text has been transformed, cut and downright ruined, or, conversely, how the film has 'rescued' the novel, making it s...",
+    "tags": [
+      "cultural studies",
+      "english",
+      "film"
+    ],
+    "reviewMetrics": [
+      "Teaching quality",
+      "Workload fairness",
+      "Assessment design"
+    ]
+  },
+  {
+    "id": "ENGL2068",
+    "type": "course",
+    "code": "ENGL2068",
+    "name": "Empire: the Black Atlantic and Colonial Romanticism",
+    "college": "ANU College of Arts and Social Sciences",
+    "school": "School of Literature, Languages and Linguistics",
+    "schoolCode": "SOLLA",
+    "level": "UGRD",
+    "terms": [
+      "See ANU course page"
+    ],
+    "conveners": [],
+    "handbookUrl": "https://programsandcourses.anu.edu.au/course/engl2068",
+    "summary": "This course examines eighteenth and nineteenth-century literature in the context of Western, and especially British imperialism. Questions we will ask include: what is empire and how does it shape literature?",
+    "tags": [
+      "english"
+    ],
+    "reviewMetrics": [
+      "Teaching quality",
+      "Workload fairness",
+      "Assessment design"
+    ]
+  },
+  {
+    "id": "ENGL2077",
+    "type": "course",
+    "code": "ENGL2077",
+    "name": "Creative Writing 2: Story to Script to Performance",
+    "college": "ANU College of Arts and Social Sciences",
+    "school": "School of Literature, Languages and Linguistics",
+    "schoolCode": "SOLLA",
+    "level": "UGRD",
+    "terms": [
+      "Second Semester"
+    ],
+    "conveners": [],
+    "handbookUrl": "https://programsandcourses.anu.edu.au/course/engl2077",
+    "summary": "In this course, students will come up with an idea for a film or short play. They will write a treatment, short story or synopsis based on this initial concept, and shape the story into a script.",
+    "tags": [
+      "english"
+    ],
+    "reviewMetrics": [
+      "Teaching quality",
+      "Workload fairness",
+      "Assessment design"
+    ]
+  },
+  {
+    "id": "ENGL2085",
+    "type": "course",
+    "code": "ENGL2085",
+    "name": "Strange Home: Rethinking Australian Literature",
+    "college": "ANU College of Arts and Social Sciences",
+    "school": "School of Literature, Languages and Linguistics",
+    "schoolCode": "SOLLA",
+    "level": "UGRD",
+    "terms": [
+      "First Semester"
+    ],
+    "conveners": [],
+    "handbookUrl": "https://programsandcourses.anu.edu.au/course/engl2085",
+    "summary": "This course rethinks ‘Australian literature’ as it is often conceived by foregrounding First Nations creative and critical production. It will not tell a story about the spirit of the pioneers or being at home in landscape.",
+    "tags": [
+      "drama",
+      "english",
+      "film"
+    ],
+    "reviewMetrics": [
+      "Teaching quality",
+      "Workload fairness",
+      "Assessment design"
+    ]
+  },
+  {
+    "id": "ENGL2087",
+    "type": "course",
+    "code": "ENGL2087",
+    "name": "Reality Effects: Truth, Representation and Narrative Form",
+    "college": "ANU College of Arts and Social Sciences",
+    "school": "School of Literature, Languages and Linguistics",
+    "schoolCode": "SOLLA",
+    "level": "UGRD",
+    "terms": [
+      "See ANU course page"
+    ],
+    "conveners": [],
+    "handbookUrl": "https://programsandcourses.anu.edu.au/course/engl2087",
+    "summary": "This course investigates a diversity of texts—which may include literary texts, plays, films, and graphic novels—from the nineteenth century to the present, in order to examine the different “truth claims” that these texts make, and the different ways that they purport to represent reality. Such texts inevitably confront questions of gender, sexuality, ra...",
+    "tags": [
+      "english"
+    ],
+    "reviewMetrics": [
+      "Teaching quality",
+      "Workload fairness",
+      "Assessment design"
+    ]
+  },
+  {
+    "id": "ENGL2111",
+    "type": "course",
+    "code": "ENGL2111",
+    "name": "Imaginary Journeys: Writing Travel in Australian Literature and Film",
+    "college": "ANU College of Arts and Social Sciences",
+    "school": "School of Literature, Languages and Linguistics",
+    "schoolCode": "SOLLA",
+    "level": "UGRD",
+    "terms": [
+      "See ANU course page"
+    ],
+    "conveners": [],
+    "handbookUrl": "https://programsandcourses.anu.edu.au/course/engl2111",
+    "summary": "Where and how do we encounter the traveller? This course will explore the spiralling routes of travellers and their imaginings as they confront sites of contact, connection and exchange in writing Australia.",
+    "tags": [
+      "english",
+      "literature",
+      "film"
+    ],
+    "reviewMetrics": [
+      "Teaching quality",
+      "Workload fairness",
+      "Assessment design"
+    ]
+  },
+  {
+    "id": "ENGL2116",
+    "type": "course",
+    "code": "ENGL2116",
+    "name": "Televisual: Investigating Narrative Television",
+    "college": "ANU College of Arts and Social Sciences",
+    "school": "School of Literature, Languages and Linguistics",
+    "schoolCode": "SOLLA",
+    "level": "UGRD",
+    "terms": [
+      "First Semester"
+    ],
+    "conveners": [],
+    "handbookUrl": "https://programsandcourses.anu.edu.au/course/engl2116",
+    "summary": "Whether you are watching 'Game of Thrones' on television, downloading the latest episode to your laptop of or discussing it or any other 'longform' series on social media, you are engaging with a narrative form that dominates the contemporary mediascape. ‘Televisual’ invites you to explore the significance of ‘narrative television’ and its impact on how s...",
+    "tags": [
+      "cultural studies",
+      "english",
+      "gender studies",
+      "digital humanities"
+    ],
+    "reviewMetrics": [
+      "Teaching quality",
+      "Workload fairness",
+      "Assessment design"
+    ]
+  },
+  {
+    "id": "ENGL2222",
+    "type": "course",
+    "code": "ENGL2222",
+    "name": "Great Writers: Special Topics in Gender, Authorship and History",
+    "college": "ANU College of Arts and Social Sciences",
+    "school": "School of Literature, Languages and Linguistics",
+    "schoolCode": "SOLLA",
+    "level": "UGRD",
+    "terms": [
+      "Second Semester"
+    ],
+    "conveners": [],
+    "handbookUrl": "https://programsandcourses.anu.edu.au/course/engl2222",
+    "summary": "This interdisciplinary course will focus on novels, plays and life writing by canonical authors such as Jane Austen, William Shakespeare and Virginia Woolf or newly canonical writers like Ian McEwan, Zadie Smith and Sarah Waters. The course provides the opportunity to delve deeply into the life, works and sociohistorical contexts of a writer deemed 'great...",
+    "tags": [
+      "cultural studies",
+      "drama",
+      "english",
+      "gender studies"
+    ],
+    "reviewMetrics": [
+      "Teaching quality",
+      "Workload fairness",
+      "Assessment design"
+    ]
+  },
+  {
+    "id": "ENGL2230",
+    "type": "course",
+    "code": "ENGL2230",
+    "name": "Poetry and Activism",
+    "college": "ANU College of Arts and Social Sciences",
+    "school": "School of Literature, Languages and Linguistics",
+    "schoolCode": "SOLLA",
+    "level": "UGRD",
+    "terms": [
+      "See ANU course page"
+    ],
+    "conveners": [],
+    "handbookUrl": "https://programsandcourses.anu.edu.au/course/engl2230",
+    "summary": "This course introduces students to a broad range of poets and poetic movements from the Renaissance through to the present day, with a focus on the 20thC. No prior knowledge is assumed.",
+    "tags": [
+      "english"
+    ],
+    "reviewMetrics": [
+      "Teaching quality",
+      "Workload fairness",
+      "Assessment design"
+    ]
+  },
+  {
+    "id": "ENGL2789",
+    "type": "course",
+    "code": "ENGL2789",
+    "name": "Writing Climate: Form and Crisis",
+    "college": "ANU College of Arts and Social Sciences",
+    "school": "School of Literature, Languages and Linguistics",
+    "schoolCode": "SOLLA",
+    "level": "UGRD",
+    "terms": [
+      "Second Semester"
+    ],
+    "conveners": [],
+    "handbookUrl": "https://programsandcourses.anu.edu.au/course/engl2789",
+    "summary": "This course asks: what is unique about literary representations of environmental questions? What can a poem say about climate change that a novel can’t, and vice-versa?",
+    "tags": [
+      "english"
+    ],
+    "reviewMetrics": [
+      "Teaching quality",
+      "Workload fairness",
+      "Assessment design"
+    ]
+  },
+  {
+    "id": "ENGL3005",
+    "type": "course",
+    "code": "ENGL3005",
+    "name": "The Evolution of Comedy: Early Modern to Eighteenth Century",
+    "college": "ANU College of Arts and Social Sciences",
+    "school": "School of Literature, Languages and Linguistics",
+    "schoolCode": "SOLLA",
+    "level": "UGRD",
+    "terms": [
+      "First Semester"
+    ],
+    "conveners": [],
+    "handbookUrl": "https://programsandcourses.anu.edu.au/course/engl3005",
+    "summary": "Is comedy just for laughs? Does it have a serious purpose? Is humour time-bound?",
+    "tags": [
+      "drama",
+      "english"
+    ],
+    "reviewMetrics": [
+      "Teaching quality",
+      "Workload fairness",
+      "Assessment design"
+    ]
+  },
+  {
+    "id": "ENGL3008",
+    "type": "course",
+    "code": "ENGL3008",
+    "name": "The Meaning of Monsters: Frankenstein and Literary Theory",
+    "college": "ANU College of Arts and Social Sciences",
+    "school": "School of Literature, Languages and Linguistics",
+    "schoolCode": "SOLLA",
+    "level": "UGRD",
+    "terms": [
+      "See ANU course page"
+    ],
+    "conveners": [],
+    "handbookUrl": "https://programsandcourses.anu.edu.au/course/engl3008",
+    "summary": "This course provides students with a grounding in some of the major theoretical approaches in literary studies. It does this through detailed study of a single text, Frankenstein (1818), as well as a selection of film interpretations.",
+    "tags": [
+      "english",
+      "literature"
+    ],
+    "reviewMetrics": [
+      "Teaching quality",
+      "Workload fairness",
+      "Assessment design"
+    ]
+  },
+  {
+    "id": "ENGL3021",
+    "type": "course",
+    "code": "ENGL3021",
+    "name": "American Literature: Nature, Retreat, Experiment",
+    "college": "ANU College of Arts and Social Sciences",
+    "school": "School of Literature, Languages and Linguistics",
+    "schoolCode": "SOLLA",
+    "level": "UGRD",
+    "terms": [
+      "See ANU course page"
+    ],
+    "conveners": [],
+    "handbookUrl": "https://programsandcourses.anu.edu.au/course/engl3021",
+    "summary": "This course invites you to engage closely with works of fiction and non-fiction that exemplify and experiment with ‘nature’ and ‘retreat’ as concepts central to American aesthetics. You will be introduced to theories about both ‘nature’ and ‘retreat’, while exploring aesthetic and philosophical experiments with these concepts.",
+    "tags": [
+      "english",
+      "history",
+      "literature",
+      "creative arts"
+    ],
+    "reviewMetrics": [
+      "Teaching quality",
+      "Workload fairness",
+      "Assessment design"
+    ]
+  },
+  {
+    "id": "ENGL3022",
+    "type": "course",
+    "code": "ENGL3022",
+    "name": "Make It New: Innovation and Experiment in Modernist Literature, 1910-1940",
+    "college": "ANU College of Arts and Social Sciences",
+    "school": "School of Literature, Languages and Linguistics",
+    "schoolCode": "SOLLA",
+    "level": "UGRD",
+    "terms": [
+      "See ANU course page"
+    ],
+    "conveners": [],
+    "handbookUrl": "https://programsandcourses.anu.edu.au/course/engl3022",
+    "summary": "This course examines a range of literary works from 1910-1940, a period sometimes known as 'High Modernism' and exemplified by Ezra Pound’s slogan ‘Make It New’. The course explores how writers responded to the tumultuous changes of the early twentieth century by engaging in a radical dismantling of the literary forms and conventions of the previous centu...",
+    "tags": [
+      "english",
+      "literature"
+    ],
+    "reviewMetrics": [
+      "Teaching quality",
+      "Workload fairness",
+      "Assessment design"
+    ]
+  },
+  {
+    "id": "ENGL3036",
+    "type": "course",
+    "code": "ENGL3036",
+    "name": "Victorian Literature",
+    "college": "ANU College of Arts and Social Sciences",
+    "school": "School of Literature, Languages and Linguistics",
+    "schoolCode": "SOLLA",
+    "level": "UGRD",
+    "terms": [
+      "Second Semester"
+    ],
+    "conveners": [],
+    "handbookUrl": "https://programsandcourses.anu.edu.au/course/engl3036",
+    "summary": "The Victorian period was one of extraordinary achievement and activity in the literary field, fostered by increasing literacy rates, the expansion of circulating libraries and a proliferation of weekly periodicals, all of which served to make literature more accessible as the nineteenth century progressed. In this course we will read a variety of Victoria...",
+    "tags": [
+      "english",
+      "history",
+      "literature"
+    ],
+    "reviewMetrics": [
+      "Teaching quality",
+      "Workload fairness",
+      "Assessment design"
+    ]
+  },
+  {
+    "id": "ENGL3037",
+    "type": "course",
+    "code": "ENGL3037",
+    "name": "Literature, Law and Human Rights",
+    "college": "ANU College of Arts and Social Sciences",
+    "school": "School of Literature, Languages and Linguistics",
+    "schoolCode": "SOLLA",
+    "level": "UGRD",
+    "terms": [
+      "See ANU course page"
+    ],
+    "conveners": [],
+    "handbookUrl": "https://programsandcourses.anu.edu.au/course/engl3037",
+    "summary": "This course forms part of a new interdisciplinary and cross-College initiative. It introduces students to major research now undertaken that reflects the view that law is neither divorced from nor above the cultural forces and representations all around us.",
+    "tags": [
+      "gender studies",
+      "australian indigenous studies",
+      "law",
+      "human rights"
+    ],
+    "reviewMetrics": [
+      "Teaching quality",
+      "Workload fairness",
+      "Assessment design"
+    ]
+  },
+  {
+    "id": "ENGL3078",
+    "type": "course",
+    "code": "ENGL3078",
+    "name": "Advanced Creative Writing: Genre and Literary Value",
+    "college": "ANU College of Arts and Social Sciences",
+    "school": "School of Literature, Languages and Linguistics",
+    "schoolCode": "SOLLA",
+    "level": "UGRD",
+    "terms": [
+      "See ANU course page"
+    ],
+    "conveners": [],
+    "handbookUrl": "https://programsandcourses.anu.edu.au/course/engl3078",
+    "summary": "What is the value of contemporary fiction in a publishing milieu saturated with 'content'? And how can those who wish to write fiction navigate a landscape where the novel has been declared dead, and the study of literature is allegedly in a state of crisis?",
+    "tags": [
+      "english"
+    ],
+    "reviewMetrics": [
+      "Teaching quality",
+      "Workload fairness",
+      "Assessment design"
+    ]
+  },
+  {
+    "id": "ENGL3100",
+    "type": "course",
+    "code": "ENGL3100",
+    "name": "English Capstone: Understanding, Communicating, Creating",
+    "college": "ANU College of Arts and Social Sciences",
+    "school": "School of Literature, Languages and Linguistics",
+    "schoolCode": "SOLLA",
+    "level": "UGRD",
+    "terms": [
+      "Second Semester"
+    ],
+    "conveners": [],
+    "handbookUrl": "https://programsandcourses.anu.edu.au/course/engl3100",
+    "summary": "The English Capstone at the ANU offers students a unique opportunity to engage more deeply with the English program’s rich offerings in literature, drama, screen, publishing, and creative writing. As a culminating experience for English majors, this subject provides a platform for students to showcase their love of literature while demonstrating their dis...",
+    "tags": [
+      "english"
+    ],
+    "reviewMetrics": [
+      "Teaching quality",
+      "Workload fairness",
+      "Assessment design"
+    ]
+  },
+  {
+    "id": "ENGN3013",
+    "type": "course",
+    "code": "ENGN3013",
+    "name": "Engineering for a Humanitarian Context",
+    "college": "ANU College of Systems and Society",
+    "school": "School of Engineering",
+    "schoolCode": "SOE",
+    "level": "UGRD",
+    "terms": [
+      "Summer Session",
+      "Winter Session"
+    ],
+    "conveners": [],
+    "handbookUrl": "https://programsandcourses.anu.edu.au/course/engn3013",
+    "summary": "Effective engineering design and technology plays a significant role for humanitarian contexts. These contexts can range in time - from disaster preparedness and response, to long-term sustainable community development - and in geographic scale - from urban to rural and remote, within our own communities and internationally.",
+    "tags": [
+      "asian languages",
+      "health medicine and the body",
+      "photonics",
+      "clinical psychology"
+    ],
+    "reviewMetrics": [
+      "Teaching quality",
+      "Workload fairness",
+      "Assessment design"
+    ]
+  },
+  {
     "id": "ENVS1003",
     "type": "course",
     "code": "ENVS1003",
@@ -15463,6 +17771,33 @@ window.ANREVIEW_DATA = {
       "geography",
       "interdisciplinary studies - sust",
       "environmental studies"
+    ],
+    "reviewMetrics": [
+      "Teaching quality",
+      "Workload fairness",
+      "Assessment design"
+    ]
+  },
+  {
+    "id": "ENVS2005",
+    "type": "course",
+    "code": "ENVS2005",
+    "name": "Island Sustainable Development: Fiji Field School",
+    "college": "ANU College of Systems and Society",
+    "school": "Fenner School of Environment and Society",
+    "schoolCode": "FSOEA",
+    "level": "UGRD",
+    "terms": [
+      "Winter Session"
+    ],
+    "conveners": [],
+    "handbookUrl": "https://programsandcourses.anu.edu.au/course/envs2005",
+    "summary": "Small island states face considerable challenges as they attempt to achieve sustainable development. Particular challenges for these nations were recognised in the 1984 Barbados Programme of Action for Small Island Developing States and in the 2014 SAMOA Pathway.",
+    "tags": [
+      "geography",
+      "human ecology",
+      "development studies",
+      "pacific studies"
     ],
     "reviewMetrics": [
       "Teaching quality",
@@ -15517,6 +17852,60 @@ window.ANREVIEW_DATA = {
       "interdisciplinary studies - sust",
       "development studies",
       "environmental studies"
+    ],
+    "reviewMetrics": [
+      "Teaching quality",
+      "Workload fairness",
+      "Assessment design"
+    ]
+  },
+  {
+    "id": "ENVS2017",
+    "type": "course",
+    "code": "ENVS2017",
+    "name": "Vietnam Field School",
+    "college": "ANU College of Systems and Society",
+    "school": "Fenner School of Environment and Society",
+    "schoolCode": "FSOEA",
+    "level": "UGRD",
+    "terms": [
+      "Spring Session"
+    ],
+    "conveners": [],
+    "handbookUrl": "https://programsandcourses.anu.edu.au/course/envs2017",
+    "summary": "The course introduces students to contemporary Southeast Asia by focusing on case studies from southern Vietnam. The emphasis is on integrating formal learning with first-hand research experience.",
+    "tags": [
+      "geography",
+      "anthropology",
+      "cultural studies",
+      "development studies"
+    ],
+    "reviewMetrics": [
+      "Teaching quality",
+      "Workload fairness",
+      "Assessment design"
+    ]
+  },
+  {
+    "id": "ENVS2023",
+    "type": "course",
+    "code": "ENVS2023",
+    "name": "Sustainable Agricultural Systems",
+    "college": "ANU College of Systems and Society",
+    "school": "Fenner School of Environment and Society",
+    "schoolCode": "FSOEA",
+    "level": "UGRD",
+    "terms": [
+      "First Semester"
+    ],
+    "conveners": [],
+    "handbookUrl": "https://programsandcourses.anu.edu.au/course/envs2023",
+    "summary": "The sustainability of agri-food systems is examined in this course from a complex systems and value-chain perspective. The course will evaluate agricultural systems in Australia and internationally at a local, national and global scale.",
+    "tags": [
+      "geography",
+      "human ecology",
+      "environmental science",
+      "sustainability science"
     ],
     "reviewMetrics": [
       "Teaching quality",
@@ -15928,6 +18317,109 @@ window.ANREVIEW_DATA = {
     ]
   },
   {
+    "id": "FREN3515",
+    "type": "course",
+    "code": "FREN3515",
+    "name": "The Sounds of French: Phonetics and Pronunciation",
+    "college": "ANU College of Arts and Social Sciences",
+    "school": "School of Literature, Languages and Linguistics",
+    "schoolCode": "SOLLA",
+    "level": "UGRD",
+    "terms": [
+      "See ANU course page"
+    ],
+    "conveners": [],
+    "handbookUrl": "https://programsandcourses.anu.edu.au/course/fren3515",
+    "summary": "This course is designed to help students develop the necessary skills to improve their pronunciation and understanding of spoken French. It combines an examination of how French sounds are produced and how they differ from English sounds, with practical exercises in oral practice, sound discrimination, and phonetic transcription.",
+    "tags": [
+      "european languages",
+      "linguistics and applied linguist",
+      "language studies"
+    ],
+    "reviewMetrics": [
+      "Teaching quality",
+      "Workload fairness",
+      "Assessment design"
+    ]
+  },
+  {
+    "id": "GEND2023",
+    "type": "course",
+    "code": "GEND2023",
+    "name": "Gender, Sex and Sexuality: An Introduction to Feminist Theory",
+    "college": "ANU College of Arts and Social Sciences",
+    "school": "School of Sociology",
+    "schoolCode": "SOS",
+    "level": "UGRD",
+    "terms": [
+      "Second Semester"
+    ],
+    "conveners": [],
+    "handbookUrl": "https://programsandcourses.anu.edu.au/course/gend2023",
+    "summary": "This course will develop students' understanding of concepts and theories of gender and sex, as well as examining the aims of feminist theory in general. The course will trace changes from the late 1960s to the present in the status of the categories of 'women', 'gender' and ‘sexuality’ as foundational concepts in feminist theory.",
+    "tags": [
+      "gender studies"
+    ],
+    "reviewMetrics": [
+      "Teaching quality",
+      "Workload fairness",
+      "Assessment design"
+    ]
+  },
+  {
+    "id": "GEND2037",
+    "type": "course",
+    "code": "GEND2037",
+    "name": "Young People, Sex and Consent",
+    "college": "ANU College of Arts and Social Sciences",
+    "school": "School of Sociology",
+    "schoolCode": "SOS",
+    "level": "UGRD",
+    "terms": [
+      "First Semester",
+      "Second Semester"
+    ],
+    "conveners": [],
+    "handbookUrl": "https://programsandcourses.anu.edu.au/course/gend2037",
+    "summary": "This course investigates intersections between young people, sex and consent across diverse disciplines and contexts. Relationships between sex, consent, gender, class and criminalisation are also studied as well as social and biological understandings of young people and sexual development.",
+    "tags": [
+      "cultural studies",
+      "gender studies",
+      "sociology",
+      "public health"
+    ],
+    "reviewMetrics": [
+      "Teaching quality",
+      "Workload fairness",
+      "Assessment design"
+    ]
+  },
+  {
+    "id": "GEND3016",
+    "type": "course",
+    "code": "GEND3016",
+    "name": "Writing Lives: Autobiography in Fiction and Memoir",
+    "college": "ANU College of Arts and Social Sciences",
+    "school": "School of Literature, Languages and Linguistics",
+    "schoolCode": "SOLLA",
+    "level": "UGRD",
+    "terms": [
+      "See ANU course page"
+    ],
+    "conveners": [],
+    "handbookUrl": "https://programsandcourses.anu.edu.au/course/gend3016",
+    "summary": "This course introduces students to a range of genres of life writing, including autobiography, memoir, autobiographical fiction, graphic memoir, testimony and biography. The course will begin with the 18th century origins of life writing, but the focus will be on 20th and 21st century literature.",
+    "tags": [
+      "english",
+      "gender studies"
+    ],
+    "reviewMetrics": [
+      "Teaching quality",
+      "Workload fairness",
+      "Assessment design"
+    ]
+  },
+  {
     "id": "HIST1209",
     "type": "course",
     "code": "HIST1209",
@@ -16007,6 +18499,33 @@ window.ANREVIEW_DATA = {
     ]
   },
   {
+    "id": "HIST2070",
+    "type": "course",
+    "code": "HIST2070",
+    "name": "Emperors, Pilgrims and Crusaders: The World of Byzantium",
+    "college": "ANU College of Arts and Social Sciences",
+    "school": "School of History",
+    "schoolCode": "SOH",
+    "level": "UGRD",
+    "terms": [
+      "Second Semester"
+    ],
+    "conveners": [],
+    "handbookUrl": "https://programsandcourses.anu.edu.au/course/hist2070",
+    "summary": "Emperors, Pilgrims and Crusaders explores the world of Byzantium, highlighting its vibrance, sophistication and centrality to our understanding of the medieval world. This was the world which witnessed the foundation of the city of the Constantinople in the fourth century AD and its gradual establishment as the capital of the eastern Roman empire, survivi...",
+    "tags": [
+      "arab and islamic studies",
+      "art history",
+      "classics and ancient history",
+      "history"
+    ],
+    "reviewMetrics": [
+      "Teaching quality",
+      "Workload fairness",
+      "Assessment design"
+    ]
+  },
+  {
     "id": "HIST2110",
     "type": "course",
     "code": "HIST2110",
@@ -16075,6 +18594,108 @@ window.ANREVIEW_DATA = {
       "contemporary europe",
       "history",
       "international relations"
+    ],
+    "reviewMetrics": [
+      "Teaching quality",
+      "Workload fairness",
+      "Assessment design"
+    ]
+  },
+  {
+    "id": "HIST2196",
+    "type": "course",
+    "code": "HIST2196",
+    "name": "From the Romans to the Anglo-Saxons: Early Medieval Europe c. 400-1000 CE",
+    "college": "ANU College of Arts and Social Sciences",
+    "school": "School of History",
+    "schoolCode": "SOH",
+    "level": "UGRD",
+    "terms": [
+      "See ANU course page"
+    ],
+    "conveners": [],
+    "handbookUrl": "https://programsandcourses.anu.edu.au/course/hist2196",
+    "summary": "From the Romans to the Anglo-Saxons delves into the rich and compelling world of early medieval Europe. This course explores the final centuries of the later Roman empire and its disintegration in the West, followed by the rise of dynamic new successor kingdoms in its place, in the form of the Ostrogoths in Italy, the Franks in Gaul, the Visigoths in Spai...",
+    "tags": [
+      "classics and ancient history",
+      "history",
+      "european studies",
+      "politics"
+    ],
+    "reviewMetrics": [
+      "Teaching quality",
+      "Workload fairness",
+      "Assessment design"
+    ]
+  },
+  {
+    "id": "HIST2205",
+    "type": "course",
+    "code": "HIST2205",
+    "name": "Europe and the Atlantic World, c.1492—1776.",
+    "college": "ANU College of Arts and Social Sciences",
+    "school": "School of History",
+    "schoolCode": "SOH",
+    "level": "UGRD",
+    "terms": [
+      "First Semester"
+    ],
+    "conveners": [],
+    "handbookUrl": "https://programsandcourses.anu.edu.au/course/hist2205",
+    "summary": "An introduction to Atlantic history and the study of the various socio-cultural, political, economic and material relationships which came to link Europe, Africa, and the Americas; their formation, mutual influence and impact, and, in some instances, transformation or dissolution. Principal themes will be how historians study premodern American peoples; w...",
+    "tags": [
+      "history"
+    ],
+    "reviewMetrics": [
+      "Teaching quality",
+      "Workload fairness",
+      "Assessment design"
+    ]
+  },
+  {
+    "id": "HIST2206",
+    "type": "course",
+    "code": "HIST2206",
+    "name": "The Great War’s Battlefields: A Study Tour of Gallipoli, the Western Front and Paris",
+    "college": "ANU College of Arts and Social Sciences",
+    "school": "School of History",
+    "schoolCode": "SOH",
+    "level": "UGRD",
+    "terms": [
+      "See ANU course page"
+    ],
+    "conveners": [],
+    "handbookUrl": "https://programsandcourses.anu.edu.au/course/hist2206",
+    "summary": "War alters individuals and landscapes. It is a central element in national identity, memory and memorialisation. This course centres on a 18-day intensive study tour retracing the First World War with a focus on Australia’s war in 1915-1919 across Gallipoli and the Western Front.",
+    "tags": [
+      "history",
+      "international affairs",
+      "heritage studies"
+    ],
+    "reviewMetrics": [
+      "Teaching quality",
+      "Workload fairness",
+      "Assessment design"
+    ]
+  },
+  {
+    "id": "HIST2211",
+    "type": "course",
+    "code": "HIST2211",
+    "name": "Global Environmental History Since 1945",
+    "college": "ANU College of Arts and Social Sciences",
+    "school": "School of History",
+    "schoolCode": "SOH",
+    "level": "UGRD",
+    "terms": [
+      "See ANU course page"
+    ],
+    "conveners": [],
+    "handbookUrl": "https://programsandcourses.anu.edu.au/course/hist2211",
+    "summary": "How can history help us understand the environmental problems we face today? What has shaped the relationships between people and environments in the past?",
+    "tags": [
+      "environmental studies",
+      "history"
     ],
     "reviewMetrics": [
       "Teaching quality",
@@ -16184,6 +18805,57 @@ window.ANREVIEW_DATA = {
     ]
   },
   {
+    "id": "HIST2231",
+    "type": "course",
+    "code": "HIST2231",
+    "name": "Exploration: From Captain Cook to the Astronauts",
+    "college": "ANU College of Arts and Social Sciences",
+    "school": "School of History",
+    "schoolCode": "SOH",
+    "level": "UGRD",
+    "terms": [
+      "See ANU course page"
+    ],
+    "conveners": [],
+    "handbookUrl": "https://programsandcourses.anu.edu.au/course/hist2231",
+    "summary": "This course traces the history of Western exploration of the Americas, Australasia, Africa, Antarctica and beyond from the 18th to the 20th centuries. It will examine the ways in which Western travellers and explorers ventured out into the world beyond Europe, and how they sought to make sense of the environments and peoples they encountered.",
+    "tags": [
+      "australian studies",
+      "environmental studies",
+      "australian indigenous studies",
+      "pacific studies"
+    ],
+    "reviewMetrics": [
+      "Teaching quality",
+      "Workload fairness",
+      "Assessment design"
+    ]
+  },
+  {
+    "id": "HIST2232",
+    "type": "course",
+    "code": "HIST2232",
+    "name": "Crime and Justice: Historical Dilemmas",
+    "college": "ANU College of Arts and Social Sciences",
+    "school": "School of History",
+    "schoolCode": "SOH",
+    "level": "UGRD",
+    "terms": [
+      "First Semester"
+    ],
+    "conveners": [],
+    "handbookUrl": "https://programsandcourses.anu.edu.au/course/hist2232",
+    "summary": "'Crime' and 'justice' are frequently considered to be opposites. But are they? This course uses historical case studies to explore criminal justice dilemmas in the Western world, from the Enlightenment to the mid-twentieth century.",
+    "tags": [
+      "hist"
+    ],
+    "reviewMetrics": [
+      "Teaching quality",
+      "Workload fairness",
+      "Assessment design"
+    ]
+  },
+  {
     "id": "HIST2240",
     "type": "course",
     "code": "HIST2240",
@@ -16231,6 +18903,160 @@ window.ANREVIEW_DATA = {
       "international relations",
       "political sciences",
       "european studies"
+    ],
+    "reviewMetrics": [
+      "Teaching quality",
+      "Workload fairness",
+      "Assessment design"
+    ]
+  },
+  {
+    "id": "HIST2252",
+    "type": "course",
+    "code": "HIST2252",
+    "name": "Twentieth Century America: Building a Global Hegemon",
+    "college": "ANU College of Arts and Social Sciences",
+    "school": "School of History",
+    "schoolCode": "SOH",
+    "level": "UGRD",
+    "terms": [
+      "Second Semester"
+    ],
+    "conveners": [],
+    "handbookUrl": "https://programsandcourses.anu.edu.au/course/hist2252",
+    "summary": "How did the United States of America become one of the most powerful nations in the world? What political, economic, military, and cultural processes transformed it from a continental power in the 1900 to a global hegemon by the century’s end?",
+    "tags": [
+      "american studies",
+      "history",
+      "international relations",
+      "political sciences"
+    ],
+    "reviewMetrics": [
+      "Teaching quality",
+      "Workload fairness",
+      "Assessment design"
+    ]
+  },
+  {
+    "id": "HIST3007",
+    "type": "course",
+    "code": "HIST3007",
+    "name": "Making History",
+    "college": "ANU College of Arts and Social Sciences",
+    "school": "School of History",
+    "schoolCode": "SOH",
+    "level": "UGRD",
+    "terms": [
+      "Second Semester"
+    ],
+    "conveners": [],
+    "handbookUrl": "https://programsandcourses.anu.edu.au/course/hist3007",
+    "summary": "This course aims to induct students into the historian's craft. In particular, it will assist students to undertake an historical research project using primary source materials, and to present their work in a form appropriate to its subject matter, purpose and audience.",
+    "tags": [
+      "history"
+    ],
+    "reviewMetrics": [
+      "Teaching quality",
+      "Workload fairness",
+      "Assessment design"
+    ]
+  },
+  {
+    "id": "HIST3012",
+    "type": "course",
+    "code": "HIST3012",
+    "name": "Topics in History",
+    "college": "ANU College of Arts and Social Sciences",
+    "school": "School of History",
+    "schoolCode": "SOH",
+    "level": "UGRD",
+    "terms": [
+      "First Semester",
+      "Second Semester"
+    ],
+    "conveners": [],
+    "handbookUrl": "https://programsandcourses.anu.edu.au/course/hist3012",
+    "summary": "This advanced undergraduate course enables students to study a range of exciting and important historical topics in collaboration with specialists in the field. The topics will vary from year to year, depending on the expertise of the convenor.",
+    "tags": [
+      "history"
+    ],
+    "reviewMetrics": [
+      "Teaching quality",
+      "Workload fairness",
+      "Assessment design"
+    ]
+  },
+  {
+    "id": "HIST3110",
+    "type": "course",
+    "code": "HIST3110",
+    "name": "Approaches to History",
+    "college": "ANU College of Arts and Social Sciences",
+    "school": "School of History",
+    "schoolCode": "SOH",
+    "level": "UGRD",
+    "terms": [
+      "First Semester"
+    ],
+    "conveners": [],
+    "handbookUrl": "https://programsandcourses.anu.edu.au/course/hist3110",
+    "summary": "This course will help you to become a better historian and a better analyst of historical research, narratives and representations. It examines the principles, strategies and assumptions underlying different forms of history.",
+    "tags": [
+      "history",
+      "philosophy"
+    ],
+    "reviewMetrics": [
+      "Teaching quality",
+      "Workload fairness",
+      "Assessment design"
+    ]
+  },
+  {
+    "id": "HIST3142",
+    "type": "course",
+    "code": "HIST3142",
+    "name": "Indigenous History, Memory and Politics",
+    "college": "ANU College of Arts and Social Sciences",
+    "school": "School of History",
+    "schoolCode": "SOH",
+    "level": "UGRD",
+    "terms": [
+      "See ANU course page"
+    ],
+    "conveners": [],
+    "handbookUrl": "https://programsandcourses.anu.edu.au/course/hist3142",
+    "summary": "This course examines the ways in which Indigenous people, in Australia and elsewhere, have assumed the right to tell their own histories of imperialism, colonialism and dispossession through diverse forms of memorialisation, performance, writing, art and other modes of meaning-making. The creative labour of Indigenous intellectuals, artists, filmmakers, w...",
+    "tags": [
+      "australian studies",
+      "cultural studies",
+      "history",
+      "australian indigenous studies"
+    ],
+    "reviewMetrics": [
+      "Teaching quality",
+      "Workload fairness",
+      "Assessment design"
+    ]
+  },
+  {
+    "id": "HLTH2001",
+    "type": "course",
+    "code": "HLTH2001",
+    "name": "Health Systems and Policy: An Introduction",
+    "college": "ANU College of Science and Medicine",
+    "school": "School of Medicine and Psychology",
+    "schoolCode": "SOMAP",
+    "level": "UGRD",
+    "terms": [
+      "First Semester"
+    ],
+    "conveners": [],
+    "handbookUrl": "https://programsandcourses.anu.edu.au/course/hlth2001",
+    "summary": "This course will provide students with an introduction to several health systems, various health policies, the concept of health stewardship and provide an opportunity to carry out a rudimentary analysis of health policy. The World Health Organisation model will be outlined and examined.",
+    "tags": [
+      "policy studies",
+      "public health",
+      "health"
     ],
     "reviewMetrics": [
       "Teaching quality",
@@ -16318,6 +19144,61 @@ window.ANREVIEW_DATA = {
     ]
   },
   {
+    "id": "INDG2003",
+    "type": "course",
+    "code": "INDG2003",
+    "name": "Gamilaraay - Introduction to an Australian Indigenous Language",
+    "college": "ANU College of Arts and Social Sciences",
+    "school": "School of Literature, Languages and Linguistics",
+    "schoolCode": "SOLLA",
+    "level": "UGRD",
+    "terms": [
+      "First Semester"
+    ],
+    "conveners": [],
+    "handbookUrl": "https://programsandcourses.anu.edu.au/course/indg2003",
+    "summary": "This course is a practical introduction to Gamilaraay, a heritage Indigenous Australian language whose custodians are reviving it . It is designed to develop basic speaking, listening, reading and writing skills at an introductory level, and to develop a knowledge and understanding of some elements of traditional and current culture, and the importance of...",
+    "tags": [
+      "australian studies",
+      "australian indigenous studies",
+      "linguistics and applied linguist",
+      "communications"
+    ],
+    "reviewMetrics": [
+      "Teaching quality",
+      "Workload fairness",
+      "Assessment design"
+    ]
+  },
+  {
+    "id": "INDG2004",
+    "type": "course",
+    "code": "INDG2004",
+    "name": "Continuing Gamilaraay",
+    "college": "ANU College of Arts and Social Sciences",
+    "school": "School of Literature, Languages and Linguistics",
+    "schoolCode": "SOLLA",
+    "level": "UGRD",
+    "terms": [
+      "Second Semester",
+      "Winter Session"
+    ],
+    "conveners": [],
+    "handbookUrl": "https://programsandcourses.anu.edu.au/course/indg2004",
+    "summary": "Students build on the language skills and understandings they have developed in INDG2003 to develop speaking, listening, reading and writing skills in Gamilaraay, an Indigenous Australian language, to develop a deeper knowledge and understanding of the relation between language, culture and society in the community of the speakers and to reflect on the pl...",
+    "tags": [
+      "australian studies",
+      "australian indigenous studies",
+      "linguistics and applied linguist",
+      "communications"
+    ],
+    "reviewMetrics": [
+      "Teaching quality",
+      "Workload fairness",
+      "Assessment design"
+    ]
+  },
+  {
     "id": "INDG3001",
     "type": "course",
     "code": "INDG3001",
@@ -16335,6 +19216,33 @@ window.ANREVIEW_DATA = {
     "tags": [
       "anthropology",
       "development studies",
+      "australian indigenous studies",
+      "policy studies"
+    ],
+    "reviewMetrics": [
+      "Teaching quality",
+      "Workload fairness",
+      "Assessment design"
+    ]
+  },
+  {
+    "id": "INDG3003",
+    "type": "course",
+    "code": "INDG3003",
+    "name": "First Peoples' economic self-determination and prosperity in the Australian economy",
+    "college": "ANU College of Arts and Social Sciences",
+    "school": "POLIS: The Centre for Social Policy Research",
+    "schoolCode": "PTCFS",
+    "level": "UGRD",
+    "terms": [
+      "Second Semester"
+    ],
+    "conveners": [],
+    "handbookUrl": "https://programsandcourses.anu.edu.au/course/indg3003",
+    "summary": "This is an economics course, designed for both economics students and non-economics students, the latter being introduced to basic economic concepts. With this knowledge, students have a unique opportunity to develop insight into the economic positioning of Indigenous Peoples in Australia, to critically analyse contemporary economic debates, policy and pr...",
+    "tags": [
+      "development studies",
+      "environmental studies",
       "australian indigenous studies",
       "policy studies"
     ],
@@ -16630,6 +19538,87 @@ window.ANREVIEW_DATA = {
     "summary": "The Asia-Pacific region is undergoing rapid changes that present both great opportunities and enormous challenges in a number of areas. The complex interactions across states, institutions, and local communities in the region will determine how the region addresses its major governance challenges, such terrorism, refugees, health, drugs, economic developm...",
     "tags": [
       "international relations"
+    ],
+    "reviewMetrics": [
+      "Teaching quality",
+      "Workload fairness",
+      "Assessment design"
+    ]
+  },
+  {
+    "id": "JPNS2024",
+    "type": "course",
+    "code": "JPNS2024",
+    "name": "Japanese Grammar and Expressions",
+    "college": "ANU College of Asia and the Pacific",
+    "school": "School of Culture History and Language",
+    "schoolCode": "SOCHA",
+    "level": "UGRD",
+    "terms": [
+      "First Semester"
+    ],
+    "conveners": [],
+    "handbookUrl": "https://programsandcourses.anu.edu.au/course/jpns2024",
+    "summary": "The course aims to provide a systematic treatment of modern Japanese grammar and vocabulary for intermediate students of the language. It examines various grammatical items and interrelations between Japanese words.",
+    "tags": [
+      "asian languages",
+      "asian studies",
+      "asia pacific studies",
+      "language studies"
+    ],
+    "reviewMetrics": [
+      "Teaching quality",
+      "Workload fairness",
+      "Assessment design"
+    ]
+  },
+  {
+    "id": "JPNS3012",
+    "type": "course",
+    "code": "JPNS3012",
+    "name": "Teaching Japanese",
+    "college": "ANU College of Asia and the Pacific",
+    "school": "School of Culture History and Language",
+    "schoolCode": "SOCHA",
+    "level": "UGRD",
+    "terms": [
+      "First Semester",
+      "Second Semester"
+    ],
+    "conveners": [],
+    "handbookUrl": "https://programsandcourses.anu.edu.au/course/jpns3012",
+    "summary": "Teaching Japanese is an advanced Japanese course that develops students’ knowledge and skills for teaching Japanese to English-speaking learners in Australia and beyond. Students critically engage with selected information to determine what to teach, how to teach, or both, as required.",
+    "tags": [
+      "asian languages",
+      "linguistics and applied linguist",
+      "language studies",
+      "asia-pacific studies"
+    ],
+    "reviewMetrics": [
+      "Teaching quality",
+      "Workload fairness",
+      "Assessment design"
+    ]
+  },
+  {
+    "id": "LANG3007",
+    "type": "course",
+    "code": "LANG3007",
+    "name": "Romance Linguistics",
+    "college": "ANU College of Arts and Social Sciences",
+    "school": "School of Literature, Languages and Linguistics",
+    "schoolCode": "SOLLA",
+    "level": "UGRD",
+    "terms": [
+      "First Semester"
+    ],
+    "conveners": [],
+    "handbookUrl": "https://programsandcourses.anu.edu.au/course/lang3007",
+    "summary": "The Romance family is one of the most widely-spoken and politically important language families, with historical written records going back over two millennia to the common linguistic ancestor, Latin. Given the vast number of living speakers and the richness of the historical record, this language family has formed an important test-bed for hypotheses abo...",
+    "tags": [
+      "european languages",
+      "european studies",
+      "linguistics"
     ],
     "reviewMetrics": [
       "Teaching quality",
@@ -18059,6 +21048,759 @@ window.ANREVIEW_DATA = {
     ]
   },
   {
+    "id": "LING1001",
+    "type": "course",
+    "code": "LING1001",
+    "name": "Language Unlocked: An Introduction to Linguistics",
+    "college": "ANU College of Arts and Social Sciences",
+    "school": "School of Literature, Languages and Linguistics",
+    "schoolCode": "SOLLA",
+    "level": "UGRD",
+    "terms": [
+      "First Semester"
+    ],
+    "conveners": [],
+    "handbookUrl": "https://programsandcourses.anu.edu.au/course/ling1001",
+    "summary": "This course gives an introduction to human language, its structure and how it can be described and analysed, as well as what all human languages have in common and how they differ. The methodology of linguistics (the scientific study of language) is introduced, focusing on the formulation of generalisations that say what all human languages share.",
+    "tags": [
+      "linguistics and applied linguist"
+    ],
+    "reviewMetrics": [
+      "Teaching quality",
+      "Workload fairness",
+      "Assessment design"
+    ]
+  },
+  {
+    "id": "LING1002",
+    "type": "course",
+    "code": "LING1002",
+    "name": "The Social Life of Language",
+    "college": "ANU College of Arts and Social Sciences",
+    "school": "School of Literature, Languages and Linguistics",
+    "schoolCode": "SOLLA",
+    "level": "UGRD",
+    "terms": [
+      "Second Semester"
+    ],
+    "conveners": [],
+    "handbookUrl": "https://programsandcourses.anu.edu.au/course/ling1002",
+    "summary": "In this course, we examine language in its social context, to answer a range of questions that are key to understanding the way language works. We survey and critically assess key concepts and methods that have been used in sociolinguistic research, examining language across different social settings, and as used by different social groups.",
+    "tags": [
+      "asian languages",
+      "european languages",
+      "linguistics and applied linguist",
+      "language studies"
+    ],
+    "reviewMetrics": [
+      "Teaching quality",
+      "Workload fairness",
+      "Assessment design"
+    ]
+  },
+  {
+    "id": "LING2003",
+    "type": "course",
+    "code": "LING2003",
+    "name": "Grammar of the World's Languages",
+    "college": "ANU College of Asia and the Pacific",
+    "school": "School of Culture History and Language",
+    "schoolCode": "SOCHA",
+    "level": "UGRD",
+    "terms": [
+      "Second Semester"
+    ],
+    "conveners": [],
+    "handbookUrl": "https://programsandcourses.anu.edu.au/course/ling2003",
+    "summary": "In this course students will learn about with a wide variety of sentence and word structures found across the world's languages, including languages of Australia and the Asia-Pacific region. The course showcases the rich diversity of expression in human language.",
+    "tags": [
+      "asian languages",
+      "european languages",
+      "linguistics and applied linguist",
+      "translation studies"
+    ],
+    "reviewMetrics": [
+      "Teaching quality",
+      "Workload fairness",
+      "Assessment design"
+    ]
+  },
+  {
+    "id": "LING2005",
+    "type": "course",
+    "code": "LING2005",
+    "name": "Language Across Time",
+    "college": "ANU College of Asia and the Pacific",
+    "school": "School of Culture History and Language",
+    "schoolCode": "SOCHA",
+    "level": "UGRD",
+    "terms": [
+      "Second Semester"
+    ],
+    "conveners": [],
+    "handbookUrl": "https://programsandcourses.anu.edu.au/course/ling2005",
+    "summary": "This course takes as its starting point the fact that all languages change over time. It explores explanations and motivations for change across different linguistic domains, and introduces students to cross-linguistic tendencies of language change and the linguistic and socio-cultural factors that underpin language continuity and change.",
+    "tags": [
+      "linguistics and applied linguist"
+    ],
+    "reviewMetrics": [
+      "Teaching quality",
+      "Workload fairness",
+      "Assessment design"
+    ]
+  },
+  {
+    "id": "LING2008",
+    "type": "course",
+    "code": "LING2008",
+    "name": "Semantics",
+    "college": "ANU College of Arts and Social Sciences",
+    "school": "School of Literature, Languages and Linguistics",
+    "schoolCode": "SOLLA",
+    "level": "UGRD",
+    "terms": [
+      "Second Semester"
+    ],
+    "conveners": [],
+    "handbookUrl": "https://programsandcourses.anu.edu.au/course/ling2008",
+    "summary": "This course introduces students to the basic problems in the study of meaning, in all areas of language (vocabulary, grammar, discourse). Students learn how to use a range of approaches to meaning analysis, including the Natural Semantic Metalanguage (NSM) approach; critically formulate and test hypotheses about what a word, an expression or a constructio...",
+    "tags": [
+      "linguistics and applied linguist",
+      "language studies"
+    ],
+    "reviewMetrics": [
+      "Teaching quality",
+      "Workload fairness",
+      "Assessment design"
+    ]
+  },
+  {
+    "id": "LING2010",
+    "type": "course",
+    "code": "LING2010",
+    "name": "Sounds of the World's Languages: Phonetics and Phonology",
+    "college": "ANU College of Arts and Social Sciences",
+    "school": "School of Literature, Languages and Linguistics",
+    "schoolCode": "SOLLA",
+    "level": "UGRD",
+    "terms": [
+      "Second Semester"
+    ],
+    "conveners": [],
+    "handbookUrl": "https://programsandcourses.anu.edu.au/course/ling2010",
+    "summary": "The spoken languages of the world show fascinating diversity in the types of speech sounds that are used and the ways these are organised to encode meaning. We investigate the range of sounds used in the world's languages, including Indigenous languages of Australia and the Asia-Pacific region.",
+    "tags": [
+      "linguistics and applied linguist",
+      "communications",
+      "human centred computing",
+      "language studies"
+    ],
+    "reviewMetrics": [
+      "Teaching quality",
+      "Workload fairness",
+      "Assessment design"
+    ]
+  },
+  {
+    "id": "LING2013",
+    "type": "course",
+    "code": "LING2013",
+    "name": "Teaching Languages",
+    "college": "ANU College of Arts and Social Sciences",
+    "school": "School of Literature, Languages and Linguistics",
+    "schoolCode": "SOLLA",
+    "level": "UGRD",
+    "terms": [
+      "See ANU course page"
+    ],
+    "conveners": [],
+    "handbookUrl": "https://programsandcourses.anu.edu.au/course/ling2013",
+    "summary": "Language learning and teaching occurs in diverse ways across societies and communication modalities. The Teaching Languages course explores language teaching techniques and methods in a range of instructional contexts, from physical classrooms to technology-mediated or online environments.",
+    "tags": [
+      "asian languages",
+      "european languages",
+      "linguistics and applied linguist",
+      "latin american languages"
+    ],
+    "reviewMetrics": [
+      "Teaching quality",
+      "Workload fairness",
+      "Assessment design"
+    ]
+  },
+  {
+    "id": "LING2015",
+    "type": "course",
+    "code": "LING2015",
+    "name": "Language, Culture and Translation",
+    "college": "ANU College of Arts and Social Sciences",
+    "school": "School of Literature, Languages and Linguistics",
+    "schoolCode": "SOLLA",
+    "level": "UGRD",
+    "terms": [
+      "See ANU course page"
+    ],
+    "conveners": [],
+    "handbookUrl": "https://programsandcourses.anu.edu.au/course/ling2015",
+    "summary": "This course critically explores the relationship between language and culture, and its implications for translation. Special attention will be given to recent debates on the nature of language, culture and social life, to the interplay between diversity and universals, and to the issues of ‘translatability’ across languages and cultures.",
+    "tags": [
+      "anthropology",
+      "international relations",
+      "linguistics and applied linguist",
+      "science communication"
+    ],
+    "reviewMetrics": [
+      "Teaching quality",
+      "Workload fairness",
+      "Assessment design"
+    ]
+  },
+  {
+    "id": "LING2016",
+    "type": "course",
+    "code": "LING2016",
+    "name": "Language and Society in Indigenous Australia",
+    "college": "ANU College of Arts and Social Sciences",
+    "school": "School of Literature, Languages and Linguistics",
+    "schoolCode": "SOLLA",
+    "level": "UGRD",
+    "terms": [
+      "First Semester"
+    ],
+    "conveners": [],
+    "handbookUrl": "https://programsandcourses.anu.edu.au/course/ling2016",
+    "summary": "Around 300 languages have been used in traditional and modern Australian Indigenous societies, linking land, people and all aspects of life. What are these languages like?",
+    "tags": [
+      "australian indigenous studies",
+      "linguistics and applied linguist"
+    ],
+    "reviewMetrics": [
+      "Teaching quality",
+      "Workload fairness",
+      "Assessment design"
+    ]
+  },
+  {
+    "id": "LING2017",
+    "type": "course",
+    "code": "LING2017",
+    "name": "Chinese Linguistics",
+    "college": "ANU College of Arts and Social Sciences",
+    "school": "School of Literature, Languages and Linguistics",
+    "schoolCode": "SOLLA",
+    "level": "UGRD",
+    "terms": [
+      "See ANU course page"
+    ],
+    "conveners": [],
+    "handbookUrl": "https://programsandcourses.anu.edu.au/course/ling2017",
+    "summary": "This course serves as an introduction to the field of Chinese linguistics. A range of Chinese varieties will be studied, with respect to the sound system, lexicon and sentence structure, cultural meanings and the writing system.",
+    "tags": [
+      "asian languages",
+      "linguistics and applied linguist",
+      "language studies"
+    ],
+    "reviewMetrics": [
+      "Teaching quality",
+      "Workload fairness",
+      "Assessment design"
+    ]
+  },
+  {
+    "id": "LING2018",
+    "type": "course",
+    "code": "LING2018",
+    "name": "Languages in Contact",
+    "college": "ANU College of Arts and Social Sciences",
+    "school": "School of Literature, Languages and Linguistics",
+    "schoolCode": "SOLLA",
+    "level": "UGRD",
+    "terms": [
+      "See ANU course page"
+    ],
+    "conveners": [],
+    "handbookUrl": "https://programsandcourses.anu.edu.au/course/ling2018",
+    "summary": "The majority of the world’s population live in social settings where more than one language is spoken, with many people speaking more than one language themselves. This course explores the linguistic processes and outcomes of such settings.",
+    "tags": [
+      "linguistics and applied linguist"
+    ],
+    "reviewMetrics": [
+      "Teaching quality",
+      "Workload fairness",
+      "Assessment design"
+    ]
+  },
+  {
+    "id": "LING2020",
+    "type": "course",
+    "code": "LING2020",
+    "name": "Structure of English",
+    "college": "ANU College of Arts and Social Sciences",
+    "school": "School of Literature, Languages and Linguistics",
+    "schoolCode": "SOLLA",
+    "level": "UGRD",
+    "terms": [
+      "First Semester"
+    ],
+    "conveners": [],
+    "handbookUrl": "https://programsandcourses.anu.edu.au/course/ling2020",
+    "summary": "This course investigates the elements of the English language and how these elements are organised in such a way as to allow speakers and writers to combine them to convey messages which can be instantly decoded by listeners (readers). The emphasis will be on grammar (syntax and morphology), although we will also explore some of the connections between gr...",
+    "tags": [
+      "english",
+      "linguistics and applied linguist",
+      "literature",
+      "language studies"
+    ],
+    "reviewMetrics": [
+      "Teaching quality",
+      "Workload fairness",
+      "Assessment design"
+    ]
+  },
+  {
+    "id": "LING2021",
+    "type": "course",
+    "code": "LING2021",
+    "name": "Cross Cultural Communication",
+    "college": "ANU College of Arts and Social Sciences",
+    "school": "School of Literature, Languages and Linguistics",
+    "schoolCode": "SOLLA",
+    "level": "UGRD",
+    "terms": [
+      "First Semester"
+    ],
+    "conveners": [],
+    "handbookUrl": "https://programsandcourses.anu.edu.au/course/ling2021",
+    "summary": "In different societies people speak differently, not only because they speak different languages but because their ways of using language are different. These differences can be profound and systematic.",
+    "tags": [
+      "linguistics and applied linguist",
+      "language studies"
+    ],
+    "reviewMetrics": [
+      "Teaching quality",
+      "Workload fairness",
+      "Assessment design"
+    ]
+  },
+  {
+    "id": "LING2023",
+    "type": "course",
+    "code": "LING2023",
+    "name": "Dictionaries and Dictionary-Making",
+    "college": "ANU College of Arts and Social Sciences",
+    "school": "School of Literature, Languages and Linguistics",
+    "schoolCode": "SOLLA",
+    "level": "UGRD",
+    "terms": [
+      "See ANU course page"
+    ],
+    "conveners": [],
+    "handbookUrl": "https://programsandcourses.anu.edu.au/course/ling2023",
+    "summary": "Dictionaries are the most widely-used source of information about languages. This course introduces the craft of dictionary-making, and looks at questions about the nature of languages and their descriptions that arise when making a dictionary.",
+    "tags": [
+      "australian indigenous studies",
+      "linguistics and applied linguist"
+    ],
+    "reviewMetrics": [
+      "Teaching quality",
+      "Workload fairness",
+      "Assessment design"
+    ]
+  },
+  {
+    "id": "LING2028",
+    "type": "course",
+    "code": "LING2028",
+    "name": "Japanese Linguistics",
+    "college": "ANU College of Asia and the Pacific",
+    "school": "School of Culture History and Language",
+    "schoolCode": "SOCHA",
+    "level": "UGRD",
+    "terms": [
+      "Second Semester"
+    ],
+    "conveners": [],
+    "handbookUrl": "https://programsandcourses.anu.edu.au/course/ling2028",
+    "summary": "This course serves as an introduction to the field of Japanese linguistics, covering a wide range of linguistic topics of the language from phonetics and phonology through to syntax and pragmatics. Various linguistic data of the language will be presented in the course in order for students to understand the unique linguistic properties of Japanese, and a...",
+    "tags": [
+      "asian languages",
+      "linguistics"
+    ],
+    "reviewMetrics": [
+      "Teaching quality",
+      "Workload fairness",
+      "Assessment design"
+    ]
+  },
+  {
+    "id": "LING2029",
+    "type": "course",
+    "code": "LING2029",
+    "name": "Language, Assessment and Policy",
+    "college": "ANU College of Arts and Social Sciences",
+    "school": "School of Literature, Languages and Linguistics",
+    "schoolCode": "SOLLA",
+    "level": "UGRD",
+    "terms": [
+      "See ANU course page"
+    ],
+    "conveners": [],
+    "handbookUrl": "https://programsandcourses.anu.edu.au/course/ling2029",
+    "summary": "Modern history is replete with struggles that have resulted in political decisions about language use; some languages are designated as ‘official’ state languages, others are side-lined or even erased. In the modern state, language tests are powerful tools of policy.",
+    "tags": [
+      "linguistics and applied linguist",
+      "policy studies",
+      "social research"
+    ],
+    "reviewMetrics": [
+      "Teaching quality",
+      "Workload fairness",
+      "Assessment design"
+    ]
+  },
+  {
+    "id": "LING2034",
+    "type": "course",
+    "code": "LING2034",
+    "name": "Communication in Health Care",
+    "college": "ANU College of Arts and Social Sciences",
+    "school": "School of Literature, Languages and Linguistics",
+    "schoolCode": "SOLLA",
+    "level": "UGRD",
+    "terms": [
+      "See ANU course page"
+    ],
+    "conveners": [],
+    "handbookUrl": "https://programsandcourses.anu.edu.au/course/ling2034",
+    "summary": "A growing body of evidence has demonstrated that ineffective communication at all levels of the healthcare system leads to poor patient outcomes, including serious illness and death, clinician dissatisfaction, and inefficiencies in the health system. Despite local and international recognition of the critical role communication plays in healthcare, and ma...",
+    "tags": [
+      "linguistics and applied linguist",
+      "communications",
+      "health"
+    ],
+    "reviewMetrics": [
+      "Teaching quality",
+      "Workload fairness",
+      "Assessment design"
+    ]
+  },
+  {
+    "id": "LING2040",
+    "type": "course",
+    "code": "LING2040",
+    "name": "Austronesian Languages",
+    "college": "ANU College of Asia and the Pacific",
+    "school": "School of Culture History and Language",
+    "schoolCode": "SOCHA",
+    "level": "UGRD",
+    "terms": [
+      "First Semester"
+    ],
+    "conveners": [],
+    "handbookUrl": "https://programsandcourses.anu.edu.au/course/ling2040",
+    "summary": "This course is an introduction to Austronesian languages, exploring the history, linguistic and socio-cultural-political diversity of the Austronesian world. Austronesian is the world's largest language family in terms of geographical spread, spanning more than half the globe: from Madagascar to Easter Island, and from Taiwan to New Zealand.",
+    "tags": [
+      "asian languages",
+      "linguistics and applied linguist",
+      "language studies",
+      "linguistics"
+    ],
+    "reviewMetrics": [
+      "Teaching quality",
+      "Workload fairness",
+      "Assessment design"
+    ]
+  },
+  {
+    "id": "LING2105",
+    "type": "course",
+    "code": "LING2105",
+    "name": "Forensic Linguistics: Language and the Law",
+    "college": "ANU College of Asia and the Pacific",
+    "school": "School of Culture History and Language",
+    "schoolCode": "SOCHA",
+    "level": "UGRD",
+    "terms": [
+      "First Semester"
+    ],
+    "conveners": [],
+    "handbookUrl": "https://programsandcourses.anu.edu.au/course/ling2105",
+    "summary": "This course focuses on the role that linguistics and languages play within the rapidly growing field of forensic science; namely forensic linguistics. Forensic linguistics is a diverse field that not only has applications in legal and criminal investigations, but also makes important contributions to the military, government and business, and can contribu...",
+    "tags": [
+      "asian languages",
+      "european languages",
+      "linguistics and applied linguist",
+      "computer science"
+    ],
+    "reviewMetrics": [
+      "Teaching quality",
+      "Workload fairness",
+      "Assessment design"
+    ]
+  },
+  {
+    "id": "LING2106",
+    "type": "course",
+    "code": "LING2106",
+    "name": "Language and Social Interaction",
+    "college": "ANU College of Arts and Social Sciences",
+    "school": "School of Literature, Languages and Linguistics",
+    "schoolCode": "SOLLA",
+    "level": "UGRD",
+    "terms": [
+      "First Semester"
+    ],
+    "conveners": [],
+    "handbookUrl": "https://programsandcourses.anu.edu.au/course/ling2106",
+    "summary": "Language is so fundamental to the rituals and events of everyday life that its role is taken for granted. Language and Social Interaction deals with how we use language to negotiate relationships, actions and events in our daily lives.",
+    "tags": [
+      "linguistics and applied linguist"
+    ],
+    "reviewMetrics": [
+      "Teaching quality",
+      "Workload fairness",
+      "Assessment design"
+    ]
+  },
+  {
+    "id": "LING2521",
+    "type": "course",
+    "code": "LING2521",
+    "name": "Child Language Acquisition",
+    "college": "ANU College of Arts and Social Sciences",
+    "school": "School of Literature, Languages and Linguistics",
+    "schoolCode": "SOLLA",
+    "level": "UGRD",
+    "terms": [
+      "Second Semester"
+    ],
+    "conveners": [],
+    "handbookUrl": "https://programsandcourses.anu.edu.au/course/ling2521",
+    "summary": "One of the most remarkable properties of humans is that we acquire a very complex linguistic interactional system early in life. Along the way, children make adjustments to how they produce utterances and interpret what they hear.",
+    "tags": [
+      "linguistics and applied linguist"
+    ],
+    "reviewMetrics": [
+      "Teaching quality",
+      "Workload fairness",
+      "Assessment design"
+    ]
+  },
+  {
+    "id": "LING3025",
+    "type": "course",
+    "code": "LING3025",
+    "name": "Special Topics in Linguistics",
+    "college": "ANU College of Arts and Social Sciences",
+    "school": "School of Literature, Languages and Linguistics",
+    "schoolCode": "SOLLA",
+    "level": "UGRD",
+    "terms": [
+      "First Semester",
+      "Second Semester"
+    ],
+    "conveners": [],
+    "handbookUrl": "https://programsandcourses.anu.edu.au/course/ling3025",
+    "summary": "Intensive study of one or more topics in linguistics, through a variety of methods, e.g. lectures, discussions, readings, listening and/or viewings, and demonstrated application of learning.",
+    "tags": [
+      "linguistics and applied linguist"
+    ],
+    "reviewMetrics": [
+      "Teaching quality",
+      "Workload fairness",
+      "Assessment design"
+    ]
+  },
+  {
+    "id": "LING3031",
+    "type": "course",
+    "code": "LING3031",
+    "name": "Papuan Languages",
+    "college": "ANU College of Asia and the Pacific",
+    "school": "School of Culture History and Language",
+    "schoolCode": "SOCHA",
+    "level": "UGRD",
+    "terms": [
+      "Autumn Session"
+    ],
+    "conveners": [],
+    "handbookUrl": "https://programsandcourses.anu.edu.au/course/ling3031",
+    "summary": "This course will examine the so-called Papuan languages, which are the 800 or so languages of Melanesia and surrounding areas (from Timor to the Solomon Islands) which do not belong to the Austronesian family – and which are famed as coming from the most linguistically diverse region on earth. These 800 languages belong to perhaps 45 distinct language fam...",
+    "tags": [
+      "linguistics and applied linguist",
+      "pacific studies",
+      "asia pacific studies",
+      "language studies"
+    ],
+    "reviewMetrics": [
+      "Teaching quality",
+      "Workload fairness",
+      "Assessment design"
+    ]
+  },
+  {
+    "id": "LING3032",
+    "type": "course",
+    "code": "LING3032",
+    "name": "Forensic Linguistics: Forensic Voice and Text Comparison",
+    "college": "ANU College of Asia and the Pacific",
+    "school": "School of Culture History and Language",
+    "schoolCode": "SOCHA",
+    "level": "UGRD",
+    "terms": [
+      "First Semester"
+    ],
+    "conveners": [],
+    "handbookUrl": "https://programsandcourses.anu.edu.au/course/ling3032",
+    "summary": "Recorded speech and written texts are increasingly presented as scientific evidence in legal cases. This is due to the fact that the accessibility and anonymity of mobile phones and the internet mean that they are often exploited for criminal acts, but at the same time they leave records which must then be analysed as forensic evidence.",
+    "tags": [
+      "asian languages",
+      "european languages",
+      "linguistics and applied linguist",
+      "forensic anthropology"
+    ],
+    "reviewMetrics": [
+      "Teaching quality",
+      "Workload fairness",
+      "Assessment design"
+    ]
+  },
+  {
+    "id": "LING3035",
+    "type": "course",
+    "code": "LING3035",
+    "name": "Semantic Typology",
+    "college": "ANU College of Arts and Social Sciences",
+    "school": "School of Literature, Languages and Linguistics",
+    "schoolCode": "SOLLA",
+    "level": "UGRD",
+    "terms": [
+      "Second Semester"
+    ],
+    "conveners": [],
+    "handbookUrl": "https://programsandcourses.anu.edu.au/course/ling3035",
+    "summary": "Meaning is what language is all about, and the study of meaning across languages is a central part of linguistics. Semantic typology compares meanings expressed by words, phrases and grammatical constructions across the world's languages.",
+    "tags": [
+      "asian languages",
+      "european languages",
+      "linguistics and applied linguist",
+      "translation studies"
+    ],
+    "reviewMetrics": [
+      "Teaching quality",
+      "Workload fairness",
+      "Assessment design"
+    ]
+  },
+  {
+    "id": "LING3036",
+    "type": "course",
+    "code": "LING3036",
+    "name": "Advanced Sociolinguistics",
+    "college": "ANU College of Arts and Social Sciences",
+    "school": "School of Literature, Languages and Linguistics",
+    "schoolCode": "SOLLA",
+    "level": "UGRD",
+    "terms": [
+      "See ANU course page"
+    ],
+    "conveners": [],
+    "handbookUrl": "https://programsandcourses.anu.edu.au/course/ling3036",
+    "summary": "This course is a capstone course, aimed at building on knowledge acquired over the course of a linguistics major, and applying that to the empirical analysis of language in its social context, or Sociolinguistics. Students will read and critically discuss a combination of foundational and contemporary sociolinguistic studies, to gain an understanding of w...",
+    "tags": [
+      "asian languages",
+      "european languages",
+      "australian indigenous studies",
+      "linguistics and applied linguist"
+    ],
+    "reviewMetrics": [
+      "Teaching quality",
+      "Workload fairness",
+      "Assessment design"
+    ]
+  },
+  {
+    "id": "LING3038",
+    "type": "course",
+    "code": "LING3038",
+    "name": "Corpus Linguistics",
+    "college": "ANU College of Asia and the Pacific",
+    "school": "School of Culture History and Language",
+    "schoolCode": "SOCHA",
+    "level": "UGRD",
+    "terms": [
+      "First Semester"
+    ],
+    "conveners": [],
+    "handbookUrl": "https://programsandcourses.anu.edu.au/course/ling3038",
+    "summary": "Corpus linguistics is an approach to understanding large amounts of data. Corpora are large collections of language data in a computer readable format.",
+    "tags": [
+      "cultural studies",
+      "linguistics and applied linguist",
+      "asia pacific studies",
+      "language studies"
+    ],
+    "reviewMetrics": [
+      "Teaching quality",
+      "Workload fairness",
+      "Assessment design"
+    ]
+  },
+  {
+    "id": "LING3101",
+    "type": "course",
+    "code": "LING3101",
+    "name": "Second Language Acquisition",
+    "college": "ANU College of Arts and Social Sciences",
+    "school": "School of Literature, Languages and Linguistics",
+    "schoolCode": "SOLLA",
+    "level": "UGRD",
+    "terms": [
+      "First Semester"
+    ],
+    "conveners": [],
+    "handbookUrl": "https://programsandcourses.anu.edu.au/course/ling3101",
+    "summary": "Learning new languages is a common human experience. Whether we are required to learn a language at school, or whether the need is driven by economic opportunity, survival, ancestral connection or even love, the human capacity to learn new languages raises many questions.",
+    "tags": [
+      "asian languages",
+      "european languages",
+      "linguistics and applied linguist",
+      "latin american languages"
+    ],
+    "reviewMetrics": [
+      "Teaching quality",
+      "Workload fairness",
+      "Assessment design"
+    ]
+  },
+  {
+    "id": "LING3126",
+    "type": "course",
+    "code": "LING3126",
+    "name": "Topics in Advanced Syntax and Morphology",
+    "college": "ANU College of Arts and Social Sciences",
+    "school": "School of Literature, Languages and Linguistics",
+    "schoolCode": "SOLLA",
+    "level": "UGRD",
+    "terms": [
+      "Second Semester"
+    ],
+    "conveners": [],
+    "handbookUrl": "https://programsandcourses.anu.edu.au/course/ling3126",
+    "summary": "This course will provide students with an advanced understanding of the morphosyntactic structures of human languages, and of the concepts, goals and methodologies used in studying them. Students will gain practical experience in solving structural problems, considering data from different languages.",
+    "tags": [
+      "asian languages",
+      "european languages",
+      "linguistics and applied linguist",
+      "language studies"
+    ],
+    "reviewMetrics": [
+      "Teaching quality",
+      "Workload fairness",
+      "Assessment design"
+    ]
+  },
+  {
     "id": "MATH1013",
     "type": "course",
     "code": "MATH1013",
@@ -18282,6 +22024,33 @@ window.ANREVIEW_DATA = {
     ]
   },
   {
+    "id": "MEAS2003",
+    "type": "course",
+    "code": "MEAS2003",
+    "name": "Modern Turkey: History, Society and Culture",
+    "college": "ANU College of Arts and Social Sciences",
+    "school": "Centre for Arab and Islamic Studies",
+    "schoolCode": "CFAAI",
+    "level": "UGRD",
+    "terms": [
+      "First Semester"
+    ],
+    "conveners": [],
+    "handbookUrl": "https://programsandcourses.anu.edu.au/course/meas2003",
+    "summary": "Turkey is a country with a vibrant, diverse and dynamic culture and it was the centre to one of the most powerful Empires in history: the Ottoman Empire which controlled much of Southeast Europe, Western Asia and Northern Africa till early 20th Century. This course focuses on history and culture in Turkey starting from early-modern period to our time thro...",
+    "tags": [
+      "cultural studies",
+      "history",
+      "middle east studies",
+      "central asia studies"
+    ],
+    "reviewMetrics": [
+      "Teaching quality",
+      "Workload fairness",
+      "Assessment design"
+    ]
+  },
+  {
     "id": "MEAS2004",
     "type": "course",
     "code": "MEAS2004",
@@ -18301,6 +22070,33 @@ window.ANREVIEW_DATA = {
       "international relations",
       "middle east studies",
       "european studies"
+    ],
+    "reviewMetrics": [
+      "Teaching quality",
+      "Workload fairness",
+      "Assessment design"
+    ]
+  },
+  {
+    "id": "MEAS2006",
+    "type": "course",
+    "code": "MEAS2006",
+    "name": "Gallipoli: A Transnational History",
+    "college": "ANU College of Arts and Social Sciences",
+    "school": "Centre for Arab and Islamic Studies",
+    "schoolCode": "CFAAI",
+    "level": "UGRD",
+    "terms": [
+      "First Semester"
+    ],
+    "conveners": [],
+    "handbookUrl": "https://programsandcourses.anu.edu.au/course/meas2006",
+    "summary": "This course aims to study Gallipoli as an event that transformed the commemorative landscape and practices not only in Australia, but also in Turkey. We will acknowledge the diversity of the responses to and changing understandings of Gallipoli, from the early days of the campaign till today, with a particular focus on the Turkish experiences.",
+    "tags": [
+      "arab and islamic studies",
+      "australian studies",
+      "history",
+      "middle east studies"
     ],
     "reviewMetrics": [
       "Teaching quality",
@@ -19057,6 +22853,31 @@ window.ANREVIEW_DATA = {
     ]
   },
   {
+    "id": "MUSI2234",
+    "type": "course",
+    "code": "MUSI2234",
+    "name": "Music, History, and Culture",
+    "college": "ANU College of Arts and Social Sciences",
+    "school": "School of Music",
+    "schoolCode": "SOM",
+    "level": "UGRD",
+    "terms": [
+      "First Semester"
+    ],
+    "conveners": [],
+    "handbookUrl": "https://programsandcourses.anu.edu.au/course/musi2234",
+    "summary": "This course offers an in-depth study of one specialised area of music, within the broader field of music histories and cultures. Through this specialised approach, students explore a particular genre, stylistic period, or set of practices in connection to a particular music historical period and cultural context.",
+    "tags": [
+      "musicology",
+      "music"
+    ],
+    "reviewMetrics": [
+      "Teaching quality",
+      "Workload fairness",
+      "Assessment design"
+    ]
+  },
+  {
     "id": "PASI1011",
     "type": "course",
     "code": "PASI1011",
@@ -19160,6 +22981,30 @@ window.ANREVIEW_DATA = {
     ]
   },
   {
+    "id": "PASI2030",
+    "type": "course",
+    "code": "PASI2030",
+    "name": "Study Tour: Regional Policymaking for Pacific Development",
+    "college": "ANU College of Asia and the Pacific",
+    "school": "Department of Pacific Affairs",
+    "schoolCode": "DOPA",
+    "level": "UGRD",
+    "terms": [
+      "Second Semester"
+    ],
+    "conveners": [],
+    "handbookUrl": "https://programsandcourses.anu.edu.au/course/pasi2030",
+    "summary": "Students will spend two weeks in Fiji undertaking learning with USP peers and leveraging the University's strong connections in the region to obtain hands on experience working with three leading regional institutions – the University of the South Pacific (USP), the Pacific Islands Forum (PIF), and the Pacific Community (SPC). Students will be exposed to...",
+    "tags": [
+      "pasi"
+    ],
+    "reviewMetrics": [
+      "Teaching quality",
+      "Workload fairness",
+      "Assessment design"
+    ]
+  },
+  {
     "id": "PASI3001",
     "type": "course",
     "code": "PASI3001",
@@ -19186,6 +23031,30 @@ window.ANREVIEW_DATA = {
     ]
   },
   {
+    "id": "PASI3005",
+    "type": "course",
+    "code": "PASI3005",
+    "name": "Pacific Islands Field School",
+    "college": "ANU College of Asia and the Pacific",
+    "school": "School of Culture History and Language",
+    "schoolCode": "SOCHA",
+    "level": "UGRD",
+    "terms": [
+      "Spring Session"
+    ],
+    "conveners": [],
+    "handbookUrl": "https://programsandcourses.anu.edu.au/course/pasi3005",
+    "summary": "The course introduces students to the Pacific through practical engagement with the Pacific islands and/ or Pacific diasporas and histories in Australia. The emphasis is on integrating formal learning with first-hand experience.",
+    "tags": [
+      "pasi"
+    ],
+    "reviewMetrics": [
+      "Teaching quality",
+      "Workload fairness",
+      "Assessment design"
+    ]
+  },
+  {
     "id": "PASI3013",
     "type": "course",
     "code": "PASI3013",
@@ -19202,6 +23071,669 @@ window.ANREVIEW_DATA = {
     "summary": "This course explores the tangled, at times uneasy, interactions between environment and development in the region of Oceania. We will consider how diverse Oceanian environments provide important development opportunities for local communities and economies, reflect on the environmental (and social) impacts wrought by development, and problematise what ‘de...",
     "tags": [
       "pasi"
+    ],
+    "reviewMetrics": [
+      "Teaching quality",
+      "Workload fairness",
+      "Assessment design"
+    ]
+  },
+  {
+    "id": "PHIL1004",
+    "type": "course",
+    "code": "PHIL1004",
+    "name": "Fundamental Ideas in Philosophy: An Introduction",
+    "college": "ANU College of Arts and Social Sciences",
+    "school": "School of Philosophy",
+    "schoolCode": "SOP",
+    "level": "UGRD",
+    "terms": [
+      "First Semester"
+    ],
+    "conveners": [],
+    "handbookUrl": "https://programsandcourses.anu.edu.au/course/phil1004",
+    "summary": "In this course, our goal will be to learn how to do philosophy by examining some central problems from a range of historical and contemporary philosophical traditions. Topics will change from year to year but may include issues in metaphysics, epistemology, philosophy of mind, philosophy of science, and ethics (amongst others).",
+    "tags": [
+      "philosophy"
+    ],
+    "reviewMetrics": [
+      "Teaching quality",
+      "Workload fairness",
+      "Assessment design"
+    ]
+  },
+  {
+    "id": "PHIL1005",
+    "type": "course",
+    "code": "PHIL1005",
+    "name": "Logic and Critical Thinking",
+    "college": "ANU College of Arts and Social Sciences",
+    "school": "School of Philosophy",
+    "schoolCode": "SOP",
+    "level": "UGRD",
+    "terms": [
+      "Second Semester"
+    ],
+    "conveners": [],
+    "handbookUrl": "https://programsandcourses.anu.edu.au/course/phil1005",
+    "summary": "This course aims to introduce students to practices of argumentation, critical analysis, and evaluation. Such skills in critical thinking are integral to the discipline of philosophy.",
+    "tags": [
+      "philosophy"
+    ],
+    "reviewMetrics": [
+      "Teaching quality",
+      "Workload fairness",
+      "Assessment design"
+    ]
+  },
+  {
+    "id": "PHIL2012",
+    "type": "course",
+    "code": "PHIL2012",
+    "name": "Buddhist Philosophy",
+    "college": "ANU College of Arts and Social Sciences",
+    "school": "School of Philosophy",
+    "schoolCode": "SOP",
+    "level": "UGRD",
+    "terms": [
+      "Second Semester"
+    ],
+    "conveners": [],
+    "handbookUrl": "https://programsandcourses.anu.edu.au/course/phil2012",
+    "summary": "Since the time of the Buddha, Buddhists have developed a rigorous and profound tradition of philosophy. The Buddhist path consists in the combined practice of philosophical reasoning, ethical practice and meditation.",
+    "tags": [
+      "philosophy",
+      "asian studies",
+      "asia pacific studies",
+      "asia-pacific studies"
+    ],
+    "reviewMetrics": [
+      "Teaching quality",
+      "Workload fairness",
+      "Assessment design"
+    ]
+  },
+  {
+    "id": "PHIL2014",
+    "type": "course",
+    "code": "PHIL2014",
+    "name": "Topics in Analytic Philosophy",
+    "college": "ANU College of Arts and Social Sciences",
+    "school": "School of Philosophy",
+    "schoolCode": "SOP",
+    "level": "UGRD",
+    "terms": [
+      "Second Semester"
+    ],
+    "conveners": [],
+    "handbookUrl": "https://programsandcourses.anu.edu.au/course/phil2014",
+    "summary": "In 2024, PHIL2014 will focus on Metaphysics, Epistemology, and Society: Identity and Knowledge in a Social World. Metaphysics is the study of the fundamental nature of reality, and epistemology is the study of the nature of knowledge.",
+    "tags": [
+      "philosophy"
+    ],
+    "reviewMetrics": [
+      "Teaching quality",
+      "Workload fairness",
+      "Assessment design"
+    ]
+  },
+  {
+    "id": "PHIL2020",
+    "type": "course",
+    "code": "PHIL2020",
+    "name": "Theories of Social Justice",
+    "college": "ANU College of Arts and Social Sciences",
+    "school": "School of Philosophy",
+    "schoolCode": "SOP",
+    "level": "UGRD",
+    "terms": [
+      "See ANU course page"
+    ],
+    "conveners": [],
+    "handbookUrl": "https://programsandcourses.anu.edu.au/course/phil2020",
+    "summary": "This course offers a rich grounding in moral, social, and political philosophy with a focus on questions concerning social justice. Students will engage in a critical analysis of contemporary theories of social justice.",
+    "tags": [
+      "international relations",
+      "philosophy",
+      "political sciences"
+    ],
+    "reviewMetrics": [
+      "Teaching quality",
+      "Workload fairness",
+      "Assessment design"
+    ]
+  },
+  {
+    "id": "PHIL2057",
+    "type": "course",
+    "code": "PHIL2057",
+    "name": "Philosophy of Science",
+    "college": "ANU College of Arts and Social Sciences",
+    "school": "School of Philosophy",
+    "schoolCode": "SOP",
+    "level": "UGRD",
+    "terms": [
+      "First Semester"
+    ],
+    "conveners": [],
+    "handbookUrl": "https://programsandcourses.anu.edu.au/course/phil2057",
+    "summary": "This course addresses a range of philosophical problems raised by scientific knowledge and explanation. The problems examined fall into roughly two kinds: one about the methods of science, and the other a philosophical consideration of how science explains our world.",
+    "tags": [
+      "philosophy",
+      "science"
+    ],
+    "reviewMetrics": [
+      "Teaching quality",
+      "Workload fairness",
+      "Assessment design"
+    ]
+  },
+  {
+    "id": "PHIL2061",
+    "type": "course",
+    "code": "PHIL2061",
+    "name": "Philosophy of Mind",
+    "college": "ANU College of Arts and Social Sciences",
+    "school": "School of Philosophy",
+    "schoolCode": "SOP",
+    "level": "UGRD",
+    "terms": [
+      "Second Semester"
+    ],
+    "conveners": [],
+    "handbookUrl": "https://programsandcourses.anu.edu.au/course/phil2061",
+    "summary": "Debates concerning the nature of mind and consciousness are active and ongoing, with implications for philosophy, psychology, artificial intelligence and the neurosciences. It is difficult to understand how minds fit into the physical world and interact with material things.",
+    "tags": [
+      "philosophy",
+      "psychology",
+      "science",
+      "neuroscience"
+    ],
+    "reviewMetrics": [
+      "Teaching quality",
+      "Workload fairness",
+      "Assessment design"
+    ]
+  },
+  {
+    "id": "PHIL2074",
+    "type": "course",
+    "code": "PHIL2074",
+    "name": "Modern Theories of Knowledge",
+    "college": "ANU College of Arts and Social Sciences",
+    "school": "School of Philosophy",
+    "schoolCode": "SOP",
+    "level": "UGRD",
+    "terms": [
+      "First Semester"
+    ],
+    "conveners": [],
+    "handbookUrl": "https://programsandcourses.anu.edu.au/course/phil2074",
+    "summary": "This course is an introduction to some key issues in epistemology (i.e., issues concerning the nature of knowledge and related notions like belief and justification). Topics and approach will change from year to year, but may include such issues as the empirical justification of scientific knowledge, the nature of self-knowledge, and social epistemology.",
+    "tags": [
+      "philosophy"
+    ],
+    "reviewMetrics": [
+      "Teaching quality",
+      "Workload fairness",
+      "Assessment design"
+    ]
+  },
+  {
+    "id": "PHIL2082",
+    "type": "course",
+    "code": "PHIL2082",
+    "name": "Topics in the Philosophy of Biology",
+    "college": "ANU College of Arts and Social Sciences",
+    "school": "School of Philosophy",
+    "schoolCode": "SOP",
+    "level": "UGRD",
+    "terms": [
+      "First Semester"
+    ],
+    "conveners": [],
+    "handbookUrl": "https://programsandcourses.anu.edu.au/course/phil2082",
+    "summary": "This intermediate level course introduces the field of philosophy of biology and explores key questions within the contemporary discipline such as the nature and diversity of life on (and off) Earth, what biology can tell us about human nature, the explanatory power of natural selection, the role of modelling in the biological sciences and the extension o...",
+    "tags": [
+      "philosophy",
+      "biology"
+    ],
+    "reviewMetrics": [
+      "Teaching quality",
+      "Workload fairness",
+      "Assessment design"
+    ]
+  },
+  {
+    "id": "PHIL2087",
+    "type": "course",
+    "code": "PHIL2087",
+    "name": "Nietzsche",
+    "college": "ANU College of Arts and Social Sciences",
+    "school": "School of Philosophy",
+    "schoolCode": "SOP",
+    "level": "UGRD",
+    "terms": [
+      "See ANU course page"
+    ],
+    "conveners": [],
+    "handbookUrl": "https://programsandcourses.anu.edu.au/course/phil2087",
+    "summary": "The course will primarily study selections from the work of Friedrich Nietzsche, who exercised a huge influence on Twentieth Century philosophy, literature and art. We will look at essential philosophical background as well as important legacies of Nietzsche's ideas.",
+    "tags": [
+      "philosophy"
+    ],
+    "reviewMetrics": [
+      "Teaching quality",
+      "Workload fairness",
+      "Assessment design"
+    ]
+  },
+  {
+    "id": "PHIL2122",
+    "type": "course",
+    "code": "PHIL2122",
+    "name": "Philosophy and Public Policy",
+    "college": "ANU College of Arts and Social Sciences",
+    "school": "School of Philosophy",
+    "schoolCode": "SOP",
+    "level": "UGRD",
+    "terms": [
+      "Second Semester"
+    ],
+    "conveners": [],
+    "handbookUrl": "https://programsandcourses.anu.edu.au/course/phil2122",
+    "summary": "This course offers critical reflection on the design and evaluation of public policy, drawing on both moral/political philosophy and the philosophy of science. Topics will vary but may include: · How is the ‘evidence-based policy’ standard best understood?",
+    "tags": [
+      "philosophy",
+      "policy studies",
+      "social research",
+      "economics"
+    ],
+    "reviewMetrics": [
+      "Teaching quality",
+      "Workload fairness",
+      "Assessment design"
+    ]
+  },
+  {
+    "id": "PHIL2125",
+    "type": "course",
+    "code": "PHIL2125",
+    "name": "Rationality and Social Cooperation",
+    "college": "ANU College of Arts and Social Sciences",
+    "school": "School of Philosophy",
+    "schoolCode": "SOP",
+    "level": "UGRD",
+    "terms": [
+      "First Semester"
+    ],
+    "conveners": [],
+    "handbookUrl": "https://programsandcourses.anu.edu.au/course/phil2125",
+    "summary": "This course examines what it means to be 'rational' in negotiating the world and conducting one's life. At issue is the quality of one’s beliefs, desires and choices about how to act, particularly in the face of uncertainty, and in concert with others.",
+    "tags": [
+      "philosophy",
+      "psychology",
+      "economics",
+      "artifical intelligence"
+    ],
+    "reviewMetrics": [
+      "Teaching quality",
+      "Workload fairness",
+      "Assessment design"
+    ]
+  },
+  {
+    "id": "PHIL2126",
+    "type": "course",
+    "code": "PHIL2126",
+    "name": "Science in Society: Ethics, Public Policy and Scientific Practice",
+    "college": "ANU College of Arts and Social Sciences",
+    "school": "School of Philosophy",
+    "schoolCode": "SOP",
+    "level": "UGRD",
+    "terms": [
+      "First Semester"
+    ],
+    "conveners": [],
+    "handbookUrl": "https://programsandcourses.anu.edu.au/course/phil2126",
+    "summary": "Perhaps now more so than in any other time in human history, science and technology play a central role in our lives. With this comes the potential for both great benefit to society, and great harm.",
+    "tags": [
+      "philosophy",
+      "policy studies",
+      "science",
+      "science communication"
+    ],
+    "reviewMetrics": [
+      "Teaching quality",
+      "Workload fairness",
+      "Assessment design"
+    ]
+  },
+  {
+    "id": "PHIL2127",
+    "type": "course",
+    "code": "PHIL2127",
+    "name": "The Philosophy of Time",
+    "college": "ANU College of Arts and Social Sciences",
+    "school": "School of Philosophy",
+    "schoolCode": "SOP",
+    "level": "UGRD",
+    "terms": [
+      "Second Semester"
+    ],
+    "conveners": [],
+    "handbookUrl": "https://programsandcourses.anu.edu.au/course/phil2127",
+    "summary": "What is time? Does time exist? How does our experience of time relate to time in science?",
+    "tags": [
+      "philosophy"
+    ],
+    "reviewMetrics": [
+      "Teaching quality",
+      "Workload fairness",
+      "Assessment design"
+    ]
+  },
+  {
+    "id": "PHIL2128",
+    "type": "course",
+    "code": "PHIL2128",
+    "name": "Philosophy of Physics",
+    "college": "ANU College of Arts and Social Sciences",
+    "school": "School of Philosophy",
+    "schoolCode": "SOP",
+    "level": "UGRD",
+    "terms": [
+      "See ANU course page"
+    ],
+    "conveners": [],
+    "handbookUrl": "https://programsandcourses.anu.edu.au/course/phil2128",
+    "summary": "This course considers philosophical questions arising from modern physics. Topics include the philosophical significance of the theory of relativity and the philosophy of space and time, the significance and interpretation of quantum mechanics, and the relationship between these two theories.",
+    "tags": [
+      "philosophy",
+      "physics"
+    ],
+    "reviewMetrics": [
+      "Teaching quality",
+      "Workload fairness",
+      "Assessment design"
+    ]
+  },
+  {
+    "id": "PHIL2129",
+    "type": "course",
+    "code": "PHIL2129",
+    "name": "Normative Ethical Theory",
+    "college": "ANU College of Arts and Social Sciences",
+    "school": "School of Philosophy",
+    "schoolCode": "SOP",
+    "level": "UGRD",
+    "terms": [
+      "See ANU course page"
+    ],
+    "conveners": [],
+    "handbookUrl": "https://programsandcourses.anu.edu.au/course/phil2129",
+    "summary": "When we ask how we should live, what we should do, and which ways of treating each other are good or bad, we are asking the questions of normative ethics. Normative ethical theory is the part of philosophy that aspires to give a general and systematic set of answers to those questions.",
+    "tags": [
+      "philosophy",
+      "political sciences"
+    ],
+    "reviewMetrics": [
+      "Teaching quality",
+      "Workload fairness",
+      "Assessment design"
+    ]
+  },
+  {
+    "id": "PHIL2150",
+    "type": "course",
+    "code": "PHIL2150",
+    "name": "Symbolic Logic",
+    "college": "ANU College of Arts and Social Sciences",
+    "school": "School of Philosophy",
+    "schoolCode": "SOP",
+    "level": "UGRD",
+    "terms": [
+      "See ANU course page"
+    ],
+    "conveners": [],
+    "handbookUrl": "https://programsandcourses.anu.edu.au/course/phil2150",
+    "summary": "This course is an introduction to formal logic for students with no prior familiarity with the subject. Logic is the study of validity, a property of good arguments.",
+    "tags": [
+      "phil"
+    ],
+    "reviewMetrics": [
+      "Teaching quality",
+      "Workload fairness",
+      "Assessment design"
+    ]
+  },
+  {
+    "id": "PHIL2289",
+    "type": "course",
+    "code": "PHIL2289",
+    "name": "Leviathan, Art and Law: Constituting the Body Politic",
+    "college": "ANU College of Arts and Social Sciences",
+    "school": "School of Philosophy",
+    "schoolCode": "SOP",
+    "level": "UGRD",
+    "terms": [
+      "See ANU course page"
+    ],
+    "conveners": [],
+    "handbookUrl": "https://programsandcourses.anu.edu.au/course/phil2289",
+    "summary": "Whether as a philosopher, a lawyer, an activist, a politician, a writer, a diplomat, or a citizen, we face a global world whose enormous challenges require an ability to understand the relationship between law’s own discourse and other forms of thinking about and communicating it. From a legal point of view, the Constitution may refer to a specific docume...",
+    "tags": [
+      "law",
+      "philosophy",
+      "human rights",
+      "arts"
+    ],
+    "reviewMetrics": [
+      "Teaching quality",
+      "Workload fairness",
+      "Assessment design"
+    ]
+  },
+  {
+    "id": "PHIL2290",
+    "type": "course",
+    "code": "PHIL2290",
+    "name": "Philosophy, AI and Society",
+    "college": "ANU College of Arts and Social Sciences",
+    "school": "School of Philosophy",
+    "schoolCode": "SOP",
+    "level": "UGRD",
+    "terms": [
+      "See ANU course page"
+    ],
+    "conveners": [],
+    "handbookUrl": "https://programsandcourses.anu.edu.au/course/phil2290",
+    "summary": "From our smartphones to our welfare states, we are increasingly dependent on systems that deploy some form or other of artificial intelligence. But despite the central role that AI now plays in our lives, philosophers have been slow to shape our understanding of where we are now, and where we should go next.",
+    "tags": [
+      "philosophy",
+      "computer science",
+      "ethics",
+      "human centred computing"
+    ],
+    "reviewMetrics": [
+      "Teaching quality",
+      "Workload fairness",
+      "Assessment design"
+    ]
+  },
+  {
+    "id": "PHIL3073",
+    "type": "course",
+    "code": "PHIL3073",
+    "name": "Topics in Advanced Ethics, Social and Political Philosophy",
+    "college": "ANU College of Arts and Social Sciences",
+    "school": "School of Philosophy",
+    "schoolCode": "SOP",
+    "level": "UGRD",
+    "terms": [
+      "First Semester",
+      "Second Semester"
+    ],
+    "conveners": [],
+    "handbookUrl": "https://programsandcourses.anu.edu.au/course/phil3073",
+    "summary": "This course offers an advanced approach to ethics or social and political philosophy, suitable for students who have a background in this area and who may be interested in continuing into 4th year Honours. What is taught will change from year to year with the topics including but not limited to: Ethics of Climate Change Machine intelligence and Normative...",
+    "tags": [
+      "philosophy",
+      "ethics",
+      "politics"
+    ],
+    "reviewMetrics": [
+      "Teaching quality",
+      "Workload fairness",
+      "Assessment design"
+    ]
+  },
+  {
+    "id": "PHIL3074",
+    "type": "course",
+    "code": "PHIL3074",
+    "name": "Advanced Philosophical Topics",
+    "college": "ANU College of Arts and Social Sciences",
+    "school": "School of Philosophy",
+    "schoolCode": "SOP",
+    "level": "UGRD",
+    "terms": [
+      "Second Semester"
+    ],
+    "conveners": [],
+    "handbookUrl": "https://programsandcourses.anu.edu.au/course/phil3074",
+    "summary": "This course offers an advanced approach to philosophy and is suitable for students who have a strong background in philosophy. What is taught will change from year to year.",
+    "tags": [
+      "philosophy"
+    ],
+    "reviewMetrics": [
+      "Teaching quality",
+      "Workload fairness",
+      "Assessment design"
+    ]
+  },
+  {
+    "id": "PHIL3075",
+    "type": "course",
+    "code": "PHIL3075",
+    "name": "The Philosophy of Gender: Knowledge, Power, Bodies",
+    "college": "ANU College of Arts and Social Sciences",
+    "school": "School of Philosophy",
+    "schoolCode": "SOP",
+    "level": "UGRD",
+    "terms": [
+      "First Semester"
+    ],
+    "conveners": [],
+    "handbookUrl": "https://programsandcourses.anu.edu.au/course/phil3075",
+    "summary": "This advanced undergraduate course introduces students to major strands of philosophical research in the field of gender. In particular, the course examines feminist epistemology, which has had a wide-ranging influence; feminist discourses on power that seek to interpret gendered phenomena in public and private contexts; and theories of the nature and rea...",
+    "tags": [
+      "cultural studies",
+      "gender studies",
+      "philosophy",
+      "sociology"
+    ],
+    "reviewMetrics": [
+      "Teaching quality",
+      "Workload fairness",
+      "Assessment design"
+    ]
+  },
+  {
+    "id": "PHIL3076",
+    "type": "course",
+    "code": "PHIL3076",
+    "name": "Philosophy of the Life Sciences",
+    "college": "ANU College of Arts and Social Sciences",
+    "school": "School of Philosophy",
+    "schoolCode": "SOP",
+    "level": "UGRD",
+    "terms": [
+      "Second Semester"
+    ],
+    "conveners": [],
+    "handbookUrl": "https://programsandcourses.anu.edu.au/course/phil3076",
+    "summary": "This advanced undergraduate course introduces students to philosophical research in philosophy of the life sciences, including philosophy of biology, philosophy of psychology, and philosophy of neuroscience. It is suitable for students who have a strong background in philosophy.",
+    "tags": [
+      "philosophy",
+      "psychology",
+      "evolution and ecology",
+      "biology"
+    ],
+    "reviewMetrics": [
+      "Teaching quality",
+      "Workload fairness",
+      "Assessment design"
+    ]
+  },
+  {
+    "id": "PHIL3077",
+    "type": "course",
+    "code": "PHIL3077",
+    "name": "The Metaphysics of David Lewis",
+    "college": "ANU College of Arts and Social Sciences",
+    "school": "School of Philosophy",
+    "schoolCode": "SOP",
+    "level": "UGRD",
+    "terms": [
+      "See ANU course page"
+    ],
+    "conveners": [],
+    "handbookUrl": "https://programsandcourses.anu.edu.au/course/phil3077",
+    "summary": "This course offers an advanced approach to philosophy, suitable for students who have some background in metaphysics or logic, and who may be interested in continuing into 4th year Honours. In this course we study the metaphysics of David Lewis, a leading analytic philosopher of the second half of the twentieth century.",
+    "tags": [
+      "philosophy"
+    ],
+    "reviewMetrics": [
+      "Teaching quality",
+      "Workload fairness",
+      "Assessment design"
+    ]
+  },
+  {
+    "id": "PHIL3078",
+    "type": "course",
+    "code": "PHIL3078",
+    "name": "The Philosophy of Emotions",
+    "college": "ANU College of Arts and Social Sciences",
+    "school": "School of Philosophy",
+    "schoolCode": "SOP",
+    "level": "UGRD",
+    "terms": [
+      "See ANU course page"
+    ],
+    "conveners": [],
+    "handbookUrl": "https://programsandcourses.anu.edu.au/course/phil3078",
+    "summary": "Understanding emotions is an urgent and ongoing task in philosophy and the mind sciences. Despite centuries of debate by philosophers and scientists in various cultures, significant empirical and philosophical puzzles persist.",
+    "tags": [
+      "philosophy",
+      "psychology",
+      "neuroscience"
+    ],
+    "reviewMetrics": [
+      "Teaching quality",
+      "Workload fairness",
+      "Assessment design"
+    ]
+  },
+  {
+    "id": "PHIL3079",
+    "type": "course",
+    "code": "PHIL3079",
+    "name": "Evolution and Human Nature",
+    "college": "ANU College of Arts and Social Sciences",
+    "school": "School of Philosophy",
+    "schoolCode": "SOP",
+    "level": "UGRD",
+    "terms": [
+      "Second Semester"
+    ],
+    "conveners": [],
+    "handbookUrl": "https://programsandcourses.anu.edu.au/course/phil3079",
+    "summary": "A conception of human nature plays a central role in many debates in philosophy, and in the humanities and social sciences more broadly. This course aims to introduce students to evolutionary theories of human nature.",
+    "tags": [
+      "biological anthropology",
+      "philosophy"
     ],
     "reviewMetrics": [
       "Teaching quality",
@@ -19508,6 +24040,33 @@ window.ANREVIEW_DATA = {
     "tags": [
       "international relations",
       "political sciences"
+    ],
+    "reviewMetrics": [
+      "Teaching quality",
+      "Workload fairness",
+      "Assessment design"
+    ]
+  },
+  {
+    "id": "POLS2100",
+    "type": "course",
+    "code": "POLS2100",
+    "name": "Genocide in the Modern World",
+    "college": "ANU College of Arts and Social Sciences",
+    "school": "POLIS: The Centre for Social Policy Research",
+    "schoolCode": "PTCFS",
+    "level": "UGRD",
+    "terms": [
+      "See ANU course page"
+    ],
+    "conveners": [],
+    "handbookUrl": "https://programsandcourses.anu.edu.au/course/pols2100",
+    "summary": "The course focuses on the historical, political, cultural, economic and social contexts of genocide and mass killings with a focus on the 20th and 21st centuries. The local, national and international causes and impacts of genocide will be examined, as well as the different forms that genocide takes.",
+    "tags": [
+      "history",
+      "political sciences",
+      "sociology",
+      "criminology"
     ],
     "reviewMetrics": [
       "Teaching quality",
@@ -20078,6 +24637,305 @@ window.ANREVIEW_DATA = {
     ]
   },
   {
+    "id": "PSYC1003",
+    "type": "course",
+    "code": "PSYC1003",
+    "name": "Psychology 1: Understanding Mind, Brain and Behaviour",
+    "college": "ANU College of Science and Medicine",
+    "school": "School of Medicine and Psychology",
+    "schoolCode": "SOMAP",
+    "level": "UGRD",
+    "terms": [
+      "First Semester"
+    ],
+    "conveners": [],
+    "handbookUrl": "https://programsandcourses.anu.edu.au/course/psyc1003",
+    "summary": "The PSYC1003 course will address some of the most fundamental questions in psychology: How does the human mind process information so that we can make sense of the world, remember things, and solve problems? How do perceptual systems work?",
+    "tags": [
+      "human sciences",
+      "philosophy",
+      "medical science",
+      "psychology"
+    ],
+    "reviewMetrics": [
+      "Teaching quality",
+      "Workload fairness",
+      "Assessment design"
+    ]
+  },
+  {
+    "id": "PSYC1004",
+    "type": "course",
+    "code": "PSYC1004",
+    "name": "Psychology 2: Understanding People in Context",
+    "college": "ANU College of Science and Medicine",
+    "school": "School of Medicine and Psychology",
+    "schoolCode": "SOMAP",
+    "level": "UGRD",
+    "terms": [
+      "Second Semester"
+    ],
+    "conveners": [],
+    "handbookUrl": "https://programsandcourses.anu.edu.au/course/psyc1004",
+    "summary": "In this course three key areas of psychology will be introduced: social psychology, personality psychology & developmental psychology. The course will chart key developments, theories and foundational research that continues to have an impact on current approaches.",
+    "tags": [
+      "psychology"
+    ],
+    "reviewMetrics": [
+      "Teaching quality",
+      "Workload fairness",
+      "Assessment design"
+    ]
+  },
+  {
+    "id": "PSYC2001",
+    "type": "course",
+    "code": "PSYC2001",
+    "name": "Social Psychology",
+    "college": "ANU College of Science and Medicine",
+    "school": "School of Medicine and Psychology",
+    "schoolCode": "SOMAP",
+    "level": "UGRD",
+    "terms": [
+      "Second Semester"
+    ],
+    "conveners": [],
+    "handbookUrl": "https://programsandcourses.anu.edu.au/course/psyc2001",
+    "summary": "This course offers a broad introduction to social psychology, the scientific study of how people’s thoughts, feelings and behaviour are influenced by other people. We will explore a large variety of social psychology topics in the course, including attitudes, group processes, leadership, prejudice, social support, and attributions.",
+    "tags": [
+      "psychology"
+    ],
+    "reviewMetrics": [
+      "Teaching quality",
+      "Workload fairness",
+      "Assessment design"
+    ]
+  },
+  {
+    "id": "PSYC2002",
+    "type": "course",
+    "code": "PSYC2002",
+    "name": "Developmental Psychology",
+    "college": "ANU College of Science and Medicine",
+    "school": "School of Medicine and Psychology",
+    "schoolCode": "SOMAP",
+    "level": "UGRD",
+    "terms": [
+      "See ANU course page"
+    ],
+    "conveners": [],
+    "handbookUrl": "https://programsandcourses.anu.edu.au/course/psyc2002",
+    "summary": "How much of our behaviour is learned or innate? How much does the culture in which we are raised affect the person we become? What is the relationship between our childhood behaviours and experiences and our adult self?",
+    "tags": [
+      "psychology"
+    ],
+    "reviewMetrics": [
+      "Teaching quality",
+      "Workload fairness",
+      "Assessment design"
+    ]
+  },
+  {
+    "id": "PSYC2007",
+    "type": "course",
+    "code": "PSYC2007",
+    "name": "Biological Basis of Psychology",
+    "college": "ANU College of Science and Medicine",
+    "school": "School of Medicine and Psychology",
+    "schoolCode": "SOMAP",
+    "level": "UGRD",
+    "terms": [
+      "Second Semester"
+    ],
+    "conveners": [],
+    "handbookUrl": "https://programsandcourses.anu.edu.au/course/psyc2007",
+    "summary": "Our ability to perceive the world, think and remember things depends upon the functioning of our brain. In this course we will look at the workings of the brain, with particular focus on understanding aspects of brain function that are of particular importance to psychology.",
+    "tags": [
+      "human sciences",
+      "psychology",
+      "neuroscience"
+    ],
+    "reviewMetrics": [
+      "Teaching quality",
+      "Workload fairness",
+      "Assessment design"
+    ]
+  },
+  {
+    "id": "PSYC2008",
+    "type": "course",
+    "code": "PSYC2008",
+    "name": "Cognition",
+    "college": "ANU College of Science and Medicine",
+    "school": "School of Medicine and Psychology",
+    "schoolCode": "SOMAP",
+    "level": "UGRD",
+    "terms": [
+      "Second Semester"
+    ],
+    "conveners": [],
+    "handbookUrl": "https://programsandcourses.anu.edu.au/course/psyc2008",
+    "summary": "This course provides an in-depth survey of cognitive psychology: the scientific study of how we think. Topics covered include: methodological approaches to cognitive psychology, attention, awareness, visual imagery, face and object perception, learning, memory, decision-making, language, and social cognition.",
+    "tags": [
+      "psychology"
+    ],
+    "reviewMetrics": [
+      "Teaching quality",
+      "Workload fairness",
+      "Assessment design"
+    ]
+  },
+  {
+    "id": "PSYC2009",
+    "type": "course",
+    "code": "PSYC2009",
+    "name": "Quantitative Methods in Psychology",
+    "college": "ANU College of Science and Medicine",
+    "school": "School of Medicine and Psychology",
+    "schoolCode": "SOMAP",
+    "level": "UGRD",
+    "terms": [
+      "First Semester"
+    ],
+    "conveners": [],
+    "handbookUrl": "https://programsandcourses.anu.edu.au/course/psyc2009",
+    "summary": "An introduction to selected quantitative techniques widely used in psychological research and practice, including applications of statistical techniques in the design and analysis of experiments and surveys, and in psychological measurement.",
+    "tags": [
+      "psychology"
+    ],
+    "reviewMetrics": [
+      "Teaching quality",
+      "Workload fairness",
+      "Assessment design"
+    ]
+  },
+  {
+    "id": "PSYC2011",
+    "type": "course",
+    "code": "PSYC2011",
+    "name": "Introduction to Forensic and Criminal Psychology",
+    "college": "ANU College of Science and Medicine",
+    "school": "School of Medicine and Psychology",
+    "schoolCode": "SOMAP",
+    "level": "UGRD",
+    "terms": [
+      "Second Semester"
+    ],
+    "conveners": [],
+    "handbookUrl": "https://programsandcourses.anu.edu.au/course/psyc2011",
+    "summary": "This course will survey the major areas of psychology and law, including (but not limited to) psychology of forensic science, lie detection, interrogations and confessions, eyewitness memory, and jury decision making. Information provided via lectures, videos, articles, and the text will provide the student with a broad understanding of the impact that ps...",
+    "tags": [
+      "law",
+      "psychology",
+      "forensic anthropology",
+      "clinical psychology"
+    ],
+    "reviewMetrics": [
+      "Teaching quality",
+      "Workload fairness",
+      "Assessment design"
+    ]
+  },
+  {
+    "id": "PSYC3018",
+    "type": "course",
+    "code": "PSYC3018",
+    "name": "Advanced Research Methods",
+    "college": "ANU College of Science and Medicine",
+    "school": "School of Medicine and Psychology",
+    "schoolCode": "SOMAP",
+    "level": "UGRD",
+    "terms": [
+      "First Semester"
+    ],
+    "conveners": [],
+    "handbookUrl": "https://programsandcourses.anu.edu.au/course/psyc3018",
+    "summary": "In this course, you will build on and consolidate knowledge gained in PSYC2009. The course is geared particularly towards fostering a deep understanding of Analysis of Variance (ANOVA) and Multiple Regression Correlation (MRC) approaches to data analysis.",
+    "tags": [
+      "psychology"
+    ],
+    "reviewMetrics": [
+      "Teaching quality",
+      "Workload fairness",
+      "Assessment design"
+    ]
+  },
+  {
+    "id": "PSYC3025",
+    "type": "course",
+    "code": "PSYC3025",
+    "name": "Psychopathology Across the Lifespan",
+    "college": "ANU College of Science and Medicine",
+    "school": "School of Medicine and Psychology",
+    "schoolCode": "SOMAP",
+    "level": "UGRD",
+    "terms": [
+      "First Semester"
+    ],
+    "conveners": [],
+    "handbookUrl": "https://programsandcourses.anu.edu.au/course/psyc3025",
+    "summary": "This course offers an integrative approach to psychological disorders, in which abnormal behaviour and psychopathology are contrasted with \"normal\" functioning. The course uses case examples, video material, and knowledge from both research and clinical perspectives to help bring alive the challenges of diagnosis, assessment, conceptualisation, and treatm...",
+    "tags": [
+      "psychology"
+    ],
+    "reviewMetrics": [
+      "Teaching quality",
+      "Workload fairness",
+      "Assessment design"
+    ]
+  },
+  {
+    "id": "PSYC3026",
+    "type": "course",
+    "code": "PSYC3026",
+    "name": "Personality Psychology",
+    "college": "ANU College of Science and Medicine",
+    "school": "School of Medicine and Psychology",
+    "schoolCode": "SOMAP",
+    "level": "UGRD",
+    "terms": [
+      "Second Semester"
+    ],
+    "conveners": [],
+    "handbookUrl": "https://programsandcourses.anu.edu.au/course/psyc3026",
+    "summary": "This course presents both in-depth and broad coverage of personality psychology. The main aims of the course are to critically review and discuss key theoretical and empirical approaches to personality.",
+    "tags": [
+      "psychology"
+    ],
+    "reviewMetrics": [
+      "Teaching quality",
+      "Workload fairness",
+      "Assessment design"
+    ]
+  },
+  {
+    "id": "SCRN2003",
+    "type": "course",
+    "code": "SCRN2003",
+    "name": "Film and History: Hollywood and Beyond",
+    "college": "ANU College of Arts and Social Sciences",
+    "school": "School of Literature, Languages and Linguistics",
+    "schoolCode": "SOLLA",
+    "level": "UGRD",
+    "terms": [
+      "See ANU course page"
+    ],
+    "conveners": [],
+    "handbookUrl": "https://programsandcourses.anu.edu.au/course/scrn2003",
+    "summary": "This course examines the relationship between history and the moving image in two ways: by studying the history of film as well as history on film, from the beginnings of cinema to the ever-present screens of today. It begins with an analysis of the rise of Hollywood as an industrial and cultural institution, and explores the complex relationship and inte...",
+    "tags": [
+      "american studies",
+      "cultural studies",
+      "history",
+      "film"
+    ],
+    "reviewMetrics": [
+      "Teaching quality",
+      "Workload fairness",
+      "Assessment design"
+    ]
+  },
+  {
     "id": "SOCR1001",
     "type": "course",
     "code": "SOCR1001",
@@ -20129,6 +24987,159 @@ window.ANREVIEW_DATA = {
     ]
   },
   {
+    "id": "SOCY1002",
+    "type": "course",
+    "code": "SOCY1002",
+    "name": "Self and Society",
+    "college": "ANU College of Arts and Social Sciences",
+    "school": "School of Sociology",
+    "schoolCode": "SOS",
+    "level": "UGRD",
+    "terms": [
+      "First Semester"
+    ],
+    "conveners": [],
+    "handbookUrl": "https://programsandcourses.anu.edu.au/course/socy1002",
+    "summary": "Most people feel that they know something about the social world in which they live. But Sociology is a distinctive way of knowing and it is this unique way of thinking and doing that we will explore in this introductory unit.",
+    "tags": [
+      "sociology"
+    ],
+    "reviewMetrics": [
+      "Teaching quality",
+      "Workload fairness",
+      "Assessment design"
+    ]
+  },
+  {
+    "id": "SOCY1004",
+    "type": "course",
+    "code": "SOCY1004",
+    "name": "Economy and Society",
+    "college": "ANU College of Arts and Social Sciences",
+    "school": "School of Sociology",
+    "schoolCode": "SOS",
+    "level": "UGRD",
+    "terms": [
+      "Second Semester"
+    ],
+    "conveners": [],
+    "handbookUrl": "https://programsandcourses.anu.edu.au/course/socy1004",
+    "summary": "This course examines economic life from a sociological perspective, looking beyond abstract representations of production and exchange to consider the social relations of those living and labouring under different circumstances. It introduces students to key strands of social theory that help us understand how social inequalities are produced, reproduced...",
+    "tags": [
+      "development studies",
+      "sociology"
+    ],
+    "reviewMetrics": [
+      "Teaching quality",
+      "Workload fairness",
+      "Assessment design"
+    ]
+  },
+  {
+    "id": "SOCY2022",
+    "type": "course",
+    "code": "SOCY2022",
+    "name": "Environmental Sociology",
+    "college": "ANU College of Arts and Social Sciences",
+    "school": "School of Sociology",
+    "schoolCode": "SOS",
+    "level": "UGRD",
+    "terms": [
+      "First Semester"
+    ],
+    "conveners": [],
+    "handbookUrl": "https://programsandcourses.anu.edu.au/course/socy2022",
+    "summary": "Environmental sociology examines the complex relationships between people, nature, and the natural environment. It focuses on questions such as: how environmental issues are known, defined and acted upon; why certain environmental issues are largely ignored or denied; the role of institutions and economic systems in shaping relationships with the non-huma...",
+    "tags": [
+      "environmental studies",
+      "policy studies",
+      "social research",
+      "sociology"
+    ],
+    "reviewMetrics": [
+      "Teaching quality",
+      "Workload fairness",
+      "Assessment design"
+    ]
+  },
+  {
+    "id": "SOCY2026",
+    "type": "course",
+    "code": "SOCY2026",
+    "name": "Excessive Appetites: Sociocultural Perspectives on Addiction and Drug Use",
+    "college": "ANU College of Arts and Social Sciences",
+    "school": "School of Sociology",
+    "schoolCode": "SOS",
+    "level": "UGRD",
+    "terms": [
+      "See ANU course page"
+    ],
+    "conveners": [],
+    "handbookUrl": "https://programsandcourses.anu.edu.au/course/socy2026",
+    "summary": "This interdisciplinary course will introduce students to contemporary understandings of addiction and drug and alcohol use, from a socio-cultural perspective. It addresses the question of why addiction and drug use have such prominence as medical and social problems in contemporary Western cultures and provides a range of concepts and tools for understand...",
+    "tags": [
+      "gender studies",
+      "sociology",
+      "criminology"
+    ],
+    "reviewMetrics": [
+      "Teaching quality",
+      "Workload fairness",
+      "Assessment design"
+    ]
+  },
+  {
+    "id": "SOCY2030",
+    "type": "course",
+    "code": "SOCY2030",
+    "name": "Social Inequalities and Development",
+    "college": "ANU College of Arts and Social Sciences",
+    "school": "School of Sociology",
+    "schoolCode": "SOS",
+    "level": "UGRD",
+    "terms": [
+      "Second Semester"
+    ],
+    "conveners": [],
+    "handbookUrl": "https://programsandcourses.anu.edu.au/course/socy2030",
+    "summary": "This course introduces students to sociological perspectives on global inequalities and development. It examines the concepts of development and globalisation in historical and contemporary contexts, incorporating themes of migration, health, reproduction, environment, climate change and work.",
+    "tags": [
+      "development studies",
+      "sociology"
+    ],
+    "reviewMetrics": [
+      "Teaching quality",
+      "Workload fairness",
+      "Assessment design"
+    ]
+  },
+  {
+    "id": "SOCY2035",
+    "type": "course",
+    "code": "SOCY2035",
+    "name": "Cities and Urban Transformation",
+    "college": "ANU College of Arts and Social Sciences",
+    "school": "School of Sociology",
+    "schoolCode": "SOS",
+    "level": "UGRD",
+    "terms": [
+      "Summer Session"
+    ],
+    "conveners": [],
+    "handbookUrl": "https://programsandcourses.anu.edu.au/course/socy2035",
+    "summary": "Intensifying processes of urbanisation worldwide mean that cities will dominate the twenty-first century. This course explores some of the profound changes that are currently taking place in cities and evaluates what this means for understanding contemporary social transformation.",
+    "tags": [
+      "geography",
+      "environmental studies",
+      "sociology"
+    ],
+    "reviewMetrics": [
+      "Teaching quality",
+      "Workload fairness",
+      "Assessment design"
+    ]
+  },
+  {
     "id": "SOCY2038",
     "type": "course",
     "code": "SOCY2038",
@@ -20147,6 +25158,30 @@ window.ANREVIEW_DATA = {
       "policy studies",
       "political sciences",
       "social research",
+      "sociology"
+    ],
+    "reviewMetrics": [
+      "Teaching quality",
+      "Workload fairness",
+      "Assessment design"
+    ]
+  },
+  {
+    "id": "SOCY2040",
+    "type": "course",
+    "code": "SOCY2040",
+    "name": "Classical Social Theory",
+    "college": "ANU College of Arts and Social Sciences",
+    "school": "School of Sociology",
+    "schoolCode": "SOS",
+    "level": "UGRD",
+    "terms": [
+      "Second Semester"
+    ],
+    "conveners": [],
+    "handbookUrl": "https://programsandcourses.anu.edu.au/course/socy2040",
+    "summary": "The course will critically examine the sociological theories of Karl Marx, Max Weber and Emile Durkheim, along with other pertinent figures. Two major foci are: (i) the study of primary texts and (ii) the introduction of the dynamically hybrid and contested traditions that are associated with these thinkers.",
+    "tags": [
       "sociology"
     ],
     "reviewMetrics": [
@@ -20183,6 +25218,82 @@ window.ANREVIEW_DATA = {
     ]
   },
   {
+    "id": "SOCY2101",
+    "type": "course",
+    "code": "SOCY2101",
+    "name": "Social Policy: Principles and Practice",
+    "college": "ANU College of Arts and Social Sciences",
+    "school": "School of Sociology",
+    "schoolCode": "SOS",
+    "level": "UGRD",
+    "terms": [
+      "First Semester"
+    ],
+    "conveners": [],
+    "handbookUrl": "https://programsandcourses.anu.edu.au/course/socy2101",
+    "summary": "Social scientists are concerned not just with identifying and describing social issues, but with engaging in research and policy action which seek to improve the conditions under which we live. Participation in the process of social policy analysis and development provides the mechanism through which change can occur.",
+    "tags": [
+      "socy"
+    ],
+    "reviewMetrics": [
+      "Teaching quality",
+      "Workload fairness",
+      "Assessment design"
+    ]
+  },
+  {
+    "id": "SOCY2157",
+    "type": "course",
+    "code": "SOCY2157",
+    "name": "Surveillance and Society",
+    "college": "ANU College of Arts and Social Sciences",
+    "school": "School of Sociology",
+    "schoolCode": "SOS",
+    "level": "UGRD",
+    "terms": [
+      "See ANU course page"
+    ],
+    "conveners": [],
+    "handbookUrl": "https://programsandcourses.anu.edu.au/course/socy2157",
+    "summary": "This course provides an introduction to the interdisciplinary field of surveillance studies. Surveillance technologies and practices form an increasingly familiar part of our daily lives: data are made and shared as we commute, work, consume and browse.",
+    "tags": [
+      "law",
+      "sociology",
+      "security studies",
+      "criminology"
+    ],
+    "reviewMetrics": [
+      "Teaching quality",
+      "Workload fairness",
+      "Assessment design"
+    ]
+  },
+  {
+    "id": "SOCY2161",
+    "type": "course",
+    "code": "SOCY2161",
+    "name": "Contemporary Social Theory",
+    "college": "ANU College of Arts and Social Sciences",
+    "school": "School of Sociology",
+    "schoolCode": "SOS",
+    "level": "UGRD",
+    "terms": [
+      "First Semester"
+    ],
+    "conveners": [],
+    "handbookUrl": "https://programsandcourses.anu.edu.au/course/socy2161",
+    "summary": "How can thinking help us to approach empirical problems in new ways? In asking this question Contemporary Social Theory puts forward a case for the practical value of theory.",
+    "tags": [
+      "philosophy",
+      "sociology"
+    ],
+    "reviewMetrics": [
+      "Teaching quality",
+      "Workload fairness",
+      "Assessment design"
+    ]
+  },
+  {
     "id": "SOCY2166",
     "type": "course",
     "code": "SOCY2166",
@@ -20202,6 +25313,266 @@ window.ANREVIEW_DATA = {
       "sociology",
       "economics",
       "communications"
+    ],
+    "reviewMetrics": [
+      "Teaching quality",
+      "Workload fairness",
+      "Assessment design"
+    ]
+  },
+  {
+    "id": "SOCY2170",
+    "type": "course",
+    "code": "SOCY2170",
+    "name": "The Social Life of Algorithms",
+    "college": "ANU College of Arts and Social Sciences",
+    "school": "School of Sociology",
+    "schoolCode": "SOS",
+    "level": "UGRD",
+    "terms": [
+      "Second Semester"
+    ],
+    "conveners": [],
+    "handbookUrl": "https://programsandcourses.anu.edu.au/course/socy2170",
+    "summary": "This course examines algorithms as social and cultural objects—products of human labor, politics, and imagination, as much as of mathematics and computation. Drawing on interdisciplinary perspectives from Science and Technology Studies (STS), media studies, and critical data studies, students will explore how algorithms shape and are shaped by social valu...",
+    "tags": [
+      "cultural studies",
+      "gender studies",
+      "sociology",
+      "algorithms and data"
+    ],
+    "reviewMetrics": [
+      "Teaching quality",
+      "Workload fairness",
+      "Assessment design"
+    ]
+  },
+  {
+    "id": "SOCY3001",
+    "type": "course",
+    "code": "SOCY3001",
+    "name": "Research Internship",
+    "college": "ANU College of Arts and Social Sciences",
+    "school": "School of Sociology",
+    "schoolCode": "SOS",
+    "level": "UGRD",
+    "terms": [
+      "Second Semester"
+    ],
+    "conveners": [],
+    "handbookUrl": "https://programsandcourses.anu.edu.au/course/socy3001",
+    "summary": "This course gives students the opportunity to work closely with a member of academic staff in the discipline of Sociology on a research project in a field of interest. Students will develop real-world research skills and get a sense of how high-level academic research is conducted.",
+    "tags": [
+      "policy studies",
+      "sociology",
+      "criminology"
+    ],
+    "reviewMetrics": [
+      "Teaching quality",
+      "Workload fairness",
+      "Assessment design"
+    ]
+  },
+  {
+    "id": "SOCY3005",
+    "type": "course",
+    "code": "SOCY3005",
+    "name": "Quantitative Projects for Inclusion and Diversity",
+    "college": "ANU College of Arts and Social Sciences",
+    "school": "School of Sociology",
+    "schoolCode": "SOS",
+    "level": "UGRD",
+    "terms": [
+      "See ANU course page"
+    ],
+    "conveners": [],
+    "handbookUrl": "https://programsandcourses.anu.edu.au/course/socy3005",
+    "summary": "In today's globalised world, fostering inclusive and equitable cultures in workplaces and educational institutions is more critical than ever. The Australian National University (ANU) recognises the significance of creating a diverse and inclusive environment and is committed to becoming a national leader in this area.",
+    "tags": [
+      "gender studies",
+      "policy studies",
+      "social research",
+      "sociology"
+    ],
+    "reviewMetrics": [
+      "Teaching quality",
+      "Workload fairness",
+      "Assessment design"
+    ]
+  },
+  {
+    "id": "SOCY3007",
+    "type": "course",
+    "code": "SOCY3007",
+    "name": "Understanding Neoliberalism",
+    "college": "ANU College of Arts and Social Sciences",
+    "school": "School of Sociology",
+    "schoolCode": "SOS",
+    "level": "UGRD",
+    "terms": [
+      "First Semester"
+    ],
+    "conveners": [],
+    "handbookUrl": "https://programsandcourses.anu.edu.au/course/socy3007",
+    "summary": "The term \"neoliberalism\" refers to an intellectual movement dating back to the 1930s and to the political movement that translated these ideas into policy practice beginning in the 1970s. The movement inspired a backlash against the mid-century welfare state and sought to achieve a complete transformation of social, economic and political life in accordan...",
+    "tags": [
+      "gender studies",
+      "policy studies",
+      "sociology",
+      "economic history"
+    ],
+    "reviewMetrics": [
+      "Teaching quality",
+      "Workload fairness",
+      "Assessment design"
+    ]
+  },
+  {
+    "id": "SOCY3010",
+    "type": "course",
+    "code": "SOCY3010",
+    "name": "Posthuman Bodies",
+    "college": "ANU College of Arts and Social Sciences",
+    "school": "School of Sociology",
+    "schoolCode": "SOS",
+    "level": "UGRD",
+    "terms": [
+      "See ANU course page"
+    ],
+    "conveners": [],
+    "handbookUrl": "https://programsandcourses.anu.edu.au/course/socy3010",
+    "summary": "In many ways, contemporary life profoundly challenges our understandings of what it is to be human. This course explores the ways in which our bodies might be better described as ‘posthuman.’ We will examine our engagements with technology (from Fitbits to IVF), our entanglements with scientific and medical understandings of the body (such as those produc...",
+    "tags": [
+      "gender studies",
+      "health medicine and the body",
+      "sociology",
+      "health"
+    ],
+    "reviewMetrics": [
+      "Teaching quality",
+      "Workload fairness",
+      "Assessment design"
+    ]
+  },
+  {
+    "id": "SOCY3050",
+    "type": "course",
+    "code": "SOCY3050",
+    "name": "Education and Society",
+    "college": "ANU College of Arts and Social Sciences",
+    "school": "School of Sociology",
+    "schoolCode": "SOS",
+    "level": "UGRD",
+    "terms": [
+      "Second Semester"
+    ],
+    "conveners": [],
+    "handbookUrl": "https://programsandcourses.anu.edu.au/course/socy3050",
+    "summary": "This course critically assesses recent cultural and institutional changes in primary, secondary, and tertiary schooling. It involves debating sociological approaches to education with particular attention to the impact of neo-liberalist reforms, emphasising standardized student performance testing.",
+    "tags": [
+      "sociology"
+    ],
+    "reviewMetrics": [
+      "Teaching quality",
+      "Workload fairness",
+      "Assessment design"
+    ]
+  },
+  {
+    "id": "SOCY3057",
+    "type": "course",
+    "code": "SOCY3057",
+    "name": "Relationships, Marriage and Family",
+    "college": "ANU College of Arts and Social Sciences",
+    "school": "School of Sociology",
+    "schoolCode": "SOS",
+    "level": "UGRD",
+    "terms": [
+      "See ANU course page"
+    ],
+    "conveners": [],
+    "handbookUrl": "https://programsandcourses.anu.edu.au/course/socy3057",
+    "summary": "In the last fifty years, there have been significant changes in the structure and social significance of relationships, families, and marriage. This course provides an opportunity to analyze these changes from an international perspective and to relate them to contemporary Australia.",
+    "tags": [
+      "sociology"
+    ],
+    "reviewMetrics": [
+      "Teaching quality",
+      "Workload fairness",
+      "Assessment design"
+    ]
+  },
+  {
+    "id": "SOCY3124",
+    "type": "course",
+    "code": "SOCY3124",
+    "name": "Transforming Society",
+    "college": "ANU College of Arts and Social Sciences",
+    "school": "School of Sociology",
+    "schoolCode": "SOS",
+    "level": "UGRD",
+    "terms": [
+      "Second Semester"
+    ],
+    "conveners": [],
+    "handbookUrl": "https://programsandcourses.anu.edu.au/course/socy3124",
+    "summary": "Sociological debates in recent decades have reinvigorated the question of the relevance of sociological knowledge. In debates around ‘Public Sociology’, for example, it has been suggested that sociology has surrendered its original mission of positively transforming society.",
+    "tags": [
+      "socy"
+    ],
+    "reviewMetrics": [
+      "Teaching quality",
+      "Workload fairness",
+      "Assessment design"
+    ]
+  },
+  {
+    "id": "SOCY3167",
+    "type": "course",
+    "code": "SOCY3167",
+    "name": "Populism: Gender, Race, Class and Backlash",
+    "college": "ANU College of Arts and Social Sciences",
+    "school": "School of Sociology",
+    "schoolCode": "SOS",
+    "level": "UGRD",
+    "terms": [
+      "First Semester"
+    ],
+    "conveners": [],
+    "handbookUrl": "https://programsandcourses.anu.edu.au/course/socy3167",
+    "summary": "This course explores the topical phenomenon of populism from a sociological perspective. Topics covered include: 1) What is populism? Politics offers the most common definition of populism today: social movements and parties that claim to be 'of the people' and 'against the elite'.",
+    "tags": [
+      "cultural studies",
+      "gender studies",
+      "sociology",
+      "politics"
+    ],
+    "reviewMetrics": [
+      "Teaching quality",
+      "Workload fairness",
+      "Assessment design"
+    ]
+  },
+  {
+    "id": "SOCY3169",
+    "type": "course",
+    "code": "SOCY3169",
+    "name": "Online Research Methods",
+    "college": "ANU College of Arts and Social Sciences",
+    "school": "School of Sociology",
+    "schoolCode": "SOS",
+    "level": "UGRD",
+    "terms": [
+      "Second Semester"
+    ],
+    "conveners": [],
+    "handbookUrl": "https://programsandcourses.anu.edu.au/course/socy3169",
+    "summary": "The Internet is increasingly a source of data for social science research and this course provides students with training in online research methods for social research, with an emphasis on quantitative methods. The course focuses on unobtrusive/non-reactive methods involving socially-generated digital trace data (networks and text) from sources such as w...",
+    "tags": [
+      "political communication",
+      "social research",
+      "sociology",
+      "digital humanities"
     ],
     "reviewMetrics": [
       "Teaching quality",
