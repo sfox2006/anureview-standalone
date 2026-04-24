@@ -3,7 +3,7 @@
   <head>
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
-    <title>ANReview | ANU Course & Lecturer Ratings</title>
+    <title>ANRevU | ANU Course & Lecturer Ratings</title>
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Bricolage+Grotesque:opsz,wght@12..96,400;12..96,500;12..96,600;12..96,700;12..96,800&family=DM+Sans:ital,opsz,wght@0,9..40,400;0,9..40,500;0,9..40,600;1,9..40,400&display=swap" rel="stylesheet">
@@ -15,8 +15,8 @@
     <header class="site-header">
       <div class="header-inner">
         <a class="wordmark" href="#">
-          <span class="wordmark-an">AN</span><span class="wordmark-review">Review</span>
-          <span class="wordmark-badge">CBE + CLGP + CASS + CAP + CSM + CSS</span>
+          <img class="wordmark-logo" src="assets/an-logo.png" alt="ANRevU">
+          <span class="wordmark-badge">ANU course and lecturer reviews</span>
         </a>
         <nav class="header-nav">
           <a href="#directory" class="nav-link">Courses</a>
@@ -115,31 +115,31 @@
       <section class="college-switch" aria-label="College selection">
         <button id="all-colleges-tab" class="college-tab is-active" type="button" data-college="all">
           <span class="ctab-label">All areas</span>
-          <span class="ctab-sub">All ANU areas currently loaded into the ANReview snapshot</span>
+          <span class="ctab-sub">All ANU areas currently loaded into the ANRevU snapshot</span>
         </button>
         <button id="cbe-tab" class="college-tab" type="button" data-college="cbe">
-          <span class="ctab-label">CBE</span>
-          <span class="ctab-sub">Business &amp; Economics</span>
+          <span class="ctab-label">College of Business and Economics</span>
+          <span class="ctab-sub">Economics, finance, management, marketing and related academics</span>
         </button>
         <button id="law-tab" class="college-tab" type="button" data-college="law">
-          <span class="ctab-label">CLGP</span>
-          <span class="ctab-sub">Law, Governance &amp; Policy</span>
+          <span class="ctab-label">College of Law, Governance and Policy</span>
+          <span class="ctab-sub">Law, policy, regulation, governance and related academics</span>
         </button>
         <button id="cass-tab" class="college-tab" type="button" data-college="cass">
-          <span class="ctab-label">CASS</span>
-          <span class="ctab-sub">BIR, BPolSci and wider CASS academics</span>
+          <span class="ctab-label">College of Arts and Social Sciences</span>
+          <span class="ctab-sub">Arts, politics, international relations and wider CASS academics</span>
         </button>
         <button id="cap-tab" class="college-tab" type="button" data-college="cap">
-          <span class="ctab-label">CAP</span>
-          <span class="ctab-sub">Asia &amp; the Pacific courses and academics</span>
+          <span class="ctab-label">College of Asia and the Pacific</span>
+          <span class="ctab-sub">Asia-Pacific courses, area studies and related academics</span>
         </button>
         <button id="csm-tab" class="college-tab" type="button" data-college="csm">
-          <span class="ctab-label">CSM</span>
-          <span class="ctab-sub">Science &amp; Medicine</span>
+          <span class="ctab-label">College of Science and Medicine</span>
+          <span class="ctab-sub">Science, health and medicine courses and academics</span>
         </button>
         <button id="css-tab" class="college-tab" type="button" data-college="css">
-          <span class="ctab-label">CSS</span>
-          <span class="ctab-sub">Systems &amp; Society</span>
+          <span class="ctab-label">College of Systems and Society</span>
+          <span class="ctab-sub">Computing, cybernetics, engineering and related academics</span>
         </button>
       </section>
 
@@ -150,7 +150,7 @@
             <p class="eyebrow">Directory</p>
             <h2 class="directory-title">Find a course or professor.</h2>
           </div>
-          <p class="directory-note">Step 1: use the left column to choose the course or professor you want. Step 2: use the right column to read ratings and post a review for that exact selection.</p>
+          <p class="directory-note">Step 1: search or filter for a course or lecturer. Step 2: open that result's page to read ratings and leave a review.</p>
         </div>
 
         <!-- Type toggle -->
@@ -162,13 +162,13 @@
         <div class="workflow-strip" aria-label="How ANReview works">
           <article class="workflow-card">
             <p class="workflow-step">Step 1</p>
-            <h3>Choose what you want to review</h3>
-            <p>Use the filters and left-hand results list to pick one course or professor.</p>
+            <h3>Find the course or lecturer</h3>
+            <p>Use the search bar and filters to narrow the results, then tap the course or lecturer you want.</p>
           </article>
           <article class="workflow-card">
             <p class="workflow-step">Step 2</p>
-            <h3>Read ratings and leave your review</h3>
-            <p>The right-hand panel updates for your selection and is where you post the review.</p>
+            <h3>Open the page and leave the review</h3>
+            <p>You will be taken to a dedicated page for that item where you can read ratings, browse reviews and post your own.</p>
           </article>
         </div>
 
@@ -234,8 +234,8 @@
             <div id="detail-empty" class="detail-empty">
               <div class="detail-empty-icon">↗</div>
               <p class="panel-step">Step 2</p>
-              <h3>Read ratings and write the review here</h3>
-              <p>Once you choose a course or professor, this page shows the details, reviews, and review form for that exact item.</p>
+              <h3>Open a course or lecturer page</h3>
+              <p>Select a result first, then this page will show its ratings, reviews and review form.</p>
             </div>
 
             <div id="detail-view" class="detail-view is-hidden">
