@@ -124,6 +124,12 @@ function updateSyncStatus(message) {
   elements.syncStatus.textContent = message;
 }
 
+function delay(ms) {
+  return new Promise((resolve) => {
+    window.setTimeout(resolve, ms);
+  });
+}
+
 function mergeOfficialAcademics(officialAcademics) {
   const existingById = new Map(dataset.academics.map((academic) => [academic.id, academic]));
   const merged = officialAcademics.map((academic) => {
@@ -163,17 +169,42 @@ function mergeOfficialCourses(officialCourses) {
 }
 
 async function fetchOfficialCatalog() {
+  updateSyncStatus("Syncing official ANReview catalogue...");
   const response = await fetch("/api/anreview/catalog");
   const payload = await response.json();
   if (!response.ok) {
-    throw new Error(payload.error || "Unable to load official ANU faculty data.");
+    throw new Error(payload.error || "Unable to load official ANU catalogue data.");
   }
   mergeOfficialCourses(payload.courses || []);
   mergeOfficialAcademics(payload.academics || []);
+  updateSyncStatus(
+    `Official ANReview catalogue sync live. ${payload.counts?.courses || 0} courses, ${payload.counts?.cbe || 0} CBE academics, and ${payload.counts?.law || 0} Law academics loaded.`
+  );
+}
+
+async function loadOfficialCatalogWithRetry(maxAttempts = 3) {
+  let lastError = null;
+  for (let attempt = 1; attempt <= maxAttempts; attempt += 1) {
+    try {
+      await fetchOfficialCatalog();
+      return true;
+    } catch (error) {
+      lastError = error;
+      if (attempt < maxAttempts) {
+        updateSyncStatus(`Official catalogue not ready yet. Retrying sync (${attempt + 1}/${maxAttempts})...`);
+        await delay(1500 * attempt);
+      }
+    }
+  }
+
+  updateSyncStatus("Using bundled ANReview snapshot for now. Refresh in a moment if the server has just restarted.");
+  if (lastError) {
+    updateFeedback(lastError.message || "Unable to refresh official faculty data.", true);
+  }
+  return false;
 }
 
 async function fetchSharedReviews() {
-  updateSyncStatus("Syncing with local ANReview server...");
   const response = await fetch("/api/anreview/reviews");
   if (!response.ok) {
     throw new Error("Unable to reach ANReview review storage.");
@@ -182,7 +213,6 @@ async function fetchSharedReviews() {
   state.sharedReviews = payload.reviews || [];
   state.reportCount = payload.reportCount || 0;
   elements.moderationCount.textContent = String(state.reportCount);
-  updateSyncStatus(`Shared review sync live. ${state.sharedReviews.length} server review${state.sharedReviews.length === 1 ? "" : "s"} loaded.`);
 }
 
 function populateSchoolFilter() {
@@ -676,11 +706,7 @@ async function init() {
   renderSources();
   bindFilters();
 
-  try {
-    await fetchOfficialCatalog();
-  } catch (error) {
-    updateFeedback(error.message || "Unable to refresh official faculty data.", true);
-  }
+  await loadOfficialCatalogWithRetry();
 
   populateSchoolFilter();
   state.selectedId = filteredItems()[0]?.id || dataset.courses[0]?.id || null;

@@ -16,10 +16,11 @@ ANREVIEW_STORAGE_DIR = Path(tempfile.gettempdir()) / "ANReview"
 ANREVIEW_REVIEWS_PATH = ANREVIEW_STORAGE_DIR / "shared-reviews.json"
 ANREVIEW_REPORTS_PATH = ANREVIEW_STORAGE_DIR / "review-reports.json"
 ANREVIEW_CATALOG_CACHE_PATH = ANREVIEW_STORAGE_DIR / "catalog-cache.json"
+BUNDLED_DATA_PATH = WORKSPACE_DIR / "cbe-rating" / "data.js"
 HOST = "0.0.0.0"
 PORT = int(os.environ.get("PORT", "8000"))
 CACHE_TTL = timedelta(hours=12)
-CACHE_VERSION = 3
+CACHE_VERSION = 7
 REQUEST_HEADERS = {
     "User-Agent": "ANReview Local Sync/1.0 (+http://127.0.0.1:8000/cbe-rating/)",
 }
@@ -190,6 +191,43 @@ def fetch_html(url: str) -> str:
 def clean_html_text(value: str) -> str:
     text = re.sub(r"<[^>]+>", " ", unescape(value))
     return re.sub(r"\s+", " ", text).strip()
+
+
+def load_bundled_catalog_snapshot() -> dict | None:
+    if not BUNDLED_DATA_PATH.exists():
+        return None
+
+    raw = BUNDLED_DATA_PATH.read_text(encoding="utf-8").strip()
+    if raw.startswith("window.ANREVIEW_DATA ="):
+        raw = raw.split("=", 1)[1].strip()
+    if raw.endswith(";"):
+        raw = raw[:-1].strip()
+
+    json_like = re.sub(r'([{\[,]\s*)([A-Za-z_][A-Za-z0-9_]*)\s*:', r'\1"\2":', raw)
+    try:
+        payload = json.loads(json_like)
+    except json.JSONDecodeError:
+        return None
+
+    courses = payload.get("courses") or []
+    academics = payload.get("academics") or []
+    if not courses or not academics:
+        return None
+
+    cbe_count = sum(1 for academic in academics if academic.get("schoolCode") != "LAW")
+    law_count = sum(1 for academic in academics if academic.get("schoolCode") == "LAW")
+    return {
+        "version": CACHE_VERSION,
+        "generatedAt": datetime.now().isoformat(timespec="seconds"),
+        "courses": courses,
+        "academics": academics,
+        "counts": {
+            "courses": len(courses),
+            "cbe": cbe_count,
+            "law": law_count,
+            "total": len(academics),
+        },
+    }
 
 
 def slug_from_url(url: str) -> str:
@@ -558,6 +596,11 @@ def build_catalog_payload() -> dict:
     if cached:
         return cached
 
+    bundled = load_bundled_catalog_snapshot()
+    if bundled:
+        write_json_file(ANREVIEW_CATALOG_CACHE_PATH, bundled)
+        return bundled
+
     cbe = sync_cbe_academics()
     law = sync_law_academics()
     courses = sync_catalog_courses()
@@ -610,6 +653,11 @@ class AppHandler(SimpleHTTPRequestHandler):
                 if stale:
                     stale["warning"] = str(error)
                     send_json(self, stale)
+                    return
+                bundled = load_bundled_catalog_snapshot()
+                if bundled:
+                    bundled["warning"] = str(error)
+                    send_json(self, bundled)
                     return
                 send_json(
                     self,
