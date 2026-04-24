@@ -208,11 +208,8 @@
           </label>
         </div>
 
-        <!-- Content grid -->
-        <div class="content-grid">
-
-          <!-- List panel -->
-          <div class="list-panel">
+        <div id="browse-view" class="browse-view">
+          <div class="list-panel list-panel--full">
             <div class="list-header">
               <div>
                 <p class="panel-step">Step 1</p>
@@ -222,14 +219,23 @@
             </div>
             <div id="results-grid" class="results-grid"></div>
           </div>
+        </div>
 
-          <!-- Detail panel -->
-          <aside class="detail-panel">
+        <section id="detail-page" class="detail-page is-hidden">
+          <div class="detail-page-bar">
+            <button id="back-to-results" class="btn-secondary" type="button">Back to results</button>
+            <div class="detail-page-nav">
+              <button id="prev-item" class="btn-secondary" type="button">Previous</button>
+              <button id="next-item" class="btn-secondary" type="button">Next</button>
+            </div>
+          </div>
+
+          <aside class="detail-panel detail-panel--page">
             <div id="detail-empty" class="detail-empty">
               <div class="detail-empty-icon">↗</div>
               <p class="panel-step">Step 2</p>
               <h3>Read ratings and write the review here</h3>
-              <p>Once you choose something on the left, this panel shows the details, reviews, and review form for that exact item.</p>
+              <p>Once you choose a course or professor, this page shows the details, reviews, and review form for that exact item.</p>
             </div>
 
             <div id="detail-view" class="detail-view is-hidden">
@@ -331,7 +337,7 @@
               </div>
             </div>
           </aside>
-        </div>
+        </section>
       </section>
 
       <!-- ── SOURCES ───────────────────────────────────────────── -->

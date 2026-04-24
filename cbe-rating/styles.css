@@ -312,6 +312,32 @@ body {
 
 .btn-submit { width: 100%; height: 52px; font-size: 0.95rem; border-radius: var(--radius-md); }
 
+.btn-secondary {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  min-height: 44px;
+  padding: 0 18px;
+  border-radius: 999px;
+  border: 1.5px solid var(--line-strong);
+  background: var(--surface);
+  color: var(--ink);
+  font: inherit;
+  font-size: 0.88rem;
+  font-weight: 700;
+  cursor: pointer;
+  transition: border-color var(--transition), background var(--transition), color var(--transition), transform var(--transition);
+}
+.btn-secondary:hover:not(:disabled) {
+  border-color: var(--accent);
+  color: var(--accent-text);
+  transform: translateY(-1px);
+}
+.btn-secondary:disabled {
+  opacity: 0.45;
+  cursor: not-allowed;
+}
+
 /* ── Hero panel ──────────────────────────────────────────── */
 .hero-right {
   padding: 28px;
@@ -645,12 +671,9 @@ select.field, .field select {
 }
 
 /* ── Content grid ─────────────────────────────────────────── */
-.content-grid {
-  display: grid;
-  grid-template-columns: 1fr 1fr;
-  gap: 16px;
+.browse-view,
+.detail-page {
   margin-top: 16px;
-  align-items: start;
 }
 
 /* ── List panel ──────────────────────────────────────────── */
@@ -660,6 +683,9 @@ select.field, .field select {
   border-radius: var(--radius-xl);
   padding: 22px;
   box-shadow: var(--shadow-sm);
+}
+.list-panel--full {
+  width: 100%;
 }
 .list-header {
   display: flex;
@@ -794,6 +820,24 @@ select.field, .field select {
   overflow-y: auto;
   scrollbar-width: thin;
   scrollbar-color: var(--line) transparent;
+}
+.detail-panel--page {
+  position: static;
+  max-height: none;
+  overflow: visible;
+}
+
+.detail-page-bar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  gap: 12px;
+  margin-bottom: 14px;
+}
+
+.detail-page-nav {
+  display: flex;
+  gap: 10px;
 }
 
 .detail-empty {
@@ -1193,7 +1237,6 @@ select.field, .field select {
 @media (max-width: 1100px) {
   .stat-strip         { grid-template-columns: repeat(2, 1fr); }
   .workflow-strip     { grid-template-columns: 1fr; }
-  .content-grid       { grid-template-columns: 1fr; }
   .detail-panel       { position: static; max-height: none; }
   .filters-card       { grid-template-columns: 1fr 1fr; }
   .sources-section    { grid-template-columns: 1fr; gap: 24px; }
@@ -1207,6 +1250,10 @@ select.field, .field select {
   .hero-heading       { font-size: clamp(2rem, 10vw, 3rem); }
   .college-switch     { grid-template-columns: 1fr; }
   .directory-head     { flex-direction: column; align-items: flex-start; }
+  .detail-page-bar    { flex-direction: column; align-items: stretch; }
+  .detail-page-nav    { width: 100%; }
+  .detail-page-nav .btn-secondary,
+  .detail-page-bar > .btn-secondary { width: 100%; }
   .filters-card       { grid-template-columns: 1fr; }
   .stat-strip         { grid-template-columns: 1fr 1fr; }
   .detail-metrics     { grid-template-columns: repeat(2, 1fr); }

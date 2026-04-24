@@ -2,6 +2,7 @@ const dataset = window.ANREVIEW_DATA;
 
 const state = {
   selectedId: null,
+  view: "browse",
   college: "all",
   search: "",
   type: "all",
@@ -34,6 +35,11 @@ const elements = {
   sortFilter: document.getElementById("sort-filter"),
   resultsMeta: document.getElementById("results-meta"),
   resultsGrid: document.getElementById("results-grid"),
+  browseView: document.getElementById("browse-view"),
+  detailPage: document.getElementById("detail-page"),
+  backToResults: document.getElementById("back-to-results"),
+  prevItem: document.getElementById("prev-item"),
+  nextItem: document.getElementById("next-item"),
   detailEmpty: document.getElementById("detail-empty"),
   detailView: document.getElementById("detail-view"),
   detailType: document.getElementById("detail-type"),
@@ -150,6 +156,33 @@ function getCollegeForItem(item) {
 
 function getItemById(itemId) {
   return allItems().find((item) => item.id === itemId);
+}
+
+function filteredOnlyCurrentType() {
+  return filteredItems().filter((item) => !state.type || item.type === state.type);
+}
+
+function syncRoute() {
+  if (state.view === "detail" && state.selectedId) {
+    window.history.replaceState(null, "", `#item=${encodeURIComponent(state.selectedId)}`);
+    return;
+  }
+  window.history.replaceState(null, "", "#directory");
+}
+
+function openDetail(itemId) {
+  state.selectedId = itemId;
+  state.view = "detail";
+  syncRoute();
+  renderResults();
+  renderDetail();
+  renderPageState();
+}
+
+function openBrowse() {
+  state.view = "browse";
+  syncRoute();
+  renderPageState();
 }
 
 function getReviewsForItem(itemId) {
@@ -284,6 +317,12 @@ function populateSchoolFilter() {
   elements.schoolFilter.value = state.school;
 }
 
+function renderPageState() {
+  const showingDetail = state.view === "detail" && !!getItemById(state.selectedId);
+  elements.browseView.classList.toggle("is-hidden", showingDetail);
+  elements.detailPage.classList.toggle("is-hidden", !showingDetail);
+}
+
 function filteredItems() {
   return allItems()
     .filter((item) => {
@@ -399,9 +438,7 @@ function renderResults() {
 
     card.append(topMeta, title, subtitle, tagRow);
     card.addEventListener("click", () => {
-      state.selectedId = item.id;
-      renderResults();
-      renderDetail();
+      openDetail(item.id);
     });
 
     elements.resultsGrid.appendChild(card);
@@ -439,9 +476,7 @@ function renderLinkedEntities(item) {
       button.type = "button";
       button.textContent = academic.name;
       button.addEventListener("click", () => {
-        state.selectedId = academic.id;
-        renderResults();
-        renderDetail();
+        openDetail(academic.id);
       });
       elements.detailLinks.appendChild(button);
     });
@@ -454,9 +489,7 @@ function renderLinkedEntities(item) {
     button.type = "button";
     button.textContent = `${course.code} ${course.name}`;
     button.addEventListener("click", () => {
-      state.selectedId = course.id;
-      renderResults();
-      renderDetail();
+      openDetail(course.id);
     });
     elements.detailLinks.appendChild(button);
   });
@@ -604,6 +637,10 @@ function renderDetail() {
   renderFacts(item);
   renderLinkedEntities(item);
   renderReviews(item);
+  const items = filteredOnlyCurrentType();
+  const index = items.findIndex((entry) => entry.id === item.id);
+  elements.prevItem.disabled = index <= 0;
+  elements.nextItem.disabled = index === -1 || index >= items.length - 1;
 }
 
 function updateCounts() {
@@ -707,6 +744,10 @@ function bindFilters() {
       if (state.selectedId && getItemById(state.selectedId)?.type !== state.type) {
         state.selectedId = filteredItems()[0]?.id || null;
       }
+      if (state.view === "detail" && state.selectedId && !filteredItems().some((item) => item.id === state.selectedId)) {
+        openBrowse();
+        return;
+      }
       renderResults();
       renderDetail();
     });
@@ -720,6 +761,10 @@ function bindFilters() {
       if (state.selectedId && !filteredItems().some((item) => item.id === state.selectedId)) {
         state.selectedId = filteredItems()[0]?.id || null;
       }
+      if (state.view === "detail" && !state.selectedId) {
+        openBrowse();
+        return;
+      }
       updateCounts();
       renderResults();
       renderDetail();
@@ -731,6 +776,10 @@ function bindFilters() {
     if (state.selectedId && !filteredItems().some((item) => item.id === state.selectedId)) {
       state.selectedId = filteredItems()[0]?.id || null;
     }
+    if (state.view === "detail" && !state.selectedId) {
+      openBrowse();
+      return;
+    }
     renderResults();
     renderDetail();
   });
@@ -740,12 +789,34 @@ function bindFilters() {
     if (state.selectedId && !filteredItems().some((item) => item.id === state.selectedId)) {
       state.selectedId = filteredItems()[0]?.id || null;
     }
+    if (state.view === "detail" && !state.selectedId) {
+      openBrowse();
+      return;
+    }
     renderResults();
     renderDetail();
   });
   elements.sortFilter.addEventListener("change", () => {
     state.sort = elements.sortFilter.value;
     renderResults();
+    renderDetail();
+  });
+  elements.backToResults.addEventListener("click", () => {
+    openBrowse();
+  });
+  elements.prevItem.addEventListener("click", () => {
+    const items = filteredOnlyCurrentType();
+    const index = items.findIndex((item) => item.id === state.selectedId);
+    if (index > 0) {
+      openDetail(items[index - 1].id);
+    }
+  });
+  elements.nextItem.addEventListener("click", () => {
+    const items = filteredOnlyCurrentType();
+    const index = items.findIndex((item) => item.id === state.selectedId);
+    if (index > -1 && index < items.length - 1) {
+      openDetail(items[index + 1].id);
+    }
   });
   elements.reviewForm.addEventListener("submit", handleReviewSubmit);
 }
@@ -765,6 +836,15 @@ async function init() {
 
   populateSchoolFilter();
   state.selectedId = filteredItems()[0]?.id || dataset.courses[0]?.id || null;
+  const hash = window.location.hash || "";
+  const match = hash.match(/#item=([^&]+)/);
+  if (match) {
+    const candidate = decodeURIComponent(match[1]);
+    if (getItemById(candidate)) {
+      state.selectedId = candidate;
+      state.view = "detail";
+    }
+  }
 
   try {
     await fetchSharedReviews();
@@ -776,6 +856,7 @@ async function init() {
   updateCounts();
   renderResults();
   renderDetail();
+  renderPageState();
 }
 
 init();
