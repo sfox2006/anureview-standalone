@@ -22,6 +22,7 @@ const elements = {
   allCollegesTab: document.getElementById("all-colleges-tab"),
   cbeTab: document.getElementById("cbe-tab"),
   lawTab: document.getElementById("law-tab"),
+  spirTab: document.getElementById("spir-tab"),
   coursesTab: document.getElementById("courses-tab"),
   professorsTab: document.getElementById("professors-tab"),
   searchInput: document.getElementById("search-input"),
@@ -79,8 +80,15 @@ function allItems() {
 }
 
 function getCollegeForItem(item) {
+  const schoolCode = `${item.schoolCode || ""}`.toUpperCase();
   const schoolText = `${item.school || ""} ${item.schoolCode || ""}`.toLowerCase();
-  return schoolText.includes("law") ? "law" : "cbe";
+  if (schoolCode === "LAW" || schoolText.includes("law")) {
+    return "law";
+  }
+  if (schoolCode === "SPIR" || schoolText.includes("politics") || schoolText.includes("international relations")) {
+    return "spir";
+  }
+  return "cbe";
 }
 
 function getItemById(itemId) {
@@ -288,6 +296,7 @@ function syncCollegeTabs() {
   elements.allCollegesTab.classList.toggle("is-active", state.college === "all");
   elements.cbeTab.classList.toggle("is-active", state.college === "cbe");
   elements.lawTab.classList.toggle("is-active", state.college === "law");
+  elements.spirTab.classList.toggle("is-active", state.college === "spir");
 }
 
 function syncTypeTabs() {
@@ -657,7 +666,7 @@ function bindFilters() {
     });
   });
 
-  [elements.allCollegesTab, elements.cbeTab, elements.lawTab].forEach((button) => {
+  [elements.allCollegesTab, elements.cbeTab, elements.lawTab, elements.spirTab].forEach((button) => {
     button.addEventListener("click", () => {
       state.college = button.dataset.college;
       syncCollegeTabs();

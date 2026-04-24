@@ -1,5 +1,5 @@
 window.ANREVIEW_DATA = {
-  generatedAt: "2026-04-19T04:17:42",
+  generatedAt: "2026-04-24T13:33:19",
   sources: [
     { label: "ANU Programs and Courses: Bachelor of Economics", url: "https://programsandcourses.anu.edu.au/program/becon" },
     { label: "ANU Programs and Courses: Econometrics Minor", url: "https://programsandcourses.anu.edu.au/minor/EMET-MIN" },
@@ -30,7 +30,12 @@ window.ANREVIEW_DATA = {
     { label: "ANU Programs and Courses: MGMT2100 Communication for Business", url: "https://programsandcourses.anu.edu.au/course/MGMT2100" },
     { label: "ANU Programs and Courses: MGMT3015 Corporate Strategy", url: "https://programsandcourses.anu.edu.au/course/MGMT3015" },
     { label: "ANU Programs and Courses: MKTG2004 Introduction to Marketing", url: "https://programsandcourses.anu.edu.au/course/MKTG2004" },
-    { label: "ANU Programs and Courses: FINM3005 Corporate Valuation", url: "https://programsandcourses.anu.edu.au/course/FINM3005" }
+    { label: "ANU Programs and Courses: FINM3005 Corporate Valuation", url: "https://programsandcourses.anu.edu.au/course/FINM3005" },
+    { label: "ANU Programs and Courses: Bachelor of International Relations", url: "https://programsandcourses.anu.edu.au/program/BIR" },
+    { label: "ANU Programs and Courses: Bachelor of Political Science", url: "https://programsandcourses.anu.edu.au/program/BPLSC" },
+    { label: "ANU Programs and Courses: Political Science Major", url: "https://programsandcourses.anu.edu.au/major/POLS-MAJ" },
+    { label: "ANU Programs and Courses: International Relations Major", url: "https://programsandcourses.anu.edu.au/major/IREL-MAJ" },
+    { label: "ANU School of Politics & International Relations: Academics", url: "https://politicsir.cass.anu.edu.au/people/academics" }
   ],
   academics: [
   {
@@ -282,7 +287,7 @@ window.ANREVIEW_DATA = {
     "name": "Dr Rebecca Tan",
     "school": "Research School of Accounting",
     "schoolCode": "RSA",
-    "position": "Senior Lecturer & Master’s Course Work Convener",
+    "position": "Senior Lecturer &amp; Master&rsquo;s Course Work Convener",
     "focus": "Accounting, Corporate sustainability",
     "email": "See ANU profile",
     "office": "Research School of Accounting",
@@ -569,7 +574,7 @@ window.ANREVIEW_DATA = {
     "name": "Pat Barrett",
     "school": "Research School of Accounting",
     "schoolCode": "RSA",
-    "position": "Distinguished Honorary Professor & Senior Fellow - ANCAAR",
+    "position": "Distinguished Honorary Professor &amp; Senior Fellow - ANCAAR",
     "focus": "Accounting, Economics",
     "email": "See ANU profile",
     "office": "Research School of Accounting",
@@ -638,7 +643,7 @@ window.ANREVIEW_DATA = {
     "name": "Professor Louise Lu",
     "school": "Research School of Accounting",
     "schoolCode": "RSA",
-    "position": "Professor & Convenor of HDR, Co-Director of ANCAAR",
+    "position": "Professor &amp; Convenor of HDR, Co-Director of ANCAAR",
     "focus": "Accounting",
     "email": "See ANU profile",
     "office": "Research School of Accounting",
@@ -1766,7 +1771,7 @@ window.ANREVIEW_DATA = {
     "focus": "Statistics",
     "email": "See ANU profile",
     "office": "Research School of Finance, Actuarial Studies and Statistics",
-    "profileUrl": "http://rsfas.anu.edu.au/people/adam-nie",
+    "profileUrl": "https://rsfas.anu.edu.au/people/adam-nie",
     "tags": [
       "rsfas",
       "statistics"
@@ -1788,7 +1793,7 @@ window.ANREVIEW_DATA = {
     "focus": "Actuarial studies",
     "email": "See ANU profile",
     "office": "Research School of Finance, Actuarial Studies and Statistics",
-    "profileUrl": "http://rsfas.anu.edu.au/people/aaron-bruhn",
+    "profileUrl": "https://rsfas.anu.edu.au/people/aaron-bruhn",
     "tags": [
       "rsfas",
       "actuarial studies"
@@ -1810,7 +1815,7 @@ window.ANREVIEW_DATA = {
     "focus": "Actuarial studies",
     "email": "See ANU profile",
     "office": "Research School of Finance, Actuarial Studies and Statistics",
-    "profileUrl": "http://rsfas.anu.edu.au/people/adam-butt",
+    "profileUrl": "https://rsfas.anu.edu.au/people/adam-butt",
     "tags": [
       "rsfas",
       "actuarial studies"
@@ -1832,7 +1837,7 @@ window.ANREVIEW_DATA = {
     "focus": "Statistics",
     "email": "See ANU profile",
     "office": "Research School of Finance, Actuarial Studies and Statistics",
-    "profileUrl": "http://rsfas.anu.edu.au/people/bronwen-whiting",
+    "profileUrl": "https://rsfas.anu.edu.au/people/bronwen-whiting",
     "tags": [
       "rsfas",
       "statistics"
@@ -1854,7 +1859,7 @@ window.ANREVIEW_DATA = {
     "focus": "Statistics",
     "email": "See ANU profile",
     "office": "Research School of Finance, Actuarial Studies and Statistics",
-    "profileUrl": "http://rsfas.anu.edu.au/people/dale-roberts",
+    "profileUrl": "https://rsfas.anu.edu.au/people/dale-roberts",
     "tags": [
       "rsfas",
       "statistics"
@@ -1876,7 +1881,7 @@ window.ANREVIEW_DATA = {
     "focus": "Statistics",
     "email": "See ANU profile",
     "office": "Research School of Finance, Actuarial Studies and Statistics",
-    "profileUrl": "http://rsfas.anu.edu.au/people/francis-hui",
+    "profileUrl": "https://rsfas.anu.edu.au/people/francis-hui",
     "tags": [
       "rsfas",
       "statistics"
@@ -1898,7 +1903,7 @@ window.ANREVIEW_DATA = {
     "focus": "Statistics",
     "email": "See ANU profile",
     "office": "Research School of Finance, Actuarial Studies and Statistics",
-    "profileUrl": "http://rsfas.anu.edu.au/people/janice-scealy",
+    "profileUrl": "https://rsfas.anu.edu.au/people/janice-scealy",
     "tags": [
       "rsfas",
       "statistics"
@@ -1920,7 +1925,7 @@ window.ANREVIEW_DATA = {
     "focus": "Finance",
     "email": "See ANU profile",
     "office": "Research School of Finance, Actuarial Studies and Statistics",
-    "profileUrl": "http://rsfas.anu.edu.au/people/jenni-bettman",
+    "profileUrl": "https://rsfas.anu.edu.au/people/jenni-bettman",
     "tags": [
       "rsfas",
       "finance"
@@ -1942,7 +1947,7 @@ window.ANREVIEW_DATA = {
     "focus": "Finance",
     "email": "See ANU profile",
     "office": "Research School of Finance, Actuarial Studies and Statistics",
-    "profileUrl": "http://rsfas.anu.edu.au/people/jo-drienko",
+    "profileUrl": "https://rsfas.anu.edu.au/people/jo-drienko",
     "tags": [
       "rsfas",
       "finance"
@@ -1964,7 +1969,7 @@ window.ANREVIEW_DATA = {
     "focus": "Finance",
     "email": "See ANU profile",
     "office": "Research School of Finance, Actuarial Studies and Statistics",
-    "profileUrl": "http://rsfas.anu.edu.au/people/le-zhang",
+    "profileUrl": "https://rsfas.anu.edu.au/people/le-zhang",
     "tags": [
       "rsfas",
       "finance"
@@ -1986,7 +1991,7 @@ window.ANREVIEW_DATA = {
     "focus": "Finance",
     "email": "See ANU profile",
     "office": "Research School of Finance, Actuarial Studies and Statistics",
-    "profileUrl": "http://rsfas.anu.edu.au/people/phong-ngo",
+    "profileUrl": "https://rsfas.anu.edu.au/people/phong-ngo",
     "tags": [
       "rsfas",
       "finance"
@@ -2008,7 +2013,7 @@ window.ANREVIEW_DATA = {
     "focus": "Statistics",
     "email": "See ANU profile",
     "office": "Research School of Finance, Actuarial Studies and Statistics",
-    "profileUrl": "http://rsfas.anu.edu.au/people/robert-clark",
+    "profileUrl": "https://rsfas.anu.edu.au/people/robert-clark",
     "tags": [
       "rsfas",
       "statistics"
@@ -2030,7 +2035,7 @@ window.ANREVIEW_DATA = {
     "focus": "Statistics",
     "email": "See ANU profile",
     "office": "Research School of Finance, Actuarial Studies and Statistics",
-    "profileUrl": "http://rsfas.anu.edu.au/people/tao-zou",
+    "profileUrl": "https://rsfas.anu.edu.au/people/tao-zou",
     "tags": [
       "rsfas",
       "statistics"
@@ -2052,7 +2057,7 @@ window.ANREVIEW_DATA = {
     "focus": "Actuarial studies",
     "email": "See ANU profile",
     "office": "Research School of Finance, Actuarial Studies and Statistics",
-    "profileUrl": "http://rsfas.anu.edu.au/people/tim-higgins",
+    "profileUrl": "https://rsfas.anu.edu.au/people/tim-higgins",
     "tags": [
       "rsfas",
       "actuarial studies"
@@ -2074,7 +2079,7 @@ window.ANREVIEW_DATA = {
     "focus": "Finance",
     "email": "See ANU profile",
     "office": "Research School of Finance, Actuarial Studies and Statistics",
-    "profileUrl": "http://rsfas.anu.edu.au/people/wai-man-raymond-liu",
+    "profileUrl": "https://rsfas.anu.edu.au/people/wai-man-raymond-liu",
     "tags": [
       "rsfas",
       "finance"
@@ -2096,7 +2101,7 @@ window.ANREVIEW_DATA = {
     "focus": "Finance",
     "email": "See ANU profile",
     "office": "Research School of Finance, Actuarial Studies and Statistics",
-    "profileUrl": "http://rsfas.anu.edu.au/people/xianming-zhou",
+    "profileUrl": "https://rsfas.anu.edu.au/people/xianming-zhou",
     "tags": [
       "rsfas",
       "finance"
@@ -2118,7 +2123,7 @@ window.ANREVIEW_DATA = {
     "focus": "Finance",
     "email": "See ANU profile",
     "office": "Research School of Finance, Actuarial Studies and Statistics",
-    "profileUrl": "http://rsfas.anu.edu.au/people/xin-kelly-liu",
+    "profileUrl": "https://rsfas.anu.edu.au/people/xin-kelly-liu",
     "tags": [
       "rsfas",
       "finance"
@@ -2140,7 +2145,7 @@ window.ANREVIEW_DATA = {
     "focus": "Statistics",
     "email": "See ANU profile",
     "office": "Research School of Finance, Actuarial Studies and Statistics",
-    "profileUrl": "http://rsfas.anu.edu.au/people/yanrong-yang",
+    "profileUrl": "https://rsfas.anu.edu.au/people/yanrong-yang",
     "tags": [
       "rsfas",
       "statistics"
@@ -2162,7 +2167,7 @@ window.ANREVIEW_DATA = {
     "focus": "Statistics",
     "email": "See ANU profile",
     "office": "Research School of Finance, Actuarial Studies and Statistics",
-    "profileUrl": "http://rsfas.anu.edu.au/people/bao-anh-vu",
+    "profileUrl": "https://rsfas.anu.edu.au/people/bao-anh-vu",
     "tags": [
       "rsfas",
       "statistics"
@@ -2184,7 +2189,7 @@ window.ANREVIEW_DATA = {
     "focus": "Actuarial studies",
     "email": "See ANU profile",
     "office": "Research School of Finance, Actuarial Studies and Statistics",
-    "profileUrl": "http://rsfas.anu.edu.au/people/bridget-browne",
+    "profileUrl": "https://rsfas.anu.edu.au/people/bridget-browne",
     "tags": [
       "rsfas",
       "actuarial studies"
@@ -2206,7 +2211,7 @@ window.ANREVIEW_DATA = {
     "focus": "Finance",
     "email": "See ANU profile",
     "office": "Research School of Finance, Actuarial Studies and Statistics",
-    "profileUrl": "http://rsfas.anu.edu.au/people/alexander-vadilyev",
+    "profileUrl": "https://rsfas.anu.edu.au/people/alexander-vadilyev",
     "tags": [
       "rsfas",
       "finance"
@@ -2228,7 +2233,7 @@ window.ANREVIEW_DATA = {
     "focus": "Finance",
     "email": "See ANU profile",
     "office": "Research School of Finance, Actuarial Studies and Statistics",
-    "profileUrl": "http://rsfas.anu.edu.au/people/anna-von-reibnitz",
+    "profileUrl": "https://rsfas.anu.edu.au/people/anna-von-reibnitz",
     "tags": [
       "rsfas",
       "finance"
@@ -2250,7 +2255,7 @@ window.ANREVIEW_DATA = {
     "focus": "Statistics",
     "email": "See ANU profile",
     "office": "Research School of Finance, Actuarial Studies and Statistics",
-    "profileUrl": "http://rsfas.anu.edu.au/people/anton-westveld",
+    "profileUrl": "https://rsfas.anu.edu.au/people/anton-westveld",
     "tags": [
       "rsfas",
       "statistics"
@@ -2272,7 +2277,7 @@ window.ANREVIEW_DATA = {
     "focus": "Statistics",
     "email": "See ANU profile",
     "office": "Research School of Finance, Actuarial Studies and Statistics",
-    "profileUrl": "http://rsfas.anu.edu.au/people/boris-buchmann",
+    "profileUrl": "https://rsfas.anu.edu.au/people/boris-buchmann",
     "tags": [
       "rsfas",
       "statistics"
@@ -2294,7 +2299,7 @@ window.ANREVIEW_DATA = {
     "focus": "Statistics",
     "email": "See ANU profile",
     "office": "Research School of Finance, Actuarial Studies and Statistics",
-    "profileUrl": "http://rsfas.anu.edu.au/people/bronwyn-loong",
+    "profileUrl": "https://rsfas.anu.edu.au/people/bronwyn-loong",
     "tags": [
       "rsfas",
       "statistics"
@@ -2316,7 +2321,7 @@ window.ANREVIEW_DATA = {
     "focus": "Finance",
     "email": "See ANU profile",
     "office": "Research School of Finance, Actuarial Studies and Statistics",
-    "profileUrl": "http://rsfas.anu.edu.au/people/chao-gao",
+    "profileUrl": "https://rsfas.anu.edu.au/people/chao-gao",
     "tags": [
       "rsfas",
       "finance"
@@ -2338,7 +2343,7 @@ window.ANREVIEW_DATA = {
     "focus": "Statistics",
     "email": "See ANU profile",
     "office": "Research School of Finance, Actuarial Studies and Statistics",
-    "profileUrl": "http://rsfas.anu.edu.au/people/chen-tang",
+    "profileUrl": "https://rsfas.anu.edu.au/people/chen-tang",
     "tags": [
       "rsfas",
       "statistics"
@@ -2360,7 +2365,7 @@ window.ANREVIEW_DATA = {
     "focus": "Finance",
     "email": "See ANU profile",
     "office": "Research School of Finance, Actuarial Studies and Statistics",
-    "profileUrl": "http://rsfas.anu.edu.au/people/daruo-xie",
+    "profileUrl": "https://rsfas.anu.edu.au/people/daruo-xie",
     "tags": [
       "rsfas",
       "finance"
@@ -2382,7 +2387,7 @@ window.ANREVIEW_DATA = {
     "focus": "Finance",
     "email": "See ANU profile",
     "office": "Research School of Finance, Actuarial Studies and Statistics",
-    "profileUrl": "http://rsfas.anu.edu.au/people/dean-katselas",
+    "profileUrl": "https://rsfas.anu.edu.au/people/dean-katselas",
     "tags": [
       "rsfas",
       "finance"
@@ -2404,7 +2409,7 @@ window.ANREVIEW_DATA = {
     "focus": "Finance",
     "email": "See ANU profile",
     "office": "Research School of Finance, Actuarial Studies and Statistics",
-    "profileUrl": "http://rsfas.anu.edu.au/people/ding-ding",
+    "profileUrl": "https://rsfas.anu.edu.au/people/ding-ding",
     "tags": [
       "rsfas",
       "finance"
@@ -2426,7 +2431,7 @@ window.ANREVIEW_DATA = {
     "focus": "Statistics",
     "email": "See ANU profile",
     "office": "Research School of Finance, Actuarial Studies and Statistics",
-    "profileUrl": "http://rsfas.anu.edu.au/people/emi-tanaka",
+    "profileUrl": "https://rsfas.anu.edu.au/people/emi-tanaka",
     "tags": [
       "rsfas",
       "statistics"
@@ -2448,7 +2453,7 @@ window.ANREVIEW_DATA = {
     "focus": "Actuarial studies",
     "email": "See ANU profile",
     "office": "Research School of Finance, Actuarial Studies and Statistics",
-    "profileUrl": "http://rsfas.anu.edu.au/people/gaurav-khemka",
+    "profileUrl": "https://rsfas.anu.edu.au/people/gaurav-khemka",
     "tags": [
       "rsfas",
       "actuarial studies"
@@ -2470,7 +2475,7 @@ window.ANREVIEW_DATA = {
     "focus": "Statistics",
     "email": "See ANU profile",
     "office": "Research School of Finance, Actuarial Studies and Statistics",
-    "profileUrl": "http://rsfas.anu.edu.au/people/gen-nowak",
+    "profileUrl": "https://rsfas.anu.edu.au/people/gen-nowak",
     "tags": [
       "rsfas",
       "statistics"
@@ -2492,7 +2497,7 @@ window.ANREVIEW_DATA = {
     "focus": "Finance",
     "email": "See ANU profile",
     "office": "Research School of Finance, Actuarial Studies and Statistics",
-    "profileUrl": "http://rsfas.anu.edu.au/people/hua-deng",
+    "profileUrl": "https://rsfas.anu.edu.au/people/hua-deng",
     "tags": [
       "rsfas",
       "finance"
@@ -2514,7 +2519,7 @@ window.ANREVIEW_DATA = {
     "focus": "Actuarial studies",
     "email": "See ANU profile",
     "office": "Research School of Finance, Actuarial Studies and Statistics",
-    "profileUrl": "http://rsfas.anu.edu.au/people/jacie-liu",
+    "profileUrl": "https://rsfas.anu.edu.au/people/jacie-liu",
     "tags": [
       "rsfas",
       "actuarial studies"
@@ -2536,7 +2541,7 @@ window.ANREVIEW_DATA = {
     "focus": "Actuarial studies",
     "email": "See ANU profile",
     "office": "Research School of Finance, Actuarial Studies and Statistics",
-    "profileUrl": "http://rsfas.anu.edu.au/people/jananie-william",
+    "profileUrl": "https://rsfas.anu.edu.au/people/jananie-william",
     "tags": [
       "rsfas",
       "actuarial studies"
@@ -2558,7 +2563,7 @@ window.ANREVIEW_DATA = {
     "focus": "Statistics",
     "email": "See ANU profile",
     "office": "Research School of Finance, Actuarial Studies and Statistics",
-    "profileUrl": "http://rsfas.anu.edu.au/people/kevin-lu",
+    "profileUrl": "https://rsfas.anu.edu.au/people/kevin-lu",
     "tags": [
       "rsfas",
       "statistics"
@@ -2580,7 +2585,7 @@ window.ANREVIEW_DATA = {
     "focus": "Finance",
     "email": "See ANU profile",
     "office": "Research School of Finance, Actuarial Studies and Statistics",
-    "profileUrl": "http://rsfas.anu.edu.au/people/kun-li",
+    "profileUrl": "https://rsfas.anu.edu.au/people/kun-li",
     "tags": [
       "rsfas",
       "finance"
@@ -2602,7 +2607,7 @@ window.ANREVIEW_DATA = {
     "focus": "Statistics",
     "email": "See ANU profile",
     "office": "Research School of Finance, Actuarial Studies and Statistics",
-    "profileUrl": "http://rsfas.anu.edu.au/people/laurence-field",
+    "profileUrl": "https://rsfas.anu.edu.au/people/laurence-field",
     "tags": [
       "rsfas",
       "statistics"
@@ -2624,7 +2629,7 @@ window.ANREVIEW_DATA = {
     "focus": "Statistics",
     "email": "See ANU profile",
     "office": "Research School of Finance, Actuarial Studies and Statistics",
-    "profileUrl": "http://rsfas.anu.edu.au/people/le-chang",
+    "profileUrl": "https://rsfas.anu.edu.au/people/le-chang",
     "tags": [
       "rsfas",
       "statistics"
@@ -2646,7 +2651,7 @@ window.ANREVIEW_DATA = {
     "focus": "Finance",
     "email": "See ANU profile",
     "office": "Research School of Finance, Actuarial Studies and Statistics",
-    "profileUrl": "http://rsfas.anu.edu.au/people/lin-hu",
+    "profileUrl": "https://rsfas.anu.edu.au/people/lin-hu",
     "tags": [
       "rsfas",
       "finance"
@@ -2668,7 +2673,7 @@ window.ANREVIEW_DATA = {
     "focus": "Statistics",
     "email": "See ANU profile",
     "office": "Research School of Finance, Actuarial Studies and Statistics",
-    "profileUrl": "http://rsfas.anu.edu.au/people/luca-maestrini",
+    "profileUrl": "https://rsfas.anu.edu.au/people/luca-maestrini",
     "tags": [
       "rsfas",
       "statistics"
@@ -2690,7 +2695,7 @@ window.ANREVIEW_DATA = {
     "focus": "Finance",
     "email": "See ANU profile",
     "office": "Research School of Finance, Actuarial Studies and Statistics",
-    "profileUrl": "http://rsfas.anu.edu.au/people/nhan-le",
+    "profileUrl": "https://rsfas.anu.edu.au/people/nhan-le",
     "tags": [
       "rsfas",
       "finance"
@@ -2712,7 +2717,7 @@ window.ANREVIEW_DATA = {
     "focus": "Statistics",
     "email": "See ANU profile",
     "office": "Research School of Finance, Actuarial Studies and Statistics",
-    "profileUrl": "http://rsfas.anu.edu.au/people/priya-dev",
+    "profileUrl": "https://rsfas.anu.edu.au/people/priya-dev",
     "tags": [
       "rsfas",
       "statistics"
@@ -2734,7 +2739,7 @@ window.ANREVIEW_DATA = {
     "focus": "Finance",
     "email": "See ANU profile",
     "office": "Research School of Finance, Actuarial Studies and Statistics",
-    "profileUrl": "http://rsfas.anu.edu.au/people/qiaoqiao-zhu",
+    "profileUrl": "https://rsfas.anu.edu.au/people/qiaoqiao-zhu",
     "tags": [
       "rsfas",
       "finance"
@@ -2756,7 +2761,7 @@ window.ANREVIEW_DATA = {
     "focus": "Finance",
     "email": "See ANU profile",
     "office": "Research School of Finance, Actuarial Studies and Statistics",
-    "profileUrl": "http://rsfas.anu.edu.au/people/shasta-shakya",
+    "profileUrl": "https://rsfas.anu.edu.au/people/shasta-shakya",
     "tags": [
       "rsfas",
       "finance"
@@ -2778,7 +2783,7 @@ window.ANREVIEW_DATA = {
     "focus": "Finance",
     "email": "See ANU profile",
     "office": "Research School of Finance, Actuarial Studies and Statistics",
-    "profileUrl": "http://rsfas.anu.edu.au/people/tianyao-terry-zhang",
+    "profileUrl": "https://rsfas.anu.edu.au/people/tianyao-terry-zhang",
     "tags": [
       "rsfas",
       "finance"
@@ -2800,7 +2805,7 @@ window.ANREVIEW_DATA = {
     "focus": "Statistics",
     "email": "See ANU profile",
     "office": "Research School of Finance, Actuarial Studies and Statistics",
-    "profileUrl": "http://rsfas.anu.edu.au/people/xuan-liang",
+    "profileUrl": "https://rsfas.anu.edu.au/people/xuan-liang",
     "tags": [
       "rsfas",
       "statistics"
@@ -2822,7 +2827,7 @@ window.ANREVIEW_DATA = {
     "focus": "Finance",
     "email": "See ANU profile",
     "office": "Research School of Finance, Actuarial Studies and Statistics",
-    "profileUrl": "http://rsfas.anu.edu.au/people/yichao-zhu",
+    "profileUrl": "https://rsfas.anu.edu.au/people/yichao-zhu",
     "tags": [
       "rsfas",
       "finance"
@@ -2844,7 +2849,7 @@ window.ANREVIEW_DATA = {
     "focus": "Statistics",
     "email": "See ANU profile",
     "office": "Research School of Finance, Actuarial Studies and Statistics",
-    "profileUrl": "http://rsfas.anu.edu.au/people/yuan-gao",
+    "profileUrl": "https://rsfas.anu.edu.au/people/yuan-gao",
     "tags": [
       "rsfas",
       "statistics"
@@ -2866,7 +2871,7 @@ window.ANREVIEW_DATA = {
     "focus": "Finance",
     "email": "See ANU profile",
     "office": "Research School of Finance, Actuarial Studies and Statistics",
-    "profileUrl": "http://rsfas.anu.edu.au/people/mohammed-abdullah-al-mamun",
+    "profileUrl": "https://rsfas.anu.edu.au/people/mohammed-abdullah-al-mamun",
     "tags": [
       "rsfas",
       "finance"
@@ -2888,7 +2893,7 @@ window.ANREVIEW_DATA = {
     "focus": "Research School of Finance, Actuarial Studies and Statistics",
     "email": "See ANU profile",
     "office": "Research School of Finance, Actuarial Studies and Statistics",
-    "profileUrl": "http://rsfas.anu.edu.au/people/abhinav-mehta",
+    "profileUrl": "https://rsfas.anu.edu.au/people/abhinav-mehta",
     "tags": [
       "rsfas"
     ],
@@ -2909,7 +2914,7 @@ window.ANREVIEW_DATA = {
     "focus": "Actuarial studies",
     "email": "See ANU profile",
     "office": "Research School of Finance, Actuarial Studies and Statistics",
-    "profileUrl": "http://rsfas.anu.edu.au/people/ning-wang",
+    "profileUrl": "https://rsfas.anu.edu.au/people/ning-wang",
     "tags": [
       "rsfas",
       "actuarial studies"
@@ -2931,7 +2936,7 @@ window.ANREVIEW_DATA = {
     "focus": "Statistics",
     "email": "See ANU profile",
     "office": "Research School of Finance, Actuarial Studies and Statistics",
-    "profileUrl": "http://rsfas.anu.edu.au/people/alan-welsh",
+    "profileUrl": "https://rsfas.anu.edu.au/people/alan-welsh",
     "tags": [
       "rsfas",
       "statistics"
@@ -2953,7 +2958,7 @@ window.ANREVIEW_DATA = {
     "focus": "Statistics",
     "email": "See ANU profile",
     "office": "Research School of Finance, Actuarial Studies and Statistics",
-    "profileUrl": "http://rsfas.anu.edu.au/people/andrew-wood",
+    "profileUrl": "https://rsfas.anu.edu.au/people/andrew-wood",
     "tags": [
       "rsfas",
       "statistics"
@@ -2975,7 +2980,7 @@ window.ANREVIEW_DATA = {
     "focus": "Finance",
     "email": "See ANU profile",
     "office": "Research School of Finance, Actuarial Studies and Statistics",
-    "profileUrl": "http://rsfas.anu.edu.au/people/antje-berndt",
+    "profileUrl": "https://rsfas.anu.edu.au/people/antje-berndt",
     "tags": [
       "rsfas",
       "finance"
@@ -2997,7 +3002,7 @@ window.ANREVIEW_DATA = {
     "focus": "Finance",
     "email": "See ANU profile",
     "office": "Research School of Finance, Actuarial Studies and Statistics",
-    "profileUrl": "http://rsfas.anu.edu.au/people/emma-schultz",
+    "profileUrl": "https://rsfas.anu.edu.au/people/emma-schultz",
     "tags": [
       "rsfas",
       "finance"
@@ -3019,7 +3024,7 @@ window.ANREVIEW_DATA = {
     "focus": "Statistics",
     "email": "See ANU profile",
     "office": "Research School of Finance, Actuarial Studies and Statistics",
-    "profileUrl": "http://rsfas.anu.edu.au/people/eric-stone",
+    "profileUrl": "https://rsfas.anu.edu.au/people/eric-stone",
     "tags": [
       "rsfas",
       "statistics"
@@ -3041,7 +3046,7 @@ window.ANREVIEW_DATA = {
     "focus": "Research School of Finance, Actuarial Studies and Statistics",
     "email": "See ANU profile",
     "office": "Research School of Finance, Actuarial Studies and Statistics",
-    "profileUrl": "http://rsfas.anu.edu.au/people/giles-hooker",
+    "profileUrl": "https://rsfas.anu.edu.au/people/giles-hooker",
     "tags": [
       "rsfas"
     ],
@@ -3062,7 +3067,7 @@ window.ANREVIEW_DATA = {
     "focus": "Statistics",
     "email": "See ANU profile",
     "office": "Research School of Finance, Actuarial Studies and Statistics",
-    "profileUrl": "http://rsfas.anu.edu.au/people/michael-martin",
+    "profileUrl": "https://rsfas.anu.edu.au/people/michael-martin",
     "tags": [
       "rsfas",
       "statistics"
@@ -3084,7 +3089,7 @@ window.ANREVIEW_DATA = {
     "focus": "Finance",
     "email": "See ANU profile",
     "office": "Research School of Finance, Actuarial Studies and Statistics",
-    "profileUrl": "http://rsfas.anu.edu.au/people/steve-sault",
+    "profileUrl": "https://rsfas.anu.edu.au/people/steve-sault",
     "tags": [
       "rsfas",
       "finance"
@@ -3106,7 +3111,7 @@ window.ANREVIEW_DATA = {
     "focus": "Statistics",
     "email": "See ANU profile",
     "office": "Research School of Finance, Actuarial Studies and Statistics",
-    "profileUrl": "http://rsfas.anu.edu.au/people/steven-roberts",
+    "profileUrl": "https://rsfas.anu.edu.au/people/steven-roberts",
     "tags": [
       "rsfas",
       "statistics"
@@ -3128,7 +3133,7 @@ window.ANREVIEW_DATA = {
     "focus": "Finance",
     "email": "See ANU profile",
     "office": "Research School of Finance, Actuarial Studies and Statistics",
-    "profileUrl": "http://rsfas.anu.edu.au/people/takeshi-yamada",
+    "profileUrl": "https://rsfas.anu.edu.au/people/takeshi-yamada",
     "tags": [
       "rsfas",
       "finance"
@@ -3150,7 +3155,7 @@ window.ANREVIEW_DATA = {
     "focus": "Statistics",
     "email": "See ANU profile",
     "office": "Research School of Finance, Actuarial Studies and Statistics",
-    "profileUrl": "http://rsfas.anu.edu.au/people/quan-vu",
+    "profileUrl": "https://rsfas.anu.edu.au/people/quan-vu",
     "tags": [
       "rsfas",
       "statistics"
@@ -3172,7 +3177,7 @@ window.ANREVIEW_DATA = {
     "focus": "Statistics",
     "email": "See ANU profile",
     "office": "Research School of Finance, Actuarial Studies and Statistics",
-    "profileUrl": "http://rsfas.anu.edu.au/people/sumonkanti-das",
+    "profileUrl": "https://rsfas.anu.edu.au/people/sumonkanti-das",
     "tags": [
       "rsfas",
       "statistics"
@@ -3194,7 +3199,7 @@ window.ANREVIEW_DATA = {
     "focus": "Actuarial studies",
     "email": "See ANU profile",
     "office": "Research School of Finance, Actuarial Studies and Statistics",
-    "profileUrl": "http://rsfas.anu.edu.au/people/william-lim",
+    "profileUrl": "https://rsfas.anu.edu.au/people/william-lim",
     "tags": [
       "rsfas",
       "actuarial studies"
@@ -3216,7 +3221,7 @@ window.ANREVIEW_DATA = {
     "focus": "Statistics",
     "email": "See ANU profile",
     "office": "Research School of Finance, Actuarial Studies and Statistics",
-    "profileUrl": "http://rsfas.anu.edu.au/people/zhi-yang-tho",
+    "profileUrl": "https://rsfas.anu.edu.au/people/zhi-yang-tho",
     "tags": [
       "rsfas",
       "statistics"
@@ -3279,7 +3284,7 @@ window.ANREVIEW_DATA = {
     "name": "Associate Professor Alex Richardson",
     "school": "Research School of Management",
     "schoolCode": "RSM",
-    "position": "Associate Professor & Deputy Director - Education",
+    "position": "Associate Professor &amp; Deputy Director - Education",
     "focus": "Business & business administration, Business information systems, Commerce, Management",
     "email": "See ANU profile",
     "office": "Research School of Management",
@@ -3770,7 +3775,7 @@ window.ANREVIEW_DATA = {
     "name": "Dr Kimin Eom",
     "school": "Research School of Management",
     "schoolCode": "RSM",
-    "position": "Senior Lecturer & HDR convenor",
+    "position": "Senior Lecturer &amp; HDR convenor",
     "focus": "Corporate social responsibility, Corporate sustainability, Management, Organisational behaviour",
     "email": "See ANU profile",
     "office": "Research School of Management",
@@ -3862,7 +3867,7 @@ window.ANREVIEW_DATA = {
     "name": "Dr Nico Klenner",
     "school": "Research School of Management",
     "schoolCode": "RSM",
-    "position": "Lecturer in Innovation & Entrepreneurship",
+    "position": "Lecturer in Innovation &amp; Entrepreneurship",
     "focus": "Entrepreneurship, Innovation, Management, Organisation studies",
     "email": "See ANU profile",
     "office": "Research School of Management",
@@ -6784,6 +6789,666 @@ window.ANREVIEW_DATA = {
       "Support",
       "Engagement"
     ]
+  },
+  {
+    "id": "jana-von-stein",
+    "type": "academic",
+    "name": "Associate Professor Jana von Stein",
+    "school": "School of Politics and International Relations",
+    "schoolCode": "SPIR",
+    "position": "Associate Professor, School of Politics & International Relations",
+    "focus": "School of Politics and International Relations",
+    "email": "Jana.Vonstein@anu.edu.au",
+    "office": "Level 2, RSSS Building, 146 Ellery Crescent",
+    "profileUrl": "https://researchportalplus.anu.edu.au/en/persons/jana-von-stein",
+    "tags": [
+      "spir",
+      "school of politics and internati"
+    ],
+    "linkedCourses": [],
+    "reviewMetrics": [
+      "Clarity",
+      "Support",
+      "Engagement"
+    ]
+  },
+  {
+    "id": "jill-sheppard",
+    "type": "academic",
+    "name": "Associate Professor Jill Sheppard",
+    "school": "School of Politics and International Relations",
+    "schoolCode": "SPIR",
+    "position": "Associate Professor, School of Politics & International Relations Associate, Australian Centre for Federalism Associate, The Australian Politics Studies Centre",
+    "focus": "School of Politics and International Relations",
+    "email": "Jill.Sheppard@anu.edu.au",
+    "office": "Level 2, RSSS Building, 146 Ellery Crescent",
+    "profileUrl": "https://researchportalplus.anu.edu.au/en/persons/jill-sheppard",
+    "tags": [
+      "spir",
+      "school of politics and internati"
+    ],
+    "linkedCourses": [],
+    "reviewMetrics": [
+      "Clarity",
+      "Support",
+      "Engagement"
+    ]
+  },
+  {
+    "id": "maria-maley",
+    "type": "academic",
+    "name": "Associate Professor Maria Maley",
+    "school": "School of Politics and International Relations",
+    "schoolCode": "SPIR",
+    "position": "Associate Professor, School of Politics & International Relations",
+    "focus": "School of Politics and International Relations",
+    "email": "Maria.Maley@anu.edu.au",
+    "office": "Level 2, RSSS Building, 146 Ellery Crescent",
+    "profileUrl": "https://researchportalplus.anu.edu.au/en/persons/maria-maley",
+    "tags": [
+      "spir",
+      "school of politics and internati"
+    ],
+    "linkedCourses": [],
+    "reviewMetrics": [
+      "Clarity",
+      "Support",
+      "Engagement"
+    ]
+  },
+  {
+    "id": "tracy-fenwick",
+    "type": "academic",
+    "name": "Associate Professor Tracy Beck Fenwick",
+    "school": "School of Politics and International Relations",
+    "schoolCode": "SPIR",
+    "position": "Director, Australian Centre for Federalism Associate Professor, School of Politics & International Relations",
+    "focus": "School of Politics and International Relations",
+    "email": "Tracy.Fenwick@anu.edu.au",
+    "office": "Level 3, RSSS Building, 146 Ellery Crescent",
+    "profileUrl": "https://researchportalplus.anu.edu.au/en/persons/tracy-fenwick",
+    "tags": [
+      "spir",
+      "school of politics and internati"
+    ],
+    "linkedCourses": [],
+    "reviewMetrics": [
+      "Clarity",
+      "Support",
+      "Engagement"
+    ]
+  },
+  {
+    "id": "april-biccum",
+    "type": "academic",
+    "name": "Dr April Biccum",
+    "school": "School of Politics and International Relations",
+    "schoolCode": "SPIR",
+    "position": "Senior Lecturer, School of Politics & International Relations",
+    "focus": "School of Politics and International Relations",
+    "email": "April.Biccum@anu.edu.au",
+    "office": "Level 2, RSSS Building, 146 Ellery Crescent",
+    "profileUrl": "https://researchportalplus.anu.edu.au/en/persons/april-biccum",
+    "tags": [
+      "spir",
+      "school of politics and internati"
+    ],
+    "linkedCourses": [],
+    "reviewMetrics": [
+      "Clarity",
+      "Support",
+      "Engagement"
+    ]
+  },
+  {
+    "id": "brandon-yoder",
+    "type": "academic",
+    "name": "Dr Brandon Yoder",
+    "school": "School of Politics and International Relations",
+    "schoolCode": "SPIR",
+    "position": "Senior Lecturer, School of Politics & International Relations",
+    "focus": "School of Politics and International Relations",
+    "email": "brandon.yoder@anu.edu.au",
+    "office": "Level 3, RSSS Building, 146 Ellery Crescent",
+    "profileUrl": "https://researchportalplus.anu.edu.au/en/persons/brandon-yoder",
+    "tags": [
+      "spir",
+      "school of politics and internati"
+    ],
+    "linkedCourses": [],
+    "reviewMetrics": [
+      "Clarity",
+      "Support",
+      "Engagement"
+    ]
+  },
+  {
+    "id": "charles-miller",
+    "type": "academic",
+    "name": "Dr Charles Miller",
+    "school": "School of Politics and International Relations",
+    "schoolCode": "SPIR",
+    "position": "Senior Lecturer, School of Politics & International Relations",
+    "focus": "School of Politics and International Relations",
+    "email": "Charles.Miller@anu.edu.au",
+    "office": "Level 3, RSSS Building, 146 Ellery Crescent",
+    "profileUrl": "https://researchportalplus.anu.edu.au/en/persons/charles-miller",
+    "tags": [
+      "spir",
+      "school of politics and internati"
+    ],
+    "linkedCourses": [],
+    "reviewMetrics": [
+      "Clarity",
+      "Support",
+      "Engagement"
+    ]
+  },
+  {
+    "id": "constanza-sanhueza",
+    "type": "academic",
+    "name": "Dr Constanza Sanhueza Petrarca",
+    "school": "School of Politics and International Relations",
+    "schoolCode": "SPIR",
+    "position": "Fellow, Australian Centre for Federalism Senior Lecturer, School of Politics & International Relations",
+    "focus": "School of Politics and International Relations",
+    "email": "Constanza.Sanhueza@anu.edu.au",
+    "office": "Level 2, 146 Ellery Cres",
+    "profileUrl": "https://researchportalplus.anu.edu.au/en/persons/constanza-sanhueza",
+    "tags": [
+      "spir",
+      "school of politics and internati"
+    ],
+    "linkedCourses": [],
+    "reviewMetrics": [
+      "Clarity",
+      "Support",
+      "Engagement"
+    ]
+  },
+  {
+    "id": "darren-lim",
+    "type": "academic",
+    "name": "Dr Darren Lim",
+    "school": "School of Politics and International Relations",
+    "schoolCode": "SPIR",
+    "position": "Senior Lecturer, School of Politics & International Relations",
+    "focus": "School of Politics and International Relations",
+    "email": "Darren.Lim@anu.edu.au",
+    "office": "Level 2, RSSS Building, 146 Ellery Crescent",
+    "profileUrl": "https://researchportalplus.anu.edu.au/en/persons/darren-lim",
+    "tags": [
+      "spir",
+      "school of politics and internati"
+    ],
+    "linkedCourses": [],
+    "reviewMetrics": [
+      "Clarity",
+      "Support",
+      "Engagement"
+    ]
+  },
+  {
+    "id": "dongwook-kim",
+    "type": "academic",
+    "name": "Dr Dongwook Kim",
+    "school": "School of Politics and International Relations",
+    "schoolCode": "SPIR",
+    "position": "Lecturer, School of Politics & International Relations",
+    "focus": "School of Politics and International Relations",
+    "email": "Dongwook.Kim@anu.edu.au",
+    "office": "Level 3, RSSS Building, 146 Ellery Crescent",
+    "profileUrl": "https://researchportalplus.anu.edu.au/en/persons/dongwook-kim",
+    "tags": [
+      "spir",
+      "school of politics and internati"
+    ],
+    "linkedCourses": [],
+    "reviewMetrics": [
+      "Clarity",
+      "Support",
+      "Engagement"
+    ]
+  },
+  {
+    "id": "katrine-beauregard",
+    "type": "academic",
+    "name": "Dr Katrine Beauregard",
+    "school": "School of Politics and International Relations",
+    "schoolCode": "SPIR",
+    "position": "Senior Lecturer, School of Politics & International Relations Associate, Australian Centre for Federalism Associate, The Australian Politics Studies Centre",
+    "focus": "School of Politics and International Relations",
+    "email": "Katrine.Beauregard@anu.edu.au",
+    "office": "Level 2, RSSS Building, 146 Ellery Crescent",
+    "profileUrl": "https://researchportalplus.anu.edu.au/en/persons/katrine-beauregard",
+    "tags": [
+      "spir",
+      "school of politics and internati"
+    ],
+    "linkedCourses": [],
+    "reviewMetrics": [
+      "Clarity",
+      "Support",
+      "Engagement"
+    ]
+  },
+  {
+    "id": "kim-huynh",
+    "type": "academic",
+    "name": "Dr Kim Huynh",
+    "school": "School of Politics and International Relations",
+    "schoolCode": "SPIR",
+    "position": "Senior Lecturer, School of Politics & International Relations",
+    "focus": "School of Politics and International Relations",
+    "email": "Kim.Huynh@anu.edu.au",
+    "office": "Level 2, RSSS Building, 146 Ellery Crescent",
+    "profileUrl": "https://researchportalplus.anu.edu.au/en/persons/kim-huynh",
+    "tags": [
+      "spir",
+      "school of politics and internati"
+    ],
+    "linkedCourses": [],
+    "reviewMetrics": [
+      "Clarity",
+      "Support",
+      "Engagement"
+    ]
+  },
+  {
+    "id": "dr-laura-welty",
+    "type": "academic",
+    "name": "Dr Laura Welty",
+    "school": "School of Politics and International Relations",
+    "schoolCode": "SPIR",
+    "position": "Lecturer, School of Politics & International Relations",
+    "focus": "School of Politics and International Relations",
+    "email": "Laura.Welty@anu.edu.au",
+    "office": "School of Politics and International Relations",
+    "profileUrl": "https://politicsir.cass.anu.edu.au/people/dr-laura-welty",
+    "tags": [
+      "spir",
+      "school of politics and internati"
+    ],
+    "linkedCourses": [],
+    "reviewMetrics": [
+      "Clarity",
+      "Support",
+      "Engagement"
+    ]
+  },
+  {
+    "id": "marija-taflaga",
+    "type": "academic",
+    "name": "Dr Marija Taflaga",
+    "school": "School of Politics and International Relations",
+    "schoolCode": "SPIR",
+    "position": "Senior Lecturer, School of Politics & International Relations Director, The Australian Politics Studies Centre",
+    "focus": "School of Politics and International Relations",
+    "email": "Marija.Taflaga@anu.edu.au",
+    "office": "Level 3, RSSS Building, 146 Ellery Crescent",
+    "profileUrl": "https://researchportalplus.anu.edu.au/en/persons/marija-taflaga",
+    "tags": [
+      "spir",
+      "school of politics and internati"
+    ],
+    "linkedCourses": [],
+    "reviewMetrics": [
+      "Clarity",
+      "Support",
+      "Engagement"
+    ]
+  },
+  {
+    "id": "michael-zekulin",
+    "type": "academic",
+    "name": "Dr Michael Zekulin",
+    "school": "School of Politics and International Relations",
+    "schoolCode": "SPIR",
+    "position": "Senior Lecturer, School of Politics & International Relations",
+    "focus": "School of Politics and International Relations",
+    "email": "Michael.Zekulin@anu.edu.au",
+    "office": "Level 3, RSSS Building, 146 Ellery Crescent",
+    "profileUrl": "https://researchportalplus.anu.edu.au/en/persons/michael-zekulin",
+    "tags": [
+      "spir",
+      "school of politics and internati"
+    ],
+    "linkedCourses": [],
+    "reviewMetrics": [
+      "Clarity",
+      "Support",
+      "Engagement"
+    ]
+  },
+  {
+    "id": "pandanus-petter",
+    "type": "academic",
+    "name": "Dr Pandanus Petter",
+    "school": "School of Politics and International Relations",
+    "schoolCode": "SPIR",
+    "position": "Academic, School of Politics & International Relations",
+    "focus": "School of Politics and International Relations",
+    "email": "pandanus.petter@anu.edu.au",
+    "office": "School of Politics and International Relations",
+    "profileUrl": "https://researchportalplus.anu.edu.au/en/persons/pandanus-petter",
+    "tags": [
+      "spir",
+      "school of politics and internati"
+    ],
+    "linkedCourses": [],
+    "reviewMetrics": [
+      "Clarity",
+      "Support",
+      "Engagement"
+    ]
+  },
+  {
+    "id": "patrick-leslie",
+    "type": "academic",
+    "name": "Dr Patrick Leslie",
+    "school": "School of Politics and International Relations",
+    "schoolCode": "SPIR",
+    "position": "Associate Lecturer, School of Politics & International Relations",
+    "focus": "School of Politics and International Relations",
+    "email": "Patrick.Leslie@anu.edu.au",
+    "office": "Level 2, RSSS Building, 146 Ellery Crescent",
+    "profileUrl": "https://researchportalplus.anu.edu.au/en/persons/patrick-leslie",
+    "tags": [
+      "spir",
+      "school of politics and internati"
+    ],
+    "linkedCourses": [],
+    "reviewMetrics": [
+      "Clarity",
+      "Support",
+      "Engagement"
+    ]
+  },
+  {
+    "id": "richard-frank",
+    "type": "academic",
+    "name": "Dr Richard W Frank",
+    "school": "School of Politics and International Relations",
+    "schoolCode": "SPIR",
+    "position": "Senior Lecturer, School of Politics & International Relations Deputy Head of School, School of Politics & International Relations",
+    "focus": "School of Politics and International Relations",
+    "email": "Richard.Frank@anu.edu.au",
+    "office": "School of Politics and International Relations",
+    "profileUrl": "https://researchportalplus.anu.edu.au/en/persons/richard-frank",
+    "tags": [
+      "spir",
+      "school of politics and internati"
+    ],
+    "linkedCourses": [],
+    "reviewMetrics": [
+      "Clarity",
+      "Support",
+      "Engagement"
+    ]
+  },
+  {
+    "id": "dr-ruosui-kelly-zhang",
+    "type": "academic",
+    "name": "Dr Ruosui (Kelly) Zhang",
+    "school": "School of Politics and International Relations",
+    "schoolCode": "SPIR",
+    "position": "Lecturer, School of Politics & International Relations",
+    "focus": "School of Politics and International Relations",
+    "email": "ruosui.zhang@anu.edu.au",
+    "office": "School of Politics and International Relations",
+    "profileUrl": "https://politicsir.cass.anu.edu.au/people/dr-ruosui-kelly-zhang",
+    "tags": [
+      "spir",
+      "school of politics and internati"
+    ],
+    "linkedCourses": [],
+    "reviewMetrics": [
+      "Clarity",
+      "Support",
+      "Engagement"
+    ]
+  },
+  {
+    "id": "shawn-treier",
+    "type": "academic",
+    "name": "Dr Shawn Treier",
+    "school": "School of Politics and International Relations",
+    "schoolCode": "SPIR",
+    "position": "Senior Lecturer, School of Politics & International Relations",
+    "focus": "School of Politics and International Relations",
+    "email": "Shawn.Treier@anu.edu.au",
+    "office": "Level 2, RSSS Building, 146 Ellery Crescent",
+    "profileUrl": "https://researchportalplus.anu.edu.au/en/persons/shawn-treier",
+    "tags": [
+      "spir",
+      "school of politics and internati"
+    ],
+    "linkedCourses": [],
+    "reviewMetrics": [
+      "Clarity",
+      "Support",
+      "Engagement"
+    ]
+  },
+  {
+    "id": "svitlana-chernykh",
+    "type": "academic",
+    "name": "Dr Svitlana Chernykh",
+    "school": "School of Politics and International Relations",
+    "schoolCode": "SPIR",
+    "position": "Senior Lecturer, School of Politics & International Relations Associate, Australian Centre for Federalism",
+    "focus": "School of Politics and International Relations",
+    "email": "Svitlana.Chernykh@anu.edu.au",
+    "office": "Level 2, RSSS Building, 146 Ellery Crescent",
+    "profileUrl": "https://researchportalplus.anu.edu.au/en/persons/svitlana-chernykh",
+    "tags": [
+      "spir",
+      "school of politics and internati"
+    ],
+    "linkedCourses": [],
+    "reviewMetrics": [
+      "Clarity",
+      "Support",
+      "Engagement"
+    ]
+  },
+  {
+    "id": "william-bosworth",
+    "type": "academic",
+    "name": "Dr William Bosworth",
+    "school": "School of Politics and International Relations",
+    "schoolCode": "SPIR",
+    "position": "Lecturer, School of Politics & International Relations",
+    "focus": "School of Politics and International Relations",
+    "email": "william.bosworth@anu.edu.au",
+    "office": "Level 3, RSSS Building, 146 Ellery Crescent",
+    "profileUrl": "https://researchportalplus.anu.edu.au/en/persons/william-bosworth",
+    "tags": [
+      "spir",
+      "school of politics and internati"
+    ],
+    "linkedCourses": [],
+    "reviewMetrics": [
+      "Clarity",
+      "Support",
+      "Engagement"
+    ]
+  },
+  {
+    "id": "thiago-nascimento-da-silva",
+    "type": "academic",
+    "name": "Dr. Thiago N. da Silva",
+    "school": "School of Politics and International Relations",
+    "schoolCode": "SPIR",
+    "position": "Deputy Director, Australian Centre for Federalism Senior Lecturer, School of Politics & International Relations",
+    "focus": "School of Politics and International Relations",
+    "email": "Thiago.Silva@anu.edu.au",
+    "office": "School of Politics and International Relations",
+    "profileUrl": "https://researchportalplus.anu.edu.au/en/persons/thiago-nascimento-da-silva",
+    "tags": [
+      "spir",
+      "school of politics and internati"
+    ],
+    "linkedCourses": [],
+    "reviewMetrics": [
+      "Clarity",
+      "Support",
+      "Engagement"
+    ]
+  },
+  {
+    "id": "ms-eve-wenjun-cheng",
+    "type": "academic",
+    "name": "Ms Eve (Wenjun) Cheng",
+    "school": "School of Politics and International Relations",
+    "schoolCode": "SPIR",
+    "position": "Post-doctoral Fellow, School of Politics & International Relations",
+    "focus": "School of Politics and International Relations",
+    "email": "Wenjun.Cheng@anu.edu.au",
+    "office": "School of Politics and International Relations",
+    "profileUrl": "https://politicsir.cass.anu.edu.au/people/ms-eve-wenjun-cheng",
+    "tags": [
+      "spir",
+      "school of politics and internati"
+    ],
+    "linkedCourses": [],
+    "reviewMetrics": [
+      "Clarity",
+      "Support",
+      "Engagement"
+    ]
+  },
+  {
+    "id": "ben-goldsmith",
+    "type": "academic",
+    "name": "Professor Benjamin Goldsmith",
+    "school": "School of Politics and International Relations",
+    "schoolCode": "SPIR",
+    "position": "Professor, School of Politics & International Relations",
+    "focus": "School of Politics and International Relations",
+    "email": "Ben.Goldsmith@anu.edu.au",
+    "office": "Level 3, RSSS Building, 146 Ellery Crescent",
+    "profileUrl": "https://researchportalplus.anu.edu.au/en/persons/ben-goldsmith",
+    "tags": [
+      "spir",
+      "school of politics and internati"
+    ],
+    "linkedCourses": [],
+    "reviewMetrics": [
+      "Clarity",
+      "Support",
+      "Engagement"
+    ]
+  },
+  {
+    "id": "darren-halpin",
+    "type": "academic",
+    "name": "Professor Darren Halpin",
+    "school": "School of Politics and International Relations",
+    "schoolCode": "SPIR",
+    "position": "Professor, School of Politics & International Relations",
+    "focus": "School of Politics and International Relations",
+    "email": "Darren.Halpin@anu.edu.au",
+    "office": "Level 2, RSSS Building, 146 Ellery Crescent",
+    "profileUrl": "https://researchportalplus.anu.edu.au/en/persons/darren-halpin",
+    "tags": [
+      "spir",
+      "school of politics and internati"
+    ],
+    "linkedCourses": [],
+    "reviewMetrics": [
+      "Clarity",
+      "Support",
+      "Engagement"
+    ]
+  },
+  {
+    "id": "ian-mcallister",
+    "type": "academic",
+    "name": "Professor Ian McAllister",
+    "school": "School of Politics and International Relations",
+    "schoolCode": "SPIR",
+    "position": "Distinguished Professor, School of Politics & International Relations Associate, The Australian Politics Studies Centre",
+    "focus": "School of Politics and International Relations",
+    "email": "Ian.McAllister@anu.edu.au",
+    "office": "Level 3, RSSS Building, 146 Ellery Crescent",
+    "profileUrl": "https://researchportalplus.anu.edu.au/en/persons/ian-mcallister",
+    "tags": [
+      "spir",
+      "school of politics and internati"
+    ],
+    "linkedCourses": [],
+    "reviewMetrics": [
+      "Clarity",
+      "Support",
+      "Engagement"
+    ]
+  },
+  {
+    "id": "keith-dowding",
+    "type": "academic",
+    "name": "Professor Keith Dowding",
+    "school": "School of Politics and International Relations",
+    "schoolCode": "SPIR",
+    "position": "Associate, Australian Centre for Federalism Associate, The Australian Politics Studies Centre Professor, School of Politics & International Relations",
+    "focus": "School of Politics and International Relations",
+    "email": "Keith.Dowding@anu.edu.au",
+    "office": "Level 3, RSSS Building, 146 Ellery Crescent",
+    "profileUrl": "https://researchportalplus.anu.edu.au/en/persons/keith-dowding",
+    "tags": [
+      "spir",
+      "school of politics and internati"
+    ],
+    "linkedCourses": [],
+    "reviewMetrics": [
+      "Clarity",
+      "Support",
+      "Engagement"
+    ]
+  },
+  {
+    "id": "mark-kenny",
+    "type": "academic",
+    "name": "Professor Mark Kenny",
+    "school": "School of Politics and International Relations",
+    "schoolCode": "SPIR",
+    "position": "Associate, The Australian Politics Studies Centre Professor, School of Politics & International Relations",
+    "focus": "School of Politics and International Relations",
+    "email": "Mark.Kenny@anu.edu.au",
+    "office": "+61 2 6125 6766",
+    "profileUrl": "https://researchportalplus.anu.edu.au/en/persons/mark-kenny",
+    "tags": [
+      "spir",
+      "school of politics and internati"
+    ],
+    "linkedCourses": [],
+    "reviewMetrics": [
+      "Clarity",
+      "Support",
+      "Engagement"
+    ]
+  },
+  {
+    "id": "nicholas-biddle",
+    "type": "academic",
+    "name": "Professor Nicholas Biddle",
+    "school": "School of Politics and International Relations",
+    "schoolCode": "SPIR",
+    "position": "Head of School, School of Politics & International Relations",
+    "focus": "School of Politics and International Relations",
+    "email": "nicholas.biddle@anu.edu.au",
+    "office": "Level 3 - RSSS Building, 146 Ellery Cres, Acton",
+    "profileUrl": "https://researchportalplus.anu.edu.au/en/persons/nicholas-biddle",
+    "tags": [
+      "spir",
+      "school of politics and internati"
+    ],
+    "linkedCourses": [],
+    "reviewMetrics": [
+      "Clarity",
+      "Support",
+      "Engagement"
+    ]
   }
 ],
   courses: [
@@ -6877,6 +7542,206 @@ window.ANREVIEW_DATA = {
     ]
   },
   {
+    "id": "ASIA1025",
+    "type": "course",
+    "code": "ASIA1025",
+    "name": "Asia and the Pacific: Power, diversity and change",
+    "school": "School of Culture History and Language",
+    "schoolCode": "SOCHA",
+    "level": "UGRD",
+    "terms": [
+      "First Semester"
+    ],
+    "conveners": [],
+    "handbookUrl": "https://programsandcourses.anu.edu.au/course/asia1025",
+    "summary": "This course investigates the dynamic transformations unfolding in contemporary Asia and the Pacific. It introduces Area Studies as a field of scholarship and asks what it means to study this diverse and rapidly changing region.",
+    "tags": [
+      "anthropology",
+      "non language asian studies",
+      "cultural studies",
+      "gender studies"
+    ],
+    "reviewMetrics": [
+      "Teaching quality",
+      "Workload fairness",
+      "Assessment design"
+    ]
+  },
+  {
+    "id": "ASIA1030",
+    "type": "course",
+    "code": "ASIA1030",
+    "name": "Asia and the Pacific in Motion",
+    "school": "School of Culture History and Language",
+    "schoolCode": "SOCHA",
+    "level": "UGRD",
+    "terms": [
+      "Second Semester"
+    ],
+    "conveners": [],
+    "handbookUrl": "https://programsandcourses.anu.edu.au/course/asia1030",
+    "summary": "This course offers an interdisciplinary introduction to the Asia-Pacific region, encompassing its rich cultural, ecological, and political diversity. In the first half of the course, students will engage deeply with Indigenous Australian cultures, histories, and knowledge systems.",
+    "tags": [
+      "anthropology",
+      "non language asian studies",
+      "gender studies",
+      "asian studies"
+    ],
+    "reviewMetrics": [
+      "Teaching quality",
+      "Workload fairness",
+      "Assessment design"
+    ]
+  },
+  {
+    "id": "ASIA1035",
+    "type": "course",
+    "code": "ASIA1035",
+    "name": "Introduction to Asian Politics",
+    "school": "Department of Political and Social Change",
+    "schoolCode": "DOPAS",
+    "level": "UGRD",
+    "terms": [
+      "First Semester"
+    ],
+    "conveners": [],
+    "handbookUrl": "https://programsandcourses.anu.edu.au/course/asia1035",
+    "summary": "In Asia, the world's most rapidly growing region, politics and political regimes are diverse. Asia is home to stable communist regimes, there are constitutional monarchies and military-based authoritarian governments, as well as young and vibrant democracies.",
+    "tags": [
+      "international relations",
+      "political sciences",
+      "asian studies",
+      "asia pacific studies"
+    ],
+    "reviewMetrics": [
+      "Teaching quality",
+      "Workload fairness",
+      "Assessment design"
+    ]
+  },
+  {
+    "id": "ASIA1999",
+    "type": "course",
+    "code": "ASIA1999",
+    "name": "The Origins of Political Order in Asia",
+    "school": "Department of Political and Social Change",
+    "schoolCode": "DOPAS",
+    "level": "UGRD",
+    "terms": [
+      "Second Semester"
+    ],
+    "conveners": [],
+    "handbookUrl": "https://programsandcourses.anu.edu.au/course/asia1999",
+    "summary": "This course traces the historical development of Asia's diverse political systems. It examines underlying geo-political realities and their implications for political structure and focusses on the religious and political systems of thought that have shaped Asian political systems, especially regarding leadership, the family, ethnicity, social class and age.",
+    "tags": [
+      "political sciences"
+    ],
+    "reviewMetrics": [
+      "Teaching quality",
+      "Workload fairness",
+      "Assessment design"
+    ]
+  },
+  {
+    "id": "ASIA2026",
+    "type": "course",
+    "code": "ASIA2026",
+    "name": "The Politics of China",
+    "school": "Department of Political and Social Change",
+    "schoolCode": "DOPAS",
+    "level": "UGRD",
+    "terms": [
+      "Second Semester"
+    ],
+    "conveners": [],
+    "handbookUrl": "https://programsandcourses.anu.edu.au/course/asia2026",
+    "summary": "Who rules China, and how? This course examines the politics of contemporary China. It traces the cultural and historical legacies affecting political life and the political processes through which nation-state, citizen-subjects and the organizations and institutions of governance are constructed and interact; examines the major political challenges confro...",
+    "tags": [
+      "non language asian studies",
+      "policy studies"
+    ],
+    "reviewMetrics": [
+      "Teaching quality",
+      "Workload fairness",
+      "Assessment design"
+    ]
+  },
+  {
+    "id": "ASIA2031",
+    "type": "course",
+    "code": "ASIA2031",
+    "name": "Japanese Politics",
+    "school": "School of Culture History and Language",
+    "schoolCode": "SOCHA",
+    "level": "UGRD",
+    "terms": [
+      "First Semester"
+    ],
+    "conveners": [],
+    "handbookUrl": "https://programsandcourses.anu.edu.au/course/asia2031",
+    "summary": "This course provides an introduction to contemporary Japanese politics. It looks closely at the relationship between institutions (electoral systems, regulatory frameworks, administrative systems) and political actors such as politicians, political parties, bureaucracies and bureaucrats, business and civic groups, and citizens.",
+    "tags": [
+      "non language asian studies",
+      "policy studies",
+      "political sciences",
+      "asian studies"
+    ],
+    "reviewMetrics": [
+      "Teaching quality",
+      "Workload fairness",
+      "Assessment design"
+    ]
+  },
+  {
+    "id": "ASIA2041",
+    "type": "course",
+    "code": "ASIA2041",
+    "name": "Mainland Southeast Asia: Colonial and Postcolonial Predicaments",
+    "school": "School of Culture History and Language",
+    "schoolCode": "SOCHA",
+    "level": "UGRD",
+    "terms": [
+      "Second Semester"
+    ],
+    "conveners": [],
+    "handbookUrl": "https://programsandcourses.anu.edu.au/course/asia2041",
+    "summary": "Through historical examples from Vietnam, Burma, Thailand, Laos, and Cambodia, this course will emphasise the study of mainland Southeast Asia in a comparative framework, with particular attention to political culture, the production of knowledge, concepts of 'civilisation', and emerging civil societies in the twentieth century. Finally, the course explor...",
+    "tags": [
+      "anthropology",
+      "non language asian studies",
+      "cultural studies",
+      "asia pacific studies"
+    ],
+    "reviewMetrics": [
+      "Teaching quality",
+      "Workload fairness",
+      "Assessment design"
+    ]
+  },
+  {
+    "id": "ASIA2065",
+    "type": "course",
+    "code": "ASIA2065",
+    "name": "Asia’s Changing Politics in Comparative Perspective",
+    "school": "Department of Political and Social Change",
+    "schoolCode": "DOPAS",
+    "level": "UGRD",
+    "terms": [
+      "Second Semester"
+    ],
+    "conveners": [],
+    "handbookUrl": "https://programsandcourses.anu.edu.au/course/asia2065",
+    "summary": "How do we compare political dynamics as they vary from one country to another? Why are some countries highly developed while others struggle to lift their most disadvantaged citizens out of poverty?",
+    "tags": [
+      "political sciences"
+    ],
+    "reviewMetrics": [
+      "Teaching quality",
+      "Workload fairness",
+      "Assessment design"
+    ]
+  },
+  {
     "id": "ASIA2067",
     "type": "course",
     "code": "ASIA2067",
@@ -6894,6 +7759,133 @@ window.ANREVIEW_DATA = {
       "development studies",
       "asian studies",
       "applied economics"
+    ],
+    "reviewMetrics": [
+      "Teaching quality",
+      "Workload fairness",
+      "Assessment design"
+    ]
+  },
+  {
+    "id": "ASIA2093",
+    "type": "course",
+    "code": "ASIA2093",
+    "name": "Natural Resource Conflicts in Asia and the Pacific",
+    "school": "Department of Pacific Affairs",
+    "schoolCode": "DOPA",
+    "level": "UGRD",
+    "terms": [
+      "Second Semester"
+    ],
+    "conveners": [],
+    "handbookUrl": "https://programsandcourses.anu.edu.au/course/asia2093",
+    "summary": "Conflicts over natural resources are an enduring feature of social and political life at different scales and levels of organisation. The inter-state and geopolitical dimensions of conflicts over resources such as oil and water and marine resources loom large in the popular imaginary.",
+    "tags": [
+      "asia"
+    ],
+    "reviewMetrics": [
+      "Teaching quality",
+      "Workload fairness",
+      "Assessment design"
+    ]
+  },
+  {
+    "id": "ASIA2096",
+    "type": "course",
+    "code": "ASIA2096",
+    "name": "North Korea: History, Culture, Politics",
+    "school": "School of Culture History and Language",
+    "schoolCode": "SOCHA",
+    "level": "UGRD",
+    "terms": [
+      "Winter Session"
+    ],
+    "conveners": [],
+    "handbookUrl": "https://programsandcourses.anu.edu.au/course/asia2096",
+    "summary": "North Korea is widely regarded as one of the world's most enigmatic countries, and as a significant security threat in the Northeast Asian region. The Australian and global media depict it as a country of missiles, phalanxes of marching soldiers, all-powerful leaders, and bizarre political ideologies.",
+    "tags": [
+      "gender studies",
+      "history",
+      "asian studies",
+      "international affairs"
+    ],
+    "reviewMetrics": [
+      "Teaching quality",
+      "Workload fairness",
+      "Assessment design"
+    ]
+  },
+  {
+    "id": "ASIA2222",
+    "type": "course",
+    "code": "ASIA2222",
+    "name": "Taiwanese Society and Politics",
+    "school": "School of Culture History and Language",
+    "schoolCode": "SOCHA",
+    "level": "UGRD",
+    "terms": [
+      "Summer Session"
+    ],
+    "conveners": [],
+    "handbookUrl": "https://programsandcourses.anu.edu.au/course/asia2222",
+    "summary": "For Australians, Taiwan typically figures only as an issue in the geo-politics of the East Asian region, as one half of “Cross-Strait Relations”. Yet, it is a fully functioning democracy and an independent state in all but name that can be studied in its own right.",
+    "tags": [
+      "cultural studies",
+      "asian studies",
+      "asia pacific studies",
+      "asia-pacific studies"
+    ],
+    "reviewMetrics": [
+      "Teaching quality",
+      "Workload fairness",
+      "Assessment design"
+    ]
+  },
+  {
+    "id": "ASIA2301",
+    "type": "course",
+    "code": "ASIA2301",
+    "name": "Human Migration and Expansion in the Rise of the Asia-Pacific",
+    "school": "School of Culture History and Language",
+    "schoolCode": "SOCHA",
+    "level": "UGRD",
+    "terms": [
+      "First Semester"
+    ],
+    "conveners": [],
+    "handbookUrl": "https://programsandcourses.anu.edu.au/course/asia2301",
+    "summary": "This course illuminates the dynamic past of the Asia-Pacific including the arrival of early people and later human expansions that populated our region and led to the region's distinctive and influential cultures, states and nations. Significant events covered in the course include the emergence of complex societies culminating in expansive empires and ea...",
+    "tags": [
+      "archaeology",
+      "history",
+      "pacific studies",
+      "asian studies"
+    ],
+    "reviewMetrics": [
+      "Teaching quality",
+      "Workload fairness",
+      "Assessment design"
+    ]
+  },
+  {
+    "id": "ASIA2516",
+    "type": "course",
+    "code": "ASIA2516",
+    "name": "Indonesia: Politics, Society and Development",
+    "school": "Department of Political and Social Change",
+    "schoolCode": "DOPAS",
+    "level": "UGRD",
+    "terms": [
+      "Second Semester"
+    ],
+    "conveners": [],
+    "handbookUrl": "https://programsandcourses.anu.edu.au/course/asia2516",
+    "summary": "This course examines the politics and political economy of Indonesia, the world's third largest democracy and emerging Asian power. It introduces students to critical historical events and figures of the post-independence period (1945-), then moves on to examine specific topics in the development of contemporary Indonesia—including authoritarianism and de...",
+    "tags": [
+      "non language asian studies",
+      "development studies",
+      "international relations",
+      "political sciences"
     ],
     "reviewMetrics": [
       "Teaching quality",
@@ -7790,6 +8782,59 @@ window.ANREVIEW_DATA = {
     ]
   },
   {
+    "id": "DEMO1001",
+    "type": "course",
+    "code": "DEMO1001",
+    "name": "Global population challenges",
+    "school": "School of Demography",
+    "schoolCode": "SOD",
+    "level": "UGRD",
+    "terms": [
+      "First Semester"
+    ],
+    "conveners": [],
+    "handbookUrl": "https://programsandcourses.anu.edu.au/course/demo1001",
+    "summary": "This course introduces the big issues associated with changes in our global population. The world’s population is increasing rapidly, but population growth is far from even.",
+    "tags": [
+      "international relations",
+      "political sciences",
+      "population studies",
+      "sociology"
+    ],
+    "reviewMetrics": [
+      "Teaching quality",
+      "Workload fairness",
+      "Assessment design"
+    ]
+  },
+  {
+    "id": "DEMO2003",
+    "type": "course",
+    "code": "DEMO2003",
+    "name": "Migration in the Modern World",
+    "school": "School of Demography",
+    "schoolCode": "SOD",
+    "level": "UGRD",
+    "terms": [
+      "First Semester",
+      "Second Semester"
+    ],
+    "conveners": [],
+    "handbookUrl": "https://programsandcourses.anu.edu.au/course/demo2003",
+    "summary": "Migration and urbanisation are driving population and societal change across the industrialised world. This inter-disciplinary course will provide you with the necessary skills to analyse migration patterns across and within countries.",
+    "tags": [
+      "policy studies",
+      "political sciences",
+      "population studies",
+      "demography"
+    ],
+    "reviewMetrics": [
+      "Teaching quality",
+      "Workload fairness",
+      "Assessment design"
+    ]
+  },
+  {
     "id": "ECHI1006",
     "type": "course",
     "code": "ECHI1006",
@@ -8569,6 +9614,32 @@ window.ANREVIEW_DATA = {
     ]
   },
   {
+    "id": "ENVS1003",
+    "type": "course",
+    "code": "ENVS1003",
+    "name": "Introduction to Environmental and Social Research",
+    "school": "Fenner School of Environment and Society",
+    "schoolCode": "FSOEA",
+    "level": "UGRD",
+    "terms": [
+      "Second Semester"
+    ],
+    "conveners": [],
+    "handbookUrl": "https://programsandcourses.anu.edu.au/course/envs1003",
+    "summary": "In environment and sustainability fields, research plays a major role in identifying the response of human and natural systems to spatial and temporal differences, disturbances and management actions. Achieving these research outcomes relies upon establishing research questions and testable hypotheses, applying appropriate data collection and analysis met...",
+    "tags": [
+      "forestry",
+      "geography",
+      "interdisciplinary studies - sust",
+      "environmental studies"
+    ],
+    "reviewMetrics": [
+      "Teaching quality",
+      "Workload fairness",
+      "Assessment design"
+    ]
+  },
+  {
     "id": "ENVS2011",
     "type": "course",
     "code": "ENVS2011",
@@ -8666,6 +9737,32 @@ window.ANREVIEW_DATA = {
       "interdisciplinary studies - sust",
       "environmental studies",
       "human sciences"
+    ],
+    "reviewMetrics": [
+      "Teaching quality",
+      "Workload fairness",
+      "Assessment design"
+    ]
+  },
+  {
+    "id": "ENVS3033",
+    "type": "course",
+    "code": "ENVS3033",
+    "name": "International Environmental Policy",
+    "school": "Fenner School of Environment and Society",
+    "schoolCode": "FSOEA",
+    "level": "UGRD",
+    "terms": [
+      "Summer Session"
+    ],
+    "conveners": [],
+    "handbookUrl": "https://programsandcourses.anu.edu.au/course/envs3033",
+    "summary": "The course focuses on the dynamic field of international environmental policy (IEP), a field that has grown rapidly and dramatically over the last three decades, driven by concern over unprecedented and large-scale global environmental change, including climate change, biodiversity loss, deforestation, marine degradation, and expanding trade and consumpti...",
+    "tags": [
+      "geography",
+      "interdisciplinary studies - sust",
+      "environmental studies",
+      "international relations"
     ],
     "reviewMetrics": [
       "Teaching quality",
@@ -8982,6 +10079,305 @@ window.ANREVIEW_DATA = {
     ]
   },
   {
+    "id": "HIST1209",
+    "type": "course",
+    "code": "HIST1209",
+    "name": "Terror to Terrorism: A History",
+    "school": "School of History",
+    "schoolCode": "SOH",
+    "level": "UGRD",
+    "terms": [
+      "Second Semester"
+    ],
+    "conveners": [],
+    "handbookUrl": "https://programsandcourses.anu.edu.au/course/hist1209",
+    "summary": "Terror and terrorist acts are common events in the contemporary world, but much of the public debate about terrorism is ignorant of the long history of the phenomenon. This course explores the history of terror, terrorism and counter-terrorism around the globe since the late eighteenth century.",
+    "tags": [
+      "history",
+      "international relations",
+      "security studies",
+      "politics"
+    ],
+    "reviewMetrics": [
+      "Teaching quality",
+      "Workload fairness",
+      "Assessment design"
+    ]
+  },
+  {
+    "id": "HIST1214",
+    "type": "course",
+    "code": "HIST1214",
+    "name": "Empires in Global History",
+    "school": "School of History",
+    "schoolCode": "SOH",
+    "level": "UGRD",
+    "terms": [
+      "First Semester"
+    ],
+    "conveners": [],
+    "handbookUrl": "https://programsandcourses.anu.edu.au/course/hist1214",
+    "summary": "The modern world is a product of centuries of conflict, rivalry and strategic cooperation between empires seeking to expand or protect their power across domains spanning from economic systems to religion and culture. Throughout Europe and the Mediterranean, Asia, the Americas, Africa, and the Pacific, the past 2000 years have seen radical historical tran...",
+    "tags": [
+      "classics and ancient history",
+      "cultural studies",
+      "history",
+      "international affairs"
+    ],
+    "reviewMetrics": [
+      "Teaching quality",
+      "Workload fairness",
+      "Assessment design"
+    ]
+  },
+  {
+    "id": "HIST2022",
+    "type": "course",
+    "code": "HIST2022",
+    "name": "Aboriginal and Torres Strait Islander History",
+    "school": "School of History",
+    "schoolCode": "SOH",
+    "level": "UGRD",
+    "terms": [
+      "First Semester"
+    ],
+    "conveners": [],
+    "handbookUrl": "https://programsandcourses.anu.edu.au/course/hist2022",
+    "summary": "Majority perceptions of Aborigines and Torres Strait Islanders matter in the Australian democracy. This course explores the ways that Aboriginal and Torres Strait Islander people draw on a range of personal, social and cultural resources to compensate for adversities brought about by colonisation.",
+    "tags": [
+      "history",
+      "australian indigenous studies"
+    ],
+    "reviewMetrics": [
+      "Teaching quality",
+      "Workload fairness",
+      "Assessment design"
+    ]
+  },
+  {
+    "id": "HIST2110",
+    "type": "course",
+    "code": "HIST2110",
+    "name": "Approaches to History",
+    "school": "School of History",
+    "schoolCode": "SOH",
+    "level": "UGRD",
+    "terms": [
+      "First Semester"
+    ],
+    "conveners": [],
+    "handbookUrl": "https://programsandcourses.anu.edu.au/course/hist2110",
+    "summary": "This course will help you to become a better historian and a better analyst of historical research, narratives and representations. It examines the principles, strategies and assumptions underlying different forms of history.",
+    "tags": [
+      "history",
+      "philosophy"
+    ],
+    "reviewMetrics": [
+      "Teaching quality",
+      "Workload fairness",
+      "Assessment design"
+    ]
+  },
+  {
+    "id": "HIST2136",
+    "type": "course",
+    "code": "HIST2136",
+    "name": "World at War, 1939-1945",
+    "school": "School of History",
+    "schoolCode": "SOH",
+    "level": "UGRD",
+    "terms": [
+      "First Semester"
+    ],
+    "conveners": [],
+    "handbookUrl": "https://programsandcourses.anu.edu.au/course/hist2136",
+    "summary": "World War Two was the greatest conflict in history. An estimated 60 million men, women and children died in a war that engulfed the globe and shaped the world in which we live.",
+    "tags": [
+      "history"
+    ],
+    "reviewMetrics": [
+      "Teaching quality",
+      "Workload fairness",
+      "Assessment design"
+    ]
+  },
+  {
+    "id": "HIST2141",
+    "type": "course",
+    "code": "HIST2141",
+    "name": "The Cold War: 1945-1989",
+    "school": "School of History",
+    "schoolCode": "SOH",
+    "level": "UGRD",
+    "terms": [
+      "See ANU course page"
+    ],
+    "conveners": [],
+    "handbookUrl": "https://programsandcourses.anu.edu.au/course/hist2141",
+    "summary": "The Cold War was a political, ideological, military and cultural conflict between the USA, the Soviet Union and the People’s Republic of China. Yet it also involved proxy wars and crises throughout Africa, Asia, Europe and Latin America, as well as a massive arms race, a great power rivalry that deeply affected domestic populations, complex diplomacy, and...",
+    "tags": [
+      "american studies",
+      "contemporary europe",
+      "history",
+      "international relations"
+    ],
+    "reviewMetrics": [
+      "Teaching quality",
+      "Workload fairness",
+      "Assessment design"
+    ]
+  },
+  {
+    "id": "HIST2214",
+    "type": "course",
+    "code": "HIST2214",
+    "name": "The Great War. The Conflict that Changed the World.",
+    "school": "School of History",
+    "schoolCode": "SOH",
+    "level": "UGRD",
+    "terms": [
+      "See ANU course page"
+    ],
+    "conveners": [],
+    "handbookUrl": "https://programsandcourses.anu.edu.au/course/hist2214",
+    "summary": "In August 1914, millions of men were mobilised as European nations declared war on one another. As most of these nations were imperial powers, their colonies were also drawn into the conflict.",
+    "tags": [
+      "contemporary europe",
+      "history",
+      "international relations"
+    ],
+    "reviewMetrics": [
+      "Teaching quality",
+      "Workload fairness",
+      "Assessment design"
+    ]
+  },
+  {
+    "id": "HIST2221",
+    "type": "course",
+    "code": "HIST2221",
+    "name": "Britain in the Age of Revolutions and Empires 1688-1848",
+    "school": "School of History",
+    "schoolCode": "SOH",
+    "level": "UGRD",
+    "terms": [
+      "See ANU course page"
+    ],
+    "conveners": [],
+    "handbookUrl": "https://programsandcourses.anu.edu.au/course/hist2221",
+    "summary": "A series of major historical transformations took place in Britain between the end of the seventeenth century and the middle of the nineteenth century. Beginning with a political revolution, and ending with an industrial revolution, this era saw Britain develop into a global imperial and military power.",
+    "tags": [
+      "history"
+    ],
+    "reviewMetrics": [
+      "Teaching quality",
+      "Workload fairness",
+      "Assessment design"
+    ]
+  },
+  {
+    "id": "HIST2226",
+    "type": "course",
+    "code": "HIST2226",
+    "name": "Nazi Germany",
+    "school": "School of History",
+    "schoolCode": "SOH",
+    "level": "UGRD",
+    "terms": [
+      "First Semester"
+    ],
+    "conveners": [],
+    "handbookUrl": "https://programsandcourses.anu.edu.au/course/hist2226",
+    "summary": "Historians have long tried to understand how modern Germany could descend, in the space of a few years, into brutal terror, racial warfare and genocide. This course explores the origins of Nazism in German history, the rise of the National Socialist Party and the nature of Nazi rule, from the seemingly inauspicious Nazi movement's early years after the Fi...",
+    "tags": [
+      "contemporary europe",
+      "history",
+      "international relations",
+      "european studies"
+    ],
+    "reviewMetrics": [
+      "Teaching quality",
+      "Workload fairness",
+      "Assessment design"
+    ]
+  },
+  {
+    "id": "HIST2227",
+    "type": "course",
+    "code": "HIST2227",
+    "name": "Australian Political History",
+    "school": "School of History",
+    "schoolCode": "SOH",
+    "level": "UGRD",
+    "terms": [
+      "Second Semester"
+    ],
+    "conveners": [],
+    "handbookUrl": "https://programsandcourses.anu.edu.au/course/hist2227",
+    "summary": "This course examines Australian politics from a historical perspective, starting at the beginnings of colonisation and extending to the present day. It asks, how does history make sense of our political challenges of today?",
+    "tags": [
+      "hist"
+    ],
+    "reviewMetrics": [
+      "Teaching quality",
+      "Workload fairness",
+      "Assessment design"
+    ]
+  },
+  {
+    "id": "HIST2240",
+    "type": "course",
+    "code": "HIST2240",
+    "name": "Democracy and Dissent: Europe Since 1945",
+    "school": "School of History",
+    "schoolCode": "SOH",
+    "level": "UGRD",
+    "terms": [
+      "See ANU course page"
+    ],
+    "conveners": [],
+    "handbookUrl": "https://programsandcourses.anu.edu.au/course/hist2240",
+    "summary": "At the conclusion of the Second World War in 1945, Europe was reduced to rubble. This course examines the troubled history of attempts to re-establish prosperity and democracy in the postwar period.",
+    "tags": [
+      "contemporary europe",
+      "history",
+      "international relations",
+      "european studies"
+    ],
+    "reviewMetrics": [
+      "Teaching quality",
+      "Workload fairness",
+      "Assessment design"
+    ]
+  },
+  {
+    "id": "HIST2242",
+    "type": "course",
+    "code": "HIST2242",
+    "name": "The Soviet Union: From the Russian Revolution to the Collapse of Communism",
+    "school": "School of History",
+    "schoolCode": "SOH",
+    "level": "UGRD",
+    "terms": [
+      "First Semester",
+      "Second Semester"
+    ],
+    "conveners": [],
+    "handbookUrl": "https://programsandcourses.anu.edu.au/course/hist2242",
+    "summary": "In October 1917, a small band of Marxist revolutionaries called the Bolsheviks seized control of the largest country in the world, Russia, and declared they were building a new civilization. Just before its collapse in 1991, this “civilization” encompassed a third of the globe and its shadow continues to frame, indeed, haunt munch of it.",
+    "tags": [
+      "history",
+      "international relations",
+      "political sciences",
+      "european studies"
+    ],
+    "reviewMetrics": [
+      "Teaching quality",
+      "Workload fairness",
+      "Assessment design"
+    ]
+  },
+  {
     "id": "HONS4300",
     "type": "course",
     "code": "HONS4300",
@@ -8998,6 +10394,84 @@ window.ANREVIEW_DATA = {
     "summary": "Official ANU course listing for HONS4300.",
     "tags": [
       "hons"
+    ],
+    "reviewMetrics": [
+      "Teaching quality",
+      "Workload fairness",
+      "Assessment design"
+    ]
+  },
+  {
+    "id": "INDG1001",
+    "type": "course",
+    "code": "INDG1001",
+    "name": "Country, Kinship and Continuities: An Introduction to Australian Indigenous Studies",
+    "school": "School of History",
+    "schoolCode": "SOH",
+    "level": "UGRD",
+    "terms": [
+      "First Semester"
+    ],
+    "conveners": [],
+    "handbookUrl": "https://programsandcourses.anu.edu.au/course/indg1001",
+    "summary": "This course introduces students to the diversity of First Peoples’ perspectives, knowledges, experiences, and places in this Country. We examine significant events, including shared histories, drawn from across the Australian continent.",
+    "tags": [
+      "anthropology",
+      "australian studies",
+      "history",
+      "australian indigenous studies"
+    ],
+    "reviewMetrics": [
+      "Teaching quality",
+      "Workload fairness",
+      "Assessment design"
+    ]
+  },
+  {
+    "id": "INDG1002",
+    "type": "course",
+    "code": "INDG1002",
+    "name": "Resilience, Responsibility, and Resurgence: First Peoples' Experiences and Ways of Being",
+    "school": "School of History",
+    "schoolCode": "SOH",
+    "level": "UGRD",
+    "terms": [
+      "Second Semester"
+    ],
+    "conveners": [],
+    "handbookUrl": "https://programsandcourses.anu.edu.au/course/indg1002",
+    "summary": "This course allows students to further develop insight into First Peoples' perspectives, knowledge, experiences and ways of being and to reflect on the impacts of colonisation broadly. It creates a learning experience for students that requires self-reflective practices, consistent engagement and ethical engagement with content important to First Peoples.",
+    "tags": [
+      "history",
+      "australian indigenous studies",
+      "policy studies",
+      "pacific studies"
+    ],
+    "reviewMetrics": [
+      "Teaching quality",
+      "Workload fairness",
+      "Assessment design"
+    ]
+  },
+  {
+    "id": "INDG3001",
+    "type": "course",
+    "code": "INDG3001",
+    "name": "First Nations Peoples, the State and Public Policy in Australia",
+    "school": "Centre for Indigenous Policy Research",
+    "schoolCode": "CFIPR",
+    "level": "UGRD",
+    "terms": [
+      "Second Semester"
+    ],
+    "conveners": [],
+    "handbookUrl": "https://programsandcourses.anu.edu.au/course/indg3001",
+    "summary": "This course examines public policy through the lens of the relationships between First Nations Peoples and the settler state in Australia. The course will explore the shifting relations between First Nations Peoples and Commonwealth and State and Territory governments from invasion until today.",
+    "tags": [
+      "anthropology",
+      "development studies",
+      "australian indigenous studies",
+      "policy studies"
     ],
     "reviewMetrics": [
       "Teaching quality",
@@ -9141,6 +10615,144 @@ window.ANREVIEW_DATA = {
       "business information systems",
       "computer science",
       "project management"
+    ],
+    "reviewMetrics": [
+      "Teaching quality",
+      "Workload fairness",
+      "Assessment design"
+    ]
+  },
+  {
+    "id": "INTR2010",
+    "type": "course",
+    "code": "INTR2010",
+    "name": "International Relations in the Asia-Pacific",
+    "school": "Department of International Relations",
+    "schoolCode": "DOIR",
+    "level": "UGRD",
+    "terms": [
+      "See ANU course page"
+    ],
+    "conveners": [],
+    "handbookUrl": "https://programsandcourses.anu.edu.au/course/intr2010",
+    "summary": "This course will apply foundational international relations theories encompassing realist, liberal-internationalist and constructivist perspectives to ongoing and emerging political dynamics in the Asia-Pacific region. It complements comparative political perspectives on regional governance by applying state-centric and key sub-state based perspectives on...",
+    "tags": [
+      "intr"
+    ],
+    "reviewMetrics": [
+      "Teaching quality",
+      "Workload fairness",
+      "Assessment design"
+    ]
+  },
+  {
+    "id": "INTR2012",
+    "type": "course",
+    "code": "INTR2012",
+    "name": "Chinese Foreign and Security Policy",
+    "school": "Department of International Relations",
+    "schoolCode": "DOIR",
+    "level": "UGRD",
+    "terms": [
+      "See ANU course page"
+    ],
+    "conveners": [],
+    "handbookUrl": "https://programsandcourses.anu.edu.au/course/intr2012",
+    "summary": "This course surveys the rise of China and its implications for regional and global security. The course critically examines the theory and practice of China's international relations, as well as explores the ways in which China's historical legacy has shaped its worldview and foreign policy.",
+    "tags": [
+      "intr"
+    ],
+    "reviewMetrics": [
+      "Teaching quality",
+      "Workload fairness",
+      "Assessment design"
+    ]
+  },
+  {
+    "id": "INTR2018",
+    "type": "course",
+    "code": "INTR2018",
+    "name": "Japanese Foreign and Security Policy",
+    "school": "Department of International Relations",
+    "schoolCode": "DOIR",
+    "level": "UGRD",
+    "terms": [
+      "See ANU course page"
+    ],
+    "conveners": [],
+    "handbookUrl": "https://programsandcourses.anu.edu.au/course/intr2018",
+    "summary": "Japan's role as a major power in the Asia-Pacific and the world generally makes understanding the context, drivers and nature of its foreign and security policies an imperative. This course examines how Japan has approached international affairs, from the 19th century until the present.",
+    "tags": [
+      "intr"
+    ],
+    "reviewMetrics": [
+      "Teaching quality",
+      "Workload fairness",
+      "Assessment design"
+    ]
+  },
+  {
+    "id": "INTR2024",
+    "type": "course",
+    "code": "INTR2024",
+    "name": "The Politics of Nuclear Weapons",
+    "school": "Department of International Relations",
+    "schoolCode": "DOIR",
+    "level": "UGRD",
+    "terms": [
+      "See ANU course page"
+    ],
+    "conveners": [],
+    "handbookUrl": "https://programsandcourses.anu.edu.au/course/intr2024",
+    "summary": "In this course we will study the politics of the possession, management, and control of the most destructive weapon ever created. We will analyse the history and current policies of the states that possess nuclear weapons, as well as “threshold” states that maintain some ability to acquire a nuclear capability.",
+    "tags": [
+      "intr"
+    ],
+    "reviewMetrics": [
+      "Teaching quality",
+      "Workload fairness",
+      "Assessment design"
+    ]
+  },
+  {
+    "id": "INTR3001",
+    "type": "course",
+    "code": "INTR3001",
+    "name": "Humanitarianism: Principles, Politics and Practice",
+    "school": "Department of International Relations",
+    "schoolCode": "DOIR",
+    "level": "UGRD",
+    "terms": [
+      "First Semester"
+    ],
+    "conveners": [],
+    "handbookUrl": "https://programsandcourses.anu.edu.au/course/intr3001",
+    "summary": "When large-scale human suffering occurs, does the international community have a responsibility to assist? Who exactly should take action? What principles should guide these actors?",
+    "tags": [
+      "international relations"
+    ],
+    "reviewMetrics": [
+      "Teaching quality",
+      "Workload fairness",
+      "Assessment design"
+    ]
+  },
+  {
+    "id": "INTR3002",
+    "type": "course",
+    "code": "INTR3002",
+    "name": "Global Governance in the Asia-Pacific",
+    "school": "Department of International Relations",
+    "schoolCode": "DOIR",
+    "level": "UGRD",
+    "terms": [
+      "First Semester"
+    ],
+    "conveners": [],
+    "handbookUrl": "https://programsandcourses.anu.edu.au/course/intr3002",
+    "summary": "The Asia-Pacific region is undergoing rapid changes that present both great opportunities and enormous challenges in a number of areas. The complex interactions across states, institutions, and local communities in the region will determine how the region addresses its major governance challenges, such terrorism, refugees, health, drugs, economic developm...",
+    "tags": [
+      "international relations"
     ],
     "reviewMetrics": [
       "Teaching quality",
@@ -10630,6 +12242,253 @@ window.ANREVIEW_DATA = {
     ]
   },
   {
+    "id": "MEAS1001",
+    "type": "course",
+    "code": "MEAS1001",
+    "name": "Introduction to the Modern Middle East",
+    "school": "Centre for Arab and Islamic Studies",
+    "schoolCode": "CFAAI",
+    "level": "UGRD",
+    "terms": [
+      "First Semester"
+    ],
+    "conveners": [],
+    "handbookUrl": "https://programsandcourses.anu.edu.au/course/meas1001",
+    "summary": "This interdisciplinary course will examine the emergence of the modern Middle East. It will be organised thematically rather than chronologically and its aim is to acquaint beginning students with the major historical, religious, social, economic, and political dimensions of the Middle East.",
+    "tags": [
+      "arab and islamic studies"
+    ],
+    "reviewMetrics": [
+      "Teaching quality",
+      "Workload fairness",
+      "Assessment design"
+    ]
+  },
+  {
+    "id": "MEAS1002",
+    "type": "course",
+    "code": "MEAS1002",
+    "name": "Islam: History and Institutions",
+    "school": "Centre for Arab and Islamic Studies",
+    "schoolCode": "CFAAI",
+    "level": "UGRD",
+    "terms": [
+      "Second Semester"
+    ],
+    "conveners": [],
+    "handbookUrl": "https://programsandcourses.anu.edu.au/course/meas1002",
+    "summary": "Students will be presented with a general outline of the history of Islam from the seventh century to the present day. The course also examines the development of the central institutions of Islam in the context of that history.",
+    "tags": [
+      "meas"
+    ],
+    "reviewMetrics": [
+      "Teaching quality",
+      "Workload fairness",
+      "Assessment design"
+    ]
+  },
+  {
+    "id": "MEAS2000",
+    "type": "course",
+    "code": "MEAS2000",
+    "name": "Iranian History and Culture",
+    "school": "Centre for Arab and Islamic Studies",
+    "schoolCode": "CFAAI",
+    "level": "UGRD",
+    "terms": [
+      "See ANU course page"
+    ],
+    "conveners": [],
+    "handbookUrl": "https://programsandcourses.anu.edu.au/course/meas2000",
+    "summary": "This course broadly examines the historical, cultural and social processes which have formed and transformed Iranian and Persian culture and civilization. Students will be introduced to the history, language, literature, art and society in Iran, ranging from ancient Persia to the arrival of Islam and the spread of Persian civilisation to the Persianate Wo...",
+    "tags": [
+      "arab and islamic studies",
+      "cultural studies",
+      "history",
+      "political sciences"
+    ],
+    "reviewMetrics": [
+      "Teaching quality",
+      "Workload fairness",
+      "Assessment design"
+    ]
+  },
+  {
+    "id": "MEAS2001",
+    "type": "course",
+    "code": "MEAS2001",
+    "name": "New States of Eurasia: Emerging Issues in Politics and Security",
+    "school": "Centre for Arab and Islamic Studies",
+    "schoolCode": "CFAAI",
+    "level": "UGRD",
+    "terms": [
+      "First Semester"
+    ],
+    "conveners": [],
+    "handbookUrl": "https://programsandcourses.anu.edu.au/course/meas2001",
+    "summary": "Following the collapse of the USSR in 1991, fifteen former Soviet republics emerged as sovereign states. All of them have struggled to evolve working political systems and maintain sovereignty and internal cohesion.",
+    "tags": [
+      "arab and islamic studies",
+      "political sciences"
+    ],
+    "reviewMetrics": [
+      "Teaching quality",
+      "Workload fairness",
+      "Assessment design"
+    ]
+  },
+  {
+    "id": "MEAS2004",
+    "type": "course",
+    "code": "MEAS2004",
+    "name": "Turkish Politics and Foreign Policy",
+    "school": "Centre for Arab and Islamic Studies",
+    "schoolCode": "CFAAI",
+    "level": "UGRD",
+    "terms": [
+      "Second Semester"
+    ],
+    "conveners": [],
+    "handbookUrl": "https://programsandcourses.anu.edu.au/course/meas2004",
+    "summary": "A growing economy and a regional and global power as a G20 country and a candidate member of the European Union, Turkey has become a major actor in politics in the Middle East, Europe and beyond. This course introduces students to Turkey's rich and complex political history and culture, focusing on contemporary Turkish politics and foreign policy after th...",
+    "tags": [
+      "arab and islamic studies",
+      "international relations",
+      "middle east studies",
+      "european studies"
+    ],
+    "reviewMetrics": [
+      "Teaching quality",
+      "Workload fairness",
+      "Assessment design"
+    ]
+  },
+  {
+    "id": "MEAS2105",
+    "type": "course",
+    "code": "MEAS2105",
+    "name": "The Political Economy of the Middle East",
+    "school": "Centre for Arab and Islamic Studies",
+    "schoolCode": "CFAAI",
+    "level": "UGRD",
+    "terms": [
+      "First Semester",
+      "Second Semester"
+    ],
+    "conveners": [],
+    "handbookUrl": "https://programsandcourses.anu.edu.au/course/meas2105",
+    "summary": "The aim of this course is to analyse and explain the dynamics of political economy in the contemporary Middle East. There is a focus on how political actors and social forces influence, and in turn are influenced, by political economy structures and development strategies.",
+    "tags": [
+      "arab and islamic studies",
+      "political sciences"
+    ],
+    "reviewMetrics": [
+      "Teaching quality",
+      "Workload fairness",
+      "Assessment design"
+    ]
+  },
+  {
+    "id": "MEAS3005",
+    "type": "course",
+    "code": "MEAS3005",
+    "name": "Modern Iraq: State, Politics and Society",
+    "school": "Centre for Arab and Islamic Studies",
+    "schoolCode": "CFAAI",
+    "level": "UGRD",
+    "terms": [
+      "Second Semester"
+    ],
+    "conveners": [],
+    "handbookUrl": "https://programsandcourses.anu.edu.au/course/meas3005",
+    "summary": "This interdisciplinary course is for students who wish to pursue an in depth interest in Iraq or Iraq-related geopolitics in the Middle East. It will examine and introduce students to national politics and recent history of modern Iraq and their intertwinement with regional and global politics.",
+    "tags": [
+      "arab and islamic studies"
+    ],
+    "reviewMetrics": [
+      "Teaching quality",
+      "Workload fairness",
+      "Assessment design"
+    ]
+  },
+  {
+    "id": "MEAS3007",
+    "type": "course",
+    "code": "MEAS3007",
+    "name": "Syria in the Levant: State, Society, and the Current Turmoil",
+    "school": "Centre for Arab and Islamic Studies",
+    "schoolCode": "CFAAI",
+    "level": "UGRD",
+    "terms": [
+      "See ANU course page"
+    ],
+    "conveners": [],
+    "handbookUrl": "https://programsandcourses.anu.edu.au/course/meas3007",
+    "summary": "This course is designed to ground students in the modern and contemporary politics, society, history and culture of Syria within the Levant region, including the dynamics of interaction and influence between Syria and the surrounding countries in the Levant such as Lebanon, Palestine and Jordan. The course traces the emergence of the Syrian Postcolonial S...",
+    "tags": [
+      "arab and islamic studies",
+      "international relations",
+      "middle east studies"
+    ],
+    "reviewMetrics": [
+      "Teaching quality",
+      "Workload fairness",
+      "Assessment design"
+    ]
+  },
+  {
+    "id": "MEAS3008",
+    "type": "course",
+    "code": "MEAS3008",
+    "name": "Egypt: Social and Political Dynamics in a Changing Middle East",
+    "school": "Centre for Arab and Islamic Studies",
+    "schoolCode": "CFAAI",
+    "level": "UGRD",
+    "terms": [
+      "Second Semester"
+    ],
+    "conveners": [],
+    "handbookUrl": "https://programsandcourses.anu.edu.au/course/meas3008",
+    "summary": "Since early Twentieth century, Egypt has been home to many of the Middle East most significant social, political and ideological movements. Egypt’s Gamal Abdel Nasser’s leadership of the non-aligned movement as well as his pan-Arabist ideology has brought Egyptian politics and foreign policy to world attention.",
+    "tags": [
+      "arab and islamic studies",
+      "international relations",
+      "middle east studies"
+    ],
+    "reviewMetrics": [
+      "Teaching quality",
+      "Workload fairness",
+      "Assessment design"
+    ]
+  },
+  {
+    "id": "MEAS3009",
+    "type": "course",
+    "code": "MEAS3009",
+    "name": "Modern Arabian Peninsula: Politics, Security and Society",
+    "school": "Centre for Arab and Islamic Studies",
+    "schoolCode": "CFAAI",
+    "level": "UGRD",
+    "terms": [
+      "First Semester",
+      "Second Semester"
+    ],
+    "conveners": [],
+    "handbookUrl": "https://programsandcourses.anu.edu.au/course/meas3009",
+    "summary": "The Arabian Peninsula (AP) is a strategic space located at the very heart of where the African and Eurasian continents converge. Its geographic, spiritual, and economic significance have long attracted the interest of many extra-regional actors, from the Portuguese to the Americans.",
+    "tags": [
+      "arab and islamic studies",
+      "international relations",
+      "middle east studies",
+      "politics"
+    ],
+    "reviewMetrics": [
+      "Teaching quality",
+      "Workload fairness",
+      "Assessment design"
+    ]
+  },
+  {
     "id": "MGMT1003",
     "type": "course",
     "code": "MGMT1003",
@@ -11223,6 +13082,1088 @@ window.ANREVIEW_DATA = {
     ]
   },
   {
+    "id": "PASI1011",
+    "type": "course",
+    "code": "PASI1011",
+    "name": "Pacific Encounters: An introduction to Pacific Studies",
+    "school": "Department of Pacific Affairs",
+    "schoolCode": "DOPA",
+    "level": "UGRD",
+    "terms": [
+      "First Semester"
+    ],
+    "conveners": [],
+    "handbookUrl": "https://programsandcourses.anu.edu.au/course/pasi1011",
+    "summary": "Pacific encounters provide an introduction into the debates about theory and practice that shape how we conceptualise and think about the Pacific region and its peoples. And to a certain extent the relationship with Australia and its Indigenous population.",
+    "tags": [
+      "geography",
+      "interdisciplinary studies - sust",
+      "development studies",
+      "social research"
+    ],
+    "reviewMetrics": [
+      "Teaching quality",
+      "Workload fairness",
+      "Assessment design"
+    ]
+  },
+  {
+    "id": "PASI2001",
+    "type": "course",
+    "code": "PASI2001",
+    "name": "Pacific Studies in a Globalising World",
+    "school": "School of Culture History and Language",
+    "schoolCode": "SOCHA",
+    "level": "UGRD",
+    "terms": [
+      "First Semester"
+    ],
+    "conveners": [],
+    "handbookUrl": "https://programsandcourses.anu.edu.au/course/pasi2001",
+    "summary": "This course introduces students to the histories, key terms and approaches shaping the dynamic, transdisciplinary field of Pacific Studies. It outlines the ways in which Oceania has been approached, mapped and represented in scholarly, policy, arts, mainstream, and social media contexts.",
+    "tags": [
+      "non language asian studies",
+      "pacific studies"
+    ],
+    "reviewMetrics": [
+      "Teaching quality",
+      "Workload fairness",
+      "Assessment design"
+    ]
+  },
+  {
+    "id": "PASI2002",
+    "type": "course",
+    "code": "PASI2002",
+    "name": "Australia in Oceania in the 19th and 20th Centuries",
+    "school": "Department of Pacific Affairs",
+    "schoolCode": "DOPA",
+    "level": "UGRD",
+    "terms": [
+      "See ANU course page"
+    ],
+    "conveners": [],
+    "handbookUrl": "https://programsandcourses.anu.edu.au/course/pasi2002",
+    "summary": "Is Australia just one big Pacific Island? In this course we examine this core question by exploring the history of Australia and Oceania – with a special focus on the island Pacific – through the ‘long’ 19th and 20th centuries.",
+    "tags": [
+      "pacific studies"
+    ],
+    "reviewMetrics": [
+      "Teaching quality",
+      "Workload fairness",
+      "Assessment design"
+    ]
+  },
+  {
+    "id": "PASI2007",
+    "type": "course",
+    "code": "PASI2007",
+    "name": "War in the Islands: The Second World War in the Pacific",
+    "school": "Department of Pacific Affairs",
+    "schoolCode": "DOPA",
+    "level": "UGRD",
+    "terms": [
+      "First Semester"
+    ],
+    "conveners": [],
+    "handbookUrl": "https://programsandcourses.anu.edu.au/course/pasi2007",
+    "summary": "The extension of World War II to the Pacific Theatre in 1942 signalled a new era in the technology of war and profoundly shaped the modern history of the Asia Pacific region. This course is the first in the world to combine Allied, Japanese and Pacific Islander understandings of the Pacific War with particular attention to the South West Pacific.",
+    "tags": [
+      "history",
+      "pacific studies",
+      "asia pacific studies",
+      "international security"
+    ],
+    "reviewMetrics": [
+      "Teaching quality",
+      "Workload fairness",
+      "Assessment design"
+    ]
+  },
+  {
+    "id": "PASI3001",
+    "type": "course",
+    "code": "PASI3001",
+    "name": "Politics and Development in the Contemporary Pacific",
+    "school": "Department of Pacific Affairs",
+    "schoolCode": "DOPA",
+    "level": "UGRD",
+    "terms": [
+      "First Semester",
+      "Second Semester"
+    ],
+    "conveners": [],
+    "handbookUrl": "https://programsandcourses.anu.edu.au/course/pasi3001",
+    "summary": "The Pacific is a region of diverse and complex island states and territories. While made up of mostly small islands, collectively it spans one-third of the planet’s surface and almost a quarter of the world’s languages are spoken in the Pacific Islands.",
+    "tags": [
+      "non language asian studies",
+      "pacific studies"
+    ],
+    "reviewMetrics": [
+      "Teaching quality",
+      "Workload fairness",
+      "Assessment design"
+    ]
+  },
+  {
+    "id": "PASI3013",
+    "type": "course",
+    "code": "PASI3013",
+    "name": "Environment and Development in the Pacific",
+    "school": "Department of Pacific Affairs",
+    "schoolCode": "DOPA",
+    "level": "UGRD",
+    "terms": [
+      "Second Semester"
+    ],
+    "conveners": [],
+    "handbookUrl": "https://programsandcourses.anu.edu.au/course/pasi3013",
+    "summary": "This course explores the tangled, at times uneasy, interactions between environment and development in the region of Oceania. We will consider how diverse Oceanian environments provide important development opportunities for local communities and economies, reflect on the environmental (and social) impacts wrought by development, and problematise what ‘de...",
+    "tags": [
+      "pasi"
+    ],
+    "reviewMetrics": [
+      "Teaching quality",
+      "Workload fairness",
+      "Assessment design"
+    ]
+  },
+  {
+    "id": "POLS1002",
+    "type": "course",
+    "code": "POLS1002",
+    "name": "Introduction to Politics",
+    "school": "School of Politics and International Relations",
+    "schoolCode": "SPIR",
+    "level": "UGRD",
+    "terms": [
+      "First Semester"
+    ],
+    "conveners": [],
+    "handbookUrl": "https://programsandcourses.anu.edu.au/course/pols1002",
+    "summary": "The first aim of this course is to introduce students to some of the key concepts in the discipline of Political Science: power, influence, authority, legitimacy, coercion, conflict, and democracy. The second aim is to introduce the concepts and institutions of the political process.",
+    "tags": [
+      "policy studies",
+      "political communication",
+      "political sciences",
+      "political economy"
+    ],
+    "reviewMetrics": [
+      "Teaching quality",
+      "Workload fairness",
+      "Assessment design"
+    ]
+  },
+  {
+    "id": "POLS1005",
+    "type": "course",
+    "code": "POLS1005",
+    "name": "Introduction to International Relations Foundations and Concepts",
+    "school": "School of Politics and International Relations",
+    "schoolCode": "SPIR",
+    "level": "UGRD",
+    "terms": [
+      "First Semester"
+    ],
+    "conveners": [],
+    "handbookUrl": "https://programsandcourses.anu.edu.au/course/pols1005",
+    "summary": "This course provides a broad introduction to the study of international relations. As a field of study, international relations focuses on the political, military, economic, and cultural interaction of state and non-state actors at the global level.",
+    "tags": [
+      "international relations"
+    ],
+    "reviewMetrics": [
+      "Teaching quality",
+      "Workload fairness",
+      "Assessment design"
+    ]
+  },
+  {
+    "id": "POLS1009",
+    "type": "course",
+    "code": "POLS1009",
+    "name": "Introduction to Data and Methods for Political Science and International Relations",
+    "school": "School of Politics and International Relations",
+    "schoolCode": "SPIR",
+    "level": "UGRD",
+    "terms": [
+      "Second Semester"
+    ],
+    "conveners": [],
+    "handbookUrl": "https://programsandcourses.anu.edu.au/course/pols1009",
+    "summary": "This course aims to develop students' capacities in research, data and writing in political science and international relations. It is intended for students wishing to pursue further study in political science and international relations, and aims to give students an introduction to the writing and research skills involved in political research.",
+    "tags": [
+      "international relations",
+      "policy studies",
+      "political sciences",
+      "political economy"
+    ],
+    "reviewMetrics": [
+      "Teaching quality",
+      "Workload fairness",
+      "Assessment design"
+    ]
+  },
+  {
+    "id": "POLS2002",
+    "type": "course",
+    "code": "POLS2002",
+    "name": "Public Policy: Theory and Practice",
+    "school": "School of Politics and International Relations",
+    "schoolCode": "SPIR",
+    "level": "UGRD",
+    "terms": [
+      "First Semester",
+      "Second Semester"
+    ],
+    "conveners": [],
+    "handbookUrl": "https://programsandcourses.anu.edu.au/course/pols2002",
+    "summary": "This course will provide an introduction to the study of public policy. It provides an overview of the main theories of public policy processes and examples of their application in the scholarly literature.",
+    "tags": [
+      "policy studies",
+      "political sciences"
+    ],
+    "reviewMetrics": [
+      "Teaching quality",
+      "Workload fairness",
+      "Assessment design"
+    ]
+  },
+  {
+    "id": "POLS2010",
+    "type": "course",
+    "code": "POLS2010",
+    "name": "Comparative Politics",
+    "school": "School of Politics and International Relations",
+    "schoolCode": "SPIR",
+    "level": "UGRD",
+    "terms": [
+      "Second Semester"
+    ],
+    "conveners": [],
+    "handbookUrl": "https://programsandcourses.anu.edu.au/course/pols2010",
+    "summary": "What is Comparative Politics? Why do some countries democratize while others remain undemocratic? How do political actors, institutions and processes that structure politics change across social and cultural settings?",
+    "tags": [
+      "international relations",
+      "political sciences"
+    ],
+    "reviewMetrics": [
+      "Teaching quality",
+      "Workload fairness",
+      "Assessment design"
+    ]
+  },
+  {
+    "id": "POLS2017",
+    "type": "course",
+    "code": "POLS2017",
+    "name": "International Relations Theory",
+    "school": "School of Politics and International Relations",
+    "schoolCode": "SPIR",
+    "level": "UGRD",
+    "terms": [
+      "Second Semester"
+    ],
+    "conveners": [],
+    "handbookUrl": "https://programsandcourses.anu.edu.au/course/pols2017",
+    "summary": "The central aim of the course is to develop an understanding of how different theories explain international politics and which are most persuasive. Theories are important because they define how we see the world and respond to it.",
+    "tags": [
+      "political sciences"
+    ],
+    "reviewMetrics": [
+      "Teaching quality",
+      "Workload fairness",
+      "Assessment design"
+    ]
+  },
+  {
+    "id": "POLS2031",
+    "type": "course",
+    "code": "POLS2031",
+    "name": "Politics in the Middle East",
+    "school": "Centre for Arab and Islamic Studies",
+    "schoolCode": "CFAAI",
+    "level": "UGRD",
+    "terms": [
+      "Second Semester"
+    ],
+    "conveners": [],
+    "handbookUrl": "https://programsandcourses.anu.edu.au/course/pols2031",
+    "summary": "The course focuses on the contemporary politics of the Arabic speaking region, Iran, Turkey and the wider Middle East. It examines the political development, national and regional dynamics of the major countries in the Middle East and their connection to global trends and geopolitics.",
+    "tags": [
+      "arab and islamic studies"
+    ],
+    "reviewMetrics": [
+      "Teaching quality",
+      "Workload fairness",
+      "Assessment design"
+    ]
+  },
+  {
+    "id": "POLS2044",
+    "type": "course",
+    "code": "POLS2044",
+    "name": "Quantitative Methods in Political Science and International Relations",
+    "school": "School of Politics and International Relations",
+    "schoolCode": "SPIR",
+    "level": "UGRD",
+    "terms": [
+      "Second Semester"
+    ],
+    "conveners": [],
+    "handbookUrl": "https://programsandcourses.anu.edu.au/course/pols2044",
+    "summary": "Quantitative Methods in Political Science and International Relations provides students with a continuation of the principles of social science research design and empirical analysis that they were exposed to in their first-year courses. The course begins with a review of the role of research design, method, and methodology in the social sciences that dra...",
+    "tags": [
+      "political sciences",
+      "econometrics",
+      "politics"
+    ],
+    "reviewMetrics": [
+      "Teaching quality",
+      "Workload fairness",
+      "Assessment design"
+    ]
+  },
+  {
+    "id": "POLS2045",
+    "type": "course",
+    "code": "POLS2045",
+    "name": "Qualitative Methods in Political Science and International Relations Research",
+    "school": "School of Politics and International Relations",
+    "schoolCode": "SPIR",
+    "level": "UGRD",
+    "terms": [
+      "Second Semester"
+    ],
+    "conveners": [],
+    "handbookUrl": "https://programsandcourses.anu.edu.au/course/pols2045",
+    "summary": "This seminar style course will teach students the three main qualitative methods used in political science: (elite) Interviewing, document analysis and participant observation. In this practically-focused course, students will learn to generate research questions suited to qualitative methods, design research protocols and implement them.",
+    "tags": [
+      "international relations",
+      "political sciences"
+    ],
+    "reviewMetrics": [
+      "Teaching quality",
+      "Workload fairness",
+      "Assessment design"
+    ]
+  },
+  {
+    "id": "POLS2055",
+    "type": "course",
+    "code": "POLS2055",
+    "name": "Pacific Politics",
+    "school": "Department of Pacific Affairs",
+    "schoolCode": "DOPA",
+    "level": "UGRD",
+    "terms": [
+      "See ANU course page"
+    ],
+    "conveners": [],
+    "handbookUrl": "https://programsandcourses.anu.edu.au/course/pols2055",
+    "summary": "The Pacific Islands is a region of diverse political traditions, complex developmental challenges and enduring strategic importance. The close relationship it shares with Australia stems from its geographical, historical and cultural ties, but has been tested by disputes over climate change and the role of China in the region.",
+    "tags": [
+      "political sciences",
+      "pacific studies"
+    ],
+    "reviewMetrics": [
+      "Teaching quality",
+      "Workload fairness",
+      "Assessment design"
+    ]
+  },
+  {
+    "id": "POLS2069",
+    "type": "course",
+    "code": "POLS2069",
+    "name": "Politics in Russia",
+    "school": "Centre for Arab and Islamic Studies",
+    "schoolCode": "CFAAI",
+    "level": "UGRD",
+    "terms": [
+      "First Semester"
+    ],
+    "conveners": [],
+    "handbookUrl": "https://programsandcourses.anu.edu.au/course/pols2069",
+    "summary": "This course provides an introduction to the politics of Russia. It traces the evolution of Russian politics by offering a wide-range discussion of main events, figures and scholarly interpretations of Russia's past and present.",
+    "tags": [
+      "arab and islamic studies",
+      "international relations",
+      "political sciences",
+      "security studies"
+    ],
+    "reviewMetrics": [
+      "Teaching quality",
+      "Workload fairness",
+      "Assessment design"
+    ]
+  },
+  {
+    "id": "POLS2094",
+    "type": "course",
+    "code": "POLS2094",
+    "name": "International Political Economy",
+    "school": "School of Politics and International Relations",
+    "schoolCode": "SPIR",
+    "level": "UGRD",
+    "terms": [
+      "First Semester",
+      "Second Semester"
+    ],
+    "conveners": [],
+    "handbookUrl": "https://programsandcourses.anu.edu.au/course/pols2094",
+    "summary": "The study of International Political Economy (IPE) examines the interactions between markets and politics. Is globalisation responsible for the rise of populism in the West?",
+    "tags": [
+      "international relations",
+      "political sciences"
+    ],
+    "reviewMetrics": [
+      "Teaching quality",
+      "Workload fairness",
+      "Assessment design"
+    ]
+  },
+  {
+    "id": "POLS2102",
+    "type": "course",
+    "code": "POLS2102",
+    "name": "Political Belief and Deceit",
+    "school": "School of Politics and International Relations",
+    "schoolCode": "SPIR",
+    "level": "UGRD",
+    "terms": [
+      "See ANU course page"
+    ],
+    "conveners": [],
+    "handbookUrl": "https://programsandcourses.anu.edu.au/course/pols2102",
+    "summary": "This transdisciplinary course will help you figure out what, if anything, to believe in. The first half of the course examines how to foster belief drawing upon ideas from Plato, Machiavelli, Nietzsche and Strauss who argued that unless certain truths about reality, politics, faith and liberal democracy are hidden from the public, society will fall into r...",
+    "tags": [
+      "international relations",
+      "philosophy",
+      "politics"
+    ],
+    "reviewMetrics": [
+      "Teaching quality",
+      "Workload fairness",
+      "Assessment design"
+    ]
+  },
+  {
+    "id": "POLS2114",
+    "type": "course",
+    "code": "POLS2114",
+    "name": "Australian Politics",
+    "school": "School of Politics and International Relations",
+    "schoolCode": "SPIR",
+    "level": "UGRD",
+    "terms": [
+      "First Semester"
+    ],
+    "conveners": [],
+    "handbookUrl": "https://programsandcourses.anu.edu.au/course/pols2114",
+    "summary": "Australia is one of the world’s oldest liberal democracies. This course explores this stability and change dynamic through an examination of two key themes: (1) the values, attitudes and behaviour of citizens, policymakers and other important actors; and (2) the cleavages and institutions that attempt to manage them.",
+    "tags": [
+      "political sciences"
+    ],
+    "reviewMetrics": [
+      "Teaching quality",
+      "Workload fairness",
+      "Assessment design"
+    ]
+  },
+  {
+    "id": "POLS2119",
+    "type": "course",
+    "code": "POLS2119",
+    "name": "Ideas in Politics",
+    "school": "School of Politics and International Relations",
+    "schoolCode": "SPIR",
+    "level": "UGRD",
+    "terms": [
+      "First Semester"
+    ],
+    "conveners": [],
+    "handbookUrl": "https://programsandcourses.anu.edu.au/course/pols2119",
+    "summary": "Ideas in Politics explores some of the central ideas and debates in politics today, including claims regarding the nature of freedom, democracy, power, and the state. An understanding of these ideas and debates is essential for coming to terms with the key ideological clashes that shape politics today and for making effective interventions into these cont...",
+    "tags": [
+      "political sciences",
+      "politics"
+    ],
+    "reviewMetrics": [
+      "Teaching quality",
+      "Workload fairness",
+      "Assessment design"
+    ]
+  },
+  {
+    "id": "POLS2130",
+    "type": "course",
+    "code": "POLS2130",
+    "name": "Public Choice and Politics",
+    "school": "School of Politics and International Relations",
+    "schoolCode": "SPIR",
+    "level": "UGRD",
+    "terms": [
+      "First Semester"
+    ],
+    "conveners": [],
+    "handbookUrl": "https://programsandcourses.anu.edu.au/course/pols2130",
+    "summary": "Similar to how economists portray individuals making choices in the private market, political scientists can represent political agents as self-interested rational maximisers when making choices in the public market. This approach, called public choice, involves the use of economic tools in political science research.",
+    "tags": [
+      "political sciences",
+      "politics"
+    ],
+    "reviewMetrics": [
+      "Teaching quality",
+      "Workload fairness",
+      "Assessment design"
+    ]
+  },
+  {
+    "id": "POLS2132",
+    "type": "course",
+    "code": "POLS2132",
+    "name": "War and International Relations",
+    "school": "School of Politics and International Relations",
+    "schoolCode": "SPIR",
+    "level": "UGRD",
+    "terms": [
+      "Second Semester"
+    ],
+    "conveners": [],
+    "handbookUrl": "https://programsandcourses.anu.edu.au/course/pols2132",
+    "summary": "This course focuses on three different current international security issues to give students depth in global security problems, especially those related to inter-state conflict such as arms races, international law, nuclear weapons, crisis bargaining and cyber warfare. For each topic, the course addresses key controversies and issues, explores theoretica...",
+    "tags": [
+      "political sciences"
+    ],
+    "reviewMetrics": [
+      "Teaching quality",
+      "Workload fairness",
+      "Assessment design"
+    ]
+  },
+  {
+    "id": "POLS2133",
+    "type": "course",
+    "code": "POLS2133",
+    "name": "Global Cooperation and Institutions",
+    "school": "School of Politics and International Relations",
+    "schoolCode": "SPIR",
+    "level": "UGRD",
+    "terms": [
+      "See ANU course page"
+    ],
+    "conveners": [],
+    "handbookUrl": "https://programsandcourses.anu.edu.au/course/pols2133",
+    "summary": "This course examines the nature of cooperation in world affairs, asking why international institutions (including but not limited to formal organisations) are formed, how they operate, and what role they play in contemporary international affairs. The course begins with a survey of different theoretical approaches to understanding and explaining internati...",
+    "tags": [
+      "international relations",
+      "political sciences",
+      "international affairs"
+    ],
+    "reviewMetrics": [
+      "Teaching quality",
+      "Workload fairness",
+      "Assessment design"
+    ]
+  },
+  {
+    "id": "POLS2137",
+    "type": "course",
+    "code": "POLS2137",
+    "name": "Meaning in Politics: Interpretation, Method and Critique",
+    "school": "Department of Political and Social Change and the School of Politics and International Relations",
+    "schoolCode": "DOPAS",
+    "level": "UGRD",
+    "terms": [
+      "First Semester"
+    ],
+    "conveners": [],
+    "handbookUrl": "https://programsandcourses.anu.edu.au/course/pols2137",
+    "summary": "Interpretivism is an approach to inquiry that has evolved in the social Sciences from the late 19 th Century. It is an approach that begins with the empirical observation that societies are constructed out of human capacity to communicate and therefore orients its inquiry toward human beings as meaning makers situated within ‘webs of signification’.",
+    "tags": [
+      "pols"
+    ],
+    "reviewMetrics": [
+      "Teaching quality",
+      "Workload fairness",
+      "Assessment design"
+    ]
+  },
+  {
+    "id": "POLS3001",
+    "type": "course",
+    "code": "POLS3001",
+    "name": "Foreign Policy Analysis",
+    "school": "School of Politics and International Relations",
+    "schoolCode": "SPIR",
+    "level": "UGRD",
+    "terms": [
+      "First Semester"
+    ],
+    "conveners": [],
+    "handbookUrl": "https://programsandcourses.anu.edu.au/course/pols3001",
+    "summary": "This course will introduce students to the main techniques and theories for analyzing and understanding how governments make foreign policy decisions. It will be divided into two main interactive components.",
+    "tags": [
+      "history"
+    ],
+    "reviewMetrics": [
+      "Teaching quality",
+      "Workload fairness",
+      "Assessment design"
+    ]
+  },
+  {
+    "id": "POLS3002",
+    "type": "course",
+    "code": "POLS3002",
+    "name": "Comparative European Politics",
+    "school": "School of Politics and International Relations",
+    "schoolCode": "SPIR",
+    "level": "UGRD",
+    "terms": [
+      "First Semester"
+    ],
+    "conveners": [],
+    "handbookUrl": "https://programsandcourses.anu.edu.au/course/pols3002",
+    "summary": "European countries are among the most developed and democratic in the world. Yet while they continue to set precedents in democratic innovation—including the creation of the European Union—many face significant domestic and international challenges.",
+    "tags": [
+      "policy studies",
+      "political sciences",
+      "european studies",
+      "politics"
+    ],
+    "reviewMetrics": [
+      "Teaching quality",
+      "Workload fairness",
+      "Assessment design"
+    ]
+  },
+  {
+    "id": "POLS3029",
+    "type": "course",
+    "code": "POLS3029",
+    "name": "Sharing Power: Federalism in Comparative Perspective",
+    "school": "School of Politics and International Relations",
+    "schoolCode": "SPIR",
+    "level": "UGRD",
+    "terms": [
+      "First Semester"
+    ],
+    "conveners": [],
+    "handbookUrl": "https://programsandcourses.anu.edu.au/course/pols3029",
+    "summary": "The main objective of this course is to understand, in both, theory and practice, the central goals and challenges inherent within a federal system of government. Within federal configurations, power and resources can simultaneously shift downwards (towards local government) and upwards towards the center.",
+    "tags": [
+      "policy studies",
+      "political sciences",
+      "political economy"
+    ],
+    "reviewMetrics": [
+      "Teaching quality",
+      "Workload fairness",
+      "Assessment design"
+    ]
+  },
+  {
+    "id": "POLS3032",
+    "type": "course",
+    "code": "POLS3032",
+    "name": "The Politics of Empire",
+    "school": "School of Politics and International Relations",
+    "schoolCode": "SPIR",
+    "level": "UGRD",
+    "terms": [
+      "Second Semester"
+    ],
+    "conveners": [],
+    "handbookUrl": "https://programsandcourses.anu.edu.au/course/pols3032",
+    "summary": "Recent events in global politics have forced the memory of empire into the public domain. Equally, changes in the international system have prompted analysts of various stripes in the public domain to refer to the US, China, Europe or Russia as ‘empire’.",
+    "tags": [
+      "pols"
+    ],
+    "reviewMetrics": [
+      "Teaching quality",
+      "Workload fairness",
+      "Assessment design"
+    ]
+  },
+  {
+    "id": "POLS3035",
+    "type": "course",
+    "code": "POLS3035",
+    "name": "Norms and International Law in World Politics",
+    "school": "School of Politics and International Relations",
+    "schoolCode": "SPIR",
+    "level": "UGRD",
+    "terms": [
+      "First Semester"
+    ],
+    "conveners": [],
+    "handbookUrl": "https://programsandcourses.anu.edu.au/course/pols3035",
+    "summary": "This course introduces students to the theoretical frameworks, empirical cases, policy instruments, and cutting-edge debates in the fields of international non-legal social norms and international law from an International Relations perspective. The course goes beyond the conventional moralistic and black-letter approaches, and instead focuses on the poli...",
+    "tags": [
+      "international relations",
+      "security studies",
+      "strategic studies",
+      "diplomacy"
+    ],
+    "reviewMetrics": [
+      "Teaching quality",
+      "Workload fairness",
+      "Assessment design"
+    ]
+  },
+  {
+    "id": "POLS3036",
+    "type": "course",
+    "code": "POLS3036",
+    "name": "International Terrorism",
+    "school": "School of Politics and International Relations",
+    "schoolCode": "SPIR",
+    "level": "UGRD",
+    "terms": [
+      "Second Semester"
+    ],
+    "conveners": [],
+    "handbookUrl": "https://programsandcourses.anu.edu.au/course/pols3036",
+    "summary": "This course examines the principal issues associated with modern international terrorism and efforts to counter it. The objective of the course is to provide the student with a broad understanding of international terrorism, and to enhance the ability to engage knowledgeably in discussion and debate on the subject.",
+    "tags": [
+      "international relations",
+      "policy studies",
+      "political sciences",
+      "security studies"
+    ],
+    "reviewMetrics": [
+      "Teaching quality",
+      "Workload fairness",
+      "Assessment design"
+    ]
+  },
+  {
+    "id": "POLS3043",
+    "type": "course",
+    "code": "POLS3043",
+    "name": "Pressure Groups and Political Lobbying",
+    "school": "School of Politics and International Relations",
+    "schoolCode": "SPIR",
+    "level": "UGRD",
+    "terms": [
+      "Second Semester"
+    ],
+    "conveners": [],
+    "handbookUrl": "https://programsandcourses.anu.edu.au/course/pols3043",
+    "summary": "This course involves the study of the impact of pressure groups (aka interest groups) on politics and policy-making in Australia. The role of sectional groups, such as business organisations and trade unions, promotional groups including the environmental and women's lobbies, and professional independent lobbyists will be examined.",
+    "tags": [
+      "policy studies",
+      "political sciences",
+      "sociology",
+      "politics"
+    ],
+    "reviewMetrics": [
+      "Teaching quality",
+      "Workload fairness",
+      "Assessment design"
+    ]
+  },
+  {
+    "id": "POLS3095",
+    "type": "course",
+    "code": "POLS3095",
+    "name": "Politics in Latin America",
+    "school": "School of Politics and International Relations",
+    "schoolCode": "SPIR",
+    "level": "UGRD",
+    "terms": [
+      "Second Semester"
+    ],
+    "conveners": [],
+    "handbookUrl": "https://programsandcourses.anu.edu.au/course/pols3095",
+    "summary": "This course begins with a political economy perspective to explore the patterns of political and economic change in modern Latin America. It begins with the rise of industrialisation, state-led development (ISI) and the emergence of populism in the 1930s-40s, the wave of military coups of the 1960s-70s, the processes of democratization and neoliberalism o...",
+    "tags": [
+      "development studies",
+      "policy studies",
+      "political sciences",
+      "sociology"
+    ],
+    "reviewMetrics": [
+      "Teaching quality",
+      "Workload fairness",
+      "Assessment design"
+    ]
+  },
+  {
+    "id": "POLS3111",
+    "type": "course",
+    "code": "POLS3111",
+    "name": "Elections, Political Behaviour and Public Opinion in Australia",
+    "school": "School of Politics and International Relations",
+    "schoolCode": "SPIR",
+    "level": "UGRD",
+    "terms": [
+      "See ANU course page"
+    ],
+    "conveners": [],
+    "handbookUrl": "https://programsandcourses.anu.edu.au/course/pols3111",
+    "summary": "Why do Australians vote the way they do? Why are young people more likely to support minor parties? What would happen if voting were not compulsory?",
+    "tags": [
+      "political sciences"
+    ],
+    "reviewMetrics": [
+      "Teaching quality",
+      "Workload fairness",
+      "Assessment design"
+    ]
+  },
+  {
+    "id": "POLS3113",
+    "type": "course",
+    "code": "POLS3113",
+    "name": "Human Rights",
+    "school": "School of Politics and International Relations",
+    "schoolCode": "SPIR",
+    "level": "UGRD",
+    "terms": [
+      "Winter Session"
+    ],
+    "conveners": [],
+    "handbookUrl": "https://programsandcourses.anu.edu.au/course/pols3113",
+    "summary": "This course introduces students to theories, cases, policies, and debates in human rights. It examines the evolution of human rights in their political, legal and social contexts, focusing particularly on the Post World War 2 era.",
+    "tags": [
+      "international relations",
+      "law",
+      "political sciences",
+      "human rights"
+    ],
+    "reviewMetrics": [
+      "Teaching quality",
+      "Workload fairness",
+      "Assessment design"
+    ]
+  },
+  {
+    "id": "POLS3125",
+    "type": "course",
+    "code": "POLS3125",
+    "name": "Game Theory and Social Sciences",
+    "school": "School of Politics and International Relations",
+    "schoolCode": "SPIR",
+    "level": "UGRD",
+    "terms": [
+      "Second Semester"
+    ],
+    "conveners": [],
+    "handbookUrl": "https://programsandcourses.anu.edu.au/course/pols3125",
+    "summary": "This course will teach the basic elements of game theory with applications to political science and other social sciences. It will cover simultaneous games, extensive-form games, repeated games, and spatial models of elections.",
+    "tags": [
+      "policy studies",
+      "political sciences",
+      "politics"
+    ],
+    "reviewMetrics": [
+      "Teaching quality",
+      "Workload fairness",
+      "Assessment design"
+    ]
+  },
+  {
+    "id": "POLS3126",
+    "type": "course",
+    "code": "POLS3126",
+    "name": "Democracy and Dictatorship",
+    "school": "School of Politics and International Relations",
+    "schoolCode": "SPIR",
+    "level": "UGRD",
+    "terms": [
+      "Second Semester"
+    ],
+    "conveners": [],
+    "handbookUrl": "https://programsandcourses.anu.edu.au/course/pols3126",
+    "summary": "How and why has democracy and dictatorship spread across the world? Is regime type important for citizens? How can international actors help encourage the spread of democracy?",
+    "tags": [
+      "gender studies",
+      "international relations",
+      "political sciences"
+    ],
+    "reviewMetrics": [
+      "Teaching quality",
+      "Workload fairness",
+      "Assessment design"
+    ]
+  },
+  {
+    "id": "POLS3127",
+    "type": "course",
+    "code": "POLS3127",
+    "name": "U.S. Politics",
+    "school": "School of Politics and International Relations",
+    "schoolCode": "SPIR",
+    "level": "UGRD",
+    "terms": [
+      "See ANU course page"
+    ],
+    "conveners": [],
+    "handbookUrl": "https://programsandcourses.anu.edu.au/course/pols3127",
+    "summary": "This course provides an introduction to U.S. political behaviour and institutions. We will discuss the design and rationale for the U.S.",
+    "tags": [
+      "political sciences",
+      "politics"
+    ],
+    "reviewMetrics": [
+      "Teaching quality",
+      "Workload fairness",
+      "Assessment design"
+    ]
+  },
+  {
+    "id": "POLS3134",
+    "type": "course",
+    "code": "POLS3134",
+    "name": "The Politics of Gender, Race and Indentity",
+    "school": "School of Politics and International Relations",
+    "schoolCode": "SPIR",
+    "level": "UGRD",
+    "terms": [
+      "First Semester",
+      "Second Semester"
+    ],
+    "conveners": [],
+    "handbookUrl": "https://programsandcourses.anu.edu.au/course/pols3134",
+    "summary": "This course examines the role of race, gender, and identity in political life. How do we define identity? When and why does it become politicised?",
+    "tags": [
+      "gender studies",
+      "political sciences"
+    ],
+    "reviewMetrics": [
+      "Teaching quality",
+      "Workload fairness",
+      "Assessment design"
+    ]
+  },
+  {
+    "id": "POLS3136",
+    "type": "course",
+    "code": "POLS3136",
+    "name": "Power and influence in world politics",
+    "school": "School of Politics and International Relations",
+    "schoolCode": "SPIR",
+    "level": "UGRD",
+    "terms": [
+      "Spring Session"
+    ],
+    "conveners": [],
+    "handbookUrl": "https://programsandcourses.anu.edu.au/course/pols3136",
+    "summary": "Why is clear military superiority, such as that enjoyed by the United States, seemingly unable to influence the behaviour of targets in many instances? Does China's rapidly growing economy endow it with a potent economic instrument of power?",
+    "tags": [
+      "international relations",
+      "political sciences"
+    ],
+    "reviewMetrics": [
+      "Teaching quality",
+      "Workload fairness",
+      "Assessment design"
+    ]
+  },
+  {
+    "id": "SOCR1001",
+    "type": "course",
+    "code": "SOCR1001",
+    "name": "Foundations of Social Research",
+    "school": "POLIS: The Centre for Social Policy Research",
+    "schoolCode": "PTCFS",
+    "level": "UGRD",
+    "terms": [
+      "Second Semester"
+    ],
+    "conveners": [],
+    "handbookUrl": "https://programsandcourses.anu.edu.au/course/socr1001",
+    "summary": "This course examines key issues and assumptions in social research. It covers areas such as: formulating social research questions; operationalisation of concepts; validity; theory testing and theory construction; and strategies of analysis of social research.",
+    "tags": [
+      "policy studies",
+      "sociology",
+      "demography",
+      "criminology"
+    ],
+    "reviewMetrics": [
+      "Teaching quality",
+      "Workload fairness",
+      "Assessment design"
+    ]
+  },
+  {
+    "id": "SOCR3001",
+    "type": "course",
+    "code": "SOCR3001",
+    "name": "Data for Decision Making",
+    "school": "POLIS: The Centre for Social Policy Research",
+    "schoolCode": "PTCFS",
+    "level": "UGRD",
+    "terms": [
+      "First Semester"
+    ],
+    "conveners": [],
+    "handbookUrl": "https://programsandcourses.anu.edu.au/course/socr3001",
+    "summary": "This course will provide students with an understanding of how data is currently used to inform decision making and how data might be used more effectively to inform business, service delivery and policy questions. The course will build on student knowledge across a range of analytical techniques with a focus on the practical application of these techniqu...",
+    "tags": [
+      "social research"
+    ],
+    "reviewMetrics": [
+      "Teaching quality",
+      "Workload fairness",
+      "Assessment design"
+    ]
+  },
+  {
+    "id": "SOCY2038",
+    "type": "course",
+    "code": "SOCY2038",
+    "name": "Introduction to Quantitative Research Methods",
+    "school": "School of Sociology",
+    "schoolCode": "SOS",
+    "level": "UGRD",
+    "terms": [
+      "First Semester"
+    ],
+    "conveners": [],
+    "handbookUrl": "https://programsandcourses.anu.edu.au/course/socy2038",
+    "summary": "In the 21st century sociologists, criminologists and political scientists can access a wealth of data contained in data repositories. To enable students to evaluate the quantitative literature and analyse survey data themselves, this course lays the foundations for three types of skills.",
+    "tags": [
+      "policy studies",
+      "political sciences",
+      "social research",
+      "sociology"
+    ],
+    "reviewMetrics": [
+      "Teaching quality",
+      "Workload fairness",
+      "Assessment design"
+    ]
+  },
+  {
+    "id": "SOCY2043",
+    "type": "course",
+    "code": "SOCY2043",
+    "name": "Introduction to Qualitative Research Methods",
+    "school": "School of Sociology",
+    "schoolCode": "SOS",
+    "level": "UGRD",
+    "terms": [
+      "Second Semester"
+    ],
+    "conveners": [],
+    "handbookUrl": "https://programsandcourses.anu.edu.au/course/socy2043",
+    "summary": "In this course we explore the nature of qualitative research and Indigenous qualitative research, and how we can use methods from these approaches to better understand the complexity of social life and relations. Whilst we predominantly explore established techniques such as interviewing and participant observation, emphasis is also placed on how these me...",
+    "tags": [
+      "cultural studies",
+      "policy studies",
+      "social research",
+      "sociology"
+    ],
+    "reviewMetrics": [
+      "Teaching quality",
+      "Workload fairness",
+      "Assessment design"
+    ]
+  },
+  {
     "id": "SOCY2166",
     "type": "course",
     "code": "SOCY2166",
@@ -11241,6 +14182,29 @@ window.ANREVIEW_DATA = {
       "sociology",
       "economics",
       "communications"
+    ],
+    "reviewMetrics": [
+      "Teaching quality",
+      "Workload fairness",
+      "Assessment design"
+    ]
+  },
+  {
+    "id": "STAT1003",
+    "type": "course",
+    "code": "STAT1003",
+    "name": "Statistical Techniques",
+    "school": "Rsch Sch of Finance, Actuarial Studies & App Stats",
+    "schoolCode": "RSOFA",
+    "level": "UGRD",
+    "terms": [
+      "First Semester"
+    ],
+    "conveners": [],
+    "handbookUrl": "https://programsandcourses.anu.edu.au/course/stat1003",
+    "summary": "This course introduces students to the philosophy and methods of modern statistical data analysis and inference, with a particular focus on applications to the life sciences. The course has a strong emphasis on computing and graphical methods, and uses a variety of real-world problems to motivate the theory and methods required for carrying out statistica...",
+    "tags": [
+      "statistics"
     ],
     "reviewMetrics": [
       "Teaching quality",
@@ -11439,6 +14403,154 @@ window.ANREVIEW_DATA = {
     "summary": "This course introduces the principles of data representation, summarisation and presentation with particular emphasis on the use of graphics. The course will use the R Language in a modern computing environment.",
     "tags": [
       "statistics"
+    ],
+    "reviewMetrics": [
+      "Teaching quality",
+      "Workload fairness",
+      "Assessment design"
+    ]
+  },
+  {
+    "id": "STST1001",
+    "type": "course",
+    "code": "STST1001",
+    "name": "Introduction to International Security Studies",
+    "school": "Strategic and Defence Studies Centre",
+    "schoolCode": "SADSC",
+    "level": "UGRD",
+    "terms": [
+      "First Semester"
+    ],
+    "conveners": [],
+    "handbookUrl": "https://programsandcourses.anu.edu.au/course/stst1001",
+    "summary": "Is war likely between global powers the United States and China? Could we see a nuclear conflict in the next decade? What is the role of race in international security?",
+    "tags": [
+      "international relations",
+      "political sciences",
+      "international security"
+    ],
+    "reviewMetrics": [
+      "Teaching quality",
+      "Workload fairness",
+      "Assessment design"
+    ]
+  },
+  {
+    "id": "STST2001",
+    "type": "course",
+    "code": "STST2001",
+    "name": "Security Concepts in the Asia-Pacific",
+    "school": "Strategic and Defence Studies Centre",
+    "schoolCode": "SADSC",
+    "level": "UGRD",
+    "terms": [
+      "First Semester"
+    ],
+    "conveners": [],
+    "handbookUrl": "https://programsandcourses.anu.edu.au/course/stst2001",
+    "summary": "The ideas, concepts, and theories we use in International Security have overwhelmingly been developed through the study of Western historical cases. Yet key security challenges and practices in the Asia-Pacific region do not always accord with concepts derived in the West.",
+    "tags": [
+      "stst"
+    ],
+    "reviewMetrics": [
+      "Teaching quality",
+      "Workload fairness",
+      "Assessment design"
+    ]
+  },
+  {
+    "id": "STST2003",
+    "type": "course",
+    "code": "STST2003",
+    "name": "Australia and Security in the Pacific Islands",
+    "school": "Department of Pacific Affairs",
+    "schoolCode": "DOPA",
+    "level": "UGRD",
+    "terms": [
+      "First Semester"
+    ],
+    "conveners": [],
+    "handbookUrl": "https://programsandcourses.anu.edu.au/course/stst2003",
+    "summary": "The Pacific Islands region has long been of strategic importance to Australia, and Australia has played a significant role in addressing the security and development challenges in and to the region. The region faces non-traditional security challenges, including human security and the gendered dimensions thereof, climate change, environmental and resource...",
+    "tags": [
+      "stst"
+    ],
+    "reviewMetrics": [
+      "Teaching quality",
+      "Workload fairness",
+      "Assessment design"
+    ]
+  },
+  {
+    "id": "STST2020",
+    "type": "course",
+    "code": "STST2020",
+    "name": "Study tour: Southeast Asia's Security Choices",
+    "school": "Strategic and Defence Studies Centre",
+    "schoolCode": "SADSC",
+    "level": "UGRD",
+    "terms": [
+      "See ANU course page"
+    ],
+    "conveners": [],
+    "handbookUrl": "https://programsandcourses.anu.edu.au/course/stst2020",
+    "summary": "This mobility course will introduce students to the diverse security stances found in Southeast Asia, in particular three leading Southeast Asian states: Indonesia, Singapore and Thailand. Through meetings with experts and visits to key sites, they will encounter the complexity of Southeast Asian approaches to security, including the legacies of coloniali...",
+    "tags": [
+      "policy studies",
+      "political sciences",
+      "security studies",
+      "strategic studies"
+    ],
+    "reviewMetrics": [
+      "Teaching quality",
+      "Workload fairness",
+      "Assessment design"
+    ]
+  },
+  {
+    "id": "STST3002",
+    "type": "course",
+    "code": "STST3002",
+    "name": "Living with Giants: Australia's Security in a Contested Asia",
+    "school": "Strategic and Defence Studies Centre",
+    "schoolCode": "SADSC",
+    "level": "UGRD",
+    "terms": [
+      "Second Semester",
+      "First Semester"
+    ],
+    "conveners": [],
+    "handbookUrl": "https://programsandcourses.anu.edu.au/course/stst3002",
+    "summary": "The 2020s have seen the rise of numerous strategic problems for Australia. There are giant states in fierce competition, such as the United States and China, and emerging giants in India and Indonesia.",
+    "tags": [
+      "australian studies",
+      "policy studies",
+      "security studies"
+    ],
+    "reviewMetrics": [
+      "Teaching quality",
+      "Workload fairness",
+      "Assessment design"
+    ]
+  },
+  {
+    "id": "STST3003",
+    "type": "course",
+    "code": "STST3003",
+    "name": "Honeypots and Overcoats: Australian Intelligence in the World",
+    "school": "Strategic and Defence Studies Centre",
+    "schoolCode": "SADSC",
+    "level": "UGRD",
+    "terms": [
+      "First Semester"
+    ],
+    "conveners": [],
+    "handbookUrl": "https://programsandcourses.anu.edu.au/course/stst3003",
+    "summary": "This course provides a detailed investigation into the history, working and challenges experienced by Australia’s security and intelligence organisations. The course is designed to examine and contrast the varying roles and functions of the respective agencies as part of Australia’s national security apparatus in the context of its engagement in the Asia-...",
+    "tags": [
+      "australian studies",
+      "security studies",
+      "strategic studies"
     ],
     "reviewMetrics": [
       "Teaching quality",

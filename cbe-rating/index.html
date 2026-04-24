@@ -16,7 +16,7 @@
       <div class="header-inner">
         <a class="wordmark" href="#">
           <span class="wordmark-an">AN</span><span class="wordmark-review">Review</span>
-          <span class="wordmark-badge">CBE + Law</span>
+          <span class="wordmark-badge">CBE + Law + Politics/IR</span>
         </a>
         <nav class="header-nav">
           <a href="#directory" class="nav-link">Courses</a>
@@ -32,7 +32,7 @@
       <!-- ── HERO ────────────────────────────────────────────── -->
       <section class="hero">
         <div class="hero-left">
-          <p class="eyebrow">Student-powered · ANU CBE &amp; Law</p>
+          <p class="eyebrow">Student-powered · ANU CBE, Law &amp; Politics/IR</p>
           <h1 class="hero-heading">
             Know what a course<br>
             <em>actually</em> feels like.
@@ -107,7 +107,7 @@
       <section class="college-switch" aria-label="College selection">
         <button id="all-colleges-tab" class="college-tab is-active" type="button" data-college="all">
           <span class="ctab-label">All areas</span>
-          <span class="ctab-sub">CBE + Law combined</span>
+          <span class="ctab-sub">Business, law, politics &amp; IR together</span>
         </button>
         <button id="cbe-tab" class="college-tab" type="button" data-college="cbe">
           <span class="ctab-label">CBE</span>
@@ -116,6 +116,10 @@
         <button id="law-tab" class="college-tab" type="button" data-college="law">
           <span class="ctab-label">Law</span>
           <span class="ctab-sub">ANU Law School</span>
+        </button>
+        <button id="spir-tab" class="college-tab" type="button" data-college="spir">
+          <span class="ctab-label">Politics &amp; IR</span>
+          <span class="ctab-sub">Political science &amp; international relations</span>
         </button>
       </section>
 
@@ -126,13 +130,26 @@
             <p class="eyebrow">Directory</p>
             <h2 class="directory-title">Find a course or professor.</h2>
           </div>
-          <p class="directory-note">Filter by college and type, then narrow by school, level or keyword. Select any card to see ratings and leave a review.</p>
+          <p class="directory-note">Step 1: use the left column to choose the course or professor you want. Step 2: use the right column to read ratings and post a review for that exact selection.</p>
         </div>
 
         <!-- Type toggle -->
         <div class="type-switch" aria-label="Browse mode">
           <button id="courses-tab" class="type-tab is-active" type="button" data-type="course">Courses</button>
           <button id="professors-tab" class="type-tab" type="button" data-type="academic">Professors</button>
+        </div>
+
+        <div class="workflow-strip" aria-label="How ANReview works">
+          <article class="workflow-card">
+            <p class="workflow-step">Step 1</p>
+            <h3>Choose what you want to review</h3>
+            <p>Use the filters and left-hand results list to pick one course or professor.</p>
+          </article>
+          <article class="workflow-card">
+            <p class="workflow-step">Step 2</p>
+            <h3>Read ratings and leave your review</h3>
+            <p>The right-hand panel updates for your selection and is where you post the review.</p>
+          </article>
         </div>
 
         <!-- Filters -->
@@ -177,7 +194,10 @@
           <!-- List panel -->
           <div class="list-panel">
             <div class="list-header">
-              <h3 class="list-heading">Results</h3>
+              <div>
+                <p class="panel-step">Step 1</p>
+                <h3 class="list-heading">Choose a course or professor</h3>
+              </div>
               <p id="results-meta" class="results-meta-text">Loading…</p>
             </div>
             <div id="results-grid" class="results-grid"></div>
@@ -187,8 +207,9 @@
           <aside class="detail-panel">
             <div id="detail-empty" class="detail-empty">
               <div class="detail-empty-icon">↗</div>
-              <h3>Select a course or professor</h3>
-              <p>Ratings, official metadata, linked staff or courses, and anonymous reviews will appear here.</p>
+              <p class="panel-step">Step 2</p>
+              <h3>Read ratings and write the review here</h3>
+              <p>Once you choose something on the left, this panel shows the details, reviews, and review form for that exact item.</p>
             </div>
 
             <div id="detail-view" class="detail-view is-hidden">
@@ -245,7 +266,7 @@
                 <section class="info-card info-card--form">
                   <div class="section-head">
                     <h4 class="info-heading">Leave a review</h4>
-                    <p class="section-sub">Saved to the shared ANReview server — visible to everyone on this instance.</p>
+                    <p class="section-sub">This form applies to the selected course or professor shown above.</p>
                   </div>
 
                   <form id="review-form" class="review-form">
@@ -333,8 +354,8 @@
       </div>
     </div>
 
-    <script src="data.js?v=20260424b"></script>
-    <script src="app.js?v=20260424b"></script>
+    <script src="data.js?v=20260424c"></script>
+    <script src="app.js?v=20260424c"></script>
     <script>
       // ── Tweaks wiring ──────────────────────────────────────────
       const TWEAK_DEFAULTS = /*EDITMODE-BEGIN*/{

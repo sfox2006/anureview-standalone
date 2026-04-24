@@ -20,7 +20,7 @@ BUNDLED_DATA_PATH = WORKSPACE_DIR / "cbe-rating" / "data.js"
 HOST = "0.0.0.0"
 PORT = int(os.environ.get("PORT", "8000"))
 CACHE_TTL = timedelta(hours=12)
-CACHE_VERSION = 7
+CACHE_VERSION = 8
 REQUEST_HEADERS = {
     "User-Agent": "ANReview Local Sync/1.0 (+http://127.0.0.1:8000/cbe-rating/)",
 }
@@ -49,6 +49,14 @@ CBE_SCHOOL_SOURCES = [
     },
 ]
 
+SPIR_SCHOOL_SOURCES = [
+    {
+        "school": "School of Politics and International Relations",
+        "schoolCode": "SPIR",
+        "url": "https://politicsir.cass.anu.edu.au/people/academics",
+    },
+]
+
 COURSE_CATALOG_SOURCES = [
     "https://programsandcourses.anu.edu.au/program/allb",
     "https://programsandcourses.anu.edu.au/program/mjd",
@@ -66,6 +74,10 @@ COURSE_CATALOG_SOURCES = [
     "https://programsandcourses.anu.edu.au/major/INTB-MAJ",
     "https://programsandcourses.anu.edu.au/major/MGMT-MAJ",
     "https://programsandcourses.anu.edu.au/major/MARK-MAJ",
+    "https://programsandcourses.anu.edu.au/program/BIR",
+    "https://programsandcourses.anu.edu.au/program/BPLSC",
+    "https://programsandcourses.anu.edu.au/major/POLS-MAJ",
+    "https://programsandcourses.anu.edu.au/major/IREL-MAJ",
 ]
 
 LAW_CARD_RE = re.compile(
@@ -281,6 +293,7 @@ def build_school_code(school: str, college: str, code: str) -> str:
         "Research School of Finance, Actuarial Studies and Statistics": "RSFAS",
         "Research School of Management": "RSM",
         "ANU Law School": "LAW",
+        "School of Politics and International Relations": "SPIR",
     }
     if school in known_codes:
         return known_codes[school]
@@ -426,6 +439,62 @@ def sync_cbe_academics() -> list[dict]:
             ):
                 academics_by_id.setdefault(academic["id"], academic)
     return sorted(academics_by_id.values(), key=lambda item: (item["school"], item["name"]))
+
+
+def parse_spir_page(html: str, school: str, school_code: str, base_url: str) -> list[dict]:
+    academics: list[dict] = []
+    card_re = re.compile(
+        r'<div class="col-8 row pt-1"><h4><a href="(?P<href>[^"]+)"[^>]*>(?P<name>.*?)</a></h4>'
+        r'<div class="mb-1 small-text-position"><div.*?<div>\s*(?P<position>.*?)</div></div></div>'
+        r'(?P<rest>.*?)(?:<p class="mb-0 pb-1 small">|</div></div></div>)',
+        re.S,
+    )
+
+    for match in card_re.finditer(html):
+        position = clean_html_text(match.group("position"))
+        if not position:
+            continue
+        lowered_position = position.lower()
+        if any(excluded in lowered_position for excluded in ["phd", "student", "visitor", "honorary"]):
+            continue
+
+        rest = match.group("rest")
+        office_match = re.search(r'<p class="small">(?P<value>.*?)</p>', rest, re.S)
+        email_match = re.search(r'href="mailto:(?P<value>[^"]+)"', rest, re.S)
+        raw_href = clean_html_text(match.group("href")).replace(" ", "")
+        profile_url = urljoin(base_url, raw_href.replace("//", "https://", 1) if raw_href.startswith("//") else raw_href)
+        email = clean_html_text(email_match.group("value")) if email_match else "See ANU profile"
+
+        academics.append(
+            {
+                **build_academic_entry(
+                    school=school,
+                    school_code=school_code,
+                    name=clean_html_text(match.group("name")),
+                    position=position,
+                    focus=school,
+                    profile_url=profile_url,
+                ),
+                "email": email or "See ANU profile",
+                "office": clean_html_text(office_match.group("value")) if office_match else school,
+            }
+        )
+
+    return academics
+
+
+def sync_spir_academics() -> list[dict]:
+    academics_by_id: dict[str, dict] = {}
+    for source in SPIR_SCHOOL_SOURCES:
+        html = fetch_html(source["url"])
+        for academic in parse_spir_page(
+            html,
+            school=source["school"],
+            school_code=source["schoolCode"],
+            base_url=source["url"],
+        ):
+            academics_by_id.setdefault(academic["id"], academic)
+    return sorted(academics_by_id.values(), key=lambda item: item["name"])
 
 
 def is_law_academic_position(position: str) -> bool:
@@ -595,29 +664,32 @@ def build_catalog_payload() -> dict:
     cached = load_catalog_cache()
     if cached:
         return cached
-
-    bundled = load_bundled_catalog_snapshot()
-    if bundled:
-        write_json_file(ANREVIEW_CATALOG_CACHE_PATH, bundled)
-        return bundled
-
-    cbe = sync_cbe_academics()
-    law = sync_law_academics()
-    courses = sync_catalog_courses()
-    payload = {
-        "version": CACHE_VERSION,
-        "generatedAt": datetime.now().isoformat(timespec="seconds"),
-        "courses": courses,
-        "academics": cbe + law,
-        "counts": {
-            "courses": len(courses),
-            "cbe": len(cbe),
-            "law": len(law),
-            "total": len(cbe) + len(law),
-        },
-    }
-    write_json_file(ANREVIEW_CATALOG_CACHE_PATH, payload)
-    return payload
+    try:
+        cbe = sync_cbe_academics()
+        law = sync_law_academics()
+        spir = sync_spir_academics()
+        courses = sync_catalog_courses()
+        payload = {
+            "version": CACHE_VERSION,
+            "generatedAt": datetime.now().isoformat(timespec="seconds"),
+            "courses": courses,
+            "academics": cbe + law + spir,
+            "counts": {
+                "courses": len(courses),
+                "cbe": len(cbe),
+                "law": len(law),
+                "spir": len(spir),
+                "total": len(cbe) + len(law) + len(spir),
+            },
+        }
+        write_json_file(ANREVIEW_CATALOG_CACHE_PATH, payload)
+        return payload
+    except Exception:
+        bundled = load_bundled_catalog_snapshot()
+        if bundled:
+            write_json_file(ANREVIEW_CATALOG_CACHE_PATH, bundled)
+            return bundled
+        raise
 
 
 class AppHandler(SimpleHTTPRequestHandler):
