@@ -14,14 +14,14 @@
     <!-- ── NAV ─────────────────────────────────────────────── -->
     <header class="site-header">
       <div class="header-inner">
-        <a class="wordmark" href="#">
+        <a class="wordmark" href="/cbe-rating/" aria-label="Go to ANRevU home">
           <img class="wordmark-logo" src="assets/anrevu-logo.png" alt="ANRevU">
           <span class="wordmark-badge">ANU course and lecturer reviews</span>
         </a>
         <nav class="header-nav">
           <a href="#directory" class="nav-link">Courses</a>
           <a href="#directory" class="nav-link" id="nav-professors">Professors</a>
-          <a href="#sources" class="nav-link">Sources</a>
+          <a href="sources.html" class="nav-link">Sources</a>
           <span class="nav-dot" id="sync-dot" title="Connecting…"></span>
         </nav>
       </div>
@@ -45,7 +45,7 @@
           </p>
           <div class="hero-actions">
             <a class="btn-primary" href="#directory">Browse ratings</a>
-            <a class="btn-ghost" href="#sources">Data sources</a>
+            <a class="btn-ghost" href="sources.html">Data sources</a>
           </div>
         </div>
 
@@ -297,7 +297,7 @@
 
                   <form id="review-form" class="review-form">
                     <label class="field">
-                      <span class="field-label">Your name <span class="field-optional">(optional)</span></span>
+                      <span class="field-label">Your name <span class="field-optional">(optional, leave blank for Anonymous)</span></span>
                       <input id="review-author" type="text" maxlength="40" placeholder="Anonymous">
                     </label>
 
@@ -341,15 +341,6 @@
       </section>
 
       <!-- ── SOURCES ───────────────────────────────────────────── -->
-      <section id="sources" class="sources-section">
-        <div class="sources-head">
-          <p class="eyebrow">Data sources</p>
-          <h2 class="sources-title">Official ANU references.</h2>
-          <p class="sources-note">This is an independent prototype, not an ANU service. The seeded catalogue comes from public ANU pages; ratings combine demo seed content with shared local server submissions.</p>
-        </div>
-        <ul id="source-list" class="source-list"></ul>
-      </section>
-
     </main>
 
     <!-- ── TWEAKS PANEL ─────────────────────────────────────── -->
@@ -380,8 +371,8 @@
       </div>
     </div>
 
-    <script src="data.js?v=20260424f"></script>
-    <script src="app.js?v=20260424f"></script>
+    <script src="data.js?v=20260425b"></script>
+    <script src="app.js?v=20260425b"></script>
     <script>
       // ── Tweaks wiring ──────────────────────────────────────────
       const TWEAK_DEFAULTS = /*EDITMODE-BEGIN*/{

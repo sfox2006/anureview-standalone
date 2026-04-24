@@ -74,6 +74,12 @@ const elements = {
   sourceList: document.getElementById("source-list")
 };
 
+function returnToBrowseForDirectoryChange() {
+  if (state.view === "detail") {
+    openBrowse();
+  }
+}
+
 function buildRatingOptions(select) {
   select.innerHTML = "";
   for (let rating = 5; rating >= 1; rating -= 1) {
@@ -675,6 +681,9 @@ function updateCounts() {
 }
 
 function renderSources() {
+  if (!elements.sourceList) {
+    return;
+  }
   elements.sourceList.innerHTML = "";
   dataset.sources.forEach((source) => {
     const entry = document.createElement("li");
@@ -742,7 +751,7 @@ async function handleReviewSubmit(event) {
     renderDetail();
     elements.reviewForm.reset();
     [elements.reviewOverall, elements.reviewMetricA, elements.reviewMetricB, elements.reviewMetricC].forEach(buildRatingOptions);
-    updateFeedback("Your review was saved to the shared ANReview server.");
+    updateFeedback(`Your review was saved to the shared ANReview server${payload.review.author === "Anonymous" ? " as Anonymous" : ""}.`);
     updateSyncStatus(`Shared review sync live. ${state.sharedReviews.length} server review${state.sharedReviews.length === 1 ? "" : "s"} loaded.`);
   } catch (error) {
     updateFeedback(error.message || "Unable to save review right now.", true);
@@ -752,12 +761,15 @@ async function handleReviewSubmit(event) {
 function bindFilters() {
   elements.searchInput.addEventListener("input", () => {
     state.search = elements.searchInput.value;
+    returnToBrowseForDirectoryChange();
     renderResults();
+    renderDetail();
   });
 
   [elements.coursesTab, elements.professorsTab].forEach((button) => {
     button.addEventListener("click", () => {
       state.type = button.dataset.type;
+      returnToBrowseForDirectoryChange();
       syncTypeTabs();
       populateSchoolFilter();
       if (state.selectedId && getItemById(state.selectedId)?.type !== state.type) {
@@ -775,6 +787,7 @@ function bindFilters() {
   [elements.allCollegesTab, elements.cbeTab, elements.lawTab, elements.cassTab, elements.capTab, elements.csmTab, elements.cssTab].forEach((button) => {
     button.addEventListener("click", () => {
       state.college = button.dataset.college;
+      returnToBrowseForDirectoryChange();
       syncCollegeTabs();
       populateSchoolFilter();
       if (state.selectedId && !filteredItems().some((item) => item.id === state.selectedId)) {
@@ -792,6 +805,7 @@ function bindFilters() {
 
   elements.schoolFilter.addEventListener("change", () => {
     state.school = elements.schoolFilter.value;
+    returnToBrowseForDirectoryChange();
     if (state.selectedId && !filteredItems().some((item) => item.id === state.selectedId)) {
       state.selectedId = filteredItems()[0]?.id || null;
     }
@@ -804,6 +818,7 @@ function bindFilters() {
   });
   elements.levelFilter.addEventListener("change", () => {
     state.level = elements.levelFilter.value;
+    returnToBrowseForDirectoryChange();
     populateSchoolFilter();
     if (state.selectedId && !filteredItems().some((item) => item.id === state.selectedId)) {
       state.selectedId = filteredItems()[0]?.id || null;
@@ -817,6 +832,7 @@ function bindFilters() {
   });
   elements.sortFilter.addEventListener("change", () => {
     state.sort = elements.sortFilter.value;
+    returnToBrowseForDirectoryChange();
     renderResults();
     renderDetail();
   });
