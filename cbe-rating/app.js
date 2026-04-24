@@ -80,6 +80,17 @@ function returnToBrowseForDirectoryChange() {
   }
 }
 
+function syncSelectionToVisibleResults() {
+  const visibleItems = filteredItems();
+  if (!visibleItems.length) {
+    state.selectedId = null;
+    return;
+  }
+  if (!visibleItems.some((item) => item.id === state.selectedId)) {
+    state.selectedId = visibleItems[0].id;
+  }
+}
+
 function buildRatingOptions(select) {
   select.innerHTML = "";
   for (let rating = 5; rating >= 1; rating -= 1) {
@@ -762,6 +773,7 @@ function bindFilters() {
   elements.searchInput.addEventListener("input", () => {
     state.search = elements.searchInput.value;
     returnToBrowseForDirectoryChange();
+    syncSelectionToVisibleResults();
     renderResults();
     renderDetail();
   });
@@ -772,9 +784,7 @@ function bindFilters() {
       returnToBrowseForDirectoryChange();
       syncTypeTabs();
       populateSchoolFilter();
-      if (state.selectedId && getItemById(state.selectedId)?.type !== state.type) {
-        state.selectedId = filteredItems()[0]?.id || null;
-      }
+      syncSelectionToVisibleResults();
       if (state.view === "detail" && state.selectedId && !filteredItems().some((item) => item.id === state.selectedId)) {
         openBrowse();
         return;
@@ -790,9 +800,7 @@ function bindFilters() {
       returnToBrowseForDirectoryChange();
       syncCollegeTabs();
       populateSchoolFilter();
-      if (state.selectedId && !filteredItems().some((item) => item.id === state.selectedId)) {
-        state.selectedId = filteredItems()[0]?.id || null;
-      }
+      syncSelectionToVisibleResults();
       if (state.view === "detail" && !state.selectedId) {
         openBrowse();
         return;
@@ -806,9 +814,7 @@ function bindFilters() {
   elements.schoolFilter.addEventListener("change", () => {
     state.school = elements.schoolFilter.value;
     returnToBrowseForDirectoryChange();
-    if (state.selectedId && !filteredItems().some((item) => item.id === state.selectedId)) {
-      state.selectedId = filteredItems()[0]?.id || null;
-    }
+    syncSelectionToVisibleResults();
     if (state.view === "detail" && !state.selectedId) {
       openBrowse();
       return;
@@ -820,9 +826,7 @@ function bindFilters() {
     state.level = elements.levelFilter.value;
     returnToBrowseForDirectoryChange();
     populateSchoolFilter();
-    if (state.selectedId && !filteredItems().some((item) => item.id === state.selectedId)) {
-      state.selectedId = filteredItems()[0]?.id || null;
-    }
+    syncSelectionToVisibleResults();
     if (state.view === "detail" && !state.selectedId) {
       openBrowse();
       return;
@@ -833,6 +837,7 @@ function bindFilters() {
   elements.sortFilter.addEventListener("change", () => {
     state.sort = elements.sortFilter.value;
     returnToBrowseForDirectoryChange();
+    syncSelectionToVisibleResults();
     renderResults();
     renderDetail();
   });
