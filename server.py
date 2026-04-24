@@ -49,13 +49,11 @@ CBE_SCHOOL_SOURCES = [
     },
 ]
 
-SPIR_SCHOOL_SOURCES = [
-    {
-        "school": "School of Politics and International Relations",
-        "schoolCode": "SPIR",
-        "url": "https://politicsir.cass.anu.edu.au/people/academics",
-    },
-]
+CASS_PEOPLE_SOURCE = {
+    "school": "ANU College of Arts and Social Sciences",
+    "schoolCode": "CASS",
+    "url": "https://cass.anu.edu.au/research/people",
+}
 
 COURSE_CATALOG_SOURCES = [
     "https://programsandcourses.anu.edu.au/program/allb",
@@ -266,6 +264,7 @@ def build_academic_entry(
     position: str,
     focus: str,
     profile_url: str,
+    college: str = "",
 ) -> dict:
     return {
         "id": slug_from_url(profile_url),
@@ -273,6 +272,7 @@ def build_academic_entry(
         "name": name,
         "school": school,
         "schoolCode": school_code,
+        "college": college or ("CASS" if school_code == "CASS" else "ANU Law School" if school_code == "LAW" else "CBE"),
         "position": position,
         "focus": focus or school,
         "email": "See ANU profile",
@@ -293,7 +293,7 @@ def build_school_code(school: str, college: str, code: str) -> str:
         "Research School of Finance, Actuarial Studies and Statistics": "RSFAS",
         "Research School of Management": "RSM",
         "ANU Law School": "LAW",
-        "School of Politics and International Relations": "SPIR",
+        "ANU College of Arts and Social Sciences": "CASS",
     }
     if school in known_codes:
         return known_codes[school]
@@ -356,6 +356,7 @@ def build_course_entry(
         "type": "course",
         "code": code,
         "name": name,
+        "college": college or "",
         "school": school or college or "ANU",
         "schoolCode": build_school_code(school or college or "ANU", college, ""),
         "level": level_label_to_code(level),
@@ -441,57 +442,88 @@ def sync_cbe_academics() -> list[dict]:
     return sorted(academics_by_id.values(), key=lambda item: (item["school"], item["name"]))
 
 
-def parse_spir_page(html: str, school: str, school_code: str, base_url: str) -> list[dict]:
-    academics: list[dict] = []
-    card_re = re.compile(
-        r'<div class="col-8 row pt-1"><h4><a href="(?P<href>[^"]+)"[^>]*>(?P<name>.*?)</a></h4>'
-        r'<div class="mb-1 small-text-position"><div.*?<div>\s*(?P<position>.*?)</div></div></div>'
-        r'(?P<rest>.*?)(?:<p class="mb-0 pb-1 small">|</div></div></div>)',
-        re.S,
+def is_cass_academic_position(position: str) -> bool:
+    text = position.lower()
+    include_keywords = [
+        "professor",
+        "lecturer",
+        "fellow",
+        "academic",
+        "reader",
+        "tutor",
+        "research fellow",
+        "dean",
+    ]
+    exclude_keywords = [
+        "administrator",
+        "administration",
+        "manager",
+        "coordinator",
+        "officer",
+        "technical service",
+        "director, professional",
+        "student",
+        "phd",
+        "candidate",
+        "assistant",
+        "services",
+    ]
+    return any(keyword in text for keyword in include_keywords) and not any(
+        keyword in text for keyword in exclude_keywords
     )
 
-    for match in card_re.finditer(html):
-        position = clean_html_text(match.group("position"))
-        if not position:
-            continue
-        lowered_position = position.lower()
-        if any(excluded in lowered_position for excluded in ["phd", "student", "visitor", "honorary"]):
+
+def parse_cass_people_page(html: str, school: str, school_code: str, base_url: str) -> list[dict]:
+    academics: list[dict] = []
+    for segment in html.split('<div class="col-12 row bg-tint">')[1:]:
+        name_match = re.search(r'<h3><a href="(?P<href>[^"]+)"[^>]*>(?P<name>.*?)</a></h3>', segment, re.S)
+        if not name_match:
             continue
 
-        rest = match.group("rest")
-        office_match = re.search(r'<p class="small">(?P<value>.*?)</p>', rest, re.S)
-        email_match = re.search(r'href="mailto:(?P<value>[^"]+)"', rest, re.S)
-        raw_href = clean_html_text(match.group("href")).replace(" ", "")
-        profile_url = urljoin(base_url, raw_href.replace("//", "https://", 1) if raw_href.startswith("//") else raw_href)
-        email = clean_html_text(email_match.group("value")) if email_match else "See ANU profile"
+        positions = [
+            clean_html_text(value)
+            for value in re.findall(r"<p>(.*?)</p>", segment, re.S)
+            if clean_html_text(value)
+        ]
+        academic_positions = [position for position in positions if is_cass_academic_position(position)]
+        if not academic_positions:
+            continue
+
+        position = academic_positions[0]
+        email_match = re.search(r'href="mailto:(?P<value>[^"]+)"', segment, re.S)
+        profile_href = clean_html_text(name_match.group("href")).replace(" ", "")
+        profile_url = urljoin(base_url, profile_href)
+        school_match = re.search(r",\s*(?P<value>[^,<]+(?:School|Centre|Studies|Research Centre|Program|Programme)[^,<]*)", position)
+        derived_school = clean_html_text(school_match.group("value")) if school_match else school
+        focus = ", ".join(positions[1:3]) if len(positions) > 1 else derived_school
 
         academics.append(
             {
                 **build_academic_entry(
-                    school=school,
+                    school=derived_school or school,
                     school_code=school_code,
-                    name=clean_html_text(match.group("name")),
+                    name=clean_html_text(name_match.group("name")),
                     position=position,
-                    focus=school,
+                    focus=focus or derived_school or school,
                     profile_url=profile_url,
                 ),
-                "email": email or "See ANU profile",
-                "office": clean_html_text(office_match.group("value")) if office_match else school,
+                "email": clean_html_text(email_match.group("value")) if email_match else "See ANU profile",
+                "office": derived_school or school,
+                "college": "CASS",
             }
         )
 
     return academics
 
 
-def sync_spir_academics() -> list[dict]:
+def sync_cass_academics() -> list[dict]:
     academics_by_id: dict[str, dict] = {}
-    for source in SPIR_SCHOOL_SOURCES:
-        html = fetch_html(source["url"])
-        for academic in parse_spir_page(
+    for html in crawl_paginated_pages(CASS_PEOPLE_SOURCE["url"], max_pages=24):
+        for academic in parse_cass_people_page(
             html,
-            school=source["school"],
-            school_code=source["schoolCode"],
-            base_url=source["url"],
+            school=CASS_PEOPLE_SOURCE["school"],
+            school_code=CASS_PEOPLE_SOURCE["schoolCode"],
+            base_url=CASS_PEOPLE_SOURCE["url"],
         ):
             academics_by_id.setdefault(academic["id"], academic)
     return sorted(academics_by_id.values(), key=lambda item: item["name"])
@@ -667,19 +699,19 @@ def build_catalog_payload() -> dict:
     try:
         cbe = sync_cbe_academics()
         law = sync_law_academics()
-        spir = sync_spir_academics()
+        cass = sync_cass_academics()
         courses = sync_catalog_courses()
         payload = {
             "version": CACHE_VERSION,
             "generatedAt": datetime.now().isoformat(timespec="seconds"),
             "courses": courses,
-            "academics": cbe + law + spir,
+            "academics": cbe + law + cass,
             "counts": {
                 "courses": len(courses),
                 "cbe": len(cbe),
                 "law": len(law),
-                "spir": len(spir),
-                "total": len(cbe) + len(law) + len(spir),
+                "cass": len(cass),
+                "total": len(cbe) + len(law) + len(cass),
             },
         }
         write_json_file(ANREVIEW_CATALOG_CACHE_PATH, payload)

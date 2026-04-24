@@ -22,7 +22,7 @@ const elements = {
   allCollegesTab: document.getElementById("all-colleges-tab"),
   cbeTab: document.getElementById("cbe-tab"),
   lawTab: document.getElementById("law-tab"),
-  spirTab: document.getElementById("spir-tab"),
+  cassTab: document.getElementById("cass-tab"),
   coursesTab: document.getElementById("courses-tab"),
   professorsTab: document.getElementById("professors-tab"),
   searchInput: document.getElementById("search-input"),
@@ -80,13 +80,17 @@ function allItems() {
 }
 
 function getCollegeForItem(item) {
+  const college = `${item.college || ""}`.toLowerCase();
   const schoolCode = `${item.schoolCode || ""}`.toUpperCase();
   const schoolText = `${item.school || ""} ${item.schoolCode || ""}`.toLowerCase();
+  if (college.includes("arts") || college.includes("social sciences") || college === "cass") {
+    return "cass";
+  }
   if (schoolCode === "LAW" || schoolText.includes("law")) {
     return "law";
   }
-  if (schoolCode === "SPIR" || schoolText.includes("politics") || schoolText.includes("international relations")) {
-    return "spir";
+  if (schoolCode === "SPIR" || schoolCode === "CASS" || schoolText.includes("politics") || schoolText.includes("international relations")) {
+    return "cass";
   }
   return "cbe";
 }
@@ -186,7 +190,7 @@ async function fetchOfficialCatalog() {
   mergeOfficialCourses(payload.courses || []);
   mergeOfficialAcademics(payload.academics || []);
   updateSyncStatus(
-    `Official ANReview catalogue sync live. ${payload.counts?.courses || 0} courses, ${payload.counts?.cbe || 0} CBE academics, and ${payload.counts?.law || 0} Law academics loaded.`
+    `Official ANReview catalogue sync live. ${payload.counts?.courses || 0} courses, ${payload.counts?.cbe || 0} CBE academics, ${payload.counts?.law || 0} Law academics, and ${payload.counts?.cass || 0} CASS academics loaded.`
   );
 }
 
@@ -296,7 +300,7 @@ function syncCollegeTabs() {
   elements.allCollegesTab.classList.toggle("is-active", state.college === "all");
   elements.cbeTab.classList.toggle("is-active", state.college === "cbe");
   elements.lawTab.classList.toggle("is-active", state.college === "law");
-  elements.spirTab.classList.toggle("is-active", state.college === "spir");
+  elements.cassTab.classList.toggle("is-active", state.college === "cass");
 }
 
 function syncTypeTabs() {
@@ -666,7 +670,7 @@ function bindFilters() {
     });
   });
 
-  [elements.allCollegesTab, elements.cbeTab, elements.lawTab, elements.spirTab].forEach((button) => {
+  [elements.allCollegesTab, elements.cbeTab, elements.lawTab, elements.cassTab].forEach((button) => {
     button.addEventListener("click", () => {
       state.college = button.dataset.college;
       syncCollegeTabs();

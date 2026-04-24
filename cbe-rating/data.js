@@ -1,5 +1,5 @@
 window.ANREVIEW_DATA = {
-  generatedAt: "2026-04-24T13:33:19",
+  generatedAt: "2026-04-24T13:43:57",
   sources: [
     { label: "ANU Programs and Courses: Bachelor of Economics", url: "https://programsandcourses.anu.edu.au/program/becon" },
     { label: "ANU Programs and Courses: Econometrics Minor", url: "https://programsandcourses.anu.edu.au/minor/EMET-MIN" },
@@ -35,7 +35,8 @@ window.ANREVIEW_DATA = {
     { label: "ANU Programs and Courses: Bachelor of Political Science", url: "https://programsandcourses.anu.edu.au/program/BPLSC" },
     { label: "ANU Programs and Courses: Political Science Major", url: "https://programsandcourses.anu.edu.au/major/POLS-MAJ" },
     { label: "ANU Programs and Courses: International Relations Major", url: "https://programsandcourses.anu.edu.au/major/IREL-MAJ" },
-    { label: "ANU School of Politics & International Relations: Academics", url: "https://politicsir.cass.anu.edu.au/people/academics" }
+    { label: "ANU School of Politics & International Relations: Academics", url: "https://politicsir.cass.anu.edu.au/people/academics" },
+    { label: "ANU CASS People Directory", url: "https://cass.anu.edu.au/research/people" }
   ],
   academics: [
   {
@@ -44,6 +45,7 @@ window.ANREVIEW_DATA = {
     "name": "Associate Professor Keturah Whitford",
     "school": "Research School of Accounting",
     "schoolCode": "RSA",
+    "college": "CBE",
     "position": "Reader",
     "focus": "Accounting",
     "email": "See ANU profile",
@@ -66,6 +68,7 @@ window.ANREVIEW_DATA = {
     "name": "Associate Professor Sonali Walpola",
     "school": "Research School of Accounting",
     "schoolCode": "RSA",
+    "college": "CBE",
     "position": "Associate Professor",
     "focus": "Research School of Accounting",
     "email": "See ANU profile",
@@ -87,6 +90,7 @@ window.ANREVIEW_DATA = {
     "name": "Associate Professor Steven Wu",
     "school": "Research School of Accounting",
     "schoolCode": "RSA",
+    "college": "CBE",
     "position": "Associate Professor, Director of HDR",
     "focus": "Accounting",
     "email": "See ANU profile",
@@ -109,6 +113,7 @@ window.ANREVIEW_DATA = {
     "name": "Cameron Hooper",
     "school": "Research School of Accounting",
     "schoolCode": "RSA",
+    "college": "CBE",
     "position": "Senior Lecturer",
     "focus": "Accounting",
     "email": "See ANU profile",
@@ -131,6 +136,7 @@ window.ANREVIEW_DATA = {
     "name": "Dr Alex Wang",
     "school": "Research School of Accounting",
     "schoolCode": "RSA",
+    "college": "CBE",
     "position": "Senior Lecturer, CPA Liaison Officer at Research School of Accounting",
     "focus": "Accounting, Management",
     "email": "See ANU profile",
@@ -154,6 +160,7 @@ window.ANREVIEW_DATA = {
     "name": "Dr Eunice Khoo",
     "school": "Research School of Accounting",
     "schoolCode": "RSA",
+    "college": "CBE",
     "position": "Senior Lecturer",
     "focus": "Accounting",
     "email": "See ANU profile",
@@ -176,6 +183,7 @@ window.ANREVIEW_DATA = {
     "name": "Dr Isabel Wang",
     "school": "Research School of Accounting",
     "schoolCode": "RSA",
+    "college": "CBE",
     "position": "Senior Lecturer",
     "focus": "Accounting",
     "email": "See ANU profile",
@@ -198,6 +206,7 @@ window.ANREVIEW_DATA = {
     "name": "Dr Kathy Wang",
     "school": "Research School of Accounting",
     "schoolCode": "RSA",
+    "college": "CBE",
     "position": "Lecturer and course convenor",
     "focus": "Accounting",
     "email": "See ANU profile",
@@ -220,6 +229,7 @@ window.ANREVIEW_DATA = {
     "name": "Dr Lijuan Zhang",
     "school": "Research School of Accounting",
     "schoolCode": "RSA",
+    "college": "CBE",
     "position": "Senior Lecturer",
     "focus": "Accounting",
     "email": "See ANU profile",
@@ -242,6 +252,7 @@ window.ANREVIEW_DATA = {
     "name": "Dr Lingwei Li",
     "school": "Research School of Accounting",
     "schoolCode": "RSA",
+    "college": "CBE",
     "position": "Lecturer",
     "focus": "Accounting",
     "email": "See ANU profile",
@@ -264,6 +275,7 @@ window.ANREVIEW_DATA = {
     "name": "Dr Madhukar Singh",
     "school": "Research School of Accounting",
     "schoolCode": "RSA",
+    "college": "CBE",
     "position": "Lecturer and Undergraduate Program Convenor",
     "focus": "Accounting, Commerce",
     "email": "See ANU profile",
@@ -287,6 +299,7 @@ window.ANREVIEW_DATA = {
     "name": "Dr Rebecca Tan",
     "school": "Research School of Accounting",
     "schoolCode": "RSA",
+    "college": "CBE",
     "position": "Senior Lecturer &amp; Master&rsquo;s Course Work Convener",
     "focus": "Accounting, Corporate sustainability",
     "email": "See ANU profile",
@@ -310,6 +323,7 @@ window.ANREVIEW_DATA = {
     "name": "Dr Sarah Adams",
     "school": "Research School of Accounting",
     "schoolCode": "RSA",
+    "college": "CBE",
     "position": "Senior Lecturer",
     "focus": "Accounting, Corporate sustainability",
     "email": "See ANU profile",
@@ -333,6 +347,7 @@ window.ANREVIEW_DATA = {
     "name": "Dr Scarlett Luo",
     "school": "Research School of Accounting",
     "schoolCode": "RSA",
+    "college": "CBE",
     "position": "Lecturer",
     "focus": "Accounting",
     "email": "See ANU profile",
@@ -355,6 +370,7 @@ window.ANREVIEW_DATA = {
     "name": "Dr Sorin Daniliuc",
     "school": "Research School of Accounting",
     "schoolCode": "RSA",
+    "college": "CBE",
     "position": "Lecturer",
     "focus": "Accounting",
     "email": "See ANU profile",
@@ -377,6 +393,7 @@ window.ANREVIEW_DATA = {
     "name": "Dr Tejshree Kala",
     "school": "Research School of Accounting",
     "schoolCode": "RSA",
+    "college": "CBE",
     "position": "Lecturer",
     "focus": "Accounting",
     "email": "See ANU profile",
@@ -399,6 +416,7 @@ window.ANREVIEW_DATA = {
     "name": "Dr Wei Zeng",
     "school": "Research School of Accounting",
     "schoolCode": "RSA",
+    "college": "CBE",
     "position": "Lecturer",
     "focus": "Accounting",
     "email": "See ANU profile",
@@ -421,6 +439,7 @@ window.ANREVIEW_DATA = {
     "name": "Dr Xiu-Ye Zhang",
     "school": "Research School of Accounting",
     "schoolCode": "RSA",
+    "college": "CBE",
     "position": "Senior Lecturer",
     "focus": "Accounting, Finance",
     "email": "See ANU profile",
@@ -444,6 +463,7 @@ window.ANREVIEW_DATA = {
     "name": "Dr Yue Cai",
     "school": "Research School of Accounting",
     "schoolCode": "RSA",
+    "college": "CBE",
     "position": "Lecturer",
     "focus": "Accounting",
     "email": "See ANU profile",
@@ -466,6 +486,7 @@ window.ANREVIEW_DATA = {
     "name": "Honorary Associate Professor Janet Lee",
     "school": "Research School of Accounting",
     "schoolCode": "RSA",
+    "college": "CBE",
     "position": "Honorary Associate Professor",
     "focus": "Accounting",
     "email": "See ANU profile",
@@ -488,6 +509,7 @@ window.ANREVIEW_DATA = {
     "name": "Lily Chen",
     "school": "Research School of Accounting",
     "schoolCode": "RSA",
+    "college": "CBE",
     "position": "Associate Professor",
     "focus": "Accounting",
     "email": "See ANU profile",
@@ -510,6 +532,7 @@ window.ANREVIEW_DATA = {
     "name": "Mr Ian McPhee",
     "school": "Research School of Accounting",
     "schoolCode": "RSA",
+    "college": "CBE",
     "position": "Distinguished Honorary Professor",
     "focus": "Research School of Accounting",
     "email": "See ANU profile",
@@ -531,6 +554,7 @@ window.ANREVIEW_DATA = {
     "name": "Mr Kurt Stevens",
     "school": "Research School of Accounting",
     "schoolCode": "RSA",
+    "college": "CBE",
     "position": "Casual Lecturer",
     "focus": "Accounting",
     "email": "See ANU profile",
@@ -553,6 +577,7 @@ window.ANREVIEW_DATA = {
     "name": "Ms Bonnie Allan",
     "school": "Research School of Accounting",
     "schoolCode": "RSA",
+    "college": "CBE",
     "position": "Casual Lecturer",
     "focus": "Research School of Accounting",
     "email": "See ANU profile",
@@ -574,6 +599,7 @@ window.ANREVIEW_DATA = {
     "name": "Pat Barrett",
     "school": "Research School of Accounting",
     "schoolCode": "RSA",
+    "college": "CBE",
     "position": "Distinguished Honorary Professor &amp; Senior Fellow - ANCAAR",
     "focus": "Accounting, Economics",
     "email": "See ANU profile",
@@ -597,6 +623,7 @@ window.ANREVIEW_DATA = {
     "name": "Professor Greg Shailer",
     "school": "Research School of Accounting",
     "schoolCode": "RSA",
+    "college": "CBE",
     "position": "Professor, Director of ANCAAR",
     "focus": "Accounting, Commerce, Corporate sustainability",
     "email": "See ANU profile",
@@ -621,6 +648,7 @@ window.ANREVIEW_DATA = {
     "name": "Professor Juliana Ng",
     "school": "Research School of Accounting",
     "schoolCode": "RSA",
+    "college": "CBE",
     "position": "Director, Research School of Accounting",
     "focus": "Accounting",
     "email": "See ANU profile",
@@ -643,6 +671,7 @@ window.ANREVIEW_DATA = {
     "name": "Professor Louise Lu",
     "school": "Research School of Accounting",
     "schoolCode": "RSA",
+    "college": "CBE",
     "position": "Professor &amp; Convenor of HDR, Co-Director of ANCAAR",
     "focus": "Accounting",
     "email": "See ANU profile",
@@ -665,6 +694,7 @@ window.ANREVIEW_DATA = {
     "name": "Professor Mark Wilson",
     "school": "Research School of Accounting",
     "schoolCode": "RSA",
+    "college": "CBE",
     "position": "Professor & Deputy Director",
     "focus": "Accounting, Commerce, Economic history",
     "email": "See ANU profile",
@@ -689,6 +719,7 @@ window.ANREVIEW_DATA = {
     "name": "Professor Marvin Wee",
     "school": "Research School of Accounting",
     "schoolCode": "RSA",
+    "college": "CBE",
     "position": "Professor and Deputy Director Education",
     "focus": "Accounting, Finance",
     "email": "See ANU profile",
@@ -712,6 +743,7 @@ window.ANREVIEW_DATA = {
     "name": "Professor Neil Fargher",
     "school": "Research School of Accounting",
     "schoolCode": "RSA",
+    "college": "CBE",
     "position": "Emeritus Professor",
     "focus": "Accounting",
     "email": "See ANU profile",
@@ -734,6 +766,7 @@ window.ANREVIEW_DATA = {
     "name": "Professor Susanna Ho",
     "school": "Research School of Accounting",
     "schoolCode": "RSA",
+    "college": "CBE",
     "position": "Professor",
     "focus": "Accounting, Business information systems, Commerce",
     "email": "See ANU profile",
@@ -758,6 +791,7 @@ window.ANREVIEW_DATA = {
     "name": "Professor Tracy (Kun) Wang",
     "school": "Research School of Accounting",
     "schoolCode": "RSA",
+    "college": "CBE",
     "position": "Professor",
     "focus": "Accounting, Economics, Finance",
     "email": "See ANU profile",
@@ -782,6 +816,7 @@ window.ANREVIEW_DATA = {
     "name": "Associate Professor Chung Tran",
     "school": "Research School of Economics",
     "schoolCode": "RSE",
+    "college": "CBE",
     "position": "Associate Professor",
     "focus": "Economics",
     "email": "See ANU profile",
@@ -804,6 +839,7 @@ window.ANREVIEW_DATA = {
     "name": "Associate Professor Elena Capatina",
     "school": "Research School of Economics",
     "schoolCode": "RSE",
+    "college": "CBE",
     "position": "Associate Professor",
     "focus": "Economics",
     "email": "See ANU profile",
@@ -826,6 +862,7 @@ window.ANREVIEW_DATA = {
     "name": "Associate Professor Evan Calford",
     "school": "Research School of Economics",
     "schoolCode": "RSE",
+    "college": "CBE",
     "position": "Associate Professor",
     "focus": "Economics",
     "email": "See ANU profile",
@@ -848,6 +885,7 @@ window.ANREVIEW_DATA = {
     "name": "Associate Professor Idione Meneghel",
     "school": "Research School of Economics",
     "schoolCode": "RSE",
+    "college": "CBE",
     "position": "Associate Professor",
     "focus": "Research School of Economics",
     "email": "See ANU profile",
@@ -869,6 +907,7 @@ window.ANREVIEW_DATA = {
     "name": "Associate Professor Jose Rodrigues-Neto",
     "school": "Research School of Economics",
     "schoolCode": "RSE",
+    "college": "CBE",
     "position": "Associate Professor",
     "focus": "Economics",
     "email": "See ANU profile",
@@ -891,6 +930,7 @@ window.ANREVIEW_DATA = {
     "name": "Associate Professor Maria Racionero",
     "school": "Research School of Economics",
     "schoolCode": "RSE",
+    "college": "CBE",
     "position": "Associate Professor",
     "focus": "Economics",
     "email": "See ANU profile",
@@ -913,6 +953,7 @@ window.ANREVIEW_DATA = {
     "name": "Associate Professor Patrick Beissner",
     "school": "Research School of Economics",
     "schoolCode": "RSE",
+    "college": "CBE",
     "position": "Associate Professor",
     "focus": "Research School of Economics",
     "email": "See ANU profile",
@@ -934,6 +975,7 @@ window.ANREVIEW_DATA = {
     "name": "Associate Professor Sephorah Mangin",
     "school": "Research School of Economics",
     "schoolCode": "RSE",
+    "college": "CBE",
     "position": "Associate Professor",
     "focus": "Economics",
     "email": "See ANU profile",
@@ -956,6 +998,7 @@ window.ANREVIEW_DATA = {
     "name": "Associate Professor Thomas Yang",
     "school": "Research School of Economics",
     "schoolCode": "RSE",
+    "college": "CBE",
     "position": "Associate Professor",
     "focus": "Econometrics",
     "email": "See ANU profile",
@@ -978,6 +1021,7 @@ window.ANREVIEW_DATA = {
     "name": "Associate Professor Timothy Kam",
     "school": "Research School of Economics",
     "schoolCode": "RSE",
+    "college": "CBE",
     "position": "Associate Professor",
     "focus": "Econometrics, Economic history, Economics",
     "email": "See ANU profile",
@@ -1002,6 +1046,7 @@ window.ANREVIEW_DATA = {
     "name": "Associate Professor Tue Gorgens",
     "school": "Research School of Economics",
     "schoolCode": "RSE",
+    "college": "CBE",
     "position": "Associate Professor",
     "focus": "Econometrics",
     "email": "See ANU profile",
@@ -1024,6 +1069,7 @@ window.ANREVIEW_DATA = {
     "name": "Dr Ashley Craig",
     "school": "Research School of Economics",
     "schoolCode": "RSE",
+    "college": "CBE",
     "position": "Senior Lecturer, John Mitchell Research Fellow",
     "focus": "Research School of Economics",
     "email": "See ANU profile",
@@ -1045,6 +1091,7 @@ window.ANREVIEW_DATA = {
     "name": "Dr Cagri Kumru",
     "school": "Research School of Economics",
     "schoolCode": "RSE",
+    "college": "CBE",
     "position": "Associate Professor, Deputy Director (Education)",
     "focus": "Research School of Economics",
     "email": "See ANU profile",
@@ -1066,6 +1113,7 @@ window.ANREVIEW_DATA = {
     "name": "Dr Damien Eldridge",
     "school": "Research School of Economics",
     "schoolCode": "RSE",
+    "college": "CBE",
     "position": "Senior Lecturer",
     "focus": "Economics",
     "email": "See ANU profile",
@@ -1088,6 +1136,7 @@ window.ANREVIEW_DATA = {
     "name": "Dr Dana Hanna",
     "school": "Research School of Economics",
     "schoolCode": "RSE",
+    "college": "CBE",
     "position": "Associate Dean (Education)",
     "focus": "Economics",
     "email": "See ANU profile",
@@ -1110,6 +1159,7 @@ window.ANREVIEW_DATA = {
     "name": "Dr James Taylor",
     "school": "Research School of Economics",
     "schoolCode": "RSE",
+    "college": "CBE",
     "position": "Lecturer",
     "focus": "Economics",
     "email": "See ANU profile",
@@ -1132,6 +1182,7 @@ window.ANREVIEW_DATA = {
     "name": "Dr Juergen Meinecke",
     "school": "Research School of Economics",
     "schoolCode": "RSE",
+    "college": "CBE",
     "position": "Lecturer",
     "focus": "Econometrics, Economics",
     "email": "See ANU profile",
@@ -1155,6 +1206,7 @@ window.ANREVIEW_DATA = {
     "name": "Dr Marina Iskhakova",
     "school": "Research School of Economics",
     "schoolCode": "RSE",
+    "college": "CBE",
     "position": "Senior Lecturer",
     "focus": "Research School of Economics",
     "email": "See ANU profile",
@@ -1176,6 +1228,7 @@ window.ANREVIEW_DATA = {
     "name": "Dr Ruitian Lang",
     "school": "Research School of Economics",
     "schoolCode": "RSE",
+    "college": "CBE",
     "position": "Lecturer",
     "focus": "Economics",
     "email": "See ANU profile",
@@ -1198,6 +1251,7 @@ window.ANREVIEW_DATA = {
     "name": "Dr Sutanuka Roy",
     "school": "Research School of Economics",
     "schoolCode": "RSE",
+    "college": "CBE",
     "position": "Senior Lecturer, John Mitchell Fellow",
     "focus": "Research School of Economics",
     "email": "See ANU profile",
@@ -1219,6 +1273,7 @@ window.ANREVIEW_DATA = {
     "name": "Dr Timo Henckel",
     "school": "Research School of Economics",
     "schoolCode": "RSE",
+    "college": "CBE",
     "position": "Associate Professor",
     "focus": "Economics",
     "email": "See ANU profile",
@@ -1241,6 +1296,7 @@ window.ANREVIEW_DATA = {
     "name": "Dr Tina Kao",
     "school": "Research School of Economics",
     "schoolCode": "RSE",
+    "college": "CBE",
     "position": "Senior Lecturer",
     "focus": "Economics",
     "email": "See ANU profile",
@@ -1263,6 +1319,7 @@ window.ANREVIEW_DATA = {
     "name": "Dr Yijuan Chen",
     "school": "Research School of Economics",
     "schoolCode": "RSE",
+    "college": "CBE",
     "position": "Associate Professor",
     "focus": "Economics",
     "email": "See ANU profile",
@@ -1285,6 +1342,7 @@ window.ANREVIEW_DATA = {
     "name": "Emeritus Professor Bruce Chapman",
     "school": "Research School of Economics",
     "schoolCode": "RSE",
+    "college": "CBE",
     "position": "Sir Roland Wilson Chair of Economics",
     "focus": "Research School of Economics",
     "email": "See ANU profile",
@@ -1306,6 +1364,7 @@ window.ANREVIEW_DATA = {
     "name": "Matthew Lilley",
     "school": "Research School of Economics",
     "schoolCode": "RSE",
+    "college": "CBE",
     "position": "Lecturer",
     "focus": "Research School of Economics",
     "email": "See ANU profile",
@@ -1327,6 +1386,7 @@ window.ANREVIEW_DATA = {
     "name": "Motohiro Kumagai",
     "school": "Research School of Economics",
     "schoolCode": "RSE",
+    "college": "CBE",
     "position": "Lecturer",
     "focus": "Research School of Economics",
     "email": "See ANU profile",
@@ -1348,6 +1408,7 @@ window.ANREVIEW_DATA = {
     "name": "Paul Chen",
     "school": "Research School of Economics",
     "schoolCode": "RSE",
+    "college": "CBE",
     "position": "Honorary Associate Professor",
     "focus": "Economics",
     "email": "See ANU profile",
@@ -1370,6 +1431,7 @@ window.ANREVIEW_DATA = {
     "name": "Professor Alison Booth",
     "school": "Research School of Economics",
     "schoolCode": "RSE",
+    "college": "CBE",
     "position": "Professor of Economics",
     "focus": "Economics",
     "email": "See ANU profile",
@@ -1392,6 +1454,7 @@ window.ANREVIEW_DATA = {
     "name": "Professor Bob Gregory",
     "school": "Research School of Economics",
     "schoolCode": "RSE",
+    "college": "CBE",
     "position": "Emeritus Professor",
     "focus": "Research School of Economics",
     "email": "See ANU profile",
@@ -1413,6 +1476,7 @@ window.ANREVIEW_DATA = {
     "name": "Professor Fedor Iskhakov",
     "school": "Research School of Economics",
     "schoolCode": "RSE",
+    "college": "CBE",
     "position": "Professor",
     "focus": "Econometrics, Economics",
     "email": "See ANU profile",
@@ -1436,6 +1500,7 @@ window.ANREVIEW_DATA = {
     "name": "Professor George J Mailath",
     "school": "Research School of Economics",
     "schoolCode": "RSE",
+    "college": "CBE",
     "position": "Goldsmith Economics Chair",
     "focus": "Research School of Economics",
     "email": "See ANU profile",
@@ -1457,6 +1522,7 @@ window.ANREVIEW_DATA = {
     "name": "Professor Glenn Alexander Withers",
     "school": "Research School of Economics",
     "schoolCode": "RSE",
+    "college": "CBE",
     "position": "Academic",
     "focus": "Research School of Economics",
     "email": "See ANU profile",
@@ -1478,6 +1544,7 @@ window.ANREVIEW_DATA = {
     "name": "Professor John Stachurski",
     "school": "Research School of Economics",
     "schoolCode": "RSE",
+    "college": "CBE",
     "position": "Professor",
     "focus": "Econometrics, Economics, Statistics",
     "email": "See ANU profile",
@@ -1502,6 +1569,7 @@ window.ANREVIEW_DATA = {
     "name": "Professor Kailing Shen",
     "school": "Research School of Economics",
     "schoolCode": "RSE",
+    "college": "CBE",
     "position": "Professor",
     "focus": "Economics",
     "email": "See ANU profile",
@@ -1524,6 +1592,7 @@ window.ANREVIEW_DATA = {
     "name": "Professor Kieron Meagher",
     "school": "Research School of Economics",
     "schoolCode": "RSE",
+    "college": "CBE",
     "position": "Professor",
     "focus": "Economics",
     "email": "See ANU profile",
@@ -1546,6 +1615,7 @@ window.ANREVIEW_DATA = {
     "name": "Professor Markus Brueckner",
     "school": "Research School of Economics",
     "schoolCode": "RSE",
+    "college": "CBE",
     "position": "Professor",
     "focus": "Economics",
     "email": "See ANU profile",
@@ -1568,6 +1638,7 @@ window.ANREVIEW_DATA = {
     "name": "Professor Martin Richardson",
     "school": "Research School of Economics",
     "schoolCode": "RSE",
+    "college": "CBE",
     "position": "Professor",
     "focus": "Economics",
     "email": "See ANU profile",
@@ -1590,6 +1661,7 @@ window.ANREVIEW_DATA = {
     "name": "Professor Martine Mariotti",
     "school": "Research School of Economics",
     "schoolCode": "RSE",
+    "college": "CBE",
     "position": "Director - Research School of Economics",
     "focus": "Economic history, Economics",
     "email": "See ANU profile",
@@ -1613,6 +1685,7 @@ window.ANREVIEW_DATA = {
     "name": "Professor Michael Price",
     "school": "Research School of Economics",
     "schoolCode": "RSE",
+    "college": "CBE",
     "position": "Professor",
     "focus": "Research School of Economics",
     "email": "See ANU profile",
@@ -1634,6 +1707,7 @@ window.ANREVIEW_DATA = {
     "name": "Professor Rabee Tourky",
     "school": "Research School of Economics",
     "schoolCode": "RSE",
+    "college": "CBE",
     "position": "Trevor Swan Chair",
     "focus": "Economics",
     "email": "See ANU profile",
@@ -1656,6 +1730,7 @@ window.ANREVIEW_DATA = {
     "name": "Professor Rohan Pitchford",
     "school": "Research School of Economics",
     "schoolCode": "RSE",
+    "college": "CBE",
     "position": "Professor",
     "focus": "Economics",
     "email": "See ANU profile",
@@ -1678,6 +1753,7 @@ window.ANREVIEW_DATA = {
     "name": "Professor Simon Grant",
     "school": "Research School of Economics",
     "schoolCode": "RSE",
+    "college": "CBE",
     "position": "Professor and John C. Harsanyi Chair of Economics",
     "focus": "Economics",
     "email": "See ANU profile",
@@ -1700,6 +1776,7 @@ window.ANREVIEW_DATA = {
     "name": "Professor Tim Hatton",
     "school": "Research School of Economics",
     "schoolCode": "RSE",
+    "college": "CBE",
     "position": "Director of the Centre for Economic History",
     "focus": "Economic history, Economics",
     "email": "See ANU profile",
@@ -1723,6 +1800,7 @@ window.ANREVIEW_DATA = {
     "name": "Professor Xin Meng",
     "school": "Research School of Economics",
     "schoolCode": "RSE",
+    "college": "CBE",
     "position": "Professor",
     "focus": "Economics",
     "email": "See ANU profile",
@@ -1745,6 +1823,7 @@ window.ANREVIEW_DATA = {
     "name": "Ronald Stauber",
     "school": "Research School of Economics",
     "schoolCode": "RSE",
+    "college": "CBE",
     "position": "Associate Professor",
     "focus": "Economics",
     "email": "See ANU profile",
@@ -1767,6 +1846,7 @@ window.ANREVIEW_DATA = {
     "name": "Adam Nie",
     "school": "Research School of Finance, Actuarial Studies and Statistics",
     "schoolCode": "RSFAS",
+    "college": "CBE",
     "position": "Postdoctoral Fellow",
     "focus": "Statistics",
     "email": "See ANU profile",
@@ -1789,6 +1869,7 @@ window.ANREVIEW_DATA = {
     "name": "Associate Professor Aaron Bruhn",
     "school": "Research School of Finance, Actuarial Studies and Statistics",
     "schoolCode": "RSFAS",
+    "college": "CBE",
     "position": "Associate Professor",
     "focus": "Actuarial studies",
     "email": "See ANU profile",
@@ -1811,6 +1892,7 @@ window.ANREVIEW_DATA = {
     "name": "Associate Professor Adam Butt",
     "school": "Research School of Finance, Actuarial Studies and Statistics",
     "schoolCode": "RSFAS",
+    "college": "CBE",
     "position": "Associate Professor, Head of Actuarial Studies",
     "focus": "Actuarial studies",
     "email": "See ANU profile",
@@ -1833,6 +1915,7 @@ window.ANREVIEW_DATA = {
     "name": "Associate Professor Bronwen Whiting",
     "school": "Research School of Finance, Actuarial Studies and Statistics",
     "schoolCode": "RSFAS",
+    "college": "CBE",
     "position": "Associate Professor in Statistics, Director - ANU Postgraduate Studies",
     "focus": "Statistics",
     "email": "See ANU profile",
@@ -1855,6 +1938,7 @@ window.ANREVIEW_DATA = {
     "name": "Associate Professor Dale Roberts",
     "school": "Research School of Finance, Actuarial Studies and Statistics",
     "schoolCode": "RSFAS",
+    "college": "CBE",
     "position": "Associate Professor",
     "focus": "Statistics",
     "email": "See ANU profile",
@@ -1877,6 +1961,7 @@ window.ANREVIEW_DATA = {
     "name": "Associate Professor Francis Hui",
     "school": "Research School of Finance, Actuarial Studies and Statistics",
     "schoolCode": "RSFAS",
+    "college": "CBE",
     "position": "Associate Professor in Statistics",
     "focus": "Statistics",
     "email": "See ANU profile",
@@ -1899,6 +1984,7 @@ window.ANREVIEW_DATA = {
     "name": "Associate Professor Janice Scealy",
     "school": "Research School of Finance, Actuarial Studies and Statistics",
     "schoolCode": "RSFAS",
+    "college": "CBE",
     "position": "Associate Professor",
     "focus": "Statistics",
     "email": "See ANU profile",
@@ -1921,6 +2007,7 @@ window.ANREVIEW_DATA = {
     "name": "Associate Professor Jenni Bettman",
     "school": "Research School of Finance, Actuarial Studies and Statistics",
     "schoolCode": "RSFAS",
+    "college": "CBE",
     "position": "Associate Professor",
     "focus": "Finance",
     "email": "See ANU profile",
@@ -1943,6 +2030,7 @@ window.ANREVIEW_DATA = {
     "name": "Associate Professor Jo Drienko",
     "school": "Research School of Finance, Actuarial Studies and Statistics",
     "schoolCode": "RSFAS",
+    "college": "CBE",
     "position": "Deputy Director (Education)",
     "focus": "Finance",
     "email": "See ANU profile",
@@ -1965,6 +2053,7 @@ window.ANREVIEW_DATA = {
     "name": "Associate Professor Le Zhang",
     "school": "Research School of Finance, Actuarial Studies and Statistics",
     "schoolCode": "RSFAS",
+    "college": "CBE",
     "position": "Associate Professor",
     "focus": "Finance",
     "email": "See ANU profile",
@@ -1987,6 +2076,7 @@ window.ANREVIEW_DATA = {
     "name": "Associate Professor Phong Ngo",
     "school": "Research School of Finance, Actuarial Studies and Statistics",
     "schoolCode": "RSFAS",
+    "college": "CBE",
     "position": "Associate Professor",
     "focus": "Finance",
     "email": "See ANU profile",
@@ -2009,6 +2099,7 @@ window.ANREVIEW_DATA = {
     "name": "Associate Professor Robert Clark",
     "school": "Research School of Finance, Actuarial Studies and Statistics",
     "schoolCode": "RSFAS",
+    "college": "CBE",
     "position": "Associate Professor",
     "focus": "Statistics",
     "email": "See ANU profile",
@@ -2031,6 +2122,7 @@ window.ANREVIEW_DATA = {
     "name": "Associate Professor Tao Zou",
     "school": "Research School of Finance, Actuarial Studies and Statistics",
     "schoolCode": "RSFAS",
+    "college": "CBE",
     "position": "Associate Professor",
     "focus": "Statistics",
     "email": "See ANU profile",
@@ -2053,6 +2145,7 @@ window.ANREVIEW_DATA = {
     "name": "Associate Professor Tim Higgins",
     "school": "Research School of Finance, Actuarial Studies and Statistics",
     "schoolCode": "RSFAS",
+    "college": "CBE",
     "position": "Associate Professor, Associate Dean (Research)",
     "focus": "Actuarial studies",
     "email": "See ANU profile",
@@ -2075,6 +2168,7 @@ window.ANREVIEW_DATA = {
     "name": "Associate Professor Wai-Man (Raymond) Liu",
     "school": "Research School of Finance, Actuarial Studies and Statistics",
     "schoolCode": "RSFAS",
+    "college": "CBE",
     "position": "Associate Professor",
     "focus": "Finance",
     "email": "See ANU profile",
@@ -2097,6 +2191,7 @@ window.ANREVIEW_DATA = {
     "name": "Associate Professor Xianming Zhou",
     "school": "Research School of Finance, Actuarial Studies and Statistics",
     "schoolCode": "RSFAS",
+    "college": "CBE",
     "position": "Associate Professor",
     "focus": "Finance",
     "email": "See ANU profile",
@@ -2119,6 +2214,7 @@ window.ANREVIEW_DATA = {
     "name": "Associate Professor Xin (Kelly) Liu",
     "school": "Research School of Finance, Actuarial Studies and Statistics",
     "schoolCode": "RSFAS",
+    "college": "CBE",
     "position": "Associate Professor",
     "focus": "Finance",
     "email": "See ANU profile",
@@ -2141,6 +2237,7 @@ window.ANREVIEW_DATA = {
     "name": "Associate Professor Yanrong Yang",
     "school": "Research School of Finance, Actuarial Studies and Statistics",
     "schoolCode": "RSFAS",
+    "college": "CBE",
     "position": "Associate Professor",
     "focus": "Statistics",
     "email": "See ANU profile",
@@ -2163,6 +2260,7 @@ window.ANREVIEW_DATA = {
     "name": "Bao Anh Vu",
     "school": "Research School of Finance, Actuarial Studies and Statistics",
     "schoolCode": "RSFAS",
+    "college": "CBE",
     "position": "Postdoctoral Fellow",
     "focus": "Statistics",
     "email": "See ANU profile",
@@ -2185,6 +2283,7 @@ window.ANREVIEW_DATA = {
     "name": "Bridget Browne",
     "school": "Research School of Finance, Actuarial Studies and Statistics",
     "schoolCode": "RSFAS",
+    "college": "CBE",
     "position": "Senior Lecturer",
     "focus": "Actuarial studies",
     "email": "See ANU profile",
@@ -2207,6 +2306,7 @@ window.ANREVIEW_DATA = {
     "name": "Dr Alexander Vadilyev",
     "school": "Research School of Finance, Actuarial Studies and Statistics",
     "schoolCode": "RSFAS",
+    "college": "CBE",
     "position": "Senior Lecturer",
     "focus": "Finance",
     "email": "See ANU profile",
@@ -2229,6 +2329,7 @@ window.ANREVIEW_DATA = {
     "name": "Dr Anna von Reibnitz",
     "school": "Research School of Finance, Actuarial Studies and Statistics",
     "schoolCode": "RSFAS",
+    "college": "CBE",
     "position": "Senior Lecturer, Finance Masters Convenor",
     "focus": "Finance",
     "email": "See ANU profile",
@@ -2251,6 +2352,7 @@ window.ANREVIEW_DATA = {
     "name": "Dr Anton Westveld",
     "school": "Research School of Finance, Actuarial Studies and Statistics",
     "schoolCode": "RSFAS",
+    "college": "CBE",
     "position": "Senior Lecturer",
     "focus": "Statistics",
     "email": "See ANU profile",
@@ -2273,6 +2375,7 @@ window.ANREVIEW_DATA = {
     "name": "Dr Boris Buchmann",
     "school": "Research School of Finance, Actuarial Studies and Statistics",
     "schoolCode": "RSFAS",
+    "college": "CBE",
     "position": "Associate Professor",
     "focus": "Statistics",
     "email": "See ANU profile",
@@ -2295,6 +2398,7 @@ window.ANREVIEW_DATA = {
     "name": "Dr Bronwyn Loong",
     "school": "Research School of Finance, Actuarial Studies and Statistics",
     "schoolCode": "RSFAS",
+    "college": "CBE",
     "position": "Senior Lecturer",
     "focus": "Statistics",
     "email": "See ANU profile",
@@ -2317,6 +2421,7 @@ window.ANREVIEW_DATA = {
     "name": "Dr Chao Gao",
     "school": "Research School of Finance, Actuarial Studies and Statistics",
     "schoolCode": "RSFAS",
+    "college": "CBE",
     "position": "Senior Lecturer",
     "focus": "Finance",
     "email": "See ANU profile",
@@ -2339,6 +2444,7 @@ window.ANREVIEW_DATA = {
     "name": "Dr Chen Tang",
     "school": "Research School of Finance, Actuarial Studies and Statistics",
     "schoolCode": "RSFAS",
+    "college": "CBE",
     "position": "Lecturer",
     "focus": "Statistics",
     "email": "See ANU profile",
@@ -2361,6 +2467,7 @@ window.ANREVIEW_DATA = {
     "name": "Dr Daruo Xie",
     "school": "Research School of Finance, Actuarial Studies and Statistics",
     "schoolCode": "RSFAS",
+    "college": "CBE",
     "position": "Lecturer",
     "focus": "Finance",
     "email": "See ANU profile",
@@ -2383,6 +2490,7 @@ window.ANREVIEW_DATA = {
     "name": "Dr Dean Katselas",
     "school": "Research School of Finance, Actuarial Studies and Statistics",
     "schoolCode": "RSFAS",
+    "college": "CBE",
     "position": "Senior Lecturer",
     "focus": "Finance",
     "email": "See ANU profile",
@@ -2405,6 +2513,7 @@ window.ANREVIEW_DATA = {
     "name": "Dr Ding Ding",
     "school": "Research School of Finance, Actuarial Studies and Statistics",
     "schoolCode": "RSFAS",
+    "college": "CBE",
     "position": "Lecturer",
     "focus": "Finance",
     "email": "See ANU profile",
@@ -2427,6 +2536,7 @@ window.ANREVIEW_DATA = {
     "name": "Dr Emi Tanaka",
     "school": "Research School of Finance, Actuarial Studies and Statistics",
     "schoolCode": "RSFAS",
+    "college": "CBE",
     "position": "Senior Lecturer",
     "focus": "Statistics",
     "email": "See ANU profile",
@@ -2449,6 +2559,7 @@ window.ANREVIEW_DATA = {
     "name": "Dr Gaurav Khemka",
     "school": "Research School of Finance, Actuarial Studies and Statistics",
     "schoolCode": "RSFAS",
+    "college": "CBE",
     "position": "Associate Professor, HDR Convenor",
     "focus": "Actuarial studies",
     "email": "See ANU profile",
@@ -2471,6 +2582,7 @@ window.ANREVIEW_DATA = {
     "name": "Dr Gen Nowak",
     "school": "Research School of Finance, Actuarial Studies and Statistics",
     "schoolCode": "RSFAS",
+    "college": "CBE",
     "position": "Senior Lecturer",
     "focus": "Statistics",
     "email": "See ANU profile",
@@ -2493,6 +2605,7 @@ window.ANREVIEW_DATA = {
     "name": "Dr Hua Deng",
     "school": "Research School of Finance, Actuarial Studies and Statistics",
     "schoolCode": "RSFAS",
+    "college": "CBE",
     "position": "Lecturer",
     "focus": "Finance",
     "email": "See ANU profile",
@@ -2515,6 +2628,7 @@ window.ANREVIEW_DATA = {
     "name": "Dr Jacie Liu",
     "school": "Research School of Finance, Actuarial Studies and Statistics",
     "schoolCode": "RSFAS",
+    "college": "CBE",
     "position": "Senior Lecturer",
     "focus": "Actuarial studies",
     "email": "See ANU profile",
@@ -2537,6 +2651,7 @@ window.ANREVIEW_DATA = {
     "name": "Dr Jananie William",
     "school": "Research School of Finance, Actuarial Studies and Statistics",
     "schoolCode": "RSFAS",
+    "college": "CBE",
     "position": "Senior Lecturer",
     "focus": "Actuarial studies",
     "email": "See ANU profile",
@@ -2559,6 +2674,7 @@ window.ANREVIEW_DATA = {
     "name": "Dr Kevin Lu",
     "school": "Research School of Finance, Actuarial Studies and Statistics",
     "schoolCode": "RSFAS",
+    "college": "CBE",
     "position": "Lecturer",
     "focus": "Statistics",
     "email": "See ANU profile",
@@ -2581,6 +2697,7 @@ window.ANREVIEW_DATA = {
     "name": "Dr Kun Li",
     "school": "Research School of Finance, Actuarial Studies and Statistics",
     "schoolCode": "RSFAS",
+    "college": "CBE",
     "position": "Lecturer",
     "focus": "Finance",
     "email": "See ANU profile",
@@ -2603,6 +2720,7 @@ window.ANREVIEW_DATA = {
     "name": "Dr Laurence Field",
     "school": "Research School of Finance, Actuarial Studies and Statistics",
     "schoolCode": "RSFAS",
+    "college": "CBE",
     "position": "Lecturer",
     "focus": "Statistics",
     "email": "See ANU profile",
@@ -2625,6 +2743,7 @@ window.ANREVIEW_DATA = {
     "name": "Dr Le Chang",
     "school": "Research School of Finance, Actuarial Studies and Statistics",
     "schoolCode": "RSFAS",
+    "college": "CBE",
     "position": "Senior Lecturer",
     "focus": "Statistics",
     "email": "See ANU profile",
@@ -2647,6 +2766,7 @@ window.ANREVIEW_DATA = {
     "name": "Dr Lin Hu",
     "school": "Research School of Finance, Actuarial Studies and Statistics",
     "schoolCode": "RSFAS",
+    "college": "CBE",
     "position": "Senior Lecturer",
     "focus": "Finance",
     "email": "See ANU profile",
@@ -2669,6 +2789,7 @@ window.ANREVIEW_DATA = {
     "name": "Dr Luca Maestrini",
     "school": "Research School of Finance, Actuarial Studies and Statistics",
     "schoolCode": "RSFAS",
+    "college": "CBE",
     "position": "Senior Lecturer",
     "focus": "Statistics",
     "email": "See ANU profile",
@@ -2691,6 +2812,7 @@ window.ANREVIEW_DATA = {
     "name": "Dr Nhan Le",
     "school": "Research School of Finance, Actuarial Studies and Statistics",
     "schoolCode": "RSFAS",
+    "college": "CBE",
     "position": "Senior Lecturer",
     "focus": "Finance",
     "email": "See ANU profile",
@@ -2713,6 +2835,7 @@ window.ANREVIEW_DATA = {
     "name": "Dr Priya Dev",
     "school": "Research School of Finance, Actuarial Studies and Statistics",
     "schoolCode": "RSFAS",
+    "college": "CBE",
     "position": "Lecturer",
     "focus": "Statistics",
     "email": "See ANU profile",
@@ -2735,6 +2858,7 @@ window.ANREVIEW_DATA = {
     "name": "Dr Qiaoqiao Zhu",
     "school": "Research School of Finance, Actuarial Studies and Statistics",
     "schoolCode": "RSFAS",
+    "college": "CBE",
     "position": "Lecturer",
     "focus": "Finance",
     "email": "See ANU profile",
@@ -2757,6 +2881,7 @@ window.ANREVIEW_DATA = {
     "name": "Dr Shasta Shakya",
     "school": "Research School of Finance, Actuarial Studies and Statistics",
     "schoolCode": "RSFAS",
+    "college": "CBE",
     "position": "Senior Lecturer",
     "focus": "Finance",
     "email": "See ANU profile",
@@ -2779,6 +2904,7 @@ window.ANREVIEW_DATA = {
     "name": "Dr Tianyao (Terry) Zhang",
     "school": "Research School of Finance, Actuarial Studies and Statistics",
     "schoolCode": "RSFAS",
+    "college": "CBE",
     "position": "Senior Lecturer",
     "focus": "Finance",
     "email": "See ANU profile",
@@ -2801,6 +2927,7 @@ window.ANREVIEW_DATA = {
     "name": "Dr Xuan Liang",
     "school": "Research School of Finance, Actuarial Studies and Statistics",
     "schoolCode": "RSFAS",
+    "college": "CBE",
     "position": "Lecturer",
     "focus": "Statistics",
     "email": "See ANU profile",
@@ -2823,6 +2950,7 @@ window.ANREVIEW_DATA = {
     "name": "Dr Yichao Zhu",
     "school": "Research School of Finance, Actuarial Studies and Statistics",
     "schoolCode": "RSFAS",
+    "college": "CBE",
     "position": "Senior Lecturer",
     "focus": "Finance",
     "email": "See ANU profile",
@@ -2845,6 +2973,7 @@ window.ANREVIEW_DATA = {
     "name": "Dr Yuan Gao",
     "school": "Research School of Finance, Actuarial Studies and Statistics",
     "schoolCode": "RSFAS",
+    "college": "CBE",
     "position": "Associate Lecturer",
     "focus": "Statistics",
     "email": "See ANU profile",
@@ -2867,6 +2996,7 @@ window.ANREVIEW_DATA = {
     "name": "Mohammed Abdullah Al Mamun",
     "school": "Research School of Finance, Actuarial Studies and Statistics",
     "schoolCode": "RSFAS",
+    "college": "CBE",
     "position": "Lecturer",
     "focus": "Finance",
     "email": "See ANU profile",
@@ -2889,6 +3019,7 @@ window.ANREVIEW_DATA = {
     "name": "Mr Abhinav Mehta",
     "school": "Research School of Finance, Actuarial Studies and Statistics",
     "schoolCode": "RSFAS",
+    "college": "CBE",
     "position": "Associate Lecturer",
     "focus": "Research School of Finance, Actuarial Studies and Statistics",
     "email": "See ANU profile",
@@ -2910,6 +3041,7 @@ window.ANREVIEW_DATA = {
     "name": "Ning Wang",
     "school": "Research School of Finance, Actuarial Studies and Statistics",
     "schoolCode": "RSFAS",
+    "college": "CBE",
     "position": "Lecturer",
     "focus": "Actuarial studies",
     "email": "See ANU profile",
@@ -2932,6 +3064,7 @@ window.ANREVIEW_DATA = {
     "name": "Professor Alan Welsh",
     "school": "Research School of Finance, Actuarial Studies and Statistics",
     "schoolCode": "RSFAS",
+    "college": "CBE",
     "position": "E.J. Hannan Professor of Statistics",
     "focus": "Statistics",
     "email": "See ANU profile",
@@ -2954,6 +3087,7 @@ window.ANREVIEW_DATA = {
     "name": "Professor Andrew Wood",
     "school": "Research School of Finance, Actuarial Studies and Statistics",
     "schoolCode": "RSFAS",
+    "college": "CBE",
     "position": "Professor",
     "focus": "Statistics",
     "email": "See ANU profile",
@@ -2976,6 +3110,7 @@ window.ANREVIEW_DATA = {
     "name": "Professor Antje Berndt",
     "school": "Research School of Finance, Actuarial Studies and Statistics",
     "schoolCode": "RSFAS",
+    "college": "CBE",
     "position": "Professor",
     "focus": "Finance",
     "email": "See ANU profile",
@@ -2998,6 +3133,7 @@ window.ANREVIEW_DATA = {
     "name": "Professor Emma Schultz",
     "school": "Research School of Finance, Actuarial Studies and Statistics",
     "schoolCode": "RSFAS",
+    "college": "CBE",
     "position": "Professor",
     "focus": "Finance",
     "email": "See ANU profile",
@@ -3020,6 +3156,7 @@ window.ANREVIEW_DATA = {
     "name": "Professor Eric Stone",
     "school": "Research School of Finance, Actuarial Studies and Statistics",
     "schoolCode": "RSFAS",
+    "college": "CBE",
     "position": "Professor (Biology and RSFAS)",
     "focus": "Statistics",
     "email": "See ANU profile",
@@ -3042,6 +3179,7 @@ window.ANREVIEW_DATA = {
     "name": "Professor Giles Hooker",
     "school": "Research School of Finance, Actuarial Studies and Statistics",
     "schoolCode": "RSFAS",
+    "college": "CBE",
     "position": "Professor",
     "focus": "Research School of Finance, Actuarial Studies and Statistics",
     "email": "See ANU profile",
@@ -3063,6 +3201,7 @@ window.ANREVIEW_DATA = {
     "name": "Professor Michael Martin",
     "school": "Research School of Finance, Actuarial Studies and Statistics",
     "schoolCode": "RSFAS",
+    "college": "CBE",
     "position": "Professor",
     "focus": "Statistics",
     "email": "See ANU profile",
@@ -3085,6 +3224,7 @@ window.ANREVIEW_DATA = {
     "name": "Professor Steve Sault",
     "school": "Research School of Finance, Actuarial Studies and Statistics",
     "schoolCode": "RSFAS",
+    "college": "CBE",
     "position": "Director, Research School of Finance, Actuarial Studies and Statistics",
     "focus": "Finance",
     "email": "See ANU profile",
@@ -3107,6 +3247,7 @@ window.ANREVIEW_DATA = {
     "name": "Professor Steven Roberts",
     "school": "Research School of Finance, Actuarial Studies and Statistics",
     "schoolCode": "RSFAS",
+    "college": "CBE",
     "position": "Dean",
     "focus": "Statistics",
     "email": "See ANU profile",
@@ -3129,6 +3270,7 @@ window.ANREVIEW_DATA = {
     "name": "Professor Takeshi Yamada",
     "school": "Research School of Finance, Actuarial Studies and Statistics",
     "schoolCode": "RSFAS",
+    "college": "CBE",
     "position": "Professor, Head of Finance",
     "focus": "Finance",
     "email": "See ANU profile",
@@ -3151,6 +3293,7 @@ window.ANREVIEW_DATA = {
     "name": "Quan Vu",
     "school": "Research School of Finance, Actuarial Studies and Statistics",
     "schoolCode": "RSFAS",
+    "college": "CBE",
     "position": "Postdoctoral Fellow",
     "focus": "Statistics",
     "email": "See ANU profile",
@@ -3173,6 +3316,7 @@ window.ANREVIEW_DATA = {
     "name": "Sumonkanti Das",
     "school": "Research School of Finance, Actuarial Studies and Statistics",
     "schoolCode": "RSFAS",
+    "college": "CBE",
     "position": "Postdoctoral Fellow",
     "focus": "Statistics",
     "email": "See ANU profile",
@@ -3195,6 +3339,7 @@ window.ANREVIEW_DATA = {
     "name": "William Lim",
     "school": "Research School of Finance, Actuarial Studies and Statistics",
     "schoolCode": "RSFAS",
+    "college": "CBE",
     "position": "Lecturer",
     "focus": "Actuarial studies",
     "email": "See ANU profile",
@@ -3217,6 +3362,7 @@ window.ANREVIEW_DATA = {
     "name": "Zhi Yang Tho",
     "school": "Research School of Finance, Actuarial Studies and Statistics",
     "schoolCode": "RSFAS",
+    "college": "CBE",
     "position": "Postdoctoral Fellow",
     "focus": "Statistics",
     "email": "See ANU profile",
@@ -3239,6 +3385,7 @@ window.ANREVIEW_DATA = {
     "name": "Alex Tietge",
     "school": "Research School of Management",
     "schoolCode": "RSM",
+    "college": "CBE",
     "position": "Lecturer",
     "focus": "Research School of Management",
     "email": "See ANU profile",
@@ -3260,6 +3407,7 @@ window.ANREVIEW_DATA = {
     "name": "Associate Professor Alessandra Capezio",
     "school": "Research School of Management",
     "schoolCode": "RSM",
+    "college": "CBE",
     "position": "Associate Professor",
     "focus": "Business & business administration, Human resource management, Management, Organisational behaviour",
     "email": "See ANU profile",
@@ -3284,6 +3432,7 @@ window.ANREVIEW_DATA = {
     "name": "Associate Professor Alex Richardson",
     "school": "Research School of Management",
     "schoolCode": "RSM",
+    "college": "CBE",
     "position": "Associate Professor &amp; Deputy Director - Education",
     "focus": "Business & business administration, Business information systems, Commerce, Management",
     "email": "See ANU profile",
@@ -3308,6 +3457,7 @@ window.ANREVIEW_DATA = {
     "name": "Associate Professor Alexander Eapen",
     "school": "Research School of Management",
     "schoolCode": "RSM",
+    "college": "CBE",
     "position": "Associate Professor",
     "focus": "International business, Management, Strategy",
     "email": "See ANU profile",
@@ -3332,6 +3482,7 @@ window.ANREVIEW_DATA = {
     "name": "Associate Professor Ashkan Zarghami",
     "school": "Research School of Management",
     "schoolCode": "RSM",
+    "college": "CBE",
     "position": "Deputy Director - Research",
     "focus": "Project management",
     "email": "See ANU profile",
@@ -3354,6 +3505,7 @@ window.ANREVIEW_DATA = {
     "name": "Associate Professor Birgit Muskat",
     "school": "Research School of Management",
     "schoolCode": "RSM",
+    "college": "CBE",
     "position": "Associate Professor",
     "focus": "Entrepreneurship, Innovation, Management, Social entrepreneurship, Tourism",
     "email": "See ANU profile",
@@ -3378,6 +3530,7 @@ window.ANREVIEW_DATA = {
     "name": "Associate Professor David Cheng",
     "school": "Research School of Management",
     "schoolCode": "RSM",
+    "college": "CBE",
     "position": "Associate Professor",
     "focus": "Business & business administration, Human resource management, Leadership, Management, Organisational behaviour",
     "email": "See ANU profile",
@@ -3402,6 +3555,7 @@ window.ANREVIEW_DATA = {
     "name": "Associate Professor Patrick J.N. L'Espoir Decosta",
     "school": "Research School of Management",
     "schoolCode": "RSM",
+    "college": "CBE",
     "position": "Associate Professor",
     "focus": "Business & business administration, International business, Management, Marketing, Strategy, Tourism",
     "email": "See ANU profile",
@@ -3426,6 +3580,7 @@ window.ANREVIEW_DATA = {
     "name": "Associate Professor Pierre van der Eng",
     "school": "Research School of Management",
     "schoolCode": "RSM",
+    "college": "CBE",
     "position": "Associate Professor and Reader",
     "focus": "Business & business administration, Economic history, Economics, International business, Management, Strategy",
     "email": "See ANU profile",
@@ -3450,6 +3605,7 @@ window.ANREVIEW_DATA = {
     "name": "Associate Professor Thomas Kalliath",
     "school": "Research School of Management",
     "schoolCode": "RSM",
+    "college": "CBE",
     "position": "Honorary Associate Professor",
     "focus": "Management",
     "email": "See ANU profile",
@@ -3472,6 +3628,7 @@ window.ANREVIEW_DATA = {
     "name": "Dr \"EY\" Eun Young Song",
     "school": "Research School of Management",
     "schoolCode": "RSM",
+    "college": "CBE",
     "position": "Lecturer in organization studies",
     "focus": "Econometrics, Economic history, Organisation studies, Strategy",
     "email": "See ANU profile",
@@ -3496,6 +3653,7 @@ window.ANREVIEW_DATA = {
     "name": "Dr Alicia Gilchrist",
     "school": "Research School of Management",
     "schoolCode": "RSM",
+    "college": "CBE",
     "position": "Lecturer",
     "focus": "Organisational behaviour, Project management",
     "email": "See ANU profile",
@@ -3519,6 +3677,7 @@ window.ANREVIEW_DATA = {
     "name": "Dr Amir Riaz",
     "school": "Research School of Management",
     "schoolCode": "RSM",
+    "college": "CBE",
     "position": "Lecturer",
     "focus": "Business information systems",
     "email": "See ANU profile",
@@ -3541,6 +3700,7 @@ window.ANREVIEW_DATA = {
     "name": "Dr Andrew Bradly",
     "school": "Research School of Management",
     "schoolCode": "RSM",
+    "college": "CBE",
     "position": "Senior Lecturer in International Business",
     "focus": "Business & business administration, Corporate social responsibility, International business, Management",
     "email": "See ANU profile",
@@ -3565,6 +3725,7 @@ window.ANREVIEW_DATA = {
     "name": "Dr Andrew Hughes",
     "school": "Research School of Management",
     "schoolCode": "RSM",
+    "college": "CBE",
     "position": "Lecturer",
     "focus": "Management, Marketing",
     "email": "See ANU profile",
@@ -3588,6 +3749,7 @@ window.ANREVIEW_DATA = {
     "name": "Dr Anna Hartman",
     "school": "Research School of Management",
     "schoolCode": "RSM",
+    "college": "CBE",
     "position": "Lecturer",
     "focus": "Commerce, Entrepreneurship, Management, Marketing",
     "email": "See ANU profile",
@@ -3612,6 +3774,7 @@ window.ANREVIEW_DATA = {
     "name": "Dr Babita Bhatt",
     "school": "Research School of Management",
     "schoolCode": "RSM",
+    "college": "CBE",
     "position": "Senior Lecturer",
     "focus": "Entrepreneurship, Innovation, International business, Management, Organisation studies, Social entrepreneurship",
     "email": "See ANU profile",
@@ -3636,6 +3799,7 @@ window.ANREVIEW_DATA = {
     "name": "Dr Chao Ma",
     "school": "Research School of Management",
     "schoolCode": "RSM",
+    "college": "CBE",
     "position": "Honorary Associate Professor",
     "focus": "Business & business administration, Human resource management, Leadership, Management",
     "email": "See ANU profile",
@@ -3660,6 +3824,7 @@ window.ANREVIEW_DATA = {
     "name": "Dr Chirag Kasbekar",
     "school": "Research School of Management",
     "schoolCode": "RSM",
+    "college": "CBE",
     "position": "Lecturer",
     "focus": "Entrepreneurship, Innovation, International business, Strategy",
     "email": "See ANU profile",
@@ -3684,6 +3849,7 @@ window.ANREVIEW_DATA = {
     "name": "Dr Gary Buttriss",
     "school": "Research School of Management",
     "schoolCode": "RSM",
+    "college": "CBE",
     "position": "Honorary Senior Lecturer",
     "focus": "Corporate social responsibility, Corporate sustainability, Entrepreneurship, Innovation, International business, Management, Marketing, Organisational behaviour",
     "email": "See ANU profile",
@@ -3708,6 +3874,7 @@ window.ANREVIEW_DATA = {
     "name": "Dr Hongbo Guo",
     "school": "Research School of Management",
     "schoolCode": "RSM",
+    "college": "CBE",
     "position": "Postdoctoral Research Fellow",
     "focus": "Research School of Management",
     "email": "See ANU profile",
@@ -3729,6 +3896,7 @@ window.ANREVIEW_DATA = {
     "name": "Dr Karryna Madison",
     "school": "Research School of Management",
     "schoolCode": "RSM",
+    "college": "CBE",
     "position": "Lecturer in Leadership",
     "focus": "Leadership",
     "email": "See ANU profile",
@@ -3751,6 +3919,7 @@ window.ANREVIEW_DATA = {
     "name": "Dr Katerina Kormusheva",
     "school": "Research School of Management",
     "schoolCode": "RSM",
+    "college": "CBE",
     "position": "Lecturer and course convenor",
     "focus": "Business information systems, Entrepreneurship, Innovation, Marketing, Strategy",
     "email": "See ANU profile",
@@ -3775,6 +3944,7 @@ window.ANREVIEW_DATA = {
     "name": "Dr Kimin Eom",
     "school": "Research School of Management",
     "schoolCode": "RSM",
+    "college": "CBE",
     "position": "Senior Lecturer &amp; HDR convenor",
     "focus": "Corporate social responsibility, Corporate sustainability, Management, Organisational behaviour",
     "email": "See ANU profile",
@@ -3799,6 +3969,7 @@ window.ANREVIEW_DATA = {
     "name": "Dr Mark Buschgens",
     "school": "Research School of Management",
     "schoolCode": "RSM",
+    "college": "CBE",
     "position": "Lecturer",
     "focus": "Marketing",
     "email": "See ANU profile",
@@ -3821,6 +3992,7 @@ window.ANREVIEW_DATA = {
     "name": "Dr Nabila Nisha",
     "school": "Research School of Management",
     "schoolCode": "RSM",
+    "college": "CBE",
     "position": "Lecturer",
     "focus": "Marketing",
     "email": "See ANU profile",
@@ -3843,6 +4015,7 @@ window.ANREVIEW_DATA = {
     "name": "Dr Nghia Tran",
     "school": "Research School of Management",
     "schoolCode": "RSM",
+    "college": "CBE",
     "position": "Lecturer",
     "focus": "Business & business administration, Economics, Human resource management, Management, Project management",
     "email": "See ANU profile",
@@ -3867,6 +4040,7 @@ window.ANREVIEW_DATA = {
     "name": "Dr Nico Klenner",
     "school": "Research School of Management",
     "schoolCode": "RSM",
+    "college": "CBE",
     "position": "Lecturer in Innovation &amp; Entrepreneurship",
     "focus": "Entrepreneurship, Innovation, Management, Organisation studies",
     "email": "See ANU profile",
@@ -3891,6 +4065,7 @@ window.ANREVIEW_DATA = {
     "name": "Dr Priya Muthukannan",
     "school": "Research School of Management",
     "schoolCode": "RSM",
+    "college": "CBE",
     "position": "Lecturer",
     "focus": "Business information systems",
     "email": "See ANU profile",
@@ -3913,6 +4088,7 @@ window.ANREVIEW_DATA = {
     "name": "Dr Sally Curtis",
     "school": "Research School of Management",
     "schoolCode": "RSM",
+    "college": "CBE",
     "position": "Lecturer",
     "focus": "Corporate social responsibility, Leadership, Management, Organisation studies, Social entrepreneurship",
     "email": "See ANU profile",
@@ -3937,6 +4113,7 @@ window.ANREVIEW_DATA = {
     "name": "Dr Samira Nazar",
     "school": "Research School of Management",
     "schoolCode": "RSM",
+    "college": "CBE",
     "position": "Lecturer in Entrepreneurship",
     "focus": "Entrepreneurship, Innovation",
     "email": "See ANU profile",
@@ -3960,6 +4137,7 @@ window.ANREVIEW_DATA = {
     "name": "Dr Sarini Azizan",
     "school": "Research School of Management",
     "schoolCode": "RSM",
+    "college": "CBE",
     "position": "Lecturer in Business Management",
     "focus": "Research School of Management",
     "email": "See ANU profile",
@@ -3981,6 +4159,7 @@ window.ANREVIEW_DATA = {
     "name": "Dr Silviana Tana",
     "school": "Research School of Management",
     "schoolCode": "RSM",
+    "college": "CBE",
     "position": "Lecturer",
     "focus": "Business information systems",
     "email": "See ANU profile",
@@ -4003,6 +4182,7 @@ window.ANREVIEW_DATA = {
     "name": "Dr Stephen Dann",
     "school": "Research School of Management",
     "schoolCode": "RSM",
+    "college": "CBE",
     "position": "Marketing",
     "focus": "Research School of Management",
     "email": "See ANU profile",
@@ -4024,6 +4204,7 @@ window.ANREVIEW_DATA = {
     "name": "Dr Toni Eagar",
     "school": "Research School of Management",
     "schoolCode": "RSM",
+    "college": "CBE",
     "position": "Senior Lecturer",
     "focus": "Marketing, Tourism",
     "email": "See ANU profile",
@@ -4047,6 +4228,7 @@ window.ANREVIEW_DATA = {
     "name": "Masoud Afshari Mofrad",
     "school": "Research School of Management",
     "schoolCode": "RSM",
+    "college": "CBE",
     "position": "Postdoctoral Fellow",
     "focus": "Research School of Management",
     "email": "See ANU profile",
@@ -4068,6 +4250,7 @@ window.ANREVIEW_DATA = {
     "name": "Mr Devin Clementi",
     "school": "Research School of Management",
     "schoolCode": "RSM",
+    "college": "CBE",
     "position": "Lecturer",
     "focus": "Business information systems, Project management",
     "email": "See ANU profile",
@@ -4091,6 +4274,7 @@ window.ANREVIEW_DATA = {
     "name": "Mr Edward Russell",
     "school": "Research School of Management",
     "schoolCode": "RSM",
+    "college": "CBE",
     "position": "Senior Lecturer",
     "focus": "Business information systems, International business, Management, Project management, Strategy",
     "email": "See ANU profile",
@@ -4115,6 +4299,7 @@ window.ANREVIEW_DATA = {
     "name": "Mr Nguyen(Paul) Ngo",
     "school": "Research School of Management",
     "schoolCode": "RSM",
+    "college": "CBE",
     "position": "Associate Lecturer",
     "focus": "Business & business administration, International business",
     "email": "See ANU profile",
@@ -4138,6 +4323,7 @@ window.ANREVIEW_DATA = {
     "name": "Nick Wang",
     "school": "Research School of Management",
     "schoolCode": "RSM",
+    "college": "CBE",
     "position": "Honorary Associate Professor",
     "focus": "Entrepreneurship, Leadership, Management, Organisational behaviour",
     "email": "See ANU profile",
@@ -4162,6 +4348,7 @@ window.ANREVIEW_DATA = {
     "name": "Professor Des Nicholls",
     "school": "Research School of Management",
     "schoolCode": "RSM",
+    "college": "CBE",
     "position": "Emeritus Professor",
     "focus": "Business & business administration, Management, Marketing, Statistics",
     "email": "See ANU profile",
@@ -4186,6 +4373,7 @@ window.ANREVIEW_DATA = {
     "name": "Professor Giles Hirst",
     "school": "Research School of Management",
     "schoolCode": "RSM",
+    "college": "CBE",
     "position": "Professor of Leadership",
     "focus": "Innovation, Leadership, Organisational behaviour",
     "email": "See ANU profile",
@@ -4210,6 +4398,7 @@ window.ANREVIEW_DATA = {
     "name": "Professor Israr Qureshi",
     "school": "Research School of Management",
     "schoolCode": "RSM",
+    "college": "CBE",
     "position": "Professor",
     "focus": "Entrepreneurship",
     "email": "See ANU profile",
@@ -4232,6 +4421,7 @@ window.ANREVIEW_DATA = {
     "name": "Professor Lin Cui",
     "school": "Research School of Management",
     "schoolCode": "RSM",
+    "college": "CBE",
     "position": "Professor",
     "focus": "International business, Management, Strategy",
     "email": "See ANU profile",
@@ -4256,6 +4446,7 @@ window.ANREVIEW_DATA = {
     "name": "Professor Michael Lounsbury",
     "school": "Research School of Management",
     "schoolCode": "RSM",
+    "college": "CBE",
     "position": "Professor",
     "focus": "Entrepreneurship, Innovation, Management, Organisation studies, Social entrepreneurship",
     "email": "See ANU profile",
@@ -4280,6 +4471,7 @@ window.ANREVIEW_DATA = {
     "name": "Professor Ofer Zwikael",
     "school": "Research School of Management",
     "schoolCode": "RSM",
+    "college": "CBE",
     "position": "Professor",
     "focus": "Project management",
     "email": "See ANU profile",
@@ -4302,6 +4494,7 @@ window.ANREVIEW_DATA = {
     "name": "Professor Prashant Bordia",
     "school": "Research School of Management",
     "schoolCode": "RSM",
+    "college": "CBE",
     "position": "Professor",
     "focus": "Human resource management, Management, Organisational behaviour",
     "email": "See ANU profile",
@@ -4326,6 +4519,7 @@ window.ANREVIEW_DATA = {
     "name": "Professor Sarbari Bordia",
     "school": "Research School of Management",
     "schoolCode": "RSM",
+    "college": "CBE",
     "position": "Professor",
     "focus": "International business, Management, Organisational behaviour",
     "email": "See ANU profile",
@@ -4350,6 +4544,7 @@ window.ANREVIEW_DATA = {
     "name": "Professor Shirley Gregor",
     "school": "Research School of Management",
     "schoolCode": "RSM",
+    "college": "CBE",
     "position": "Professor Emerita",
     "focus": "Business information systems",
     "email": "See ANU profile",
@@ -4372,6 +4567,7 @@ window.ANREVIEW_DATA = {
     "name": "Professor Sigi Goode",
     "school": "Research School of Management",
     "schoolCode": "RSM",
+    "college": "CBE",
     "position": "Professor",
     "focus": "Business information systems, Project management",
     "email": "See ANU profile",
@@ -4395,6 +4591,7 @@ window.ANREVIEW_DATA = {
     "name": "Professor Vinh Lu",
     "school": "Research School of Management",
     "schoolCode": "RSM",
+    "college": "CBE",
     "position": "Director - Research School of Management",
     "focus": "Business & business administration, Commerce, International business, Management, Marketing",
     "email": "See ANU profile",
@@ -4419,6 +4616,7 @@ window.ANREVIEW_DATA = {
     "name": "Professor Ying-Yi Chih",
     "school": "Research School of Management",
     "schoolCode": "RSM",
+    "college": "CBE",
     "position": "Associate Dean (Students and Industry Experience)",
     "focus": "Management, Project management",
     "email": "See ANU profile",
@@ -4442,6 +4640,7 @@ window.ANREVIEW_DATA = {
     "name": "Akshaya Kamalnath",
     "school": "ANU Law School",
     "schoolCode": "LAW",
+    "college": "ANU Law School",
     "position": "Associate Professor",
     "focus": "Asian Law Commercial and Corporate Law Comparative Law",
     "email": "See ANU profile",
@@ -4464,6 +4663,7 @@ window.ANREVIEW_DATA = {
     "name": "Amelia Simpson",
     "school": "ANU Law School",
     "schoolCode": "LAW",
+    "college": "ANU Law School",
     "position": "Honorary Associate Professor",
     "focus": "Constitutional Law",
     "email": "See ANU profile",
@@ -4486,6 +4686,7 @@ window.ANREVIEW_DATA = {
     "name": "Andrew Macintosh",
     "school": "ANU Law School",
     "schoolCode": "LAW",
+    "college": "ANU Law School",
     "position": "Professor",
     "focus": "Administrative Law Environmental Law Law & Development",
     "email": "See ANU profile",
@@ -4508,6 +4709,7 @@ window.ANREVIEW_DATA = {
     "name": "Andrew Ray",
     "school": "ANU Law School",
     "schoolCode": "LAW",
+    "college": "ANU Law School",
     "position": "Visiting Fellow",
     "focus": "Law & Technology Legal Education",
     "email": "See ANU profile",
@@ -4530,6 +4732,7 @@ window.ANREVIEW_DATA = {
     "name": "Anna Saunders",
     "school": "ANU Law School",
     "schoolCode": "LAW",
+    "college": "ANU Law School",
     "position": "Lecturer",
     "focus": "Intellectual Property Law International Dispute Resolution International Economic Law",
     "email": "See ANU profile",
@@ -4552,6 +4755,7 @@ window.ANREVIEW_DATA = {
     "name": "Anne Macduff",
     "school": "ANU Law School",
     "schoolCode": "LAW",
+    "college": "ANU Law School",
     "position": "Honorary Senior Lecturer",
     "focus": "Australian Indigenous Rights Gender, Sexuality & the Law Law & Society",
     "email": "See ANU profile",
@@ -4575,6 +4779,7 @@ window.ANREVIEW_DATA = {
     "name": "Anne McNaughton",
     "school": "ANU Law School",
     "schoolCode": "LAW",
+    "college": "ANU Law School",
     "position": "Senior Lecturer",
     "focus": "European Law International Law Private Law",
     "email": "See ANU profile",
@@ -4597,6 +4802,7 @@ window.ANREVIEW_DATA = {
     "name": "Annika Reynolds (they/them)",
     "school": "ANU Law School",
     "schoolCode": "LAW",
+    "college": "ANU Law School",
     "position": "Visiting Fellow",
     "focus": "Environmental Law",
     "email": "See ANU profile",
@@ -4619,6 +4825,7 @@ window.ANREVIEW_DATA = {
     "name": "Anton Moiseienko",
     "school": "ANU Law School",
     "schoolCode": "LAW",
+    "college": "ANU Law School",
     "position": "Associate Professor",
     "focus": "Criminal Justice Criminal Law Financial Crime and Sanctions",
     "email": "See ANU profile",
@@ -4641,6 +4848,7 @@ window.ANREVIEW_DATA = {
     "name": "Asmi Wood",
     "school": "ANU Law School",
     "schoolCode": "LAW",
+    "college": "ANU Law School",
     "position": "Distinguished Professor",
     "focus": "Australian Indigenous Rights Constitutional Law International Indigenous Rights",
     "email": "See ANU profile",
@@ -4663,6 +4871,7 @@ window.ANREVIEW_DATA = {
     "name": "Barry Yau",
     "school": "ANU Law School",
     "schoolCode": "LAW",
+    "college": "ANU Law School",
     "position": "Honorary Senior Lecturer",
     "focus": "Legal Education",
     "email": "See ANU profile",
@@ -4685,6 +4894,7 @@ window.ANREVIEW_DATA = {
     "name": "Bill Boothby",
     "school": "ANU Law School",
     "schoolCode": "LAW",
+    "college": "ANU Law School",
     "position": "Honorary Professor",
     "focus": "International Law Law & Technology",
     "email": "See ANU profile",
@@ -4707,6 +4917,7 @@ window.ANREVIEW_DATA = {
     "name": "Bill Campbell",
     "school": "ANU Law School",
     "schoolCode": "LAW",
+    "college": "ANU Law School",
     "position": "Honorary Professor",
     "focus": "International Law",
     "email": "See ANU profile",
@@ -4729,6 +4940,7 @@ window.ANREVIEW_DATA = {
     "name": "Binota Moy Dhamai",
     "school": "ANU Law School",
     "schoolCode": "LAW",
+    "college": "ANU Law School",
     "position": "Postdoctoral Fellow",
     "focus": "International Indigenous Rights Law, Colonialism & Indigenous Justice",
     "email": "See ANU profile",
@@ -4752,6 +4964,7 @@ window.ANREVIEW_DATA = {
     "name": "Cameron Roles",
     "school": "ANU Law School",
     "schoolCode": "LAW",
+    "college": "ANU Law School",
     "position": "Senior Lecturer",
     "focus": "Labour Law Private Law",
     "email": "See ANU profile",
@@ -4774,6 +4987,7 @@ window.ANREVIEW_DATA = {
     "name": "Christopher Ward",
     "school": "ANU Law School",
     "schoolCode": "LAW",
+    "college": "ANU Law School",
     "position": "Honorary Professor",
     "focus": "International Law",
     "email": "See ANU profile",
@@ -4796,6 +5010,7 @@ window.ANREVIEW_DATA = {
     "name": "Clement Yongxi Chen",
     "school": "ANU Law School",
     "schoolCode": "LAW",
+    "college": "ANU Law School",
     "position": "Senior Lecturer",
     "focus": "Administrative Law Comparative Public Law Constitutional Law",
     "email": "See ANU profile",
@@ -4818,6 +5033,7 @@ window.ANREVIEW_DATA = {
     "name": "Darren FitzGerald",
     "school": "ANU Law School",
     "schoolCode": "LAW",
+    "college": "ANU Law School",
     "position": "Honorary Associate Professor",
     "focus": "Commercial and Corporate Law Courts & Tribunals International Law",
     "email": "See ANU profile",
@@ -4840,6 +5056,7 @@ window.ANREVIEW_DATA = {
     "name": "Darryn Jensen",
     "school": "ANU Law School",
     "schoolCode": "LAW",
+    "college": "ANU Law School",
     "position": "Honorary Senior Lecturer",
     "focus": "Legal Theory Private Law",
     "email": "See ANU profile",
@@ -4862,6 +5079,7 @@ window.ANREVIEW_DATA = {
     "name": "David Hambly",
     "school": "ANU Law School",
     "schoolCode": "LAW",
+    "college": "ANU Law School",
     "position": "Emeritus Professor",
     "focus": "Criminal Law",
     "email": "See ANU profile",
@@ -4884,6 +5102,7 @@ window.ANREVIEW_DATA = {
     "name": "David Letts",
     "school": "ANU Law School",
     "schoolCode": "LAW",
+    "college": "ANU Law School",
     "position": "Honorary Associate Professor",
     "focus": "International Law",
     "email": "See ANU profile",
@@ -4906,6 +5125,7 @@ window.ANREVIEW_DATA = {
     "name": "Dennis Pearce",
     "school": "ANU Law School",
     "schoolCode": "LAW",
+    "college": "ANU Law School",
     "position": "Emeritus Professor",
     "focus": "Administrative Law",
     "email": "See ANU profile",
@@ -4928,6 +5148,7 @@ window.ANREVIEW_DATA = {
     "name": "Desmond Manderson",
     "school": "ANU Law School",
     "schoolCode": "LAW",
+    "college": "ANU Law School",
     "position": "Professor",
     "focus": "Comparative Law Critical Legal Scholarship International Law",
     "email": "See ANU profile",
@@ -4950,6 +5171,7 @@ window.ANREVIEW_DATA = {
     "name": "Dominique Dalla-Pozza",
     "school": "ANU Law School",
     "schoolCode": "LAW",
+    "college": "ANU Law School",
     "position": "Senior Lecturer",
     "focus": "Administrative Law Constitutional Law Law & Politics",
     "email": "See ANU profile",
@@ -4972,6 +5194,7 @@ window.ANREVIEW_DATA = {
     "name": "Donald Anton",
     "school": "ANU Law School",
     "schoolCode": "LAW",
+    "college": "ANU Law School",
     "position": "Honorary Professor",
     "focus": "International Environmental Law",
     "email": "See ANU profile",
@@ -4994,6 +5217,7 @@ window.ANREVIEW_DATA = {
     "name": "Donald Butler",
     "school": "ANU Law School",
     "schoolCode": "LAW",
+    "college": "ANU Law School",
     "position": "Professor",
     "focus": "Environmental Law",
     "email": "See ANU profile",
@@ -5016,6 +5240,7 @@ window.ANREVIEW_DATA = {
     "name": "Donald Rothwell",
     "school": "ANU Law School",
     "schoolCode": "LAW",
+    "college": "ANU Law School",
     "position": "Professor",
     "focus": "International Law Law & Politics Law of the sea",
     "email": "See ANU profile",
@@ -5038,6 +5263,7 @@ window.ANREVIEW_DATA = {
     "name": "Elizabeth Curran",
     "school": "ANU Law School",
     "schoolCode": "LAW",
+    "college": "ANU Law School",
     "position": "Honorary Associate Professor",
     "focus": "International Human Rights Law Australian Indigenous Rights Law & Society",
     "email": "See ANU profile",
@@ -5060,6 +5286,7 @@ window.ANREVIEW_DATA = {
     "name": "Emma Aisbett",
     "school": "ANU Law School",
     "schoolCode": "LAW",
+    "college": "ANU Law School",
     "position": "Associate Professor",
     "focus": "Climate Change & Climate Finance Environment, Climate & Health Environmental Law",
     "email": "See ANU profile",
@@ -5083,6 +5310,7 @@ window.ANREVIEW_DATA = {
     "name": "Ernst Willheim",
     "school": "ANU Law School",
     "schoolCode": "LAW",
+    "college": "ANU Law School",
     "position": "Honorary Professor",
     "focus": "Administrative Law Australian Indigenous Rights Constitutional Law",
     "email": "See ANU profile",
@@ -5105,6 +5333,7 @@ window.ANREVIEW_DATA = {
     "name": "Esmé Shirlow",
     "school": "ANU Law School",
     "schoolCode": "LAW",
+    "college": "ANU Law School",
     "position": "Associate Professor",
     "focus": "International Dispute Resolution International Economic Law International Law",
     "email": "See ANU profile",
@@ -5127,6 +5356,7 @@ window.ANREVIEW_DATA = {
     "name": "Eve Lester",
     "school": "ANU Law School",
     "schoolCode": "LAW",
+    "college": "ANU Law School",
     "position": "DECRA Fellow",
     "focus": "Administrative Law International Human Rights Law International Law",
     "email": "See ANU profile",
@@ -5149,6 +5379,7 @@ window.ANREVIEW_DATA = {
     "name": "Faith Gordon",
     "school": "ANU Law School",
     "schoolCode": "LAW",
+    "college": "ANU Law School",
     "position": "Associate Professor",
     "focus": "Criminal Law Criminology Law & Technology",
     "email": "See ANU profile",
@@ -5171,6 +5402,7 @@ window.ANREVIEW_DATA = {
     "name": "Fiona Wheeler",
     "school": "ANU Law School",
     "schoolCode": "LAW",
+    "college": "ANU Law School",
     "position": "Emerita Professor",
     "focus": "Constitutional Law",
     "email": "See ANU profile",
@@ -5193,6 +5425,7 @@ window.ANREVIEW_DATA = {
     "name": "Fiona de Londras",
     "school": "ANU Law School",
     "schoolCode": "LAW",
+    "college": "ANU Law School",
     "position": "Honorary Professor",
     "focus": "Constitutional Law International Human Rights Law",
     "email": "See ANU profile",
@@ -5215,6 +5448,7 @@ window.ANREVIEW_DATA = {
     "name": "Greg Weeks",
     "school": "ANU Law School",
     "schoolCode": "LAW",
+    "college": "ANU Law School",
     "position": "Professor",
     "focus": "Administrative Law",
     "email": "See ANU profile",
@@ -5237,6 +5471,7 @@ window.ANREVIEW_DATA = {
     "name": "Gregor Urbas",
     "school": "ANU Law School",
     "schoolCode": "LAW",
+    "college": "ANU Law School",
     "position": "Honorary Associate Professor",
     "focus": "Criminal Law Law & Technology",
     "email": "See ANU profile",
@@ -5259,6 +5494,7 @@ window.ANREVIEW_DATA = {
     "name": "Heather Roberts",
     "school": "ANU Law School",
     "schoolCode": "LAW",
+    "college": "ANU Law School",
     "position": "Associate Professor",
     "focus": "Constitutional Law Courts & Tribunals Gender, Sexuality & the Law",
     "email": "See ANU profile",
@@ -5282,6 +5518,7 @@ window.ANREVIEW_DATA = {
     "name": "Hina Aslam",
     "school": "ANU Law School",
     "schoolCode": "LAW",
+    "college": "ANU Law School",
     "position": "Senior Lecturer",
     "focus": "Climate Change & Climate Finance Environment, Climate & Health Environmental Law",
     "email": "See ANU profile",
@@ -5305,6 +5542,7 @@ window.ANREVIEW_DATA = {
     "name": "Imogen Saunders",
     "school": "ANU Law School",
     "schoolCode": "LAW",
+    "college": "ANU Law School",
     "position": "Associate Professor",
     "focus": "International Law Law & Politics",
     "email": "See ANU profile",
@@ -5327,6 +5565,7 @@ window.ANREVIEW_DATA = {
     "name": "Izaskun Linazasoro Espinoza",
     "school": "ANU Law School",
     "schoolCode": "LAW",
+    "college": "ANU Law School",
     "position": "Visiting Fellow",
     "focus": "Administrative Law Constitutional Law Environmental Law",
     "email": "See ANU profile",
@@ -5349,6 +5588,7 @@ window.ANREVIEW_DATA = {
     "name": "James Fisher",
     "school": "ANU Law School",
     "schoolCode": "LAW",
+    "college": "ANU Law School",
     "position": "Senior Lecturer",
     "focus": "Asian Law Gender, Sexuality & the Law Law & Humanities",
     "email": "See ANU profile",
@@ -5372,6 +5612,7 @@ window.ANREVIEW_DATA = {
     "name": "James Popple",
     "school": "ANU Law School",
     "schoolCode": "LAW",
+    "college": "ANU Law School",
     "position": "Honorary Professor",
     "focus": "Administrative Law Constitutional Law Law & Technology",
     "email": "See ANU profile",
@@ -5394,6 +5635,7 @@ window.ANREVIEW_DATA = {
     "name": "Jane Stapleton",
     "school": "ANU Law School",
     "schoolCode": "LAW",
+    "college": "ANU Law School",
     "position": "Distinguished Professor",
     "focus": "Private Law",
     "email": "See ANU profile",
@@ -5416,6 +5658,7 @@ window.ANREVIEW_DATA = {
     "name": "Jason Chin",
     "school": "ANU Law School",
     "schoolCode": "LAW",
+    "college": "ANU Law School",
     "position": "Associate Professor",
     "focus": "Environment, Climate & Health Evidence Law, Science & Technology",
     "email": "See ANU profile",
@@ -5440,6 +5683,7 @@ window.ANREVIEW_DATA = {
     "name": "Jelena Gligorijevic",
     "school": "ANU Law School",
     "schoolCode": "LAW",
+    "college": "ANU Law School",
     "position": "Senior Lecturer",
     "focus": "Comparative Public Law Constitutional Law Media Law",
     "email": "See ANU profile",
@@ -5462,6 +5706,7 @@ window.ANREVIEW_DATA = {
     "name": "Jeremy Farrall",
     "school": "ANU Law School",
     "schoolCode": "LAW",
+    "college": "ANU Law School",
     "position": "Professor",
     "focus": "International Institution International Law Peace & Conflict",
     "email": "See ANU profile",
@@ -5484,6 +5729,7 @@ window.ANREVIEW_DATA = {
     "name": "Jessica Hambly",
     "school": "ANU Law School",
     "schoolCode": "LAW",
+    "college": "ANU Law School",
     "position": "Senior Lecturer",
     "focus": "Gender, Sexuality & the Law Health Law & Ethics International Refugee Law",
     "email": "See ANU profile",
@@ -5507,6 +5753,7 @@ window.ANREVIEW_DATA = {
     "name": "John McMillan",
     "school": "ANU Law School",
     "schoolCode": "LAW",
+    "college": "ANU Law School",
     "position": "Emeritus Professor",
     "focus": "Administrative Law Constitutional Law",
     "email": "See ANU profile",
@@ -5529,6 +5776,7 @@ window.ANREVIEW_DATA = {
     "name": "Jolyon Ford",
     "school": "ANU Law School",
     "schoolCode": "LAW",
+    "college": "ANU Law School",
     "position": "Professor",
     "focus": "Business & Human Rights International Human Rights Law Law & Politics",
     "email": "See ANU profile",
@@ -5551,6 +5799,7 @@ window.ANREVIEW_DATA = {
     "name": "Jonathan Liljeblad",
     "school": "ANU Law School",
     "schoolCode": "LAW",
+    "college": "ANU Law School",
     "position": "Associate Professor",
     "focus": "Comparative Law Environment, Climate & Health International Environmental Law",
     "email": "See ANU profile",
@@ -5574,6 +5823,7 @@ window.ANREVIEW_DATA = {
     "name": "Joshua Neoh",
     "school": "ANU Law School",
     "schoolCode": "LAW",
+    "college": "ANU Law School",
     "position": "Associate Professor",
     "focus": "Asian Law Jurisprudence Law & Humanities",
     "email": "See ANU profile",
@@ -5596,6 +5846,7 @@ window.ANREVIEW_DATA = {
     "name": "Judith Jones",
     "school": "ANU Law School",
     "schoolCode": "LAW",
+    "college": "ANU Law School",
     "position": "Associate Professor",
     "focus": "Environmental Law Law & Migration",
     "email": "See ANU profile",
@@ -5618,6 +5869,7 @@ window.ANREVIEW_DATA = {
     "name": "Justin McCaul",
     "school": "ANU Law School",
     "schoolCode": "LAW",
+    "college": "ANU Law School",
     "position": "Postdoctoral Fellow",
     "focus": "Australian Indigenous Rights International Human Rights Law International Indigenous Rights",
     "email": "See ANU profile",
@@ -5640,6 +5892,7 @@ window.ANREVIEW_DATA = {
     "name": "Kate Ogg",
     "school": "ANU Law School",
     "schoolCode": "LAW",
+    "college": "ANU Law School",
     "position": "Professor",
     "focus": "Comparative Law Gender, Sexuality & the Law International Human Rights Law",
     "email": "See ANU profile",
@@ -5663,6 +5916,7 @@ window.ANREVIEW_DATA = {
     "name": "Kieran Pender",
     "school": "ANU Law School",
     "schoolCode": "LAW",
+    "college": "ANU Law School",
     "position": "Honorary Senior Lecturer",
     "focus": "Constitutional Law",
     "email": "See ANU profile",
@@ -5685,6 +5939,7 @@ window.ANREVIEW_DATA = {
     "name": "Kim Rubenstein",
     "school": "ANU Law School",
     "schoolCode": "LAW",
+    "college": "ANU Law School",
     "position": "Honorary Professor",
     "focus": "Administrative Law Constitutional Law International Human Rights Law",
     "email": "See ANU profile",
@@ -5707,6 +5962,7 @@ window.ANREVIEW_DATA = {
     "name": "Leighton McDonald",
     "school": "ANU Law School",
     "schoolCode": "LAW",
+    "college": "ANU Law School",
     "position": "Professor",
     "focus": "Administrative Law Constitutional Law Jurisprudence",
     "email": "See ANU profile",
@@ -5729,6 +5985,7 @@ window.ANREVIEW_DATA = {
     "name": "Linda Mulcahy",
     "school": "ANU Law School",
     "schoolCode": "LAW",
+    "college": "ANU Law School",
     "position": "Honorary Professor",
     "focus": "Administrative Law Gender, Sexuality & the Law Private Law",
     "email": "See ANU profile",
@@ -5752,6 +6009,7 @@ window.ANREVIEW_DATA = {
     "name": "Lisa Strelein",
     "school": "ANU Law School",
     "schoolCode": "LAW",
+    "college": "ANU Law School",
     "position": "Honorary Professor",
     "focus": "International Human Rights Law Australian Indigenous Rights Legal Theory",
     "email": "See ANU profile",
@@ -5774,6 +6032,7 @@ window.ANREVIEW_DATA = {
     "name": "Lynn DuMoulin",
     "school": "ANU Law School",
     "schoolCode": "LAW",
+    "college": "ANU Law School",
     "position": "Honorary Associate Professor",
     "focus": "Legal Education",
     "email": "See ANU profile",
@@ -5796,6 +6055,7 @@ window.ANREVIEW_DATA = {
     "name": "Margaret Thornton",
     "school": "ANU Law School",
     "schoolCode": "LAW",
+    "college": "ANU Law School",
     "position": "Emerita Professor",
     "focus": "International Human Rights Law Gender, Sexuality & the Law Legal Education",
     "email": "See ANU profile",
@@ -5819,6 +6079,7 @@ window.ANREVIEW_DATA = {
     "name": "Marie Waschka",
     "school": "ANU Law School",
     "schoolCode": "LAW",
+    "college": "ANU Law School",
     "position": "Research Fellow",
     "focus": "Environmental Law",
     "email": "See ANU profile",
@@ -5841,6 +6102,7 @@ window.ANREVIEW_DATA = {
     "name": "Mark Nolan",
     "school": "ANU Law School",
     "schoolCode": "LAW",
+    "college": "ANU Law School",
     "position": "Honorary Professor",
     "focus": "Criminal Law International Human Rights Law Law & Society",
     "email": "See ANU profile",
@@ -5863,6 +6125,7 @@ window.ANREVIEW_DATA = {
     "name": "Matthew Neuhaus",
     "school": "ANU Law School",
     "schoolCode": "LAW",
+    "college": "ANU Law School",
     "position": "Honorary Professor",
     "focus": "International Law",
     "email": "See ANU profile",
@@ -5885,6 +6148,7 @@ window.ANREVIEW_DATA = {
     "name": "Matthew Zagor",
     "school": "ANU Law School",
     "schoolCode": "LAW",
+    "college": "ANU Law School",
     "position": "Associate Professor",
     "focus": "Comparative Public Law Constitutional Law International Law",
     "email": "See ANU profile",
@@ -5907,6 +6171,7 @@ window.ANREVIEW_DATA = {
     "name": "Michael Bliss",
     "school": "ANU Law School",
     "schoolCode": "LAW",
+    "college": "ANU Law School",
     "position": "Honorary Professor",
     "focus": "Criminal Law International Human Rights Law International Law",
     "email": "See ANU profile",
@@ -5929,6 +6194,7 @@ window.ANREVIEW_DATA = {
     "name": "Michael Kobetsky",
     "school": "ANU Law School",
     "schoolCode": "LAW",
+    "college": "ANU Law School",
     "position": "Honorary Professor",
     "focus": "International Law",
     "email": "See ANU profile",
@@ -5951,6 +6217,7 @@ window.ANREVIEW_DATA = {
     "name": "Michelle Worthington",
     "school": "ANU Law School",
     "schoolCode": "LAW",
+    "college": "ANU Law School",
     "position": "Lecturer",
     "focus": "Commercial and Corporate Law Law & Society Legal Education",
     "email": "See ANU profile",
@@ -5973,6 +6240,7 @@ window.ANREVIEW_DATA = {
     "name": "Mick Dodson",
     "school": "ANU Law School",
     "schoolCode": "LAW",
+    "college": "ANU Law School",
     "position": "Professor",
     "focus": "Australian Indigenous Rights",
     "email": "See ANU profile",
@@ -5995,6 +6263,7 @@ window.ANREVIEW_DATA = {
     "name": "Moeen Cheema",
     "school": "ANU Law School",
     "schoolCode": "LAW",
+    "college": "ANU Law School",
     "position": "Associate Professor",
     "focus": "Asian Law Comparative Public Law Constitutional Law",
     "email": "See ANU profile",
@@ -6017,6 +6286,7 @@ window.ANREVIEW_DATA = {
     "name": "Molly Townes O'Brien",
     "school": "ANU Law School",
     "schoolCode": "LAW",
+    "college": "ANU Law School",
     "position": "Honorary Associate Professor",
     "focus": "Criminal Law International Human Rights Law Law & Society",
     "email": "See ANU profile",
@@ -6039,6 +6309,7 @@ window.ANREVIEW_DATA = {
     "name": "Natasha Cica",
     "school": "ANU Law School",
     "schoolCode": "LAW",
+    "college": "ANU Law School",
     "position": "Honorary Professor",
     "focus": "Private Law Public Law",
     "email": "See ANU profile",
@@ -6061,6 +6332,7 @@ window.ANREVIEW_DATA = {
     "name": "Nicholas Seddon",
     "school": "ANU Law School",
     "schoolCode": "LAW",
+    "college": "ANU Law School",
     "position": "Honorary Professor",
     "focus": "Private Law",
     "email": "See ANU profile",
@@ -6083,6 +6355,7 @@ window.ANREVIEW_DATA = {
     "name": "Pauline Bomball",
     "school": "ANU Law School",
     "schoolCode": "LAW",
+    "college": "ANU Law School",
     "position": "Associate Professor",
     "focus": "Labour Law Law & Technology Private Law",
     "email": "See ANU profile",
@@ -6105,6 +6378,7 @@ window.ANREVIEW_DATA = {
     "name": "Pauline Ridge",
     "school": "ANU Law School",
     "schoolCode": "LAW",
+    "college": "ANU Law School",
     "position": "Professor",
     "focus": "Law & Religion Private Law",
     "email": "See ANU profile",
@@ -6127,6 +6401,7 @@ window.ANREVIEW_DATA = {
     "name": "Peta Spender",
     "school": "ANU Law School",
     "schoolCode": "LAW",
+    "college": "ANU Law School",
     "position": "Emerita Professor",
     "focus": "Gender, Sexuality & the Law Law & Society Private Law",
     "email": "See ANU profile",
@@ -6150,6 +6425,7 @@ window.ANREVIEW_DATA = {
     "name": "Peter Burnett",
     "school": "ANU Law School",
     "schoolCode": "LAW",
+    "college": "ANU Law School",
     "position": "Honorary Associate Professor",
     "focus": "Environmental Law Law & Development",
     "email": "See ANU profile",
@@ -6172,6 +6448,7 @@ window.ANREVIEW_DATA = {
     "name": "Peter Sutherland",
     "school": "ANU Law School",
     "schoolCode": "LAW",
+    "college": "ANU Law School",
     "position": "Visiting Fellow",
     "focus": "Administrative Law",
     "email": "See ANU profile",
@@ -6194,6 +6471,7 @@ window.ANREVIEW_DATA = {
     "name": "Philippa Ryan",
     "school": "ANU Law School",
     "schoolCode": "LAW",
+    "college": "ANU Law School",
     "position": "Honorary Associate Professor",
     "focus": "Legal Education Private Law",
     "email": "See ANU profile",
@@ -6216,6 +6494,7 @@ window.ANREVIEW_DATA = {
     "name": "Pounamu Jade Aikman",
     "school": "ANU Law School",
     "schoolCode": "LAW",
+    "college": "ANU Law School",
     "position": "Postdoctoral Fellow",
     "focus": "Criminal Justice International Indigenous Rights Law, Colonialism & Indigenous Justice",
     "email": "See ANU profile",
@@ -6239,6 +6518,7 @@ window.ANREVIEW_DATA = {
     "name": "R. Ian McEwin",
     "school": "ANU Law School",
     "schoolCode": "LAW",
+    "college": "ANU Law School",
     "position": "Honorary Professor",
     "focus": "Private Law",
     "email": "See ANU profile",
@@ -6261,6 +6541,7 @@ window.ANREVIEW_DATA = {
     "name": "Rebecca Monson",
     "school": "ANU Law School",
     "schoolCode": "LAW",
+    "college": "ANU Law School",
     "position": "Professor",
     "focus": "Critical Legal Scholarship Environment, Climate & Health Gender, Sexuality & the Law",
     "email": "See ANU profile",
@@ -6285,6 +6566,7 @@ window.ANREVIEW_DATA = {
     "name": "Rebekah McWhirter",
     "school": "ANU Law School",
     "schoolCode": "LAW",
+    "college": "ANU Law School",
     "position": "Associate Professor",
     "focus": "Australian Indigenous Rights Environment, Climate & Health Health Law & Ethics",
     "email": "See ANU profile",
@@ -6308,6 +6590,7 @@ window.ANREVIEW_DATA = {
     "name": "Richard Chisholm",
     "school": "ANU Law School",
     "schoolCode": "LAW",
+    "college": "ANU Law School",
     "position": "Honorary Professor",
     "focus": "Courts & Tribunals",
     "email": "See ANU profile",
@@ -6330,6 +6613,7 @@ window.ANREVIEW_DATA = {
     "name": "Richard Refshauge",
     "school": "ANU Law School",
     "schoolCode": "LAW",
+    "college": "ANU Law School",
     "position": "Honorary Professor",
     "focus": "Private Law",
     "email": "See ANU profile",
@@ -6352,6 +6636,7 @@ window.ANREVIEW_DATA = {
     "name": "Richard Rowe",
     "school": "ANU Law School",
     "schoolCode": "LAW",
+    "college": "ANU Law School",
     "position": "Honorary Professor",
     "focus": "International Law",
     "email": "See ANU profile",
@@ -6374,6 +6659,7 @@ window.ANREVIEW_DATA = {
     "name": "Robert French",
     "school": "ANU Law School",
     "schoolCode": "LAW",
+    "college": "ANU Law School",
     "position": "Distinguished Professor",
     "focus": "Public Law",
     "email": "See ANU profile",
@@ -6396,6 +6682,7 @@ window.ANREVIEW_DATA = {
     "name": "Robert McLaughlin",
     "school": "ANU Law School",
     "schoolCode": "LAW",
+    "college": "ANU Law School",
     "position": "Honorary Professor",
     "focus": "International Law",
     "email": "See ANU profile",
@@ -6418,6 +6705,7 @@ window.ANREVIEW_DATA = {
     "name": "Robin Creyke",
     "school": "ANU Law School",
     "schoolCode": "LAW",
+    "college": "ANU Law School",
     "position": "Emerita Professor",
     "focus": "Administrative Law Law & Development",
     "email": "See ANU profile",
@@ -6440,6 +6728,7 @@ window.ANREVIEW_DATA = {
     "name": "Ron Levy",
     "school": "ANU Law School",
     "schoolCode": "LAW",
+    "college": "ANU Law School",
     "position": "Professor",
     "focus": "Comparative Law Constitutional Law International Human Rights Law",
     "email": "See ANU profile",
@@ -6462,6 +6751,7 @@ window.ANREVIEW_DATA = {
     "name": "Ruoying Chen",
     "school": "ANU Law School",
     "schoolCode": "LAW",
+    "college": "ANU Law School",
     "position": "Senior Lecturer",
     "focus": "Administrative Law Asian Law Commercial and Corporate Law",
     "email": "See ANU profile",
@@ -6484,6 +6774,7 @@ window.ANREVIEW_DATA = {
     "name": "Sarah Heathcote",
     "school": "ANU Law School",
     "schoolCode": "LAW",
+    "college": "ANU Law School",
     "position": "Honorary Associate Professor",
     "focus": "International Law",
     "email": "See ANU profile",
@@ -6506,6 +6797,7 @@ window.ANREVIEW_DATA = {
     "name": "Saule Burkitbayeva",
     "school": "ANU Law School",
     "schoolCode": "LAW",
+    "college": "ANU Law School",
     "position": "Senior Lecturer",
     "focus": "Climate Change & Climate Finance Environmental Law International Economic Law",
     "email": "See ANU profile",
@@ -6528,6 +6820,7 @@ window.ANREVIEW_DATA = {
     "name": "Scott Chamberlain",
     "school": "ANU Law School",
     "schoolCode": "LAW",
+    "college": "ANU Law School",
     "position": "Entrepreneurial Fellow",
     "focus": "Law & Technology",
     "email": "See ANU profile",
@@ -6550,6 +6843,7 @@ window.ANREVIEW_DATA = {
     "name": "Solene Rowan",
     "school": "ANU Law School",
     "schoolCode": "LAW",
+    "college": "ANU Law School",
     "position": "Honorary Professor",
     "focus": "Private Law",
     "email": "See ANU profile",
@@ -6572,6 +6866,7 @@ window.ANREVIEW_DATA = {
     "name": "Stephen Bottomley",
     "school": "ANU Law School",
     "schoolCode": "LAW",
+    "college": "ANU Law School",
     "position": "Emeritus Professor",
     "focus": "Law & Society Legal Theory Private Law",
     "email": "See ANU profile",
@@ -6594,6 +6889,7 @@ window.ANREVIEW_DATA = {
     "name": "Stephen Thomson",
     "school": "ANU Law School",
     "schoolCode": "LAW",
+    "college": "ANU Law School",
     "position": "Associate Professor",
     "focus": "Administrative Law Constitutional Law Health, Law and Bioethics",
     "email": "See ANU profile",
@@ -6617,6 +6913,7 @@ window.ANREVIEW_DATA = {
     "name": "Susan Bartie",
     "school": "ANU Law School",
     "schoolCode": "LAW",
+    "college": "ANU Law School",
     "position": "Senior Lecturer",
     "focus": "Comparative Law Environment, Climate & Health Environmental Law",
     "email": "See ANU profile",
@@ -6640,6 +6937,7 @@ window.ANREVIEW_DATA = {
     "name": "Tim Bonyhady",
     "school": "ANU Law School",
     "schoolCode": "LAW",
+    "college": "ANU Law School",
     "position": "Emeritus Professor",
     "focus": "Environmental Law Law & Migration",
     "email": "See ANU profile",
@@ -6662,6 +6960,7 @@ window.ANREVIEW_DATA = {
     "name": "Tony Foley",
     "school": "ANU Law School",
     "schoolCode": "LAW",
+    "college": "ANU Law School",
     "position": "Emeritus Professor",
     "focus": "The Legal Profession",
     "email": "See ANU profile",
@@ -6684,6 +6983,7 @@ window.ANREVIEW_DATA = {
     "name": "Vivien Holmes",
     "school": "ANU Law School",
     "schoolCode": "LAW",
+    "college": "ANU Law School",
     "position": "Professor",
     "focus": "Environment, Climate & Health Government Lawyers Legal Education",
     "email": "See ANU profile",
@@ -6707,6 +7007,7 @@ window.ANREVIEW_DATA = {
     "name": "Wanshu Cong",
     "school": "ANU Law School",
     "schoolCode": "LAW",
+    "college": "ANU Law School",
     "position": "Lecturer",
     "focus": "Critical Legal Scholarship International Institution International Law",
     "email": "See ANU profile",
@@ -6729,6 +7030,7 @@ window.ANREVIEW_DATA = {
     "name": "Wayne Morgan",
     "school": "ANU Law School",
     "schoolCode": "LAW",
+    "college": "ANU Law School",
     "position": "Associate Professor",
     "focus": "Gender, Sexuality & the Law International Human Rights Law International Law",
     "email": "See ANU profile",
@@ -6752,6 +7054,7 @@ window.ANREVIEW_DATA = {
     "name": "Wenting Cheng",
     "school": "ANU Law School",
     "schoolCode": "LAW",
+    "college": "ANU Law School",
     "position": "Grand Challenges Fellow",
     "focus": "Environmental Law International Law",
     "email": "See ANU profile",
@@ -6774,6 +7077,7 @@ window.ANREVIEW_DATA = {
     "name": "Will Bateman",
     "school": "ANU Law School",
     "schoolCode": "LAW",
+    "college": "ANU Law School",
     "position": "Professor",
     "focus": "Administrative Law Comparative Public Law Constitutional Law",
     "email": "See ANU profile",
@@ -6791,19 +7095,440 @@ window.ANREVIEW_DATA = {
     ]
   },
   {
+    "id": "about",
+    "type": "academic",
+    "name": "Alia Parker",
+    "school": "School of Art & Design",
+    "schoolCode": "CASS",
+    "college": "CASS",
+    "position": "Lecturer, School of Art & Design",
+    "focus": "School of Art & Design",
+    "email": "Alia.Parker@anu.edu.au",
+    "office": "School of Art & Design",
+    "profileUrl": "https://www.aliajaneparker.com/about",
+    "tags": [
+      "cass",
+      "school of art & design"
+    ],
+    "linkedCourses": [],
+    "reviewMetrics": [
+      "Clarity",
+      "Support",
+      "Engagement"
+    ]
+  },
+  {
+    "id": "ashley-eriksmoen",
+    "type": "academic",
+    "name": "Ashley Eriksmoen",
+    "school": "ANU College of Arts and Social Sciences",
+    "schoolCode": "CASS",
+    "college": "CASS",
+    "position": "Senior Lecturer, Furniture",
+    "focus": "ANU College of Arts and Social Sciences",
+    "email": "ashley.eriksmoen@anu.edu.au",
+    "office": "ANU College of Arts and Social Sciences",
+    "profileUrl": "https://researchportalplus.anu.edu.au/en/persons/ashley-eriksmoen",
+    "tags": [
+      "cass",
+      "anu college of arts and social s"
+    ],
+    "linkedCourses": [],
+    "reviewMetrics": [
+      "Clarity",
+      "Support",
+      "Engagement"
+    ]
+  },
+  {
+    "id": "alastair-greig",
+    "type": "academic",
+    "name": "Associate Professor Alastair Greig",
+    "school": "School of Sociology",
+    "schoolCode": "CASS",
+    "college": "CASS",
+    "position": "Emeritus Fellow, School of Sociology",
+    "focus": "School of Sociology",
+    "email": "alastair.greig@anu.edu.au",
+    "office": "School of Sociology",
+    "profileUrl": "https://researchportalplus.anu.edu.au/en/persons/alastair-greig",
+    "tags": [
+      "cass",
+      "school of sociology"
+    ],
+    "linkedCourses": [],
+    "reviewMetrics": [
+      "Clarity",
+      "Support",
+      "Engagement"
+    ]
+  },
+  {
+    "id": "alder-aj",
+    "type": "academic",
+    "name": "Associate Professor Alison Alder",
+    "school": "ANU College of Arts and Social Sciences",
+    "schoolCode": "CASS",
+    "college": "CASS",
+    "position": "Honorary Associate Professor, Printmedia & Drawing",
+    "focus": "ANU College of Arts and Social Sciences",
+    "email": "alison.alder@anu.edu.au",
+    "office": "ANU College of Arts and Social Sciences",
+    "profileUrl": "https://researchers.anu.edu.au/researchers/alder-aj",
+    "tags": [
+      "cass",
+      "anu college of arts and social s"
+    ],
+    "linkedCourses": [],
+    "reviewMetrics": [
+      "Clarity",
+      "Support",
+      "Engagement"
+    ]
+  },
+  {
+    "id": "ben-phillips",
+    "type": "academic",
+    "name": "Associate Professor Ben Phillips",
+    "school": "ANU College of Arts and Social Sciences",
+    "schoolCode": "CASS",
+    "college": "CASS",
+    "position": "Principal Research Fellow, Modelling Team",
+    "focus": "ANU College of Arts and Social Sciences",
+    "email": "ben.phillips@anu.edu.au",
+    "office": "ANU College of Arts and Social Sciences",
+    "profileUrl": "https://researchportalplus.anu.edu.au/en/persons/ben-phillips",
+    "tags": [
+      "cass",
+      "anu college of arts and social s"
+    ],
+    "linkedCourses": [],
+    "reviewMetrics": [
+      "Clarity",
+      "Support",
+      "Engagement"
+    ]
+  },
+  {
+    "id": "bernard-baffour",
+    "type": "academic",
+    "name": "Associate Professor Bernard Baffour",
+    "school": "School of Demography",
+    "schoolCode": "CASS",
+    "college": "CASS",
+    "position": "Associate Professor, School of Demography",
+    "focus": "School of Demography",
+    "email": "bernard.baffour@anu.edu.au",
+    "office": "School of Demography",
+    "profileUrl": "https://researchportalplus.anu.edu.au/en/persons/bernard-baffour",
+    "tags": [
+      "cass",
+      "school of demography"
+    ],
+    "linkedCourses": [],
+    "reviewMetrics": [
+      "Clarity",
+      "Support",
+      "Engagement"
+    ]
+  },
+  {
+    "id": "bronwyn-finnigan",
+    "type": "academic",
+    "name": "Associate Professor Bronwyn Finnigan",
+    "school": "Centre for Moral",
+    "schoolCode": "CASS",
+    "college": "CASS",
+    "position": "Associate Professor, Centre for Moral, Social and Political Theory",
+    "focus": "Centre for Moral",
+    "email": "bronwyn.finnigan@anu.edu.au",
+    "office": "Centre for Moral",
+    "profileUrl": "https://researchportalplus.anu.edu.au/en/persons/bronwyn-finnigan",
+    "tags": [
+      "cass",
+      "centre for moral"
+    ],
+    "linkedCourses": [],
+    "reviewMetrics": [
+      "Clarity",
+      "Support",
+      "Engagement"
+    ]
+  },
+  {
+    "id": "carmel-oshannessy",
+    "type": "academic",
+    "name": "Associate Professor Carmel O'Shannessy",
+    "school": "School of Literature",
+    "schoolCode": "CASS",
+    "college": "CASS",
+    "position": "Senior Lecturer, Linguistics, School of Literature, Languages and Linguistics",
+    "focus": "Senior Lecturer, Linguistics, School of Literature, Languages and Linguistics, Associate Professor, Linguistics & Applied Linguistics",
+    "email": "Carmel.Oshannessy@anu.edu.au",
+    "office": "School of Literature",
+    "profileUrl": "https://researchportalplus.anu.edu.au/en/persons/carmel-oshannessy",
+    "tags": [
+      "cass",
+      "senior lecturer",
+      "linguistics",
+      "school of literature"
+    ],
+    "linkedCourses": [],
+    "reviewMetrics": [
+      "Clarity",
+      "Support",
+      "Engagement"
+    ]
+  },
+  {
+    "id": "caroline-schuster",
+    "type": "academic",
+    "name": "Associate Professor Caroline Schuster",
+    "school": "Development Studies",
+    "schoolCode": "CASS",
+    "college": "CASS",
+    "position": "Lecturer in Development Studies, Development Studies",
+    "focus": "Lecturer in Anthropology & Head of Discipline - Anthropology, Anthropology",
+    "email": "caroline.schuster@anu.edu.au",
+    "office": "Development Studies",
+    "profileUrl": "https://researchportalplus.anu.edu.au/en/persons/caroline-schuster",
+    "tags": [
+      "cass",
+      "lecturer in anthropology & head ",
+      "anthropology"
+    ],
+    "linkedCourses": [],
+    "reviewMetrics": [
+      "Clarity",
+      "Support",
+      "Engagement"
+    ]
+  },
+  {
+    "id": "cate-frieman",
+    "type": "academic",
+    "name": "Associate Professor Catherine J. Frieman",
+    "school": "ANU College of Arts and Social Sciences",
+    "schoolCode": "CASS",
+    "college": "CASS",
+    "position": "Senior Lecturer in Archaeology, Archaeology",
+    "focus": "ANU College of Arts and Social Sciences",
+    "email": "catherine.frieman@anu.edu.au",
+    "office": "ANU College of Arts and Social Sciences",
+    "profileUrl": "https://researchportalplus.anu.edu.au/en/persons/cate-frieman",
+    "tags": [
+      "cass",
+      "anu college of arts and social s"
+    ],
+    "linkedCourses": [],
+    "reviewMetrics": [
+      "Clarity",
+      "Support",
+      "Engagement"
+    ]
+  },
+  {
+    "id": "chaitanya-sambrani",
+    "type": "academic",
+    "name": "Associate Professor Chaitanya Sambrani",
+    "school": "Centre for Art History & Art Theory",
+    "schoolCode": "CASS",
+    "college": "CASS",
+    "position": "Associate Professor, Centre for Art History & Art Theory",
+    "focus": "Associate Professor, Centre for Art History & Art Theory",
+    "email": "chaitanya.sambrani@anu.edu.au",
+    "office": "Centre for Art History & Art Theory",
+    "profileUrl": "https://researchportalplus.anu.edu.au/en/persons/chaitanya-sambrani",
+    "tags": [
+      "cass",
+      "associate professor",
+      "centre for art history & art the"
+    ],
+    "linkedCourses": [],
+    "reviewMetrics": [
+      "Clarity",
+      "Support",
+      "Engagement"
+    ]
+  },
+  {
+    "id": "galloway-ck",
+    "type": "academic",
+    "name": "Associate Professor Charlotte Galloway",
+    "school": "School of Art & Design",
+    "schoolCode": "CASS",
+    "college": "CASS",
+    "position": "Honorary Associate Professor, School of Art & Design",
+    "focus": "School of Art & Design",
+    "email": "charlotte.galloway@anu.edu.au",
+    "office": "School of Art & Design",
+    "profileUrl": "https://researchers.anu.edu.au/researchers/galloway-ck",
+    "tags": [
+      "cass",
+      "school of art & design"
+    ],
+    "linkedCourses": [],
+    "reviewMetrics": [
+      "Clarity",
+      "Support",
+      "Engagement"
+    ]
+  },
+  {
+    "id": "christopher-ewing.html",
+    "type": "academic",
+    "name": "Associate Professor Christopher EWING",
+    "school": "ANU College of Arts and Social Sciences",
+    "schoolCode": "CASS",
+    "college": "CASS",
+    "position": "HRC/Freilich Visiting Fellow (Nov-Dec 2024), Freilich Project for the Study of Bigotry",
+    "focus": "ANU College of Arts and Social Sciences",
+    "email": "See ANU profile",
+    "office": "ANU College of Arts and Social Sciences",
+    "profileUrl": "https://www.cla.purdue.edu/directory/profiles/christopher-ewing.html",
+    "tags": [
+      "cass",
+      "anu college of arts and social s"
+    ],
+    "linkedCourses": [],
+    "reviewMetrics": [
+      "Clarity",
+      "Support",
+      "Engagement"
+    ]
+  },
+  {
+    "id": "collin-payne",
+    "type": "academic",
+    "name": "Associate Professor Collin Payne",
+    "school": "School of Demography",
+    "schoolCode": "CASS",
+    "college": "CASS",
+    "position": "ARC DECRA and Associate Professor, School of Demography",
+    "focus": "School of Demography",
+    "email": "collin.payne@anu.edu.au",
+    "office": "School of Demography",
+    "profileUrl": "https://researchportalplus.anu.edu.au/en/persons/collin-payne",
+    "tags": [
+      "cass",
+      "school of demography"
+    ],
+    "linkedCourses": [],
+    "reviewMetrics": [
+      "Clarity",
+      "Support",
+      "Engagement"
+    ]
+  },
+  {
+    "id": "duncan-wright",
+    "type": "academic",
+    "name": "Associate Professor Duncan Wright",
+    "school": "ANU College of Arts and Social Sciences",
+    "schoolCode": "CASS",
+    "college": "CASS",
+    "position": "Associate Professor in Archaeology, Archaeology",
+    "focus": "ANU College of Arts and Social Sciences",
+    "email": "duncan.wright@anu.edu.au",
+    "office": "ANU College of Arts and Social Sciences",
+    "profileUrl": "https://researchportalplus.anu.edu.au/en/persons/duncan-wright",
+    "tags": [
+      "cass",
+      "anu college of arts and social s"
+    ],
+    "linkedCourses": [],
+    "reviewMetrics": [
+      "Clarity",
+      "Support",
+      "Engagement"
+    ]
+  },
+  {
+    "id": "francesco-ricatti",
+    "type": "academic",
+    "name": "Associate Professor Francesco Ricatti",
+    "school": "Italian Studies",
+    "schoolCode": "CASS",
+    "college": "CASS",
+    "position": "Associate Professor, Italian Studies, School of Literature, Languages and Linguistics",
+    "focus": "Associate Professor, Italian Studies, School of Literature, Languages and Linguistics, Associate Professor, Languages",
+    "email": "Francesco.Ricatti@anu.edu.au",
+    "office": "Italian Studies",
+    "profileUrl": "https://researchportalplus.anu.edu.au/en/persons/francesco-ricatti",
+    "tags": [
+      "cass",
+      "associate professor",
+      "italian studies",
+      "school of literature"
+    ],
+    "linkedCourses": [],
+    "reviewMetrics": [
+      "Clarity",
+      "Support",
+      "Engagement"
+    ]
+  },
+  {
+    "id": "gavin-smith",
+    "type": "academic",
+    "name": "Associate Professor Gavin Smith",
+    "school": "School of Sociology",
+    "schoolCode": "CASS",
+    "college": "CASS",
+    "position": "Head of School, Associate Professor, School of Sociology",
+    "focus": "School of Sociology",
+    "email": "gavin.smith@anu.edu.au",
+    "office": "School of Sociology",
+    "profileUrl": "https://researchportalplus.anu.edu.au/en/persons/gavin-smith",
+    "tags": [
+      "cass",
+      "school of sociology"
+    ],
+    "linkedCourses": [],
+    "reviewMetrics": [
+      "Clarity",
+      "Support",
+      "Engagement"
+    ]
+  },
+  {
+    "id": "grant-walton",
+    "type": "academic",
+    "name": "Associate Professor Grant Walton",
+    "school": "ANU College of Arts and Social Sciences",
+    "schoolCode": "CASS",
+    "college": "CASS",
+    "position": "Associate Professor, Transnational Research Institute on Corruption",
+    "focus": "ANU College of Arts and Social Sciences",
+    "email": "grant.walton@anu.edu.au",
+    "office": "ANU College of Arts and Social Sciences",
+    "profileUrl": "https://crawford.anu.edu.au/people/academic/grant-walton",
+    "tags": [
+      "cass",
+      "anu college of arts and social s"
+    ],
+    "linkedCourses": [],
+    "reviewMetrics": [
+      "Clarity",
+      "Support",
+      "Engagement"
+    ]
+  },
+  {
     "id": "jana-von-stein",
     "type": "academic",
     "name": "Associate Professor Jana von Stein",
-    "school": "School of Politics and International Relations",
-    "schoolCode": "SPIR",
+    "school": "School of Politics & International Relations",
+    "schoolCode": "CASS",
+    "college": "CASS",
     "position": "Associate Professor, School of Politics & International Relations",
-    "focus": "School of Politics and International Relations",
+    "focus": "School of Politics & International Relations",
     "email": "Jana.Vonstein@anu.edu.au",
-    "office": "Level 2, RSSS Building, 146 Ellery Crescent",
+    "office": "School of Politics & International Relations",
     "profileUrl": "https://researchportalplus.anu.edu.au/en/persons/jana-von-stein",
     "tags": [
-      "spir",
-      "school of politics and internati"
+      "cass",
+      "school of politics & internation"
     ],
     "linkedCourses": [],
     "reviewMetrics": [
@@ -6816,16 +7541,252 @@ window.ANREVIEW_DATA = {
     "id": "jill-sheppard",
     "type": "academic",
     "name": "Associate Professor Jill Sheppard",
-    "school": "School of Politics and International Relations",
-    "schoolCode": "SPIR",
-    "position": "Associate Professor, School of Politics & International Relations Associate, Australian Centre for Federalism Associate, The Australian Politics Studies Centre",
-    "focus": "School of Politics and International Relations",
+    "school": "School of Politics & International Relations",
+    "schoolCode": "CASS",
+    "college": "CASS",
+    "position": "Associate Professor, School of Politics & International Relations",
+    "focus": "Associate Professor, School of Politics & International Relations",
     "email": "Jill.Sheppard@anu.edu.au",
-    "office": "Level 2, RSSS Building, 146 Ellery Crescent",
+    "office": "School of Politics & International Relations",
     "profileUrl": "https://researchportalplus.anu.edu.au/en/persons/jill-sheppard",
     "tags": [
-      "spir",
-      "school of politics and internati"
+      "cass",
+      "associate professor",
+      "school of politics & internation"
+    ],
+    "linkedCourses": [],
+    "reviewMetrics": [
+      "Clarity",
+      "Support",
+      "Engagement"
+    ]
+  },
+  {
+    "id": "joanna-sikora",
+    "type": "academic",
+    "name": "Associate Professor Joanna Sikora",
+    "school": "School of Sociology",
+    "schoolCode": "CASS",
+    "college": "CASS",
+    "position": "Associate Professor, School of Sociology",
+    "focus": "School of Sociology",
+    "email": "joanna.sikora@anu.edu.au",
+    "office": "School of Sociology",
+    "profileUrl": "https://researchportalplus.anu.edu.au/en/persons/joanna-sikora",
+    "tags": [
+      "cass",
+      "school of sociology"
+    ],
+    "linkedCourses": [],
+    "reviewMetrics": [
+      "Clarity",
+      "Support",
+      "Engagement"
+    ]
+  },
+  {
+    "id": "julieanne-lamond",
+    "type": "academic",
+    "name": "Associate Professor Julieanne Lamond",
+    "school": "School of Literature",
+    "schoolCode": "CASS",
+    "college": "CASS",
+    "position": "Associate Professor, English, School of Literature, Languages and Linguistics",
+    "focus": "Associate Professor, English, School of Literature, Languages and Linguistics",
+    "email": "julieanne.lamond@anu.edu.au",
+    "office": "School of Literature",
+    "profileUrl": "https://researchportalplus.anu.edu.au/en/persons/julieanne-lamond",
+    "tags": [
+      "cass",
+      "associate professor",
+      "english",
+      "school of literature"
+    ],
+    "linkedCourses": [],
+    "reviewMetrics": [
+      "Clarity",
+      "Support",
+      "Engagement"
+    ]
+  },
+  {
+    "id": "katie-sutton",
+    "type": "academic",
+    "name": "Associate Professor Katie Sutton",
+    "school": "ANU College of Arts and Social Sciences",
+    "schoolCode": "CASS",
+    "college": "CASS",
+    "position": "Associate Professor, German & Gender, Languages",
+    "focus": "ANU College of Arts and Social Sciences",
+    "email": "katie.sutton@anu.edu.au",
+    "office": "ANU College of Arts and Social Sciences",
+    "profileUrl": "https://researchportalplus.anu.edu.au/en/persons/katie-sutton",
+    "tags": [
+      "cass",
+      "anu college of arts and social s"
+    ],
+    "linkedCourses": [],
+    "reviewMetrics": [
+      "Clarity",
+      "Support",
+      "Engagement"
+    ]
+  },
+  {
+    "id": "katrina-sluis",
+    "type": "academic",
+    "name": "Associate Professor Katrina Sluis",
+    "school": "ANU College of Arts and Social Sciences",
+    "schoolCode": "CASS",
+    "college": "CASS",
+    "position": "Associate Professor, Photography & Media Arts",
+    "focus": "Chair of Research Committee, School of Art & Design",
+    "email": "katrina.sluis@anu.edu.au",
+    "office": "ANU College of Arts and Social Sciences",
+    "profileUrl": "https://researchportalplus.anu.edu.au/en/persons/katrina-sluis",
+    "tags": [
+      "cass",
+      "chair of research committee",
+      "school of art & design"
+    ],
+    "linkedCourses": [],
+    "reviewMetrics": [
+      "Clarity",
+      "Support",
+      "Engagement"
+    ]
+  },
+  {
+    "id": "kirill-nourzhanov",
+    "type": "academic",
+    "name": "Associate Professor Kirill Nourzhanov",
+    "school": "Centre for Arab and Islamic Studies",
+    "schoolCode": "CASS",
+    "college": "CASS",
+    "position": "Associate Professor in Political Science (Central Asia) and Convenor of Higher Degree by Research in Middle Eastern & Central Asian Studies, Centre for Arab and Islamic Studies",
+    "focus": "Centre for Arab and Islamic Studies",
+    "email": "Kirill.Nourzhanov@anu.edu.au",
+    "office": "Centre for Arab and Islamic Studies",
+    "profileUrl": "https://researchportalplus.anu.edu.au/en/persons/kirill-nourzhanov",
+    "tags": [
+      "cass",
+      "centre for arab and islamic stud"
+    ],
+    "linkedCourses": [],
+    "reviewMetrics": [
+      "Clarity",
+      "Support",
+      "Engagement"
+    ]
+  },
+  {
+    "id": "laura-rademaker",
+    "type": "academic",
+    "name": "Associate Professor Laura Rademaker",
+    "school": "School of History",
+    "schoolCode": "CASS",
+    "college": "CASS",
+    "position": "Associate Professor, School of History",
+    "focus": "Associate Professor, School of History",
+    "email": "laura.rademaker@anu.edu.au",
+    "office": "School of History",
+    "profileUrl": "https://researchportalplus.anu.edu.au/en/persons/laura-rademaker",
+    "tags": [
+      "cass",
+      "associate professor",
+      "school of history"
+    ],
+    "linkedCourses": [],
+    "reviewMetrics": [
+      "Clarity",
+      "Support",
+      "Engagement"
+    ]
+  },
+  {
+    "id": "laura-wilson",
+    "type": "academic",
+    "name": "Associate Professor Laura Wilson",
+    "school": "ANU College of Arts and Social Sciences",
+    "schoolCode": "CASS",
+    "college": "CASS",
+    "position": "Senior Lecturer & Head of Discipline - Biological Anthropology, Biological Anthropology",
+    "focus": "ANU College of Arts and Social Sciences",
+    "email": "Laura.Wilson@anu.edu.au",
+    "office": "ANU College of Arts and Social Sciences",
+    "profileUrl": "https://researchportalplus.anu.edu.au/en/persons/laura-wilson",
+    "tags": [
+      "cass",
+      "anu college of arts and social s"
+    ],
+    "linkedCourses": [],
+    "reviewMetrics": [
+      "Clarity",
+      "Support",
+      "Engagement"
+    ]
+  },
+  {
+    "id": "leslie-barnes",
+    "type": "academic",
+    "name": "Associate Professor Leslie Barnes",
+    "school": "French Studies",
+    "schoolCode": "CASS",
+    "college": "CASS",
+    "position": "Associate Professor, French Studies, Languages",
+    "focus": "French Studies",
+    "email": "leslie.barnes@anu.edu.au",
+    "office": "French Studies",
+    "profileUrl": "https://researchportalplus.anu.edu.au/en/persons/leslie-barnes",
+    "tags": [
+      "cass",
+      "french studies"
+    ],
+    "linkedCourses": [],
+    "reviewMetrics": [
+      "Clarity",
+      "Support",
+      "Engagement"
+    ]
+  },
+  {
+    "id": "lindsay-kelley",
+    "type": "academic",
+    "name": "Associate Professor Lindsay Kelley",
+    "school": "School of Art & Design",
+    "schoolCode": "CASS",
+    "college": "CASS",
+    "position": "Associate Professor, School of Art & Design",
+    "focus": "School of Art & Design",
+    "email": "Lindsay.Kelley@anu.edu.au",
+    "office": "School of Art & Design",
+    "profileUrl": "https://researchportalplus.anu.edu.au/en/persons/lindsay-kelley",
+    "tags": [
+      "cass",
+      "school of art & design"
+    ],
+    "linkedCourses": [],
+    "reviewMetrics": [
+      "Clarity",
+      "Support",
+      "Engagement"
+    ]
+  },
+  {
+    "id": "lyndon-ormond-parker",
+    "type": "academic",
+    "name": "Associate Professor Lyndon Ormond-Parker",
+    "school": "Centre for Heritage and Museum Studies",
+    "schoolCode": "CASS",
+    "college": "CASS",
+    "position": "Research Fellow, Centre for Heritage and Museum Studies",
+    "focus": "Centre for Heritage and Museum Studies",
+    "email": "Lyndon.Ormond-Parker@anu.edu.au",
+    "office": "Centre for Heritage and Museum Studies",
+    "profileUrl": "https://researchportalplus.anu.edu.au/en/persons/lyndon-ormond-parker",
+    "tags": [
+      "cass",
+      "centre for heritage and museum s"
     ],
     "linkedCourses": [],
     "reviewMetrics": [
@@ -6838,16 +7799,182 @@ window.ANREVIEW_DATA = {
     "id": "maria-maley",
     "type": "academic",
     "name": "Associate Professor Maria Maley",
-    "school": "School of Politics and International Relations",
-    "schoolCode": "SPIR",
+    "school": "School of Politics & International Relations",
+    "schoolCode": "CASS",
+    "college": "CASS",
     "position": "Associate Professor, School of Politics & International Relations",
-    "focus": "School of Politics and International Relations",
+    "focus": "School of Politics & International Relations",
     "email": "Maria.Maley@anu.edu.au",
-    "office": "Level 2, RSSS Building, 146 Ellery Crescent",
+    "office": "School of Politics & International Relations",
     "profileUrl": "https://researchportalplus.anu.edu.au/en/persons/maria-maley",
     "tags": [
-      "spir",
-      "school of politics and internati"
+      "cass",
+      "school of politics & internation"
+    ],
+    "linkedCourses": [],
+    "reviewMetrics": [
+      "Clarity",
+      "Support",
+      "Engagement"
+    ]
+  },
+  {
+    "id": "jolly-mt",
+    "type": "academic",
+    "name": "Associate Professor Martyn Jolly",
+    "school": "ANU College of Arts and Social Sciences",
+    "schoolCode": "CASS",
+    "college": "CASS",
+    "position": "Honorary Associate Professor, Photography & Media Arts",
+    "focus": "Honorary Associate Professor - Lead Chief Investigator, Photography & Media Arts",
+    "email": "martyn.jolly@anu.edu.au",
+    "office": "ANU College of Arts and Social Sciences",
+    "profileUrl": "https://researchers.anu.edu.au/researchers/jolly-mt",
+    "tags": [
+      "cass",
+      "honorary associate professor - l",
+      "photography & media arts"
+    ],
+    "linkedCourses": [],
+    "reviewMetrics": [
+      "Clarity",
+      "Support",
+      "Engagement"
+    ]
+  },
+  {
+    "id": "rachael-brown",
+    "type": "academic",
+    "name": "Associate Professor Rachael Brown",
+    "school": "School of Philosophy",
+    "schoolCode": "CASS",
+    "college": "CASS",
+    "position": "Associate Professor, School of Philosophy",
+    "focus": "Director of Centre for Philosophy of the Sciences, Centre for Philosophy of the Sciences",
+    "email": "rachael.brown@anu.edu.au",
+    "office": "School of Philosophy",
+    "profileUrl": "https://researchportalplus.anu.edu.au/en/persons/rachael-brown",
+    "tags": [
+      "cass",
+      "director of centre for philosoph",
+      "centre for philosophy of the sci"
+    ],
+    "linkedCourses": [],
+    "reviewMetrics": [
+      "Clarity",
+      "Support",
+      "Engagement"
+    ]
+  },
+  {
+    "id": "romain-fathi",
+    "type": "academic",
+    "name": "Associate Professor Romain Fathi",
+    "school": "School of History",
+    "schoolCode": "CASS",
+    "college": "CASS",
+    "position": "Associate Professor, School of History",
+    "focus": "School of History",
+    "email": "romain.fathi@anu.edu.au",
+    "office": "School of History",
+    "profileUrl": "https://researchportalplus.anu.edu.au/en/persons/romain-fathi",
+    "tags": [
+      "cass",
+      "school of history"
+    ],
+    "linkedCourses": [],
+    "reviewMetrics": [
+      "Clarity",
+      "Support",
+      "Engagement"
+    ]
+  },
+  {
+    "id": "rosanne-kennedy",
+    "type": "academic",
+    "name": "Associate Professor Rosanne Kennedy",
+    "school": "ANU College of Arts and Social Sciences",
+    "schoolCode": "CASS",
+    "college": "CASS",
+    "position": "Associate Professor, Gender, Sexuality & Culture, English",
+    "focus": "ANU College of Arts and Social Sciences",
+    "email": "rosanne.kennedy@anu.edu.au",
+    "office": "ANU College of Arts and Social Sciences",
+    "profileUrl": "https://researchportalplus.anu.edu.au/en/persons/rosanne-kennedy",
+    "tags": [
+      "cass",
+      "anu college of arts and social s"
+    ],
+    "linkedCourses": [],
+    "reviewMetrics": [
+      "Clarity",
+      "Support",
+      "Engagement"
+    ]
+  },
+  {
+    "id": "ruth-morgan",
+    "type": "academic",
+    "name": "Associate Professor Ruth Morgan",
+    "school": "School of History",
+    "schoolCode": "CASS",
+    "college": "CASS",
+    "position": "Associate Professor, School of History",
+    "focus": "Associate Professor, School of History",
+    "email": "ruth.morgan@anu.edu.au",
+    "office": "School of History",
+    "profileUrl": "https://researchportalplus.anu.edu.au/en/persons/ruth-morgan",
+    "tags": [
+      "cass",
+      "associate professor",
+      "school of history"
+    ],
+    "linkedCourses": [],
+    "reviewMetrics": [
+      "Clarity",
+      "Support",
+      "Engagement"
+    ]
+  },
+  {
+    "id": "sarah-milne",
+    "type": "academic",
+    "name": "Associate Professor Sarah Milne",
+    "school": "ANU College of Arts and Social Sciences",
+    "schoolCode": "CASS",
+    "college": "CASS",
+    "position": "Associate Professor, Transnational Research Institute on Corruption",
+    "focus": "ANU College of Arts and Social Sciences",
+    "email": "sarah.milne@anu.edu.au",
+    "office": "ANU College of Arts and Social Sciences",
+    "profileUrl": "https://crawford.anu.edu.au/people/academic/sarah-milne",
+    "tags": [
+      "cass",
+      "anu college of arts and social s"
+    ],
+    "linkedCourses": [],
+    "reviewMetrics": [
+      "Clarity",
+      "Support",
+      "Engagement"
+    ]
+  },
+  {
+    "id": "sverre-molland",
+    "type": "academic",
+    "name": "Associate Professor Sverre Molland",
+    "school": "Development Studies",
+    "schoolCode": "CASS",
+    "college": "CASS",
+    "position": "Senior Lecturer in Development Studies, Development Studies",
+    "focus": "Senior Lecturer in Anthropology, Anthropology",
+    "email": "sverre.molland@anu.edu.au",
+    "office": "Development Studies",
+    "profileUrl": "https://researchportalplus.anu.edu.au/en/persons/sverre-molland",
+    "tags": [
+      "cass",
+      "senior lecturer in anthropology",
+      "anthropology"
     ],
     "linkedCourses": [],
     "reviewMetrics": [
@@ -6860,16 +7987,413 @@ window.ANREVIEW_DATA = {
     "id": "tracy-fenwick",
     "type": "academic",
     "name": "Associate Professor Tracy Beck Fenwick",
-    "school": "School of Politics and International Relations",
-    "schoolCode": "SPIR",
-    "position": "Director, Australian Centre for Federalism Associate Professor, School of Politics & International Relations",
-    "focus": "School of Politics and International Relations",
+    "school": "School of Politics & International Relations",
+    "schoolCode": "CASS",
+    "college": "CASS",
+    "position": "Associate Professor, School of Politics & International Relations",
+    "focus": "Director, Australian Centre for Federalism",
     "email": "Tracy.Fenwick@anu.edu.au",
-    "office": "Level 3, RSSS Building, 146 Ellery Crescent",
+    "office": "School of Politics & International Relations",
     "profileUrl": "https://researchportalplus.anu.edu.au/en/persons/tracy-fenwick",
     "tags": [
-      "spir",
-      "school of politics and internati"
+      "cass",
+      "director",
+      "australian centre for federalism"
+    ],
+    "linkedCourses": [],
+    "reviewMetrics": [
+      "Clarity",
+      "Support",
+      "Engagement"
+    ]
+  },
+  {
+    "id": "yasmine-musharbash",
+    "type": "academic",
+    "name": "Associate Professor Yasmine Musharbash",
+    "school": "ANU College of Arts and Social Sciences",
+    "schoolCode": "CASS",
+    "college": "CASS",
+    "position": "Senior Lecturer in Anthropology, Anthropology",
+    "focus": "ANU College of Arts and Social Sciences",
+    "email": "Yasmine.Musharbash@anu.edu.au",
+    "office": "ANU College of Arts and Social Sciences",
+    "profileUrl": "https://researchportalplus.anu.edu.au/en/persons/yasmine-musharbash",
+    "tags": [
+      "cass",
+      "anu college of arts and social s"
+    ],
+    "linkedCourses": [],
+    "reviewMetrics": [
+      "Clarity",
+      "Support",
+      "Engagement"
+    ]
+  },
+  {
+    "id": "yee-fui-ng",
+    "type": "academic",
+    "name": "Associate Professor Yee-Fui Ng",
+    "school": "ANU College of Arts and Social Sciences",
+    "schoolCode": "CASS",
+    "college": "CASS",
+    "position": "Associate Professor, Transnational Research Institute on Corruption",
+    "focus": "ANU College of Arts and Social Sciences",
+    "email": "YeeFui.Ng@monash.edu",
+    "office": "ANU College of Arts and Social Sciences",
+    "profileUrl": "https://research.monash.edu/en/persons/yee-fui-ng",
+    "tags": [
+      "cass",
+      "anu college of arts and social s"
+    ],
+    "linkedCourses": [],
+    "reviewMetrics": [
+      "Clarity",
+      "Support",
+      "Engagement"
+    ]
+  },
+  {
+    "id": "adam-sargent",
+    "type": "academic",
+    "name": "Dr Adam Sargent",
+    "school": "ANU College of Arts and Social Sciences",
+    "schoolCode": "CASS",
+    "college": "CASS",
+    "position": "Lecturer in Anthropology, Anthropology",
+    "focus": "ANU College of Arts and Social Sciences",
+    "email": "Adam.Sargent@anu.edu.au",
+    "office": "ANU College of Arts and Social Sciences",
+    "profileUrl": "https://researchportalplus.anu.edu.au/en/persons/adam-sargent",
+    "tags": [
+      "cass",
+      "anu college of arts and social s"
+    ],
+    "linkedCourses": [],
+    "reviewMetrics": [
+      "Clarity",
+      "Support",
+      "Engagement"
+    ]
+  },
+  {
+    "id": "aditya-balasubramanian",
+    "type": "academic",
+    "name": "Dr Aditya Balasubramanian",
+    "school": "School of History",
+    "schoolCode": "CASS",
+    "college": "CASS",
+    "position": "ARC DECRA Fellow and Senior Lecturer, School of History",
+    "focus": "School of History",
+    "email": "aditya.balasubramanian@anu.edu.au",
+    "office": "School of History",
+    "profileUrl": "https://researchportalplus.anu.edu.au/en/persons/aditya-balasubramanian",
+    "tags": [
+      "cass",
+      "school of history"
+    ],
+    "linkedCourses": [],
+    "reviewMetrics": [
+      "Clarity",
+      "Support",
+      "Engagement"
+    ]
+  },
+  {
+    "id": "alam-saleh",
+    "type": "academic",
+    "name": "Dr Alam Saleh",
+    "school": "Centre for Arab and Islamic Studies",
+    "schoolCode": "CASS",
+    "college": "CASS",
+    "position": "Honorary Senior Lecturer, Centre for Arab and Islamic Studies",
+    "focus": "Centre for Arab and Islamic Studies",
+    "email": "Alam.Saleh@anu.edu.au",
+    "office": "Centre for Arab and Islamic Studies",
+    "profileUrl": "https://researchportalplus.anu.edu.au/en/persons/alam-saleh",
+    "tags": [
+      "cass",
+      "centre for arab and islamic stud"
+    ],
+    "linkedCourses": [],
+    "reviewMetrics": [
+      "Clarity",
+      "Support",
+      "Engagement"
+    ]
+  },
+  {
+    "id": "alex-burchmore",
+    "type": "academic",
+    "name": "Dr Alex Burchmore",
+    "school": "Centre for Art History & Art Theory",
+    "schoolCode": "CASS",
+    "college": "CASS",
+    "position": "Senior Lecturer, Centre for Art History & Art Theory",
+    "focus": "Convenor of Bachelor of Art History and Curatorship (Honours), Centre for Art History & Art Theory",
+    "email": "alexander.burchmore@anu.edu.au",
+    "office": "Centre for Art History & Art Theory",
+    "profileUrl": "https://researchportalplus.anu.edu.au/en/persons/alex-burchmore",
+    "tags": [
+      "cass",
+      "convenor of bachelor of art hist",
+      "centre for art history & art the"
+    ],
+    "linkedCourses": [],
+    "reviewMetrics": [
+      "Clarity",
+      "Support",
+      "Engagement"
+    ]
+  },
+  {
+    "id": "alexander-cook",
+    "type": "academic",
+    "name": "Dr Alexander Cook",
+    "school": "School of History",
+    "schoolCode": "CASS",
+    "college": "CASS",
+    "position": "Lecturer, School of History",
+    "focus": "School of History",
+    "email": "alexander.cook@anu.edu.au",
+    "office": "School of History",
+    "profileUrl": "https://researchportalplus.anu.edu.au/en/persons/alexander-cook",
+    "tags": [
+      "cass",
+      "school of history"
+    ],
+    "linkedCourses": [],
+    "reviewMetrics": [
+      "Clarity",
+      "Support",
+      "Engagement"
+    ]
+  },
+  {
+    "id": "alexander-hunter",
+    "type": "academic",
+    "name": "Dr Alexander Hunter",
+    "school": "School of Music",
+    "schoolCode": "CASS",
+    "college": "CASS",
+    "position": "Lecturer, School of Music",
+    "focus": "Indigenous Convener, School of Music",
+    "email": "alexander.hunter@anu.edu.au",
+    "office": "School of Music",
+    "profileUrl": "https://researchportalplus.anu.edu.au/en/persons/alexander-hunter",
+    "tags": [
+      "cass",
+      "indigenous convener",
+      "school of music"
+    ],
+    "linkedCourses": [],
+    "reviewMetrics": [
+      "Clarity",
+      "Support",
+      "Engagement"
+    ]
+  },
+  {
+    "id": "alexandra-dellios",
+    "type": "academic",
+    "name": "Dr Alexandra Dellios",
+    "school": "Centre for Heritage and Museum Studies",
+    "schoolCode": "CASS",
+    "college": "CASS",
+    "position": "Lecturer, Centre for Heritage and Museum Studies",
+    "focus": "Centre for Heritage and Museum Studies",
+    "email": "alexandra.dellios@anu.edu.au",
+    "office": "Centre for Heritage and Museum Studies",
+    "profileUrl": "https://researchportalplus.anu.edu.au/en/persons/alexandra-dellios",
+    "tags": [
+      "cass",
+      "centre for heritage and museum s"
+    ],
+    "linkedCourses": [],
+    "reviewMetrics": [
+      "Clarity",
+      "Support",
+      "Engagement"
+    ]
+  },
+  {
+    "id": "amandagrahamstuart.com",
+    "type": "academic",
+    "name": "Dr Amanda Stuart",
+    "school": "ANU College of Arts and Social Sciences",
+    "schoolCode": "CASS",
+    "college": "CASS",
+    "position": "Lecturer, Environment Studio",
+    "focus": "Lecturer, Foundation",
+    "email": "amanda.stuart@anu.edu.au",
+    "office": "ANU College of Arts and Social Sciences",
+    "profileUrl": "https://amandagrahamstuart.com/",
+    "tags": [
+      "cass",
+      "lecturer",
+      "foundation"
+    ],
+    "linkedCourses": [],
+    "reviewMetrics": [
+      "Clarity",
+      "Support",
+      "Engagement"
+    ]
+  },
+  {
+    "id": "amelia-dale",
+    "type": "academic",
+    "name": "Dr Amelia Dale",
+    "school": "ANU College of Arts and Social Sciences",
+    "schoolCode": "CASS",
+    "college": "CASS",
+    "position": "Lecturer in English, English",
+    "focus": "ANU College of Arts and Social Sciences",
+    "email": "Amelia.Dale@anu.edu.au",
+    "office": "ANU College of Arts and Social Sciences",
+    "profileUrl": "https://researchportalplus.anu.edu.au/en/persons/amelia-dale",
+    "tags": [
+      "cass",
+      "anu college of arts and social s"
+    ],
+    "linkedCourses": [],
+    "reviewMetrics": [
+      "Clarity",
+      "Support",
+      "Engagement"
+    ]
+  },
+  {
+    "id": "anas-iqtait",
+    "type": "academic",
+    "name": "Dr Anas Iqtait",
+    "school": "Centre for Arab and Islamic Studies",
+    "schoolCode": "CASS",
+    "college": "CASS",
+    "position": "Senior Lecturer in Political Economy and Global Development (The Middle East and North Africa) and Convenor of Masters and Honours programs in Middle East and Central Asia Studies, Centre for Arab and Islamic Studies",
+    "focus": "Centre for Arab and Islamic Studies",
+    "email": "Anas.Iqtait@anu.edu.au",
+    "office": "Centre for Arab and Islamic Studies",
+    "profileUrl": "https://researchportalplus.anu.edu.au/en/persons/anas-iqtait",
+    "tags": [
+      "cass",
+      "centre for arab and islamic stud"
+    ],
+    "linkedCourses": [],
+    "reviewMetrics": [
+      "Clarity",
+      "Support",
+      "Engagement"
+    ]
+  },
+  {
+    "id": "ann-sophie-levidis",
+    "type": "academic",
+    "name": "Dr Ann-Sophie Levidis",
+    "school": "ANU College of Arts and Social Sciences",
+    "schoolCode": "CASS",
+    "college": "CASS",
+    "position": "Lecturer in French Studies, Languages",
+    "focus": "ANU College of Arts and Social Sciences",
+    "email": "ann-sophie.levidis@anu.edu.au",
+    "office": "ANU College of Arts and Social Sciences",
+    "profileUrl": "https://researchportalplus.anu.edu.au/en/persons/ann-sophie-levidis",
+    "tags": [
+      "cass",
+      "anu college of arts and social s"
+    ],
+    "linkedCourses": [],
+    "reviewMetrics": [
+      "Clarity",
+      "Support",
+      "Engagement"
+    ]
+  },
+  {
+    "id": "anna-madeleine-raupach",
+    "type": "academic",
+    "name": "Dr Anna Madeleine Raupach",
+    "school": "ANU College of Arts and Social Sciences",
+    "schoolCode": "CASS",
+    "college": "CASS",
+    "position": "Senior Lecturer, Printmedia & Drawing",
+    "focus": "Chair of Outreach Committee, School of Art & Design",
+    "email": "anna.raupach@anu.edu.au",
+    "office": "ANU College of Arts and Social Sciences",
+    "profileUrl": "https://researchportalplus.anu.edu.au/en/persons/anna-madeleine-raupach",
+    "tags": [
+      "cass",
+      "chair of outreach committee",
+      "school of art & design"
+    ],
+    "linkedCourses": [],
+    "reviewMetrics": [
+      "Clarity",
+      "Support",
+      "Engagement"
+    ]
+  },
+  {
+    "id": "jurgens-a",
+    "type": "academic",
+    "name": "Dr Anna-Sophie Jürgens",
+    "school": "Humanities Research Centre",
+    "schoolCode": "CASS",
+    "college": "CASS",
+    "position": "HRC Adjunct Fellow and Lecturer in Popular Entertainment Studies at the Australian National Centre for the Public Awareness of Science; Head of the Popsicule, ANU's Science in Popular Culture and Entertainment Hub, Humanities Research Centre",
+    "focus": "Humanities Research Centre",
+    "email": "anna-sophie.jurgens@anu.edu.au",
+    "office": "Humanities Research Centre",
+    "profileUrl": "https://researchers.anu.edu.au/researchers/jurgens-a",
+    "tags": [
+      "cass",
+      "humanities research centre"
+    ],
+    "linkedCourses": [],
+    "reviewMetrics": [
+      "Clarity",
+      "Support",
+      "Engagement"
+    ]
+  },
+  {
+    "id": "annick-thomassin",
+    "type": "academic",
+    "name": "Dr Annick Thomassin",
+    "school": "Centre for Heritage and Museum Studies",
+    "schoolCode": "CASS",
+    "college": "CASS",
+    "position": "Research Fellow, Centre for Heritage and Museum Studies",
+    "focus": "Centre for Heritage and Museum Studies",
+    "email": "annick.thomassin@anu.edu.au",
+    "office": "Centre for Heritage and Museum Studies",
+    "profileUrl": "https://researchportalplus.anu.edu.au/en/persons/annick-thomassin",
+    "tags": [
+      "cass",
+      "centre for heritage and museum s"
+    ],
+    "linkedCourses": [],
+    "reviewMetrics": [
+      "Clarity",
+      "Support",
+      "Engagement"
+    ]
+  },
+  {
+    "id": "annika-lems",
+    "type": "academic",
+    "name": "Dr Annika Lems",
+    "school": "ANU College of Arts and Social Sciences",
+    "schoolCode": "CASS",
+    "college": "CASS",
+    "position": "Senior Lecturer in Anthropology & HDR Convener, Anthropology",
+    "focus": "ANU College of Arts and Social Sciences",
+    "email": "Annika.Lems@anu.edu.au",
+    "office": "ANU College of Arts and Social Sciences",
+    "profileUrl": "https://researchportalplus.anu.edu.au/en/persons/annika-lems",
+    "tags": [
+      "cass",
+      "anu college of arts and social s"
     ],
     "linkedCourses": [],
     "reviewMetrics": [
@@ -6882,16 +8406,132 @@ window.ANREVIEW_DATA = {
     "id": "april-biccum",
     "type": "academic",
     "name": "Dr April Biccum",
-    "school": "School of Politics and International Relations",
-    "schoolCode": "SPIR",
+    "school": "School of Politics & International Relations",
+    "schoolCode": "CASS",
+    "college": "CASS",
     "position": "Senior Lecturer, School of Politics & International Relations",
-    "focus": "School of Politics and International Relations",
+    "focus": "School of Politics & International Relations",
     "email": "April.Biccum@anu.edu.au",
-    "office": "Level 2, RSSS Building, 146 Ellery Crescent",
+    "office": "School of Politics & International Relations",
     "profileUrl": "https://researchportalplus.anu.edu.au/en/persons/april-biccum",
     "tags": [
-      "spir",
-      "school of politics and internati"
+      "cass",
+      "school of politics & internation"
+    ],
+    "linkedCourses": [],
+    "reviewMetrics": [
+      "Clarity",
+      "Support",
+      "Engagement"
+    ]
+  },
+  {
+    "id": "ashley-carruthers",
+    "type": "academic",
+    "name": "Dr Ashley Carruthers",
+    "school": "ANU College of Arts and Social Sciences",
+    "schoolCode": "CASS",
+    "college": "CASS",
+    "position": "Lecturer in Anthropology, Anthropology",
+    "focus": "ANU College of Arts and Social Sciences",
+    "email": "ashley.carruthers@anu.edu.au",
+    "office": "ANU College of Arts and Social Sciences",
+    "profileUrl": "https://researchportalplus.anu.edu.au/en/persons/ashley-carruthers",
+    "tags": [
+      "cass",
+      "anu college of arts and social s"
+    ],
+    "linkedCourses": [],
+    "reviewMetrics": [
+      "Clarity",
+      "Support",
+      "Engagement"
+    ]
+  },
+  {
+    "id": "ash-collins",
+    "type": "academic",
+    "name": "Dr Ashok Collins",
+    "school": "ANU College of Arts and Social Sciences",
+    "schoolCode": "CASS",
+    "college": "CASS",
+    "position": "Senior Lecturer, French, Languages",
+    "focus": "ANU College of Arts and Social Sciences",
+    "email": "ashok.collins@anu.edu.au",
+    "office": "ANU College of Arts and Social Sciences",
+    "profileUrl": "https://researchportalplus.anu.edu.au/en/persons/ash-collins",
+    "tags": [
+      "cass",
+      "anu college of arts and social s"
+    ],
+    "linkedCourses": [],
+    "reviewMetrics": [
+      "Clarity",
+      "Support",
+      "Engagement"
+    ]
+  },
+  {
+    "id": "baden-pailthorpe",
+    "type": "academic",
+    "name": "Dr Baden Pailthorpe",
+    "school": "School of Art & Design",
+    "schoolCode": "CASS",
+    "college": "CASS",
+    "position": "Senior Lecturer, School of Art & Design",
+    "focus": "School of Art & Design",
+    "email": "baden.pailthorpe@anu.edu.au",
+    "office": "School of Art & Design",
+    "profileUrl": "https://researchportalplus.anu.edu.au/en/persons/baden-pailthorpe",
+    "tags": [
+      "cass",
+      "school of art & design"
+    ],
+    "linkedCourses": [],
+    "reviewMetrics": [
+      "Clarity",
+      "Support",
+      "Engagement"
+    ]
+  },
+  {
+    "id": "ben-mercer",
+    "type": "academic",
+    "name": "Dr Ben Mercer",
+    "school": "School of History",
+    "schoolCode": "CASS",
+    "college": "CASS",
+    "position": "Senior Lecturer, School of History",
+    "focus": "School of History",
+    "email": "ben.mercer@anu.edu.au",
+    "office": "School of History",
+    "profileUrl": "https://researchportalplus.anu.edu.au/en/persons/ben-mercer",
+    "tags": [
+      "cass",
+      "school of history"
+    ],
+    "linkedCourses": [],
+    "reviewMetrics": [
+      "Clarity",
+      "Support",
+      "Engagement"
+    ]
+  },
+  {
+    "id": "bernardo-pereira-nunes",
+    "type": "academic",
+    "name": "Dr Bernardo Pereira Nunes",
+    "school": "Centre for Digital Humanities Research",
+    "schoolCode": "CASS",
+    "college": "CASS",
+    "position": "Lecturer in Digital Humanities and Computer Science, Centre for Digital Humanities Research",
+    "focus": "Centre for Digital Humanities Research",
+    "email": "See ANU profile",
+    "office": "Centre for Digital Humanities Research",
+    "profileUrl": "https://researchportalplus.anu.edu.au/en/persons/bernardo-pereira-nunes",
+    "tags": [
+      "cass",
+      "centre for digital humanities re"
     ],
     "linkedCourses": [],
     "reviewMetrics": [
@@ -6904,16 +8544,109 @@ window.ANREVIEW_DATA = {
     "id": "brandon-yoder",
     "type": "academic",
     "name": "Dr Brandon Yoder",
-    "school": "School of Politics and International Relations",
-    "schoolCode": "SPIR",
+    "school": "School of Politics & International Relations",
+    "schoolCode": "CASS",
+    "college": "CASS",
     "position": "Senior Lecturer, School of Politics & International Relations",
-    "focus": "School of Politics and International Relations",
+    "focus": "School of Politics & International Relations",
     "email": "brandon.yoder@anu.edu.au",
-    "office": "Level 3, RSSS Building, 146 Ellery Crescent",
+    "office": "School of Politics & International Relations",
     "profileUrl": "https://researchportalplus.anu.edu.au/en/persons/brandon-yoder",
     "tags": [
-      "spir",
-      "school of politics and internati"
+      "cass",
+      "school of politics & internation"
+    ],
+    "linkedCourses": [],
+    "reviewMetrics": [
+      "Clarity",
+      "Support",
+      "Engagement"
+    ]
+  },
+  {
+    "id": "bridget-vincent",
+    "type": "academic",
+    "name": "Dr Bridget Vincent",
+    "school": "ANU College of Arts and Social Sciences",
+    "schoolCode": "CASS",
+    "college": "CASS",
+    "position": "Lecturer in English, English",
+    "focus": "ANU College of Arts and Social Sciences",
+    "email": "Bridget.Vincent@anu.edu.au",
+    "office": "ANU College of Arts and Social Sciences",
+    "profileUrl": "https://researchportalplus.anu.edu.au/en/persons/bridget-vincent",
+    "tags": [
+      "cass",
+      "anu college of arts and social s"
+    ],
+    "linkedCourses": [],
+    "reviewMetrics": [
+      "Clarity",
+      "Support",
+      "Engagement"
+    ]
+  },
+  {
+    "id": "burcu-cevik-compiegne",
+    "type": "academic",
+    "name": "Dr Burcu Cevik-Compiegne",
+    "school": "Centre for Arab and Islamic Studies",
+    "schoolCode": "CASS",
+    "college": "CASS",
+    "position": "Senior Lecturer in Turkish Studies and Convenor of Turkish Studies Program, Centre for Arab and Islamic Studies",
+    "focus": "Centre for Arab and Islamic Studies",
+    "email": "Burcu.Cevik-Compiegne@anu.edu.au",
+    "office": "Centre for Arab and Islamic Studies",
+    "profileUrl": "https://researchportalplus.anu.edu.au/en/persons/burcu-cevik-compiegne",
+    "tags": [
+      "cass",
+      "centre for arab and islamic stud"
+    ],
+    "linkedCourses": [],
+    "reviewMetrics": [
+      "Clarity",
+      "Support",
+      "Engagement"
+    ]
+  },
+  {
+    "id": "bowan-cj",
+    "type": "academic",
+    "name": "Dr Catherine Bowan",
+    "school": "Humanities Research Centre",
+    "schoolCode": "CASS",
+    "college": "CASS",
+    "position": "Honorary Senior Lecturer, Humanities Research Centre",
+    "focus": "Humanities Research Centre",
+    "email": "kate.bowan@anu.edu.au",
+    "office": "Humanities Research Centre",
+    "profileUrl": "https://researchers.anu.edu.au/researchers/bowan-cj",
+    "tags": [
+      "cass",
+      "humanities research centre"
+    ],
+    "linkedCourses": [],
+    "reviewMetrics": [
+      "Clarity",
+      "Support",
+      "Engagement"
+    ]
+  },
+  {
+    "id": "cecilia-jardemar",
+    "type": "academic",
+    "name": "Dr Cecilia Jardemar",
+    "school": "School of Art & Design",
+    "schoolCode": "CASS",
+    "college": "CASS",
+    "position": "Associate Professor, School of Art & Design",
+    "focus": "School of Art & Design",
+    "email": "cecilia.jardemar@anu.edu.au",
+    "office": "School of Art & Design",
+    "profileUrl": "https://researchportalplus.anu.edu.au/en/persons/cecilia-jardemar/",
+    "tags": [
+      "cass",
+      "school of art & design"
     ],
     "linkedCourses": [],
     "reviewMetrics": [
@@ -6926,16 +8659,86 @@ window.ANREVIEW_DATA = {
     "id": "charles-miller",
     "type": "academic",
     "name": "Dr Charles Miller",
-    "school": "School of Politics and International Relations",
-    "schoolCode": "SPIR",
+    "school": "School of Politics & International Relations",
+    "schoolCode": "CASS",
+    "college": "CASS",
     "position": "Senior Lecturer, School of Politics & International Relations",
-    "focus": "School of Politics and International Relations",
+    "focus": "School of Politics & International Relations",
     "email": "Charles.Miller@anu.edu.au",
-    "office": "Level 3, RSSS Building, 146 Ellery Crescent",
+    "office": "School of Politics & International Relations",
     "profileUrl": "https://researchportalplus.anu.edu.au/en/persons/charles-miller",
     "tags": [
-      "spir",
-      "school of politics and internati"
+      "cass",
+      "school of politics & internation"
+    ],
+    "linkedCourses": [],
+    "reviewMetrics": [
+      "Clarity",
+      "Support",
+      "Engagement"
+    ]
+  },
+  {
+    "id": "chloe-green",
+    "type": "academic",
+    "name": "Dr Chloe Green",
+    "school": "ANU College of Arts and Social Sciences",
+    "schoolCode": "CASS",
+    "college": "CASS",
+    "position": "Lecturer in English, English",
+    "focus": "ANU College of Arts and Social Sciences",
+    "email": "Chloe.Green@anu.edu.au",
+    "office": "ANU College of Arts and Social Sciences",
+    "profileUrl": "https://researchportalplus.anu.edu.au/en/persons/chloe-green",
+    "tags": [
+      "cass",
+      "anu college of arts and social s"
+    ],
+    "linkedCourses": [],
+    "reviewMetrics": [
+      "Clarity",
+      "Support",
+      "Engagement"
+    ]
+  },
+  {
+    "id": "christina-clarke",
+    "type": "academic",
+    "name": "Dr Christina Clarke",
+    "school": "Centre for Art History & Art Theory",
+    "schoolCode": "CASS",
+    "college": "CASS",
+    "position": "Honorary Lecturer, Centre for Art History & Art Theory",
+    "focus": "Centre for Art History & Art Theory",
+    "email": "Christina.clarke@anu.edu.au",
+    "office": "Centre for Art History & Art Theory",
+    "profileUrl": "https://researchportalplus.anu.edu.au/en/persons/christina-clarke",
+    "tags": [
+      "cass",
+      "centre for art history & art the"
+    ],
+    "linkedCourses": [],
+    "reviewMetrics": [
+      "Clarity",
+      "Support",
+      "Engagement"
+    ]
+  },
+  {
+    "id": "claire-hansen",
+    "type": "academic",
+    "name": "Dr Claire Hansen",
+    "school": "ANU College of Arts and Social Sciences",
+    "schoolCode": "CASS",
+    "college": "CASS",
+    "position": "Lecturer in English, English",
+    "focus": "ANU College of Arts and Social Sciences",
+    "email": "Claire.Hansen@anu.edu.au",
+    "office": "ANU College of Arts and Social Sciences",
+    "profileUrl": "https://researchportalplus.anu.edu.au/en/persons/claire-hansen",
+    "tags": [
+      "cass",
+      "anu college of arts and social s"
     ],
     "linkedCourses": [],
     "reviewMetrics": [
@@ -6948,16 +8751,17 @@ window.ANREVIEW_DATA = {
     "id": "constanza-sanhueza",
     "type": "academic",
     "name": "Dr Constanza Sanhueza Petrarca",
-    "school": "School of Politics and International Relations",
-    "schoolCode": "SPIR",
-    "position": "Fellow, Australian Centre for Federalism Senior Lecturer, School of Politics & International Relations",
-    "focus": "School of Politics and International Relations",
+    "school": "School of Politics & International Relations",
+    "schoolCode": "CASS",
+    "college": "CASS",
+    "position": "Senior Lecturer, School of Politics & International Relations",
+    "focus": "School of Politics & International Relations",
     "email": "Constanza.Sanhueza@anu.edu.au",
-    "office": "Level 2, 146 Ellery Cres",
+    "office": "School of Politics & International Relations",
     "profileUrl": "https://researchportalplus.anu.edu.au/en/persons/constanza-sanhueza",
     "tags": [
-      "spir",
-      "school of politics and internati"
+      "cass",
+      "school of politics & internation"
     ],
     "linkedCourses": [],
     "reviewMetrics": [
@@ -6970,16 +8774,63 @@ window.ANREVIEW_DATA = {
     "id": "darren-lim",
     "type": "academic",
     "name": "Dr Darren Lim",
-    "school": "School of Politics and International Relations",
-    "schoolCode": "SPIR",
+    "school": "School of Politics & International Relations",
+    "schoolCode": "CASS",
+    "college": "CASS",
     "position": "Senior Lecturer, School of Politics & International Relations",
-    "focus": "School of Politics and International Relations",
+    "focus": "School of Politics & International Relations",
     "email": "Darren.Lim@anu.edu.au",
-    "office": "Level 2, RSSS Building, 146 Ellery Crescent",
+    "office": "School of Politics & International Relations",
     "profileUrl": "https://researchportalplus.anu.edu.au/en/persons/darren-lim",
     "tags": [
-      "spir",
-      "school of politics and internati"
+      "cass",
+      "school of politics & internation"
+    ],
+    "linkedCourses": [],
+    "reviewMetrics": [
+      "Clarity",
+      "Support",
+      "Engagement"
+    ]
+  },
+  {
+    "id": "david-romney-smith",
+    "type": "academic",
+    "name": "Dr David Romney Smith",
+    "school": "School of History",
+    "schoolCode": "CASS",
+    "college": "CASS",
+    "position": "Research Fellow, School of History",
+    "focus": "School of History",
+    "email": "DavidRomney.Smith@anu.edu.au",
+    "office": "School of History",
+    "profileUrl": "https://researchportalplus.anu.edu.au/en/persons/david-romney-smith",
+    "tags": [
+      "cass",
+      "school of history"
+    ],
+    "linkedCourses": [],
+    "reviewMetrics": [
+      "Clarity",
+      "Support",
+      "Engagement"
+    ]
+  },
+  {
+    "id": "diane-smith",
+    "type": "academic",
+    "name": "Dr Diane Smith",
+    "school": "Centre for Aboriginal Economic Policy Research",
+    "schoolCode": "CASS",
+    "college": "CASS",
+    "position": "Fellow, Centre for Aboriginal Economic Policy Research",
+    "focus": "Centre for Aboriginal Economic Policy Research",
+    "email": "diane.smith@anu.edu.au",
+    "office": "Centre for Aboriginal Economic Policy Research",
+    "profileUrl": "https://researchportalplus.anu.edu.au/en/persons/diane-smith",
+    "tags": [
+      "cass",
+      "centre for aboriginal economic p"
     ],
     "linkedCourses": [],
     "reviewMetrics": [
@@ -6992,16 +8843,643 @@ window.ANREVIEW_DATA = {
     "id": "dongwook-kim",
     "type": "academic",
     "name": "Dr Dongwook Kim",
-    "school": "School of Politics and International Relations",
-    "schoolCode": "SPIR",
+    "school": "School of Politics & International Relations",
+    "schoolCode": "CASS",
+    "college": "CASS",
     "position": "Lecturer, School of Politics & International Relations",
-    "focus": "School of Politics and International Relations",
+    "focus": "School of Politics & International Relations",
     "email": "Dongwook.Kim@anu.edu.au",
-    "office": "Level 3, RSSS Building, 146 Ellery Crescent",
+    "office": "School of Politics & International Relations",
     "profileUrl": "https://researchportalplus.anu.edu.au/en/persons/dongwook-kim",
     "tags": [
-      "spir",
-      "school of politics and internati"
+      "cass",
+      "school of politics & internation"
+    ],
+    "linkedCourses": [],
+    "reviewMetrics": [
+      "Clarity",
+      "Support",
+      "Engagement"
+    ]
+  },
+  {
+    "id": "elisa-decourcy",
+    "type": "academic",
+    "name": "Dr Elisa deCourcy",
+    "school": "Humanities Research Centre",
+    "schoolCode": "CASS",
+    "college": "CASS",
+    "position": "HRC Adjunct Fellow, Humanities Research Centre",
+    "focus": "Humanities Research Centre",
+    "email": "Elisa.DeCourcy@anu.edu.au",
+    "office": "Humanities Research Centre",
+    "profileUrl": "https://researchportalplus.anu.edu.au/en/persons/elisa-decourcy",
+    "tags": [
+      "cass",
+      "humanities research centre"
+    ],
+    "linkedCourses": [],
+    "reviewMetrics": [
+      "Clarity",
+      "Support",
+      "Engagement"
+    ]
+  },
+  {
+    "id": "erica-seccombe",
+    "type": "academic",
+    "name": "Dr Erica Seccombe",
+    "school": "Centre for Art History & Art Theory",
+    "schoolCode": "CASS",
+    "college": "CASS",
+    "position": "Senior Lecturer, Centre for Art History & Art Theory",
+    "focus": "Centre for Art History & Art Theory",
+    "email": "erica.seccombe@anu.edu.au",
+    "office": "Centre for Art History & Art Theory",
+    "profileUrl": "https://researchportalplus.anu.edu.au/en/persons/erica-seccombe",
+    "tags": [
+      "cass",
+      "centre for art history & art the"
+    ],
+    "linkedCourses": [],
+    "reviewMetrics": [
+      "Clarity",
+      "Support",
+      "Engagement"
+    ]
+  },
+  {
+    "id": "estelle-strazdins",
+    "type": "academic",
+    "name": "Dr Estelle Strazdins",
+    "school": "ANU College of Arts and Social Sciences",
+    "schoolCode": "CASS",
+    "college": "CASS",
+    "position": "Lecturer in Classics, Classics",
+    "focus": "ANU College of Arts and Social Sciences",
+    "email": "estelle.strazdins@anu.edu.au",
+    "office": "ANU College of Arts and Social Sciences",
+    "profileUrl": "https://researchportalplus.anu.edu.au/en/persons/estelle-strazdins",
+    "tags": [
+      "cass",
+      "anu college of arts and social s"
+    ],
+    "linkedCourses": [],
+    "reviewMetrics": [
+      "Clarity",
+      "Support",
+      "Engagement"
+    ]
+  },
+  {
+    "id": "fabricio-tocco",
+    "type": "academic",
+    "name": "Dr Fabricio Tocco",
+    "school": "Spanish Studies",
+    "schoolCode": "CASS",
+    "college": "CASS",
+    "position": "Lecturer, Spanish Studies, Languages",
+    "focus": "Spanish Studies",
+    "email": "fabricio.tocco@anu.edu.au",
+    "office": "Spanish Studies",
+    "profileUrl": "https://researchportalplus.anu.edu.au/en/persons/fabricio-tocco",
+    "tags": [
+      "cass",
+      "spanish studies"
+    ],
+    "linkedCourses": [],
+    "reviewMetrics": [
+      "Clarity",
+      "Support",
+      "Engagement"
+    ]
+  },
+  {
+    "id": "francis-markham",
+    "type": "academic",
+    "name": "Dr Francis Markham",
+    "school": "Centre for Aboriginal Economic Policy Research",
+    "schoolCode": "CASS",
+    "college": "CASS",
+    "position": "Research Fellow, Centre for Aboriginal Economic Policy Research",
+    "focus": "Centre for Aboriginal Economic Policy Research",
+    "email": "Francis.Markham@anu.edu.au",
+    "office": "Centre for Aboriginal Economic Policy Research",
+    "profileUrl": "https://researchportalplus.anu.edu.au/en/persons/francis-markham",
+    "tags": [
+      "cass",
+      "centre for aboriginal economic p"
+    ],
+    "linkedCourses": [],
+    "reviewMetrics": [
+      "Clarity",
+      "Support",
+      "Engagement"
+    ]
+  },
+  {
+    "id": "gemma-king",
+    "type": "academic",
+    "name": "Dr Gemma King",
+    "school": "Humanities Research Centre",
+    "schoolCode": "CASS",
+    "college": "CASS",
+    "position": "HRC Adjunct Fellow, Humanities Research Centre",
+    "focus": "Senior Lecturer, French Studies, Languages",
+    "email": "Gemma.King@anu.edu.au",
+    "office": "Humanities Research Centre",
+    "profileUrl": "https://researchportalplus.anu.edu.au/en/persons/gemma-king",
+    "tags": [
+      "cass",
+      "senior lecturer",
+      "french studies",
+      "languages"
+    ],
+    "linkedCourses": [],
+    "reviewMetrics": [
+      "Clarity",
+      "Support",
+      "Engagement"
+    ]
+  },
+  {
+    "id": "geoff-kushnick",
+    "type": "academic",
+    "name": "Dr Geoff Kushnick",
+    "school": "ANU College of Arts and Social Sciences",
+    "schoolCode": "CASS",
+    "college": "CASS",
+    "position": "Lecturer in Biological Anthropology, Biological Anthropology",
+    "focus": "ANU College of Arts and Social Sciences",
+    "email": "geoff.kushnick@anu.edu.au",
+    "office": "ANU College of Arts and Social Sciences",
+    "profileUrl": "https://researchportalplus.anu.edu.au/en/persons/geoff-kushnick",
+    "tags": [
+      "cass",
+      "anu college of arts and social s"
+    ],
+    "linkedCourses": [],
+    "reviewMetrics": [
+      "Clarity",
+      "Support",
+      "Engagement"
+    ]
+  },
+  {
+    "id": "georgia-pike-rowney",
+    "type": "academic",
+    "name": "Dr Georgia Pike-Rowney",
+    "school": "ANU College of Arts and Social Sciences",
+    "schoolCode": "CASS",
+    "college": "CASS",
+    "position": "The Friends' Lecturer in Classics and Curator of the ANU Classics Museum, Classics",
+    "focus": "ANU College of Arts and Social Sciences",
+    "email": "georgia.pike-rowney@anu.edu.au",
+    "office": "ANU College of Arts and Social Sciences",
+    "profileUrl": "https://researchportalplus.anu.edu.au/en/persons/georgia-pike-rowney",
+    "tags": [
+      "cass",
+      "anu college of arts and social s"
+    ],
+    "linkedCourses": [],
+    "reviewMetrics": [
+      "Clarity",
+      "Support",
+      "Engagement"
+    ]
+  },
+  {
+    "id": "gregory-stott",
+    "type": "academic",
+    "name": "Dr Greg Stott",
+    "school": "School of Music",
+    "schoolCode": "CASS",
+    "college": "CASS",
+    "position": "Lecturer, School of Music",
+    "focus": "School of Music",
+    "email": "Gregory.Stott@anu.edu.au",
+    "office": "School of Music",
+    "profileUrl": "https://researchportalplus.anu.edu.au/en/persons/gregory-stott",
+    "tags": [
+      "cass",
+      "school of music"
+    ],
+    "linkedCourses": [],
+    "reviewMetrics": [
+      "Clarity",
+      "Support",
+      "Engagement"
+    ]
+  },
+  {
+    "id": "helen-taylor",
+    "type": "academic",
+    "name": "Dr Helen Taylor",
+    "school": "Criminology Program",
+    "schoolCode": "CASS",
+    "college": "CASS",
+    "position": "Lecturer, Criminology Program",
+    "focus": "Criminology Program",
+    "email": "h.taylor@anu.edu.au",
+    "office": "Criminology Program",
+    "profileUrl": "https://researchportalplus.anu.edu.au/en/persons/helen-taylor",
+    "tags": [
+      "cass",
+      "criminology program"
+    ],
+    "linkedCourses": [],
+    "reviewMetrics": [
+      "Clarity",
+      "Support",
+      "Engagement"
+    ]
+  },
+  {
+    "id": "hilary-howes",
+    "type": "academic",
+    "name": "Dr Hilary Howes",
+    "school": "Centre for Heritage and Museum Studies",
+    "schoolCode": "CASS",
+    "college": "CASS",
+    "position": "Research Fellow, Centre for Heritage and Museum Studies",
+    "focus": "Centre for Heritage and Museum Studies",
+    "email": "Hilary.Howes@anu.edu.au",
+    "office": "Centre for Heritage and Museum Studies",
+    "profileUrl": "https://researchportalplus.anu.edu.au/en/persons/hilary-howes",
+    "tags": [
+      "cass",
+      "centre for heritage and museum s"
+    ],
+    "linkedCourses": [],
+    "reviewMetrics": [
+      "Clarity",
+      "Support",
+      "Engagement"
+    ]
+  },
+  {
+    "id": "abraham-i",
+    "type": "academic",
+    "name": "Dr Ibrahim Abraham",
+    "school": "Humanities Research Centre",
+    "schoolCode": "CASS",
+    "college": "CASS",
+    "position": "Honorary Senior Lecturer, Humanities Research Centre",
+    "focus": "Humanities Research Centre",
+    "email": "ibrahim.abraham@anu.edu.au",
+    "office": "Humanities Research Centre",
+    "profileUrl": "https://researchers.anu.edu.au/researchers/abraham-i",
+    "tags": [
+      "cass",
+      "humanities research centre"
+    ],
+    "linkedCourses": [],
+    "reviewMetrics": [
+      "Clarity",
+      "Support",
+      "Engagement"
+    ]
+  },
+  {
+    "id": "jade-lindley",
+    "type": "academic",
+    "name": "Dr Jade Lindley",
+    "school": "ANU College of Arts and Social Sciences",
+    "schoolCode": "CASS",
+    "college": "CASS",
+    "position": "Associate Professor, Transnational Research Institute on Corruption",
+    "focus": "ANU College of Arts and Social Sciences",
+    "email": "jade.lindley@uwa.edu.au",
+    "office": "ANU College of Arts and Social Sciences",
+    "profileUrl": "https://research-repository.uwa.edu.au/en/persons/jade-lindley",
+    "tags": [
+      "cass",
+      "anu college of arts and social s"
+    ],
+    "linkedCourses": [],
+    "reviewMetrics": [
+      "Clarity",
+      "Support",
+      "Engagement"
+    ]
+  },
+  {
+    "id": "james-odonnell",
+    "type": "academic",
+    "name": "Dr James O'Donnell",
+    "school": "School of Demography",
+    "schoolCode": "CASS",
+    "college": "CASS",
+    "position": "Senior Lecturer, School of Demography",
+    "focus": "School of Demography",
+    "email": "james.odonnell@anu.edu.au",
+    "office": "School of Demography",
+    "profileUrl": "https://researchportalplus.anu.edu.au/en/persons/james-odonnell",
+    "tags": [
+      "cass",
+      "school of demography"
+    ],
+    "linkedCourses": [],
+    "reviewMetrics": [
+      "Clarity",
+      "Support",
+      "Engagement"
+    ]
+  },
+  {
+    "id": "jeffrey-sarmiento",
+    "type": "academic",
+    "name": "Dr Jeffrey Sarmiento",
+    "school": "School of Art & Design",
+    "schoolCode": "CASS",
+    "college": "CASS",
+    "position": "Senior Lecturer, School of Art & Design",
+    "focus": "School of Art & Design",
+    "email": "Jeffrey.Sarmiento@anu.edu.au",
+    "office": "School of Art & Design",
+    "profileUrl": "https://researchportalplus.anu.edu.au/en/persons/jeffrey-sarmiento",
+    "tags": [
+      "cass",
+      "school of art & design"
+    ],
+    "linkedCourses": [],
+    "reviewMetrics": [
+      "Clarity",
+      "Support",
+      "Engagement"
+    ]
+  },
+  {
+    "id": "jessie-moritz",
+    "type": "academic",
+    "name": "Dr Jessie Moritz",
+    "school": "Centre for Arab and Islamic Studies",
+    "schoolCode": "CASS",
+    "college": "CASS",
+    "position": "Senior Lecturer in Political Economy and Comparative Politics (The Arabian Peninsula), Centre for Arab and Islamic Studies",
+    "focus": "Centre for Arab and Islamic Studies",
+    "email": "Jessie.Moritz@anu.edu.au",
+    "office": "Centre for Arab and Islamic Studies",
+    "profileUrl": "https://researchportalplus.anu.edu.au/en/persons/jessie-moritz",
+    "tags": [
+      "cass",
+      "centre for arab and islamic stud"
+    ],
+    "linkedCourses": [],
+    "reviewMetrics": [
+      "Clarity",
+      "Support",
+      "Engagement"
+    ]
+  },
+  {
+    "id": "jos-mulder",
+    "type": "academic",
+    "name": "Dr Johannes (Jos) Mulder",
+    "school": "School of Music",
+    "schoolCode": "CASS",
+    "college": "CASS",
+    "position": "Senior Lecturer, School of Music",
+    "focus": "Convenor of Music Technology, School of Music",
+    "email": "Jos.Mulder@anu.edu.au",
+    "office": "School of Music",
+    "profileUrl": "https://researchportalplus.anu.edu.au/en/persons/jos-mulder",
+    "tags": [
+      "cass",
+      "convenor of music technology",
+      "school of music"
+    ],
+    "linkedCourses": [],
+    "reviewMetrics": [
+      "Clarity",
+      "Support",
+      "Engagement"
+    ]
+  },
+  {
+    "id": "julie-brooke",
+    "type": "academic",
+    "name": "Dr Julie Brooke",
+    "school": "ANU College of Arts and Social Sciences",
+    "schoolCode": "CASS",
+    "college": "CASS",
+    "position": "Research Fellow and Lecturer, Painting",
+    "focus": "ANU College of Arts and Social Sciences",
+    "email": "julie.brooke@anu.edu.au",
+    "office": "ANU College of Arts and Social Sciences",
+    "profileUrl": "https://researchportalplus.anu.edu.au/en/persons/julie-brooke",
+    "tags": [
+      "cass",
+      "anu college of arts and social s"
+    ],
+    "linkedCourses": [],
+    "reviewMetrics": [
+      "Clarity",
+      "Support",
+      "Engagement"
+    ]
+  },
+  {
+    "id": "julie-cunningham",
+    "type": "academic",
+    "name": "Dr Julie Cunningham",
+    "school": "School of Sociology",
+    "schoolCode": "CASS",
+    "college": "CASS",
+    "position": "Postdoctoral Research Fellow, School of Sociology",
+    "focus": "School of Sociology",
+    "email": "Julie.Cunningham@anu.edu.au",
+    "office": "School of Sociology",
+    "profileUrl": "https://researchportalplus.anu.edu.au/en/persons/julie-cunningham",
+    "tags": [
+      "cass",
+      "school of sociology"
+    ],
+    "linkedCourses": [],
+    "reviewMetrics": [
+      "Clarity",
+      "Support",
+      "Engagement"
+    ]
+  },
+  {
+    "id": "julie-lahn",
+    "type": "academic",
+    "name": "Dr Julie Lahn",
+    "school": "Centre for Heritage and Museum Studies",
+    "schoolCode": "CASS",
+    "college": "CASS",
+    "position": "Fellow, Centre for Heritage and Museum Studies",
+    "focus": "Centre for Heritage and Museum Studies",
+    "email": "julie.lahn@anu.edu.au",
+    "office": "Centre for Heritage and Museum Studies",
+    "profileUrl": "https://researchportalplus.anu.edu.au/en/persons/julie-lahn",
+    "tags": [
+      "cass",
+      "centre for heritage and museum s"
+    ],
+    "linkedCourses": [],
+    "reviewMetrics": [
+      "Clarity",
+      "Support",
+      "Engagement"
+    ]
+  },
+  {
+    "id": "karen-fox",
+    "type": "academic",
+    "name": "Dr Karen Fox",
+    "school": "School of History",
+    "schoolCode": "CASS",
+    "college": "CASS",
+    "position": "Senior Lecturer, School of History",
+    "focus": "Senior Academic Research Editor, National Centre of Biography",
+    "email": "karen.fox@anu.edu.au",
+    "office": "School of History",
+    "profileUrl": "https://researchportalplus.anu.edu.au/en/persons/karen-fox",
+    "tags": [
+      "cass",
+      "senior academic research editor",
+      "national centre of biography"
+    ],
+    "linkedCourses": [],
+    "reviewMetrics": [
+      "Clarity",
+      "Support",
+      "Engagement"
+    ]
+  },
+  {
+    "id": "kate-hill-2",
+    "type": "academic",
+    "name": "Dr Kate Hill",
+    "school": "ANU College of Arts and Social Sciences",
+    "schoolCode": "CASS",
+    "college": "CASS",
+    "position": "Lecturer, Ceramics",
+    "focus": "ANU College of Arts and Social Sciences",
+    "email": "Kate.Hill1@anu.edu.au",
+    "office": "ANU College of Arts and Social Sciences",
+    "profileUrl": "https://researchportalplus.anu.edu.au/en/persons/kate-hill-2",
+    "tags": [
+      "cass",
+      "anu college of arts and social s"
+    ],
+    "linkedCourses": [],
+    "reviewMetrics": [
+      "Clarity",
+      "Support",
+      "Engagement"
+    ]
+  },
+  {
+    "id": "kate-warren",
+    "type": "academic",
+    "name": "Dr Kate Warren",
+    "school": "Centre for Art History & Art Theory",
+    "schoolCode": "CASS",
+    "college": "CASS",
+    "position": "Senior Lecturer, Centre for Art History & Art Theory",
+    "focus": "Centre for Art History & Art Theory",
+    "email": "kate.warren@anu.edu.au",
+    "office": "Centre for Art History & Art Theory",
+    "profileUrl": "https://researchportalplus.anu.edu.au/en/persons/kate-warren",
+    "tags": [
+      "cass",
+      "centre for art history & art the"
+    ],
+    "linkedCourses": [],
+    "reviewMetrics": [
+      "Clarity",
+      "Support",
+      "Engagement"
+    ]
+  },
+  {
+    "id": "katharine-balolia",
+    "type": "academic",
+    "name": "Dr Katharine Balolia",
+    "school": "ANU College of Arts and Social Sciences",
+    "schoolCode": "CASS",
+    "college": "CASS",
+    "position": "Senior Lecturer in Biological Anthropology, Biological Anthropology",
+    "focus": "ANU College of Arts and Social Sciences",
+    "email": "katharine.balolia@anu.edu.au",
+    "office": "ANU College of Arts and Social Sciences",
+    "profileUrl": "https://researchportalplus.anu.edu.au/en/persons/katharine-balolia",
+    "tags": [
+      "cass",
+      "anu college of arts and social s"
+    ],
+    "linkedCourses": [],
+    "reviewMetrics": [
+      "Clarity",
+      "Support",
+      "Engagement"
+    ]
+  },
+  {
+    "id": "katherine-curchin",
+    "type": "academic",
+    "name": "Dr Katherine Curchin",
+    "school": "Centre for Social Research and Methods",
+    "schoolCode": "CASS",
+    "college": "CASS",
+    "position": "Honorary Lecturer, Centre for Social Research and Methods",
+    "focus": "Centre for Social Research and Methods",
+    "email": "katherine.curchin@anu.edu.au",
+    "office": "Centre for Social Research and Methods",
+    "profileUrl": "https://researchportalplus.anu.edu.au/en/persons/katherine-curchin",
+    "tags": [
+      "cass",
+      "centre for social research and m"
+    ],
+    "linkedCourses": [],
+    "reviewMetrics": [
+      "Clarity",
+      "Support",
+      "Engagement"
+    ]
+  },
+  {
+    "id": "kate-flaherty",
+    "type": "academic",
+    "name": "Dr Kathryn (Kate) Flaherty",
+    "school": "ANU College of Arts and Social Sciences",
+    "schoolCode": "CASS",
+    "college": "CASS",
+    "position": "Senior Lecturer, English & Drama, English",
+    "focus": "ANU College of Arts and Social Sciences",
+    "email": "kate.flaherty@anu.edu.au",
+    "office": "ANU College of Arts and Social Sciences",
+    "profileUrl": "https://researchportalplus.anu.edu.au/en/persons/kate-flaherty",
+    "tags": [
+      "cass",
+      "anu college of arts and social s"
+    ],
+    "linkedCourses": [],
+    "reviewMetrics": [
+      "Clarity",
+      "Support",
+      "Engagement"
+    ]
+  },
+  {
+    "id": "grant-k",
+    "type": "academic",
+    "name": "Dr Katrina Grant",
+    "school": "Centre for Digital Humanities Research",
+    "schoolCode": "CASS",
+    "college": "CASS",
+    "position": "Lecturer in Digital Humanities, Centre for Digital Humanities Research",
+    "focus": "HRC Adjunct Fellow, Humanities Research Centre",
+    "email": "Katrina.Grant@anu.edu.au",
+    "office": "Centre for Digital Humanities Research",
+    "profileUrl": "https://researchers.anu.edu.au/researchers/grant-k",
+    "tags": [
+      "cass",
+      "hrc adjunct fellow",
+      "humanities research centre"
     ],
     "linkedCourses": [],
     "reviewMetrics": [
@@ -7014,16 +9492,18 @@ window.ANREVIEW_DATA = {
     "id": "katrine-beauregard",
     "type": "academic",
     "name": "Dr Katrine Beauregard",
-    "school": "School of Politics and International Relations",
-    "schoolCode": "SPIR",
-    "position": "Senior Lecturer, School of Politics & International Relations Associate, Australian Centre for Federalism Associate, The Australian Politics Studies Centre",
-    "focus": "School of Politics and International Relations",
+    "school": "School of Politics & International Relations",
+    "schoolCode": "CASS",
+    "college": "CASS",
+    "position": "Senior Lecturer, School of Politics & International Relations",
+    "focus": "Senior Lecturer, School of Politics & International Relations",
     "email": "Katrine.Beauregard@anu.edu.au",
-    "office": "Level 2, RSSS Building, 146 Ellery Crescent",
+    "office": "School of Politics & International Relations",
     "profileUrl": "https://researchportalplus.anu.edu.au/en/persons/katrine-beauregard",
     "tags": [
-      "spir",
-      "school of politics and internati"
+      "cass",
+      "senior lecturer",
+      "school of politics & internation"
     ],
     "linkedCourses": [],
     "reviewMetrics": [
@@ -7033,19 +9513,22 @@ window.ANREVIEW_DATA = {
     ]
   },
   {
-    "id": "kim-huynh",
+    "id": "keren-hammerschlag",
     "type": "academic",
-    "name": "Dr Kim Huynh",
-    "school": "School of Politics and International Relations",
-    "schoolCode": "SPIR",
-    "position": "Senior Lecturer, School of Politics & International Relations",
-    "focus": "School of Politics and International Relations",
-    "email": "Kim.Huynh@anu.edu.au",
-    "office": "Level 2, RSSS Building, 146 Ellery Crescent",
-    "profileUrl": "https://researchportalplus.anu.edu.au/en/persons/kim-huynh",
+    "name": "Dr Keren Hammerschlag",
+    "school": "Centre for Art History & Art Theory",
+    "schoolCode": "CASS",
+    "college": "CASS",
+    "position": "Senior Lecturer, Centre for Art History & Art Theory",
+    "focus": "Convenor of Bachelor of Art History and Curatorship (Honours), School of Art & Design, Director, Centre for Art History & Art Theory",
+    "email": "Keren.Hammerschlag@anu.edu.au",
+    "office": "Centre for Art History & Art Theory",
+    "profileUrl": "https://researchportalplus.anu.edu.au/en/persons/keren-hammerschlag",
     "tags": [
-      "spir",
-      "school of politics and internati"
+      "cass",
+      "convenor of bachelor of art hist",
+      "school of art & design",
+      "director"
     ],
     "linkedCourses": [],
     "reviewMetrics": [
@@ -7055,19 +9538,252 @@ window.ANREVIEW_DATA = {
     ]
   },
   {
-    "id": "dr-laura-welty",
+    "id": "kirsten-mann",
     "type": "academic",
-    "name": "Dr Laura Welty",
-    "school": "School of Politics and International Relations",
-    "schoolCode": "SPIR",
-    "position": "Lecturer, School of Politics & International Relations",
-    "focus": "School of Politics and International Relations",
-    "email": "Laura.Welty@anu.edu.au",
-    "office": "School of Politics and International Relations",
-    "profileUrl": "https://politicsir.cass.anu.edu.au/people/dr-laura-welty",
+    "name": "Dr Kirsten Mann",
+    "school": "School of Philosophy",
+    "schoolCode": "CASS",
+    "college": "CASS",
+    "position": "Postdoctoral Fellow, School of Philosophy",
+    "focus": "School of Philosophy",
+    "email": "kirsten.mann@anu.edu.au",
+    "office": "School of Philosophy",
+    "profileUrl": "https://researchportalplus.anu.edu.au/en/persons/kirsten-mann",
     "tags": [
-      "spir",
-      "school of politics and internati"
+      "cass",
+      "school of philosophy"
+    ],
+    "linkedCourses": [],
+    "reviewMetrics": [
+      "Clarity",
+      "Support",
+      "Engagement"
+    ]
+  },
+  {
+    "id": "koji-tanaka",
+    "type": "academic",
+    "name": "Dr Koji Tanaka",
+    "school": "School of Philosophy",
+    "schoolCode": "CASS",
+    "college": "CASS",
+    "position": "Senior Lecturer, School of Philosophy",
+    "focus": "School of Philosophy",
+    "email": "koji.tanaka@anu.edu.au",
+    "office": "School of Philosophy",
+    "profileUrl": "https://researchportalplus.anu.edu.au/en/persons/koji-tanaka",
+    "tags": [
+      "cass",
+      "school of philosophy"
+    ],
+    "linkedCourses": [],
+    "reviewMetrics": [
+      "Clarity",
+      "Support",
+      "Engagement"
+    ]
+  },
+  {
+    "id": "kristin-mcgee",
+    "type": "academic",
+    "name": "Dr Kristin McGee",
+    "school": "School of Music",
+    "schoolCode": "CASS",
+    "college": "CASS",
+    "position": "Senior Lecturer, School of Music",
+    "focus": "School of Music",
+    "email": "Kristin.McGee@anu.edu.au",
+    "office": "School of Music",
+    "profileUrl": "https://researchportalplus.anu.edu.au/en/persons/kristin-mcgee",
+    "tags": [
+      "cass",
+      "school of music"
+    ],
+    "linkedCourses": [],
+    "reviewMetrics": [
+      "Clarity",
+      "Support",
+      "Engagement"
+    ]
+  },
+  {
+    "id": "ksenia-gnevsheva",
+    "type": "academic",
+    "name": "Dr Ksenia Gnevsheva",
+    "school": "ANU College of Arts and Social Sciences",
+    "schoolCode": "CASS",
+    "college": "CASS",
+    "position": "Senior Lecturer in Linguistics, Linguistics & Applied Linguistics",
+    "focus": "ANU College of Arts and Social Sciences",
+    "email": "Ksenia.Gnevsheva@anu.edu.au",
+    "office": "ANU College of Arts and Social Sciences",
+    "profileUrl": "https://researchportalplus.anu.edu.au/en/persons/ksenia-gnevsheva",
+    "tags": [
+      "cass",
+      "anu college of arts and social s"
+    ],
+    "linkedCourses": [],
+    "reviewMetrics": [
+      "Clarity",
+      "Support",
+      "Engagement"
+    ]
+  },
+  {
+    "id": "lawrence-bamblett",
+    "type": "academic",
+    "name": "Dr Lawrence Bamblett",
+    "school": "School of History",
+    "schoolCode": "CASS",
+    "college": "CASS",
+    "position": "Senior Lecturer, School of History",
+    "focus": "Director, Australian Centre for Indigenous History",
+    "email": "lawrence.bamblett@anu.edu.au",
+    "office": "School of History",
+    "profileUrl": "https://researchportalplus.anu.edu.au/en/persons/lawrence-bamblett",
+    "tags": [
+      "cass",
+      "director",
+      "australian centre for indigenous"
+    ],
+    "linkedCourses": [],
+    "reviewMetrics": [
+      "Clarity",
+      "Support",
+      "Engagement"
+    ]
+  },
+  {
+    "id": "liz-allen",
+    "type": "academic",
+    "name": "Dr Liz Allen",
+    "school": "Centre for Social Research and Methods",
+    "schoolCode": "CASS",
+    "college": "CASS",
+    "position": "Associate Lecturer, Centre for Social Research and Methods",
+    "focus": "Centre for Social Research and Methods",
+    "email": "liz.allen@anu.edu.au",
+    "office": "Centre for Social Research and Methods",
+    "profileUrl": "https://researchportalplus.anu.edu.au/en/persons/liz-allen",
+    "tags": [
+      "cass",
+      "centre for social research and m"
+    ],
+    "linkedCourses": [],
+    "reviewMetrics": [
+      "Clarity",
+      "Support",
+      "Engagement"
+    ]
+  },
+  {
+    "id": "lu-teng",
+    "type": "academic",
+    "name": "Dr Lu Teng",
+    "school": "School of Philosophy",
+    "schoolCode": "CASS",
+    "college": "CASS",
+    "position": "Lecturer, School of Philosophy",
+    "focus": "School of Philosophy",
+    "email": "Lu.Teng@anu.edu.au",
+    "office": "School of Philosophy",
+    "profileUrl": "https://researchportalplus.anu.edu.au/en/persons/lu-teng",
+    "tags": [
+      "cass",
+      "school of philosophy"
+    ],
+    "linkedCourses": [],
+    "reviewMetrics": [
+      "Clarity",
+      "Support",
+      "Engagement"
+    ]
+  },
+  {
+    "id": "lucy-neave",
+    "type": "academic",
+    "name": "Dr Lucy Neave",
+    "school": "ANU College of Arts and Social Sciences",
+    "schoolCode": "CASS",
+    "college": "CASS",
+    "position": "Senior Lecturer, Creative Writing, English",
+    "focus": "ANU College of Arts and Social Sciences",
+    "email": "lucy.neave@anu.edu.au",
+    "office": "ANU College of Arts and Social Sciences",
+    "profileUrl": "https://researchportalplus.anu.edu.au/en/persons/lucy-neave",
+    "tags": [
+      "cass",
+      "anu college of arts and social s"
+    ],
+    "linkedCourses": [],
+    "reviewMetrics": [
+      "Clarity",
+      "Support",
+      "Engagement"
+    ]
+  },
+  {
+    "id": "malcolm-allbrook",
+    "type": "academic",
+    "name": "Dr Malcolm Allbrook",
+    "school": "School of History",
+    "schoolCode": "CASS",
+    "college": "CASS",
+    "position": "Senior Lecturer, School of History",
+    "focus": "Managing Editor, National Centre of Biography",
+    "email": "malcolm.allbrook@anu.edu.au",
+    "office": "School of History",
+    "profileUrl": "https://researchportalplus.anu.edu.au/en/persons/malcolm-allbrook",
+    "tags": [
+      "cass",
+      "managing editor",
+      "national centre of biography"
+    ],
+    "linkedCourses": [],
+    "reviewMetrics": [
+      "Clarity",
+      "Support",
+      "Engagement"
+    ]
+  },
+  {
+    "id": "mandy-yap",
+    "type": "academic",
+    "name": "Dr Mandy Yap",
+    "school": "Centre for Indigenous Policy Research",
+    "schoolCode": "CASS",
+    "college": "CASS",
+    "position": "Associate Professor, Centre for Indigenous Policy Research",
+    "focus": "Centre for Indigenous Policy Research",
+    "email": "mandy.yap@anu.edu.au",
+    "office": "Centre for Indigenous Policy Research",
+    "profileUrl": "https://researchportalplus.anu.edu.au/en/persons/mandy-yap",
+    "tags": [
+      "cass",
+      "centre for indigenous policy res"
+    ],
+    "linkedCourses": [],
+    "reviewMetrics": [
+      "Clarity",
+      "Support",
+      "Engagement"
+    ]
+  },
+  {
+    "id": "manuel-delicado-cantero",
+    "type": "academic",
+    "name": "Dr Manuel Delicado Cantero",
+    "school": "Spanish Studies",
+    "schoolCode": "CASS",
+    "college": "CASS",
+    "position": "Senior Lecturer, Spanish Studies, Languages",
+    "focus": "Spanish Studies",
+    "email": "manuel.delicado@anu.edu.au",
+    "office": "Spanish Studies",
+    "profileUrl": "https://researchportalplus.anu.edu.au/en/persons/manuel-delicado-cantero",
+    "tags": [
+      "cass",
+      "spanish studies"
     ],
     "linkedCourses": [],
     "reviewMetrics": [
@@ -7080,16 +9796,202 @@ window.ANREVIEW_DATA = {
     "id": "marija-taflaga",
     "type": "academic",
     "name": "Dr Marija Taflaga",
-    "school": "School of Politics and International Relations",
-    "schoolCode": "SPIR",
-    "position": "Senior Lecturer, School of Politics & International Relations Director, The Australian Politics Studies Centre",
-    "focus": "School of Politics and International Relations",
+    "school": "School of Politics & International Relations",
+    "schoolCode": "CASS",
+    "college": "CASS",
+    "position": "Senior Lecturer, School of Politics & International Relations",
+    "focus": "Senior Lecturer, School of Politics & International Relations",
     "email": "Marija.Taflaga@anu.edu.au",
-    "office": "Level 3, RSSS Building, 146 Ellery Crescent",
+    "office": "School of Politics & International Relations",
     "profileUrl": "https://researchportalplus.anu.edu.au/en/persons/marija-taflaga",
     "tags": [
-      "spir",
-      "school of politics and internati"
+      "cass",
+      "senior lecturer",
+      "school of politics & internation"
+    ],
+    "linkedCourses": [],
+    "reviewMetrics": [
+      "Clarity",
+      "Support",
+      "Engagement"
+    ]
+  },
+  {
+    "id": "mark-dawson",
+    "type": "academic",
+    "name": "Dr Mark Dawson",
+    "school": "School of History",
+    "schoolCode": "CASS",
+    "college": "CASS",
+    "position": "Honorary Senior Lecturer, School of History",
+    "focus": "School of History",
+    "email": "mark.dawson@anu.edu.au",
+    "office": "School of History",
+    "profileUrl": "https://researchportalplus.anu.edu.au/en/persons/mark-dawson",
+    "tags": [
+      "cass",
+      "school of history"
+    ],
+    "linkedCourses": [],
+    "reviewMetrics": [
+      "Clarity",
+      "Support",
+      "Engagement"
+    ]
+  },
+  {
+    "id": "mathieu-leclerc",
+    "type": "academic",
+    "name": "Dr Mathieu Leclerc",
+    "school": "ANU College of Arts and Social Sciences",
+    "schoolCode": "CASS",
+    "college": "CASS",
+    "position": "Lecturer in Archaeology, Archaeology",
+    "focus": "ANU College of Arts and Social Sciences",
+    "email": "mathieu.leclerc@anu.edu.au",
+    "office": "ANU College of Arts and Social Sciences",
+    "profileUrl": "https://researchportalplus.anu.edu.au/en/persons/mathieu-leclerc",
+    "tags": [
+      "cass",
+      "anu college of arts and social s"
+    ],
+    "linkedCourses": [],
+    "reviewMetrics": [
+      "Clarity",
+      "Support",
+      "Engagement"
+    ]
+  },
+  {
+    "id": "matt-withers",
+    "type": "academic",
+    "name": "Dr Matt Withers",
+    "school": "School of Sociology",
+    "schoolCode": "CASS",
+    "college": "CASS",
+    "position": "Senior Lecturer, School of Sociology",
+    "focus": "School of Sociology",
+    "email": "Matt.Withers@anu.edu.au",
+    "office": "School of Sociology",
+    "profileUrl": "https://researchportalplus.anu.edu.au/en/persons/matt-withers",
+    "tags": [
+      "cass",
+      "school of sociology"
+    ],
+    "linkedCourses": [],
+    "reviewMetrics": [
+      "Clarity",
+      "Support",
+      "Engagement"
+    ]
+  },
+  {
+    "id": "maureen-gallagher",
+    "type": "academic",
+    "name": "Dr Maureen Gallagher",
+    "school": "ANU College of Arts and Social Sciences",
+    "schoolCode": "CASS",
+    "college": "CASS",
+    "position": "Lecturer in German, Languages",
+    "focus": "ANU College of Arts and Social Sciences",
+    "email": "maureen.gallagher@anu.edu.au",
+    "office": "ANU College of Arts and Social Sciences",
+    "profileUrl": "https://researchportalplus.anu.edu.au/en/persons/maureen-gallagher",
+    "tags": [
+      "cass",
+      "anu college of arts and social s"
+    ],
+    "linkedCourses": [],
+    "reviewMetrics": [
+      "Clarity",
+      "Support",
+      "Engagement"
+    ]
+  },
+  {
+    "id": "maya-haviland",
+    "type": "academic",
+    "name": "Dr Maya Haviland",
+    "school": "Centre for Heritage and Museum Studies",
+    "schoolCode": "CASS",
+    "college": "CASS",
+    "position": "Senior Lecturer, Centre for Heritage and Museum Studies",
+    "focus": "Centre for Heritage and Museum Studies",
+    "email": "maya.haviland@anu.edu.au",
+    "office": "Centre for Heritage and Museum Studies",
+    "profileUrl": "https://researchportalplus.anu.edu.au/en/persons/maya-haviland",
+    "tags": [
+      "cass",
+      "centre for heritage and museum s"
+    ],
+    "linkedCourses": [],
+    "reviewMetrics": [
+      "Clarity",
+      "Support",
+      "Engagement"
+    ]
+  },
+  {
+    "id": "meaghan-mcevoy",
+    "type": "academic",
+    "name": "Dr Meaghan McEvoy",
+    "school": "School of History",
+    "schoolCode": "CASS",
+    "college": "CASS",
+    "position": "Senior Lecturer in History, School of History",
+    "focus": "School of History",
+    "email": "Meaghan.McEvoy@anu.edu.au",
+    "office": "School of History",
+    "profileUrl": "https://researchportalplus.anu.edu.au/en/persons/meaghan-mcevoy",
+    "tags": [
+      "cass",
+      "school of history"
+    ],
+    "linkedCourses": [],
+    "reviewMetrics": [
+      "Clarity",
+      "Support",
+      "Engagement"
+    ]
+  },
+  {
+    "id": "melissa-lovell",
+    "type": "academic",
+    "name": "Dr Melissa Lovell",
+    "school": "ANU College of Arts and Social Sciences",
+    "schoolCode": "CASS",
+    "college": "CASS",
+    "position": "Convenor and Research Fellow, Freilich Project for the Study of Bigotry",
+    "focus": "ANU College of Arts and Social Sciences",
+    "email": "melissa.lovell@anu.edu.au",
+    "office": "ANU College of Arts and Social Sciences",
+    "profileUrl": "https://researchportalplus.anu.edu.au/en/persons/melissa-lovell",
+    "tags": [
+      "cass",
+      "anu college of arts and social s"
+    ],
+    "linkedCourses": [],
+    "reviewMetrics": [
+      "Clarity",
+      "Support",
+      "Engagement"
+    ]
+  },
+  {
+    "id": "mike-roettger",
+    "type": "academic",
+    "name": "Dr Michael Roettger",
+    "school": "School of Demography",
+    "schoolCode": "CASS",
+    "college": "CASS",
+    "position": "Senior Lecturer, School of Demography",
+    "focus": "School of Demography",
+    "email": "mike.roettger@anu.edu.au",
+    "office": "School of Demography",
+    "profileUrl": "https://researchportalplus.anu.edu.au/en/persons/mike-roettger",
+    "tags": [
+      "cass",
+      "school of demography"
     ],
     "linkedCourses": [],
     "reviewMetrics": [
@@ -7102,16 +10004,132 @@ window.ANREVIEW_DATA = {
     "id": "michael-zekulin",
     "type": "academic",
     "name": "Dr Michael Zekulin",
-    "school": "School of Politics and International Relations",
-    "schoolCode": "SPIR",
+    "school": "School of Politics & International Relations",
+    "schoolCode": "CASS",
+    "college": "CASS",
     "position": "Senior Lecturer, School of Politics & International Relations",
-    "focus": "School of Politics and International Relations",
+    "focus": "School of Politics & International Relations",
     "email": "Michael.Zekulin@anu.edu.au",
-    "office": "Level 3, RSSS Building, 146 Ellery Crescent",
+    "office": "School of Politics & International Relations",
     "profileUrl": "https://researchportalplus.anu.edu.au/en/persons/michael-zekulin",
     "tags": [
-      "spir",
-      "school of politics and internati"
+      "cass",
+      "school of politics & internation"
+    ],
+    "linkedCourses": [],
+    "reviewMetrics": [
+      "Clarity",
+      "Support",
+      "Engagement"
+    ]
+  },
+  {
+    "id": "millicent-weber",
+    "type": "academic",
+    "name": "Dr Millicent Weber",
+    "school": "ANU College of Arts and Social Sciences",
+    "schoolCode": "CASS",
+    "college": "CASS",
+    "position": "Lecturer in English, English",
+    "focus": "ANU College of Arts and Social Sciences",
+    "email": "millicent.weber@anu.edu.au",
+    "office": "ANU College of Arts and Social Sciences",
+    "profileUrl": "https://researchportalplus.anu.edu.au/en/persons/millicent-weber",
+    "tags": [
+      "cass",
+      "anu college of arts and social s"
+    ],
+    "linkedCourses": [],
+    "reviewMetrics": [
+      "Clarity",
+      "Support",
+      "Engagement"
+    ]
+  },
+  {
+    "id": "mohammed-alsudairi",
+    "type": "academic",
+    "name": "Dr Mohammed Alsudairi",
+    "school": "Centre for Arab and Islamic Studies",
+    "schoolCode": "CASS",
+    "college": "CASS",
+    "position": "Lecturer in Politics and International Relations (The Arabian Peninsula, China and the Middle East), Centre for Arab and Islamic Studies",
+    "focus": "Centre for Arab and Islamic Studies",
+    "email": "Mohammed.Alsudairi@anu.edu.au",
+    "office": "Centre for Arab and Islamic Studies",
+    "profileUrl": "https://researchportalplus.anu.edu.au/en/persons/mohammed-alsudairi",
+    "tags": [
+      "cass",
+      "centre for arab and islamic stud"
+    ],
+    "linkedCourses": [],
+    "reviewMetrics": [
+      "Clarity",
+      "Support",
+      "Engagement"
+    ]
+  },
+  {
+    "id": "monique-rooney",
+    "type": "academic",
+    "name": "Dr Monique Rooney",
+    "school": "ANU College of Arts and Social Sciences",
+    "schoolCode": "CASS",
+    "college": "CASS",
+    "position": "Senior Lecturer, English & Drama, English",
+    "focus": "ANU College of Arts and Social Sciences",
+    "email": "monique.rooney@anu.edu.au",
+    "office": "ANU College of Arts and Social Sciences",
+    "profileUrl": "https://researchportalplus.anu.edu.au/en/persons/monique-rooney",
+    "tags": [
+      "cass",
+      "anu college of arts and social s"
+    ],
+    "linkedCourses": [],
+    "reviewMetrics": [
+      "Clarity",
+      "Support",
+      "Engagement"
+    ]
+  },
+  {
+    "id": "naomi-hay",
+    "type": "academic",
+    "name": "Dr Naomi Hay",
+    "school": "ANU College of Arts and Social Sciences",
+    "schoolCode": "CASS",
+    "college": "CASS",
+    "position": "Lecturer, Design",
+    "focus": "ANU College of Arts and Social Sciences",
+    "email": "Naomi.Hay@anu.edu.au",
+    "office": "ANU College of Arts and Social Sciences",
+    "profileUrl": "https://researchportalplus.anu.edu.au/en/persons/naomi-hay",
+    "tags": [
+      "cass",
+      "anu college of arts and social s"
+    ],
+    "linkedCourses": [],
+    "reviewMetrics": [
+      "Clarity",
+      "Support",
+      "Engagement"
+    ]
+  },
+  {
+    "id": "nuhu-osman-attah",
+    "type": "academic",
+    "name": "Dr Nuhu Osman Attah",
+    "school": "School of Philosophy",
+    "schoolCode": "CASS",
+    "college": "CASS",
+    "position": "Research Fellow, School of Philosophy",
+    "focus": "School of Philosophy",
+    "email": "nuhu.osmanattah@anu.edu.au",
+    "office": "School of Philosophy",
+    "profileUrl": "https://researchportalplus.anu.edu.au/en/persons/nuhu-osman-attah",
+    "tags": [
+      "cass",
+      "school of philosophy"
     ],
     "linkedCourses": [],
     "reviewMetrics": [
@@ -7124,16 +10142,42 @@ window.ANREVIEW_DATA = {
     "id": "pandanus-petter",
     "type": "academic",
     "name": "Dr Pandanus Petter",
-    "school": "School of Politics and International Relations",
-    "schoolCode": "SPIR",
+    "school": "School of Politics & International Relations",
+    "schoolCode": "CASS",
+    "college": "CASS",
     "position": "Academic, School of Politics & International Relations",
-    "focus": "School of Politics and International Relations",
+    "focus": "School of Politics & International Relations",
     "email": "pandanus.petter@anu.edu.au",
-    "office": "School of Politics and International Relations",
+    "office": "School of Politics & International Relations",
     "profileUrl": "https://researchportalplus.anu.edu.au/en/persons/pandanus-petter",
     "tags": [
-      "spir",
-      "school of politics and internati"
+      "cass",
+      "school of politics & internation"
+    ],
+    "linkedCourses": [],
+    "reviewMetrics": [
+      "Clarity",
+      "Support",
+      "Engagement"
+    ]
+  },
+  {
+    "id": "pat-ogrady",
+    "type": "academic",
+    "name": "Dr Pat O'Grady",
+    "school": "School of Music",
+    "schoolCode": "CASS",
+    "college": "CASS",
+    "position": "Senior Lecturer, School of Music",
+    "focus": "Honours and Graduate Coursework Convenor, School of Music, Contemporary Music Production Convenor, School of Music",
+    "email": "Pat.OGrady@anu.edu.au",
+    "office": "School of Music",
+    "profileUrl": "https://researchportalplus.anu.edu.au/en/persons/pat-ogrady",
+    "tags": [
+      "cass",
+      "honours and graduate coursework ",
+      "school of music",
+      "contemporary music production co"
     ],
     "linkedCourses": [],
     "reviewMetrics": [
@@ -7146,16 +10190,206 @@ window.ANREVIEW_DATA = {
     "id": "patrick-leslie",
     "type": "academic",
     "name": "Dr Patrick Leslie",
-    "school": "School of Politics and International Relations",
-    "schoolCode": "SPIR",
+    "school": "School of Politics & International Relations",
+    "schoolCode": "CASS",
+    "college": "CASS",
     "position": "Associate Lecturer, School of Politics & International Relations",
-    "focus": "School of Politics and International Relations",
+    "focus": "School of Politics & International Relations",
     "email": "Patrick.Leslie@anu.edu.au",
-    "office": "Level 2, RSSS Building, 146 Ellery Crescent",
+    "office": "School of Politics & International Relations",
     "profileUrl": "https://researchportalplus.anu.edu.au/en/persons/patrick-leslie",
     "tags": [
-      "spir",
-      "school of politics and internati"
+      "cass",
+      "school of politics & internation"
+    ],
+    "linkedCourses": [],
+    "reviewMetrics": [
+      "Clarity",
+      "Support",
+      "Engagement"
+    ]
+  },
+  {
+    "id": "peter-alwast",
+    "type": "academic",
+    "name": "Dr Peter Alwast",
+    "school": "ANU College of Arts and Social Sciences",
+    "schoolCode": "CASS",
+    "college": "CASS",
+    "position": "Senior Lecturer, Painting",
+    "focus": "Senior Lecturer, Painting, Chair of Gallery Committee, School of Art & Design",
+    "email": "peter.alwast@anu.edu.au",
+    "office": "ANU College of Arts and Social Sciences",
+    "profileUrl": "https://researchportalplus.anu.edu.au/en/persons/peter-alwast",
+    "tags": [
+      "cass",
+      "senior lecturer",
+      "painting",
+      "chair of gallery committee"
+    ],
+    "linkedCourses": [],
+    "reviewMetrics": [
+      "Clarity",
+      "Support",
+      "Engagement"
+    ]
+  },
+  {
+    "id": "petra-vaiglova",
+    "type": "academic",
+    "name": "Dr Petra Vaiglova",
+    "school": "ANU College of Arts and Social Sciences",
+    "schoolCode": "CASS",
+    "college": "CASS",
+    "position": "Lecturer in Archaeology, Archaeology",
+    "focus": "ANU College of Arts and Social Sciences",
+    "email": "Petra.Vaiglova@anu.edu.au",
+    "office": "ANU College of Arts and Social Sciences",
+    "profileUrl": "https://researchportalplus.anu.edu.au/en/persons/petra-vaiglova",
+    "tags": [
+      "cass",
+      "anu college of arts and social s"
+    ],
+    "linkedCourses": [],
+    "reviewMetrics": [
+      "Clarity",
+      "Support",
+      "Engagement"
+    ]
+  },
+  {
+    "id": "pia-van-gelder",
+    "type": "academic",
+    "name": "Dr Pia van Gelder",
+    "school": "ANU College of Arts and Social Sciences",
+    "schoolCode": "CASS",
+    "college": "CASS",
+    "position": "Lecturer, Design",
+    "focus": "ANU College of Arts and Social Sciences",
+    "email": "pia.vangelder@anu.edu.au",
+    "office": "ANU College of Arts and Social Sciences",
+    "profileUrl": "https://researchportalplus.anu.edu.au/en/persons/pia-van-gelder",
+    "tags": [
+      "cass",
+      "anu college of arts and social s"
+    ],
+    "linkedCourses": [],
+    "reviewMetrics": [
+      "Clarity",
+      "Support",
+      "Engagement"
+    ]
+  },
+  {
+    "id": "rachael-thoms",
+    "type": "academic",
+    "name": "Dr Rachael Thoms",
+    "school": "School of Music",
+    "schoolCode": "CASS",
+    "college": "CASS",
+    "position": "Associate Lecturer, School of Music",
+    "focus": "Performance Convenor, School of Music",
+    "email": "Rachael.Thoms@anu.edu.au",
+    "office": "School of Music",
+    "profileUrl": "https://researchportalplus.anu.edu.au/en/persons/rachael-thoms",
+    "tags": [
+      "cass",
+      "performance convenor",
+      "school of music"
+    ],
+    "linkedCourses": [],
+    "reviewMetrics": [
+      "Clarity",
+      "Support",
+      "Engagement"
+    ]
+  },
+  {
+    "id": "raquel-ormella",
+    "type": "academic",
+    "name": "Dr Raquel Ormella",
+    "school": "ANU College of Arts and Social Sciences",
+    "schoolCode": "CASS",
+    "college": "CASS",
+    "position": "Senior Lecturer, Painting",
+    "focus": "ANU College of Arts and Social Sciences",
+    "email": "raquel.ormella@anu.edu.au",
+    "office": "ANU College of Arts and Social Sciences",
+    "profileUrl": "https://researchportalplus.anu.edu.au/en/persons/raquel-ormella",
+    "tags": [
+      "cass",
+      "anu college of arts and social s"
+    ],
+    "linkedCourses": [],
+    "reviewMetrics": [
+      "Clarity",
+      "Support",
+      "Engagement"
+    ]
+  },
+  {
+    "id": "rebecca-clode",
+    "type": "academic",
+    "name": "Dr Rebecca Clode",
+    "school": "ANU College of Arts and Social Sciences",
+    "schoolCode": "CASS",
+    "college": "CASS",
+    "position": "Ethel Tory Lecturer, Drama, English",
+    "focus": "ANU College of Arts and Social Sciences",
+    "email": "rebecca.clode@anu.edu.au",
+    "office": "ANU College of Arts and Social Sciences",
+    "profileUrl": "https://researchportalplus.anu.edu.au/en/persons/rebecca-clode",
+    "tags": [
+      "cass",
+      "anu college of arts and social s"
+    ],
+    "linkedCourses": [],
+    "reviewMetrics": [
+      "Clarity",
+      "Support",
+      "Engagement"
+    ]
+  },
+  {
+    "id": "rebecca-mayo",
+    "type": "academic",
+    "name": "Dr Rebecca Mayo",
+    "school": "School of Art & Design",
+    "schoolCode": "CASS",
+    "college": "CASS",
+    "position": "Senior Lecturer, School of Art & Design",
+    "focus": "Senior Lecturer, School of Art & Design, Executive Committee Member, School of Art & Design",
+    "email": "rebecca.mayo@anu.edu.au",
+    "office": "School of Art & Design",
+    "profileUrl": "https://researchportalplus.anu.edu.au/en/persons/rebecca-mayo",
+    "tags": [
+      "cass",
+      "senior lecturer",
+      "school of art & design",
+      "executive committee member"
+    ],
+    "linkedCourses": [],
+    "reviewMetrics": [
+      "Clarity",
+      "Support",
+      "Engagement"
+    ]
+  },
+  {
+    "id": "beck-pearse",
+    "type": "academic",
+    "name": "Dr Rebecca Pearse",
+    "school": "School of Sociology",
+    "schoolCode": "CASS",
+    "college": "CASS",
+    "position": "Senior Lecturer, School of Sociology",
+    "focus": "School of Sociology",
+    "email": "Rebecca.Pearse@anu.edu.au",
+    "office": "School of Sociology",
+    "profileUrl": "https://researchportalplus.anu.edu.au/en/persons/beck-pearse",
+    "tags": [
+      "cass",
+      "school of sociology"
     ],
     "linkedCourses": [],
     "reviewMetrics": [
@@ -7168,16 +10402,18 @@ window.ANREVIEW_DATA = {
     "id": "richard-frank",
     "type": "academic",
     "name": "Dr Richard W Frank",
-    "school": "School of Politics and International Relations",
-    "schoolCode": "SPIR",
-    "position": "Senior Lecturer, School of Politics & International Relations Deputy Head of School, School of Politics & International Relations",
-    "focus": "School of Politics and International Relations",
+    "school": "School of Politics & International Relations",
+    "schoolCode": "CASS",
+    "college": "CASS",
+    "position": "Senior Lecturer, School of Politics & International Relations",
+    "focus": "Deputy Head of School, School of Politics & International Relations",
     "email": "Richard.Frank@anu.edu.au",
-    "office": "School of Politics and International Relations",
+    "office": "School of Politics & International Relations",
     "profileUrl": "https://researchportalplus.anu.edu.au/en/persons/richard-frank",
     "tags": [
-      "spir",
-      "school of politics and internati"
+      "cass",
+      "deputy head of school",
+      "school of politics & internation"
     ],
     "linkedCourses": [],
     "reviewMetrics": [
@@ -7187,19 +10423,251 @@ window.ANREVIEW_DATA = {
     ]
   },
   {
-    "id": "dr-ruosui-kelly-zhang",
+    "id": "rob-bray",
     "type": "academic",
-    "name": "Dr Ruosui (Kelly) Zhang",
-    "school": "School of Politics and International Relations",
-    "schoolCode": "SPIR",
-    "position": "Lecturer, School of Politics & International Relations",
-    "focus": "School of Politics and International Relations",
-    "email": "ruosui.zhang@anu.edu.au",
-    "office": "School of Politics and International Relations",
-    "profileUrl": "https://politicsir.cass.anu.edu.au/people/dr-ruosui-kelly-zhang",
+    "name": "Dr Rob Bray",
+    "school": "Centre for Social Research and Methods",
+    "schoolCode": "CASS",
+    "college": "CASS",
+    "position": "Research Fellow, Centre for Social Research and Methods",
+    "focus": "Centre for Social Research and Methods",
+    "email": "rob.bray@anu.edu.au",
+    "office": "Centre for Social Research and Methods",
+    "profileUrl": "https://researchportalplus.anu.edu.au/en/persons/rob-bray",
     "tags": [
-      "spir",
-      "school of politics and internati"
+      "cass",
+      "centre for social research and m"
+    ],
+    "linkedCourses": [],
+    "reviewMetrics": [
+      "Clarity",
+      "Support",
+      "Engagement"
+    ]
+  },
+  {
+    "id": "rosey-billington",
+    "type": "academic",
+    "name": "Dr Rosey Billington",
+    "school": "ANU College of Arts and Social Sciences",
+    "schoolCode": "CASS",
+    "college": "CASS",
+    "position": "Lecturer in Linguistics, Linguistics & Applied Linguistics",
+    "focus": "ANU College of Arts and Social Sciences",
+    "email": "rosey.billington@anu.edu.au",
+    "office": "ANU College of Arts and Social Sciences",
+    "profileUrl": "https://researchportalplus.anu.edu.au/en/persons/rosey-billington",
+    "tags": [
+      "cass",
+      "anu college of arts and social s"
+    ],
+    "linkedCourses": [],
+    "reviewMetrics": [
+      "Clarity",
+      "Support",
+      "Engagement"
+    ]
+  },
+  {
+    "id": "russell-smith",
+    "type": "academic",
+    "name": "Dr Russell Smith",
+    "school": "ANU College of Arts and Social Sciences",
+    "schoolCode": "CASS",
+    "college": "CASS",
+    "position": "Lecturer, English & Drama, English",
+    "focus": "ANU College of Arts and Social Sciences",
+    "email": "russell.smith@anu.edu.au",
+    "office": "ANU College of Arts and Social Sciences",
+    "profileUrl": "https://researchportalplus.anu.edu.au/en/persons/russell-smith",
+    "tags": [
+      "cass",
+      "anu college of arts and social s"
+    ],
+    "linkedCourses": [],
+    "reviewMetrics": [
+      "Clarity",
+      "Support",
+      "Engagement"
+    ]
+  },
+  {
+    "id": "anna-florin",
+    "type": "academic",
+    "name": "Dr S. Anna Florin",
+    "school": "ANU College of Arts and Social Sciences",
+    "schoolCode": "CASS",
+    "college": "CASS",
+    "position": "Lecturer in Archaeology, Archaeology",
+    "focus": "ANU College of Arts and Social Sciences",
+    "email": "Anna.Florin@anu.edu.au",
+    "office": "ANU College of Arts and Social Sciences",
+    "profileUrl": "https://researchportalplus.anu.edu.au/en/persons/anna-florin",
+    "tags": [
+      "cass",
+      "anu college of arts and social s"
+    ],
+    "linkedCourses": [],
+    "reviewMetrics": [
+      "Clarity",
+      "Support",
+      "Engagement"
+    ]
+  },
+  {
+    "id": "sameera-chauhan",
+    "type": "academic",
+    "name": "Dr Sameera Chauhan",
+    "school": "School of History",
+    "schoolCode": "CASS",
+    "college": "CASS",
+    "position": "Associate Lecturer, School of History",
+    "focus": "School of History",
+    "email": "Sameera.Chauhan@anu.edu.au",
+    "office": "School of History",
+    "profileUrl": "https://researchportalplus.anu.edu.au/en/persons/sameera-chauhan/",
+    "tags": [
+      "cass",
+      "school of history"
+    ],
+    "linkedCourses": [],
+    "reviewMetrics": [
+      "Clarity",
+      "Support",
+      "Engagement"
+    ]
+  },
+  {
+    "id": "sam-furphy",
+    "type": "academic",
+    "name": "Dr Samuel Furphy",
+    "school": "School of History",
+    "schoolCode": "CASS",
+    "college": "CASS",
+    "position": "Senior Lecturer, School of History",
+    "focus": "Senior Academic Research Editor, National Centre of Biography",
+    "email": "samuel.furphy@anu.edu.au",
+    "office": "School of History",
+    "profileUrl": "https://researchportalplus.anu.edu.au/en/persons/sam-furphy",
+    "tags": [
+      "cass",
+      "senior academic research editor",
+      "national centre of biography"
+    ],
+    "linkedCourses": [],
+    "reviewMetrics": [
+      "Clarity",
+      "Support",
+      "Engagement"
+    ]
+  },
+  {
+    "id": "sarahrodigari.org",
+    "type": "academic",
+    "name": "Dr Sarah Rodigari",
+    "school": "School of Art & Design",
+    "schoolCode": "CASS",
+    "college": "CASS",
+    "position": "Lecturer, School of Art & Design",
+    "focus": "School of Art & Design",
+    "email": "Sarah.Rodigari@anu.edu.au",
+    "office": "School of Art & Design",
+    "profileUrl": "https://sarahrodigari.org/",
+    "tags": [
+      "cass",
+      "school of art & design"
+    ],
+    "linkedCourses": [],
+    "reviewMetrics": [
+      "Clarity",
+      "Support",
+      "Engagement"
+    ]
+  },
+  {
+    "id": "sarah-scott",
+    "type": "academic",
+    "name": "Dr Sarah Scott",
+    "school": "Centre for Art History & Art Theory",
+    "schoolCode": "CASS",
+    "college": "CASS",
+    "position": "Lecturer, Centre for Art History & Art Theory",
+    "focus": "Centre for Art History & Art Theory",
+    "email": "sarah.scott@anu.edu.au",
+    "office": "Centre for Art History & Art Theory",
+    "profileUrl": "https://researchportalplus.anu.edu.au/en/persons/sarah-scott",
+    "tags": [
+      "cass",
+      "centre for art history & art the"
+    ],
+    "linkedCourses": [],
+    "reviewMetrics": [
+      "Clarity",
+      "Support",
+      "Engagement"
+    ]
+  },
+  {
+    "id": "sarah-jane-burton",
+    "type": "academic",
+    "name": "Dr Sarah-Jane Burton",
+    "school": "ANU College of Arts and Social Sciences",
+    "schoolCode": "CASS",
+    "college": "CASS",
+    "position": "Research Fellow, English, English",
+    "focus": "ANU College of Arts and Social Sciences",
+    "email": "sj.burton@anu.edu.au",
+    "office": "ANU College of Arts and Social Sciences",
+    "profileUrl": "https://researchportalplus.anu.edu.au/en/persons/sarah-jane-burton",
+    "tags": [
+      "cass",
+      "anu college of arts and social s"
+    ],
+    "linkedCourses": [],
+    "reviewMetrics": [
+      "Clarity",
+      "Support",
+      "Engagement"
+    ]
+  },
+  {
+    "id": "scott-davie",
+    "type": "academic",
+    "name": "Dr Scott Davie",
+    "school": "School of Music",
+    "schoolCode": "CASS",
+    "college": "CASS",
+    "position": "Senior Lecturer, School of Music",
+    "focus": "School of Music",
+    "email": "scott.davie@anu.edu.au",
+    "office": "School of Music",
+    "profileUrl": "https://researchportalplus.anu.edu.au/en/persons/scott-davie",
+    "tags": [
+      "cass",
+      "school of music"
+    ],
+    "linkedCourses": [],
+    "reviewMetrics": [
+      "Clarity",
+      "Support",
+      "Engagement"
+    ]
+  },
+  {
+    "id": "sergey-timonin",
+    "type": "academic",
+    "name": "Dr Sergey Timonin",
+    "school": "School of Demography",
+    "schoolCode": "CASS",
+    "college": "CASS",
+    "position": "Research Fellow, School of Demography",
+    "focus": "School of Demography",
+    "email": "Sergey.Timonin@anu.edu.au",
+    "office": "School of Demography",
+    "profileUrl": "https://researchportalplus.anu.edu.au/en/persons/sergey-timonin",
+    "tags": [
+      "cass",
+      "school of demography"
     ],
     "linkedCourses": [],
     "reviewMetrics": [
@@ -7212,16 +10680,133 @@ window.ANREVIEW_DATA = {
     "id": "shawn-treier",
     "type": "academic",
     "name": "Dr Shawn Treier",
-    "school": "School of Politics and International Relations",
-    "schoolCode": "SPIR",
+    "school": "School of Politics & International Relations",
+    "schoolCode": "CASS",
+    "college": "CASS",
     "position": "Senior Lecturer, School of Politics & International Relations",
-    "focus": "School of Politics and International Relations",
+    "focus": "School of Politics & International Relations",
     "email": "Shawn.Treier@anu.edu.au",
-    "office": "Level 2, RSSS Building, 146 Ellery Crescent",
+    "office": "School of Politics & International Relations",
     "profileUrl": "https://researchportalplus.anu.edu.au/en/persons/shawn-treier",
     "tags": [
-      "spir",
-      "school of politics and internati"
+      "cass",
+      "school of politics & internation"
+    ],
+    "linkedCourses": [],
+    "reviewMetrics": [
+      "Clarity",
+      "Support",
+      "Engagement"
+    ]
+  },
+  {
+    "id": "simona-martorana",
+    "type": "academic",
+    "name": "Dr Simona Martorana",
+    "school": "ANU College of Arts and Social Sciences",
+    "schoolCode": "CASS",
+    "college": "CASS",
+    "position": "Lecturer in Classics, Classics",
+    "focus": "ANU College of Arts and Social Sciences",
+    "email": "Simona.Martorana@anu.edu.au",
+    "office": "ANU College of Arts and Social Sciences",
+    "profileUrl": "https://researchportalplus.anu.edu.au/en/persons/simona-martorana",
+    "tags": [
+      "cass",
+      "anu college of arts and social s"
+    ],
+    "linkedCourses": [],
+    "reviewMetrics": [
+      "Clarity",
+      "Support",
+      "Engagement"
+    ]
+  },
+  {
+    "id": "solene-inceoglu",
+    "type": "academic",
+    "name": "Dr Solène Inceoglu",
+    "school": "ANU College of Arts and Social Sciences",
+    "schoolCode": "CASS",
+    "college": "CASS",
+    "position": "Senior Lecturer, French, Languages",
+    "focus": "ANU College of Arts and Social Sciences",
+    "email": "Solene.Inceoglu@anu.edu.au",
+    "office": "ANU College of Arts and Social Sciences",
+    "profileUrl": "https://researchportalplus.anu.edu.au/en/persons/solene-inceoglu",
+    "tags": [
+      "cass",
+      "anu college of arts and social s"
+    ],
+    "linkedCourses": [],
+    "reviewMetrics": [
+      "Clarity",
+      "Support",
+      "Engagement"
+    ]
+  },
+  {
+    "id": "ward-sx?term=Stacey",
+    "type": "academic",
+    "name": "Dr Stacey Ward",
+    "school": "ANU College of Arts and Social Sciences",
+    "schoolCode": "CASS",
+    "college": "CASS",
+    "position": "Lecturer in Biological Anthropology, Biological Anthropology",
+    "focus": "ANU College of Arts and Social Sciences",
+    "email": "Stacey.Ward@anu.edu.au",
+    "office": "ANU College of Arts and Social Sciences",
+    "profileUrl": "https://researchers.anu.edu.au/researchers/ward-sx?term=Stacey",
+    "tags": [
+      "cass",
+      "anu college of arts and social s"
+    ],
+    "linkedCourses": [],
+    "reviewMetrics": [
+      "Clarity",
+      "Support",
+      "Engagement"
+    ]
+  },
+  {
+    "id": "stephen-wilks",
+    "type": "academic",
+    "name": "Dr Stephen Wilks",
+    "school": "School of History",
+    "schoolCode": "CASS",
+    "college": "CASS",
+    "position": "Academic Research Editor, School of History",
+    "focus": "Academic Research Editor, National Centre of Biography",
+    "email": "stephen.wilks@anu.edu.au",
+    "office": "School of History",
+    "profileUrl": "https://researchportalplus.anu.edu.au/en/persons/stephen-wilks",
+    "tags": [
+      "cass",
+      "academic research editor",
+      "national centre of biography"
+    ],
+    "linkedCourses": [],
+    "reviewMetrics": [
+      "Clarity",
+      "Support",
+      "Engagement"
+    ]
+  },
+  {
+    "id": "susy-macqueen",
+    "type": "academic",
+    "name": "Dr Susy Macqueen",
+    "school": "ANU College of Arts and Social Sciences",
+    "schoolCode": "CASS",
+    "college": "CASS",
+    "position": "Associate Professor, Linguistics & Applied Linguistics",
+    "focus": "ANU College of Arts and Social Sciences",
+    "email": "susy.macqueen@anu.edu.au",
+    "office": "ANU College of Arts and Social Sciences",
+    "profileUrl": "https://researchportalplus.anu.edu.au/en/persons/susy-macqueen",
+    "tags": [
+      "cass",
+      "anu college of arts and social s"
     ],
     "linkedCourses": [],
     "reviewMetrics": [
@@ -7234,16 +10819,247 @@ window.ANREVIEW_DATA = {
     "id": "svitlana-chernykh",
     "type": "academic",
     "name": "Dr Svitlana Chernykh",
-    "school": "School of Politics and International Relations",
-    "schoolCode": "SPIR",
-    "position": "Senior Lecturer, School of Politics & International Relations Associate, Australian Centre for Federalism",
-    "focus": "School of Politics and International Relations",
+    "school": "School of Politics & International Relations",
+    "schoolCode": "CASS",
+    "college": "CASS",
+    "position": "Senior Lecturer, School of Politics & International Relations",
+    "focus": "School of Politics & International Relations",
     "email": "Svitlana.Chernykh@anu.edu.au",
-    "office": "Level 2, RSSS Building, 146 Ellery Crescent",
+    "office": "School of Politics & International Relations",
     "profileUrl": "https://researchportalplus.anu.edu.au/en/persons/svitlana-chernykh",
     "tags": [
-      "spir",
-      "school of politics and internati"
+      "cass",
+      "school of politics & internation"
+    ],
+    "linkedCourses": [],
+    "reviewMetrics": [
+      "Clarity",
+      "Support",
+      "Engagement"
+    ]
+  },
+  {
+    "id": "tatiana-bur",
+    "type": "academic",
+    "name": "Dr Tatiana Bur",
+    "school": "ANU College of Arts and Social Sciences",
+    "schoolCode": "CASS",
+    "college": "CASS",
+    "position": "Lecturer in Classics, Classics",
+    "focus": "ANU College of Arts and Social Sciences",
+    "email": "tatiana.bur@anu.edu.au",
+    "office": "ANU College of Arts and Social Sciences",
+    "profileUrl": "https://researchportalplus.anu.edu.au/en/persons/tatiana-bur",
+    "tags": [
+      "cass",
+      "anu college of arts and social s"
+    ],
+    "linkedCourses": [],
+    "reviewMetrics": [
+      "Clarity",
+      "Support",
+      "Engagement"
+    ]
+  },
+  {
+    "id": "terhi-nurmikko-fuller",
+    "type": "academic",
+    "name": "Dr Terhi Nurmikko-Fuller",
+    "school": "Centre for Digital Humanities Research",
+    "schoolCode": "CASS",
+    "college": "CASS",
+    "position": "Lecturer in Digital Humanities, Centre for Digital Humanities Research",
+    "focus": "Centre for Digital Humanities Research",
+    "email": "Terhi.Nurmikko-Fuller@anu.edu.au",
+    "office": "Centre for Digital Humanities Research",
+    "profileUrl": "https://researchportalplus.anu.edu.au/en/persons/terhi-nurmikko-fuller",
+    "tags": [
+      "cass",
+      "centre for digital humanities re"
+    ],
+    "linkedCourses": [],
+    "reviewMetrics": [
+      "Clarity",
+      "Support",
+      "Engagement"
+    ]
+  },
+  {
+    "id": "thao-phan",
+    "type": "academic",
+    "name": "Dr Thao Phan",
+    "school": "School of Sociology",
+    "schoolCode": "CASS",
+    "college": "CASS",
+    "position": "Lecturer, School of Sociology",
+    "focus": "School of Sociology",
+    "email": "Thao.Phan@anu.edu.au",
+    "office": "School of Sociology",
+    "profileUrl": "https://researchportalplus.anu.edu.au/en/persons/thao-phan",
+    "tags": [
+      "cass",
+      "school of sociology"
+    ],
+    "linkedCourses": [],
+    "reviewMetrics": [
+      "Clarity",
+      "Support",
+      "Engagement"
+    ]
+  },
+  {
+    "id": "thomas-nulley-valdes",
+    "type": "academic",
+    "name": "Dr Thomas Nulley-Valdés",
+    "school": "ANU College of Arts and Social Sciences",
+    "schoolCode": "CASS",
+    "college": "CASS",
+    "position": "Lecturer in Spanish Studies, Languages",
+    "focus": "ANU College of Arts and Social Sciences",
+    "email": "thomas.nulley-valdes@anu.edu.au",
+    "office": "ANU College of Arts and Social Sciences",
+    "profileUrl": "https://researchportalplus.anu.edu.au/en/persons/thomas-nulley-valdes",
+    "tags": [
+      "cass",
+      "anu college of arts and social s"
+    ],
+    "linkedCourses": [],
+    "reviewMetrics": [
+      "Clarity",
+      "Support",
+      "Engagement"
+    ]
+  },
+  {
+    "id": "thomas-laue",
+    "type": "academic",
+    "name": "Dr Thomas Peter Laue",
+    "school": "School of Music",
+    "schoolCode": "CASS",
+    "college": "CASS",
+    "position": "Lecturer, School of Music",
+    "focus": "School of Music",
+    "email": "thomas.laue@anu.edu.au",
+    "office": "School of Music",
+    "profileUrl": "https://researchportalplus.anu.edu.au/en/persons/thomas-laue",
+    "tags": [
+      "cass",
+      "school of music"
+    ],
+    "linkedCourses": [],
+    "reviewMetrics": [
+      "Clarity",
+      "Support",
+      "Engagement"
+    ]
+  },
+  {
+    "id": "tim-heffernan",
+    "type": "academic",
+    "name": "Dr Tim Heffernan",
+    "school": "ANU College of Arts and Social Sciences",
+    "schoolCode": "CASS",
+    "college": "CASS",
+    "position": "Lecturer in Anthropology, Anthropology",
+    "focus": "ANU College of Arts and Social Sciences",
+    "email": "tim.heffernan@anu.edu.au",
+    "office": "ANU College of Arts and Social Sciences",
+    "profileUrl": "https://researchportalplus.anu.edu.au/en/persons/tim-heffernan",
+    "tags": [
+      "cass",
+      "anu college of arts and social s"
+    ],
+    "linkedCourses": [],
+    "reviewMetrics": [
+      "Clarity",
+      "Support",
+      "Engagement"
+    ]
+  },
+  {
+    "id": "tim-mclellan",
+    "type": "academic",
+    "name": "Dr Tim McLellan",
+    "school": "ANU College of Arts and Social Sciences",
+    "schoolCode": "CASS",
+    "college": "CASS",
+    "position": "Lecturer in Anthropology, Anthropology",
+    "focus": "ANU College of Arts and Social Sciences",
+    "email": "Tim.McLellan@anu.edu.au",
+    "office": "ANU College of Arts and Social Sciences",
+    "profileUrl": "https://researchportalplus.anu.edu.au/en/persons/tim-mclellan/",
+    "tags": [
+      "cass",
+      "anu college of arts and social s"
+    ],
+    "linkedCourses": [],
+    "reviewMetrics": [
+      "Clarity",
+      "Support",
+      "Engagement"
+    ]
+  },
+  {
+    "id": "tom-geue",
+    "type": "academic",
+    "name": "Dr Tom Geue",
+    "school": "ANU College of Arts and Social Sciences",
+    "schoolCode": "CASS",
+    "college": "CASS",
+    "position": "Senior Lecturer in Classics, Classics",
+    "focus": "ANU College of Arts and Social Sciences",
+    "email": "tom.geue@anu.edu.au",
+    "office": "ANU College of Arts and Social Sciences",
+    "profileUrl": "https://researchportalplus.anu.edu.au/en/persons/tom-geue",
+    "tags": [
+      "cass",
+      "anu college of arts and social s"
+    ],
+    "linkedCourses": [],
+    "reviewMetrics": [
+      "Clarity",
+      "Support",
+      "Engagement"
+    ]
+  },
+  {
+    "id": "chitra-v",
+    "type": "academic",
+    "name": "Dr V Chitra",
+    "school": "ANU College of Arts and Social Sciences",
+    "schoolCode": "CASS",
+    "college": "CASS",
+    "position": "Lecturer in Anthropology, Anthropology",
+    "focus": "ANU College of Arts and Social Sciences",
+    "email": "Chitra.V@anu.edu.au",
+    "office": "ANU College of Arts and Social Sciences",
+    "profileUrl": "https://researchportalplus.anu.edu.au/en/persons/chitra-v",
+    "tags": [
+      "cass",
+      "anu college of arts and social s"
+    ],
+    "linkedCourses": [],
+    "reviewMetrics": [
+      "Clarity",
+      "Support",
+      "Engagement"
+    ]
+  },
+  {
+    "id": "wesley-lim",
+    "type": "academic",
+    "name": "Dr Wesley Lim",
+    "school": "ANU College of Arts and Social Sciences",
+    "schoolCode": "CASS",
+    "college": "CASS",
+    "position": "Lecturer in German Studies, Languages",
+    "focus": "ANU College of Arts and Social Sciences",
+    "email": "Wesley.Lim@anu.edu.au",
+    "office": "ANU College of Arts and Social Sciences",
+    "profileUrl": "https://researchportalplus.anu.edu.au/en/persons/wesley-lim",
+    "tags": [
+      "cass",
+      "anu college of arts and social s"
     ],
     "linkedCourses": [],
     "reviewMetrics": [
@@ -7256,16 +11072,86 @@ window.ANREVIEW_DATA = {
     "id": "william-bosworth",
     "type": "academic",
     "name": "Dr William Bosworth",
-    "school": "School of Politics and International Relations",
-    "schoolCode": "SPIR",
+    "school": "School of Politics & International Relations",
+    "schoolCode": "CASS",
+    "college": "CASS",
     "position": "Lecturer, School of Politics & International Relations",
-    "focus": "School of Politics and International Relations",
+    "focus": "School of Politics & International Relations",
     "email": "william.bosworth@anu.edu.au",
-    "office": "Level 3, RSSS Building, 146 Ellery Crescent",
+    "office": "School of Politics & International Relations",
     "profileUrl": "https://researchportalplus.anu.edu.au/en/persons/william-bosworth",
     "tags": [
-      "spir",
-      "school of politics and internati"
+      "cass",
+      "school of politics & internation"
+    ],
+    "linkedCourses": [],
+    "reviewMetrics": [
+      "Clarity",
+      "Support",
+      "Engagement"
+    ]
+  },
+  {
+    "id": "yonatan-dinku",
+    "type": "academic",
+    "name": "Dr Yonatan Dinku",
+    "school": "Centre for Aboriginal Economic Policy Research",
+    "schoolCode": "CASS",
+    "college": "CASS",
+    "position": "Research Fellow, Centre for Aboriginal Economic Policy Research",
+    "focus": "Centre for Aboriginal Economic Policy Research",
+    "email": "Yonatan.Dinku@anu.edu.au",
+    "office": "Centre for Aboriginal Economic Policy Research",
+    "profileUrl": "https://researchportalplus.anu.edu.au/en/persons/yonatan-dinku",
+    "tags": [
+      "cass",
+      "centre for aboriginal economic p"
+    ],
+    "linkedCourses": [],
+    "reviewMetrics": [
+      "Clarity",
+      "Support",
+      "Engagement"
+    ]
+  },
+  {
+    "id": "yujie-zhu",
+    "type": "academic",
+    "name": "Dr Yujie Zhu",
+    "school": "Centre for Heritage and Museum Studies",
+    "schoolCode": "CASS",
+    "college": "CASS",
+    "position": "Associate Professor, Centre for Heritage and Museum Studies",
+    "focus": "Centre for Heritage and Museum Studies",
+    "email": "yujie.zhu@anu.edu.au",
+    "office": "Centre for Heritage and Museum Studies",
+    "profileUrl": "https://researchportalplus.anu.edu.au/en/persons/yujie-zhu",
+    "tags": [
+      "cass",
+      "centre for heritage and museum s"
+    ],
+    "linkedCourses": [],
+    "reviewMetrics": [
+      "Clarity",
+      "Support",
+      "Engagement"
+    ]
+  },
+  {
+    "id": "zhengdao-ye",
+    "type": "academic",
+    "name": "Dr Zhengdao Ye",
+    "school": "ANU College of Arts and Social Sciences",
+    "schoolCode": "CASS",
+    "college": "CASS",
+    "position": "Senior Lecturer in Linguistics, Linguistics & Applied Linguistics",
+    "focus": "ANU College of Arts and Social Sciences",
+    "email": "zhengdao.ye@anu.edu.au",
+    "office": "ANU College of Arts and Social Sciences",
+    "profileUrl": "https://researchportalplus.anu.edu.au/en/persons/zhengdao-ye",
+    "tags": [
+      "cass",
+      "anu college of arts and social s"
     ],
     "linkedCourses": [],
     "reviewMetrics": [
@@ -7278,16 +11164,18 @@ window.ANREVIEW_DATA = {
     "id": "thiago-nascimento-da-silva",
     "type": "academic",
     "name": "Dr. Thiago N. da Silva",
-    "school": "School of Politics and International Relations",
-    "schoolCode": "SPIR",
-    "position": "Deputy Director, Australian Centre for Federalism Senior Lecturer, School of Politics & International Relations",
-    "focus": "School of Politics and International Relations",
+    "school": "School of Politics & International Relations",
+    "schoolCode": "CASS",
+    "college": "CASS",
+    "position": "Senior Lecturer, School of Politics & International Relations",
+    "focus": "Deputy Director, Australian Centre for Federalism",
     "email": "Thiago.Silva@anu.edu.au",
-    "office": "School of Politics and International Relations",
+    "office": "School of Politics & International Relations",
     "profileUrl": "https://researchportalplus.anu.edu.au/en/persons/thiago-nascimento-da-silva",
     "tags": [
-      "spir",
-      "school of politics and internati"
+      "cass",
+      "deputy director",
+      "australian centre for federalism"
     ],
     "linkedCourses": [],
     "reviewMetrics": [
@@ -7297,19 +11185,669 @@ window.ANREVIEW_DATA = {
     ]
   },
   {
-    "id": "ms-eve-wenjun-cheng",
+    "id": "adam.graycar",
     "type": "academic",
-    "name": "Ms Eve (Wenjun) Cheng",
-    "school": "School of Politics and International Relations",
-    "schoolCode": "SPIR",
-    "position": "Post-doctoral Fellow, School of Politics & International Relations",
-    "focus": "School of Politics and International Relations",
-    "email": "Wenjun.Cheng@anu.edu.au",
-    "office": "School of Politics and International Relations",
-    "profileUrl": "https://politicsir.cass.anu.edu.au/people/ms-eve-wenjun-cheng",
+    "name": "Emeritus Professor Adam Graycar",
+    "school": "ANU College of Arts and Social Sciences",
+    "schoolCode": "CASS",
+    "college": "CASS",
+    "position": "Emeritus Professor, Transnational Research Institute on Corruption",
+    "focus": "ANU College of Arts and Social Sciences",
+    "email": "adam.graycar@adelaide.edu.au",
+    "office": "ANU College of Arts and Social Sciences",
+    "profileUrl": "https://researchers.adelaide.edu.au/profile/adam.graycar",
     "tags": [
-      "spir",
-      "school of politics and internati"
+      "cass",
+      "anu college of arts and social s"
+    ],
+    "linkedCourses": [],
+    "reviewMetrics": [
+      "Clarity",
+      "Support",
+      "Engagement"
+    ]
+  },
+  {
+    "id": "angela-woollacott",
+    "type": "academic",
+    "name": "Emeritus Professor Angela Woollacott",
+    "school": "School of History",
+    "schoolCode": "CASS",
+    "college": "CASS",
+    "position": "Manning Clark Professor of History, School of History",
+    "focus": "School of History",
+    "email": "angela.woollacott@anu.edu.au",
+    "office": "School of History",
+    "profileUrl": "https://researchportalplus.anu.edu.au/en/persons/angela-woollacott",
+    "tags": [
+      "cass",
+      "school of history"
+    ],
+    "linkedCourses": [],
+    "reviewMetrics": [
+      "Clarity",
+      "Support",
+      "Engagement"
+    ]
+  },
+  {
+    "id": "robert-goodin",
+    "type": "academic",
+    "name": "Emeritus Professor Bob Goodin",
+    "school": "Centre for Moral",
+    "schoolCode": "CASS",
+    "college": "CASS",
+    "position": "Emeritus Professor, Centre for Moral, Social and Political Theory",
+    "focus": "Centre for Moral",
+    "email": "Bob.Goodin@anu.edu.au",
+    "office": "Centre for Moral",
+    "profileUrl": "https://researchportalplus.anu.edu.au/en/persons/robert-goodin",
+    "tags": [
+      "cass",
+      "centre for moral"
+    ],
+    "linkedCourses": [],
+    "reviewMetrics": [
+      "Clarity",
+      "Support",
+      "Engagement"
+    ]
+  },
+  {
+    "id": "hunter-bh",
+    "type": "academic",
+    "name": "Emeritus Professor Boyd Hunter",
+    "school": "Centre for Social Research and Methods",
+    "schoolCode": "CASS",
+    "college": "CASS",
+    "position": "Emeritus Professor, Centre for Social Research and Methods",
+    "focus": "Centre for Social Research and Methods",
+    "email": "Boyd.Hunter@anu.edu.au",
+    "office": "Centre for Social Research and Methods",
+    "profileUrl": "https://researchers.anu.edu.au/researchers/hunter-bh",
+    "tags": [
+      "cass",
+      "centre for social research and m"
+    ],
+    "linkedCourses": [],
+    "reviewMetrics": [
+      "Clarity",
+      "Support",
+      "Engagement"
+    ]
+  },
+  {
+    "id": "ferris-dm",
+    "type": "academic",
+    "name": "Emeritus Professor Denise Ferris",
+    "school": "School of Art & Design",
+    "schoolCode": "CASS",
+    "college": "CASS",
+    "position": "Emeritus Professor, School of Art & Design",
+    "focus": "School of Art & Design",
+    "email": "See ANU profile",
+    "office": "School of Art & Design",
+    "profileUrl": "https://researchers.anu.edu.au/researchers/ferris-dm",
+    "tags": [
+      "cass",
+      "school of art & design"
+    ],
+    "linkedCourses": [],
+    "reviewMetrics": [
+      "Clarity",
+      "Support",
+      "Engagement"
+    ]
+  },
+  {
+    "id": "fiona-jenkins",
+    "type": "academic",
+    "name": "Emeritus Professor Fiona Jenkins",
+    "school": "Centre for Moral",
+    "schoolCode": "CASS",
+    "college": "CASS",
+    "position": "Emeritus Professor, Centre for Moral, Social and Political Theory",
+    "focus": "Centre for Moral",
+    "email": "fiona.jenkins@anu.edu.au",
+    "office": "Centre for Moral",
+    "profileUrl": "https://researchportalplus.anu.edu.au/en/persons/fiona-jenkins",
+    "tags": [
+      "cass",
+      "centre for moral"
+    ],
+    "linkedCourses": [],
+    "reviewMetrics": [
+      "Clarity",
+      "Support",
+      "Engagement"
+    ]
+  },
+  {
+    "id": "frank-jackson",
+    "type": "academic",
+    "name": "Emeritus Professor Frank Jackson",
+    "school": "Centre for Consciousness",
+    "schoolCode": "CASS",
+    "college": "CASS",
+    "position": "Emeritus Professor, Centre for Consciousness",
+    "focus": "Centre for Consciousness",
+    "email": "frank.jackson@anu.edu.au",
+    "office": "Centre for Consciousness",
+    "profileUrl": "https://researchportalplus.anu.edu.au/en/persons/frank-jackson",
+    "tags": [
+      "cass",
+      "centre for consciousness"
+    ],
+    "linkedCourses": [],
+    "reviewMetrics": [
+      "Clarity",
+      "Support",
+      "Engagement"
+    ]
+  },
+  {
+    "id": "john-minns",
+    "type": "academic",
+    "name": "Emeritus Professor John Minns",
+    "school": "School of Politics & International Relations",
+    "schoolCode": "CASS",
+    "college": "CASS",
+    "position": "Emeritus Professor, School of Politics & International Relations",
+    "focus": "School of Politics & International Relations",
+    "email": "John.Minns@anu.edu.au",
+    "office": "School of Politics & International Relations",
+    "profileUrl": "https://researchportalplus.anu.edu.au/en/persons/john-minns",
+    "tags": [
+      "cass",
+      "school of politics & internation"
+    ],
+    "linkedCourses": [],
+    "reviewMetrics": [
+      "Clarity",
+      "Support",
+      "Engagement"
+    ]
+  },
+  {
+    "id": "uhr-jg",
+    "type": "academic",
+    "name": "Emeritus Professor John Uhr",
+    "school": "The Australian Politics Studies Centre",
+    "schoolCode": "CASS",
+    "college": "CASS",
+    "position": "Academic, The Australian Politics Studies Centre",
+    "focus": "Emeritus Professor, School of Politics & International Relations",
+    "email": "John.Uhr@anu.edu.au",
+    "office": "The Australian Politics Studies Centre",
+    "profileUrl": "https://researchers.anu.edu.au/researchers/uhr-jg",
+    "tags": [
+      "cass",
+      "emeritus professor",
+      "school of politics & internation"
+    ],
+    "linkedCourses": [],
+    "reviewMetrics": [
+      "Clarity",
+      "Support",
+      "Engagement"
+    ]
+  },
+  {
+    "id": "marian-sawer",
+    "type": "academic",
+    "name": "Emeritus Professor Marian Sawer",
+    "school": "Australian Centre for Federalism",
+    "schoolCode": "CASS",
+    "college": "CASS",
+    "position": "Emeritus Professor, Australian Centre for Federalism",
+    "focus": "Emeritus Professor, Australian Centre for Federalism",
+    "email": "Marian.Sawer@anu.edu.au",
+    "office": "Australian Centre for Federalism",
+    "profileUrl": "https://researchportalplus.anu.edu.au/en/persons/marian-sawer",
+    "tags": [
+      "cass",
+      "emeritus professor",
+      "australian centre for federalism"
+    ],
+    "linkedCourses": [],
+    "reviewMetrics": [
+      "Clarity",
+      "Support",
+      "Engagement"
+    ]
+  },
+  {
+    "id": "tony_bennett",
+    "type": "academic",
+    "name": "Emeritus Professor Tony Bennett",
+    "school": "School of Sociology",
+    "schoolCode": "CASS",
+    "college": "CASS",
+    "position": "Emeritus Professor, School of Sociology",
+    "focus": "School of Sociology",
+    "email": "tony.bennett@anu.edu.au",
+    "office": "School of Sociology",
+    "profileUrl": "https://www.westernsydney.edu.au/ics/people/researchers/tony_bennett",
+    "tags": [
+      "cass",
+      "school of sociology"
+    ],
+    "linkedCourses": [],
+    "reviewMetrics": [
+      "Clarity",
+      "Support",
+      "Engagement"
+    ]
+  },
+  {
+    "id": "filip-slaveski",
+    "type": "academic",
+    "name": "Filip Slaveski",
+    "school": "School of History",
+    "schoolCode": "CASS",
+    "college": "CASS",
+    "position": "Senior Lecturer, School of History",
+    "focus": "School of History",
+    "email": "Filip.Slaveski@anu.edu.au",
+    "office": "School of History",
+    "profileUrl": "https://researchportalplus.anu.edu.au/en/persons/filip-slaveski",
+    "tags": [
+      "cass",
+      "school of history"
+    ],
+    "linkedCourses": [],
+    "reviewMetrics": [
+      "Clarity",
+      "Support",
+      "Engagement"
+    ]
+  },
+  {
+    "id": "riedelbauch-gw",
+    "type": "academic",
+    "name": "Gilbert Riedelbauch",
+    "school": "School of Art & Design",
+    "schoolCode": "CASS",
+    "college": "CASS",
+    "position": "Honorary Senior Lecturer, School of Art & Design",
+    "focus": "School of Art & Design",
+    "email": "gilbert.riedelbauch@gmail.com",
+    "office": "School of Art & Design",
+    "profileUrl": "https://researchers.anu.edu.au/researchers/riedelbauch-gw",
+    "tags": [
+      "cass",
+      "school of art & design"
+    ],
+    "linkedCourses": [],
+    "reviewMetrics": [
+      "Clarity",
+      "Support",
+      "Engagement"
+    ]
+  },
+  {
+    "id": "gillian-russell",
+    "type": "academic",
+    "name": "Gillian Russell",
+    "school": "School of Philosophy",
+    "schoolCode": "CASS",
+    "college": "CASS",
+    "position": "Academic Professor, School of Philosophy",
+    "focus": "School of Philosophy",
+    "email": "See ANU profile",
+    "office": "School of Philosophy",
+    "profileUrl": "https://researchportalplus.anu.edu.au/en/persons/gillian-russell",
+    "tags": [
+      "cass",
+      "school of philosophy"
+    ],
+    "linkedCourses": [],
+    "reviewMetrics": [
+      "Clarity",
+      "Support",
+      "Engagement"
+    ]
+  },
+  {
+    "id": "www.fishman.com.au",
+    "type": "academic",
+    "name": "John Reid",
+    "school": "ANU College of Arts and Social Sciences",
+    "schoolCode": "CASS",
+    "college": "CASS",
+    "position": "Emeritus Professor, Environment Studio",
+    "focus": "ANU College of Arts and Social Sciences",
+    "email": "John.Reid@anu.edu.au",
+    "office": "ANU College of Arts and Social Sciences",
+    "profileUrl": "http://www.fishman.com.au",
+    "tags": [
+      "cass",
+      "anu college of arts and social s"
+    ],
+    "linkedCourses": [],
+    "reviewMetrics": [
+      "Clarity",
+      "Support",
+      "Engagement"
+    ]
+  },
+  {
+    "id": "lucy-irvine",
+    "type": "academic",
+    "name": "Lucy Irvine",
+    "school": "ANU College of Arts and Social Sciences",
+    "schoolCode": "CASS",
+    "college": "CASS",
+    "position": "Lecturer, Textiles",
+    "focus": "ANU College of Arts and Social Sciences",
+    "email": "lucy.irvine@anu.edu.au",
+    "office": "ANU College of Arts and Social Sciences",
+    "profileUrl": "https://researchportalplus.anu.edu.au/en/persons/lucy-irvine",
+    "tags": [
+      "cass",
+      "anu college of arts and social s"
+    ],
+    "linkedCourses": [],
+    "reviewMetrics": [
+      "Clarity",
+      "Support",
+      "Engagement"
+    ]
+  },
+  {
+    "id": "matthew-barnes",
+    "type": "academic",
+    "name": "Matt Barnes",
+    "school": "School of Music",
+    "schoolCode": "CASS",
+    "college": "CASS",
+    "position": "Associate Lecturer, School of Music",
+    "focus": "Associate Lecturer, School of Music, Song to Studio Coordinator & Tutor, Community Music Centre",
+    "email": "matthew.barnes@anu.edu.au",
+    "office": "School of Music",
+    "profileUrl": "https://researchportalplus.anu.edu.au/en/persons/matthew-barnes",
+    "tags": [
+      "cass",
+      "associate lecturer",
+      "school of music",
+      "song to studio coordinator & tut"
+    ],
+    "linkedCourses": [],
+    "reviewMetrics": [
+      "Clarity",
+      "Support",
+      "Engagement"
+    ]
+  },
+  {
+    "id": "michaelmlegrand.com",
+    "type": "academic",
+    "name": "Michael Le Grand",
+    "school": "ANU College of Arts and Social Sciences",
+    "schoolCode": "CASS",
+    "college": "CASS",
+    "position": "Emeritus Fellow, Sculpture & Spatial Practice",
+    "focus": "ANU College of Arts and Social Sciences",
+    "email": "mlegrand@iinet.net.au",
+    "office": "ANU College of Arts and Social Sciences",
+    "profileUrl": "http://michaelmlegrand.com/",
+    "tags": [
+      "cass",
+      "anu college of arts and social s"
+    ],
+    "linkedCourses": [],
+    "reviewMetrics": [
+      "Clarity",
+      "Support",
+      "Engagement"
+    ]
+  },
+  {
+    "id": "brad-riley",
+    "type": "academic",
+    "name": "Mr Brad Riley",
+    "school": "Centre for Indigenous Policy Research",
+    "schoolCode": "CASS",
+    "college": "CASS",
+    "position": "Research Fellow, Centre for Indigenous Policy Research",
+    "focus": "Centre for Indigenous Policy Research",
+    "email": "Bradley.Riley@anu.edu.au",
+    "office": "Centre for Indigenous Policy Research",
+    "profileUrl": "https://researchportalplus.anu.edu.au/en/persons/brad-riley",
+    "tags": [
+      "cass",
+      "centre for indigenous policy res"
+    ],
+    "linkedCourses": [],
+    "reviewMetrics": [
+      "Clarity",
+      "Support",
+      "Engagement"
+    ]
+  },
+  {
+    "id": "leila-kouatly",
+    "type": "academic",
+    "name": "Ms Leila Kouatly",
+    "school": "Centre for Arab and Islamic Studies",
+    "schoolCode": "CASS",
+    "college": "CASS",
+    "position": "Lecturer in Arabic Language Pedagogy and Convenor of Arabic Language Program, Centre for Arab and Islamic Studies",
+    "focus": "Centre for Arab and Islamic Studies",
+    "email": "Leila.Kouatly@anu.edu.au",
+    "office": "Centre for Arab and Islamic Studies",
+    "profileUrl": "https://researchportalplus.anu.edu.au/en/persons/leila-kouatly",
+    "tags": [
+      "cass",
+      "centre for arab and islamic stud"
+    ],
+    "linkedCourses": [],
+    "reviewMetrics": [
+      "Clarity",
+      "Support",
+      "Engagement"
+    ]
+  },
+  {
+    "id": "minda-murray",
+    "type": "academic",
+    "name": "Ms Minda Murray",
+    "school": "Centre for Aboriginal Economic Policy Research",
+    "schoolCode": "CASS",
+    "college": "CASS",
+    "position": "First Nations Academic Associate, Centre for Aboriginal Economic Policy Research",
+    "focus": "Centre for Aboriginal Economic Policy Research",
+    "email": "minda.murray@anu.edu.au",
+    "office": "Centre for Aboriginal Economic Policy Research",
+    "profileUrl": "https://researchportalplus.anu.edu.au/en/persons/minda-murray",
+    "tags": [
+      "cass",
+      "centre for aboriginal economic p"
+    ],
+    "linkedCourses": [],
+    "reviewMetrics": [
+      "Clarity",
+      "Support",
+      "Engagement"
+    ]
+  },
+  {
+    "id": "faulkner-sxx",
+    "type": "academic",
+    "name": "Ms Samantha Faulkner",
+    "school": "Centre for Heritage and Museum Studies",
+    "schoolCode": "CASS",
+    "college": "CASS",
+    "position": "Visiting Fellow, Centre for Heritage and Museum Studies",
+    "focus": "Centre for Heritage and Museum Studies",
+    "email": "Samantha.Faulkner@anu.edu.au",
+    "office": "Centre for Heritage and Museum Studies",
+    "profileUrl": "https://researchers.anu.edu.au/researchers/faulkner-sxx",
+    "tags": [
+      "cass",
+      "centre for heritage and museum s"
+    ],
+    "linkedCourses": [],
+    "reviewMetrics": [
+      "Clarity",
+      "Support",
+      "Engagement"
+    ]
+  },
+  {
+    "id": "alistair-ott",
+    "type": "academic",
+    "name": "Mx Alistair Ott",
+    "school": "School of Sociology",
+    "schoolCode": "CASS",
+    "college": "CASS",
+    "position": "Indigenous Academic Associate, School of Sociology",
+    "focus": "School of Sociology",
+    "email": "Alistair.Ott@anu.edu.au",
+    "office": "School of Sociology",
+    "profileUrl": "https://researchportalplus.anu.edu.au/en/persons/alistair-ott",
+    "tags": [
+      "cass",
+      "school of sociology"
+    ],
+    "linkedCourses": [],
+    "reviewMetrics": [
+      "Clarity",
+      "Support",
+      "Engagement"
+    ]
+  },
+  {
+    "id": "Patsypayne.com",
+    "type": "academic",
+    "name": "Patsy Payne",
+    "school": "ANU College of Arts and Social Sciences",
+    "schoolCode": "CASS",
+    "college": "CASS",
+    "position": "Emeritus Professor, Printmedia & Drawing",
+    "focus": "ANU College of Arts and Social Sciences",
+    "email": "Patsy.payne@anu.edu.au",
+    "office": "ANU College of Arts and Social Sciences",
+    "profileUrl": "http://Patsypayne.com",
+    "tags": [
+      "cass",
+      "anu college of arts and social s"
+    ],
+    "linkedCourses": [],
+    "reviewMetrics": [
+      "Clarity",
+      "Support",
+      "Engagement"
+    ]
+  },
+  {
+    "id": "18540-a-j-brown",
+    "type": "academic",
+    "name": "Professor A J Brown",
+    "school": "ANU College of Arts and Social Sciences",
+    "schoolCode": "CASS",
+    "college": "CASS",
+    "position": "Professor, Transnational Research Institute on Corruption",
+    "focus": "ANU College of Arts and Social Sciences",
+    "email": "a.j.brown@griffith.edu.au",
+    "office": "ANU College of Arts and Social Sciences",
+    "profileUrl": "https://experts.griffith.edu.au/18540-a-j-brown",
+    "tags": [
+      "cass",
+      "anu college of arts and social s"
+    ],
+    "linkedCourses": [],
+    "reviewMetrics": [
+      "Clarity",
+      "Support",
+      "Engagement"
+    ]
+  },
+  {
+    "id": "adrian-mackenzie",
+    "type": "academic",
+    "name": "Professor Adrian Mackenzie",
+    "school": "School of Sociology",
+    "schoolCode": "CASS",
+    "college": "CASS",
+    "position": "Professor, School of Sociology",
+    "focus": "School of Sociology",
+    "email": "Adrian.Mackenzie@anu.edu.au",
+    "office": "School of Sociology",
+    "profileUrl": "https://researchportalplus.anu.edu.au/en/persons/adrian-mackenzie",
+    "tags": [
+      "cass",
+      "school of sociology"
+    ],
+    "linkedCourses": [],
+    "reviewMetrics": [
+      "Clarity",
+      "Support",
+      "Engagement"
+    ]
+  },
+  {
+    "id": "andrew-norton",
+    "type": "academic",
+    "name": "Professor Andrew Norton",
+    "school": "Centre for Social Research and Methods",
+    "schoolCode": "CASS",
+    "college": "CASS",
+    "position": "Professor in the Practice of Higher Education Policy, Centre for Social Research and Methods",
+    "focus": "Centre for Social Research and Methods",
+    "email": "Andrew.Norton@anu.edu.au",
+    "office": "Centre for Social Research and Methods",
+    "profileUrl": "https://researchportalplus.anu.edu.au/en/persons/andrew-norton",
+    "tags": [
+      "cass",
+      "centre for social research and m"
+    ],
+    "linkedCourses": [],
+    "reviewMetrics": [
+      "Clarity",
+      "Support",
+      "Engagement"
+    ]
+  },
+  {
+    "id": "ann-mcgrath",
+    "type": "academic",
+    "name": "Professor Ann McGrath",
+    "school": "School of History",
+    "schoolCode": "CASS",
+    "college": "CASS",
+    "position": "Distinguished Professor, School of History",
+    "focus": "School of History",
+    "email": "ann.mcgrath@anu.edu.au",
+    "office": "School of History",
+    "profileUrl": "https://researchportalplus.anu.edu.au/en/persons/ann-mcgrath",
+    "tags": [
+      "cass",
+      "school of history"
+    ],
+    "linkedCourses": [],
+    "reviewMetrics": [
+      "Clarity",
+      "Support",
+      "Engagement"
+    ]
+  },
+  {
+    "id": "annika-werner",
+    "type": "academic",
+    "name": "Professor Annika Werner",
+    "school": "School of Politics & International Relations",
+    "schoolCode": "CASS",
+    "college": "CASS",
+    "position": "Professor, School of Politics & International Relations",
+    "focus": "Professor, School of Politics & International Relations",
+    "email": "annika.werner@anu.edu.au",
+    "office": "School of Politics & International Relations",
+    "profileUrl": "https://researchportalplus.anu.edu.au/en/persons/annika-werner",
+    "tags": [
+      "cass",
+      "professor",
+      "school of politics & internation"
     ],
     "linkedCourses": [],
     "reviewMetrics": [
@@ -7322,16 +11860,321 @@ window.ANREVIEW_DATA = {
     "id": "ben-goldsmith",
     "type": "academic",
     "name": "Professor Benjamin Goldsmith",
-    "school": "School of Politics and International Relations",
-    "schoolCode": "SPIR",
+    "school": "School of Politics & International Relations",
+    "schoolCode": "CASS",
+    "college": "CASS",
     "position": "Professor, School of Politics & International Relations",
-    "focus": "School of Politics and International Relations",
+    "focus": "School of Politics & International Relations",
     "email": "Ben.Goldsmith@anu.edu.au",
-    "office": "Level 3, RSSS Building, 146 Ellery Crescent",
+    "office": "School of Politics & International Relations",
     "profileUrl": "https://researchportalplus.anu.edu.au/en/persons/ben-goldsmith",
     "tags": [
-      "spir",
-      "school of politics and internati"
+      "cass",
+      "school of politics & internation"
+    ],
+    "linkedCourses": [],
+    "reviewMetrics": [
+      "Clarity",
+      "Support",
+      "Engagement"
+    ]
+  },
+  {
+    "id": "brenda-croft",
+    "type": "academic",
+    "name": "Professor Brenda L Croft",
+    "school": "School of Art & Design",
+    "schoolCode": "CASS",
+    "college": "CASS",
+    "position": "Professor, School of Art & Design",
+    "focus": "School of Art & Design",
+    "email": "brenda.croft@anu.edu.au",
+    "office": "School of Art & Design",
+    "profileUrl": "https://researchportalplus.anu.edu.au/en/persons/brenda-croft",
+    "tags": [
+      "cass",
+      "school of art & design"
+    ],
+    "linkedCourses": [],
+    "reviewMetrics": [
+      "Clarity",
+      "Support",
+      "Engagement"
+    ]
+  },
+  {
+    "id": "brian-houle",
+    "type": "academic",
+    "name": "Professor Brian Houle",
+    "school": "School of Demography",
+    "schoolCode": "CASS",
+    "college": "CASS",
+    "position": "Head of School and Professor, School of Demography",
+    "focus": "School of Demography",
+    "email": "brian.houle@anu.edu.au",
+    "office": "School of Demography",
+    "profileUrl": "https://researchportalplus.anu.edu.au/en/persons/brian-houle",
+    "tags": [
+      "cass",
+      "school of demography"
+    ],
+    "linkedCourses": [],
+    "reviewMetrics": [
+      "Clarity",
+      "Support",
+      "Engagement"
+    ]
+  },
+  {
+    "id": "bruce-scates",
+    "type": "academic",
+    "name": "Professor Bruce Scates",
+    "school": "School of History",
+    "schoolCode": "CASS",
+    "college": "CASS",
+    "position": "Professor, School of History",
+    "focus": "School of History",
+    "email": "bruce.scates@anu.edu.au",
+    "office": "School of History",
+    "profileUrl": "https://researchportalplus.anu.edu.au/en/persons/bruce-scates",
+    "tags": [
+      "cass",
+      "school of history"
+    ],
+    "linkedCourses": [],
+    "reviewMetrics": [
+      "Clarity",
+      "Support",
+      "Engagement"
+    ]
+  },
+  {
+    "id": "bruce-smyth",
+    "type": "academic",
+    "name": "Professor Bruce Smyth",
+    "school": "Centre for Social Research and Methods",
+    "schoolCode": "CASS",
+    "college": "CASS",
+    "position": "Professor of Family Studies, Centre for Social Research and Methods",
+    "focus": "Centre for Social Research and Methods",
+    "email": "bruce.smyth@anu.edu.au",
+    "office": "Centre for Social Research and Methods",
+    "profileUrl": "https://researchportalplus.anu.edu.au/en/persons/bruce-smyth",
+    "tags": [
+      "cass",
+      "centre for social research and m"
+    ],
+    "linkedCourses": [],
+    "reviewMetrics": [
+      "Clarity",
+      "Support",
+      "Engagement"
+    ]
+  },
+  {
+    "id": "carolyn-strange",
+    "type": "academic",
+    "name": "Professor Carolyn Strange",
+    "school": "School of History",
+    "schoolCode": "CASS",
+    "college": "CASS",
+    "position": "Professor, School of History",
+    "focus": "School of History",
+    "email": "carolyn.strange@anu.edu.au",
+    "office": "School of History",
+    "profileUrl": "https://researchportalplus.anu.edu.au/en/persons/carolyn-strange",
+    "tags": [
+      "cass",
+      "school of history"
+    ],
+    "linkedCourses": [],
+    "reviewMetrics": [
+      "Clarity",
+      "Support",
+      "Engagement"
+    ]
+  },
+  {
+    "id": "catherine-travis",
+    "type": "academic",
+    "name": "Professor Catherine Travis",
+    "school": "ANU College of Arts and Social Sciences",
+    "schoolCode": "CASS",
+    "college": "CASS",
+    "position": "Research Fellow, Linguistics & Applied Linguistics",
+    "focus": "Chair of Modern European Languages, Languages, Chair of Modern European Languages, School of Literature, Languages and Linguistics",
+    "email": "catherine.travis@anu.edu.au",
+    "office": "ANU College of Arts and Social Sciences",
+    "profileUrl": "https://researchportalplus.anu.edu.au/en/persons/catherine-travis",
+    "tags": [
+      "cass",
+      "chair of modern european languag",
+      "languages",
+      "school of literature"
+    ],
+    "linkedCourses": [],
+    "reviewMetrics": [
+      "Clarity",
+      "Support",
+      "Engagement"
+    ]
+  },
+  {
+    "id": "catherine-waldby",
+    "type": "academic",
+    "name": "Professor Catherine Waldby",
+    "school": "School of Sociology",
+    "schoolCode": "CASS",
+    "college": "CASS",
+    "position": "Professor, School of Sociology",
+    "focus": "School of Sociology",
+    "email": "catherine.waldby@anu.edu.au",
+    "office": "School of Sociology",
+    "profileUrl": "https://researchportalplus.anu.edu.au/en/persons/catherine-waldby",
+    "tags": [
+      "cass",
+      "school of sociology"
+    ],
+    "linkedCourses": [],
+    "reviewMetrics": [
+      "Clarity",
+      "Support",
+      "Engagement"
+    ]
+  },
+  {
+    "id": "chris-mcauliffe",
+    "type": "academic",
+    "name": "Professor Chris McAuliffe",
+    "school": "Centre for Art History & Art Theory",
+    "schoolCode": "CASS",
+    "college": "CASS",
+    "position": "Emeritus Professor, Centre for Art History & Art Theory",
+    "focus": "Centre for Art History & Art Theory",
+    "email": "christopher.mcauliffe@anu.edu.au",
+    "office": "Centre for Art History & Art Theory",
+    "profileUrl": "https://researchportalplus.anu.edu.au/en/persons/chris-mcauliffe",
+    "tags": [
+      "cass",
+      "centre for art history & art the"
+    ],
+    "linkedCourses": [],
+    "reviewMetrics": [
+      "Clarity",
+      "Support",
+      "Engagement"
+    ]
+  },
+  {
+    "id": "christian-barry",
+    "type": "academic",
+    "name": "Professor Christian Barry",
+    "school": "School of Philosophy",
+    "schoolCode": "CASS",
+    "college": "CASS",
+    "position": "Professor & Director of the Research School of Social Sciences, School of Philosophy",
+    "focus": "Director, Research School of Social Sciences",
+    "email": "director.rsss@anu.edu.au",
+    "office": "School of Philosophy",
+    "profileUrl": "https://researchportalplus.anu.edu.au/en/persons/christian-barry",
+    "tags": [
+      "cass",
+      "director",
+      "research school of social scienc"
+    ],
+    "linkedCourses": [],
+    "reviewMetrics": [
+      "Clarity",
+      "Support",
+      "Engagement"
+    ]
+  },
+  {
+    "id": "christopher-sainsbury",
+    "type": "academic",
+    "name": "Professor Christopher Sainsbury",
+    "school": "School of Music",
+    "schoolCode": "CASS",
+    "college": "CASS",
+    "position": "Professor of Music, School of Music",
+    "focus": "Professor of Music, School of Music",
+    "email": "christopher.sainsbury@anu.edu.au",
+    "office": "School of Music",
+    "profileUrl": "https://researchportalplus.anu.edu.au/en/persons/christopher-sainsbury",
+    "tags": [
+      "cass",
+      "professor of music",
+      "school of music"
+    ],
+    "linkedCourses": [],
+    "reviewMetrics": [
+      "Clarity",
+      "Support",
+      "Engagement"
+    ]
+  },
+  {
+    "id": "colin-klein",
+    "type": "academic",
+    "name": "Professor Colin Klein",
+    "school": "School of Philosophy",
+    "schoolCode": "CASS",
+    "college": "CASS",
+    "position": "Professor, School of Philosophy",
+    "focus": "School of Philosophy",
+    "email": "colin.klein@anu.edu.au",
+    "office": "School of Philosophy",
+    "profileUrl": "https://researchportalplus.anu.edu.au/en/persons/colin-klein",
+    "tags": [
+      "cass",
+      "school of philosophy"
+    ],
+    "linkedCourses": [],
+    "reviewMetrics": [
+      "Clarity",
+      "Support",
+      "Engagement"
+    ]
+  },
+  {
+    "id": "cressida-fforde",
+    "type": "academic",
+    "name": "Professor Cressida Fforde",
+    "school": "Centre for Heritage and Museum Studies",
+    "schoolCode": "CASS",
+    "college": "CASS",
+    "position": "Professor, Centre for Heritage and Museum Studies",
+    "focus": "Centre for Heritage and Museum Studies",
+    "email": "cressida.fforde@anu.edu.au",
+    "office": "Centre for Heritage and Museum Studies",
+    "profileUrl": "https://researchportalplus.anu.edu.au/en/persons/cressida-fforde",
+    "tags": [
+      "cass",
+      "centre for heritage and museum s"
+    ],
+    "linkedCourses": [],
+    "reviewMetrics": [
+      "Clarity",
+      "Support",
+      "Engagement"
+    ]
+  },
+  {
+    "id": "daniel-stoljar",
+    "type": "academic",
+    "name": "Professor Daniel Stoljar",
+    "school": "Centre for Consciousness",
+    "schoolCode": "CASS",
+    "college": "CASS",
+    "position": "Professor & Director of the Centre for Consciousness, Centre for Consciousness",
+    "focus": "Director of Undergraduate Teaching, School of Philosophy",
+    "email": "daniel.stoljar@anu.edu.au",
+    "office": "Centre for Consciousness",
+    "profileUrl": "https://researchportalplus.anu.edu.au/en/persons/daniel-stoljar",
+    "tags": [
+      "cass",
+      "director of undergraduate teachi",
+      "school of philosophy"
     ],
     "linkedCourses": [],
     "reviewMetrics": [
@@ -7344,16 +12187,226 @@ window.ANREVIEW_DATA = {
     "id": "darren-halpin",
     "type": "academic",
     "name": "Professor Darren Halpin",
-    "school": "School of Politics and International Relations",
-    "schoolCode": "SPIR",
+    "school": "School of Politics & International Relations",
+    "schoolCode": "CASS",
+    "college": "CASS",
     "position": "Professor, School of Politics & International Relations",
-    "focus": "School of Politics and International Relations",
+    "focus": "Professor, School of Politics & International Relations",
     "email": "Darren.Halpin@anu.edu.au",
-    "office": "Level 2, RSSS Building, 146 Ellery Crescent",
+    "office": "School of Politics & International Relations",
     "profileUrl": "https://researchportalplus.anu.edu.au/en/persons/darren-halpin",
     "tags": [
-      "spir",
-      "school of politics and internati"
+      "cass",
+      "professor",
+      "school of politics & internation"
+    ],
+    "linkedCourses": [],
+    "reviewMetrics": [
+      "Clarity",
+      "Support",
+      "Engagement"
+    ]
+  },
+  {
+    "id": "chalmers-dj",
+    "type": "academic",
+    "name": "Professor David Chalmers",
+    "school": "School of Philosophy",
+    "schoolCode": "CASS",
+    "college": "CASS",
+    "position": "Distinguished Honorary Professor, School of Philosophy",
+    "focus": "School of Philosophy",
+    "email": "chalmers@anu.edu.au",
+    "office": "School of Philosophy",
+    "profileUrl": "https://researchers.anu.edu.au/researchers/chalmers-dj",
+    "tags": [
+      "cass",
+      "school of philosophy"
+    ],
+    "linkedCourses": [],
+    "reviewMetrics": [
+      "Clarity",
+      "Support",
+      "Engagement"
+    ]
+  },
+  {
+    "id": "diana-slade",
+    "type": "academic",
+    "name": "Professor Diana Slade",
+    "school": "ANU College of Arts and Social Sciences",
+    "schoolCode": "CASS",
+    "college": "CASS",
+    "position": "Professor of Applied Linguistics, Linguistics & Applied Linguistics",
+    "focus": "Professor of Applied Linguistics, Linguistics & Applied Linguistics",
+    "email": "Diana.Slade@anu.edu.au",
+    "office": "ANU College of Arts and Social Sciences",
+    "profileUrl": "https://researchportalplus.anu.edu.au/en/persons/diana-slade",
+    "tags": [
+      "cass",
+      "professor of applied linguistics",
+      "linguistics & applied linguistic"
+    ],
+    "linkedCourses": [],
+    "reviewMetrics": [
+      "Clarity",
+      "Support",
+      "Engagement"
+    ]
+  },
+  {
+    "id": "dougald-oreilly",
+    "type": "academic",
+    "name": "Professor Dougald O'Reilly",
+    "school": "ANU College of Arts and Social Sciences",
+    "schoolCode": "CASS",
+    "college": "CASS",
+    "position": "Professor in Archaeology, Archaeology",
+    "focus": "ANU College of Arts and Social Sciences",
+    "email": "dougald.oreilly@anu.edu.au",
+    "office": "ANU College of Arts and Social Sciences",
+    "profileUrl": "https://researchportalplus.anu.edu.au/en/persons/dougald-oreilly",
+    "tags": [
+      "cass",
+      "anu college of arts and social s"
+    ],
+    "linkedCourses": [],
+    "reviewMetrics": [
+      "Clarity",
+      "Support",
+      "Engagement"
+    ]
+  },
+  {
+    "id": "edith-gray",
+    "type": "academic",
+    "name": "Professor Edith Gray",
+    "school": "School of Demography",
+    "schoolCode": "CASS",
+    "college": "CASS",
+    "position": "Professor, School of Demography",
+    "focus": "School of Demography",
+    "email": "edith.gray@anu.edu.au",
+    "office": "School of Demography",
+    "profileUrl": "https://researchportalplus.anu.edu.au/en/persons/edith-gray",
+    "tags": [
+      "cass",
+      "school of demography"
+    ],
+    "linkedCourses": [],
+    "reviewMetrics": [
+      "Clarity",
+      "Support",
+      "Engagement"
+    ]
+  },
+  {
+    "id": "frank-bongiorno",
+    "type": "academic",
+    "name": "Professor Frank Bongiorno",
+    "school": "School of History",
+    "schoolCode": "CASS",
+    "college": "CASS",
+    "position": "Professor, School of History",
+    "focus": "School of History",
+    "email": "frank.bongiorno@anu.edu.au",
+    "office": "School of History",
+    "profileUrl": "https://researchportalplus.anu.edu.au/en/persons/frank-bongiorno",
+    "tags": [
+      "cass",
+      "school of history"
+    ],
+    "linkedCourses": [],
+    "reviewMetrics": [
+      "Clarity",
+      "Support",
+      "Engagement"
+    ]
+  },
+  {
+    "id": "gabrielle-appleby",
+    "type": "academic",
+    "name": "Professor Gabrielle Appleby",
+    "school": "ANU College of Arts and Social Sciences",
+    "schoolCode": "CASS",
+    "college": "CASS",
+    "position": "Professor, Transnational Research Institute on Corruption",
+    "focus": "ANU College of Arts and Social Sciences",
+    "email": "g.appleby@unsw.edu.au",
+    "office": "ANU College of Arts and Social Sciences",
+    "profileUrl": "https://www.unsw.edu.au/staff/gabrielle-appleby",
+    "tags": [
+      "cass",
+      "anu college of arts and social s"
+    ],
+    "linkedCourses": [],
+    "reviewMetrics": [
+      "Clarity",
+      "Support",
+      "Engagement"
+    ]
+  },
+  {
+    "id": "about-me",
+    "type": "academic",
+    "name": "Professor Garrett Cullity",
+    "school": "Director of Centre for Moral",
+    "schoolCode": "CASS",
+    "college": "CASS",
+    "position": "Professor, Director of Centre for Moral, Social and Political Theory, Centre for Moral, Social and Political Theory",
+    "focus": "Director of Centre for Moral",
+    "email": "garrett.cullity@anu.edu.au",
+    "office": "Director of Centre for Moral",
+    "profileUrl": "http://www.garrettcullity.com/about-me/",
+    "tags": [
+      "cass",
+      "director of centre for moral"
+    ],
+    "linkedCourses": [],
+    "reviewMetrics": [
+      "Clarity",
+      "Support",
+      "Engagement"
+    ]
+  },
+  {
+    "id": "ennis-h",
+    "type": "academic",
+    "name": "Professor Helen Ennis",
+    "school": "Centre for Art History & Art Theory",
+    "schoolCode": "CASS",
+    "college": "CASS",
+    "position": "Emeritus Professor, Centre for Art History & Art Theory",
+    "focus": "Centre for Art History & Art Theory",
+    "email": "helen.ennis@anu.edu.au",
+    "office": "Centre for Art History & Art Theory",
+    "profileUrl": "https://researchers.anu.edu.au/researchers/ennis-h",
+    "tags": [
+      "cass",
+      "centre for art history & art the"
+    ],
+    "linkedCourses": [],
+    "reviewMetrics": [
+      "Clarity",
+      "Support",
+      "Engagement"
+    ]
+  },
+  {
+    "id": "helen-keane",
+    "type": "academic",
+    "name": "Professor Helen Keane",
+    "school": "School of Sociology",
+    "schoolCode": "CASS",
+    "college": "CASS",
+    "position": "Professor, School of Sociology",
+    "focus": "School of Sociology",
+    "email": "Helen.keane@anu.edu.au",
+    "office": "School of Sociology",
+    "profileUrl": "https://researchportalplus.anu.edu.au/en/persons/helen-keane",
+    "tags": [
+      "cass",
+      "school of sociology"
     ],
     "linkedCourses": [],
     "reviewMetrics": [
@@ -7366,16 +12419,158 @@ window.ANREVIEW_DATA = {
     "id": "ian-mcallister",
     "type": "academic",
     "name": "Professor Ian McAllister",
-    "school": "School of Politics and International Relations",
-    "schoolCode": "SPIR",
-    "position": "Distinguished Professor, School of Politics & International Relations Associate, The Australian Politics Studies Centre",
-    "focus": "School of Politics and International Relations",
+    "school": "School of Politics & International Relations",
+    "schoolCode": "CASS",
+    "college": "CASS",
+    "position": "Distinguished Professor, School of Politics & International Relations",
+    "focus": "Distinguished Professor, School of Politics & International Relations",
     "email": "Ian.McAllister@anu.edu.au",
-    "office": "Level 3, RSSS Building, 146 Ellery Crescent",
+    "office": "School of Politics & International Relations",
     "profileUrl": "https://researchportalplus.anu.edu.au/en/persons/ian-mcallister",
     "tags": [
-      "spir",
-      "school of politics and internati"
+      "cass",
+      "distinguished professor",
+      "school of politics & internation"
+    ],
+    "linkedCourses": [],
+    "reviewMetrics": [
+      "Clarity",
+      "Support",
+      "Engagement"
+    ]
+  },
+  {
+    "id": "piscatori-jp",
+    "type": "academic",
+    "name": "Professor James Piscatori",
+    "school": "Centre for Arab and Islamic Studies",
+    "schoolCode": "CASS",
+    "college": "CASS",
+    "position": "Emeritus Professor of Islam and the Muslim World, Centre for Arab and Islamic Studies",
+    "focus": "Centre for Arab and Islamic Studies",
+    "email": "James.Piscatori@anu.edu.au",
+    "office": "Centre for Arab and Islamic Studies",
+    "profileUrl": "https://researchers.anu.edu.au/researchers/piscatori-jp",
+    "tags": [
+      "cass",
+      "centre for arab and islamic stud"
+    ],
+    "linkedCourses": [],
+    "reviewMetrics": [
+      "Clarity",
+      "Support",
+      "Engagement"
+    ]
+  },
+  {
+    "id": "james-raymer",
+    "type": "academic",
+    "name": "Professor James Raymer",
+    "school": "School of Demography",
+    "schoolCode": "CASS",
+    "college": "CASS",
+    "position": "Professor, School of Demography",
+    "focus": "School of Demography",
+    "email": "james.raymer@anu.edu.au",
+    "office": "School of Demography",
+    "profileUrl": "https://researchportalplus.anu.edu.au/en/persons/james-raymer",
+    "tags": [
+      "cass",
+      "school of demography"
+    ],
+    "linkedCourses": [],
+    "reviewMetrics": [
+      "Clarity",
+      "Support",
+      "Engagement"
+    ]
+  },
+  {
+    "id": "prof-john-broome",
+    "type": "academic",
+    "name": "Professor John Broome",
+    "school": "School of Philosophy",
+    "schoolCode": "CASS",
+    "college": "CASS",
+    "position": "Honorary Professor, School of Philosophy",
+    "focus": "School of Philosophy",
+    "email": "john.broome@philosophy.ox.ac.uk",
+    "office": "School of Philosophy",
+    "profileUrl": "https://www.philosophy.ox.ac.uk/people/prof-john-broome",
+    "tags": [
+      "cass",
+      "school of philosophy"
+    ],
+    "linkedCourses": [],
+    "reviewMetrics": [
+      "Clarity",
+      "Support",
+      "Engagement"
+    ]
+  },
+  {
+    "id": "karima-laachir",
+    "type": "academic",
+    "name": "Professor Karima Laachir",
+    "school": "Centre for Arab and Islamic Studies",
+    "schoolCode": "CASS",
+    "college": "CASS",
+    "position": "Director and Professor of Cultural Studies (The Middle East and North Africa), Centre for Arab and Islamic Studies",
+    "focus": "Centre for Arab and Islamic Studies",
+    "email": "Karima.Laachir@anu.edu.au",
+    "office": "Centre for Arab and Islamic Studies",
+    "profileUrl": "https://researchportalplus.anu.edu.au/en/persons/karima-laachir",
+    "tags": [
+      "cass",
+      "centre for arab and islamic stud"
+    ],
+    "linkedCourses": [],
+    "reviewMetrics": [
+      "Clarity",
+      "Support",
+      "Engagement"
+    ]
+  },
+  {
+    "id": "katherine-bode",
+    "type": "academic",
+    "name": "Professor Katherine Bode",
+    "school": "ANU College of Arts and Social Sciences",
+    "schoolCode": "CASS",
+    "college": "CASS",
+    "position": "Professor of Literary and Textual Studies, English",
+    "focus": "ANU College of Arts and Social Sciences",
+    "email": "katherine.bode@anu.edu.au",
+    "office": "ANU College of Arts and Social Sciences",
+    "profileUrl": "https://researchportalplus.anu.edu.au/en/persons/katherine-bode",
+    "tags": [
+      "cass",
+      "anu college of arts and social s"
+    ],
+    "linkedCourses": [],
+    "reviewMetrics": [
+      "Clarity",
+      "Support",
+      "Engagement"
+    ]
+  },
+  {
+    "id": "katie-steele",
+    "type": "academic",
+    "name": "Professor Katie Steele",
+    "school": "Centre for Philosophy of the Sciences",
+    "schoolCode": "CASS",
+    "college": "CASS",
+    "position": "Professor, Centre for Philosophy of the Sciences",
+    "focus": "Professor, Centre for Moral, Social and Political Theory",
+    "email": "katie.steele@anu.edu.au",
+    "office": "Centre for Philosophy of the Sciences",
+    "profileUrl": "https://researchportalplus.anu.edu.au/en/persons/katie-steele",
+    "tags": [
+      "cass",
+      "professor",
+      "centre for moral",
+      "social and political theory"
     ],
     "linkedCourses": [],
     "reviewMetrics": [
@@ -7388,16 +12583,160 @@ window.ANREVIEW_DATA = {
     "id": "keith-dowding",
     "type": "academic",
     "name": "Professor Keith Dowding",
-    "school": "School of Politics and International Relations",
-    "schoolCode": "SPIR",
-    "position": "Associate, Australian Centre for Federalism Associate, The Australian Politics Studies Centre Professor, School of Politics & International Relations",
-    "focus": "School of Politics and International Relations",
+    "school": "School of Politics & International Relations",
+    "schoolCode": "CASS",
+    "college": "CASS",
+    "position": "Professor, School of Politics & International Relations",
+    "focus": "Professor, School of Politics & International Relations",
     "email": "Keith.Dowding@anu.edu.au",
-    "office": "Level 3, RSSS Building, 146 Ellery Crescent",
+    "office": "School of Politics & International Relations",
     "profileUrl": "https://researchportalplus.anu.edu.au/en/persons/keith-dowding",
     "tags": [
-      "spir",
-      "school of politics and internati"
+      "cass",
+      "professor",
+      "school of politics & internation"
+    ],
+    "linkedCourses": [],
+    "reviewMetrics": [
+      "Clarity",
+      "Support",
+      "Engagement"
+    ]
+  },
+  {
+    "id": "kenneth-lampl",
+    "type": "academic",
+    "name": "Professor Kenneth Lampl",
+    "school": "School of Music",
+    "schoolCode": "CASS",
+    "college": "CASS",
+    "position": "Professor of Music, School of Music",
+    "focus": "Professor of Music, School of Music",
+    "email": "kenneth.lampl@anu.edu.au",
+    "office": "School of Music",
+    "profileUrl": "https://researchportalplus.anu.edu.au/en/persons/kenneth-lampl",
+    "tags": [
+      "cass",
+      "professor of music",
+      "school of music"
+    ],
+    "linkedCourses": [],
+    "reviewMetrics": [
+      "Clarity",
+      "Support",
+      "Engagement"
+    ]
+  },
+  {
+    "id": "kim-cunio",
+    "type": "academic",
+    "name": "Professor Kim Cunio",
+    "school": "School of Music",
+    "schoolCode": "CASS",
+    "college": "CASS",
+    "position": "Professor of Music, School of Music",
+    "focus": "School of Music",
+    "email": "kim.cunio@anu.edu.au",
+    "office": "School of Music",
+    "profileUrl": "https://researchportalplus.anu.edu.au/en/persons/kim-cunio",
+    "tags": [
+      "cass",
+      "school of music"
+    ],
+    "linkedCourses": [],
+    "reviewMetrics": [
+      "Clarity",
+      "Support",
+      "Engagement"
+    ]
+  },
+  {
+    "id": "kim-sterelny",
+    "type": "academic",
+    "name": "Professor Kim Sterelny",
+    "school": "Centre for Philosophy of the Sciences",
+    "schoolCode": "CASS",
+    "college": "CASS",
+    "position": "Professor, Centre for Philosophy of the Sciences",
+    "focus": "Professor, Centre for Moral, Social and Political Theory",
+    "email": "kim.sterelny@anu.edu.au",
+    "office": "Centre for Philosophy of the Sciences",
+    "profileUrl": "https://researchportalplus.anu.edu.au/en/persons/kim-sterelny",
+    "tags": [
+      "cass",
+      "professor",
+      "centre for moral",
+      "social and political theory"
+    ],
+    "linkedCourses": [],
+    "reviewMetrics": [
+      "Clarity",
+      "Support",
+      "Engagement"
+    ]
+  },
+  {
+    "id": "lea-ypi",
+    "type": "academic",
+    "name": "Professor Lea Ypi",
+    "school": "School of Philosophy",
+    "schoolCode": "CASS",
+    "college": "CASS",
+    "position": "Honorary Professor, School of Philosophy",
+    "focus": "School of Philosophy",
+    "email": "Lea.Ypi@anu.edu.au",
+    "office": "School of Philosophy",
+    "profileUrl": "https://www.lse.ac.uk/government/people/academic-staff/lea-ypi",
+    "tags": [
+      "cass",
+      "school of philosophy"
+    ],
+    "linkedCourses": [],
+    "reviewMetrics": [
+      "Clarity",
+      "Support",
+      "Engagement"
+    ]
+  },
+  {
+    "id": "maria-nugent",
+    "type": "academic",
+    "name": "Professor Maria Nugent",
+    "school": "Australian Centre for Indigenous History",
+    "schoolCode": "CASS",
+    "college": "CASS",
+    "position": "Professor, Australian Centre for Indigenous History",
+    "focus": "Head of School and Professor, School of History",
+    "email": "maria.nugent@anu.edu.au",
+    "office": "Australian Centre for Indigenous History",
+    "profileUrl": "https://researchportalplus.anu.edu.au/en/persons/maria-nugent",
+    "tags": [
+      "cass",
+      "head of school and professor",
+      "school of history"
+    ],
+    "linkedCourses": [],
+    "reviewMetrics": [
+      "Clarity",
+      "Support",
+      "Engagement"
+    ]
+  },
+  {
+    "id": "www.colyvan.com",
+    "type": "academic",
+    "name": "Professor Mark Colyvan",
+    "school": "School of Philosophy",
+    "schoolCode": "CASS",
+    "college": "CASS",
+    "position": "Honorary Professor, School of Philosophy",
+    "focus": "School of Philosophy",
+    "email": "mark.colyvan@sydney.edu.au",
+    "office": "School of Philosophy",
+    "profileUrl": "http://www.colyvan.com/",
+    "tags": [
+      "cass",
+      "school of philosophy"
     ],
     "linkedCourses": [],
     "reviewMetrics": [
@@ -7410,16 +12749,18 @@ window.ANREVIEW_DATA = {
     "id": "mark-kenny",
     "type": "academic",
     "name": "Professor Mark Kenny",
-    "school": "School of Politics and International Relations",
-    "schoolCode": "SPIR",
-    "position": "Associate, The Australian Politics Studies Centre Professor, School of Politics & International Relations",
-    "focus": "School of Politics and International Relations",
+    "school": "School of Politics & International Relations",
+    "schoolCode": "CASS",
+    "college": "CASS",
+    "position": "Professor, School of Politics & International Relations",
+    "focus": "Professor, School of Politics & International Relations",
     "email": "Mark.Kenny@anu.edu.au",
-    "office": "+61 2 6125 6766",
+    "office": "School of Politics & International Relations",
     "profileUrl": "https://researchportalplus.anu.edu.au/en/persons/mark-kenny",
     "tags": [
-      "spir",
-      "school of politics and internati"
+      "cass",
+      "professor",
+      "school of politics & internation"
     ],
     "linkedCourses": [],
     "reviewMetrics": [
@@ -7429,19 +12770,420 @@ window.ANREVIEW_DATA = {
     ]
   },
   {
-    "id": "nicholas-biddle",
+    "id": "martin-thomas",
     "type": "academic",
-    "name": "Professor Nicholas Biddle",
-    "school": "School of Politics and International Relations",
-    "schoolCode": "SPIR",
-    "position": "Head of School, School of Politics & International Relations",
-    "focus": "School of Politics and International Relations",
-    "email": "nicholas.biddle@anu.edu.au",
-    "office": "Level 3 - RSSS Building, 146 Ellery Cres, Acton",
-    "profileUrl": "https://researchportalplus.anu.edu.au/en/persons/nicholas-biddle",
+    "name": "Professor Martin Thomas",
+    "school": "School of History",
+    "schoolCode": "CASS",
+    "college": "CASS",
+    "position": "Professor, School of History",
+    "focus": "(02) 612 52352",
+    "email": "m.thomas@anu.edu.au",
+    "office": "School of History",
+    "profileUrl": "https://researchportalplus.anu.edu.au/en/persons/martin-thomas",
     "tags": [
-      "spir",
-      "school of politics and internati"
+      "cass",
+      "(02) 612 52352"
+    ],
+    "linkedCourses": [],
+    "reviewMetrics": [
+      "Clarity",
+      "Support",
+      "Engagement"
+    ]
+  },
+  {
+    "id": "mary-rasmussen",
+    "type": "academic",
+    "name": "Professor Mary Lou Rasmussen",
+    "school": "School of Sociology",
+    "schoolCode": "CASS",
+    "college": "CASS",
+    "position": "Professor, School of Sociology",
+    "focus": "School of Sociology",
+    "email": "marylou.rasmussen@anu.edu.au",
+    "office": "School of Sociology",
+    "profileUrl": "https://researchportalplus.anu.edu.au/en/persons/mary-rasmussen",
+    "tags": [
+      "cass",
+      "school of sociology"
+    ],
+    "linkedCourses": [],
+    "reviewMetrics": [
+      "Clarity",
+      "Support",
+      "Engagement"
+    ]
+  },
+  {
+    "id": "melanie-nolan",
+    "type": "academic",
+    "name": "Professor Melanie Nolan",
+    "school": "School of History",
+    "schoolCode": "CASS",
+    "college": "CASS",
+    "position": "Lecturer, School of History",
+    "focus": "Director, National Centre of Biography",
+    "email": "melanie.nolan@anu.edu.au",
+    "office": "School of History",
+    "profileUrl": "https://researchportalplus.anu.edu.au/en/persons/melanie-nolan",
+    "tags": [
+      "cass",
+      "director",
+      "national centre of biography"
+    ],
+    "linkedCourses": [],
+    "reviewMetrics": [
+      "Clarity",
+      "Support",
+      "Engagement"
+    ]
+  },
+  {
+    "id": "mitchell-whitelaw",
+    "type": "academic",
+    "name": "Professor Mitchell Whitelaw",
+    "school": "School of Art & Design",
+    "schoolCode": "CASS",
+    "college": "CASS",
+    "position": "Academic Professor, School of Art & Design",
+    "focus": "School of Art & Design",
+    "email": "mitchell.whitelaw@anu.edu.au",
+    "office": "School of Art & Design",
+    "profileUrl": "https://researchportalplus.anu.edu.au/en/persons/mitchell-whitelaw",
+    "tags": [
+      "cass",
+      "school of art & design"
+    ],
+    "linkedCourses": [],
+    "reviewMetrics": [
+      "Clarity",
+      "Support",
+      "Engagement"
+    ]
+  },
+  {
+    "id": "naomi-priest",
+    "type": "academic",
+    "name": "Professor Naomi Priest",
+    "school": "Centre for Social Research and Methods",
+    "schoolCode": "CASS",
+    "college": "CASS",
+    "position": "Professor, Centre for Social Research and Methods",
+    "focus": "Centre for Social Research and Methods",
+    "email": "naomi.priest@anu.edu.au",
+    "office": "Centre for Social Research and Methods",
+    "profileUrl": "https://researchportalplus.anu.edu.au/en/persons/naomi-priest",
+    "tags": [
+      "cass",
+      "centre for social research and m"
+    ],
+    "linkedCourses": [],
+    "reviewMetrics": [
+      "Clarity",
+      "Support",
+      "Engagement"
+    ]
+  },
+  {
+    "id": "nicholas-brown",
+    "type": "academic",
+    "name": "Professor Nicholas Brown",
+    "school": "School of History",
+    "schoolCode": "CASS",
+    "college": "CASS",
+    "position": "Professor, School of History",
+    "focus": "School of History",
+    "email": "nicholas.brown@anu.edu.au",
+    "office": "School of History",
+    "profileUrl": "https://researchportalplus.anu.edu.au/en/persons/nicholas-brown",
+    "tags": [
+      "cass",
+      "school of history"
+    ],
+    "linkedCourses": [],
+    "reviewMetrics": [
+      "Clarity",
+      "Support",
+      "Engagement"
+    ]
+  },
+  {
+    "id": "paul-k-jones",
+    "type": "academic",
+    "name": "Professor Paul K. Jones",
+    "school": "School of Sociology",
+    "schoolCode": "CASS",
+    "college": "CASS",
+    "position": "Honorary Professor, School of Sociology",
+    "focus": "School of Sociology",
+    "email": "Paul.Jones@anu.edu.au",
+    "office": "School of Sociology",
+    "profileUrl": "https://researchportalplus.anu.edu.au/en/persons/paul-k-jones",
+    "tags": [
+      "cass",
+      "school of sociology"
+    ],
+    "linkedCourses": [],
+    "reviewMetrics": [
+      "Clarity",
+      "Support",
+      "Engagement"
+    ]
+  },
+  {
+    "id": "phil-dowe",
+    "type": "academic",
+    "name": "Professor Phil Dowe",
+    "school": "Centre for Philosophy of the Sciences",
+    "schoolCode": "CASS",
+    "college": "CASS",
+    "position": "Professor, Centre for Philosophy of the Sciences",
+    "focus": "Centre for Philosophy of the Sciences",
+    "email": "phil.dowe@anu.edu.au",
+    "office": "Centre for Philosophy of the Sciences",
+    "profileUrl": "https://researchportalplus.anu.edu.au/en/persons/phil-dowe",
+    "tags": [
+      "cass",
+      "centre for philosophy of the sci"
+    ],
+    "linkedCourses": [],
+    "reviewMetrics": [
+      "Clarity",
+      "Support",
+      "Engagement"
+    ]
+  },
+  {
+    "id": "philip-piper",
+    "type": "academic",
+    "name": "Professor Philip J. Piper",
+    "school": "ANU College of Arts and Social Sciences",
+    "schoolCode": "CASS",
+    "college": "CASS",
+    "position": "Professor in Archaeology, Archaeology",
+    "focus": "ANU College of Arts and Social Sciences",
+    "email": "philip.piper@anu.edu.au",
+    "office": "ANU College of Arts and Social Sciences",
+    "profileUrl": "https://researchportalplus.anu.edu.au/en/persons/philip-piper",
+    "tags": [
+      "cass",
+      "anu college of arts and social s"
+    ],
+    "linkedCourses": [],
+    "reviewMetrics": [
+      "Clarity",
+      "Support",
+      "Engagement"
+    ]
+  },
+  {
+    "id": "philip-pettit",
+    "type": "academic",
+    "name": "Professor Philip Pettit",
+    "school": "Centre for Moral",
+    "schoolCode": "CASS",
+    "college": "CASS",
+    "position": "Distinguished University Professor of Philosophy, Centre for Moral, Social and Political Theory",
+    "focus": "Distinguished University Professor of Philosophy, Centre for Consciousness, Distinguished University Professor of Philosophy, Centre for Philosophy of the Sciences",
+    "email": "Philip.Pettit@anu.edu.au",
+    "office": "Centre for Moral",
+    "profileUrl": "https://researchportalplus.anu.edu.au/en/persons/philip-pettit",
+    "tags": [
+      "cass",
+      "distinguished university profess",
+      "centre for consciousness",
+      "centre for philosophy of the sci"
+    ],
+    "linkedCourses": [],
+    "reviewMetrics": [
+      "Clarity",
+      "Support",
+      "Engagement"
+    ]
+  },
+  {
+    "id": "robert-ackland",
+    "type": "academic",
+    "name": "Professor Robert Ackland",
+    "school": "School of Sociology",
+    "schoolCode": "CASS",
+    "college": "CASS",
+    "position": "Professor, School of Sociology",
+    "focus": "School of Sociology",
+    "email": "robert.ackland@anu.edu.au",
+    "office": "School of Sociology",
+    "profileUrl": "https://researchportalplus.anu.edu.au/en/persons/robert-ackland",
+    "tags": [
+      "cass",
+      "school of sociology"
+    ],
+    "linkedCourses": [],
+    "reviewMetrics": [
+      "Clarity",
+      "Support",
+      "Engagement"
+    ]
+  },
+  {
+    "id": "royston-gustavson",
+    "type": "academic",
+    "name": "Professor Royston Gustavson",
+    "school": "Centre for Social Research and Methods",
+    "schoolCode": "CASS",
+    "college": "CASS",
+    "position": "Professor, Centre for Social Research and Methods",
+    "focus": "Centre for Social Research and Methods",
+    "email": "royston.gustavson@anu.edu.au",
+    "office": "Centre for Social Research and Methods",
+    "profileUrl": "https://researchportalplus.anu.edu.au/en/persons/royston-gustavson",
+    "tags": [
+      "cass",
+      "centre for social research and m"
+    ],
+    "linkedCourses": [],
+    "reviewMetrics": [
+      "Clarity",
+      "Support",
+      "Engagement"
+    ]
+  },
+  {
+    "id": "bennett-sk",
+    "type": "academic",
+    "name": "Professor Samantha Bennett",
+    "school": "School of Music",
+    "schoolCode": "CASS",
+    "college": "CASS",
+    "position": "Professor of Music, School of Music",
+    "focus": "Professor of Music, School of Music, Associate Dean Higher Degree Research, School of Music",
+    "email": "samantha.bennett@anu.edu.au",
+    "office": "School of Music",
+    "profileUrl": "https://researchers.anu.edu.au/researchers/bennett-sk",
+    "tags": [
+      "cass",
+      "professor of music",
+      "school of music",
+      "associate dean higher degree res"
+    ],
+    "linkedCourses": [],
+    "reviewMetrics": [
+      "Clarity",
+      "Support",
+      "Engagement"
+    ]
+  },
+  {
+    "id": "seth-lazar",
+    "type": "academic",
+    "name": "Professor Seth Lazar",
+    "school": "School of Philosophy",
+    "schoolCode": "CASS",
+    "college": "CASS",
+    "position": "Professor, School of Philosophy",
+    "focus": "Professor, School of Philosophy",
+    "email": "seth.lazar@anu.edu.au",
+    "office": "School of Philosophy",
+    "profileUrl": "https://researchportalplus.anu.edu.au/en/persons/seth-lazar",
+    "tags": [
+      "cass",
+      "professor",
+      "school of philosophy"
+    ],
+    "linkedCourses": [],
+    "reviewMetrics": [
+      "Clarity",
+      "Support",
+      "Engagement"
+    ]
+  },
+  {
+    "id": "denham-tp",
+    "type": "academic",
+    "name": "Professor Tim Denham",
+    "school": "ANU College of Arts and Social Sciences",
+    "schoolCode": "CASS",
+    "college": "CASS",
+    "position": "Professor, Archaeology",
+    "focus": "Professor, Archaeology",
+    "email": "tim.denham@anu.edu.au",
+    "office": "ANU College of Arts and Social Sciences",
+    "profileUrl": "https://researchers.anu.edu.au/researchers/denham-tp",
+    "tags": [
+      "cass",
+      "professor",
+      "archaeology"
+    ],
+    "linkedCourses": [],
+    "reviewMetrics": [
+      "Clarity",
+      "Support",
+      "Engagement"
+    ]
+  },
+  {
+    "id": "victoria-mcgeer",
+    "type": "academic",
+    "name": "Professor Victoria McGeer",
+    "school": "Centre for Philosophy of the Sciences",
+    "schoolCode": "CASS",
+    "college": "CASS",
+    "position": "Professor, Centre for Philosophy of the Sciences",
+    "focus": "Professor, Centre for Consciousness, Professor, Centre for Moral, Social and Political Theory",
+    "email": "vmcgeer@princeton.edu",
+    "office": "Centre for Philosophy of the Sciences",
+    "profileUrl": "https://researchportalplus.anu.edu.au/en/persons/victoria-mcgeer",
+    "tags": [
+      "cass",
+      "professor",
+      "centre for consciousness",
+      "centre for moral"
+    ],
+    "linkedCourses": [],
+    "reviewMetrics": [
+      "Clarity",
+      "Support",
+      "Engagement"
+    ]
+  },
+  {
+    "id": "vladimir-canudas-romo",
+    "type": "academic",
+    "name": "Professor Vladimir Canudas-Romo",
+    "school": "School of Demography",
+    "schoolCode": "CASS",
+    "college": "CASS",
+    "position": "Professor, School of Demography",
+    "focus": "School of Demography",
+    "email": "vladimir.canudas-romo@anu.edu.au",
+    "office": "School of Demography",
+    "profileUrl": "https://researchportalplus.anu.edu.au/en/persons/vladimir-canudas-romo",
+    "tags": [
+      "cass",
+      "school of demography"
+    ],
+    "linkedCourses": [],
+    "reviewMetrics": [
+      "Clarity",
+      "Support",
+      "Engagement"
+    ]
+  },
+  {
+    "id": "waller-r",
+    "type": "academic",
+    "name": "Ruth Waller",
+    "school": "School of Art & Design",
+    "schoolCode": "CASS",
+    "college": "CASS",
+    "position": "Honorary Senior Lecturer, School of Art & Design",
+    "focus": "School of Art & Design",
+    "email": "ruth.waller@anu.edu.au",
+    "office": "School of Art & Design",
+    "profileUrl": "https://researchers.anu.edu.au/researchers/waller-r",
+    "tags": [
+      "cass",
+      "school of art & design"
     ],
     "linkedCourses": [],
     "reviewMetrics": [
@@ -7457,8 +13199,9 @@ window.ANREVIEW_DATA = {
     "type": "course",
     "code": "AATD2001",
     "name": "SoCIETIE Initiative",
+    "college": "ANU College of Arts and Social Sciences",
     "school": "ANU College of Arts and Social Sciences",
-    "schoolCode": "ACOAA",
+    "schoolCode": "CASS",
     "level": "UGRD",
     "terms": [
       "Summer Session",
@@ -7488,8 +13231,9 @@ window.ANREVIEW_DATA = {
     "type": "course",
     "code": "AATD3001",
     "name": "SoCIETIE Initiative",
+    "college": "ANU College of Arts and Social Sciences",
     "school": "ANU College of Arts and Social Sciences",
-    "schoolCode": "ACOAA",
+    "schoolCode": "CASS",
     "level": "UGRD",
     "terms": [
       "Summer Session",
@@ -7519,6 +13263,7 @@ window.ANREVIEW_DATA = {
     "type": "course",
     "code": "ANIP3003",
     "name": "Australian National Internships Program A",
+    "college": "ANU College of Arts and Social Sciences",
     "school": "Australian National Internships Program",
     "schoolCode": "ANIP",
     "level": "UGRD",
@@ -7546,6 +13291,7 @@ window.ANREVIEW_DATA = {
     "type": "course",
     "code": "ASIA1025",
     "name": "Asia and the Pacific: Power, diversity and change",
+    "college": "ANU College of Asia and the Pacific",
     "school": "School of Culture History and Language",
     "schoolCode": "SOCHA",
     "level": "UGRD",
@@ -7572,6 +13318,7 @@ window.ANREVIEW_DATA = {
     "type": "course",
     "code": "ASIA1030",
     "name": "Asia and the Pacific in Motion",
+    "college": "ANU College of Asia and the Pacific",
     "school": "School of Culture History and Language",
     "schoolCode": "SOCHA",
     "level": "UGRD",
@@ -7598,6 +13345,7 @@ window.ANREVIEW_DATA = {
     "type": "course",
     "code": "ASIA1035",
     "name": "Introduction to Asian Politics",
+    "college": "ANU College of Asia and the Pacific",
     "school": "Department of Political and Social Change",
     "schoolCode": "DOPAS",
     "level": "UGRD",
@@ -7624,6 +13372,7 @@ window.ANREVIEW_DATA = {
     "type": "course",
     "code": "ASIA1999",
     "name": "The Origins of Political Order in Asia",
+    "college": "ANU College of Asia and the Pacific",
     "school": "Department of Political and Social Change",
     "schoolCode": "DOPAS",
     "level": "UGRD",
@@ -7647,6 +13396,7 @@ window.ANREVIEW_DATA = {
     "type": "course",
     "code": "ASIA2026",
     "name": "The Politics of China",
+    "college": "ANU College of Asia and the Pacific",
     "school": "Department of Political and Social Change",
     "schoolCode": "DOPAS",
     "level": "UGRD",
@@ -7671,6 +13421,7 @@ window.ANREVIEW_DATA = {
     "type": "course",
     "code": "ASIA2031",
     "name": "Japanese Politics",
+    "college": "ANU College of Asia and the Pacific",
     "school": "School of Culture History and Language",
     "schoolCode": "SOCHA",
     "level": "UGRD",
@@ -7697,6 +13448,7 @@ window.ANREVIEW_DATA = {
     "type": "course",
     "code": "ASIA2041",
     "name": "Mainland Southeast Asia: Colonial and Postcolonial Predicaments",
+    "college": "ANU College of Asia and the Pacific",
     "school": "School of Culture History and Language",
     "schoolCode": "SOCHA",
     "level": "UGRD",
@@ -7723,6 +13475,7 @@ window.ANREVIEW_DATA = {
     "type": "course",
     "code": "ASIA2065",
     "name": "Asia’s Changing Politics in Comparative Perspective",
+    "college": "ANU College of Asia and the Pacific",
     "school": "Department of Political and Social Change",
     "schoolCode": "DOPAS",
     "level": "UGRD",
@@ -7746,6 +13499,7 @@ window.ANREVIEW_DATA = {
     "type": "course",
     "code": "ASIA2067",
     "name": "Asian Economies",
+    "college": "ANU College of Law, Governance and Policy",
     "school": "Crawford School of Public Policy",
     "schoolCode": "LAW",
     "level": "UGRD",
@@ -7771,6 +13525,7 @@ window.ANREVIEW_DATA = {
     "type": "course",
     "code": "ASIA2093",
     "name": "Natural Resource Conflicts in Asia and the Pacific",
+    "college": "ANU College of Asia and the Pacific",
     "school": "Department of Pacific Affairs",
     "schoolCode": "DOPA",
     "level": "UGRD",
@@ -7794,6 +13549,7 @@ window.ANREVIEW_DATA = {
     "type": "course",
     "code": "ASIA2096",
     "name": "North Korea: History, Culture, Politics",
+    "college": "ANU College of Asia and the Pacific",
     "school": "School of Culture History and Language",
     "schoolCode": "SOCHA",
     "level": "UGRD",
@@ -7820,6 +13576,7 @@ window.ANREVIEW_DATA = {
     "type": "course",
     "code": "ASIA2222",
     "name": "Taiwanese Society and Politics",
+    "college": "ANU College of Asia and the Pacific",
     "school": "School of Culture History and Language",
     "schoolCode": "SOCHA",
     "level": "UGRD",
@@ -7846,6 +13603,7 @@ window.ANREVIEW_DATA = {
     "type": "course",
     "code": "ASIA2301",
     "name": "Human Migration and Expansion in the Rise of the Asia-Pacific",
+    "college": "ANU College of Asia and the Pacific",
     "school": "School of Culture History and Language",
     "schoolCode": "SOCHA",
     "level": "UGRD",
@@ -7872,6 +13630,7 @@ window.ANREVIEW_DATA = {
     "type": "course",
     "code": "ASIA2516",
     "name": "Indonesia: Politics, Society and Development",
+    "college": "ANU College of Asia and the Pacific",
     "school": "Department of Political and Social Change",
     "schoolCode": "DOPAS",
     "level": "UGRD",
@@ -7898,6 +13657,7 @@ window.ANREVIEW_DATA = {
     "type": "course",
     "code": "BUSI2023",
     "name": "Dynamics of Asian Business",
+    "college": "ANU College of Business and Economics",
     "school": "Research School of Management",
     "schoolCode": "RSM",
     "level": "UGRD",
@@ -7922,6 +13682,7 @@ window.ANREVIEW_DATA = {
     "type": "course",
     "code": "BUSI2024",
     "name": "Dynamics of Business in the Middle East",
+    "college": "ANU College of Business and Economics",
     "school": "Research School of Management",
     "schoolCode": "RSM",
     "level": "UGRD",
@@ -7946,6 +13707,7 @@ window.ANREVIEW_DATA = {
     "type": "course",
     "code": "BUSI2025",
     "name": "International Business",
+    "college": "ANU College of Business and Economics",
     "school": "Research School of Management",
     "schoolCode": "RSM",
     "level": "UGRD",
@@ -7971,6 +13733,7 @@ window.ANREVIEW_DATA = {
     "type": "course",
     "code": "BUSI2034",
     "name": "Dynamics of European Business",
+    "college": "ANU College of Business and Economics",
     "school": "Research School of Management",
     "schoolCode": "RSM",
     "level": "UGRD",
@@ -7994,6 +13757,7 @@ window.ANREVIEW_DATA = {
     "type": "course",
     "code": "BUSI3020",
     "name": "International Strategic Management",
+    "college": "ANU College of Business and Economics",
     "school": "Research School of Management",
     "schoolCode": "RSM",
     "level": "UGRD",
@@ -8018,6 +13782,7 @@ window.ANREVIEW_DATA = {
     "type": "course",
     "code": "BUSI3024",
     "name": "Export Business Planning",
+    "college": "ANU College of Business and Economics",
     "school": "Research School of Management",
     "schoolCode": "RSM",
     "level": "UGRD",
@@ -8043,6 +13808,7 @@ window.ANREVIEW_DATA = {
     "type": "course",
     "code": "BUSI3028",
     "name": "Business in China",
+    "college": "ANU College of Business and Economics",
     "school": "Research School of Management",
     "schoolCode": "RSM",
     "level": "UGRD",
@@ -8069,6 +13835,7 @@ window.ANREVIEW_DATA = {
     "type": "course",
     "code": "BUSI3029",
     "name": "Cross-Cultural Management",
+    "college": "ANU College of Business and Economics",
     "school": "Research School of Management",
     "schoolCode": "RSM",
     "level": "UGRD",
@@ -8093,6 +13860,7 @@ window.ANREVIEW_DATA = {
     "type": "course",
     "code": "BUSI3030",
     "name": "International Supply Chain Management",
+    "college": "ANU College of Business and Economics",
     "school": "Research School of Management",
     "schoolCode": "RSM",
     "level": "UGRD",
@@ -8116,6 +13884,7 @@ window.ANREVIEW_DATA = {
     "type": "course",
     "code": "BUSN1001",
     "name": "Business Reporting and Analysis",
+    "college": "ANU College of Business and Economics",
     "school": "Research School of Accounting",
     "schoolCode": "RSA",
     "level": "UGRD",
@@ -8141,6 +13910,7 @@ window.ANREVIEW_DATA = {
     "type": "course",
     "code": "BUSN1002",
     "name": "Accounting Processes and Systems",
+    "college": "ANU College of Business and Economics",
     "school": "Research School of Accounting",
     "schoolCode": "RSA",
     "level": "UGRD",
@@ -8165,6 +13935,7 @@ window.ANREVIEW_DATA = {
     "type": "course",
     "code": "BUSN1101",
     "name": "Introduction to Commercial Law",
+    "college": "ANU College of Business and Economics",
     "school": "Research School of Accounting",
     "schoolCode": "RSA",
     "level": "UGRD",
@@ -8188,6 +13959,7 @@ window.ANREVIEW_DATA = {
     "type": "course",
     "code": "BUSN2011",
     "name": "Management Accounting",
+    "college": "ANU College of Business and Economics",
     "school": "Research School of Accounting",
     "schoolCode": "RSA",
     "level": "UGRD",
@@ -8212,6 +13984,7 @@ window.ANREVIEW_DATA = {
     "type": "course",
     "code": "BUSN2015",
     "name": "Company Accounting",
+    "college": "ANU College of Business and Economics",
     "school": "Research School of Accounting",
     "schoolCode": "RSA",
     "level": "UGRD",
@@ -8236,6 +14009,7 @@ window.ANREVIEW_DATA = {
     "type": "course",
     "code": "BUSN2036",
     "name": "Financial Statement Analysis",
+    "college": "ANU College of Business and Economics",
     "school": "Research School of Accounting",
     "schoolCode": "RSA",
     "level": "UGRD",
@@ -8260,6 +14034,7 @@ window.ANREVIEW_DATA = {
     "type": "course",
     "code": "BUSN2037",
     "name": "Fundamentals of Accounting Data Analytics",
+    "college": "ANU College of Business and Economics",
     "school": "Research School of Accounting",
     "schoolCode": "RSA",
     "level": "UGRD",
@@ -8284,6 +14059,7 @@ window.ANREVIEW_DATA = {
     "type": "course",
     "code": "BUSN2101",
     "name": "Law of Business Entities",
+    "college": "ANU College of Business and Economics",
     "school": "Research School of Accounting",
     "schoolCode": "RSA",
     "level": "UGRD",
@@ -8307,6 +14083,7 @@ window.ANREVIEW_DATA = {
     "type": "course",
     "code": "BUSN3001",
     "name": "Accounting Theory",
+    "college": "ANU College of Business and Economics",
     "school": "Research School of Accounting",
     "schoolCode": "RSA",
     "level": "UGRD",
@@ -8331,6 +14108,7 @@ window.ANREVIEW_DATA = {
     "type": "course",
     "code": "BUSN3002",
     "name": "Auditing",
+    "college": "ANU College of Business and Economics",
     "school": "Research School of Accounting",
     "schoolCode": "RSA",
     "level": "UGRD",
@@ -8354,6 +14132,7 @@ window.ANREVIEW_DATA = {
     "type": "course",
     "code": "BUSN3003",
     "name": "Advanced Management Accounting",
+    "college": "ANU College of Business and Economics",
     "school": "Research School of Accounting",
     "schoolCode": "RSA",
     "level": "UGRD",
@@ -8377,6 +14156,7 @@ window.ANREVIEW_DATA = {
     "type": "course",
     "code": "BUSN3008",
     "name": "Financial Reporting By Corporations",
+    "college": "ANU College of Business and Economics",
     "school": "Research School of Accounting",
     "schoolCode": "RSA",
     "level": "UGRD",
@@ -8400,6 +14180,7 @@ window.ANREVIEW_DATA = {
     "type": "course",
     "code": "BUSN3014",
     "name": "Principles of Tax Law",
+    "college": "ANU College of Business and Economics",
     "school": "Research School of Accounting",
     "schoolCode": "RSA",
     "level": "UGRD",
@@ -8424,6 +14205,7 @@ window.ANREVIEW_DATA = {
     "type": "course",
     "code": "BUSN3017",
     "name": "Corporate Social Responsibility, Accountability and Reporting",
+    "college": "ANU College of Business and Economics",
     "school": "Research School of Accounting",
     "schoolCode": "RSA",
     "level": "UGRD",
@@ -8450,6 +14232,7 @@ window.ANREVIEW_DATA = {
     "type": "course",
     "code": "BUSN3051",
     "name": "Advanced Accounting Data Analytics",
+    "college": "ANU College of Business and Economics",
     "school": "Research School of Accounting",
     "schoolCode": "RSA",
     "level": "UGRD",
@@ -8473,6 +14256,7 @@ window.ANREVIEW_DATA = {
     "type": "course",
     "code": "CBEA2000",
     "name": "Employability Fundamentals for Professional Practice",
+    "college": "ANU College of Business and Economics",
     "school": "ANU College of Business and Economics",
     "schoolCode": "ACOBA",
     "level": "UGRD",
@@ -8499,6 +14283,7 @@ window.ANREVIEW_DATA = {
     "type": "course",
     "code": "CBEA2001",
     "name": "Australian Indigenous Perspectives in Business and Economics",
+    "college": "ANU College of Business and Economics",
     "school": "ANU College of Business and Economics",
     "schoolCode": "ACOBA",
     "level": "UGRD",
@@ -8525,6 +14310,7 @@ window.ANREVIEW_DATA = {
     "type": "course",
     "code": "CBEA3001",
     "name": "College of Business and Economics Special Industry Project",
+    "college": "ANU College of Business and Economics",
     "school": "ANU College of Business and Economics",
     "schoolCode": "ACOBA",
     "level": "UGRD",
@@ -8552,6 +14338,7 @@ window.ANREVIEW_DATA = {
     "type": "course",
     "code": "CBEA3003",
     "name": "Australian and First Nations Business Immersion",
+    "college": "ANU College of Business and Economics",
     "school": "ANU College of Business and Economics",
     "schoolCode": "ACOBA",
     "level": "UGRD",
@@ -8576,6 +14363,7 @@ window.ANREVIEW_DATA = {
     "type": "course",
     "code": "CBEA3066",
     "name": "Global Business Immersion",
+    "college": "ANU College of Business and Economics",
     "school": "ANU College of Business and Economics",
     "schoolCode": "ACOBA",
     "level": "UGRD",
@@ -8601,6 +14389,7 @@ window.ANREVIEW_DATA = {
     "type": "course",
     "code": "CBEA3070",
     "name": "ANU College of Business and Economics Internship Program (UG)",
+    "college": "ANU College of Business and Economics",
     "school": "ANU College of Business and Economics",
     "schoolCode": "ACOBA",
     "level": "UGRD",
@@ -8628,6 +14417,7 @@ window.ANREVIEW_DATA = {
     "type": "course",
     "code": "COMP1100",
     "name": "Programming as Problem Solving",
+    "college": "ANU College of Systems and Society",
     "school": "School of Computing",
     "schoolCode": "SOC",
     "level": "UGRD",
@@ -8655,6 +14445,7 @@ window.ANREVIEW_DATA = {
     "type": "course",
     "code": "COMP1110",
     "name": "Structured Programming",
+    "college": "ANU College of Systems and Society",
     "school": "School of Computing",
     "schoolCode": "SOC",
     "level": "UGRD",
@@ -8682,6 +14473,7 @@ window.ANREVIEW_DATA = {
     "type": "course",
     "code": "COMP1710",
     "name": "Web Development and Design",
+    "college": "ANU College of Systems and Society",
     "school": "School of Computing",
     "schoolCode": "SOC",
     "level": "UGRD",
@@ -8708,6 +14500,7 @@ window.ANREVIEW_DATA = {
     "type": "course",
     "code": "COMP2400",
     "name": "Relational Databases",
+    "college": "ANU College of Systems and Society",
     "school": "School of Computing",
     "schoolCode": "SOC",
     "level": "UGRD",
@@ -8735,6 +14528,7 @@ window.ANREVIEW_DATA = {
     "type": "course",
     "code": "COMP2700",
     "name": "Cyber Security Foundations",
+    "college": "ANU College of Systems and Society",
     "school": "School of Computing",
     "schoolCode": "SOC",
     "level": "UGRD",
@@ -8761,6 +14555,7 @@ window.ANREVIEW_DATA = {
     "type": "course",
     "code": "CRIM2010",
     "name": "Cybercrime: an introduction",
+    "college": "ANU College of Arts and Social Sciences",
     "school": "POLIS: The Centre for Social Policy Research",
     "schoolCode": "PTCFS",
     "level": "UGRD",
@@ -8786,6 +14581,7 @@ window.ANREVIEW_DATA = {
     "type": "course",
     "code": "DEMO1001",
     "name": "Global population challenges",
+    "college": "ANU College of Arts and Social Sciences",
     "school": "School of Demography",
     "schoolCode": "SOD",
     "level": "UGRD",
@@ -8812,6 +14608,7 @@ window.ANREVIEW_DATA = {
     "type": "course",
     "code": "DEMO2003",
     "name": "Migration in the Modern World",
+    "college": "ANU College of Arts and Social Sciences",
     "school": "School of Demography",
     "schoolCode": "SOD",
     "level": "UGRD",
@@ -8839,6 +14636,7 @@ window.ANREVIEW_DATA = {
     "type": "course",
     "code": "ECHI1006",
     "name": "The Australian Economy: Past and Present",
+    "college": "ANU College of Business and Economics",
     "school": "Research School of Economics",
     "schoolCode": "RSE",
     "level": "UGRD",
@@ -8862,6 +14660,7 @@ window.ANREVIEW_DATA = {
     "type": "course",
     "code": "ECHI3009",
     "name": "World Economy Since 1800",
+    "college": "ANU College of Business and Economics",
     "school": "Research School of Economics",
     "schoolCode": "RSE",
     "level": "UGRD",
@@ -8885,6 +14684,7 @@ window.ANREVIEW_DATA = {
     "type": "course",
     "code": "ECON1100",
     "name": "Economics I (H)",
+    "college": "ANU College of Business and Economics",
     "school": "Research School of Economics",
     "schoolCode": "RSE",
     "level": "UGRD",
@@ -8908,6 +14708,7 @@ window.ANREVIEW_DATA = {
     "type": "course",
     "code": "ECON1101",
     "name": "Microeconomics 1",
+    "college": "ANU College of Business and Economics",
     "school": "Research School of Economics",
     "schoolCode": "RSE",
     "level": "UGRD",
@@ -8933,6 +14734,7 @@ window.ANREVIEW_DATA = {
     "type": "course",
     "code": "ECON1102",
     "name": "Macroeconomics 1",
+    "college": "ANU College of Business and Economics",
     "school": "Research School of Economics",
     "schoolCode": "RSE",
     "level": "UGRD",
@@ -8957,6 +14759,7 @@ window.ANREVIEW_DATA = {
     "type": "course",
     "code": "ECON2009",
     "name": "Labour Economics and Industrial Relations",
+    "college": "ANU College of Business and Economics",
     "school": "Research School of Economics",
     "schoolCode": "RSE",
     "level": "UGRD",
@@ -8980,6 +14783,7 @@ window.ANREVIEW_DATA = {
     "type": "course",
     "code": "ECON2013",
     "name": "Behavioral Economics",
+    "college": "ANU College of Business and Economics",
     "school": "Research School of Economics",
     "schoolCode": "RSE",
     "level": "UGRD",
@@ -9005,6 +14809,7 @@ window.ANREVIEW_DATA = {
     "type": "course",
     "code": "ECON2014",
     "name": "Managerial Economics",
+    "college": "ANU College of Business and Economics",
     "school": "Research School of Economics",
     "schoolCode": "RSE",
     "level": "UGRD",
@@ -9029,6 +14834,7 @@ window.ANREVIEW_DATA = {
     "type": "course",
     "code": "ECON2016",
     "name": "Economics II (H)",
+    "college": "ANU College of Business and Economics",
     "school": "Research School of Economics",
     "schoolCode": "RSE",
     "level": "UGRD",
@@ -9052,6 +14858,7 @@ window.ANREVIEW_DATA = {
     "type": "course",
     "code": "ECON2026",
     "name": "Money and Banking",
+    "college": "ANU College of Business and Economics",
     "school": "Research School of Economics",
     "schoolCode": "RSE",
     "level": "UGRD",
@@ -9075,6 +14882,7 @@ window.ANREVIEW_DATA = {
     "type": "course",
     "code": "ECON2101",
     "name": "Microeconomics 2",
+    "college": "ANU College of Business and Economics",
     "school": "Research School of Economics",
     "schoolCode": "RSE",
     "level": "UGRD",
@@ -9099,6 +14907,7 @@ window.ANREVIEW_DATA = {
     "type": "course",
     "code": "ECON2102",
     "name": "Macroeconomics 2",
+    "college": "ANU College of Business and Economics",
     "school": "Research School of Economics",
     "schoolCode": "RSE",
     "level": "UGRD",
@@ -9123,6 +14932,7 @@ window.ANREVIEW_DATA = {
     "type": "course",
     "code": "ECON2108",
     "name": "Japanese Economy and Economic Policy",
+    "college": "ANU College of Business and Economics",
     "school": "Research School of Economics",
     "schoolCode": "RSE",
     "level": "UGRD",
@@ -9146,6 +14956,7 @@ window.ANREVIEW_DATA = {
     "type": "course",
     "code": "ECON2125",
     "name": "Optimisation for Economics and Financial Economics",
+    "college": "ANU College of Business and Economics",
     "school": "Research School of Economics",
     "schoolCode": "RSE",
     "level": "UGRD",
@@ -9171,6 +14982,7 @@ window.ANREVIEW_DATA = {
     "type": "course",
     "code": "ECON2131",
     "name": "Public Sector Economics",
+    "college": "ANU College of Business and Economics",
     "school": "Research School of Economics",
     "schoolCode": "RSE",
     "level": "UGRD",
@@ -9194,6 +15006,7 @@ window.ANREVIEW_DATA = {
     "type": "course",
     "code": "ECON2141",
     "name": "Strategic Thinking: An introduction to Game Theory",
+    "college": "ANU College of Business and Economics",
     "school": "Research School of Economics",
     "schoolCode": "RSE",
     "level": "UGRD",
@@ -9217,6 +15030,7 @@ window.ANREVIEW_DATA = {
     "type": "course",
     "code": "ECON2900",
     "name": "Development Poverty and Famine",
+    "college": "ANU College of Business and Economics",
     "school": "Research School of Economics",
     "schoolCode": "RSE",
     "level": "UGRD",
@@ -9243,6 +15057,7 @@ window.ANREVIEW_DATA = {
     "type": "course",
     "code": "ECON3004",
     "name": "Health Economics",
+    "college": "ANU College of Business and Economics",
     "school": "Research School of Economics",
     "schoolCode": "RSE",
     "level": "UGRD",
@@ -9266,6 +15081,7 @@ window.ANREVIEW_DATA = {
     "type": "course",
     "code": "ECON3006",
     "name": "Financial Economics",
+    "college": "ANU College of Business and Economics",
     "school": "Research School of Economics",
     "schoolCode": "RSE",
     "level": "UGRD",
@@ -9290,6 +15106,7 @@ window.ANREVIEW_DATA = {
     "type": "course",
     "code": "ECON3021",
     "name": "International Monetary Economics",
+    "college": "ANU College of Business and Economics",
     "school": "Research School of Economics",
     "schoolCode": "RSE",
     "level": "UGRD",
@@ -9313,6 +15130,7 @@ window.ANREVIEW_DATA = {
     "type": "course",
     "code": "ECON3023",
     "name": "Economic Policy Issues",
+    "college": "ANU College of Business and Economics",
     "school": "Research School of Economics",
     "schoolCode": "RSE",
     "level": "UGRD",
@@ -9336,6 +15154,7 @@ window.ANREVIEW_DATA = {
     "type": "course",
     "code": "ECON3057",
     "name": "Industrial Organisation",
+    "college": "ANU College of Business and Economics",
     "school": "Research School of Economics",
     "schoolCode": "RSE",
     "level": "UGRD",
@@ -9359,6 +15178,7 @@ window.ANREVIEW_DATA = {
     "type": "course",
     "code": "ECON3100",
     "name": "Economics 3 (H)",
+    "college": "ANU College of Business and Economics",
     "school": "Research School of Economics",
     "schoolCode": "RSE",
     "level": "UGRD",
@@ -9382,6 +15202,7 @@ window.ANREVIEW_DATA = {
     "type": "course",
     "code": "ECON3101",
     "name": "Microeconomics 3",
+    "college": "ANU College of Business and Economics",
     "school": "Research School of Economics",
     "schoolCode": "RSE",
     "level": "UGRD",
@@ -9405,6 +15226,7 @@ window.ANREVIEW_DATA = {
     "type": "course",
     "code": "ECON3102",
     "name": "Macroeconomics 3",
+    "college": "ANU College of Business and Economics",
     "school": "Research School of Economics",
     "schoolCode": "RSE",
     "level": "UGRD",
@@ -9428,6 +15250,7 @@ window.ANREVIEW_DATA = {
     "type": "course",
     "code": "ECON3103",
     "name": "International Economics",
+    "college": "ANU College of Business and Economics",
     "school": "Research School of Economics",
     "schoolCode": "RSE",
     "level": "UGRD",
@@ -9452,6 +15275,7 @@ window.ANREVIEW_DATA = {
     "type": "course",
     "code": "ECON3128",
     "name": "Resource and Environmental Economics",
+    "college": "ANU College of Business and Economics",
     "school": "Research School of Economics",
     "schoolCode": "RSE",
     "level": "UGRD",
@@ -9475,6 +15299,7 @@ window.ANREVIEW_DATA = {
     "type": "course",
     "code": "ECON3152",
     "name": "Game Theory",
+    "college": "ANU College of Business and Economics",
     "school": "Research School of Economics",
     "schoolCode": "RSE",
     "level": "UGRD",
@@ -9498,6 +15323,7 @@ window.ANREVIEW_DATA = {
     "type": "course",
     "code": "ECON3180",
     "name": "Advanced Behavioral Economics",
+    "college": "ANU College of Business and Economics",
     "school": "Research School of Economics",
     "schoolCode": "RSE",
     "level": "UGRD",
@@ -9522,6 +15348,7 @@ window.ANREVIEW_DATA = {
     "type": "course",
     "code": "EMET1001",
     "name": "Foundations of Economic and Financial Models",
+    "college": "ANU College of Business and Economics",
     "school": "Research School of Economics",
     "schoolCode": "RSE",
     "level": "UGRD",
@@ -9548,6 +15375,7 @@ window.ANREVIEW_DATA = {
     "type": "course",
     "code": "EMET2007",
     "name": "Econometrics I: Econometric Methods",
+    "college": "ANU College of Business and Economics",
     "school": "Research School of Economics",
     "schoolCode": "RSE",
     "level": "UGRD",
@@ -9571,6 +15399,7 @@ window.ANREVIEW_DATA = {
     "type": "course",
     "code": "EMET3006",
     "name": "Applied Micro-econometrics",
+    "college": "ANU College of Business and Economics",
     "school": "Research School of Economics",
     "schoolCode": "RSE",
     "level": "UGRD",
@@ -9595,6 +15424,7 @@ window.ANREVIEW_DATA = {
     "type": "course",
     "code": "EMET3007",
     "name": "Business and Economic Forecasting",
+    "college": "ANU College of Business and Economics",
     "school": "Research School of Economics",
     "schoolCode": "RSE",
     "level": "UGRD",
@@ -9618,6 +15448,7 @@ window.ANREVIEW_DATA = {
     "type": "course",
     "code": "ENVS1003",
     "name": "Introduction to Environmental and Social Research",
+    "college": "ANU College of Systems and Society",
     "school": "Fenner School of Environment and Society",
     "schoolCode": "FSOEA",
     "level": "UGRD",
@@ -9644,6 +15475,7 @@ window.ANREVIEW_DATA = {
     "type": "course",
     "code": "ENVS2011",
     "name": "Human Ecology",
+    "college": "ANU College of Systems and Society",
     "school": "Fenner School of Environment and Society",
     "schoolCode": "FSOEA",
     "level": "UGRD",
@@ -9670,6 +15502,7 @@ window.ANREVIEW_DATA = {
     "type": "course",
     "code": "ENVS2013",
     "name": "Society and Environmental Change",
+    "college": "ANU College of Systems and Society",
     "school": "Fenner School of Environment and Society",
     "schoolCode": "FSOEA",
     "level": "UGRD",
@@ -9696,6 +15529,7 @@ window.ANREVIEW_DATA = {
     "type": "course",
     "code": "ENVS3020",
     "name": "Climate Change: Science, Society, and Policy",
+    "college": "ANU College of Systems and Society",
     "school": "Fenner School of Environment and Society",
     "schoolCode": "FSOEA",
     "level": "UGRD",
@@ -9723,6 +15557,7 @@ window.ANREVIEW_DATA = {
     "type": "course",
     "code": "ENVS3028",
     "name": "Environmental Policy",
+    "college": "ANU College of Systems and Society",
     "school": "Fenner School of Environment and Society",
     "schoolCode": "FSOEA",
     "level": "UGRD",
@@ -9749,6 +15584,7 @@ window.ANREVIEW_DATA = {
     "type": "course",
     "code": "ENVS3033",
     "name": "International Environmental Policy",
+    "college": "ANU College of Systems and Society",
     "school": "Fenner School of Environment and Society",
     "schoolCode": "FSOEA",
     "level": "UGRD",
@@ -9775,6 +15611,7 @@ window.ANREVIEW_DATA = {
     "type": "course",
     "code": "FINM1001",
     "name": "Foundations of Finance",
+    "college": "ANU College of Business and Economics",
     "school": "Rsch Sch of Finance, Actuarial Studies & App Stats",
     "schoolCode": "RSOFA",
     "level": "UGRD",
@@ -9799,6 +15636,7 @@ window.ANREVIEW_DATA = {
     "type": "course",
     "code": "FINM2001",
     "name": "Corporate Finance",
+    "college": "ANU College of Business and Economics",
     "school": "Rsch Sch of Finance, Actuarial Studies & App Stats",
     "schoolCode": "RSOFA",
     "level": "UGRD",
@@ -9823,6 +15661,7 @@ window.ANREVIEW_DATA = {
     "type": "course",
     "code": "FINM2002",
     "name": "Derivatives",
+    "college": "ANU College of Business and Economics",
     "school": "Rsch Sch of Finance, Actuarial Studies & App Stats",
     "schoolCode": "RSOFA",
     "level": "UGRD",
@@ -9847,6 +15686,7 @@ window.ANREVIEW_DATA = {
     "type": "course",
     "code": "FINM3003",
     "name": "Continuous Time Finance",
+    "college": "ANU College of Business and Economics",
     "school": "Rsch Sch of Finance, Actuarial Studies & App Stats",
     "schoolCode": "RSOFA",
     "level": "UGRD",
@@ -9870,6 +15710,7 @@ window.ANREVIEW_DATA = {
     "type": "course",
     "code": "FINM3005",
     "name": "Corporate Valuation",
+    "college": "ANU College of Business and Economics",
     "school": "Rsch Sch of Finance, Actuarial Studies & App Stats",
     "schoolCode": "RSOFA",
     "level": "UGRD",
@@ -9894,6 +15735,7 @@ window.ANREVIEW_DATA = {
     "type": "course",
     "code": "FINM3006",
     "name": "Financial Intermediation and Debt Markets",
+    "college": "ANU College of Business and Economics",
     "school": "Rsch Sch of Finance, Actuarial Studies & App Stats",
     "schoolCode": "RSOFA",
     "level": "UGRD",
@@ -9917,6 +15759,7 @@ window.ANREVIEW_DATA = {
     "type": "course",
     "code": "FINM3007",
     "name": "Advanced Derivatives Pricing and Applications",
+    "college": "ANU College of Business and Economics",
     "school": "Rsch Sch of Finance, Actuarial Studies & App Stats",
     "schoolCode": "RSOFA",
     "level": "UGRD",
@@ -9940,6 +15783,7 @@ window.ANREVIEW_DATA = {
     "type": "course",
     "code": "FINM3008",
     "name": "Portfolio Construction",
+    "college": "ANU College of Business and Economics",
     "school": "Rsch Sch of Finance, Actuarial Studies & App Stats",
     "schoolCode": "RSOFA",
     "level": "UGRD",
@@ -9964,6 +15808,7 @@ window.ANREVIEW_DATA = {
     "type": "course",
     "code": "FINM3009",
     "name": "Student Managed Fund",
+    "college": "ANU College of Business and Economics",
     "school": "Rsch Sch of Finance, Actuarial Studies & App Stats",
     "schoolCode": "RSOFA",
     "level": "UGRD",
@@ -9988,6 +15833,7 @@ window.ANREVIEW_DATA = {
     "type": "course",
     "code": "FINM3010",
     "name": "Student Managed Fund Extension",
+    "college": "ANU College of Business and Economics",
     "school": "Rsch Sch of Finance, Actuarial Studies & App Stats",
     "schoolCode": "RSOFA",
     "level": "UGRD",
@@ -10012,6 +15858,7 @@ window.ANREVIEW_DATA = {
     "type": "course",
     "code": "FINM3011",
     "name": "Investments",
+    "college": "ANU College of Business and Economics",
     "school": "Rsch Sch of Finance, Actuarial Studies & App Stats",
     "schoolCode": "RSOFA",
     "level": "UGRD",
@@ -10036,6 +15883,7 @@ window.ANREVIEW_DATA = {
     "type": "course",
     "code": "FINM3015",
     "name": "Foundations of Fintech",
+    "college": "ANU College of Business and Economics",
     "school": "Rsch Sch of Finance, Actuarial Studies & App Stats",
     "schoolCode": "RSOFA",
     "level": "UGRD",
@@ -10059,6 +15907,7 @@ window.ANREVIEW_DATA = {
     "type": "course",
     "code": "FINM3045",
     "name": "Asian Capital Markets",
+    "college": "ANU College of Business and Economics",
     "school": "Rsch Sch of Finance, Actuarial Studies & App Stats",
     "schoolCode": "RSOFA",
     "level": "UGRD",
@@ -10083,6 +15932,7 @@ window.ANREVIEW_DATA = {
     "type": "course",
     "code": "HIST1209",
     "name": "Terror to Terrorism: A History",
+    "college": "ANU College of Arts and Social Sciences",
     "school": "School of History",
     "schoolCode": "SOH",
     "level": "UGRD",
@@ -10109,6 +15959,7 @@ window.ANREVIEW_DATA = {
     "type": "course",
     "code": "HIST1214",
     "name": "Empires in Global History",
+    "college": "ANU College of Arts and Social Sciences",
     "school": "School of History",
     "schoolCode": "SOH",
     "level": "UGRD",
@@ -10135,6 +15986,7 @@ window.ANREVIEW_DATA = {
     "type": "course",
     "code": "HIST2022",
     "name": "Aboriginal and Torres Strait Islander History",
+    "college": "ANU College of Arts and Social Sciences",
     "school": "School of History",
     "schoolCode": "SOH",
     "level": "UGRD",
@@ -10159,6 +16011,7 @@ window.ANREVIEW_DATA = {
     "type": "course",
     "code": "HIST2110",
     "name": "Approaches to History",
+    "college": "ANU College of Arts and Social Sciences",
     "school": "School of History",
     "schoolCode": "SOH",
     "level": "UGRD",
@@ -10183,6 +16036,7 @@ window.ANREVIEW_DATA = {
     "type": "course",
     "code": "HIST2136",
     "name": "World at War, 1939-1945",
+    "college": "ANU College of Arts and Social Sciences",
     "school": "School of History",
     "schoolCode": "SOH",
     "level": "UGRD",
@@ -10206,6 +16060,7 @@ window.ANREVIEW_DATA = {
     "type": "course",
     "code": "HIST2141",
     "name": "The Cold War: 1945-1989",
+    "college": "ANU College of Arts and Social Sciences",
     "school": "School of History",
     "schoolCode": "SOH",
     "level": "UGRD",
@@ -10232,6 +16087,7 @@ window.ANREVIEW_DATA = {
     "type": "course",
     "code": "HIST2214",
     "name": "The Great War. The Conflict that Changed the World.",
+    "college": "ANU College of Arts and Social Sciences",
     "school": "School of History",
     "schoolCode": "SOH",
     "level": "UGRD",
@@ -10257,6 +16113,7 @@ window.ANREVIEW_DATA = {
     "type": "course",
     "code": "HIST2221",
     "name": "Britain in the Age of Revolutions and Empires 1688-1848",
+    "college": "ANU College of Arts and Social Sciences",
     "school": "School of History",
     "schoolCode": "SOH",
     "level": "UGRD",
@@ -10280,6 +16137,7 @@ window.ANREVIEW_DATA = {
     "type": "course",
     "code": "HIST2226",
     "name": "Nazi Germany",
+    "college": "ANU College of Arts and Social Sciences",
     "school": "School of History",
     "schoolCode": "SOH",
     "level": "UGRD",
@@ -10306,6 +16164,7 @@ window.ANREVIEW_DATA = {
     "type": "course",
     "code": "HIST2227",
     "name": "Australian Political History",
+    "college": "ANU College of Arts and Social Sciences",
     "school": "School of History",
     "schoolCode": "SOH",
     "level": "UGRD",
@@ -10329,6 +16188,7 @@ window.ANREVIEW_DATA = {
     "type": "course",
     "code": "HIST2240",
     "name": "Democracy and Dissent: Europe Since 1945",
+    "college": "ANU College of Arts and Social Sciences",
     "school": "School of History",
     "schoolCode": "SOH",
     "level": "UGRD",
@@ -10355,6 +16215,7 @@ window.ANREVIEW_DATA = {
     "type": "course",
     "code": "HIST2242",
     "name": "The Soviet Union: From the Russian Revolution to the Collapse of Communism",
+    "college": "ANU College of Arts and Social Sciences",
     "school": "School of History",
     "schoolCode": "SOH",
     "level": "UGRD",
@@ -10382,6 +16243,7 @@ window.ANREVIEW_DATA = {
     "type": "course",
     "code": "HONS4300",
     "name": "Final Honours Grade",
+    "college": "ANU College of Law, Governance and Policy",
     "school": "ANU College of Law, Governance and Policy",
     "schoolCode": "LAW",
     "level": "UGRD",
@@ -10406,6 +16268,7 @@ window.ANREVIEW_DATA = {
     "type": "course",
     "code": "INDG1001",
     "name": "Country, Kinship and Continuities: An Introduction to Australian Indigenous Studies",
+    "college": "ANU College of Arts and Social Sciences",
     "school": "School of History",
     "schoolCode": "SOH",
     "level": "UGRD",
@@ -10432,6 +16295,7 @@ window.ANREVIEW_DATA = {
     "type": "course",
     "code": "INDG1002",
     "name": "Resilience, Responsibility, and Resurgence: First Peoples' Experiences and Ways of Being",
+    "college": "ANU College of Arts and Social Sciences",
     "school": "School of History",
     "schoolCode": "SOH",
     "level": "UGRD",
@@ -10458,6 +16322,7 @@ window.ANREVIEW_DATA = {
     "type": "course",
     "code": "INDG3001",
     "name": "First Nations Peoples, the State and Public Policy in Australia",
+    "college": "ANU College of Arts and Social Sciences",
     "school": "Centre for Indigenous Policy Research",
     "schoolCode": "CFIPR",
     "level": "UGRD",
@@ -10484,6 +16349,7 @@ window.ANREVIEW_DATA = {
     "type": "course",
     "code": "INFS1001",
     "name": "Business Information Systems",
+    "college": "ANU College of Business and Economics",
     "school": "Research School of Management",
     "schoolCode": "RSM",
     "level": "UGRD",
@@ -10508,6 +16374,7 @@ window.ANREVIEW_DATA = {
     "type": "course",
     "code": "INFS2005",
     "name": "Accounting Information Systems",
+    "college": "ANU College of Business and Economics",
     "school": "Research School of Management",
     "schoolCode": "RSM",
     "level": "UGRD",
@@ -10533,6 +16400,7 @@ window.ANREVIEW_DATA = {
     "type": "course",
     "code": "INFS2024",
     "name": "Information Systems Analysis",
+    "college": "ANU College of Business and Economics",
     "school": "Research School of Management",
     "schoolCode": "RSM",
     "level": "UGRD",
@@ -10556,6 +16424,7 @@ window.ANREVIEW_DATA = {
     "type": "course",
     "code": "INFS3002",
     "name": "Enterprise Systems in Business",
+    "college": "ANU College of Business and Economics",
     "school": "Research School of Management",
     "schoolCode": "RSM",
     "level": "UGRD",
@@ -10579,6 +16448,7 @@ window.ANREVIEW_DATA = {
     "type": "course",
     "code": "INFS3024",
     "name": "Information Systems Management",
+    "college": "ANU College of Business and Economics",
     "school": "Research School of Management",
     "schoolCode": "RSM",
     "level": "UGRD",
@@ -10602,6 +16472,7 @@ window.ANREVIEW_DATA = {
     "type": "course",
     "code": "INFS3059",
     "name": "Information Systems Capstone Project",
+    "college": "ANU College of Business and Economics",
     "school": "Research School of Management",
     "schoolCode": "RSM",
     "level": "UGRD",
@@ -10627,6 +16498,7 @@ window.ANREVIEW_DATA = {
     "type": "course",
     "code": "INTR2010",
     "name": "International Relations in the Asia-Pacific",
+    "college": "ANU College of Asia and the Pacific",
     "school": "Department of International Relations",
     "schoolCode": "DOIR",
     "level": "UGRD",
@@ -10650,6 +16522,7 @@ window.ANREVIEW_DATA = {
     "type": "course",
     "code": "INTR2012",
     "name": "Chinese Foreign and Security Policy",
+    "college": "ANU College of Asia and the Pacific",
     "school": "Department of International Relations",
     "schoolCode": "DOIR",
     "level": "UGRD",
@@ -10673,6 +16546,7 @@ window.ANREVIEW_DATA = {
     "type": "course",
     "code": "INTR2018",
     "name": "Japanese Foreign and Security Policy",
+    "college": "ANU College of Asia and the Pacific",
     "school": "Department of International Relations",
     "schoolCode": "DOIR",
     "level": "UGRD",
@@ -10696,6 +16570,7 @@ window.ANREVIEW_DATA = {
     "type": "course",
     "code": "INTR2024",
     "name": "The Politics of Nuclear Weapons",
+    "college": "ANU College of Asia and the Pacific",
     "school": "Department of International Relations",
     "schoolCode": "DOIR",
     "level": "UGRD",
@@ -10719,6 +16594,7 @@ window.ANREVIEW_DATA = {
     "type": "course",
     "code": "INTR3001",
     "name": "Humanitarianism: Principles, Politics and Practice",
+    "college": "ANU College of Asia and the Pacific",
     "school": "Department of International Relations",
     "schoolCode": "DOIR",
     "level": "UGRD",
@@ -10742,6 +16618,7 @@ window.ANREVIEW_DATA = {
     "type": "course",
     "code": "INTR3002",
     "name": "Global Governance in the Asia-Pacific",
+    "college": "ANU College of Asia and the Pacific",
     "school": "Department of International Relations",
     "schoolCode": "DOIR",
     "level": "UGRD",
@@ -10765,6 +16642,7 @@ window.ANREVIEW_DATA = {
     "type": "course",
     "code": "LAWS1201",
     "name": "Foundations of Australian Law",
+    "college": "ANU College of Law, Governance and Policy",
     "school": "ANU Law School",
     "schoolCode": "LAW",
     "level": "UGRD",
@@ -10789,6 +16667,7 @@ window.ANREVIEW_DATA = {
     "type": "course",
     "code": "LAWS1202",
     "name": "Lawyers Justice and Ethics",
+    "college": "ANU College of Law, Governance and Policy",
     "school": "ANU Law School",
     "schoolCode": "LAW",
     "level": "UGRD",
@@ -10812,6 +16691,7 @@ window.ANREVIEW_DATA = {
     "type": "course",
     "code": "LAWS1203",
     "name": "Torts",
+    "college": "ANU College of Law, Governance and Policy",
     "school": "ANU Law School",
     "schoolCode": "LAW",
     "level": "UGRD",
@@ -10835,6 +16715,7 @@ window.ANREVIEW_DATA = {
     "type": "course",
     "code": "LAWS1204",
     "name": "Contracts",
+    "college": "ANU College of Law, Governance and Policy",
     "school": "ANU Law School",
     "schoolCode": "LAW",
     "level": "UGRD",
@@ -10858,6 +16739,7 @@ window.ANREVIEW_DATA = {
     "type": "course",
     "code": "LAWS1205",
     "name": "Australian Public Law",
+    "college": "ANU College of Law, Governance and Policy",
     "school": "ANU Law School",
     "schoolCode": "LAW",
     "level": "UGRD",
@@ -10881,6 +16763,7 @@ window.ANREVIEW_DATA = {
     "type": "course",
     "code": "LAWS1206",
     "name": "Criminal Law and Procedure",
+    "college": "ANU College of Law, Governance and Policy",
     "school": "ANU Law School",
     "schoolCode": "LAW",
     "level": "UGRD",
@@ -10905,6 +16788,7 @@ window.ANREVIEW_DATA = {
     "type": "course",
     "code": "LAWS2201",
     "name": "Administrative Law",
+    "college": "ANU College of Law, Governance and Policy",
     "school": "ANU Law School",
     "schoolCode": "LAW",
     "level": "UGRD",
@@ -10928,6 +16812,7 @@ window.ANREVIEW_DATA = {
     "type": "course",
     "code": "LAWS2202",
     "name": "Commonwealth Constitutional Law",
+    "college": "ANU College of Law, Governance and Policy",
     "school": "ANU Law School",
     "schoolCode": "LAW",
     "level": "UGRD",
@@ -10951,6 +16836,7 @@ window.ANREVIEW_DATA = {
     "type": "course",
     "code": "LAWS2203",
     "name": "Corporations Law",
+    "college": "ANU College of Law, Governance and Policy",
     "school": "ANU Law School",
     "schoolCode": "LAW",
     "level": "UGRD",
@@ -10974,6 +16860,7 @@ window.ANREVIEW_DATA = {
     "type": "course",
     "code": "LAWS2204",
     "name": "Property",
+    "college": "ANU College of Law, Governance and Policy",
     "school": "ANU Law School",
     "schoolCode": "LAW",
     "level": "UGRD",
@@ -10997,6 +16884,7 @@ window.ANREVIEW_DATA = {
     "type": "course",
     "code": "LAWS2205",
     "name": "Equity and Trusts",
+    "college": "ANU College of Law, Governance and Policy",
     "school": "ANU Law School",
     "schoolCode": "LAW",
     "level": "UGRD",
@@ -11020,6 +16908,7 @@ window.ANREVIEW_DATA = {
     "type": "course",
     "code": "LAWS2207",
     "name": "Evidence",
+    "college": "ANU College of Law, Governance and Policy",
     "school": "ANU Law School",
     "schoolCode": "LAW",
     "level": "UGRD",
@@ -11043,6 +16932,7 @@ window.ANREVIEW_DATA = {
     "type": "course",
     "code": "LAWS2244",
     "name": "Litigation and Dispute Management",
+    "college": "ANU College of Law, Governance and Policy",
     "school": "ANU Law School",
     "schoolCode": "LAW",
     "level": "UGRD",
@@ -11066,6 +16956,7 @@ window.ANREVIEW_DATA = {
     "type": "course",
     "code": "LAWS2248",
     "name": "Legal Research and Writing",
+    "college": "ANU College of Law, Governance and Policy",
     "school": "ANU Law School",
     "schoolCode": "LAW",
     "level": "UGRD",
@@ -11089,6 +16980,7 @@ window.ANREVIEW_DATA = {
     "type": "course",
     "code": "LAWS2249",
     "name": "Legal Theory",
+    "college": "ANU College of Law, Governance and Policy",
     "school": "ANU Law School",
     "schoolCode": "LAW",
     "level": "UGRD",
@@ -11112,6 +17004,7 @@ window.ANREVIEW_DATA = {
     "type": "course",
     "code": "LAWS2250",
     "name": "International Law",
+    "college": "ANU College of Law, Governance and Policy",
     "school": "ANU Law School",
     "schoolCode": "LAW",
     "level": "UGRD",
@@ -11135,6 +17028,7 @@ window.ANREVIEW_DATA = {
     "type": "course",
     "code": "LAWS4010",
     "name": "Jessup Moot",
+    "college": "ANU College of Law, Governance and Policy",
     "school": "ANU Law School",
     "schoolCode": "LAW",
     "level": "UGRD",
@@ -11159,6 +17053,7 @@ window.ANREVIEW_DATA = {
     "type": "course",
     "code": "LAWS4213",
     "name": "Contemporary Issues in Constitutional Law",
+    "college": "ANU College of Law, Governance and Policy",
     "school": "ANU Law School",
     "schoolCode": "LAW",
     "level": "UGRD",
@@ -11182,6 +17077,7 @@ window.ANREVIEW_DATA = {
     "type": "course",
     "code": "LAWS4218",
     "name": "Feminist and Critical Legal Theory",
+    "college": "ANU College of Law, Governance and Policy",
     "school": "ANU Law School",
     "schoolCode": "LAW",
     "level": "UGRD",
@@ -11205,6 +17101,7 @@ window.ANREVIEW_DATA = {
     "type": "course",
     "code": "LAWS4221",
     "name": "Income Tax",
+    "college": "ANU College of Law, Governance and Policy",
     "school": "ANU Law School",
     "schoolCode": "LAW",
     "level": "UGRD",
@@ -11228,6 +17125,7 @@ window.ANREVIEW_DATA = {
     "type": "course",
     "code": "LAWS4230",
     "name": "Law Internship (Capstone)",
+    "college": "ANU College of Law, Governance and Policy",
     "school": "ANU Law School",
     "schoolCode": "LAW",
     "level": "UGRD",
@@ -11254,6 +17152,7 @@ window.ANREVIEW_DATA = {
     "type": "course",
     "code": "LAWS4256",
     "name": "Law, Gender Identities and Sexualities",
+    "college": "ANU College of Law, Governance and Policy",
     "school": "ANU Law School",
     "schoolCode": "LAW",
     "level": "UGRD",
@@ -11278,6 +17177,7 @@ window.ANREVIEW_DATA = {
     "type": "course",
     "code": "LAWS4262",
     "name": "Advanced Administrative Law",
+    "college": "ANU College of Law, Governance and Policy",
     "school": "ANU Law School",
     "schoolCode": "LAW",
     "level": "UGRD",
@@ -11301,6 +17201,7 @@ window.ANREVIEW_DATA = {
     "type": "course",
     "code": "LAWS4299",
     "name": "Law's History and Context",
+    "college": "ANU College of Law, Governance and Policy",
     "school": "ANU Law School",
     "schoolCode": "LAW",
     "level": "UGRD",
@@ -11324,6 +17225,7 @@ window.ANREVIEW_DATA = {
     "type": "course",
     "code": "LAWS4300",
     "name": "Undergraduate Law Dissertation",
+    "college": "ANU College of Law, Governance and Policy",
     "school": "ANU Law School",
     "schoolCode": "LAW",
     "level": "UGRD",
@@ -11348,6 +17250,7 @@ window.ANREVIEW_DATA = {
     "type": "course",
     "code": "LAWS4302",
     "name": "International Law Clinic",
+    "college": "ANU College of Law, Governance and Policy",
     "school": "ANU Law School",
     "schoolCode": "LAW",
     "level": "UGRD",
@@ -11371,6 +17274,7 @@ window.ANREVIEW_DATA = {
     "type": "course",
     "code": "LAWS4315",
     "name": "Law and Development in the Contemporary South Pacific",
+    "college": "ANU College of Law, Governance and Policy",
     "school": "ANU Law School",
     "schoolCode": "LAW",
     "level": "UGRD",
@@ -11396,6 +17300,7 @@ window.ANREVIEW_DATA = {
     "type": "course",
     "code": "LAWS4601",
     "name": "Comparative Human Rights",
+    "college": "ANU College of Law, Governance and Policy",
     "school": "ANU Law School",
     "schoolCode": "LAW",
     "level": "UGRD",
@@ -11420,6 +17325,7 @@ window.ANREVIEW_DATA = {
     "type": "course",
     "code": "LAWS4700",
     "name": "Law Research Capstone Project",
+    "college": "ANU College of Law, Governance and Policy",
     "school": "ANU Law School",
     "schoolCode": "LAW",
     "level": "UGRD",
@@ -11444,6 +17350,7 @@ window.ANREVIEW_DATA = {
     "type": "course",
     "code": "LAWS6010",
     "name": "Jessup Moot",
+    "college": "ANU College of Law, Governance and Policy",
     "school": "ANU Law School",
     "schoolCode": "LAW",
     "level": "PGRD",
@@ -11468,6 +17375,7 @@ window.ANREVIEW_DATA = {
     "type": "course",
     "code": "LAWS6101",
     "name": "Foundations of Australian Law",
+    "college": "ANU College of Law, Governance and Policy",
     "school": "ANU Law School",
     "schoolCode": "LAW",
     "level": "PGRD",
@@ -11492,6 +17400,7 @@ window.ANREVIEW_DATA = {
     "type": "course",
     "code": "LAWS6102",
     "name": "Lawyers, Justice and Ethics",
+    "college": "ANU College of Law, Governance and Policy",
     "school": "ANU Law School",
     "schoolCode": "LAW",
     "level": "PGRD",
@@ -11515,6 +17424,7 @@ window.ANREVIEW_DATA = {
     "type": "course",
     "code": "LAWS6103",
     "name": "Torts",
+    "college": "ANU College of Law, Governance and Policy",
     "school": "ANU Law School",
     "schoolCode": "LAW",
     "level": "PGRD",
@@ -11538,6 +17448,7 @@ window.ANREVIEW_DATA = {
     "type": "course",
     "code": "LAWS6104",
     "name": "Contracts",
+    "college": "ANU College of Law, Governance and Policy",
     "school": "ANU Law School",
     "schoolCode": "LAW",
     "level": "PGRD",
@@ -11562,6 +17473,7 @@ window.ANREVIEW_DATA = {
     "type": "course",
     "code": "LAWS6105",
     "name": "Australian Public Law",
+    "college": "ANU College of Law, Governance and Policy",
     "school": "ANU Law School",
     "schoolCode": "LAW",
     "level": "PGRD",
@@ -11586,6 +17498,7 @@ window.ANREVIEW_DATA = {
     "type": "course",
     "code": "LAWS6106",
     "name": "Criminal Law and Procedure",
+    "college": "ANU College of Law, Governance and Policy",
     "school": "ANU Law School",
     "schoolCode": "LAW",
     "level": "PGRD",
@@ -11609,6 +17522,7 @@ window.ANREVIEW_DATA = {
     "type": "course",
     "code": "LAWS6201",
     "name": "Administrative Law",
+    "college": "ANU College of Law, Governance and Policy",
     "school": "ANU Law School",
     "schoolCode": "LAW",
     "level": "PGRD",
@@ -11632,6 +17546,7 @@ window.ANREVIEW_DATA = {
     "type": "course",
     "code": "LAWS6202",
     "name": "Commonwealth Constitutional Law",
+    "college": "ANU College of Law, Governance and Policy",
     "school": "ANU Law School",
     "schoolCode": "LAW",
     "level": "PGRD",
@@ -11655,6 +17570,7 @@ window.ANREVIEW_DATA = {
     "type": "course",
     "code": "LAWS6203",
     "name": "Corporations Law",
+    "college": "ANU College of Law, Governance and Policy",
     "school": "ANU Law School",
     "schoolCode": "LAW",
     "level": "PGRD",
@@ -11678,6 +17594,7 @@ window.ANREVIEW_DATA = {
     "type": "course",
     "code": "LAWS6204",
     "name": "Property",
+    "college": "ANU College of Law, Governance and Policy",
     "school": "ANU Law School",
     "schoolCode": "LAW",
     "level": "PGRD",
@@ -11701,6 +17618,7 @@ window.ANREVIEW_DATA = {
     "type": "course",
     "code": "LAWS6205",
     "name": "Equity and Trusts",
+    "college": "ANU College of Law, Governance and Policy",
     "school": "ANU Law School",
     "schoolCode": "LAW",
     "level": "PGRD",
@@ -11724,6 +17642,7 @@ window.ANREVIEW_DATA = {
     "type": "course",
     "code": "LAWS6207",
     "name": "Evidence",
+    "college": "ANU College of Law, Governance and Policy",
     "school": "ANU Law School",
     "schoolCode": "LAW",
     "level": "PGRD",
@@ -11747,6 +17666,7 @@ window.ANREVIEW_DATA = {
     "type": "course",
     "code": "LAWS6230",
     "name": "Law Internship (Capstone)",
+    "college": "ANU College of Law, Governance and Policy",
     "school": "ANU Law School",
     "schoolCode": "LAW",
     "level": "PGRD",
@@ -11773,6 +17693,7 @@ window.ANREVIEW_DATA = {
     "type": "course",
     "code": "LAWS6244",
     "name": "Litigation and Dispute Management",
+    "college": "ANU College of Law, Governance and Policy",
     "school": "ANU Law School",
     "schoolCode": "LAW",
     "level": "PGRD",
@@ -11796,6 +17717,7 @@ window.ANREVIEW_DATA = {
     "type": "course",
     "code": "LAWS6249",
     "name": "Legal Theory",
+    "college": "ANU College of Law, Governance and Policy",
     "school": "ANU Law School",
     "schoolCode": "LAW",
     "level": "PGRD",
@@ -11819,6 +17741,7 @@ window.ANREVIEW_DATA = {
     "type": "course",
     "code": "LAWS6250",
     "name": "International Law",
+    "college": "ANU College of Law, Governance and Policy",
     "school": "ANU Law School",
     "schoolCode": "LAW",
     "level": "PGRD",
@@ -11842,6 +17765,7 @@ window.ANREVIEW_DATA = {
     "type": "course",
     "code": "LAWS6267",
     "name": "Youth Law Clinic",
+    "college": "ANU College of Law, Governance and Policy",
     "school": "ANU Law School",
     "schoolCode": "LAW",
     "level": "PGRD",
@@ -11866,6 +17790,7 @@ window.ANREVIEW_DATA = {
     "type": "course",
     "code": "LAWS6268",
     "name": "Community Law Clinic",
+    "college": "ANU College of Law, Governance and Policy",
     "school": "ANU Law School",
     "schoolCode": "LAW",
     "level": "PGRD",
@@ -11890,6 +17815,7 @@ window.ANREVIEW_DATA = {
     "type": "course",
     "code": "LAWS6278",
     "name": "Indigenous Community Legal Clinic",
+    "college": "ANU College of Law, Governance and Policy",
     "school": "ANU Law School",
     "schoolCode": "LAW",
     "level": "PGRD",
@@ -11915,6 +17841,7 @@ window.ANREVIEW_DATA = {
     "type": "course",
     "code": "LAWS6281",
     "name": "Environmental Law Clinic",
+    "college": "ANU College of Law, Governance and Policy",
     "school": "ANU Law School",
     "schoolCode": "LAW",
     "level": "PGRD",
@@ -11938,6 +17865,7 @@ window.ANREVIEW_DATA = {
     "type": "course",
     "code": "LAWS6301",
     "name": "Law and Development Clinic",
+    "college": "ANU College of Law, Governance and Policy",
     "school": "ANU Law School",
     "schoolCode": "LAW",
     "level": "PGRD",
@@ -11961,6 +17889,7 @@ window.ANREVIEW_DATA = {
     "type": "course",
     "code": "LAWS6302",
     "name": "International Law Clinic",
+    "college": "ANU College of Law, Governance and Policy",
     "school": "ANU Law School",
     "schoolCode": "LAW",
     "level": "PGRD",
@@ -11984,6 +17913,7 @@ window.ANREVIEW_DATA = {
     "type": "course",
     "code": "LAWS6304",
     "name": "Prison Legal Clinic",
+    "college": "ANU College of Law, Governance and Policy",
     "school": "ANU Law School",
     "schoolCode": "LAW",
     "level": "PGRD",
@@ -12008,6 +17938,7 @@ window.ANREVIEW_DATA = {
     "type": "course",
     "code": "LAWS6307",
     "name": "Legal Education for True Justice: Indigenous Perspectives and Deep Listening on Country",
+    "college": "ANU College of Law, Governance and Policy",
     "school": "ANU Law School",
     "schoolCode": "LAW",
     "level": "PGRD",
@@ -12031,6 +17962,7 @@ window.ANREVIEW_DATA = {
     "type": "course",
     "code": "LAWS6700",
     "name": "Law Capstone Project",
+    "college": "ANU College of Law, Governance and Policy",
     "school": "ANU Law School",
     "schoolCode": "LAW",
     "level": "PGRD",
@@ -12055,6 +17987,7 @@ window.ANREVIEW_DATA = {
     "type": "course",
     "code": "LAWS8301",
     "name": "Postgraduate Law Dissertation",
+    "college": "ANU College of Law, Governance and Policy",
     "school": "ANU Law School",
     "schoolCode": "LAW",
     "level": "PGRD",
@@ -12079,6 +18012,7 @@ window.ANREVIEW_DATA = {
     "type": "course",
     "code": "LAWS8430",
     "name": "Law Internship",
+    "college": "ANU College of Law, Governance and Policy",
     "school": "ANU Law School",
     "schoolCode": "LAW",
     "level": "PGRD",
@@ -12105,6 +18039,7 @@ window.ANREVIEW_DATA = {
     "type": "course",
     "code": "LAWS8800",
     "name": "Advanced Legal Methods and Legal Writing",
+    "college": "ANU College of Law, Governance and Policy",
     "school": "ANU Law School",
     "schoolCode": "LAW",
     "level": "PGRD",
@@ -12128,6 +18063,7 @@ window.ANREVIEW_DATA = {
     "type": "course",
     "code": "MATH1013",
     "name": "Mathematics and Applications 1",
+    "college": "ANU College of Systems and Society",
     "school": "Mathematical Sciences Institute",
     "schoolCode": "MSI",
     "level": "UGRD",
@@ -12152,6 +18088,7 @@ window.ANREVIEW_DATA = {
     "type": "course",
     "code": "MATH1014",
     "name": "Mathematics and Applications 2",
+    "college": "ANU College of Systems and Society",
     "school": "Mathematical Sciences Institute",
     "schoolCode": "MSI",
     "level": "UGRD",
@@ -12176,6 +18113,7 @@ window.ANREVIEW_DATA = {
     "type": "course",
     "code": "MATH1113",
     "name": "Mathematical Foundations for Actuarial Studies",
+    "college": "ANU College of Systems and Society",
     "school": "Mathematical Sciences Institute",
     "schoolCode": "MSI",
     "level": "UGRD",
@@ -12200,6 +18138,7 @@ window.ANREVIEW_DATA = {
     "type": "course",
     "code": "MATH1115",
     "name": "Advanced Mathematics and Applications 1",
+    "college": "ANU College of Systems and Society",
     "school": "Mathematical Sciences Institute",
     "schoolCode": "MSI",
     "level": "UGRD",
@@ -12223,6 +18162,7 @@ window.ANREVIEW_DATA = {
     "type": "course",
     "code": "MATH1116",
     "name": "Advanced Mathematics and Applications 2",
+    "college": "ANU College of Systems and Society",
     "school": "Mathematical Sciences Institute",
     "schoolCode": "MSI",
     "level": "UGRD",
@@ -12246,6 +18186,7 @@ window.ANREVIEW_DATA = {
     "type": "course",
     "code": "MEAS1001",
     "name": "Introduction to the Modern Middle East",
+    "college": "ANU College of Arts and Social Sciences",
     "school": "Centre for Arab and Islamic Studies",
     "schoolCode": "CFAAI",
     "level": "UGRD",
@@ -12269,6 +18210,7 @@ window.ANREVIEW_DATA = {
     "type": "course",
     "code": "MEAS1002",
     "name": "Islam: History and Institutions",
+    "college": "ANU College of Arts and Social Sciences",
     "school": "Centre for Arab and Islamic Studies",
     "schoolCode": "CFAAI",
     "level": "UGRD",
@@ -12292,6 +18234,7 @@ window.ANREVIEW_DATA = {
     "type": "course",
     "code": "MEAS2000",
     "name": "Iranian History and Culture",
+    "college": "ANU College of Arts and Social Sciences",
     "school": "Centre for Arab and Islamic Studies",
     "schoolCode": "CFAAI",
     "level": "UGRD",
@@ -12318,6 +18261,7 @@ window.ANREVIEW_DATA = {
     "type": "course",
     "code": "MEAS2001",
     "name": "New States of Eurasia: Emerging Issues in Politics and Security",
+    "college": "ANU College of Arts and Social Sciences",
     "school": "Centre for Arab and Islamic Studies",
     "schoolCode": "CFAAI",
     "level": "UGRD",
@@ -12342,6 +18286,7 @@ window.ANREVIEW_DATA = {
     "type": "course",
     "code": "MEAS2004",
     "name": "Turkish Politics and Foreign Policy",
+    "college": "ANU College of Arts and Social Sciences",
     "school": "Centre for Arab and Islamic Studies",
     "schoolCode": "CFAAI",
     "level": "UGRD",
@@ -12368,6 +18313,7 @@ window.ANREVIEW_DATA = {
     "type": "course",
     "code": "MEAS2105",
     "name": "The Political Economy of the Middle East",
+    "college": "ANU College of Arts and Social Sciences",
     "school": "Centre for Arab and Islamic Studies",
     "schoolCode": "CFAAI",
     "level": "UGRD",
@@ -12393,6 +18339,7 @@ window.ANREVIEW_DATA = {
     "type": "course",
     "code": "MEAS3005",
     "name": "Modern Iraq: State, Politics and Society",
+    "college": "ANU College of Arts and Social Sciences",
     "school": "Centre for Arab and Islamic Studies",
     "schoolCode": "CFAAI",
     "level": "UGRD",
@@ -12416,6 +18363,7 @@ window.ANREVIEW_DATA = {
     "type": "course",
     "code": "MEAS3007",
     "name": "Syria in the Levant: State, Society, and the Current Turmoil",
+    "college": "ANU College of Arts and Social Sciences",
     "school": "Centre for Arab and Islamic Studies",
     "schoolCode": "CFAAI",
     "level": "UGRD",
@@ -12441,6 +18389,7 @@ window.ANREVIEW_DATA = {
     "type": "course",
     "code": "MEAS3008",
     "name": "Egypt: Social and Political Dynamics in a Changing Middle East",
+    "college": "ANU College of Arts and Social Sciences",
     "school": "Centre for Arab and Islamic Studies",
     "schoolCode": "CFAAI",
     "level": "UGRD",
@@ -12466,6 +18415,7 @@ window.ANREVIEW_DATA = {
     "type": "course",
     "code": "MEAS3009",
     "name": "Modern Arabian Peninsula: Politics, Security and Society",
+    "college": "ANU College of Arts and Social Sciences",
     "school": "Centre for Arab and Islamic Studies",
     "schoolCode": "CFAAI",
     "level": "UGRD",
@@ -12493,6 +18443,7 @@ window.ANREVIEW_DATA = {
     "type": "course",
     "code": "MGMT1003",
     "name": "Management, People and Organisations",
+    "college": "ANU College of Business and Economics",
     "school": "Research School of Management",
     "schoolCode": "RSM",
     "level": "UGRD",
@@ -12517,6 +18468,7 @@ window.ANREVIEW_DATA = {
     "type": "course",
     "code": "MGMT2001",
     "name": "Corporate Sustainability",
+    "college": "ANU College of Business and Economics",
     "school": "Research School of Management",
     "schoolCode": "RSM",
     "level": "UGRD",
@@ -12542,6 +18494,7 @@ window.ANREVIEW_DATA = {
     "type": "course",
     "code": "MGMT2003",
     "name": "Business Decision Making",
+    "college": "ANU College of Business and Economics",
     "school": "Research School of Management",
     "schoolCode": "RSM",
     "level": "UGRD",
@@ -12565,6 +18518,7 @@ window.ANREVIEW_DATA = {
     "type": "course",
     "code": "MGMT2004",
     "name": "Negotiation",
+    "college": "ANU College of Business and Economics",
     "school": "Research School of Management",
     "schoolCode": "RSM",
     "level": "UGRD",
@@ -12589,6 +18543,7 @@ window.ANREVIEW_DATA = {
     "type": "course",
     "code": "MGMT2005",
     "name": "Career Planning and Management",
+    "college": "ANU College of Business and Economics",
     "school": "Research School of Management",
     "schoolCode": "RSM",
     "level": "UGRD",
@@ -12612,6 +18567,7 @@ window.ANREVIEW_DATA = {
     "type": "course",
     "code": "MGMT2007",
     "name": "Organisational Behaviour",
+    "college": "ANU College of Business and Economics",
     "school": "Research School of Management",
     "schoolCode": "RSM",
     "level": "UGRD",
@@ -12635,6 +18591,7 @@ window.ANREVIEW_DATA = {
     "type": "course",
     "code": "MGMT2008",
     "name": "Social Enterprises and Social Business",
+    "college": "ANU College of Business and Economics",
     "school": "Research School of Management",
     "schoolCode": "RSM",
     "level": "UGRD",
@@ -12659,6 +18616,7 @@ window.ANREVIEW_DATA = {
     "type": "course",
     "code": "MGMT2030",
     "name": "Human Resource Management and Strategy",
+    "college": "ANU College of Business and Economics",
     "school": "Research School of Management",
     "schoolCode": "RSM",
     "level": "UGRD",
@@ -12682,6 +18640,7 @@ window.ANREVIEW_DATA = {
     "type": "course",
     "code": "MGMT2035",
     "name": "Managing Organisational Change",
+    "college": "ANU College of Business and Economics",
     "school": "Research School of Management",
     "schoolCode": "RSM",
     "level": "UGRD",
@@ -12705,6 +18664,7 @@ window.ANREVIEW_DATA = {
     "type": "course",
     "code": "MGMT2100",
     "name": "Communication for Business",
+    "college": "ANU College of Business and Economics",
     "school": "Research School of Management",
     "schoolCode": "RSM",
     "level": "UGRD",
@@ -12733,6 +18693,7 @@ window.ANREVIEW_DATA = {
     "type": "course",
     "code": "MGMT3002",
     "name": "Techniques for Business Project Management",
+    "college": "ANU College of Business and Economics",
     "school": "Research School of Management",
     "schoolCode": "RSM",
     "level": "UGRD",
@@ -12756,6 +18717,7 @@ window.ANREVIEW_DATA = {
     "type": "course",
     "code": "MGMT3015",
     "name": "Corporate Strategy",
+    "college": "ANU College of Business and Economics",
     "school": "Research School of Management",
     "schoolCode": "RSM",
     "level": "UGRD",
@@ -12780,6 +18742,7 @@ window.ANREVIEW_DATA = {
     "type": "course",
     "code": "MGMT3016",
     "name": "Business Ethics",
+    "college": "ANU College of Business and Economics",
     "school": "Research School of Management",
     "schoolCode": "RSM",
     "level": "UGRD",
@@ -12804,6 +18767,7 @@ window.ANREVIEW_DATA = {
     "type": "course",
     "code": "MGMT3021",
     "name": "Leadership",
+    "college": "ANU College of Business and Economics",
     "school": "Research School of Management",
     "schoolCode": "RSM",
     "level": "UGRD",
@@ -12827,6 +18791,7 @@ window.ANREVIEW_DATA = {
     "type": "course",
     "code": "MGMT3025",
     "name": "International Human Resource Management",
+    "college": "ANU College of Business and Economics",
     "school": "Research School of Management",
     "schoolCode": "RSM",
     "level": "UGRD",
@@ -12852,6 +18817,7 @@ window.ANREVIEW_DATA = {
     "type": "course",
     "code": "MGMT3027",
     "name": "Entrepreneurship and Innovation",
+    "college": "ANU College of Business and Economics",
     "school": "Research School of Management",
     "schoolCode": "RSM",
     "level": "UGRD",
@@ -12875,6 +18841,7 @@ window.ANREVIEW_DATA = {
     "type": "course",
     "code": "MGMT3102",
     "name": "Business and its Social Stakeholders",
+    "college": "ANU College of Business and Economics",
     "school": "Research School of Management",
     "schoolCode": "RSM",
     "level": "UGRD",
@@ -12900,6 +18867,7 @@ window.ANREVIEW_DATA = {
     "type": "course",
     "code": "MKTG2002",
     "name": "Sustainable Marketing",
+    "college": "ANU College of Business and Economics",
     "school": "Research School of Management",
     "schoolCode": "RSM",
     "level": "UGRD",
@@ -12924,6 +18892,7 @@ window.ANREVIEW_DATA = {
     "type": "course",
     "code": "MKTG2004",
     "name": "Introduction to Marketing",
+    "college": "ANU College of Business and Economics",
     "school": "Research School of Management",
     "schoolCode": "RSM",
     "level": "UGRD",
@@ -12948,6 +18917,7 @@ window.ANREVIEW_DATA = {
     "type": "course",
     "code": "MKTG2023",
     "name": "Services Marketing",
+    "college": "ANU College of Business and Economics",
     "school": "Research School of Management",
     "schoolCode": "RSM",
     "level": "UGRD",
@@ -12971,6 +18941,7 @@ window.ANREVIEW_DATA = {
     "type": "course",
     "code": "MKTG2031",
     "name": "Consumer Behaviour",
+    "college": "ANU College of Business and Economics",
     "school": "Research School of Management",
     "schoolCode": "RSM",
     "level": "UGRD",
@@ -12994,6 +18965,7 @@ window.ANREVIEW_DATA = {
     "type": "course",
     "code": "MKTG2032",
     "name": "E-Marketing",
+    "college": "ANU College of Business and Economics",
     "school": "Research School of Management",
     "schoolCode": "RSM",
     "level": "UGRD",
@@ -13017,6 +18989,7 @@ window.ANREVIEW_DATA = {
     "type": "course",
     "code": "MKTG3001",
     "name": "Marketing Research",
+    "college": "ANU College of Business and Economics",
     "school": "Research School of Management",
     "schoolCode": "RSM",
     "level": "UGRD",
@@ -13040,6 +19013,7 @@ window.ANREVIEW_DATA = {
     "type": "course",
     "code": "MKTG3023",
     "name": "Strategic Marketing",
+    "college": "ANU College of Business and Economics",
     "school": "Research School of Management",
     "schoolCode": "RSM",
     "level": "UGRD",
@@ -13063,6 +19037,7 @@ window.ANREVIEW_DATA = {
     "type": "course",
     "code": "MKTG3033",
     "name": "Integrated Marketing Communications",
+    "college": "ANU College of Business and Economics",
     "school": "Research School of Management",
     "schoolCode": "RSM",
     "level": "UGRD",
@@ -13086,6 +19061,7 @@ window.ANREVIEW_DATA = {
     "type": "course",
     "code": "PASI1011",
     "name": "Pacific Encounters: An introduction to Pacific Studies",
+    "college": "ANU College of Asia and the Pacific",
     "school": "Department of Pacific Affairs",
     "schoolCode": "DOPA",
     "level": "UGRD",
@@ -13112,6 +19088,7 @@ window.ANREVIEW_DATA = {
     "type": "course",
     "code": "PASI2001",
     "name": "Pacific Studies in a Globalising World",
+    "college": "ANU College of Asia and the Pacific",
     "school": "School of Culture History and Language",
     "schoolCode": "SOCHA",
     "level": "UGRD",
@@ -13136,6 +19113,7 @@ window.ANREVIEW_DATA = {
     "type": "course",
     "code": "PASI2002",
     "name": "Australia in Oceania in the 19th and 20th Centuries",
+    "college": "ANU College of Asia and the Pacific",
     "school": "Department of Pacific Affairs",
     "schoolCode": "DOPA",
     "level": "UGRD",
@@ -13159,6 +19137,7 @@ window.ANREVIEW_DATA = {
     "type": "course",
     "code": "PASI2007",
     "name": "War in the Islands: The Second World War in the Pacific",
+    "college": "ANU College of Asia and the Pacific",
     "school": "Department of Pacific Affairs",
     "schoolCode": "DOPA",
     "level": "UGRD",
@@ -13185,6 +19164,7 @@ window.ANREVIEW_DATA = {
     "type": "course",
     "code": "PASI3001",
     "name": "Politics and Development in the Contemporary Pacific",
+    "college": "ANU College of Asia and the Pacific",
     "school": "Department of Pacific Affairs",
     "schoolCode": "DOPA",
     "level": "UGRD",
@@ -13210,6 +19190,7 @@ window.ANREVIEW_DATA = {
     "type": "course",
     "code": "PASI3013",
     "name": "Environment and Development in the Pacific",
+    "college": "ANU College of Asia and the Pacific",
     "school": "Department of Pacific Affairs",
     "schoolCode": "DOPA",
     "level": "UGRD",
@@ -13233,8 +19214,9 @@ window.ANREVIEW_DATA = {
     "type": "course",
     "code": "POLS1002",
     "name": "Introduction to Politics",
+    "college": "ANU College of Arts and Social Sciences",
     "school": "School of Politics and International Relations",
-    "schoolCode": "SPIR",
+    "schoolCode": "SOPAI",
     "level": "UGRD",
     "terms": [
       "First Semester"
@@ -13259,8 +19241,9 @@ window.ANREVIEW_DATA = {
     "type": "course",
     "code": "POLS1005",
     "name": "Introduction to International Relations Foundations and Concepts",
+    "college": "ANU College of Arts and Social Sciences",
     "school": "School of Politics and International Relations",
-    "schoolCode": "SPIR",
+    "schoolCode": "SOPAI",
     "level": "UGRD",
     "terms": [
       "First Semester"
@@ -13282,8 +19265,9 @@ window.ANREVIEW_DATA = {
     "type": "course",
     "code": "POLS1009",
     "name": "Introduction to Data and Methods for Political Science and International Relations",
+    "college": "ANU College of Arts and Social Sciences",
     "school": "School of Politics and International Relations",
-    "schoolCode": "SPIR",
+    "schoolCode": "SOPAI",
     "level": "UGRD",
     "terms": [
       "Second Semester"
@@ -13308,8 +19292,9 @@ window.ANREVIEW_DATA = {
     "type": "course",
     "code": "POLS2002",
     "name": "Public Policy: Theory and Practice",
+    "college": "ANU College of Arts and Social Sciences",
     "school": "School of Politics and International Relations",
-    "schoolCode": "SPIR",
+    "schoolCode": "SOPAI",
     "level": "UGRD",
     "terms": [
       "First Semester",
@@ -13333,8 +19318,9 @@ window.ANREVIEW_DATA = {
     "type": "course",
     "code": "POLS2010",
     "name": "Comparative Politics",
+    "college": "ANU College of Arts and Social Sciences",
     "school": "School of Politics and International Relations",
-    "schoolCode": "SPIR",
+    "schoolCode": "SOPAI",
     "level": "UGRD",
     "terms": [
       "Second Semester"
@@ -13357,8 +19343,9 @@ window.ANREVIEW_DATA = {
     "type": "course",
     "code": "POLS2017",
     "name": "International Relations Theory",
+    "college": "ANU College of Arts and Social Sciences",
     "school": "School of Politics and International Relations",
-    "schoolCode": "SPIR",
+    "schoolCode": "SOPAI",
     "level": "UGRD",
     "terms": [
       "Second Semester"
@@ -13380,6 +19367,7 @@ window.ANREVIEW_DATA = {
     "type": "course",
     "code": "POLS2031",
     "name": "Politics in the Middle East",
+    "college": "ANU College of Arts and Social Sciences",
     "school": "Centre for Arab and Islamic Studies",
     "schoolCode": "CFAAI",
     "level": "UGRD",
@@ -13403,8 +19391,9 @@ window.ANREVIEW_DATA = {
     "type": "course",
     "code": "POLS2044",
     "name": "Quantitative Methods in Political Science and International Relations",
+    "college": "ANU College of Arts and Social Sciences",
     "school": "School of Politics and International Relations",
-    "schoolCode": "SPIR",
+    "schoolCode": "SOPAI",
     "level": "UGRD",
     "terms": [
       "Second Semester"
@@ -13428,8 +19417,9 @@ window.ANREVIEW_DATA = {
     "type": "course",
     "code": "POLS2045",
     "name": "Qualitative Methods in Political Science and International Relations Research",
+    "college": "ANU College of Arts and Social Sciences",
     "school": "School of Politics and International Relations",
-    "schoolCode": "SPIR",
+    "schoolCode": "SOPAI",
     "level": "UGRD",
     "terms": [
       "Second Semester"
@@ -13452,6 +19442,7 @@ window.ANREVIEW_DATA = {
     "type": "course",
     "code": "POLS2055",
     "name": "Pacific Politics",
+    "college": "ANU College of Asia and the Pacific",
     "school": "Department of Pacific Affairs",
     "schoolCode": "DOPA",
     "level": "UGRD",
@@ -13476,6 +19467,7 @@ window.ANREVIEW_DATA = {
     "type": "course",
     "code": "POLS2069",
     "name": "Politics in Russia",
+    "college": "ANU College of Arts and Social Sciences",
     "school": "Centre for Arab and Islamic Studies",
     "schoolCode": "CFAAI",
     "level": "UGRD",
@@ -13502,8 +19494,9 @@ window.ANREVIEW_DATA = {
     "type": "course",
     "code": "POLS2094",
     "name": "International Political Economy",
+    "college": "ANU College of Arts and Social Sciences",
     "school": "School of Politics and International Relations",
-    "schoolCode": "SPIR",
+    "schoolCode": "SOPAI",
     "level": "UGRD",
     "terms": [
       "First Semester",
@@ -13527,8 +19520,9 @@ window.ANREVIEW_DATA = {
     "type": "course",
     "code": "POLS2102",
     "name": "Political Belief and Deceit",
+    "college": "ANU College of Arts and Social Sciences",
     "school": "School of Politics and International Relations",
-    "schoolCode": "SPIR",
+    "schoolCode": "SOPAI",
     "level": "UGRD",
     "terms": [
       "See ANU course page"
@@ -13552,8 +19546,9 @@ window.ANREVIEW_DATA = {
     "type": "course",
     "code": "POLS2114",
     "name": "Australian Politics",
+    "college": "ANU College of Arts and Social Sciences",
     "school": "School of Politics and International Relations",
-    "schoolCode": "SPIR",
+    "schoolCode": "SOPAI",
     "level": "UGRD",
     "terms": [
       "First Semester"
@@ -13575,8 +19570,9 @@ window.ANREVIEW_DATA = {
     "type": "course",
     "code": "POLS2119",
     "name": "Ideas in Politics",
+    "college": "ANU College of Arts and Social Sciences",
     "school": "School of Politics and International Relations",
-    "schoolCode": "SPIR",
+    "schoolCode": "SOPAI",
     "level": "UGRD",
     "terms": [
       "First Semester"
@@ -13599,8 +19595,9 @@ window.ANREVIEW_DATA = {
     "type": "course",
     "code": "POLS2130",
     "name": "Public Choice and Politics",
+    "college": "ANU College of Arts and Social Sciences",
     "school": "School of Politics and International Relations",
-    "schoolCode": "SPIR",
+    "schoolCode": "SOPAI",
     "level": "UGRD",
     "terms": [
       "First Semester"
@@ -13623,8 +19620,9 @@ window.ANREVIEW_DATA = {
     "type": "course",
     "code": "POLS2132",
     "name": "War and International Relations",
+    "college": "ANU College of Arts and Social Sciences",
     "school": "School of Politics and International Relations",
-    "schoolCode": "SPIR",
+    "schoolCode": "SOPAI",
     "level": "UGRD",
     "terms": [
       "Second Semester"
@@ -13646,8 +19644,9 @@ window.ANREVIEW_DATA = {
     "type": "course",
     "code": "POLS2133",
     "name": "Global Cooperation and Institutions",
+    "college": "ANU College of Arts and Social Sciences",
     "school": "School of Politics and International Relations",
-    "schoolCode": "SPIR",
+    "schoolCode": "SOPAI",
     "level": "UGRD",
     "terms": [
       "See ANU course page"
@@ -13671,6 +19670,7 @@ window.ANREVIEW_DATA = {
     "type": "course",
     "code": "POLS2137",
     "name": "Meaning in Politics: Interpretation, Method and Critique",
+    "college": "ANU College of Arts and Social Sciences / ANU College of Asia and the Pacific",
     "school": "Department of Political and Social Change and the School of Politics and International Relations",
     "schoolCode": "DOPAS",
     "level": "UGRD",
@@ -13694,8 +19694,9 @@ window.ANREVIEW_DATA = {
     "type": "course",
     "code": "POLS3001",
     "name": "Foreign Policy Analysis",
+    "college": "ANU College of Arts and Social Sciences",
     "school": "School of Politics and International Relations",
-    "schoolCode": "SPIR",
+    "schoolCode": "SOPAI",
     "level": "UGRD",
     "terms": [
       "First Semester"
@@ -13717,8 +19718,9 @@ window.ANREVIEW_DATA = {
     "type": "course",
     "code": "POLS3002",
     "name": "Comparative European Politics",
+    "college": "ANU College of Arts and Social Sciences",
     "school": "School of Politics and International Relations",
-    "schoolCode": "SPIR",
+    "schoolCode": "SOPAI",
     "level": "UGRD",
     "terms": [
       "First Semester"
@@ -13743,8 +19745,9 @@ window.ANREVIEW_DATA = {
     "type": "course",
     "code": "POLS3029",
     "name": "Sharing Power: Federalism in Comparative Perspective",
+    "college": "ANU College of Arts and Social Sciences",
     "school": "School of Politics and International Relations",
-    "schoolCode": "SPIR",
+    "schoolCode": "SOPAI",
     "level": "UGRD",
     "terms": [
       "First Semester"
@@ -13768,8 +19771,9 @@ window.ANREVIEW_DATA = {
     "type": "course",
     "code": "POLS3032",
     "name": "The Politics of Empire",
+    "college": "ANU College of Arts and Social Sciences",
     "school": "School of Politics and International Relations",
-    "schoolCode": "SPIR",
+    "schoolCode": "SOPAI",
     "level": "UGRD",
     "terms": [
       "Second Semester"
@@ -13791,8 +19795,9 @@ window.ANREVIEW_DATA = {
     "type": "course",
     "code": "POLS3035",
     "name": "Norms and International Law in World Politics",
+    "college": "ANU College of Arts and Social Sciences",
     "school": "School of Politics and International Relations",
-    "schoolCode": "SPIR",
+    "schoolCode": "SOPAI",
     "level": "UGRD",
     "terms": [
       "First Semester"
@@ -13817,8 +19822,9 @@ window.ANREVIEW_DATA = {
     "type": "course",
     "code": "POLS3036",
     "name": "International Terrorism",
+    "college": "ANU College of Arts and Social Sciences",
     "school": "School of Politics and International Relations",
-    "schoolCode": "SPIR",
+    "schoolCode": "SOPAI",
     "level": "UGRD",
     "terms": [
       "Second Semester"
@@ -13843,8 +19849,9 @@ window.ANREVIEW_DATA = {
     "type": "course",
     "code": "POLS3043",
     "name": "Pressure Groups and Political Lobbying",
+    "college": "ANU College of Arts and Social Sciences",
     "school": "School of Politics and International Relations",
-    "schoolCode": "SPIR",
+    "schoolCode": "SOPAI",
     "level": "UGRD",
     "terms": [
       "Second Semester"
@@ -13869,8 +19876,9 @@ window.ANREVIEW_DATA = {
     "type": "course",
     "code": "POLS3095",
     "name": "Politics in Latin America",
+    "college": "ANU College of Arts and Social Sciences",
     "school": "School of Politics and International Relations",
-    "schoolCode": "SPIR",
+    "schoolCode": "SOPAI",
     "level": "UGRD",
     "terms": [
       "Second Semester"
@@ -13895,8 +19903,9 @@ window.ANREVIEW_DATA = {
     "type": "course",
     "code": "POLS3111",
     "name": "Elections, Political Behaviour and Public Opinion in Australia",
+    "college": "ANU College of Arts and Social Sciences",
     "school": "School of Politics and International Relations",
-    "schoolCode": "SPIR",
+    "schoolCode": "SOPAI",
     "level": "UGRD",
     "terms": [
       "See ANU course page"
@@ -13918,8 +19927,9 @@ window.ANREVIEW_DATA = {
     "type": "course",
     "code": "POLS3113",
     "name": "Human Rights",
+    "college": "ANU College of Arts and Social Sciences",
     "school": "School of Politics and International Relations",
-    "schoolCode": "SPIR",
+    "schoolCode": "SOPAI",
     "level": "UGRD",
     "terms": [
       "Winter Session"
@@ -13944,8 +19954,9 @@ window.ANREVIEW_DATA = {
     "type": "course",
     "code": "POLS3125",
     "name": "Game Theory and Social Sciences",
+    "college": "ANU College of Arts and Social Sciences",
     "school": "School of Politics and International Relations",
-    "schoolCode": "SPIR",
+    "schoolCode": "SOPAI",
     "level": "UGRD",
     "terms": [
       "Second Semester"
@@ -13969,8 +19980,9 @@ window.ANREVIEW_DATA = {
     "type": "course",
     "code": "POLS3126",
     "name": "Democracy and Dictatorship",
+    "college": "ANU College of Arts and Social Sciences",
     "school": "School of Politics and International Relations",
-    "schoolCode": "SPIR",
+    "schoolCode": "SOPAI",
     "level": "UGRD",
     "terms": [
       "Second Semester"
@@ -13994,8 +20006,9 @@ window.ANREVIEW_DATA = {
     "type": "course",
     "code": "POLS3127",
     "name": "U.S. Politics",
+    "college": "ANU College of Arts and Social Sciences",
     "school": "School of Politics and International Relations",
-    "schoolCode": "SPIR",
+    "schoolCode": "SOPAI",
     "level": "UGRD",
     "terms": [
       "See ANU course page"
@@ -14018,8 +20031,9 @@ window.ANREVIEW_DATA = {
     "type": "course",
     "code": "POLS3134",
     "name": "The Politics of Gender, Race and Indentity",
+    "college": "ANU College of Arts and Social Sciences",
     "school": "School of Politics and International Relations",
-    "schoolCode": "SPIR",
+    "schoolCode": "SOPAI",
     "level": "UGRD",
     "terms": [
       "First Semester",
@@ -14043,8 +20057,9 @@ window.ANREVIEW_DATA = {
     "type": "course",
     "code": "POLS3136",
     "name": "Power and influence in world politics",
+    "college": "ANU College of Arts and Social Sciences",
     "school": "School of Politics and International Relations",
-    "schoolCode": "SPIR",
+    "schoolCode": "SOPAI",
     "level": "UGRD",
     "terms": [
       "Spring Session"
@@ -14067,6 +20082,7 @@ window.ANREVIEW_DATA = {
     "type": "course",
     "code": "SOCR1001",
     "name": "Foundations of Social Research",
+    "college": "ANU College of Arts and Social Sciences",
     "school": "POLIS: The Centre for Social Policy Research",
     "schoolCode": "PTCFS",
     "level": "UGRD",
@@ -14093,6 +20109,7 @@ window.ANREVIEW_DATA = {
     "type": "course",
     "code": "SOCR3001",
     "name": "Data for Decision Making",
+    "college": "ANU College of Arts and Social Sciences",
     "school": "POLIS: The Centre for Social Policy Research",
     "schoolCode": "PTCFS",
     "level": "UGRD",
@@ -14116,6 +20133,7 @@ window.ANREVIEW_DATA = {
     "type": "course",
     "code": "SOCY2038",
     "name": "Introduction to Quantitative Research Methods",
+    "college": "ANU College of Arts and Social Sciences",
     "school": "School of Sociology",
     "schoolCode": "SOS",
     "level": "UGRD",
@@ -14142,6 +20160,7 @@ window.ANREVIEW_DATA = {
     "type": "course",
     "code": "SOCY2043",
     "name": "Introduction to Qualitative Research Methods",
+    "college": "ANU College of Arts and Social Sciences",
     "school": "School of Sociology",
     "schoolCode": "SOS",
     "level": "UGRD",
@@ -14168,6 +20187,7 @@ window.ANREVIEW_DATA = {
     "type": "course",
     "code": "SOCY2166",
     "name": "Social Science of the Internet",
+    "college": "ANU College of Arts and Social Sciences",
     "school": "School of Sociology",
     "schoolCode": "SOS",
     "level": "UGRD",
@@ -14194,6 +20214,7 @@ window.ANREVIEW_DATA = {
     "type": "course",
     "code": "STAT1003",
     "name": "Statistical Techniques",
+    "college": "ANU College of Business and Economics",
     "school": "Rsch Sch of Finance, Actuarial Studies & App Stats",
     "schoolCode": "RSOFA",
     "level": "UGRD",
@@ -14217,6 +20238,7 @@ window.ANREVIEW_DATA = {
     "type": "course",
     "code": "STAT1008",
     "name": "Quantitative Research Methods",
+    "college": "ANU College of Business and Economics",
     "school": "Rsch Sch of Finance, Actuarial Studies & App Stats",
     "schoolCode": "RSOFA",
     "level": "UGRD",
@@ -14242,6 +20264,7 @@ window.ANREVIEW_DATA = {
     "type": "course",
     "code": "STAT2001",
     "name": "Introductory Mathematical Statistics",
+    "college": "ANU College of Business and Economics",
     "school": "Rsch Sch of Finance, Actuarial Studies & App Stats",
     "schoolCode": "RSOFA",
     "level": "UGRD",
@@ -14266,6 +20289,7 @@ window.ANREVIEW_DATA = {
     "type": "course",
     "code": "STAT2005",
     "name": "Introduction to Stochastic Processes",
+    "college": "ANU College of Business and Economics",
     "school": "Rsch Sch of Finance, Actuarial Studies & App Stats",
     "schoolCode": "RSOFA",
     "level": "UGRD",
@@ -14291,6 +20315,7 @@ window.ANREVIEW_DATA = {
     "type": "course",
     "code": "STAT2008",
     "name": "Regression Modelling",
+    "college": "ANU College of Business and Economics",
     "school": "Rsch Sch of Finance, Actuarial Studies & App Stats",
     "schoolCode": "RSOFA",
     "level": "UGRD",
@@ -14315,6 +20340,7 @@ window.ANREVIEW_DATA = {
     "type": "course",
     "code": "STAT2013",
     "name": "Introductory Mathematical Statistics for Actuarial Studies",
+    "college": "ANU College of Business and Economics",
     "school": "Rsch Sch of Finance, Actuarial Studies & App Stats",
     "schoolCode": "RSOFA",
     "level": "UGRD",
@@ -14340,6 +20366,7 @@ window.ANREVIEW_DATA = {
     "type": "course",
     "code": "STAT2014",
     "name": "Regression Modelling for Actuarial Studies",
+    "college": "ANU College of Business and Economics",
     "school": "Rsch Sch of Finance, Actuarial Studies & App Stats",
     "schoolCode": "RSOFA",
     "level": "UGRD",
@@ -14365,6 +20392,7 @@ window.ANREVIEW_DATA = {
     "type": "course",
     "code": "STAT2032",
     "name": "Financial Mathematics",
+    "college": "ANU College of Business and Economics",
     "school": "Rsch Sch of Finance, Actuarial Studies & App Stats",
     "schoolCode": "RSOFA",
     "level": "UGRD",
@@ -14391,6 +20419,7 @@ window.ANREVIEW_DATA = {
     "type": "course",
     "code": "STAT3011",
     "name": "Graphical Data Analysis",
+    "college": "ANU College of Business and Economics",
     "school": "Rsch Sch of Finance, Actuarial Studies & App Stats",
     "schoolCode": "RSOFA",
     "level": "UGRD",
@@ -14415,6 +20444,7 @@ window.ANREVIEW_DATA = {
     "type": "course",
     "code": "STST1001",
     "name": "Introduction to International Security Studies",
+    "college": "ANU College of Asia and the Pacific",
     "school": "Strategic and Defence Studies Centre",
     "schoolCode": "SADSC",
     "level": "UGRD",
@@ -14440,6 +20470,7 @@ window.ANREVIEW_DATA = {
     "type": "course",
     "code": "STST2001",
     "name": "Security Concepts in the Asia-Pacific",
+    "college": "ANU College of Asia and the Pacific",
     "school": "Strategic and Defence Studies Centre",
     "schoolCode": "SADSC",
     "level": "UGRD",
@@ -14463,6 +20494,7 @@ window.ANREVIEW_DATA = {
     "type": "course",
     "code": "STST2003",
     "name": "Australia and Security in the Pacific Islands",
+    "college": "ANU College of Asia and the Pacific",
     "school": "Department of Pacific Affairs",
     "schoolCode": "DOPA",
     "level": "UGRD",
@@ -14486,6 +20518,7 @@ window.ANREVIEW_DATA = {
     "type": "course",
     "code": "STST2020",
     "name": "Study tour: Southeast Asia's Security Choices",
+    "college": "ANU College of Asia and the Pacific",
     "school": "Strategic and Defence Studies Centre",
     "schoolCode": "SADSC",
     "level": "UGRD",
@@ -14512,6 +20545,7 @@ window.ANREVIEW_DATA = {
     "type": "course",
     "code": "STST3002",
     "name": "Living with Giants: Australia's Security in a Contested Asia",
+    "college": "ANU College of Asia and the Pacific",
     "school": "Strategic and Defence Studies Centre",
     "schoolCode": "SADSC",
     "level": "UGRD",
@@ -14538,6 +20572,7 @@ window.ANREVIEW_DATA = {
     "type": "course",
     "code": "STST3003",
     "name": "Honeypots and Overcoats: Australian Intelligence in the World",
+    "college": "ANU College of Asia and the Pacific",
     "school": "Strategic and Defence Studies Centre",
     "schoolCode": "SADSC",
     "level": "UGRD",
