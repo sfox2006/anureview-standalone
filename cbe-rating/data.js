@@ -1,5 +1,5 @@
 window.ANREVIEW_DATA = {
-  "generatedAt": "2026-04-24T13:58:46",
+  "generatedAt": "2026-04-24",
   "sources": [
     {
       "label": "ANU Programs and Courses: Bachelor of Economics",
@@ -52,1808 +52,191 @@ window.ANREVIEW_DATA = {
     {
       "label": "ANU CASS People Directory",
       "url": "https://cass.anu.edu.au/research/people"
+    },
+    {
+      "label": "www.anu.edu.au/about/academic-colleges",
+      "url": "https://www.anu.edu.au/about/academic-colleges"
+    },
+    {
+      "label": "programsandcourses.anu.edu.au/program/BASIA",
+      "url": "https://programsandcourses.anu.edu.au/program/BASIA"
+    },
+    {
+      "label": "programsandcourses.anu.edu.au/program/BAPAF",
+      "url": "https://programsandcourses.anu.edu.au/program/BAPAF"
+    },
+    {
+      "label": "programsandcourses.anu.edu.au/program/BPAST",
+      "url": "https://programsandcourses.anu.edu.au/program/BPAST"
+    },
+    {
+      "label": "programsandcourses.anu.edu.au/program/BAPAR",
+      "url": "https://programsandcourses.anu.edu.au/program/BAPAR"
+    },
+    {
+      "label": "programsandcourses.anu.edu.au/major/CHIN-MAJ",
+      "url": "https://programsandcourses.anu.edu.au/major/CHIN-MAJ"
+    },
+    {
+      "label": "programsandcourses.anu.edu.au/major/JPNS-MAJ",
+      "url": "https://programsandcourses.anu.edu.au/major/JPNS-MAJ"
+    },
+    {
+      "label": "programsandcourses.anu.edu.au/major/PAST-MAJ",
+      "url": "https://programsandcourses.anu.edu.au/major/PAST-MAJ"
+    },
+    {
+      "label": "programsandcourses.anu.edu.au/major/PECO-MAJ",
+      "url": "https://programsandcourses.anu.edu.au/major/PECO-MAJ"
+    },
+    {
+      "label": "programsandcourses.anu.edu.au/major/SASS-MAJ",
+      "url": "https://programsandcourses.anu.edu.au/major/SASS-MAJ"
+    },
+    {
+      "label": "programsandcourses.anu.edu.au/minor/ACHN-MIN",
+      "url": "https://programsandcourses.anu.edu.au/minor/ACHN-MIN"
+    },
+    {
+      "label": "programsandcourses.anu.edu.au/minor/AJPN-MIN",
+      "url": "https://programsandcourses.anu.edu.au/minor/AJPN-MIN"
+    },
+    {
+      "label": "programsandcourses.anu.edu.au/minor/CHIN-MIN",
+      "url": "https://programsandcourses.anu.edu.au/minor/CHIN-MIN"
+    },
+    {
+      "label": "programsandcourses.anu.edu.au/minor/JPNS-MIN",
+      "url": "https://programsandcourses.anu.edu.au/minor/JPNS-MIN"
+    },
+    {
+      "label": "programsandcourses.anu.edu.au/minor/PAST-MIN",
+      "url": "https://programsandcourses.anu.edu.au/minor/PAST-MIN"
+    },
+    {
+      "label": "programsandcourses.anu.edu.au/minor/TETM-MIN",
+      "url": "https://programsandcourses.anu.edu.au/minor/TETM-MIN"
+    },
+    {
+      "label": "programsandcourses.anu.edu.au/major/ASIA-MAJ",
+      "url": "https://programsandcourses.anu.edu.au/major/ASIA-MAJ"
+    },
+    {
+      "label": "programsandcourses.anu.edu.au/major/AHIST-MAJ",
+      "url": "https://programsandcourses.anu.edu.au/major/AHIST-MAJ"
+    },
+    {
+      "label": "programsandcourses.anu.edu.au/major/ASPP-MAJ",
+      "url": "https://programsandcourses.anu.edu.au/major/ASPP-MAJ"
+    },
+    {
+      "label": "programsandcourses.anu.edu.au/major/YIAS-MAJ",
+      "url": "https://programsandcourses.anu.edu.au/major/YIAS-MAJ"
+    },
+    {
+      "label": "bellschool.anu.edu.au/about-us/our-academic-experts-bell-school",
+      "url": "https://bellschool.anu.edu.au/about-us/our-academic-experts-bell-school"
+    },
+    {
+      "label": "chl.anu.edu.au/chl-people",
+      "url": "https://chl.anu.edu.au/chl-people"
+    },
+    {
+      "label": "ciw.anu.edu.au/china-experts-anu",
+      "url": "https://ciw.anu.edu.au/china-experts-anu"
     }
   ],
   "academics": [
     {
-      "id": "keturah-whitford",
+      "id": "cap-bell-amy-king",
       "type": "academic",
-      "name": "Associate Professor Keturah Whitford",
-      "school": "Research School of Accounting",
-      "schoolCode": "RSA",
-      "college": "CBE",
-      "position": "Reader",
-      "focus": "Accounting",
-      "email": "See ANU profile",
-      "office": "Research School of Accounting",
-      "profileUrl": "https://rsa.anu.edu.au/people/keturah-whitford",
-      "tags": [
-        "rsa",
-        "accounting"
-      ],
+      "name": "A/Prof Amy King",
+      "position": "Head – Strategic and Defence Studies Centre",
+      "focus": "Asia-Pacific affairs",
+      "school": "Coral Bell School of Asia Pacific Affairs",
+      "schoolCode": "BELL",
+      "college": "ANU College of Asia and the Pacific",
+      "profileUrl": "https://researchportalplus.anu.edu.au/en/persons/amy-king/",
+      "email": "",
+      "office": "",
       "linkedCourses": [],
       "reviewMetrics": [
         "Clarity",
         "Support",
         "Engagement"
+      ],
+      "tags": [
+        "bell",
+        "asia-pacific affairs"
       ]
     },
     {
-      "id": "sonali-walpola",
+      "id": "cap-bell-964ff14e-ac62-4966-b112-a743f70f3c01",
       "type": "academic",
-      "name": "Associate Professor Sonali Walpola",
-      "school": "Research School of Accounting",
-      "schoolCode": "RSA",
-      "college": "CBE",
+      "name": "A/Prof Garth Pratten",
       "position": "Associate Professor",
-      "focus": "Research School of Accounting",
-      "email": "See ANU profile",
-      "office": "Research School of Accounting",
-      "profileUrl": "https://rsa.anu.edu.au/people/sonali-walpola",
-      "tags": [
-        "rsa"
-      ],
+      "focus": "Strategic and Defence Studies Centre, Coral Bell School of Asia Pacific Affairs",
+      "school": "Coral Bell School of Asia Pacific Affairs",
+      "schoolCode": "BELL",
+      "college": "ANU College of Asia and the Pacific",
+      "profileUrl": "https://researchportalplus.anu.edu.au/en/persons/964ff14e-ac62-4966-b112-a743f70f3c01",
+      "email": "",
+      "office": "",
       "linkedCourses": [],
       "reviewMetrics": [
         "Clarity",
         "Support",
         "Engagement"
-      ]
-    },
-    {
-      "id": "steven-wu",
-      "type": "academic",
-      "name": "Associate Professor Steven Wu",
-      "school": "Research School of Accounting",
-      "schoolCode": "RSA",
-      "college": "CBE",
-      "position": "Associate Professor, Director of HDR",
-      "focus": "Accounting",
-      "email": "See ANU profile",
-      "office": "Research School of Accounting",
-      "profileUrl": "https://rsa.anu.edu.au/people/steven-wu",
-      "tags": [
-        "rsa",
-        "accounting"
       ],
-      "linkedCourses": [],
-      "reviewMetrics": [
-        "Clarity",
-        "Support",
-        "Engagement"
-      ]
-    },
-    {
-      "id": "cameron-hooper",
-      "type": "academic",
-      "name": "Cameron Hooper",
-      "school": "Research School of Accounting",
-      "schoolCode": "RSA",
-      "college": "CBE",
-      "position": "Senior Lecturer",
-      "focus": "Accounting",
-      "email": "See ANU profile",
-      "office": "Research School of Accounting",
-      "profileUrl": "https://rsa.anu.edu.au/people/cameron-hooper",
       "tags": [
-        "rsa",
-        "accounting"
-      ],
-      "linkedCourses": [],
-      "reviewMetrics": [
-        "Clarity",
-        "Support",
-        "Engagement"
+        "bell",
+        "asia-pacific affairs"
       ]
     },
     {
-      "id": "alex-wang",
+      "id": "cap-bell-e46e4692-342c-4c86-91f9-6a269c552954",
       "type": "academic",
-      "name": "Dr Alex Wang",
-      "school": "Research School of Accounting",
-      "schoolCode": "RSA",
-      "college": "CBE",
-      "position": "Senior Lecturer, CPA Liaison Officer at Research School of Accounting",
-      "focus": "Accounting, Management",
-      "email": "See ANU profile",
-      "office": "Research School of Accounting",
-      "profileUrl": "https://rsa.anu.edu.au/people/alex-wang",
-      "tags": [
-        "rsa",
-        "accounting",
-        "management"
-      ],
-      "linkedCourses": [],
-      "reviewMetrics": [
-        "Clarity",
-        "Support",
-        "Engagement"
-      ]
-    },
-    {
-      "id": "eunice-khoo",
-      "type": "academic",
-      "name": "Dr Eunice Khoo",
-      "school": "Research School of Accounting",
-      "schoolCode": "RSA",
-      "college": "CBE",
-      "position": "Senior Lecturer",
-      "focus": "Accounting",
-      "email": "See ANU profile",
-      "office": "Research School of Accounting",
-      "profileUrl": "https://rsa.anu.edu.au/people/eunice-khoo",
-      "tags": [
-        "rsa",
-        "accounting"
-      ],
-      "linkedCourses": [],
-      "reviewMetrics": [
-        "Clarity",
-        "Support",
-        "Engagement"
-      ]
-    },
-    {
-      "id": "isabel-wang",
-      "type": "academic",
-      "name": "Dr Isabel Wang",
-      "school": "Research School of Accounting",
-      "schoolCode": "RSA",
-      "college": "CBE",
-      "position": "Senior Lecturer",
-      "focus": "Accounting",
-      "email": "See ANU profile",
-      "office": "Research School of Accounting",
-      "profileUrl": "https://rsa.anu.edu.au/people/isabel-wang",
-      "tags": [
-        "rsa",
-        "accounting"
-      ],
-      "linkedCourses": [],
-      "reviewMetrics": [
-        "Clarity",
-        "Support",
-        "Engagement"
-      ]
-    },
-    {
-      "id": "kathy-wang",
-      "type": "academic",
-      "name": "Dr Kathy Wang",
-      "school": "Research School of Accounting",
-      "schoolCode": "RSA",
-      "college": "CBE",
-      "position": "Lecturer and course convenor",
-      "focus": "Accounting",
-      "email": "See ANU profile",
-      "office": "Research School of Accounting",
-      "profileUrl": "https://rsa.anu.edu.au/people/kathy-wang",
-      "tags": [
-        "rsa",
-        "accounting"
-      ],
-      "linkedCourses": [],
-      "reviewMetrics": [
-        "Clarity",
-        "Support",
-        "Engagement"
-      ]
-    },
-    {
-      "id": "lijuan-zhang",
-      "type": "academic",
-      "name": "Dr Lijuan Zhang",
-      "school": "Research School of Accounting",
-      "schoolCode": "RSA",
-      "college": "CBE",
-      "position": "Senior Lecturer",
-      "focus": "Accounting",
-      "email": "See ANU profile",
-      "office": "Research School of Accounting",
-      "profileUrl": "https://rsa.anu.edu.au/people/lijuan-zhang",
-      "tags": [
-        "rsa",
-        "accounting"
-      ],
-      "linkedCourses": [],
-      "reviewMetrics": [
-        "Clarity",
-        "Support",
-        "Engagement"
-      ]
-    },
-    {
-      "id": "lingwei-li",
-      "type": "academic",
-      "name": "Dr Lingwei Li",
-      "school": "Research School of Accounting",
-      "schoolCode": "RSA",
-      "college": "CBE",
-      "position": "Lecturer",
-      "focus": "Accounting",
-      "email": "See ANU profile",
-      "office": "Research School of Accounting",
-      "profileUrl": "https://rsa.anu.edu.au/people/lingwei-li",
-      "tags": [
-        "rsa",
-        "accounting"
-      ],
-      "linkedCourses": [],
-      "reviewMetrics": [
-        "Clarity",
-        "Support",
-        "Engagement"
-      ]
-    },
-    {
-      "id": "madhukar-singh",
-      "type": "academic",
-      "name": "Dr Madhukar Singh",
-      "school": "Research School of Accounting",
-      "schoolCode": "RSA",
-      "college": "CBE",
-      "position": "Lecturer and Undergraduate Program Convenor",
-      "focus": "Accounting, Commerce",
-      "email": "See ANU profile",
-      "office": "Research School of Accounting",
-      "profileUrl": "https://rsa.anu.edu.au/people/madhukar-singh",
-      "tags": [
-        "rsa",
-        "accounting",
-        "commerce"
-      ],
-      "linkedCourses": [],
-      "reviewMetrics": [
-        "Clarity",
-        "Support",
-        "Engagement"
-      ]
-    },
-    {
-      "id": "rebecca-tan",
-      "type": "academic",
-      "name": "Dr Rebecca Tan",
-      "school": "Research School of Accounting",
-      "schoolCode": "RSA",
-      "college": "CBE",
-      "position": "Senior Lecturer &amp; Master&rsquo;s Course Work Convener",
-      "focus": "Accounting, Corporate sustainability",
-      "email": "See ANU profile",
-      "office": "Research School of Accounting",
-      "profileUrl": "https://rsa.anu.edu.au/people/rebecca-tan",
-      "tags": [
-        "rsa",
-        "accounting",
-        "corporate sustainability"
-      ],
-      "linkedCourses": [],
-      "reviewMetrics": [
-        "Clarity",
-        "Support",
-        "Engagement"
-      ]
-    },
-    {
-      "id": "sarah-adams",
-      "type": "academic",
-      "name": "Dr Sarah Adams",
-      "school": "Research School of Accounting",
-      "schoolCode": "RSA",
-      "college": "CBE",
-      "position": "Senior Lecturer",
-      "focus": "Accounting, Corporate sustainability",
-      "email": "See ANU profile",
-      "office": "Research School of Accounting",
-      "profileUrl": "https://rsa.anu.edu.au/people/sarah-adams",
-      "tags": [
-        "rsa",
-        "accounting",
-        "corporate sustainability"
-      ],
-      "linkedCourses": [],
-      "reviewMetrics": [
-        "Clarity",
-        "Support",
-        "Engagement"
-      ]
-    },
-    {
-      "id": "scarlett-luo",
-      "type": "academic",
-      "name": "Dr Scarlett Luo",
-      "school": "Research School of Accounting",
-      "schoolCode": "RSA",
-      "college": "CBE",
-      "position": "Lecturer",
-      "focus": "Accounting",
-      "email": "See ANU profile",
-      "office": "Research School of Accounting",
-      "profileUrl": "https://rsa.anu.edu.au/people/scarlett-luo",
-      "tags": [
-        "rsa",
-        "accounting"
-      ],
-      "linkedCourses": [],
-      "reviewMetrics": [
-        "Clarity",
-        "Support",
-        "Engagement"
-      ]
-    },
-    {
-      "id": "sorin-daniliuc",
-      "type": "academic",
-      "name": "Dr Sorin Daniliuc",
-      "school": "Research School of Accounting",
-      "schoolCode": "RSA",
-      "college": "CBE",
-      "position": "Lecturer",
-      "focus": "Accounting",
-      "email": "See ANU profile",
-      "office": "Research School of Accounting",
-      "profileUrl": "https://rsa.anu.edu.au/people/sorin-daniliuc",
-      "tags": [
-        "rsa",
-        "accounting"
-      ],
-      "linkedCourses": [],
-      "reviewMetrics": [
-        "Clarity",
-        "Support",
-        "Engagement"
-      ]
-    },
-    {
-      "id": "tejshree-kala",
-      "type": "academic",
-      "name": "Dr Tejshree Kala",
-      "school": "Research School of Accounting",
-      "schoolCode": "RSA",
-      "college": "CBE",
-      "position": "Lecturer",
-      "focus": "Accounting",
-      "email": "See ANU profile",
-      "office": "Research School of Accounting",
-      "profileUrl": "https://rsa.anu.edu.au/people/tejshree-kala",
-      "tags": [
-        "rsa",
-        "accounting"
-      ],
-      "linkedCourses": [],
-      "reviewMetrics": [
-        "Clarity",
-        "Support",
-        "Engagement"
-      ]
-    },
-    {
-      "id": "wei-zeng",
-      "type": "academic",
-      "name": "Dr Wei Zeng",
-      "school": "Research School of Accounting",
-      "schoolCode": "RSA",
-      "college": "CBE",
-      "position": "Lecturer",
-      "focus": "Accounting",
-      "email": "See ANU profile",
-      "office": "Research School of Accounting",
-      "profileUrl": "https://rsa.anu.edu.au/people/wei-zeng",
-      "tags": [
-        "rsa",
-        "accounting"
-      ],
-      "linkedCourses": [],
-      "reviewMetrics": [
-        "Clarity",
-        "Support",
-        "Engagement"
-      ]
-    },
-    {
-      "id": "xiu-ye-zhang",
-      "type": "academic",
-      "name": "Dr Xiu-Ye Zhang",
-      "school": "Research School of Accounting",
-      "schoolCode": "RSA",
-      "college": "CBE",
-      "position": "Senior Lecturer",
-      "focus": "Accounting, Finance",
-      "email": "See ANU profile",
-      "office": "Research School of Accounting",
-      "profileUrl": "https://rsa.anu.edu.au/people/xiu-ye-zhang",
-      "tags": [
-        "rsa",
-        "accounting",
-        "finance"
-      ],
-      "linkedCourses": [],
-      "reviewMetrics": [
-        "Clarity",
-        "Support",
-        "Engagement"
-      ]
-    },
-    {
-      "id": "yue-cai",
-      "type": "academic",
-      "name": "Dr Yue Cai",
-      "school": "Research School of Accounting",
-      "schoolCode": "RSA",
-      "college": "CBE",
-      "position": "Lecturer",
-      "focus": "Accounting",
-      "email": "See ANU profile",
-      "office": "Research School of Accounting",
-      "profileUrl": "https://rsa.anu.edu.au/people/yue-cai",
-      "tags": [
-        "rsa",
-        "accounting"
-      ],
-      "linkedCourses": [],
-      "reviewMetrics": [
-        "Clarity",
-        "Support",
-        "Engagement"
-      ]
-    },
-    {
-      "id": "janet-lee",
-      "type": "academic",
-      "name": "Honorary Associate Professor Janet Lee",
-      "school": "Research School of Accounting",
-      "schoolCode": "RSA",
-      "college": "CBE",
-      "position": "Honorary Associate Professor",
-      "focus": "Accounting",
-      "email": "See ANU profile",
-      "office": "Research School of Accounting",
-      "profileUrl": "https://rsa.anu.edu.au/people/janet-lee",
-      "tags": [
-        "rsa",
-        "accounting"
-      ],
-      "linkedCourses": [],
-      "reviewMetrics": [
-        "Clarity",
-        "Support",
-        "Engagement"
-      ]
-    },
-    {
-      "id": "lily-chen",
-      "type": "academic",
-      "name": "Lily Chen",
-      "school": "Research School of Accounting",
-      "schoolCode": "RSA",
-      "college": "CBE",
+      "name": "A/Prof Marcus Mietzner",
       "position": "Associate Professor",
-      "focus": "Accounting",
-      "email": "See ANU profile",
-      "office": "Research School of Accounting",
-      "profileUrl": "https://rsa.anu.edu.au/people/lily-chen",
-      "tags": [
-        "rsa",
-        "accounting"
-      ],
+      "focus": "POLITICAL SCIENCE Comparative Government and Politics Social Change",
+      "school": "Coral Bell School of Asia Pacific Affairs",
+      "schoolCode": "BELL",
+      "college": "ANU College of Asia and the Pacific",
+      "profileUrl": "https://researchportalplus.anu.edu.au/en/persons/e46e4692-342c-4c86-91f9-6a269c552954",
+      "email": "",
+      "office": "",
       "linkedCourses": [],
       "reviewMetrics": [
         "Clarity",
         "Support",
         "Engagement"
+      ],
+      "tags": [
+        "bell",
+        "asia-pacific affairs"
       ]
     },
     {
-      "id": "ian-mcphee",
+      "id": "cap-bell-sonia-palmieri",
       "type": "academic",
-      "name": "Mr Ian McPhee",
-      "school": "Research School of Accounting",
-      "schoolCode": "RSA",
-      "college": "CBE",
-      "position": "Distinguished Honorary Professor",
-      "focus": "Research School of Accounting",
-      "email": "See ANU profile",
-      "office": "Research School of Accounting",
-      "profileUrl": "https://rsa.anu.edu.au/people/ian-mcphee",
-      "tags": [
-        "rsa"
-      ],
+      "name": "A/Prof Sonia Palmieri",
+      "position": "Head – Department of Pacific Affairs",
+      "focus": "Asia-Pacific affairs",
+      "school": "Coral Bell School of Asia Pacific Affairs",
+      "schoolCode": "BELL",
+      "college": "ANU College of Asia and the Pacific",
+      "profileUrl": "https://researchportalplus.anu.edu.au/en/persons/sonia-palmieri",
+      "email": "",
+      "office": "",
       "linkedCourses": [],
       "reviewMetrics": [
         "Clarity",
         "Support",
         "Engagement"
-      ]
-    },
-    {
-      "id": "kurt-stevens",
-      "type": "academic",
-      "name": "Mr Kurt Stevens",
-      "school": "Research School of Accounting",
-      "schoolCode": "RSA",
-      "college": "CBE",
-      "position": "Casual Lecturer",
-      "focus": "Accounting",
-      "email": "See ANU profile",
-      "office": "Research School of Accounting",
-      "profileUrl": "https://rsa.anu.edu.au/people/kurt-stevens",
-      "tags": [
-        "rsa",
-        "accounting"
       ],
-      "linkedCourses": [],
-      "reviewMetrics": [
-        "Clarity",
-        "Support",
-        "Engagement"
-      ]
-    },
-    {
-      "id": "bonnie-allan",
-      "type": "academic",
-      "name": "Ms Bonnie Allan",
-      "school": "Research School of Accounting",
-      "schoolCode": "RSA",
-      "college": "CBE",
-      "position": "Casual Lecturer",
-      "focus": "Research School of Accounting",
-      "email": "See ANU profile",
-      "office": "Research School of Accounting",
-      "profileUrl": "https://rsa.anu.edu.au/people/bonnie-allan",
       "tags": [
-        "rsa"
-      ],
-      "linkedCourses": [],
-      "reviewMetrics": [
-        "Clarity",
-        "Support",
-        "Engagement"
-      ]
-    },
-    {
-      "id": "pat-barrett",
-      "type": "academic",
-      "name": "Pat Barrett",
-      "school": "Research School of Accounting",
-      "schoolCode": "RSA",
-      "college": "CBE",
-      "position": "Distinguished Honorary Professor &amp; Senior Fellow - ANCAAR",
-      "focus": "Accounting, Economics",
-      "email": "See ANU profile",
-      "office": "Research School of Accounting",
-      "profileUrl": "https://rsa.anu.edu.au/people/pat-barrett",
-      "tags": [
-        "rsa",
-        "accounting",
-        "economics"
-      ],
-      "linkedCourses": [],
-      "reviewMetrics": [
-        "Clarity",
-        "Support",
-        "Engagement"
-      ]
-    },
-    {
-      "id": "greg-shailer",
-      "type": "academic",
-      "name": "Professor Greg Shailer",
-      "school": "Research School of Accounting",
-      "schoolCode": "RSA",
-      "college": "CBE",
-      "position": "Professor, Director of ANCAAR",
-      "focus": "Accounting, Commerce, Corporate sustainability",
-      "email": "See ANU profile",
-      "office": "Research School of Accounting",
-      "profileUrl": "https://rsa.anu.edu.au/people/greg-shailer",
-      "tags": [
-        "rsa",
-        "accounting",
-        "commerce",
-        "corporate sustainability"
-      ],
-      "linkedCourses": [],
-      "reviewMetrics": [
-        "Clarity",
-        "Support",
-        "Engagement"
-      ]
-    },
-    {
-      "id": "juliana-ng",
-      "type": "academic",
-      "name": "Professor Juliana Ng",
-      "school": "Research School of Accounting",
-      "schoolCode": "RSA",
-      "college": "CBE",
-      "position": "Director, Research School of Accounting",
-      "focus": "Accounting",
-      "email": "See ANU profile",
-      "office": "Research School of Accounting",
-      "profileUrl": "https://rsa.anu.edu.au/people/juliana-ng",
-      "tags": [
-        "rsa",
-        "accounting"
-      ],
-      "linkedCourses": [],
-      "reviewMetrics": [
-        "Clarity",
-        "Support",
-        "Engagement"
-      ]
-    },
-    {
-      "id": "louise-lu",
-      "type": "academic",
-      "name": "Professor Louise Lu",
-      "school": "Research School of Accounting",
-      "schoolCode": "RSA",
-      "college": "CBE",
-      "position": "Professor &amp; Convenor of HDR, Co-Director of ANCAAR",
-      "focus": "Accounting",
-      "email": "See ANU profile",
-      "office": "Research School of Accounting",
-      "profileUrl": "https://rsa.anu.edu.au/people/louise-lu",
-      "tags": [
-        "rsa",
-        "accounting"
-      ],
-      "linkedCourses": [],
-      "reviewMetrics": [
-        "Clarity",
-        "Support",
-        "Engagement"
-      ]
-    },
-    {
-      "id": "mark-wilson",
-      "type": "academic",
-      "name": "Professor Mark Wilson",
-      "school": "Research School of Accounting",
-      "schoolCode": "RSA",
-      "college": "CBE",
-      "position": "Professor & Deputy Director",
-      "focus": "Accounting, Commerce, Economic history",
-      "email": "See ANU profile",
-      "office": "Research School of Accounting",
-      "profileUrl": "https://rsa.anu.edu.au/people/mark-wilson",
-      "tags": [
-        "rsa",
-        "accounting",
-        "commerce",
-        "economic history"
-      ],
-      "linkedCourses": [],
-      "reviewMetrics": [
-        "Clarity",
-        "Support",
-        "Engagement"
-      ]
-    },
-    {
-      "id": "marvin-wee",
-      "type": "academic",
-      "name": "Professor Marvin Wee",
-      "school": "Research School of Accounting",
-      "schoolCode": "RSA",
-      "college": "CBE",
-      "position": "Professor and Deputy Director Education",
-      "focus": "Accounting, Finance",
-      "email": "See ANU profile",
-      "office": "Research School of Accounting",
-      "profileUrl": "https://rsa.anu.edu.au/people/marvin-wee",
-      "tags": [
-        "rsa",
-        "accounting",
-        "finance"
-      ],
-      "linkedCourses": [],
-      "reviewMetrics": [
-        "Clarity",
-        "Support",
-        "Engagement"
-      ]
-    },
-    {
-      "id": "neil-fargher",
-      "type": "academic",
-      "name": "Professor Neil Fargher",
-      "school": "Research School of Accounting",
-      "schoolCode": "RSA",
-      "college": "CBE",
-      "position": "Emeritus Professor",
-      "focus": "Accounting",
-      "email": "See ANU profile",
-      "office": "Research School of Accounting",
-      "profileUrl": "https://rsa.anu.edu.au/people/neil-fargher",
-      "tags": [
-        "rsa",
-        "accounting"
-      ],
-      "linkedCourses": [],
-      "reviewMetrics": [
-        "Clarity",
-        "Support",
-        "Engagement"
-      ]
-    },
-    {
-      "id": "susanna-ho",
-      "type": "academic",
-      "name": "Professor Susanna Ho",
-      "school": "Research School of Accounting",
-      "schoolCode": "RSA",
-      "college": "CBE",
-      "position": "Professor",
-      "focus": "Accounting, Business information systems, Commerce",
-      "email": "See ANU profile",
-      "office": "Research School of Accounting",
-      "profileUrl": "https://rsa.anu.edu.au/people/susanna-ho",
-      "tags": [
-        "rsa",
-        "accounting",
-        "business information systems",
-        "commerce"
-      ],
-      "linkedCourses": [],
-      "reviewMetrics": [
-        "Clarity",
-        "Support",
-        "Engagement"
-      ]
-    },
-    {
-      "id": "tracy-kun-wang",
-      "type": "academic",
-      "name": "Professor Tracy (Kun) Wang",
-      "school": "Research School of Accounting",
-      "schoolCode": "RSA",
-      "college": "CBE",
-      "position": "Professor",
-      "focus": "Accounting, Economics, Finance",
-      "email": "See ANU profile",
-      "office": "Research School of Accounting",
-      "profileUrl": "https://rsa.anu.edu.au/people/tracy-kun-wang",
-      "tags": [
-        "rsa",
-        "accounting",
-        "economics",
-        "finance"
-      ],
-      "linkedCourses": [],
-      "reviewMetrics": [
-        "Clarity",
-        "Support",
-        "Engagement"
-      ]
-    },
-    {
-      "id": "chung-tran",
-      "type": "academic",
-      "name": "Associate Professor Chung Tran",
-      "school": "Research School of Economics",
-      "schoolCode": "RSE",
-      "college": "CBE",
-      "position": "Associate Professor",
-      "focus": "Economics",
-      "email": "See ANU profile",
-      "office": "Research School of Economics",
-      "profileUrl": "https://rse.anu.edu.au/people/chung-tran",
-      "tags": [
-        "rse",
-        "economics"
-      ],
-      "linkedCourses": [],
-      "reviewMetrics": [
-        "Clarity",
-        "Support",
-        "Engagement"
-      ]
-    },
-    {
-      "id": "elena-capatina",
-      "type": "academic",
-      "name": "Associate Professor Elena Capatina",
-      "school": "Research School of Economics",
-      "schoolCode": "RSE",
-      "college": "CBE",
-      "position": "Associate Professor",
-      "focus": "Economics",
-      "email": "See ANU profile",
-      "office": "Research School of Economics",
-      "profileUrl": "https://rse.anu.edu.au/people/elena-capatina",
-      "tags": [
-        "rse",
-        "economics"
-      ],
-      "linkedCourses": [],
-      "reviewMetrics": [
-        "Clarity",
-        "Support",
-        "Engagement"
-      ]
-    },
-    {
-      "id": "evan-calford",
-      "type": "academic",
-      "name": "Associate Professor Evan Calford",
-      "school": "Research School of Economics",
-      "schoolCode": "RSE",
-      "college": "CBE",
-      "position": "Associate Professor",
-      "focus": "Economics",
-      "email": "See ANU profile",
-      "office": "Research School of Economics",
-      "profileUrl": "https://rse.anu.edu.au/people/evan-calford",
-      "tags": [
-        "rse",
-        "economics"
-      ],
-      "linkedCourses": [],
-      "reviewMetrics": [
-        "Clarity",
-        "Support",
-        "Engagement"
-      ]
-    },
-    {
-      "id": "idione-meneghel",
-      "type": "academic",
-      "name": "Associate Professor Idione Meneghel",
-      "school": "Research School of Economics",
-      "schoolCode": "RSE",
-      "college": "CBE",
-      "position": "Associate Professor",
-      "focus": "Research School of Economics",
-      "email": "See ANU profile",
-      "office": "Research School of Economics",
-      "profileUrl": "https://rse.anu.edu.au/people/idione-meneghel",
-      "tags": [
-        "rse"
-      ],
-      "linkedCourses": [],
-      "reviewMetrics": [
-        "Clarity",
-        "Support",
-        "Engagement"
-      ]
-    },
-    {
-      "id": "jose-rodrigues-neto",
-      "type": "academic",
-      "name": "Associate Professor Jose Rodrigues-Neto",
-      "school": "Research School of Economics",
-      "schoolCode": "RSE",
-      "college": "CBE",
-      "position": "Associate Professor",
-      "focus": "Economics",
-      "email": "See ANU profile",
-      "office": "Research School of Economics",
-      "profileUrl": "https://rse.anu.edu.au/people/jose-rodrigues-neto",
-      "tags": [
-        "rse",
-        "economics"
-      ],
-      "linkedCourses": [],
-      "reviewMetrics": [
-        "Clarity",
-        "Support",
-        "Engagement"
-      ]
-    },
-    {
-      "id": "maria-racionero",
-      "type": "academic",
-      "name": "Associate Professor Maria Racionero",
-      "school": "Research School of Economics",
-      "schoolCode": "RSE",
-      "college": "CBE",
-      "position": "Associate Professor",
-      "focus": "Economics",
-      "email": "See ANU profile",
-      "office": "Research School of Economics",
-      "profileUrl": "https://rse.anu.edu.au/people/maria-racionero",
-      "tags": [
-        "rse",
-        "economics"
-      ],
-      "linkedCourses": [],
-      "reviewMetrics": [
-        "Clarity",
-        "Support",
-        "Engagement"
-      ]
-    },
-    {
-      "id": "patrick-beissner",
-      "type": "academic",
-      "name": "Associate Professor Patrick Beissner",
-      "school": "Research School of Economics",
-      "schoolCode": "RSE",
-      "college": "CBE",
-      "position": "Associate Professor",
-      "focus": "Research School of Economics",
-      "email": "See ANU profile",
-      "office": "Research School of Economics",
-      "profileUrl": "https://rse.anu.edu.au/people/patrick-beissner",
-      "tags": [
-        "rse"
-      ],
-      "linkedCourses": [],
-      "reviewMetrics": [
-        "Clarity",
-        "Support",
-        "Engagement"
-      ]
-    },
-    {
-      "id": "sephorah-mangin",
-      "type": "academic",
-      "name": "Associate Professor Sephorah Mangin",
-      "school": "Research School of Economics",
-      "schoolCode": "RSE",
-      "college": "CBE",
-      "position": "Associate Professor",
-      "focus": "Economics",
-      "email": "See ANU profile",
-      "office": "Research School of Economics",
-      "profileUrl": "https://rse.anu.edu.au/people/sephorah-mangin",
-      "tags": [
-        "rse",
-        "economics"
-      ],
-      "linkedCourses": [],
-      "reviewMetrics": [
-        "Clarity",
-        "Support",
-        "Engagement"
-      ]
-    },
-    {
-      "id": "thomas-yang",
-      "type": "academic",
-      "name": "Associate Professor Thomas Yang",
-      "school": "Research School of Economics",
-      "schoolCode": "RSE",
-      "college": "CBE",
-      "position": "Associate Professor",
-      "focus": "Econometrics",
-      "email": "See ANU profile",
-      "office": "Research School of Economics",
-      "profileUrl": "https://rse.anu.edu.au/people/thomas-yang",
-      "tags": [
-        "rse",
-        "econometrics"
-      ],
-      "linkedCourses": [],
-      "reviewMetrics": [
-        "Clarity",
-        "Support",
-        "Engagement"
-      ]
-    },
-    {
-      "id": "timothy-kam",
-      "type": "academic",
-      "name": "Associate Professor Timothy Kam",
-      "school": "Research School of Economics",
-      "schoolCode": "RSE",
-      "college": "CBE",
-      "position": "Associate Professor",
-      "focus": "Econometrics, Economic history, Economics",
-      "email": "See ANU profile",
-      "office": "Research School of Economics",
-      "profileUrl": "https://rse.anu.edu.au/people/timothy-kam",
-      "tags": [
-        "rse",
-        "econometrics",
-        "economic history",
-        "economics"
-      ],
-      "linkedCourses": [],
-      "reviewMetrics": [
-        "Clarity",
-        "Support",
-        "Engagement"
-      ]
-    },
-    {
-      "id": "tue-gorgens",
-      "type": "academic",
-      "name": "Associate Professor Tue Gorgens",
-      "school": "Research School of Economics",
-      "schoolCode": "RSE",
-      "college": "CBE",
-      "position": "Associate Professor",
-      "focus": "Econometrics",
-      "email": "See ANU profile",
-      "office": "Research School of Economics",
-      "profileUrl": "https://rse.anu.edu.au/people/tue-gorgens",
-      "tags": [
-        "rse",
-        "econometrics"
-      ],
-      "linkedCourses": [],
-      "reviewMetrics": [
-        "Clarity",
-        "Support",
-        "Engagement"
-      ]
-    },
-    {
-      "id": "ashley-craig",
-      "type": "academic",
-      "name": "Dr Ashley Craig",
-      "school": "Research School of Economics",
-      "schoolCode": "RSE",
-      "college": "CBE",
-      "position": "Senior Lecturer, John Mitchell Research Fellow",
-      "focus": "Research School of Economics",
-      "email": "See ANU profile",
-      "office": "Research School of Economics",
-      "profileUrl": "https://rse.anu.edu.au/people/ashley-craig",
-      "tags": [
-        "rse"
-      ],
-      "linkedCourses": [],
-      "reviewMetrics": [
-        "Clarity",
-        "Support",
-        "Engagement"
-      ]
-    },
-    {
-      "id": "cagri-kumru",
-      "type": "academic",
-      "name": "Dr Cagri Kumru",
-      "school": "Research School of Economics",
-      "schoolCode": "RSE",
-      "college": "CBE",
-      "position": "Associate Professor, Deputy Director (Education)",
-      "focus": "Research School of Economics",
-      "email": "See ANU profile",
-      "office": "Research School of Economics",
-      "profileUrl": "https://rse.anu.edu.au/people/cagri-kumru",
-      "tags": [
-        "rse"
-      ],
-      "linkedCourses": [],
-      "reviewMetrics": [
-        "Clarity",
-        "Support",
-        "Engagement"
-      ]
-    },
-    {
-      "id": "damien-eldridge",
-      "type": "academic",
-      "name": "Dr Damien Eldridge",
-      "school": "Research School of Economics",
-      "schoolCode": "RSE",
-      "college": "CBE",
-      "position": "Senior Lecturer",
-      "focus": "Economics",
-      "email": "See ANU profile",
-      "office": "Research School of Economics",
-      "profileUrl": "https://rse.anu.edu.au/people/damien-eldridge",
-      "tags": [
-        "rse",
-        "economics"
-      ],
-      "linkedCourses": [],
-      "reviewMetrics": [
-        "Clarity",
-        "Support",
-        "Engagement"
-      ]
-    },
-    {
-      "id": "dana-hanna",
-      "type": "academic",
-      "name": "Dr Dana Hanna",
-      "school": "Research School of Economics",
-      "schoolCode": "RSE",
-      "college": "CBE",
-      "position": "Associate Dean (Education)",
-      "focus": "Economics",
-      "email": "See ANU profile",
-      "office": "Research School of Economics",
-      "profileUrl": "https://rse.anu.edu.au/people/dana-hanna",
-      "tags": [
-        "rse",
-        "economics"
-      ],
-      "linkedCourses": [],
-      "reviewMetrics": [
-        "Clarity",
-        "Support",
-        "Engagement"
-      ]
-    },
-    {
-      "id": "james-taylor",
-      "type": "academic",
-      "name": "Dr James Taylor",
-      "school": "Research School of Economics",
-      "schoolCode": "RSE",
-      "college": "CBE",
-      "position": "Lecturer",
-      "focus": "Economics",
-      "email": "See ANU profile",
-      "office": "Research School of Economics",
-      "profileUrl": "https://rse.anu.edu.au/people/james-taylor",
-      "tags": [
-        "rse",
-        "economics"
-      ],
-      "linkedCourses": [],
-      "reviewMetrics": [
-        "Clarity",
-        "Support",
-        "Engagement"
-      ]
-    },
-    {
-      "id": "juergen-meinecke",
-      "type": "academic",
-      "name": "Dr Juergen Meinecke",
-      "school": "Research School of Economics",
-      "schoolCode": "RSE",
-      "college": "CBE",
-      "position": "Lecturer",
-      "focus": "Econometrics, Economics",
-      "email": "See ANU profile",
-      "office": "Research School of Economics",
-      "profileUrl": "https://rse.anu.edu.au/people/juergen-meinecke",
-      "tags": [
-        "rse",
-        "econometrics",
-        "economics"
-      ],
-      "linkedCourses": [],
-      "reviewMetrics": [
-        "Clarity",
-        "Support",
-        "Engagement"
-      ]
-    },
-    {
-      "id": "marina-iskhakova",
-      "type": "academic",
-      "name": "Dr Marina Iskhakova",
-      "school": "Research School of Economics",
-      "schoolCode": "RSE",
-      "college": "CBE",
-      "position": "Senior Lecturer",
-      "focus": "Research School of Economics",
-      "email": "See ANU profile",
-      "office": "Research School of Economics",
-      "profileUrl": "https://rse.anu.edu.au/people/marina-iskhakova",
-      "tags": [
-        "rse"
-      ],
-      "linkedCourses": [],
-      "reviewMetrics": [
-        "Clarity",
-        "Support",
-        "Engagement"
-      ]
-    },
-    {
-      "id": "ruitian-lang",
-      "type": "academic",
-      "name": "Dr Ruitian Lang",
-      "school": "Research School of Economics",
-      "schoolCode": "RSE",
-      "college": "CBE",
-      "position": "Lecturer",
-      "focus": "Economics",
-      "email": "See ANU profile",
-      "office": "Research School of Economics",
-      "profileUrl": "https://rse.anu.edu.au/people/ruitian-lang",
-      "tags": [
-        "rse",
-        "economics"
-      ],
-      "linkedCourses": [],
-      "reviewMetrics": [
-        "Clarity",
-        "Support",
-        "Engagement"
-      ]
-    },
-    {
-      "id": "sutanuka-roy",
-      "type": "academic",
-      "name": "Dr Sutanuka Roy",
-      "school": "Research School of Economics",
-      "schoolCode": "RSE",
-      "college": "CBE",
-      "position": "Senior Lecturer, John Mitchell Fellow",
-      "focus": "Research School of Economics",
-      "email": "See ANU profile",
-      "office": "Research School of Economics",
-      "profileUrl": "https://rse.anu.edu.au/people/sutanuka-roy",
-      "tags": [
-        "rse"
-      ],
-      "linkedCourses": [],
-      "reviewMetrics": [
-        "Clarity",
-        "Support",
-        "Engagement"
-      ]
-    },
-    {
-      "id": "timo-henckel",
-      "type": "academic",
-      "name": "Dr Timo Henckel",
-      "school": "Research School of Economics",
-      "schoolCode": "RSE",
-      "college": "CBE",
-      "position": "Associate Professor",
-      "focus": "Economics",
-      "email": "See ANU profile",
-      "office": "Research School of Economics",
-      "profileUrl": "https://rse.anu.edu.au/people/timo-henckel",
-      "tags": [
-        "rse",
-        "economics"
-      ],
-      "linkedCourses": [],
-      "reviewMetrics": [
-        "Clarity",
-        "Support",
-        "Engagement"
-      ]
-    },
-    {
-      "id": "tina-kao",
-      "type": "academic",
-      "name": "Dr Tina Kao",
-      "school": "Research School of Economics",
-      "schoolCode": "RSE",
-      "college": "CBE",
-      "position": "Senior Lecturer",
-      "focus": "Economics",
-      "email": "See ANU profile",
-      "office": "Research School of Economics",
-      "profileUrl": "https://rse.anu.edu.au/people/tina-kao",
-      "tags": [
-        "rse",
-        "economics"
-      ],
-      "linkedCourses": [],
-      "reviewMetrics": [
-        "Clarity",
-        "Support",
-        "Engagement"
-      ]
-    },
-    {
-      "id": "yijuan-chen",
-      "type": "academic",
-      "name": "Dr Yijuan Chen",
-      "school": "Research School of Economics",
-      "schoolCode": "RSE",
-      "college": "CBE",
-      "position": "Associate Professor",
-      "focus": "Economics",
-      "email": "See ANU profile",
-      "office": "Research School of Economics",
-      "profileUrl": "https://rse.anu.edu.au/people/yijuan-chen",
-      "tags": [
-        "rse",
-        "economics"
-      ],
-      "linkedCourses": [],
-      "reviewMetrics": [
-        "Clarity",
-        "Support",
-        "Engagement"
-      ]
-    },
-    {
-      "id": "bruce-chapman",
-      "type": "academic",
-      "name": "Emeritus Professor Bruce Chapman",
-      "school": "Research School of Economics",
-      "schoolCode": "RSE",
-      "college": "CBE",
-      "position": "Sir Roland Wilson Chair of Economics",
-      "focus": "Research School of Economics",
-      "email": "See ANU profile",
-      "office": "Research School of Economics",
-      "profileUrl": "https://rse.anu.edu.au/people/bruce-chapman",
-      "tags": [
-        "rse"
-      ],
-      "linkedCourses": [],
-      "reviewMetrics": [
-        "Clarity",
-        "Support",
-        "Engagement"
-      ]
-    },
-    {
-      "id": "matthew-lilley",
-      "type": "academic",
-      "name": "Matthew Lilley",
-      "school": "Research School of Economics",
-      "schoolCode": "RSE",
-      "college": "CBE",
-      "position": "Lecturer",
-      "focus": "Research School of Economics",
-      "email": "See ANU profile",
-      "office": "Research School of Economics",
-      "profileUrl": "https://rse.anu.edu.au/people/matthew-lilley",
-      "tags": [
-        "rse"
-      ],
-      "linkedCourses": [],
-      "reviewMetrics": [
-        "Clarity",
-        "Support",
-        "Engagement"
-      ]
-    },
-    {
-      "id": "motohiro-kumagai",
-      "type": "academic",
-      "name": "Motohiro Kumagai",
-      "school": "Research School of Economics",
-      "schoolCode": "RSE",
-      "college": "CBE",
-      "position": "Lecturer",
-      "focus": "Research School of Economics",
-      "email": "See ANU profile",
-      "office": "Research School of Economics",
-      "profileUrl": "https://rse.anu.edu.au/people/motohiro-kumagai",
-      "tags": [
-        "rse"
-      ],
-      "linkedCourses": [],
-      "reviewMetrics": [
-        "Clarity",
-        "Support",
-        "Engagement"
-      ]
-    },
-    {
-      "id": "paul-chen",
-      "type": "academic",
-      "name": "Paul Chen",
-      "school": "Research School of Economics",
-      "schoolCode": "RSE",
-      "college": "CBE",
-      "position": "Honorary Associate Professor",
-      "focus": "Economics",
-      "email": "See ANU profile",
-      "office": "Research School of Economics",
-      "profileUrl": "https://rse.anu.edu.au/people/paul-chen",
-      "tags": [
-        "rse",
-        "economics"
-      ],
-      "linkedCourses": [],
-      "reviewMetrics": [
-        "Clarity",
-        "Support",
-        "Engagement"
-      ]
-    },
-    {
-      "id": "alison-booth",
-      "type": "academic",
-      "name": "Professor Alison Booth",
-      "school": "Research School of Economics",
-      "schoolCode": "RSE",
-      "college": "CBE",
-      "position": "Professor of Economics",
-      "focus": "Economics",
-      "email": "See ANU profile",
-      "office": "Research School of Economics",
-      "profileUrl": "https://rse.anu.edu.au/people/alison-booth",
-      "tags": [
-        "rse",
-        "economics"
-      ],
-      "linkedCourses": [],
-      "reviewMetrics": [
-        "Clarity",
-        "Support",
-        "Engagement"
-      ]
-    },
-    {
-      "id": "bob-gregory",
-      "type": "academic",
-      "name": "Professor Bob Gregory",
-      "school": "Research School of Economics",
-      "schoolCode": "RSE",
-      "college": "CBE",
-      "position": "Emeritus Professor",
-      "focus": "Research School of Economics",
-      "email": "See ANU profile",
-      "office": "Research School of Economics",
-      "profileUrl": "https://rse.anu.edu.au/people/bob-gregory",
-      "tags": [
-        "rse"
-      ],
-      "linkedCourses": [],
-      "reviewMetrics": [
-        "Clarity",
-        "Support",
-        "Engagement"
-      ]
-    },
-    {
-      "id": "fedor-iskhakov",
-      "type": "academic",
-      "name": "Professor Fedor Iskhakov",
-      "school": "Research School of Economics",
-      "schoolCode": "RSE",
-      "college": "CBE",
-      "position": "Professor",
-      "focus": "Econometrics, Economics",
-      "email": "See ANU profile",
-      "office": "Research School of Economics",
-      "profileUrl": "https://rse.anu.edu.au/people/fedor-iskhakov",
-      "tags": [
-        "rse",
-        "econometrics",
-        "economics"
-      ],
-      "linkedCourses": [],
-      "reviewMetrics": [
-        "Clarity",
-        "Support",
-        "Engagement"
-      ]
-    },
-    {
-      "id": "george-j-mailath",
-      "type": "academic",
-      "name": "Professor George J Mailath",
-      "school": "Research School of Economics",
-      "schoolCode": "RSE",
-      "college": "CBE",
-      "position": "Goldsmith Economics Chair",
-      "focus": "Research School of Economics",
-      "email": "See ANU profile",
-      "office": "Research School of Economics",
-      "profileUrl": "https://rse.anu.edu.au/people/george-j-mailath",
-      "tags": [
-        "rse"
-      ],
-      "linkedCourses": [],
-      "reviewMetrics": [
-        "Clarity",
-        "Support",
-        "Engagement"
-      ]
-    },
-    {
-      "id": "glenn-alexander-withers",
-      "type": "academic",
-      "name": "Professor Glenn Alexander Withers",
-      "school": "Research School of Economics",
-      "schoolCode": "RSE",
-      "college": "CBE",
-      "position": "Academic",
-      "focus": "Research School of Economics",
-      "email": "See ANU profile",
-      "office": "Research School of Economics",
-      "profileUrl": "https://rse.anu.edu.au/people/glenn-alexander-withers",
-      "tags": [
-        "rse"
-      ],
-      "linkedCourses": [],
-      "reviewMetrics": [
-        "Clarity",
-        "Support",
-        "Engagement"
-      ]
-    },
-    {
-      "id": "john-stachurski",
-      "type": "academic",
-      "name": "Professor John Stachurski",
-      "school": "Research School of Economics",
-      "schoolCode": "RSE",
-      "college": "CBE",
-      "position": "Professor",
-      "focus": "Econometrics, Economics, Statistics",
-      "email": "See ANU profile",
-      "office": "Research School of Economics",
-      "profileUrl": "https://rse.anu.edu.au/people/john-stachurski",
-      "tags": [
-        "rse",
-        "econometrics",
-        "economics",
-        "statistics"
-      ],
-      "linkedCourses": [],
-      "reviewMetrics": [
-        "Clarity",
-        "Support",
-        "Engagement"
-      ]
-    },
-    {
-      "id": "kailing-shen",
-      "type": "academic",
-      "name": "Professor Kailing Shen",
-      "school": "Research School of Economics",
-      "schoolCode": "RSE",
-      "college": "CBE",
-      "position": "Professor",
-      "focus": "Economics",
-      "email": "See ANU profile",
-      "office": "Research School of Economics",
-      "profileUrl": "https://rse.anu.edu.au/people/kailing-shen",
-      "tags": [
-        "rse",
-        "economics"
-      ],
-      "linkedCourses": [],
-      "reviewMetrics": [
-        "Clarity",
-        "Support",
-        "Engagement"
-      ]
-    },
-    {
-      "id": "kieron-meagher",
-      "type": "academic",
-      "name": "Professor Kieron Meagher",
-      "school": "Research School of Economics",
-      "schoolCode": "RSE",
-      "college": "CBE",
-      "position": "Professor",
-      "focus": "Economics",
-      "email": "See ANU profile",
-      "office": "Research School of Economics",
-      "profileUrl": "https://rse.anu.edu.au/people/kieron-meagher",
-      "tags": [
-        "rse",
-        "economics"
-      ],
-      "linkedCourses": [],
-      "reviewMetrics": [
-        "Clarity",
-        "Support",
-        "Engagement"
-      ]
-    },
-    {
-      "id": "markus-brueckner",
-      "type": "academic",
-      "name": "Professor Markus Brueckner",
-      "school": "Research School of Economics",
-      "schoolCode": "RSE",
-      "college": "CBE",
-      "position": "Professor",
-      "focus": "Economics",
-      "email": "See ANU profile",
-      "office": "Research School of Economics",
-      "profileUrl": "https://rse.anu.edu.au/people/markus-brueckner",
-      "tags": [
-        "rse",
-        "economics"
-      ],
-      "linkedCourses": [],
-      "reviewMetrics": [
-        "Clarity",
-        "Support",
-        "Engagement"
-      ]
-    },
-    {
-      "id": "martin-richardson",
-      "type": "academic",
-      "name": "Professor Martin Richardson",
-      "school": "Research School of Economics",
-      "schoolCode": "RSE",
-      "college": "CBE",
-      "position": "Professor",
-      "focus": "Economics",
-      "email": "See ANU profile",
-      "office": "Research School of Economics",
-      "profileUrl": "https://rse.anu.edu.au/people/martin-richardson",
-      "tags": [
-        "rse",
-        "economics"
-      ],
-      "linkedCourses": [],
-      "reviewMetrics": [
-        "Clarity",
-        "Support",
-        "Engagement"
-      ]
-    },
-    {
-      "id": "martine-mariotti",
-      "type": "academic",
-      "name": "Professor Martine Mariotti",
-      "school": "Research School of Economics",
-      "schoolCode": "RSE",
-      "college": "CBE",
-      "position": "Director - Research School of Economics",
-      "focus": "Economic history, Economics",
-      "email": "See ANU profile",
-      "office": "Research School of Economics",
-      "profileUrl": "https://rse.anu.edu.au/people/martine-mariotti",
-      "tags": [
-        "rse",
-        "economic history",
-        "economics"
-      ],
-      "linkedCourses": [],
-      "reviewMetrics": [
-        "Clarity",
-        "Support",
-        "Engagement"
-      ]
-    },
-    {
-      "id": "michael-price",
-      "type": "academic",
-      "name": "Professor Michael Price",
-      "school": "Research School of Economics",
-      "schoolCode": "RSE",
-      "college": "CBE",
-      "position": "Professor",
-      "focus": "Research School of Economics",
-      "email": "See ANU profile",
-      "office": "Research School of Economics",
-      "profileUrl": "https://rse.anu.edu.au/people/michael-price",
-      "tags": [
-        "rse"
-      ],
-      "linkedCourses": [],
-      "reviewMetrics": [
-        "Clarity",
-        "Support",
-        "Engagement"
-      ]
-    },
-    {
-      "id": "rabee-tourky",
-      "type": "academic",
-      "name": "Professor Rabee Tourky",
-      "school": "Research School of Economics",
-      "schoolCode": "RSE",
-      "college": "CBE",
-      "position": "Trevor Swan Chair",
-      "focus": "Economics",
-      "email": "See ANU profile",
-      "office": "Research School of Economics",
-      "profileUrl": "https://rse.anu.edu.au/people/rabee-tourky",
-      "tags": [
-        "rse",
-        "economics"
-      ],
-      "linkedCourses": [],
-      "reviewMetrics": [
-        "Clarity",
-        "Support",
-        "Engagement"
-      ]
-    },
-    {
-      "id": "rohan-pitchford",
-      "type": "academic",
-      "name": "Professor Rohan Pitchford",
-      "school": "Research School of Economics",
-      "schoolCode": "RSE",
-      "college": "CBE",
-      "position": "Professor",
-      "focus": "Economics",
-      "email": "See ANU profile",
-      "office": "Research School of Economics",
-      "profileUrl": "https://rse.anu.edu.au/people/rohan-pitchford",
-      "tags": [
-        "rse",
-        "economics"
-      ],
-      "linkedCourses": [],
-      "reviewMetrics": [
-        "Clarity",
-        "Support",
-        "Engagement"
-      ]
-    },
-    {
-      "id": "simon-grant",
-      "type": "academic",
-      "name": "Professor Simon Grant",
-      "school": "Research School of Economics",
-      "schoolCode": "RSE",
-      "college": "CBE",
-      "position": "Professor and John C. Harsanyi Chair of Economics",
-      "focus": "Economics",
-      "email": "See ANU profile",
-      "office": "Research School of Economics",
-      "profileUrl": "https://rse.anu.edu.au/people/simon-grant",
-      "tags": [
-        "rse",
-        "economics"
-      ],
-      "linkedCourses": [],
-      "reviewMetrics": [
-        "Clarity",
-        "Support",
-        "Engagement"
-      ]
-    },
-    {
-      "id": "tim-hatton",
-      "type": "academic",
-      "name": "Professor Tim Hatton",
-      "school": "Research School of Economics",
-      "schoolCode": "RSE",
-      "college": "CBE",
-      "position": "Director of the Centre for Economic History",
-      "focus": "Economic history, Economics",
-      "email": "See ANU profile",
-      "office": "Research School of Economics",
-      "profileUrl": "https://rse.anu.edu.au/people/tim-hatton",
-      "tags": [
-        "rse",
-        "economic history",
-        "economics"
-      ],
-      "linkedCourses": [],
-      "reviewMetrics": [
-        "Clarity",
-        "Support",
-        "Engagement"
-      ]
-    },
-    {
-      "id": "xin-meng",
-      "type": "academic",
-      "name": "Professor Xin Meng",
-      "school": "Research School of Economics",
-      "schoolCode": "RSE",
-      "college": "CBE",
-      "position": "Professor",
-      "focus": "Economics",
-      "email": "See ANU profile",
-      "office": "Research School of Economics",
-      "profileUrl": "https://rse.anu.edu.au/people/xin-meng",
-      "tags": [
-        "rse",
-        "economics"
-      ],
-      "linkedCourses": [],
-      "reviewMetrics": [
-        "Clarity",
-        "Support",
-        "Engagement"
-      ]
-    },
-    {
-      "id": "ronald-stauber",
-      "type": "academic",
-      "name": "Ronald Stauber",
-      "school": "Research School of Economics",
-      "schoolCode": "RSE",
-      "college": "CBE",
-      "position": "Associate Professor",
-      "focus": "Economics",
-      "email": "See ANU profile",
-      "office": "Research School of Economics",
-      "profileUrl": "https://rse.anu.edu.au/people/ronald-stauber",
-      "tags": [
-        "rse",
-        "economics"
-      ],
-      "linkedCourses": [],
-      "reviewMetrics": [
-        "Clarity",
-        "Support",
-        "Engagement"
+        "bell",
+        "asia-pacific affairs"
       ]
     },
     {
@@ -1880,1513 +263,20 @@ window.ANREVIEW_DATA = {
       ]
     },
     {
-      "id": "aaron-bruhn",
+      "id": "akshaya-kamalnath",
       "type": "academic",
-      "name": "Associate Professor Aaron Bruhn",
-      "school": "Research School of Finance, Actuarial Studies and Statistics",
-      "schoolCode": "RSFAS",
-      "college": "CBE",
+      "name": "Akshaya Kamalnath",
+      "school": "ANU Law School",
+      "schoolCode": "LAW",
+      "college": "ANU Law School",
       "position": "Associate Professor",
-      "focus": "Actuarial studies",
+      "focus": "Asian Law Commercial and Corporate Law Comparative Law",
       "email": "See ANU profile",
-      "office": "Research School of Finance, Actuarial Studies and Statistics",
-      "profileUrl": "https://rsfas.anu.edu.au/people/aaron-bruhn",
+      "office": "ANU Law School",
+      "profileUrl": "https://law.anu.edu.au/about/our-people/akshaya-kamalnath",
       "tags": [
-        "rsfas",
-        "actuarial studies"
-      ],
-      "linkedCourses": [],
-      "reviewMetrics": [
-        "Clarity",
-        "Support",
-        "Engagement"
-      ]
-    },
-    {
-      "id": "adam-butt",
-      "type": "academic",
-      "name": "Associate Professor Adam Butt",
-      "school": "Research School of Finance, Actuarial Studies and Statistics",
-      "schoolCode": "RSFAS",
-      "college": "CBE",
-      "position": "Associate Professor, Head of Actuarial Studies",
-      "focus": "Actuarial studies",
-      "email": "See ANU profile",
-      "office": "Research School of Finance, Actuarial Studies and Statistics",
-      "profileUrl": "https://rsfas.anu.edu.au/people/adam-butt",
-      "tags": [
-        "rsfas",
-        "actuarial studies"
-      ],
-      "linkedCourses": [],
-      "reviewMetrics": [
-        "Clarity",
-        "Support",
-        "Engagement"
-      ]
-    },
-    {
-      "id": "bronwen-whiting",
-      "type": "academic",
-      "name": "Associate Professor Bronwen Whiting",
-      "school": "Research School of Finance, Actuarial Studies and Statistics",
-      "schoolCode": "RSFAS",
-      "college": "CBE",
-      "position": "Associate Professor in Statistics, Director - ANU Postgraduate Studies",
-      "focus": "Statistics",
-      "email": "See ANU profile",
-      "office": "Research School of Finance, Actuarial Studies and Statistics",
-      "profileUrl": "https://rsfas.anu.edu.au/people/bronwen-whiting",
-      "tags": [
-        "rsfas",
-        "statistics"
-      ],
-      "linkedCourses": [],
-      "reviewMetrics": [
-        "Clarity",
-        "Support",
-        "Engagement"
-      ]
-    },
-    {
-      "id": "dale-roberts",
-      "type": "academic",
-      "name": "Associate Professor Dale Roberts",
-      "school": "Research School of Finance, Actuarial Studies and Statistics",
-      "schoolCode": "RSFAS",
-      "college": "CBE",
-      "position": "Associate Professor",
-      "focus": "Statistics",
-      "email": "See ANU profile",
-      "office": "Research School of Finance, Actuarial Studies and Statistics",
-      "profileUrl": "https://rsfas.anu.edu.au/people/dale-roberts",
-      "tags": [
-        "rsfas",
-        "statistics"
-      ],
-      "linkedCourses": [],
-      "reviewMetrics": [
-        "Clarity",
-        "Support",
-        "Engagement"
-      ]
-    },
-    {
-      "id": "francis-hui",
-      "type": "academic",
-      "name": "Associate Professor Francis Hui",
-      "school": "Research School of Finance, Actuarial Studies and Statistics",
-      "schoolCode": "RSFAS",
-      "college": "CBE",
-      "position": "Associate Professor in Statistics",
-      "focus": "Statistics",
-      "email": "See ANU profile",
-      "office": "Research School of Finance, Actuarial Studies and Statistics",
-      "profileUrl": "https://rsfas.anu.edu.au/people/francis-hui",
-      "tags": [
-        "rsfas",
-        "statistics"
-      ],
-      "linkedCourses": [],
-      "reviewMetrics": [
-        "Clarity",
-        "Support",
-        "Engagement"
-      ]
-    },
-    {
-      "id": "janice-scealy",
-      "type": "academic",
-      "name": "Associate Professor Janice Scealy",
-      "school": "Research School of Finance, Actuarial Studies and Statistics",
-      "schoolCode": "RSFAS",
-      "college": "CBE",
-      "position": "Associate Professor",
-      "focus": "Statistics",
-      "email": "See ANU profile",
-      "office": "Research School of Finance, Actuarial Studies and Statistics",
-      "profileUrl": "https://rsfas.anu.edu.au/people/janice-scealy",
-      "tags": [
-        "rsfas",
-        "statistics"
-      ],
-      "linkedCourses": [],
-      "reviewMetrics": [
-        "Clarity",
-        "Support",
-        "Engagement"
-      ]
-    },
-    {
-      "id": "jenni-bettman",
-      "type": "academic",
-      "name": "Associate Professor Jenni Bettman",
-      "school": "Research School of Finance, Actuarial Studies and Statistics",
-      "schoolCode": "RSFAS",
-      "college": "CBE",
-      "position": "Associate Professor",
-      "focus": "Finance",
-      "email": "See ANU profile",
-      "office": "Research School of Finance, Actuarial Studies and Statistics",
-      "profileUrl": "https://rsfas.anu.edu.au/people/jenni-bettman",
-      "tags": [
-        "rsfas",
-        "finance"
-      ],
-      "linkedCourses": [],
-      "reviewMetrics": [
-        "Clarity",
-        "Support",
-        "Engagement"
-      ]
-    },
-    {
-      "id": "jo-drienko",
-      "type": "academic",
-      "name": "Associate Professor Jo Drienko",
-      "school": "Research School of Finance, Actuarial Studies and Statistics",
-      "schoolCode": "RSFAS",
-      "college": "CBE",
-      "position": "Deputy Director (Education)",
-      "focus": "Finance",
-      "email": "See ANU profile",
-      "office": "Research School of Finance, Actuarial Studies and Statistics",
-      "profileUrl": "https://rsfas.anu.edu.au/people/jo-drienko",
-      "tags": [
-        "rsfas",
-        "finance"
-      ],
-      "linkedCourses": [],
-      "reviewMetrics": [
-        "Clarity",
-        "Support",
-        "Engagement"
-      ]
-    },
-    {
-      "id": "le-zhang",
-      "type": "academic",
-      "name": "Associate Professor Le Zhang",
-      "school": "Research School of Finance, Actuarial Studies and Statistics",
-      "schoolCode": "RSFAS",
-      "college": "CBE",
-      "position": "Associate Professor",
-      "focus": "Finance",
-      "email": "See ANU profile",
-      "office": "Research School of Finance, Actuarial Studies and Statistics",
-      "profileUrl": "https://rsfas.anu.edu.au/people/le-zhang",
-      "tags": [
-        "rsfas",
-        "finance"
-      ],
-      "linkedCourses": [],
-      "reviewMetrics": [
-        "Clarity",
-        "Support",
-        "Engagement"
-      ]
-    },
-    {
-      "id": "phong-ngo",
-      "type": "academic",
-      "name": "Associate Professor Phong Ngo",
-      "school": "Research School of Finance, Actuarial Studies and Statistics",
-      "schoolCode": "RSFAS",
-      "college": "CBE",
-      "position": "Associate Professor",
-      "focus": "Finance",
-      "email": "See ANU profile",
-      "office": "Research School of Finance, Actuarial Studies and Statistics",
-      "profileUrl": "https://rsfas.anu.edu.au/people/phong-ngo",
-      "tags": [
-        "rsfas",
-        "finance"
-      ],
-      "linkedCourses": [],
-      "reviewMetrics": [
-        "Clarity",
-        "Support",
-        "Engagement"
-      ]
-    },
-    {
-      "id": "robert-clark",
-      "type": "academic",
-      "name": "Associate Professor Robert Clark",
-      "school": "Research School of Finance, Actuarial Studies and Statistics",
-      "schoolCode": "RSFAS",
-      "college": "CBE",
-      "position": "Associate Professor",
-      "focus": "Statistics",
-      "email": "See ANU profile",
-      "office": "Research School of Finance, Actuarial Studies and Statistics",
-      "profileUrl": "https://rsfas.anu.edu.au/people/robert-clark",
-      "tags": [
-        "rsfas",
-        "statistics"
-      ],
-      "linkedCourses": [],
-      "reviewMetrics": [
-        "Clarity",
-        "Support",
-        "Engagement"
-      ]
-    },
-    {
-      "id": "tao-zou",
-      "type": "academic",
-      "name": "Associate Professor Tao Zou",
-      "school": "Research School of Finance, Actuarial Studies and Statistics",
-      "schoolCode": "RSFAS",
-      "college": "CBE",
-      "position": "Associate Professor",
-      "focus": "Statistics",
-      "email": "See ANU profile",
-      "office": "Research School of Finance, Actuarial Studies and Statistics",
-      "profileUrl": "https://rsfas.anu.edu.au/people/tao-zou",
-      "tags": [
-        "rsfas",
-        "statistics"
-      ],
-      "linkedCourses": [],
-      "reviewMetrics": [
-        "Clarity",
-        "Support",
-        "Engagement"
-      ]
-    },
-    {
-      "id": "tim-higgins",
-      "type": "academic",
-      "name": "Associate Professor Tim Higgins",
-      "school": "Research School of Finance, Actuarial Studies and Statistics",
-      "schoolCode": "RSFAS",
-      "college": "CBE",
-      "position": "Associate Professor, Associate Dean (Research)",
-      "focus": "Actuarial studies",
-      "email": "See ANU profile",
-      "office": "Research School of Finance, Actuarial Studies and Statistics",
-      "profileUrl": "https://rsfas.anu.edu.au/people/tim-higgins",
-      "tags": [
-        "rsfas",
-        "actuarial studies"
-      ],
-      "linkedCourses": [],
-      "reviewMetrics": [
-        "Clarity",
-        "Support",
-        "Engagement"
-      ]
-    },
-    {
-      "id": "wai-man-raymond-liu",
-      "type": "academic",
-      "name": "Associate Professor Wai-Man (Raymond) Liu",
-      "school": "Research School of Finance, Actuarial Studies and Statistics",
-      "schoolCode": "RSFAS",
-      "college": "CBE",
-      "position": "Associate Professor",
-      "focus": "Finance",
-      "email": "See ANU profile",
-      "office": "Research School of Finance, Actuarial Studies and Statistics",
-      "profileUrl": "https://rsfas.anu.edu.au/people/wai-man-raymond-liu",
-      "tags": [
-        "rsfas",
-        "finance"
-      ],
-      "linkedCourses": [],
-      "reviewMetrics": [
-        "Clarity",
-        "Support",
-        "Engagement"
-      ]
-    },
-    {
-      "id": "xianming-zhou",
-      "type": "academic",
-      "name": "Associate Professor Xianming Zhou",
-      "school": "Research School of Finance, Actuarial Studies and Statistics",
-      "schoolCode": "RSFAS",
-      "college": "CBE",
-      "position": "Associate Professor",
-      "focus": "Finance",
-      "email": "See ANU profile",
-      "office": "Research School of Finance, Actuarial Studies and Statistics",
-      "profileUrl": "https://rsfas.anu.edu.au/people/xianming-zhou",
-      "tags": [
-        "rsfas",
-        "finance"
-      ],
-      "linkedCourses": [],
-      "reviewMetrics": [
-        "Clarity",
-        "Support",
-        "Engagement"
-      ]
-    },
-    {
-      "id": "xin-kelly-liu",
-      "type": "academic",
-      "name": "Associate Professor Xin (Kelly) Liu",
-      "school": "Research School of Finance, Actuarial Studies and Statistics",
-      "schoolCode": "RSFAS",
-      "college": "CBE",
-      "position": "Associate Professor",
-      "focus": "Finance",
-      "email": "See ANU profile",
-      "office": "Research School of Finance, Actuarial Studies and Statistics",
-      "profileUrl": "https://rsfas.anu.edu.au/people/xin-kelly-liu",
-      "tags": [
-        "rsfas",
-        "finance"
-      ],
-      "linkedCourses": [],
-      "reviewMetrics": [
-        "Clarity",
-        "Support",
-        "Engagement"
-      ]
-    },
-    {
-      "id": "yanrong-yang",
-      "type": "academic",
-      "name": "Associate Professor Yanrong Yang",
-      "school": "Research School of Finance, Actuarial Studies and Statistics",
-      "schoolCode": "RSFAS",
-      "college": "CBE",
-      "position": "Associate Professor",
-      "focus": "Statistics",
-      "email": "See ANU profile",
-      "office": "Research School of Finance, Actuarial Studies and Statistics",
-      "profileUrl": "https://rsfas.anu.edu.au/people/yanrong-yang",
-      "tags": [
-        "rsfas",
-        "statistics"
-      ],
-      "linkedCourses": [],
-      "reviewMetrics": [
-        "Clarity",
-        "Support",
-        "Engagement"
-      ]
-    },
-    {
-      "id": "bao-anh-vu",
-      "type": "academic",
-      "name": "Bao Anh Vu",
-      "school": "Research School of Finance, Actuarial Studies and Statistics",
-      "schoolCode": "RSFAS",
-      "college": "CBE",
-      "position": "Postdoctoral Fellow",
-      "focus": "Statistics",
-      "email": "See ANU profile",
-      "office": "Research School of Finance, Actuarial Studies and Statistics",
-      "profileUrl": "https://rsfas.anu.edu.au/people/bao-anh-vu",
-      "tags": [
-        "rsfas",
-        "statistics"
-      ],
-      "linkedCourses": [],
-      "reviewMetrics": [
-        "Clarity",
-        "Support",
-        "Engagement"
-      ]
-    },
-    {
-      "id": "bridget-browne",
-      "type": "academic",
-      "name": "Bridget Browne",
-      "school": "Research School of Finance, Actuarial Studies and Statistics",
-      "schoolCode": "RSFAS",
-      "college": "CBE",
-      "position": "Senior Lecturer",
-      "focus": "Actuarial studies",
-      "email": "See ANU profile",
-      "office": "Research School of Finance, Actuarial Studies and Statistics",
-      "profileUrl": "https://rsfas.anu.edu.au/people/bridget-browne",
-      "tags": [
-        "rsfas",
-        "actuarial studies"
-      ],
-      "linkedCourses": [],
-      "reviewMetrics": [
-        "Clarity",
-        "Support",
-        "Engagement"
-      ]
-    },
-    {
-      "id": "alexander-vadilyev",
-      "type": "academic",
-      "name": "Dr Alexander Vadilyev",
-      "school": "Research School of Finance, Actuarial Studies and Statistics",
-      "schoolCode": "RSFAS",
-      "college": "CBE",
-      "position": "Senior Lecturer",
-      "focus": "Finance",
-      "email": "See ANU profile",
-      "office": "Research School of Finance, Actuarial Studies and Statistics",
-      "profileUrl": "https://rsfas.anu.edu.au/people/alexander-vadilyev",
-      "tags": [
-        "rsfas",
-        "finance"
-      ],
-      "linkedCourses": [],
-      "reviewMetrics": [
-        "Clarity",
-        "Support",
-        "Engagement"
-      ]
-    },
-    {
-      "id": "anna-von-reibnitz",
-      "type": "academic",
-      "name": "Dr Anna von Reibnitz",
-      "school": "Research School of Finance, Actuarial Studies and Statistics",
-      "schoolCode": "RSFAS",
-      "college": "CBE",
-      "position": "Senior Lecturer, Finance Masters Convenor",
-      "focus": "Finance",
-      "email": "See ANU profile",
-      "office": "Research School of Finance, Actuarial Studies and Statistics",
-      "profileUrl": "https://rsfas.anu.edu.au/people/anna-von-reibnitz",
-      "tags": [
-        "rsfas",
-        "finance"
-      ],
-      "linkedCourses": [],
-      "reviewMetrics": [
-        "Clarity",
-        "Support",
-        "Engagement"
-      ]
-    },
-    {
-      "id": "anton-westveld",
-      "type": "academic",
-      "name": "Dr Anton Westveld",
-      "school": "Research School of Finance, Actuarial Studies and Statistics",
-      "schoolCode": "RSFAS",
-      "college": "CBE",
-      "position": "Senior Lecturer",
-      "focus": "Statistics",
-      "email": "See ANU profile",
-      "office": "Research School of Finance, Actuarial Studies and Statistics",
-      "profileUrl": "https://rsfas.anu.edu.au/people/anton-westveld",
-      "tags": [
-        "rsfas",
-        "statistics"
-      ],
-      "linkedCourses": [],
-      "reviewMetrics": [
-        "Clarity",
-        "Support",
-        "Engagement"
-      ]
-    },
-    {
-      "id": "boris-buchmann",
-      "type": "academic",
-      "name": "Dr Boris Buchmann",
-      "school": "Research School of Finance, Actuarial Studies and Statistics",
-      "schoolCode": "RSFAS",
-      "college": "CBE",
-      "position": "Associate Professor",
-      "focus": "Statistics",
-      "email": "See ANU profile",
-      "office": "Research School of Finance, Actuarial Studies and Statistics",
-      "profileUrl": "https://rsfas.anu.edu.au/people/boris-buchmann",
-      "tags": [
-        "rsfas",
-        "statistics"
-      ],
-      "linkedCourses": [],
-      "reviewMetrics": [
-        "Clarity",
-        "Support",
-        "Engagement"
-      ]
-    },
-    {
-      "id": "bronwyn-loong",
-      "type": "academic",
-      "name": "Dr Bronwyn Loong",
-      "school": "Research School of Finance, Actuarial Studies and Statistics",
-      "schoolCode": "RSFAS",
-      "college": "CBE",
-      "position": "Senior Lecturer",
-      "focus": "Statistics",
-      "email": "See ANU profile",
-      "office": "Research School of Finance, Actuarial Studies and Statistics",
-      "profileUrl": "https://rsfas.anu.edu.au/people/bronwyn-loong",
-      "tags": [
-        "rsfas",
-        "statistics"
-      ],
-      "linkedCourses": [],
-      "reviewMetrics": [
-        "Clarity",
-        "Support",
-        "Engagement"
-      ]
-    },
-    {
-      "id": "chao-gao",
-      "type": "academic",
-      "name": "Dr Chao Gao",
-      "school": "Research School of Finance, Actuarial Studies and Statistics",
-      "schoolCode": "RSFAS",
-      "college": "CBE",
-      "position": "Senior Lecturer",
-      "focus": "Finance",
-      "email": "See ANU profile",
-      "office": "Research School of Finance, Actuarial Studies and Statistics",
-      "profileUrl": "https://rsfas.anu.edu.au/people/chao-gao",
-      "tags": [
-        "rsfas",
-        "finance"
-      ],
-      "linkedCourses": [],
-      "reviewMetrics": [
-        "Clarity",
-        "Support",
-        "Engagement"
-      ]
-    },
-    {
-      "id": "chen-tang",
-      "type": "academic",
-      "name": "Dr Chen Tang",
-      "school": "Research School of Finance, Actuarial Studies and Statistics",
-      "schoolCode": "RSFAS",
-      "college": "CBE",
-      "position": "Lecturer",
-      "focus": "Statistics",
-      "email": "See ANU profile",
-      "office": "Research School of Finance, Actuarial Studies and Statistics",
-      "profileUrl": "https://rsfas.anu.edu.au/people/chen-tang",
-      "tags": [
-        "rsfas",
-        "statistics"
-      ],
-      "linkedCourses": [],
-      "reviewMetrics": [
-        "Clarity",
-        "Support",
-        "Engagement"
-      ]
-    },
-    {
-      "id": "daruo-xie",
-      "type": "academic",
-      "name": "Dr Daruo Xie",
-      "school": "Research School of Finance, Actuarial Studies and Statistics",
-      "schoolCode": "RSFAS",
-      "college": "CBE",
-      "position": "Lecturer",
-      "focus": "Finance",
-      "email": "See ANU profile",
-      "office": "Research School of Finance, Actuarial Studies and Statistics",
-      "profileUrl": "https://rsfas.anu.edu.au/people/daruo-xie",
-      "tags": [
-        "rsfas",
-        "finance"
-      ],
-      "linkedCourses": [],
-      "reviewMetrics": [
-        "Clarity",
-        "Support",
-        "Engagement"
-      ]
-    },
-    {
-      "id": "dean-katselas",
-      "type": "academic",
-      "name": "Dr Dean Katselas",
-      "school": "Research School of Finance, Actuarial Studies and Statistics",
-      "schoolCode": "RSFAS",
-      "college": "CBE",
-      "position": "Senior Lecturer",
-      "focus": "Finance",
-      "email": "See ANU profile",
-      "office": "Research School of Finance, Actuarial Studies and Statistics",
-      "profileUrl": "https://rsfas.anu.edu.au/people/dean-katselas",
-      "tags": [
-        "rsfas",
-        "finance"
-      ],
-      "linkedCourses": [],
-      "reviewMetrics": [
-        "Clarity",
-        "Support",
-        "Engagement"
-      ]
-    },
-    {
-      "id": "ding-ding",
-      "type": "academic",
-      "name": "Dr Ding Ding",
-      "school": "Research School of Finance, Actuarial Studies and Statistics",
-      "schoolCode": "RSFAS",
-      "college": "CBE",
-      "position": "Lecturer",
-      "focus": "Finance",
-      "email": "See ANU profile",
-      "office": "Research School of Finance, Actuarial Studies and Statistics",
-      "profileUrl": "https://rsfas.anu.edu.au/people/ding-ding",
-      "tags": [
-        "rsfas",
-        "finance"
-      ],
-      "linkedCourses": [],
-      "reviewMetrics": [
-        "Clarity",
-        "Support",
-        "Engagement"
-      ]
-    },
-    {
-      "id": "emi-tanaka",
-      "type": "academic",
-      "name": "Dr Emi Tanaka",
-      "school": "Research School of Finance, Actuarial Studies and Statistics",
-      "schoolCode": "RSFAS",
-      "college": "CBE",
-      "position": "Senior Lecturer",
-      "focus": "Statistics",
-      "email": "See ANU profile",
-      "office": "Research School of Finance, Actuarial Studies and Statistics",
-      "profileUrl": "https://rsfas.anu.edu.au/people/emi-tanaka",
-      "tags": [
-        "rsfas",
-        "statistics"
-      ],
-      "linkedCourses": [],
-      "reviewMetrics": [
-        "Clarity",
-        "Support",
-        "Engagement"
-      ]
-    },
-    {
-      "id": "gaurav-khemka",
-      "type": "academic",
-      "name": "Dr Gaurav Khemka",
-      "school": "Research School of Finance, Actuarial Studies and Statistics",
-      "schoolCode": "RSFAS",
-      "college": "CBE",
-      "position": "Associate Professor, HDR Convenor",
-      "focus": "Actuarial studies",
-      "email": "See ANU profile",
-      "office": "Research School of Finance, Actuarial Studies and Statistics",
-      "profileUrl": "https://rsfas.anu.edu.au/people/gaurav-khemka",
-      "tags": [
-        "rsfas",
-        "actuarial studies"
-      ],
-      "linkedCourses": [],
-      "reviewMetrics": [
-        "Clarity",
-        "Support",
-        "Engagement"
-      ]
-    },
-    {
-      "id": "gen-nowak",
-      "type": "academic",
-      "name": "Dr Gen Nowak",
-      "school": "Research School of Finance, Actuarial Studies and Statistics",
-      "schoolCode": "RSFAS",
-      "college": "CBE",
-      "position": "Senior Lecturer",
-      "focus": "Statistics",
-      "email": "See ANU profile",
-      "office": "Research School of Finance, Actuarial Studies and Statistics",
-      "profileUrl": "https://rsfas.anu.edu.au/people/gen-nowak",
-      "tags": [
-        "rsfas",
-        "statistics"
-      ],
-      "linkedCourses": [],
-      "reviewMetrics": [
-        "Clarity",
-        "Support",
-        "Engagement"
-      ]
-    },
-    {
-      "id": "hua-deng",
-      "type": "academic",
-      "name": "Dr Hua Deng",
-      "school": "Research School of Finance, Actuarial Studies and Statistics",
-      "schoolCode": "RSFAS",
-      "college": "CBE",
-      "position": "Lecturer",
-      "focus": "Finance",
-      "email": "See ANU profile",
-      "office": "Research School of Finance, Actuarial Studies and Statistics",
-      "profileUrl": "https://rsfas.anu.edu.au/people/hua-deng",
-      "tags": [
-        "rsfas",
-        "finance"
-      ],
-      "linkedCourses": [],
-      "reviewMetrics": [
-        "Clarity",
-        "Support",
-        "Engagement"
-      ]
-    },
-    {
-      "id": "jacie-liu",
-      "type": "academic",
-      "name": "Dr Jacie Liu",
-      "school": "Research School of Finance, Actuarial Studies and Statistics",
-      "schoolCode": "RSFAS",
-      "college": "CBE",
-      "position": "Senior Lecturer",
-      "focus": "Actuarial studies",
-      "email": "See ANU profile",
-      "office": "Research School of Finance, Actuarial Studies and Statistics",
-      "profileUrl": "https://rsfas.anu.edu.au/people/jacie-liu",
-      "tags": [
-        "rsfas",
-        "actuarial studies"
-      ],
-      "linkedCourses": [],
-      "reviewMetrics": [
-        "Clarity",
-        "Support",
-        "Engagement"
-      ]
-    },
-    {
-      "id": "jananie-william",
-      "type": "academic",
-      "name": "Dr Jananie William",
-      "school": "Research School of Finance, Actuarial Studies and Statistics",
-      "schoolCode": "RSFAS",
-      "college": "CBE",
-      "position": "Senior Lecturer",
-      "focus": "Actuarial studies",
-      "email": "See ANU profile",
-      "office": "Research School of Finance, Actuarial Studies and Statistics",
-      "profileUrl": "https://rsfas.anu.edu.au/people/jananie-william",
-      "tags": [
-        "rsfas",
-        "actuarial studies"
-      ],
-      "linkedCourses": [],
-      "reviewMetrics": [
-        "Clarity",
-        "Support",
-        "Engagement"
-      ]
-    },
-    {
-      "id": "kevin-lu",
-      "type": "academic",
-      "name": "Dr Kevin Lu",
-      "school": "Research School of Finance, Actuarial Studies and Statistics",
-      "schoolCode": "RSFAS",
-      "college": "CBE",
-      "position": "Lecturer",
-      "focus": "Statistics",
-      "email": "See ANU profile",
-      "office": "Research School of Finance, Actuarial Studies and Statistics",
-      "profileUrl": "https://rsfas.anu.edu.au/people/kevin-lu",
-      "tags": [
-        "rsfas",
-        "statistics"
-      ],
-      "linkedCourses": [],
-      "reviewMetrics": [
-        "Clarity",
-        "Support",
-        "Engagement"
-      ]
-    },
-    {
-      "id": "kun-li",
-      "type": "academic",
-      "name": "Dr Kun Li",
-      "school": "Research School of Finance, Actuarial Studies and Statistics",
-      "schoolCode": "RSFAS",
-      "college": "CBE",
-      "position": "Lecturer",
-      "focus": "Finance",
-      "email": "See ANU profile",
-      "office": "Research School of Finance, Actuarial Studies and Statistics",
-      "profileUrl": "https://rsfas.anu.edu.au/people/kun-li",
-      "tags": [
-        "rsfas",
-        "finance"
-      ],
-      "linkedCourses": [],
-      "reviewMetrics": [
-        "Clarity",
-        "Support",
-        "Engagement"
-      ]
-    },
-    {
-      "id": "laurence-field",
-      "type": "academic",
-      "name": "Dr Laurence Field",
-      "school": "Research School of Finance, Actuarial Studies and Statistics",
-      "schoolCode": "RSFAS",
-      "college": "CBE",
-      "position": "Lecturer",
-      "focus": "Statistics",
-      "email": "See ANU profile",
-      "office": "Research School of Finance, Actuarial Studies and Statistics",
-      "profileUrl": "https://rsfas.anu.edu.au/people/laurence-field",
-      "tags": [
-        "rsfas",
-        "statistics"
-      ],
-      "linkedCourses": [],
-      "reviewMetrics": [
-        "Clarity",
-        "Support",
-        "Engagement"
-      ]
-    },
-    {
-      "id": "le-chang",
-      "type": "academic",
-      "name": "Dr Le Chang",
-      "school": "Research School of Finance, Actuarial Studies and Statistics",
-      "schoolCode": "RSFAS",
-      "college": "CBE",
-      "position": "Senior Lecturer",
-      "focus": "Statistics",
-      "email": "See ANU profile",
-      "office": "Research School of Finance, Actuarial Studies and Statistics",
-      "profileUrl": "https://rsfas.anu.edu.au/people/le-chang",
-      "tags": [
-        "rsfas",
-        "statistics"
-      ],
-      "linkedCourses": [],
-      "reviewMetrics": [
-        "Clarity",
-        "Support",
-        "Engagement"
-      ]
-    },
-    {
-      "id": "lin-hu",
-      "type": "academic",
-      "name": "Dr Lin Hu",
-      "school": "Research School of Finance, Actuarial Studies and Statistics",
-      "schoolCode": "RSFAS",
-      "college": "CBE",
-      "position": "Senior Lecturer",
-      "focus": "Finance",
-      "email": "See ANU profile",
-      "office": "Research School of Finance, Actuarial Studies and Statistics",
-      "profileUrl": "https://rsfas.anu.edu.au/people/lin-hu",
-      "tags": [
-        "rsfas",
-        "finance"
-      ],
-      "linkedCourses": [],
-      "reviewMetrics": [
-        "Clarity",
-        "Support",
-        "Engagement"
-      ]
-    },
-    {
-      "id": "luca-maestrini",
-      "type": "academic",
-      "name": "Dr Luca Maestrini",
-      "school": "Research School of Finance, Actuarial Studies and Statistics",
-      "schoolCode": "RSFAS",
-      "college": "CBE",
-      "position": "Senior Lecturer",
-      "focus": "Statistics",
-      "email": "See ANU profile",
-      "office": "Research School of Finance, Actuarial Studies and Statistics",
-      "profileUrl": "https://rsfas.anu.edu.au/people/luca-maestrini",
-      "tags": [
-        "rsfas",
-        "statistics"
-      ],
-      "linkedCourses": [],
-      "reviewMetrics": [
-        "Clarity",
-        "Support",
-        "Engagement"
-      ]
-    },
-    {
-      "id": "nhan-le",
-      "type": "academic",
-      "name": "Dr Nhan Le",
-      "school": "Research School of Finance, Actuarial Studies and Statistics",
-      "schoolCode": "RSFAS",
-      "college": "CBE",
-      "position": "Senior Lecturer",
-      "focus": "Finance",
-      "email": "See ANU profile",
-      "office": "Research School of Finance, Actuarial Studies and Statistics",
-      "profileUrl": "https://rsfas.anu.edu.au/people/nhan-le",
-      "tags": [
-        "rsfas",
-        "finance"
-      ],
-      "linkedCourses": [],
-      "reviewMetrics": [
-        "Clarity",
-        "Support",
-        "Engagement"
-      ]
-    },
-    {
-      "id": "priya-dev",
-      "type": "academic",
-      "name": "Dr Priya Dev",
-      "school": "Research School of Finance, Actuarial Studies and Statistics",
-      "schoolCode": "RSFAS",
-      "college": "CBE",
-      "position": "Lecturer",
-      "focus": "Statistics",
-      "email": "See ANU profile",
-      "office": "Research School of Finance, Actuarial Studies and Statistics",
-      "profileUrl": "https://rsfas.anu.edu.au/people/priya-dev",
-      "tags": [
-        "rsfas",
-        "statistics"
-      ],
-      "linkedCourses": [],
-      "reviewMetrics": [
-        "Clarity",
-        "Support",
-        "Engagement"
-      ]
-    },
-    {
-      "id": "qiaoqiao-zhu",
-      "type": "academic",
-      "name": "Dr Qiaoqiao Zhu",
-      "school": "Research School of Finance, Actuarial Studies and Statistics",
-      "schoolCode": "RSFAS",
-      "college": "CBE",
-      "position": "Lecturer",
-      "focus": "Finance",
-      "email": "See ANU profile",
-      "office": "Research School of Finance, Actuarial Studies and Statistics",
-      "profileUrl": "https://rsfas.anu.edu.au/people/qiaoqiao-zhu",
-      "tags": [
-        "rsfas",
-        "finance"
-      ],
-      "linkedCourses": [],
-      "reviewMetrics": [
-        "Clarity",
-        "Support",
-        "Engagement"
-      ]
-    },
-    {
-      "id": "shasta-shakya",
-      "type": "academic",
-      "name": "Dr Shasta Shakya",
-      "school": "Research School of Finance, Actuarial Studies and Statistics",
-      "schoolCode": "RSFAS",
-      "college": "CBE",
-      "position": "Senior Lecturer",
-      "focus": "Finance",
-      "email": "See ANU profile",
-      "office": "Research School of Finance, Actuarial Studies and Statistics",
-      "profileUrl": "https://rsfas.anu.edu.au/people/shasta-shakya",
-      "tags": [
-        "rsfas",
-        "finance"
-      ],
-      "linkedCourses": [],
-      "reviewMetrics": [
-        "Clarity",
-        "Support",
-        "Engagement"
-      ]
-    },
-    {
-      "id": "tianyao-terry-zhang",
-      "type": "academic",
-      "name": "Dr Tianyao (Terry) Zhang",
-      "school": "Research School of Finance, Actuarial Studies and Statistics",
-      "schoolCode": "RSFAS",
-      "college": "CBE",
-      "position": "Senior Lecturer",
-      "focus": "Finance",
-      "email": "See ANU profile",
-      "office": "Research School of Finance, Actuarial Studies and Statistics",
-      "profileUrl": "https://rsfas.anu.edu.au/people/tianyao-terry-zhang",
-      "tags": [
-        "rsfas",
-        "finance"
-      ],
-      "linkedCourses": [],
-      "reviewMetrics": [
-        "Clarity",
-        "Support",
-        "Engagement"
-      ]
-    },
-    {
-      "id": "xuan-liang",
-      "type": "academic",
-      "name": "Dr Xuan Liang",
-      "school": "Research School of Finance, Actuarial Studies and Statistics",
-      "schoolCode": "RSFAS",
-      "college": "CBE",
-      "position": "Lecturer",
-      "focus": "Statistics",
-      "email": "See ANU profile",
-      "office": "Research School of Finance, Actuarial Studies and Statistics",
-      "profileUrl": "https://rsfas.anu.edu.au/people/xuan-liang",
-      "tags": [
-        "rsfas",
-        "statistics"
-      ],
-      "linkedCourses": [],
-      "reviewMetrics": [
-        "Clarity",
-        "Support",
-        "Engagement"
-      ]
-    },
-    {
-      "id": "yichao-zhu",
-      "type": "academic",
-      "name": "Dr Yichao Zhu",
-      "school": "Research School of Finance, Actuarial Studies and Statistics",
-      "schoolCode": "RSFAS",
-      "college": "CBE",
-      "position": "Senior Lecturer",
-      "focus": "Finance",
-      "email": "See ANU profile",
-      "office": "Research School of Finance, Actuarial Studies and Statistics",
-      "profileUrl": "https://rsfas.anu.edu.au/people/yichao-zhu",
-      "tags": [
-        "rsfas",
-        "finance"
-      ],
-      "linkedCourses": [],
-      "reviewMetrics": [
-        "Clarity",
-        "Support",
-        "Engagement"
-      ]
-    },
-    {
-      "id": "yuan-gao",
-      "type": "academic",
-      "name": "Dr Yuan Gao",
-      "school": "Research School of Finance, Actuarial Studies and Statistics",
-      "schoolCode": "RSFAS",
-      "college": "CBE",
-      "position": "Associate Lecturer",
-      "focus": "Statistics",
-      "email": "See ANU profile",
-      "office": "Research School of Finance, Actuarial Studies and Statistics",
-      "profileUrl": "https://rsfas.anu.edu.au/people/yuan-gao",
-      "tags": [
-        "rsfas",
-        "statistics"
-      ],
-      "linkedCourses": [],
-      "reviewMetrics": [
-        "Clarity",
-        "Support",
-        "Engagement"
-      ]
-    },
-    {
-      "id": "mohammed-abdullah-al-mamun",
-      "type": "academic",
-      "name": "Mohammed Abdullah Al Mamun",
-      "school": "Research School of Finance, Actuarial Studies and Statistics",
-      "schoolCode": "RSFAS",
-      "college": "CBE",
-      "position": "Lecturer",
-      "focus": "Finance",
-      "email": "See ANU profile",
-      "office": "Research School of Finance, Actuarial Studies and Statistics",
-      "profileUrl": "https://rsfas.anu.edu.au/people/mohammed-abdullah-al-mamun",
-      "tags": [
-        "rsfas",
-        "finance"
-      ],
-      "linkedCourses": [],
-      "reviewMetrics": [
-        "Clarity",
-        "Support",
-        "Engagement"
-      ]
-    },
-    {
-      "id": "abhinav-mehta",
-      "type": "academic",
-      "name": "Mr Abhinav Mehta",
-      "school": "Research School of Finance, Actuarial Studies and Statistics",
-      "schoolCode": "RSFAS",
-      "college": "CBE",
-      "position": "Associate Lecturer",
-      "focus": "Research School of Finance, Actuarial Studies and Statistics",
-      "email": "See ANU profile",
-      "office": "Research School of Finance, Actuarial Studies and Statistics",
-      "profileUrl": "https://rsfas.anu.edu.au/people/abhinav-mehta",
-      "tags": [
-        "rsfas"
-      ],
-      "linkedCourses": [],
-      "reviewMetrics": [
-        "Clarity",
-        "Support",
-        "Engagement"
-      ]
-    },
-    {
-      "id": "ning-wang",
-      "type": "academic",
-      "name": "Ning Wang",
-      "school": "Research School of Finance, Actuarial Studies and Statistics",
-      "schoolCode": "RSFAS",
-      "college": "CBE",
-      "position": "Lecturer",
-      "focus": "Actuarial studies",
-      "email": "See ANU profile",
-      "office": "Research School of Finance, Actuarial Studies and Statistics",
-      "profileUrl": "https://rsfas.anu.edu.au/people/ning-wang",
-      "tags": [
-        "rsfas",
-        "actuarial studies"
-      ],
-      "linkedCourses": [],
-      "reviewMetrics": [
-        "Clarity",
-        "Support",
-        "Engagement"
-      ]
-    },
-    {
-      "id": "alan-welsh",
-      "type": "academic",
-      "name": "Professor Alan Welsh",
-      "school": "Research School of Finance, Actuarial Studies and Statistics",
-      "schoolCode": "RSFAS",
-      "college": "CBE",
-      "position": "E.J. Hannan Professor of Statistics",
-      "focus": "Statistics",
-      "email": "See ANU profile",
-      "office": "Research School of Finance, Actuarial Studies and Statistics",
-      "profileUrl": "https://rsfas.anu.edu.au/people/alan-welsh",
-      "tags": [
-        "rsfas",
-        "statistics"
-      ],
-      "linkedCourses": [],
-      "reviewMetrics": [
-        "Clarity",
-        "Support",
-        "Engagement"
-      ]
-    },
-    {
-      "id": "andrew-wood",
-      "type": "academic",
-      "name": "Professor Andrew Wood",
-      "school": "Research School of Finance, Actuarial Studies and Statistics",
-      "schoolCode": "RSFAS",
-      "college": "CBE",
-      "position": "Professor",
-      "focus": "Statistics",
-      "email": "See ANU profile",
-      "office": "Research School of Finance, Actuarial Studies and Statistics",
-      "profileUrl": "https://rsfas.anu.edu.au/people/andrew-wood",
-      "tags": [
-        "rsfas",
-        "statistics"
-      ],
-      "linkedCourses": [],
-      "reviewMetrics": [
-        "Clarity",
-        "Support",
-        "Engagement"
-      ]
-    },
-    {
-      "id": "antje-berndt",
-      "type": "academic",
-      "name": "Professor Antje Berndt",
-      "school": "Research School of Finance, Actuarial Studies and Statistics",
-      "schoolCode": "RSFAS",
-      "college": "CBE",
-      "position": "Professor",
-      "focus": "Finance",
-      "email": "See ANU profile",
-      "office": "Research School of Finance, Actuarial Studies and Statistics",
-      "profileUrl": "https://rsfas.anu.edu.au/people/antje-berndt",
-      "tags": [
-        "rsfas",
-        "finance"
-      ],
-      "linkedCourses": [],
-      "reviewMetrics": [
-        "Clarity",
-        "Support",
-        "Engagement"
-      ]
-    },
-    {
-      "id": "emma-schultz",
-      "type": "academic",
-      "name": "Professor Emma Schultz",
-      "school": "Research School of Finance, Actuarial Studies and Statistics",
-      "schoolCode": "RSFAS",
-      "college": "CBE",
-      "position": "Professor",
-      "focus": "Finance",
-      "email": "See ANU profile",
-      "office": "Research School of Finance, Actuarial Studies and Statistics",
-      "profileUrl": "https://rsfas.anu.edu.au/people/emma-schultz",
-      "tags": [
-        "rsfas",
-        "finance"
-      ],
-      "linkedCourses": [],
-      "reviewMetrics": [
-        "Clarity",
-        "Support",
-        "Engagement"
-      ]
-    },
-    {
-      "id": "eric-stone",
-      "type": "academic",
-      "name": "Professor Eric Stone",
-      "school": "Research School of Finance, Actuarial Studies and Statistics",
-      "schoolCode": "RSFAS",
-      "college": "CBE",
-      "position": "Professor (Biology and RSFAS)",
-      "focus": "Statistics",
-      "email": "See ANU profile",
-      "office": "Research School of Finance, Actuarial Studies and Statistics",
-      "profileUrl": "https://rsfas.anu.edu.au/people/eric-stone",
-      "tags": [
-        "rsfas",
-        "statistics"
-      ],
-      "linkedCourses": [],
-      "reviewMetrics": [
-        "Clarity",
-        "Support",
-        "Engagement"
-      ]
-    },
-    {
-      "id": "giles-hooker",
-      "type": "academic",
-      "name": "Professor Giles Hooker",
-      "school": "Research School of Finance, Actuarial Studies and Statistics",
-      "schoolCode": "RSFAS",
-      "college": "CBE",
-      "position": "Professor",
-      "focus": "Research School of Finance, Actuarial Studies and Statistics",
-      "email": "See ANU profile",
-      "office": "Research School of Finance, Actuarial Studies and Statistics",
-      "profileUrl": "https://rsfas.anu.edu.au/people/giles-hooker",
-      "tags": [
-        "rsfas"
-      ],
-      "linkedCourses": [],
-      "reviewMetrics": [
-        "Clarity",
-        "Support",
-        "Engagement"
-      ]
-    },
-    {
-      "id": "michael-martin",
-      "type": "academic",
-      "name": "Professor Michael Martin",
-      "school": "Research School of Finance, Actuarial Studies and Statistics",
-      "schoolCode": "RSFAS",
-      "college": "CBE",
-      "position": "Professor",
-      "focus": "Statistics",
-      "email": "See ANU profile",
-      "office": "Research School of Finance, Actuarial Studies and Statistics",
-      "profileUrl": "https://rsfas.anu.edu.au/people/michael-martin",
-      "tags": [
-        "rsfas",
-        "statistics"
-      ],
-      "linkedCourses": [],
-      "reviewMetrics": [
-        "Clarity",
-        "Support",
-        "Engagement"
-      ]
-    },
-    {
-      "id": "steve-sault",
-      "type": "academic",
-      "name": "Professor Steve Sault",
-      "school": "Research School of Finance, Actuarial Studies and Statistics",
-      "schoolCode": "RSFAS",
-      "college": "CBE",
-      "position": "Director, Research School of Finance, Actuarial Studies and Statistics",
-      "focus": "Finance",
-      "email": "See ANU profile",
-      "office": "Research School of Finance, Actuarial Studies and Statistics",
-      "profileUrl": "https://rsfas.anu.edu.au/people/steve-sault",
-      "tags": [
-        "rsfas",
-        "finance"
-      ],
-      "linkedCourses": [],
-      "reviewMetrics": [
-        "Clarity",
-        "Support",
-        "Engagement"
-      ]
-    },
-    {
-      "id": "steven-roberts",
-      "type": "academic",
-      "name": "Professor Steven Roberts",
-      "school": "Research School of Finance, Actuarial Studies and Statistics",
-      "schoolCode": "RSFAS",
-      "college": "CBE",
-      "position": "Dean",
-      "focus": "Statistics",
-      "email": "See ANU profile",
-      "office": "Research School of Finance, Actuarial Studies and Statistics",
-      "profileUrl": "https://rsfas.anu.edu.au/people/steven-roberts",
-      "tags": [
-        "rsfas",
-        "statistics"
-      ],
-      "linkedCourses": [],
-      "reviewMetrics": [
-        "Clarity",
-        "Support",
-        "Engagement"
-      ]
-    },
-    {
-      "id": "takeshi-yamada",
-      "type": "academic",
-      "name": "Professor Takeshi Yamada",
-      "school": "Research School of Finance, Actuarial Studies and Statistics",
-      "schoolCode": "RSFAS",
-      "college": "CBE",
-      "position": "Professor, Head of Finance",
-      "focus": "Finance",
-      "email": "See ANU profile",
-      "office": "Research School of Finance, Actuarial Studies and Statistics",
-      "profileUrl": "https://rsfas.anu.edu.au/people/takeshi-yamada",
-      "tags": [
-        "rsfas",
-        "finance"
-      ],
-      "linkedCourses": [],
-      "reviewMetrics": [
-        "Clarity",
-        "Support",
-        "Engagement"
-      ]
-    },
-    {
-      "id": "quan-vu",
-      "type": "academic",
-      "name": "Quan Vu",
-      "school": "Research School of Finance, Actuarial Studies and Statistics",
-      "schoolCode": "RSFAS",
-      "college": "CBE",
-      "position": "Postdoctoral Fellow",
-      "focus": "Statistics",
-      "email": "See ANU profile",
-      "office": "Research School of Finance, Actuarial Studies and Statistics",
-      "profileUrl": "https://rsfas.anu.edu.au/people/quan-vu",
-      "tags": [
-        "rsfas",
-        "statistics"
-      ],
-      "linkedCourses": [],
-      "reviewMetrics": [
-        "Clarity",
-        "Support",
-        "Engagement"
-      ]
-    },
-    {
-      "id": "sumonkanti-das",
-      "type": "academic",
-      "name": "Sumonkanti Das",
-      "school": "Research School of Finance, Actuarial Studies and Statistics",
-      "schoolCode": "RSFAS",
-      "college": "CBE",
-      "position": "Postdoctoral Fellow",
-      "focus": "Statistics",
-      "email": "See ANU profile",
-      "office": "Research School of Finance, Actuarial Studies and Statistics",
-      "profileUrl": "https://rsfas.anu.edu.au/people/sumonkanti-das",
-      "tags": [
-        "rsfas",
-        "statistics"
-      ],
-      "linkedCourses": [],
-      "reviewMetrics": [
-        "Clarity",
-        "Support",
-        "Engagement"
-      ]
-    },
-    {
-      "id": "william-lim",
-      "type": "academic",
-      "name": "William Lim",
-      "school": "Research School of Finance, Actuarial Studies and Statistics",
-      "schoolCode": "RSFAS",
-      "college": "CBE",
-      "position": "Lecturer",
-      "focus": "Actuarial studies",
-      "email": "See ANU profile",
-      "office": "Research School of Finance, Actuarial Studies and Statistics",
-      "profileUrl": "https://rsfas.anu.edu.au/people/william-lim",
-      "tags": [
-        "rsfas",
-        "actuarial studies"
-      ],
-      "linkedCourses": [],
-      "reviewMetrics": [
-        "Clarity",
-        "Support",
-        "Engagement"
-      ]
-    },
-    {
-      "id": "zhi-yang-tho",
-      "type": "academic",
-      "name": "Zhi Yang Tho",
-      "school": "Research School of Finance, Actuarial Studies and Statistics",
-      "schoolCode": "RSFAS",
-      "college": "CBE",
-      "position": "Postdoctoral Fellow",
-      "focus": "Statistics",
-      "email": "See ANU profile",
-      "office": "Research School of Finance, Actuarial Studies and Statistics",
-      "profileUrl": "https://rsfas.anu.edu.au/people/zhi-yang-tho",
-      "tags": [
-        "rsfas",
-        "statistics"
+        "law",
+        "asian law commercial and corpora"
       ],
       "linkedCourses": [],
       "reviewMetrics": [
@@ -3418,1253 +308,20 @@ window.ANREVIEW_DATA = {
       ]
     },
     {
-      "id": "alessandra-capezio",
+      "id": "about",
       "type": "academic",
-      "name": "Associate Professor Alessandra Capezio",
-      "school": "Research School of Management",
-      "schoolCode": "RSM",
-      "college": "CBE",
-      "position": "Associate Professor",
-      "focus": "Business & business administration, Human resource management, Management, Organisational behaviour",
-      "email": "See ANU profile",
-      "office": "Research School of Management",
-      "profileUrl": "https://rsm.anu.edu.au/people/alessandra-capezio",
+      "name": "Alia Parker",
+      "school": "School of Art & Design",
+      "schoolCode": "CASS",
+      "college": "CASS",
+      "position": "Lecturer, School of Art & Design",
+      "focus": "School of Art & Design",
+      "email": "Alia.Parker@anu.edu.au",
+      "office": "School of Art & Design",
+      "profileUrl": "https://www.aliajaneparker.com/about",
       "tags": [
-        "rsm",
-        "business & business administrati",
-        "human resource management",
-        "management"
-      ],
-      "linkedCourses": [],
-      "reviewMetrics": [
-        "Clarity",
-        "Support",
-        "Engagement"
-      ]
-    },
-    {
-      "id": "alex-richardson",
-      "type": "academic",
-      "name": "Associate Professor Alex Richardson",
-      "school": "Research School of Management",
-      "schoolCode": "RSM",
-      "college": "CBE",
-      "position": "Associate Professor &amp; Deputy Director - Education",
-      "focus": "Business & business administration, Business information systems, Commerce, Management",
-      "email": "See ANU profile",
-      "office": "Research School of Management",
-      "profileUrl": "https://rsm.anu.edu.au/people/alex-richardson",
-      "tags": [
-        "rsm",
-        "business & business administrati",
-        "business information systems",
-        "commerce"
-      ],
-      "linkedCourses": [],
-      "reviewMetrics": [
-        "Clarity",
-        "Support",
-        "Engagement"
-      ]
-    },
-    {
-      "id": "alexander-eapen",
-      "type": "academic",
-      "name": "Associate Professor Alexander Eapen",
-      "school": "Research School of Management",
-      "schoolCode": "RSM",
-      "college": "CBE",
-      "position": "Associate Professor",
-      "focus": "International business, Management, Strategy",
-      "email": "See ANU profile",
-      "office": "Research School of Management",
-      "profileUrl": "https://rsm.anu.edu.au/people/alexander-eapen",
-      "tags": [
-        "rsm",
-        "international business",
-        "management",
-        "strategy"
-      ],
-      "linkedCourses": [],
-      "reviewMetrics": [
-        "Clarity",
-        "Support",
-        "Engagement"
-      ]
-    },
-    {
-      "id": "ashkan-zarghami",
-      "type": "academic",
-      "name": "Associate Professor Ashkan Zarghami",
-      "school": "Research School of Management",
-      "schoolCode": "RSM",
-      "college": "CBE",
-      "position": "Deputy Director - Research",
-      "focus": "Project management",
-      "email": "See ANU profile",
-      "office": "Research School of Management",
-      "profileUrl": "https://rsm.anu.edu.au/people/ashkan-zarghami",
-      "tags": [
-        "rsm",
-        "project management"
-      ],
-      "linkedCourses": [],
-      "reviewMetrics": [
-        "Clarity",
-        "Support",
-        "Engagement"
-      ]
-    },
-    {
-      "id": "birgit-muskat",
-      "type": "academic",
-      "name": "Associate Professor Birgit Muskat",
-      "school": "Research School of Management",
-      "schoolCode": "RSM",
-      "college": "CBE",
-      "position": "Associate Professor",
-      "focus": "Entrepreneurship, Innovation, Management, Social entrepreneurship, Tourism",
-      "email": "See ANU profile",
-      "office": "Research School of Management",
-      "profileUrl": "https://rsm.anu.edu.au/people/birgit-muskat",
-      "tags": [
-        "rsm",
-        "entrepreneurship",
-        "innovation",
-        "management"
-      ],
-      "linkedCourses": [],
-      "reviewMetrics": [
-        "Clarity",
-        "Support",
-        "Engagement"
-      ]
-    },
-    {
-      "id": "david-cheng",
-      "type": "academic",
-      "name": "Associate Professor David Cheng",
-      "school": "Research School of Management",
-      "schoolCode": "RSM",
-      "college": "CBE",
-      "position": "Associate Professor",
-      "focus": "Business & business administration, Human resource management, Leadership, Management, Organisational behaviour",
-      "email": "See ANU profile",
-      "office": "Research School of Management",
-      "profileUrl": "https://rsm.anu.edu.au/people/david-cheng",
-      "tags": [
-        "rsm",
-        "business & business administrati",
-        "human resource management",
-        "leadership"
-      ],
-      "linkedCourses": [],
-      "reviewMetrics": [
-        "Clarity",
-        "Support",
-        "Engagement"
-      ]
-    },
-    {
-      "id": "patrick-jn-lespoir-decosta",
-      "type": "academic",
-      "name": "Associate Professor Patrick J.N. L'Espoir Decosta",
-      "school": "Research School of Management",
-      "schoolCode": "RSM",
-      "college": "CBE",
-      "position": "Associate Professor",
-      "focus": "Business & business administration, International business, Management, Marketing, Strategy, Tourism",
-      "email": "See ANU profile",
-      "office": "Research School of Management",
-      "profileUrl": "https://rsm.anu.edu.au/people/patrick-jn-lespoir-decosta",
-      "tags": [
-        "rsm",
-        "business & business administrati",
-        "international business",
-        "management"
-      ],
-      "linkedCourses": [],
-      "reviewMetrics": [
-        "Clarity",
-        "Support",
-        "Engagement"
-      ]
-    },
-    {
-      "id": "pierre-van-der-eng",
-      "type": "academic",
-      "name": "Associate Professor Pierre van der Eng",
-      "school": "Research School of Management",
-      "schoolCode": "RSM",
-      "college": "CBE",
-      "position": "Associate Professor and Reader",
-      "focus": "Business & business administration, Economic history, Economics, International business, Management, Strategy",
-      "email": "See ANU profile",
-      "office": "Research School of Management",
-      "profileUrl": "https://rsm.anu.edu.au/people/pierre-van-der-eng",
-      "tags": [
-        "rsm",
-        "business & business administrati",
-        "economic history",
-        "economics"
-      ],
-      "linkedCourses": [],
-      "reviewMetrics": [
-        "Clarity",
-        "Support",
-        "Engagement"
-      ]
-    },
-    {
-      "id": "thomas-kalliath",
-      "type": "academic",
-      "name": "Associate Professor Thomas Kalliath",
-      "school": "Research School of Management",
-      "schoolCode": "RSM",
-      "college": "CBE",
-      "position": "Honorary Associate Professor",
-      "focus": "Management",
-      "email": "See ANU profile",
-      "office": "Research School of Management",
-      "profileUrl": "https://rsm.anu.edu.au/people/thomas-kalliath",
-      "tags": [
-        "rsm",
-        "management"
-      ],
-      "linkedCourses": [],
-      "reviewMetrics": [
-        "Clarity",
-        "Support",
-        "Engagement"
-      ]
-    },
-    {
-      "id": "ey-eun-young-song",
-      "type": "academic",
-      "name": "Dr \"EY\" Eun Young Song",
-      "school": "Research School of Management",
-      "schoolCode": "RSM",
-      "college": "CBE",
-      "position": "Lecturer in organization studies",
-      "focus": "Econometrics, Economic history, Organisation studies, Strategy",
-      "email": "See ANU profile",
-      "office": "Research School of Management",
-      "profileUrl": "https://rsm.anu.edu.au/people/ey-eun-young-song",
-      "tags": [
-        "rsm",
-        "econometrics",
-        "economic history",
-        "organisation studies"
-      ],
-      "linkedCourses": [],
-      "reviewMetrics": [
-        "Clarity",
-        "Support",
-        "Engagement"
-      ]
-    },
-    {
-      "id": "alicia-gilchrist",
-      "type": "academic",
-      "name": "Dr Alicia Gilchrist",
-      "school": "Research School of Management",
-      "schoolCode": "RSM",
-      "college": "CBE",
-      "position": "Lecturer",
-      "focus": "Organisational behaviour, Project management",
-      "email": "See ANU profile",
-      "office": "Research School of Management",
-      "profileUrl": "https://rsm.anu.edu.au/people/alicia-gilchrist",
-      "tags": [
-        "rsm",
-        "organisational behaviour",
-        "project management"
-      ],
-      "linkedCourses": [],
-      "reviewMetrics": [
-        "Clarity",
-        "Support",
-        "Engagement"
-      ]
-    },
-    {
-      "id": "amir-riaz",
-      "type": "academic",
-      "name": "Dr Amir Riaz",
-      "school": "Research School of Management",
-      "schoolCode": "RSM",
-      "college": "CBE",
-      "position": "Lecturer",
-      "focus": "Business information systems",
-      "email": "See ANU profile",
-      "office": "Research School of Management",
-      "profileUrl": "https://rsm.anu.edu.au/people/amir-riaz",
-      "tags": [
-        "rsm",
-        "business information systems"
-      ],
-      "linkedCourses": [],
-      "reviewMetrics": [
-        "Clarity",
-        "Support",
-        "Engagement"
-      ]
-    },
-    {
-      "id": "andrew-bradly",
-      "type": "academic",
-      "name": "Dr Andrew Bradly",
-      "school": "Research School of Management",
-      "schoolCode": "RSM",
-      "college": "CBE",
-      "position": "Senior Lecturer in International Business",
-      "focus": "Business & business administration, Corporate social responsibility, International business, Management",
-      "email": "See ANU profile",
-      "office": "Research School of Management",
-      "profileUrl": "https://rsm.anu.edu.au/people/andrew-bradly",
-      "tags": [
-        "rsm",
-        "business & business administrati",
-        "corporate social responsibility",
-        "international business"
-      ],
-      "linkedCourses": [],
-      "reviewMetrics": [
-        "Clarity",
-        "Support",
-        "Engagement"
-      ]
-    },
-    {
-      "id": "andrew-hughes",
-      "type": "academic",
-      "name": "Dr Andrew Hughes",
-      "school": "Research School of Management",
-      "schoolCode": "RSM",
-      "college": "CBE",
-      "position": "Lecturer",
-      "focus": "Management, Marketing",
-      "email": "See ANU profile",
-      "office": "Research School of Management",
-      "profileUrl": "https://rsm.anu.edu.au/people/andrew-hughes",
-      "tags": [
-        "rsm",
-        "management",
-        "marketing"
-      ],
-      "linkedCourses": [],
-      "reviewMetrics": [
-        "Clarity",
-        "Support",
-        "Engagement"
-      ]
-    },
-    {
-      "id": "anna-hartman",
-      "type": "academic",
-      "name": "Dr Anna Hartman",
-      "school": "Research School of Management",
-      "schoolCode": "RSM",
-      "college": "CBE",
-      "position": "Lecturer",
-      "focus": "Commerce, Entrepreneurship, Management, Marketing",
-      "email": "See ANU profile",
-      "office": "Research School of Management",
-      "profileUrl": "https://rsm.anu.edu.au/people/anna-hartman",
-      "tags": [
-        "rsm",
-        "commerce",
-        "entrepreneurship",
-        "management"
-      ],
-      "linkedCourses": [],
-      "reviewMetrics": [
-        "Clarity",
-        "Support",
-        "Engagement"
-      ]
-    },
-    {
-      "id": "babita-bhatt",
-      "type": "academic",
-      "name": "Dr Babita Bhatt",
-      "school": "Research School of Management",
-      "schoolCode": "RSM",
-      "college": "CBE",
-      "position": "Senior Lecturer",
-      "focus": "Entrepreneurship, Innovation, International business, Management, Organisation studies, Social entrepreneurship",
-      "email": "See ANU profile",
-      "office": "Research School of Management",
-      "profileUrl": "https://rsm.anu.edu.au/people/babita-bhatt",
-      "tags": [
-        "rsm",
-        "entrepreneurship",
-        "innovation",
-        "international business"
-      ],
-      "linkedCourses": [],
-      "reviewMetrics": [
-        "Clarity",
-        "Support",
-        "Engagement"
-      ]
-    },
-    {
-      "id": "chao-ma",
-      "type": "academic",
-      "name": "Dr Chao Ma",
-      "school": "Research School of Management",
-      "schoolCode": "RSM",
-      "college": "CBE",
-      "position": "Honorary Associate Professor",
-      "focus": "Business & business administration, Human resource management, Leadership, Management",
-      "email": "See ANU profile",
-      "office": "Research School of Management",
-      "profileUrl": "https://rsm.anu.edu.au/people/chao-ma",
-      "tags": [
-        "rsm",
-        "business & business administrati",
-        "human resource management",
-        "leadership"
-      ],
-      "linkedCourses": [],
-      "reviewMetrics": [
-        "Clarity",
-        "Support",
-        "Engagement"
-      ]
-    },
-    {
-      "id": "chirag-kasbekar",
-      "type": "academic",
-      "name": "Dr Chirag Kasbekar",
-      "school": "Research School of Management",
-      "schoolCode": "RSM",
-      "college": "CBE",
-      "position": "Lecturer",
-      "focus": "Entrepreneurship, Innovation, International business, Strategy",
-      "email": "See ANU profile",
-      "office": "Research School of Management",
-      "profileUrl": "https://rsm.anu.edu.au/people/chirag-kasbekar",
-      "tags": [
-        "rsm",
-        "entrepreneurship",
-        "innovation",
-        "international business"
-      ],
-      "linkedCourses": [],
-      "reviewMetrics": [
-        "Clarity",
-        "Support",
-        "Engagement"
-      ]
-    },
-    {
-      "id": "gary-buttriss",
-      "type": "academic",
-      "name": "Dr Gary Buttriss",
-      "school": "Research School of Management",
-      "schoolCode": "RSM",
-      "college": "CBE",
-      "position": "Honorary Senior Lecturer",
-      "focus": "Corporate social responsibility, Corporate sustainability, Entrepreneurship, Innovation, International business, Management, Marketing, Organisational behaviour",
-      "email": "See ANU profile",
-      "office": "Research School of Management",
-      "profileUrl": "https://rsm.anu.edu.au/people/gary-buttriss",
-      "tags": [
-        "rsm",
-        "corporate social responsibility",
-        "corporate sustainability",
-        "entrepreneurship"
-      ],
-      "linkedCourses": [],
-      "reviewMetrics": [
-        "Clarity",
-        "Support",
-        "Engagement"
-      ]
-    },
-    {
-      "id": "hongbo-guo",
-      "type": "academic",
-      "name": "Dr Hongbo Guo",
-      "school": "Research School of Management",
-      "schoolCode": "RSM",
-      "college": "CBE",
-      "position": "Postdoctoral Research Fellow",
-      "focus": "Research School of Management",
-      "email": "See ANU profile",
-      "office": "Research School of Management",
-      "profileUrl": "https://rsm.anu.edu.au/people/hongbo-guo",
-      "tags": [
-        "rsm"
-      ],
-      "linkedCourses": [],
-      "reviewMetrics": [
-        "Clarity",
-        "Support",
-        "Engagement"
-      ]
-    },
-    {
-      "id": "karryna-madison",
-      "type": "academic",
-      "name": "Dr Karryna Madison",
-      "school": "Research School of Management",
-      "schoolCode": "RSM",
-      "college": "CBE",
-      "position": "Lecturer in Leadership",
-      "focus": "Leadership",
-      "email": "See ANU profile",
-      "office": "Research School of Management",
-      "profileUrl": "https://rsm.anu.edu.au/people/karryna-madison",
-      "tags": [
-        "rsm",
-        "leadership"
-      ],
-      "linkedCourses": [],
-      "reviewMetrics": [
-        "Clarity",
-        "Support",
-        "Engagement"
-      ]
-    },
-    {
-      "id": "katerina-kormusheva",
-      "type": "academic",
-      "name": "Dr Katerina Kormusheva",
-      "school": "Research School of Management",
-      "schoolCode": "RSM",
-      "college": "CBE",
-      "position": "Lecturer and course convenor",
-      "focus": "Business information systems, Entrepreneurship, Innovation, Marketing, Strategy",
-      "email": "See ANU profile",
-      "office": "Research School of Management",
-      "profileUrl": "https://rsm.anu.edu.au/people/katerina-kormusheva",
-      "tags": [
-        "rsm",
-        "business information systems",
-        "entrepreneurship",
-        "innovation"
-      ],
-      "linkedCourses": [],
-      "reviewMetrics": [
-        "Clarity",
-        "Support",
-        "Engagement"
-      ]
-    },
-    {
-      "id": "kimin-eom",
-      "type": "academic",
-      "name": "Dr Kimin Eom",
-      "school": "Research School of Management",
-      "schoolCode": "RSM",
-      "college": "CBE",
-      "position": "Senior Lecturer &amp; HDR convenor",
-      "focus": "Corporate social responsibility, Corporate sustainability, Management, Organisational behaviour",
-      "email": "See ANU profile",
-      "office": "Research School of Management",
-      "profileUrl": "https://rsm.anu.edu.au/people/kimin-eom",
-      "tags": [
-        "rsm",
-        "corporate social responsibility",
-        "corporate sustainability",
-        "management"
-      ],
-      "linkedCourses": [],
-      "reviewMetrics": [
-        "Clarity",
-        "Support",
-        "Engagement"
-      ]
-    },
-    {
-      "id": "mark-buschgens",
-      "type": "academic",
-      "name": "Dr Mark Buschgens",
-      "school": "Research School of Management",
-      "schoolCode": "RSM",
-      "college": "CBE",
-      "position": "Lecturer",
-      "focus": "Marketing",
-      "email": "See ANU profile",
-      "office": "Research School of Management",
-      "profileUrl": "https://rsm.anu.edu.au/people/mark-buschgens",
-      "tags": [
-        "rsm",
-        "marketing"
-      ],
-      "linkedCourses": [],
-      "reviewMetrics": [
-        "Clarity",
-        "Support",
-        "Engagement"
-      ]
-    },
-    {
-      "id": "nabila-nisha",
-      "type": "academic",
-      "name": "Dr Nabila Nisha",
-      "school": "Research School of Management",
-      "schoolCode": "RSM",
-      "college": "CBE",
-      "position": "Lecturer",
-      "focus": "Marketing",
-      "email": "See ANU profile",
-      "office": "Research School of Management",
-      "profileUrl": "https://rsm.anu.edu.au/people/nabila-nisha",
-      "tags": [
-        "rsm",
-        "marketing"
-      ],
-      "linkedCourses": [],
-      "reviewMetrics": [
-        "Clarity",
-        "Support",
-        "Engagement"
-      ]
-    },
-    {
-      "id": "nghia-tran",
-      "type": "academic",
-      "name": "Dr Nghia Tran",
-      "school": "Research School of Management",
-      "schoolCode": "RSM",
-      "college": "CBE",
-      "position": "Lecturer",
-      "focus": "Business & business administration, Economics, Human resource management, Management, Project management",
-      "email": "See ANU profile",
-      "office": "Research School of Management",
-      "profileUrl": "https://rsm.anu.edu.au/people/nghia-tran",
-      "tags": [
-        "rsm",
-        "business & business administrati",
-        "economics",
-        "human resource management"
-      ],
-      "linkedCourses": [],
-      "reviewMetrics": [
-        "Clarity",
-        "Support",
-        "Engagement"
-      ]
-    },
-    {
-      "id": "nico-klenner",
-      "type": "academic",
-      "name": "Dr Nico Klenner",
-      "school": "Research School of Management",
-      "schoolCode": "RSM",
-      "college": "CBE",
-      "position": "Lecturer in Innovation &amp; Entrepreneurship",
-      "focus": "Entrepreneurship, Innovation, Management, Organisation studies",
-      "email": "See ANU profile",
-      "office": "Research School of Management",
-      "profileUrl": "https://rsm.anu.edu.au/people/nico-klenner",
-      "tags": [
-        "rsm",
-        "entrepreneurship",
-        "innovation",
-        "management"
-      ],
-      "linkedCourses": [],
-      "reviewMetrics": [
-        "Clarity",
-        "Support",
-        "Engagement"
-      ]
-    },
-    {
-      "id": "priya-muthukannan",
-      "type": "academic",
-      "name": "Dr Priya Muthukannan",
-      "school": "Research School of Management",
-      "schoolCode": "RSM",
-      "college": "CBE",
-      "position": "Lecturer",
-      "focus": "Business information systems",
-      "email": "See ANU profile",
-      "office": "Research School of Management",
-      "profileUrl": "https://rsm.anu.edu.au/people/priya-muthukannan",
-      "tags": [
-        "rsm",
-        "business information systems"
-      ],
-      "linkedCourses": [],
-      "reviewMetrics": [
-        "Clarity",
-        "Support",
-        "Engagement"
-      ]
-    },
-    {
-      "id": "sally-curtis",
-      "type": "academic",
-      "name": "Dr Sally Curtis",
-      "school": "Research School of Management",
-      "schoolCode": "RSM",
-      "college": "CBE",
-      "position": "Lecturer",
-      "focus": "Corporate social responsibility, Leadership, Management, Organisation studies, Social entrepreneurship",
-      "email": "See ANU profile",
-      "office": "Research School of Management",
-      "profileUrl": "https://rsm.anu.edu.au/people/sally-curtis",
-      "tags": [
-        "rsm",
-        "corporate social responsibility",
-        "leadership",
-        "management"
-      ],
-      "linkedCourses": [],
-      "reviewMetrics": [
-        "Clarity",
-        "Support",
-        "Engagement"
-      ]
-    },
-    {
-      "id": "samira-nazar",
-      "type": "academic",
-      "name": "Dr Samira Nazar",
-      "school": "Research School of Management",
-      "schoolCode": "RSM",
-      "college": "CBE",
-      "position": "Lecturer in Entrepreneurship",
-      "focus": "Entrepreneurship, Innovation",
-      "email": "See ANU profile",
-      "office": "Research School of Management",
-      "profileUrl": "https://rsm.anu.edu.au/people/samira-nazar",
-      "tags": [
-        "rsm",
-        "entrepreneurship",
-        "innovation"
-      ],
-      "linkedCourses": [],
-      "reviewMetrics": [
-        "Clarity",
-        "Support",
-        "Engagement"
-      ]
-    },
-    {
-      "id": "sarini-azizan",
-      "type": "academic",
-      "name": "Dr Sarini Azizan",
-      "school": "Research School of Management",
-      "schoolCode": "RSM",
-      "college": "CBE",
-      "position": "Lecturer in Business Management",
-      "focus": "Research School of Management",
-      "email": "See ANU profile",
-      "office": "Research School of Management",
-      "profileUrl": "https://rsm.anu.edu.au/people/sarini-azizan",
-      "tags": [
-        "rsm"
-      ],
-      "linkedCourses": [],
-      "reviewMetrics": [
-        "Clarity",
-        "Support",
-        "Engagement"
-      ]
-    },
-    {
-      "id": "silviana-tana",
-      "type": "academic",
-      "name": "Dr Silviana Tana",
-      "school": "Research School of Management",
-      "schoolCode": "RSM",
-      "college": "CBE",
-      "position": "Lecturer",
-      "focus": "Business information systems",
-      "email": "See ANU profile",
-      "office": "Research School of Management",
-      "profileUrl": "https://rsm.anu.edu.au/people/silviana-tana",
-      "tags": [
-        "rsm",
-        "business information systems"
-      ],
-      "linkedCourses": [],
-      "reviewMetrics": [
-        "Clarity",
-        "Support",
-        "Engagement"
-      ]
-    },
-    {
-      "id": "stephen-dann",
-      "type": "academic",
-      "name": "Dr Stephen Dann",
-      "school": "Research School of Management",
-      "schoolCode": "RSM",
-      "college": "CBE",
-      "position": "Marketing",
-      "focus": "Research School of Management",
-      "email": "See ANU profile",
-      "office": "Research School of Management",
-      "profileUrl": "https://rsm.anu.edu.au/people/stephen-dann",
-      "tags": [
-        "rsm"
-      ],
-      "linkedCourses": [],
-      "reviewMetrics": [
-        "Clarity",
-        "Support",
-        "Engagement"
-      ]
-    },
-    {
-      "id": "toni-eagar",
-      "type": "academic",
-      "name": "Dr Toni Eagar",
-      "school": "Research School of Management",
-      "schoolCode": "RSM",
-      "college": "CBE",
-      "position": "Senior Lecturer",
-      "focus": "Marketing, Tourism",
-      "email": "See ANU profile",
-      "office": "Research School of Management",
-      "profileUrl": "https://rsm.anu.edu.au/people/toni-eagar",
-      "tags": [
-        "rsm",
-        "marketing",
-        "tourism"
-      ],
-      "linkedCourses": [],
-      "reviewMetrics": [
-        "Clarity",
-        "Support",
-        "Engagement"
-      ]
-    },
-    {
-      "id": "masoud-afshari-mofrad",
-      "type": "academic",
-      "name": "Masoud Afshari Mofrad",
-      "school": "Research School of Management",
-      "schoolCode": "RSM",
-      "college": "CBE",
-      "position": "Postdoctoral Fellow",
-      "focus": "Research School of Management",
-      "email": "See ANU profile",
-      "office": "Research School of Management",
-      "profileUrl": "https://rsm.anu.edu.au/people/masoud-afshari-mofrad",
-      "tags": [
-        "rsm"
-      ],
-      "linkedCourses": [],
-      "reviewMetrics": [
-        "Clarity",
-        "Support",
-        "Engagement"
-      ]
-    },
-    {
-      "id": "devin-clementi",
-      "type": "academic",
-      "name": "Mr Devin Clementi",
-      "school": "Research School of Management",
-      "schoolCode": "RSM",
-      "college": "CBE",
-      "position": "Lecturer",
-      "focus": "Business information systems, Project management",
-      "email": "See ANU profile",
-      "office": "Research School of Management",
-      "profileUrl": "https://rsm.anu.edu.au/people/devin-clementi",
-      "tags": [
-        "rsm",
-        "business information systems",
-        "project management"
-      ],
-      "linkedCourses": [],
-      "reviewMetrics": [
-        "Clarity",
-        "Support",
-        "Engagement"
-      ]
-    },
-    {
-      "id": "edward-russell",
-      "type": "academic",
-      "name": "Mr Edward Russell",
-      "school": "Research School of Management",
-      "schoolCode": "RSM",
-      "college": "CBE",
-      "position": "Senior Lecturer",
-      "focus": "Business information systems, International business, Management, Project management, Strategy",
-      "email": "See ANU profile",
-      "office": "Research School of Management",
-      "profileUrl": "https://rsm.anu.edu.au/people/edward-russell",
-      "tags": [
-        "rsm",
-        "business information systems",
-        "international business",
-        "management"
-      ],
-      "linkedCourses": [],
-      "reviewMetrics": [
-        "Clarity",
-        "Support",
-        "Engagement"
-      ]
-    },
-    {
-      "id": "nguyenpaul-ngo",
-      "type": "academic",
-      "name": "Mr Nguyen(Paul) Ngo",
-      "school": "Research School of Management",
-      "schoolCode": "RSM",
-      "college": "CBE",
-      "position": "Associate Lecturer",
-      "focus": "Business & business administration, International business",
-      "email": "See ANU profile",
-      "office": "Research School of Management",
-      "profileUrl": "https://rsm.anu.edu.au/people/nguyenpaul-ngo",
-      "tags": [
-        "rsm",
-        "business & business administrati",
-        "international business"
-      ],
-      "linkedCourses": [],
-      "reviewMetrics": [
-        "Clarity",
-        "Support",
-        "Engagement"
-      ]
-    },
-    {
-      "id": "nick-wang",
-      "type": "academic",
-      "name": "Nick Wang",
-      "school": "Research School of Management",
-      "schoolCode": "RSM",
-      "college": "CBE",
-      "position": "Honorary Associate Professor",
-      "focus": "Entrepreneurship, Leadership, Management, Organisational behaviour",
-      "email": "See ANU profile",
-      "office": "Research School of Management",
-      "profileUrl": "https://rsm.anu.edu.au/people/nick-wang",
-      "tags": [
-        "rsm",
-        "entrepreneurship",
-        "leadership",
-        "management"
-      ],
-      "linkedCourses": [],
-      "reviewMetrics": [
-        "Clarity",
-        "Support",
-        "Engagement"
-      ]
-    },
-    {
-      "id": "des-nicholls",
-      "type": "academic",
-      "name": "Professor Des Nicholls",
-      "school": "Research School of Management",
-      "schoolCode": "RSM",
-      "college": "CBE",
-      "position": "Emeritus Professor",
-      "focus": "Business & business administration, Management, Marketing, Statistics",
-      "email": "See ANU profile",
-      "office": "Research School of Management",
-      "profileUrl": "https://rsm.anu.edu.au/people/des-nicholls",
-      "tags": [
-        "rsm",
-        "business & business administrati",
-        "management",
-        "marketing"
-      ],
-      "linkedCourses": [],
-      "reviewMetrics": [
-        "Clarity",
-        "Support",
-        "Engagement"
-      ]
-    },
-    {
-      "id": "giles-hirst",
-      "type": "academic",
-      "name": "Professor Giles Hirst",
-      "school": "Research School of Management",
-      "schoolCode": "RSM",
-      "college": "CBE",
-      "position": "Professor of Leadership",
-      "focus": "Innovation, Leadership, Organisational behaviour",
-      "email": "See ANU profile",
-      "office": "Research School of Management",
-      "profileUrl": "https://rsm.anu.edu.au/people/giles-hirst",
-      "tags": [
-        "rsm",
-        "innovation",
-        "leadership",
-        "organisational behaviour"
-      ],
-      "linkedCourses": [],
-      "reviewMetrics": [
-        "Clarity",
-        "Support",
-        "Engagement"
-      ]
-    },
-    {
-      "id": "israr-qureshi",
-      "type": "academic",
-      "name": "Professor Israr Qureshi",
-      "school": "Research School of Management",
-      "schoolCode": "RSM",
-      "college": "CBE",
-      "position": "Professor",
-      "focus": "Entrepreneurship",
-      "email": "See ANU profile",
-      "office": "Research School of Management",
-      "profileUrl": "https://rsm.anu.edu.au/people/israr-qureshi",
-      "tags": [
-        "rsm",
-        "entrepreneurship"
-      ],
-      "linkedCourses": [],
-      "reviewMetrics": [
-        "Clarity",
-        "Support",
-        "Engagement"
-      ]
-    },
-    {
-      "id": "lin-cui",
-      "type": "academic",
-      "name": "Professor Lin Cui",
-      "school": "Research School of Management",
-      "schoolCode": "RSM",
-      "college": "CBE",
-      "position": "Professor",
-      "focus": "International business, Management, Strategy",
-      "email": "See ANU profile",
-      "office": "Research School of Management",
-      "profileUrl": "https://rsm.anu.edu.au/people/lin-cui",
-      "tags": [
-        "rsm",
-        "international business",
-        "management",
-        "strategy"
-      ],
-      "linkedCourses": [],
-      "reviewMetrics": [
-        "Clarity",
-        "Support",
-        "Engagement"
-      ]
-    },
-    {
-      "id": "michael-lounsbury",
-      "type": "academic",
-      "name": "Professor Michael Lounsbury",
-      "school": "Research School of Management",
-      "schoolCode": "RSM",
-      "college": "CBE",
-      "position": "Professor",
-      "focus": "Entrepreneurship, Innovation, Management, Organisation studies, Social entrepreneurship",
-      "email": "See ANU profile",
-      "office": "Research School of Management",
-      "profileUrl": "https://rsm.anu.edu.au/people/michael-lounsbury",
-      "tags": [
-        "rsm",
-        "entrepreneurship",
-        "innovation",
-        "management"
-      ],
-      "linkedCourses": [],
-      "reviewMetrics": [
-        "Clarity",
-        "Support",
-        "Engagement"
-      ]
-    },
-    {
-      "id": "ofer-zwikael",
-      "type": "academic",
-      "name": "Professor Ofer Zwikael",
-      "school": "Research School of Management",
-      "schoolCode": "RSM",
-      "college": "CBE",
-      "position": "Professor",
-      "focus": "Project management",
-      "email": "See ANU profile",
-      "office": "Research School of Management",
-      "profileUrl": "https://rsm.anu.edu.au/people/ofer-zwikael",
-      "tags": [
-        "rsm",
-        "project management"
-      ],
-      "linkedCourses": [],
-      "reviewMetrics": [
-        "Clarity",
-        "Support",
-        "Engagement"
-      ]
-    },
-    {
-      "id": "prashant-bordia",
-      "type": "academic",
-      "name": "Professor Prashant Bordia",
-      "school": "Research School of Management",
-      "schoolCode": "RSM",
-      "college": "CBE",
-      "position": "Professor",
-      "focus": "Human resource management, Management, Organisational behaviour",
-      "email": "See ANU profile",
-      "office": "Research School of Management",
-      "profileUrl": "https://rsm.anu.edu.au/people/prashant-bordia",
-      "tags": [
-        "rsm",
-        "human resource management",
-        "management",
-        "organisational behaviour"
-      ],
-      "linkedCourses": [],
-      "reviewMetrics": [
-        "Clarity",
-        "Support",
-        "Engagement"
-      ]
-    },
-    {
-      "id": "sarbari-bordia",
-      "type": "academic",
-      "name": "Professor Sarbari Bordia",
-      "school": "Research School of Management",
-      "schoolCode": "RSM",
-      "college": "CBE",
-      "position": "Professor",
-      "focus": "International business, Management, Organisational behaviour",
-      "email": "See ANU profile",
-      "office": "Research School of Management",
-      "profileUrl": "https://rsm.anu.edu.au/people/sarbari-bordia",
-      "tags": [
-        "rsm",
-        "international business",
-        "management",
-        "organisational behaviour"
-      ],
-      "linkedCourses": [],
-      "reviewMetrics": [
-        "Clarity",
-        "Support",
-        "Engagement"
-      ]
-    },
-    {
-      "id": "shirley-gregor",
-      "type": "academic",
-      "name": "Professor Shirley Gregor",
-      "school": "Research School of Management",
-      "schoolCode": "RSM",
-      "college": "CBE",
-      "position": "Professor Emerita",
-      "focus": "Business information systems",
-      "email": "See ANU profile",
-      "office": "Research School of Management",
-      "profileUrl": "https://rsm.anu.edu.au/people/shirley-gregor",
-      "tags": [
-        "rsm",
-        "business information systems"
-      ],
-      "linkedCourses": [],
-      "reviewMetrics": [
-        "Clarity",
-        "Support",
-        "Engagement"
-      ]
-    },
-    {
-      "id": "sigi-goode",
-      "type": "academic",
-      "name": "Professor Sigi Goode",
-      "school": "Research School of Management",
-      "schoolCode": "RSM",
-      "college": "CBE",
-      "position": "Professor",
-      "focus": "Business information systems, Project management",
-      "email": "See ANU profile",
-      "office": "Research School of Management",
-      "profileUrl": "https://rsm.anu.edu.au/people/sigi-goode",
-      "tags": [
-        "rsm",
-        "business information systems",
-        "project management"
-      ],
-      "linkedCourses": [],
-      "reviewMetrics": [
-        "Clarity",
-        "Support",
-        "Engagement"
-      ]
-    },
-    {
-      "id": "vinh-lu",
-      "type": "academic",
-      "name": "Professor Vinh Lu",
-      "school": "Research School of Management",
-      "schoolCode": "RSM",
-      "college": "CBE",
-      "position": "Director - Research School of Management",
-      "focus": "Business & business administration, Commerce, International business, Management, Marketing",
-      "email": "See ANU profile",
-      "office": "Research School of Management",
-      "profileUrl": "https://rsm.anu.edu.au/people/vinh-lu",
-      "tags": [
-        "rsm",
-        "business & business administrati",
-        "commerce",
-        "international business"
-      ],
-      "linkedCourses": [],
-      "reviewMetrics": [
-        "Clarity",
-        "Support",
-        "Engagement"
-      ]
-    },
-    {
-      "id": "ying-yi-chih",
-      "type": "academic",
-      "name": "Professor Ying-Yi Chih",
-      "school": "Research School of Management",
-      "schoolCode": "RSM",
-      "college": "CBE",
-      "position": "Associate Dean (Students and Industry Experience)",
-      "focus": "Management, Project management",
-      "email": "See ANU profile",
-      "office": "Research School of Management",
-      "profileUrl": "https://rsm.anu.edu.au/people/ying-yi-chih",
-      "tags": [
-        "rsm",
-        "management",
-        "project management"
-      ],
-      "linkedCourses": [],
-      "reviewMetrics": [
-        "Clarity",
-        "Support",
-        "Engagement"
-      ]
-    },
-    {
-      "id": "akshaya-kamalnath",
-      "type": "academic",
-      "name": "Akshaya Kamalnath",
-      "school": "ANU Law School",
-      "schoolCode": "LAW",
-      "college": "ANU Law School",
-      "position": "Associate Professor",
-      "focus": "Asian Law Commercial and Corporate Law Comparative Law",
-      "email": "See ANU profile",
-      "office": "ANU Law School",
-      "profileUrl": "https://law.anu.edu.au/about/our-people/akshaya-kamalnath",
-      "tags": [
-        "law",
-        "asian law commercial and corpora"
+        "cass",
+        "school of art & design"
       ],
       "linkedCourses": [],
       "reviewMetrics": [
@@ -4859,6 +516,604 @@ window.ANREVIEW_DATA = {
       ]
     },
     {
+      "id": "cap-bell-f98f340d-4b70-49ee-bf8f-7664dce2c5b2",
+      "type": "academic",
+      "name": "AsPr Amy King",
+      "position": "Associate Professor",
+      "focus": "Strategic and Defence Studies Centre International Relations of East Asia Chinese foreign and security policy China-Japan relations (historical and contemporary)",
+      "school": "Coral Bell School of Asia Pacific Affairs",
+      "schoolCode": "BELL",
+      "college": "ANU College of Asia and the Pacific",
+      "profileUrl": "https://researchportalplus.anu.edu.au/en/persons/f98f340d-4b70-49ee-bf8f-7664dce2c5b2",
+      "email": "",
+      "office": "",
+      "linkedCourses": [],
+      "reviewMetrics": [
+        "Clarity",
+        "Support",
+        "Engagement"
+      ],
+      "tags": [
+        "bell",
+        "asia-pacific affairs"
+      ]
+    },
+    {
+      "id": "cap-bell-5fec22f8-b571-499f-9a95-951c34d7f5ed",
+      "type": "academic",
+      "name": "AsPr Anouk Ride",
+      "position": "Research Fellow",
+      "focus": "Government and Politics of Asia and the Pacific Climate change impacts and adaptation Humanitarian disasters, conflict and peacebuilding",
+      "school": "Coral Bell School of Asia Pacific Affairs",
+      "schoolCode": "BELL",
+      "college": "ANU College of Asia and the Pacific",
+      "profileUrl": "https://researchportalplus.anu.edu.au/en/persons/5fec22f8-b571-499f-9a95-951c34d7f5ed",
+      "email": "",
+      "office": "",
+      "linkedCourses": [],
+      "reviewMetrics": [
+        "Clarity",
+        "Support",
+        "Engagement"
+      ],
+      "tags": [
+        "bell",
+        "asia-pacific affairs"
+      ]
+    },
+    {
+      "id": "cap-bell-0037a0d5-c79d-471e-88b4-bcd26655d0e2",
+      "type": "academic",
+      "name": "AsPr Cecilia Jacob",
+      "position": "Associate Professor",
+      "focus": "Department of International Relations, Coral Bell School of Asia and the Pacific",
+      "school": "Coral Bell School of Asia Pacific Affairs",
+      "schoolCode": "BELL",
+      "college": "ANU College of Asia and the Pacific",
+      "profileUrl": "https://researchportalplus.anu.edu.au/en/persons/0037a0d5-c79d-471e-88b4-bcd26655d0e2",
+      "email": "",
+      "office": "",
+      "linkedCourses": [],
+      "reviewMetrics": [
+        "Clarity",
+        "Support",
+        "Engagement"
+      ],
+      "tags": [
+        "bell",
+        "asia-pacific affairs"
+      ]
+    },
+    {
+      "id": "cap-chl-06176270-280a-4ee5-bc44-c21233259919",
+      "type": "academic",
+      "name": "AsPr Christopher Ballard Senior",
+      "position": "Fellow",
+      "focus": "School of Culture, History & Language Societies Studies Of Pacific Peoples'",
+      "school": "School of Culture, History and Language",
+      "schoolCode": "CHL",
+      "college": "ANU College of Asia and the Pacific",
+      "profileUrl": "https://researchportalplus.anu.edu.au/en/persons/06176270-280a-4ee5-bc44-c21233259919",
+      "email": "",
+      "office": "",
+      "linkedCourses": [],
+      "reviewMetrics": [
+        "Clarity",
+        "Support",
+        "Engagement"
+      ],
+      "tags": [
+        "chl",
+        "asia-pacific"
+      ]
+    },
+    {
+      "id": "cap-bell-d01a6367-3614-4480-92f2-b3b40f5d7d34",
+      "type": "academic",
+      "name": "AsPr Colin Filer Development",
+      "position": "Academic",
+      "focus": "Environment and Resources Natural Resource Management",
+      "school": "Coral Bell School of Asia Pacific Affairs",
+      "schoolCode": "BELL",
+      "college": "ANU College of Asia and the Pacific",
+      "profileUrl": "https://researchportalplus.anu.edu.au/en/persons/d01a6367-3614-4480-92f2-b3b40f5d7d34",
+      "email": "",
+      "office": "",
+      "linkedCourses": [],
+      "reviewMetrics": [
+        "Clarity",
+        "Support",
+        "Engagement"
+      ],
+      "tags": [
+        "bell",
+        "asia-pacific affairs"
+      ]
+    },
+    {
+      "id": "cap-bell-c2666943-3ae6-45ce-9cc8-7d8ed0736814",
+      "type": "academic",
+      "name": "AsPr Colin Wiltshire",
+      "position": "Academic",
+      "focus": "Asia-Pacific affairs",
+      "school": "Coral Bell School of Asia Pacific Affairs",
+      "schoolCode": "BELL",
+      "college": "ANU College of Asia and the Pacific",
+      "profileUrl": "https://researchportalplus.anu.edu.au/en/persons/c2666943-3ae6-45ce-9cc8-7d8ed0736814",
+      "email": "",
+      "office": "",
+      "linkedCourses": [],
+      "reviewMetrics": [
+        "Clarity",
+        "Support",
+        "Engagement"
+      ],
+      "tags": [
+        "bell",
+        "asia-pacific affairs"
+      ]
+    },
+    {
+      "id": "cap-chl-2c22fd33-1930-4d79-a23c-e6421a74ee74",
+      "type": "academic",
+      "name": "AsPr Danielle Barth LINGUISTICS",
+      "position": "Academic",
+      "focus": "Linguistic Structures (incl. Grammar, Phonology, Lexicon, Semantics)",
+      "school": "School of Culture, History and Language",
+      "schoolCode": "CHL",
+      "college": "ANU College of Asia and the Pacific",
+      "profileUrl": "https://researchportalplus.anu.edu.au/en/persons/2c22fd33-1930-4d79-a23c-e6421a74ee74",
+      "email": "",
+      "office": "",
+      "linkedCourses": [],
+      "reviewMetrics": [
+        "Clarity",
+        "Support",
+        "Engagement"
+      ],
+      "tags": [
+        "chl",
+        "asia-pacific"
+      ]
+    },
+    {
+      "id": "cap-chl-21bb286a-3af6-42bd-8b0e-613edf904cb4",
+      "type": "academic",
+      "name": "AsPr Duck-Young Lee",
+      "position": "Associate Professor",
+      "focus": "School of Culture, History & Language Japanese Language Applied Linguistics and Educational Linguistics Discourse and Pragmatics",
+      "school": "School of Culture, History and Language",
+      "schoolCode": "CHL",
+      "college": "ANU College of Asia and the Pacific",
+      "profileUrl": "https://researchportalplus.anu.edu.au/en/persons/21bb286a-3af6-42bd-8b0e-613edf904cb4",
+      "email": "",
+      "office": "",
+      "linkedCourses": [],
+      "reviewMetrics": [
+        "Clarity",
+        "Support",
+        "Engagement"
+      ],
+      "tags": [
+        "chl",
+        "asia-pacific"
+      ]
+    },
+    {
+      "id": "cap-chl-c96605fe-09b9-4a03-abc5-be8b0ddca77a",
+      "type": "academic",
+      "name": "AsPr Eva Nisa A/Prof of Anthropology, ARC DECRA",
+      "position": "Fellow",
+      "focus": "Islamic Feminism Religious Studies Islamic Studies",
+      "school": "School of Culture, History and Language",
+      "schoolCode": "CHL",
+      "college": "ANU College of Asia and the Pacific",
+      "profileUrl": "https://researchportalplus.anu.edu.au/en/persons/c96605fe-09b9-4a03-abc5-be8b0ddca77a",
+      "email": "",
+      "office": "",
+      "linkedCourses": [],
+      "reviewMetrics": [
+        "Clarity",
+        "Support",
+        "Engagement"
+      ],
+      "tags": [
+        "chl",
+        "asia-pacific"
+      ]
+    },
+    {
+      "id": "cap-chl-fengyuan-ji",
+      "type": "academic",
+      "name": "AsPr Fengyuan Ji Language",
+      "position": "Academic",
+      "focus": "and Politics",
+      "school": "School of Culture, History and Language",
+      "schoolCode": "CHL",
+      "college": "ANU College of Asia and the Pacific",
+      "profileUrl": "https://researchportalplus.anu.edu.au/en/persons/fengyuan-ji",
+      "email": "",
+      "office": "",
+      "linkedCourses": [],
+      "reviewMetrics": [
+        "Clarity",
+        "Support",
+        "Engagement"
+      ],
+      "tags": [
+        "chl",
+        "asia-pacific"
+      ]
+    },
+    {
+      "id": "cap-bell-2fa37bd4-7ff2-43b0-93f1-aba2a9613621",
+      "type": "academic",
+      "name": "AsPr Graeme Smith Senior",
+      "position": "Fellow",
+      "focus": "Department of Pacific Affairs, Coral Bell School of Asia Pacific Affairs Studies of Asian Society Government and Politics of Asia and the Pacific POLITICAL SCIENCE",
+      "school": "Coral Bell School of Asia Pacific Affairs",
+      "schoolCode": "BELL",
+      "college": "ANU College of Asia and the Pacific",
+      "profileUrl": "https://researchportalplus.anu.edu.au/en/persons/2fa37bd4-7ff2-43b0-93f1-aba2a9613621",
+      "email": "",
+      "office": "",
+      "linkedCourses": [],
+      "reviewMetrics": [
+        "Clarity",
+        "Support",
+        "Engagement"
+      ],
+      "tags": [
+        "bell",
+        "asia-pacific affairs"
+      ]
+    },
+    {
+      "id": "cap-chl-0b3f2595-1fa4-4a9a-a481-12bf2d6fbc64",
+      "type": "academic",
+      "name": "AsPr Jane Ferguson Anthropology",
+      "position": "Academic",
+      "focus": "and Southeast Asian History, School of Culture, History & Language Social and Cultural Anthropology Asian Cultural Studies Air Transportation and Freight Services",
+      "school": "School of Culture, History and Language",
+      "schoolCode": "CHL",
+      "college": "ANU College of Asia and the Pacific",
+      "profileUrl": "https://researchportalplus.anu.edu.au/en/persons/0b3f2595-1fa4-4a9a-a481-12bf2d6fbc64",
+      "email": "",
+      "office": "",
+      "linkedCourses": [],
+      "reviewMetrics": [
+        "Clarity",
+        "Support",
+        "Engagement"
+      ],
+      "tags": [
+        "chl",
+        "asia-pacific"
+      ]
+    },
+    {
+      "id": "cap-chl-0a372982-d654-422c-b0f7-a8bbc61a74ff",
+      "type": "academic",
+      "name": "AsPr Janelle Stevenson",
+      "position": "Research Fellow",
+      "focus": "School of Culture, History & Language Palaeontology (incl. Palynology) Quaternary Environments Palaeoecology",
+      "school": "School of Culture, History and Language",
+      "schoolCode": "CHL",
+      "college": "ANU College of Asia and the Pacific",
+      "profileUrl": "https://researchportalplus.anu.edu.au/en/persons/0a372982-d654-422c-b0f7-a8bbc61a74ff",
+      "email": "",
+      "office": "",
+      "linkedCourses": [],
+      "reviewMetrics": [
+        "Clarity",
+        "Support",
+        "Engagement"
+      ],
+      "tags": [
+        "chl",
+        "asia-pacific"
+      ]
+    },
+    {
+      "id": "cap-bell-5b80c949-dbf4-465e-baa9-42e850003992",
+      "type": "academic",
+      "name": "AsPr Kerryn Baker",
+      "position": "Fellow",
+      "focus": "Department of Pacific Affairs",
+      "school": "Coral Bell School of Asia Pacific Affairs",
+      "schoolCode": "BELL",
+      "college": "ANU College of Asia and the Pacific",
+      "profileUrl": "https://researchportalplus.anu.edu.au/en/persons/5b80c949-dbf4-465e-baa9-42e850003992",
+      "email": "",
+      "office": "",
+      "linkedCourses": [],
+      "reviewMetrics": [
+        "Clarity",
+        "Support",
+        "Engagement"
+      ],
+      "tags": [
+        "bell",
+        "asia-pacific affairs"
+      ]
+    },
+    {
+      "id": "cap-bell-65de0ca4-a357-477b-9b0e-a304d459f941",
+      "type": "academic",
+      "name": "AsPr Mathew Davies",
+      "position": "Fellow",
+      "focus": "/ Senior Lecturer International Relations Government and Politics of Asia and the Pacific",
+      "school": "Coral Bell School of Asia Pacific Affairs",
+      "schoolCode": "BELL",
+      "college": "ANU College of Asia and the Pacific",
+      "profileUrl": "https://researchportalplus.anu.edu.au/en/persons/65de0ca4-a357-477b-9b0e-a304d459f941",
+      "email": "",
+      "office": "",
+      "linkedCourses": [],
+      "reviewMetrics": [
+        "Clarity",
+        "Support",
+        "Engagement"
+      ],
+      "tags": [
+        "bell",
+        "asia-pacific affairs"
+      ]
+    },
+    {
+      "id": "cap-chl-c8882751-8dbc-40e4-9735-7b7d6f96b6ce",
+      "type": "academic",
+      "name": "AsPr Meera Ashar",
+      "position": "Associate Professor",
+      "focus": "Asia and Pacific studies",
+      "school": "School of Culture, History and Language",
+      "schoolCode": "CHL",
+      "college": "ANU College of Asia and the Pacific",
+      "profileUrl": "https://researchportalplus.anu.edu.au/en/persons/c8882751-8dbc-40e4-9735-7b7d6f96b6ce",
+      "email": "",
+      "office": "",
+      "linkedCourses": [],
+      "reviewMetrics": [
+        "Clarity",
+        "Support",
+        "Engagement"
+      ],
+      "tags": [
+        "chl",
+        "asia-pacific"
+      ]
+    },
+    {
+      "id": "cap-chl-4b7883ce-123a-4663-a040-c71c55faeadc",
+      "type": "academic",
+      "name": "AsPr Peter Friedlander Associate-",
+      "position": "Professor",
+      "focus": "Reader in Hindi RELIGION AND RELIGIOUS STUDIES LANGUAGE STUDIES Indian Languages",
+      "school": "School of Culture, History and Language",
+      "schoolCode": "CHL",
+      "college": "ANU College of Asia and the Pacific",
+      "profileUrl": "https://researchportalplus.anu.edu.au/en/persons/4b7883ce-123a-4663-a040-c71c55faeadc",
+      "email": "",
+      "office": "",
+      "linkedCourses": [],
+      "reviewMetrics": [
+        "Clarity",
+        "Support",
+        "Engagement"
+      ],
+      "tags": [
+        "chl",
+        "asia-pacific"
+      ]
+    },
+    {
+      "id": "cap-chl-945df4de-be3f-4226-ace5-f4c20091578f",
+      "type": "academic",
+      "name": "AsPr Raymond Tobler",
+      "position": "Academic",
+      "focus": "Asia and Pacific studies",
+      "school": "School of Culture, History and Language",
+      "schoolCode": "CHL",
+      "college": "ANU College of Asia and the Pacific",
+      "profileUrl": "https://researchportalplus.anu.edu.au/en/persons/945df4de-be3f-4226-ace5-f4c20091578f",
+      "email": "",
+      "office": "",
+      "linkedCourses": [],
+      "reviewMetrics": [
+        "Clarity",
+        "Support",
+        "Engagement"
+      ],
+      "tags": [
+        "chl",
+        "asia-pacific"
+      ]
+    },
+    {
+      "id": "cap-chl-b00668c3-f711-4796-83c8-a69bc6930c0e",
+      "type": "academic",
+      "name": "AsPr Ronit Ricci School",
+      "position": "Academic",
+      "focus": "of Culture, History & Language HISTORICAL STUDIES Islamic Studies Translation and Interpretation Studies",
+      "school": "School of Culture, History and Language",
+      "schoolCode": "CHL",
+      "college": "ANU College of Asia and the Pacific",
+      "profileUrl": "https://researchportalplus.anu.edu.au/en/persons/b00668c3-f711-4796-83c8-a69bc6930c0e",
+      "email": "",
+      "office": "",
+      "linkedCourses": [],
+      "reviewMetrics": [
+        "Clarity",
+        "Support",
+        "Engagement"
+      ],
+      "tags": [
+        "chl",
+        "asia-pacific"
+      ]
+    },
+    {
+      "id": "cap-chl-95ae03d2-7c5a-4b4a-ae65-47f90a6585b6",
+      "type": "academic",
+      "name": "AsPr Shameem Black",
+      "position": "Head",
+      "focus": "Program in Gender, Media and Cultural Studies, School of Culture, History and Language India CULTURAL STUDIES Memory Studies",
+      "school": "School of Culture, History and Language",
+      "schoolCode": "CHL",
+      "college": "ANU College of Asia and the Pacific",
+      "profileUrl": "https://researchportalplus.anu.edu.au/en/persons/95ae03d2-7c5a-4b4a-ae65-47f90a6585b6",
+      "email": "",
+      "office": "",
+      "linkedCourses": [],
+      "reviewMetrics": [
+        "Clarity",
+        "Support",
+        "Engagement"
+      ],
+      "tags": [
+        "chl",
+        "asia-pacific"
+      ]
+    },
+    {
+      "id": "cap-chl-shengyu-fan",
+      "type": "academic",
+      "name": "AsPr Shengyu Fan",
+      "position": "Senior Lecturer",
+      "focus": "School of Culture, History & Language Classical Chinese Literature",
+      "school": "School of Culture, History and Language",
+      "schoolCode": "CHL",
+      "college": "ANU College of Asia and the Pacific",
+      "profileUrl": "https://researchportalplus.anu.edu.au/en/persons/shengyu-fan",
+      "email": "",
+      "office": "",
+      "linkedCourses": [],
+      "reviewMetrics": [
+        "Clarity",
+        "Support",
+        "Engagement"
+      ],
+      "tags": [
+        "chl",
+        "asia-pacific"
+      ]
+    },
+    {
+      "id": "cap-bell-b46e9235-8a7f-49f4-8ee7-914d16b23d35",
+      "type": "academic",
+      "name": "AsPr Sonia Palmieri",
+      "position": "Associate Professor",
+      "focus": "Applied Sociology, Program Evaluation and Social Impact Assessment Sociological Methodology and Research Methods Australian Government and Politics",
+      "school": "Coral Bell School of Asia Pacific Affairs",
+      "schoolCode": "BELL",
+      "college": "ANU College of Asia and the Pacific",
+      "profileUrl": "https://researchportalplus.anu.edu.au/en/persons/b46e9235-8a7f-49f4-8ee7-914d16b23d35",
+      "email": "",
+      "office": "",
+      "linkedCourses": [],
+      "reviewMetrics": [
+        "Clarity",
+        "Support",
+        "Engagement"
+      ],
+      "tags": [
+        "bell",
+        "asia-pacific affairs"
+      ]
+    },
+    {
+      "id": "cap-chl-2b00b999-2d81-429f-9c30-c684d76505e5",
+      "type": "academic",
+      "name": "AsPr Stuart Bedford",
+      "position": "Fellow",
+      "focus": "Archaeological Science Maori Archaeology Archaeology of New Guinea and Pacific Islands (excl. New Zealand)",
+      "school": "School of Culture, History and Language",
+      "schoolCode": "CHL",
+      "college": "ANU College of Asia and the Pacific",
+      "profileUrl": "https://researchportalplus.anu.edu.au/en/persons/2b00b999-2d81-429f-9c30-c684d76505e5",
+      "email": "",
+      "office": "",
+      "linkedCourses": [],
+      "reviewMetrics": [
+        "Clarity",
+        "Support",
+        "Engagement"
+      ],
+      "tags": [
+        "chl",
+        "asia-pacific"
+      ]
+    },
+    {
+      "id": "cap-chl-b9c5aafe-af6f-4237-bc55-f83451e6cfbb",
+      "type": "academic",
+      "name": "AsPr Tom Cliff",
+      "position": "Associate Professor",
+      "focus": "CHL Anthropology Ethnography Social Change Political economy",
+      "school": "School of Culture, History and Language",
+      "schoolCode": "CHL",
+      "college": "ANU College of Asia and the Pacific",
+      "profileUrl": "https://researchportalplus.anu.edu.au/en/persons/b9c5aafe-af6f-4237-bc55-f83451e6cfbb",
+      "email": "",
+      "office": "",
+      "linkedCourses": [],
+      "reviewMetrics": [
+        "Clarity",
+        "Support",
+        "Engagement"
+      ],
+      "tags": [
+        "chl",
+        "asia-pacific"
+      ]
+    },
+    {
+      "id": "cap-chl-c4bc62af-58f8-438f-abec-61329266886e",
+      "type": "academic",
+      "name": "AsPr Tomoko Akami",
+      "position": "Associate Professor (Reader)",
+      "focus": "School of Culture, History & Language Asian History Government and Politics of Asia and the Pacific Political Theory and Political Philosophy",
+      "school": "School of Culture, History and Language",
+      "schoolCode": "CHL",
+      "college": "ANU College of Asia and the Pacific",
+      "profileUrl": "https://researchportalplus.anu.edu.au/en/persons/c4bc62af-58f8-438f-abec-61329266886e",
+      "email": "",
+      "office": "",
+      "linkedCourses": [],
+      "reviewMetrics": [
+        "Clarity",
+        "Support",
+        "Engagement"
+      ],
+      "tags": [
+        "chl",
+        "asia-pacific"
+      ]
+    },
+    {
+      "id": "ashley-eriksmoen",
+      "type": "academic",
+      "name": "Ashley Eriksmoen",
+      "school": "ANU College of Arts and Social Sciences",
+      "schoolCode": "CASS",
+      "college": "CASS",
+      "position": "Senior Lecturer, Furniture",
+      "focus": "ANU College of Arts and Social Sciences",
+      "email": "ashley.eriksmoen@anu.edu.au",
+      "office": "ANU College of Arts and Social Sciences",
+      "profileUrl": "https://researchportalplus.anu.edu.au/en/persons/ashley-eriksmoen",
+      "tags": [
+        "cass",
+        "anu college of arts and social s"
+      ],
+      "linkedCourses": [],
+      "reviewMetrics": [
+        "Clarity",
+        "Support",
+        "Engagement"
+      ]
+    },
+    {
       "id": "asmi-wood",
       "type": "academic",
       "name": "Asmi Wood",
@@ -4873,6 +1128,1875 @@ window.ANREVIEW_DATA = {
       "tags": [
         "law",
         "australian indigenous rights con"
+      ],
+      "linkedCourses": [],
+      "reviewMetrics": [
+        "Clarity",
+        "Support",
+        "Engagement"
+      ]
+    },
+    {
+      "id": "aaron-bruhn",
+      "type": "academic",
+      "name": "Associate Professor Aaron Bruhn",
+      "school": "Research School of Finance, Actuarial Studies and Statistics",
+      "schoolCode": "RSFAS",
+      "college": "CBE",
+      "position": "Associate Professor",
+      "focus": "Actuarial studies",
+      "email": "See ANU profile",
+      "office": "Research School of Finance, Actuarial Studies and Statistics",
+      "profileUrl": "https://rsfas.anu.edu.au/people/aaron-bruhn",
+      "tags": [
+        "rsfas",
+        "actuarial studies"
+      ],
+      "linkedCourses": [],
+      "reviewMetrics": [
+        "Clarity",
+        "Support",
+        "Engagement"
+      ]
+    },
+    {
+      "id": "adam-butt",
+      "type": "academic",
+      "name": "Associate Professor Adam Butt",
+      "school": "Research School of Finance, Actuarial Studies and Statistics",
+      "schoolCode": "RSFAS",
+      "college": "CBE",
+      "position": "Associate Professor, Head of Actuarial Studies",
+      "focus": "Actuarial studies",
+      "email": "See ANU profile",
+      "office": "Research School of Finance, Actuarial Studies and Statistics",
+      "profileUrl": "https://rsfas.anu.edu.au/people/adam-butt",
+      "tags": [
+        "rsfas",
+        "actuarial studies"
+      ],
+      "linkedCourses": [],
+      "reviewMetrics": [
+        "Clarity",
+        "Support",
+        "Engagement"
+      ]
+    },
+    {
+      "id": "alastair-greig",
+      "type": "academic",
+      "name": "Associate Professor Alastair Greig",
+      "school": "School of Sociology",
+      "schoolCode": "CASS",
+      "college": "CASS",
+      "position": "Emeritus Fellow, School of Sociology",
+      "focus": "School of Sociology",
+      "email": "alastair.greig@anu.edu.au",
+      "office": "School of Sociology",
+      "profileUrl": "https://researchportalplus.anu.edu.au/en/persons/alastair-greig",
+      "tags": [
+        "cass",
+        "school of sociology"
+      ],
+      "linkedCourses": [],
+      "reviewMetrics": [
+        "Clarity",
+        "Support",
+        "Engagement"
+      ]
+    },
+    {
+      "id": "alessandra-capezio",
+      "type": "academic",
+      "name": "Associate Professor Alessandra Capezio",
+      "school": "Research School of Management",
+      "schoolCode": "RSM",
+      "college": "CBE",
+      "position": "Associate Professor",
+      "focus": "Business & business administration, Human resource management, Management, Organisational behaviour",
+      "email": "See ANU profile",
+      "office": "Research School of Management",
+      "profileUrl": "https://rsm.anu.edu.au/people/alessandra-capezio",
+      "tags": [
+        "rsm",
+        "business & business administrati",
+        "human resource management",
+        "management"
+      ],
+      "linkedCourses": [],
+      "reviewMetrics": [
+        "Clarity",
+        "Support",
+        "Engagement"
+      ]
+    },
+    {
+      "id": "alex-richardson",
+      "type": "academic",
+      "name": "Associate Professor Alex Richardson",
+      "school": "Research School of Management",
+      "schoolCode": "RSM",
+      "college": "CBE",
+      "position": "Associate Professor &amp; Deputy Director - Education",
+      "focus": "Business & business administration, Business information systems, Commerce, Management",
+      "email": "See ANU profile",
+      "office": "Research School of Management",
+      "profileUrl": "https://rsm.anu.edu.au/people/alex-richardson",
+      "tags": [
+        "rsm",
+        "business & business administrati",
+        "business information systems",
+        "commerce"
+      ],
+      "linkedCourses": [],
+      "reviewMetrics": [
+        "Clarity",
+        "Support",
+        "Engagement"
+      ]
+    },
+    {
+      "id": "alexander-eapen",
+      "type": "academic",
+      "name": "Associate Professor Alexander Eapen",
+      "school": "Research School of Management",
+      "schoolCode": "RSM",
+      "college": "CBE",
+      "position": "Associate Professor",
+      "focus": "International business, Management, Strategy",
+      "email": "See ANU profile",
+      "office": "Research School of Management",
+      "profileUrl": "https://rsm.anu.edu.au/people/alexander-eapen",
+      "tags": [
+        "rsm",
+        "international business",
+        "management",
+        "strategy"
+      ],
+      "linkedCourses": [],
+      "reviewMetrics": [
+        "Clarity",
+        "Support",
+        "Engagement"
+      ]
+    },
+    {
+      "id": "alder-aj",
+      "type": "academic",
+      "name": "Associate Professor Alison Alder",
+      "school": "ANU College of Arts and Social Sciences",
+      "schoolCode": "CASS",
+      "college": "CASS",
+      "position": "Honorary Associate Professor, Printmedia & Drawing",
+      "focus": "ANU College of Arts and Social Sciences",
+      "email": "alison.alder@anu.edu.au",
+      "office": "ANU College of Arts and Social Sciences",
+      "profileUrl": "https://researchers.anu.edu.au/researchers/alder-aj",
+      "tags": [
+        "cass",
+        "anu college of arts and social s"
+      ],
+      "linkedCourses": [],
+      "reviewMetrics": [
+        "Clarity",
+        "Support",
+        "Engagement"
+      ]
+    },
+    {
+      "id": "ashkan-zarghami",
+      "type": "academic",
+      "name": "Associate Professor Ashkan Zarghami",
+      "school": "Research School of Management",
+      "schoolCode": "RSM",
+      "college": "CBE",
+      "position": "Deputy Director - Research",
+      "focus": "Project management",
+      "email": "See ANU profile",
+      "office": "Research School of Management",
+      "profileUrl": "https://rsm.anu.edu.au/people/ashkan-zarghami",
+      "tags": [
+        "rsm",
+        "project management"
+      ],
+      "linkedCourses": [],
+      "reviewMetrics": [
+        "Clarity",
+        "Support",
+        "Engagement"
+      ]
+    },
+    {
+      "id": "ben-phillips",
+      "type": "academic",
+      "name": "Associate Professor Ben Phillips",
+      "school": "ANU College of Arts and Social Sciences",
+      "schoolCode": "CASS",
+      "college": "CASS",
+      "position": "Principal Research Fellow, Modelling Team",
+      "focus": "ANU College of Arts and Social Sciences",
+      "email": "ben.phillips@anu.edu.au",
+      "office": "ANU College of Arts and Social Sciences",
+      "profileUrl": "https://researchportalplus.anu.edu.au/en/persons/ben-phillips",
+      "tags": [
+        "cass",
+        "anu college of arts and social s"
+      ],
+      "linkedCourses": [],
+      "reviewMetrics": [
+        "Clarity",
+        "Support",
+        "Engagement"
+      ]
+    },
+    {
+      "id": "bernard-baffour",
+      "type": "academic",
+      "name": "Associate Professor Bernard Baffour",
+      "school": "School of Demography",
+      "schoolCode": "CASS",
+      "college": "CASS",
+      "position": "Associate Professor, School of Demography",
+      "focus": "School of Demography",
+      "email": "bernard.baffour@anu.edu.au",
+      "office": "School of Demography",
+      "profileUrl": "https://researchportalplus.anu.edu.au/en/persons/bernard-baffour",
+      "tags": [
+        "cass",
+        "school of demography"
+      ],
+      "linkedCourses": [],
+      "reviewMetrics": [
+        "Clarity",
+        "Support",
+        "Engagement"
+      ]
+    },
+    {
+      "id": "birgit-muskat",
+      "type": "academic",
+      "name": "Associate Professor Birgit Muskat",
+      "school": "Research School of Management",
+      "schoolCode": "RSM",
+      "college": "CBE",
+      "position": "Associate Professor",
+      "focus": "Entrepreneurship, Innovation, Management, Social entrepreneurship, Tourism",
+      "email": "See ANU profile",
+      "office": "Research School of Management",
+      "profileUrl": "https://rsm.anu.edu.au/people/birgit-muskat",
+      "tags": [
+        "rsm",
+        "entrepreneurship",
+        "innovation",
+        "management"
+      ],
+      "linkedCourses": [],
+      "reviewMetrics": [
+        "Clarity",
+        "Support",
+        "Engagement"
+      ]
+    },
+    {
+      "id": "bronwen-whiting",
+      "type": "academic",
+      "name": "Associate Professor Bronwen Whiting",
+      "school": "Research School of Finance, Actuarial Studies and Statistics",
+      "schoolCode": "RSFAS",
+      "college": "CBE",
+      "position": "Associate Professor in Statistics, Director - ANU Postgraduate Studies",
+      "focus": "Statistics",
+      "email": "See ANU profile",
+      "office": "Research School of Finance, Actuarial Studies and Statistics",
+      "profileUrl": "https://rsfas.anu.edu.au/people/bronwen-whiting",
+      "tags": [
+        "rsfas",
+        "statistics"
+      ],
+      "linkedCourses": [],
+      "reviewMetrics": [
+        "Clarity",
+        "Support",
+        "Engagement"
+      ]
+    },
+    {
+      "id": "bronwyn-finnigan",
+      "type": "academic",
+      "name": "Associate Professor Bronwyn Finnigan",
+      "school": "Centre for Moral",
+      "schoolCode": "CASS",
+      "college": "CASS",
+      "position": "Associate Professor, Centre for Moral, Social and Political Theory",
+      "focus": "Centre for Moral",
+      "email": "bronwyn.finnigan@anu.edu.au",
+      "office": "Centre for Moral",
+      "profileUrl": "https://researchportalplus.anu.edu.au/en/persons/bronwyn-finnigan",
+      "tags": [
+        "cass",
+        "centre for moral"
+      ],
+      "linkedCourses": [],
+      "reviewMetrics": [
+        "Clarity",
+        "Support",
+        "Engagement"
+      ]
+    },
+    {
+      "id": "carmel-oshannessy",
+      "type": "academic",
+      "name": "Associate Professor Carmel O'Shannessy",
+      "school": "School of Literature",
+      "schoolCode": "CASS",
+      "college": "CASS",
+      "position": "Senior Lecturer, Linguistics, School of Literature, Languages and Linguistics",
+      "focus": "Senior Lecturer, Linguistics, School of Literature, Languages and Linguistics, Associate Professor, Linguistics & Applied Linguistics",
+      "email": "Carmel.Oshannessy@anu.edu.au",
+      "office": "School of Literature",
+      "profileUrl": "https://researchportalplus.anu.edu.au/en/persons/carmel-oshannessy",
+      "tags": [
+        "cass",
+        "senior lecturer",
+        "linguistics",
+        "school of literature"
+      ],
+      "linkedCourses": [],
+      "reviewMetrics": [
+        "Clarity",
+        "Support",
+        "Engagement"
+      ]
+    },
+    {
+      "id": "caroline-schuster",
+      "type": "academic",
+      "name": "Associate Professor Caroline Schuster",
+      "school": "Development Studies",
+      "schoolCode": "CASS",
+      "college": "CASS",
+      "position": "Lecturer in Development Studies, Development Studies",
+      "focus": "Lecturer in Anthropology & Head of Discipline - Anthropology, Anthropology",
+      "email": "caroline.schuster@anu.edu.au",
+      "office": "Development Studies",
+      "profileUrl": "https://researchportalplus.anu.edu.au/en/persons/caroline-schuster",
+      "tags": [
+        "cass",
+        "lecturer in anthropology & head ",
+        "anthropology"
+      ],
+      "linkedCourses": [],
+      "reviewMetrics": [
+        "Clarity",
+        "Support",
+        "Engagement"
+      ]
+    },
+    {
+      "id": "cate-frieman",
+      "type": "academic",
+      "name": "Associate Professor Catherine J. Frieman",
+      "school": "ANU College of Arts and Social Sciences",
+      "schoolCode": "CASS",
+      "college": "CASS",
+      "position": "Senior Lecturer in Archaeology, Archaeology",
+      "focus": "ANU College of Arts and Social Sciences",
+      "email": "catherine.frieman@anu.edu.au",
+      "office": "ANU College of Arts and Social Sciences",
+      "profileUrl": "https://researchportalplus.anu.edu.au/en/persons/cate-frieman",
+      "tags": [
+        "cass",
+        "anu college of arts and social s"
+      ],
+      "linkedCourses": [],
+      "reviewMetrics": [
+        "Clarity",
+        "Support",
+        "Engagement"
+      ]
+    },
+    {
+      "id": "chaitanya-sambrani",
+      "type": "academic",
+      "name": "Associate Professor Chaitanya Sambrani",
+      "school": "Centre for Art History & Art Theory",
+      "schoolCode": "CASS",
+      "college": "CASS",
+      "position": "Associate Professor, Centre for Art History & Art Theory",
+      "focus": "Associate Professor, Centre for Art History & Art Theory",
+      "email": "chaitanya.sambrani@anu.edu.au",
+      "office": "Centre for Art History & Art Theory",
+      "profileUrl": "https://researchportalplus.anu.edu.au/en/persons/chaitanya-sambrani",
+      "tags": [
+        "cass",
+        "associate professor",
+        "centre for art history & art the"
+      ],
+      "linkedCourses": [],
+      "reviewMetrics": [
+        "Clarity",
+        "Support",
+        "Engagement"
+      ]
+    },
+    {
+      "id": "galloway-ck",
+      "type": "academic",
+      "name": "Associate Professor Charlotte Galloway",
+      "school": "School of Art & Design",
+      "schoolCode": "CASS",
+      "college": "CASS",
+      "position": "Honorary Associate Professor, School of Art & Design",
+      "focus": "School of Art & Design",
+      "email": "charlotte.galloway@anu.edu.au",
+      "office": "School of Art & Design",
+      "profileUrl": "https://researchers.anu.edu.au/researchers/galloway-ck",
+      "tags": [
+        "cass",
+        "school of art & design"
+      ],
+      "linkedCourses": [],
+      "reviewMetrics": [
+        "Clarity",
+        "Support",
+        "Engagement"
+      ]
+    },
+    {
+      "id": "christopher-ewing.html",
+      "type": "academic",
+      "name": "Associate Professor Christopher EWING",
+      "school": "ANU College of Arts and Social Sciences",
+      "schoolCode": "CASS",
+      "college": "CASS",
+      "position": "HRC/Freilich Visiting Fellow (Nov-Dec 2024), Freilich Project for the Study of Bigotry",
+      "focus": "ANU College of Arts and Social Sciences",
+      "email": "See ANU profile",
+      "office": "ANU College of Arts and Social Sciences",
+      "profileUrl": "https://www.cla.purdue.edu/directory/profiles/christopher-ewing.html",
+      "tags": [
+        "cass",
+        "anu college of arts and social s"
+      ],
+      "linkedCourses": [],
+      "reviewMetrics": [
+        "Clarity",
+        "Support",
+        "Engagement"
+      ]
+    },
+    {
+      "id": "chung-tran",
+      "type": "academic",
+      "name": "Associate Professor Chung Tran",
+      "school": "Research School of Economics",
+      "schoolCode": "RSE",
+      "college": "CBE",
+      "position": "Associate Professor",
+      "focus": "Economics",
+      "email": "See ANU profile",
+      "office": "Research School of Economics",
+      "profileUrl": "https://rse.anu.edu.au/people/chung-tran",
+      "tags": [
+        "rse",
+        "economics"
+      ],
+      "linkedCourses": [],
+      "reviewMetrics": [
+        "Clarity",
+        "Support",
+        "Engagement"
+      ]
+    },
+    {
+      "id": "collin-payne",
+      "type": "academic",
+      "name": "Associate Professor Collin Payne",
+      "school": "School of Demography",
+      "schoolCode": "CASS",
+      "college": "CASS",
+      "position": "ARC DECRA and Associate Professor, School of Demography",
+      "focus": "School of Demography",
+      "email": "collin.payne@anu.edu.au",
+      "office": "School of Demography",
+      "profileUrl": "https://researchportalplus.anu.edu.au/en/persons/collin-payne",
+      "tags": [
+        "cass",
+        "school of demography"
+      ],
+      "linkedCourses": [],
+      "reviewMetrics": [
+        "Clarity",
+        "Support",
+        "Engagement"
+      ]
+    },
+    {
+      "id": "dale-roberts",
+      "type": "academic",
+      "name": "Associate Professor Dale Roberts",
+      "school": "Research School of Finance, Actuarial Studies and Statistics",
+      "schoolCode": "RSFAS",
+      "college": "CBE",
+      "position": "Associate Professor",
+      "focus": "Statistics",
+      "email": "See ANU profile",
+      "office": "Research School of Finance, Actuarial Studies and Statistics",
+      "profileUrl": "https://rsfas.anu.edu.au/people/dale-roberts",
+      "tags": [
+        "rsfas",
+        "statistics"
+      ],
+      "linkedCourses": [],
+      "reviewMetrics": [
+        "Clarity",
+        "Support",
+        "Engagement"
+      ]
+    },
+    {
+      "id": "david-cheng",
+      "type": "academic",
+      "name": "Associate Professor David Cheng",
+      "school": "Research School of Management",
+      "schoolCode": "RSM",
+      "college": "CBE",
+      "position": "Associate Professor",
+      "focus": "Business & business administration, Human resource management, Leadership, Management, Organisational behaviour",
+      "email": "See ANU profile",
+      "office": "Research School of Management",
+      "profileUrl": "https://rsm.anu.edu.au/people/david-cheng",
+      "tags": [
+        "rsm",
+        "business & business administrati",
+        "human resource management",
+        "leadership"
+      ],
+      "linkedCourses": [],
+      "reviewMetrics": [
+        "Clarity",
+        "Support",
+        "Engagement"
+      ]
+    },
+    {
+      "id": "duncan-wright",
+      "type": "academic",
+      "name": "Associate Professor Duncan Wright",
+      "school": "ANU College of Arts and Social Sciences",
+      "schoolCode": "CASS",
+      "college": "CASS",
+      "position": "Associate Professor in Archaeology, Archaeology",
+      "focus": "ANU College of Arts and Social Sciences",
+      "email": "duncan.wright@anu.edu.au",
+      "office": "ANU College of Arts and Social Sciences",
+      "profileUrl": "https://researchportalplus.anu.edu.au/en/persons/duncan-wright",
+      "tags": [
+        "cass",
+        "anu college of arts and social s"
+      ],
+      "linkedCourses": [],
+      "reviewMetrics": [
+        "Clarity",
+        "Support",
+        "Engagement"
+      ]
+    },
+    {
+      "id": "elena-capatina",
+      "type": "academic",
+      "name": "Associate Professor Elena Capatina",
+      "school": "Research School of Economics",
+      "schoolCode": "RSE",
+      "college": "CBE",
+      "position": "Associate Professor",
+      "focus": "Economics",
+      "email": "See ANU profile",
+      "office": "Research School of Economics",
+      "profileUrl": "https://rse.anu.edu.au/people/elena-capatina",
+      "tags": [
+        "rse",
+        "economics"
+      ],
+      "linkedCourses": [],
+      "reviewMetrics": [
+        "Clarity",
+        "Support",
+        "Engagement"
+      ]
+    },
+    {
+      "id": "evan-calford",
+      "type": "academic",
+      "name": "Associate Professor Evan Calford",
+      "school": "Research School of Economics",
+      "schoolCode": "RSE",
+      "college": "CBE",
+      "position": "Associate Professor",
+      "focus": "Economics",
+      "email": "See ANU profile",
+      "office": "Research School of Economics",
+      "profileUrl": "https://rse.anu.edu.au/people/evan-calford",
+      "tags": [
+        "rse",
+        "economics"
+      ],
+      "linkedCourses": [],
+      "reviewMetrics": [
+        "Clarity",
+        "Support",
+        "Engagement"
+      ]
+    },
+    {
+      "id": "francesco-ricatti",
+      "type": "academic",
+      "name": "Associate Professor Francesco Ricatti",
+      "school": "Italian Studies",
+      "schoolCode": "CASS",
+      "college": "CASS",
+      "position": "Associate Professor, Italian Studies, School of Literature, Languages and Linguistics",
+      "focus": "Associate Professor, Italian Studies, School of Literature, Languages and Linguistics, Associate Professor, Languages",
+      "email": "Francesco.Ricatti@anu.edu.au",
+      "office": "Italian Studies",
+      "profileUrl": "https://researchportalplus.anu.edu.au/en/persons/francesco-ricatti",
+      "tags": [
+        "cass",
+        "associate professor",
+        "italian studies",
+        "school of literature"
+      ],
+      "linkedCourses": [],
+      "reviewMetrics": [
+        "Clarity",
+        "Support",
+        "Engagement"
+      ]
+    },
+    {
+      "id": "francis-hui",
+      "type": "academic",
+      "name": "Associate Professor Francis Hui",
+      "school": "Research School of Finance, Actuarial Studies and Statistics",
+      "schoolCode": "RSFAS",
+      "college": "CBE",
+      "position": "Associate Professor in Statistics",
+      "focus": "Statistics",
+      "email": "See ANU profile",
+      "office": "Research School of Finance, Actuarial Studies and Statistics",
+      "profileUrl": "https://rsfas.anu.edu.au/people/francis-hui",
+      "tags": [
+        "rsfas",
+        "statistics"
+      ],
+      "linkedCourses": [],
+      "reviewMetrics": [
+        "Clarity",
+        "Support",
+        "Engagement"
+      ]
+    },
+    {
+      "id": "gavin-smith",
+      "type": "academic",
+      "name": "Associate Professor Gavin Smith",
+      "school": "School of Sociology",
+      "schoolCode": "CASS",
+      "college": "CASS",
+      "position": "Head of School, Associate Professor, School of Sociology",
+      "focus": "School of Sociology",
+      "email": "gavin.smith@anu.edu.au",
+      "office": "School of Sociology",
+      "profileUrl": "https://researchportalplus.anu.edu.au/en/persons/gavin-smith",
+      "tags": [
+        "cass",
+        "school of sociology"
+      ],
+      "linkedCourses": [],
+      "reviewMetrics": [
+        "Clarity",
+        "Support",
+        "Engagement"
+      ]
+    },
+    {
+      "id": "grant-walton",
+      "type": "academic",
+      "name": "Associate Professor Grant Walton",
+      "school": "ANU College of Arts and Social Sciences",
+      "schoolCode": "CASS",
+      "college": "CASS",
+      "position": "Associate Professor, Transnational Research Institute on Corruption",
+      "focus": "ANU College of Arts and Social Sciences",
+      "email": "grant.walton@anu.edu.au",
+      "office": "ANU College of Arts and Social Sciences",
+      "profileUrl": "https://crawford.anu.edu.au/people/academic/grant-walton",
+      "tags": [
+        "cass",
+        "anu college of arts and social s"
+      ],
+      "linkedCourses": [],
+      "reviewMetrics": [
+        "Clarity",
+        "Support",
+        "Engagement"
+      ]
+    },
+    {
+      "id": "idione-meneghel",
+      "type": "academic",
+      "name": "Associate Professor Idione Meneghel",
+      "school": "Research School of Economics",
+      "schoolCode": "RSE",
+      "college": "CBE",
+      "position": "Associate Professor",
+      "focus": "Research School of Economics",
+      "email": "See ANU profile",
+      "office": "Research School of Economics",
+      "profileUrl": "https://rse.anu.edu.au/people/idione-meneghel",
+      "tags": [
+        "rse"
+      ],
+      "linkedCourses": [],
+      "reviewMetrics": [
+        "Clarity",
+        "Support",
+        "Engagement"
+      ]
+    },
+    {
+      "id": "jana-von-stein",
+      "type": "academic",
+      "name": "Associate Professor Jana von Stein",
+      "school": "School of Politics & International Relations",
+      "schoolCode": "CASS",
+      "college": "CASS",
+      "position": "Associate Professor, School of Politics & International Relations",
+      "focus": "School of Politics & International Relations",
+      "email": "Jana.Vonstein@anu.edu.au",
+      "office": "School of Politics & International Relations",
+      "profileUrl": "https://researchportalplus.anu.edu.au/en/persons/jana-von-stein",
+      "tags": [
+        "cass",
+        "school of politics & internation"
+      ],
+      "linkedCourses": [],
+      "reviewMetrics": [
+        "Clarity",
+        "Support",
+        "Engagement"
+      ]
+    },
+    {
+      "id": "janice-scealy",
+      "type": "academic",
+      "name": "Associate Professor Janice Scealy",
+      "school": "Research School of Finance, Actuarial Studies and Statistics",
+      "schoolCode": "RSFAS",
+      "college": "CBE",
+      "position": "Associate Professor",
+      "focus": "Statistics",
+      "email": "See ANU profile",
+      "office": "Research School of Finance, Actuarial Studies and Statistics",
+      "profileUrl": "https://rsfas.anu.edu.au/people/janice-scealy",
+      "tags": [
+        "rsfas",
+        "statistics"
+      ],
+      "linkedCourses": [],
+      "reviewMetrics": [
+        "Clarity",
+        "Support",
+        "Engagement"
+      ]
+    },
+    {
+      "id": "jenni-bettman",
+      "type": "academic",
+      "name": "Associate Professor Jenni Bettman",
+      "school": "Research School of Finance, Actuarial Studies and Statistics",
+      "schoolCode": "RSFAS",
+      "college": "CBE",
+      "position": "Associate Professor",
+      "focus": "Finance",
+      "email": "See ANU profile",
+      "office": "Research School of Finance, Actuarial Studies and Statistics",
+      "profileUrl": "https://rsfas.anu.edu.au/people/jenni-bettman",
+      "tags": [
+        "rsfas",
+        "finance"
+      ],
+      "linkedCourses": [],
+      "reviewMetrics": [
+        "Clarity",
+        "Support",
+        "Engagement"
+      ]
+    },
+    {
+      "id": "jill-sheppard",
+      "type": "academic",
+      "name": "Associate Professor Jill Sheppard",
+      "school": "School of Politics & International Relations",
+      "schoolCode": "CASS",
+      "college": "CASS",
+      "position": "Associate Professor, School of Politics & International Relations",
+      "focus": "Associate Professor, School of Politics & International Relations",
+      "email": "Jill.Sheppard@anu.edu.au",
+      "office": "School of Politics & International Relations",
+      "profileUrl": "https://researchportalplus.anu.edu.au/en/persons/jill-sheppard",
+      "tags": [
+        "cass",
+        "associate professor",
+        "school of politics & internation"
+      ],
+      "linkedCourses": [],
+      "reviewMetrics": [
+        "Clarity",
+        "Support",
+        "Engagement"
+      ]
+    },
+    {
+      "id": "jo-drienko",
+      "type": "academic",
+      "name": "Associate Professor Jo Drienko",
+      "school": "Research School of Finance, Actuarial Studies and Statistics",
+      "schoolCode": "RSFAS",
+      "college": "CBE",
+      "position": "Deputy Director (Education)",
+      "focus": "Finance",
+      "email": "See ANU profile",
+      "office": "Research School of Finance, Actuarial Studies and Statistics",
+      "profileUrl": "https://rsfas.anu.edu.au/people/jo-drienko",
+      "tags": [
+        "rsfas",
+        "finance"
+      ],
+      "linkedCourses": [],
+      "reviewMetrics": [
+        "Clarity",
+        "Support",
+        "Engagement"
+      ]
+    },
+    {
+      "id": "joanna-sikora",
+      "type": "academic",
+      "name": "Associate Professor Joanna Sikora",
+      "school": "School of Sociology",
+      "schoolCode": "CASS",
+      "college": "CASS",
+      "position": "Associate Professor, School of Sociology",
+      "focus": "School of Sociology",
+      "email": "joanna.sikora@anu.edu.au",
+      "office": "School of Sociology",
+      "profileUrl": "https://researchportalplus.anu.edu.au/en/persons/joanna-sikora",
+      "tags": [
+        "cass",
+        "school of sociology"
+      ],
+      "linkedCourses": [],
+      "reviewMetrics": [
+        "Clarity",
+        "Support",
+        "Engagement"
+      ]
+    },
+    {
+      "id": "jose-rodrigues-neto",
+      "type": "academic",
+      "name": "Associate Professor Jose Rodrigues-Neto",
+      "school": "Research School of Economics",
+      "schoolCode": "RSE",
+      "college": "CBE",
+      "position": "Associate Professor",
+      "focus": "Economics",
+      "email": "See ANU profile",
+      "office": "Research School of Economics",
+      "profileUrl": "https://rse.anu.edu.au/people/jose-rodrigues-neto",
+      "tags": [
+        "rse",
+        "economics"
+      ],
+      "linkedCourses": [],
+      "reviewMetrics": [
+        "Clarity",
+        "Support",
+        "Engagement"
+      ]
+    },
+    {
+      "id": "julieanne-lamond",
+      "type": "academic",
+      "name": "Associate Professor Julieanne Lamond",
+      "school": "School of Literature",
+      "schoolCode": "CASS",
+      "college": "CASS",
+      "position": "Associate Professor, English, School of Literature, Languages and Linguistics",
+      "focus": "Associate Professor, English, School of Literature, Languages and Linguistics",
+      "email": "julieanne.lamond@anu.edu.au",
+      "office": "School of Literature",
+      "profileUrl": "https://researchportalplus.anu.edu.au/en/persons/julieanne-lamond",
+      "tags": [
+        "cass",
+        "associate professor",
+        "english",
+        "school of literature"
+      ],
+      "linkedCourses": [],
+      "reviewMetrics": [
+        "Clarity",
+        "Support",
+        "Engagement"
+      ]
+    },
+    {
+      "id": "katie-sutton",
+      "type": "academic",
+      "name": "Associate Professor Katie Sutton",
+      "school": "ANU College of Arts and Social Sciences",
+      "schoolCode": "CASS",
+      "college": "CASS",
+      "position": "Associate Professor, German & Gender, Languages",
+      "focus": "ANU College of Arts and Social Sciences",
+      "email": "katie.sutton@anu.edu.au",
+      "office": "ANU College of Arts and Social Sciences",
+      "profileUrl": "https://researchportalplus.anu.edu.au/en/persons/katie-sutton",
+      "tags": [
+        "cass",
+        "anu college of arts and social s"
+      ],
+      "linkedCourses": [],
+      "reviewMetrics": [
+        "Clarity",
+        "Support",
+        "Engagement"
+      ]
+    },
+    {
+      "id": "katrina-sluis",
+      "type": "academic",
+      "name": "Associate Professor Katrina Sluis",
+      "school": "ANU College of Arts and Social Sciences",
+      "schoolCode": "CASS",
+      "college": "CASS",
+      "position": "Associate Professor, Photography & Media Arts",
+      "focus": "Chair of Research Committee, School of Art & Design",
+      "email": "katrina.sluis@anu.edu.au",
+      "office": "ANU College of Arts and Social Sciences",
+      "profileUrl": "https://researchportalplus.anu.edu.au/en/persons/katrina-sluis",
+      "tags": [
+        "cass",
+        "chair of research committee",
+        "school of art & design"
+      ],
+      "linkedCourses": [],
+      "reviewMetrics": [
+        "Clarity",
+        "Support",
+        "Engagement"
+      ]
+    },
+    {
+      "id": "keturah-whitford",
+      "type": "academic",
+      "name": "Associate Professor Keturah Whitford",
+      "school": "Research School of Accounting",
+      "schoolCode": "RSA",
+      "college": "CBE",
+      "position": "Reader",
+      "focus": "Accounting",
+      "email": "See ANU profile",
+      "office": "Research School of Accounting",
+      "profileUrl": "https://rsa.anu.edu.au/people/keturah-whitford",
+      "tags": [
+        "rsa",
+        "accounting"
+      ],
+      "linkedCourses": [],
+      "reviewMetrics": [
+        "Clarity",
+        "Support",
+        "Engagement"
+      ]
+    },
+    {
+      "id": "kirill-nourzhanov",
+      "type": "academic",
+      "name": "Associate Professor Kirill Nourzhanov",
+      "school": "Centre for Arab and Islamic Studies",
+      "schoolCode": "CASS",
+      "college": "CASS",
+      "position": "Associate Professor in Political Science (Central Asia) and Convenor of Higher Degree by Research in Middle Eastern & Central Asian Studies, Centre for Arab and Islamic Studies",
+      "focus": "Centre for Arab and Islamic Studies",
+      "email": "Kirill.Nourzhanov@anu.edu.au",
+      "office": "Centre for Arab and Islamic Studies",
+      "profileUrl": "https://researchportalplus.anu.edu.au/en/persons/kirill-nourzhanov",
+      "tags": [
+        "cass",
+        "centre for arab and islamic stud"
+      ],
+      "linkedCourses": [],
+      "reviewMetrics": [
+        "Clarity",
+        "Support",
+        "Engagement"
+      ]
+    },
+    {
+      "id": "laura-rademaker",
+      "type": "academic",
+      "name": "Associate Professor Laura Rademaker",
+      "school": "School of History",
+      "schoolCode": "CASS",
+      "college": "CASS",
+      "position": "Associate Professor, School of History",
+      "focus": "Associate Professor, School of History",
+      "email": "laura.rademaker@anu.edu.au",
+      "office": "School of History",
+      "profileUrl": "https://researchportalplus.anu.edu.au/en/persons/laura-rademaker",
+      "tags": [
+        "cass",
+        "associate professor",
+        "school of history"
+      ],
+      "linkedCourses": [],
+      "reviewMetrics": [
+        "Clarity",
+        "Support",
+        "Engagement"
+      ]
+    },
+    {
+      "id": "laura-wilson",
+      "type": "academic",
+      "name": "Associate Professor Laura Wilson",
+      "school": "ANU College of Arts and Social Sciences",
+      "schoolCode": "CASS",
+      "college": "CASS",
+      "position": "Senior Lecturer & Head of Discipline - Biological Anthropology, Biological Anthropology",
+      "focus": "ANU College of Arts and Social Sciences",
+      "email": "Laura.Wilson@anu.edu.au",
+      "office": "ANU College of Arts and Social Sciences",
+      "profileUrl": "https://researchportalplus.anu.edu.au/en/persons/laura-wilson",
+      "tags": [
+        "cass",
+        "anu college of arts and social s"
+      ],
+      "linkedCourses": [],
+      "reviewMetrics": [
+        "Clarity",
+        "Support",
+        "Engagement"
+      ]
+    },
+    {
+      "id": "le-zhang",
+      "type": "academic",
+      "name": "Associate Professor Le Zhang",
+      "school": "Research School of Finance, Actuarial Studies and Statistics",
+      "schoolCode": "RSFAS",
+      "college": "CBE",
+      "position": "Associate Professor",
+      "focus": "Finance",
+      "email": "See ANU profile",
+      "office": "Research School of Finance, Actuarial Studies and Statistics",
+      "profileUrl": "https://rsfas.anu.edu.au/people/le-zhang",
+      "tags": [
+        "rsfas",
+        "finance"
+      ],
+      "linkedCourses": [],
+      "reviewMetrics": [
+        "Clarity",
+        "Support",
+        "Engagement"
+      ]
+    },
+    {
+      "id": "leslie-barnes",
+      "type": "academic",
+      "name": "Associate Professor Leslie Barnes",
+      "school": "French Studies",
+      "schoolCode": "CASS",
+      "college": "CASS",
+      "position": "Associate Professor, French Studies, Languages",
+      "focus": "French Studies",
+      "email": "leslie.barnes@anu.edu.au",
+      "office": "French Studies",
+      "profileUrl": "https://researchportalplus.anu.edu.au/en/persons/leslie-barnes",
+      "tags": [
+        "cass",
+        "french studies"
+      ],
+      "linkedCourses": [],
+      "reviewMetrics": [
+        "Clarity",
+        "Support",
+        "Engagement"
+      ]
+    },
+    {
+      "id": "lindsay-kelley",
+      "type": "academic",
+      "name": "Associate Professor Lindsay Kelley",
+      "school": "School of Art & Design",
+      "schoolCode": "CASS",
+      "college": "CASS",
+      "position": "Associate Professor, School of Art & Design",
+      "focus": "School of Art & Design",
+      "email": "Lindsay.Kelley@anu.edu.au",
+      "office": "School of Art & Design",
+      "profileUrl": "https://researchportalplus.anu.edu.au/en/persons/lindsay-kelley",
+      "tags": [
+        "cass",
+        "school of art & design"
+      ],
+      "linkedCourses": [],
+      "reviewMetrics": [
+        "Clarity",
+        "Support",
+        "Engagement"
+      ]
+    },
+    {
+      "id": "lyndon-ormond-parker",
+      "type": "academic",
+      "name": "Associate Professor Lyndon Ormond-Parker",
+      "school": "Centre for Heritage and Museum Studies",
+      "schoolCode": "CASS",
+      "college": "CASS",
+      "position": "Research Fellow, Centre for Heritage and Museum Studies",
+      "focus": "Centre for Heritage and Museum Studies",
+      "email": "Lyndon.Ormond-Parker@anu.edu.au",
+      "office": "Centre for Heritage and Museum Studies",
+      "profileUrl": "https://researchportalplus.anu.edu.au/en/persons/lyndon-ormond-parker",
+      "tags": [
+        "cass",
+        "centre for heritage and museum s"
+      ],
+      "linkedCourses": [],
+      "reviewMetrics": [
+        "Clarity",
+        "Support",
+        "Engagement"
+      ]
+    },
+    {
+      "id": "maria-maley",
+      "type": "academic",
+      "name": "Associate Professor Maria Maley",
+      "school": "School of Politics & International Relations",
+      "schoolCode": "CASS",
+      "college": "CASS",
+      "position": "Associate Professor, School of Politics & International Relations",
+      "focus": "School of Politics & International Relations",
+      "email": "Maria.Maley@anu.edu.au",
+      "office": "School of Politics & International Relations",
+      "profileUrl": "https://researchportalplus.anu.edu.au/en/persons/maria-maley",
+      "tags": [
+        "cass",
+        "school of politics & internation"
+      ],
+      "linkedCourses": [],
+      "reviewMetrics": [
+        "Clarity",
+        "Support",
+        "Engagement"
+      ]
+    },
+    {
+      "id": "maria-racionero",
+      "type": "academic",
+      "name": "Associate Professor Maria Racionero",
+      "school": "Research School of Economics",
+      "schoolCode": "RSE",
+      "college": "CBE",
+      "position": "Associate Professor",
+      "focus": "Economics",
+      "email": "See ANU profile",
+      "office": "Research School of Economics",
+      "profileUrl": "https://rse.anu.edu.au/people/maria-racionero",
+      "tags": [
+        "rse",
+        "economics"
+      ],
+      "linkedCourses": [],
+      "reviewMetrics": [
+        "Clarity",
+        "Support",
+        "Engagement"
+      ]
+    },
+    {
+      "id": "jolly-mt",
+      "type": "academic",
+      "name": "Associate Professor Martyn Jolly",
+      "school": "ANU College of Arts and Social Sciences",
+      "schoolCode": "CASS",
+      "college": "CASS",
+      "position": "Honorary Associate Professor, Photography & Media Arts",
+      "focus": "Honorary Associate Professor - Lead Chief Investigator, Photography & Media Arts",
+      "email": "martyn.jolly@anu.edu.au",
+      "office": "ANU College of Arts and Social Sciences",
+      "profileUrl": "https://researchers.anu.edu.au/researchers/jolly-mt",
+      "tags": [
+        "cass",
+        "honorary associate professor - l",
+        "photography & media arts"
+      ],
+      "linkedCourses": [],
+      "reviewMetrics": [
+        "Clarity",
+        "Support",
+        "Engagement"
+      ]
+    },
+    {
+      "id": "patrick-beissner",
+      "type": "academic",
+      "name": "Associate Professor Patrick Beissner",
+      "school": "Research School of Economics",
+      "schoolCode": "RSE",
+      "college": "CBE",
+      "position": "Associate Professor",
+      "focus": "Research School of Economics",
+      "email": "See ANU profile",
+      "office": "Research School of Economics",
+      "profileUrl": "https://rse.anu.edu.au/people/patrick-beissner",
+      "tags": [
+        "rse"
+      ],
+      "linkedCourses": [],
+      "reviewMetrics": [
+        "Clarity",
+        "Support",
+        "Engagement"
+      ]
+    },
+    {
+      "id": "patrick-jn-lespoir-decosta",
+      "type": "academic",
+      "name": "Associate Professor Patrick J.N. L'Espoir Decosta",
+      "school": "Research School of Management",
+      "schoolCode": "RSM",
+      "college": "CBE",
+      "position": "Associate Professor",
+      "focus": "Business & business administration, International business, Management, Marketing, Strategy, Tourism",
+      "email": "See ANU profile",
+      "office": "Research School of Management",
+      "profileUrl": "https://rsm.anu.edu.au/people/patrick-jn-lespoir-decosta",
+      "tags": [
+        "rsm",
+        "business & business administrati",
+        "international business",
+        "management"
+      ],
+      "linkedCourses": [],
+      "reviewMetrics": [
+        "Clarity",
+        "Support",
+        "Engagement"
+      ]
+    },
+    {
+      "id": "phong-ngo",
+      "type": "academic",
+      "name": "Associate Professor Phong Ngo",
+      "school": "Research School of Finance, Actuarial Studies and Statistics",
+      "schoolCode": "RSFAS",
+      "college": "CBE",
+      "position": "Associate Professor",
+      "focus": "Finance",
+      "email": "See ANU profile",
+      "office": "Research School of Finance, Actuarial Studies and Statistics",
+      "profileUrl": "https://rsfas.anu.edu.au/people/phong-ngo",
+      "tags": [
+        "rsfas",
+        "finance"
+      ],
+      "linkedCourses": [],
+      "reviewMetrics": [
+        "Clarity",
+        "Support",
+        "Engagement"
+      ]
+    },
+    {
+      "id": "pierre-van-der-eng",
+      "type": "academic",
+      "name": "Associate Professor Pierre van der Eng",
+      "school": "Research School of Management",
+      "schoolCode": "RSM",
+      "college": "CBE",
+      "position": "Associate Professor and Reader",
+      "focus": "Business & business administration, Economic history, Economics, International business, Management, Strategy",
+      "email": "See ANU profile",
+      "office": "Research School of Management",
+      "profileUrl": "https://rsm.anu.edu.au/people/pierre-van-der-eng",
+      "tags": [
+        "rsm",
+        "business & business administrati",
+        "economic history",
+        "economics"
+      ],
+      "linkedCourses": [],
+      "reviewMetrics": [
+        "Clarity",
+        "Support",
+        "Engagement"
+      ]
+    },
+    {
+      "id": "rachael-brown",
+      "type": "academic",
+      "name": "Associate Professor Rachael Brown",
+      "school": "School of Philosophy",
+      "schoolCode": "CASS",
+      "college": "CASS",
+      "position": "Associate Professor, School of Philosophy",
+      "focus": "Director of Centre for Philosophy of the Sciences, Centre for Philosophy of the Sciences",
+      "email": "rachael.brown@anu.edu.au",
+      "office": "School of Philosophy",
+      "profileUrl": "https://researchportalplus.anu.edu.au/en/persons/rachael-brown",
+      "tags": [
+        "cass",
+        "director of centre for philosoph",
+        "centre for philosophy of the sci"
+      ],
+      "linkedCourses": [],
+      "reviewMetrics": [
+        "Clarity",
+        "Support",
+        "Engagement"
+      ]
+    },
+    {
+      "id": "robert-clark",
+      "type": "academic",
+      "name": "Associate Professor Robert Clark",
+      "school": "Research School of Finance, Actuarial Studies and Statistics",
+      "schoolCode": "RSFAS",
+      "college": "CBE",
+      "position": "Associate Professor",
+      "focus": "Statistics",
+      "email": "See ANU profile",
+      "office": "Research School of Finance, Actuarial Studies and Statistics",
+      "profileUrl": "https://rsfas.anu.edu.au/people/robert-clark",
+      "tags": [
+        "rsfas",
+        "statistics"
+      ],
+      "linkedCourses": [],
+      "reviewMetrics": [
+        "Clarity",
+        "Support",
+        "Engagement"
+      ]
+    },
+    {
+      "id": "romain-fathi",
+      "type": "academic",
+      "name": "Associate Professor Romain Fathi",
+      "school": "School of History",
+      "schoolCode": "CASS",
+      "college": "CASS",
+      "position": "Associate Professor, School of History",
+      "focus": "School of History",
+      "email": "romain.fathi@anu.edu.au",
+      "office": "School of History",
+      "profileUrl": "https://researchportalplus.anu.edu.au/en/persons/romain-fathi",
+      "tags": [
+        "cass",
+        "school of history"
+      ],
+      "linkedCourses": [],
+      "reviewMetrics": [
+        "Clarity",
+        "Support",
+        "Engagement"
+      ]
+    },
+    {
+      "id": "rosanne-kennedy",
+      "type": "academic",
+      "name": "Associate Professor Rosanne Kennedy",
+      "school": "ANU College of Arts and Social Sciences",
+      "schoolCode": "CASS",
+      "college": "CASS",
+      "position": "Associate Professor, Gender, Sexuality & Culture, English",
+      "focus": "ANU College of Arts and Social Sciences",
+      "email": "rosanne.kennedy@anu.edu.au",
+      "office": "ANU College of Arts and Social Sciences",
+      "profileUrl": "https://researchportalplus.anu.edu.au/en/persons/rosanne-kennedy",
+      "tags": [
+        "cass",
+        "anu college of arts and social s"
+      ],
+      "linkedCourses": [],
+      "reviewMetrics": [
+        "Clarity",
+        "Support",
+        "Engagement"
+      ]
+    },
+    {
+      "id": "ruth-morgan",
+      "type": "academic",
+      "name": "Associate Professor Ruth Morgan",
+      "school": "School of History",
+      "schoolCode": "CASS",
+      "college": "CASS",
+      "position": "Associate Professor, School of History",
+      "focus": "Associate Professor, School of History",
+      "email": "ruth.morgan@anu.edu.au",
+      "office": "School of History",
+      "profileUrl": "https://researchportalplus.anu.edu.au/en/persons/ruth-morgan",
+      "tags": [
+        "cass",
+        "associate professor",
+        "school of history"
+      ],
+      "linkedCourses": [],
+      "reviewMetrics": [
+        "Clarity",
+        "Support",
+        "Engagement"
+      ]
+    },
+    {
+      "id": "sarah-milne",
+      "type": "academic",
+      "name": "Associate Professor Sarah Milne",
+      "school": "ANU College of Arts and Social Sciences",
+      "schoolCode": "CASS",
+      "college": "CASS",
+      "position": "Associate Professor, Transnational Research Institute on Corruption",
+      "focus": "ANU College of Arts and Social Sciences",
+      "email": "sarah.milne@anu.edu.au",
+      "office": "ANU College of Arts and Social Sciences",
+      "profileUrl": "https://crawford.anu.edu.au/people/academic/sarah-milne",
+      "tags": [
+        "cass",
+        "anu college of arts and social s"
+      ],
+      "linkedCourses": [],
+      "reviewMetrics": [
+        "Clarity",
+        "Support",
+        "Engagement"
+      ]
+    },
+    {
+      "id": "sephorah-mangin",
+      "type": "academic",
+      "name": "Associate Professor Sephorah Mangin",
+      "school": "Research School of Economics",
+      "schoolCode": "RSE",
+      "college": "CBE",
+      "position": "Associate Professor",
+      "focus": "Economics",
+      "email": "See ANU profile",
+      "office": "Research School of Economics",
+      "profileUrl": "https://rse.anu.edu.au/people/sephorah-mangin",
+      "tags": [
+        "rse",
+        "economics"
+      ],
+      "linkedCourses": [],
+      "reviewMetrics": [
+        "Clarity",
+        "Support",
+        "Engagement"
+      ]
+    },
+    {
+      "id": "sonali-walpola",
+      "type": "academic",
+      "name": "Associate Professor Sonali Walpola",
+      "school": "Research School of Accounting",
+      "schoolCode": "RSA",
+      "college": "CBE",
+      "position": "Associate Professor",
+      "focus": "Research School of Accounting",
+      "email": "See ANU profile",
+      "office": "Research School of Accounting",
+      "profileUrl": "https://rsa.anu.edu.au/people/sonali-walpola",
+      "tags": [
+        "rsa"
+      ],
+      "linkedCourses": [],
+      "reviewMetrics": [
+        "Clarity",
+        "Support",
+        "Engagement"
+      ]
+    },
+    {
+      "id": "steven-wu",
+      "type": "academic",
+      "name": "Associate Professor Steven Wu",
+      "school": "Research School of Accounting",
+      "schoolCode": "RSA",
+      "college": "CBE",
+      "position": "Associate Professor, Director of HDR",
+      "focus": "Accounting",
+      "email": "See ANU profile",
+      "office": "Research School of Accounting",
+      "profileUrl": "https://rsa.anu.edu.au/people/steven-wu",
+      "tags": [
+        "rsa",
+        "accounting"
+      ],
+      "linkedCourses": [],
+      "reviewMetrics": [
+        "Clarity",
+        "Support",
+        "Engagement"
+      ]
+    },
+    {
+      "id": "sverre-molland",
+      "type": "academic",
+      "name": "Associate Professor Sverre Molland",
+      "school": "Development Studies",
+      "schoolCode": "CASS",
+      "college": "CASS",
+      "position": "Senior Lecturer in Development Studies, Development Studies",
+      "focus": "Senior Lecturer in Anthropology, Anthropology",
+      "email": "sverre.molland@anu.edu.au",
+      "office": "Development Studies",
+      "profileUrl": "https://researchportalplus.anu.edu.au/en/persons/sverre-molland",
+      "tags": [
+        "cass",
+        "senior lecturer in anthropology",
+        "anthropology"
+      ],
+      "linkedCourses": [],
+      "reviewMetrics": [
+        "Clarity",
+        "Support",
+        "Engagement"
+      ]
+    },
+    {
+      "id": "tao-zou",
+      "type": "academic",
+      "name": "Associate Professor Tao Zou",
+      "school": "Research School of Finance, Actuarial Studies and Statistics",
+      "schoolCode": "RSFAS",
+      "college": "CBE",
+      "position": "Associate Professor",
+      "focus": "Statistics",
+      "email": "See ANU profile",
+      "office": "Research School of Finance, Actuarial Studies and Statistics",
+      "profileUrl": "https://rsfas.anu.edu.au/people/tao-zou",
+      "tags": [
+        "rsfas",
+        "statistics"
+      ],
+      "linkedCourses": [],
+      "reviewMetrics": [
+        "Clarity",
+        "Support",
+        "Engagement"
+      ]
+    },
+    {
+      "id": "thomas-kalliath",
+      "type": "academic",
+      "name": "Associate Professor Thomas Kalliath",
+      "school": "Research School of Management",
+      "schoolCode": "RSM",
+      "college": "CBE",
+      "position": "Honorary Associate Professor",
+      "focus": "Management",
+      "email": "See ANU profile",
+      "office": "Research School of Management",
+      "profileUrl": "https://rsm.anu.edu.au/people/thomas-kalliath",
+      "tags": [
+        "rsm",
+        "management"
+      ],
+      "linkedCourses": [],
+      "reviewMetrics": [
+        "Clarity",
+        "Support",
+        "Engagement"
+      ]
+    },
+    {
+      "id": "thomas-yang",
+      "type": "academic",
+      "name": "Associate Professor Thomas Yang",
+      "school": "Research School of Economics",
+      "schoolCode": "RSE",
+      "college": "CBE",
+      "position": "Associate Professor",
+      "focus": "Econometrics",
+      "email": "See ANU profile",
+      "office": "Research School of Economics",
+      "profileUrl": "https://rse.anu.edu.au/people/thomas-yang",
+      "tags": [
+        "rse",
+        "econometrics"
+      ],
+      "linkedCourses": [],
+      "reviewMetrics": [
+        "Clarity",
+        "Support",
+        "Engagement"
+      ]
+    },
+    {
+      "id": "tim-higgins",
+      "type": "academic",
+      "name": "Associate Professor Tim Higgins",
+      "school": "Research School of Finance, Actuarial Studies and Statistics",
+      "schoolCode": "RSFAS",
+      "college": "CBE",
+      "position": "Associate Professor, Associate Dean (Research)",
+      "focus": "Actuarial studies",
+      "email": "See ANU profile",
+      "office": "Research School of Finance, Actuarial Studies and Statistics",
+      "profileUrl": "https://rsfas.anu.edu.au/people/tim-higgins",
+      "tags": [
+        "rsfas",
+        "actuarial studies"
+      ],
+      "linkedCourses": [],
+      "reviewMetrics": [
+        "Clarity",
+        "Support",
+        "Engagement"
+      ]
+    },
+    {
+      "id": "timothy-kam",
+      "type": "academic",
+      "name": "Associate Professor Timothy Kam",
+      "school": "Research School of Economics",
+      "schoolCode": "RSE",
+      "college": "CBE",
+      "position": "Associate Professor",
+      "focus": "Econometrics, Economic history, Economics",
+      "email": "See ANU profile",
+      "office": "Research School of Economics",
+      "profileUrl": "https://rse.anu.edu.au/people/timothy-kam",
+      "tags": [
+        "rse",
+        "econometrics",
+        "economic history",
+        "economics"
+      ],
+      "linkedCourses": [],
+      "reviewMetrics": [
+        "Clarity",
+        "Support",
+        "Engagement"
+      ]
+    },
+    {
+      "id": "tracy-fenwick",
+      "type": "academic",
+      "name": "Associate Professor Tracy Beck Fenwick",
+      "school": "School of Politics & International Relations",
+      "schoolCode": "CASS",
+      "college": "CASS",
+      "position": "Associate Professor, School of Politics & International Relations",
+      "focus": "Director, Australian Centre for Federalism",
+      "email": "Tracy.Fenwick@anu.edu.au",
+      "office": "School of Politics & International Relations",
+      "profileUrl": "https://researchportalplus.anu.edu.au/en/persons/tracy-fenwick",
+      "tags": [
+        "cass",
+        "director",
+        "australian centre for federalism"
+      ],
+      "linkedCourses": [],
+      "reviewMetrics": [
+        "Clarity",
+        "Support",
+        "Engagement"
+      ]
+    },
+    {
+      "id": "tue-gorgens",
+      "type": "academic",
+      "name": "Associate Professor Tue Gorgens",
+      "school": "Research School of Economics",
+      "schoolCode": "RSE",
+      "college": "CBE",
+      "position": "Associate Professor",
+      "focus": "Econometrics",
+      "email": "See ANU profile",
+      "office": "Research School of Economics",
+      "profileUrl": "https://rse.anu.edu.au/people/tue-gorgens",
+      "tags": [
+        "rse",
+        "econometrics"
+      ],
+      "linkedCourses": [],
+      "reviewMetrics": [
+        "Clarity",
+        "Support",
+        "Engagement"
+      ]
+    },
+    {
+      "id": "wai-man-raymond-liu",
+      "type": "academic",
+      "name": "Associate Professor Wai-Man (Raymond) Liu",
+      "school": "Research School of Finance, Actuarial Studies and Statistics",
+      "schoolCode": "RSFAS",
+      "college": "CBE",
+      "position": "Associate Professor",
+      "focus": "Finance",
+      "email": "See ANU profile",
+      "office": "Research School of Finance, Actuarial Studies and Statistics",
+      "profileUrl": "https://rsfas.anu.edu.au/people/wai-man-raymond-liu",
+      "tags": [
+        "rsfas",
+        "finance"
+      ],
+      "linkedCourses": [],
+      "reviewMetrics": [
+        "Clarity",
+        "Support",
+        "Engagement"
+      ]
+    },
+    {
+      "id": "xianming-zhou",
+      "type": "academic",
+      "name": "Associate Professor Xianming Zhou",
+      "school": "Research School of Finance, Actuarial Studies and Statistics",
+      "schoolCode": "RSFAS",
+      "college": "CBE",
+      "position": "Associate Professor",
+      "focus": "Finance",
+      "email": "See ANU profile",
+      "office": "Research School of Finance, Actuarial Studies and Statistics",
+      "profileUrl": "https://rsfas.anu.edu.au/people/xianming-zhou",
+      "tags": [
+        "rsfas",
+        "finance"
+      ],
+      "linkedCourses": [],
+      "reviewMetrics": [
+        "Clarity",
+        "Support",
+        "Engagement"
+      ]
+    },
+    {
+      "id": "xin-kelly-liu",
+      "type": "academic",
+      "name": "Associate Professor Xin (Kelly) Liu",
+      "school": "Research School of Finance, Actuarial Studies and Statistics",
+      "schoolCode": "RSFAS",
+      "college": "CBE",
+      "position": "Associate Professor",
+      "focus": "Finance",
+      "email": "See ANU profile",
+      "office": "Research School of Finance, Actuarial Studies and Statistics",
+      "profileUrl": "https://rsfas.anu.edu.au/people/xin-kelly-liu",
+      "tags": [
+        "rsfas",
+        "finance"
+      ],
+      "linkedCourses": [],
+      "reviewMetrics": [
+        "Clarity",
+        "Support",
+        "Engagement"
+      ]
+    },
+    {
+      "id": "yanrong-yang",
+      "type": "academic",
+      "name": "Associate Professor Yanrong Yang",
+      "school": "Research School of Finance, Actuarial Studies and Statistics",
+      "schoolCode": "RSFAS",
+      "college": "CBE",
+      "position": "Associate Professor",
+      "focus": "Statistics",
+      "email": "See ANU profile",
+      "office": "Research School of Finance, Actuarial Studies and Statistics",
+      "profileUrl": "https://rsfas.anu.edu.au/people/yanrong-yang",
+      "tags": [
+        "rsfas",
+        "statistics"
+      ],
+      "linkedCourses": [],
+      "reviewMetrics": [
+        "Clarity",
+        "Support",
+        "Engagement"
+      ]
+    },
+    {
+      "id": "yasmine-musharbash",
+      "type": "academic",
+      "name": "Associate Professor Yasmine Musharbash",
+      "school": "ANU College of Arts and Social Sciences",
+      "schoolCode": "CASS",
+      "college": "CASS",
+      "position": "Senior Lecturer in Anthropology, Anthropology",
+      "focus": "ANU College of Arts and Social Sciences",
+      "email": "Yasmine.Musharbash@anu.edu.au",
+      "office": "ANU College of Arts and Social Sciences",
+      "profileUrl": "https://researchportalplus.anu.edu.au/en/persons/yasmine-musharbash",
+      "tags": [
+        "cass",
+        "anu college of arts and social s"
+      ],
+      "linkedCourses": [],
+      "reviewMetrics": [
+        "Clarity",
+        "Support",
+        "Engagement"
+      ]
+    },
+    {
+      "id": "yee-fui-ng",
+      "type": "academic",
+      "name": "Associate Professor Yee-Fui Ng",
+      "school": "ANU College of Arts and Social Sciences",
+      "schoolCode": "CASS",
+      "college": "CASS",
+      "position": "Associate Professor, Transnational Research Institute on Corruption",
+      "focus": "ANU College of Arts and Social Sciences",
+      "email": "YeeFui.Ng@monash.edu",
+      "office": "ANU College of Arts and Social Sciences",
+      "profileUrl": "https://research.monash.edu/en/persons/yee-fui-ng",
+      "tags": [
+        "cass",
+        "anu college of arts and social s"
+      ],
+      "linkedCourses": [],
+      "reviewMetrics": [
+        "Clarity",
+        "Support",
+        "Engagement"
+      ]
+    },
+    {
+      "id": "bao-anh-vu",
+      "type": "academic",
+      "name": "Bao Anh Vu",
+      "school": "Research School of Finance, Actuarial Studies and Statistics",
+      "schoolCode": "RSFAS",
+      "college": "CBE",
+      "position": "Postdoctoral Fellow",
+      "focus": "Statistics",
+      "email": "See ANU profile",
+      "office": "Research School of Finance, Actuarial Studies and Statistics",
+      "profileUrl": "https://rsfas.anu.edu.au/people/bao-anh-vu",
+      "tags": [
+        "rsfas",
+        "statistics"
       ],
       "linkedCourses": [],
       "reviewMetrics": [
@@ -4975,6 +3099,52 @@ window.ANREVIEW_DATA = {
       ]
     },
     {
+      "id": "bridget-browne",
+      "type": "academic",
+      "name": "Bridget Browne",
+      "school": "Research School of Finance, Actuarial Studies and Statistics",
+      "schoolCode": "RSFAS",
+      "college": "CBE",
+      "position": "Senior Lecturer",
+      "focus": "Actuarial studies",
+      "email": "See ANU profile",
+      "office": "Research School of Finance, Actuarial Studies and Statistics",
+      "profileUrl": "https://rsfas.anu.edu.au/people/bridget-browne",
+      "tags": [
+        "rsfas",
+        "actuarial studies"
+      ],
+      "linkedCourses": [],
+      "reviewMetrics": [
+        "Clarity",
+        "Support",
+        "Engagement"
+      ]
+    },
+    {
+      "id": "cameron-hooper",
+      "type": "academic",
+      "name": "Cameron Hooper",
+      "school": "Research School of Accounting",
+      "schoolCode": "RSA",
+      "college": "CBE",
+      "position": "Senior Lecturer",
+      "focus": "Accounting",
+      "email": "See ANU profile",
+      "office": "Research School of Accounting",
+      "profileUrl": "https://rsa.anu.edu.au/people/cameron-hooper",
+      "tags": [
+        "rsa",
+        "accounting"
+      ],
+      "linkedCourses": [],
+      "reviewMetrics": [
+        "Clarity",
+        "Support",
+        "Engagement"
+      ]
+    },
+    {
       "id": "cameron-roles",
       "type": "academic",
       "name": "Cameron Roles",
@@ -4995,6 +3165,29 @@ window.ANREVIEW_DATA = {
         "Clarity",
         "Support",
         "Engagement"
+      ]
+    },
+    {
+      "id": "cap-chl-b8c26196-a92f-45de-b42b-32e96c34bbbf",
+      "type": "academic",
+      "name": "Campbell Macknight Asian History",
+      "position": "Academic",
+      "focus": "Social and Cultural Anthropology",
+      "school": "School of Culture, History and Language",
+      "schoolCode": "CHL",
+      "college": "ANU College of Asia and the Pacific",
+      "profileUrl": "https://researchportalplus.anu.edu.au/en/persons/b8c26196-a92f-45de-b42b-32e96c34bbbf",
+      "email": "",
+      "office": "",
+      "linkedCourses": [],
+      "reviewMetrics": [
+        "Clarity",
+        "Support",
+        "Engagement"
+      ],
+      "tags": [
+        "chl",
+        "asia-pacific"
       ]
     },
     {
@@ -5182,6 +3375,29 @@ window.ANREVIEW_DATA = {
       ]
     },
     {
+      "id": "cap-ciw-xuemei-bai",
+      "type": "academic",
+      "name": "DisP Xuemei Bai",
+      "position": "Professor",
+      "focus": "Environmental Science Urban Sustainability",
+      "school": "Australian Centre on China in the World",
+      "schoolCode": "CIW",
+      "college": "ANU College of Asia and the Pacific",
+      "profileUrl": "https://researchportalplus.anu.edu.au/en/persons/xuemei-bai",
+      "email": "",
+      "office": "",
+      "linkedCourses": [],
+      "reviewMetrics": [
+        "Clarity",
+        "Support",
+        "Engagement"
+      ],
+      "tags": [
+        "ciw",
+        "china studies"
+      ]
+    },
+    {
       "id": "dominique-dalla-pozza",
       "type": "academic",
       "name": "Dominique Dalla-Pozza",
@@ -5274,6 +3490,6844 @@ window.ANREVIEW_DATA = {
       ]
     },
     {
+      "id": "ey-eun-young-song",
+      "type": "academic",
+      "name": "Dr \"EY\" Eun Young Song",
+      "school": "Research School of Management",
+      "schoolCode": "RSM",
+      "college": "CBE",
+      "position": "Lecturer in organization studies",
+      "focus": "Econometrics, Economic history, Organisation studies, Strategy",
+      "email": "See ANU profile",
+      "office": "Research School of Management",
+      "profileUrl": "https://rsm.anu.edu.au/people/ey-eun-young-song",
+      "tags": [
+        "rsm",
+        "econometrics",
+        "economic history",
+        "organisation studies"
+      ],
+      "linkedCourses": [],
+      "reviewMetrics": [
+        "Clarity",
+        "Support",
+        "Engagement"
+      ]
+    },
+    {
+      "id": "adam-sargent",
+      "type": "academic",
+      "name": "Dr Adam Sargent",
+      "school": "ANU College of Arts and Social Sciences",
+      "schoolCode": "CASS",
+      "college": "CASS",
+      "position": "Lecturer in Anthropology, Anthropology",
+      "focus": "ANU College of Arts and Social Sciences",
+      "email": "Adam.Sargent@anu.edu.au",
+      "office": "ANU College of Arts and Social Sciences",
+      "profileUrl": "https://researchportalplus.anu.edu.au/en/persons/adam-sargent",
+      "tags": [
+        "cass",
+        "anu college of arts and social s"
+      ],
+      "linkedCourses": [],
+      "reviewMetrics": [
+        "Clarity",
+        "Support",
+        "Engagement"
+      ]
+    },
+    {
+      "id": "aditya-balasubramanian",
+      "type": "academic",
+      "name": "Dr Aditya Balasubramanian",
+      "school": "School of History",
+      "schoolCode": "CASS",
+      "college": "CASS",
+      "position": "ARC DECRA Fellow and Senior Lecturer, School of History",
+      "focus": "School of History",
+      "email": "aditya.balasubramanian@anu.edu.au",
+      "office": "School of History",
+      "profileUrl": "https://researchportalplus.anu.edu.au/en/persons/aditya-balasubramanian",
+      "tags": [
+        "cass",
+        "school of history"
+      ],
+      "linkedCourses": [],
+      "reviewMetrics": [
+        "Clarity",
+        "Support",
+        "Engagement"
+      ]
+    },
+    {
+      "id": "alam-saleh",
+      "type": "academic",
+      "name": "Dr Alam Saleh",
+      "school": "Centre for Arab and Islamic Studies",
+      "schoolCode": "CASS",
+      "college": "CASS",
+      "position": "Honorary Senior Lecturer, Centre for Arab and Islamic Studies",
+      "focus": "Centre for Arab and Islamic Studies",
+      "email": "Alam.Saleh@anu.edu.au",
+      "office": "Centre for Arab and Islamic Studies",
+      "profileUrl": "https://researchportalplus.anu.edu.au/en/persons/alam-saleh",
+      "tags": [
+        "cass",
+        "centre for arab and islamic stud"
+      ],
+      "linkedCourses": [],
+      "reviewMetrics": [
+        "Clarity",
+        "Support",
+        "Engagement"
+      ]
+    },
+    {
+      "id": "cap-bell-725e838f-cdb1-49e2-bd0f-312bfff13a77",
+      "type": "academic",
+      "name": "Dr Alan Robson",
+      "position": "Academic",
+      "focus": "Asia-Pacific affairs",
+      "school": "Coral Bell School of Asia Pacific Affairs",
+      "schoolCode": "BELL",
+      "college": "ANU College of Asia and the Pacific",
+      "profileUrl": "https://researchportalplus.anu.edu.au/en/persons/725e838f-cdb1-49e2-bd0f-312bfff13a77",
+      "email": "",
+      "office": "",
+      "linkedCourses": [],
+      "reviewMetrics": [
+        "Clarity",
+        "Support",
+        "Engagement"
+      ],
+      "tags": [
+        "bell",
+        "asia-pacific affairs"
+      ]
+    },
+    {
+      "id": "alex-burchmore",
+      "type": "academic",
+      "name": "Dr Alex Burchmore",
+      "school": "Centre for Art History & Art Theory",
+      "schoolCode": "CASS",
+      "college": "CASS",
+      "position": "Senior Lecturer, Centre for Art History & Art Theory",
+      "focus": "Convenor of Bachelor of Art History and Curatorship (Honours), Centre for Art History & Art Theory",
+      "email": "alexander.burchmore@anu.edu.au",
+      "office": "Centre for Art History & Art Theory",
+      "profileUrl": "https://researchportalplus.anu.edu.au/en/persons/alex-burchmore",
+      "tags": [
+        "cass",
+        "convenor of bachelor of art hist",
+        "centre for art history & art the"
+      ],
+      "linkedCourses": [],
+      "reviewMetrics": [
+        "Clarity",
+        "Support",
+        "Engagement"
+      ]
+    },
+    {
+      "id": "alex-wang",
+      "type": "academic",
+      "name": "Dr Alex Wang",
+      "school": "Research School of Accounting",
+      "schoolCode": "RSA",
+      "college": "CBE",
+      "position": "Senior Lecturer, CPA Liaison Officer at Research School of Accounting",
+      "focus": "Accounting, Management",
+      "email": "See ANU profile",
+      "office": "Research School of Accounting",
+      "profileUrl": "https://rsa.anu.edu.au/people/alex-wang",
+      "tags": [
+        "rsa",
+        "accounting",
+        "management"
+      ],
+      "linkedCourses": [],
+      "reviewMetrics": [
+        "Clarity",
+        "Support",
+        "Engagement"
+      ]
+    },
+    {
+      "id": "alexander-cook",
+      "type": "academic",
+      "name": "Dr Alexander Cook",
+      "school": "School of History",
+      "schoolCode": "CASS",
+      "college": "CASS",
+      "position": "Lecturer, School of History",
+      "focus": "School of History",
+      "email": "alexander.cook@anu.edu.au",
+      "office": "School of History",
+      "profileUrl": "https://researchportalplus.anu.edu.au/en/persons/alexander-cook",
+      "tags": [
+        "cass",
+        "school of history"
+      ],
+      "linkedCourses": [],
+      "reviewMetrics": [
+        "Clarity",
+        "Support",
+        "Engagement"
+      ]
+    },
+    {
+      "id": "alexander-hunter",
+      "type": "academic",
+      "name": "Dr Alexander Hunter",
+      "school": "School of Music",
+      "schoolCode": "CASS",
+      "college": "CASS",
+      "position": "Lecturer, School of Music",
+      "focus": "Indigenous Convener, School of Music",
+      "email": "alexander.hunter@anu.edu.au",
+      "office": "School of Music",
+      "profileUrl": "https://researchportalplus.anu.edu.au/en/persons/alexander-hunter",
+      "tags": [
+        "cass",
+        "indigenous convener",
+        "school of music"
+      ],
+      "linkedCourses": [],
+      "reviewMetrics": [
+        "Clarity",
+        "Support",
+        "Engagement"
+      ]
+    },
+    {
+      "id": "alexander-vadilyev",
+      "type": "academic",
+      "name": "Dr Alexander Vadilyev",
+      "school": "Research School of Finance, Actuarial Studies and Statistics",
+      "schoolCode": "RSFAS",
+      "college": "CBE",
+      "position": "Senior Lecturer",
+      "focus": "Finance",
+      "email": "See ANU profile",
+      "office": "Research School of Finance, Actuarial Studies and Statistics",
+      "profileUrl": "https://rsfas.anu.edu.au/people/alexander-vadilyev",
+      "tags": [
+        "rsfas",
+        "finance"
+      ],
+      "linkedCourses": [],
+      "reviewMetrics": [
+        "Clarity",
+        "Support",
+        "Engagement"
+      ]
+    },
+    {
+      "id": "alexandra-dellios",
+      "type": "academic",
+      "name": "Dr Alexandra Dellios",
+      "school": "Centre for Heritage and Museum Studies",
+      "schoolCode": "CASS",
+      "college": "CASS",
+      "position": "Lecturer, Centre for Heritage and Museum Studies",
+      "focus": "Centre for Heritage and Museum Studies",
+      "email": "alexandra.dellios@anu.edu.au",
+      "office": "Centre for Heritage and Museum Studies",
+      "profileUrl": "https://researchportalplus.anu.edu.au/en/persons/alexandra-dellios",
+      "tags": [
+        "cass",
+        "centre for heritage and museum s"
+      ],
+      "linkedCourses": [],
+      "reviewMetrics": [
+        "Clarity",
+        "Support",
+        "Engagement"
+      ]
+    },
+    {
+      "id": "alicia-gilchrist",
+      "type": "academic",
+      "name": "Dr Alicia Gilchrist",
+      "school": "Research School of Management",
+      "schoolCode": "RSM",
+      "college": "CBE",
+      "position": "Lecturer",
+      "focus": "Organisational behaviour, Project management",
+      "email": "See ANU profile",
+      "office": "Research School of Management",
+      "profileUrl": "https://rsm.anu.edu.au/people/alicia-gilchrist",
+      "tags": [
+        "rsm",
+        "organisational behaviour",
+        "project management"
+      ],
+      "linkedCourses": [],
+      "reviewMetrics": [
+        "Clarity",
+        "Support",
+        "Engagement"
+      ]
+    },
+    {
+      "id": "cap-bell-eade820c-7e9d-4c67-97d2-bbf675289a6f",
+      "type": "academic",
+      "name": "Dr Amanda H A Watson",
+      "position": "Fellow",
+      "focus": "COMMUNICATIONS TECHNOLOGIES Pacific International and Development Communication",
+      "school": "Coral Bell School of Asia Pacific Affairs",
+      "schoolCode": "BELL",
+      "college": "ANU College of Asia and the Pacific",
+      "profileUrl": "https://researchportalplus.anu.edu.au/en/persons/eade820c-7e9d-4c67-97d2-bbf675289a6f",
+      "email": "",
+      "office": "",
+      "linkedCourses": [],
+      "reviewMetrics": [
+        "Clarity",
+        "Support",
+        "Engagement"
+      ],
+      "tags": [
+        "bell",
+        "asia-pacific affairs"
+      ]
+    },
+    {
+      "id": "amandagrahamstuart.com",
+      "type": "academic",
+      "name": "Dr Amanda Stuart",
+      "school": "ANU College of Arts and Social Sciences",
+      "schoolCode": "CASS",
+      "college": "CASS",
+      "position": "Lecturer, Environment Studio",
+      "focus": "Lecturer, Foundation",
+      "email": "amanda.stuart@anu.edu.au",
+      "office": "ANU College of Arts and Social Sciences",
+      "profileUrl": "https://amandagrahamstuart.com/",
+      "tags": [
+        "cass",
+        "lecturer",
+        "foundation"
+      ],
+      "linkedCourses": [],
+      "reviewMetrics": [
+        "Clarity",
+        "Support",
+        "Engagement"
+      ]
+    },
+    {
+      "id": "amelia-dale",
+      "type": "academic",
+      "name": "Dr Amelia Dale",
+      "school": "ANU College of Arts and Social Sciences",
+      "schoolCode": "CASS",
+      "college": "CASS",
+      "position": "Lecturer in English, English",
+      "focus": "ANU College of Arts and Social Sciences",
+      "email": "Amelia.Dale@anu.edu.au",
+      "office": "ANU College of Arts and Social Sciences",
+      "profileUrl": "https://researchportalplus.anu.edu.au/en/persons/amelia-dale",
+      "tags": [
+        "cass",
+        "anu college of arts and social s"
+      ],
+      "linkedCourses": [],
+      "reviewMetrics": [
+        "Clarity",
+        "Support",
+        "Engagement"
+      ]
+    },
+    {
+      "id": "amir-riaz",
+      "type": "academic",
+      "name": "Dr Amir Riaz",
+      "school": "Research School of Management",
+      "schoolCode": "RSM",
+      "college": "CBE",
+      "position": "Lecturer",
+      "focus": "Business information systems",
+      "email": "See ANU profile",
+      "office": "Research School of Management",
+      "profileUrl": "https://rsm.anu.edu.au/people/amir-riaz",
+      "tags": [
+        "rsm",
+        "business information systems"
+      ],
+      "linkedCourses": [],
+      "reviewMetrics": [
+        "Clarity",
+        "Support",
+        "Engagement"
+      ]
+    },
+    {
+      "id": "anas-iqtait",
+      "type": "academic",
+      "name": "Dr Anas Iqtait",
+      "school": "Centre for Arab and Islamic Studies",
+      "schoolCode": "CASS",
+      "college": "CASS",
+      "position": "Senior Lecturer in Political Economy and Global Development (The Middle East and North Africa) and Convenor of Masters and Honours programs in Middle East and Central Asia Studies, Centre for Arab and Islamic Studies",
+      "focus": "Centre for Arab and Islamic Studies",
+      "email": "Anas.Iqtait@anu.edu.au",
+      "office": "Centre for Arab and Islamic Studies",
+      "profileUrl": "https://researchportalplus.anu.edu.au/en/persons/anas-iqtait",
+      "tags": [
+        "cass",
+        "centre for arab and islamic stud"
+      ],
+      "linkedCourses": [],
+      "reviewMetrics": [
+        "Clarity",
+        "Support",
+        "Engagement"
+      ]
+    },
+    {
+      "id": "andrew-bradly",
+      "type": "academic",
+      "name": "Dr Andrew Bradly",
+      "school": "Research School of Management",
+      "schoolCode": "RSM",
+      "college": "CBE",
+      "position": "Senior Lecturer in International Business",
+      "focus": "Business & business administration, Corporate social responsibility, International business, Management",
+      "email": "See ANU profile",
+      "office": "Research School of Management",
+      "profileUrl": "https://rsm.anu.edu.au/people/andrew-bradly",
+      "tags": [
+        "rsm",
+        "business & business administrati",
+        "corporate social responsibility",
+        "international business"
+      ],
+      "linkedCourses": [],
+      "reviewMetrics": [
+        "Clarity",
+        "Support",
+        "Engagement"
+      ]
+    },
+    {
+      "id": "cap-bell-a13b27d5-1044-4840-bc76-d04fb5465ba9",
+      "type": "academic",
+      "name": "Dr Andrew Carr",
+      "position": "Associate Professor",
+      "focus": "Strategic and Defence Studies Centre Defence Studies Government and Politics of Asia and the Pacific Australian Government and Politics",
+      "school": "Coral Bell School of Asia Pacific Affairs",
+      "schoolCode": "BELL",
+      "college": "ANU College of Asia and the Pacific",
+      "profileUrl": "https://researchportalplus.anu.edu.au/en/persons/a13b27d5-1044-4840-bc76-d04fb5465ba9",
+      "email": "",
+      "office": "",
+      "linkedCourses": [],
+      "reviewMetrics": [
+        "Clarity",
+        "Support",
+        "Engagement"
+      ],
+      "tags": [
+        "bell",
+        "asia-pacific affairs"
+      ]
+    },
+    {
+      "id": "andrew-hughes",
+      "type": "academic",
+      "name": "Dr Andrew Hughes",
+      "school": "Research School of Management",
+      "schoolCode": "RSM",
+      "college": "CBE",
+      "position": "Lecturer",
+      "focus": "Management, Marketing",
+      "email": "See ANU profile",
+      "office": "Research School of Management",
+      "profileUrl": "https://rsm.anu.edu.au/people/andrew-hughes",
+      "tags": [
+        "rsm",
+        "management",
+        "marketing"
+      ],
+      "linkedCourses": [],
+      "reviewMetrics": [
+        "Clarity",
+        "Support",
+        "Engagement"
+      ]
+    },
+    {
+      "id": "ann-sophie-levidis",
+      "type": "academic",
+      "name": "Dr Ann-Sophie Levidis",
+      "school": "ANU College of Arts and Social Sciences",
+      "schoolCode": "CASS",
+      "college": "CASS",
+      "position": "Lecturer in French Studies, Languages",
+      "focus": "ANU College of Arts and Social Sciences",
+      "email": "ann-sophie.levidis@anu.edu.au",
+      "office": "ANU College of Arts and Social Sciences",
+      "profileUrl": "https://researchportalplus.anu.edu.au/en/persons/ann-sophie-levidis",
+      "tags": [
+        "cass",
+        "anu college of arts and social s"
+      ],
+      "linkedCourses": [],
+      "reviewMetrics": [
+        "Clarity",
+        "Support",
+        "Engagement"
+      ]
+    },
+    {
+      "id": "anna-hartman",
+      "type": "academic",
+      "name": "Dr Anna Hartman",
+      "school": "Research School of Management",
+      "schoolCode": "RSM",
+      "college": "CBE",
+      "position": "Lecturer",
+      "focus": "Commerce, Entrepreneurship, Management, Marketing",
+      "email": "See ANU profile",
+      "office": "Research School of Management",
+      "profileUrl": "https://rsm.anu.edu.au/people/anna-hartman",
+      "tags": [
+        "rsm",
+        "commerce",
+        "entrepreneurship",
+        "management"
+      ],
+      "linkedCourses": [],
+      "reviewMetrics": [
+        "Clarity",
+        "Support",
+        "Engagement"
+      ]
+    },
+    {
+      "id": "anna-madeleine-raupach",
+      "type": "academic",
+      "name": "Dr Anna Madeleine Raupach",
+      "school": "ANU College of Arts and Social Sciences",
+      "schoolCode": "CASS",
+      "college": "CASS",
+      "position": "Senior Lecturer, Printmedia & Drawing",
+      "focus": "Chair of Outreach Committee, School of Art & Design",
+      "email": "anna.raupach@anu.edu.au",
+      "office": "ANU College of Arts and Social Sciences",
+      "profileUrl": "https://researchportalplus.anu.edu.au/en/persons/anna-madeleine-raupach",
+      "tags": [
+        "cass",
+        "chair of outreach committee",
+        "school of art & design"
+      ],
+      "linkedCourses": [],
+      "reviewMetrics": [
+        "Clarity",
+        "Support",
+        "Engagement"
+      ]
+    },
+    {
+      "id": "anna-von-reibnitz",
+      "type": "academic",
+      "name": "Dr Anna von Reibnitz",
+      "school": "Research School of Finance, Actuarial Studies and Statistics",
+      "schoolCode": "RSFAS",
+      "college": "CBE",
+      "position": "Senior Lecturer, Finance Masters Convenor",
+      "focus": "Finance",
+      "email": "See ANU profile",
+      "office": "Research School of Finance, Actuarial Studies and Statistics",
+      "profileUrl": "https://rsfas.anu.edu.au/people/anna-von-reibnitz",
+      "tags": [
+        "rsfas",
+        "finance"
+      ],
+      "linkedCourses": [],
+      "reviewMetrics": [
+        "Clarity",
+        "Support",
+        "Engagement"
+      ]
+    },
+    {
+      "id": "jurgens-a",
+      "type": "academic",
+      "name": "Dr Anna-Sophie Jürgens",
+      "school": "Humanities Research Centre",
+      "schoolCode": "CASS",
+      "college": "CASS",
+      "position": "HRC Adjunct Fellow and Lecturer in Popular Entertainment Studies at the Australian National Centre for the Public Awareness of Science; Head of the Popsicule, ANU's Science in Popular Culture and Entertainment Hub, Humanities Research Centre",
+      "focus": "Humanities Research Centre",
+      "email": "anna-sophie.jurgens@anu.edu.au",
+      "office": "Humanities Research Centre",
+      "profileUrl": "https://researchers.anu.edu.au/researchers/jurgens-a",
+      "tags": [
+        "cass",
+        "humanities research centre"
+      ],
+      "linkedCourses": [],
+      "reviewMetrics": [
+        "Clarity",
+        "Support",
+        "Engagement"
+      ]
+    },
+    {
+      "id": "annick-thomassin",
+      "type": "academic",
+      "name": "Dr Annick Thomassin",
+      "school": "Centre for Heritage and Museum Studies",
+      "schoolCode": "CASS",
+      "college": "CASS",
+      "position": "Research Fellow, Centre for Heritage and Museum Studies",
+      "focus": "Centre for Heritage and Museum Studies",
+      "email": "annick.thomassin@anu.edu.au",
+      "office": "Centre for Heritage and Museum Studies",
+      "profileUrl": "https://researchportalplus.anu.edu.au/en/persons/annick-thomassin",
+      "tags": [
+        "cass",
+        "centre for heritage and museum s"
+      ],
+      "linkedCourses": [],
+      "reviewMetrics": [
+        "Clarity",
+        "Support",
+        "Engagement"
+      ]
+    },
+    {
+      "id": "annika-lems",
+      "type": "academic",
+      "name": "Dr Annika Lems",
+      "school": "ANU College of Arts and Social Sciences",
+      "schoolCode": "CASS",
+      "college": "CASS",
+      "position": "Senior Lecturer in Anthropology & HDR Convener, Anthropology",
+      "focus": "ANU College of Arts and Social Sciences",
+      "email": "Annika.Lems@anu.edu.au",
+      "office": "ANU College of Arts and Social Sciences",
+      "profileUrl": "https://researchportalplus.anu.edu.au/en/persons/annika-lems",
+      "tags": [
+        "cass",
+        "anu college of arts and social s"
+      ],
+      "linkedCourses": [],
+      "reviewMetrics": [
+        "Clarity",
+        "Support",
+        "Engagement"
+      ]
+    },
+    {
+      "id": "anton-westveld",
+      "type": "academic",
+      "name": "Dr Anton Westveld",
+      "school": "Research School of Finance, Actuarial Studies and Statistics",
+      "schoolCode": "RSFAS",
+      "college": "CBE",
+      "position": "Senior Lecturer",
+      "focus": "Statistics",
+      "email": "See ANU profile",
+      "office": "Research School of Finance, Actuarial Studies and Statistics",
+      "profileUrl": "https://rsfas.anu.edu.au/people/anton-westveld",
+      "tags": [
+        "rsfas",
+        "statistics"
+      ],
+      "linkedCourses": [],
+      "reviewMetrics": [
+        "Clarity",
+        "Support",
+        "Engagement"
+      ]
+    },
+    {
+      "id": "april-biccum",
+      "type": "academic",
+      "name": "Dr April Biccum",
+      "school": "School of Politics & International Relations",
+      "schoolCode": "CASS",
+      "college": "CASS",
+      "position": "Senior Lecturer, School of Politics & International Relations",
+      "focus": "School of Politics & International Relations",
+      "email": "April.Biccum@anu.edu.au",
+      "office": "School of Politics & International Relations",
+      "profileUrl": "https://researchportalplus.anu.edu.au/en/persons/april-biccum",
+      "tags": [
+        "cass",
+        "school of politics & internation"
+      ],
+      "linkedCourses": [],
+      "reviewMetrics": [
+        "Clarity",
+        "Support",
+        "Engagement"
+      ]
+    },
+    {
+      "id": "ashley-carruthers",
+      "type": "academic",
+      "name": "Dr Ashley Carruthers",
+      "school": "ANU College of Arts and Social Sciences",
+      "schoolCode": "CASS",
+      "college": "CASS",
+      "position": "Lecturer in Anthropology, Anthropology",
+      "focus": "ANU College of Arts and Social Sciences",
+      "email": "ashley.carruthers@anu.edu.au",
+      "office": "ANU College of Arts and Social Sciences",
+      "profileUrl": "https://researchportalplus.anu.edu.au/en/persons/ashley-carruthers",
+      "tags": [
+        "cass",
+        "anu college of arts and social s"
+      ],
+      "linkedCourses": [],
+      "reviewMetrics": [
+        "Clarity",
+        "Support",
+        "Engagement"
+      ]
+    },
+    {
+      "id": "ashley-craig",
+      "type": "academic",
+      "name": "Dr Ashley Craig",
+      "school": "Research School of Economics",
+      "schoolCode": "RSE",
+      "college": "CBE",
+      "position": "Senior Lecturer, John Mitchell Research Fellow",
+      "focus": "Research School of Economics",
+      "email": "See ANU profile",
+      "office": "Research School of Economics",
+      "profileUrl": "https://rse.anu.edu.au/people/ashley-craig",
+      "tags": [
+        "rse"
+      ],
+      "linkedCourses": [],
+      "reviewMetrics": [
+        "Clarity",
+        "Support",
+        "Engagement"
+      ]
+    },
+    {
+      "id": "ash-collins",
+      "type": "academic",
+      "name": "Dr Ashok Collins",
+      "school": "ANU College of Arts and Social Sciences",
+      "schoolCode": "CASS",
+      "college": "CASS",
+      "position": "Senior Lecturer, French, Languages",
+      "focus": "ANU College of Arts and Social Sciences",
+      "email": "ashok.collins@anu.edu.au",
+      "office": "ANU College of Arts and Social Sciences",
+      "profileUrl": "https://researchportalplus.anu.edu.au/en/persons/ash-collins",
+      "tags": [
+        "cass",
+        "anu college of arts and social s"
+      ],
+      "linkedCourses": [],
+      "reviewMetrics": [
+        "Clarity",
+        "Support",
+        "Engagement"
+      ]
+    },
+    {
+      "id": "babita-bhatt",
+      "type": "academic",
+      "name": "Dr Babita Bhatt",
+      "school": "Research School of Management",
+      "schoolCode": "RSM",
+      "college": "CBE",
+      "position": "Senior Lecturer",
+      "focus": "Entrepreneurship, Innovation, International business, Management, Organisation studies, Social entrepreneurship",
+      "email": "See ANU profile",
+      "office": "Research School of Management",
+      "profileUrl": "https://rsm.anu.edu.au/people/babita-bhatt",
+      "tags": [
+        "rsm",
+        "entrepreneurship",
+        "innovation",
+        "international business"
+      ],
+      "linkedCourses": [],
+      "reviewMetrics": [
+        "Clarity",
+        "Support",
+        "Engagement"
+      ]
+    },
+    {
+      "id": "baden-pailthorpe",
+      "type": "academic",
+      "name": "Dr Baden Pailthorpe",
+      "school": "School of Art & Design",
+      "schoolCode": "CASS",
+      "college": "CASS",
+      "position": "Senior Lecturer, School of Art & Design",
+      "focus": "School of Art & Design",
+      "email": "baden.pailthorpe@anu.edu.au",
+      "office": "School of Art & Design",
+      "profileUrl": "https://researchportalplus.anu.edu.au/en/persons/baden-pailthorpe",
+      "tags": [
+        "cass",
+        "school of art & design"
+      ],
+      "linkedCourses": [],
+      "reviewMetrics": [
+        "Clarity",
+        "Support",
+        "Engagement"
+      ]
+    },
+    {
+      "id": "ben-mercer",
+      "type": "academic",
+      "name": "Dr Ben Mercer",
+      "school": "School of History",
+      "schoolCode": "CASS",
+      "college": "CASS",
+      "position": "Senior Lecturer, School of History",
+      "focus": "School of History",
+      "email": "ben.mercer@anu.edu.au",
+      "office": "School of History",
+      "profileUrl": "https://researchportalplus.anu.edu.au/en/persons/ben-mercer",
+      "tags": [
+        "cass",
+        "school of history"
+      ],
+      "linkedCourses": [],
+      "reviewMetrics": [
+        "Clarity",
+        "Support",
+        "Engagement"
+      ]
+    },
+    {
+      "id": "cap-chl-511165b0-35db-490c-a303-615370124e85",
+      "type": "academic",
+      "name": "Dr Ben Shaw",
+      "position": "Senior Lecturer",
+      "focus": "in Archaeology Aboriginal and Torres Strait Islander Archaeology ANTHROPOLOGY Pacific History (excl. New Zealand and Maori)",
+      "school": "School of Culture, History and Language",
+      "schoolCode": "CHL",
+      "college": "ANU College of Asia and the Pacific",
+      "profileUrl": "https://researchportalplus.anu.edu.au/en/persons/511165b0-35db-490c-a303-615370124e85",
+      "email": "",
+      "office": "",
+      "linkedCourses": [],
+      "reviewMetrics": [
+        "Clarity",
+        "Support",
+        "Engagement"
+      ],
+      "tags": [
+        "chl",
+        "asia-pacific"
+      ]
+    },
+    {
+      "id": "cap-bell-03591101-a8d5-4535-8093-5b4dd0919291",
+      "type": "academic",
+      "name": "Dr Benjamin Day Foreign",
+      "position": "Academic",
+      "focus": "policy analysis Foreign policy decision making International development",
+      "school": "Coral Bell School of Asia Pacific Affairs",
+      "schoolCode": "BELL",
+      "college": "ANU College of Asia and the Pacific",
+      "profileUrl": "https://researchportalplus.anu.edu.au/en/persons/03591101-a8d5-4535-8093-5b4dd0919291",
+      "email": "",
+      "office": "",
+      "linkedCourses": [],
+      "reviewMetrics": [
+        "Clarity",
+        "Support",
+        "Engagement"
+      ],
+      "tags": [
+        "bell",
+        "asia-pacific affairs"
+      ]
+    },
+    {
+      "id": "cap-bell-458d066c-6a33-45ef-8a87-93f4a0c19015",
+      "type": "academic",
+      "name": "Dr Benjamin Zala",
+      "position": "Fellow",
+      "focus": "Department of International Relations, Coral Bell School of Asia and the Pacific International Relations Defence Studies Nuclear Weapons",
+      "school": "Coral Bell School of Asia Pacific Affairs",
+      "schoolCode": "BELL",
+      "college": "ANU College of Asia and the Pacific",
+      "profileUrl": "https://researchportalplus.anu.edu.au/en/persons/458d066c-6a33-45ef-8a87-93f4a0c19015",
+      "email": "",
+      "office": "",
+      "linkedCourses": [],
+      "reviewMetrics": [
+        "Clarity",
+        "Support",
+        "Engagement"
+      ],
+      "tags": [
+        "bell",
+        "asia-pacific affairs"
+      ]
+    },
+    {
+      "id": "bernardo-pereira-nunes",
+      "type": "academic",
+      "name": "Dr Bernardo Pereira Nunes",
+      "school": "Centre for Digital Humanities Research",
+      "schoolCode": "CASS",
+      "college": "CASS",
+      "position": "Lecturer in Digital Humanities and Computer Science, Centre for Digital Humanities Research",
+      "focus": "Centre for Digital Humanities Research",
+      "email": "See ANU profile",
+      "office": "Centre for Digital Humanities Research",
+      "profileUrl": "https://researchportalplus.anu.edu.au/en/persons/bernardo-pereira-nunes",
+      "tags": [
+        "cass",
+        "centre for digital humanities re"
+      ],
+      "linkedCourses": [],
+      "reviewMetrics": [
+        "Clarity",
+        "Support",
+        "Engagement"
+      ]
+    },
+    {
+      "id": "cap-bell-360d308f-7b4b-45a9-abea-6ad23fda63a8",
+      "type": "academic",
+      "name": "Dr Beverley Loke",
+      "position": "Senior Lecturer",
+      "focus": "(Research Fellow), Department of International Relations, Coral Bell School of Asia and the Pacific US-China relations International Order Politics",
+      "school": "Coral Bell School of Asia Pacific Affairs",
+      "schoolCode": "BELL",
+      "college": "ANU College of Asia and the Pacific",
+      "profileUrl": "https://researchportalplus.anu.edu.au/en/persons/360d308f-7b4b-45a9-abea-6ad23fda63a8",
+      "email": "",
+      "office": "",
+      "linkedCourses": [],
+      "reviewMetrics": [
+        "Clarity",
+        "Support",
+        "Engagement"
+      ],
+      "tags": [
+        "bell",
+        "asia-pacific affairs"
+      ]
+    },
+    {
+      "id": "boris-buchmann",
+      "type": "academic",
+      "name": "Dr Boris Buchmann",
+      "school": "Research School of Finance, Actuarial Studies and Statistics",
+      "schoolCode": "RSFAS",
+      "college": "CBE",
+      "position": "Associate Professor",
+      "focus": "Statistics",
+      "email": "See ANU profile",
+      "office": "Research School of Finance, Actuarial Studies and Statistics",
+      "profileUrl": "https://rsfas.anu.edu.au/people/boris-buchmann",
+      "tags": [
+        "rsfas",
+        "statistics"
+      ],
+      "linkedCourses": [],
+      "reviewMetrics": [
+        "Clarity",
+        "Support",
+        "Engagement"
+      ]
+    },
+    {
+      "id": "brandon-yoder",
+      "type": "academic",
+      "name": "Dr Brandon Yoder",
+      "school": "School of Politics & International Relations",
+      "schoolCode": "CASS",
+      "college": "CASS",
+      "position": "Senior Lecturer, School of Politics & International Relations",
+      "focus": "School of Politics & International Relations",
+      "email": "brandon.yoder@anu.edu.au",
+      "office": "School of Politics & International Relations",
+      "profileUrl": "https://researchportalplus.anu.edu.au/en/persons/brandon-yoder",
+      "tags": [
+        "cass",
+        "school of politics & internation"
+      ],
+      "linkedCourses": [],
+      "reviewMetrics": [
+        "Clarity",
+        "Support",
+        "Engagement"
+      ]
+    },
+    {
+      "id": "bridget-vincent",
+      "type": "academic",
+      "name": "Dr Bridget Vincent",
+      "school": "ANU College of Arts and Social Sciences",
+      "schoolCode": "CASS",
+      "college": "CASS",
+      "position": "Lecturer in English, English",
+      "focus": "ANU College of Arts and Social Sciences",
+      "email": "Bridget.Vincent@anu.edu.au",
+      "office": "ANU College of Arts and Social Sciences",
+      "profileUrl": "https://researchportalplus.anu.edu.au/en/persons/bridget-vincent",
+      "tags": [
+        "cass",
+        "anu college of arts and social s"
+      ],
+      "linkedCourses": [],
+      "reviewMetrics": [
+        "Clarity",
+        "Support",
+        "Engagement"
+      ]
+    },
+    {
+      "id": "bronwyn-loong",
+      "type": "academic",
+      "name": "Dr Bronwyn Loong",
+      "school": "Research School of Finance, Actuarial Studies and Statistics",
+      "schoolCode": "RSFAS",
+      "college": "CBE",
+      "position": "Senior Lecturer",
+      "focus": "Statistics",
+      "email": "See ANU profile",
+      "office": "Research School of Finance, Actuarial Studies and Statistics",
+      "profileUrl": "https://rsfas.anu.edu.au/people/bronwyn-loong",
+      "tags": [
+        "rsfas",
+        "statistics"
+      ],
+      "linkedCourses": [],
+      "reviewMetrics": [
+        "Clarity",
+        "Support",
+        "Engagement"
+      ]
+    },
+    {
+      "id": "burcu-cevik-compiegne",
+      "type": "academic",
+      "name": "Dr Burcu Cevik-Compiegne",
+      "school": "Centre for Arab and Islamic Studies",
+      "schoolCode": "CASS",
+      "college": "CASS",
+      "position": "Senior Lecturer in Turkish Studies and Convenor of Turkish Studies Program, Centre for Arab and Islamic Studies",
+      "focus": "Centre for Arab and Islamic Studies",
+      "email": "Burcu.Cevik-Compiegne@anu.edu.au",
+      "office": "Centre for Arab and Islamic Studies",
+      "profileUrl": "https://researchportalplus.anu.edu.au/en/persons/burcu-cevik-compiegne",
+      "tags": [
+        "cass",
+        "centre for arab and islamic stud"
+      ],
+      "linkedCourses": [],
+      "reviewMetrics": [
+        "Clarity",
+        "Support",
+        "Engagement"
+      ]
+    },
+    {
+      "id": "cagri-kumru",
+      "type": "academic",
+      "name": "Dr Cagri Kumru",
+      "school": "Research School of Economics",
+      "schoolCode": "RSE",
+      "college": "CBE",
+      "position": "Associate Professor, Deputy Director (Education)",
+      "focus": "Research School of Economics",
+      "email": "See ANU profile",
+      "office": "Research School of Economics",
+      "profileUrl": "https://rse.anu.edu.au/people/cagri-kumru",
+      "tags": [
+        "rse"
+      ],
+      "linkedCourses": [],
+      "reviewMetrics": [
+        "Clarity",
+        "Support",
+        "Engagement"
+      ]
+    },
+    {
+      "id": "bowan-cj",
+      "type": "academic",
+      "name": "Dr Catherine Bowan",
+      "school": "Humanities Research Centre",
+      "schoolCode": "CASS",
+      "college": "CASS",
+      "position": "Honorary Senior Lecturer, Humanities Research Centre",
+      "focus": "Humanities Research Centre",
+      "email": "kate.bowan@anu.edu.au",
+      "office": "Humanities Research Centre",
+      "profileUrl": "https://researchers.anu.edu.au/researchers/bowan-cj",
+      "tags": [
+        "cass",
+        "humanities research centre"
+      ],
+      "linkedCourses": [],
+      "reviewMetrics": [
+        "Clarity",
+        "Support",
+        "Engagement"
+      ]
+    },
+    {
+      "id": "cecilia-jardemar",
+      "type": "academic",
+      "name": "Dr Cecilia Jardemar",
+      "school": "School of Art & Design",
+      "schoolCode": "CASS",
+      "college": "CASS",
+      "position": "Associate Professor, School of Art & Design",
+      "focus": "School of Art & Design",
+      "email": "cecilia.jardemar@anu.edu.au",
+      "office": "School of Art & Design",
+      "profileUrl": "https://researchportalplus.anu.edu.au/en/persons/cecilia-jardemar/",
+      "tags": [
+        "cass",
+        "school of art & design"
+      ],
+      "linkedCourses": [],
+      "reviewMetrics": [
+        "Clarity",
+        "Support",
+        "Engagement"
+      ]
+    },
+    {
+      "id": "chao-gao",
+      "type": "academic",
+      "name": "Dr Chao Gao",
+      "school": "Research School of Finance, Actuarial Studies and Statistics",
+      "schoolCode": "RSFAS",
+      "college": "CBE",
+      "position": "Senior Lecturer",
+      "focus": "Finance",
+      "email": "See ANU profile",
+      "office": "Research School of Finance, Actuarial Studies and Statistics",
+      "profileUrl": "https://rsfas.anu.edu.au/people/chao-gao",
+      "tags": [
+        "rsfas",
+        "finance"
+      ],
+      "linkedCourses": [],
+      "reviewMetrics": [
+        "Clarity",
+        "Support",
+        "Engagement"
+      ]
+    },
+    {
+      "id": "chao-ma",
+      "type": "academic",
+      "name": "Dr Chao Ma",
+      "school": "Research School of Management",
+      "schoolCode": "RSM",
+      "college": "CBE",
+      "position": "Honorary Associate Professor",
+      "focus": "Business & business administration, Human resource management, Leadership, Management",
+      "email": "See ANU profile",
+      "office": "Research School of Management",
+      "profileUrl": "https://rsm.anu.edu.au/people/chao-ma",
+      "tags": [
+        "rsm",
+        "business & business administrati",
+        "human resource management",
+        "leadership"
+      ],
+      "linkedCourses": [],
+      "reviewMetrics": [
+        "Clarity",
+        "Support",
+        "Engagement"
+      ]
+    },
+    {
+      "id": "charles-miller",
+      "type": "academic",
+      "name": "Dr Charles Miller",
+      "school": "School of Politics & International Relations",
+      "schoolCode": "CASS",
+      "college": "CASS",
+      "position": "Senior Lecturer, School of Politics & International Relations",
+      "focus": "School of Politics & International Relations",
+      "email": "Charles.Miller@anu.edu.au",
+      "office": "School of Politics & International Relations",
+      "profileUrl": "https://researchportalplus.anu.edu.au/en/persons/charles-miller",
+      "tags": [
+        "cass",
+        "school of politics & internation"
+      ],
+      "linkedCourses": [],
+      "reviewMetrics": [
+        "Clarity",
+        "Support",
+        "Engagement"
+      ]
+    },
+    {
+      "id": "cap-bell-8e4f7718-3d62-4e0c-add4-70d6163ced1f",
+      "type": "academic",
+      "name": "Dr Charlotte Grech-Madin",
+      "position": "Academic",
+      "focus": "Asia-Pacific affairs",
+      "school": "Coral Bell School of Asia Pacific Affairs",
+      "schoolCode": "BELL",
+      "college": "ANU College of Asia and the Pacific",
+      "profileUrl": "https://researchportalplus.anu.edu.au/en/persons/8e4f7718-3d62-4e0c-add4-70d6163ced1f",
+      "email": "",
+      "office": "",
+      "linkedCourses": [],
+      "reviewMetrics": [
+        "Clarity",
+        "Support",
+        "Engagement"
+      ],
+      "tags": [
+        "bell",
+        "asia-pacific affairs"
+      ]
+    },
+    {
+      "id": "chen-tang",
+      "type": "academic",
+      "name": "Dr Chen Tang",
+      "school": "Research School of Finance, Actuarial Studies and Statistics",
+      "schoolCode": "RSFAS",
+      "college": "CBE",
+      "position": "Lecturer",
+      "focus": "Statistics",
+      "email": "See ANU profile",
+      "office": "Research School of Finance, Actuarial Studies and Statistics",
+      "profileUrl": "https://rsfas.anu.edu.au/people/chen-tang",
+      "tags": [
+        "rsfas",
+        "statistics"
+      ],
+      "linkedCourses": [],
+      "reviewMetrics": [
+        "Clarity",
+        "Support",
+        "Engagement"
+      ]
+    },
+    {
+      "id": "chirag-kasbekar",
+      "type": "academic",
+      "name": "Dr Chirag Kasbekar",
+      "school": "Research School of Management",
+      "schoolCode": "RSM",
+      "college": "CBE",
+      "position": "Lecturer",
+      "focus": "Entrepreneurship, Innovation, International business, Strategy",
+      "email": "See ANU profile",
+      "office": "Research School of Management",
+      "profileUrl": "https://rsm.anu.edu.au/people/chirag-kasbekar",
+      "tags": [
+        "rsm",
+        "entrepreneurship",
+        "innovation",
+        "international business"
+      ],
+      "linkedCourses": [],
+      "reviewMetrics": [
+        "Clarity",
+        "Support",
+        "Engagement"
+      ]
+    },
+    {
+      "id": "chloe-green",
+      "type": "academic",
+      "name": "Dr Chloe Green",
+      "school": "ANU College of Arts and Social Sciences",
+      "schoolCode": "CASS",
+      "college": "CASS",
+      "position": "Lecturer in English, English",
+      "focus": "ANU College of Arts and Social Sciences",
+      "email": "Chloe.Green@anu.edu.au",
+      "office": "ANU College of Arts and Social Sciences",
+      "profileUrl": "https://researchportalplus.anu.edu.au/en/persons/chloe-green",
+      "tags": [
+        "cass",
+        "anu college of arts and social s"
+      ],
+      "linkedCourses": [],
+      "reviewMetrics": [
+        "Clarity",
+        "Support",
+        "Engagement"
+      ]
+    },
+    {
+      "id": "christina-clarke",
+      "type": "academic",
+      "name": "Dr Christina Clarke",
+      "school": "Centre for Art History & Art Theory",
+      "schoolCode": "CASS",
+      "college": "CASS",
+      "position": "Honorary Lecturer, Centre for Art History & Art Theory",
+      "focus": "Centre for Art History & Art Theory",
+      "email": "Christina.clarke@anu.edu.au",
+      "office": "Centre for Art History & Art Theory",
+      "profileUrl": "https://researchportalplus.anu.edu.au/en/persons/christina-clarke",
+      "tags": [
+        "cass",
+        "centre for art history & art the"
+      ],
+      "linkedCourses": [],
+      "reviewMetrics": [
+        "Clarity",
+        "Support",
+        "Engagement"
+      ]
+    },
+    {
+      "id": "cap-chl-6032c0b2-2327-4f58-b1cb-0022125aff8c",
+      "type": "academic",
+      "name": "Dr Christopher Diamond",
+      "position": "Senior Lecturer",
+      "focus": "in Hindi & South Asian Studies Indian Languages RELIGION AND RELIGIOUS STUDIES Asian Cultural Studies",
+      "school": "School of Culture, History and Language",
+      "schoolCode": "CHL",
+      "college": "ANU College of Asia and the Pacific",
+      "profileUrl": "https://researchportalplus.anu.edu.au/en/persons/6032c0b2-2327-4f58-b1cb-0022125aff8c",
+      "email": "",
+      "office": "",
+      "linkedCourses": [],
+      "reviewMetrics": [
+        "Clarity",
+        "Support",
+        "Engagement"
+      ],
+      "tags": [
+        "chl",
+        "asia-pacific"
+      ]
+    },
+    {
+      "id": "cap-bell-cf2c55b8-4df4-4984-b029-d6f614dfec0c",
+      "type": "academic",
+      "name": "Dr Christopher Hobson Convenor,",
+      "position": "Academic",
+      "focus": "Bachelor of Asia Pacific Affairs Sociology and Social Studies of Science and Technology International Relations Political Theory and Political Philosophy",
+      "school": "Coral Bell School of Asia Pacific Affairs",
+      "schoolCode": "BELL",
+      "college": "ANU College of Asia and the Pacific",
+      "profileUrl": "https://researchportalplus.anu.edu.au/en/persons/cf2c55b8-4df4-4984-b029-d6f614dfec0c",
+      "email": "",
+      "office": "",
+      "linkedCourses": [],
+      "reviewMetrics": [
+        "Clarity",
+        "Support",
+        "Engagement"
+      ],
+      "tags": [
+        "bell",
+        "asia-pacific affairs"
+      ]
+    },
+    {
+      "id": "claire-hansen",
+      "type": "academic",
+      "name": "Dr Claire Hansen",
+      "school": "ANU College of Arts and Social Sciences",
+      "schoolCode": "CASS",
+      "college": "CASS",
+      "position": "Lecturer in English, English",
+      "focus": "ANU College of Arts and Social Sciences",
+      "email": "Claire.Hansen@anu.edu.au",
+      "office": "ANU College of Arts and Social Sciences",
+      "profileUrl": "https://researchportalplus.anu.edu.au/en/persons/claire-hansen",
+      "tags": [
+        "cass",
+        "anu college of arts and social s"
+      ],
+      "linkedCourses": [],
+      "reviewMetrics": [
+        "Clarity",
+        "Support",
+        "Engagement"
+      ]
+    },
+    {
+      "id": "constanza-sanhueza",
+      "type": "academic",
+      "name": "Dr Constanza Sanhueza Petrarca",
+      "school": "School of Politics & International Relations",
+      "schoolCode": "CASS",
+      "college": "CASS",
+      "position": "Senior Lecturer, School of Politics & International Relations",
+      "focus": "School of Politics & International Relations",
+      "email": "Constanza.Sanhueza@anu.edu.au",
+      "office": "School of Politics & International Relations",
+      "profileUrl": "https://researchportalplus.anu.edu.au/en/persons/constanza-sanhueza",
+      "tags": [
+        "cass",
+        "school of politics & internation"
+      ],
+      "linkedCourses": [],
+      "reviewMetrics": [
+        "Clarity",
+        "Support",
+        "Engagement"
+      ]
+    },
+    {
+      "id": "damien-eldridge",
+      "type": "academic",
+      "name": "Dr Damien Eldridge",
+      "school": "Research School of Economics",
+      "schoolCode": "RSE",
+      "college": "CBE",
+      "position": "Senior Lecturer",
+      "focus": "Economics",
+      "email": "See ANU profile",
+      "office": "Research School of Economics",
+      "profileUrl": "https://rse.anu.edu.au/people/damien-eldridge",
+      "tags": [
+        "rse",
+        "economics"
+      ],
+      "linkedCourses": [],
+      "reviewMetrics": [
+        "Clarity",
+        "Support",
+        "Engagement"
+      ]
+    },
+    {
+      "id": "dana-hanna",
+      "type": "academic",
+      "name": "Dr Dana Hanna",
+      "school": "Research School of Economics",
+      "schoolCode": "RSE",
+      "college": "CBE",
+      "position": "Associate Dean (Education)",
+      "focus": "Economics",
+      "email": "See ANU profile",
+      "office": "Research School of Economics",
+      "profileUrl": "https://rse.anu.edu.au/people/dana-hanna",
+      "tags": [
+        "rse",
+        "economics"
+      ],
+      "linkedCourses": [],
+      "reviewMetrics": [
+        "Clarity",
+        "Support",
+        "Engagement"
+      ]
+    },
+    {
+      "id": "cap-chl-be067395-8240-4d2d-ac09-52787b9b1b27",
+      "type": "academic",
+      "name": "Dr Darja Hoenigman",
+      "position": "Lecturer",
+      "focus": "Tok Pisin Linguistic Anthropology Language documentation Ethnographic filmmaking",
+      "school": "School of Culture, History and Language",
+      "schoolCode": "CHL",
+      "college": "ANU College of Asia and the Pacific",
+      "profileUrl": "https://researchportalplus.anu.edu.au/en/persons/be067395-8240-4d2d-ac09-52787b9b1b27",
+      "email": "",
+      "office": "",
+      "linkedCourses": [],
+      "reviewMetrics": [
+        "Clarity",
+        "Support",
+        "Engagement"
+      ],
+      "tags": [
+        "chl",
+        "asia-pacific"
+      ]
+    },
+    {
+      "id": "darren-lim",
+      "type": "academic",
+      "name": "Dr Darren Lim",
+      "school": "School of Politics & International Relations",
+      "schoolCode": "CASS",
+      "college": "CASS",
+      "position": "Senior Lecturer, School of Politics & International Relations",
+      "focus": "School of Politics & International Relations",
+      "email": "Darren.Lim@anu.edu.au",
+      "office": "School of Politics & International Relations",
+      "profileUrl": "https://researchportalplus.anu.edu.au/en/persons/darren-lim",
+      "tags": [
+        "cass",
+        "school of politics & internation"
+      ],
+      "linkedCourses": [],
+      "reviewMetrics": [
+        "Clarity",
+        "Support",
+        "Engagement"
+      ]
+    },
+    {
+      "id": "daruo-xie",
+      "type": "academic",
+      "name": "Dr Daruo Xie",
+      "school": "Research School of Finance, Actuarial Studies and Statistics",
+      "schoolCode": "RSFAS",
+      "college": "CBE",
+      "position": "Lecturer",
+      "focus": "Finance",
+      "email": "See ANU profile",
+      "office": "Research School of Finance, Actuarial Studies and Statistics",
+      "profileUrl": "https://rsfas.anu.edu.au/people/daruo-xie",
+      "tags": [
+        "rsfas",
+        "finance"
+      ],
+      "linkedCourses": [],
+      "reviewMetrics": [
+        "Clarity",
+        "Support",
+        "Engagement"
+      ]
+    },
+    {
+      "id": "cap-bell-cab9e77f-b935-4241-a41e-58362530aeec",
+      "type": "academic",
+      "name": "Dr David Envall",
+      "position": "Associate Professor",
+      "focus": "College of Asia and the Pacific, Coral Bell School of Asia Pacific Affairs International Relations Government and Politics of Asia and the Pacific Studies of Asian Society",
+      "school": "Coral Bell School of Asia Pacific Affairs",
+      "schoolCode": "BELL",
+      "college": "ANU College of Asia and the Pacific",
+      "profileUrl": "https://researchportalplus.anu.edu.au/en/persons/cab9e77f-b935-4241-a41e-58362530aeec",
+      "email": "",
+      "office": "",
+      "linkedCourses": [],
+      "reviewMetrics": [
+        "Clarity",
+        "Support",
+        "Engagement"
+      ],
+      "tags": [
+        "bell",
+        "asia-pacific affairs"
+      ]
+    },
+    {
+      "id": "david-romney-smith",
+      "type": "academic",
+      "name": "Dr David Romney Smith",
+      "school": "School of History",
+      "schoolCode": "CASS",
+      "college": "CASS",
+      "position": "Research Fellow, School of History",
+      "focus": "School of History",
+      "email": "DavidRomney.Smith@anu.edu.au",
+      "office": "School of History",
+      "profileUrl": "https://researchportalplus.anu.edu.au/en/persons/david-romney-smith",
+      "tags": [
+        "cass",
+        "school of history"
+      ],
+      "linkedCourses": [],
+      "reviewMetrics": [
+        "Clarity",
+        "Support",
+        "Engagement"
+      ]
+    },
+    {
+      "id": "dean-katselas",
+      "type": "academic",
+      "name": "Dr Dean Katselas",
+      "school": "Research School of Finance, Actuarial Studies and Statistics",
+      "schoolCode": "RSFAS",
+      "college": "CBE",
+      "position": "Senior Lecturer",
+      "focus": "Finance",
+      "email": "See ANU profile",
+      "office": "Research School of Finance, Actuarial Studies and Statistics",
+      "profileUrl": "https://rsfas.anu.edu.au/people/dean-katselas",
+      "tags": [
+        "rsfas",
+        "finance"
+      ],
+      "linkedCourses": [],
+      "reviewMetrics": [
+        "Clarity",
+        "Support",
+        "Engagement"
+      ]
+    },
+    {
+      "id": "cap-ciw-debby-chan",
+      "type": "academic",
+      "name": "Dr Debby Chan",
+      "position": "Lecturer",
+      "focus": "China's economic statecraft Public diplomacy Contentious politics",
+      "school": "Australian Centre on China in the World",
+      "schoolCode": "CIW",
+      "college": "ANU College of Asia and the Pacific",
+      "profileUrl": "https://researchportalplus.anu.edu.au/en/persons/debby-chan",
+      "email": "",
+      "office": "",
+      "linkedCourses": [],
+      "reviewMetrics": [
+        "Clarity",
+        "Support",
+        "Engagement"
+      ],
+      "tags": [
+        "ciw",
+        "china studies"
+      ]
+    },
+    {
+      "id": "cap-bell-6c055e46-02ee-4f0a-a93b-f1749365ade2",
+      "type": "academic",
+      "name": "Dr Deepak Nair",
+      "position": "Academic",
+      "focus": "Asia-Pacific affairs",
+      "school": "Coral Bell School of Asia Pacific Affairs",
+      "schoolCode": "BELL",
+      "college": "ANU College of Asia and the Pacific",
+      "profileUrl": "https://researchportalplus.anu.edu.au/en/persons/6c055e46-02ee-4f0a-a93b-f1749365ade2",
+      "email": "",
+      "office": "",
+      "linkedCourses": [],
+      "reviewMetrics": [
+        "Clarity",
+        "Support",
+        "Engagement"
+      ],
+      "tags": [
+        "bell",
+        "asia-pacific affairs"
+      ]
+    },
+    {
+      "id": "cap-bell-b53dc5fb-15dd-4f97-a8d0-295c93b85c3c",
+      "type": "academic",
+      "name": "Dr Denghua Zhang",
+      "position": "Research fellow",
+      "focus": "Government and Politics of Asia and the Pacific International Relations",
+      "school": "Coral Bell School of Asia Pacific Affairs",
+      "schoolCode": "BELL",
+      "college": "ANU College of Asia and the Pacific",
+      "profileUrl": "https://researchportalplus.anu.edu.au/en/persons/b53dc5fb-15dd-4f97-a8d0-295c93b85c3c",
+      "email": "",
+      "office": "",
+      "linkedCourses": [],
+      "reviewMetrics": [
+        "Clarity",
+        "Support",
+        "Engagement"
+      ],
+      "tags": [
+        "bell",
+        "asia-pacific affairs"
+      ]
+    },
+    {
+      "id": "diane-smith",
+      "type": "academic",
+      "name": "Dr Diane Smith",
+      "school": "Centre for Aboriginal Economic Policy Research",
+      "schoolCode": "CASS",
+      "college": "CASS",
+      "position": "Fellow, Centre for Aboriginal Economic Policy Research",
+      "focus": "Centre for Aboriginal Economic Policy Research",
+      "email": "diane.smith@anu.edu.au",
+      "office": "Centre for Aboriginal Economic Policy Research",
+      "profileUrl": "https://researchportalplus.anu.edu.au/en/persons/diane-smith",
+      "tags": [
+        "cass",
+        "centre for aboriginal economic p"
+      ],
+      "linkedCourses": [],
+      "reviewMetrics": [
+        "Clarity",
+        "Support",
+        "Engagement"
+      ]
+    },
+    {
+      "id": "ding-ding",
+      "type": "academic",
+      "name": "Dr Ding Ding",
+      "school": "Research School of Finance, Actuarial Studies and Statistics",
+      "schoolCode": "RSFAS",
+      "college": "CBE",
+      "position": "Lecturer",
+      "focus": "Finance",
+      "email": "See ANU profile",
+      "office": "Research School of Finance, Actuarial Studies and Statistics",
+      "profileUrl": "https://rsfas.anu.edu.au/people/ding-ding",
+      "tags": [
+        "rsfas",
+        "finance"
+      ],
+      "linkedCourses": [],
+      "reviewMetrics": [
+        "Clarity",
+        "Support",
+        "Engagement"
+      ]
+    },
+    {
+      "id": "dongwook-kim",
+      "type": "academic",
+      "name": "Dr Dongwook Kim",
+      "school": "School of Politics & International Relations",
+      "schoolCode": "CASS",
+      "college": "CASS",
+      "position": "Lecturer, School of Politics & International Relations",
+      "focus": "School of Politics & International Relations",
+      "email": "Dongwook.Kim@anu.edu.au",
+      "office": "School of Politics & International Relations",
+      "profileUrl": "https://researchportalplus.anu.edu.au/en/persons/dongwook-kim",
+      "tags": [
+        "cass",
+        "school of politics & internation"
+      ],
+      "linkedCourses": [],
+      "reviewMetrics": [
+        "Clarity",
+        "Support",
+        "Engagement"
+      ]
+    },
+    {
+      "id": "cap-ciw-09f3ec2c-3719-4a9a-8618-f3f621b5e16f",
+      "type": "academic",
+      "name": "Dr Edward Chan",
+      "position": "Postdoctoral Fellow",
+      "focus": "in China Studies Maritime security POLITICAL SCIENCE Chinese Politics",
+      "school": "Australian Centre on China in the World",
+      "schoolCode": "CIW",
+      "college": "ANU College of Asia and the Pacific",
+      "profileUrl": "https://researchportalplus.anu.edu.au/en/persons/09f3ec2c-3719-4a9a-8618-f3f621b5e16f",
+      "email": "",
+      "office": "",
+      "linkedCourses": [],
+      "reviewMetrics": [
+        "Clarity",
+        "Support",
+        "Engagement"
+      ],
+      "tags": [
+        "ciw",
+        "china studies"
+      ]
+    },
+    {
+      "id": "cap-bell-7c419f07-6d0e-4519-9216-d76b6b38cef2",
+      "type": "academic",
+      "name": "Dr Eglantine Staunton",
+      "position": "Senior Lecturer",
+      "focus": "(Fellow)",
+      "school": "Coral Bell School of Asia Pacific Affairs",
+      "schoolCode": "BELL",
+      "college": "ANU College of Asia and the Pacific",
+      "profileUrl": "https://researchportalplus.anu.edu.au/en/persons/7c419f07-6d0e-4519-9216-d76b6b38cef2",
+      "email": "",
+      "office": "",
+      "linkedCourses": [],
+      "reviewMetrics": [
+        "Clarity",
+        "Support",
+        "Engagement"
+      ],
+      "tags": [
+        "bell",
+        "asia-pacific affairs"
+      ]
+    },
+    {
+      "id": "elisa-decourcy",
+      "type": "academic",
+      "name": "Dr Elisa deCourcy",
+      "school": "Centre for Art History & Art Theory",
+      "schoolCode": "CASS",
+      "college": "CASS",
+      "position": "Honorary Lecturer, Centre for Art History & Art Theory",
+      "focus": "Centre for Art History & Art Theory",
+      "email": "Elisa.DeCourcy@anu.edu.au",
+      "office": "Centre for Art History & Art Theory",
+      "profileUrl": "https://researchportalplus.anu.edu.au/en/persons/elisa-decourcy",
+      "tags": [
+        "cass",
+        "centre for art history & art the"
+      ],
+      "linkedCourses": [],
+      "reviewMetrics": [
+        "Clarity",
+        "Support",
+        "Engagement"
+      ]
+    },
+    {
+      "id": "cap-chl-9018cb05-01c9-4c84-8713-36a08274f48a",
+      "type": "academic",
+      "name": "Dr Elly Kent",
+      "position": "Academic",
+      "focus": "Asia and Pacific studies",
+      "school": "School of Culture, History and Language",
+      "schoolCode": "CHL",
+      "college": "ANU College of Asia and the Pacific",
+      "profileUrl": "https://researchportalplus.anu.edu.au/en/persons/9018cb05-01c9-4c84-8713-36a08274f48a",
+      "email": "",
+      "office": "",
+      "linkedCourses": [],
+      "reviewMetrics": [
+        "Clarity",
+        "Support",
+        "Engagement"
+      ],
+      "tags": [
+        "chl",
+        "asia-pacific"
+      ]
+    },
+    {
+      "id": "emi-tanaka",
+      "type": "academic",
+      "name": "Dr Emi Tanaka",
+      "school": "Research School of Finance, Actuarial Studies and Statistics",
+      "schoolCode": "RSFAS",
+      "college": "CBE",
+      "position": "Senior Lecturer",
+      "focus": "Statistics",
+      "email": "See ANU profile",
+      "office": "Research School of Finance, Actuarial Studies and Statistics",
+      "profileUrl": "https://rsfas.anu.edu.au/people/emi-tanaka",
+      "tags": [
+        "rsfas",
+        "statistics"
+      ],
+      "linkedCourses": [],
+      "reviewMetrics": [
+        "Clarity",
+        "Support",
+        "Engagement"
+      ]
+    },
+    {
+      "id": "cap-chl-6464d807-afc0-416d-8db9-23b447538e9b",
+      "type": "academic",
+      "name": "Dr Eri Kashima",
+      "position": "Academic",
+      "focus": "Asia and Pacific studies",
+      "school": "School of Culture, History and Language",
+      "schoolCode": "CHL",
+      "college": "ANU College of Asia and the Pacific",
+      "profileUrl": "https://researchportalplus.anu.edu.au/en/persons/6464d807-afc0-416d-8db9-23b447538e9b",
+      "email": "",
+      "office": "",
+      "linkedCourses": [],
+      "reviewMetrics": [
+        "Clarity",
+        "Support",
+        "Engagement"
+      ],
+      "tags": [
+        "chl",
+        "asia-pacific"
+      ]
+    },
+    {
+      "id": "erica-seccombe",
+      "type": "academic",
+      "name": "Dr Erica Seccombe",
+      "school": "Centre for Art History & Art Theory",
+      "schoolCode": "CASS",
+      "college": "CASS",
+      "position": "Senior Lecturer, Centre for Art History & Art Theory",
+      "focus": "Centre for Art History & Art Theory",
+      "email": "erica.seccombe@anu.edu.au",
+      "office": "Centre for Art History & Art Theory",
+      "profileUrl": "https://researchportalplus.anu.edu.au/en/persons/erica-seccombe",
+      "tags": [
+        "cass",
+        "centre for art history & art the"
+      ],
+      "linkedCourses": [],
+      "reviewMetrics": [
+        "Clarity",
+        "Support",
+        "Engagement"
+      ]
+    },
+    {
+      "id": "estelle-strazdins",
+      "type": "academic",
+      "name": "Dr Estelle Strazdins",
+      "school": "ANU College of Arts and Social Sciences",
+      "schoolCode": "CASS",
+      "college": "CASS",
+      "position": "Lecturer in Classics, Classics",
+      "focus": "ANU College of Arts and Social Sciences",
+      "email": "estelle.strazdins@anu.edu.au",
+      "office": "ANU College of Arts and Social Sciences",
+      "profileUrl": "https://researchportalplus.anu.edu.au/en/persons/estelle-strazdins",
+      "tags": [
+        "cass",
+        "anu college of arts and social s"
+      ],
+      "linkedCourses": [],
+      "reviewMetrics": [
+        "Clarity",
+        "Support",
+        "Engagement"
+      ]
+    },
+    {
+      "id": "cap-chl-7eb6230c-c7ca-47d3-a989-692e0898f488",
+      "type": "academic",
+      "name": "Dr Esther Klein Philosophy",
+      "position": "Academic",
+      "focus": "of Specific Cultures (incl. Comparative Philosophy) Asian History Chinese Intellectual History",
+      "school": "School of Culture, History and Language",
+      "schoolCode": "CHL",
+      "college": "ANU College of Asia and the Pacific",
+      "profileUrl": "https://researchportalplus.anu.edu.au/en/persons/7eb6230c-c7ca-47d3-a989-692e0898f488",
+      "email": "",
+      "office": "",
+      "linkedCourses": [],
+      "reviewMetrics": [
+        "Clarity",
+        "Support",
+        "Engagement"
+      ],
+      "tags": [
+        "chl",
+        "asia-pacific"
+      ]
+    },
+    {
+      "id": "eunice-khoo",
+      "type": "academic",
+      "name": "Dr Eunice Khoo",
+      "school": "Research School of Accounting",
+      "schoolCode": "RSA",
+      "college": "CBE",
+      "position": "Senior Lecturer",
+      "focus": "Accounting",
+      "email": "See ANU profile",
+      "office": "Research School of Accounting",
+      "profileUrl": "https://rsa.anu.edu.au/people/eunice-khoo",
+      "tags": [
+        "rsa",
+        "accounting"
+      ],
+      "linkedCourses": [],
+      "reviewMetrics": [
+        "Clarity",
+        "Support",
+        "Engagement"
+      ]
+    },
+    {
+      "id": "cap-chl-5b636ede-00b7-44e3-ab5e-4ffec5858ad8",
+      "type": "academic",
+      "name": "Dr Eunseon Kim",
+      "position": "Academic",
+      "focus": "Asia and Pacific studies",
+      "school": "School of Culture, History and Language",
+      "schoolCode": "CHL",
+      "college": "ANU College of Asia and the Pacific",
+      "profileUrl": "https://researchportalplus.anu.edu.au/en/persons/5b636ede-00b7-44e3-ab5e-4ffec5858ad8",
+      "email": "",
+      "office": "",
+      "linkedCourses": [],
+      "reviewMetrics": [
+        "Clarity",
+        "Support",
+        "Engagement"
+      ],
+      "tags": [
+        "chl",
+        "asia-pacific"
+      ]
+    },
+    {
+      "id": "cap-chl-f488c0ae-11ff-4c50-baba-fe855c14fc21",
+      "type": "academic",
+      "name": "Dr Eve Chen",
+      "position": "Lecturer",
+      "focus": "Sociolinguistics Language, people and society (Sociolinguistics) Cantonese cultural cognition",
+      "school": "School of Culture, History and Language",
+      "schoolCode": "CHL",
+      "college": "ANU College of Asia and the Pacific",
+      "profileUrl": "https://researchportalplus.anu.edu.au/en/persons/f488c0ae-11ff-4c50-baba-fe855c14fc21",
+      "email": "",
+      "office": "",
+      "linkedCourses": [],
+      "reviewMetrics": [
+        "Clarity",
+        "Support",
+        "Engagement"
+      ],
+      "tags": [
+        "chl",
+        "asia-pacific"
+      ]
+    },
+    {
+      "id": "cap-bell-eve-warburton",
+      "type": "academic",
+      "name": "Dr Eve Warburton",
+      "position": "Senior Lecturer",
+      "focus": "Representation Democratic governance Culture and society in Indonesia",
+      "school": "Coral Bell School of Asia Pacific Affairs",
+      "schoolCode": "BELL",
+      "college": "ANU College of Asia and the Pacific",
+      "profileUrl": "https://researchportalplus.anu.edu.au/en/persons/eve-warburton",
+      "email": "",
+      "office": "",
+      "linkedCourses": [],
+      "reviewMetrics": [
+        "Clarity",
+        "Support",
+        "Engagement"
+      ],
+      "tags": [
+        "bell",
+        "asia-pacific affairs"
+      ]
+    },
+    {
+      "id": "fabricio-tocco",
+      "type": "academic",
+      "name": "Dr Fabricio Tocco",
+      "school": "Spanish Studies",
+      "schoolCode": "CASS",
+      "college": "CASS",
+      "position": "Lecturer, Spanish Studies, Languages",
+      "focus": "Spanish Studies",
+      "email": "fabricio.tocco@anu.edu.au",
+      "office": "Spanish Studies",
+      "profileUrl": "https://researchportalplus.anu.edu.au/en/persons/fabricio-tocco",
+      "tags": [
+        "cass",
+        "spanish studies"
+      ],
+      "linkedCourses": [],
+      "reviewMetrics": [
+        "Clarity",
+        "Support",
+        "Engagement"
+      ]
+    },
+    {
+      "id": "cap-bell-0227b886-2c7c-4abd-9850-11e30fa482e2",
+      "type": "academic",
+      "name": "Dr Fengming Lu",
+      "position": "Research Fellow",
+      "focus": "and Lecturer Political economy Authoritarian Politics Chinese Politics",
+      "school": "Coral Bell School of Asia Pacific Affairs",
+      "schoolCode": "BELL",
+      "college": "ANU College of Asia and the Pacific",
+      "profileUrl": "https://researchportalplus.anu.edu.au/en/persons/0227b886-2c7c-4abd-9850-11e30fa482e2",
+      "email": "",
+      "office": "",
+      "linkedCourses": [],
+      "reviewMetrics": [
+        "Clarity",
+        "Support",
+        "Engagement"
+      ],
+      "tags": [
+        "bell",
+        "asia-pacific affairs"
+      ]
+    },
+    {
+      "id": "francis-markham",
+      "type": "academic",
+      "name": "Dr Francis Markham",
+      "school": "Centre for Aboriginal Economic Policy Research",
+      "schoolCode": "CASS",
+      "college": "CASS",
+      "position": "Research Fellow, Centre for Aboriginal Economic Policy Research",
+      "focus": "Centre for Aboriginal Economic Policy Research",
+      "email": "Francis.Markham@anu.edu.au",
+      "office": "Centre for Aboriginal Economic Policy Research",
+      "profileUrl": "https://researchportalplus.anu.edu.au/en/persons/francis-markham",
+      "tags": [
+        "cass",
+        "centre for aboriginal economic p"
+      ],
+      "linkedCourses": [],
+      "reviewMetrics": [
+        "Clarity",
+        "Support",
+        "Engagement"
+      ]
+    },
+    {
+      "id": "gary-buttriss",
+      "type": "academic",
+      "name": "Dr Gary Buttriss",
+      "school": "Research School of Management",
+      "schoolCode": "RSM",
+      "college": "CBE",
+      "position": "Honorary Senior Lecturer",
+      "focus": "Corporate social responsibility, Corporate sustainability, Entrepreneurship, Innovation, International business, Management, Marketing, Organisational behaviour",
+      "email": "See ANU profile",
+      "office": "Research School of Management",
+      "profileUrl": "https://rsm.anu.edu.au/people/gary-buttriss",
+      "tags": [
+        "rsm",
+        "corporate social responsibility",
+        "corporate sustainability",
+        "entrepreneurship"
+      ],
+      "linkedCourses": [],
+      "reviewMetrics": [
+        "Clarity",
+        "Support",
+        "Engagement"
+      ]
+    },
+    {
+      "id": "gaurav-khemka",
+      "type": "academic",
+      "name": "Dr Gaurav Khemka",
+      "school": "Research School of Finance, Actuarial Studies and Statistics",
+      "schoolCode": "RSFAS",
+      "college": "CBE",
+      "position": "Associate Professor, HDR Convenor",
+      "focus": "Actuarial studies",
+      "email": "See ANU profile",
+      "office": "Research School of Finance, Actuarial Studies and Statistics",
+      "profileUrl": "https://rsfas.anu.edu.au/people/gaurav-khemka",
+      "tags": [
+        "rsfas",
+        "actuarial studies"
+      ],
+      "linkedCourses": [],
+      "reviewMetrics": [
+        "Clarity",
+        "Support",
+        "Engagement"
+      ]
+    },
+    {
+      "id": "gemma-king",
+      "type": "academic",
+      "name": "Dr Gemma King",
+      "school": "Humanities Research Centre",
+      "schoolCode": "CASS",
+      "college": "CASS",
+      "position": "HRC Adjunct Fellow, Humanities Research Centre",
+      "focus": "Senior Lecturer, French Studies, Languages",
+      "email": "Gemma.King@anu.edu.au",
+      "office": "Humanities Research Centre",
+      "profileUrl": "https://researchportalplus.anu.edu.au/en/persons/gemma-king",
+      "tags": [
+        "cass",
+        "senior lecturer",
+        "french studies",
+        "languages"
+      ],
+      "linkedCourses": [],
+      "reviewMetrics": [
+        "Clarity",
+        "Support",
+        "Engagement"
+      ]
+    },
+    {
+      "id": "cap-bell-3bd7abb0-26b1-4890-bf9d-33d437409e5d",
+      "type": "academic",
+      "name": "Dr Gemma Malungahu Pacific",
+      "position": "Research Fellow",
+      "focus": "Department of Pacific Affairs",
+      "school": "Coral Bell School of Asia Pacific Affairs",
+      "schoolCode": "BELL",
+      "college": "ANU College of Asia and the Pacific",
+      "profileUrl": "https://researchportalplus.anu.edu.au/en/persons/3bd7abb0-26b1-4890-bf9d-33d437409e5d",
+      "email": "",
+      "office": "",
+      "linkedCourses": [],
+      "reviewMetrics": [
+        "Clarity",
+        "Support",
+        "Engagement"
+      ],
+      "tags": [
+        "bell",
+        "asia-pacific affairs"
+      ]
+    },
+    {
+      "id": "gen-nowak",
+      "type": "academic",
+      "name": "Dr Gen Nowak",
+      "school": "Research School of Finance, Actuarial Studies and Statistics",
+      "schoolCode": "RSFAS",
+      "college": "CBE",
+      "position": "Senior Lecturer",
+      "focus": "Statistics",
+      "email": "See ANU profile",
+      "office": "Research School of Finance, Actuarial Studies and Statistics",
+      "profileUrl": "https://rsfas.anu.edu.au/people/gen-nowak",
+      "tags": [
+        "rsfas",
+        "statistics"
+      ],
+      "linkedCourses": [],
+      "reviewMetrics": [
+        "Clarity",
+        "Support",
+        "Engagement"
+      ]
+    },
+    {
+      "id": "geoff-kushnick",
+      "type": "academic",
+      "name": "Dr Geoff Kushnick",
+      "school": "ANU College of Arts and Social Sciences",
+      "schoolCode": "CASS",
+      "college": "CASS",
+      "position": "Lecturer in Biological Anthropology, Biological Anthropology",
+      "focus": "ANU College of Arts and Social Sciences",
+      "email": "geoff.kushnick@anu.edu.au",
+      "office": "ANU College of Arts and Social Sciences",
+      "profileUrl": "https://researchportalplus.anu.edu.au/en/persons/geoff-kushnick",
+      "tags": [
+        "cass",
+        "anu college of arts and social s"
+      ],
+      "linkedCourses": [],
+      "reviewMetrics": [
+        "Clarity",
+        "Support",
+        "Engagement"
+      ]
+    },
+    {
+      "id": "georgia-pike-rowney",
+      "type": "academic",
+      "name": "Dr Georgia Pike-Rowney",
+      "school": "ANU College of Arts and Social Sciences",
+      "schoolCode": "CASS",
+      "college": "CASS",
+      "position": "The Friends' Lecturer in Classics and Curator of the ANU Classics Museum, Classics",
+      "focus": "ANU College of Arts and Social Sciences",
+      "email": "georgia.pike-rowney@anu.edu.au",
+      "office": "ANU College of Arts and Social Sciences",
+      "profileUrl": "https://researchportalplus.anu.edu.au/en/persons/georgia-pike-rowney",
+      "tags": [
+        "cass",
+        "anu college of arts and social s"
+      ],
+      "linkedCourses": [],
+      "reviewMetrics": [
+        "Clarity",
+        "Support",
+        "Engagement"
+      ]
+    },
+    {
+      "id": "cap-bell-83b6e7f9-d9c4-43bb-95f6-26bf592fc44f",
+      "type": "academic",
+      "name": "Dr Greg Raymond",
+      "position": "Senior Lecturer",
+      "focus": "China Mekong Memory Studies",
+      "school": "Coral Bell School of Asia Pacific Affairs",
+      "schoolCode": "BELL",
+      "college": "ANU College of Asia and the Pacific",
+      "profileUrl": "https://researchportalplus.anu.edu.au/en/persons/83b6e7f9-d9c4-43bb-95f6-26bf592fc44f",
+      "email": "",
+      "office": "",
+      "linkedCourses": [],
+      "reviewMetrics": [
+        "Clarity",
+        "Support",
+        "Engagement"
+      ],
+      "tags": [
+        "bell",
+        "asia-pacific affairs"
+      ]
+    },
+    {
+      "id": "gregory-stott",
+      "type": "academic",
+      "name": "Dr Greg Stott",
+      "school": "School of Music",
+      "schoolCode": "CASS",
+      "college": "CASS",
+      "position": "Lecturer, School of Music",
+      "focus": "School of Music",
+      "email": "Gregory.Stott@anu.edu.au",
+      "office": "School of Music",
+      "profileUrl": "https://researchportalplus.anu.edu.au/en/persons/gregory-stott",
+      "tags": [
+        "cass",
+        "school of music"
+      ],
+      "linkedCourses": [],
+      "reviewMetrics": [
+        "Clarity",
+        "Support",
+        "Engagement"
+      ]
+    },
+    {
+      "id": "cap-bell-dca78dc4-9c1e-4a6b-b94d-875397d2e385",
+      "type": "academic",
+      "name": "Dr Gregory Fry Hedley Bull",
+      "position": "Fellow",
+      "focus": "and Director of Graduate Studies in International Affairs; Department of International Relations, School of International, Political & Strategic Studies",
+      "school": "Coral Bell School of Asia Pacific Affairs",
+      "schoolCode": "BELL",
+      "college": "ANU College of Asia and the Pacific",
+      "profileUrl": "https://researchportalplus.anu.edu.au/en/persons/dca78dc4-9c1e-4a6b-b94d-875397d2e385",
+      "email": "",
+      "office": "",
+      "linkedCourses": [],
+      "reviewMetrics": [
+        "Clarity",
+        "Support",
+        "Engagement"
+      ],
+      "tags": [
+        "bell",
+        "asia-pacific affairs"
+      ]
+    },
+    {
+      "id": "cap-chl-c1b9c709-9a97-444a-85c7-3f4fdb2d81b9",
+      "type": "academic",
+      "name": "Dr Hayeon Lee",
+      "position": "Postdoctoral Fellow",
+      "focus": "Korea Institute",
+      "school": "School of Culture, History and Language",
+      "schoolCode": "CHL",
+      "college": "ANU College of Asia and the Pacific",
+      "profileUrl": "https://researchportalplus.anu.edu.au/en/persons/c1b9c709-9a97-444a-85c7-3f4fdb2d81b9",
+      "email": "",
+      "office": "",
+      "linkedCourses": [],
+      "reviewMetrics": [
+        "Clarity",
+        "Support",
+        "Engagement"
+      ],
+      "tags": [
+        "chl",
+        "asia-pacific"
+      ]
+    },
+    {
+      "id": "helen-taylor",
+      "type": "academic",
+      "name": "Dr Helen Taylor",
+      "school": "Criminology Program",
+      "schoolCode": "CASS",
+      "college": "CASS",
+      "position": "Lecturer, Criminology Program",
+      "focus": "Criminology Program",
+      "email": "h.taylor@anu.edu.au",
+      "office": "Criminology Program",
+      "profileUrl": "https://researchportalplus.anu.edu.au/en/persons/helen-taylor",
+      "tags": [
+        "cass",
+        "criminology program"
+      ],
+      "linkedCourses": [],
+      "reviewMetrics": [
+        "Clarity",
+        "Support",
+        "Engagement"
+      ]
+    },
+    {
+      "id": "cap-bell-925bca4f-7c97-4e10-8149-674d68981742",
+      "type": "academic",
+      "name": "Dr Henrietta McNeill-Stowers",
+      "position": "Research Fellow",
+      "focus": "(Pacific Security, Geopolitics, Regionalism), Department of Pacific Affairs",
+      "school": "Coral Bell School of Asia Pacific Affairs",
+      "schoolCode": "BELL",
+      "college": "ANU College of Asia and the Pacific",
+      "profileUrl": "https://researchportalplus.anu.edu.au/en/persons/925bca4f-7c97-4e10-8149-674d68981742",
+      "email": "",
+      "office": "",
+      "linkedCourses": [],
+      "reviewMetrics": [
+        "Clarity",
+        "Support",
+        "Engagement"
+      ],
+      "tags": [
+        "bell",
+        "asia-pacific affairs"
+      ]
+    },
+    {
+      "id": "hilary-howes",
+      "type": "academic",
+      "name": "Dr Hilary Howes",
+      "school": "Centre for Heritage and Museum Studies",
+      "schoolCode": "CASS",
+      "college": "CASS",
+      "position": "Research Fellow, Centre for Heritage and Museum Studies",
+      "focus": "Centre for Heritage and Museum Studies",
+      "email": "Hilary.Howes@anu.edu.au",
+      "office": "Centre for Heritage and Museum Studies",
+      "profileUrl": "https://researchportalplus.anu.edu.au/en/persons/hilary-howes",
+      "tags": [
+        "cass",
+        "centre for heritage and museum s"
+      ],
+      "linkedCourses": [],
+      "reviewMetrics": [
+        "Clarity",
+        "Support",
+        "Engagement"
+      ]
+    },
+    {
+      "id": "hongbo-guo",
+      "type": "academic",
+      "name": "Dr Hongbo Guo",
+      "school": "Research School of Management",
+      "schoolCode": "RSM",
+      "college": "CBE",
+      "position": "Postdoctoral Research Fellow",
+      "focus": "Research School of Management",
+      "email": "See ANU profile",
+      "office": "Research School of Management",
+      "profileUrl": "https://rsm.anu.edu.au/people/hongbo-guo",
+      "tags": [
+        "rsm"
+      ],
+      "linkedCourses": [],
+      "reviewMetrics": [
+        "Clarity",
+        "Support",
+        "Engagement"
+      ]
+    },
+    {
+      "id": "cap-chl-16e834f0-eb38-4b7b-b9de-929bd3d27b19",
+      "type": "academic",
+      "name": "Dr Hsiao-chun Hung",
+      "position": "Senior Research Fellow",
+      "focus": "ARCHAEOLOGY",
+      "school": "School of Culture, History and Language",
+      "schoolCode": "CHL",
+      "college": "ANU College of Asia and the Pacific",
+      "profileUrl": "https://researchportalplus.anu.edu.au/en/persons/16e834f0-eb38-4b7b-b9de-929bd3d27b19",
+      "email": "",
+      "office": "",
+      "linkedCourses": [],
+      "reviewMetrics": [
+        "Clarity",
+        "Support",
+        "Engagement"
+      ],
+      "tags": [
+        "chl",
+        "asia-pacific"
+      ]
+    },
+    {
+      "id": "hua-deng",
+      "type": "academic",
+      "name": "Dr Hua Deng",
+      "school": "Research School of Finance, Actuarial Studies and Statistics",
+      "schoolCode": "RSFAS",
+      "college": "CBE",
+      "position": "Lecturer",
+      "focus": "Finance",
+      "email": "See ANU profile",
+      "office": "Research School of Finance, Actuarial Studies and Statistics",
+      "profileUrl": "https://rsfas.anu.edu.au/people/hua-deng",
+      "tags": [
+        "rsfas",
+        "finance"
+      ],
+      "linkedCourses": [],
+      "reviewMetrics": [
+        "Clarity",
+        "Support",
+        "Engagement"
+      ]
+    },
+    {
+      "id": "cap-bell-b6c3537e-c021-48e5-981a-a745cb69c1cf",
+      "type": "academic",
+      "name": "Dr Iain Henry",
+      "position": "Senior Lecturer",
+      "focus": "Asia-Pacific affairs",
+      "school": "Coral Bell School of Asia Pacific Affairs",
+      "schoolCode": "BELL",
+      "college": "ANU College of Asia and the Pacific",
+      "profileUrl": "https://researchportalplus.anu.edu.au/en/persons/b6c3537e-c021-48e5-981a-a745cb69c1cf",
+      "email": "",
+      "office": "",
+      "linkedCourses": [],
+      "reviewMetrics": [
+        "Clarity",
+        "Support",
+        "Engagement"
+      ],
+      "tags": [
+        "bell",
+        "asia-pacific affairs"
+      ]
+    },
+    {
+      "id": "abraham-i",
+      "type": "academic",
+      "name": "Dr Ibrahim Abraham",
+      "school": "Humanities Research Centre",
+      "schoolCode": "CASS",
+      "college": "CASS",
+      "position": "Honorary Senior Lecturer, Humanities Research Centre",
+      "focus": "Humanities Research Centre",
+      "email": "ibrahim.abraham@anu.edu.au",
+      "office": "Humanities Research Centre",
+      "profileUrl": "https://researchers.anu.edu.au/researchers/abraham-i",
+      "tags": [
+        "cass",
+        "humanities research centre"
+      ],
+      "linkedCourses": [],
+      "reviewMetrics": [
+        "Clarity",
+        "Support",
+        "Engagement"
+      ]
+    },
+    {
+      "id": "isabel-wang",
+      "type": "academic",
+      "name": "Dr Isabel Wang",
+      "school": "Research School of Accounting",
+      "schoolCode": "RSA",
+      "college": "CBE",
+      "position": "Senior Lecturer",
+      "focus": "Accounting",
+      "email": "See ANU profile",
+      "office": "Research School of Accounting",
+      "profileUrl": "https://rsa.anu.edu.au/people/isabel-wang",
+      "tags": [
+        "rsa",
+        "accounting"
+      ],
+      "linkedCourses": [],
+      "reviewMetrics": [
+        "Clarity",
+        "Support",
+        "Engagement"
+      ]
+    },
+    {
+      "id": "jacie-liu",
+      "type": "academic",
+      "name": "Dr Jacie Liu",
+      "school": "Research School of Finance, Actuarial Studies and Statistics",
+      "schoolCode": "RSFAS",
+      "college": "CBE",
+      "position": "Senior Lecturer",
+      "focus": "Actuarial studies",
+      "email": "See ANU profile",
+      "office": "Research School of Finance, Actuarial Studies and Statistics",
+      "profileUrl": "https://rsfas.anu.edu.au/people/jacie-liu",
+      "tags": [
+        "rsfas",
+        "actuarial studies"
+      ],
+      "linkedCourses": [],
+      "reviewMetrics": [
+        "Clarity",
+        "Support",
+        "Engagement"
+      ]
+    },
+    {
+      "id": "cap-chl-0886a6da-e065-4a60-b4d2-9acbda013243",
+      "type": "academic",
+      "name": "Dr Jack Fenner",
+      "position": "Academic",
+      "focus": "Asia and Pacific studies",
+      "school": "School of Culture, History and Language",
+      "schoolCode": "CHL",
+      "college": "ANU College of Asia and the Pacific",
+      "profileUrl": "https://researchportalplus.anu.edu.au/en/persons/0886a6da-e065-4a60-b4d2-9acbda013243",
+      "email": "",
+      "office": "",
+      "linkedCourses": [],
+      "reviewMetrics": [
+        "Clarity",
+        "Support",
+        "Engagement"
+      ],
+      "tags": [
+        "chl",
+        "asia-pacific"
+      ]
+    },
+    {
+      "id": "jade-lindley",
+      "type": "academic",
+      "name": "Dr Jade Lindley",
+      "school": "ANU College of Arts and Social Sciences",
+      "schoolCode": "CASS",
+      "college": "CASS",
+      "position": "Associate Professor, Transnational Research Institute on Corruption",
+      "focus": "ANU College of Arts and Social Sciences",
+      "email": "jade.lindley@uwa.edu.au",
+      "office": "ANU College of Arts and Social Sciences",
+      "profileUrl": "https://research-repository.uwa.edu.au/en/persons/jade-lindley",
+      "tags": [
+        "cass",
+        "anu college of arts and social s"
+      ],
+      "linkedCourses": [],
+      "reviewMetrics": [
+        "Clarity",
+        "Support",
+        "Engagement"
+      ]
+    },
+    {
+      "id": "james-odonnell",
+      "type": "academic",
+      "name": "Dr James O'Donnell",
+      "school": "School of Demography",
+      "schoolCode": "CASS",
+      "college": "CASS",
+      "position": "Senior Lecturer, School of Demography",
+      "focus": "School of Demography",
+      "email": "james.odonnell@anu.edu.au",
+      "office": "School of Demography",
+      "profileUrl": "https://researchportalplus.anu.edu.au/en/persons/james-odonnell",
+      "tags": [
+        "cass",
+        "school of demography"
+      ],
+      "linkedCourses": [],
+      "reviewMetrics": [
+        "Clarity",
+        "Support",
+        "Engagement"
+      ]
+    },
+    {
+      "id": "james-taylor",
+      "type": "academic",
+      "name": "Dr James Taylor",
+      "school": "Research School of Economics",
+      "schoolCode": "RSE",
+      "college": "CBE",
+      "position": "Lecturer",
+      "focus": "Economics",
+      "email": "See ANU profile",
+      "office": "Research School of Economics",
+      "profileUrl": "https://rse.anu.edu.au/people/james-taylor",
+      "tags": [
+        "rse",
+        "economics"
+      ],
+      "linkedCourses": [],
+      "reviewMetrics": [
+        "Clarity",
+        "Support",
+        "Engagement"
+      ]
+    },
+    {
+      "id": "jananie-william",
+      "type": "academic",
+      "name": "Dr Jananie William",
+      "school": "Research School of Finance, Actuarial Studies and Statistics",
+      "schoolCode": "RSFAS",
+      "college": "CBE",
+      "position": "Senior Lecturer",
+      "focus": "Actuarial studies",
+      "email": "See ANU profile",
+      "office": "Research School of Finance, Actuarial Studies and Statistics",
+      "profileUrl": "https://rsfas.anu.edu.au/people/jananie-william",
+      "tags": [
+        "rsfas",
+        "actuarial studies"
+      ],
+      "linkedCourses": [],
+      "reviewMetrics": [
+        "Clarity",
+        "Support",
+        "Engagement"
+      ]
+    },
+    {
+      "id": "cap-chl-398e1c77-3bff-4699-99a9-d503d068ff14",
+      "type": "academic",
+      "name": "Dr Janit Feangfu PhD,",
+      "position": "Lecturer",
+      "focus": "in Thai Thai Cold-War Literature Thai Literature, Language and Popular-Culture Culture, Gender, Sexuality",
+      "school": "School of Culture, History and Language",
+      "schoolCode": "CHL",
+      "college": "ANU College of Asia and the Pacific",
+      "profileUrl": "https://researchportalplus.anu.edu.au/en/persons/398e1c77-3bff-4699-99a9-d503d068ff14",
+      "email": "",
+      "office": "",
+      "linkedCourses": [],
+      "reviewMetrics": [
+        "Clarity",
+        "Support",
+        "Engagement"
+      ],
+      "tags": [
+        "chl",
+        "asia-pacific"
+      ]
+    },
+    {
+      "id": "cap-chl-b94a4b55-fabe-492e-841b-424046de8dd5",
+      "type": "academic",
+      "name": "Dr Jarrah Sastrawan",
+      "position": "Lecturer",
+      "focus": "(Indonesian)",
+      "school": "School of Culture, History and Language",
+      "schoolCode": "CHL",
+      "college": "ANU College of Asia and the Pacific",
+      "profileUrl": "https://researchportalplus.anu.edu.au/en/persons/b94a4b55-fabe-492e-841b-424046de8dd5",
+      "email": "",
+      "office": "",
+      "linkedCourses": [],
+      "reviewMetrics": [
+        "Clarity",
+        "Support",
+        "Engagement"
+      ],
+      "tags": [
+        "chl",
+        "asia-pacific"
+      ]
+    },
+    {
+      "id": "jeffrey-sarmiento",
+      "type": "academic",
+      "name": "Dr Jeffrey Sarmiento",
+      "school": "School of Art & Design",
+      "schoolCode": "CASS",
+      "college": "CASS",
+      "position": "Senior Lecturer, School of Art & Design",
+      "focus": "School of Art & Design",
+      "email": "Jeffrey.Sarmiento@anu.edu.au",
+      "office": "School of Art & Design",
+      "profileUrl": "https://researchportalplus.anu.edu.au/en/persons/jeffrey-sarmiento",
+      "tags": [
+        "cass",
+        "school of art & design"
+      ],
+      "linkedCourses": [],
+      "reviewMetrics": [
+        "Clarity",
+        "Support",
+        "Engagement"
+      ]
+    },
+    {
+      "id": "cap-chl-5d0abed3-966c-4897-bdc6-a734dfee1864",
+      "type": "academic",
+      "name": "Dr Jen Mason",
+      "position": "Academic",
+      "focus": "Asia and Pacific studies",
+      "school": "School of Culture, History and Language",
+      "schoolCode": "CHL",
+      "college": "ANU College of Asia and the Pacific",
+      "profileUrl": "https://researchportalplus.anu.edu.au/en/persons/5d0abed3-966c-4897-bdc6-a734dfee1864",
+      "email": "",
+      "office": "",
+      "linkedCourses": [],
+      "reviewMetrics": [
+        "Clarity",
+        "Support",
+        "Engagement"
+      ],
+      "tags": [
+        "chl",
+        "asia-pacific"
+      ]
+    },
+    {
+      "id": "jessie-moritz",
+      "type": "academic",
+      "name": "Dr Jessie Moritz",
+      "school": "Centre for Arab and Islamic Studies",
+      "schoolCode": "CASS",
+      "college": "CASS",
+      "position": "Senior Lecturer in Political Economy and Comparative Politics (The Arabian Peninsula), Centre for Arab and Islamic Studies",
+      "focus": "Centre for Arab and Islamic Studies",
+      "email": "Jessie.Moritz@anu.edu.au",
+      "office": "Centre for Arab and Islamic Studies",
+      "profileUrl": "https://researchportalplus.anu.edu.au/en/persons/jessie-moritz",
+      "tags": [
+        "cass",
+        "centre for arab and islamic stud"
+      ],
+      "linkedCourses": [],
+      "reviewMetrics": [
+        "Clarity",
+        "Support",
+        "Engagement"
+      ]
+    },
+    {
+      "id": "jos-mulder",
+      "type": "academic",
+      "name": "Dr Johannes (Jos) Mulder",
+      "school": "School of Music",
+      "schoolCode": "CASS",
+      "college": "CASS",
+      "position": "Senior Lecturer, School of Music",
+      "focus": "Convenor of Music Technology, School of Music",
+      "email": "Jos.Mulder@anu.edu.au",
+      "office": "School of Music",
+      "profileUrl": "https://researchportalplus.anu.edu.au/en/persons/jos-mulder",
+      "tags": [
+        "cass",
+        "convenor of music technology",
+        "school of music"
+      ],
+      "linkedCourses": [],
+      "reviewMetrics": [
+        "Clarity",
+        "Support",
+        "Engagement"
+      ]
+    },
+    {
+      "id": "cap-bell-ab07f552-cf09-4ced-b04e-12bd3815e314",
+      "type": "academic",
+      "name": "Dr Joseph MacKay",
+      "position": "Research Fellow",
+      "focus": "Asia-Pacific affairs",
+      "school": "Coral Bell School of Asia Pacific Affairs",
+      "schoolCode": "BELL",
+      "college": "ANU College of Asia and the Pacific",
+      "profileUrl": "https://researchportalplus.anu.edu.au/en/persons/ab07f552-cf09-4ced-b04e-12bd3815e314",
+      "email": "",
+      "office": "",
+      "linkedCourses": [],
+      "reviewMetrics": [
+        "Clarity",
+        "Support",
+        "Engagement"
+      ],
+      "tags": [
+        "bell",
+        "asia-pacific affairs"
+      ]
+    },
+    {
+      "id": "cap-bell-2f1860b2-7b31-490e-b13e-cc9ade82eaea",
+      "type": "academic",
+      "name": "Dr Judy Putt",
+      "position": "Research Fellow",
+      "focus": "Asia-Pacific affairs",
+      "school": "Coral Bell School of Asia Pacific Affairs",
+      "schoolCode": "BELL",
+      "college": "ANU College of Asia and the Pacific",
+      "profileUrl": "https://researchportalplus.anu.edu.au/en/persons/2f1860b2-7b31-490e-b13e-cc9ade82eaea",
+      "email": "",
+      "office": "",
+      "linkedCourses": [],
+      "reviewMetrics": [
+        "Clarity",
+        "Support",
+        "Engagement"
+      ],
+      "tags": [
+        "bell",
+        "asia-pacific affairs"
+      ]
+    },
+    {
+      "id": "juergen-meinecke",
+      "type": "academic",
+      "name": "Dr Juergen Meinecke",
+      "school": "Research School of Economics",
+      "schoolCode": "RSE",
+      "college": "CBE",
+      "position": "Lecturer",
+      "focus": "Econometrics, Economics",
+      "email": "See ANU profile",
+      "office": "Research School of Economics",
+      "profileUrl": "https://rse.anu.edu.au/people/juergen-meinecke",
+      "tags": [
+        "rse",
+        "econometrics",
+        "economics"
+      ],
+      "linkedCourses": [],
+      "reviewMetrics": [
+        "Clarity",
+        "Support",
+        "Engagement"
+      ]
+    },
+    {
+      "id": "julie-brooke",
+      "type": "academic",
+      "name": "Dr Julie Brooke",
+      "school": "ANU College of Arts and Social Sciences",
+      "schoolCode": "CASS",
+      "college": "CASS",
+      "position": "Research Fellow and Lecturer, Painting",
+      "focus": "ANU College of Arts and Social Sciences",
+      "email": "julie.brooke@anu.edu.au",
+      "office": "ANU College of Arts and Social Sciences",
+      "profileUrl": "https://researchportalplus.anu.edu.au/en/persons/julie-brooke",
+      "tags": [
+        "cass",
+        "anu college of arts and social s"
+      ],
+      "linkedCourses": [],
+      "reviewMetrics": [
+        "Clarity",
+        "Support",
+        "Engagement"
+      ]
+    },
+    {
+      "id": "julie-cunningham",
+      "type": "academic",
+      "name": "Dr Julie Cunningham",
+      "school": "School of Sociology",
+      "schoolCode": "CASS",
+      "college": "CASS",
+      "position": "Postdoctoral Research Fellow, School of Sociology",
+      "focus": "School of Sociology",
+      "email": "Julie.Cunningham@anu.edu.au",
+      "office": "School of Sociology",
+      "profileUrl": "https://researchportalplus.anu.edu.au/en/persons/julie-cunningham",
+      "tags": [
+        "cass",
+        "school of sociology"
+      ],
+      "linkedCourses": [],
+      "reviewMetrics": [
+        "Clarity",
+        "Support",
+        "Engagement"
+      ]
+    },
+    {
+      "id": "julie-lahn",
+      "type": "academic",
+      "name": "Dr Julie Lahn",
+      "school": "Centre for Heritage and Museum Studies",
+      "schoolCode": "CASS",
+      "college": "CASS",
+      "position": "Fellow, Centre for Heritage and Museum Studies",
+      "focus": "Centre for Heritage and Museum Studies",
+      "email": "julie.lahn@anu.edu.au",
+      "office": "Centre for Heritage and Museum Studies",
+      "profileUrl": "https://researchportalplus.anu.edu.au/en/persons/julie-lahn",
+      "tags": [
+        "cass",
+        "centre for heritage and museum s"
+      ],
+      "linkedCourses": [],
+      "reviewMetrics": [
+        "Clarity",
+        "Support",
+        "Engagement"
+      ]
+    },
+    {
+      "id": "karen-fox",
+      "type": "academic",
+      "name": "Dr Karen Fox",
+      "school": "School of History",
+      "schoolCode": "CASS",
+      "college": "CASS",
+      "position": "Senior Lecturer, School of History",
+      "focus": "Senior Academic Research Editor, National Centre of Biography",
+      "email": "karen.fox@anu.edu.au",
+      "office": "School of History",
+      "profileUrl": "https://researchportalplus.anu.edu.au/en/persons/karen-fox",
+      "tags": [
+        "cass",
+        "senior academic research editor",
+        "national centre of biography"
+      ],
+      "linkedCourses": [],
+      "reviewMetrics": [
+        "Clarity",
+        "Support",
+        "Engagement"
+      ]
+    },
+    {
+      "id": "karryna-madison",
+      "type": "academic",
+      "name": "Dr Karryna Madison",
+      "school": "Research School of Management",
+      "schoolCode": "RSM",
+      "college": "CBE",
+      "position": "Lecturer in Leadership",
+      "focus": "Leadership",
+      "email": "See ANU profile",
+      "office": "Research School of Management",
+      "profileUrl": "https://rsm.anu.edu.au/people/karryna-madison",
+      "tags": [
+        "rsm",
+        "leadership"
+      ],
+      "linkedCourses": [],
+      "reviewMetrics": [
+        "Clarity",
+        "Support",
+        "Engagement"
+      ]
+    },
+    {
+      "id": "kate-hill-2",
+      "type": "academic",
+      "name": "Dr Kate Hill",
+      "school": "ANU College of Arts and Social Sciences",
+      "schoolCode": "CASS",
+      "college": "CASS",
+      "position": "Lecturer, Ceramics",
+      "focus": "ANU College of Arts and Social Sciences",
+      "email": "Kate.Hill1@anu.edu.au",
+      "office": "ANU College of Arts and Social Sciences",
+      "profileUrl": "https://researchportalplus.anu.edu.au/en/persons/kate-hill-2",
+      "tags": [
+        "cass",
+        "anu college of arts and social s"
+      ],
+      "linkedCourses": [],
+      "reviewMetrics": [
+        "Clarity",
+        "Support",
+        "Engagement"
+      ]
+    },
+    {
+      "id": "kate-warren",
+      "type": "academic",
+      "name": "Dr Kate Warren",
+      "school": "Centre for Art History & Art Theory",
+      "schoolCode": "CASS",
+      "college": "CASS",
+      "position": "Senior Lecturer, Centre for Art History & Art Theory",
+      "focus": "Centre for Art History & Art Theory",
+      "email": "kate.warren@anu.edu.au",
+      "office": "Centre for Art History & Art Theory",
+      "profileUrl": "https://researchportalplus.anu.edu.au/en/persons/kate-warren",
+      "tags": [
+        "cass",
+        "centre for art history & art the"
+      ],
+      "linkedCourses": [],
+      "reviewMetrics": [
+        "Clarity",
+        "Support",
+        "Engagement"
+      ]
+    },
+    {
+      "id": "katerina-kormusheva",
+      "type": "academic",
+      "name": "Dr Katerina Kormusheva",
+      "school": "Research School of Management",
+      "schoolCode": "RSM",
+      "college": "CBE",
+      "position": "Lecturer and course convenor",
+      "focus": "Business information systems, Entrepreneurship, Innovation, Marketing, Strategy",
+      "email": "See ANU profile",
+      "office": "Research School of Management",
+      "profileUrl": "https://rsm.anu.edu.au/people/katerina-kormusheva",
+      "tags": [
+        "rsm",
+        "business information systems",
+        "entrepreneurship",
+        "innovation"
+      ],
+      "linkedCourses": [],
+      "reviewMetrics": [
+        "Clarity",
+        "Support",
+        "Engagement"
+      ]
+    },
+    {
+      "id": "katharine-balolia",
+      "type": "academic",
+      "name": "Dr Katharine Balolia",
+      "school": "ANU College of Arts and Social Sciences",
+      "schoolCode": "CASS",
+      "college": "CASS",
+      "position": "Senior Lecturer in Biological Anthropology, Biological Anthropology",
+      "focus": "ANU College of Arts and Social Sciences",
+      "email": "katharine.balolia@anu.edu.au",
+      "office": "ANU College of Arts and Social Sciences",
+      "profileUrl": "https://researchportalplus.anu.edu.au/en/persons/katharine-balolia",
+      "tags": [
+        "cass",
+        "anu college of arts and social s"
+      ],
+      "linkedCourses": [],
+      "reviewMetrics": [
+        "Clarity",
+        "Support",
+        "Engagement"
+      ]
+    },
+    {
+      "id": "cap-chl-1206b6cf-e1ac-4967-92a8-e8d2cc4974c5",
+      "type": "academic",
+      "name": "Dr Katherine Aigner",
+      "position": "Research Fellow",
+      "focus": "Asia and Pacific studies",
+      "school": "School of Culture, History and Language",
+      "schoolCode": "CHL",
+      "college": "ANU College of Asia and the Pacific",
+      "profileUrl": "https://researchportalplus.anu.edu.au/en/persons/1206b6cf-e1ac-4967-92a8-e8d2cc4974c5",
+      "email": "",
+      "office": "",
+      "linkedCourses": [],
+      "reviewMetrics": [
+        "Clarity",
+        "Support",
+        "Engagement"
+      ],
+      "tags": [
+        "chl",
+        "asia-pacific"
+      ]
+    },
+    {
+      "id": "katherine-curchin",
+      "type": "academic",
+      "name": "Dr Katherine Curchin",
+      "school": "Centre for Social Research and Methods",
+      "schoolCode": "CASS",
+      "college": "CASS",
+      "position": "Honorary Lecturer, Centre for Social Research and Methods",
+      "focus": "Centre for Social Research and Methods",
+      "email": "katherine.curchin@anu.edu.au",
+      "office": "Centre for Social Research and Methods",
+      "profileUrl": "https://researchportalplus.anu.edu.au/en/persons/katherine-curchin",
+      "tags": [
+        "cass",
+        "centre for social research and m"
+      ],
+      "linkedCourses": [],
+      "reviewMetrics": [
+        "Clarity",
+        "Support",
+        "Engagement"
+      ]
+    },
+    {
+      "id": "kate-flaherty",
+      "type": "academic",
+      "name": "Dr Kathryn (Kate) Flaherty",
+      "school": "ANU College of Arts and Social Sciences",
+      "schoolCode": "CASS",
+      "college": "CASS",
+      "position": "Senior Lecturer, English & Drama, English",
+      "focus": "ANU College of Arts and Social Sciences",
+      "email": "kate.flaherty@anu.edu.au",
+      "office": "ANU College of Arts and Social Sciences",
+      "profileUrl": "https://researchportalplus.anu.edu.au/en/persons/kate-flaherty",
+      "tags": [
+        "cass",
+        "anu college of arts and social s"
+      ],
+      "linkedCourses": [],
+      "reviewMetrics": [
+        "Clarity",
+        "Support",
+        "Engagement"
+      ]
+    },
+    {
+      "id": "kathy-wang",
+      "type": "academic",
+      "name": "Dr Kathy Wang",
+      "school": "Research School of Accounting",
+      "schoolCode": "RSA",
+      "college": "CBE",
+      "position": "Lecturer and course convenor",
+      "focus": "Accounting",
+      "email": "See ANU profile",
+      "office": "Research School of Accounting",
+      "profileUrl": "https://rsa.anu.edu.au/people/kathy-wang",
+      "tags": [
+        "rsa",
+        "accounting"
+      ],
+      "linkedCourses": [],
+      "reviewMetrics": [
+        "Clarity",
+        "Support",
+        "Engagement"
+      ]
+    },
+    {
+      "id": "cap-bell-57ed9d12-f7de-409f-b85e-badbd04766c2",
+      "type": "academic",
+      "name": "Dr Katrin Travouillon",
+      "position": "Senior Lecturer",
+      "focus": "Asia-Pacific affairs",
+      "school": "Coral Bell School of Asia Pacific Affairs",
+      "schoolCode": "BELL",
+      "college": "ANU College of Asia and the Pacific",
+      "profileUrl": "https://researchportalplus.anu.edu.au/en/persons/57ed9d12-f7de-409f-b85e-badbd04766c2",
+      "email": "",
+      "office": "",
+      "linkedCourses": [],
+      "reviewMetrics": [
+        "Clarity",
+        "Support",
+        "Engagement"
+      ],
+      "tags": [
+        "bell",
+        "asia-pacific affairs"
+      ]
+    },
+    {
+      "id": "grant-k",
+      "type": "academic",
+      "name": "Dr Katrina Grant",
+      "school": "Centre for Digital Humanities Research",
+      "schoolCode": "CASS",
+      "college": "CASS",
+      "position": "Lecturer in Digital Humanities, Centre for Digital Humanities Research",
+      "focus": "HRC Adjunct Fellow, Humanities Research Centre",
+      "email": "Katrina.Grant@anu.edu.au",
+      "office": "Centre for Digital Humanities Research",
+      "profileUrl": "https://researchers.anu.edu.au/researchers/grant-k",
+      "tags": [
+        "cass",
+        "hrc adjunct fellow",
+        "humanities research centre"
+      ],
+      "linkedCourses": [],
+      "reviewMetrics": [
+        "Clarity",
+        "Support",
+        "Engagement"
+      ]
+    },
+    {
+      "id": "katrine-beauregard",
+      "type": "academic",
+      "name": "Dr Katrine Beauregard",
+      "school": "School of Politics & International Relations",
+      "schoolCode": "CASS",
+      "college": "CASS",
+      "position": "Senior Lecturer, School of Politics & International Relations",
+      "focus": "Senior Lecturer, School of Politics & International Relations",
+      "email": "Katrine.Beauregard@anu.edu.au",
+      "office": "School of Politics & International Relations",
+      "profileUrl": "https://researchportalplus.anu.edu.au/en/persons/katrine-beauregard",
+      "tags": [
+        "cass",
+        "senior lecturer",
+        "school of politics & internation"
+      ],
+      "linkedCourses": [],
+      "reviewMetrics": [
+        "Clarity",
+        "Support",
+        "Engagement"
+      ]
+    },
+    {
+      "id": "keren-hammerschlag",
+      "type": "academic",
+      "name": "Dr Keren Hammerschlag",
+      "school": "Centre for Art History & Art Theory",
+      "schoolCode": "CASS",
+      "college": "CASS",
+      "position": "Senior Lecturer, Centre for Art History & Art Theory",
+      "focus": "Convenor of Bachelor of Art History and Curatorship (Honours), School of Art & Design, Director, Centre for Art History & Art Theory",
+      "email": "Keren.Hammerschlag@anu.edu.au",
+      "office": "Centre for Art History & Art Theory",
+      "profileUrl": "https://researchportalplus.anu.edu.au/en/persons/keren-hammerschlag",
+      "tags": [
+        "cass",
+        "convenor of bachelor of art hist",
+        "school of art & design",
+        "director"
+      ],
+      "linkedCourses": [],
+      "reviewMetrics": [
+        "Clarity",
+        "Support",
+        "Engagement"
+      ]
+    },
+    {
+      "id": "kevin-lu",
+      "type": "academic",
+      "name": "Dr Kevin Lu",
+      "school": "Research School of Finance, Actuarial Studies and Statistics",
+      "schoolCode": "RSFAS",
+      "college": "CBE",
+      "position": "Lecturer",
+      "focus": "Statistics",
+      "email": "See ANU profile",
+      "office": "Research School of Finance, Actuarial Studies and Statistics",
+      "profileUrl": "https://rsfas.anu.edu.au/people/kevin-lu",
+      "tags": [
+        "rsfas",
+        "statistics"
+      ],
+      "linkedCourses": [],
+      "reviewMetrics": [
+        "Clarity",
+        "Support",
+        "Engagement"
+      ]
+    },
+    {
+      "id": "kimin-eom",
+      "type": "academic",
+      "name": "Dr Kimin Eom",
+      "school": "Research School of Management",
+      "schoolCode": "RSM",
+      "college": "CBE",
+      "position": "Senior Lecturer &amp; HDR convenor",
+      "focus": "Corporate social responsibility, Corporate sustainability, Management, Organisational behaviour",
+      "email": "See ANU profile",
+      "office": "Research School of Management",
+      "profileUrl": "https://rsm.anu.edu.au/people/kimin-eom",
+      "tags": [
+        "rsm",
+        "corporate social responsibility",
+        "corporate sustainability",
+        "management"
+      ],
+      "linkedCourses": [],
+      "reviewMetrics": [
+        "Clarity",
+        "Support",
+        "Engagement"
+      ]
+    },
+    {
+      "id": "kirsten-mann",
+      "type": "academic",
+      "name": "Dr Kirsten Mann",
+      "school": "School of Philosophy",
+      "schoolCode": "CASS",
+      "college": "CASS",
+      "position": "Postdoctoral Fellow, School of Philosophy",
+      "focus": "School of Philosophy",
+      "email": "kirsten.mann@anu.edu.au",
+      "office": "School of Philosophy",
+      "profileUrl": "https://researchportalplus.anu.edu.au/en/persons/kirsten-mann",
+      "tags": [
+        "cass",
+        "school of philosophy"
+      ],
+      "linkedCourses": [],
+      "reviewMetrics": [
+        "Clarity",
+        "Support",
+        "Engagement"
+      ]
+    },
+    {
+      "id": "cap-chl-367a1b88-8b3b-4b35-9989-6cd268159feb",
+      "type": "academic",
+      "name": "Dr Kirsty Gillespie Pacific",
+      "position": "Academic",
+      "focus": "Cultural Studies ETHNOMUSICOLOGY ANTHROPOLOGY",
+      "school": "School of Culture, History and Language",
+      "schoolCode": "CHL",
+      "college": "ANU College of Asia and the Pacific",
+      "profileUrl": "https://researchportalplus.anu.edu.au/en/persons/367a1b88-8b3b-4b35-9989-6cd268159feb",
+      "email": "",
+      "office": "",
+      "linkedCourses": [],
+      "reviewMetrics": [
+        "Clarity",
+        "Support",
+        "Engagement"
+      ],
+      "tags": [
+        "chl",
+        "asia-pacific"
+      ]
+    },
+    {
+      "id": "cap-chl-449d4e70-103c-4e39-9156-3af472db7456",
+      "type": "academic",
+      "name": "Dr Kirsty Wissing",
+      "position": "Research Fellow",
+      "focus": "Asia and Pacific studies",
+      "school": "School of Culture, History and Language",
+      "schoolCode": "CHL",
+      "college": "ANU College of Asia and the Pacific",
+      "profileUrl": "https://researchportalplus.anu.edu.au/en/persons/449d4e70-103c-4e39-9156-3af472db7456",
+      "email": "",
+      "office": "",
+      "linkedCourses": [],
+      "reviewMetrics": [
+        "Clarity",
+        "Support",
+        "Engagement"
+      ],
+      "tags": [
+        "chl",
+        "asia-pacific"
+      ]
+    },
+    {
+      "id": "koji-tanaka",
+      "type": "academic",
+      "name": "Dr Koji Tanaka",
+      "school": "School of Philosophy",
+      "schoolCode": "CASS",
+      "college": "CASS",
+      "position": "Senior Lecturer, School of Philosophy",
+      "focus": "School of Philosophy",
+      "email": "koji.tanaka@anu.edu.au",
+      "office": "School of Philosophy",
+      "profileUrl": "https://researchportalplus.anu.edu.au/en/persons/koji-tanaka",
+      "tags": [
+        "cass",
+        "school of philosophy"
+      ],
+      "linkedCourses": [],
+      "reviewMetrics": [
+        "Clarity",
+        "Support",
+        "Engagement"
+      ]
+    },
+    {
+      "id": "kristin-mcgee",
+      "type": "academic",
+      "name": "Dr Kristin McGee",
+      "school": "School of Music",
+      "schoolCode": "CASS",
+      "college": "CASS",
+      "position": "Senior Lecturer, School of Music",
+      "focus": "School of Music",
+      "email": "Kristin.McGee@anu.edu.au",
+      "office": "School of Music",
+      "profileUrl": "https://researchportalplus.anu.edu.au/en/persons/kristin-mcgee",
+      "tags": [
+        "cass",
+        "school of music"
+      ],
+      "linkedCourses": [],
+      "reviewMetrics": [
+        "Clarity",
+        "Support",
+        "Engagement"
+      ]
+    },
+    {
+      "id": "ksenia-gnevsheva",
+      "type": "academic",
+      "name": "Dr Ksenia Gnevsheva",
+      "school": "ANU College of Arts and Social Sciences",
+      "schoolCode": "CASS",
+      "college": "CASS",
+      "position": "Senior Lecturer in Linguistics, Linguistics & Applied Linguistics",
+      "focus": "ANU College of Arts and Social Sciences",
+      "email": "Ksenia.Gnevsheva@anu.edu.au",
+      "office": "ANU College of Arts and Social Sciences",
+      "profileUrl": "https://researchportalplus.anu.edu.au/en/persons/ksenia-gnevsheva",
+      "tags": [
+        "cass",
+        "anu college of arts and social s"
+      ],
+      "linkedCourses": [],
+      "reviewMetrics": [
+        "Clarity",
+        "Support",
+        "Engagement"
+      ]
+    },
+    {
+      "id": "kun-li",
+      "type": "academic",
+      "name": "Dr Kun Li",
+      "school": "Research School of Finance, Actuarial Studies and Statistics",
+      "schoolCode": "RSFAS",
+      "college": "CBE",
+      "position": "Lecturer",
+      "focus": "Finance",
+      "email": "See ANU profile",
+      "office": "Research School of Finance, Actuarial Studies and Statistics",
+      "profileUrl": "https://rsfas.anu.edu.au/people/kun-li",
+      "tags": [
+        "rsfas",
+        "finance"
+      ],
+      "linkedCourses": [],
+      "reviewMetrics": [
+        "Clarity",
+        "Support",
+        "Engagement"
+      ]
+    },
+    {
+      "id": "cap-bell-c88a95eb-b0f1-41e6-b105-87b8e7600ac0",
+      "type": "academic",
+      "name": "Dr Kyungwon Suh",
+      "position": "Lecturer",
+      "focus": "at the Strategic and Defence Studies Centre POLITICAL SCIENCE International Relations Defence Studies",
+      "school": "Coral Bell School of Asia Pacific Affairs",
+      "schoolCode": "BELL",
+      "college": "ANU College of Asia and the Pacific",
+      "profileUrl": "https://researchportalplus.anu.edu.au/en/persons/c88a95eb-b0f1-41e6-b105-87b8e7600ac0",
+      "email": "",
+      "office": "",
+      "linkedCourses": [],
+      "reviewMetrics": [
+        "Clarity",
+        "Support",
+        "Engagement"
+      ],
+      "tags": [
+        "bell",
+        "asia-pacific affairs"
+      ]
+    },
+    {
+      "id": "cap-bell-6af4908b-885f-4bcb-99ec-5117f4e6ec68",
+      "type": "academic",
+      "name": "Dr Lauren Richardson",
+      "position": "Lecturer",
+      "focus": "in International Relations Social Change International Relations",
+      "school": "Coral Bell School of Asia Pacific Affairs",
+      "schoolCode": "BELL",
+      "college": "ANU College of Asia and the Pacific",
+      "profileUrl": "https://researchportalplus.anu.edu.au/en/persons/6af4908b-885f-4bcb-99ec-5117f4e6ec68",
+      "email": "",
+      "office": "",
+      "linkedCourses": [],
+      "reviewMetrics": [
+        "Clarity",
+        "Support",
+        "Engagement"
+      ],
+      "tags": [
+        "bell",
+        "asia-pacific affairs"
+      ]
+    },
+    {
+      "id": "laurence-field",
+      "type": "academic",
+      "name": "Dr Laurence Field",
+      "school": "Research School of Finance, Actuarial Studies and Statistics",
+      "schoolCode": "RSFAS",
+      "college": "CBE",
+      "position": "Lecturer",
+      "focus": "Statistics",
+      "email": "See ANU profile",
+      "office": "Research School of Finance, Actuarial Studies and Statistics",
+      "profileUrl": "https://rsfas.anu.edu.au/people/laurence-field",
+      "tags": [
+        "rsfas",
+        "statistics"
+      ],
+      "linkedCourses": [],
+      "reviewMetrics": [
+        "Clarity",
+        "Support",
+        "Engagement"
+      ]
+    },
+    {
+      "id": "lawrence-bamblett",
+      "type": "academic",
+      "name": "Dr Lawrence Bamblett",
+      "school": "School of History",
+      "schoolCode": "CASS",
+      "college": "CASS",
+      "position": "Senior Lecturer, School of History",
+      "focus": "Director, Australian Centre for Indigenous History",
+      "email": "lawrence.bamblett@anu.edu.au",
+      "office": "School of History",
+      "profileUrl": "https://researchportalplus.anu.edu.au/en/persons/lawrence-bamblett",
+      "tags": [
+        "cass",
+        "director",
+        "australian centre for indigenous"
+      ],
+      "linkedCourses": [],
+      "reviewMetrics": [
+        "Clarity",
+        "Support",
+        "Engagement"
+      ]
+    },
+    {
+      "id": "le-chang",
+      "type": "academic",
+      "name": "Dr Le Chang",
+      "school": "Research School of Finance, Actuarial Studies and Statistics",
+      "schoolCode": "RSFAS",
+      "college": "CBE",
+      "position": "Senior Lecturer",
+      "focus": "Statistics",
+      "email": "See ANU profile",
+      "office": "Research School of Finance, Actuarial Studies and Statistics",
+      "profileUrl": "https://rsfas.anu.edu.au/people/le-chang",
+      "tags": [
+        "rsfas",
+        "statistics"
+      ],
+      "linkedCourses": [],
+      "reviewMetrics": [
+        "Clarity",
+        "Support",
+        "Engagement"
+      ]
+    },
+    {
+      "id": "lijuan-zhang",
+      "type": "academic",
+      "name": "Dr Lijuan Zhang",
+      "school": "Research School of Accounting",
+      "schoolCode": "RSA",
+      "college": "CBE",
+      "position": "Senior Lecturer",
+      "focus": "Accounting",
+      "email": "See ANU profile",
+      "office": "Research School of Accounting",
+      "profileUrl": "https://rsa.anu.edu.au/people/lijuan-zhang",
+      "tags": [
+        "rsa",
+        "accounting"
+      ],
+      "linkedCourses": [],
+      "reviewMetrics": [
+        "Clarity",
+        "Support",
+        "Engagement"
+      ]
+    },
+    {
+      "id": "lin-hu",
+      "type": "academic",
+      "name": "Dr Lin Hu",
+      "school": "Research School of Finance, Actuarial Studies and Statistics",
+      "schoolCode": "RSFAS",
+      "college": "CBE",
+      "position": "Senior Lecturer",
+      "focus": "Finance",
+      "email": "See ANU profile",
+      "office": "Research School of Finance, Actuarial Studies and Statistics",
+      "profileUrl": "https://rsfas.anu.edu.au/people/lin-hu",
+      "tags": [
+        "rsfas",
+        "finance"
+      ],
+      "linkedCourses": [],
+      "reviewMetrics": [
+        "Clarity",
+        "Support",
+        "Engagement"
+      ]
+    },
+    {
+      "id": "lingwei-li",
+      "type": "academic",
+      "name": "Dr Lingwei Li",
+      "school": "Research School of Accounting",
+      "schoolCode": "RSA",
+      "college": "CBE",
+      "position": "Lecturer",
+      "focus": "Accounting",
+      "email": "See ANU profile",
+      "office": "Research School of Accounting",
+      "profileUrl": "https://rsa.anu.edu.au/people/lingwei-li",
+      "tags": [
+        "rsa",
+        "accounting"
+      ],
+      "linkedCourses": [],
+      "reviewMetrics": [
+        "Clarity",
+        "Support",
+        "Engagement"
+      ]
+    },
+    {
+      "id": "liz-allen",
+      "type": "academic",
+      "name": "Dr Liz Allen",
+      "school": "Centre for Social Research and Methods",
+      "schoolCode": "CASS",
+      "college": "CASS",
+      "position": "Associate Lecturer, Centre for Social Research and Methods",
+      "focus": "Centre for Social Research and Methods",
+      "email": "liz.allen@anu.edu.au",
+      "office": "Centre for Social Research and Methods",
+      "profileUrl": "https://researchportalplus.anu.edu.au/en/persons/liz-allen",
+      "tags": [
+        "cass",
+        "centre for social research and m"
+      ],
+      "linkedCourses": [],
+      "reviewMetrics": [
+        "Clarity",
+        "Support",
+        "Engagement"
+      ]
+    },
+    {
+      "id": "lu-teng",
+      "type": "academic",
+      "name": "Dr Lu Teng",
+      "school": "School of Philosophy",
+      "schoolCode": "CASS",
+      "college": "CASS",
+      "position": "Lecturer, School of Philosophy",
+      "focus": "School of Philosophy",
+      "email": "Lu.Teng@anu.edu.au",
+      "office": "School of Philosophy",
+      "profileUrl": "https://researchportalplus.anu.edu.au/en/persons/lu-teng",
+      "tags": [
+        "cass",
+        "school of philosophy"
+      ],
+      "linkedCourses": [],
+      "reviewMetrics": [
+        "Clarity",
+        "Support",
+        "Engagement"
+      ]
+    },
+    {
+      "id": "luca-maestrini",
+      "type": "academic",
+      "name": "Dr Luca Maestrini",
+      "school": "Research School of Finance, Actuarial Studies and Statistics",
+      "schoolCode": "RSFAS",
+      "college": "CBE",
+      "position": "Senior Lecturer",
+      "focus": "Statistics",
+      "email": "See ANU profile",
+      "office": "Research School of Finance, Actuarial Studies and Statistics",
+      "profileUrl": "https://rsfas.anu.edu.au/people/luca-maestrini",
+      "tags": [
+        "rsfas",
+        "statistics"
+      ],
+      "linkedCourses": [],
+      "reviewMetrics": [
+        "Clarity",
+        "Support",
+        "Engagement"
+      ]
+    },
+    {
+      "id": "lucy-neave",
+      "type": "academic",
+      "name": "Dr Lucy Neave",
+      "school": "ANU College of Arts and Social Sciences",
+      "schoolCode": "CASS",
+      "college": "CASS",
+      "position": "Senior Lecturer, Creative Writing, English",
+      "focus": "ANU College of Arts and Social Sciences",
+      "email": "lucy.neave@anu.edu.au",
+      "office": "ANU College of Arts and Social Sciences",
+      "profileUrl": "https://researchportalplus.anu.edu.au/en/persons/lucy-neave",
+      "tags": [
+        "cass",
+        "anu college of arts and social s"
+      ],
+      "linkedCourses": [],
+      "reviewMetrics": [
+        "Clarity",
+        "Support",
+        "Engagement"
+      ]
+    },
+    {
+      "id": "madhukar-singh",
+      "type": "academic",
+      "name": "Dr Madhukar Singh",
+      "school": "Research School of Accounting",
+      "schoolCode": "RSA",
+      "college": "CBE",
+      "position": "Lecturer and Undergraduate Program Convenor",
+      "focus": "Accounting, Commerce",
+      "email": "See ANU profile",
+      "office": "Research School of Accounting",
+      "profileUrl": "https://rsa.anu.edu.au/people/madhukar-singh",
+      "tags": [
+        "rsa",
+        "accounting",
+        "commerce"
+      ],
+      "linkedCourses": [],
+      "reviewMetrics": [
+        "Clarity",
+        "Support",
+        "Engagement"
+      ]
+    },
+    {
+      "id": "malcolm-allbrook",
+      "type": "academic",
+      "name": "Dr Malcolm Allbrook",
+      "school": "School of History",
+      "schoolCode": "CASS",
+      "college": "CASS",
+      "position": "Senior Lecturer, School of History",
+      "focus": "Managing Editor, National Centre of Biography",
+      "email": "malcolm.allbrook@anu.edu.au",
+      "office": "School of History",
+      "profileUrl": "https://researchportalplus.anu.edu.au/en/persons/malcolm-allbrook",
+      "tags": [
+        "cass",
+        "managing editor",
+        "national centre of biography"
+      ],
+      "linkedCourses": [],
+      "reviewMetrics": [
+        "Clarity",
+        "Support",
+        "Engagement"
+      ]
+    },
+    {
+      "id": "mandy-yap",
+      "type": "academic",
+      "name": "Dr Mandy Yap",
+      "school": "Centre for Indigenous Policy Research",
+      "schoolCode": "CASS",
+      "college": "CASS",
+      "position": "Associate Professor, Centre for Indigenous Policy Research",
+      "focus": "Centre for Indigenous Policy Research",
+      "email": "mandy.yap@anu.edu.au",
+      "office": "Centre for Indigenous Policy Research",
+      "profileUrl": "https://researchportalplus.anu.edu.au/en/persons/mandy-yap",
+      "tags": [
+        "cass",
+        "centre for indigenous policy res"
+      ],
+      "linkedCourses": [],
+      "reviewMetrics": [
+        "Clarity",
+        "Support",
+        "Engagement"
+      ]
+    },
+    {
+      "id": "manuel-delicado-cantero",
+      "type": "academic",
+      "name": "Dr Manuel Delicado Cantero",
+      "school": "Spanish Studies",
+      "schoolCode": "CASS",
+      "college": "CASS",
+      "position": "Senior Lecturer, Spanish Studies, Languages",
+      "focus": "Spanish Studies",
+      "email": "manuel.delicado@anu.edu.au",
+      "office": "Spanish Studies",
+      "profileUrl": "https://researchportalplus.anu.edu.au/en/persons/manuel-delicado-cantero",
+      "tags": [
+        "cass",
+        "spanish studies"
+      ],
+      "linkedCourses": [],
+      "reviewMetrics": [
+        "Clarity",
+        "Support",
+        "Engagement"
+      ]
+    },
+    {
+      "id": "cap-bell-cfbe96ef-eb74-429e-a73f-877b5d15544e",
+      "type": "academic",
+      "name": "Dr Maria Tanyag Feminism",
+      "position": "Academic",
+      "focus": "Government and Politics of Asia and the Pacific International Relations",
+      "school": "Coral Bell School of Asia Pacific Affairs",
+      "schoolCode": "BELL",
+      "college": "ANU College of Asia and the Pacific",
+      "profileUrl": "https://researchportalplus.anu.edu.au/en/persons/cfbe96ef-eb74-429e-a73f-877b5d15544e",
+      "email": "",
+      "office": "",
+      "linkedCourses": [],
+      "reviewMetrics": [
+        "Clarity",
+        "Support",
+        "Engagement"
+      ],
+      "tags": [
+        "bell",
+        "asia-pacific affairs"
+      ]
+    },
+    {
+      "id": "marija-taflaga",
+      "type": "academic",
+      "name": "Dr Marija Taflaga",
+      "school": "School of Politics & International Relations",
+      "schoolCode": "CASS",
+      "college": "CASS",
+      "position": "Senior Lecturer, School of Politics & International Relations",
+      "focus": "Senior Lecturer, School of Politics & International Relations",
+      "email": "Marija.Taflaga@anu.edu.au",
+      "office": "School of Politics & International Relations",
+      "profileUrl": "https://researchportalplus.anu.edu.au/en/persons/marija-taflaga",
+      "tags": [
+        "cass",
+        "senior lecturer",
+        "school of politics & internation"
+      ],
+      "linkedCourses": [],
+      "reviewMetrics": [
+        "Clarity",
+        "Support",
+        "Engagement"
+      ]
+    },
+    {
+      "id": "marina-iskhakova",
+      "type": "academic",
+      "name": "Dr Marina Iskhakova",
+      "school": "Research School of Economics",
+      "schoolCode": "RSE",
+      "college": "CBE",
+      "position": "Senior Lecturer",
+      "focus": "Research School of Economics",
+      "email": "See ANU profile",
+      "office": "Research School of Economics",
+      "profileUrl": "https://rse.anu.edu.au/people/marina-iskhakova",
+      "tags": [
+        "rse"
+      ],
+      "linkedCourses": [],
+      "reviewMetrics": [
+        "Clarity",
+        "Support",
+        "Engagement"
+      ]
+    },
+    {
+      "id": "mark-buschgens",
+      "type": "academic",
+      "name": "Dr Mark Buschgens",
+      "school": "Research School of Management",
+      "schoolCode": "RSM",
+      "college": "CBE",
+      "position": "Lecturer",
+      "focus": "Marketing",
+      "email": "See ANU profile",
+      "office": "Research School of Management",
+      "profileUrl": "https://rsm.anu.edu.au/people/mark-buschgens",
+      "tags": [
+        "rsm",
+        "marketing"
+      ],
+      "linkedCourses": [],
+      "reviewMetrics": [
+        "Clarity",
+        "Support",
+        "Engagement"
+      ]
+    },
+    {
+      "id": "mark-dawson",
+      "type": "academic",
+      "name": "Dr Mark Dawson",
+      "school": "School of History",
+      "schoolCode": "CASS",
+      "college": "CASS",
+      "position": "Honorary Senior Lecturer, School of History",
+      "focus": "School of History",
+      "email": "mark.dawson@anu.edu.au",
+      "office": "School of History",
+      "profileUrl": "https://researchportalplus.anu.edu.au/en/persons/mark-dawson",
+      "tags": [
+        "cass",
+        "school of history"
+      ],
+      "linkedCourses": [],
+      "reviewMetrics": [
+        "Clarity",
+        "Support",
+        "Engagement"
+      ]
+    },
+    {
+      "id": "cap-chl-84a51216-4551-459a-b499-742ec410b16c",
+      "type": "academic",
+      "name": "Dr Mark Strange",
+      "position": "Senior Lecturer",
+      "focus": "Chinese traditional historiography Textual scholarship Intellectual History",
+      "school": "School of Culture, History and Language",
+      "schoolCode": "CHL",
+      "college": "ANU College of Asia and the Pacific",
+      "profileUrl": "https://researchportalplus.anu.edu.au/en/persons/84a51216-4551-459a-b499-742ec410b16c",
+      "email": "",
+      "office": "",
+      "linkedCourses": [],
+      "reviewMetrics": [
+        "Clarity",
+        "Support",
+        "Engagement"
+      ],
+      "tags": [
+        "chl",
+        "asia-pacific"
+      ]
+    },
+    {
+      "id": "mathieu-leclerc",
+      "type": "academic",
+      "name": "Dr Mathieu Leclerc",
+      "school": "ANU College of Arts and Social Sciences",
+      "schoolCode": "CASS",
+      "college": "CASS",
+      "position": "Lecturer in Archaeology, Archaeology",
+      "focus": "ANU College of Arts and Social Sciences",
+      "email": "mathieu.leclerc@anu.edu.au",
+      "office": "ANU College of Arts and Social Sciences",
+      "profileUrl": "https://researchportalplus.anu.edu.au/en/persons/mathieu-leclerc",
+      "tags": [
+        "cass",
+        "anu college of arts and social s"
+      ],
+      "linkedCourses": [],
+      "reviewMetrics": [
+        "Clarity",
+        "Support",
+        "Engagement"
+      ]
+    },
+    {
+      "id": "cap-chl-c1e556a4-7fa1-4374-8cb8-e6a261ea86b5",
+      "type": "academic",
+      "name": "Dr Mathieu Leclerc",
+      "position": "Lecturer",
+      "focus": "in Archaeology ARCHAEOLOGY Archaeology of New Guinea and Pacific Islands (excl. New Zealand) Archaeological Science",
+      "school": "School of Culture, History and Language",
+      "schoolCode": "CHL",
+      "college": "ANU College of Asia and the Pacific",
+      "profileUrl": "https://researchportalplus.anu.edu.au/en/persons/c1e556a4-7fa1-4374-8cb8-e6a261ea86b5",
+      "email": "",
+      "office": "",
+      "linkedCourses": [],
+      "reviewMetrics": [
+        "Clarity",
+        "Support",
+        "Engagement"
+      ],
+      "tags": [
+        "chl",
+        "asia-pacific"
+      ]
+    },
+    {
+      "id": "matt-withers",
+      "type": "academic",
+      "name": "Dr Matt Withers",
+      "school": "School of Sociology",
+      "schoolCode": "CASS",
+      "college": "CASS",
+      "position": "Senior Lecturer, School of Sociology",
+      "focus": "School of Sociology",
+      "email": "Matt.Withers@anu.edu.au",
+      "office": "School of Sociology",
+      "profileUrl": "https://researchportalplus.anu.edu.au/en/persons/matt-withers",
+      "tags": [
+        "cass",
+        "school of sociology"
+      ],
+      "linkedCourses": [],
+      "reviewMetrics": [
+        "Clarity",
+        "Support",
+        "Engagement"
+      ]
+    },
+    {
+      "id": "cap-chl-a0ed0a06-311d-4f32-95e9-4dc47affcbac",
+      "type": "academic",
+      "name": "Dr Matthew Galway",
+      "position": "Senior Lecturer",
+      "focus": "Chinese History History of Maoism Southeast Asia Chinese Diaspora",
+      "school": "School of Culture, History and Language",
+      "schoolCode": "CHL",
+      "college": "ANU College of Asia and the Pacific",
+      "profileUrl": "https://researchportalplus.anu.edu.au/en/persons/a0ed0a06-311d-4f32-95e9-4dc47affcbac",
+      "email": "",
+      "office": "",
+      "linkedCourses": [],
+      "reviewMetrics": [
+        "Clarity",
+        "Support",
+        "Engagement"
+      ],
+      "tags": [
+        "chl",
+        "asia-pacific"
+      ]
+    },
+    {
+      "id": "maureen-gallagher",
+      "type": "academic",
+      "name": "Dr Maureen Gallagher",
+      "school": "ANU College of Arts and Social Sciences",
+      "schoolCode": "CASS",
+      "college": "CASS",
+      "position": "Lecturer in German, Languages",
+      "focus": "ANU College of Arts and Social Sciences",
+      "email": "maureen.gallagher@anu.edu.au",
+      "office": "ANU College of Arts and Social Sciences",
+      "profileUrl": "https://researchportalplus.anu.edu.au/en/persons/maureen-gallagher",
+      "tags": [
+        "cass",
+        "anu college of arts and social s"
+      ],
+      "linkedCourses": [],
+      "reviewMetrics": [
+        "Clarity",
+        "Support",
+        "Engagement"
+      ]
+    },
+    {
+      "id": "maya-haviland",
+      "type": "academic",
+      "name": "Dr Maya Haviland",
+      "school": "Centre for Heritage and Museum Studies",
+      "schoolCode": "CASS",
+      "college": "CASS",
+      "position": "Senior Lecturer, Centre for Heritage and Museum Studies",
+      "focus": "Centre for Heritage and Museum Studies",
+      "email": "maya.haviland@anu.edu.au",
+      "office": "Centre for Heritage and Museum Studies",
+      "profileUrl": "https://researchportalplus.anu.edu.au/en/persons/maya-haviland",
+      "tags": [
+        "cass",
+        "centre for heritage and museum s"
+      ],
+      "linkedCourses": [],
+      "reviewMetrics": [
+        "Clarity",
+        "Support",
+        "Engagement"
+      ]
+    },
+    {
+      "id": "cap-chl-89d0e8a9-fdce-4679-830d-cc0f1ba70133",
+      "type": "academic",
+      "name": "Dr Mayuko Itoh",
+      "position": "Lecturer",
+      "focus": "in Japanese Language and Studies",
+      "school": "School of Culture, History and Language",
+      "schoolCode": "CHL",
+      "college": "ANU College of Asia and the Pacific",
+      "profileUrl": "https://researchportalplus.anu.edu.au/en/persons/89d0e8a9-fdce-4679-830d-cc0f1ba70133",
+      "email": "",
+      "office": "",
+      "linkedCourses": [],
+      "reviewMetrics": [
+        "Clarity",
+        "Support",
+        "Engagement"
+      ],
+      "tags": [
+        "chl",
+        "asia-pacific"
+      ]
+    },
+    {
+      "id": "meaghan-mcevoy",
+      "type": "academic",
+      "name": "Dr Meaghan McEvoy",
+      "school": "School of History",
+      "schoolCode": "CASS",
+      "college": "CASS",
+      "position": "Senior Lecturer in History, School of History",
+      "focus": "School of History",
+      "email": "Meaghan.McEvoy@anu.edu.au",
+      "office": "School of History",
+      "profileUrl": "https://researchportalplus.anu.edu.au/en/persons/meaghan-mcevoy",
+      "tags": [
+        "cass",
+        "school of history"
+      ],
+      "linkedCourses": [],
+      "reviewMetrics": [
+        "Clarity",
+        "Support",
+        "Engagement"
+      ]
+    },
+    {
+      "id": "melissa-lovell",
+      "type": "academic",
+      "name": "Dr Melissa Lovell",
+      "school": "ANU College of Arts and Social Sciences",
+      "schoolCode": "CASS",
+      "college": "CASS",
+      "position": "Convenor and Research Fellow, Freilich Project for the Study of Bigotry",
+      "focus": "ANU College of Arts and Social Sciences",
+      "email": "melissa.lovell@anu.edu.au",
+      "office": "ANU College of Arts and Social Sciences",
+      "profileUrl": "https://researchportalplus.anu.edu.au/en/persons/melissa-lovell",
+      "tags": [
+        "cass",
+        "anu college of arts and social s"
+      ],
+      "linkedCourses": [],
+      "reviewMetrics": [
+        "Clarity",
+        "Support",
+        "Engagement"
+      ]
+    },
+    {
+      "id": "mike-roettger",
+      "type": "academic",
+      "name": "Dr Michael Roettger",
+      "school": "School of Demography",
+      "schoolCode": "CASS",
+      "college": "CASS",
+      "position": "Senior Lecturer, School of Demography",
+      "focus": "School of Demography",
+      "email": "mike.roettger@anu.edu.au",
+      "office": "School of Demography",
+      "profileUrl": "https://researchportalplus.anu.edu.au/en/persons/mike-roettger",
+      "tags": [
+        "cass",
+        "school of demography"
+      ],
+      "linkedCourses": [],
+      "reviewMetrics": [
+        "Clarity",
+        "Support",
+        "Engagement"
+      ]
+    },
+    {
+      "id": "cap-chl-ced2aa5d-7d5e-4c7d-9312-5454522d6dba",
+      "type": "academic",
+      "name": "Dr Michael Schimmelpfennig",
+      "position": "Senior Lecturer",
+      "focus": "Sinologist",
+      "school": "School of Culture, History and Language",
+      "schoolCode": "CHL",
+      "college": "ANU College of Asia and the Pacific",
+      "profileUrl": "https://researchportalplus.anu.edu.au/en/persons/ced2aa5d-7d5e-4c7d-9312-5454522d6dba",
+      "email": "",
+      "office": "",
+      "linkedCourses": [],
+      "reviewMetrics": [
+        "Clarity",
+        "Support",
+        "Engagement"
+      ],
+      "tags": [
+        "chl",
+        "asia-pacific"
+      ]
+    },
+    {
+      "id": "michael-zekulin",
+      "type": "academic",
+      "name": "Dr Michael Zekulin",
+      "school": "School of Politics & International Relations",
+      "schoolCode": "CASS",
+      "college": "CASS",
+      "position": "Senior Lecturer, School of Politics & International Relations",
+      "focus": "School of Politics & International Relations",
+      "email": "Michael.Zekulin@anu.edu.au",
+      "office": "School of Politics & International Relations",
+      "profileUrl": "https://researchportalplus.anu.edu.au/en/persons/michael-zekulin",
+      "tags": [
+        "cass",
+        "school of politics & internation"
+      ],
+      "linkedCourses": [],
+      "reviewMetrics": [
+        "Clarity",
+        "Support",
+        "Engagement"
+      ]
+    },
+    {
+      "id": "millicent-weber",
+      "type": "academic",
+      "name": "Dr Millicent Weber",
+      "school": "ANU College of Arts and Social Sciences",
+      "schoolCode": "CASS",
+      "college": "CASS",
+      "position": "Lecturer in English, English",
+      "focus": "ANU College of Arts and Social Sciences",
+      "email": "millicent.weber@anu.edu.au",
+      "office": "ANU College of Arts and Social Sciences",
+      "profileUrl": "https://researchportalplus.anu.edu.au/en/persons/millicent-weber",
+      "tags": [
+        "cass",
+        "anu college of arts and social s"
+      ],
+      "linkedCourses": [],
+      "reviewMetrics": [
+        "Clarity",
+        "Support",
+        "Engagement"
+      ]
+    },
+    {
+      "id": "mohammed-alsudairi",
+      "type": "academic",
+      "name": "Dr Mohammed Alsudairi",
+      "school": "Centre for Arab and Islamic Studies",
+      "schoolCode": "CASS",
+      "college": "CASS",
+      "position": "Lecturer in Politics and International Relations (The Arabian Peninsula, China and the Middle East), Centre for Arab and Islamic Studies",
+      "focus": "Centre for Arab and Islamic Studies",
+      "email": "Mohammed.Alsudairi@anu.edu.au",
+      "office": "Centre for Arab and Islamic Studies",
+      "profileUrl": "https://researchportalplus.anu.edu.au/en/persons/mohammed-alsudairi",
+      "tags": [
+        "cass",
+        "centre for arab and islamic stud"
+      ],
+      "linkedCourses": [],
+      "reviewMetrics": [
+        "Clarity",
+        "Support",
+        "Engagement"
+      ]
+    },
+    {
+      "id": "cap-ciw-mohammed-alsudairi",
+      "type": "academic",
+      "name": "Dr Mohammed Alsudairi",
+      "position": "Lecturer",
+      "focus": "China-Middle East relations Chinese Politics Religious and ethnic governance",
+      "school": "Australian Centre on China in the World",
+      "schoolCode": "CIW",
+      "college": "ANU College of Asia and the Pacific",
+      "profileUrl": "https://researchportalplus.anu.edu.au/en/persons/mohammed-alsudairi",
+      "email": "",
+      "office": "",
+      "linkedCourses": [],
+      "reviewMetrics": [
+        "Clarity",
+        "Support",
+        "Engagement"
+      ],
+      "tags": [
+        "ciw",
+        "china studies"
+      ]
+    },
+    {
+      "id": "monique-rooney",
+      "type": "academic",
+      "name": "Dr Monique Rooney",
+      "school": "ANU College of Arts and Social Sciences",
+      "schoolCode": "CASS",
+      "college": "CASS",
+      "position": "Senior Lecturer, English & Drama, English",
+      "focus": "ANU College of Arts and Social Sciences",
+      "email": "monique.rooney@anu.edu.au",
+      "office": "ANU College of Arts and Social Sciences",
+      "profileUrl": "https://researchportalplus.anu.edu.au/en/persons/monique-rooney",
+      "tags": [
+        "cass",
+        "anu college of arts and social s"
+      ],
+      "linkedCourses": [],
+      "reviewMetrics": [
+        "Clarity",
+        "Support",
+        "Engagement"
+      ]
+    },
+    {
+      "id": "cap-chl-0598a677-2eae-4875-a1b2-b3e2a0be7e03",
+      "type": "academic",
+      "name": "Dr Muhammad Kavesh Geopolitics",
+      "position": "Academic",
+      "focus": "South Asia Multispecies Ethnography",
+      "school": "School of Culture, History and Language",
+      "schoolCode": "CHL",
+      "college": "ANU College of Asia and the Pacific",
+      "profileUrl": "https://researchportalplus.anu.edu.au/en/persons/0598a677-2eae-4875-a1b2-b3e2a0be7e03",
+      "email": "",
+      "office": "",
+      "linkedCourses": [],
+      "reviewMetrics": [
+        "Clarity",
+        "Support",
+        "Engagement"
+      ],
+      "tags": [
+        "chl",
+        "asia-pacific"
+      ]
+    },
+    {
+      "id": "nabila-nisha",
+      "type": "academic",
+      "name": "Dr Nabila Nisha",
+      "school": "Research School of Management",
+      "schoolCode": "RSM",
+      "college": "CBE",
+      "position": "Lecturer",
+      "focus": "Marketing",
+      "email": "See ANU profile",
+      "office": "Research School of Management",
+      "profileUrl": "https://rsm.anu.edu.au/people/nabila-nisha",
+      "tags": [
+        "rsm",
+        "marketing"
+      ],
+      "linkedCourses": [],
+      "reviewMetrics": [
+        "Clarity",
+        "Support",
+        "Engagement"
+      ]
+    },
+    {
+      "id": "naomi-hay",
+      "type": "academic",
+      "name": "Dr Naomi Hay",
+      "school": "ANU College of Arts and Social Sciences",
+      "schoolCode": "CASS",
+      "college": "CASS",
+      "position": "Lecturer, Design",
+      "focus": "ANU College of Arts and Social Sciences",
+      "email": "Naomi.Hay@anu.edu.au",
+      "office": "ANU College of Arts and Social Sciences",
+      "profileUrl": "https://researchportalplus.anu.edu.au/en/persons/naomi-hay",
+      "tags": [
+        "cass",
+        "anu college of arts and social s"
+      ],
+      "linkedCourses": [],
+      "reviewMetrics": [
+        "Clarity",
+        "Support",
+        "Engagement"
+      ]
+    },
+    {
+      "id": "cap-chl-62ec1188-c961-443d-ae4f-80c89673e6dd",
+      "type": "academic",
+      "name": "Dr Nayahamui Rooney",
+      "position": "Academic",
+      "focus": "Asia and Pacific studies",
+      "school": "School of Culture, History and Language",
+      "schoolCode": "CHL",
+      "college": "ANU College of Asia and the Pacific",
+      "profileUrl": "https://researchportalplus.anu.edu.au/en/persons/62ec1188-c961-443d-ae4f-80c89673e6dd",
+      "email": "",
+      "office": "",
+      "linkedCourses": [],
+      "reviewMetrics": [
+        "Clarity",
+        "Support",
+        "Engagement"
+      ],
+      "tags": [
+        "chl",
+        "asia-pacific"
+      ]
+    },
+    {
+      "id": "nghia-tran",
+      "type": "academic",
+      "name": "Dr Nghia Tran",
+      "school": "Research School of Management",
+      "schoolCode": "RSM",
+      "college": "CBE",
+      "position": "Lecturer",
+      "focus": "Business & business administration, Economics, Human resource management, Management, Project management",
+      "email": "See ANU profile",
+      "office": "Research School of Management",
+      "profileUrl": "https://rsm.anu.edu.au/people/nghia-tran",
+      "tags": [
+        "rsm",
+        "business & business administrati",
+        "economics",
+        "human resource management"
+      ],
+      "linkedCourses": [],
+      "reviewMetrics": [
+        "Clarity",
+        "Support",
+        "Engagement"
+      ]
+    },
+    {
+      "id": "nhan-le",
+      "type": "academic",
+      "name": "Dr Nhan Le",
+      "school": "Research School of Finance, Actuarial Studies and Statistics",
+      "schoolCode": "RSFAS",
+      "college": "CBE",
+      "position": "Senior Lecturer",
+      "focus": "Finance",
+      "email": "See ANU profile",
+      "office": "Research School of Finance, Actuarial Studies and Statistics",
+      "profileUrl": "https://rsfas.anu.edu.au/people/nhan-le",
+      "tags": [
+        "rsfas",
+        "finance"
+      ],
+      "linkedCourses": [],
+      "reviewMetrics": [
+        "Clarity",
+        "Support",
+        "Engagement"
+      ]
+    },
+    {
+      "id": "cap-bell-nicholas-chan",
+      "type": "academic",
+      "name": "Dr Nicholas Chan",
+      "position": "Research Fellow",
+      "focus": "Comparative Government and Politics Government and Politics of Asia and the Pacific International Relations",
+      "school": "Coral Bell School of Asia Pacific Affairs",
+      "schoolCode": "BELL",
+      "college": "ANU College of Asia and the Pacific",
+      "profileUrl": "https://researchportalplus.anu.edu.au/en/persons/nicholas-chan",
+      "email": "",
+      "office": "",
+      "linkedCourses": [],
+      "reviewMetrics": [
+        "Clarity",
+        "Support",
+        "Engagement"
+      ],
+      "tags": [
+        "bell",
+        "asia-pacific affairs"
+      ]
+    },
+    {
+      "id": "cap-bell-519a159d-d3ed-45a0-9da7-ce2758b94fe1",
+      "type": "academic",
+      "name": "Dr Nicholas Hoare Pacific",
+      "position": "Academic",
+      "focus": "History Biography",
+      "school": "Coral Bell School of Asia Pacific Affairs",
+      "schoolCode": "BELL",
+      "college": "ANU College of Asia and the Pacific",
+      "profileUrl": "https://researchportalplus.anu.edu.au/en/persons/519a159d-d3ed-45a0-9da7-ce2758b94fe1",
+      "email": "",
+      "office": "",
+      "linkedCourses": [],
+      "reviewMetrics": [
+        "Clarity",
+        "Support",
+        "Engagement"
+      ],
+      "tags": [
+        "bell",
+        "asia-pacific affairs"
+      ]
+    },
+    {
+      "id": "cap-chl-519a159d-d3ed-45a0-9da7-ce2758b94fe1",
+      "type": "academic",
+      "name": "Dr Nicholas Hoare Pacific",
+      "position": "Academic",
+      "focus": "History Biography",
+      "school": "School of Culture, History and Language",
+      "schoolCode": "CHL",
+      "college": "ANU College of Asia and the Pacific",
+      "profileUrl": "https://researchportalplus.anu.edu.au/en/persons/519a159d-d3ed-45a0-9da7-ce2758b94fe1",
+      "email": "",
+      "office": "",
+      "linkedCourses": [],
+      "reviewMetrics": [
+        "Clarity",
+        "Support",
+        "Engagement"
+      ],
+      "tags": [
+        "chl",
+        "asia-pacific"
+      ]
+    },
+    {
+      "id": "nico-klenner",
+      "type": "academic",
+      "name": "Dr Nico Klenner",
+      "school": "Research School of Management",
+      "schoolCode": "RSM",
+      "college": "CBE",
+      "position": "Lecturer in Innovation &amp; Entrepreneurship",
+      "focus": "Entrepreneurship, Innovation, Management, Organisation studies",
+      "email": "See ANU profile",
+      "office": "Research School of Management",
+      "profileUrl": "https://rsm.anu.edu.au/people/nico-klenner",
+      "tags": [
+        "rsm",
+        "entrepreneurship",
+        "innovation",
+        "management"
+      ],
+      "linkedCourses": [],
+      "reviewMetrics": [
+        "Clarity",
+        "Support",
+        "Engagement"
+      ]
+    },
+    {
+      "id": "cap-bell-835a722a-382a-43c5-bde6-61ef27b1d22c",
+      "type": "academic",
+      "name": "Dr Nikolay Murashkin",
+      "position": "Lecturer",
+      "focus": "Bachelor of Asia-Pacific Affairs Program, Coral Bell School of Asia Pacific Affairs",
+      "school": "Coral Bell School of Asia Pacific Affairs",
+      "schoolCode": "BELL",
+      "college": "ANU College of Asia and the Pacific",
+      "profileUrl": "https://researchportalplus.anu.edu.au/en/persons/835a722a-382a-43c5-bde6-61ef27b1d22c",
+      "email": "",
+      "office": "",
+      "linkedCourses": [],
+      "reviewMetrics": [
+        "Clarity",
+        "Support",
+        "Engagement"
+      ],
+      "tags": [
+        "bell",
+        "asia-pacific affairs"
+      ]
+    },
+    {
+      "id": "nuhu-osman-attah",
+      "type": "academic",
+      "name": "Dr Nuhu Osman Attah",
+      "school": "School of Philosophy",
+      "schoolCode": "CASS",
+      "college": "CASS",
+      "position": "Research Fellow, School of Philosophy",
+      "focus": "School of Philosophy",
+      "email": "nuhu.osmanattah@anu.edu.au",
+      "office": "School of Philosophy",
+      "profileUrl": "https://researchportalplus.anu.edu.au/en/persons/nuhu-osman-attah",
+      "tags": [
+        "cass",
+        "school of philosophy"
+      ],
+      "linkedCourses": [],
+      "reviewMetrics": [
+        "Clarity",
+        "Support",
+        "Engagement"
+      ]
+    },
+    {
+      "id": "pandanus-petter",
+      "type": "academic",
+      "name": "Dr Pandanus Petter",
+      "school": "School of Politics & International Relations",
+      "schoolCode": "CASS",
+      "college": "CASS",
+      "position": "Academic, School of Politics & International Relations",
+      "focus": "School of Politics & International Relations",
+      "email": "pandanus.petter@anu.edu.au",
+      "office": "School of Politics & International Relations",
+      "profileUrl": "https://researchportalplus.anu.edu.au/en/persons/pandanus-petter",
+      "tags": [
+        "cass",
+        "school of politics & internation"
+      ],
+      "linkedCourses": [],
+      "reviewMetrics": [
+        "Clarity",
+        "Support",
+        "Engagement"
+      ]
+    },
+    {
+      "id": "pat-ogrady",
+      "type": "academic",
+      "name": "Dr Pat O'Grady",
+      "school": "School of Music",
+      "schoolCode": "CASS",
+      "college": "CASS",
+      "position": "Senior Lecturer, School of Music",
+      "focus": "Honours and Graduate Coursework Convenor, School of Music, Contemporary Music Production Convenor, School of Music",
+      "email": "Pat.OGrady@anu.edu.au",
+      "office": "School of Music",
+      "profileUrl": "https://researchportalplus.anu.edu.au/en/persons/pat-ogrady",
+      "tags": [
+        "cass",
+        "honours and graduate coursework ",
+        "school of music",
+        "contemporary music production co"
+      ],
+      "linkedCourses": [],
+      "reviewMetrics": [
+        "Clarity",
+        "Support",
+        "Engagement"
+      ]
+    },
+    {
+      "id": "patrick-leslie",
+      "type": "academic",
+      "name": "Dr Patrick Leslie",
+      "school": "School of Politics & International Relations",
+      "schoolCode": "CASS",
+      "college": "CASS",
+      "position": "Associate Lecturer, School of Politics & International Relations",
+      "focus": "School of Politics & International Relations",
+      "email": "Patrick.Leslie@anu.edu.au",
+      "office": "School of Politics & International Relations",
+      "profileUrl": "https://researchportalplus.anu.edu.au/en/persons/patrick-leslie",
+      "tags": [
+        "cass",
+        "school of politics & internation"
+      ],
+      "linkedCourses": [],
+      "reviewMetrics": [
+        "Clarity",
+        "Support",
+        "Engagement"
+      ]
+    },
+    {
+      "id": "cap-bell-fed03235-576e-4469-87d5-7ea2f10eca44",
+      "type": "academic",
+      "name": "Dr Pauline Kerr",
+      "position": "Fellow",
+      "focus": "and Director of Studies, International Relations",
+      "school": "Coral Bell School of Asia Pacific Affairs",
+      "schoolCode": "BELL",
+      "college": "ANU College of Asia and the Pacific",
+      "profileUrl": "https://researchportalplus.anu.edu.au/en/persons/fed03235-576e-4469-87d5-7ea2f10eca44",
+      "email": "",
+      "office": "",
+      "linkedCourses": [],
+      "reviewMetrics": [
+        "Clarity",
+        "Support",
+        "Engagement"
+      ],
+      "tags": [
+        "bell",
+        "asia-pacific affairs"
+      ]
+    },
+    {
+      "id": "peter-alwast",
+      "type": "academic",
+      "name": "Dr Peter Alwast",
+      "school": "ANU College of Arts and Social Sciences",
+      "schoolCode": "CASS",
+      "college": "CASS",
+      "position": "Senior Lecturer, Painting",
+      "focus": "Senior Lecturer, Painting, Chair of Gallery Committee, School of Art & Design",
+      "email": "peter.alwast@anu.edu.au",
+      "office": "ANU College of Arts and Social Sciences",
+      "profileUrl": "https://researchportalplus.anu.edu.au/en/persons/peter-alwast",
+      "tags": [
+        "cass",
+        "senior lecturer",
+        "painting",
+        "chair of gallery committee"
+      ],
+      "linkedCourses": [],
+      "reviewMetrics": [
+        "Clarity",
+        "Support",
+        "Engagement"
+      ]
+    },
+    {
+      "id": "petra-vaiglova",
+      "type": "academic",
+      "name": "Dr Petra Vaiglova",
+      "school": "ANU College of Arts and Social Sciences",
+      "schoolCode": "CASS",
+      "college": "CASS",
+      "position": "Lecturer in Archaeology, Archaeology",
+      "focus": "ANU College of Arts and Social Sciences",
+      "email": "Petra.Vaiglova@anu.edu.au",
+      "office": "ANU College of Arts and Social Sciences",
+      "profileUrl": "https://researchportalplus.anu.edu.au/en/persons/petra-vaiglova",
+      "tags": [
+        "cass",
+        "anu college of arts and social s"
+      ],
+      "linkedCourses": [],
+      "reviewMetrics": [
+        "Clarity",
+        "Support",
+        "Engagement"
+      ]
+    },
+    {
+      "id": "pia-van-gelder",
+      "type": "academic",
+      "name": "Dr Pia van Gelder",
+      "school": "ANU College of Arts and Social Sciences",
+      "schoolCode": "CASS",
+      "college": "CASS",
+      "position": "Lecturer, Design",
+      "focus": "ANU College of Arts and Social Sciences",
+      "email": "pia.vangelder@anu.edu.au",
+      "office": "ANU College of Arts and Social Sciences",
+      "profileUrl": "https://researchportalplus.anu.edu.au/en/persons/pia-van-gelder",
+      "tags": [
+        "cass",
+        "anu college of arts and social s"
+      ],
+      "linkedCourses": [],
+      "reviewMetrics": [
+        "Clarity",
+        "Support",
+        "Engagement"
+      ]
+    },
+    {
+      "id": "priya-dev",
+      "type": "academic",
+      "name": "Dr Priya Dev",
+      "school": "Research School of Finance, Actuarial Studies and Statistics",
+      "schoolCode": "RSFAS",
+      "college": "CBE",
+      "position": "Lecturer",
+      "focus": "Statistics",
+      "email": "See ANU profile",
+      "office": "Research School of Finance, Actuarial Studies and Statistics",
+      "profileUrl": "https://rsfas.anu.edu.au/people/priya-dev",
+      "tags": [
+        "rsfas",
+        "statistics"
+      ],
+      "linkedCourses": [],
+      "reviewMetrics": [
+        "Clarity",
+        "Support",
+        "Engagement"
+      ]
+    },
+    {
+      "id": "priya-muthukannan",
+      "type": "academic",
+      "name": "Dr Priya Muthukannan",
+      "school": "Research School of Management",
+      "schoolCode": "RSM",
+      "college": "CBE",
+      "position": "Lecturer",
+      "focus": "Business information systems",
+      "email": "See ANU profile",
+      "office": "Research School of Management",
+      "profileUrl": "https://rsm.anu.edu.au/people/priya-muthukannan",
+      "tags": [
+        "rsm",
+        "business information systems"
+      ],
+      "linkedCourses": [],
+      "reviewMetrics": [
+        "Clarity",
+        "Support",
+        "Engagement"
+      ]
+    },
+    {
+      "id": "qiaoqiao-zhu",
+      "type": "academic",
+      "name": "Dr Qiaoqiao Zhu",
+      "school": "Research School of Finance, Actuarial Studies and Statistics",
+      "schoolCode": "RSFAS",
+      "college": "CBE",
+      "position": "Lecturer",
+      "focus": "Finance",
+      "email": "See ANU profile",
+      "office": "Research School of Finance, Actuarial Studies and Statistics",
+      "profileUrl": "https://rsfas.anu.edu.au/people/qiaoqiao-zhu",
+      "tags": [
+        "rsfas",
+        "finance"
+      ],
+      "linkedCourses": [],
+      "reviewMetrics": [
+        "Clarity",
+        "Support",
+        "Engagement"
+      ]
+    },
+    {
+      "id": "rachael-thoms",
+      "type": "academic",
+      "name": "Dr Rachael Thoms",
+      "school": "School of Music",
+      "schoolCode": "CASS",
+      "college": "CASS",
+      "position": "Associate Lecturer, School of Music",
+      "focus": "Performance Convenor, School of Music",
+      "email": "Rachael.Thoms@anu.edu.au",
+      "office": "School of Music",
+      "profileUrl": "https://researchportalplus.anu.edu.au/en/persons/rachael-thoms",
+      "tags": [
+        "cass",
+        "performance convenor",
+        "school of music"
+      ],
+      "linkedCourses": [],
+      "reviewMetrics": [
+        "Clarity",
+        "Support",
+        "Engagement"
+      ]
+    },
+    {
+      "id": "raquel-ormella",
+      "type": "academic",
+      "name": "Dr Raquel Ormella",
+      "school": "ANU College of Arts and Social Sciences",
+      "schoolCode": "CASS",
+      "college": "CASS",
+      "position": "Senior Lecturer, Painting",
+      "focus": "ANU College of Arts and Social Sciences",
+      "email": "raquel.ormella@anu.edu.au",
+      "office": "ANU College of Arts and Social Sciences",
+      "profileUrl": "https://researchportalplus.anu.edu.au/en/persons/raquel-ormella",
+      "tags": [
+        "cass",
+        "anu college of arts and social s"
+      ],
+      "linkedCourses": [],
+      "reviewMetrics": [
+        "Clarity",
+        "Support",
+        "Engagement"
+      ]
+    },
+    {
+      "id": "rebecca-clode",
+      "type": "academic",
+      "name": "Dr Rebecca Clode",
+      "school": "ANU College of Arts and Social Sciences",
+      "schoolCode": "CASS",
+      "college": "CASS",
+      "position": "Ethel Tory Lecturer, Drama, English",
+      "focus": "ANU College of Arts and Social Sciences",
+      "email": "rebecca.clode@anu.edu.au",
+      "office": "ANU College of Arts and Social Sciences",
+      "profileUrl": "https://researchportalplus.anu.edu.au/en/persons/rebecca-clode",
+      "tags": [
+        "cass",
+        "anu college of arts and social s"
+      ],
+      "linkedCourses": [],
+      "reviewMetrics": [
+        "Clarity",
+        "Support",
+        "Engagement"
+      ]
+    },
+    {
+      "id": "rebecca-mayo",
+      "type": "academic",
+      "name": "Dr Rebecca Mayo",
+      "school": "School of Art & Design",
+      "schoolCode": "CASS",
+      "college": "CASS",
+      "position": "Senior Lecturer, School of Art & Design",
+      "focus": "Senior Lecturer, School of Art & Design, Executive Committee Member, School of Art & Design",
+      "email": "rebecca.mayo@anu.edu.au",
+      "office": "School of Art & Design",
+      "profileUrl": "https://researchportalplus.anu.edu.au/en/persons/rebecca-mayo",
+      "tags": [
+        "cass",
+        "senior lecturer",
+        "school of art & design",
+        "executive committee member"
+      ],
+      "linkedCourses": [],
+      "reviewMetrics": [
+        "Clarity",
+        "Support",
+        "Engagement"
+      ]
+    },
+    {
+      "id": "beck-pearse",
+      "type": "academic",
+      "name": "Dr Rebecca Pearse",
+      "school": "School of Sociology",
+      "schoolCode": "CASS",
+      "college": "CASS",
+      "position": "Senior Lecturer, School of Sociology",
+      "focus": "School of Sociology",
+      "email": "Rebecca.Pearse@anu.edu.au",
+      "office": "School of Sociology",
+      "profileUrl": "https://researchportalplus.anu.edu.au/en/persons/beck-pearse",
+      "tags": [
+        "cass",
+        "school of sociology"
+      ],
+      "linkedCourses": [],
+      "reviewMetrics": [
+        "Clarity",
+        "Support",
+        "Engagement"
+      ]
+    },
+    {
+      "id": "rebecca-tan",
+      "type": "academic",
+      "name": "Dr Rebecca Tan",
+      "school": "Research School of Accounting",
+      "schoolCode": "RSA",
+      "college": "CBE",
+      "position": "Senior Lecturer &amp; Master&rsquo;s Course Work Convener",
+      "focus": "Accounting, Corporate sustainability",
+      "email": "See ANU profile",
+      "office": "Research School of Accounting",
+      "profileUrl": "https://rsa.anu.edu.au/people/rebecca-tan",
+      "tags": [
+        "rsa",
+        "accounting",
+        "corporate sustainability"
+      ],
+      "linkedCourses": [],
+      "reviewMetrics": [
+        "Clarity",
+        "Support",
+        "Engagement"
+      ]
+    },
+    {
+      "id": "richard-frank",
+      "type": "academic",
+      "name": "Dr Richard W Frank",
+      "school": "School of Politics & International Relations",
+      "schoolCode": "CASS",
+      "college": "CASS",
+      "position": "Senior Lecturer, School of Politics & International Relations",
+      "focus": "Deputy Head of School, School of Politics & International Relations",
+      "email": "Richard.Frank@anu.edu.au",
+      "office": "School of Politics & International Relations",
+      "profileUrl": "https://researchportalplus.anu.edu.au/en/persons/richard-frank",
+      "tags": [
+        "cass",
+        "deputy head of school",
+        "school of politics & internation"
+      ],
+      "linkedCourses": [],
+      "reviewMetrics": [
+        "Clarity",
+        "Support",
+        "Engagement"
+      ]
+    },
+    {
+      "id": "rob-bray",
+      "type": "academic",
+      "name": "Dr Rob Bray",
+      "school": "Centre for Social Research and Methods",
+      "schoolCode": "CASS",
+      "college": "CASS",
+      "position": "Research Fellow, Centre for Social Research and Methods",
+      "focus": "Centre for Social Research and Methods",
+      "email": "rob.bray@anu.edu.au",
+      "office": "Centre for Social Research and Methods",
+      "profileUrl": "https://researchportalplus.anu.edu.au/en/persons/rob-bray",
+      "tags": [
+        "cass",
+        "centre for social research and m"
+      ],
+      "linkedCourses": [],
+      "reviewMetrics": [
+        "Clarity",
+        "Support",
+        "Engagement"
+      ]
+    },
+    {
+      "id": "cap-bell-977fcfba-f2b3-4db0-ab3e-9864d202a932",
+      "type": "academic",
+      "name": "Dr Rochelle-lee Bailey",
+      "position": "Research Fellow",
+      "focus": "Social and Cultural Anthropology Anthropology of Development Migration",
+      "school": "Coral Bell School of Asia Pacific Affairs",
+      "schoolCode": "BELL",
+      "college": "ANU College of Asia and the Pacific",
+      "profileUrl": "https://researchportalplus.anu.edu.au/en/persons/977fcfba-f2b3-4db0-ab3e-9864d202a932",
+      "email": "",
+      "office": "",
+      "linkedCourses": [],
+      "reviewMetrics": [
+        "Clarity",
+        "Support",
+        "Engagement"
+      ],
+      "tags": [
+        "bell",
+        "asia-pacific affairs"
+      ]
+    },
+    {
+      "id": "rosey-billington",
+      "type": "academic",
+      "name": "Dr Rosey Billington",
+      "school": "ANU College of Arts and Social Sciences",
+      "schoolCode": "CASS",
+      "college": "CASS",
+      "position": "Lecturer in Linguistics, Linguistics & Applied Linguistics",
+      "focus": "ANU College of Arts and Social Sciences",
+      "email": "rosey.billington@anu.edu.au",
+      "office": "ANU College of Arts and Social Sciences",
+      "profileUrl": "https://researchportalplus.anu.edu.au/en/persons/rosey-billington",
+      "tags": [
+        "cass",
+        "anu college of arts and social s"
+      ],
+      "linkedCourses": [],
+      "reviewMetrics": [
+        "Clarity",
+        "Support",
+        "Engagement"
+      ]
+    },
+    {
+      "id": "cap-chl-6b6fec71-b8a9-44e5-8906-14e6b73fb9bb",
+      "type": "academic",
+      "name": "Dr Ross Tapsell Asian",
+      "position": "Academic",
+      "focus": "Cultural Studies Studies of Asian Society Communication Technology and Digital Media Studies",
+      "school": "School of Culture, History and Language",
+      "schoolCode": "CHL",
+      "college": "ANU College of Asia and the Pacific",
+      "profileUrl": "https://researchportalplus.anu.edu.au/en/persons/6b6fec71-b8a9-44e5-8906-14e6b73fb9bb",
+      "email": "",
+      "office": "",
+      "linkedCourses": [],
+      "reviewMetrics": [
+        "Clarity",
+        "Support",
+        "Engagement"
+      ],
+      "tags": [
+        "chl",
+        "asia-pacific"
+      ]
+    },
+    {
+      "id": "ruitian-lang",
+      "type": "academic",
+      "name": "Dr Ruitian Lang",
+      "school": "Research School of Economics",
+      "schoolCode": "RSE",
+      "college": "CBE",
+      "position": "Lecturer",
+      "focus": "Economics",
+      "email": "See ANU profile",
+      "office": "Research School of Economics",
+      "profileUrl": "https://rse.anu.edu.au/people/ruitian-lang",
+      "tags": [
+        "rse",
+        "economics"
+      ],
+      "linkedCourses": [],
+      "reviewMetrics": [
+        "Clarity",
+        "Support",
+        "Engagement"
+      ]
+    },
+    {
+      "id": "russell-smith",
+      "type": "academic",
+      "name": "Dr Russell Smith",
+      "school": "ANU College of Arts and Social Sciences",
+      "schoolCode": "CASS",
+      "college": "CASS",
+      "position": "Lecturer, English & Drama, English",
+      "focus": "ANU College of Arts and Social Sciences",
+      "email": "russell.smith@anu.edu.au",
+      "office": "ANU College of Arts and Social Sciences",
+      "profileUrl": "https://researchportalplus.anu.edu.au/en/persons/russell-smith",
+      "tags": [
+        "cass",
+        "anu college of arts and social s"
+      ],
+      "linkedCourses": [],
+      "reviewMetrics": [
+        "Clarity",
+        "Support",
+        "Engagement"
+      ]
+    },
+    {
+      "id": "anna-florin",
+      "type": "academic",
+      "name": "Dr S. Anna Florin",
+      "school": "ANU College of Arts and Social Sciences",
+      "schoolCode": "CASS",
+      "college": "CASS",
+      "position": "Lecturer in Archaeology, Archaeology",
+      "focus": "ANU College of Arts and Social Sciences",
+      "email": "Anna.Florin@anu.edu.au",
+      "office": "ANU College of Arts and Social Sciences",
+      "profileUrl": "https://researchportalplus.anu.edu.au/en/persons/anna-florin",
+      "tags": [
+        "cass",
+        "anu college of arts and social s"
+      ],
+      "linkedCourses": [],
+      "reviewMetrics": [
+        "Clarity",
+        "Support",
+        "Engagement"
+      ]
+    },
+    {
+      "id": "sally-curtis",
+      "type": "academic",
+      "name": "Dr Sally Curtis",
+      "school": "Research School of Management",
+      "schoolCode": "RSM",
+      "college": "CBE",
+      "position": "Lecturer",
+      "focus": "Corporate social responsibility, Leadership, Management, Organisation studies, Social entrepreneurship",
+      "email": "See ANU profile",
+      "office": "Research School of Management",
+      "profileUrl": "https://rsm.anu.edu.au/people/sally-curtis",
+      "tags": [
+        "rsm",
+        "corporate social responsibility",
+        "leadership",
+        "management"
+      ],
+      "linkedCourses": [],
+      "reviewMetrics": [
+        "Clarity",
+        "Support",
+        "Engagement"
+      ]
+    },
+    {
+      "id": "cap-bell-202ef363-9344-4d6d-9c1f-a7066ab36fcb",
+      "type": "academic",
+      "name": "Dr Sally White Islamic",
+      "position": "Academic",
+      "focus": "Studies Asian History",
+      "school": "Coral Bell School of Asia Pacific Affairs",
+      "schoolCode": "BELL",
+      "college": "ANU College of Asia and the Pacific",
+      "profileUrl": "https://researchportalplus.anu.edu.au/en/persons/202ef363-9344-4d6d-9c1f-a7066ab36fcb",
+      "email": "",
+      "office": "",
+      "linkedCourses": [],
+      "reviewMetrics": [
+        "Clarity",
+        "Support",
+        "Engagement"
+      ],
+      "tags": [
+        "bell",
+        "asia-pacific affairs"
+      ]
+    },
+    {
+      "id": "cap-chl-271311a0-0ee0-48b2-b78a-0d0f82fdebdf",
+      "type": "academic",
+      "name": "Dr Sam Passmore Postdoctoral",
+      "position": "Research Fellow",
+      "focus": "ANTHROPOLOGY Linguistic Anthropology Phylogeny and Comparative Analysis",
+      "school": "School of Culture, History and Language",
+      "schoolCode": "CHL",
+      "college": "ANU College of Asia and the Pacific",
+      "profileUrl": "https://researchportalplus.anu.edu.au/en/persons/271311a0-0ee0-48b2-b78a-0d0f82fdebdf",
+      "email": "",
+      "office": "",
+      "linkedCourses": [],
+      "reviewMetrics": [
+        "Clarity",
+        "Support",
+        "Engagement"
+      ],
+      "tags": [
+        "chl",
+        "asia-pacific"
+      ]
+    },
+    {
+      "id": "sameera-chauhan",
+      "type": "academic",
+      "name": "Dr Sameera Chauhan",
+      "school": "School of History",
+      "schoolCode": "CASS",
+      "college": "CASS",
+      "position": "Associate Lecturer, School of History",
+      "focus": "School of History",
+      "email": "Sameera.Chauhan@anu.edu.au",
+      "office": "School of History",
+      "profileUrl": "https://researchportalplus.anu.edu.au/en/persons/sameera-chauhan/",
+      "tags": [
+        "cass",
+        "school of history"
+      ],
+      "linkedCourses": [],
+      "reviewMetrics": [
+        "Clarity",
+        "Support",
+        "Engagement"
+      ]
+    },
+    {
+      "id": "samira-nazar",
+      "type": "academic",
+      "name": "Dr Samira Nazar",
+      "school": "Research School of Management",
+      "schoolCode": "RSM",
+      "college": "CBE",
+      "position": "Lecturer in Entrepreneurship",
+      "focus": "Entrepreneurship, Innovation",
+      "email": "See ANU profile",
+      "office": "Research School of Management",
+      "profileUrl": "https://rsm.anu.edu.au/people/samira-nazar",
+      "tags": [
+        "rsm",
+        "entrepreneurship",
+        "innovation"
+      ],
+      "linkedCourses": [],
+      "reviewMetrics": [
+        "Clarity",
+        "Support",
+        "Engagement"
+      ]
+    },
+    {
+      "id": "sam-furphy",
+      "type": "academic",
+      "name": "Dr Samuel Furphy",
+      "school": "School of History",
+      "schoolCode": "CASS",
+      "college": "CASS",
+      "position": "Senior Lecturer, School of History",
+      "focus": "Senior Academic Research Editor, National Centre of Biography",
+      "email": "samuel.furphy@anu.edu.au",
+      "office": "School of History",
+      "profileUrl": "https://researchportalplus.anu.edu.au/en/persons/sam-furphy",
+      "tags": [
+        "cass",
+        "senior academic research editor",
+        "national centre of biography"
+      ],
+      "linkedCourses": [],
+      "reviewMetrics": [
+        "Clarity",
+        "Support",
+        "Engagement"
+      ]
+    },
+    {
+      "id": "cap-bell-9ff18bb9-4d30-4997-8fc2-44e2a818c11f",
+      "type": "academic",
+      "name": "Dr Sana Jaffrey",
+      "position": "Research Fellow",
+      "focus": "and Lecturer state-building Southeast Asia South Asia",
+      "school": "Coral Bell School of Asia Pacific Affairs",
+      "schoolCode": "BELL",
+      "college": "ANU College of Asia and the Pacific",
+      "profileUrl": "https://researchportalplus.anu.edu.au/en/persons/9ff18bb9-4d30-4997-8fc2-44e2a818c11f",
+      "email": "",
+      "office": "",
+      "linkedCourses": [],
+      "reviewMetrics": [
+        "Clarity",
+        "Support",
+        "Engagement"
+      ],
+      "tags": [
+        "bell",
+        "asia-pacific affairs"
+      ]
+    },
+    {
+      "id": "sarah-adams",
+      "type": "academic",
+      "name": "Dr Sarah Adams",
+      "school": "Research School of Accounting",
+      "schoolCode": "RSA",
+      "college": "CBE",
+      "position": "Senior Lecturer",
+      "focus": "Accounting, Corporate sustainability",
+      "email": "See ANU profile",
+      "office": "Research School of Accounting",
+      "profileUrl": "https://rsa.anu.edu.au/people/sarah-adams",
+      "tags": [
+        "rsa",
+        "accounting",
+        "corporate sustainability"
+      ],
+      "linkedCourses": [],
+      "reviewMetrics": [
+        "Clarity",
+        "Support",
+        "Engagement"
+      ]
+    },
+    {
+      "id": "cap-bell-afbd4351-8cea-477f-81a5-40d80a39dfcc",
+      "type": "academic",
+      "name": "Dr Sarah Logan",
+      "position": "Academic",
+      "focus": "Asia-Pacific affairs",
+      "school": "Coral Bell School of Asia Pacific Affairs",
+      "schoolCode": "BELL",
+      "college": "ANU College of Asia and the Pacific",
+      "profileUrl": "https://researchportalplus.anu.edu.au/en/persons/afbd4351-8cea-477f-81a5-40d80a39dfcc",
+      "email": "",
+      "office": "",
+      "linkedCourses": [],
+      "reviewMetrics": [
+        "Clarity",
+        "Support",
+        "Engagement"
+      ],
+      "tags": [
+        "bell",
+        "asia-pacific affairs"
+      ]
+    },
+    {
+      "id": "sarahrodigari.org",
+      "type": "academic",
+      "name": "Dr Sarah Rodigari",
+      "school": "School of Art & Design",
+      "schoolCode": "CASS",
+      "college": "CASS",
+      "position": "Lecturer, School of Art & Design",
+      "focus": "School of Art & Design",
+      "email": "Sarah.Rodigari@anu.edu.au",
+      "office": "School of Art & Design",
+      "profileUrl": "https://sarahrodigari.org/",
+      "tags": [
+        "cass",
+        "school of art & design"
+      ],
+      "linkedCourses": [],
+      "reviewMetrics": [
+        "Clarity",
+        "Support",
+        "Engagement"
+      ]
+    },
+    {
+      "id": "sarah-scott",
+      "type": "academic",
+      "name": "Dr Sarah Scott",
+      "school": "Centre for Art History & Art Theory",
+      "schoolCode": "CASS",
+      "college": "CASS",
+      "position": "Lecturer, Centre for Art History & Art Theory",
+      "focus": "Centre for Art History & Art Theory",
+      "email": "sarah.scott@anu.edu.au",
+      "office": "Centre for Art History & Art Theory",
+      "profileUrl": "https://researchportalplus.anu.edu.au/en/persons/sarah-scott",
+      "tags": [
+        "cass",
+        "centre for art history & art the"
+      ],
+      "linkedCourses": [],
+      "reviewMetrics": [
+        "Clarity",
+        "Support",
+        "Engagement"
+      ]
+    },
+    {
+      "id": "sarah-jane-burton",
+      "type": "academic",
+      "name": "Dr Sarah-Jane Burton",
+      "school": "ANU College of Arts and Social Sciences",
+      "schoolCode": "CASS",
+      "college": "CASS",
+      "position": "Research Fellow, English, English",
+      "focus": "ANU College of Arts and Social Sciences",
+      "email": "sj.burton@anu.edu.au",
+      "office": "ANU College of Arts and Social Sciences",
+      "profileUrl": "https://researchportalplus.anu.edu.au/en/persons/sarah-jane-burton",
+      "tags": [
+        "cass",
+        "anu college of arts and social s"
+      ],
+      "linkedCourses": [],
+      "reviewMetrics": [
+        "Clarity",
+        "Support",
+        "Engagement"
+      ]
+    },
+    {
+      "id": "sarini-azizan",
+      "type": "academic",
+      "name": "Dr Sarini Azizan",
+      "school": "Research School of Management",
+      "schoolCode": "RSM",
+      "college": "CBE",
+      "position": "Lecturer in Business Management",
+      "focus": "Research School of Management",
+      "email": "See ANU profile",
+      "office": "Research School of Management",
+      "profileUrl": "https://rsm.anu.edu.au/people/sarini-azizan",
+      "tags": [
+        "rsm"
+      ],
+      "linkedCourses": [],
+      "reviewMetrics": [
+        "Clarity",
+        "Support",
+        "Engagement"
+      ]
+    },
+    {
+      "id": "scarlett-luo",
+      "type": "academic",
+      "name": "Dr Scarlett Luo",
+      "school": "Research School of Accounting",
+      "schoolCode": "RSA",
+      "college": "CBE",
+      "position": "Lecturer",
+      "focus": "Accounting",
+      "email": "See ANU profile",
+      "office": "Research School of Accounting",
+      "profileUrl": "https://rsa.anu.edu.au/people/scarlett-luo",
+      "tags": [
+        "rsa",
+        "accounting"
+      ],
+      "linkedCourses": [],
+      "reviewMetrics": [
+        "Clarity",
+        "Support",
+        "Engagement"
+      ]
+    },
+    {
+      "id": "scott-davie",
+      "type": "academic",
+      "name": "Dr Scott Davie",
+      "school": "School of Music",
+      "schoolCode": "CASS",
+      "college": "CASS",
+      "position": "Senior Lecturer, School of Music",
+      "focus": "School of Music",
+      "email": "scott.davie@anu.edu.au",
+      "office": "School of Music",
+      "profileUrl": "https://researchportalplus.anu.edu.au/en/persons/scott-davie",
+      "tags": [
+        "cass",
+        "school of music"
+      ],
+      "linkedCourses": [],
+      "reviewMetrics": [
+        "Clarity",
+        "Support",
+        "Engagement"
+      ]
+    },
+    {
+      "id": "sergey-timonin",
+      "type": "academic",
+      "name": "Dr Sergey Timonin",
+      "school": "School of Demography",
+      "schoolCode": "CASS",
+      "college": "CASS",
+      "position": "Research Fellow, School of Demography",
+      "focus": "School of Demography",
+      "email": "Sergey.Timonin@anu.edu.au",
+      "office": "School of Demography",
+      "profileUrl": "https://researchportalplus.anu.edu.au/en/persons/sergey-timonin",
+      "tags": [
+        "cass",
+        "school of demography"
+      ],
+      "linkedCourses": [],
+      "reviewMetrics": [
+        "Clarity",
+        "Support",
+        "Engagement"
+      ]
+    },
+    {
+      "id": "shasta-shakya",
+      "type": "academic",
+      "name": "Dr Shasta Shakya",
+      "school": "Research School of Finance, Actuarial Studies and Statistics",
+      "schoolCode": "RSFAS",
+      "college": "CBE",
+      "position": "Senior Lecturer",
+      "focus": "Finance",
+      "email": "See ANU profile",
+      "office": "Research School of Finance, Actuarial Studies and Statistics",
+      "profileUrl": "https://rsfas.anu.edu.au/people/shasta-shakya",
+      "tags": [
+        "rsfas",
+        "finance"
+      ],
+      "linkedCourses": [],
+      "reviewMetrics": [
+        "Clarity",
+        "Support",
+        "Engagement"
+      ]
+    },
+    {
+      "id": "shawn-treier",
+      "type": "academic",
+      "name": "Dr Shawn Treier",
+      "school": "School of Politics & International Relations",
+      "schoolCode": "CASS",
+      "college": "CASS",
+      "position": "Senior Lecturer, School of Politics & International Relations",
+      "focus": "School of Politics & International Relations",
+      "email": "Shawn.Treier@anu.edu.au",
+      "office": "School of Politics & International Relations",
+      "profileUrl": "https://researchportalplus.anu.edu.au/en/persons/shawn-treier",
+      "tags": [
+        "cass",
+        "school of politics & internation"
+      ],
+      "linkedCourses": [],
+      "reviewMetrics": [
+        "Clarity",
+        "Support",
+        "Engagement"
+      ]
+    },
+    {
+      "id": "cap-chl-1f354d7a-89e8-4d53-bb6f-b3c8cbb3935b",
+      "type": "academic",
+      "name": "Dr Shimona Kealy Postdoctoral Researcher/",
+      "position": "Lecturer",
+      "focus": "ARCHAEOLOGY Biogeography and Phylogeography Archaeological Science",
+      "school": "School of Culture, History and Language",
+      "schoolCode": "CHL",
+      "college": "ANU College of Asia and the Pacific",
+      "profileUrl": "https://researchportalplus.anu.edu.au/en/persons/1f354d7a-89e8-4d53-bb6f-b3c8cbb3935b",
+      "email": "",
+      "office": "",
+      "linkedCourses": [],
+      "reviewMetrics": [
+        "Clarity",
+        "Support",
+        "Engagement"
+      ],
+      "tags": [
+        "chl",
+        "asia-pacific"
+      ]
+    },
+    {
+      "id": "cap-chl-a13afe50-6e75-4a68-90d4-14fa9c3346f1",
+      "type": "academic",
+      "name": "Dr Shuge Wei",
+      "position": "Associate Professor",
+      "focus": "History Of China&Amp Amp S Foreign Affairs",
+      "school": "School of Culture, History and Language",
+      "schoolCode": "CHL",
+      "college": "ANU College of Asia and the Pacific",
+      "profileUrl": "https://researchportalplus.anu.edu.au/en/persons/a13afe50-6e75-4a68-90d4-14fa9c3346f1",
+      "email": "",
+      "office": "",
+      "linkedCourses": [],
+      "reviewMetrics": [
+        "Clarity",
+        "Support",
+        "Engagement"
+      ],
+      "tags": [
+        "chl",
+        "asia-pacific"
+      ]
+    },
+    {
+      "id": "silviana-tana",
+      "type": "academic",
+      "name": "Dr Silviana Tana",
+      "school": "Research School of Management",
+      "schoolCode": "RSM",
+      "college": "CBE",
+      "position": "Lecturer",
+      "focus": "Business information systems",
+      "email": "See ANU profile",
+      "office": "Research School of Management",
+      "profileUrl": "https://rsm.anu.edu.au/people/silviana-tana",
+      "tags": [
+        "rsm",
+        "business information systems"
+      ],
+      "linkedCourses": [],
+      "reviewMetrics": [
+        "Clarity",
+        "Support",
+        "Engagement"
+      ]
+    },
+    {
+      "id": "simona-martorana",
+      "type": "academic",
+      "name": "Dr Simona Martorana",
+      "school": "ANU College of Arts and Social Sciences",
+      "schoolCode": "CASS",
+      "college": "CASS",
+      "position": "Lecturer in Classics, Classics",
+      "focus": "ANU College of Arts and Social Sciences",
+      "email": "Simona.Martorana@anu.edu.au",
+      "office": "ANU College of Arts and Social Sciences",
+      "profileUrl": "https://researchportalplus.anu.edu.au/en/persons/simona-martorana",
+      "tags": [
+        "cass",
+        "anu college of arts and social s"
+      ],
+      "linkedCourses": [],
+      "reviewMetrics": [
+        "Clarity",
+        "Support",
+        "Engagement"
+      ]
+    },
+    {
+      "id": "cap-chl-d183834a-5a59-4149-a927-2d99616172d2",
+      "type": "academic",
+      "name": "Dr Sofia Samper Carro",
+      "position": "Senior Lecturer",
+      "focus": "in Archaeology, DECRA Fellow Zooarchaeology Archaeothanatology Neanderthals",
+      "school": "School of Culture, History and Language",
+      "schoolCode": "CHL",
+      "college": "ANU College of Asia and the Pacific",
+      "profileUrl": "https://researchportalplus.anu.edu.au/en/persons/d183834a-5a59-4149-a927-2d99616172d2",
+      "email": "",
+      "office": "",
+      "linkedCourses": [],
+      "reviewMetrics": [
+        "Clarity",
+        "Support",
+        "Engagement"
+      ],
+      "tags": [
+        "chl",
+        "asia-pacific"
+      ]
+    },
+    {
+      "id": "solene-inceoglu",
+      "type": "academic",
+      "name": "Dr Solène Inceoglu",
+      "school": "ANU College of Arts and Social Sciences",
+      "schoolCode": "CASS",
+      "college": "CASS",
+      "position": "Senior Lecturer, French, Languages",
+      "focus": "ANU College of Arts and Social Sciences",
+      "email": "Solene.Inceoglu@anu.edu.au",
+      "office": "ANU College of Arts and Social Sciences",
+      "profileUrl": "https://researchportalplus.anu.edu.au/en/persons/solene-inceoglu",
+      "tags": [
+        "cass",
+        "anu college of arts and social s"
+      ],
+      "linkedCourses": [],
+      "reviewMetrics": [
+        "Clarity",
+        "Support",
+        "Engagement"
+      ]
+    },
+    {
+      "id": "sorin-daniliuc",
+      "type": "academic",
+      "name": "Dr Sorin Daniliuc",
+      "school": "Research School of Accounting",
+      "schoolCode": "RSA",
+      "college": "CBE",
+      "position": "Lecturer",
+      "focus": "Accounting",
+      "email": "See ANU profile",
+      "office": "Research School of Accounting",
+      "profileUrl": "https://rsa.anu.edu.au/people/sorin-daniliuc",
+      "tags": [
+        "rsa",
+        "accounting"
+      ],
+      "linkedCourses": [],
+      "reviewMetrics": [
+        "Clarity",
+        "Support",
+        "Engagement"
+      ]
+    },
+    {
+      "id": "ward-sx?term=Stacey",
+      "type": "academic",
+      "name": "Dr Stacey Ward",
+      "school": "ANU College of Arts and Social Sciences",
+      "schoolCode": "CASS",
+      "college": "CASS",
+      "position": "Lecturer in Biological Anthropology, Biological Anthropology",
+      "focus": "ANU College of Arts and Social Sciences",
+      "email": "Stacey.Ward@anu.edu.au",
+      "office": "ANU College of Arts and Social Sciences",
+      "profileUrl": "https://researchers.anu.edu.au/researchers/ward-sx?term=Stacey",
+      "tags": [
+        "cass",
+        "anu college of arts and social s"
+      ],
+      "linkedCourses": [],
+      "reviewMetrics": [
+        "Clarity",
+        "Support",
+        "Engagement"
+      ]
+    },
+    {
+      "id": "cap-chl-c9154e4f-5da2-4e3e-9656-4d7b335eef10",
+      "type": "academic",
+      "name": "Dr Stephanie Majcher",
+      "position": "Senior Lecturer",
+      "focus": "Vedic Studies Sanskrit Language Gandhari Language",
+      "school": "School of Culture, History and Language",
+      "schoolCode": "CHL",
+      "college": "ANU College of Asia and the Pacific",
+      "profileUrl": "https://researchportalplus.anu.edu.au/en/persons/c9154e4f-5da2-4e3e-9656-4d7b335eef10",
+      "email": "",
+      "office": "",
+      "linkedCourses": [],
+      "reviewMetrics": [
+        "Clarity",
+        "Support",
+        "Engagement"
+      ],
+      "tags": [
+        "chl",
+        "asia-pacific"
+      ]
+    },
+    {
+      "id": "stephen-dann",
+      "type": "academic",
+      "name": "Dr Stephen Dann",
+      "school": "Research School of Management",
+      "schoolCode": "RSM",
+      "college": "CBE",
+      "position": "Marketing",
+      "focus": "Research School of Management",
+      "email": "See ANU profile",
+      "office": "Research School of Management",
+      "profileUrl": "https://rsm.anu.edu.au/people/stephen-dann",
+      "tags": [
+        "rsm"
+      ],
+      "linkedCourses": [],
+      "reviewMetrics": [
+        "Clarity",
+        "Support",
+        "Engagement"
+      ]
+    },
+    {
+      "id": "stephen-wilks",
+      "type": "academic",
+      "name": "Dr Stephen Wilks",
+      "school": "School of History",
+      "schoolCode": "CASS",
+      "college": "CASS",
+      "position": "Academic Research Editor, School of History",
+      "focus": "Academic Research Editor, National Centre of Biography",
+      "email": "stephen.wilks@anu.edu.au",
+      "office": "School of History",
+      "profileUrl": "https://researchportalplus.anu.edu.au/en/persons/stephen-wilks",
+      "tags": [
+        "cass",
+        "academic research editor",
+        "national centre of biography"
+      ],
+      "linkedCourses": [],
+      "reviewMetrics": [
+        "Clarity",
+        "Support",
+        "Engagement"
+      ]
+    },
+    {
+      "id": "cap-bell-daf505a6-1d66-49e1-8558-0e62667d36c8",
+      "type": "academic",
+      "name": "Dr Stewart Firth",
+      "position": "Research Fellow",
+      "focus": "State, Society and Governance in Melanesia Program Pacific History (excl. New Zealand and Maori) Regional Analysis and Development Postcolonial Studies",
+      "school": "Coral Bell School of Asia Pacific Affairs",
+      "schoolCode": "BELL",
+      "college": "ANU College of Asia and the Pacific",
+      "profileUrl": "https://researchportalplus.anu.edu.au/en/persons/daf505a6-1d66-49e1-8558-0e62667d36c8",
+      "email": "",
+      "office": "",
+      "linkedCourses": [],
+      "reviewMetrics": [
+        "Clarity",
+        "Support",
+        "Engagement"
+      ],
+      "tags": [
+        "bell",
+        "asia-pacific affairs"
+      ]
+    },
+    {
+      "id": "cap-chl-465c8d07-0194-4cca-8f1f-18e0a63a9e73",
+      "type": "academic",
+      "name": "Dr Susanna Price",
+      "position": "Lecturer",
+      "focus": "(Hon) CHL CAP",
+      "school": "School of Culture, History and Language",
+      "schoolCode": "CHL",
+      "college": "ANU College of Asia and the Pacific",
+      "profileUrl": "https://researchportalplus.anu.edu.au/en/persons/465c8d07-0194-4cca-8f1f-18e0a63a9e73",
+      "email": "",
+      "office": "",
+      "linkedCourses": [],
+      "reviewMetrics": [
+        "Clarity",
+        "Support",
+        "Engagement"
+      ],
+      "tags": [
+        "chl",
+        "asia-pacific"
+      ]
+    },
+    {
+      "id": "susy-macqueen",
+      "type": "academic",
+      "name": "Dr Susy Macqueen",
+      "school": "ANU College of Arts and Social Sciences",
+      "schoolCode": "CASS",
+      "college": "CASS",
+      "position": "Associate Professor, Linguistics & Applied Linguistics",
+      "focus": "ANU College of Arts and Social Sciences",
+      "email": "susy.macqueen@anu.edu.au",
+      "office": "ANU College of Arts and Social Sciences",
+      "profileUrl": "https://researchportalplus.anu.edu.au/en/persons/susy-macqueen",
+      "tags": [
+        "cass",
+        "anu college of arts and social s"
+      ],
+      "linkedCourses": [],
+      "reviewMetrics": [
+        "Clarity",
+        "Support",
+        "Engagement"
+      ]
+    },
+    {
+      "id": "sutanuka-roy",
+      "type": "academic",
+      "name": "Dr Sutanuka Roy",
+      "school": "Research School of Economics",
+      "schoolCode": "RSE",
+      "college": "CBE",
+      "position": "Senior Lecturer, John Mitchell Fellow",
+      "focus": "Research School of Economics",
+      "email": "See ANU profile",
+      "office": "Research School of Economics",
+      "profileUrl": "https://rse.anu.edu.au/people/sutanuka-roy",
+      "tags": [
+        "rse"
+      ],
+      "linkedCourses": [],
+      "reviewMetrics": [
+        "Clarity",
+        "Support",
+        "Engagement"
+      ]
+    },
+    {
+      "id": "svitlana-chernykh",
+      "type": "academic",
+      "name": "Dr Svitlana Chernykh",
+      "school": "School of Politics & International Relations",
+      "schoolCode": "CASS",
+      "college": "CASS",
+      "position": "Senior Lecturer, School of Politics & International Relations",
+      "focus": "School of Politics & International Relations",
+      "email": "Svitlana.Chernykh@anu.edu.au",
+      "office": "School of Politics & International Relations",
+      "profileUrl": "https://researchportalplus.anu.edu.au/en/persons/svitlana-chernykh",
+      "tags": [
+        "cass",
+        "school of politics & internation"
+      ],
+      "linkedCourses": [],
+      "reviewMetrics": [
+        "Clarity",
+        "Support",
+        "Engagement"
+      ]
+    },
+    {
+      "id": "cap-chl-b85aa39f-88b8-41ab-8515-d5bfc59d8674",
+      "type": "academic",
+      "name": "Dr Takuya Kojima",
+      "position": "Lecturer",
+      "focus": "Asia and Pacific studies",
+      "school": "School of Culture, History and Language",
+      "schoolCode": "CHL",
+      "college": "ANU College of Asia and the Pacific",
+      "profileUrl": "https://researchportalplus.anu.edu.au/en/persons/b85aa39f-88b8-41ab-8515-d5bfc59d8674",
+      "email": "",
+      "office": "",
+      "linkedCourses": [],
+      "reviewMetrics": [
+        "Clarity",
+        "Support",
+        "Engagement"
+      ],
+      "tags": [
+        "chl",
+        "asia-pacific"
+      ]
+    },
+    {
+      "id": "tatiana-bur",
+      "type": "academic",
+      "name": "Dr Tatiana Bur",
+      "school": "ANU College of Arts and Social Sciences",
+      "schoolCode": "CASS",
+      "college": "CASS",
+      "position": "Lecturer in Classics, Classics",
+      "focus": "ANU College of Arts and Social Sciences",
+      "email": "tatiana.bur@anu.edu.au",
+      "office": "ANU College of Arts and Social Sciences",
+      "profileUrl": "https://researchportalplus.anu.edu.au/en/persons/tatiana-bur",
+      "tags": [
+        "cass",
+        "anu college of arts and social s"
+      ],
+      "linkedCourses": [],
+      "reviewMetrics": [
+        "Clarity",
+        "Support",
+        "Engagement"
+      ]
+    },
+    {
+      "id": "tejshree-kala",
+      "type": "academic",
+      "name": "Dr Tejshree Kala",
+      "school": "Research School of Accounting",
+      "schoolCode": "RSA",
+      "college": "CBE",
+      "position": "Lecturer",
+      "focus": "Accounting",
+      "email": "See ANU profile",
+      "office": "Research School of Accounting",
+      "profileUrl": "https://rsa.anu.edu.au/people/tejshree-kala",
+      "tags": [
+        "rsa",
+        "accounting"
+      ],
+      "linkedCourses": [],
+      "reviewMetrics": [
+        "Clarity",
+        "Support",
+        "Engagement"
+      ]
+    },
+    {
+      "id": "terhi-nurmikko-fuller",
+      "type": "academic",
+      "name": "Dr Terhi Nurmikko-Fuller",
+      "school": "Centre for Digital Humanities Research",
+      "schoolCode": "CASS",
+      "college": "CASS",
+      "position": "Lecturer in Digital Humanities, Centre for Digital Humanities Research",
+      "focus": "Centre for Digital Humanities Research",
+      "email": "Terhi.Nurmikko-Fuller@anu.edu.au",
+      "office": "Centre for Digital Humanities Research",
+      "profileUrl": "https://researchportalplus.anu.edu.au/en/persons/terhi-nurmikko-fuller",
+      "tags": [
+        "cass",
+        "centre for digital humanities re"
+      ],
+      "linkedCourses": [],
+      "reviewMetrics": [
+        "Clarity",
+        "Support",
+        "Engagement"
+      ]
+    },
+    {
+      "id": "thao-phan",
+      "type": "academic",
+      "name": "Dr Thao Phan",
+      "school": "School of Sociology",
+      "schoolCode": "CASS",
+      "college": "CASS",
+      "position": "Lecturer, School of Sociology",
+      "focus": "School of Sociology",
+      "email": "Thao.Phan@anu.edu.au",
+      "office": "School of Sociology",
+      "profileUrl": "https://researchportalplus.anu.edu.au/en/persons/thao-phan",
+      "tags": [
+        "cass",
+        "school of sociology"
+      ],
+      "linkedCourses": [],
+      "reviewMetrics": [
+        "Clarity",
+        "Support",
+        "Engagement"
+      ]
+    },
+    {
+      "id": "cap-bell-539752b0-8924-4f5a-91d9-1f6c5403627f",
+      "type": "academic",
+      "name": "Dr Theresa Meki",
+      "position": "Academic",
+      "focus": "Asia-Pacific affairs",
+      "school": "Coral Bell School of Asia Pacific Affairs",
+      "schoolCode": "BELL",
+      "college": "ANU College of Asia and the Pacific",
+      "profileUrl": "https://researchportalplus.anu.edu.au/en/persons/539752b0-8924-4f5a-91d9-1f6c5403627f",
+      "email": "",
+      "office": "",
+      "linkedCourses": [],
+      "reviewMetrics": [
+        "Clarity",
+        "Support",
+        "Engagement"
+      ],
+      "tags": [
+        "bell",
+        "asia-pacific affairs"
+      ]
+    },
+    {
+      "id": "cap-bell-a995d527-51dc-43dd-b3dd-aa2dc411e458",
+      "type": "academic",
+      "name": "Dr Thiago Cintra Oppermann",
+      "position": "Research Fellow",
+      "focus": "State Society and Governance in Melanesia Pacific History (excl. New Zealand and Maori) Anthropology of Development Social and Cultural Anthropology",
+      "school": "Coral Bell School of Asia Pacific Affairs",
+      "schoolCode": "BELL",
+      "college": "ANU College of Asia and the Pacific",
+      "profileUrl": "https://researchportalplus.anu.edu.au/en/persons/a995d527-51dc-43dd-b3dd-aa2dc411e458",
+      "email": "",
+      "office": "",
+      "linkedCourses": [],
+      "reviewMetrics": [
+        "Clarity",
+        "Support",
+        "Engagement"
+      ],
+      "tags": [
+        "bell",
+        "asia-pacific affairs"
+      ]
+    },
+    {
+      "id": "thomas-nulley-valdes",
+      "type": "academic",
+      "name": "Dr Thomas Nulley-Valdés",
+      "school": "ANU College of Arts and Social Sciences",
+      "schoolCode": "CASS",
+      "college": "CASS",
+      "position": "Lecturer in Spanish Studies, Languages",
+      "focus": "ANU College of Arts and Social Sciences",
+      "email": "thomas.nulley-valdes@anu.edu.au",
+      "office": "ANU College of Arts and Social Sciences",
+      "profileUrl": "https://researchportalplus.anu.edu.au/en/persons/thomas-nulley-valdes",
+      "tags": [
+        "cass",
+        "anu college of arts and social s"
+      ],
+      "linkedCourses": [],
+      "reviewMetrics": [
+        "Clarity",
+        "Support",
+        "Engagement"
+      ]
+    },
+    {
+      "id": "thomas-laue",
+      "type": "academic",
+      "name": "Dr Thomas Peter Laue",
+      "school": "School of Music",
+      "schoolCode": "CASS",
+      "college": "CASS",
+      "position": "Lecturer, School of Music",
+      "focus": "School of Music",
+      "email": "thomas.laue@anu.edu.au",
+      "office": "School of Music",
+      "profileUrl": "https://researchportalplus.anu.edu.au/en/persons/thomas-laue",
+      "tags": [
+        "cass",
+        "school of music"
+      ],
+      "linkedCourses": [],
+      "reviewMetrics": [
+        "Clarity",
+        "Support",
+        "Engagement"
+      ]
+    },
+    {
+      "id": "tianyao-terry-zhang",
+      "type": "academic",
+      "name": "Dr Tianyao (Terry) Zhang",
+      "school": "Research School of Finance, Actuarial Studies and Statistics",
+      "schoolCode": "RSFAS",
+      "college": "CBE",
+      "position": "Senior Lecturer",
+      "focus": "Finance",
+      "email": "See ANU profile",
+      "office": "Research School of Finance, Actuarial Studies and Statistics",
+      "profileUrl": "https://rsfas.anu.edu.au/people/tianyao-terry-zhang",
+      "tags": [
+        "rsfas",
+        "finance"
+      ],
+      "linkedCourses": [],
+      "reviewMetrics": [
+        "Clarity",
+        "Support",
+        "Engagement"
+      ]
+    },
+    {
+      "id": "tim-heffernan",
+      "type": "academic",
+      "name": "Dr Tim Heffernan",
+      "school": "ANU College of Arts and Social Sciences",
+      "schoolCode": "CASS",
+      "college": "CASS",
+      "position": "Lecturer in Anthropology, Anthropology",
+      "focus": "ANU College of Arts and Social Sciences",
+      "email": "tim.heffernan@anu.edu.au",
+      "office": "ANU College of Arts and Social Sciences",
+      "profileUrl": "https://researchportalplus.anu.edu.au/en/persons/tim-heffernan",
+      "tags": [
+        "cass",
+        "anu college of arts and social s"
+      ],
+      "linkedCourses": [],
+      "reviewMetrics": [
+        "Clarity",
+        "Support",
+        "Engagement"
+      ]
+    },
+    {
+      "id": "tim-mclellan",
+      "type": "academic",
+      "name": "Dr Tim McLellan",
+      "school": "ANU College of Arts and Social Sciences",
+      "schoolCode": "CASS",
+      "college": "CASS",
+      "position": "Lecturer in Anthropology, Anthropology",
+      "focus": "ANU College of Arts and Social Sciences",
+      "email": "Tim.McLellan@anu.edu.au",
+      "office": "ANU College of Arts and Social Sciences",
+      "profileUrl": "https://researchportalplus.anu.edu.au/en/persons/tim-mclellan/",
+      "tags": [
+        "cass",
+        "anu college of arts and social s"
+      ],
+      "linkedCourses": [],
+      "reviewMetrics": [
+        "Clarity",
+        "Support",
+        "Engagement"
+      ]
+    },
+    {
+      "id": "timo-henckel",
+      "type": "academic",
+      "name": "Dr Timo Henckel",
+      "school": "Research School of Economics",
+      "schoolCode": "RSE",
+      "college": "CBE",
+      "position": "Associate Professor",
+      "focus": "Economics",
+      "email": "See ANU profile",
+      "office": "Research School of Economics",
+      "profileUrl": "https://rse.anu.edu.au/people/timo-henckel",
+      "tags": [
+        "rse",
+        "economics"
+      ],
+      "linkedCourses": [],
+      "reviewMetrics": [
+        "Clarity",
+        "Support",
+        "Engagement"
+      ]
+    },
+    {
+      "id": "tina-kao",
+      "type": "academic",
+      "name": "Dr Tina Kao",
+      "school": "Research School of Economics",
+      "schoolCode": "RSE",
+      "college": "CBE",
+      "position": "Senior Lecturer",
+      "focus": "Economics",
+      "email": "See ANU profile",
+      "office": "Research School of Economics",
+      "profileUrl": "https://rse.anu.edu.au/people/tina-kao",
+      "tags": [
+        "rse",
+        "economics"
+      ],
+      "linkedCourses": [],
+      "reviewMetrics": [
+        "Clarity",
+        "Support",
+        "Engagement"
+      ]
+    },
+    {
+      "id": "tom-geue",
+      "type": "academic",
+      "name": "Dr Tom Geue",
+      "school": "ANU College of Arts and Social Sciences",
+      "schoolCode": "CASS",
+      "college": "CASS",
+      "position": "Senior Lecturer in Classics, Classics",
+      "focus": "ANU College of Arts and Social Sciences",
+      "email": "tom.geue@anu.edu.au",
+      "office": "ANU College of Arts and Social Sciences",
+      "profileUrl": "https://researchportalplus.anu.edu.au/en/persons/tom-geue",
+      "tags": [
+        "cass",
+        "anu college of arts and social s"
+      ],
+      "linkedCourses": [],
+      "reviewMetrics": [
+        "Clarity",
+        "Support",
+        "Engagement"
+      ]
+    },
+    {
+      "id": "toni-eagar",
+      "type": "academic",
+      "name": "Dr Toni Eagar",
+      "school": "Research School of Management",
+      "schoolCode": "RSM",
+      "college": "CBE",
+      "position": "Senior Lecturer",
+      "focus": "Marketing, Tourism",
+      "email": "See ANU profile",
+      "office": "Research School of Management",
+      "profileUrl": "https://rsm.anu.edu.au/people/toni-eagar",
+      "tags": [
+        "rsm",
+        "marketing",
+        "tourism"
+      ],
+      "linkedCourses": [],
+      "reviewMetrics": [
+        "Clarity",
+        "Support",
+        "Engagement"
+      ]
+    },
+    {
+      "id": "cap-chl-f9439835-7669-481a-90c4-11c5a06a2579",
+      "type": "academic",
+      "name": "Dr Toshiyuki Nakamura",
+      "position": "Lecturer",
+      "focus": "Japanese Language LANGUAGE STUDIES",
+      "school": "School of Culture, History and Language",
+      "schoolCode": "CHL",
+      "college": "ANU College of Asia and the Pacific",
+      "profileUrl": "https://researchportalplus.anu.edu.au/en/persons/f9439835-7669-481a-90c4-11c5a06a2579",
+      "email": "",
+      "office": "",
+      "linkedCourses": [],
+      "reviewMetrics": [
+        "Clarity",
+        "Support",
+        "Engagement"
+      ],
+      "tags": [
+        "chl",
+        "asia-pacific"
+      ]
+    },
+    {
+      "id": "chitra-v",
+      "type": "academic",
+      "name": "Dr V Chitra",
+      "school": "ANU College of Arts and Social Sciences",
+      "schoolCode": "CASS",
+      "college": "CASS",
+      "position": "Lecturer in Anthropology, Anthropology",
+      "focus": "ANU College of Arts and Social Sciences",
+      "email": "Chitra.V@anu.edu.au",
+      "office": "ANU College of Arts and Social Sciences",
+      "profileUrl": "https://researchportalplus.anu.edu.au/en/persons/chitra-v",
+      "tags": [
+        "cass",
+        "anu college of arts and social s"
+      ],
+      "linkedCourses": [],
+      "reviewMetrics": [
+        "Clarity",
+        "Support",
+        "Engagement"
+      ]
+    },
+    {
+      "id": "wei-zeng",
+      "type": "academic",
+      "name": "Dr Wei Zeng",
+      "school": "Research School of Accounting",
+      "schoolCode": "RSA",
+      "college": "CBE",
+      "position": "Lecturer",
+      "focus": "Accounting",
+      "email": "See ANU profile",
+      "office": "Research School of Accounting",
+      "profileUrl": "https://rsa.anu.edu.au/people/wei-zeng",
+      "tags": [
+        "rsa",
+        "accounting"
+      ],
+      "linkedCourses": [],
+      "reviewMetrics": [
+        "Clarity",
+        "Support",
+        "Engagement"
+      ]
+    },
+    {
+      "id": "wesley-lim",
+      "type": "academic",
+      "name": "Dr Wesley Lim",
+      "school": "ANU College of Arts and Social Sciences",
+      "schoolCode": "CASS",
+      "college": "CASS",
+      "position": "Lecturer in German Studies, Languages",
+      "focus": "ANU College of Arts and Social Sciences",
+      "email": "Wesley.Lim@anu.edu.au",
+      "office": "ANU College of Arts and Social Sciences",
+      "profileUrl": "https://researchportalplus.anu.edu.au/en/persons/wesley-lim",
+      "tags": [
+        "cass",
+        "anu college of arts and social s"
+      ],
+      "linkedCourses": [],
+      "reviewMetrics": [
+        "Clarity",
+        "Support",
+        "Engagement"
+      ]
+    },
+    {
+      "id": "william-bosworth",
+      "type": "academic",
+      "name": "Dr William Bosworth",
+      "school": "School of Politics & International Relations",
+      "schoolCode": "CASS",
+      "college": "CASS",
+      "position": "Lecturer, School of Politics & International Relations",
+      "focus": "School of Politics & International Relations",
+      "email": "william.bosworth@anu.edu.au",
+      "office": "School of Politics & International Relations",
+      "profileUrl": "https://researchportalplus.anu.edu.au/en/persons/william-bosworth",
+      "tags": [
+        "cass",
+        "school of politics & internation"
+      ],
+      "linkedCourses": [],
+      "reviewMetrics": [
+        "Clarity",
+        "Support",
+        "Engagement"
+      ]
+    },
+    {
+      "id": "xiu-ye-zhang",
+      "type": "academic",
+      "name": "Dr Xiu-Ye Zhang",
+      "school": "Research School of Accounting",
+      "schoolCode": "RSA",
+      "college": "CBE",
+      "position": "Senior Lecturer",
+      "focus": "Accounting, Finance",
+      "email": "See ANU profile",
+      "office": "Research School of Accounting",
+      "profileUrl": "https://rsa.anu.edu.au/people/xiu-ye-zhang",
+      "tags": [
+        "rsa",
+        "accounting",
+        "finance"
+      ],
+      "linkedCourses": [],
+      "reviewMetrics": [
+        "Clarity",
+        "Support",
+        "Engagement"
+      ]
+    },
+    {
+      "id": "xuan-liang",
+      "type": "academic",
+      "name": "Dr Xuan Liang",
+      "school": "Research School of Finance, Actuarial Studies and Statistics",
+      "schoolCode": "RSFAS",
+      "college": "CBE",
+      "position": "Lecturer",
+      "focus": "Statistics",
+      "email": "See ANU profile",
+      "office": "Research School of Finance, Actuarial Studies and Statistics",
+      "profileUrl": "https://rsfas.anu.edu.au/people/xuan-liang",
+      "tags": [
+        "rsfas",
+        "statistics"
+      ],
+      "linkedCourses": [],
+      "reviewMetrics": [
+        "Clarity",
+        "Support",
+        "Engagement"
+      ]
+    },
+    {
+      "id": "cap-chl-yan-yan-wang",
+      "type": "academic",
+      "name": "Dr Yan Yan Wang",
+      "position": "Academic",
+      "focus": "Chinese Languages",
+      "school": "School of Culture, History and Language",
+      "schoolCode": "CHL",
+      "college": "ANU College of Asia and the Pacific",
+      "profileUrl": "https://researchportalplus.anu.edu.au/en/persons/yan-yan-wang",
+      "email": "",
+      "office": "",
+      "linkedCourses": [],
+      "reviewMetrics": [
+        "Clarity",
+        "Support",
+        "Engagement"
+      ],
+      "tags": [
+        "chl",
+        "asia-pacific"
+      ]
+    },
+    {
+      "id": "yichao-zhu",
+      "type": "academic",
+      "name": "Dr Yichao Zhu",
+      "school": "Research School of Finance, Actuarial Studies and Statistics",
+      "schoolCode": "RSFAS",
+      "college": "CBE",
+      "position": "Senior Lecturer",
+      "focus": "Finance",
+      "email": "See ANU profile",
+      "office": "Research School of Finance, Actuarial Studies and Statistics",
+      "profileUrl": "https://rsfas.anu.edu.au/people/yichao-zhu",
+      "tags": [
+        "rsfas",
+        "finance"
+      ],
+      "linkedCourses": [],
+      "reviewMetrics": [
+        "Clarity",
+        "Support",
+        "Engagement"
+      ]
+    },
+    {
+      "id": "yijuan-chen",
+      "type": "academic",
+      "name": "Dr Yijuan Chen",
+      "school": "Research School of Economics",
+      "schoolCode": "RSE",
+      "college": "CBE",
+      "position": "Associate Professor",
+      "focus": "Economics",
+      "email": "See ANU profile",
+      "office": "Research School of Economics",
+      "profileUrl": "https://rse.anu.edu.au/people/yijuan-chen",
+      "tags": [
+        "rse",
+        "economics"
+      ],
+      "linkedCourses": [],
+      "reviewMetrics": [
+        "Clarity",
+        "Support",
+        "Engagement"
+      ]
+    },
+    {
+      "id": "cap-chl-12b205d4-d4fa-4c82-839e-0cc91b1dc7b9",
+      "type": "academic",
+      "name": "Dr Ying Xin Show",
+      "position": "Senior Lecturer",
+      "focus": "ARC DECRA Fellow, Department of Gender, Media and Cultural Studies Print culture South-East Asian Literature Memory Studies",
+      "school": "School of Culture, History and Language",
+      "schoolCode": "CHL",
+      "college": "ANU College of Asia and the Pacific",
+      "profileUrl": "https://researchportalplus.anu.edu.au/en/persons/12b205d4-d4fa-4c82-839e-0cc91b1dc7b9",
+      "email": "",
+      "office": "",
+      "linkedCourses": [],
+      "reviewMetrics": [
+        "Clarity",
+        "Support",
+        "Engagement"
+      ],
+      "tags": [
+        "chl",
+        "asia-pacific"
+      ]
+    },
+    {
+      "id": "yonatan-dinku",
+      "type": "academic",
+      "name": "Dr Yonatan Dinku",
+      "school": "Centre for Aboriginal Economic Policy Research",
+      "schoolCode": "CASS",
+      "college": "CASS",
+      "position": "Research Fellow, Centre for Aboriginal Economic Policy Research",
+      "focus": "Centre for Aboriginal Economic Policy Research",
+      "email": "Yonatan.Dinku@anu.edu.au",
+      "office": "Centre for Aboriginal Economic Policy Research",
+      "profileUrl": "https://researchportalplus.anu.edu.au/en/persons/yonatan-dinku",
+      "tags": [
+        "cass",
+        "centre for aboriginal economic p"
+      ],
+      "linkedCourses": [],
+      "reviewMetrics": [
+        "Clarity",
+        "Support",
+        "Engagement"
+      ]
+    },
+    {
+      "id": "yuan-gao",
+      "type": "academic",
+      "name": "Dr Yuan Gao",
+      "school": "Research School of Finance, Actuarial Studies and Statistics",
+      "schoolCode": "RSFAS",
+      "college": "CBE",
+      "position": "Associate Lecturer",
+      "focus": "Statistics",
+      "email": "See ANU profile",
+      "office": "Research School of Finance, Actuarial Studies and Statistics",
+      "profileUrl": "https://rsfas.anu.edu.au/people/yuan-gao",
+      "tags": [
+        "rsfas",
+        "statistics"
+      ],
+      "linkedCourses": [],
+      "reviewMetrics": [
+        "Clarity",
+        "Support",
+        "Engagement"
+      ]
+    },
+    {
+      "id": "yue-cai",
+      "type": "academic",
+      "name": "Dr Yue Cai",
+      "school": "Research School of Accounting",
+      "schoolCode": "RSA",
+      "college": "CBE",
+      "position": "Lecturer",
+      "focus": "Accounting",
+      "email": "See ANU profile",
+      "office": "Research School of Accounting",
+      "profileUrl": "https://rsa.anu.edu.au/people/yue-cai",
+      "tags": [
+        "rsa",
+        "accounting"
+      ],
+      "linkedCourses": [],
+      "reviewMetrics": [
+        "Clarity",
+        "Support",
+        "Engagement"
+      ]
+    },
+    {
+      "id": "yujie-zhu",
+      "type": "academic",
+      "name": "Dr Yujie Zhu",
+      "school": "Centre for Heritage and Museum Studies",
+      "schoolCode": "CASS",
+      "college": "CASS",
+      "position": "Associate Professor, Centre for Heritage and Museum Studies",
+      "focus": "Centre for Heritage and Museum Studies",
+      "email": "yujie.zhu@anu.edu.au",
+      "office": "Centre for Heritage and Museum Studies",
+      "profileUrl": "https://researchportalplus.anu.edu.au/en/persons/yujie-zhu",
+      "tags": [
+        "cass",
+        "centre for heritage and museum s"
+      ],
+      "linkedCourses": [],
+      "reviewMetrics": [
+        "Clarity",
+        "Support",
+        "Engagement"
+      ]
+    },
+    {
+      "id": "cap-chl-yun-zhou",
+      "type": "academic",
+      "name": "Dr Yun Zhou",
+      "position": "Lecturer",
+      "focus": "Christianity in East Asia Gender and Mission Studies Women's Periodicals in Republican China",
+      "school": "School of Culture, History and Language",
+      "schoolCode": "CHL",
+      "college": "ANU College of Asia and the Pacific",
+      "profileUrl": "https://researchportalplus.anu.edu.au/en/persons/yun-zhou",
+      "email": "",
+      "office": "",
+      "linkedCourses": [],
+      "reviewMetrics": [
+        "Clarity",
+        "Support",
+        "Engagement"
+      ],
+      "tags": [
+        "chl",
+        "asia-pacific"
+      ]
+    },
+    {
+      "id": "cap-chl-b4a447d9-06be-4bd4-820d-716c96bb4d66",
+      "type": "academic",
+      "name": "Dr Yuri Takahashi HISTORICAL",
+      "position": "Academic",
+      "focus": "STUDIES LANGUAGE STUDIES",
+      "school": "School of Culture, History and Language",
+      "schoolCode": "CHL",
+      "college": "ANU College of Asia and the Pacific",
+      "profileUrl": "https://researchportalplus.anu.edu.au/en/persons/b4a447d9-06be-4bd4-820d-716c96bb4d66",
+      "email": "",
+      "office": "",
+      "linkedCourses": [],
+      "reviewMetrics": [
+        "Clarity",
+        "Support",
+        "Engagement"
+      ],
+      "tags": [
+        "chl",
+        "asia-pacific"
+      ]
+    },
+    {
+      "id": "zhengdao-ye",
+      "type": "academic",
+      "name": "Dr Zhengdao Ye",
+      "school": "ANU College of Arts and Social Sciences",
+      "schoolCode": "CASS",
+      "college": "CASS",
+      "position": "Senior Lecturer in Linguistics, Linguistics & Applied Linguistics",
+      "focus": "ANU College of Arts and Social Sciences",
+      "email": "zhengdao.ye@anu.edu.au",
+      "office": "ANU College of Arts and Social Sciences",
+      "profileUrl": "https://researchportalplus.anu.edu.au/en/persons/zhengdao-ye",
+      "tags": [
+        "cass",
+        "anu college of arts and social s"
+      ],
+      "linkedCourses": [],
+      "reviewMetrics": [
+        "Clarity",
+        "Support",
+        "Engagement"
+      ]
+    },
+    {
+      "id": "cap-bell-cce0746f-6217-4827-8b29-327e81261f8a",
+      "type": "academic",
+      "name": "Dr Zoe Bell",
+      "position": "Academic",
+      "focus": "Asia-Pacific affairs",
+      "school": "Coral Bell School of Asia Pacific Affairs",
+      "schoolCode": "BELL",
+      "college": "ANU College of Asia and the Pacific",
+      "profileUrl": "https://researchportalplus.anu.edu.au/en/persons/cce0746f-6217-4827-8b29-327e81261f8a",
+      "email": "",
+      "office": "",
+      "linkedCourses": [],
+      "reviewMetrics": [
+        "Clarity",
+        "Support",
+        "Engagement"
+      ],
+      "tags": [
+        "bell",
+        "asia-pacific affairs"
+      ]
+    },
+    {
+      "id": "thiago-nascimento-da-silva",
+      "type": "academic",
+      "name": "Dr. Thiago N. da Silva",
+      "school": "School of Politics & International Relations",
+      "schoolCode": "CASS",
+      "college": "CASS",
+      "position": "Senior Lecturer, School of Politics & International Relations",
+      "focus": "Deputy Director, Australian Centre for Federalism",
+      "email": "Thiago.Silva@anu.edu.au",
+      "office": "School of Politics & International Relations",
+      "profileUrl": "https://researchportalplus.anu.edu.au/en/persons/thiago-nascimento-da-silva",
+      "tags": [
+        "cass",
+        "deputy director",
+        "australian centre for federalism"
+      ],
+      "linkedCourses": [],
+      "reviewMetrics": [
+        "Clarity",
+        "Support",
+        "Engagement"
+      ]
+    },
+    {
       "id": "elizabeth-curran",
       "type": "academic",
       "name": "Elizabeth Curran",
@@ -5288,6 +10342,490 @@ window.ANREVIEW_DATA = {
       "tags": [
         "law",
         "international human rights law a"
+      ],
+      "linkedCourses": [],
+      "reviewMetrics": [
+        "Clarity",
+        "Support",
+        "Engagement"
+      ]
+    },
+    {
+      "id": "cap-bell-6b36ef9e-0c65-4256-bba8-fe0adb6d0c4d",
+      "type": "academic",
+      "name": "EmPr Anthony Regan",
+      "position": "Professor",
+      "focus": "Department of Pacific Affairs, School of International, Political & Strategic Studies Pacific History (excl. New Zealand and Maori) Government and Politics of Asia and the Pacific Public Policy",
+      "school": "Coral Bell School of Asia Pacific Affairs",
+      "schoolCode": "BELL",
+      "college": "ANU College of Asia and the Pacific",
+      "profileUrl": "https://researchportalplus.anu.edu.au/en/persons/6b36ef9e-0c65-4256-bba8-fe0adb6d0c4d",
+      "email": "",
+      "office": "",
+      "linkedCourses": [],
+      "reviewMetrics": [
+        "Clarity",
+        "Support",
+        "Engagement"
+      ],
+      "tags": [
+        "bell",
+        "asia-pacific affairs"
+      ]
+    },
+    {
+      "id": "cap-bell-b722784a-4026-46bf-b63e-76cd47d83398",
+      "type": "academic",
+      "name": "EmPr David Horner Official Historian and",
+      "position": "Professor of Australian Defence History, Coral Bell School of Asia Pacific Affairs Australian History",
+      "focus": "(excl. Aboriginal and Torres Strait Islander History) Defence Studies Biography",
+      "school": "Coral Bell School of Asia Pacific Affairs",
+      "schoolCode": "BELL",
+      "college": "ANU College of Asia and the Pacific",
+      "profileUrl": "https://researchportalplus.anu.edu.au/en/persons/b722784a-4026-46bf-b63e-76cd47d83398",
+      "email": "",
+      "office": "",
+      "linkedCourses": [],
+      "reviewMetrics": [
+        "Clarity",
+        "Support",
+        "Engagement"
+      ],
+      "tags": [
+        "bell",
+        "asia-pacific affairs"
+      ]
+    },
+    {
+      "id": "cap-bell-ad37c32e-6927-4112-aa5f-cb9c480070e7",
+      "type": "academic",
+      "name": "EmPr Jonathan Unger",
+      "position": "Professor",
+      "focus": "Political & Social Change Department Social Stratification Cultural Revolution history Political and economic change",
+      "school": "Coral Bell School of Asia Pacific Affairs",
+      "schoolCode": "BELL",
+      "college": "ANU College of Asia and the Pacific",
+      "profileUrl": "https://researchportalplus.anu.edu.au/en/persons/ad37c32e-6927-4112-aa5f-cb9c480070e7",
+      "email": "",
+      "office": "",
+      "linkedCourses": [],
+      "reviewMetrics": [
+        "Clarity",
+        "Support",
+        "Engagement"
+      ],
+      "tags": [
+        "bell",
+        "asia-pacific affairs"
+      ]
+    },
+    {
+      "id": "cap-chl-2f83550c-69a4-467f-9748-d1ecfa7fda9c",
+      "type": "academic",
+      "name": "EmPr Ken George",
+      "position": "Professor of Anthropology",
+      "focus": "Asia and Pacific studies",
+      "school": "School of Culture, History and Language",
+      "schoolCode": "CHL",
+      "college": "ANU College of Asia and the Pacific",
+      "profileUrl": "https://researchportalplus.anu.edu.au/en/persons/2f83550c-69a4-467f-9748-d1ecfa7fda9c",
+      "email": "",
+      "office": "",
+      "linkedCourses": [],
+      "reviewMetrics": [
+        "Clarity",
+        "Support",
+        "Engagement"
+      ],
+      "tags": [
+        "chl",
+        "asia-pacific"
+      ]
+    },
+    {
+      "id": "cap-bell-322307c5-c43d-48b5-874e-8ae490b4154e",
+      "type": "academic",
+      "name": "EmPr Paul Dibb",
+      "position": "Academic",
+      "focus": "Asia-Pacific affairs",
+      "school": "Coral Bell School of Asia Pacific Affairs",
+      "schoolCode": "BELL",
+      "college": "ANU College of Asia and the Pacific",
+      "profileUrl": "https://researchportalplus.anu.edu.au/en/persons/322307c5-c43d-48b5-874e-8ae490b4154e",
+      "email": "",
+      "office": "",
+      "linkedCourses": [],
+      "reviewMetrics": [
+        "Clarity",
+        "Support",
+        "Engagement"
+      ],
+      "tags": [
+        "bell",
+        "asia-pacific affairs"
+      ]
+    },
+    {
+      "id": "cap-bell-77a4db69-c6ba-4d21-8c55-f5501bf297e9",
+      "type": "academic",
+      "name": "EmPr Richard Eves Senior",
+      "position": "Fellow",
+      "focus": "Department of Pacific Affairs Postcolonial Studies Race and Ethnic Relations Studies Of Pacific Peoples&Amp",
+      "school": "Coral Bell School of Asia Pacific Affairs",
+      "schoolCode": "BELL",
+      "college": "ANU College of Asia and the Pacific",
+      "profileUrl": "https://researchportalplus.anu.edu.au/en/persons/77a4db69-c6ba-4d21-8c55-f5501bf297e9",
+      "email": "",
+      "office": "",
+      "linkedCourses": [],
+      "reviewMetrics": [
+        "Clarity",
+        "Support",
+        "Engagement"
+      ],
+      "tags": [
+        "bell",
+        "asia-pacific affairs"
+      ]
+    },
+    {
+      "id": "cap-bell-730d02f2-4b6c-46a5-bfbf-eb54ed2450da",
+      "type": "academic",
+      "name": "EmPr Robert Cribb",
+      "position": "Professor",
+      "focus": "Department of Political and Social Change, Coral Bell School of Asia-Pacific Affairs Government and Politics of Asia and the Pacific Asian History HISTORICAL STUDIES",
+      "school": "Coral Bell School of Asia Pacific Affairs",
+      "schoolCode": "BELL",
+      "college": "ANU College of Asia and the Pacific",
+      "profileUrl": "https://researchportalplus.anu.edu.au/en/persons/730d02f2-4b6c-46a5-bfbf-eb54ed2450da",
+      "email": "",
+      "office": "",
+      "linkedCourses": [],
+      "reviewMetrics": [
+        "Clarity",
+        "Support",
+        "Engagement"
+      ],
+      "tags": [
+        "bell",
+        "asia-pacific affairs"
+      ]
+    },
+    {
+      "id": "cap-bell-a4da03fa-7a36-483f-b219-8525218ab4c7",
+      "type": "academic",
+      "name": "EmPr Sinclair Dinnen",
+      "position": "Associate Professor",
+      "focus": "Department of Pacific Affairs, Coral Bell School of Asia Pacific Affairs Law and Society Public Policy Police Administration, Procedures and Practice",
+      "school": "Coral Bell School of Asia Pacific Affairs",
+      "schoolCode": "BELL",
+      "college": "ANU College of Asia and the Pacific",
+      "profileUrl": "https://researchportalplus.anu.edu.au/en/persons/a4da03fa-7a36-483f-b219-8525218ab4c7",
+      "email": "",
+      "office": "",
+      "linkedCourses": [],
+      "reviewMetrics": [
+        "Clarity",
+        "Support",
+        "Engagement"
+      ],
+      "tags": [
+        "bell",
+        "asia-pacific affairs"
+      ]
+    },
+    {
+      "id": "cap-bell-e5aef5d7-8eb5-4784-90b3-b1a64391b309",
+      "type": "academic",
+      "name": "EmPr Tamara Jacka",
+      "position": "Professor",
+      "focus": "Department of Political & Social Change Gender Specific Studies Studies of Asian Society Anthropology of Development",
+      "school": "Coral Bell School of Asia Pacific Affairs",
+      "schoolCode": "BELL",
+      "college": "ANU College of Asia and the Pacific",
+      "profileUrl": "https://researchportalplus.anu.edu.au/en/persons/e5aef5d7-8eb5-4784-90b3-b1a64391b309",
+      "email": "",
+      "office": "",
+      "linkedCourses": [],
+      "reviewMetrics": [
+        "Clarity",
+        "Support",
+        "Engagement"
+      ],
+      "tags": [
+        "bell",
+        "asia-pacific affairs"
+      ]
+    },
+    {
+      "id": "adam.graycar",
+      "type": "academic",
+      "name": "Emeritus Professor Adam Graycar",
+      "school": "ANU College of Arts and Social Sciences",
+      "schoolCode": "CASS",
+      "college": "CASS",
+      "position": "Emeritus Professor, Transnational Research Institute on Corruption",
+      "focus": "ANU College of Arts and Social Sciences",
+      "email": "adam.graycar@adelaide.edu.au",
+      "office": "ANU College of Arts and Social Sciences",
+      "profileUrl": "https://researchers.adelaide.edu.au/profile/adam.graycar",
+      "tags": [
+        "cass",
+        "anu college of arts and social s"
+      ],
+      "linkedCourses": [],
+      "reviewMetrics": [
+        "Clarity",
+        "Support",
+        "Engagement"
+      ]
+    },
+    {
+      "id": "angela-woollacott",
+      "type": "academic",
+      "name": "Emeritus Professor Angela Woollacott",
+      "school": "School of History",
+      "schoolCode": "CASS",
+      "college": "CASS",
+      "position": "Manning Clark Professor of History, School of History",
+      "focus": "School of History",
+      "email": "angela.woollacott@anu.edu.au",
+      "office": "School of History",
+      "profileUrl": "https://researchportalplus.anu.edu.au/en/persons/angela-woollacott",
+      "tags": [
+        "cass",
+        "school of history"
+      ],
+      "linkedCourses": [],
+      "reviewMetrics": [
+        "Clarity",
+        "Support",
+        "Engagement"
+      ]
+    },
+    {
+      "id": "robert-goodin",
+      "type": "academic",
+      "name": "Emeritus Professor Bob Goodin",
+      "school": "Centre for Moral",
+      "schoolCode": "CASS",
+      "college": "CASS",
+      "position": "Emeritus Professor, Centre for Moral, Social and Political Theory",
+      "focus": "Centre for Moral",
+      "email": "Bob.Goodin@anu.edu.au",
+      "office": "Centre for Moral",
+      "profileUrl": "https://researchportalplus.anu.edu.au/en/persons/robert-goodin",
+      "tags": [
+        "cass",
+        "centre for moral"
+      ],
+      "linkedCourses": [],
+      "reviewMetrics": [
+        "Clarity",
+        "Support",
+        "Engagement"
+      ]
+    },
+    {
+      "id": "hunter-bh",
+      "type": "academic",
+      "name": "Emeritus Professor Boyd Hunter",
+      "school": "Centre for Social Research and Methods",
+      "schoolCode": "CASS",
+      "college": "CASS",
+      "position": "Emeritus Professor, Centre for Social Research and Methods",
+      "focus": "Centre for Social Research and Methods",
+      "email": "Boyd.Hunter@anu.edu.au",
+      "office": "Centre for Social Research and Methods",
+      "profileUrl": "https://researchers.anu.edu.au/researchers/hunter-bh",
+      "tags": [
+        "cass",
+        "centre for social research and m"
+      ],
+      "linkedCourses": [],
+      "reviewMetrics": [
+        "Clarity",
+        "Support",
+        "Engagement"
+      ]
+    },
+    {
+      "id": "bruce-chapman",
+      "type": "academic",
+      "name": "Emeritus Professor Bruce Chapman",
+      "school": "Research School of Economics",
+      "schoolCode": "RSE",
+      "college": "CBE",
+      "position": "Sir Roland Wilson Chair of Economics",
+      "focus": "Research School of Economics",
+      "email": "See ANU profile",
+      "office": "Research School of Economics",
+      "profileUrl": "https://rse.anu.edu.au/people/bruce-chapman",
+      "tags": [
+        "rse"
+      ],
+      "linkedCourses": [],
+      "reviewMetrics": [
+        "Clarity",
+        "Support",
+        "Engagement"
+      ]
+    },
+    {
+      "id": "ferris-dm",
+      "type": "academic",
+      "name": "Emeritus Professor Denise Ferris",
+      "school": "School of Art & Design",
+      "schoolCode": "CASS",
+      "college": "CASS",
+      "position": "Emeritus Professor, School of Art & Design",
+      "focus": "School of Art & Design",
+      "email": "See ANU profile",
+      "office": "School of Art & Design",
+      "profileUrl": "https://researchers.anu.edu.au/researchers/ferris-dm",
+      "tags": [
+        "cass",
+        "school of art & design"
+      ],
+      "linkedCourses": [],
+      "reviewMetrics": [
+        "Clarity",
+        "Support",
+        "Engagement"
+      ]
+    },
+    {
+      "id": "fiona-jenkins",
+      "type": "academic",
+      "name": "Emeritus Professor Fiona Jenkins",
+      "school": "Centre for Moral",
+      "schoolCode": "CASS",
+      "college": "CASS",
+      "position": "Emeritus Professor, Centre for Moral, Social and Political Theory",
+      "focus": "Centre for Moral",
+      "email": "fiona.jenkins@anu.edu.au",
+      "office": "Centre for Moral",
+      "profileUrl": "https://researchportalplus.anu.edu.au/en/persons/fiona-jenkins",
+      "tags": [
+        "cass",
+        "centre for moral"
+      ],
+      "linkedCourses": [],
+      "reviewMetrics": [
+        "Clarity",
+        "Support",
+        "Engagement"
+      ]
+    },
+    {
+      "id": "frank-jackson",
+      "type": "academic",
+      "name": "Emeritus Professor Frank Jackson",
+      "school": "Centre for Consciousness",
+      "schoolCode": "CASS",
+      "college": "CASS",
+      "position": "Emeritus Professor, Centre for Consciousness",
+      "focus": "Centre for Consciousness",
+      "email": "frank.jackson@anu.edu.au",
+      "office": "Centre for Consciousness",
+      "profileUrl": "https://researchportalplus.anu.edu.au/en/persons/frank-jackson",
+      "tags": [
+        "cass",
+        "centre for consciousness"
+      ],
+      "linkedCourses": [],
+      "reviewMetrics": [
+        "Clarity",
+        "Support",
+        "Engagement"
+      ]
+    },
+    {
+      "id": "john-minns",
+      "type": "academic",
+      "name": "Emeritus Professor John Minns",
+      "school": "School of Politics & International Relations",
+      "schoolCode": "CASS",
+      "college": "CASS",
+      "position": "Emeritus Professor, School of Politics & International Relations",
+      "focus": "School of Politics & International Relations",
+      "email": "John.Minns@anu.edu.au",
+      "office": "School of Politics & International Relations",
+      "profileUrl": "https://researchportalplus.anu.edu.au/en/persons/john-minns",
+      "tags": [
+        "cass",
+        "school of politics & internation"
+      ],
+      "linkedCourses": [],
+      "reviewMetrics": [
+        "Clarity",
+        "Support",
+        "Engagement"
+      ]
+    },
+    {
+      "id": "uhr-jg",
+      "type": "academic",
+      "name": "Emeritus Professor John Uhr",
+      "school": "The Australian Politics Studies Centre",
+      "schoolCode": "CASS",
+      "college": "CASS",
+      "position": "Academic, The Australian Politics Studies Centre",
+      "focus": "Emeritus Professor, School of Politics & International Relations",
+      "email": "John.Uhr@anu.edu.au",
+      "office": "The Australian Politics Studies Centre",
+      "profileUrl": "https://researchers.anu.edu.au/researchers/uhr-jg",
+      "tags": [
+        "cass",
+        "emeritus professor",
+        "school of politics & internation"
+      ],
+      "linkedCourses": [],
+      "reviewMetrics": [
+        "Clarity",
+        "Support",
+        "Engagement"
+      ]
+    },
+    {
+      "id": "marian-sawer",
+      "type": "academic",
+      "name": "Emeritus Professor Marian Sawer",
+      "school": "Australian Centre for Federalism",
+      "schoolCode": "CASS",
+      "college": "CASS",
+      "position": "Emeritus Professor, Australian Centre for Federalism",
+      "focus": "Emeritus Professor, Australian Centre for Federalism",
+      "email": "Marian.Sawer@anu.edu.au",
+      "office": "Australian Centre for Federalism",
+      "profileUrl": "https://researchportalplus.anu.edu.au/en/persons/marian-sawer",
+      "tags": [
+        "cass",
+        "emeritus professor",
+        "australian centre for federalism"
+      ],
+      "linkedCourses": [],
+      "reviewMetrics": [
+        "Clarity",
+        "Support",
+        "Engagement"
+      ]
+    },
+    {
+      "id": "tony_bennett",
+      "type": "academic",
+      "name": "Emeritus Professor Tony Bennett",
+      "school": "School of Sociology",
+      "schoolCode": "CASS",
+      "college": "CASS",
+      "position": "Emeritus Professor, School of Sociology",
+      "focus": "School of Sociology",
+      "email": "tony.bennett@anu.edu.au",
+      "office": "School of Sociology",
+      "profileUrl": "https://www.westernsydney.edu.au/ics/people/researchers/tony_bennett",
+      "tags": [
+        "cass",
+        "school of sociology"
       ],
       "linkedCourses": [],
       "reviewMetrics": [
@@ -5413,6 +10951,29 @@ window.ANREVIEW_DATA = {
       ]
     },
     {
+      "id": "filip-slaveski",
+      "type": "academic",
+      "name": "Filip Slaveski",
+      "school": "School of History",
+      "schoolCode": "CASS",
+      "college": "CASS",
+      "position": "Senior Lecturer, School of History",
+      "focus": "School of History",
+      "email": "Filip.Slaveski@anu.edu.au",
+      "office": "School of History",
+      "profileUrl": "https://researchportalplus.anu.edu.au/en/persons/filip-slaveski",
+      "tags": [
+        "cass",
+        "school of history"
+      ],
+      "linkedCourses": [],
+      "reviewMetrics": [
+        "Clarity",
+        "Support",
+        "Engagement"
+      ]
+    },
+    {
       "id": "fiona-wheeler",
       "type": "academic",
       "name": "Fiona Wheeler",
@@ -5450,6 +11011,75 @@ window.ANREVIEW_DATA = {
       "tags": [
         "law",
         "constitutional law international"
+      ],
+      "linkedCourses": [],
+      "reviewMetrics": [
+        "Clarity",
+        "Support",
+        "Engagement"
+      ]
+    },
+    {
+      "id": "cap-bell-0ae26cf6-842b-4f4f-88f5-9ce528150c52",
+      "type": "academic",
+      "name": "George Lawson Modernity Contentious",
+      "position": "Academic",
+      "focus": "politics Revolutions",
+      "school": "Coral Bell School of Asia Pacific Affairs",
+      "schoolCode": "BELL",
+      "college": "ANU College of Asia and the Pacific",
+      "profileUrl": "https://researchportalplus.anu.edu.au/en/persons/0ae26cf6-842b-4f4f-88f5-9ce528150c52",
+      "email": "",
+      "office": "",
+      "linkedCourses": [],
+      "reviewMetrics": [
+        "Clarity",
+        "Support",
+        "Engagement"
+      ],
+      "tags": [
+        "bell",
+        "asia-pacific affairs"
+      ]
+    },
+    {
+      "id": "riedelbauch-gw",
+      "type": "academic",
+      "name": "Gilbert Riedelbauch",
+      "school": "School of Art & Design",
+      "schoolCode": "CASS",
+      "college": "CASS",
+      "position": "Honorary Senior Lecturer, School of Art & Design",
+      "focus": "School of Art & Design",
+      "email": "gilbert.riedelbauch@gmail.com",
+      "office": "School of Art & Design",
+      "profileUrl": "https://researchers.anu.edu.au/researchers/riedelbauch-gw",
+      "tags": [
+        "cass",
+        "school of art & design"
+      ],
+      "linkedCourses": [],
+      "reviewMetrics": [
+        "Clarity",
+        "Support",
+        "Engagement"
+      ]
+    },
+    {
+      "id": "gillian-russell",
+      "type": "academic",
+      "name": "Gillian Russell",
+      "school": "School of Philosophy",
+      "schoolCode": "CASS",
+      "college": "CASS",
+      "position": "Academic Professor, School of Philosophy",
+      "focus": "School of Philosophy",
+      "email": "See ANU profile",
+      "office": "School of Philosophy",
+      "profileUrl": "https://researchportalplus.anu.edu.au/en/persons/gillian-russell",
+      "tags": [
+        "cass",
+        "school of philosophy"
       ],
       "linkedCourses": [],
       "reviewMetrics": [
@@ -5544,6 +11174,29 @@ window.ANREVIEW_DATA = {
         "law",
         "climate change & climate finance",
         "climate & health environmental l"
+      ],
+      "linkedCourses": [],
+      "reviewMetrics": [
+        "Clarity",
+        "Support",
+        "Engagement"
+      ]
+    },
+    {
+      "id": "janet-lee",
+      "type": "academic",
+      "name": "Honorary Associate Professor Janet Lee",
+      "school": "Research School of Accounting",
+      "schoolCode": "RSA",
+      "college": "CBE",
+      "position": "Honorary Associate Professor",
+      "focus": "Accounting",
+      "email": "See ANU profile",
+      "office": "Research School of Accounting",
+      "profileUrl": "https://rsa.anu.edu.au/people/janet-lee",
+      "tags": [
+        "rsa",
+        "accounting"
       ],
       "linkedCourses": [],
       "reviewMetrics": [
@@ -5787,6 +11440,52 @@ window.ANREVIEW_DATA = {
       ]
     },
     {
+      "id": "cap-chl-49288a92-265d-4773-96b5-c09983538a94",
+      "type": "academic",
+      "name": "John Minford",
+      "position": "Academic",
+      "focus": "Asia and Pacific studies",
+      "school": "School of Culture, History and Language",
+      "schoolCode": "CHL",
+      "college": "ANU College of Asia and the Pacific",
+      "profileUrl": "https://researchportalplus.anu.edu.au/en/persons/49288a92-265d-4773-96b5-c09983538a94",
+      "email": "",
+      "office": "",
+      "linkedCourses": [],
+      "reviewMetrics": [
+        "Clarity",
+        "Support",
+        "Engagement"
+      ],
+      "tags": [
+        "chl",
+        "asia-pacific"
+      ]
+    },
+    {
+      "id": "www.fishman.com.au",
+      "type": "academic",
+      "name": "John Reid",
+      "school": "ANU College of Arts and Social Sciences",
+      "schoolCode": "CASS",
+      "college": "CASS",
+      "position": "Emeritus Professor, Environment Studio",
+      "focus": "ANU College of Arts and Social Sciences",
+      "email": "John.Reid@anu.edu.au",
+      "office": "ANU College of Arts and Social Sciences",
+      "profileUrl": "http://www.fishman.com.au",
+      "tags": [
+        "cass",
+        "anu college of arts and social s"
+      ],
+      "linkedCourses": [],
+      "reviewMetrics": [
+        "Clarity",
+        "Support",
+        "Engagement"
+      ]
+    },
+    {
       "id": "jolyon-ford",
       "type": "academic",
       "name": "Jolyon Ford",
@@ -5973,6 +11672,29 @@ window.ANREVIEW_DATA = {
       ]
     },
     {
+      "id": "cap-chl-eae4f85e-7800-4ddf-abbe-01faf512c79d",
+      "type": "academic",
+      "name": "Larissa Schneider Main Group",
+      "position": "Academic",
+      "focus": "Metal Chemistry Palaeoclimatology INORGANIC CHEMISTRY",
+      "school": "School of Culture, History and Language",
+      "schoolCode": "CHL",
+      "college": "ANU College of Asia and the Pacific",
+      "profileUrl": "https://researchportalplus.anu.edu.au/en/persons/eae4f85e-7800-4ddf-abbe-01faf512c79d",
+      "email": "",
+      "office": "",
+      "linkedCourses": [],
+      "reviewMetrics": [
+        "Clarity",
+        "Support",
+        "Engagement"
+      ],
+      "tags": [
+        "chl",
+        "asia-pacific"
+      ]
+    },
+    {
       "id": "leighton-mcdonald",
       "type": "academic",
       "name": "Leighton McDonald",
@@ -5987,6 +11709,29 @@ window.ANREVIEW_DATA = {
       "tags": [
         "law",
         "administrative law constitutiona"
+      ],
+      "linkedCourses": [],
+      "reviewMetrics": [
+        "Clarity",
+        "Support",
+        "Engagement"
+      ]
+    },
+    {
+      "id": "lily-chen",
+      "type": "academic",
+      "name": "Lily Chen",
+      "school": "Research School of Accounting",
+      "schoolCode": "RSA",
+      "college": "CBE",
+      "position": "Associate Professor",
+      "focus": "Accounting",
+      "email": "See ANU profile",
+      "office": "Research School of Accounting",
+      "profileUrl": "https://rsa.anu.edu.au/people/lily-chen",
+      "tags": [
+        "rsa",
+        "accounting"
       ],
       "linkedCourses": [],
       "reviewMetrics": [
@@ -6034,6 +11779,29 @@ window.ANREVIEW_DATA = {
       "tags": [
         "law",
         "international human rights law a"
+      ],
+      "linkedCourses": [],
+      "reviewMetrics": [
+        "Clarity",
+        "Support",
+        "Engagement"
+      ]
+    },
+    {
+      "id": "lucy-irvine",
+      "type": "academic",
+      "name": "Lucy Irvine",
+      "school": "ANU College of Arts and Social Sciences",
+      "schoolCode": "CASS",
+      "college": "CASS",
+      "position": "Lecturer, Textiles",
+      "focus": "ANU College of Arts and Social Sciences",
+      "email": "lucy.irvine@anu.edu.au",
+      "office": "ANU College of Arts and Social Sciences",
+      "profileUrl": "https://researchportalplus.anu.edu.au/en/persons/lucy-irvine",
+      "tags": [
+        "cass",
+        "anu college of arts and social s"
       ],
       "linkedCourses": [],
       "reviewMetrics": [
@@ -6136,6 +11904,75 @@ window.ANREVIEW_DATA = {
       ]
     },
     {
+      "id": "masoud-afshari-mofrad",
+      "type": "academic",
+      "name": "Masoud Afshari Mofrad",
+      "school": "Research School of Management",
+      "schoolCode": "RSM",
+      "college": "CBE",
+      "position": "Postdoctoral Fellow",
+      "focus": "Research School of Management",
+      "email": "See ANU profile",
+      "office": "Research School of Management",
+      "profileUrl": "https://rsm.anu.edu.au/people/masoud-afshari-mofrad",
+      "tags": [
+        "rsm"
+      ],
+      "linkedCourses": [],
+      "reviewMetrics": [
+        "Clarity",
+        "Support",
+        "Engagement"
+      ]
+    },
+    {
+      "id": "matthew-barnes",
+      "type": "academic",
+      "name": "Matt Barnes",
+      "school": "School of Music",
+      "schoolCode": "CASS",
+      "college": "CASS",
+      "position": "Associate Lecturer, School of Music",
+      "focus": "Associate Lecturer, School of Music, Song to Studio Coordinator & Tutor, Community Music Centre",
+      "email": "matthew.barnes@anu.edu.au",
+      "office": "School of Music",
+      "profileUrl": "https://researchportalplus.anu.edu.au/en/persons/matthew-barnes",
+      "tags": [
+        "cass",
+        "associate lecturer",
+        "school of music",
+        "song to studio coordinator & tut"
+      ],
+      "linkedCourses": [],
+      "reviewMetrics": [
+        "Clarity",
+        "Support",
+        "Engagement"
+      ]
+    },
+    {
+      "id": "matthew-lilley",
+      "type": "academic",
+      "name": "Matthew Lilley",
+      "school": "Research School of Economics",
+      "schoolCode": "RSE",
+      "college": "CBE",
+      "position": "Lecturer",
+      "focus": "Research School of Economics",
+      "email": "See ANU profile",
+      "office": "Research School of Economics",
+      "profileUrl": "https://rse.anu.edu.au/people/matthew-lilley",
+      "tags": [
+        "rse"
+      ],
+      "linkedCourses": [],
+      "reviewMetrics": [
+        "Clarity",
+        "Support",
+        "Engagement"
+      ]
+    },
+    {
       "id": "matthew-neuhaus",
       "type": "academic",
       "name": "Matthew Neuhaus",
@@ -6228,6 +12065,29 @@ window.ANREVIEW_DATA = {
       ]
     },
     {
+      "id": "michaelmlegrand.com",
+      "type": "academic",
+      "name": "Michael Le Grand",
+      "school": "ANU College of Arts and Social Sciences",
+      "schoolCode": "CASS",
+      "college": "CASS",
+      "position": "Emeritus Fellow, Sculpture & Spatial Practice",
+      "focus": "ANU College of Arts and Social Sciences",
+      "email": "mlegrand@iinet.net.au",
+      "office": "ANU College of Arts and Social Sciences",
+      "profileUrl": "http://michaelmlegrand.com/",
+      "tags": [
+        "cass",
+        "anu college of arts and social s"
+      ],
+      "linkedCourses": [],
+      "reviewMetrics": [
+        "Clarity",
+        "Support",
+        "Engagement"
+      ]
+    },
+    {
       "id": "michelle-worthington",
       "type": "academic",
       "name": "Michelle Worthington",
@@ -6297,6 +12157,29 @@ window.ANREVIEW_DATA = {
       ]
     },
     {
+      "id": "mohammed-abdullah-al-mamun",
+      "type": "academic",
+      "name": "Mohammed Abdullah Al Mamun",
+      "school": "Research School of Finance, Actuarial Studies and Statistics",
+      "schoolCode": "RSFAS",
+      "college": "CBE",
+      "position": "Lecturer",
+      "focus": "Finance",
+      "email": "See ANU profile",
+      "office": "Research School of Finance, Actuarial Studies and Statistics",
+      "profileUrl": "https://rsfas.anu.edu.au/people/mohammed-abdullah-al-mamun",
+      "tags": [
+        "rsfas",
+        "finance"
+      ],
+      "linkedCourses": [],
+      "reviewMetrics": [
+        "Clarity",
+        "Support",
+        "Engagement"
+      ]
+    },
+    {
       "id": "molly-townes-obrien",
       "type": "academic",
       "name": "Molly Townes O'Brien",
@@ -6317,6 +12200,443 @@ window.ANREVIEW_DATA = {
         "Clarity",
         "Support",
         "Engagement"
+      ]
+    },
+    {
+      "id": "motohiro-kumagai",
+      "type": "academic",
+      "name": "Motohiro Kumagai",
+      "school": "Research School of Economics",
+      "schoolCode": "RSE",
+      "college": "CBE",
+      "position": "Lecturer",
+      "focus": "Research School of Economics",
+      "email": "See ANU profile",
+      "office": "Research School of Economics",
+      "profileUrl": "https://rse.anu.edu.au/people/motohiro-kumagai",
+      "tags": [
+        "rse"
+      ],
+      "linkedCourses": [],
+      "reviewMetrics": [
+        "Clarity",
+        "Support",
+        "Engagement"
+      ]
+    },
+    {
+      "id": "abhinav-mehta",
+      "type": "academic",
+      "name": "Mr Abhinav Mehta",
+      "school": "Research School of Finance, Actuarial Studies and Statistics",
+      "schoolCode": "RSFAS",
+      "college": "CBE",
+      "position": "Associate Lecturer",
+      "focus": "Research School of Finance, Actuarial Studies and Statistics",
+      "email": "See ANU profile",
+      "office": "Research School of Finance, Actuarial Studies and Statistics",
+      "profileUrl": "https://rsfas.anu.edu.au/people/abhinav-mehta",
+      "tags": [
+        "rsfas"
+      ],
+      "linkedCourses": [],
+      "reviewMetrics": [
+        "Clarity",
+        "Support",
+        "Engagement"
+      ]
+    },
+    {
+      "id": "brad-riley",
+      "type": "academic",
+      "name": "Mr Brad Riley",
+      "school": "Centre for Indigenous Policy Research",
+      "schoolCode": "CASS",
+      "college": "CASS",
+      "position": "Research Fellow, Centre for Indigenous Policy Research",
+      "focus": "Centre for Indigenous Policy Research",
+      "email": "Bradley.Riley@anu.edu.au",
+      "office": "Centre for Indigenous Policy Research",
+      "profileUrl": "https://researchportalplus.anu.edu.au/en/persons/brad-riley",
+      "tags": [
+        "cass",
+        "centre for indigenous policy res"
+      ],
+      "linkedCourses": [],
+      "reviewMetrics": [
+        "Clarity",
+        "Support",
+        "Engagement"
+      ]
+    },
+    {
+      "id": "cap-bell-19bf5b01-bc41-4a7c-abe6-287529b66eff",
+      "type": "academic",
+      "name": "Mr David Oakeshott",
+      "position": "Academic",
+      "focus": "Asia-Pacific affairs",
+      "school": "Coral Bell School of Asia Pacific Affairs",
+      "schoolCode": "BELL",
+      "college": "ANU College of Asia and the Pacific",
+      "profileUrl": "https://researchportalplus.anu.edu.au/en/persons/19bf5b01-bc41-4a7c-abe6-287529b66eff",
+      "email": "",
+      "office": "",
+      "linkedCourses": [],
+      "reviewMetrics": [
+        "Clarity",
+        "Support",
+        "Engagement"
+      ],
+      "tags": [
+        "bell",
+        "asia-pacific affairs"
+      ]
+    },
+    {
+      "id": "devin-clementi",
+      "type": "academic",
+      "name": "Mr Devin Clementi",
+      "school": "Research School of Management",
+      "schoolCode": "RSM",
+      "college": "CBE",
+      "position": "Lecturer",
+      "focus": "Business information systems, Project management",
+      "email": "See ANU profile",
+      "office": "Research School of Management",
+      "profileUrl": "https://rsm.anu.edu.au/people/devin-clementi",
+      "tags": [
+        "rsm",
+        "business information systems",
+        "project management"
+      ],
+      "linkedCourses": [],
+      "reviewMetrics": [
+        "Clarity",
+        "Support",
+        "Engagement"
+      ]
+    },
+    {
+      "id": "edward-russell",
+      "type": "academic",
+      "name": "Mr Edward Russell",
+      "school": "Research School of Management",
+      "schoolCode": "RSM",
+      "college": "CBE",
+      "position": "Senior Lecturer",
+      "focus": "Business information systems, International business, Management, Project management, Strategy",
+      "email": "See ANU profile",
+      "office": "Research School of Management",
+      "profileUrl": "https://rsm.anu.edu.au/people/edward-russell",
+      "tags": [
+        "rsm",
+        "business information systems",
+        "international business",
+        "management"
+      ],
+      "linkedCourses": [],
+      "reviewMetrics": [
+        "Clarity",
+        "Support",
+        "Engagement"
+      ]
+    },
+    {
+      "id": "cap-bell-50f6cf6e-9d50-4815-a46c-3a46cab4fbaf",
+      "type": "academic",
+      "name": "Mr Emirza Syailendra",
+      "position": "Research Fellow",
+      "focus": "Asia-Pacific affairs",
+      "school": "Coral Bell School of Asia Pacific Affairs",
+      "schoolCode": "BELL",
+      "college": "ANU College of Asia and the Pacific",
+      "profileUrl": "https://researchportalplus.anu.edu.au/en/persons/50f6cf6e-9d50-4815-a46c-3a46cab4fbaf",
+      "email": "",
+      "office": "",
+      "linkedCourses": [],
+      "reviewMetrics": [
+        "Clarity",
+        "Support",
+        "Engagement"
+      ],
+      "tags": [
+        "bell",
+        "asia-pacific affairs"
+      ]
+    },
+    {
+      "id": "ian-mcphee",
+      "type": "academic",
+      "name": "Mr Ian McPhee",
+      "school": "Research School of Accounting",
+      "schoolCode": "RSA",
+      "college": "CBE",
+      "position": "Distinguished Honorary Professor",
+      "focus": "Research School of Accounting",
+      "email": "See ANU profile",
+      "office": "Research School of Accounting",
+      "profileUrl": "https://rsa.anu.edu.au/people/ian-mcphee",
+      "tags": [
+        "rsa"
+      ],
+      "linkedCourses": [],
+      "reviewMetrics": [
+        "Clarity",
+        "Support",
+        "Engagement"
+      ]
+    },
+    {
+      "id": "cap-bell-73cb123a-d573-400b-a41e-1490a7ae3931",
+      "type": "academic",
+      "name": "Mr James Batley Distinguished Policy",
+      "position": "Fellow",
+      "focus": "International Relations Government and Politics of Asia and the Pacific",
+      "school": "Coral Bell School of Asia Pacific Affairs",
+      "schoolCode": "BELL",
+      "college": "ANU College of Asia and the Pacific",
+      "profileUrl": "https://researchportalplus.anu.edu.au/en/persons/73cb123a-d573-400b-a41e-1490a7ae3931",
+      "email": "",
+      "office": "",
+      "linkedCourses": [],
+      "reviewMetrics": [
+        "Clarity",
+        "Support",
+        "Engagement"
+      ],
+      "tags": [
+        "bell",
+        "asia-pacific affairs"
+      ]
+    },
+    {
+      "id": "kurt-stevens",
+      "type": "academic",
+      "name": "Mr Kurt Stevens",
+      "school": "Research School of Accounting",
+      "schoolCode": "RSA",
+      "college": "CBE",
+      "position": "Casual Lecturer",
+      "focus": "Accounting",
+      "email": "See ANU profile",
+      "office": "Research School of Accounting",
+      "profileUrl": "https://rsa.anu.edu.au/people/kurt-stevens",
+      "tags": [
+        "rsa",
+        "accounting"
+      ],
+      "linkedCourses": [],
+      "reviewMetrics": [
+        "Clarity",
+        "Support",
+        "Engagement"
+      ]
+    },
+    {
+      "id": "nguyenpaul-ngo",
+      "type": "academic",
+      "name": "Mr Nguyen(Paul) Ngo",
+      "school": "Research School of Management",
+      "schoolCode": "RSM",
+      "college": "CBE",
+      "position": "Associate Lecturer",
+      "focus": "Business & business administration, International business",
+      "email": "See ANU profile",
+      "office": "Research School of Management",
+      "profileUrl": "https://rsm.anu.edu.au/people/nguyenpaul-ngo",
+      "tags": [
+        "rsm",
+        "business & business administrati",
+        "international business"
+      ],
+      "linkedCourses": [],
+      "reviewMetrics": [
+        "Clarity",
+        "Support",
+        "Engagement"
+      ]
+    },
+    {
+      "id": "bonnie-allan",
+      "type": "academic",
+      "name": "Ms Bonnie Allan",
+      "school": "Research School of Accounting",
+      "schoolCode": "RSA",
+      "college": "CBE",
+      "position": "Casual Lecturer",
+      "focus": "Research School of Accounting",
+      "email": "See ANU profile",
+      "office": "Research School of Accounting",
+      "profileUrl": "https://rsa.anu.edu.au/people/bonnie-allan",
+      "tags": [
+        "rsa"
+      ],
+      "linkedCourses": [],
+      "reviewMetrics": [
+        "Clarity",
+        "Support",
+        "Engagement"
+      ]
+    },
+    {
+      "id": "cap-chl-7a34d040-496e-4f89-afea-b43f74e80b9a",
+      "type": "academic",
+      "name": "Ms Jenny Homerang",
+      "position": "Academic",
+      "focus": "Asia and Pacific studies",
+      "school": "School of Culture, History and Language",
+      "schoolCode": "CHL",
+      "college": "ANU College of Asia and the Pacific",
+      "profileUrl": "https://researchportalplus.anu.edu.au/en/persons/7a34d040-496e-4f89-afea-b43f74e80b9a",
+      "email": "",
+      "office": "",
+      "linkedCourses": [],
+      "reviewMetrics": [
+        "Clarity",
+        "Support",
+        "Engagement"
+      ],
+      "tags": [
+        "chl",
+        "asia-pacific"
+      ]
+    },
+    {
+      "id": "cap-chl-3c5f8a9e-ea0f-4253-b10e-fd1f5ca10ef6",
+      "type": "academic",
+      "name": "Ms Jeong Yoon Ku Associate",
+      "position": "Lecturer",
+      "focus": "FHEA",
+      "school": "School of Culture, History and Language",
+      "schoolCode": "CHL",
+      "college": "ANU College of Asia and the Pacific",
+      "profileUrl": "https://researchportalplus.anu.edu.au/en/persons/3c5f8a9e-ea0f-4253-b10e-fd1f5ca10ef6",
+      "email": "",
+      "office": "",
+      "linkedCourses": [],
+      "reviewMetrics": [
+        "Clarity",
+        "Support",
+        "Engagement"
+      ],
+      "tags": [
+        "chl",
+        "asia-pacific"
+      ]
+    },
+    {
+      "id": "leila-kouatly",
+      "type": "academic",
+      "name": "Ms Leila Kouatly",
+      "school": "Centre for Arab and Islamic Studies",
+      "schoolCode": "CASS",
+      "college": "CASS",
+      "position": "Lecturer in Arabic Language Pedagogy and Convenor of Arabic Language Program, Centre for Arab and Islamic Studies",
+      "focus": "Centre for Arab and Islamic Studies",
+      "email": "Leila.Kouatly@anu.edu.au",
+      "office": "Centre for Arab and Islamic Studies",
+      "profileUrl": "https://researchportalplus.anu.edu.au/en/persons/leila-kouatly",
+      "tags": [
+        "cass",
+        "centre for arab and islamic stud"
+      ],
+      "linkedCourses": [],
+      "reviewMetrics": [
+        "Clarity",
+        "Support",
+        "Engagement"
+      ]
+    },
+    {
+      "id": "minda-murray",
+      "type": "academic",
+      "name": "Ms Minda Murray",
+      "school": "Centre for Aboriginal Economic Policy Research",
+      "schoolCode": "CASS",
+      "college": "CASS",
+      "position": "First Nations Academic Associate, Centre for Aboriginal Economic Policy Research",
+      "focus": "Centre for Aboriginal Economic Policy Research",
+      "email": "minda.murray@anu.edu.au",
+      "office": "Centre for Aboriginal Economic Policy Research",
+      "profileUrl": "https://researchportalplus.anu.edu.au/en/persons/minda-murray",
+      "tags": [
+        "cass",
+        "centre for aboriginal economic p"
+      ],
+      "linkedCourses": [],
+      "reviewMetrics": [
+        "Clarity",
+        "Support",
+        "Engagement"
+      ]
+    },
+    {
+      "id": "faulkner-sxx",
+      "type": "academic",
+      "name": "Ms Samantha Faulkner",
+      "school": "Centre for Heritage and Museum Studies",
+      "schoolCode": "CASS",
+      "college": "CASS",
+      "position": "Visiting Fellow, Centre for Heritage and Museum Studies",
+      "focus": "Centre for Heritage and Museum Studies",
+      "email": "Samantha.Faulkner@anu.edu.au",
+      "office": "Centre for Heritage and Museum Studies",
+      "profileUrl": "https://researchers.anu.edu.au/researchers/faulkner-sxx",
+      "tags": [
+        "cass",
+        "centre for heritage and museum s"
+      ],
+      "linkedCourses": [],
+      "reviewMetrics": [
+        "Clarity",
+        "Support",
+        "Engagement"
+      ]
+    },
+    {
+      "id": "alistair-ott",
+      "type": "academic",
+      "name": "Mx Alistair Ott",
+      "school": "School of Sociology",
+      "schoolCode": "CASS",
+      "college": "CASS",
+      "position": "Indigenous Academic Associate, School of Sociology",
+      "focus": "School of Sociology",
+      "email": "Alistair.Ott@anu.edu.au",
+      "office": "School of Sociology",
+      "profileUrl": "https://researchportalplus.anu.edu.au/en/persons/alistair-ott",
+      "tags": [
+        "cass",
+        "school of sociology"
+      ],
+      "linkedCourses": [],
+      "reviewMetrics": [
+        "Clarity",
+        "Support",
+        "Engagement"
+      ]
+    },
+    {
+      "id": "cap-chl-815edeee-ce01-4270-9e3e-be3abfed59df",
+      "type": "academic",
+      "name": "Naomi Ogi",
+      "position": "Lecturer",
+      "focus": "LANGUAGE STUDIES LINGUISTICS",
+      "school": "School of Culture, History and Language",
+      "schoolCode": "CHL",
+      "college": "ANU College of Asia and the Pacific",
+      "profileUrl": "https://researchportalplus.anu.edu.au/en/persons/815edeee-ce01-4270-9e3e-be3abfed59df",
+      "email": "",
+      "office": "",
+      "linkedCourses": [],
+      "reviewMetrics": [
+        "Clarity",
+        "Support",
+        "Engagement"
+      ],
+      "tags": [
+        "chl",
+        "asia-pacific"
       ]
     },
     {
@@ -6343,6 +12663,29 @@ window.ANREVIEW_DATA = {
       ]
     },
     {
+      "id": "cap-chl-6f842677-e2f8-43ca-b6c2-820bdfc452f3",
+      "type": "academic",
+      "name": "Natasha Fijn Aboriginal and",
+      "position": "Academic",
+      "focus": "Torres Strait Islander Environmental Knowledge Conservation and Biodiversity Human-animal studies",
+      "school": "School of Culture, History and Language",
+      "schoolCode": "CHL",
+      "college": "ANU College of Asia and the Pacific",
+      "profileUrl": "https://researchportalplus.anu.edu.au/en/persons/6f842677-e2f8-43ca-b6c2-820bdfc452f3",
+      "email": "",
+      "office": "",
+      "linkedCourses": [],
+      "reviewMetrics": [
+        "Clarity",
+        "Support",
+        "Engagement"
+      ],
+      "tags": [
+        "chl",
+        "asia-pacific"
+      ]
+    },
+    {
       "id": "nicholas-seddon",
       "type": "academic",
       "name": "Nicholas Seddon",
@@ -6357,6 +12700,124 @@ window.ANREVIEW_DATA = {
       "tags": [
         "law",
         "private law"
+      ],
+      "linkedCourses": [],
+      "reviewMetrics": [
+        "Clarity",
+        "Support",
+        "Engagement"
+      ]
+    },
+    {
+      "id": "nick-wang",
+      "type": "academic",
+      "name": "Nick Wang",
+      "school": "Research School of Management",
+      "schoolCode": "RSM",
+      "college": "CBE",
+      "position": "Honorary Associate Professor",
+      "focus": "Entrepreneurship, Leadership, Management, Organisational behaviour",
+      "email": "See ANU profile",
+      "office": "Research School of Management",
+      "profileUrl": "https://rsm.anu.edu.au/people/nick-wang",
+      "tags": [
+        "rsm",
+        "entrepreneurship",
+        "leadership",
+        "management"
+      ],
+      "linkedCourses": [],
+      "reviewMetrics": [
+        "Clarity",
+        "Support",
+        "Engagement"
+      ]
+    },
+    {
+      "id": "ning-wang",
+      "type": "academic",
+      "name": "Ning Wang",
+      "school": "Research School of Finance, Actuarial Studies and Statistics",
+      "schoolCode": "RSFAS",
+      "college": "CBE",
+      "position": "Lecturer",
+      "focus": "Actuarial studies",
+      "email": "See ANU profile",
+      "office": "Research School of Finance, Actuarial Studies and Statistics",
+      "profileUrl": "https://rsfas.anu.edu.au/people/ning-wang",
+      "tags": [
+        "rsfas",
+        "actuarial studies"
+      ],
+      "linkedCourses": [],
+      "reviewMetrics": [
+        "Clarity",
+        "Support",
+        "Engagement"
+      ]
+    },
+    {
+      "id": "pat-barrett",
+      "type": "academic",
+      "name": "Pat Barrett",
+      "school": "Research School of Accounting",
+      "schoolCode": "RSA",
+      "college": "CBE",
+      "position": "Distinguished Honorary Professor &amp; Senior Fellow - ANCAAR",
+      "focus": "Accounting, Economics",
+      "email": "See ANU profile",
+      "office": "Research School of Accounting",
+      "profileUrl": "https://rsa.anu.edu.au/people/pat-barrett",
+      "tags": [
+        "rsa",
+        "accounting",
+        "economics"
+      ],
+      "linkedCourses": [],
+      "reviewMetrics": [
+        "Clarity",
+        "Support",
+        "Engagement"
+      ]
+    },
+    {
+      "id": "Patsypayne.com",
+      "type": "academic",
+      "name": "Patsy Payne",
+      "school": "ANU College of Arts and Social Sciences",
+      "schoolCode": "CASS",
+      "college": "CASS",
+      "position": "Emeritus Professor, Printmedia & Drawing",
+      "focus": "ANU College of Arts and Social Sciences",
+      "email": "Patsy.payne@anu.edu.au",
+      "office": "ANU College of Arts and Social Sciences",
+      "profileUrl": "http://Patsypayne.com",
+      "tags": [
+        "cass",
+        "anu college of arts and social s"
+      ],
+      "linkedCourses": [],
+      "reviewMetrics": [
+        "Clarity",
+        "Support",
+        "Engagement"
+      ]
+    },
+    {
+      "id": "paul-chen",
+      "type": "academic",
+      "name": "Paul Chen",
+      "school": "Research School of Economics",
+      "schoolCode": "RSE",
+      "college": "CBE",
+      "position": "Honorary Associate Professor",
+      "focus": "Economics",
+      "email": "See ANU profile",
+      "office": "Research School of Economics",
+      "profileUrl": "https://rse.anu.edu.au/people/paul-chen",
+      "tags": [
+        "rse",
+        "economics"
       ],
       "linkedCourses": [],
       "reviewMetrics": [
@@ -6529,5231 +12990,831 @@ window.ANREVIEW_DATA = {
       ]
     },
     {
-      "id": "r-ian-mcewin",
+      "id": "cap-bell-116cfc33-d2b6-413e-979c-5f51cf39d5a5",
       "type": "academic",
-      "name": "R. Ian McEwin",
-      "school": "ANU Law School",
-      "schoolCode": "LAW",
-      "college": "ANU Law School",
-      "position": "Honorary Professor",
-      "focus": "Private Law",
-      "email": "See ANU profile",
-      "office": "ANU Law School",
-      "profileUrl": "https://law.anu.edu.au/about/our-people/r-ian-mcewin",
-      "tags": [
-        "law",
-        "private law"
-      ],
+      "name": "Prof Andrew Stewart British",
+      "position": "Academic",
+      "focus": "and Commonwealth History Strategic Studies Military History",
+      "school": "Coral Bell School of Asia Pacific Affairs",
+      "schoolCode": "BELL",
+      "college": "ANU College of Asia and the Pacific",
+      "profileUrl": "https://researchportalplus.anu.edu.au/en/persons/116cfc33-d2b6-413e-979c-5f51cf39d5a5",
+      "email": "",
+      "office": "",
       "linkedCourses": [],
       "reviewMetrics": [
         "Clarity",
         "Support",
         "Engagement"
+      ],
+      "tags": [
+        "bell",
+        "asia-pacific affairs"
       ]
     },
     {
-      "id": "rebecca-monson",
+      "id": "cap-chl-93c2b7bb-3747-4f86-a1b3-f9c4e3a49697",
       "type": "academic",
-      "name": "Rebecca Monson",
-      "school": "ANU Law School",
-      "schoolCode": "LAW",
-      "college": "ANU Law School",
+      "name": "Prof Ari Heinrich",
+      "position": "Director",
+      "focus": "of the Gallery at the Australian Centre on China in the World Contemporary Visual Culture",
+      "school": "School of Culture, History and Language",
+      "schoolCode": "CHL",
+      "college": "ANU College of Asia and the Pacific",
+      "profileUrl": "https://researchportalplus.anu.edu.au/en/persons/93c2b7bb-3747-4f86-a1b3-f9c4e3a49697",
+      "email": "",
+      "office": "",
+      "linkedCourses": [],
+      "reviewMetrics": [
+        "Clarity",
+        "Support",
+        "Engagement"
+      ],
+      "tags": [
+        "chl",
+        "asia-pacific"
+      ]
+    },
+    {
+      "id": "cap-chl-046e1dbf-e871-4715-b1e2-aea86ad69d13",
+      "type": "academic",
+      "name": "Prof Assa Doron",
       "position": "Professor",
-      "focus": "Critical Legal Scholarship Environment, Climate & Health Gender, Sexuality & the Law",
-      "email": "See ANU profile",
-      "office": "ANU Law School",
-      "profileUrl": "https://law.anu.edu.au/about/our-people/rebecca-monson",
-      "tags": [
-        "law",
-        "critical legal scholarship envir",
-        "climate & health gender",
-        "sexuality & the law"
-      ],
+      "focus": "Anthropology & South Asia, (ARC Future Fellow 2012-2016) School of Culture, History & Language India Anthropology of Development Social and Cultural Anthropology",
+      "school": "School of Culture, History and Language",
+      "schoolCode": "CHL",
+      "college": "ANU College of Asia and the Pacific",
+      "profileUrl": "https://researchportalplus.anu.edu.au/en/persons/046e1dbf-e871-4715-b1e2-aea86ad69d13",
+      "email": "",
+      "office": "",
       "linkedCourses": [],
       "reviewMetrics": [
         "Clarity",
         "Support",
         "Engagement"
+      ],
+      "tags": [
+        "chl",
+        "asia-pacific"
       ]
     },
     {
-      "id": "rebekah-mcwhirter",
+      "id": "cap-bell-a0409014-780a-4b38-ae7c-269487383c0e",
       "type": "academic",
-      "name": "Rebekah McWhirter",
-      "school": "ANU Law School",
-      "schoolCode": "LAW",
-      "college": "ANU Law School",
-      "position": "Associate Professor",
-      "focus": "Australian Indigenous Rights Environment, Climate & Health Health Law & Ethics",
-      "email": "See ANU profile",
-      "office": "ANU Law School",
-      "profileUrl": "https://law.anu.edu.au/about/our-people/rebekah-mcwhirter",
-      "tags": [
-        "law",
-        "australian indigenous rights env",
-        "climate & health health law & et"
-      ],
+      "name": "Prof Bina D'Costa International",
+      "position": "Academic",
+      "focus": "Relations Government and Politics of Asia and the Pacific POLITICAL SCIENCE Political Science not elsewhere classified",
+      "school": "Coral Bell School of Asia Pacific Affairs",
+      "schoolCode": "BELL",
+      "college": "ANU College of Asia and the Pacific",
+      "profileUrl": "https://researchportalplus.anu.edu.au/en/persons/a0409014-780a-4b38-ae7c-269487383c0e",
+      "email": "",
+      "office": "",
       "linkedCourses": [],
       "reviewMetrics": [
         "Clarity",
         "Support",
         "Engagement"
+      ],
+      "tags": [
+        "bell",
+        "asia-pacific affairs"
       ]
     },
     {
-      "id": "richard-chisholm",
+      "id": "cap-bell-8f66c2e6-0d5b-4a97-af87-fabde03d9848",
       "type": "academic",
-      "name": "Richard Chisholm",
-      "school": "ANU Law School",
-      "schoolCode": "LAW",
-      "college": "ANU Law School",
-      "position": "Honorary Professor",
-      "focus": "Courts & Tribunals",
-      "email": "See ANU profile",
-      "office": "ANU Law School",
-      "profileUrl": "https://law.anu.edu.au/about/our-people/richard-chisholm",
-      "tags": [
-        "law",
-        "courts & tribunals"
-      ],
+      "name": "Prof Brendan Taylor",
+      "position": "Professor of Strategic Studies and Head, Strategic and Defence Studies Centre, Coral Bell School of Asia Pacific Affairs International Relat",
+      "focus": "Asia-Pacific affairs",
+      "school": "Coral Bell School of Asia Pacific Affairs",
+      "schoolCode": "BELL",
+      "college": "ANU College of Asia and the Pacific",
+      "profileUrl": "https://researchportalplus.anu.edu.au/en/persons/8f66c2e6-0d5b-4a97-af87-fabde03d9848",
+      "email": "",
+      "office": "",
       "linkedCourses": [],
       "reviewMetrics": [
         "Clarity",
         "Support",
         "Engagement"
+      ],
+      "tags": [
+        "bell",
+        "asia-pacific affairs"
       ]
     },
     {
-      "id": "richard-refshauge",
+      "id": "cap-bell-eb7ff54d-7ee6-4e9e-b7c7-3729e8e1ae86",
       "type": "academic",
-      "name": "Richard Refshauge",
-      "school": "ANU Law School",
-      "schoolCode": "LAW",
-      "college": "ANU Law School",
-      "position": "Honorary Professor",
-      "focus": "Private Law",
-      "email": "See ANU profile",
-      "office": "ANU Law School",
-      "profileUrl": "https://law.anu.edu.au/about/our-people/richard-refshauge",
-      "tags": [
-        "law",
-        "private law"
-      ],
+      "name": "Prof Cian O'Driscoll",
+      "position": "Academic",
+      "focus": "Asia-Pacific affairs",
+      "school": "Coral Bell School of Asia Pacific Affairs",
+      "schoolCode": "BELL",
+      "college": "ANU College of Asia and the Pacific",
+      "profileUrl": "https://researchportalplus.anu.edu.au/en/persons/eb7ff54d-7ee6-4e9e-b7c7-3729e8e1ae86",
+      "email": "",
+      "office": "",
       "linkedCourses": [],
       "reviewMetrics": [
         "Clarity",
         "Support",
         "Engagement"
+      ],
+      "tags": [
+        "bell",
+        "asia-pacific affairs"
       ]
     },
     {
-      "id": "richard-rowe",
+      "id": "cap-bell-f7d093e4-9c65-4772-9f79-3b84a19bcc69",
       "type": "academic",
-      "name": "Richard Rowe",
-      "school": "ANU Law School",
-      "schoolCode": "LAW",
-      "college": "ANU Law School",
-      "position": "Honorary Professor",
-      "focus": "International Law",
-      "email": "See ANU profile",
-      "office": "ANU Law School",
-      "profileUrl": "https://law.anu.edu.au/about/our-people/richard-rowe",
-      "tags": [
-        "law",
-        "international law"
-      ],
+      "name": "Prof Edward Aspinall",
+      "position": "Professor of Politics, Department of Political & Social Change, Coral Bell School of Asia Pacific Affairs Government and Politics of Asia an",
+      "focus": "Asia-Pacific affairs",
+      "school": "Coral Bell School of Asia Pacific Affairs",
+      "schoolCode": "BELL",
+      "college": "ANU College of Asia and the Pacific",
+      "profileUrl": "https://researchportalplus.anu.edu.au/en/persons/f7d093e4-9c65-4772-9f79-3b84a19bcc69",
+      "email": "",
+      "office": "",
       "linkedCourses": [],
       "reviewMetrics": [
         "Clarity",
         "Support",
         "Engagement"
+      ],
+      "tags": [
+        "bell",
+        "asia-pacific affairs"
       ]
     },
     {
-      "id": "robert-french",
+      "id": "cap-bell-b404b640-f4fa-4108-a033-3ec34e9e725f",
       "type": "academic",
-      "name": "Robert French",
-      "school": "ANU Law School",
-      "schoolCode": "LAW",
-      "college": "ANU Law School",
-      "position": "Distinguished Professor",
-      "focus": "Public Law",
-      "email": "See ANU profile",
-      "office": "ANU Law School",
-      "profileUrl": "https://law.anu.edu.au/about/our-people/robert-french",
-      "tags": [
-        "law",
-        "public law"
-      ],
+      "name": "Prof Evelyn Goh Shedden",
+      "position": "Professor of Strategic Policy Studies Regional Security Order in East Asia U",
+      "focus": ".S.-China relations and diplomatic history Environmental Security",
+      "school": "Coral Bell School of Asia Pacific Affairs",
+      "schoolCode": "BELL",
+      "college": "ANU College of Asia and the Pacific",
+      "profileUrl": "https://researchportalplus.anu.edu.au/en/persons/b404b640-f4fa-4108-a033-3ec34e9e725f",
+      "email": "",
+      "office": "",
       "linkedCourses": [],
       "reviewMetrics": [
         "Clarity",
         "Support",
         "Engagement"
-      ]
-    },
-    {
-      "id": "robert-mclaughlin",
-      "type": "academic",
-      "name": "Robert McLaughlin",
-      "school": "ANU Law School",
-      "schoolCode": "LAW",
-      "college": "ANU Law School",
-      "position": "Honorary Professor",
-      "focus": "International Law",
-      "email": "See ANU profile",
-      "office": "ANU Law School",
-      "profileUrl": "https://law.anu.edu.au/about/our-people/robert-mclaughlin",
-      "tags": [
-        "law",
-        "international law"
       ],
-      "linkedCourses": [],
-      "reviewMetrics": [
-        "Clarity",
-        "Support",
-        "Engagement"
-      ]
-    },
-    {
-      "id": "robin-creyke",
-      "type": "academic",
-      "name": "Robin Creyke",
-      "school": "ANU Law School",
-      "schoolCode": "LAW",
-      "college": "ANU Law School",
-      "position": "Emerita Professor",
-      "focus": "Administrative Law Law & Development",
-      "email": "See ANU profile",
-      "office": "ANU Law School",
-      "profileUrl": "https://law.anu.edu.au/about/our-people/robin-creyke",
       "tags": [
-        "law",
-        "administrative law law & develop"
-      ],
-      "linkedCourses": [],
-      "reviewMetrics": [
-        "Clarity",
-        "Support",
-        "Engagement"
+        "bell",
+        "asia-pacific affairs"
       ]
     },
     {
-      "id": "ron-levy",
+      "id": "cap-chl-ef4725f0-4061-4ff9-96ea-da9ffec0a95e",
       "type": "academic",
-      "name": "Ron Levy",
-      "school": "ANU Law School",
-      "schoolCode": "LAW",
-      "college": "ANU Law School",
+      "name": "Prof Geoffrey Clark",
       "position": "Professor",
-      "focus": "Comparative Law Constitutional Law International Human Rights Law",
-      "email": "See ANU profile",
-      "office": "ANU Law School",
-      "profileUrl": "https://law.anu.edu.au/about/our-people/ron-levy",
-      "tags": [
-        "law",
-        "comparative law constitutional l"
-      ],
+      "focus": "Lidar Isotope Geochemistry Warfare",
+      "school": "School of Culture, History and Language",
+      "schoolCode": "CHL",
+      "college": "ANU College of Asia and the Pacific",
+      "profileUrl": "https://researchportalplus.anu.edu.au/en/persons/ef4725f0-4061-4ff9-96ea-da9ffec0a95e",
+      "email": "",
+      "office": "",
       "linkedCourses": [],
       "reviewMetrics": [
         "Clarity",
         "Support",
         "Engagement"
+      ],
+      "tags": [
+        "chl",
+        "asia-pacific"
       ]
     },
     {
-      "id": "ruoying-chen",
+      "id": "cap-chl-5ce2b4e9-a257-4288-be4c-2f743253115f",
       "type": "academic",
-      "name": "Ruoying Chen",
-      "school": "ANU Law School",
-      "schoolCode": "LAW",
-      "college": "ANU Law School",
-      "position": "Senior Lecturer",
-      "focus": "Administrative Law Asian Law Commercial and Corporate Law",
-      "email": "See ANU profile",
-      "office": "ANU Law School",
-      "profileUrl": "https://law.anu.edu.au/about/our-people/ruoying-chen",
-      "tags": [
-        "law",
-        "administrative law asian law com"
-      ],
+      "name": "Prof Inger Mewburn",
+      "position": "Director",
+      "focus": "of Researcher Development",
+      "school": "School of Culture, History and Language",
+      "schoolCode": "CHL",
+      "college": "ANU College of Asia and the Pacific",
+      "profileUrl": "https://researchportalplus.anu.edu.au/en/persons/5ce2b4e9-a257-4288-be4c-2f743253115f",
+      "email": "",
+      "office": "",
       "linkedCourses": [],
       "reviewMetrics": [
         "Clarity",
         "Support",
         "Engagement"
-      ]
-    },
-    {
-      "id": "sarah-heathcote",
-      "type": "academic",
-      "name": "Sarah Heathcote",
-      "school": "ANU Law School",
-      "schoolCode": "LAW",
-      "college": "ANU Law School",
-      "position": "Honorary Associate Professor",
-      "focus": "International Law",
-      "email": "See ANU profile",
-      "office": "ANU Law School",
-      "profileUrl": "https://law.anu.edu.au/about/our-people/sarah-heathcote",
-      "tags": [
-        "law",
-        "international law"
       ],
-      "linkedCourses": [],
-      "reviewMetrics": [
-        "Clarity",
-        "Support",
-        "Engagement"
-      ]
-    },
-    {
-      "id": "saule-burkitbayeva",
-      "type": "academic",
-      "name": "Saule Burkitbayeva",
-      "school": "ANU Law School",
-      "schoolCode": "LAW",
-      "college": "ANU Law School",
-      "position": "Senior Lecturer",
-      "focus": "Climate Change & Climate Finance Environmental Law International Economic Law",
-      "email": "See ANU profile",
-      "office": "ANU Law School",
-      "profileUrl": "https://law.anu.edu.au/about/our-people/saule-burkitbayeva",
       "tags": [
-        "law",
-        "climate change & climate finance"
-      ],
-      "linkedCourses": [],
-      "reviewMetrics": [
-        "Clarity",
-        "Support",
-        "Engagement"
+        "chl",
+        "asia-pacific"
       ]
     },
     {
-      "id": "scott-chamberlain",
+      "id": "cap-bell-59fa02c1-b0e0-4a93-991e-5efbb10a2740",
       "type": "academic",
-      "name": "Scott Chamberlain",
-      "school": "ANU Law School",
-      "schoolCode": "LAW",
-      "college": "ANU Law School",
-      "position": "Entrepreneurial Fellow",
-      "focus": "Law & Technology",
-      "email": "See ANU profile",
-      "office": "ANU Law School",
-      "profileUrl": "https://law.anu.edu.au/about/our-people/scott-chamberlain",
-      "tags": [
-        "law",
-        "law & technology"
-      ],
-      "linkedCourses": [],
-      "reviewMetrics": [
-        "Clarity",
-        "Support",
-        "Engagement"
-      ]
-    },
-    {
-      "id": "solene-rowan",
-      "type": "academic",
-      "name": "Solene Rowan",
-      "school": "ANU Law School",
-      "schoolCode": "LAW",
-      "college": "ANU Law School",
-      "position": "Honorary Professor",
-      "focus": "Private Law",
-      "email": "See ANU profile",
-      "office": "ANU Law School",
-      "profileUrl": "https://law.anu.edu.au/about/our-people/solene-rowan",
-      "tags": [
-        "law",
-        "private law"
-      ],
-      "linkedCourses": [],
-      "reviewMetrics": [
-        "Clarity",
-        "Support",
-        "Engagement"
-      ]
-    },
-    {
-      "id": "stephen-bottomley",
-      "type": "academic",
-      "name": "Stephen Bottomley",
-      "school": "ANU Law School",
-      "schoolCode": "LAW",
-      "college": "ANU Law School",
-      "position": "Emeritus Professor",
-      "focus": "Law & Society Legal Theory Private Law",
-      "email": "See ANU profile",
-      "office": "ANU Law School",
-      "profileUrl": "https://law.anu.edu.au/about/our-people/stephen-bottomley",
-      "tags": [
-        "law",
-        "law & society legal theory priva"
-      ],
-      "linkedCourses": [],
-      "reviewMetrics": [
-        "Clarity",
-        "Support",
-        "Engagement"
-      ]
-    },
-    {
-      "id": "stephen-thomson",
-      "type": "academic",
-      "name": "Stephen Thomson",
-      "school": "ANU Law School",
-      "schoolCode": "LAW",
-      "college": "ANU Law School",
-      "position": "Associate Professor",
-      "focus": "Administrative Law Constitutional Law Health, Law and Bioethics",
-      "email": "See ANU profile",
-      "office": "ANU Law School",
-      "profileUrl": "https://law.anu.edu.au/about/our-people/stephen-thomson",
-      "tags": [
-        "law",
-        "administrative law constitutiona",
-        "law and bioethics"
-      ],
-      "linkedCourses": [],
-      "reviewMetrics": [
-        "Clarity",
-        "Support",
-        "Engagement"
-      ]
-    },
-    {
-      "id": "susan-bartie",
-      "type": "academic",
-      "name": "Susan Bartie",
-      "school": "ANU Law School",
-      "schoolCode": "LAW",
-      "college": "ANU Law School",
-      "position": "Senior Lecturer",
-      "focus": "Comparative Law Environment, Climate & Health Environmental Law",
-      "email": "See ANU profile",
-      "office": "ANU Law School",
-      "profileUrl": "https://law.anu.edu.au/about/our-people/susan-bartie",
-      "tags": [
-        "law",
-        "comparative law environment",
-        "climate & health environmental l"
-      ],
-      "linkedCourses": [],
-      "reviewMetrics": [
-        "Clarity",
-        "Support",
-        "Engagement"
-      ]
-    },
-    {
-      "id": "tim-bonyhady",
-      "type": "academic",
-      "name": "Tim Bonyhady",
-      "school": "ANU Law School",
-      "schoolCode": "LAW",
-      "college": "ANU Law School",
-      "position": "Emeritus Professor",
-      "focus": "Environmental Law Law & Migration",
-      "email": "See ANU profile",
-      "office": "ANU Law School",
-      "profileUrl": "https://law.anu.edu.au/about/our-people/tim-bonyhady",
-      "tags": [
-        "law",
-        "environmental law law & migratio"
-      ],
-      "linkedCourses": [],
-      "reviewMetrics": [
-        "Clarity",
-        "Support",
-        "Engagement"
-      ]
-    },
-    {
-      "id": "tony-foley",
-      "type": "academic",
-      "name": "Tony Foley",
-      "school": "ANU Law School",
-      "schoolCode": "LAW",
-      "college": "ANU Law School",
-      "position": "Emeritus Professor",
-      "focus": "The Legal Profession",
-      "email": "See ANU profile",
-      "office": "ANU Law School",
-      "profileUrl": "https://law.anu.edu.au/about/our-people/tony-foley",
-      "tags": [
-        "law",
-        "the legal profession"
-      ],
-      "linkedCourses": [],
-      "reviewMetrics": [
-        "Clarity",
-        "Support",
-        "Engagement"
-      ]
-    },
-    {
-      "id": "vivien-holmes",
-      "type": "academic",
-      "name": "Vivien Holmes",
-      "school": "ANU Law School",
-      "schoolCode": "LAW",
-      "college": "ANU Law School",
+      "name": "Prof James Fox",
       "position": "Professor",
-      "focus": "Environment, Climate & Health Government Lawyers Legal Education",
-      "email": "See ANU profile",
-      "office": "ANU Law School",
-      "profileUrl": "https://law.anu.edu.au/about/our-people/vivien-holmes",
-      "tags": [
-        "law",
-        "environment",
-        "climate & health government lawy"
-      ],
+      "focus": "State, Society and Goverance, College of Asia and the Pacific Studies Of Pacific Peoples' #039",
+      "school": "Coral Bell School of Asia Pacific Affairs",
+      "schoolCode": "BELL",
+      "college": "ANU College of Asia and the Pacific",
+      "profileUrl": "https://researchportalplus.anu.edu.au/en/persons/59fa02c1-b0e0-4a93-991e-5efbb10a2740",
+      "email": "",
+      "office": "",
       "linkedCourses": [],
       "reviewMetrics": [
         "Clarity",
         "Support",
         "Engagement"
+      ],
+      "tags": [
+        "bell",
+        "asia-pacific affairs"
       ]
     },
     {
-      "id": "wanshu-cong",
+      "id": "cap-bell-ae3a4447-69b9-4bb6-8c29-6e57e5845ffd",
       "type": "academic",
-      "name": "Wanshu Cong",
-      "school": "ANU Law School",
-      "schoolCode": "LAW",
-      "college": "ANU Law School",
-      "position": "Lecturer",
-      "focus": "Critical Legal Scholarship International Institution International Law",
-      "email": "See ANU profile",
-      "office": "ANU Law School",
-      "profileUrl": "https://law.anu.edu.au/about/our-people/wanshu-cong",
-      "tags": [
-        "law",
-        "critical legal scholarship inter"
-      ],
+      "name": "Prof Jochen Prantl Strategic",
+      "position": "Academic",
+      "focus": "and Defence Studies Centre POLITICAL SCIENCE International Relations",
+      "school": "Coral Bell School of Asia Pacific Affairs",
+      "schoolCode": "BELL",
+      "college": "ANU College of Asia and the Pacific",
+      "profileUrl": "https://researchportalplus.anu.edu.au/en/persons/ae3a4447-69b9-4bb6-8c29-6e57e5845ffd",
+      "email": "",
+      "office": "",
       "linkedCourses": [],
       "reviewMetrics": [
         "Clarity",
         "Support",
         "Engagement"
+      ],
+      "tags": [
+        "bell",
+        "asia-pacific affairs"
       ]
     },
     {
-      "id": "wayne-morgan",
+      "id": "cap-bell-c889292d-0d8c-48e8-94c0-1e3dfdd3e4b1",
       "type": "academic",
-      "name": "Wayne Morgan",
-      "school": "ANU Law School",
-      "schoolCode": "LAW",
-      "college": "ANU Law School",
-      "position": "Associate Professor",
-      "focus": "Gender, Sexuality & the Law International Human Rights Law International Law",
-      "email": "See ANU profile",
-      "office": "ANU Law School",
-      "profileUrl": "https://law.anu.edu.au/about/our-people/wayne-morgan",
-      "tags": [
-        "law",
-        "gender",
-        "sexuality & the law internationa"
-      ],
+      "name": "Prof John Blaxland",
+      "position": "Professor of International Security & Intelligence Studies, Strategic and Defence Studies Centre",
+      "focus": "Asia-Pacific affairs",
+      "school": "Coral Bell School of Asia Pacific Affairs",
+      "schoolCode": "BELL",
+      "college": "ANU College of Asia and the Pacific",
+      "profileUrl": "https://researchportalplus.anu.edu.au/en/persons/c889292d-0d8c-48e8-94c0-1e3dfdd3e4b1",
+      "email": "",
+      "office": "",
       "linkedCourses": [],
       "reviewMetrics": [
         "Clarity",
         "Support",
         "Engagement"
-      ]
-    },
-    {
-      "id": "wenting-cheng",
-      "type": "academic",
-      "name": "Wenting Cheng",
-      "school": "ANU Law School",
-      "schoolCode": "LAW",
-      "college": "ANU Law School",
-      "position": "Grand Challenges Fellow",
-      "focus": "Environmental Law International Law",
-      "email": "See ANU profile",
-      "office": "ANU Law School",
-      "profileUrl": "https://law.anu.edu.au/about/our-people/wenting-cheng",
-      "tags": [
-        "law",
-        "environmental law international "
       ],
-      "linkedCourses": [],
-      "reviewMetrics": [
-        "Clarity",
-        "Support",
-        "Engagement"
+      "tags": [
+        "bell",
+        "asia-pacific affairs"
       ]
     },
     {
-      "id": "will-bateman",
+      "id": "cap-bell-8e19d632-90ee-43a0-b85e-06afc96c2f2b",
       "type": "academic",
-      "name": "Will Bateman",
-      "school": "ANU Law School",
-      "schoolCode": "LAW",
-      "college": "ANU Law School",
+      "name": "Prof Julien Barbara",
       "position": "Professor",
-      "focus": "Administrative Law Comparative Public Law Constitutional Law",
-      "email": "See ANU profile",
-      "office": "ANU Law School",
-      "profileUrl": "https://law.anu.edu.au/about/our-people/will-bateman",
-      "tags": [
-        "law",
-        "administrative law comparative p"
-      ],
+      "focus": "Government and Politics of Asia and the Pacific Public Policy",
+      "school": "Coral Bell School of Asia Pacific Affairs",
+      "schoolCode": "BELL",
+      "college": "ANU College of Asia and the Pacific",
+      "profileUrl": "https://researchportalplus.anu.edu.au/en/persons/8e19d632-90ee-43a0-b85e-06afc96c2f2b",
+      "email": "",
+      "office": "",
       "linkedCourses": [],
       "reviewMetrics": [
         "Clarity",
         "Support",
         "Engagement"
-      ]
-    },
-    {
-      "id": "about",
-      "type": "academic",
-      "name": "Alia Parker",
-      "school": "School of Art & Design",
-      "schoolCode": "CASS",
-      "college": "CASS",
-      "position": "Lecturer, School of Art & Design",
-      "focus": "School of Art & Design",
-      "email": "Alia.Parker@anu.edu.au",
-      "office": "School of Art & Design",
-      "profileUrl": "https://www.aliajaneparker.com/about",
-      "tags": [
-        "cass",
-        "school of art & design"
       ],
-      "linkedCourses": [],
-      "reviewMetrics": [
-        "Clarity",
-        "Support",
-        "Engagement"
-      ]
-    },
-    {
-      "id": "ashley-eriksmoen",
-      "type": "academic",
-      "name": "Ashley Eriksmoen",
-      "school": "ANU College of Arts and Social Sciences",
-      "schoolCode": "CASS",
-      "college": "CASS",
-      "position": "Senior Lecturer, Furniture",
-      "focus": "ANU College of Arts and Social Sciences",
-      "email": "ashley.eriksmoen@anu.edu.au",
-      "office": "ANU College of Arts and Social Sciences",
-      "profileUrl": "https://researchportalplus.anu.edu.au/en/persons/ashley-eriksmoen",
       "tags": [
-        "cass",
-        "anu college of arts and social s"
-      ],
-      "linkedCourses": [],
-      "reviewMetrics": [
-        "Clarity",
-        "Support",
-        "Engagement"
+        "bell",
+        "asia-pacific affairs"
       ]
     },
     {
-      "id": "alastair-greig",
+      "id": "cap-chl-54923d4e-c392-4900-b505-db36a8524f1a",
       "type": "academic",
-      "name": "Associate Professor Alastair Greig",
-      "school": "School of Sociology",
-      "schoolCode": "CASS",
-      "college": "CASS",
-      "position": "Emeritus Fellow, School of Sociology",
-      "focus": "School of Sociology",
-      "email": "alastair.greig@anu.edu.au",
-      "office": "School of Sociology",
-      "profileUrl": "https://researchportalplus.anu.edu.au/en/persons/alastair-greig",
-      "tags": [
-        "cass",
-        "school of sociology"
-      ],
+      "name": "Prof Katerina Teaiwa",
+      "position": "Professor",
+      "focus": "School of Culture, History & Language; Vice-President, Australian Association for Pacific Studies Pacific Peoples Performing Arts Pacific History (excl. New Zealand and Maori) Globalisation and Culture",
+      "school": "School of Culture, History and Language",
+      "schoolCode": "CHL",
+      "college": "ANU College of Asia and the Pacific",
+      "profileUrl": "https://researchportalplus.anu.edu.au/en/persons/54923d4e-c392-4900-b505-db36a8524f1a",
+      "email": "",
+      "office": "",
       "linkedCourses": [],
       "reviewMetrics": [
         "Clarity",
         "Support",
         "Engagement"
-      ]
-    },
-    {
-      "id": "alder-aj",
-      "type": "academic",
-      "name": "Associate Professor Alison Alder",
-      "school": "ANU College of Arts and Social Sciences",
-      "schoolCode": "CASS",
-      "college": "CASS",
-      "position": "Honorary Associate Professor, Printmedia & Drawing",
-      "focus": "ANU College of Arts and Social Sciences",
-      "email": "alison.alder@anu.edu.au",
-      "office": "ANU College of Arts and Social Sciences",
-      "profileUrl": "https://researchers.anu.edu.au/researchers/alder-aj",
-      "tags": [
-        "cass",
-        "anu college of arts and social s"
       ],
-      "linkedCourses": [],
-      "reviewMetrics": [
-        "Clarity",
-        "Support",
-        "Engagement"
-      ]
-    },
-    {
-      "id": "ben-phillips",
-      "type": "academic",
-      "name": "Associate Professor Ben Phillips",
-      "school": "ANU College of Arts and Social Sciences",
-      "schoolCode": "CASS",
-      "college": "CASS",
-      "position": "Principal Research Fellow, Modelling Team",
-      "focus": "ANU College of Arts and Social Sciences",
-      "email": "ben.phillips@anu.edu.au",
-      "office": "ANU College of Arts and Social Sciences",
-      "profileUrl": "https://researchportalplus.anu.edu.au/en/persons/ben-phillips",
       "tags": [
-        "cass",
-        "anu college of arts and social s"
-      ],
-      "linkedCourses": [],
-      "reviewMetrics": [
-        "Clarity",
-        "Support",
-        "Engagement"
+        "chl",
+        "asia-pacific"
       ]
     },
     {
-      "id": "bernard-baffour",
+      "id": "cap-bell-8978f8df-c945-4db6-b460-8f25a48dd095",
       "type": "academic",
-      "name": "Associate Professor Bernard Baffour",
-      "school": "School of Demography",
-      "schoolCode": "CASS",
-      "college": "CASS",
-      "position": "Associate Professor, School of Demography",
-      "focus": "School of Demography",
-      "email": "bernard.baffour@anu.edu.au",
-      "office": "School of Demography",
-      "profileUrl": "https://researchportalplus.anu.edu.au/en/persons/bernard-baffour",
-      "tags": [
-        "cass",
-        "school of demography"
-      ],
+      "name": "Prof Kirsten Ainley",
+      "position": "Academic",
+      "focus": "Asia-Pacific affairs",
+      "school": "Coral Bell School of Asia Pacific Affairs",
+      "schoolCode": "BELL",
+      "college": "ANU College of Asia and the Pacific",
+      "profileUrl": "https://researchportalplus.anu.edu.au/en/persons/8978f8df-c945-4db6-b460-8f25a48dd095",
+      "email": "",
+      "office": "",
       "linkedCourses": [],
       "reviewMetrics": [
         "Clarity",
         "Support",
         "Engagement"
-      ]
-    },
-    {
-      "id": "bronwyn-finnigan",
-      "type": "academic",
-      "name": "Associate Professor Bronwyn Finnigan",
-      "school": "Centre for Moral",
-      "schoolCode": "CASS",
-      "college": "CASS",
-      "position": "Associate Professor, Centre for Moral, Social and Political Theory",
-      "focus": "Centre for Moral",
-      "email": "bronwyn.finnigan@anu.edu.au",
-      "office": "Centre for Moral",
-      "profileUrl": "https://researchportalplus.anu.edu.au/en/persons/bronwyn-finnigan",
-      "tags": [
-        "cass",
-        "centre for moral"
       ],
-      "linkedCourses": [],
-      "reviewMetrics": [
-        "Clarity",
-        "Support",
-        "Engagement"
-      ]
-    },
-    {
-      "id": "carmel-oshannessy",
-      "type": "academic",
-      "name": "Associate Professor Carmel O'Shannessy",
-      "school": "School of Literature",
-      "schoolCode": "CASS",
-      "college": "CASS",
-      "position": "Senior Lecturer, Linguistics, School of Literature, Languages and Linguistics",
-      "focus": "Senior Lecturer, Linguistics, School of Literature, Languages and Linguistics, Associate Professor, Linguistics & Applied Linguistics",
-      "email": "Carmel.Oshannessy@anu.edu.au",
-      "office": "School of Literature",
-      "profileUrl": "https://researchportalplus.anu.edu.au/en/persons/carmel-oshannessy",
       "tags": [
-        "cass",
-        "senior lecturer",
-        "linguistics",
-        "school of literature"
-      ],
-      "linkedCourses": [],
-      "reviewMetrics": [
-        "Clarity",
-        "Support",
-        "Engagement"
+        "bell",
+        "asia-pacific affairs"
       ]
     },
     {
-      "id": "caroline-schuster",
+      "id": "cap-chl-3786254d-1df7-4646-bf9c-223b586f439c",
       "type": "academic",
-      "name": "Associate Professor Caroline Schuster",
-      "school": "Development Studies",
-      "schoolCode": "CASS",
-      "college": "CASS",
-      "position": "Lecturer in Development Studies, Development Studies",
-      "focus": "Lecturer in Anthropology & Head of Discipline - Anthropology, Anthropology",
-      "email": "caroline.schuster@anu.edu.au",
-      "office": "Development Studies",
-      "profileUrl": "https://researchportalplus.anu.edu.au/en/persons/caroline-schuster",
-      "tags": [
-        "cass",
-        "lecturer in anthropology & head ",
-        "anthropology"
-      ],
+      "name": "Prof Kyung Moon Hwang Korea Foundation",
+      "position": "Professor",
+      "focus": "Korean Politics and Economy Asian and Global History Historical Memory and Representation",
+      "school": "School of Culture, History and Language",
+      "schoolCode": "CHL",
+      "college": "ANU College of Asia and the Pacific",
+      "profileUrl": "https://researchportalplus.anu.edu.au/en/persons/3786254d-1df7-4646-bf9c-223b586f439c",
+      "email": "",
+      "office": "",
       "linkedCourses": [],
       "reviewMetrics": [
         "Clarity",
         "Support",
         "Engagement"
-      ]
-    },
-    {
-      "id": "cate-frieman",
-      "type": "academic",
-      "name": "Associate Professor Catherine J. Frieman",
-      "school": "ANU College of Arts and Social Sciences",
-      "schoolCode": "CASS",
-      "college": "CASS",
-      "position": "Senior Lecturer in Archaeology, Archaeology",
-      "focus": "ANU College of Arts and Social Sciences",
-      "email": "catherine.frieman@anu.edu.au",
-      "office": "ANU College of Arts and Social Sciences",
-      "profileUrl": "https://researchportalplus.anu.edu.au/en/persons/cate-frieman",
-      "tags": [
-        "cass",
-        "anu college of arts and social s"
       ],
-      "linkedCourses": [],
-      "reviewMetrics": [
-        "Clarity",
-        "Support",
-        "Engagement"
-      ]
-    },
-    {
-      "id": "chaitanya-sambrani",
-      "type": "academic",
-      "name": "Associate Professor Chaitanya Sambrani",
-      "school": "Centre for Art History & Art Theory",
-      "schoolCode": "CASS",
-      "college": "CASS",
-      "position": "Associate Professor, Centre for Art History & Art Theory",
-      "focus": "Associate Professor, Centre for Art History & Art Theory",
-      "email": "chaitanya.sambrani@anu.edu.au",
-      "office": "Centre for Art History & Art Theory",
-      "profileUrl": "https://researchportalplus.anu.edu.au/en/persons/chaitanya-sambrani",
       "tags": [
-        "cass",
-        "associate professor",
-        "centre for art history & art the"
-      ],
-      "linkedCourses": [],
-      "reviewMetrics": [
-        "Clarity",
-        "Support",
-        "Engagement"
+        "chl",
+        "asia-pacific"
       ]
     },
     {
-      "id": "galloway-ck",
+      "id": "cap-chl-c966d3bb-3186-4e48-8f1f-6ee4b1622a7e",
       "type": "academic",
-      "name": "Associate Professor Charlotte Galloway",
-      "school": "School of Art & Design",
-      "schoolCode": "CASS",
-      "college": "CASS",
-      "position": "Honorary Associate Professor, School of Art & Design",
-      "focus": "School of Art & Design",
-      "email": "charlotte.galloway@anu.edu.au",
-      "office": "School of Art & Design",
-      "profileUrl": "https://researchers.anu.edu.au/researchers/galloway-ck",
-      "tags": [
-        "cass",
-        "school of art & design"
-      ],
+      "name": "Prof Li Narangoa",
+      "position": "Professor",
+      "focus": "School of Culture, History & Language International Relations HISTORICAL STUDIES Religion and Society",
+      "school": "School of Culture, History and Language",
+      "schoolCode": "CHL",
+      "college": "ANU College of Asia and the Pacific",
+      "profileUrl": "https://researchportalplus.anu.edu.au/en/persons/c966d3bb-3186-4e48-8f1f-6ee4b1622a7e",
+      "email": "",
+      "office": "",
       "linkedCourses": [],
       "reviewMetrics": [
         "Clarity",
         "Support",
         "Engagement"
-      ]
-    },
-    {
-      "id": "christopher-ewing.html",
-      "type": "academic",
-      "name": "Associate Professor Christopher EWING",
-      "school": "ANU College of Arts and Social Sciences",
-      "schoolCode": "CASS",
-      "college": "CASS",
-      "position": "HRC/Freilich Visiting Fellow (Nov-Dec 2024), Freilich Project for the Study of Bigotry",
-      "focus": "ANU College of Arts and Social Sciences",
-      "email": "See ANU profile",
-      "office": "ANU College of Arts and Social Sciences",
-      "profileUrl": "https://www.cla.purdue.edu/directory/profiles/christopher-ewing.html",
-      "tags": [
-        "cass",
-        "anu college of arts and social s"
       ],
-      "linkedCourses": [],
-      "reviewMetrics": [
-        "Clarity",
-        "Support",
-        "Engagement"
-      ]
-    },
-    {
-      "id": "collin-payne",
-      "type": "academic",
-      "name": "Associate Professor Collin Payne",
-      "school": "School of Demography",
-      "schoolCode": "CASS",
-      "college": "CASS",
-      "position": "ARC DECRA and Associate Professor, School of Demography",
-      "focus": "School of Demography",
-      "email": "collin.payne@anu.edu.au",
-      "office": "School of Demography",
-      "profileUrl": "https://researchportalplus.anu.edu.au/en/persons/collin-payne",
       "tags": [
-        "cass",
-        "school of demography"
-      ],
-      "linkedCourses": [],
-      "reviewMetrics": [
-        "Clarity",
-        "Support",
-        "Engagement"
+        "chl",
+        "asia-pacific"
       ]
     },
     {
-      "id": "duncan-wright",
+      "id": "cap-bell-41b0ce23-e5bf-4c20-850e-738b48abdc2d",
       "type": "academic",
-      "name": "Associate Professor Duncan Wright",
-      "school": "ANU College of Arts and Social Sciences",
-      "schoolCode": "CASS",
-      "college": "CASS",
-      "position": "Associate Professor in Archaeology, Archaeology",
-      "focus": "ANU College of Arts and Social Sciences",
-      "email": "duncan.wright@anu.edu.au",
-      "office": "ANU College of Arts and Social Sciences",
-      "profileUrl": "https://researchportalplus.anu.edu.au/en/persons/duncan-wright",
-      "tags": [
-        "cass",
-        "anu college of arts and social s"
-      ],
+      "name": "Prof Luke Glanville",
+      "position": "Professor",
+      "focus": "Department of International Relations, Coral Bell School of Asia Pacific Affairs",
+      "school": "Coral Bell School of Asia Pacific Affairs",
+      "schoolCode": "BELL",
+      "college": "ANU College of Asia and the Pacific",
+      "profileUrl": "https://researchportalplus.anu.edu.au/en/persons/41b0ce23-e5bf-4c20-850e-738b48abdc2d",
+      "email": "",
+      "office": "",
       "linkedCourses": [],
       "reviewMetrics": [
         "Clarity",
         "Support",
         "Engagement"
-      ]
-    },
-    {
-      "id": "francesco-ricatti",
-      "type": "academic",
-      "name": "Associate Professor Francesco Ricatti",
-      "school": "Italian Studies",
-      "schoolCode": "CASS",
-      "college": "CASS",
-      "position": "Associate Professor, Italian Studies, School of Literature, Languages and Linguistics",
-      "focus": "Associate Professor, Italian Studies, School of Literature, Languages and Linguistics, Associate Professor, Languages",
-      "email": "Francesco.Ricatti@anu.edu.au",
-      "office": "Italian Studies",
-      "profileUrl": "https://researchportalplus.anu.edu.au/en/persons/francesco-ricatti",
-      "tags": [
-        "cass",
-        "associate professor",
-        "italian studies",
-        "school of literature"
       ],
-      "linkedCourses": [],
-      "reviewMetrics": [
-        "Clarity",
-        "Support",
-        "Engagement"
-      ]
-    },
-    {
-      "id": "gavin-smith",
-      "type": "academic",
-      "name": "Associate Professor Gavin Smith",
-      "school": "School of Sociology",
-      "schoolCode": "CASS",
-      "college": "CASS",
-      "position": "Head of School, Associate Professor, School of Sociology",
-      "focus": "School of Sociology",
-      "email": "gavin.smith@anu.edu.au",
-      "office": "School of Sociology",
-      "profileUrl": "https://researchportalplus.anu.edu.au/en/persons/gavin-smith",
       "tags": [
-        "cass",
-        "school of sociology"
-      ],
-      "linkedCourses": [],
-      "reviewMetrics": [
-        "Clarity",
-        "Support",
-        "Engagement"
+        "bell",
+        "asia-pacific affairs"
       ]
     },
     {
-      "id": "grant-walton",
+      "id": "cap-bell-marcus-mietzner",
       "type": "academic",
-      "name": "Associate Professor Grant Walton",
-      "school": "ANU College of Arts and Social Sciences",
-      "schoolCode": "CASS",
-      "college": "CASS",
-      "position": "Associate Professor, Transnational Research Institute on Corruption",
-      "focus": "ANU College of Arts and Social Sciences",
-      "email": "grant.walton@anu.edu.au",
-      "office": "ANU College of Arts and Social Sciences",
-      "profileUrl": "https://crawford.anu.edu.au/people/academic/grant-walton",
-      "tags": [
-        "cass",
-        "anu college of arts and social s"
-      ],
+      "name": "Prof Marcus Mietzner",
+      "position": "Head – Department of Political and Social Change",
+      "focus": "Asia-Pacific affairs",
+      "school": "Coral Bell School of Asia Pacific Affairs",
+      "schoolCode": "BELL",
+      "college": "ANU College of Asia and the Pacific",
+      "profileUrl": "https://researchportalplus.anu.edu.au/en/persons/marcus-mietzner/",
+      "email": "",
+      "office": "",
       "linkedCourses": [],
       "reviewMetrics": [
         "Clarity",
         "Support",
         "Engagement"
-      ]
-    },
-    {
-      "id": "jana-von-stein",
-      "type": "academic",
-      "name": "Associate Professor Jana von Stein",
-      "school": "School of Politics & International Relations",
-      "schoolCode": "CASS",
-      "college": "CASS",
-      "position": "Associate Professor, School of Politics & International Relations",
-      "focus": "School of Politics & International Relations",
-      "email": "Jana.Vonstein@anu.edu.au",
-      "office": "School of Politics & International Relations",
-      "profileUrl": "https://researchportalplus.anu.edu.au/en/persons/jana-von-stein",
-      "tags": [
-        "cass",
-        "school of politics & internation"
       ],
-      "linkedCourses": [],
-      "reviewMetrics": [
-        "Clarity",
-        "Support",
-        "Engagement"
-      ]
-    },
-    {
-      "id": "jill-sheppard",
-      "type": "academic",
-      "name": "Associate Professor Jill Sheppard",
-      "school": "School of Politics & International Relations",
-      "schoolCode": "CASS",
-      "college": "CASS",
-      "position": "Associate Professor, School of Politics & International Relations",
-      "focus": "Associate Professor, School of Politics & International Relations",
-      "email": "Jill.Sheppard@anu.edu.au",
-      "office": "School of Politics & International Relations",
-      "profileUrl": "https://researchportalplus.anu.edu.au/en/persons/jill-sheppard",
       "tags": [
-        "cass",
-        "associate professor",
-        "school of politics & internation"
-      ],
-      "linkedCourses": [],
-      "reviewMetrics": [
-        "Clarity",
-        "Support",
-        "Engagement"
+        "bell",
+        "asia-pacific affairs"
       ]
     },
     {
-      "id": "joanna-sikora",
+      "id": "cap-chl-9b9e494c-ecb0-4643-a2d7-afcd914e0f03",
       "type": "academic",
-      "name": "Associate Professor Joanna Sikora",
-      "school": "School of Sociology",
-      "schoolCode": "CASS",
-      "college": "CASS",
-      "position": "Associate Professor, School of Sociology",
-      "focus": "School of Sociology",
-      "email": "joanna.sikora@anu.edu.au",
-      "office": "School of Sociology",
-      "profileUrl": "https://researchportalplus.anu.edu.au/en/persons/joanna-sikora",
-      "tags": [
-        "cass",
-        "school of sociology"
-      ],
+      "name": "Prof Mark Mosko",
+      "position": "Professor",
+      "focus": "Department of Anthropology, School of Culture, History & Language",
+      "school": "School of Culture, History and Language",
+      "schoolCode": "CHL",
+      "college": "ANU College of Asia and the Pacific",
+      "profileUrl": "https://researchportalplus.anu.edu.au/en/persons/9b9e494c-ecb0-4643-a2d7-afcd914e0f03",
+      "email": "",
+      "office": "",
       "linkedCourses": [],
       "reviewMetrics": [
         "Clarity",
         "Support",
         "Engagement"
-      ]
-    },
-    {
-      "id": "julieanne-lamond",
-      "type": "academic",
-      "name": "Associate Professor Julieanne Lamond",
-      "school": "School of Literature",
-      "schoolCode": "CASS",
-      "college": "CASS",
-      "position": "Associate Professor, English, School of Literature, Languages and Linguistics",
-      "focus": "Associate Professor, English, School of Literature, Languages and Linguistics",
-      "email": "julieanne.lamond@anu.edu.au",
-      "office": "School of Literature",
-      "profileUrl": "https://researchportalplus.anu.edu.au/en/persons/julieanne-lamond",
-      "tags": [
-        "cass",
-        "associate professor",
-        "english",
-        "school of literature"
       ],
-      "linkedCourses": [],
-      "reviewMetrics": [
-        "Clarity",
-        "Support",
-        "Engagement"
-      ]
-    },
-    {
-      "id": "katie-sutton",
-      "type": "academic",
-      "name": "Associate Professor Katie Sutton",
-      "school": "ANU College of Arts and Social Sciences",
-      "schoolCode": "CASS",
-      "college": "CASS",
-      "position": "Associate Professor, German & Gender, Languages",
-      "focus": "ANU College of Arts and Social Sciences",
-      "email": "katie.sutton@anu.edu.au",
-      "office": "ANU College of Arts and Social Sciences",
-      "profileUrl": "https://researchportalplus.anu.edu.au/en/persons/katie-sutton",
       "tags": [
-        "cass",
-        "anu college of arts and social s"
-      ],
-      "linkedCourses": [],
-      "reviewMetrics": [
-        "Clarity",
-        "Support",
-        "Engagement"
+        "chl",
+        "asia-pacific"
       ]
     },
     {
-      "id": "katrina-sluis",
+      "id": "cap-chl-80b598c8-d615-4fd4-ae1e-c6e63f9e44c5",
       "type": "academic",
-      "name": "Associate Professor Katrina Sluis",
-      "school": "ANU College of Arts and Social Sciences",
-      "schoolCode": "CASS",
-      "college": "CASS",
-      "position": "Associate Professor, Photography & Media Arts",
-      "focus": "Chair of Research Committee, School of Art & Design",
-      "email": "katrina.sluis@anu.edu.au",
-      "office": "ANU College of Arts and Social Sciences",
-      "profileUrl": "https://researchportalplus.anu.edu.au/en/persons/katrina-sluis",
-      "tags": [
-        "cass",
-        "chair of research committee",
-        "school of art & design"
-      ],
+      "name": "Prof Matt Tomlinson",
+      "position": "Professor",
+      "focus": "ANTHROPOLOGY Linguistic Anthropology RELIGION AND RELIGIOUS STUDIES",
+      "school": "School of Culture, History and Language",
+      "schoolCode": "CHL",
+      "college": "ANU College of Asia and the Pacific",
+      "profileUrl": "https://researchportalplus.anu.edu.au/en/persons/80b598c8-d615-4fd4-ae1e-c6e63f9e44c5",
+      "email": "",
+      "office": "",
       "linkedCourses": [],
       "reviewMetrics": [
         "Clarity",
         "Support",
         "Engagement"
-      ]
-    },
-    {
-      "id": "kirill-nourzhanov",
-      "type": "academic",
-      "name": "Associate Professor Kirill Nourzhanov",
-      "school": "Centre for Arab and Islamic Studies",
-      "schoolCode": "CASS",
-      "college": "CASS",
-      "position": "Associate Professor in Political Science (Central Asia) and Convenor of Higher Degree by Research in Middle Eastern & Central Asian Studies, Centre for Arab and Islamic Studies",
-      "focus": "Centre for Arab and Islamic Studies",
-      "email": "Kirill.Nourzhanov@anu.edu.au",
-      "office": "Centre for Arab and Islamic Studies",
-      "profileUrl": "https://researchportalplus.anu.edu.au/en/persons/kirill-nourzhanov",
-      "tags": [
-        "cass",
-        "centre for arab and islamic stud"
       ],
-      "linkedCourses": [],
-      "reviewMetrics": [
-        "Clarity",
-        "Support",
-        "Engagement"
-      ]
-    },
-    {
-      "id": "laura-rademaker",
-      "type": "academic",
-      "name": "Associate Professor Laura Rademaker",
-      "school": "School of History",
-      "schoolCode": "CASS",
-      "college": "CASS",
-      "position": "Associate Professor, School of History",
-      "focus": "Associate Professor, School of History",
-      "email": "laura.rademaker@anu.edu.au",
-      "office": "School of History",
-      "profileUrl": "https://researchportalplus.anu.edu.au/en/persons/laura-rademaker",
       "tags": [
-        "cass",
-        "associate professor",
-        "school of history"
-      ],
-      "linkedCourses": [],
-      "reviewMetrics": [
-        "Clarity",
-        "Support",
-        "Engagement"
+        "chl",
+        "asia-pacific"
       ]
     },
     {
-      "id": "laura-wilson",
+      "id": "cap-bell-431e5848-eb62-4236-8335-6e6b710033f4",
       "type": "academic",
-      "name": "Associate Professor Laura Wilson",
-      "school": "ANU College of Arts and Social Sciences",
-      "schoolCode": "CASS",
-      "college": "CASS",
-      "position": "Senior Lecturer & Head of Discipline - Biological Anthropology, Biological Anthropology",
-      "focus": "ANU College of Arts and Social Sciences",
-      "email": "Laura.Wilson@anu.edu.au",
-      "office": "ANU College of Arts and Social Sciences",
-      "profileUrl": "https://researchportalplus.anu.edu.au/en/persons/laura-wilson",
-      "tags": [
-        "cass",
-        "anu college of arts and social s"
-      ],
+      "name": "Prof Meg Keen",
+      "position": "Head",
+      "focus": "Pacific Research Program Natural Resource Management Urban Policy POLICY AND ADMINISTRATION",
+      "school": "Coral Bell School of Asia Pacific Affairs",
+      "schoolCode": "BELL",
+      "college": "ANU College of Asia and the Pacific",
+      "profileUrl": "https://researchportalplus.anu.edu.au/en/persons/431e5848-eb62-4236-8335-6e6b710033f4",
+      "email": "",
+      "office": "",
       "linkedCourses": [],
       "reviewMetrics": [
         "Clarity",
         "Support",
         "Engagement"
+      ],
+      "tags": [
+        "bell",
+        "asia-pacific affairs"
       ]
     },
     {
-      "id": "leslie-barnes",
+      "id": "cap-chl-ffb6763b-4593-4fb4-837b-cda9888df30f",
       "type": "academic",
-      "name": "Associate Professor Leslie Barnes",
-      "school": "French Studies",
-      "schoolCode": "CASS",
-      "college": "CASS",
-      "position": "Associate Professor, French Studies, Languages",
-      "focus": "French Studies",
-      "email": "leslie.barnes@anu.edu.au",
-      "office": "French Studies",
-      "profileUrl": "https://researchportalplus.anu.edu.au/en/persons/leslie-barnes",
-      "tags": [
-        "cass",
-        "french studies"
-      ],
+      "name": "Prof Nicholas Evans Distinguished",
+      "position": "Professor",
+      "focus": "Department of Linguistics, School of Culture, History & Language; ARC Laureate Fellow; Director, ARC Centre of Excellence for the Dynamics of Language Linguistic Structures (incl. Grammar, Phonology, Lexicon, Semantics) ",
+      "school": "School of Culture, History and Language",
+      "schoolCode": "CHL",
+      "college": "ANU College of Asia and the Pacific",
+      "profileUrl": "https://researchportalplus.anu.edu.au/en/persons/ffb6763b-4593-4fb4-837b-cda9888df30f",
+      "email": "",
+      "office": "",
       "linkedCourses": [],
       "reviewMetrics": [
         "Clarity",
         "Support",
         "Engagement"
+      ],
+      "tags": [
+        "chl",
+        "asia-pacific"
       ]
     },
     {
-      "id": "lindsay-kelley",
+      "id": "cap-bell-bc395289-e5ee-4e11-b1c4-e5b4ee6c766e",
       "type": "academic",
-      "name": "Associate Professor Lindsay Kelley",
-      "school": "School of Art & Design",
-      "schoolCode": "CASS",
-      "college": "CASS",
-      "position": "Associate Professor, School of Art & Design",
-      "focus": "School of Art & Design",
-      "email": "Lindsay.Kelley@anu.edu.au",
-      "office": "School of Art & Design",
-      "profileUrl": "https://researchportalplus.anu.edu.au/en/persons/lindsay-kelley",
-      "tags": [
-        "cass",
-        "school of art & design"
-      ],
+      "name": "Prof Nicolas Lemay-Hebert",
+      "position": "Academic",
+      "focus": "Asia-Pacific affairs",
+      "school": "Coral Bell School of Asia Pacific Affairs",
+      "schoolCode": "BELL",
+      "college": "ANU College of Asia and the Pacific",
+      "profileUrl": "https://researchportalplus.anu.edu.au/en/persons/bc395289-e5ee-4e11-b1c4-e5b4ee6c766e",
+      "email": "",
+      "office": "",
       "linkedCourses": [],
       "reviewMetrics": [
         "Clarity",
         "Support",
         "Engagement"
+      ],
+      "tags": [
+        "bell",
+        "asia-pacific affairs"
       ]
     },
     {
-      "id": "lyndon-ormond-parker",
+      "id": "cap-bell-94ea5d37-f732-43ba-ab20-ccc3002fe5f7",
       "type": "academic",
-      "name": "Associate Professor Lyndon Ormond-Parker",
-      "school": "Centre for Heritage and Museum Studies",
-      "schoolCode": "CASS",
-      "college": "CASS",
-      "position": "Research Fellow, Centre for Heritage and Museum Studies",
-      "focus": "Centre for Heritage and Museum Studies",
-      "email": "Lyndon.Ormond-Parker@anu.edu.au",
-      "office": "Centre for Heritage and Museum Studies",
-      "profileUrl": "https://researchportalplus.anu.edu.au/en/persons/lyndon-ormond-parker",
-      "tags": [
-        "cass",
-        "centre for heritage and museum s"
-      ],
+      "name": "Prof Nicole Haley",
+      "position": "Head",
+      "focus": "Pacific Research Program, ANU Department of Pacific Affairs Culture, Gender, Sexuality Public Policy Social and Cultural Anthropology",
+      "school": "Coral Bell School of Asia Pacific Affairs",
+      "schoolCode": "BELL",
+      "college": "ANU College of Asia and the Pacific",
+      "profileUrl": "https://researchportalplus.anu.edu.au/en/persons/94ea5d37-f732-43ba-ab20-ccc3002fe5f7",
+      "email": "",
+      "office": "",
       "linkedCourses": [],
       "reviewMetrics": [
         "Clarity",
         "Support",
         "Engagement"
+      ],
+      "tags": [
+        "bell",
+        "asia-pacific affairs"
       ]
     },
     {
-      "id": "maria-maley",
+      "id": "cap-chl-12a9db41-15f7-4b47-b983-2cad81f2db6d",
       "type": "academic",
-      "name": "Associate Professor Maria Maley",
-      "school": "School of Politics & International Relations",
-      "schoolCode": "CASS",
-      "college": "CASS",
-      "position": "Associate Professor, School of Politics & International Relations",
-      "focus": "School of Politics & International Relations",
-      "email": "Maria.Maley@anu.edu.au",
-      "office": "School of Politics & International Relations",
-      "profileUrl": "https://researchportalplus.anu.edu.au/en/persons/maria-maley",
-      "tags": [
-        "cass",
-        "school of politics & internation"
-      ],
+      "name": "Prof Roald Maliangkay Entertainment",
+      "position": "Academic",
+      "focus": "and Popular Culture Musicology and Ethnomusicology Consumption and Everyday Life",
+      "school": "School of Culture, History and Language",
+      "schoolCode": "CHL",
+      "college": "ANU College of Asia and the Pacific",
+      "profileUrl": "https://researchportalplus.anu.edu.au/en/persons/12a9db41-15f7-4b47-b983-2cad81f2db6d",
+      "email": "",
+      "office": "",
       "linkedCourses": [],
       "reviewMetrics": [
         "Clarity",
         "Support",
         "Engagement"
+      ],
+      "tags": [
+        "chl",
+        "asia-pacific"
       ]
     },
     {
-      "id": "jolly-mt",
+      "id": "cap-chl-fb936a54-1524-480e-b2d2-653fe4cc6f43",
       "type": "academic",
-      "name": "Associate Professor Martyn Jolly",
-      "school": "ANU College of Arts and Social Sciences",
-      "schoolCode": "CASS",
-      "college": "CASS",
-      "position": "Honorary Associate Professor, Photography & Media Arts",
-      "focus": "Honorary Associate Professor - Lead Chief Investigator, Photography & Media Arts",
-      "email": "martyn.jolly@anu.edu.au",
-      "office": "ANU College of Arts and Social Sciences",
-      "profileUrl": "https://researchers.anu.edu.au/researchers/jolly-mt",
-      "tags": [
-        "cass",
-        "honorary associate professor - l",
-        "photography & media arts"
-      ],
+      "name": "Prof Shunichi Ishihara Speech",
+      "position": "Academic",
+      "focus": "and Language Lab, School of Culture, History & Language Natural Language Processing Japanese Language Computational Linguistics",
+      "school": "School of Culture, History and Language",
+      "schoolCode": "CHL",
+      "college": "ANU College of Asia and the Pacific",
+      "profileUrl": "https://researchportalplus.anu.edu.au/en/persons/fb936a54-1524-480e-b2d2-653fe4cc6f43",
+      "email": "",
+      "office": "",
       "linkedCourses": [],
       "reviewMetrics": [
         "Clarity",
         "Support",
         "Engagement"
+      ],
+      "tags": [
+        "chl",
+        "asia-pacific"
       ]
     },
     {
-      "id": "rachael-brown",
+      "id": "cap-chl-70c5e2ab-5661-449b-a9af-70f6a231d450",
       "type": "academic",
-      "name": "Associate Professor Rachael Brown",
-      "school": "School of Philosophy",
-      "schoolCode": "CASS",
-      "college": "CASS",
-      "position": "Associate Professor, School of Philosophy",
-      "focus": "Director of Centre for Philosophy of the Sciences, Centre for Philosophy of the Sciences",
-      "email": "rachael.brown@anu.edu.au",
-      "office": "School of Philosophy",
-      "profileUrl": "https://researchportalplus.anu.edu.au/en/persons/rachael-brown",
-      "tags": [
-        "cass",
-        "director of centre for philosoph",
-        "centre for philosophy of the sci"
-      ],
+      "name": "Prof Simon Avenell",
+      "position": "Professor",
+      "focus": "School of Culture, History, and Language & Associate Dean (Higher Degrees by Research) College of Asia and the Pacific",
+      "school": "School of Culture, History and Language",
+      "schoolCode": "CHL",
+      "college": "ANU College of Asia and the Pacific",
+      "profileUrl": "https://researchportalplus.anu.edu.au/en/persons/70c5e2ab-5661-449b-a9af-70f6a231d450",
+      "email": "",
+      "office": "",
       "linkedCourses": [],
       "reviewMetrics": [
         "Clarity",
         "Support",
         "Engagement"
+      ],
+      "tags": [
+        "chl",
+        "asia-pacific"
       ]
     },
     {
-      "id": "romain-fathi",
+      "id": "cap-chl-4cb4d218-3398-42fe-8eb8-578f625ad197",
       "type": "academic",
-      "name": "Associate Professor Romain Fathi",
-      "school": "School of History",
-      "schoolCode": "CASS",
-      "college": "CASS",
-      "position": "Associate Professor, School of History",
-      "focus": "School of History",
-      "email": "romain.fathi@anu.edu.au",
-      "office": "School of History",
-      "profileUrl": "https://researchportalplus.anu.edu.au/en/persons/romain-fathi",
-      "tags": [
-        "cass",
-        "school of history"
-      ],
+      "name": "Prof Simon Haberle",
+      "position": "Director",
+      "focus": "of the School of Culture, History and Language Quaternary Environments Palynology Palaeoecology",
+      "school": "School of Culture, History and Language",
+      "schoolCode": "CHL",
+      "college": "ANU College of Asia and the Pacific",
+      "profileUrl": "https://researchportalplus.anu.edu.au/en/persons/4cb4d218-3398-42fe-8eb8-578f625ad197",
+      "email": "",
+      "office": "",
       "linkedCourses": [],
       "reviewMetrics": [
         "Clarity",
         "Support",
         "Engagement"
+      ],
+      "tags": [
+        "chl",
+        "asia-pacific"
       ]
     },
     {
-      "id": "rosanne-kennedy",
+      "id": "cap-bell-e552acdf-0f4e-4765-bf90-3cbb0df19d53",
       "type": "academic",
-      "name": "Associate Professor Rosanne Kennedy",
-      "school": "ANU College of Arts and Social Sciences",
-      "schoolCode": "CASS",
-      "college": "CASS",
-      "position": "Associate Professor, Gender, Sexuality & Culture, English",
-      "focus": "ANU College of Arts and Social Sciences",
-      "email": "rosanne.kennedy@anu.edu.au",
-      "office": "ANU College of Arts and Social Sciences",
-      "profileUrl": "https://researchportalplus.anu.edu.au/en/persons/rosanne-kennedy",
-      "tags": [
-        "cass",
-        "anu college of arts and social s"
-      ],
+      "name": "Prof Stephan Fruehling",
+      "position": "Professor",
+      "focus": "Defence Studies NATO Alliances",
+      "school": "Coral Bell School of Asia Pacific Affairs",
+      "schoolCode": "BELL",
+      "college": "ANU College of Asia and the Pacific",
+      "profileUrl": "https://researchportalplus.anu.edu.au/en/persons/e552acdf-0f4e-4765-bf90-3cbb0df19d53",
+      "email": "",
+      "office": "",
       "linkedCourses": [],
       "reviewMetrics": [
         "Clarity",
         "Support",
         "Engagement"
+      ],
+      "tags": [
+        "bell",
+        "asia-pacific affairs"
       ]
     },
     {
-      "id": "ruth-morgan",
+      "id": "cap-chl-e5ae836e-4698-43ca-a4a7-9b51f72a3a08",
       "type": "academic",
-      "name": "Associate Professor Ruth Morgan",
-      "school": "School of History",
-      "schoolCode": "CASS",
-      "college": "CASS",
-      "position": "Associate Professor, School of History",
-      "focus": "Associate Professor, School of History",
-      "email": "ruth.morgan@anu.edu.au",
-      "office": "School of History",
-      "profileUrl": "https://researchportalplus.anu.edu.au/en/persons/ruth-morgan",
-      "tags": [
-        "cass",
-        "associate professor",
-        "school of history"
-      ],
+      "name": "Prof Susan O'Connor Distinguished",
+      "position": "Professor",
+      "focus": "School of Culture, History & Language Aboriginal and Torres Strait Islander Archaeology ARCHAEOLOGY Archaeology of Asia, Africa and the Americas",
+      "school": "School of Culture, History and Language",
+      "schoolCode": "CHL",
+      "college": "ANU College of Asia and the Pacific",
+      "profileUrl": "https://researchportalplus.anu.edu.au/en/persons/e5ae836e-4698-43ca-a4a7-9b51f72a3a08",
+      "email": "",
+      "office": "",
       "linkedCourses": [],
       "reviewMetrics": [
         "Clarity",
         "Support",
         "Engagement"
+      ],
+      "tags": [
+        "chl",
+        "asia-pacific"
       ]
     },
     {
-      "id": "sarah-milne",
+      "id": "cap-chl-ff097745-70d9-420f-aa6c-941c96f65df3",
       "type": "academic",
-      "name": "Associate Professor Sarah Milne",
-      "school": "ANU College of Arts and Social Sciences",
-      "schoolCode": "CASS",
-      "college": "CASS",
-      "position": "Associate Professor, Transnational Research Institute on Corruption",
-      "focus": "ANU College of Arts and Social Sciences",
-      "email": "sarah.milne@anu.edu.au",
-      "office": "ANU College of Arts and Social Sciences",
-      "profileUrl": "https://crawford.anu.edu.au/people/academic/sarah-milne",
-      "tags": [
-        "cass",
-        "anu college of arts and social s"
-      ],
+      "name": "Prof Tanya Jakimow Anthropology",
+      "position": "Academic",
+      "focus": "of Development Studies of Asian Society Gender Specific Studies",
+      "school": "School of Culture, History and Language",
+      "schoolCode": "CHL",
+      "college": "ANU College of Asia and the Pacific",
+      "profileUrl": "https://researchportalplus.anu.edu.au/en/persons/ff097745-70d9-420f-aa6c-941c96f65df3",
+      "email": "",
+      "office": "",
       "linkedCourses": [],
       "reviewMetrics": [
         "Clarity",
         "Support",
         "Engagement"
+      ],
+      "tags": [
+        "chl",
+        "asia-pacific"
       ]
     },
     {
-      "id": "sverre-molland",
+      "id": "cap-chl-2d611559-070c-400c-9597-94e1e1b52b82",
       "type": "academic",
-      "name": "Associate Professor Sverre Molland",
-      "school": "Development Studies",
-      "schoolCode": "CASS",
-      "college": "CASS",
-      "position": "Senior Lecturer in Development Studies, Development Studies",
-      "focus": "Senior Lecturer in Anthropology, Anthropology",
-      "email": "sverre.molland@anu.edu.au",
-      "office": "Development Studies",
-      "profileUrl": "https://researchportalplus.anu.edu.au/en/persons/sverre-molland",
-      "tags": [
-        "cass",
-        "senior lecturer in anthropology",
-        "anthropology"
-      ],
+      "name": "Prof Wayan Arka",
+      "position": "Professor of Linguistics, FASSA, FAHA, School of Culture, History & Language Indonesian Languages Language in Time and Space",
+      "focus": "(incl. Historical Linguistics, Dialectology) Language in Culture and Society (Sociolinguistics)",
+      "school": "School of Culture, History and Language",
+      "schoolCode": "CHL",
+      "college": "ANU College of Asia and the Pacific",
+      "profileUrl": "https://researchportalplus.anu.edu.au/en/persons/2d611559-070c-400c-9597-94e1e1b52b82",
+      "email": "",
+      "office": "",
       "linkedCourses": [],
       "reviewMetrics": [
         "Clarity",
         "Support",
         "Engagement"
+      ],
+      "tags": [
+        "chl",
+        "asia-pacific"
       ]
     },
     {
-      "id": "tracy-fenwick",
+      "id": "cap-bell-f98e6dcf-bb34-4a68-bd43-221955f1bea3",
       "type": "academic",
-      "name": "Associate Professor Tracy Beck Fenwick",
-      "school": "School of Politics & International Relations",
-      "schoolCode": "CASS",
-      "college": "CASS",
-      "position": "Associate Professor, School of Politics & International Relations",
-      "focus": "Director, Australian Centre for Federalism",
-      "email": "Tracy.Fenwick@anu.edu.au",
-      "office": "School of Politics & International Relations",
-      "profileUrl": "https://researchportalplus.anu.edu.au/en/persons/tracy-fenwick",
-      "tags": [
-        "cass",
-        "director",
-        "australian centre for federalism"
-      ],
+      "name": "Prof Wesley Widmaier Jr",
+      "position": "Academic",
+      "focus": "POLITICAL SCIENCE ECONOMIC THEORY International Relations",
+      "school": "Coral Bell School of Asia Pacific Affairs",
+      "schoolCode": "BELL",
+      "college": "ANU College of Asia and the Pacific",
+      "profileUrl": "https://researchportalplus.anu.edu.au/en/persons/f98e6dcf-bb34-4a68-bd43-221955f1bea3",
+      "email": "",
+      "office": "",
       "linkedCourses": [],
       "reviewMetrics": [
         "Clarity",
         "Support",
         "Engagement"
+      ],
+      "tags": [
+        "bell",
+        "asia-pacific affairs"
       ]
     },
     {
-      "id": "yasmine-musharbash",
+      "id": "cap-bell-e8f93bb7-1733-448b-9502-1bff4fd8e306",
       "type": "academic",
-      "name": "Associate Professor Yasmine Musharbash",
-      "school": "ANU College of Arts and Social Sciences",
-      "schoolCode": "CASS",
-      "college": "CASS",
-      "position": "Senior Lecturer in Anthropology, Anthropology",
-      "focus": "ANU College of Arts and Social Sciences",
-      "email": "Yasmine.Musharbash@anu.edu.au",
-      "office": "ANU College of Arts and Social Sciences",
-      "profileUrl": "https://researchportalplus.anu.edu.au/en/persons/yasmine-musharbash",
-      "tags": [
-        "cass",
-        "anu college of arts and social s"
-      ],
+      "name": "Prof William Tow",
+      "position": "Professor",
+      "focus": "Department of International Relations, Coral Bell School of Asia Pacific Affairs Defence Studies International Relations",
+      "school": "Coral Bell School of Asia Pacific Affairs",
+      "schoolCode": "BELL",
+      "college": "ANU College of Asia and the Pacific",
+      "profileUrl": "https://researchportalplus.anu.edu.au/en/persons/e8f93bb7-1733-448b-9502-1bff4fd8e306",
+      "email": "",
+      "office": "",
       "linkedCourses": [],
       "reviewMetrics": [
         "Clarity",
         "Support",
         "Engagement"
-      ]
-    },
-    {
-      "id": "yee-fui-ng",
-      "type": "academic",
-      "name": "Associate Professor Yee-Fui Ng",
-      "school": "ANU College of Arts and Social Sciences",
-      "schoolCode": "CASS",
-      "college": "CASS",
-      "position": "Associate Professor, Transnational Research Institute on Corruption",
-      "focus": "ANU College of Arts and Social Sciences",
-      "email": "YeeFui.Ng@monash.edu",
-      "office": "ANU College of Arts and Social Sciences",
-      "profileUrl": "https://research.monash.edu/en/persons/yee-fui-ng",
-      "tags": [
-        "cass",
-        "anu college of arts and social s"
       ],
-      "linkedCourses": [],
-      "reviewMetrics": [
-        "Clarity",
-        "Support",
-        "Engagement"
-      ]
-    },
-    {
-      "id": "adam-sargent",
-      "type": "academic",
-      "name": "Dr Adam Sargent",
-      "school": "ANU College of Arts and Social Sciences",
-      "schoolCode": "CASS",
-      "college": "CASS",
-      "position": "Lecturer in Anthropology, Anthropology",
-      "focus": "ANU College of Arts and Social Sciences",
-      "email": "Adam.Sargent@anu.edu.au",
-      "office": "ANU College of Arts and Social Sciences",
-      "profileUrl": "https://researchportalplus.anu.edu.au/en/persons/adam-sargent",
-      "tags": [
-        "cass",
-        "anu college of arts and social s"
-      ],
-      "linkedCourses": [],
-      "reviewMetrics": [
-        "Clarity",
-        "Support",
-        "Engagement"
-      ]
-    },
-    {
-      "id": "aditya-balasubramanian",
-      "type": "academic",
-      "name": "Dr Aditya Balasubramanian",
-      "school": "School of History",
-      "schoolCode": "CASS",
-      "college": "CASS",
-      "position": "ARC DECRA Fellow and Senior Lecturer, School of History",
-      "focus": "School of History",
-      "email": "aditya.balasubramanian@anu.edu.au",
-      "office": "School of History",
-      "profileUrl": "https://researchportalplus.anu.edu.au/en/persons/aditya-balasubramanian",
-      "tags": [
-        "cass",
-        "school of history"
-      ],
-      "linkedCourses": [],
-      "reviewMetrics": [
-        "Clarity",
-        "Support",
-        "Engagement"
-      ]
-    },
-    {
-      "id": "alam-saleh",
-      "type": "academic",
-      "name": "Dr Alam Saleh",
-      "school": "Centre for Arab and Islamic Studies",
-      "schoolCode": "CASS",
-      "college": "CASS",
-      "position": "Honorary Senior Lecturer, Centre for Arab and Islamic Studies",
-      "focus": "Centre for Arab and Islamic Studies",
-      "email": "Alam.Saleh@anu.edu.au",
-      "office": "Centre for Arab and Islamic Studies",
-      "profileUrl": "https://researchportalplus.anu.edu.au/en/persons/alam-saleh",
-      "tags": [
-        "cass",
-        "centre for arab and islamic stud"
-      ],
-      "linkedCourses": [],
-      "reviewMetrics": [
-        "Clarity",
-        "Support",
-        "Engagement"
-      ]
-    },
-    {
-      "id": "alex-burchmore",
-      "type": "academic",
-      "name": "Dr Alex Burchmore",
-      "school": "Centre for Art History & Art Theory",
-      "schoolCode": "CASS",
-      "college": "CASS",
-      "position": "Senior Lecturer, Centre for Art History & Art Theory",
-      "focus": "Convenor of Bachelor of Art History and Curatorship (Honours), Centre for Art History & Art Theory",
-      "email": "alexander.burchmore@anu.edu.au",
-      "office": "Centre for Art History & Art Theory",
-      "profileUrl": "https://researchportalplus.anu.edu.au/en/persons/alex-burchmore",
-      "tags": [
-        "cass",
-        "convenor of bachelor of art hist",
-        "centre for art history & art the"
-      ],
-      "linkedCourses": [],
-      "reviewMetrics": [
-        "Clarity",
-        "Support",
-        "Engagement"
-      ]
-    },
-    {
-      "id": "alexander-cook",
-      "type": "academic",
-      "name": "Dr Alexander Cook",
-      "school": "School of History",
-      "schoolCode": "CASS",
-      "college": "CASS",
-      "position": "Lecturer, School of History",
-      "focus": "School of History",
-      "email": "alexander.cook@anu.edu.au",
-      "office": "School of History",
-      "profileUrl": "https://researchportalplus.anu.edu.au/en/persons/alexander-cook",
-      "tags": [
-        "cass",
-        "school of history"
-      ],
-      "linkedCourses": [],
-      "reviewMetrics": [
-        "Clarity",
-        "Support",
-        "Engagement"
-      ]
-    },
-    {
-      "id": "alexander-hunter",
-      "type": "academic",
-      "name": "Dr Alexander Hunter",
-      "school": "School of Music",
-      "schoolCode": "CASS",
-      "college": "CASS",
-      "position": "Lecturer, School of Music",
-      "focus": "Indigenous Convener, School of Music",
-      "email": "alexander.hunter@anu.edu.au",
-      "office": "School of Music",
-      "profileUrl": "https://researchportalplus.anu.edu.au/en/persons/alexander-hunter",
-      "tags": [
-        "cass",
-        "indigenous convener",
-        "school of music"
-      ],
-      "linkedCourses": [],
-      "reviewMetrics": [
-        "Clarity",
-        "Support",
-        "Engagement"
-      ]
-    },
-    {
-      "id": "alexandra-dellios",
-      "type": "academic",
-      "name": "Dr Alexandra Dellios",
-      "school": "Centre for Heritage and Museum Studies",
-      "schoolCode": "CASS",
-      "college": "CASS",
-      "position": "Lecturer, Centre for Heritage and Museum Studies",
-      "focus": "Centre for Heritage and Museum Studies",
-      "email": "alexandra.dellios@anu.edu.au",
-      "office": "Centre for Heritage and Museum Studies",
-      "profileUrl": "https://researchportalplus.anu.edu.au/en/persons/alexandra-dellios",
-      "tags": [
-        "cass",
-        "centre for heritage and museum s"
-      ],
-      "linkedCourses": [],
-      "reviewMetrics": [
-        "Clarity",
-        "Support",
-        "Engagement"
-      ]
-    },
-    {
-      "id": "amandagrahamstuart.com",
-      "type": "academic",
-      "name": "Dr Amanda Stuart",
-      "school": "ANU College of Arts and Social Sciences",
-      "schoolCode": "CASS",
-      "college": "CASS",
-      "position": "Lecturer, Environment Studio",
-      "focus": "Lecturer, Foundation",
-      "email": "amanda.stuart@anu.edu.au",
-      "office": "ANU College of Arts and Social Sciences",
-      "profileUrl": "https://amandagrahamstuart.com/",
-      "tags": [
-        "cass",
-        "lecturer",
-        "foundation"
-      ],
-      "linkedCourses": [],
-      "reviewMetrics": [
-        "Clarity",
-        "Support",
-        "Engagement"
-      ]
-    },
-    {
-      "id": "amelia-dale",
-      "type": "academic",
-      "name": "Dr Amelia Dale",
-      "school": "ANU College of Arts and Social Sciences",
-      "schoolCode": "CASS",
-      "college": "CASS",
-      "position": "Lecturer in English, English",
-      "focus": "ANU College of Arts and Social Sciences",
-      "email": "Amelia.Dale@anu.edu.au",
-      "office": "ANU College of Arts and Social Sciences",
-      "profileUrl": "https://researchportalplus.anu.edu.au/en/persons/amelia-dale",
-      "tags": [
-        "cass",
-        "anu college of arts and social s"
-      ],
-      "linkedCourses": [],
-      "reviewMetrics": [
-        "Clarity",
-        "Support",
-        "Engagement"
-      ]
-    },
-    {
-      "id": "anas-iqtait",
-      "type": "academic",
-      "name": "Dr Anas Iqtait",
-      "school": "Centre for Arab and Islamic Studies",
-      "schoolCode": "CASS",
-      "college": "CASS",
-      "position": "Senior Lecturer in Political Economy and Global Development (The Middle East and North Africa) and Convenor of Masters and Honours programs in Middle East and Central Asia Studies, Centre for Arab and Islamic Studies",
-      "focus": "Centre for Arab and Islamic Studies",
-      "email": "Anas.Iqtait@anu.edu.au",
-      "office": "Centre for Arab and Islamic Studies",
-      "profileUrl": "https://researchportalplus.anu.edu.au/en/persons/anas-iqtait",
-      "tags": [
-        "cass",
-        "centre for arab and islamic stud"
-      ],
-      "linkedCourses": [],
-      "reviewMetrics": [
-        "Clarity",
-        "Support",
-        "Engagement"
-      ]
-    },
-    {
-      "id": "ann-sophie-levidis",
-      "type": "academic",
-      "name": "Dr Ann-Sophie Levidis",
-      "school": "ANU College of Arts and Social Sciences",
-      "schoolCode": "CASS",
-      "college": "CASS",
-      "position": "Lecturer in French Studies, Languages",
-      "focus": "ANU College of Arts and Social Sciences",
-      "email": "ann-sophie.levidis@anu.edu.au",
-      "office": "ANU College of Arts and Social Sciences",
-      "profileUrl": "https://researchportalplus.anu.edu.au/en/persons/ann-sophie-levidis",
-      "tags": [
-        "cass",
-        "anu college of arts and social s"
-      ],
-      "linkedCourses": [],
-      "reviewMetrics": [
-        "Clarity",
-        "Support",
-        "Engagement"
-      ]
-    },
-    {
-      "id": "anna-madeleine-raupach",
-      "type": "academic",
-      "name": "Dr Anna Madeleine Raupach",
-      "school": "ANU College of Arts and Social Sciences",
-      "schoolCode": "CASS",
-      "college": "CASS",
-      "position": "Senior Lecturer, Printmedia & Drawing",
-      "focus": "Chair of Outreach Committee, School of Art & Design",
-      "email": "anna.raupach@anu.edu.au",
-      "office": "ANU College of Arts and Social Sciences",
-      "profileUrl": "https://researchportalplus.anu.edu.au/en/persons/anna-madeleine-raupach",
-      "tags": [
-        "cass",
-        "chair of outreach committee",
-        "school of art & design"
-      ],
-      "linkedCourses": [],
-      "reviewMetrics": [
-        "Clarity",
-        "Support",
-        "Engagement"
-      ]
-    },
-    {
-      "id": "jurgens-a",
-      "type": "academic",
-      "name": "Dr Anna-Sophie Jürgens",
-      "school": "Humanities Research Centre",
-      "schoolCode": "CASS",
-      "college": "CASS",
-      "position": "HRC Adjunct Fellow and Lecturer in Popular Entertainment Studies at the Australian National Centre for the Public Awareness of Science; Head of the Popsicule, ANU's Science in Popular Culture and Entertainment Hub, Humanities Research Centre",
-      "focus": "Humanities Research Centre",
-      "email": "anna-sophie.jurgens@anu.edu.au",
-      "office": "Humanities Research Centre",
-      "profileUrl": "https://researchers.anu.edu.au/researchers/jurgens-a",
-      "tags": [
-        "cass",
-        "humanities research centre"
-      ],
-      "linkedCourses": [],
-      "reviewMetrics": [
-        "Clarity",
-        "Support",
-        "Engagement"
-      ]
-    },
-    {
-      "id": "annick-thomassin",
-      "type": "academic",
-      "name": "Dr Annick Thomassin",
-      "school": "Centre for Heritage and Museum Studies",
-      "schoolCode": "CASS",
-      "college": "CASS",
-      "position": "Research Fellow, Centre for Heritage and Museum Studies",
-      "focus": "Centre for Heritage and Museum Studies",
-      "email": "annick.thomassin@anu.edu.au",
-      "office": "Centre for Heritage and Museum Studies",
-      "profileUrl": "https://researchportalplus.anu.edu.au/en/persons/annick-thomassin",
-      "tags": [
-        "cass",
-        "centre for heritage and museum s"
-      ],
-      "linkedCourses": [],
-      "reviewMetrics": [
-        "Clarity",
-        "Support",
-        "Engagement"
-      ]
-    },
-    {
-      "id": "annika-lems",
-      "type": "academic",
-      "name": "Dr Annika Lems",
-      "school": "ANU College of Arts and Social Sciences",
-      "schoolCode": "CASS",
-      "college": "CASS",
-      "position": "Senior Lecturer in Anthropology & HDR Convener, Anthropology",
-      "focus": "ANU College of Arts and Social Sciences",
-      "email": "Annika.Lems@anu.edu.au",
-      "office": "ANU College of Arts and Social Sciences",
-      "profileUrl": "https://researchportalplus.anu.edu.au/en/persons/annika-lems",
-      "tags": [
-        "cass",
-        "anu college of arts and social s"
-      ],
-      "linkedCourses": [],
-      "reviewMetrics": [
-        "Clarity",
-        "Support",
-        "Engagement"
-      ]
-    },
-    {
-      "id": "april-biccum",
-      "type": "academic",
-      "name": "Dr April Biccum",
-      "school": "School of Politics & International Relations",
-      "schoolCode": "CASS",
-      "college": "CASS",
-      "position": "Senior Lecturer, School of Politics & International Relations",
-      "focus": "School of Politics & International Relations",
-      "email": "April.Biccum@anu.edu.au",
-      "office": "School of Politics & International Relations",
-      "profileUrl": "https://researchportalplus.anu.edu.au/en/persons/april-biccum",
-      "tags": [
-        "cass",
-        "school of politics & internation"
-      ],
-      "linkedCourses": [],
-      "reviewMetrics": [
-        "Clarity",
-        "Support",
-        "Engagement"
-      ]
-    },
-    {
-      "id": "ashley-carruthers",
-      "type": "academic",
-      "name": "Dr Ashley Carruthers",
-      "school": "ANU College of Arts and Social Sciences",
-      "schoolCode": "CASS",
-      "college": "CASS",
-      "position": "Lecturer in Anthropology, Anthropology",
-      "focus": "ANU College of Arts and Social Sciences",
-      "email": "ashley.carruthers@anu.edu.au",
-      "office": "ANU College of Arts and Social Sciences",
-      "profileUrl": "https://researchportalplus.anu.edu.au/en/persons/ashley-carruthers",
-      "tags": [
-        "cass",
-        "anu college of arts and social s"
-      ],
-      "linkedCourses": [],
-      "reviewMetrics": [
-        "Clarity",
-        "Support",
-        "Engagement"
-      ]
-    },
-    {
-      "id": "ash-collins",
-      "type": "academic",
-      "name": "Dr Ashok Collins",
-      "school": "ANU College of Arts and Social Sciences",
-      "schoolCode": "CASS",
-      "college": "CASS",
-      "position": "Senior Lecturer, French, Languages",
-      "focus": "ANU College of Arts and Social Sciences",
-      "email": "ashok.collins@anu.edu.au",
-      "office": "ANU College of Arts and Social Sciences",
-      "profileUrl": "https://researchportalplus.anu.edu.au/en/persons/ash-collins",
-      "tags": [
-        "cass",
-        "anu college of arts and social s"
-      ],
-      "linkedCourses": [],
-      "reviewMetrics": [
-        "Clarity",
-        "Support",
-        "Engagement"
-      ]
-    },
-    {
-      "id": "baden-pailthorpe",
-      "type": "academic",
-      "name": "Dr Baden Pailthorpe",
-      "school": "School of Art & Design",
-      "schoolCode": "CASS",
-      "college": "CASS",
-      "position": "Senior Lecturer, School of Art & Design",
-      "focus": "School of Art & Design",
-      "email": "baden.pailthorpe@anu.edu.au",
-      "office": "School of Art & Design",
-      "profileUrl": "https://researchportalplus.anu.edu.au/en/persons/baden-pailthorpe",
-      "tags": [
-        "cass",
-        "school of art & design"
-      ],
-      "linkedCourses": [],
-      "reviewMetrics": [
-        "Clarity",
-        "Support",
-        "Engagement"
-      ]
-    },
-    {
-      "id": "ben-mercer",
-      "type": "academic",
-      "name": "Dr Ben Mercer",
-      "school": "School of History",
-      "schoolCode": "CASS",
-      "college": "CASS",
-      "position": "Senior Lecturer, School of History",
-      "focus": "School of History",
-      "email": "ben.mercer@anu.edu.au",
-      "office": "School of History",
-      "profileUrl": "https://researchportalplus.anu.edu.au/en/persons/ben-mercer",
-      "tags": [
-        "cass",
-        "school of history"
-      ],
-      "linkedCourses": [],
-      "reviewMetrics": [
-        "Clarity",
-        "Support",
-        "Engagement"
-      ]
-    },
-    {
-      "id": "bernardo-pereira-nunes",
-      "type": "academic",
-      "name": "Dr Bernardo Pereira Nunes",
-      "school": "Centre for Digital Humanities Research",
-      "schoolCode": "CASS",
-      "college": "CASS",
-      "position": "Lecturer in Digital Humanities and Computer Science, Centre for Digital Humanities Research",
-      "focus": "Centre for Digital Humanities Research",
-      "email": "See ANU profile",
-      "office": "Centre for Digital Humanities Research",
-      "profileUrl": "https://researchportalplus.anu.edu.au/en/persons/bernardo-pereira-nunes",
-      "tags": [
-        "cass",
-        "centre for digital humanities re"
-      ],
-      "linkedCourses": [],
-      "reviewMetrics": [
-        "Clarity",
-        "Support",
-        "Engagement"
-      ]
-    },
-    {
-      "id": "brandon-yoder",
-      "type": "academic",
-      "name": "Dr Brandon Yoder",
-      "school": "School of Politics & International Relations",
-      "schoolCode": "CASS",
-      "college": "CASS",
-      "position": "Senior Lecturer, School of Politics & International Relations",
-      "focus": "School of Politics & International Relations",
-      "email": "brandon.yoder@anu.edu.au",
-      "office": "School of Politics & International Relations",
-      "profileUrl": "https://researchportalplus.anu.edu.au/en/persons/brandon-yoder",
-      "tags": [
-        "cass",
-        "school of politics & internation"
-      ],
-      "linkedCourses": [],
-      "reviewMetrics": [
-        "Clarity",
-        "Support",
-        "Engagement"
-      ]
-    },
-    {
-      "id": "bridget-vincent",
-      "type": "academic",
-      "name": "Dr Bridget Vincent",
-      "school": "ANU College of Arts and Social Sciences",
-      "schoolCode": "CASS",
-      "college": "CASS",
-      "position": "Lecturer in English, English",
-      "focus": "ANU College of Arts and Social Sciences",
-      "email": "Bridget.Vincent@anu.edu.au",
-      "office": "ANU College of Arts and Social Sciences",
-      "profileUrl": "https://researchportalplus.anu.edu.au/en/persons/bridget-vincent",
-      "tags": [
-        "cass",
-        "anu college of arts and social s"
-      ],
-      "linkedCourses": [],
-      "reviewMetrics": [
-        "Clarity",
-        "Support",
-        "Engagement"
-      ]
-    },
-    {
-      "id": "burcu-cevik-compiegne",
-      "type": "academic",
-      "name": "Dr Burcu Cevik-Compiegne",
-      "school": "Centre for Arab and Islamic Studies",
-      "schoolCode": "CASS",
-      "college": "CASS",
-      "position": "Senior Lecturer in Turkish Studies and Convenor of Turkish Studies Program, Centre for Arab and Islamic Studies",
-      "focus": "Centre for Arab and Islamic Studies",
-      "email": "Burcu.Cevik-Compiegne@anu.edu.au",
-      "office": "Centre for Arab and Islamic Studies",
-      "profileUrl": "https://researchportalplus.anu.edu.au/en/persons/burcu-cevik-compiegne",
-      "tags": [
-        "cass",
-        "centre for arab and islamic stud"
-      ],
-      "linkedCourses": [],
-      "reviewMetrics": [
-        "Clarity",
-        "Support",
-        "Engagement"
-      ]
-    },
-    {
-      "id": "bowan-cj",
-      "type": "academic",
-      "name": "Dr Catherine Bowan",
-      "school": "Humanities Research Centre",
-      "schoolCode": "CASS",
-      "college": "CASS",
-      "position": "Honorary Senior Lecturer, Humanities Research Centre",
-      "focus": "Humanities Research Centre",
-      "email": "kate.bowan@anu.edu.au",
-      "office": "Humanities Research Centre",
-      "profileUrl": "https://researchers.anu.edu.au/researchers/bowan-cj",
-      "tags": [
-        "cass",
-        "humanities research centre"
-      ],
-      "linkedCourses": [],
-      "reviewMetrics": [
-        "Clarity",
-        "Support",
-        "Engagement"
-      ]
-    },
-    {
-      "id": "cecilia-jardemar",
-      "type": "academic",
-      "name": "Dr Cecilia Jardemar",
-      "school": "School of Art & Design",
-      "schoolCode": "CASS",
-      "college": "CASS",
-      "position": "Associate Professor, School of Art & Design",
-      "focus": "School of Art & Design",
-      "email": "cecilia.jardemar@anu.edu.au",
-      "office": "School of Art & Design",
-      "profileUrl": "https://researchportalplus.anu.edu.au/en/persons/cecilia-jardemar/",
-      "tags": [
-        "cass",
-        "school of art & design"
-      ],
-      "linkedCourses": [],
-      "reviewMetrics": [
-        "Clarity",
-        "Support",
-        "Engagement"
-      ]
-    },
-    {
-      "id": "charles-miller",
-      "type": "academic",
-      "name": "Dr Charles Miller",
-      "school": "School of Politics & International Relations",
-      "schoolCode": "CASS",
-      "college": "CASS",
-      "position": "Senior Lecturer, School of Politics & International Relations",
-      "focus": "School of Politics & International Relations",
-      "email": "Charles.Miller@anu.edu.au",
-      "office": "School of Politics & International Relations",
-      "profileUrl": "https://researchportalplus.anu.edu.au/en/persons/charles-miller",
-      "tags": [
-        "cass",
-        "school of politics & internation"
-      ],
-      "linkedCourses": [],
-      "reviewMetrics": [
-        "Clarity",
-        "Support",
-        "Engagement"
-      ]
-    },
-    {
-      "id": "chloe-green",
-      "type": "academic",
-      "name": "Dr Chloe Green",
-      "school": "ANU College of Arts and Social Sciences",
-      "schoolCode": "CASS",
-      "college": "CASS",
-      "position": "Lecturer in English, English",
-      "focus": "ANU College of Arts and Social Sciences",
-      "email": "Chloe.Green@anu.edu.au",
-      "office": "ANU College of Arts and Social Sciences",
-      "profileUrl": "https://researchportalplus.anu.edu.au/en/persons/chloe-green",
-      "tags": [
-        "cass",
-        "anu college of arts and social s"
-      ],
-      "linkedCourses": [],
-      "reviewMetrics": [
-        "Clarity",
-        "Support",
-        "Engagement"
-      ]
-    },
-    {
-      "id": "christina-clarke",
-      "type": "academic",
-      "name": "Dr Christina Clarke",
-      "school": "Centre for Art History & Art Theory",
-      "schoolCode": "CASS",
-      "college": "CASS",
-      "position": "Honorary Lecturer, Centre for Art History & Art Theory",
-      "focus": "Centre for Art History & Art Theory",
-      "email": "Christina.clarke@anu.edu.au",
-      "office": "Centre for Art History & Art Theory",
-      "profileUrl": "https://researchportalplus.anu.edu.au/en/persons/christina-clarke",
-      "tags": [
-        "cass",
-        "centre for art history & art the"
-      ],
-      "linkedCourses": [],
-      "reviewMetrics": [
-        "Clarity",
-        "Support",
-        "Engagement"
-      ]
-    },
-    {
-      "id": "claire-hansen",
-      "type": "academic",
-      "name": "Dr Claire Hansen",
-      "school": "ANU College of Arts and Social Sciences",
-      "schoolCode": "CASS",
-      "college": "CASS",
-      "position": "Lecturer in English, English",
-      "focus": "ANU College of Arts and Social Sciences",
-      "email": "Claire.Hansen@anu.edu.au",
-      "office": "ANU College of Arts and Social Sciences",
-      "profileUrl": "https://researchportalplus.anu.edu.au/en/persons/claire-hansen",
-      "tags": [
-        "cass",
-        "anu college of arts and social s"
-      ],
-      "linkedCourses": [],
-      "reviewMetrics": [
-        "Clarity",
-        "Support",
-        "Engagement"
-      ]
-    },
-    {
-      "id": "constanza-sanhueza",
-      "type": "academic",
-      "name": "Dr Constanza Sanhueza Petrarca",
-      "school": "School of Politics & International Relations",
-      "schoolCode": "CASS",
-      "college": "CASS",
-      "position": "Senior Lecturer, School of Politics & International Relations",
-      "focus": "School of Politics & International Relations",
-      "email": "Constanza.Sanhueza@anu.edu.au",
-      "office": "School of Politics & International Relations",
-      "profileUrl": "https://researchportalplus.anu.edu.au/en/persons/constanza-sanhueza",
-      "tags": [
-        "cass",
-        "school of politics & internation"
-      ],
-      "linkedCourses": [],
-      "reviewMetrics": [
-        "Clarity",
-        "Support",
-        "Engagement"
-      ]
-    },
-    {
-      "id": "darren-lim",
-      "type": "academic",
-      "name": "Dr Darren Lim",
-      "school": "School of Politics & International Relations",
-      "schoolCode": "CASS",
-      "college": "CASS",
-      "position": "Senior Lecturer, School of Politics & International Relations",
-      "focus": "School of Politics & International Relations",
-      "email": "Darren.Lim@anu.edu.au",
-      "office": "School of Politics & International Relations",
-      "profileUrl": "https://researchportalplus.anu.edu.au/en/persons/darren-lim",
-      "tags": [
-        "cass",
-        "school of politics & internation"
-      ],
-      "linkedCourses": [],
-      "reviewMetrics": [
-        "Clarity",
-        "Support",
-        "Engagement"
-      ]
-    },
-    {
-      "id": "david-romney-smith",
-      "type": "academic",
-      "name": "Dr David Romney Smith",
-      "school": "School of History",
-      "schoolCode": "CASS",
-      "college": "CASS",
-      "position": "Research Fellow, School of History",
-      "focus": "School of History",
-      "email": "DavidRomney.Smith@anu.edu.au",
-      "office": "School of History",
-      "profileUrl": "https://researchportalplus.anu.edu.au/en/persons/david-romney-smith",
-      "tags": [
-        "cass",
-        "school of history"
-      ],
-      "linkedCourses": [],
-      "reviewMetrics": [
-        "Clarity",
-        "Support",
-        "Engagement"
-      ]
-    },
-    {
-      "id": "diane-smith",
-      "type": "academic",
-      "name": "Dr Diane Smith",
-      "school": "Centre for Aboriginal Economic Policy Research",
-      "schoolCode": "CASS",
-      "college": "CASS",
-      "position": "Fellow, Centre for Aboriginal Economic Policy Research",
-      "focus": "Centre for Aboriginal Economic Policy Research",
-      "email": "diane.smith@anu.edu.au",
-      "office": "Centre for Aboriginal Economic Policy Research",
-      "profileUrl": "https://researchportalplus.anu.edu.au/en/persons/diane-smith",
-      "tags": [
-        "cass",
-        "centre for aboriginal economic p"
-      ],
-      "linkedCourses": [],
-      "reviewMetrics": [
-        "Clarity",
-        "Support",
-        "Engagement"
-      ]
-    },
-    {
-      "id": "dongwook-kim",
-      "type": "academic",
-      "name": "Dr Dongwook Kim",
-      "school": "School of Politics & International Relations",
-      "schoolCode": "CASS",
-      "college": "CASS",
-      "position": "Lecturer, School of Politics & International Relations",
-      "focus": "School of Politics & International Relations",
-      "email": "Dongwook.Kim@anu.edu.au",
-      "office": "School of Politics & International Relations",
-      "profileUrl": "https://researchportalplus.anu.edu.au/en/persons/dongwook-kim",
-      "tags": [
-        "cass",
-        "school of politics & internation"
-      ],
-      "linkedCourses": [],
-      "reviewMetrics": [
-        "Clarity",
-        "Support",
-        "Engagement"
-      ]
-    },
-    {
-      "id": "elisa-decourcy",
-      "type": "academic",
-      "name": "Dr Elisa deCourcy",
-      "school": "Centre for Art History & Art Theory",
-      "schoolCode": "CASS",
-      "college": "CASS",
-      "position": "Honorary Lecturer, Centre for Art History & Art Theory",
-      "focus": "Centre for Art History & Art Theory",
-      "email": "Elisa.DeCourcy@anu.edu.au",
-      "office": "Centre for Art History & Art Theory",
-      "profileUrl": "https://researchportalplus.anu.edu.au/en/persons/elisa-decourcy",
-      "tags": [
-        "cass",
-        "centre for art history & art the"
-      ],
-      "linkedCourses": [],
-      "reviewMetrics": [
-        "Clarity",
-        "Support",
-        "Engagement"
-      ]
-    },
-    {
-      "id": "erica-seccombe",
-      "type": "academic",
-      "name": "Dr Erica Seccombe",
-      "school": "Centre for Art History & Art Theory",
-      "schoolCode": "CASS",
-      "college": "CASS",
-      "position": "Senior Lecturer, Centre for Art History & Art Theory",
-      "focus": "Centre for Art History & Art Theory",
-      "email": "erica.seccombe@anu.edu.au",
-      "office": "Centre for Art History & Art Theory",
-      "profileUrl": "https://researchportalplus.anu.edu.au/en/persons/erica-seccombe",
-      "tags": [
-        "cass",
-        "centre for art history & art the"
-      ],
-      "linkedCourses": [],
-      "reviewMetrics": [
-        "Clarity",
-        "Support",
-        "Engagement"
-      ]
-    },
-    {
-      "id": "estelle-strazdins",
-      "type": "academic",
-      "name": "Dr Estelle Strazdins",
-      "school": "ANU College of Arts and Social Sciences",
-      "schoolCode": "CASS",
-      "college": "CASS",
-      "position": "Lecturer in Classics, Classics",
-      "focus": "ANU College of Arts and Social Sciences",
-      "email": "estelle.strazdins@anu.edu.au",
-      "office": "ANU College of Arts and Social Sciences",
-      "profileUrl": "https://researchportalplus.anu.edu.au/en/persons/estelle-strazdins",
-      "tags": [
-        "cass",
-        "anu college of arts and social s"
-      ],
-      "linkedCourses": [],
-      "reviewMetrics": [
-        "Clarity",
-        "Support",
-        "Engagement"
-      ]
-    },
-    {
-      "id": "fabricio-tocco",
-      "type": "academic",
-      "name": "Dr Fabricio Tocco",
-      "school": "Spanish Studies",
-      "schoolCode": "CASS",
-      "college": "CASS",
-      "position": "Lecturer, Spanish Studies, Languages",
-      "focus": "Spanish Studies",
-      "email": "fabricio.tocco@anu.edu.au",
-      "office": "Spanish Studies",
-      "profileUrl": "https://researchportalplus.anu.edu.au/en/persons/fabricio-tocco",
-      "tags": [
-        "cass",
-        "spanish studies"
-      ],
-      "linkedCourses": [],
-      "reviewMetrics": [
-        "Clarity",
-        "Support",
-        "Engagement"
-      ]
-    },
-    {
-      "id": "francis-markham",
-      "type": "academic",
-      "name": "Dr Francis Markham",
-      "school": "Centre for Aboriginal Economic Policy Research",
-      "schoolCode": "CASS",
-      "college": "CASS",
-      "position": "Research Fellow, Centre for Aboriginal Economic Policy Research",
-      "focus": "Centre for Aboriginal Economic Policy Research",
-      "email": "Francis.Markham@anu.edu.au",
-      "office": "Centre for Aboriginal Economic Policy Research",
-      "profileUrl": "https://researchportalplus.anu.edu.au/en/persons/francis-markham",
-      "tags": [
-        "cass",
-        "centre for aboriginal economic p"
-      ],
-      "linkedCourses": [],
-      "reviewMetrics": [
-        "Clarity",
-        "Support",
-        "Engagement"
-      ]
-    },
-    {
-      "id": "gemma-king",
-      "type": "academic",
-      "name": "Dr Gemma King",
-      "school": "Humanities Research Centre",
-      "schoolCode": "CASS",
-      "college": "CASS",
-      "position": "HRC Adjunct Fellow, Humanities Research Centre",
-      "focus": "Senior Lecturer, French Studies, Languages",
-      "email": "Gemma.King@anu.edu.au",
-      "office": "Humanities Research Centre",
-      "profileUrl": "https://researchportalplus.anu.edu.au/en/persons/gemma-king",
-      "tags": [
-        "cass",
-        "senior lecturer",
-        "french studies",
-        "languages"
-      ],
-      "linkedCourses": [],
-      "reviewMetrics": [
-        "Clarity",
-        "Support",
-        "Engagement"
-      ]
-    },
-    {
-      "id": "geoff-kushnick",
-      "type": "academic",
-      "name": "Dr Geoff Kushnick",
-      "school": "ANU College of Arts and Social Sciences",
-      "schoolCode": "CASS",
-      "college": "CASS",
-      "position": "Lecturer in Biological Anthropology, Biological Anthropology",
-      "focus": "ANU College of Arts and Social Sciences",
-      "email": "geoff.kushnick@anu.edu.au",
-      "office": "ANU College of Arts and Social Sciences",
-      "profileUrl": "https://researchportalplus.anu.edu.au/en/persons/geoff-kushnick",
-      "tags": [
-        "cass",
-        "anu college of arts and social s"
-      ],
-      "linkedCourses": [],
-      "reviewMetrics": [
-        "Clarity",
-        "Support",
-        "Engagement"
-      ]
-    },
-    {
-      "id": "georgia-pike-rowney",
-      "type": "academic",
-      "name": "Dr Georgia Pike-Rowney",
-      "school": "ANU College of Arts and Social Sciences",
-      "schoolCode": "CASS",
-      "college": "CASS",
-      "position": "The Friends' Lecturer in Classics and Curator of the ANU Classics Museum, Classics",
-      "focus": "ANU College of Arts and Social Sciences",
-      "email": "georgia.pike-rowney@anu.edu.au",
-      "office": "ANU College of Arts and Social Sciences",
-      "profileUrl": "https://researchportalplus.anu.edu.au/en/persons/georgia-pike-rowney",
-      "tags": [
-        "cass",
-        "anu college of arts and social s"
-      ],
-      "linkedCourses": [],
-      "reviewMetrics": [
-        "Clarity",
-        "Support",
-        "Engagement"
-      ]
-    },
-    {
-      "id": "gregory-stott",
-      "type": "academic",
-      "name": "Dr Greg Stott",
-      "school": "School of Music",
-      "schoolCode": "CASS",
-      "college": "CASS",
-      "position": "Lecturer, School of Music",
-      "focus": "School of Music",
-      "email": "Gregory.Stott@anu.edu.au",
-      "office": "School of Music",
-      "profileUrl": "https://researchportalplus.anu.edu.au/en/persons/gregory-stott",
-      "tags": [
-        "cass",
-        "school of music"
-      ],
-      "linkedCourses": [],
-      "reviewMetrics": [
-        "Clarity",
-        "Support",
-        "Engagement"
-      ]
-    },
-    {
-      "id": "helen-taylor",
-      "type": "academic",
-      "name": "Dr Helen Taylor",
-      "school": "Criminology Program",
-      "schoolCode": "CASS",
-      "college": "CASS",
-      "position": "Lecturer, Criminology Program",
-      "focus": "Criminology Program",
-      "email": "h.taylor@anu.edu.au",
-      "office": "Criminology Program",
-      "profileUrl": "https://researchportalplus.anu.edu.au/en/persons/helen-taylor",
-      "tags": [
-        "cass",
-        "criminology program"
-      ],
-      "linkedCourses": [],
-      "reviewMetrics": [
-        "Clarity",
-        "Support",
-        "Engagement"
-      ]
-    },
-    {
-      "id": "hilary-howes",
-      "type": "academic",
-      "name": "Dr Hilary Howes",
-      "school": "Centre for Heritage and Museum Studies",
-      "schoolCode": "CASS",
-      "college": "CASS",
-      "position": "Research Fellow, Centre for Heritage and Museum Studies",
-      "focus": "Centre for Heritage and Museum Studies",
-      "email": "Hilary.Howes@anu.edu.au",
-      "office": "Centre for Heritage and Museum Studies",
-      "profileUrl": "https://researchportalplus.anu.edu.au/en/persons/hilary-howes",
-      "tags": [
-        "cass",
-        "centre for heritage and museum s"
-      ],
-      "linkedCourses": [],
-      "reviewMetrics": [
-        "Clarity",
-        "Support",
-        "Engagement"
-      ]
-    },
-    {
-      "id": "abraham-i",
-      "type": "academic",
-      "name": "Dr Ibrahim Abraham",
-      "school": "Humanities Research Centre",
-      "schoolCode": "CASS",
-      "college": "CASS",
-      "position": "Honorary Senior Lecturer, Humanities Research Centre",
-      "focus": "Humanities Research Centre",
-      "email": "ibrahim.abraham@anu.edu.au",
-      "office": "Humanities Research Centre",
-      "profileUrl": "https://researchers.anu.edu.au/researchers/abraham-i",
-      "tags": [
-        "cass",
-        "humanities research centre"
-      ],
-      "linkedCourses": [],
-      "reviewMetrics": [
-        "Clarity",
-        "Support",
-        "Engagement"
-      ]
-    },
-    {
-      "id": "jade-lindley",
-      "type": "academic",
-      "name": "Dr Jade Lindley",
-      "school": "ANU College of Arts and Social Sciences",
-      "schoolCode": "CASS",
-      "college": "CASS",
-      "position": "Associate Professor, Transnational Research Institute on Corruption",
-      "focus": "ANU College of Arts and Social Sciences",
-      "email": "jade.lindley@uwa.edu.au",
-      "office": "ANU College of Arts and Social Sciences",
-      "profileUrl": "https://research-repository.uwa.edu.au/en/persons/jade-lindley",
-      "tags": [
-        "cass",
-        "anu college of arts and social s"
-      ],
-      "linkedCourses": [],
-      "reviewMetrics": [
-        "Clarity",
-        "Support",
-        "Engagement"
-      ]
-    },
-    {
-      "id": "james-odonnell",
-      "type": "academic",
-      "name": "Dr James O'Donnell",
-      "school": "School of Demography",
-      "schoolCode": "CASS",
-      "college": "CASS",
-      "position": "Senior Lecturer, School of Demography",
-      "focus": "School of Demography",
-      "email": "james.odonnell@anu.edu.au",
-      "office": "School of Demography",
-      "profileUrl": "https://researchportalplus.anu.edu.au/en/persons/james-odonnell",
-      "tags": [
-        "cass",
-        "school of demography"
-      ],
-      "linkedCourses": [],
-      "reviewMetrics": [
-        "Clarity",
-        "Support",
-        "Engagement"
-      ]
-    },
-    {
-      "id": "jeffrey-sarmiento",
-      "type": "academic",
-      "name": "Dr Jeffrey Sarmiento",
-      "school": "School of Art & Design",
-      "schoolCode": "CASS",
-      "college": "CASS",
-      "position": "Senior Lecturer, School of Art & Design",
-      "focus": "School of Art & Design",
-      "email": "Jeffrey.Sarmiento@anu.edu.au",
-      "office": "School of Art & Design",
-      "profileUrl": "https://researchportalplus.anu.edu.au/en/persons/jeffrey-sarmiento",
-      "tags": [
-        "cass",
-        "school of art & design"
-      ],
-      "linkedCourses": [],
-      "reviewMetrics": [
-        "Clarity",
-        "Support",
-        "Engagement"
-      ]
-    },
-    {
-      "id": "jessie-moritz",
-      "type": "academic",
-      "name": "Dr Jessie Moritz",
-      "school": "Centre for Arab and Islamic Studies",
-      "schoolCode": "CASS",
-      "college": "CASS",
-      "position": "Senior Lecturer in Political Economy and Comparative Politics (The Arabian Peninsula), Centre for Arab and Islamic Studies",
-      "focus": "Centre for Arab and Islamic Studies",
-      "email": "Jessie.Moritz@anu.edu.au",
-      "office": "Centre for Arab and Islamic Studies",
-      "profileUrl": "https://researchportalplus.anu.edu.au/en/persons/jessie-moritz",
-      "tags": [
-        "cass",
-        "centre for arab and islamic stud"
-      ],
-      "linkedCourses": [],
-      "reviewMetrics": [
-        "Clarity",
-        "Support",
-        "Engagement"
-      ]
-    },
-    {
-      "id": "jos-mulder",
-      "type": "academic",
-      "name": "Dr Johannes (Jos) Mulder",
-      "school": "School of Music",
-      "schoolCode": "CASS",
-      "college": "CASS",
-      "position": "Senior Lecturer, School of Music",
-      "focus": "Convenor of Music Technology, School of Music",
-      "email": "Jos.Mulder@anu.edu.au",
-      "office": "School of Music",
-      "profileUrl": "https://researchportalplus.anu.edu.au/en/persons/jos-mulder",
-      "tags": [
-        "cass",
-        "convenor of music technology",
-        "school of music"
-      ],
-      "linkedCourses": [],
-      "reviewMetrics": [
-        "Clarity",
-        "Support",
-        "Engagement"
-      ]
-    },
-    {
-      "id": "julie-brooke",
-      "type": "academic",
-      "name": "Dr Julie Brooke",
-      "school": "ANU College of Arts and Social Sciences",
-      "schoolCode": "CASS",
-      "college": "CASS",
-      "position": "Research Fellow and Lecturer, Painting",
-      "focus": "ANU College of Arts and Social Sciences",
-      "email": "julie.brooke@anu.edu.au",
-      "office": "ANU College of Arts and Social Sciences",
-      "profileUrl": "https://researchportalplus.anu.edu.au/en/persons/julie-brooke",
-      "tags": [
-        "cass",
-        "anu college of arts and social s"
-      ],
-      "linkedCourses": [],
-      "reviewMetrics": [
-        "Clarity",
-        "Support",
-        "Engagement"
-      ]
-    },
-    {
-      "id": "julie-cunningham",
-      "type": "academic",
-      "name": "Dr Julie Cunningham",
-      "school": "School of Sociology",
-      "schoolCode": "CASS",
-      "college": "CASS",
-      "position": "Postdoctoral Research Fellow, School of Sociology",
-      "focus": "School of Sociology",
-      "email": "Julie.Cunningham@anu.edu.au",
-      "office": "School of Sociology",
-      "profileUrl": "https://researchportalplus.anu.edu.au/en/persons/julie-cunningham",
-      "tags": [
-        "cass",
-        "school of sociology"
-      ],
-      "linkedCourses": [],
-      "reviewMetrics": [
-        "Clarity",
-        "Support",
-        "Engagement"
-      ]
-    },
-    {
-      "id": "julie-lahn",
-      "type": "academic",
-      "name": "Dr Julie Lahn",
-      "school": "Centre for Heritage and Museum Studies",
-      "schoolCode": "CASS",
-      "college": "CASS",
-      "position": "Fellow, Centre for Heritage and Museum Studies",
-      "focus": "Centre for Heritage and Museum Studies",
-      "email": "julie.lahn@anu.edu.au",
-      "office": "Centre for Heritage and Museum Studies",
-      "profileUrl": "https://researchportalplus.anu.edu.au/en/persons/julie-lahn",
-      "tags": [
-        "cass",
-        "centre for heritage and museum s"
-      ],
-      "linkedCourses": [],
-      "reviewMetrics": [
-        "Clarity",
-        "Support",
-        "Engagement"
-      ]
-    },
-    {
-      "id": "karen-fox",
-      "type": "academic",
-      "name": "Dr Karen Fox",
-      "school": "School of History",
-      "schoolCode": "CASS",
-      "college": "CASS",
-      "position": "Senior Lecturer, School of History",
-      "focus": "Senior Academic Research Editor, National Centre of Biography",
-      "email": "karen.fox@anu.edu.au",
-      "office": "School of History",
-      "profileUrl": "https://researchportalplus.anu.edu.au/en/persons/karen-fox",
-      "tags": [
-        "cass",
-        "senior academic research editor",
-        "national centre of biography"
-      ],
-      "linkedCourses": [],
-      "reviewMetrics": [
-        "Clarity",
-        "Support",
-        "Engagement"
-      ]
-    },
-    {
-      "id": "kate-hill-2",
-      "type": "academic",
-      "name": "Dr Kate Hill",
-      "school": "ANU College of Arts and Social Sciences",
-      "schoolCode": "CASS",
-      "college": "CASS",
-      "position": "Lecturer, Ceramics",
-      "focus": "ANU College of Arts and Social Sciences",
-      "email": "Kate.Hill1@anu.edu.au",
-      "office": "ANU College of Arts and Social Sciences",
-      "profileUrl": "https://researchportalplus.anu.edu.au/en/persons/kate-hill-2",
-      "tags": [
-        "cass",
-        "anu college of arts and social s"
-      ],
-      "linkedCourses": [],
-      "reviewMetrics": [
-        "Clarity",
-        "Support",
-        "Engagement"
-      ]
-    },
-    {
-      "id": "kate-warren",
-      "type": "academic",
-      "name": "Dr Kate Warren",
-      "school": "Centre for Art History & Art Theory",
-      "schoolCode": "CASS",
-      "college": "CASS",
-      "position": "Senior Lecturer, Centre for Art History & Art Theory",
-      "focus": "Centre for Art History & Art Theory",
-      "email": "kate.warren@anu.edu.au",
-      "office": "Centre for Art History & Art Theory",
-      "profileUrl": "https://researchportalplus.anu.edu.au/en/persons/kate-warren",
-      "tags": [
-        "cass",
-        "centre for art history & art the"
-      ],
-      "linkedCourses": [],
-      "reviewMetrics": [
-        "Clarity",
-        "Support",
-        "Engagement"
-      ]
-    },
-    {
-      "id": "katharine-balolia",
-      "type": "academic",
-      "name": "Dr Katharine Balolia",
-      "school": "ANU College of Arts and Social Sciences",
-      "schoolCode": "CASS",
-      "college": "CASS",
-      "position": "Senior Lecturer in Biological Anthropology, Biological Anthropology",
-      "focus": "ANU College of Arts and Social Sciences",
-      "email": "katharine.balolia@anu.edu.au",
-      "office": "ANU College of Arts and Social Sciences",
-      "profileUrl": "https://researchportalplus.anu.edu.au/en/persons/katharine-balolia",
-      "tags": [
-        "cass",
-        "anu college of arts and social s"
-      ],
-      "linkedCourses": [],
-      "reviewMetrics": [
-        "Clarity",
-        "Support",
-        "Engagement"
-      ]
-    },
-    {
-      "id": "katherine-curchin",
-      "type": "academic",
-      "name": "Dr Katherine Curchin",
-      "school": "Centre for Social Research and Methods",
-      "schoolCode": "CASS",
-      "college": "CASS",
-      "position": "Honorary Lecturer, Centre for Social Research and Methods",
-      "focus": "Centre for Social Research and Methods",
-      "email": "katherine.curchin@anu.edu.au",
-      "office": "Centre for Social Research and Methods",
-      "profileUrl": "https://researchportalplus.anu.edu.au/en/persons/katherine-curchin",
-      "tags": [
-        "cass",
-        "centre for social research and m"
-      ],
-      "linkedCourses": [],
-      "reviewMetrics": [
-        "Clarity",
-        "Support",
-        "Engagement"
-      ]
-    },
-    {
-      "id": "kate-flaherty",
-      "type": "academic",
-      "name": "Dr Kathryn (Kate) Flaherty",
-      "school": "ANU College of Arts and Social Sciences",
-      "schoolCode": "CASS",
-      "college": "CASS",
-      "position": "Senior Lecturer, English & Drama, English",
-      "focus": "ANU College of Arts and Social Sciences",
-      "email": "kate.flaherty@anu.edu.au",
-      "office": "ANU College of Arts and Social Sciences",
-      "profileUrl": "https://researchportalplus.anu.edu.au/en/persons/kate-flaherty",
-      "tags": [
-        "cass",
-        "anu college of arts and social s"
-      ],
-      "linkedCourses": [],
-      "reviewMetrics": [
-        "Clarity",
-        "Support",
-        "Engagement"
-      ]
-    },
-    {
-      "id": "grant-k",
-      "type": "academic",
-      "name": "Dr Katrina Grant",
-      "school": "Centre for Digital Humanities Research",
-      "schoolCode": "CASS",
-      "college": "CASS",
-      "position": "Lecturer in Digital Humanities, Centre for Digital Humanities Research",
-      "focus": "HRC Adjunct Fellow, Humanities Research Centre",
-      "email": "Katrina.Grant@anu.edu.au",
-      "office": "Centre for Digital Humanities Research",
-      "profileUrl": "https://researchers.anu.edu.au/researchers/grant-k",
-      "tags": [
-        "cass",
-        "hrc adjunct fellow",
-        "humanities research centre"
-      ],
-      "linkedCourses": [],
-      "reviewMetrics": [
-        "Clarity",
-        "Support",
-        "Engagement"
-      ]
-    },
-    {
-      "id": "katrine-beauregard",
-      "type": "academic",
-      "name": "Dr Katrine Beauregard",
-      "school": "School of Politics & International Relations",
-      "schoolCode": "CASS",
-      "college": "CASS",
-      "position": "Senior Lecturer, School of Politics & International Relations",
-      "focus": "Senior Lecturer, School of Politics & International Relations",
-      "email": "Katrine.Beauregard@anu.edu.au",
-      "office": "School of Politics & International Relations",
-      "profileUrl": "https://researchportalplus.anu.edu.au/en/persons/katrine-beauregard",
-      "tags": [
-        "cass",
-        "senior lecturer",
-        "school of politics & internation"
-      ],
-      "linkedCourses": [],
-      "reviewMetrics": [
-        "Clarity",
-        "Support",
-        "Engagement"
-      ]
-    },
-    {
-      "id": "keren-hammerschlag",
-      "type": "academic",
-      "name": "Dr Keren Hammerschlag",
-      "school": "Centre for Art History & Art Theory",
-      "schoolCode": "CASS",
-      "college": "CASS",
-      "position": "Senior Lecturer, Centre for Art History & Art Theory",
-      "focus": "Convenor of Bachelor of Art History and Curatorship (Honours), School of Art & Design, Director, Centre for Art History & Art Theory",
-      "email": "Keren.Hammerschlag@anu.edu.au",
-      "office": "Centre for Art History & Art Theory",
-      "profileUrl": "https://researchportalplus.anu.edu.au/en/persons/keren-hammerschlag",
-      "tags": [
-        "cass",
-        "convenor of bachelor of art hist",
-        "school of art & design",
-        "director"
-      ],
-      "linkedCourses": [],
-      "reviewMetrics": [
-        "Clarity",
-        "Support",
-        "Engagement"
-      ]
-    },
-    {
-      "id": "kirsten-mann",
-      "type": "academic",
-      "name": "Dr Kirsten Mann",
-      "school": "School of Philosophy",
-      "schoolCode": "CASS",
-      "college": "CASS",
-      "position": "Postdoctoral Fellow, School of Philosophy",
-      "focus": "School of Philosophy",
-      "email": "kirsten.mann@anu.edu.au",
-      "office": "School of Philosophy",
-      "profileUrl": "https://researchportalplus.anu.edu.au/en/persons/kirsten-mann",
-      "tags": [
-        "cass",
-        "school of philosophy"
-      ],
-      "linkedCourses": [],
-      "reviewMetrics": [
-        "Clarity",
-        "Support",
-        "Engagement"
-      ]
-    },
-    {
-      "id": "koji-tanaka",
-      "type": "academic",
-      "name": "Dr Koji Tanaka",
-      "school": "School of Philosophy",
-      "schoolCode": "CASS",
-      "college": "CASS",
-      "position": "Senior Lecturer, School of Philosophy",
-      "focus": "School of Philosophy",
-      "email": "koji.tanaka@anu.edu.au",
-      "office": "School of Philosophy",
-      "profileUrl": "https://researchportalplus.anu.edu.au/en/persons/koji-tanaka",
-      "tags": [
-        "cass",
-        "school of philosophy"
-      ],
-      "linkedCourses": [],
-      "reviewMetrics": [
-        "Clarity",
-        "Support",
-        "Engagement"
-      ]
-    },
-    {
-      "id": "kristin-mcgee",
-      "type": "academic",
-      "name": "Dr Kristin McGee",
-      "school": "School of Music",
-      "schoolCode": "CASS",
-      "college": "CASS",
-      "position": "Senior Lecturer, School of Music",
-      "focus": "School of Music",
-      "email": "Kristin.McGee@anu.edu.au",
-      "office": "School of Music",
-      "profileUrl": "https://researchportalplus.anu.edu.au/en/persons/kristin-mcgee",
-      "tags": [
-        "cass",
-        "school of music"
-      ],
-      "linkedCourses": [],
-      "reviewMetrics": [
-        "Clarity",
-        "Support",
-        "Engagement"
-      ]
-    },
-    {
-      "id": "ksenia-gnevsheva",
-      "type": "academic",
-      "name": "Dr Ksenia Gnevsheva",
-      "school": "ANU College of Arts and Social Sciences",
-      "schoolCode": "CASS",
-      "college": "CASS",
-      "position": "Senior Lecturer in Linguistics, Linguistics & Applied Linguistics",
-      "focus": "ANU College of Arts and Social Sciences",
-      "email": "Ksenia.Gnevsheva@anu.edu.au",
-      "office": "ANU College of Arts and Social Sciences",
-      "profileUrl": "https://researchportalplus.anu.edu.au/en/persons/ksenia-gnevsheva",
-      "tags": [
-        "cass",
-        "anu college of arts and social s"
-      ],
-      "linkedCourses": [],
-      "reviewMetrics": [
-        "Clarity",
-        "Support",
-        "Engagement"
-      ]
-    },
-    {
-      "id": "lawrence-bamblett",
-      "type": "academic",
-      "name": "Dr Lawrence Bamblett",
-      "school": "School of History",
-      "schoolCode": "CASS",
-      "college": "CASS",
-      "position": "Senior Lecturer, School of History",
-      "focus": "Director, Australian Centre for Indigenous History",
-      "email": "lawrence.bamblett@anu.edu.au",
-      "office": "School of History",
-      "profileUrl": "https://researchportalplus.anu.edu.au/en/persons/lawrence-bamblett",
-      "tags": [
-        "cass",
-        "director",
-        "australian centre for indigenous"
-      ],
-      "linkedCourses": [],
-      "reviewMetrics": [
-        "Clarity",
-        "Support",
-        "Engagement"
-      ]
-    },
-    {
-      "id": "liz-allen",
-      "type": "academic",
-      "name": "Dr Liz Allen",
-      "school": "Centre for Social Research and Methods",
-      "schoolCode": "CASS",
-      "college": "CASS",
-      "position": "Associate Lecturer, Centre for Social Research and Methods",
-      "focus": "Centre for Social Research and Methods",
-      "email": "liz.allen@anu.edu.au",
-      "office": "Centre for Social Research and Methods",
-      "profileUrl": "https://researchportalplus.anu.edu.au/en/persons/liz-allen",
-      "tags": [
-        "cass",
-        "centre for social research and m"
-      ],
-      "linkedCourses": [],
-      "reviewMetrics": [
-        "Clarity",
-        "Support",
-        "Engagement"
-      ]
-    },
-    {
-      "id": "lu-teng",
-      "type": "academic",
-      "name": "Dr Lu Teng",
-      "school": "School of Philosophy",
-      "schoolCode": "CASS",
-      "college": "CASS",
-      "position": "Lecturer, School of Philosophy",
-      "focus": "School of Philosophy",
-      "email": "Lu.Teng@anu.edu.au",
-      "office": "School of Philosophy",
-      "profileUrl": "https://researchportalplus.anu.edu.au/en/persons/lu-teng",
-      "tags": [
-        "cass",
-        "school of philosophy"
-      ],
-      "linkedCourses": [],
-      "reviewMetrics": [
-        "Clarity",
-        "Support",
-        "Engagement"
-      ]
-    },
-    {
-      "id": "lucy-neave",
-      "type": "academic",
-      "name": "Dr Lucy Neave",
-      "school": "ANU College of Arts and Social Sciences",
-      "schoolCode": "CASS",
-      "college": "CASS",
-      "position": "Senior Lecturer, Creative Writing, English",
-      "focus": "ANU College of Arts and Social Sciences",
-      "email": "lucy.neave@anu.edu.au",
-      "office": "ANU College of Arts and Social Sciences",
-      "profileUrl": "https://researchportalplus.anu.edu.au/en/persons/lucy-neave",
-      "tags": [
-        "cass",
-        "anu college of arts and social s"
-      ],
-      "linkedCourses": [],
-      "reviewMetrics": [
-        "Clarity",
-        "Support",
-        "Engagement"
-      ]
-    },
-    {
-      "id": "malcolm-allbrook",
-      "type": "academic",
-      "name": "Dr Malcolm Allbrook",
-      "school": "School of History",
-      "schoolCode": "CASS",
-      "college": "CASS",
-      "position": "Senior Lecturer, School of History",
-      "focus": "Managing Editor, National Centre of Biography",
-      "email": "malcolm.allbrook@anu.edu.au",
-      "office": "School of History",
-      "profileUrl": "https://researchportalplus.anu.edu.au/en/persons/malcolm-allbrook",
-      "tags": [
-        "cass",
-        "managing editor",
-        "national centre of biography"
-      ],
-      "linkedCourses": [],
-      "reviewMetrics": [
-        "Clarity",
-        "Support",
-        "Engagement"
-      ]
-    },
-    {
-      "id": "mandy-yap",
-      "type": "academic",
-      "name": "Dr Mandy Yap",
-      "school": "Centre for Indigenous Policy Research",
-      "schoolCode": "CASS",
-      "college": "CASS",
-      "position": "Associate Professor, Centre for Indigenous Policy Research",
-      "focus": "Centre for Indigenous Policy Research",
-      "email": "mandy.yap@anu.edu.au",
-      "office": "Centre for Indigenous Policy Research",
-      "profileUrl": "https://researchportalplus.anu.edu.au/en/persons/mandy-yap",
-      "tags": [
-        "cass",
-        "centre for indigenous policy res"
-      ],
-      "linkedCourses": [],
-      "reviewMetrics": [
-        "Clarity",
-        "Support",
-        "Engagement"
-      ]
-    },
-    {
-      "id": "manuel-delicado-cantero",
-      "type": "academic",
-      "name": "Dr Manuel Delicado Cantero",
-      "school": "Spanish Studies",
-      "schoolCode": "CASS",
-      "college": "CASS",
-      "position": "Senior Lecturer, Spanish Studies, Languages",
-      "focus": "Spanish Studies",
-      "email": "manuel.delicado@anu.edu.au",
-      "office": "Spanish Studies",
-      "profileUrl": "https://researchportalplus.anu.edu.au/en/persons/manuel-delicado-cantero",
-      "tags": [
-        "cass",
-        "spanish studies"
-      ],
-      "linkedCourses": [],
-      "reviewMetrics": [
-        "Clarity",
-        "Support",
-        "Engagement"
-      ]
-    },
-    {
-      "id": "marija-taflaga",
-      "type": "academic",
-      "name": "Dr Marija Taflaga",
-      "school": "School of Politics & International Relations",
-      "schoolCode": "CASS",
-      "college": "CASS",
-      "position": "Senior Lecturer, School of Politics & International Relations",
-      "focus": "Senior Lecturer, School of Politics & International Relations",
-      "email": "Marija.Taflaga@anu.edu.au",
-      "office": "School of Politics & International Relations",
-      "profileUrl": "https://researchportalplus.anu.edu.au/en/persons/marija-taflaga",
-      "tags": [
-        "cass",
-        "senior lecturer",
-        "school of politics & internation"
-      ],
-      "linkedCourses": [],
-      "reviewMetrics": [
-        "Clarity",
-        "Support",
-        "Engagement"
-      ]
-    },
-    {
-      "id": "mark-dawson",
-      "type": "academic",
-      "name": "Dr Mark Dawson",
-      "school": "School of History",
-      "schoolCode": "CASS",
-      "college": "CASS",
-      "position": "Honorary Senior Lecturer, School of History",
-      "focus": "School of History",
-      "email": "mark.dawson@anu.edu.au",
-      "office": "School of History",
-      "profileUrl": "https://researchportalplus.anu.edu.au/en/persons/mark-dawson",
-      "tags": [
-        "cass",
-        "school of history"
-      ],
-      "linkedCourses": [],
-      "reviewMetrics": [
-        "Clarity",
-        "Support",
-        "Engagement"
-      ]
-    },
-    {
-      "id": "mathieu-leclerc",
-      "type": "academic",
-      "name": "Dr Mathieu Leclerc",
-      "school": "ANU College of Arts and Social Sciences",
-      "schoolCode": "CASS",
-      "college": "CASS",
-      "position": "Lecturer in Archaeology, Archaeology",
-      "focus": "ANU College of Arts and Social Sciences",
-      "email": "mathieu.leclerc@anu.edu.au",
-      "office": "ANU College of Arts and Social Sciences",
-      "profileUrl": "https://researchportalplus.anu.edu.au/en/persons/mathieu-leclerc",
-      "tags": [
-        "cass",
-        "anu college of arts and social s"
-      ],
-      "linkedCourses": [],
-      "reviewMetrics": [
-        "Clarity",
-        "Support",
-        "Engagement"
-      ]
-    },
-    {
-      "id": "matt-withers",
-      "type": "academic",
-      "name": "Dr Matt Withers",
-      "school": "School of Sociology",
-      "schoolCode": "CASS",
-      "college": "CASS",
-      "position": "Senior Lecturer, School of Sociology",
-      "focus": "School of Sociology",
-      "email": "Matt.Withers@anu.edu.au",
-      "office": "School of Sociology",
-      "profileUrl": "https://researchportalplus.anu.edu.au/en/persons/matt-withers",
-      "tags": [
-        "cass",
-        "school of sociology"
-      ],
-      "linkedCourses": [],
-      "reviewMetrics": [
-        "Clarity",
-        "Support",
-        "Engagement"
-      ]
-    },
-    {
-      "id": "maureen-gallagher",
-      "type": "academic",
-      "name": "Dr Maureen Gallagher",
-      "school": "ANU College of Arts and Social Sciences",
-      "schoolCode": "CASS",
-      "college": "CASS",
-      "position": "Lecturer in German, Languages",
-      "focus": "ANU College of Arts and Social Sciences",
-      "email": "maureen.gallagher@anu.edu.au",
-      "office": "ANU College of Arts and Social Sciences",
-      "profileUrl": "https://researchportalplus.anu.edu.au/en/persons/maureen-gallagher",
-      "tags": [
-        "cass",
-        "anu college of arts and social s"
-      ],
-      "linkedCourses": [],
-      "reviewMetrics": [
-        "Clarity",
-        "Support",
-        "Engagement"
-      ]
-    },
-    {
-      "id": "maya-haviland",
-      "type": "academic",
-      "name": "Dr Maya Haviland",
-      "school": "Centre for Heritage and Museum Studies",
-      "schoolCode": "CASS",
-      "college": "CASS",
-      "position": "Senior Lecturer, Centre for Heritage and Museum Studies",
-      "focus": "Centre for Heritage and Museum Studies",
-      "email": "maya.haviland@anu.edu.au",
-      "office": "Centre for Heritage and Museum Studies",
-      "profileUrl": "https://researchportalplus.anu.edu.au/en/persons/maya-haviland",
-      "tags": [
-        "cass",
-        "centre for heritage and museum s"
-      ],
-      "linkedCourses": [],
-      "reviewMetrics": [
-        "Clarity",
-        "Support",
-        "Engagement"
-      ]
-    },
-    {
-      "id": "meaghan-mcevoy",
-      "type": "academic",
-      "name": "Dr Meaghan McEvoy",
-      "school": "School of History",
-      "schoolCode": "CASS",
-      "college": "CASS",
-      "position": "Senior Lecturer in History, School of History",
-      "focus": "School of History",
-      "email": "Meaghan.McEvoy@anu.edu.au",
-      "office": "School of History",
-      "profileUrl": "https://researchportalplus.anu.edu.au/en/persons/meaghan-mcevoy",
-      "tags": [
-        "cass",
-        "school of history"
-      ],
-      "linkedCourses": [],
-      "reviewMetrics": [
-        "Clarity",
-        "Support",
-        "Engagement"
-      ]
-    },
-    {
-      "id": "melissa-lovell",
-      "type": "academic",
-      "name": "Dr Melissa Lovell",
-      "school": "ANU College of Arts and Social Sciences",
-      "schoolCode": "CASS",
-      "college": "CASS",
-      "position": "Convenor and Research Fellow, Freilich Project for the Study of Bigotry",
-      "focus": "ANU College of Arts and Social Sciences",
-      "email": "melissa.lovell@anu.edu.au",
-      "office": "ANU College of Arts and Social Sciences",
-      "profileUrl": "https://researchportalplus.anu.edu.au/en/persons/melissa-lovell",
-      "tags": [
-        "cass",
-        "anu college of arts and social s"
-      ],
-      "linkedCourses": [],
-      "reviewMetrics": [
-        "Clarity",
-        "Support",
-        "Engagement"
-      ]
-    },
-    {
-      "id": "mike-roettger",
-      "type": "academic",
-      "name": "Dr Michael Roettger",
-      "school": "School of Demography",
-      "schoolCode": "CASS",
-      "college": "CASS",
-      "position": "Senior Lecturer, School of Demography",
-      "focus": "School of Demography",
-      "email": "mike.roettger@anu.edu.au",
-      "office": "School of Demography",
-      "profileUrl": "https://researchportalplus.anu.edu.au/en/persons/mike-roettger",
-      "tags": [
-        "cass",
-        "school of demography"
-      ],
-      "linkedCourses": [],
-      "reviewMetrics": [
-        "Clarity",
-        "Support",
-        "Engagement"
-      ]
-    },
-    {
-      "id": "michael-zekulin",
-      "type": "academic",
-      "name": "Dr Michael Zekulin",
-      "school": "School of Politics & International Relations",
-      "schoolCode": "CASS",
-      "college": "CASS",
-      "position": "Senior Lecturer, School of Politics & International Relations",
-      "focus": "School of Politics & International Relations",
-      "email": "Michael.Zekulin@anu.edu.au",
-      "office": "School of Politics & International Relations",
-      "profileUrl": "https://researchportalplus.anu.edu.au/en/persons/michael-zekulin",
-      "tags": [
-        "cass",
-        "school of politics & internation"
-      ],
-      "linkedCourses": [],
-      "reviewMetrics": [
-        "Clarity",
-        "Support",
-        "Engagement"
-      ]
-    },
-    {
-      "id": "millicent-weber",
-      "type": "academic",
-      "name": "Dr Millicent Weber",
-      "school": "ANU College of Arts and Social Sciences",
-      "schoolCode": "CASS",
-      "college": "CASS",
-      "position": "Lecturer in English, English",
-      "focus": "ANU College of Arts and Social Sciences",
-      "email": "millicent.weber@anu.edu.au",
-      "office": "ANU College of Arts and Social Sciences",
-      "profileUrl": "https://researchportalplus.anu.edu.au/en/persons/millicent-weber",
-      "tags": [
-        "cass",
-        "anu college of arts and social s"
-      ],
-      "linkedCourses": [],
-      "reviewMetrics": [
-        "Clarity",
-        "Support",
-        "Engagement"
-      ]
-    },
-    {
-      "id": "mohammed-alsudairi",
-      "type": "academic",
-      "name": "Dr Mohammed Alsudairi",
-      "school": "Centre for Arab and Islamic Studies",
-      "schoolCode": "CASS",
-      "college": "CASS",
-      "position": "Lecturer in Politics and International Relations (The Arabian Peninsula, China and the Middle East), Centre for Arab and Islamic Studies",
-      "focus": "Centre for Arab and Islamic Studies",
-      "email": "Mohammed.Alsudairi@anu.edu.au",
-      "office": "Centre for Arab and Islamic Studies",
-      "profileUrl": "https://researchportalplus.anu.edu.au/en/persons/mohammed-alsudairi",
-      "tags": [
-        "cass",
-        "centre for arab and islamic stud"
-      ],
-      "linkedCourses": [],
-      "reviewMetrics": [
-        "Clarity",
-        "Support",
-        "Engagement"
-      ]
-    },
-    {
-      "id": "monique-rooney",
-      "type": "academic",
-      "name": "Dr Monique Rooney",
-      "school": "ANU College of Arts and Social Sciences",
-      "schoolCode": "CASS",
-      "college": "CASS",
-      "position": "Senior Lecturer, English & Drama, English",
-      "focus": "ANU College of Arts and Social Sciences",
-      "email": "monique.rooney@anu.edu.au",
-      "office": "ANU College of Arts and Social Sciences",
-      "profileUrl": "https://researchportalplus.anu.edu.au/en/persons/monique-rooney",
-      "tags": [
-        "cass",
-        "anu college of arts and social s"
-      ],
-      "linkedCourses": [],
-      "reviewMetrics": [
-        "Clarity",
-        "Support",
-        "Engagement"
-      ]
-    },
-    {
-      "id": "naomi-hay",
-      "type": "academic",
-      "name": "Dr Naomi Hay",
-      "school": "ANU College of Arts and Social Sciences",
-      "schoolCode": "CASS",
-      "college": "CASS",
-      "position": "Lecturer, Design",
-      "focus": "ANU College of Arts and Social Sciences",
-      "email": "Naomi.Hay@anu.edu.au",
-      "office": "ANU College of Arts and Social Sciences",
-      "profileUrl": "https://researchportalplus.anu.edu.au/en/persons/naomi-hay",
-      "tags": [
-        "cass",
-        "anu college of arts and social s"
-      ],
-      "linkedCourses": [],
-      "reviewMetrics": [
-        "Clarity",
-        "Support",
-        "Engagement"
-      ]
-    },
-    {
-      "id": "nuhu-osman-attah",
-      "type": "academic",
-      "name": "Dr Nuhu Osman Attah",
-      "school": "School of Philosophy",
-      "schoolCode": "CASS",
-      "college": "CASS",
-      "position": "Research Fellow, School of Philosophy",
-      "focus": "School of Philosophy",
-      "email": "nuhu.osmanattah@anu.edu.au",
-      "office": "School of Philosophy",
-      "profileUrl": "https://researchportalplus.anu.edu.au/en/persons/nuhu-osman-attah",
-      "tags": [
-        "cass",
-        "school of philosophy"
-      ],
-      "linkedCourses": [],
-      "reviewMetrics": [
-        "Clarity",
-        "Support",
-        "Engagement"
-      ]
-    },
-    {
-      "id": "pandanus-petter",
-      "type": "academic",
-      "name": "Dr Pandanus Petter",
-      "school": "School of Politics & International Relations",
-      "schoolCode": "CASS",
-      "college": "CASS",
-      "position": "Academic, School of Politics & International Relations",
-      "focus": "School of Politics & International Relations",
-      "email": "pandanus.petter@anu.edu.au",
-      "office": "School of Politics & International Relations",
-      "profileUrl": "https://researchportalplus.anu.edu.au/en/persons/pandanus-petter",
-      "tags": [
-        "cass",
-        "school of politics & internation"
-      ],
-      "linkedCourses": [],
-      "reviewMetrics": [
-        "Clarity",
-        "Support",
-        "Engagement"
-      ]
-    },
-    {
-      "id": "pat-ogrady",
-      "type": "academic",
-      "name": "Dr Pat O'Grady",
-      "school": "School of Music",
-      "schoolCode": "CASS",
-      "college": "CASS",
-      "position": "Senior Lecturer, School of Music",
-      "focus": "Honours and Graduate Coursework Convenor, School of Music, Contemporary Music Production Convenor, School of Music",
-      "email": "Pat.OGrady@anu.edu.au",
-      "office": "School of Music",
-      "profileUrl": "https://researchportalplus.anu.edu.au/en/persons/pat-ogrady",
-      "tags": [
-        "cass",
-        "honours and graduate coursework ",
-        "school of music",
-        "contemporary music production co"
-      ],
-      "linkedCourses": [],
-      "reviewMetrics": [
-        "Clarity",
-        "Support",
-        "Engagement"
-      ]
-    },
-    {
-      "id": "patrick-leslie",
-      "type": "academic",
-      "name": "Dr Patrick Leslie",
-      "school": "School of Politics & International Relations",
-      "schoolCode": "CASS",
-      "college": "CASS",
-      "position": "Associate Lecturer, School of Politics & International Relations",
-      "focus": "School of Politics & International Relations",
-      "email": "Patrick.Leslie@anu.edu.au",
-      "office": "School of Politics & International Relations",
-      "profileUrl": "https://researchportalplus.anu.edu.au/en/persons/patrick-leslie",
-      "tags": [
-        "cass",
-        "school of politics & internation"
-      ],
-      "linkedCourses": [],
-      "reviewMetrics": [
-        "Clarity",
-        "Support",
-        "Engagement"
-      ]
-    },
-    {
-      "id": "peter-alwast",
-      "type": "academic",
-      "name": "Dr Peter Alwast",
-      "school": "ANU College of Arts and Social Sciences",
-      "schoolCode": "CASS",
-      "college": "CASS",
-      "position": "Senior Lecturer, Painting",
-      "focus": "Senior Lecturer, Painting, Chair of Gallery Committee, School of Art & Design",
-      "email": "peter.alwast@anu.edu.au",
-      "office": "ANU College of Arts and Social Sciences",
-      "profileUrl": "https://researchportalplus.anu.edu.au/en/persons/peter-alwast",
-      "tags": [
-        "cass",
-        "senior lecturer",
-        "painting",
-        "chair of gallery committee"
-      ],
-      "linkedCourses": [],
-      "reviewMetrics": [
-        "Clarity",
-        "Support",
-        "Engagement"
-      ]
-    },
-    {
-      "id": "petra-vaiglova",
-      "type": "academic",
-      "name": "Dr Petra Vaiglova",
-      "school": "ANU College of Arts and Social Sciences",
-      "schoolCode": "CASS",
-      "college": "CASS",
-      "position": "Lecturer in Archaeology, Archaeology",
-      "focus": "ANU College of Arts and Social Sciences",
-      "email": "Petra.Vaiglova@anu.edu.au",
-      "office": "ANU College of Arts and Social Sciences",
-      "profileUrl": "https://researchportalplus.anu.edu.au/en/persons/petra-vaiglova",
-      "tags": [
-        "cass",
-        "anu college of arts and social s"
-      ],
-      "linkedCourses": [],
-      "reviewMetrics": [
-        "Clarity",
-        "Support",
-        "Engagement"
-      ]
-    },
-    {
-      "id": "pia-van-gelder",
-      "type": "academic",
-      "name": "Dr Pia van Gelder",
-      "school": "ANU College of Arts and Social Sciences",
-      "schoolCode": "CASS",
-      "college": "CASS",
-      "position": "Lecturer, Design",
-      "focus": "ANU College of Arts and Social Sciences",
-      "email": "pia.vangelder@anu.edu.au",
-      "office": "ANU College of Arts and Social Sciences",
-      "profileUrl": "https://researchportalplus.anu.edu.au/en/persons/pia-van-gelder",
-      "tags": [
-        "cass",
-        "anu college of arts and social s"
-      ],
-      "linkedCourses": [],
-      "reviewMetrics": [
-        "Clarity",
-        "Support",
-        "Engagement"
-      ]
-    },
-    {
-      "id": "rachael-thoms",
-      "type": "academic",
-      "name": "Dr Rachael Thoms",
-      "school": "School of Music",
-      "schoolCode": "CASS",
-      "college": "CASS",
-      "position": "Associate Lecturer, School of Music",
-      "focus": "Performance Convenor, School of Music",
-      "email": "Rachael.Thoms@anu.edu.au",
-      "office": "School of Music",
-      "profileUrl": "https://researchportalplus.anu.edu.au/en/persons/rachael-thoms",
-      "tags": [
-        "cass",
-        "performance convenor",
-        "school of music"
-      ],
-      "linkedCourses": [],
-      "reviewMetrics": [
-        "Clarity",
-        "Support",
-        "Engagement"
-      ]
-    },
-    {
-      "id": "raquel-ormella",
-      "type": "academic",
-      "name": "Dr Raquel Ormella",
-      "school": "ANU College of Arts and Social Sciences",
-      "schoolCode": "CASS",
-      "college": "CASS",
-      "position": "Senior Lecturer, Painting",
-      "focus": "ANU College of Arts and Social Sciences",
-      "email": "raquel.ormella@anu.edu.au",
-      "office": "ANU College of Arts and Social Sciences",
-      "profileUrl": "https://researchportalplus.anu.edu.au/en/persons/raquel-ormella",
-      "tags": [
-        "cass",
-        "anu college of arts and social s"
-      ],
-      "linkedCourses": [],
-      "reviewMetrics": [
-        "Clarity",
-        "Support",
-        "Engagement"
-      ]
-    },
-    {
-      "id": "rebecca-clode",
-      "type": "academic",
-      "name": "Dr Rebecca Clode",
-      "school": "ANU College of Arts and Social Sciences",
-      "schoolCode": "CASS",
-      "college": "CASS",
-      "position": "Ethel Tory Lecturer, Drama, English",
-      "focus": "ANU College of Arts and Social Sciences",
-      "email": "rebecca.clode@anu.edu.au",
-      "office": "ANU College of Arts and Social Sciences",
-      "profileUrl": "https://researchportalplus.anu.edu.au/en/persons/rebecca-clode",
-      "tags": [
-        "cass",
-        "anu college of arts and social s"
-      ],
-      "linkedCourses": [],
-      "reviewMetrics": [
-        "Clarity",
-        "Support",
-        "Engagement"
-      ]
-    },
-    {
-      "id": "rebecca-mayo",
-      "type": "academic",
-      "name": "Dr Rebecca Mayo",
-      "school": "School of Art & Design",
-      "schoolCode": "CASS",
-      "college": "CASS",
-      "position": "Senior Lecturer, School of Art & Design",
-      "focus": "Senior Lecturer, School of Art & Design, Executive Committee Member, School of Art & Design",
-      "email": "rebecca.mayo@anu.edu.au",
-      "office": "School of Art & Design",
-      "profileUrl": "https://researchportalplus.anu.edu.au/en/persons/rebecca-mayo",
-      "tags": [
-        "cass",
-        "senior lecturer",
-        "school of art & design",
-        "executive committee member"
-      ],
-      "linkedCourses": [],
-      "reviewMetrics": [
-        "Clarity",
-        "Support",
-        "Engagement"
-      ]
-    },
-    {
-      "id": "beck-pearse",
-      "type": "academic",
-      "name": "Dr Rebecca Pearse",
-      "school": "School of Sociology",
-      "schoolCode": "CASS",
-      "college": "CASS",
-      "position": "Senior Lecturer, School of Sociology",
-      "focus": "School of Sociology",
-      "email": "Rebecca.Pearse@anu.edu.au",
-      "office": "School of Sociology",
-      "profileUrl": "https://researchportalplus.anu.edu.au/en/persons/beck-pearse",
-      "tags": [
-        "cass",
-        "school of sociology"
-      ],
-      "linkedCourses": [],
-      "reviewMetrics": [
-        "Clarity",
-        "Support",
-        "Engagement"
-      ]
-    },
-    {
-      "id": "richard-frank",
-      "type": "academic",
-      "name": "Dr Richard W Frank",
-      "school": "School of Politics & International Relations",
-      "schoolCode": "CASS",
-      "college": "CASS",
-      "position": "Senior Lecturer, School of Politics & International Relations",
-      "focus": "Deputy Head of School, School of Politics & International Relations",
-      "email": "Richard.Frank@anu.edu.au",
-      "office": "School of Politics & International Relations",
-      "profileUrl": "https://researchportalplus.anu.edu.au/en/persons/richard-frank",
-      "tags": [
-        "cass",
-        "deputy head of school",
-        "school of politics & internation"
-      ],
-      "linkedCourses": [],
-      "reviewMetrics": [
-        "Clarity",
-        "Support",
-        "Engagement"
-      ]
-    },
-    {
-      "id": "rob-bray",
-      "type": "academic",
-      "name": "Dr Rob Bray",
-      "school": "Centre for Social Research and Methods",
-      "schoolCode": "CASS",
-      "college": "CASS",
-      "position": "Research Fellow, Centre for Social Research and Methods",
-      "focus": "Centre for Social Research and Methods",
-      "email": "rob.bray@anu.edu.au",
-      "office": "Centre for Social Research and Methods",
-      "profileUrl": "https://researchportalplus.anu.edu.au/en/persons/rob-bray",
-      "tags": [
-        "cass",
-        "centre for social research and m"
-      ],
-      "linkedCourses": [],
-      "reviewMetrics": [
-        "Clarity",
-        "Support",
-        "Engagement"
-      ]
-    },
-    {
-      "id": "rosey-billington",
-      "type": "academic",
-      "name": "Dr Rosey Billington",
-      "school": "ANU College of Arts and Social Sciences",
-      "schoolCode": "CASS",
-      "college": "CASS",
-      "position": "Lecturer in Linguistics, Linguistics & Applied Linguistics",
-      "focus": "ANU College of Arts and Social Sciences",
-      "email": "rosey.billington@anu.edu.au",
-      "office": "ANU College of Arts and Social Sciences",
-      "profileUrl": "https://researchportalplus.anu.edu.au/en/persons/rosey-billington",
-      "tags": [
-        "cass",
-        "anu college of arts and social s"
-      ],
-      "linkedCourses": [],
-      "reviewMetrics": [
-        "Clarity",
-        "Support",
-        "Engagement"
-      ]
-    },
-    {
-      "id": "russell-smith",
-      "type": "academic",
-      "name": "Dr Russell Smith",
-      "school": "ANU College of Arts and Social Sciences",
-      "schoolCode": "CASS",
-      "college": "CASS",
-      "position": "Lecturer, English & Drama, English",
-      "focus": "ANU College of Arts and Social Sciences",
-      "email": "russell.smith@anu.edu.au",
-      "office": "ANU College of Arts and Social Sciences",
-      "profileUrl": "https://researchportalplus.anu.edu.au/en/persons/russell-smith",
-      "tags": [
-        "cass",
-        "anu college of arts and social s"
-      ],
-      "linkedCourses": [],
-      "reviewMetrics": [
-        "Clarity",
-        "Support",
-        "Engagement"
-      ]
-    },
-    {
-      "id": "anna-florin",
-      "type": "academic",
-      "name": "Dr S. Anna Florin",
-      "school": "ANU College of Arts and Social Sciences",
-      "schoolCode": "CASS",
-      "college": "CASS",
-      "position": "Lecturer in Archaeology, Archaeology",
-      "focus": "ANU College of Arts and Social Sciences",
-      "email": "Anna.Florin@anu.edu.au",
-      "office": "ANU College of Arts and Social Sciences",
-      "profileUrl": "https://researchportalplus.anu.edu.au/en/persons/anna-florin",
-      "tags": [
-        "cass",
-        "anu college of arts and social s"
-      ],
-      "linkedCourses": [],
-      "reviewMetrics": [
-        "Clarity",
-        "Support",
-        "Engagement"
-      ]
-    },
-    {
-      "id": "sameera-chauhan",
-      "type": "academic",
-      "name": "Dr Sameera Chauhan",
-      "school": "School of History",
-      "schoolCode": "CASS",
-      "college": "CASS",
-      "position": "Associate Lecturer, School of History",
-      "focus": "School of History",
-      "email": "Sameera.Chauhan@anu.edu.au",
-      "office": "School of History",
-      "profileUrl": "https://researchportalplus.anu.edu.au/en/persons/sameera-chauhan/",
-      "tags": [
-        "cass",
-        "school of history"
-      ],
-      "linkedCourses": [],
-      "reviewMetrics": [
-        "Clarity",
-        "Support",
-        "Engagement"
-      ]
-    },
-    {
-      "id": "sam-furphy",
-      "type": "academic",
-      "name": "Dr Samuel Furphy",
-      "school": "School of History",
-      "schoolCode": "CASS",
-      "college": "CASS",
-      "position": "Senior Lecturer, School of History",
-      "focus": "Senior Academic Research Editor, National Centre of Biography",
-      "email": "samuel.furphy@anu.edu.au",
-      "office": "School of History",
-      "profileUrl": "https://researchportalplus.anu.edu.au/en/persons/sam-furphy",
-      "tags": [
-        "cass",
-        "senior academic research editor",
-        "national centre of biography"
-      ],
-      "linkedCourses": [],
-      "reviewMetrics": [
-        "Clarity",
-        "Support",
-        "Engagement"
-      ]
-    },
-    {
-      "id": "sarahrodigari.org",
-      "type": "academic",
-      "name": "Dr Sarah Rodigari",
-      "school": "School of Art & Design",
-      "schoolCode": "CASS",
-      "college": "CASS",
-      "position": "Lecturer, School of Art & Design",
-      "focus": "School of Art & Design",
-      "email": "Sarah.Rodigari@anu.edu.au",
-      "office": "School of Art & Design",
-      "profileUrl": "https://sarahrodigari.org/",
-      "tags": [
-        "cass",
-        "school of art & design"
-      ],
-      "linkedCourses": [],
-      "reviewMetrics": [
-        "Clarity",
-        "Support",
-        "Engagement"
-      ]
-    },
-    {
-      "id": "sarah-scott",
-      "type": "academic",
-      "name": "Dr Sarah Scott",
-      "school": "Centre for Art History & Art Theory",
-      "schoolCode": "CASS",
-      "college": "CASS",
-      "position": "Lecturer, Centre for Art History & Art Theory",
-      "focus": "Centre for Art History & Art Theory",
-      "email": "sarah.scott@anu.edu.au",
-      "office": "Centre for Art History & Art Theory",
-      "profileUrl": "https://researchportalplus.anu.edu.au/en/persons/sarah-scott",
-      "tags": [
-        "cass",
-        "centre for art history & art the"
-      ],
-      "linkedCourses": [],
-      "reviewMetrics": [
-        "Clarity",
-        "Support",
-        "Engagement"
-      ]
-    },
-    {
-      "id": "sarah-jane-burton",
-      "type": "academic",
-      "name": "Dr Sarah-Jane Burton",
-      "school": "ANU College of Arts and Social Sciences",
-      "schoolCode": "CASS",
-      "college": "CASS",
-      "position": "Research Fellow, English, English",
-      "focus": "ANU College of Arts and Social Sciences",
-      "email": "sj.burton@anu.edu.au",
-      "office": "ANU College of Arts and Social Sciences",
-      "profileUrl": "https://researchportalplus.anu.edu.au/en/persons/sarah-jane-burton",
-      "tags": [
-        "cass",
-        "anu college of arts and social s"
-      ],
-      "linkedCourses": [],
-      "reviewMetrics": [
-        "Clarity",
-        "Support",
-        "Engagement"
-      ]
-    },
-    {
-      "id": "scott-davie",
-      "type": "academic",
-      "name": "Dr Scott Davie",
-      "school": "School of Music",
-      "schoolCode": "CASS",
-      "college": "CASS",
-      "position": "Senior Lecturer, School of Music",
-      "focus": "School of Music",
-      "email": "scott.davie@anu.edu.au",
-      "office": "School of Music",
-      "profileUrl": "https://researchportalplus.anu.edu.au/en/persons/scott-davie",
-      "tags": [
-        "cass",
-        "school of music"
-      ],
-      "linkedCourses": [],
-      "reviewMetrics": [
-        "Clarity",
-        "Support",
-        "Engagement"
-      ]
-    },
-    {
-      "id": "sergey-timonin",
-      "type": "academic",
-      "name": "Dr Sergey Timonin",
-      "school": "School of Demography",
-      "schoolCode": "CASS",
-      "college": "CASS",
-      "position": "Research Fellow, School of Demography",
-      "focus": "School of Demography",
-      "email": "Sergey.Timonin@anu.edu.au",
-      "office": "School of Demography",
-      "profileUrl": "https://researchportalplus.anu.edu.au/en/persons/sergey-timonin",
-      "tags": [
-        "cass",
-        "school of demography"
-      ],
-      "linkedCourses": [],
-      "reviewMetrics": [
-        "Clarity",
-        "Support",
-        "Engagement"
-      ]
-    },
-    {
-      "id": "shawn-treier",
-      "type": "academic",
-      "name": "Dr Shawn Treier",
-      "school": "School of Politics & International Relations",
-      "schoolCode": "CASS",
-      "college": "CASS",
-      "position": "Senior Lecturer, School of Politics & International Relations",
-      "focus": "School of Politics & International Relations",
-      "email": "Shawn.Treier@anu.edu.au",
-      "office": "School of Politics & International Relations",
-      "profileUrl": "https://researchportalplus.anu.edu.au/en/persons/shawn-treier",
-      "tags": [
-        "cass",
-        "school of politics & internation"
-      ],
-      "linkedCourses": [],
-      "reviewMetrics": [
-        "Clarity",
-        "Support",
-        "Engagement"
-      ]
-    },
-    {
-      "id": "simona-martorana",
-      "type": "academic",
-      "name": "Dr Simona Martorana",
-      "school": "ANU College of Arts and Social Sciences",
-      "schoolCode": "CASS",
-      "college": "CASS",
-      "position": "Lecturer in Classics, Classics",
-      "focus": "ANU College of Arts and Social Sciences",
-      "email": "Simona.Martorana@anu.edu.au",
-      "office": "ANU College of Arts and Social Sciences",
-      "profileUrl": "https://researchportalplus.anu.edu.au/en/persons/simona-martorana",
-      "tags": [
-        "cass",
-        "anu college of arts and social s"
-      ],
-      "linkedCourses": [],
-      "reviewMetrics": [
-        "Clarity",
-        "Support",
-        "Engagement"
-      ]
-    },
-    {
-      "id": "solene-inceoglu",
-      "type": "academic",
-      "name": "Dr Solène Inceoglu",
-      "school": "ANU College of Arts and Social Sciences",
-      "schoolCode": "CASS",
-      "college": "CASS",
-      "position": "Senior Lecturer, French, Languages",
-      "focus": "ANU College of Arts and Social Sciences",
-      "email": "Solene.Inceoglu@anu.edu.au",
-      "office": "ANU College of Arts and Social Sciences",
-      "profileUrl": "https://researchportalplus.anu.edu.au/en/persons/solene-inceoglu",
-      "tags": [
-        "cass",
-        "anu college of arts and social s"
-      ],
-      "linkedCourses": [],
-      "reviewMetrics": [
-        "Clarity",
-        "Support",
-        "Engagement"
-      ]
-    },
-    {
-      "id": "ward-sx?term=Stacey",
-      "type": "academic",
-      "name": "Dr Stacey Ward",
-      "school": "ANU College of Arts and Social Sciences",
-      "schoolCode": "CASS",
-      "college": "CASS",
-      "position": "Lecturer in Biological Anthropology, Biological Anthropology",
-      "focus": "ANU College of Arts and Social Sciences",
-      "email": "Stacey.Ward@anu.edu.au",
-      "office": "ANU College of Arts and Social Sciences",
-      "profileUrl": "https://researchers.anu.edu.au/researchers/ward-sx?term=Stacey",
-      "tags": [
-        "cass",
-        "anu college of arts and social s"
-      ],
-      "linkedCourses": [],
-      "reviewMetrics": [
-        "Clarity",
-        "Support",
-        "Engagement"
-      ]
-    },
-    {
-      "id": "stephen-wilks",
-      "type": "academic",
-      "name": "Dr Stephen Wilks",
-      "school": "School of History",
-      "schoolCode": "CASS",
-      "college": "CASS",
-      "position": "Academic Research Editor, School of History",
-      "focus": "Academic Research Editor, National Centre of Biography",
-      "email": "stephen.wilks@anu.edu.au",
-      "office": "School of History",
-      "profileUrl": "https://researchportalplus.anu.edu.au/en/persons/stephen-wilks",
-      "tags": [
-        "cass",
-        "academic research editor",
-        "national centre of biography"
-      ],
-      "linkedCourses": [],
-      "reviewMetrics": [
-        "Clarity",
-        "Support",
-        "Engagement"
-      ]
-    },
-    {
-      "id": "susy-macqueen",
-      "type": "academic",
-      "name": "Dr Susy Macqueen",
-      "school": "ANU College of Arts and Social Sciences",
-      "schoolCode": "CASS",
-      "college": "CASS",
-      "position": "Associate Professor, Linguistics & Applied Linguistics",
-      "focus": "ANU College of Arts and Social Sciences",
-      "email": "susy.macqueen@anu.edu.au",
-      "office": "ANU College of Arts and Social Sciences",
-      "profileUrl": "https://researchportalplus.anu.edu.au/en/persons/susy-macqueen",
-      "tags": [
-        "cass",
-        "anu college of arts and social s"
-      ],
-      "linkedCourses": [],
-      "reviewMetrics": [
-        "Clarity",
-        "Support",
-        "Engagement"
-      ]
-    },
-    {
-      "id": "svitlana-chernykh",
-      "type": "academic",
-      "name": "Dr Svitlana Chernykh",
-      "school": "School of Politics & International Relations",
-      "schoolCode": "CASS",
-      "college": "CASS",
-      "position": "Senior Lecturer, School of Politics & International Relations",
-      "focus": "School of Politics & International Relations",
-      "email": "Svitlana.Chernykh@anu.edu.au",
-      "office": "School of Politics & International Relations",
-      "profileUrl": "https://researchportalplus.anu.edu.au/en/persons/svitlana-chernykh",
-      "tags": [
-        "cass",
-        "school of politics & internation"
-      ],
-      "linkedCourses": [],
-      "reviewMetrics": [
-        "Clarity",
-        "Support",
-        "Engagement"
-      ]
-    },
-    {
-      "id": "tatiana-bur",
-      "type": "academic",
-      "name": "Dr Tatiana Bur",
-      "school": "ANU College of Arts and Social Sciences",
-      "schoolCode": "CASS",
-      "college": "CASS",
-      "position": "Lecturer in Classics, Classics",
-      "focus": "ANU College of Arts and Social Sciences",
-      "email": "tatiana.bur@anu.edu.au",
-      "office": "ANU College of Arts and Social Sciences",
-      "profileUrl": "https://researchportalplus.anu.edu.au/en/persons/tatiana-bur",
-      "tags": [
-        "cass",
-        "anu college of arts and social s"
-      ],
-      "linkedCourses": [],
-      "reviewMetrics": [
-        "Clarity",
-        "Support",
-        "Engagement"
-      ]
-    },
-    {
-      "id": "terhi-nurmikko-fuller",
-      "type": "academic",
-      "name": "Dr Terhi Nurmikko-Fuller",
-      "school": "Centre for Digital Humanities Research",
-      "schoolCode": "CASS",
-      "college": "CASS",
-      "position": "Lecturer in Digital Humanities, Centre for Digital Humanities Research",
-      "focus": "Centre for Digital Humanities Research",
-      "email": "Terhi.Nurmikko-Fuller@anu.edu.au",
-      "office": "Centre for Digital Humanities Research",
-      "profileUrl": "https://researchportalplus.anu.edu.au/en/persons/terhi-nurmikko-fuller",
-      "tags": [
-        "cass",
-        "centre for digital humanities re"
-      ],
-      "linkedCourses": [],
-      "reviewMetrics": [
-        "Clarity",
-        "Support",
-        "Engagement"
-      ]
-    },
-    {
-      "id": "thao-phan",
-      "type": "academic",
-      "name": "Dr Thao Phan",
-      "school": "School of Sociology",
-      "schoolCode": "CASS",
-      "college": "CASS",
-      "position": "Lecturer, School of Sociology",
-      "focus": "School of Sociology",
-      "email": "Thao.Phan@anu.edu.au",
-      "office": "School of Sociology",
-      "profileUrl": "https://researchportalplus.anu.edu.au/en/persons/thao-phan",
-      "tags": [
-        "cass",
-        "school of sociology"
-      ],
-      "linkedCourses": [],
-      "reviewMetrics": [
-        "Clarity",
-        "Support",
-        "Engagement"
-      ]
-    },
-    {
-      "id": "thomas-nulley-valdes",
-      "type": "academic",
-      "name": "Dr Thomas Nulley-Valdés",
-      "school": "ANU College of Arts and Social Sciences",
-      "schoolCode": "CASS",
-      "college": "CASS",
-      "position": "Lecturer in Spanish Studies, Languages",
-      "focus": "ANU College of Arts and Social Sciences",
-      "email": "thomas.nulley-valdes@anu.edu.au",
-      "office": "ANU College of Arts and Social Sciences",
-      "profileUrl": "https://researchportalplus.anu.edu.au/en/persons/thomas-nulley-valdes",
-      "tags": [
-        "cass",
-        "anu college of arts and social s"
-      ],
-      "linkedCourses": [],
-      "reviewMetrics": [
-        "Clarity",
-        "Support",
-        "Engagement"
-      ]
-    },
-    {
-      "id": "thomas-laue",
-      "type": "academic",
-      "name": "Dr Thomas Peter Laue",
-      "school": "School of Music",
-      "schoolCode": "CASS",
-      "college": "CASS",
-      "position": "Lecturer, School of Music",
-      "focus": "School of Music",
-      "email": "thomas.laue@anu.edu.au",
-      "office": "School of Music",
-      "profileUrl": "https://researchportalplus.anu.edu.au/en/persons/thomas-laue",
-      "tags": [
-        "cass",
-        "school of music"
-      ],
-      "linkedCourses": [],
-      "reviewMetrics": [
-        "Clarity",
-        "Support",
-        "Engagement"
-      ]
-    },
-    {
-      "id": "tim-heffernan",
-      "type": "academic",
-      "name": "Dr Tim Heffernan",
-      "school": "ANU College of Arts and Social Sciences",
-      "schoolCode": "CASS",
-      "college": "CASS",
-      "position": "Lecturer in Anthropology, Anthropology",
-      "focus": "ANU College of Arts and Social Sciences",
-      "email": "tim.heffernan@anu.edu.au",
-      "office": "ANU College of Arts and Social Sciences",
-      "profileUrl": "https://researchportalplus.anu.edu.au/en/persons/tim-heffernan",
-      "tags": [
-        "cass",
-        "anu college of arts and social s"
-      ],
-      "linkedCourses": [],
-      "reviewMetrics": [
-        "Clarity",
-        "Support",
-        "Engagement"
-      ]
-    },
-    {
-      "id": "tim-mclellan",
-      "type": "academic",
-      "name": "Dr Tim McLellan",
-      "school": "ANU College of Arts and Social Sciences",
-      "schoolCode": "CASS",
-      "college": "CASS",
-      "position": "Lecturer in Anthropology, Anthropology",
-      "focus": "ANU College of Arts and Social Sciences",
-      "email": "Tim.McLellan@anu.edu.au",
-      "office": "ANU College of Arts and Social Sciences",
-      "profileUrl": "https://researchportalplus.anu.edu.au/en/persons/tim-mclellan/",
-      "tags": [
-        "cass",
-        "anu college of arts and social s"
-      ],
-      "linkedCourses": [],
-      "reviewMetrics": [
-        "Clarity",
-        "Support",
-        "Engagement"
-      ]
-    },
-    {
-      "id": "tom-geue",
-      "type": "academic",
-      "name": "Dr Tom Geue",
-      "school": "ANU College of Arts and Social Sciences",
-      "schoolCode": "CASS",
-      "college": "CASS",
-      "position": "Senior Lecturer in Classics, Classics",
-      "focus": "ANU College of Arts and Social Sciences",
-      "email": "tom.geue@anu.edu.au",
-      "office": "ANU College of Arts and Social Sciences",
-      "profileUrl": "https://researchportalplus.anu.edu.au/en/persons/tom-geue",
-      "tags": [
-        "cass",
-        "anu college of arts and social s"
-      ],
-      "linkedCourses": [],
-      "reviewMetrics": [
-        "Clarity",
-        "Support",
-        "Engagement"
-      ]
-    },
-    {
-      "id": "chitra-v",
-      "type": "academic",
-      "name": "Dr V Chitra",
-      "school": "ANU College of Arts and Social Sciences",
-      "schoolCode": "CASS",
-      "college": "CASS",
-      "position": "Lecturer in Anthropology, Anthropology",
-      "focus": "ANU College of Arts and Social Sciences",
-      "email": "Chitra.V@anu.edu.au",
-      "office": "ANU College of Arts and Social Sciences",
-      "profileUrl": "https://researchportalplus.anu.edu.au/en/persons/chitra-v",
-      "tags": [
-        "cass",
-        "anu college of arts and social s"
-      ],
-      "linkedCourses": [],
-      "reviewMetrics": [
-        "Clarity",
-        "Support",
-        "Engagement"
-      ]
-    },
-    {
-      "id": "wesley-lim",
-      "type": "academic",
-      "name": "Dr Wesley Lim",
-      "school": "ANU College of Arts and Social Sciences",
-      "schoolCode": "CASS",
-      "college": "CASS",
-      "position": "Lecturer in German Studies, Languages",
-      "focus": "ANU College of Arts and Social Sciences",
-      "email": "Wesley.Lim@anu.edu.au",
-      "office": "ANU College of Arts and Social Sciences",
-      "profileUrl": "https://researchportalplus.anu.edu.au/en/persons/wesley-lim",
-      "tags": [
-        "cass",
-        "anu college of arts and social s"
-      ],
-      "linkedCourses": [],
-      "reviewMetrics": [
-        "Clarity",
-        "Support",
-        "Engagement"
-      ]
-    },
-    {
-      "id": "william-bosworth",
-      "type": "academic",
-      "name": "Dr William Bosworth",
-      "school": "School of Politics & International Relations",
-      "schoolCode": "CASS",
-      "college": "CASS",
-      "position": "Lecturer, School of Politics & International Relations",
-      "focus": "School of Politics & International Relations",
-      "email": "william.bosworth@anu.edu.au",
-      "office": "School of Politics & International Relations",
-      "profileUrl": "https://researchportalplus.anu.edu.au/en/persons/william-bosworth",
-      "tags": [
-        "cass",
-        "school of politics & internation"
-      ],
-      "linkedCourses": [],
-      "reviewMetrics": [
-        "Clarity",
-        "Support",
-        "Engagement"
-      ]
-    },
-    {
-      "id": "yonatan-dinku",
-      "type": "academic",
-      "name": "Dr Yonatan Dinku",
-      "school": "Centre for Aboriginal Economic Policy Research",
-      "schoolCode": "CASS",
-      "college": "CASS",
-      "position": "Research Fellow, Centre for Aboriginal Economic Policy Research",
-      "focus": "Centre for Aboriginal Economic Policy Research",
-      "email": "Yonatan.Dinku@anu.edu.au",
-      "office": "Centre for Aboriginal Economic Policy Research",
-      "profileUrl": "https://researchportalplus.anu.edu.au/en/persons/yonatan-dinku",
-      "tags": [
-        "cass",
-        "centre for aboriginal economic p"
-      ],
-      "linkedCourses": [],
-      "reviewMetrics": [
-        "Clarity",
-        "Support",
-        "Engagement"
-      ]
-    },
-    {
-      "id": "yujie-zhu",
-      "type": "academic",
-      "name": "Dr Yujie Zhu",
-      "school": "Centre for Heritage and Museum Studies",
-      "schoolCode": "CASS",
-      "college": "CASS",
-      "position": "Associate Professor, Centre for Heritage and Museum Studies",
-      "focus": "Centre for Heritage and Museum Studies",
-      "email": "yujie.zhu@anu.edu.au",
-      "office": "Centre for Heritage and Museum Studies",
-      "profileUrl": "https://researchportalplus.anu.edu.au/en/persons/yujie-zhu",
-      "tags": [
-        "cass",
-        "centre for heritage and museum s"
-      ],
-      "linkedCourses": [],
-      "reviewMetrics": [
-        "Clarity",
-        "Support",
-        "Engagement"
-      ]
-    },
-    {
-      "id": "zhengdao-ye",
-      "type": "academic",
-      "name": "Dr Zhengdao Ye",
-      "school": "ANU College of Arts and Social Sciences",
-      "schoolCode": "CASS",
-      "college": "CASS",
-      "position": "Senior Lecturer in Linguistics, Linguistics & Applied Linguistics",
-      "focus": "ANU College of Arts and Social Sciences",
-      "email": "zhengdao.ye@anu.edu.au",
-      "office": "ANU College of Arts and Social Sciences",
-      "profileUrl": "https://researchportalplus.anu.edu.au/en/persons/zhengdao-ye",
-      "tags": [
-        "cass",
-        "anu college of arts and social s"
-      ],
-      "linkedCourses": [],
-      "reviewMetrics": [
-        "Clarity",
-        "Support",
-        "Engagement"
-      ]
-    },
-    {
-      "id": "thiago-nascimento-da-silva",
-      "type": "academic",
-      "name": "Dr. Thiago N. da Silva",
-      "school": "School of Politics & International Relations",
-      "schoolCode": "CASS",
-      "college": "CASS",
-      "position": "Senior Lecturer, School of Politics & International Relations",
-      "focus": "Deputy Director, Australian Centre for Federalism",
-      "email": "Thiago.Silva@anu.edu.au",
-      "office": "School of Politics & International Relations",
-      "profileUrl": "https://researchportalplus.anu.edu.au/en/persons/thiago-nascimento-da-silva",
-      "tags": [
-        "cass",
-        "deputy director",
-        "australian centre for federalism"
-      ],
-      "linkedCourses": [],
-      "reviewMetrics": [
-        "Clarity",
-        "Support",
-        "Engagement"
-      ]
-    },
-    {
-      "id": "adam.graycar",
-      "type": "academic",
-      "name": "Emeritus Professor Adam Graycar",
-      "school": "ANU College of Arts and Social Sciences",
-      "schoolCode": "CASS",
-      "college": "CASS",
-      "position": "Emeritus Professor, Transnational Research Institute on Corruption",
-      "focus": "ANU College of Arts and Social Sciences",
-      "email": "adam.graycar@adelaide.edu.au",
-      "office": "ANU College of Arts and Social Sciences",
-      "profileUrl": "https://researchers.adelaide.edu.au/profile/adam.graycar",
-      "tags": [
-        "cass",
-        "anu college of arts and social s"
-      ],
-      "linkedCourses": [],
-      "reviewMetrics": [
-        "Clarity",
-        "Support",
-        "Engagement"
-      ]
-    },
-    {
-      "id": "angela-woollacott",
-      "type": "academic",
-      "name": "Emeritus Professor Angela Woollacott",
-      "school": "School of History",
-      "schoolCode": "CASS",
-      "college": "CASS",
-      "position": "Manning Clark Professor of History, School of History",
-      "focus": "School of History",
-      "email": "angela.woollacott@anu.edu.au",
-      "office": "School of History",
-      "profileUrl": "https://researchportalplus.anu.edu.au/en/persons/angela-woollacott",
-      "tags": [
-        "cass",
-        "school of history"
-      ],
-      "linkedCourses": [],
-      "reviewMetrics": [
-        "Clarity",
-        "Support",
-        "Engagement"
-      ]
-    },
-    {
-      "id": "robert-goodin",
-      "type": "academic",
-      "name": "Emeritus Professor Bob Goodin",
-      "school": "Centre for Moral",
-      "schoolCode": "CASS",
-      "college": "CASS",
-      "position": "Emeritus Professor, Centre for Moral, Social and Political Theory",
-      "focus": "Centre for Moral",
-      "email": "Bob.Goodin@anu.edu.au",
-      "office": "Centre for Moral",
-      "profileUrl": "https://researchportalplus.anu.edu.au/en/persons/robert-goodin",
-      "tags": [
-        "cass",
-        "centre for moral"
-      ],
-      "linkedCourses": [],
-      "reviewMetrics": [
-        "Clarity",
-        "Support",
-        "Engagement"
-      ]
-    },
-    {
-      "id": "hunter-bh",
-      "type": "academic",
-      "name": "Emeritus Professor Boyd Hunter",
-      "school": "Centre for Social Research and Methods",
-      "schoolCode": "CASS",
-      "college": "CASS",
-      "position": "Emeritus Professor, Centre for Social Research and Methods",
-      "focus": "Centre for Social Research and Methods",
-      "email": "Boyd.Hunter@anu.edu.au",
-      "office": "Centre for Social Research and Methods",
-      "profileUrl": "https://researchers.anu.edu.au/researchers/hunter-bh",
-      "tags": [
-        "cass",
-        "centre for social research and m"
-      ],
-      "linkedCourses": [],
-      "reviewMetrics": [
-        "Clarity",
-        "Support",
-        "Engagement"
-      ]
-    },
-    {
-      "id": "ferris-dm",
-      "type": "academic",
-      "name": "Emeritus Professor Denise Ferris",
-      "school": "School of Art & Design",
-      "schoolCode": "CASS",
-      "college": "CASS",
-      "position": "Emeritus Professor, School of Art & Design",
-      "focus": "School of Art & Design",
-      "email": "See ANU profile",
-      "office": "School of Art & Design",
-      "profileUrl": "https://researchers.anu.edu.au/researchers/ferris-dm",
-      "tags": [
-        "cass",
-        "school of art & design"
-      ],
-      "linkedCourses": [],
-      "reviewMetrics": [
-        "Clarity",
-        "Support",
-        "Engagement"
-      ]
-    },
-    {
-      "id": "fiona-jenkins",
-      "type": "academic",
-      "name": "Emeritus Professor Fiona Jenkins",
-      "school": "Centre for Moral",
-      "schoolCode": "CASS",
-      "college": "CASS",
-      "position": "Emeritus Professor, Centre for Moral, Social and Political Theory",
-      "focus": "Centre for Moral",
-      "email": "fiona.jenkins@anu.edu.au",
-      "office": "Centre for Moral",
-      "profileUrl": "https://researchportalplus.anu.edu.au/en/persons/fiona-jenkins",
-      "tags": [
-        "cass",
-        "centre for moral"
-      ],
-      "linkedCourses": [],
-      "reviewMetrics": [
-        "Clarity",
-        "Support",
-        "Engagement"
-      ]
-    },
-    {
-      "id": "frank-jackson",
-      "type": "academic",
-      "name": "Emeritus Professor Frank Jackson",
-      "school": "Centre for Consciousness",
-      "schoolCode": "CASS",
-      "college": "CASS",
-      "position": "Emeritus Professor, Centre for Consciousness",
-      "focus": "Centre for Consciousness",
-      "email": "frank.jackson@anu.edu.au",
-      "office": "Centre for Consciousness",
-      "profileUrl": "https://researchportalplus.anu.edu.au/en/persons/frank-jackson",
-      "tags": [
-        "cass",
-        "centre for consciousness"
-      ],
-      "linkedCourses": [],
-      "reviewMetrics": [
-        "Clarity",
-        "Support",
-        "Engagement"
-      ]
-    },
-    {
-      "id": "john-minns",
-      "type": "academic",
-      "name": "Emeritus Professor John Minns",
-      "school": "School of Politics & International Relations",
-      "schoolCode": "CASS",
-      "college": "CASS",
-      "position": "Emeritus Professor, School of Politics & International Relations",
-      "focus": "School of Politics & International Relations",
-      "email": "John.Minns@anu.edu.au",
-      "office": "School of Politics & International Relations",
-      "profileUrl": "https://researchportalplus.anu.edu.au/en/persons/john-minns",
-      "tags": [
-        "cass",
-        "school of politics & internation"
-      ],
-      "linkedCourses": [],
-      "reviewMetrics": [
-        "Clarity",
-        "Support",
-        "Engagement"
-      ]
-    },
-    {
-      "id": "uhr-jg",
-      "type": "academic",
-      "name": "Emeritus Professor John Uhr",
-      "school": "The Australian Politics Studies Centre",
-      "schoolCode": "CASS",
-      "college": "CASS",
-      "position": "Academic, The Australian Politics Studies Centre",
-      "focus": "Emeritus Professor, School of Politics & International Relations",
-      "email": "John.Uhr@anu.edu.au",
-      "office": "The Australian Politics Studies Centre",
-      "profileUrl": "https://researchers.anu.edu.au/researchers/uhr-jg",
-      "tags": [
-        "cass",
-        "emeritus professor",
-        "school of politics & internation"
-      ],
-      "linkedCourses": [],
-      "reviewMetrics": [
-        "Clarity",
-        "Support",
-        "Engagement"
-      ]
-    },
-    {
-      "id": "marian-sawer",
-      "type": "academic",
-      "name": "Emeritus Professor Marian Sawer",
-      "school": "Australian Centre for Federalism",
-      "schoolCode": "CASS",
-      "college": "CASS",
-      "position": "Emeritus Professor, Australian Centre for Federalism",
-      "focus": "Emeritus Professor, Australian Centre for Federalism",
-      "email": "Marian.Sawer@anu.edu.au",
-      "office": "Australian Centre for Federalism",
-      "profileUrl": "https://researchportalplus.anu.edu.au/en/persons/marian-sawer",
-      "tags": [
-        "cass",
-        "emeritus professor",
-        "australian centre for federalism"
-      ],
-      "linkedCourses": [],
-      "reviewMetrics": [
-        "Clarity",
-        "Support",
-        "Engagement"
-      ]
-    },
-    {
-      "id": "tony_bennett",
-      "type": "academic",
-      "name": "Emeritus Professor Tony Bennett",
-      "school": "School of Sociology",
-      "schoolCode": "CASS",
-      "college": "CASS",
-      "position": "Emeritus Professor, School of Sociology",
-      "focus": "School of Sociology",
-      "email": "tony.bennett@anu.edu.au",
-      "office": "School of Sociology",
-      "profileUrl": "https://www.westernsydney.edu.au/ics/people/researchers/tony_bennett",
-      "tags": [
-        "cass",
-        "school of sociology"
-      ],
-      "linkedCourses": [],
-      "reviewMetrics": [
-        "Clarity",
-        "Support",
-        "Engagement"
-      ]
-    },
-    {
-      "id": "filip-slaveski",
-      "type": "academic",
-      "name": "Filip Slaveski",
-      "school": "School of History",
-      "schoolCode": "CASS",
-      "college": "CASS",
-      "position": "Senior Lecturer, School of History",
-      "focus": "School of History",
-      "email": "Filip.Slaveski@anu.edu.au",
-      "office": "School of History",
-      "profileUrl": "https://researchportalplus.anu.edu.au/en/persons/filip-slaveski",
-      "tags": [
-        "cass",
-        "school of history"
-      ],
-      "linkedCourses": [],
-      "reviewMetrics": [
-        "Clarity",
-        "Support",
-        "Engagement"
-      ]
-    },
-    {
-      "id": "riedelbauch-gw",
-      "type": "academic",
-      "name": "Gilbert Riedelbauch",
-      "school": "School of Art & Design",
-      "schoolCode": "CASS",
-      "college": "CASS",
-      "position": "Honorary Senior Lecturer, School of Art & Design",
-      "focus": "School of Art & Design",
-      "email": "gilbert.riedelbauch@gmail.com",
-      "office": "School of Art & Design",
-      "profileUrl": "https://researchers.anu.edu.au/researchers/riedelbauch-gw",
-      "tags": [
-        "cass",
-        "school of art & design"
-      ],
-      "linkedCourses": [],
-      "reviewMetrics": [
-        "Clarity",
-        "Support",
-        "Engagement"
-      ]
-    },
-    {
-      "id": "gillian-russell",
-      "type": "academic",
-      "name": "Gillian Russell",
-      "school": "School of Philosophy",
-      "schoolCode": "CASS",
-      "college": "CASS",
-      "position": "Academic Professor, School of Philosophy",
-      "focus": "School of Philosophy",
-      "email": "See ANU profile",
-      "office": "School of Philosophy",
-      "profileUrl": "https://researchportalplus.anu.edu.au/en/persons/gillian-russell",
-      "tags": [
-        "cass",
-        "school of philosophy"
-      ],
-      "linkedCourses": [],
-      "reviewMetrics": [
-        "Clarity",
-        "Support",
-        "Engagement"
-      ]
-    },
-    {
-      "id": "www.fishman.com.au",
-      "type": "academic",
-      "name": "John Reid",
-      "school": "ANU College of Arts and Social Sciences",
-      "schoolCode": "CASS",
-      "college": "CASS",
-      "position": "Emeritus Professor, Environment Studio",
-      "focus": "ANU College of Arts and Social Sciences",
-      "email": "John.Reid@anu.edu.au",
-      "office": "ANU College of Arts and Social Sciences",
-      "profileUrl": "http://www.fishman.com.au",
-      "tags": [
-        "cass",
-        "anu college of arts and social s"
-      ],
-      "linkedCourses": [],
-      "reviewMetrics": [
-        "Clarity",
-        "Support",
-        "Engagement"
-      ]
-    },
-    {
-      "id": "lucy-irvine",
-      "type": "academic",
-      "name": "Lucy Irvine",
-      "school": "ANU College of Arts and Social Sciences",
-      "schoolCode": "CASS",
-      "college": "CASS",
-      "position": "Lecturer, Textiles",
-      "focus": "ANU College of Arts and Social Sciences",
-      "email": "lucy.irvine@anu.edu.au",
-      "office": "ANU College of Arts and Social Sciences",
-      "profileUrl": "https://researchportalplus.anu.edu.au/en/persons/lucy-irvine",
-      "tags": [
-        "cass",
-        "anu college of arts and social s"
-      ],
-      "linkedCourses": [],
-      "reviewMetrics": [
-        "Clarity",
-        "Support",
-        "Engagement"
-      ]
-    },
-    {
-      "id": "matthew-barnes",
-      "type": "academic",
-      "name": "Matt Barnes",
-      "school": "School of Music",
-      "schoolCode": "CASS",
-      "college": "CASS",
-      "position": "Associate Lecturer, School of Music",
-      "focus": "Associate Lecturer, School of Music, Song to Studio Coordinator & Tutor, Community Music Centre",
-      "email": "matthew.barnes@anu.edu.au",
-      "office": "School of Music",
-      "profileUrl": "https://researchportalplus.anu.edu.au/en/persons/matthew-barnes",
-      "tags": [
-        "cass",
-        "associate lecturer",
-        "school of music",
-        "song to studio coordinator & tut"
-      ],
-      "linkedCourses": [],
-      "reviewMetrics": [
-        "Clarity",
-        "Support",
-        "Engagement"
-      ]
-    },
-    {
-      "id": "michaelmlegrand.com",
-      "type": "academic",
-      "name": "Michael Le Grand",
-      "school": "ANU College of Arts and Social Sciences",
-      "schoolCode": "CASS",
-      "college": "CASS",
-      "position": "Emeritus Fellow, Sculpture & Spatial Practice",
-      "focus": "ANU College of Arts and Social Sciences",
-      "email": "mlegrand@iinet.net.au",
-      "office": "ANU College of Arts and Social Sciences",
-      "profileUrl": "http://michaelmlegrand.com/",
-      "tags": [
-        "cass",
-        "anu college of arts and social s"
-      ],
-      "linkedCourses": [],
-      "reviewMetrics": [
-        "Clarity",
-        "Support",
-        "Engagement"
-      ]
-    },
-    {
-      "id": "brad-riley",
-      "type": "academic",
-      "name": "Mr Brad Riley",
-      "school": "Centre for Indigenous Policy Research",
-      "schoolCode": "CASS",
-      "college": "CASS",
-      "position": "Research Fellow, Centre for Indigenous Policy Research",
-      "focus": "Centre for Indigenous Policy Research",
-      "email": "Bradley.Riley@anu.edu.au",
-      "office": "Centre for Indigenous Policy Research",
-      "profileUrl": "https://researchportalplus.anu.edu.au/en/persons/brad-riley",
-      "tags": [
-        "cass",
-        "centre for indigenous policy res"
-      ],
-      "linkedCourses": [],
-      "reviewMetrics": [
-        "Clarity",
-        "Support",
-        "Engagement"
-      ]
-    },
-    {
-      "id": "leila-kouatly",
-      "type": "academic",
-      "name": "Ms Leila Kouatly",
-      "school": "Centre for Arab and Islamic Studies",
-      "schoolCode": "CASS",
-      "college": "CASS",
-      "position": "Lecturer in Arabic Language Pedagogy and Convenor of Arabic Language Program, Centre for Arab and Islamic Studies",
-      "focus": "Centre for Arab and Islamic Studies",
-      "email": "Leila.Kouatly@anu.edu.au",
-      "office": "Centre for Arab and Islamic Studies",
-      "profileUrl": "https://researchportalplus.anu.edu.au/en/persons/leila-kouatly",
-      "tags": [
-        "cass",
-        "centre for arab and islamic stud"
-      ],
-      "linkedCourses": [],
-      "reviewMetrics": [
-        "Clarity",
-        "Support",
-        "Engagement"
-      ]
-    },
-    {
-      "id": "minda-murray",
-      "type": "academic",
-      "name": "Ms Minda Murray",
-      "school": "Centre for Aboriginal Economic Policy Research",
-      "schoolCode": "CASS",
-      "college": "CASS",
-      "position": "First Nations Academic Associate, Centre for Aboriginal Economic Policy Research",
-      "focus": "Centre for Aboriginal Economic Policy Research",
-      "email": "minda.murray@anu.edu.au",
-      "office": "Centre for Aboriginal Economic Policy Research",
-      "profileUrl": "https://researchportalplus.anu.edu.au/en/persons/minda-murray",
-      "tags": [
-        "cass",
-        "centre for aboriginal economic p"
-      ],
-      "linkedCourses": [],
-      "reviewMetrics": [
-        "Clarity",
-        "Support",
-        "Engagement"
-      ]
-    },
-    {
-      "id": "faulkner-sxx",
-      "type": "academic",
-      "name": "Ms Samantha Faulkner",
-      "school": "Centre for Heritage and Museum Studies",
-      "schoolCode": "CASS",
-      "college": "CASS",
-      "position": "Visiting Fellow, Centre for Heritage and Museum Studies",
-      "focus": "Centre for Heritage and Museum Studies",
-      "email": "Samantha.Faulkner@anu.edu.au",
-      "office": "Centre for Heritage and Museum Studies",
-      "profileUrl": "https://researchers.anu.edu.au/researchers/faulkner-sxx",
-      "tags": [
-        "cass",
-        "centre for heritage and museum s"
-      ],
-      "linkedCourses": [],
-      "reviewMetrics": [
-        "Clarity",
-        "Support",
-        "Engagement"
-      ]
-    },
-    {
-      "id": "alistair-ott",
-      "type": "academic",
-      "name": "Mx Alistair Ott",
-      "school": "School of Sociology",
-      "schoolCode": "CASS",
-      "college": "CASS",
-      "position": "Indigenous Academic Associate, School of Sociology",
-      "focus": "School of Sociology",
-      "email": "Alistair.Ott@anu.edu.au",
-      "office": "School of Sociology",
-      "profileUrl": "https://researchportalplus.anu.edu.au/en/persons/alistair-ott",
       "tags": [
-        "cass",
-        "school of sociology"
-      ],
-      "linkedCourses": [],
-      "reviewMetrics": [
-        "Clarity",
-        "Support",
-        "Engagement"
-      ]
-    },
-    {
-      "id": "Patsypayne.com",
-      "type": "academic",
-      "name": "Patsy Payne",
-      "school": "ANU College of Arts and Social Sciences",
-      "schoolCode": "CASS",
-      "college": "CASS",
-      "position": "Emeritus Professor, Printmedia & Drawing",
-      "focus": "ANU College of Arts and Social Sciences",
-      "email": "Patsy.payne@anu.edu.au",
-      "office": "ANU College of Arts and Social Sciences",
-      "profileUrl": "http://Patsypayne.com",
-      "tags": [
-        "cass",
-        "anu college of arts and social s"
-      ],
-      "linkedCourses": [],
-      "reviewMetrics": [
-        "Clarity",
-        "Support",
-        "Engagement"
+        "bell",
+        "asia-pacific affairs"
       ]
     },
     {
@@ -11803,6 +13864,52 @@ window.ANREVIEW_DATA = {
       ]
     },
     {
+      "id": "alan-welsh",
+      "type": "academic",
+      "name": "Professor Alan Welsh",
+      "school": "Research School of Finance, Actuarial Studies and Statistics",
+      "schoolCode": "RSFAS",
+      "college": "CBE",
+      "position": "E.J. Hannan Professor of Statistics",
+      "focus": "Statistics",
+      "email": "See ANU profile",
+      "office": "Research School of Finance, Actuarial Studies and Statistics",
+      "profileUrl": "https://rsfas.anu.edu.au/people/alan-welsh",
+      "tags": [
+        "rsfas",
+        "statistics"
+      ],
+      "linkedCourses": [],
+      "reviewMetrics": [
+        "Clarity",
+        "Support",
+        "Engagement"
+      ]
+    },
+    {
+      "id": "alison-booth",
+      "type": "academic",
+      "name": "Professor Alison Booth",
+      "school": "Research School of Economics",
+      "schoolCode": "RSE",
+      "college": "CBE",
+      "position": "Professor of Economics",
+      "focus": "Economics",
+      "email": "See ANU profile",
+      "office": "Research School of Economics",
+      "profileUrl": "https://rse.anu.edu.au/people/alison-booth",
+      "tags": [
+        "rse",
+        "economics"
+      ],
+      "linkedCourses": [],
+      "reviewMetrics": [
+        "Clarity",
+        "Support",
+        "Engagement"
+      ]
+    },
+    {
       "id": "andrew-norton",
       "type": "academic",
       "name": "Professor Andrew Norton",
@@ -11817,6 +13924,29 @@ window.ANREVIEW_DATA = {
       "tags": [
         "cass",
         "centre for social research and m"
+      ],
+      "linkedCourses": [],
+      "reviewMetrics": [
+        "Clarity",
+        "Support",
+        "Engagement"
+      ]
+    },
+    {
+      "id": "andrew-wood",
+      "type": "academic",
+      "name": "Professor Andrew Wood",
+      "school": "Research School of Finance, Actuarial Studies and Statistics",
+      "schoolCode": "RSFAS",
+      "college": "CBE",
+      "position": "Professor",
+      "focus": "Statistics",
+      "email": "See ANU profile",
+      "office": "Research School of Finance, Actuarial Studies and Statistics",
+      "profileUrl": "https://rsfas.anu.edu.au/people/andrew-wood",
+      "tags": [
+        "rsfas",
+        "statistics"
       ],
       "linkedCourses": [],
       "reviewMetrics": [
@@ -11873,6 +14003,29 @@ window.ANREVIEW_DATA = {
       ]
     },
     {
+      "id": "antje-berndt",
+      "type": "academic",
+      "name": "Professor Antje Berndt",
+      "school": "Research School of Finance, Actuarial Studies and Statistics",
+      "schoolCode": "RSFAS",
+      "college": "CBE",
+      "position": "Professor",
+      "focus": "Finance",
+      "email": "See ANU profile",
+      "office": "Research School of Finance, Actuarial Studies and Statistics",
+      "profileUrl": "https://rsfas.anu.edu.au/people/antje-berndt",
+      "tags": [
+        "rsfas",
+        "finance"
+      ],
+      "linkedCourses": [],
+      "reviewMetrics": [
+        "Clarity",
+        "Support",
+        "Engagement"
+      ]
+    },
+    {
       "id": "ben-goldsmith",
       "type": "academic",
       "name": "Professor Benjamin Goldsmith",
@@ -11887,6 +14040,28 @@ window.ANREVIEW_DATA = {
       "tags": [
         "cass",
         "school of politics & internation"
+      ],
+      "linkedCourses": [],
+      "reviewMetrics": [
+        "Clarity",
+        "Support",
+        "Engagement"
+      ]
+    },
+    {
+      "id": "bob-gregory",
+      "type": "academic",
+      "name": "Professor Bob Gregory",
+      "school": "Research School of Economics",
+      "schoolCode": "RSE",
+      "college": "CBE",
+      "position": "Emeritus Professor",
+      "focus": "Research School of Economics",
+      "email": "See ANU profile",
+      "office": "Research School of Economics",
+      "profileUrl": "https://rse.anu.edu.au/people/bob-gregory",
+      "tags": [
+        "rse"
       ],
       "linkedCourses": [],
       "reviewMetrics": [
@@ -12247,6 +14422,31 @@ window.ANREVIEW_DATA = {
       ]
     },
     {
+      "id": "des-nicholls",
+      "type": "academic",
+      "name": "Professor Des Nicholls",
+      "school": "Research School of Management",
+      "schoolCode": "RSM",
+      "college": "CBE",
+      "position": "Emeritus Professor",
+      "focus": "Business & business administration, Management, Marketing, Statistics",
+      "email": "See ANU profile",
+      "office": "Research School of Management",
+      "profileUrl": "https://rsm.anu.edu.au/people/des-nicholls",
+      "tags": [
+        "rsm",
+        "business & business administrati",
+        "management",
+        "marketing"
+      ],
+      "linkedCourses": [],
+      "reviewMetrics": [
+        "Clarity",
+        "Support",
+        "Engagement"
+      ]
+    },
+    {
       "id": "diana-slade",
       "type": "academic",
       "name": "Professor Diana Slade",
@@ -12317,6 +14517,76 @@ window.ANREVIEW_DATA = {
       ]
     },
     {
+      "id": "emma-schultz",
+      "type": "academic",
+      "name": "Professor Emma Schultz",
+      "school": "Research School of Finance, Actuarial Studies and Statistics",
+      "schoolCode": "RSFAS",
+      "college": "CBE",
+      "position": "Professor",
+      "focus": "Finance",
+      "email": "See ANU profile",
+      "office": "Research School of Finance, Actuarial Studies and Statistics",
+      "profileUrl": "https://rsfas.anu.edu.au/people/emma-schultz",
+      "tags": [
+        "rsfas",
+        "finance"
+      ],
+      "linkedCourses": [],
+      "reviewMetrics": [
+        "Clarity",
+        "Support",
+        "Engagement"
+      ]
+    },
+    {
+      "id": "eric-stone",
+      "type": "academic",
+      "name": "Professor Eric Stone",
+      "school": "Research School of Finance, Actuarial Studies and Statistics",
+      "schoolCode": "RSFAS",
+      "college": "CBE",
+      "position": "Professor (Biology and RSFAS)",
+      "focus": "Statistics",
+      "email": "See ANU profile",
+      "office": "Research School of Finance, Actuarial Studies and Statistics",
+      "profileUrl": "https://rsfas.anu.edu.au/people/eric-stone",
+      "tags": [
+        "rsfas",
+        "statistics"
+      ],
+      "linkedCourses": [],
+      "reviewMetrics": [
+        "Clarity",
+        "Support",
+        "Engagement"
+      ]
+    },
+    {
+      "id": "fedor-iskhakov",
+      "type": "academic",
+      "name": "Professor Fedor Iskhakov",
+      "school": "Research School of Economics",
+      "schoolCode": "RSE",
+      "college": "CBE",
+      "position": "Professor",
+      "focus": "Econometrics, Economics",
+      "email": "See ANU profile",
+      "office": "Research School of Economics",
+      "profileUrl": "https://rse.anu.edu.au/people/fedor-iskhakov",
+      "tags": [
+        "rse",
+        "econometrics",
+        "economics"
+      ],
+      "linkedCourses": [],
+      "reviewMetrics": [
+        "Clarity",
+        "Support",
+        "Engagement"
+      ]
+    },
+    {
       "id": "frank-bongiorno",
       "type": "academic",
       "name": "Professor Frank Bongiorno",
@@ -12377,6 +14647,122 @@ window.ANREVIEW_DATA = {
       "tags": [
         "cass",
         "director of centre for moral"
+      ],
+      "linkedCourses": [],
+      "reviewMetrics": [
+        "Clarity",
+        "Support",
+        "Engagement"
+      ]
+    },
+    {
+      "id": "george-j-mailath",
+      "type": "academic",
+      "name": "Professor George J Mailath",
+      "school": "Research School of Economics",
+      "schoolCode": "RSE",
+      "college": "CBE",
+      "position": "Goldsmith Economics Chair",
+      "focus": "Research School of Economics",
+      "email": "See ANU profile",
+      "office": "Research School of Economics",
+      "profileUrl": "https://rse.anu.edu.au/people/george-j-mailath",
+      "tags": [
+        "rse"
+      ],
+      "linkedCourses": [],
+      "reviewMetrics": [
+        "Clarity",
+        "Support",
+        "Engagement"
+      ]
+    },
+    {
+      "id": "giles-hirst",
+      "type": "academic",
+      "name": "Professor Giles Hirst",
+      "school": "Research School of Management",
+      "schoolCode": "RSM",
+      "college": "CBE",
+      "position": "Professor of Leadership",
+      "focus": "Innovation, Leadership, Organisational behaviour",
+      "email": "See ANU profile",
+      "office": "Research School of Management",
+      "profileUrl": "https://rsm.anu.edu.au/people/giles-hirst",
+      "tags": [
+        "rsm",
+        "innovation",
+        "leadership",
+        "organisational behaviour"
+      ],
+      "linkedCourses": [],
+      "reviewMetrics": [
+        "Clarity",
+        "Support",
+        "Engagement"
+      ]
+    },
+    {
+      "id": "giles-hooker",
+      "type": "academic",
+      "name": "Professor Giles Hooker",
+      "school": "Research School of Finance, Actuarial Studies and Statistics",
+      "schoolCode": "RSFAS",
+      "college": "CBE",
+      "position": "Professor",
+      "focus": "Research School of Finance, Actuarial Studies and Statistics",
+      "email": "See ANU profile",
+      "office": "Research School of Finance, Actuarial Studies and Statistics",
+      "profileUrl": "https://rsfas.anu.edu.au/people/giles-hooker",
+      "tags": [
+        "rsfas"
+      ],
+      "linkedCourses": [],
+      "reviewMetrics": [
+        "Clarity",
+        "Support",
+        "Engagement"
+      ]
+    },
+    {
+      "id": "glenn-alexander-withers",
+      "type": "academic",
+      "name": "Professor Glenn Alexander Withers",
+      "school": "Research School of Economics",
+      "schoolCode": "RSE",
+      "college": "CBE",
+      "position": "Academic",
+      "focus": "Research School of Economics",
+      "email": "See ANU profile",
+      "office": "Research School of Economics",
+      "profileUrl": "https://rse.anu.edu.au/people/glenn-alexander-withers",
+      "tags": [
+        "rse"
+      ],
+      "linkedCourses": [],
+      "reviewMetrics": [
+        "Clarity",
+        "Support",
+        "Engagement"
+      ]
+    },
+    {
+      "id": "greg-shailer",
+      "type": "academic",
+      "name": "Professor Greg Shailer",
+      "school": "Research School of Accounting",
+      "schoolCode": "RSA",
+      "college": "CBE",
+      "position": "Professor, Director of ANCAAR",
+      "focus": "Accounting, Commerce, Corporate sustainability",
+      "email": "See ANU profile",
+      "office": "Research School of Accounting",
+      "profileUrl": "https://rsa.anu.edu.au/people/greg-shailer",
+      "tags": [
+        "rsa",
+        "accounting",
+        "commerce",
+        "corporate sustainability"
       ],
       "linkedCourses": [],
       "reviewMetrics": [
@@ -12456,6 +14842,29 @@ window.ANREVIEW_DATA = {
       ]
     },
     {
+      "id": "israr-qureshi",
+      "type": "academic",
+      "name": "Professor Israr Qureshi",
+      "school": "Research School of Management",
+      "schoolCode": "RSM",
+      "college": "CBE",
+      "position": "Professor",
+      "focus": "Entrepreneurship",
+      "email": "See ANU profile",
+      "office": "Research School of Management",
+      "profileUrl": "https://rsm.anu.edu.au/people/israr-qureshi",
+      "tags": [
+        "rsm",
+        "entrepreneurship"
+      ],
+      "linkedCourses": [],
+      "reviewMetrics": [
+        "Clarity",
+        "Support",
+        "Engagement"
+      ]
+    },
+    {
       "id": "piscatori-jp",
       "type": "academic",
       "name": "Professor James Piscatori",
@@ -12516,6 +14925,77 @@ window.ANREVIEW_DATA = {
       "tags": [
         "cass",
         "school of philosophy"
+      ],
+      "linkedCourses": [],
+      "reviewMetrics": [
+        "Clarity",
+        "Support",
+        "Engagement"
+      ]
+    },
+    {
+      "id": "john-stachurski",
+      "type": "academic",
+      "name": "Professor John Stachurski",
+      "school": "Research School of Economics",
+      "schoolCode": "RSE",
+      "college": "CBE",
+      "position": "Professor",
+      "focus": "Econometrics, Economics, Statistics",
+      "email": "See ANU profile",
+      "office": "Research School of Economics",
+      "profileUrl": "https://rse.anu.edu.au/people/john-stachurski",
+      "tags": [
+        "rse",
+        "econometrics",
+        "economics",
+        "statistics"
+      ],
+      "linkedCourses": [],
+      "reviewMetrics": [
+        "Clarity",
+        "Support",
+        "Engagement"
+      ]
+    },
+    {
+      "id": "juliana-ng",
+      "type": "academic",
+      "name": "Professor Juliana Ng",
+      "school": "Research School of Accounting",
+      "schoolCode": "RSA",
+      "college": "CBE",
+      "position": "Director, Research School of Accounting",
+      "focus": "Accounting",
+      "email": "See ANU profile",
+      "office": "Research School of Accounting",
+      "profileUrl": "https://rsa.anu.edu.au/people/juliana-ng",
+      "tags": [
+        "rsa",
+        "accounting"
+      ],
+      "linkedCourses": [],
+      "reviewMetrics": [
+        "Clarity",
+        "Support",
+        "Engagement"
+      ]
+    },
+    {
+      "id": "kailing-shen",
+      "type": "academic",
+      "name": "Professor Kailing Shen",
+      "school": "Research School of Economics",
+      "schoolCode": "RSE",
+      "college": "CBE",
+      "position": "Professor",
+      "focus": "Economics",
+      "email": "See ANU profile",
+      "office": "Research School of Economics",
+      "profileUrl": "https://rse.anu.edu.au/people/kailing-shen",
+      "tags": [
+        "rse",
+        "economics"
       ],
       "linkedCourses": [],
       "reviewMetrics": [
@@ -12644,6 +15124,29 @@ window.ANREVIEW_DATA = {
       ]
     },
     {
+      "id": "kieron-meagher",
+      "type": "academic",
+      "name": "Professor Kieron Meagher",
+      "school": "Research School of Economics",
+      "schoolCode": "RSE",
+      "college": "CBE",
+      "position": "Professor",
+      "focus": "Economics",
+      "email": "See ANU profile",
+      "office": "Research School of Economics",
+      "profileUrl": "https://rse.anu.edu.au/people/kieron-meagher",
+      "tags": [
+        "rse",
+        "economics"
+      ],
+      "linkedCourses": [],
+      "reviewMetrics": [
+        "Clarity",
+        "Support",
+        "Engagement"
+      ]
+    },
+    {
       "id": "kim-cunio",
       "type": "academic",
       "name": "Professor Kim Cunio",
@@ -12706,6 +15209,54 @@ window.ANREVIEW_DATA = {
       "tags": [
         "cass",
         "school of philosophy"
+      ],
+      "linkedCourses": [],
+      "reviewMetrics": [
+        "Clarity",
+        "Support",
+        "Engagement"
+      ]
+    },
+    {
+      "id": "lin-cui",
+      "type": "academic",
+      "name": "Professor Lin Cui",
+      "school": "Research School of Management",
+      "schoolCode": "RSM",
+      "college": "CBE",
+      "position": "Professor",
+      "focus": "International business, Management, Strategy",
+      "email": "See ANU profile",
+      "office": "Research School of Management",
+      "profileUrl": "https://rsm.anu.edu.au/people/lin-cui",
+      "tags": [
+        "rsm",
+        "international business",
+        "management",
+        "strategy"
+      ],
+      "linkedCourses": [],
+      "reviewMetrics": [
+        "Clarity",
+        "Support",
+        "Engagement"
+      ]
+    },
+    {
+      "id": "louise-lu",
+      "type": "academic",
+      "name": "Professor Louise Lu",
+      "school": "Research School of Accounting",
+      "schoolCode": "RSA",
+      "college": "CBE",
+      "position": "Professor &amp; Convenor of HDR, Co-Director of ANCAAR",
+      "focus": "Accounting",
+      "email": "See ANU profile",
+      "office": "Research School of Accounting",
+      "profileUrl": "https://rsa.anu.edu.au/people/louise-lu",
+      "tags": [
+        "rsa",
+        "accounting"
       ],
       "linkedCourses": [],
       "reviewMetrics": [
@@ -12786,6 +15337,77 @@ window.ANREVIEW_DATA = {
       ]
     },
     {
+      "id": "mark-wilson",
+      "type": "academic",
+      "name": "Professor Mark Wilson",
+      "school": "Research School of Accounting",
+      "schoolCode": "RSA",
+      "college": "CBE",
+      "position": "Professor & Deputy Director",
+      "focus": "Accounting, Commerce, Economic history",
+      "email": "See ANU profile",
+      "office": "Research School of Accounting",
+      "profileUrl": "https://rsa.anu.edu.au/people/mark-wilson",
+      "tags": [
+        "rsa",
+        "accounting",
+        "commerce",
+        "economic history"
+      ],
+      "linkedCourses": [],
+      "reviewMetrics": [
+        "Clarity",
+        "Support",
+        "Engagement"
+      ]
+    },
+    {
+      "id": "markus-brueckner",
+      "type": "academic",
+      "name": "Professor Markus Brueckner",
+      "school": "Research School of Economics",
+      "schoolCode": "RSE",
+      "college": "CBE",
+      "position": "Professor",
+      "focus": "Economics",
+      "email": "See ANU profile",
+      "office": "Research School of Economics",
+      "profileUrl": "https://rse.anu.edu.au/people/markus-brueckner",
+      "tags": [
+        "rse",
+        "economics"
+      ],
+      "linkedCourses": [],
+      "reviewMetrics": [
+        "Clarity",
+        "Support",
+        "Engagement"
+      ]
+    },
+    {
+      "id": "martin-richardson",
+      "type": "academic",
+      "name": "Professor Martin Richardson",
+      "school": "Research School of Economics",
+      "schoolCode": "RSE",
+      "college": "CBE",
+      "position": "Professor",
+      "focus": "Economics",
+      "email": "See ANU profile",
+      "office": "Research School of Economics",
+      "profileUrl": "https://rse.anu.edu.au/people/martin-richardson",
+      "tags": [
+        "rse",
+        "economics"
+      ],
+      "linkedCourses": [],
+      "reviewMetrics": [
+        "Clarity",
+        "Support",
+        "Engagement"
+      ]
+    },
+    {
       "id": "martin-thomas",
       "type": "academic",
       "name": "Professor Martin Thomas",
@@ -12800,6 +15422,54 @@ window.ANREVIEW_DATA = {
       "tags": [
         "cass",
         "(02) 612 52352"
+      ],
+      "linkedCourses": [],
+      "reviewMetrics": [
+        "Clarity",
+        "Support",
+        "Engagement"
+      ]
+    },
+    {
+      "id": "martine-mariotti",
+      "type": "academic",
+      "name": "Professor Martine Mariotti",
+      "school": "Research School of Economics",
+      "schoolCode": "RSE",
+      "college": "CBE",
+      "position": "Director - Research School of Economics",
+      "focus": "Economic history, Economics",
+      "email": "See ANU profile",
+      "office": "Research School of Economics",
+      "profileUrl": "https://rse.anu.edu.au/people/martine-mariotti",
+      "tags": [
+        "rse",
+        "economic history",
+        "economics"
+      ],
+      "linkedCourses": [],
+      "reviewMetrics": [
+        "Clarity",
+        "Support",
+        "Engagement"
+      ]
+    },
+    {
+      "id": "marvin-wee",
+      "type": "academic",
+      "name": "Professor Marvin Wee",
+      "school": "Research School of Accounting",
+      "schoolCode": "RSA",
+      "college": "CBE",
+      "position": "Professor and Deputy Director Education",
+      "focus": "Accounting, Finance",
+      "email": "See ANU profile",
+      "office": "Research School of Accounting",
+      "profileUrl": "https://rsa.anu.edu.au/people/marvin-wee",
+      "tags": [
+        "rsa",
+        "accounting",
+        "finance"
       ],
       "linkedCourses": [],
       "reviewMetrics": [
@@ -12856,6 +15526,76 @@ window.ANREVIEW_DATA = {
       ]
     },
     {
+      "id": "michael-lounsbury",
+      "type": "academic",
+      "name": "Professor Michael Lounsbury",
+      "school": "Research School of Management",
+      "schoolCode": "RSM",
+      "college": "CBE",
+      "position": "Professor",
+      "focus": "Entrepreneurship, Innovation, Management, Organisation studies, Social entrepreneurship",
+      "email": "See ANU profile",
+      "office": "Research School of Management",
+      "profileUrl": "https://rsm.anu.edu.au/people/michael-lounsbury",
+      "tags": [
+        "rsm",
+        "entrepreneurship",
+        "innovation",
+        "management"
+      ],
+      "linkedCourses": [],
+      "reviewMetrics": [
+        "Clarity",
+        "Support",
+        "Engagement"
+      ]
+    },
+    {
+      "id": "michael-martin",
+      "type": "academic",
+      "name": "Professor Michael Martin",
+      "school": "Research School of Finance, Actuarial Studies and Statistics",
+      "schoolCode": "RSFAS",
+      "college": "CBE",
+      "position": "Professor",
+      "focus": "Statistics",
+      "email": "See ANU profile",
+      "office": "Research School of Finance, Actuarial Studies and Statistics",
+      "profileUrl": "https://rsfas.anu.edu.au/people/michael-martin",
+      "tags": [
+        "rsfas",
+        "statistics"
+      ],
+      "linkedCourses": [],
+      "reviewMetrics": [
+        "Clarity",
+        "Support",
+        "Engagement"
+      ]
+    },
+    {
+      "id": "michael-price",
+      "type": "academic",
+      "name": "Professor Michael Price",
+      "school": "Research School of Economics",
+      "schoolCode": "RSE",
+      "college": "CBE",
+      "position": "Professor",
+      "focus": "Research School of Economics",
+      "email": "See ANU profile",
+      "office": "Research School of Economics",
+      "profileUrl": "https://rse.anu.edu.au/people/michael-price",
+      "tags": [
+        "rse"
+      ],
+      "linkedCourses": [],
+      "reviewMetrics": [
+        "Clarity",
+        "Support",
+        "Engagement"
+      ]
+    },
+    {
       "id": "mitchell-whitelaw",
       "type": "academic",
       "name": "Professor Mitchell Whitelaw",
@@ -12902,6 +15642,29 @@ window.ANREVIEW_DATA = {
       ]
     },
     {
+      "id": "neil-fargher",
+      "type": "academic",
+      "name": "Professor Neil Fargher",
+      "school": "Research School of Accounting",
+      "schoolCode": "RSA",
+      "college": "CBE",
+      "position": "Emeritus Professor",
+      "focus": "Accounting",
+      "email": "See ANU profile",
+      "office": "Research School of Accounting",
+      "profileUrl": "https://rsa.anu.edu.au/people/neil-fargher",
+      "tags": [
+        "rsa",
+        "accounting"
+      ],
+      "linkedCourses": [],
+      "reviewMetrics": [
+        "Clarity",
+        "Support",
+        "Engagement"
+      ]
+    },
+    {
       "id": "nicholas-brown",
       "type": "academic",
       "name": "Professor Nicholas Brown",
@@ -12916,6 +15679,29 @@ window.ANREVIEW_DATA = {
       "tags": [
         "cass",
         "school of history"
+      ],
+      "linkedCourses": [],
+      "reviewMetrics": [
+        "Clarity",
+        "Support",
+        "Engagement"
+      ]
+    },
+    {
+      "id": "ofer-zwikael",
+      "type": "academic",
+      "name": "Professor Ofer Zwikael",
+      "school": "Research School of Management",
+      "schoolCode": "RSM",
+      "college": "CBE",
+      "position": "Professor",
+      "focus": "Project management",
+      "email": "See ANU profile",
+      "office": "Research School of Management",
+      "profileUrl": "https://rsm.anu.edu.au/people/ofer-zwikael",
+      "tags": [
+        "rsm",
+        "project management"
       ],
       "linkedCourses": [],
       "reviewMetrics": [
@@ -13019,6 +15805,54 @@ window.ANREVIEW_DATA = {
       ]
     },
     {
+      "id": "prashant-bordia",
+      "type": "academic",
+      "name": "Professor Prashant Bordia",
+      "school": "Research School of Management",
+      "schoolCode": "RSM",
+      "college": "CBE",
+      "position": "Professor",
+      "focus": "Human resource management, Management, Organisational behaviour",
+      "email": "See ANU profile",
+      "office": "Research School of Management",
+      "profileUrl": "https://rsm.anu.edu.au/people/prashant-bordia",
+      "tags": [
+        "rsm",
+        "human resource management",
+        "management",
+        "organisational behaviour"
+      ],
+      "linkedCourses": [],
+      "reviewMetrics": [
+        "Clarity",
+        "Support",
+        "Engagement"
+      ]
+    },
+    {
+      "id": "rabee-tourky",
+      "type": "academic",
+      "name": "Professor Rabee Tourky",
+      "school": "Research School of Economics",
+      "schoolCode": "RSE",
+      "college": "CBE",
+      "position": "Trevor Swan Chair",
+      "focus": "Economics",
+      "email": "See ANU profile",
+      "office": "Research School of Economics",
+      "profileUrl": "https://rse.anu.edu.au/people/rabee-tourky",
+      "tags": [
+        "rse",
+        "economics"
+      ],
+      "linkedCourses": [],
+      "reviewMetrics": [
+        "Clarity",
+        "Support",
+        "Engagement"
+      ]
+    },
+    {
       "id": "robert-ackland",
       "type": "academic",
       "name": "Professor Robert Ackland",
@@ -13033,6 +15867,29 @@ window.ANREVIEW_DATA = {
       "tags": [
         "cass",
         "school of sociology"
+      ],
+      "linkedCourses": [],
+      "reviewMetrics": [
+        "Clarity",
+        "Support",
+        "Engagement"
+      ]
+    },
+    {
+      "id": "rohan-pitchford",
+      "type": "academic",
+      "name": "Professor Rohan Pitchford",
+      "school": "Research School of Economics",
+      "schoolCode": "RSE",
+      "college": "CBE",
+      "position": "Professor",
+      "focus": "Economics",
+      "email": "See ANU profile",
+      "office": "Research School of Economics",
+      "profileUrl": "https://rse.anu.edu.au/people/rohan-pitchford",
+      "tags": [
+        "rse",
+        "economics"
       ],
       "linkedCourses": [],
       "reviewMetrics": [
@@ -13090,6 +15947,31 @@ window.ANREVIEW_DATA = {
       ]
     },
     {
+      "id": "sarbari-bordia",
+      "type": "academic",
+      "name": "Professor Sarbari Bordia",
+      "school": "Research School of Management",
+      "schoolCode": "RSM",
+      "college": "CBE",
+      "position": "Professor",
+      "focus": "International business, Management, Organisational behaviour",
+      "email": "See ANU profile",
+      "office": "Research School of Management",
+      "profileUrl": "https://rsm.anu.edu.au/people/sarbari-bordia",
+      "tags": [
+        "rsm",
+        "international business",
+        "management",
+        "organisational behaviour"
+      ],
+      "linkedCourses": [],
+      "reviewMetrics": [
+        "Clarity",
+        "Support",
+        "Engagement"
+      ]
+    },
+    {
       "id": "seth-lazar",
       "type": "academic",
       "name": "Professor Seth Lazar",
@@ -13114,6 +15996,170 @@ window.ANREVIEW_DATA = {
       ]
     },
     {
+      "id": "shirley-gregor",
+      "type": "academic",
+      "name": "Professor Shirley Gregor",
+      "school": "Research School of Management",
+      "schoolCode": "RSM",
+      "college": "CBE",
+      "position": "Professor Emerita",
+      "focus": "Business information systems",
+      "email": "See ANU profile",
+      "office": "Research School of Management",
+      "profileUrl": "https://rsm.anu.edu.au/people/shirley-gregor",
+      "tags": [
+        "rsm",
+        "business information systems"
+      ],
+      "linkedCourses": [],
+      "reviewMetrics": [
+        "Clarity",
+        "Support",
+        "Engagement"
+      ]
+    },
+    {
+      "id": "sigi-goode",
+      "type": "academic",
+      "name": "Professor Sigi Goode",
+      "school": "Research School of Management",
+      "schoolCode": "RSM",
+      "college": "CBE",
+      "position": "Professor",
+      "focus": "Business information systems, Project management",
+      "email": "See ANU profile",
+      "office": "Research School of Management",
+      "profileUrl": "https://rsm.anu.edu.au/people/sigi-goode",
+      "tags": [
+        "rsm",
+        "business information systems",
+        "project management"
+      ],
+      "linkedCourses": [],
+      "reviewMetrics": [
+        "Clarity",
+        "Support",
+        "Engagement"
+      ]
+    },
+    {
+      "id": "simon-grant",
+      "type": "academic",
+      "name": "Professor Simon Grant",
+      "school": "Research School of Economics",
+      "schoolCode": "RSE",
+      "college": "CBE",
+      "position": "Professor and John C. Harsanyi Chair of Economics",
+      "focus": "Economics",
+      "email": "See ANU profile",
+      "office": "Research School of Economics",
+      "profileUrl": "https://rse.anu.edu.au/people/simon-grant",
+      "tags": [
+        "rse",
+        "economics"
+      ],
+      "linkedCourses": [],
+      "reviewMetrics": [
+        "Clarity",
+        "Support",
+        "Engagement"
+      ]
+    },
+    {
+      "id": "steve-sault",
+      "type": "academic",
+      "name": "Professor Steve Sault",
+      "school": "Research School of Finance, Actuarial Studies and Statistics",
+      "schoolCode": "RSFAS",
+      "college": "CBE",
+      "position": "Director, Research School of Finance, Actuarial Studies and Statistics",
+      "focus": "Finance",
+      "email": "See ANU profile",
+      "office": "Research School of Finance, Actuarial Studies and Statistics",
+      "profileUrl": "https://rsfas.anu.edu.au/people/steve-sault",
+      "tags": [
+        "rsfas",
+        "finance"
+      ],
+      "linkedCourses": [],
+      "reviewMetrics": [
+        "Clarity",
+        "Support",
+        "Engagement"
+      ]
+    },
+    {
+      "id": "steven-roberts",
+      "type": "academic",
+      "name": "Professor Steven Roberts",
+      "school": "Research School of Finance, Actuarial Studies and Statistics",
+      "schoolCode": "RSFAS",
+      "college": "CBE",
+      "position": "Dean",
+      "focus": "Statistics",
+      "email": "See ANU profile",
+      "office": "Research School of Finance, Actuarial Studies and Statistics",
+      "profileUrl": "https://rsfas.anu.edu.au/people/steven-roberts",
+      "tags": [
+        "rsfas",
+        "statistics"
+      ],
+      "linkedCourses": [],
+      "reviewMetrics": [
+        "Clarity",
+        "Support",
+        "Engagement"
+      ]
+    },
+    {
+      "id": "susanna-ho",
+      "type": "academic",
+      "name": "Professor Susanna Ho",
+      "school": "Research School of Accounting",
+      "schoolCode": "RSA",
+      "college": "CBE",
+      "position": "Professor",
+      "focus": "Accounting, Business information systems, Commerce",
+      "email": "See ANU profile",
+      "office": "Research School of Accounting",
+      "profileUrl": "https://rsa.anu.edu.au/people/susanna-ho",
+      "tags": [
+        "rsa",
+        "accounting",
+        "business information systems",
+        "commerce"
+      ],
+      "linkedCourses": [],
+      "reviewMetrics": [
+        "Clarity",
+        "Support",
+        "Engagement"
+      ]
+    },
+    {
+      "id": "takeshi-yamada",
+      "type": "academic",
+      "name": "Professor Takeshi Yamada",
+      "school": "Research School of Finance, Actuarial Studies and Statistics",
+      "schoolCode": "RSFAS",
+      "college": "CBE",
+      "position": "Professor, Head of Finance",
+      "focus": "Finance",
+      "email": "See ANU profile",
+      "office": "Research School of Finance, Actuarial Studies and Statistics",
+      "profileUrl": "https://rsfas.anu.edu.au/people/takeshi-yamada",
+      "tags": [
+        "rsfas",
+        "finance"
+      ],
+      "linkedCourses": [],
+      "reviewMetrics": [
+        "Clarity",
+        "Support",
+        "Engagement"
+      ]
+    },
+    {
       "id": "denham-tp",
       "type": "academic",
       "name": "Professor Tim Denham",
@@ -13129,6 +16175,55 @@ window.ANREVIEW_DATA = {
         "cass",
         "professor",
         "archaeology"
+      ],
+      "linkedCourses": [],
+      "reviewMetrics": [
+        "Clarity",
+        "Support",
+        "Engagement"
+      ]
+    },
+    {
+      "id": "tim-hatton",
+      "type": "academic",
+      "name": "Professor Tim Hatton",
+      "school": "Research School of Economics",
+      "schoolCode": "RSE",
+      "college": "CBE",
+      "position": "Director of the Centre for Economic History",
+      "focus": "Economic history, Economics",
+      "email": "See ANU profile",
+      "office": "Research School of Economics",
+      "profileUrl": "https://rse.anu.edu.au/people/tim-hatton",
+      "tags": [
+        "rse",
+        "economic history",
+        "economics"
+      ],
+      "linkedCourses": [],
+      "reviewMetrics": [
+        "Clarity",
+        "Support",
+        "Engagement"
+      ]
+    },
+    {
+      "id": "tracy-kun-wang",
+      "type": "academic",
+      "name": "Professor Tracy (Kun) Wang",
+      "school": "Research School of Accounting",
+      "schoolCode": "RSA",
+      "college": "CBE",
+      "position": "Professor",
+      "focus": "Accounting, Economics, Finance",
+      "email": "See ANU profile",
+      "office": "Research School of Accounting",
+      "profileUrl": "https://rsa.anu.edu.au/people/tracy-kun-wang",
+      "tags": [
+        "rsa",
+        "accounting",
+        "economics",
+        "finance"
       ],
       "linkedCourses": [],
       "reviewMetrics": [
@@ -13163,6 +16258,31 @@ window.ANREVIEW_DATA = {
       ]
     },
     {
+      "id": "vinh-lu",
+      "type": "academic",
+      "name": "Professor Vinh Lu",
+      "school": "Research School of Management",
+      "schoolCode": "RSM",
+      "college": "CBE",
+      "position": "Director - Research School of Management",
+      "focus": "Business & business administration, Commerce, International business, Management, Marketing",
+      "email": "See ANU profile",
+      "office": "Research School of Management",
+      "profileUrl": "https://rsm.anu.edu.au/people/vinh-lu",
+      "tags": [
+        "rsm",
+        "business & business administrati",
+        "commerce",
+        "international business"
+      ],
+      "linkedCourses": [],
+      "reviewMetrics": [
+        "Clarity",
+        "Support",
+        "Engagement"
+      ]
+    },
+    {
       "id": "vladimir-canudas-romo",
       "type": "academic",
       "name": "Professor Vladimir Canudas-Romo",
@@ -13186,6 +16306,355 @@ window.ANREVIEW_DATA = {
       ]
     },
     {
+      "id": "xin-meng",
+      "type": "academic",
+      "name": "Professor Xin Meng",
+      "school": "Research School of Economics",
+      "schoolCode": "RSE",
+      "college": "CBE",
+      "position": "Professor",
+      "focus": "Economics",
+      "email": "See ANU profile",
+      "office": "Research School of Economics",
+      "profileUrl": "https://rse.anu.edu.au/people/xin-meng",
+      "tags": [
+        "rse",
+        "economics"
+      ],
+      "linkedCourses": [],
+      "reviewMetrics": [
+        "Clarity",
+        "Support",
+        "Engagement"
+      ]
+    },
+    {
+      "id": "ying-yi-chih",
+      "type": "academic",
+      "name": "Professor Ying-Yi Chih",
+      "school": "Research School of Management",
+      "schoolCode": "RSM",
+      "college": "CBE",
+      "position": "Associate Dean (Students and Industry Experience)",
+      "focus": "Management, Project management",
+      "email": "See ANU profile",
+      "office": "Research School of Management",
+      "profileUrl": "https://rsm.anu.edu.au/people/ying-yi-chih",
+      "tags": [
+        "rsm",
+        "management",
+        "project management"
+      ],
+      "linkedCourses": [],
+      "reviewMetrics": [
+        "Clarity",
+        "Support",
+        "Engagement"
+      ]
+    },
+    {
+      "id": "quan-vu",
+      "type": "academic",
+      "name": "Quan Vu",
+      "school": "Research School of Finance, Actuarial Studies and Statistics",
+      "schoolCode": "RSFAS",
+      "college": "CBE",
+      "position": "Postdoctoral Fellow",
+      "focus": "Statistics",
+      "email": "See ANU profile",
+      "office": "Research School of Finance, Actuarial Studies and Statistics",
+      "profileUrl": "https://rsfas.anu.edu.au/people/quan-vu",
+      "tags": [
+        "rsfas",
+        "statistics"
+      ],
+      "linkedCourses": [],
+      "reviewMetrics": [
+        "Clarity",
+        "Support",
+        "Engagement"
+      ]
+    },
+    {
+      "id": "r-ian-mcewin",
+      "type": "academic",
+      "name": "R. Ian McEwin",
+      "school": "ANU Law School",
+      "schoolCode": "LAW",
+      "college": "ANU Law School",
+      "position": "Honorary Professor",
+      "focus": "Private Law",
+      "email": "See ANU profile",
+      "office": "ANU Law School",
+      "profileUrl": "https://law.anu.edu.au/about/our-people/r-ian-mcewin",
+      "tags": [
+        "law",
+        "private law"
+      ],
+      "linkedCourses": [],
+      "reviewMetrics": [
+        "Clarity",
+        "Support",
+        "Engagement"
+      ]
+    },
+    {
+      "id": "rebecca-monson",
+      "type": "academic",
+      "name": "Rebecca Monson",
+      "school": "ANU Law School",
+      "schoolCode": "LAW",
+      "college": "ANU Law School",
+      "position": "Professor",
+      "focus": "Critical Legal Scholarship Environment, Climate & Health Gender, Sexuality & the Law",
+      "email": "See ANU profile",
+      "office": "ANU Law School",
+      "profileUrl": "https://law.anu.edu.au/about/our-people/rebecca-monson",
+      "tags": [
+        "law",
+        "critical legal scholarship envir",
+        "climate & health gender",
+        "sexuality & the law"
+      ],
+      "linkedCourses": [],
+      "reviewMetrics": [
+        "Clarity",
+        "Support",
+        "Engagement"
+      ]
+    },
+    {
+      "id": "rebekah-mcwhirter",
+      "type": "academic",
+      "name": "Rebekah McWhirter",
+      "school": "ANU Law School",
+      "schoolCode": "LAW",
+      "college": "ANU Law School",
+      "position": "Associate Professor",
+      "focus": "Australian Indigenous Rights Environment, Climate & Health Health Law & Ethics",
+      "email": "See ANU profile",
+      "office": "ANU Law School",
+      "profileUrl": "https://law.anu.edu.au/about/our-people/rebekah-mcwhirter",
+      "tags": [
+        "law",
+        "australian indigenous rights env",
+        "climate & health health law & et"
+      ],
+      "linkedCourses": [],
+      "reviewMetrics": [
+        "Clarity",
+        "Support",
+        "Engagement"
+      ]
+    },
+    {
+      "id": "richard-chisholm",
+      "type": "academic",
+      "name": "Richard Chisholm",
+      "school": "ANU Law School",
+      "schoolCode": "LAW",
+      "college": "ANU Law School",
+      "position": "Honorary Professor",
+      "focus": "Courts & Tribunals",
+      "email": "See ANU profile",
+      "office": "ANU Law School",
+      "profileUrl": "https://law.anu.edu.au/about/our-people/richard-chisholm",
+      "tags": [
+        "law",
+        "courts & tribunals"
+      ],
+      "linkedCourses": [],
+      "reviewMetrics": [
+        "Clarity",
+        "Support",
+        "Engagement"
+      ]
+    },
+    {
+      "id": "richard-refshauge",
+      "type": "academic",
+      "name": "Richard Refshauge",
+      "school": "ANU Law School",
+      "schoolCode": "LAW",
+      "college": "ANU Law School",
+      "position": "Honorary Professor",
+      "focus": "Private Law",
+      "email": "See ANU profile",
+      "office": "ANU Law School",
+      "profileUrl": "https://law.anu.edu.au/about/our-people/richard-refshauge",
+      "tags": [
+        "law",
+        "private law"
+      ],
+      "linkedCourses": [],
+      "reviewMetrics": [
+        "Clarity",
+        "Support",
+        "Engagement"
+      ]
+    },
+    {
+      "id": "richard-rowe",
+      "type": "academic",
+      "name": "Richard Rowe",
+      "school": "ANU Law School",
+      "schoolCode": "LAW",
+      "college": "ANU Law School",
+      "position": "Honorary Professor",
+      "focus": "International Law",
+      "email": "See ANU profile",
+      "office": "ANU Law School",
+      "profileUrl": "https://law.anu.edu.au/about/our-people/richard-rowe",
+      "tags": [
+        "law",
+        "international law"
+      ],
+      "linkedCourses": [],
+      "reviewMetrics": [
+        "Clarity",
+        "Support",
+        "Engagement"
+      ]
+    },
+    {
+      "id": "robert-french",
+      "type": "academic",
+      "name": "Robert French",
+      "school": "ANU Law School",
+      "schoolCode": "LAW",
+      "college": "ANU Law School",
+      "position": "Distinguished Professor",
+      "focus": "Public Law",
+      "email": "See ANU profile",
+      "office": "ANU Law School",
+      "profileUrl": "https://law.anu.edu.au/about/our-people/robert-french",
+      "tags": [
+        "law",
+        "public law"
+      ],
+      "linkedCourses": [],
+      "reviewMetrics": [
+        "Clarity",
+        "Support",
+        "Engagement"
+      ]
+    },
+    {
+      "id": "robert-mclaughlin",
+      "type": "academic",
+      "name": "Robert McLaughlin",
+      "school": "ANU Law School",
+      "schoolCode": "LAW",
+      "college": "ANU Law School",
+      "position": "Honorary Professor",
+      "focus": "International Law",
+      "email": "See ANU profile",
+      "office": "ANU Law School",
+      "profileUrl": "https://law.anu.edu.au/about/our-people/robert-mclaughlin",
+      "tags": [
+        "law",
+        "international law"
+      ],
+      "linkedCourses": [],
+      "reviewMetrics": [
+        "Clarity",
+        "Support",
+        "Engagement"
+      ]
+    },
+    {
+      "id": "robin-creyke",
+      "type": "academic",
+      "name": "Robin Creyke",
+      "school": "ANU Law School",
+      "schoolCode": "LAW",
+      "college": "ANU Law School",
+      "position": "Emerita Professor",
+      "focus": "Administrative Law Law & Development",
+      "email": "See ANU profile",
+      "office": "ANU Law School",
+      "profileUrl": "https://law.anu.edu.au/about/our-people/robin-creyke",
+      "tags": [
+        "law",
+        "administrative law law & develop"
+      ],
+      "linkedCourses": [],
+      "reviewMetrics": [
+        "Clarity",
+        "Support",
+        "Engagement"
+      ]
+    },
+    {
+      "id": "ron-levy",
+      "type": "academic",
+      "name": "Ron Levy",
+      "school": "ANU Law School",
+      "schoolCode": "LAW",
+      "college": "ANU Law School",
+      "position": "Professor",
+      "focus": "Comparative Law Constitutional Law International Human Rights Law",
+      "email": "See ANU profile",
+      "office": "ANU Law School",
+      "profileUrl": "https://law.anu.edu.au/about/our-people/ron-levy",
+      "tags": [
+        "law",
+        "comparative law constitutional l"
+      ],
+      "linkedCourses": [],
+      "reviewMetrics": [
+        "Clarity",
+        "Support",
+        "Engagement"
+      ]
+    },
+    {
+      "id": "ronald-stauber",
+      "type": "academic",
+      "name": "Ronald Stauber",
+      "school": "Research School of Economics",
+      "schoolCode": "RSE",
+      "college": "CBE",
+      "position": "Associate Professor",
+      "focus": "Economics",
+      "email": "See ANU profile",
+      "office": "Research School of Economics",
+      "profileUrl": "https://rse.anu.edu.au/people/ronald-stauber",
+      "tags": [
+        "rse",
+        "economics"
+      ],
+      "linkedCourses": [],
+      "reviewMetrics": [
+        "Clarity",
+        "Support",
+        "Engagement"
+      ]
+    },
+    {
+      "id": "ruoying-chen",
+      "type": "academic",
+      "name": "Ruoying Chen",
+      "school": "ANU Law School",
+      "schoolCode": "LAW",
+      "college": "ANU Law School",
+      "position": "Senior Lecturer",
+      "focus": "Administrative Law Asian Law Commercial and Corporate Law",
+      "email": "See ANU profile",
+      "office": "ANU Law School",
+      "profileUrl": "https://law.anu.edu.au/about/our-people/ruoying-chen",
+      "tags": [
+        "law",
+        "administrative law asian law com"
+      ],
+      "linkedCourses": [],
+      "reviewMetrics": [
+        "Clarity",
+        "Support",
+        "Engagement"
+      ]
+    },
+    {
       "id": "waller-r",
       "type": "academic",
       "name": "Ruth Waller",
@@ -13200,6 +16669,470 @@ window.ANREVIEW_DATA = {
       "tags": [
         "cass",
         "school of art & design"
+      ],
+      "linkedCourses": [],
+      "reviewMetrics": [
+        "Clarity",
+        "Support",
+        "Engagement"
+      ]
+    },
+    {
+      "id": "cap-bell-2e6ba16d-ef64-453a-99fc-c179644b47b7",
+      "type": "academic",
+      "name": "Salā Dr George Carter Senior",
+      "position": "Fellow",
+      "focus": "and Deputy Head of Department of Pacific Affairs; Director ANU Pacific Institute",
+      "school": "Coral Bell School of Asia Pacific Affairs",
+      "schoolCode": "BELL",
+      "college": "ANU College of Asia and the Pacific",
+      "profileUrl": "https://researchportalplus.anu.edu.au/en/persons/2e6ba16d-ef64-453a-99fc-c179644b47b7",
+      "email": "",
+      "office": "",
+      "linkedCourses": [],
+      "reviewMetrics": [
+        "Clarity",
+        "Support",
+        "Engagement"
+      ],
+      "tags": [
+        "bell",
+        "asia-pacific affairs"
+      ]
+    },
+    {
+      "id": "sarah-heathcote",
+      "type": "academic",
+      "name": "Sarah Heathcote",
+      "school": "ANU Law School",
+      "schoolCode": "LAW",
+      "college": "ANU Law School",
+      "position": "Honorary Associate Professor",
+      "focus": "International Law",
+      "email": "See ANU profile",
+      "office": "ANU Law School",
+      "profileUrl": "https://law.anu.edu.au/about/our-people/sarah-heathcote",
+      "tags": [
+        "law",
+        "international law"
+      ],
+      "linkedCourses": [],
+      "reviewMetrics": [
+        "Clarity",
+        "Support",
+        "Engagement"
+      ]
+    },
+    {
+      "id": "saule-burkitbayeva",
+      "type": "academic",
+      "name": "Saule Burkitbayeva",
+      "school": "ANU Law School",
+      "schoolCode": "LAW",
+      "college": "ANU Law School",
+      "position": "Senior Lecturer",
+      "focus": "Climate Change & Climate Finance Environmental Law International Economic Law",
+      "email": "See ANU profile",
+      "office": "ANU Law School",
+      "profileUrl": "https://law.anu.edu.au/about/our-people/saule-burkitbayeva",
+      "tags": [
+        "law",
+        "climate change & climate finance"
+      ],
+      "linkedCourses": [],
+      "reviewMetrics": [
+        "Clarity",
+        "Support",
+        "Engagement"
+      ]
+    },
+    {
+      "id": "scott-chamberlain",
+      "type": "academic",
+      "name": "Scott Chamberlain",
+      "school": "ANU Law School",
+      "schoolCode": "LAW",
+      "college": "ANU Law School",
+      "position": "Entrepreneurial Fellow",
+      "focus": "Law & Technology",
+      "email": "See ANU profile",
+      "office": "ANU Law School",
+      "profileUrl": "https://law.anu.edu.au/about/our-people/scott-chamberlain",
+      "tags": [
+        "law",
+        "law & technology"
+      ],
+      "linkedCourses": [],
+      "reviewMetrics": [
+        "Clarity",
+        "Support",
+        "Engagement"
+      ]
+    },
+    {
+      "id": "cap-chl-f0231570-231f-43b4-a0ab-1613b6f95f19",
+      "type": "academic",
+      "name": "Sina Emde",
+      "position": "Academic",
+      "focus": "Asia and Pacific studies",
+      "school": "School of Culture, History and Language",
+      "schoolCode": "CHL",
+      "college": "ANU College of Asia and the Pacific",
+      "profileUrl": "https://researchportalplus.anu.edu.au/en/persons/f0231570-231f-43b4-a0ab-1613b6f95f19",
+      "email": "",
+      "office": "",
+      "linkedCourses": [],
+      "reviewMetrics": [
+        "Clarity",
+        "Support",
+        "Engagement"
+      ],
+      "tags": [
+        "chl",
+        "asia-pacific"
+      ]
+    },
+    {
+      "id": "solene-rowan",
+      "type": "academic",
+      "name": "Solene Rowan",
+      "school": "ANU Law School",
+      "schoolCode": "LAW",
+      "college": "ANU Law School",
+      "position": "Honorary Professor",
+      "focus": "Private Law",
+      "email": "See ANU profile",
+      "office": "ANU Law School",
+      "profileUrl": "https://law.anu.edu.au/about/our-people/solene-rowan",
+      "tags": [
+        "law",
+        "private law"
+      ],
+      "linkedCourses": [],
+      "reviewMetrics": [
+        "Clarity",
+        "Support",
+        "Engagement"
+      ]
+    },
+    {
+      "id": "stephen-bottomley",
+      "type": "academic",
+      "name": "Stephen Bottomley",
+      "school": "ANU Law School",
+      "schoolCode": "LAW",
+      "college": "ANU Law School",
+      "position": "Emeritus Professor",
+      "focus": "Law & Society Legal Theory Private Law",
+      "email": "See ANU profile",
+      "office": "ANU Law School",
+      "profileUrl": "https://law.anu.edu.au/about/our-people/stephen-bottomley",
+      "tags": [
+        "law",
+        "law & society legal theory priva"
+      ],
+      "linkedCourses": [],
+      "reviewMetrics": [
+        "Clarity",
+        "Support",
+        "Engagement"
+      ]
+    },
+    {
+      "id": "stephen-thomson",
+      "type": "academic",
+      "name": "Stephen Thomson",
+      "school": "ANU Law School",
+      "schoolCode": "LAW",
+      "college": "ANU Law School",
+      "position": "Associate Professor",
+      "focus": "Administrative Law Constitutional Law Health, Law and Bioethics",
+      "email": "See ANU profile",
+      "office": "ANU Law School",
+      "profileUrl": "https://law.anu.edu.au/about/our-people/stephen-thomson",
+      "tags": [
+        "law",
+        "administrative law constitutiona",
+        "law and bioethics"
+      ],
+      "linkedCourses": [],
+      "reviewMetrics": [
+        "Clarity",
+        "Support",
+        "Engagement"
+      ]
+    },
+    {
+      "id": "sumonkanti-das",
+      "type": "academic",
+      "name": "Sumonkanti Das",
+      "school": "Research School of Finance, Actuarial Studies and Statistics",
+      "schoolCode": "RSFAS",
+      "college": "CBE",
+      "position": "Postdoctoral Fellow",
+      "focus": "Statistics",
+      "email": "See ANU profile",
+      "office": "Research School of Finance, Actuarial Studies and Statistics",
+      "profileUrl": "https://rsfas.anu.edu.au/people/sumonkanti-das",
+      "tags": [
+        "rsfas",
+        "statistics"
+      ],
+      "linkedCourses": [],
+      "reviewMetrics": [
+        "Clarity",
+        "Support",
+        "Engagement"
+      ]
+    },
+    {
+      "id": "susan-bartie",
+      "type": "academic",
+      "name": "Susan Bartie",
+      "school": "ANU Law School",
+      "schoolCode": "LAW",
+      "college": "ANU Law School",
+      "position": "Senior Lecturer",
+      "focus": "Comparative Law Environment, Climate & Health Environmental Law",
+      "email": "See ANU profile",
+      "office": "ANU Law School",
+      "profileUrl": "https://law.anu.edu.au/about/our-people/susan-bartie",
+      "tags": [
+        "law",
+        "comparative law environment",
+        "climate & health environmental l"
+      ],
+      "linkedCourses": [],
+      "reviewMetrics": [
+        "Clarity",
+        "Support",
+        "Engagement"
+      ]
+    },
+    {
+      "id": "tim-bonyhady",
+      "type": "academic",
+      "name": "Tim Bonyhady",
+      "school": "ANU Law School",
+      "schoolCode": "LAW",
+      "college": "ANU Law School",
+      "position": "Emeritus Professor",
+      "focus": "Environmental Law Law & Migration",
+      "email": "See ANU profile",
+      "office": "ANU Law School",
+      "profileUrl": "https://law.anu.edu.au/about/our-people/tim-bonyhady",
+      "tags": [
+        "law",
+        "environmental law law & migratio"
+      ],
+      "linkedCourses": [],
+      "reviewMetrics": [
+        "Clarity",
+        "Support",
+        "Engagement"
+      ]
+    },
+    {
+      "id": "tony-foley",
+      "type": "academic",
+      "name": "Tony Foley",
+      "school": "ANU Law School",
+      "schoolCode": "LAW",
+      "college": "ANU Law School",
+      "position": "Emeritus Professor",
+      "focus": "The Legal Profession",
+      "email": "See ANU profile",
+      "office": "ANU Law School",
+      "profileUrl": "https://law.anu.edu.au/about/our-people/tony-foley",
+      "tags": [
+        "law",
+        "the legal profession"
+      ],
+      "linkedCourses": [],
+      "reviewMetrics": [
+        "Clarity",
+        "Support",
+        "Engagement"
+      ]
+    },
+    {
+      "id": "vivien-holmes",
+      "type": "academic",
+      "name": "Vivien Holmes",
+      "school": "ANU Law School",
+      "schoolCode": "LAW",
+      "college": "ANU Law School",
+      "position": "Professor",
+      "focus": "Environment, Climate & Health Government Lawyers Legal Education",
+      "email": "See ANU profile",
+      "office": "ANU Law School",
+      "profileUrl": "https://law.anu.edu.au/about/our-people/vivien-holmes",
+      "tags": [
+        "law",
+        "environment",
+        "climate & health government lawy"
+      ],
+      "linkedCourses": [],
+      "reviewMetrics": [
+        "Clarity",
+        "Support",
+        "Engagement"
+      ]
+    },
+    {
+      "id": "wanshu-cong",
+      "type": "academic",
+      "name": "Wanshu Cong",
+      "school": "ANU Law School",
+      "schoolCode": "LAW",
+      "college": "ANU Law School",
+      "position": "Lecturer",
+      "focus": "Critical Legal Scholarship International Institution International Law",
+      "email": "See ANU profile",
+      "office": "ANU Law School",
+      "profileUrl": "https://law.anu.edu.au/about/our-people/wanshu-cong",
+      "tags": [
+        "law",
+        "critical legal scholarship inter"
+      ],
+      "linkedCourses": [],
+      "reviewMetrics": [
+        "Clarity",
+        "Support",
+        "Engagement"
+      ]
+    },
+    {
+      "id": "wayne-morgan",
+      "type": "academic",
+      "name": "Wayne Morgan",
+      "school": "ANU Law School",
+      "schoolCode": "LAW",
+      "college": "ANU Law School",
+      "position": "Associate Professor",
+      "focus": "Gender, Sexuality & the Law International Human Rights Law International Law",
+      "email": "See ANU profile",
+      "office": "ANU Law School",
+      "profileUrl": "https://law.anu.edu.au/about/our-people/wayne-morgan",
+      "tags": [
+        "law",
+        "gender",
+        "sexuality & the law internationa"
+      ],
+      "linkedCourses": [],
+      "reviewMetrics": [
+        "Clarity",
+        "Support",
+        "Engagement"
+      ]
+    },
+    {
+      "id": "wenting-cheng",
+      "type": "academic",
+      "name": "Wenting Cheng",
+      "school": "ANU Law School",
+      "schoolCode": "LAW",
+      "college": "ANU Law School",
+      "position": "Grand Challenges Fellow",
+      "focus": "Environmental Law International Law",
+      "email": "See ANU profile",
+      "office": "ANU Law School",
+      "profileUrl": "https://law.anu.edu.au/about/our-people/wenting-cheng",
+      "tags": [
+        "law",
+        "environmental law international "
+      ],
+      "linkedCourses": [],
+      "reviewMetrics": [
+        "Clarity",
+        "Support",
+        "Engagement"
+      ]
+    },
+    {
+      "id": "will-bateman",
+      "type": "academic",
+      "name": "Will Bateman",
+      "school": "ANU Law School",
+      "schoolCode": "LAW",
+      "college": "ANU Law School",
+      "position": "Professor",
+      "focus": "Administrative Law Comparative Public Law Constitutional Law",
+      "email": "See ANU profile",
+      "office": "ANU Law School",
+      "profileUrl": "https://law.anu.edu.au/about/our-people/will-bateman",
+      "tags": [
+        "law",
+        "administrative law comparative p"
+      ],
+      "linkedCourses": [],
+      "reviewMetrics": [
+        "Clarity",
+        "Support",
+        "Engagement"
+      ]
+    },
+    {
+      "id": "william-lim",
+      "type": "academic",
+      "name": "William Lim",
+      "school": "Research School of Finance, Actuarial Studies and Statistics",
+      "schoolCode": "RSFAS",
+      "college": "CBE",
+      "position": "Lecturer",
+      "focus": "Actuarial studies",
+      "email": "See ANU profile",
+      "office": "Research School of Finance, Actuarial Studies and Statistics",
+      "profileUrl": "https://rsfas.anu.edu.au/people/william-lim",
+      "tags": [
+        "rsfas",
+        "actuarial studies"
+      ],
+      "linkedCourses": [],
+      "reviewMetrics": [
+        "Clarity",
+        "Support",
+        "Engagement"
+      ]
+    },
+    {
+      "id": "cap-chl-a7f6fd71-5fd6-40d4-b109-b53551c4747c",
+      "type": "academic",
+      "name": "Yen Le ANTHROPOLOGY PUBLIC",
+      "position": "Academic",
+      "focus": "HEALTH AND HEALTH SERVICES LANGUAGE STUDIES",
+      "school": "School of Culture, History and Language",
+      "schoolCode": "CHL",
+      "college": "ANU College of Asia and the Pacific",
+      "profileUrl": "https://researchportalplus.anu.edu.au/en/persons/a7f6fd71-5fd6-40d4-b109-b53551c4747c",
+      "email": "",
+      "office": "",
+      "linkedCourses": [],
+      "reviewMetrics": [
+        "Clarity",
+        "Support",
+        "Engagement"
+      ],
+      "tags": [
+        "chl",
+        "asia-pacific"
+      ]
+    },
+    {
+      "id": "zhi-yang-tho",
+      "type": "academic",
+      "name": "Zhi Yang Tho",
+      "school": "Research School of Finance, Actuarial Studies and Statistics",
+      "schoolCode": "RSFAS",
+      "college": "CBE",
+      "position": "Postdoctoral Fellow",
+      "focus": "Statistics",
+      "email": "See ANU profile",
+      "office": "Research School of Finance, Actuarial Studies and Statistics",
+      "profileUrl": "https://rsfas.anu.edu.au/people/zhi-yang-tho",
+      "tags": [
+        "rsfas",
+        "statistics"
       ],
       "linkedCourses": [],
       "reviewMetrics": [
@@ -13820,396 +17753,485 @@ window.ANREVIEW_DATA = {
       ]
     },
     {
-      "id": "ASIA1025",
+      "id": "asia1025",
       "type": "course",
       "code": "ASIA1025",
       "name": "Asia and the Pacific: Power, diversity and change",
-      "college": "ANU College of Asia and the Pacific",
+      "summary": "This course investigates the dynamic transformations unfolding in contemporary Asia and the Pacific. It introduces Area Studies as a field of scholarship and asks what it means to study this diverse and rapidly changing region. Through an interdisciplinary approach, students will explore three key themes: Organising lives: How people in Asia and the Pacific live, work, and connect in fast-changing societies, and how culture, religion, technology, and gender shape daily life and drive social change.",
       "school": "School of Culture History and Language",
-      "schoolCode": "SOCHA",
+      "schoolCode": "CHL",
+      "college": "ANU College of Asia and the Pacific",
       "level": "UGRD",
-      "terms": [
-        "First Semester"
+      "terms": [],
+      "conveners": [
+        "Dr Eva Nisa",
+        "Dr Eva Nisa"
       ],
-      "conveners": [],
-      "handbookUrl": "https://programsandcourses.anu.edu.au/course/asia1025",
-      "summary": "This course investigates the dynamic transformations unfolding in contemporary Asia and the Pacific. It introduces Area Studies as a field of scholarship and asks what it means to study this diverse and rapidly changing region.",
-      "tags": [
-        "anthropology",
-        "non language asian studies",
-        "cultural studies",
-        "gender studies"
-      ],
+      "handbookUrl": "https://programsandcourses.anu.edu.au/course/ASIA1025",
       "reviewMetrics": [
         "Teaching quality",
         "Workload fairness",
         "Assessment design"
+      ],
+      "tags": [
+        "cap",
+        "chl",
+        "pacific studies",
+        "asian studies"
       ]
     },
     {
-      "id": "ASIA1030",
+      "id": "asia1030",
       "type": "course",
       "code": "ASIA1030",
       "name": "Asia and the Pacific in Motion",
-      "college": "ANU College of Asia and the Pacific",
+      "summary": "This course offers an interdisciplinary introduction to the Asia-Pacific region, encompassing its rich cultural, ecological, and political diversity. In the first half of the course, students will engage deeply with Indigenous Australian cultures, histories, and knowledge systems. Emphasis is placed on First Peoples’ perspectives – including the continuing significance of kinship, language, and connection to Country – and the agency of Aboriginal and Torres Strait Islander communities in pursuing cultural autonomy and resurgence .",
       "school": "School of Culture History and Language",
-      "schoolCode": "SOCHA",
-      "level": "UGRD",
-      "terms": [
-        "Second Semester"
-      ],
-      "conveners": [],
-      "handbookUrl": "https://programsandcourses.anu.edu.au/course/asia1030",
-      "summary": "This course offers an interdisciplinary introduction to the Asia-Pacific region, encompassing its rich cultural, ecological, and political diversity. In the first half of the course, students will engage deeply with Indigenous Australian cultures, histories, and knowledge systems.",
-      "tags": [
-        "anthropology",
-        "non language asian studies",
-        "gender studies",
-        "asian studies"
-      ],
-      "reviewMetrics": [
-        "Teaching quality",
-        "Workload fairness",
-        "Assessment design"
-      ]
-    },
-    {
-      "id": "ASIA1035",
-      "type": "course",
-      "code": "ASIA1035",
-      "name": "Introduction to Asian Politics",
+      "schoolCode": "CHL",
       "college": "ANU College of Asia and the Pacific",
-      "school": "Department of Political and Social Change",
-      "schoolCode": "DOPAS",
       "level": "UGRD",
-      "terms": [
-        "First Semester"
+      "terms": [],
+      "conveners": [
+        "Dr Larissa Schneider",
+        "Dr Shuge Wei"
       ],
-      "conveners": [],
-      "handbookUrl": "https://programsandcourses.anu.edu.au/course/asia1035",
-      "summary": "In Asia, the world's most rapidly growing region, politics and political regimes are diverse. Asia is home to stable communist regimes, there are constitutional monarchies and military-based authoritarian governments, as well as young and vibrant democracies.",
-      "tags": [
-        "international relations",
-        "political sciences",
-        "asian studies",
-        "asia pacific studies"
-      ],
+      "handbookUrl": "https://programsandcourses.anu.edu.au/course/ASIA1030",
       "reviewMetrics": [
         "Teaching quality",
         "Workload fairness",
         "Assessment design"
+      ],
+      "tags": [
+        "cap",
+        "chl",
+        "pacific studies",
+        "asian studies"
       ]
     },
     {
-      "id": "ASIA1999",
+      "id": "asia1999",
       "type": "course",
       "code": "ASIA1999",
       "name": "The Origins of Political Order in Asia",
-      "college": "ANU College of Asia and the Pacific",
+      "summary": "This course traces the historical development of Asia's diverse political systems. It examines underlying geo-political realities and their implications for political structure and focusses on the religious and political systems of thought that have shaped Asian political systems, especially regarding leadership, the family, ethnicity, social class and age. The course commences with the emergence of civilization in Asia, examines political structures as they were influenced by Hinduism, Buddhism, Confucianism, Islam and Christianity, the transformation of ethnic and national identities brought about in the era of western imperialism, and the assertion of new political ideals inspired by communism, liberalism, religions and reinterpretations of the past.",
       "school": "Department of Political and Social Change",
-      "schoolCode": "DOPAS",
+      "schoolCode": "CAP",
+      "college": "ANU College of Asia and the Pacific",
       "level": "UGRD",
-      "terms": [
-        "Second Semester"
+      "terms": [],
+      "conveners": [
+        "Dr Sana Jaffrey",
+        "Dr Sana Jaffrey"
       ],
-      "conveners": [],
-      "handbookUrl": "https://programsandcourses.anu.edu.au/course/asia1999",
-      "summary": "This course traces the historical development of Asia's diverse political systems. It examines underlying geo-political realities and their implications for political structure and focusses on the religious and political systems of thought that have shaped Asian political systems, especially regarding leadership, the family, ethnicity, social class and age.",
-      "tags": [
-        "political sciences"
-      ],
+      "handbookUrl": "https://programsandcourses.anu.edu.au/course/ASIA1999",
       "reviewMetrics": [
         "Teaching quality",
         "Workload fairness",
         "Assessment design"
+      ],
+      "tags": [
+        "cap",
+        "pacific studies",
+        "asian studies"
       ]
     },
     {
-      "id": "ASIA2001",
+      "id": "asia2001",
       "type": "course",
       "code": "ASIA2001",
       "name": "Language in Asia and the Pacific",
-      "college": "ANU College of Asia and the Pacific",
+      "summary": "This course is an introduction to the languages of Asia and the Pacific that explores the diversity, complexity and vitality of languages of the regions to our north and east. The course uses case studies from a number of countries and societies to cover topics such as: the history and power of spoken and written forms of language (eg. in China, Japan, India, Papua New Guinea); language choice and language politics in multilingual societies (eg.",
       "school": "School of Culture History and Language",
-      "schoolCode": "SOCHA",
+      "schoolCode": "CHL",
+      "college": "ANU College of Asia and the Pacific",
       "level": "UGRD",
-      "terms": [
-        "First Semester"
+      "terms": [],
+      "conveners": [
+        "Dr Bethwyn Evans",
+        "Dr Bethwyn Evans"
       ],
-      "conveners": [],
-      "handbookUrl": "https://programsandcourses.anu.edu.au/course/asia2001",
-      "summary": "This course is an introduction to the languages of Asia and the Pacific that explores the diversity, complexity and vitality of languages of the regions to our north and east. The course uses case studies from a number of countries and societies to cover topics such as: the history and power of spoken and written forms of language (eg.",
-      "tags": [
-        "asian languages",
-        "non language asian studies",
-        "pacific studies",
-        "asia pacific studies"
-      ],
+      "handbookUrl": "https://programsandcourses.anu.edu.au/course/ASIA2001",
       "reviewMetrics": [
         "Teaching quality",
         "Workload fairness",
         "Assessment design"
+      ],
+      "tags": [
+        "cap",
+        "chl",
+        "pacific studies",
+        "asian studies"
       ]
     },
     {
-      "id": "ASIA2009",
+      "id": "asia2006",
+      "type": "course",
+      "code": "ASIA2006",
+      "name": "Gender in Korean History",
+      "summary": "This course introduces students to the gendered nature of Korean cultural history. Using primary sources from the archives, as well as literary works, films, museum exhibitions, ethnographic works and more, we will explore such topics as the fall of the Choseon Dynasty through the eyes of kisaeng (courtesans); same-sex love under Japanese colonial rule; collaboration with wartime Japan as a crisis of Korea’s male intellectual elite; gendered discourses of the American wars; US military camptowns as a site of love, exploitation and migration; gender, sexuality and race of K-pop; as well as migration and multiculturalism in South Korea today. Covering important flashpoints in modern and contemporary Korean history, this course will introduce students to multiple authentic, multimedia sources from the Koreas as we closely read the gender politics of historical change.",
+      "school": "School of Culture History and Language",
+      "schoolCode": "CHL",
+      "college": "ANU College of Asia and the Pacific",
+      "level": "UGRD",
+      "terms": [],
+      "conveners": [],
+      "handbookUrl": "https://programsandcourses.anu.edu.au/course/ASIA2006",
+      "reviewMetrics": [
+        "Teaching quality",
+        "Workload fairness",
+        "Assessment design"
+      ],
+      "tags": [
+        "cap",
+        "chl",
+        "pacific studies",
+        "asian studies"
+      ]
+    },
+    {
+      "id": "asia2009",
       "type": "course",
       "code": "ASIA2009",
       "name": "The Making of Modern Japan: From Samurai to Economic Superpower and Beyond",
-      "college": "ANU College of Asia and the Pacific",
+      "summary": "This course traces the history of Japan from the 17th century to the present, examining the dynamics of the early modern period (Tokugawa era), the Meiji revolution, the political, social and economic transformations of the early 20th century, the tumultuous 1930s and 1940s, and the dynamics of the post-1945 era. Thematic issues to be covered include nation- and empire-building, state-society relations, total war and defeat, the Allied Occupation, Japan in the Cold War, socio-economic and demographic change, intellectual developments, and Japan’s international relations. A key emphasis of the course will be to understand and to position Japan in wider regional and global processes.",
       "school": "School of Culture History and Language",
-      "schoolCode": "SOCHA",
+      "schoolCode": "CHL",
+      "college": "ANU College of Asia and the Pacific",
       "level": "UGRD",
-      "terms": [
-        "First Semester"
+      "terms": [],
+      "conveners": [
+        "Prof Simon Avenell",
+        "Prof Simon Avenell"
       ],
-      "conveners": [],
-      "handbookUrl": "https://programsandcourses.anu.edu.au/course/asia2009",
-      "summary": "This course traces the history of Japan from the 17th century to the present, examining the dynamics of the early modern period (Tokugawa era), the Meiji revolution, the political, social and economic transformations of the early 20th century, the tumultuous 1930s and 1940s, and the dynamics of the post-1945 era. Thematic issues to be covered include nati...",
-      "tags": [
-        "non language asian studies",
-        "history",
-        "asian studies",
-        "asia pacific studies"
-      ],
+      "handbookUrl": "https://programsandcourses.anu.edu.au/course/ASIA2009",
       "reviewMetrics": [
         "Teaching quality",
         "Workload fairness",
         "Assessment design"
+      ],
+      "tags": [
+        "cap",
+        "chl",
+        "pacific studies",
+        "asian studies"
       ]
     },
     {
-      "id": "ASIA2016",
+      "id": "asia2017",
       "type": "course",
-      "code": "ASIA2016",
-      "name": "The Mongol Empire in World History",
-      "college": "ANU College of Asia and the Pacific",
+      "code": "ASIA2017",
+      "name": "History of International Relations in Northeast Asia",
+      "summary": "History is vital to our understanding of the current international relations of Northeast Asia. This course aims to deepen students' understanding of the international relations in Northeast Asia from the mid-nineteenth century to the contemporary era. It will especially focus on the nature of the regional order, its place in a broader global order, and diverse perspectives on key events in the international relations of the region.",
       "school": "School of Culture History and Language",
-      "schoolCode": "SOCHA",
+      "schoolCode": "CHL",
+      "college": "ANU College of Asia and the Pacific",
       "level": "UGRD",
-      "terms": [
-        "First Semester"
-      ],
+      "terms": [],
       "conveners": [],
-      "handbookUrl": "https://programsandcourses.anu.edu.au/course/asia2016",
-      "summary": "In the 13th century, Mongol armies created one of the largest empires in world history, stretching at its height from the Sea of Japan to the Mediterranean, from the South China Sea to the Baltic. Although short-lived, this empire had a profound influence on world history, creating unprecedented cultural and economic links between East and West and transf...",
-      "tags": [
-        "non language asian studies"
-      ],
+      "handbookUrl": "https://programsandcourses.anu.edu.au/course/ASIA2017",
       "reviewMetrics": [
         "Teaching quality",
         "Workload fairness",
         "Assessment design"
+      ],
+      "tags": [
+        "cap",
+        "chl",
+        "pacific studies",
+        "asian studies"
       ]
     },
     {
-      "id": "ASIA2026",
+      "id": "asia2018",
+      "type": "course",
+      "code": "ASIA2018",
+      "name": "Maps and Mapping in Asia and the Pacific",
+      "summary": "Maps and the process of mapping have long formed an integral aspect of how people interact with the world around them. Understanding how a map was produced, who, why, and what for, can provide a remarkable insight into how a group of people view themselves, their connections to other people, and what they consider important. Being able to interpret, use, and even create your own map are key skills for us to understand these factors, successfully use a map for our own goals, and to communicate such information to others.",
+      "school": "School of Culture History and Language",
+      "schoolCode": "CHL",
+      "college": "ANU College of Asia and the Pacific",
+      "level": "UGRD",
+      "terms": [],
+      "conveners": [],
+      "handbookUrl": "https://programsandcourses.anu.edu.au/course/ASIA2018",
+      "reviewMetrics": [
+        "Teaching quality",
+        "Workload fairness",
+        "Assessment design"
+      ],
+      "tags": [
+        "cap",
+        "chl",
+        "pacific studies",
+        "asian studies"
+      ]
+    },
+    {
+      "id": "asia2026",
       "type": "course",
       "code": "ASIA2026",
       "name": "The Politics of China",
-      "college": "ANU College of Asia and the Pacific",
+      "summary": "Who rules China, and how? This course examines the politics of contemporary China. It traces the cultural and historical legacies affecting political life and the political processes through which nation-state, citizen-subjects and the organizations and institutions of governance are constructed and interact; examines the major political challenges confronting China today; and explores debates over the concepts used to explain Chinese politics, both in China and in the field of comparative politics.",
       "school": "Department of Political and Social Change",
-      "schoolCode": "DOPAS",
+      "schoolCode": "CAP",
+      "college": "ANU College of Asia and the Pacific",
       "level": "UGRD",
-      "terms": [
-        "Second Semester"
+      "terms": [],
+      "conveners": [
+        "Dr Fengming Lu",
+        "Dr Fengming Lu"
       ],
-      "conveners": [],
-      "handbookUrl": "https://programsandcourses.anu.edu.au/course/asia2026",
-      "summary": "Who rules China, and how? This course examines the politics of contemporary China. It traces the cultural and historical legacies affecting political life and the political processes through which nation-state, citizen-subjects and the organizations and institutions of governance are constructed and interact; examines the major political challenges confro...",
-      "tags": [
-        "non language asian studies",
-        "policy studies"
-      ],
+      "handbookUrl": "https://programsandcourses.anu.edu.au/course/ASIA2026",
       "reviewMetrics": [
         "Teaching quality",
         "Workload fairness",
         "Assessment design"
+      ],
+      "tags": [
+        "cap",
+        "pacific studies",
+        "asian studies"
       ]
     },
     {
-      "id": "ASIA2031",
+      "id": "asia2031",
       "type": "course",
       "code": "ASIA2031",
       "name": "Japanese Politics",
-      "college": "ANU College of Asia and the Pacific",
+      "summary": "This course provides an introduction to contemporary Japanese politics. It looks closely at the relationship between institutions (electoral systems, regulatory frameworks, administrative systems) and political actors such as politicians, political parties, bureaucracies and bureaucrats, business and civic groups, and citizens. The course will introduce students to some of the most important debates and issues in Japanese politics such as the emergence and evolution of conservative rule, the role of industrial policy in economic development, the relationship between bureaucrats and politicians, the legal system and politics, security policy and foreign relations, civil society and civic engagement, and state-interest group dynamics.",
       "school": "School of Culture History and Language",
-      "schoolCode": "SOCHA",
+      "schoolCode": "CHL",
+      "college": "ANU College of Asia and the Pacific",
       "level": "UGRD",
-      "terms": [
-        "First Semester"
+      "terms": [],
+      "conveners": [
+        "Prof Simon Avenell",
+        "Prof Simon Avenell"
       ],
-      "conveners": [],
-      "handbookUrl": "https://programsandcourses.anu.edu.au/course/asia2031",
-      "summary": "This course provides an introduction to contemporary Japanese politics. It looks closely at the relationship between institutions (electoral systems, regulatory frameworks, administrative systems) and political actors such as politicians, political parties, bureaucracies and bureaucrats, business and civic groups, and citizens.",
-      "tags": [
-        "non language asian studies",
-        "policy studies",
-        "political sciences",
-        "asian studies"
-      ],
+      "handbookUrl": "https://programsandcourses.anu.edu.au/course/ASIA2031",
       "reviewMetrics": [
         "Teaching quality",
         "Workload fairness",
         "Assessment design"
+      ],
+      "tags": [
+        "cap",
+        "chl",
+        "pacific studies",
+        "asian studies"
       ]
     },
     {
-      "id": "ASIA2037",
+      "id": "asia2037",
       "type": "course",
       "code": "ASIA2037",
       "name": "History of Modern China",
-      "college": "ANU College of Asia and the Pacific",
+      "summary": "This course introduces the history of China from Qing dynasty to the end of Cultural Revolution. This period marked some of the greatest triumphs and tragedies of China’s long history: from the glories of the Qing empire to the degradation of famine, internal dissent, and foreign invasion. The course pays close attention to the transition of China from a dynasty to a modern state, which involves political reform, military confrontations, and social experiments.",
       "school": "School of Culture History and Language",
-      "schoolCode": "SOCHA",
+      "schoolCode": "CHL",
+      "college": "ANU College of Asia and the Pacific",
       "level": "UGRD",
-      "terms": [
-        "Second Semester",
-        "First Semester"
+      "terms": [],
+      "conveners": [
+        "Dr Shuge Wei",
+        "Dr Shuge Wei"
       ],
-      "conveners": [],
-      "handbookUrl": "https://programsandcourses.anu.edu.au/course/asia2037",
-      "summary": "This course introduces the history of China from Qing dynasty to the end of Cultural Revolution. This period marked some of the greatest triumphs and tragedies of China’s long history: from the glories of the Qing empire to the degradation of famine, internal dissent, and foreign invasion.",
-      "tags": [
-        "non language asian studies",
-        "history",
-        "asian studies",
-        "asia pacific studies"
-      ],
+      "handbookUrl": "https://programsandcourses.anu.edu.au/course/ASIA2037",
       "reviewMetrics": [
         "Teaching quality",
         "Workload fairness",
         "Assessment design"
+      ],
+      "tags": [
+        "cap",
+        "chl",
+        "pacific studies",
+        "asian studies"
       ]
     },
     {
-      "id": "ASIA2040",
+      "id": "asia2040",
       "type": "course",
       "code": "ASIA2040",
       "name": "The Making of Modern Korea",
-      "college": "ANU College of Asia and the Pacific",
+      "summary": "This course will introduce students to the history of Korea from 1800 to the present with an emphasis on modernity, family, social hierarchy, imperialism, and capitalism. Using primary sources, literary works, and video resources, we will explore such topics as: the birth of modern Korea amidst imperialism in the 19th century; culture, society, and family during the period of Japanese colonial rule (1910-1945); the origins of national division and the Korean War (1950-53); economic and cultural developments, as well as state-led and resistance politics, in the 1970s and 80s in South Korea; democratisation and its expansive impact in South Korea; and recent developments in the two Koreas. This course will give students a thorough grounding in modern change on the Korean peninsula and introduce them to major interpretative currents in the study of Korean history.",
       "school": "School of Culture History and Language",
-      "schoolCode": "SOCHA",
+      "schoolCode": "CHL",
+      "college": "ANU College of Asia and the Pacific",
       "level": "UGRD",
-      "terms": [
-        "First Semester"
-      ],
+      "terms": [],
       "conveners": [],
-      "handbookUrl": "https://programsandcourses.anu.edu.au/course/asia2040",
-      "summary": "This course will introduce students to the history of Korea from 1800 to the present with an emphasis on modernity, family, social hierarchy, imperialism, and capitalism. Using primary sources, literary works, and video resources, we will explore such topics as: the birth of modern Korea amidst imperialism in the 19th century; culture, society, and family...",
-      "tags": [
-        "non language asian studies",
-        "cultural studies",
-        "history",
-        "asian studies"
-      ],
+      "handbookUrl": "https://programsandcourses.anu.edu.au/course/ASIA2040",
       "reviewMetrics": [
         "Teaching quality",
         "Workload fairness",
         "Assessment design"
+      ],
+      "tags": [
+        "cap",
+        "chl",
+        "pacific studies",
+        "asian studies"
       ]
     },
     {
-      "id": "ASIA2041",
+      "id": "asia2041",
       "type": "course",
       "code": "ASIA2041",
       "name": "Mainland Southeast Asia: Colonial and Postcolonial Predicaments",
-      "college": "ANU College of Asia and the Pacific",
+      "summary": "Through historical examples from Vietnam, Burma, Thailand, Laos, and Cambodia, this course will emphasise the study of mainland Southeast Asia in a comparative framework, with particular attention to political culture, the production of knowledge, concepts of 'civilisation', and emerging civil societies in the twentieth century. Finally, the course explores foundations of democratic backsliding and contemporary social movements across the dynamic region.",
       "school": "School of Culture History and Language",
-      "schoolCode": "SOCHA",
+      "schoolCode": "CHL",
+      "college": "ANU College of Asia and the Pacific",
       "level": "UGRD",
-      "terms": [
-        "Second Semester"
+      "terms": [],
+      "conveners": [
+        "AsPr Jane Ferguson",
+        "AsPr Jane Ferguson"
       ],
-      "conveners": [],
-      "handbookUrl": "https://programsandcourses.anu.edu.au/course/asia2041",
-      "summary": "Through historical examples from Vietnam, Burma, Thailand, Laos, and Cambodia, this course will emphasise the study of mainland Southeast Asia in a comparative framework, with particular attention to political culture, the production of knowledge, concepts of 'civilisation', and emerging civil societies in the twentieth century. Finally, the course explor...",
-      "tags": [
-        "anthropology",
-        "non language asian studies",
-        "cultural studies",
-        "asia pacific studies"
-      ],
+      "handbookUrl": "https://programsandcourses.anu.edu.au/course/ASIA2041",
       "reviewMetrics": [
         "Teaching quality",
         "Workload fairness",
         "Assessment design"
+      ],
+      "tags": [
+        "cap",
+        "chl",
+        "pacific studies",
+        "asian studies"
       ]
     },
     {
-      "id": "ASIA2044",
+      "id": "asia2044",
       "type": "course",
       "code": "ASIA2044",
       "name": "Chinese History: The Imperial Period (221 BC - 1800)",
-      "college": "ANU College of Asia and the Pacific",
+      "summary": "Much of the world's history has been shaped by experiences of empires. Even after the collapse of the major historic imperial powers during the second half of the twentieth century, the legacies of those empires continue to shape contemporary life. Historians and political analysts still talk in terms of—and seek to redefine—imperialism in reference to present polities.",
       "school": "School of Culture History and Language",
-      "schoolCode": "SOCHA",
+      "schoolCode": "CHL",
+      "college": "ANU College of Asia and the Pacific",
       "level": "UGRD",
-      "terms": [
-        "First Semester"
+      "terms": [],
+      "conveners": [
+        "Dr Mark Strange",
+        "Dr Mark Strange"
       ],
-      "conveners": [],
-      "handbookUrl": "https://programsandcourses.anu.edu.au/course/asia2044",
-      "summary": "Much of the world's history has been shaped by experiences of empires. Even after the collapse of the major historic imperial powers during the second half of the twentieth century, the legacies of those empires continue to shape contemporary life.",
-      "tags": [
-        "asian languages",
-        "cultural studies",
-        "history",
-        "asian studies"
-      ],
+      "handbookUrl": "https://programsandcourses.anu.edu.au/course/ASIA2044",
       "reviewMetrics": [
         "Teaching quality",
         "Workload fairness",
         "Assessment design"
+      ],
+      "tags": [
+        "cap",
+        "chl",
+        "pacific studies",
+        "asian studies"
       ]
     },
     {
-      "id": "ASIA2054",
+      "id": "asia2049",
+      "type": "course",
+      "code": "ASIA2049",
+      "name": "Politics and Society in Contemporary Korea",
+      "summary": "This course is designed to give students an overview of contemporary South Korean politics snd society in the period from the 1960s to the present. The course reviews recent socio-political changes in Korea including Korea's rapid economic development in the 1960s and in the 1970s, democratisation and the resurrection of civil society in the 1980s, and globalisation and neoliberal reforms since the 1990s. This course will explore relevant theories and concepts in the social sciences (mainly political science and sociology) to analyse these changes in Korea.",
+      "school": "School of Culture History and Language",
+      "schoolCode": "CHL",
+      "college": "ANU College of Asia and the Pacific",
+      "level": "UGRD",
+      "terms": [],
+      "conveners": [
+        "Prof Kyung Moon Hwang",
+        "Prof Kyung Moon Hwang"
+      ],
+      "handbookUrl": "https://programsandcourses.anu.edu.au/course/ASIA2049",
+      "reviewMetrics": [
+        "Teaching quality",
+        "Workload fairness",
+        "Assessment design"
+      ],
+      "tags": [
+        "cap",
+        "chl",
+        "pacific studies",
+        "asian studies"
+      ]
+    },
+    {
+      "id": "asia2054",
       "type": "course",
       "code": "ASIA2054",
       "name": "Chinese Philosophy: Creation and Development",
-      "college": "ANU College of Asia and the Pacific",
+      "summary": "This is an introductory course in Chinese philosophy. Drawing on the diverse Chinese thinkers from ancient times, including Confucians, Daoist, Legalists, and more, the course demonstrates that early Chinese philosophical is both interesting in its own right and potentially relevant to contemporary philosophical problems. Students will be introduced to some of the major Chinese philosophical ideas and concepts, and with a focus on learning to accurately and critically apply these ideas in real-world contexts.",
       "school": "School of Culture History and Language",
-      "schoolCode": "SOCHA",
+      "schoolCode": "CHL",
+      "college": "ANU College of Asia and the Pacific",
       "level": "UGRD",
-      "terms": [
-        "Second Semester"
+      "terms": [],
+      "conveners": [
+        "Dr Esther Klein",
+        "Dr Esther Klein"
       ],
-      "conveners": [],
-      "handbookUrl": "https://programsandcourses.anu.edu.au/course/asia2054",
-      "summary": "This is an introductory course in Chinese philosophy. Drawing on the diverse Chinese thinkers from ancient times, including Confucians, Daoist, Legalists, and more, the course demonstrates that early Chinese philosophical is both interesting in its own right and potentially relevant to contemporary philosophical problems.",
-      "tags": [
-        "non language asian studies",
-        "philosophy"
-      ],
+      "handbookUrl": "https://programsandcourses.anu.edu.au/course/ASIA2054",
       "reviewMetrics": [
         "Teaching quality",
         "Workload fairness",
         "Assessment design"
+      ],
+      "tags": [
+        "cap",
+        "chl",
+        "pacific studies",
+        "asian studies"
       ]
     },
     {
-      "id": "ASIA2065",
+      "id": "asia2060",
       "type": "course",
-      "code": "ASIA2065",
-      "name": "Asia’s Changing Politics in Comparative Perspective",
-      "college": "ANU College of Asia and the Pacific",
+      "code": "ASIA2060",
+      "name": "Southeast Asian Security",
+      "summary": "This course surveys the main issues of Southeast Asian security, giving due attention to traditional concerns with interstate conflict as well as non-traditional themes like the economy and the quality of democratic governance. It also provides a grounding in the Cold War-era conflicts that shaped the region as we know it today. The central focus, however, is on contemporary internal armed conflict rooted in processes of state formation and state decay (for instance, ethnic conflict in Myanmar, separatist violence in Indonesia or the attempts to create an autonomous region in Muslim Mindanao in the Philippines).",
       "school": "Department of Political and Social Change",
-      "schoolCode": "DOPAS",
+      "schoolCode": "CAP",
+      "college": "ANU College of Asia and the Pacific",
       "level": "UGRD",
-      "terms": [
-        "Second Semester"
-      ],
+      "terms": [],
       "conveners": [],
-      "handbookUrl": "https://programsandcourses.anu.edu.au/course/asia2065",
-      "summary": "How do we compare political dynamics as they vary from one country to another? Why are some countries highly developed while others struggle to lift their most disadvantaged citizens out of poverty?",
-      "tags": [
-        "political sciences"
-      ],
+      "handbookUrl": "https://programsandcourses.anu.edu.au/course/ASIA2060",
       "reviewMetrics": [
         "Teaching quality",
         "Workload fairness",
         "Assessment design"
+      ],
+      "tags": [
+        "cap",
+        "pacific studies",
+        "asian studies"
+      ]
+    },
+    {
+      "id": "asia2065",
+      "type": "course",
+      "code": "ASIA2065",
+      "name": "Asia’s Changing Politics in Comparative Perspective",
+      "summary": "How do we compare political dynamics as they vary from one country to another? Why are some countries highly developed while others struggle to lift their most disadvantaged citizens out of poverty? Why are some democratic, others authoritarian, and still others prone to frequent shifts back and forth from one regime type to another?",
+      "school": "Department of Political and Social Change",
+      "schoolCode": "CAP",
+      "college": "ANU College of Asia and the Pacific",
+      "level": "UGRD",
+      "terms": [],
+      "conveners": [],
+      "handbookUrl": "https://programsandcourses.anu.edu.au/course/ASIA2065",
+      "reviewMetrics": [
+        "Teaching quality",
+        "Workload fairness",
+        "Assessment design"
+      ],
+      "tags": [
+        "cap",
+        "pacific studies",
+        "asian studies"
       ]
     },
     {
@@ -14239,346 +18261,1208 @@ window.ANREVIEW_DATA = {
       ]
     },
     {
-      "id": "ASIA2072",
+      "id": "asia2081",
       "type": "course",
-      "code": "ASIA2072",
-      "name": "Taiwan: History and Culture",
+      "code": "ASIA2081",
+      "name": "Human Rights in Asia",
+      "summary": "Despite the shift from authoritarian to democratic or semi-democratic forms of government in Asia, human rights abuses are rife. Although Asian states have ratified a large number of international human rights conventions, the violation of human rights and unequal application of and access to the law are common across the region. Citizens and migrants face arbitrary detention, torture, disappearance and death at the hands of state, para-state, and other actors.",
+      "school": "Department of Political and Social Change",
+      "schoolCode": "CAP",
       "college": "ANU College of Asia and the Pacific",
-      "school": "School of Culture History and Language",
-      "schoolCode": "SOCHA",
       "level": "UGRD",
-      "terms": [
-        "Second Semester"
+      "terms": [],
+      "conveners": [
+        "Dr Nick Cheesman",
+        "Dr Nick Cheesman"
       ],
-      "conveners": [],
-      "handbookUrl": "https://programsandcourses.anu.edu.au/course/asia2072",
-      "summary": "This course will explore various facets of Taiwan's history and culture, spanning from the prehistoric era (Palaeolithic, Neolithic and Iron Age) to the present day. It will examine the significant events across different periods, encompassing the Dutch (1624–1662), Spanish (1626-1642), Zheng (Koxinga) (1662-1683), Qing (1683-1895), Japanese (1895–1945)...",
-      "tags": [
-        "non language asian studies"
-      ],
+      "handbookUrl": "https://programsandcourses.anu.edu.au/course/ASIA2081",
       "reviewMetrics": [
         "Teaching quality",
         "Workload fairness",
         "Assessment design"
+      ],
+      "tags": [
+        "cap",
+        "pacific studies",
+        "asian studies"
       ]
     },
     {
-      "id": "ASIA2093",
+      "id": "asia2093",
       "type": "course",
       "code": "ASIA2093",
       "name": "Natural Resource Conflicts in Asia and the Pacific",
-      "college": "ANU College of Asia and the Pacific",
+      "summary": "Conflicts over natural resources are an enduring feature of social and political life at different scales and levels of organisation. The inter-state and geopolitical dimensions of conflicts over resources such as oil and water and marine resources loom large in the popular imaginary. Resource conflicts in the Asia-Pacific are predominantly intra-state, fought internally, within the boundaries of the nation-state, but often involving claims to various forms of ‘internal’ self-determination or secession (‘external’ self-determination).",
       "school": "Department of Pacific Affairs",
-      "schoolCode": "DOPA",
+      "schoolCode": "CAP",
+      "college": "ANU College of Asia and the Pacific",
       "level": "UGRD",
-      "terms": [
-        "Second Semester"
+      "terms": [],
+      "conveners": [
+        "Nicholas Hoare Mode of delivery In Person Offered in Second Semester",
+        "Nicholas Hoare Mode of delivery In Person Offered in Second Semester"
       ],
-      "conveners": [],
-      "handbookUrl": "https://programsandcourses.anu.edu.au/course/asia2093",
-      "summary": "Conflicts over natural resources are an enduring feature of social and political life at different scales and levels of organisation. The inter-state and geopolitical dimensions of conflicts over resources such as oil and water and marine resources loom large in the popular imaginary.",
-      "tags": [
-        "asia"
-      ],
+      "handbookUrl": "https://programsandcourses.anu.edu.au/course/ASIA2093",
       "reviewMetrics": [
         "Teaching quality",
         "Workload fairness",
         "Assessment design"
+      ],
+      "tags": [
+        "cap",
+        "pacific studies",
+        "asian studies"
       ]
     },
     {
-      "id": "ASIA2096",
+      "id": "asia2096",
       "type": "course",
       "code": "ASIA2096",
       "name": "North Korea: History, Culture, Politics",
-      "college": "ANU College of Asia and the Pacific",
+      "summary": "North Korea is widely regarded as one of the world's most enigmatic countries, and as a significant security threat in the Northeast Asian region. The Australian and global media depict it as a country of missiles, phalanxes of marching soldiers, all-powerful leaders, and bizarre political ideologies. This course goes beyond the media images to explore the political history, culture and everyday life of North Korea.",
       "school": "School of Culture History and Language",
-      "schoolCode": "SOCHA",
+      "schoolCode": "CHL",
+      "college": "ANU College of Asia and the Pacific",
       "level": "UGRD",
-      "terms": [
-        "Winter Session"
+      "terms": [],
+      "conveners": [
+        "Prof Roald Maliangkay",
+        "Prof Roald Maliangkay"
       ],
-      "conveners": [],
-      "handbookUrl": "https://programsandcourses.anu.edu.au/course/asia2096",
-      "summary": "North Korea is widely regarded as one of the world's most enigmatic countries, and as a significant security threat in the Northeast Asian region. The Australian and global media depict it as a country of missiles, phalanxes of marching soldiers, all-powerful leaders, and bizarre political ideologies.",
-      "tags": [
-        "gender studies",
-        "history",
-        "asian studies",
-        "international affairs"
-      ],
+      "handbookUrl": "https://programsandcourses.anu.edu.au/course/ASIA2096",
       "reviewMetrics": [
         "Teaching quality",
         "Workload fairness",
         "Assessment design"
+      ],
+      "tags": [
+        "cap",
+        "chl",
+        "pacific studies",
+        "asian studies"
       ]
     },
     {
-      "id": "ASIA2103",
+      "id": "asia2099",
+      "type": "course",
+      "code": "ASIA2099",
+      "name": "Social Power in China: Family to Family-State",
+      "summary": "Social Power in China shows how the family is the basic structure of power, authority, and survival through history and in modern Chinese society. The family proper is an institution within which people can shelter from state intrusion, but also through which people are mobilised to state ends. So convincing is the moral authority of the family that this power structure resonates at all levels of the polity, from biological blood-relatedness to the ideological common blood of the nation-state.",
+      "school": "School of Culture History and Language",
+      "schoolCode": "CHL",
+      "college": "ANU College of Asia and the Pacific",
+      "level": "UGRD",
+      "terms": [],
+      "conveners": [],
+      "handbookUrl": "https://programsandcourses.anu.edu.au/course/ASIA2099",
+      "reviewMetrics": [
+        "Teaching quality",
+        "Workload fairness",
+        "Assessment design"
+      ],
+      "tags": [
+        "cap",
+        "chl",
+        "pacific studies",
+        "asian studies"
+      ]
+    },
+    {
+      "id": "asia2103",
       "type": "course",
       "code": "ASIA2103",
       "name": "Language in Asia and the Pacific (L)",
-      "college": "ANU College of Asia and the Pacific",
+      "summary": "This course is an introduction to the languages of Asia and the Pacific that explores the diversity, complexity and vitality of languages of the regions to our north and east. The course uses case studies from a number of countries and societies to cover topics such as: the history and power of spoken and written forms of language (eg. in China, Japan, India, Papua New Guinea); language choice and language politics in multilingual societies (eg.",
       "school": "School of Culture History and Language",
-      "schoolCode": "SOCHA",
+      "schoolCode": "CHL",
+      "college": "ANU College of Asia and the Pacific",
       "level": "UGRD",
-      "terms": [
-        "First Semester"
+      "terms": [],
+      "conveners": [
+        "Dr Bethwyn Evans",
+        "Dr Bethwyn Evans"
       ],
-      "conveners": [],
-      "handbookUrl": "https://programsandcourses.anu.edu.au/course/asia2103",
-      "summary": "This course is an introduction to the languages of Asia and the Pacific that explores the diversity, complexity and vitality of languages of the regions to our north and east. The course uses case studies from a number of countries and societies to cover topics such as: the history and power of spoken and written forms of language (eg.",
-      "tags": [
-        "asian languages",
-        "non language asian studies",
-        "pacific studies",
-        "asian studies"
-      ],
+      "handbookUrl": "https://programsandcourses.anu.edu.au/course/ASIA2103",
       "reviewMetrics": [
         "Teaching quality",
         "Workload fairness",
         "Assessment design"
+      ],
+      "tags": [
+        "cap",
+        "chl",
+        "pacific studies",
+        "asian studies"
       ]
     },
     {
-      "id": "ASIA2222",
+      "id": "asia2111",
+      "type": "course",
+      "code": "ASIA2111",
+      "name": "Indonesian Foreign and Security Policy",
+      "summary": "This course examines Indonesia's foreign and security policy against the background of the country's decades-long, but still unfulfilled quest for a larger global role. As the nation with the fourth-largest population in the world, and as the third-largest democracy, Indonesia rightly aspires to expand its influence and have a greater say in international affairs. But both its foreign policy and its regional and international security policy have often been criticised as insufficient to achieve this goal.",
+      "school": "Department of Political and Social Change",
+      "schoolCode": "CAP",
+      "college": "ANU College of Asia and the Pacific",
+      "level": "UGRD",
+      "terms": [],
+      "conveners": [
+        "Prof Marcus Mietzner",
+        "Prof Marcus Mietzner"
+      ],
+      "handbookUrl": "https://programsandcourses.anu.edu.au/course/ASIA2111",
+      "reviewMetrics": [
+        "Teaching quality",
+        "Workload fairness",
+        "Assessment design"
+      ],
+      "tags": [
+        "cap",
+        "pacific studies",
+        "asian studies"
+      ]
+    },
+    {
+      "id": "asia2116",
+      "type": "course",
+      "code": "ASIA2116",
+      "name": "India's Culture Wars",
+      "summary": "Political battles over the soul of modern India are fought, in part, through the imagination. This course explores India's vibrant modern traditions to understand changing visions of the world's largest democracy. Film, writing, and new media reveal a space where right-wing Hindu activism meets global neoliberal norms, where \"new women\" and \"angry young men\" critique longstanding social roles and gender inequalities, and where the Indian government defines its economic and political aspirations in a changing world.",
+      "school": "School of Culture History and Language",
+      "schoolCode": "CHL",
+      "college": "ANU College of Asia and the Pacific",
+      "level": "UGRD",
+      "terms": [],
+      "conveners": [],
+      "handbookUrl": "https://programsandcourses.anu.edu.au/course/ASIA2116",
+      "reviewMetrics": [
+        "Teaching quality",
+        "Workload fairness",
+        "Assessment design"
+      ],
+      "tags": [
+        "cap",
+        "chl",
+        "pacific studies",
+        "asian studies"
+      ]
+    },
+    {
+      "id": "asia2130",
+      "type": "course",
+      "code": "ASIA2130",
+      "name": "The Archaeology of Rock Art in Asia, the Pacific and Australia",
+      "summary": "The course will focus broadly on the rock art of the Indo-Pacific region (including near and remote Oceania and Australia). It aims to give students a glimpse into the extraordinary diversity of art across this vast region, from the earliest Pleistocene expressions through to the more recent past. It will examine the questions that archaeologists grapple with and their theoretical underpinnings, such as ‘in what context was this art produced?’ and ‘who made the art?’ It will also consider how we explore more pragmatic questions such as ‘how was this art made?’, ‘what materials were used to make it?’ and ‘how old is it?’.",
+      "school": "School of Culture History and Language",
+      "schoolCode": "CHL",
+      "college": "ANU College of Asia and the Pacific",
+      "level": "UGRD",
+      "terms": [],
+      "conveners": [
+        "Prof Susan O'Connor",
+        "Prof Susan O'Connor"
+      ],
+      "handbookUrl": "https://programsandcourses.anu.edu.au/course/ASIA2130",
+      "reviewMetrics": [
+        "Teaching quality",
+        "Workload fairness",
+        "Assessment design"
+      ],
+      "tags": [
+        "cap",
+        "chl",
+        "pacific studies",
+        "asian studies"
+      ]
+    },
+    {
+      "id": "asia2222",
       "type": "course",
       "code": "ASIA2222",
       "name": "Taiwanese Society and Politics",
-      "college": "ANU College of Asia and the Pacific",
+      "summary": "For Australians, Taiwan typically figures only as an issue in the geo-politics of the East Asian region, as one half of “Cross-Strait Relations”. Yet, it is a fully functioning democracy and an independent state in all but name that can be studied in its own right. Taiwan has almost the same population as Australia but is about half the size of Tasmania.",
       "school": "School of Culture History and Language",
-      "schoolCode": "SOCHA",
+      "schoolCode": "CHL",
+      "college": "ANU College of Asia and the Pacific",
       "level": "UGRD",
-      "terms": [
-        "Summer Session"
+      "terms": [],
+      "conveners": [
+        "Prof Benjamin Penny",
+        "Prof Benjamin Penny"
       ],
-      "conveners": [],
-      "handbookUrl": "https://programsandcourses.anu.edu.au/course/asia2222",
-      "summary": "For Australians, Taiwan typically figures only as an issue in the geo-politics of the East Asian region, as one half of “Cross-Strait Relations”. Yet, it is a fully functioning democracy and an independent state in all but name that can be studied in its own right.",
-      "tags": [
-        "cultural studies",
-        "asian studies",
-        "asia pacific studies",
-        "asia-pacific studies"
-      ],
+      "handbookUrl": "https://programsandcourses.anu.edu.au/course/ASIA2222",
       "reviewMetrics": [
         "Teaching quality",
         "Workload fairness",
         "Assessment design"
+      ],
+      "tags": [
+        "cap",
+        "chl",
+        "pacific studies",
+        "asian studies"
       ]
     },
     {
-      "id": "ASIA2270",
+      "id": "asia2270",
       "type": "course",
       "code": "ASIA2270",
       "name": "India Past and Present: The Impact of Pre-colonial History on India Today",
-      "college": "ANU College of Asia and the Pacific",
+      "summary": "This course examines the impact of India’s history up to 1757 on Contemporary India. Studies focus on the development of the Indus cultures, Hinduism, Jainism, Buddhism; Islam in South Asia; and European and British colonialism in India. As well as tracing major historical and political events, you will have the opportunity to study social and cultural developments that accompanied and contributed to the development of South Asia.",
       "school": "School of Culture History and Language",
-      "schoolCode": "SOCHA",
+      "schoolCode": "CHL",
+      "college": "ANU College of Asia and the Pacific",
       "level": "UGRD",
-      "terms": [
-        "See ANU course page"
-      ],
+      "terms": [],
       "conveners": [],
-      "handbookUrl": "https://programsandcourses.anu.edu.au/course/asia2270",
-      "summary": "This course examines the impact of India’s history up to 1757 on Contemporary India. Studies focus on the development of the Indus cultures, Hinduism, Jainism, Buddhism; Islam in South Asia; and European and British colonialism in India.",
-      "tags": [
-        "history",
-        "asian studies"
-      ],
+      "handbookUrl": "https://programsandcourses.anu.edu.au/course/ASIA2270",
       "reviewMetrics": [
         "Teaching quality",
         "Workload fairness",
         "Assessment design"
+      ],
+      "tags": [
+        "cap",
+        "chl",
+        "pacific studies",
+        "asian studies"
       ]
     },
     {
-      "id": "ASIA2301",
+      "id": "asia2271",
+      "type": "course",
+      "code": "ASIA2271",
+      "name": "The Making of South Asia",
+      "summary": "This course will introduce students to the myriad visions of South Asia that have been expressed through historical, social, economic, political, religious and cultural movements and debates over the past three centuries. It will focus on the crucial question: what is South Asia? In the multiplicity of dynamic and often ephemeral answers, the course will offer glimpses of the many Indias, Pakistans, Sri Lankas, and so on that reside in peoples imaginations.",
+      "school": "School of Culture History and Language",
+      "schoolCode": "CHL",
+      "college": "ANU College of Asia and the Pacific",
+      "level": "UGRD",
+      "terms": [],
+      "conveners": [
+        "AsPr Meera Ashar",
+        "AsPr Meera Ashar"
+      ],
+      "handbookUrl": "https://programsandcourses.anu.edu.au/course/ASIA2271",
+      "reviewMetrics": [
+        "Teaching quality",
+        "Workload fairness",
+        "Assessment design"
+      ],
+      "tags": [
+        "cap",
+        "chl",
+        "pacific studies",
+        "asian studies"
+      ]
+    },
+    {
+      "id": "asia2275",
+      "type": "course",
+      "code": "ASIA2275",
+      "name": "The Pleasures and Powers of Stories in South and Southeast Asia",
+      "summary": "Storytelling is a fundamental part of the human experience. People of all cultures tell stories to interpret, understand, and explain their experiences of being human. Storytellers and their audiences claim identity and status, encode their values, sacralise world-views and imagine alternative ways of being through narratives: stories shape lives and cultures.",
+      "school": "School of Culture History and Language",
+      "schoolCode": "CHL",
+      "college": "ANU College of Asia and the Pacific",
+      "level": "UGRD",
+      "terms": [],
+      "conveners": [],
+      "handbookUrl": "https://programsandcourses.anu.edu.au/course/ASIA2275",
+      "reviewMetrics": [
+        "Teaching quality",
+        "Workload fairness",
+        "Assessment design"
+      ],
+      "tags": [
+        "cap",
+        "chl",
+        "pacific studies",
+        "asian studies"
+      ]
+    },
+    {
+      "id": "asia2301",
       "type": "course",
       "code": "ASIA2301",
       "name": "Human Migration and Expansion in the Rise of the Asia-Pacific",
-      "college": "ANU College of Asia and the Pacific",
+      "summary": "This course illuminates the dynamic past of the Asia-Pacific including the arrival of early people and later human expansions that populated our region and led to the region's distinctive and influential cultures, states and nations. Significant events covered in the course include the emergence of complex societies culminating in expansive empires and early globalisations, such as those of the Qin, Khmer, Kofun, Joeseon, Lapita, Tonga and Polynesia. The course examines the movement of people from mainland and island Asia to the remote islands of the Pacific and the environmental impacts of hunting and foraging and farming as well as the impact of natural events such as climate change on social formations.",
       "school": "School of Culture History and Language",
-      "schoolCode": "SOCHA",
+      "schoolCode": "CHL",
+      "college": "ANU College of Asia and the Pacific",
       "level": "UGRD",
-      "terms": [
-        "First Semester"
+      "terms": [],
+      "conveners": [
+        "Prof Geoffrey Clark",
+        "Prof Geoffrey Clark"
       ],
-      "conveners": [],
-      "handbookUrl": "https://programsandcourses.anu.edu.au/course/asia2301",
-      "summary": "This course illuminates the dynamic past of the Asia-Pacific including the arrival of early people and later human expansions that populated our region and led to the region's distinctive and influential cultures, states and nations. Significant events covered in the course include the emergence of complex societies culminating in expansive empires and ea...",
-      "tags": [
-        "archaeology",
-        "history",
-        "pacific studies",
-        "asian studies"
-      ],
+      "handbookUrl": "https://programsandcourses.anu.edu.au/course/ASIA2301",
       "reviewMetrics": [
         "Teaching quality",
         "Workload fairness",
         "Assessment design"
+      ],
+      "tags": [
+        "cap",
+        "chl",
+        "pacific studies",
+        "asian studies"
       ]
     },
     {
-      "id": "ASIA2307",
+      "id": "asia2302",
+      "type": "course",
+      "code": "ASIA2302",
+      "name": "Culture and Modernity in Asia: Anthropological Perspectives",
+      "summary": "The remarkable economic emergence of Asia in recent decades has transformed many impoverished and largely agriculturally based societies into the most dynamic region of the contemporary world. Asia’s burgeoning aspirational middle classes, rapid urbanisation, the expansion of participatory democracy and the shift from command economies to de-regulated markets have had profound effects on people’s everyday lives and the diverse cultural practices that have long shaped local livelihoods and community expectations. This course offers an introduction into anthropological approaches to the study of culture, modernity and globalisation in Asia.",
+      "school": "School of Culture History and Language",
+      "schoolCode": "CHL",
+      "college": "ANU College of Asia and the Pacific",
+      "level": "UGRD",
+      "terms": [],
+      "conveners": [
+        "Prof Assa Doron",
+        "Prof Assa Doron"
+      ],
+      "handbookUrl": "https://programsandcourses.anu.edu.au/course/ASIA2302",
+      "reviewMetrics": [
+        "Teaching quality",
+        "Workload fairness",
+        "Assessment design"
+      ],
+      "tags": [
+        "cap",
+        "chl",
+        "pacific studies",
+        "asian studies"
+      ]
+    },
+    {
+      "id": "asia2304",
+      "type": "course",
+      "code": "ASIA2304",
+      "name": "What is Literature? Asian Perspectives",
+      "summary": "This course introduces students to diverse concepts of literature from a number of traditions from the Asian and Pacific region. The materials range from ancient to contemporary texts, which will all be presented in accessible English translation. Works studied will vary from year to year, and may include such forms as oracle bones, religious narratives, poetry, puppet theatre, classic novels, oral storytelling, folk tales and/or recent fiction, among others.",
+      "school": "School of Culture History and Language",
+      "schoolCode": "CHL",
+      "college": "ANU College of Asia and the Pacific",
+      "level": "UGRD",
+      "terms": [],
+      "conveners": [],
+      "handbookUrl": "https://programsandcourses.anu.edu.au/course/ASIA2304",
+      "reviewMetrics": [
+        "Teaching quality",
+        "Workload fairness",
+        "Assessment design"
+      ],
+      "tags": [
+        "cap",
+        "chl",
+        "asian studies",
+        "pacific studies"
+      ]
+    },
+    {
+      "id": "asia2307",
       "type": "course",
       "code": "ASIA2307",
       "name": "History of Empire in Asia",
-      "college": "ANU College of Asia and the Pacific",
+      "summary": "This course examines the place of empire in shaping the history of Asia. It asks what makes empires distinct, how they were constructed and held together, how they operated in theory and practice, and why they disintegrated or transitioned into other forms. It takes a broad historical approach to empire that includes native Asian polities, the rise of European colonialism in the region, and the legacies of empire in postcolonial Asia.",
       "school": "School of Culture History and Language",
-      "schoolCode": "SOCHA",
+      "schoolCode": "CHL",
+      "college": "ANU College of Asia and the Pacific",
       "level": "UGRD",
-      "terms": [
-        "First Semester"
-      ],
+      "terms": [],
       "conveners": [],
-      "handbookUrl": "https://programsandcourses.anu.edu.au/course/asia2307",
-      "summary": "This course examines the place of empire in shaping the history of Asia. It asks what makes empires distinct, how they were constructed and held together, how they operated in theory and practice, and why they disintegrated or transitioned into other forms.",
-      "tags": [
-        "anthropology",
-        "classics and ancient history",
-        "cultural studies",
-        "history"
-      ],
+      "handbookUrl": "https://programsandcourses.anu.edu.au/course/ASIA2307",
       "reviewMetrics": [
         "Teaching quality",
         "Workload fairness",
         "Assessment design"
+      ],
+      "tags": [
+        "cap",
+        "chl",
+        "pacific studies",
+        "asian studies"
       ]
     },
     {
-      "id": "ASIA2308",
+      "id": "asia2308",
       "type": "course",
       "code": "ASIA2308",
       "name": "Linguistic Histories in Asia and the Pacific",
-      "college": "ANU College of Asia and the Pacific",
+      "summary": "This course explores the human past – both recent and distant – of the Asia-Pacific region through a transdisciplinary lens. The Asia-Pacific is renowned for its incredible cultural, social and linguistic diversity, and this course explores the processes of continuity and transformation over time that have shaped today’s diversity. How are contemporary languages, cultures and societies windows onto past lives?",
       "school": "School of Culture History and Language",
-      "schoolCode": "SOCHA",
+      "schoolCode": "CHL",
+      "college": "ANU College of Asia and the Pacific",
       "level": "UGRD",
-      "terms": [
-        "First Semester"
+      "terms": [],
+      "conveners": [
+        "Dr Bethwyn Evans",
+        "Dr Bethwyn Evans"
       ],
-      "conveners": [],
-      "handbookUrl": "https://programsandcourses.anu.edu.au/course/asia2308",
-      "summary": "This course explores the human past – both recent and distant – of the Asia-Pacific region through a transdisciplinary lens. The Asia-Pacific is renowned for its incredible cultural, social and linguistic diversity, and this course explores the processes of continuity and transformation over time that have shaped today’s diversity.",
-      "tags": [
-        "asian languages",
-        "pacific studies",
-        "asian studies",
-        "asia-pacific studies"
-      ],
+      "handbookUrl": "https://programsandcourses.anu.edu.au/course/ASIA2308",
       "reviewMetrics": [
         "Teaching quality",
         "Workload fairness",
         "Assessment design"
+      ],
+      "tags": [
+        "cap",
+        "chl",
+        "pacific studies",
+        "asian studies"
       ]
     },
     {
-      "id": "ASIA2516",
+      "id": "asia2311",
+      "type": "course",
+      "code": "ASIA2311",
+      "name": "Gender and Cultural Studies in Asia and the Pacific",
+      "summary": "This course investigates how gender and culture underpin everyday power in Asia and the Pacific. Students will be introduced to key interdisciplinary tools and approaches from the field of gender and cultural studies. Considering how these ideas have been theorised in Asian and Pacific contexts as well as in Western ones, the course engages students in critical thinking about how gendered and cultural norms inform pursuits of justice, empowerment, and joy in everyday life.",
+      "school": "School of Culture History and Language",
+      "schoolCode": "CHL",
+      "college": "ANU College of Asia and the Pacific",
+      "level": "UGRD",
+      "terms": [],
+      "conveners": [
+        "AsPr Shameem Black",
+        "AsPr Shameem Black"
+      ],
+      "handbookUrl": "https://programsandcourses.anu.edu.au/course/ASIA2311",
+      "reviewMetrics": [
+        "Teaching quality",
+        "Workload fairness",
+        "Assessment design"
+      ],
+      "tags": [
+        "cap",
+        "chl",
+        "pacific studies",
+        "asian studies"
+      ]
+    },
+    {
+      "id": "asia2366",
+      "type": "course",
+      "code": "ASIA2366",
+      "name": "Foundations of Chinese Culture",
+      "summary": "This is a regional course for students interested in China. It focuses on key social and cultural topics essential to understanding both traditional society and its influence modern and contemporary China. The course is structured around such themes as conceptions of time and space, the written and spoken word, the past and its records, traditional thought and belief, society, government and bureaucracy, cultural pursuits and literary products, inventions and technical advances, or Western interlocutors.",
+      "school": "School of Culture History and Language",
+      "schoolCode": "CHL",
+      "college": "ANU College of Asia and the Pacific",
+      "level": "UGRD",
+      "terms": [],
+      "conveners": [
+        "Dr Michael Schimmelpfennig",
+        "Dr Michael Schimmelpfennig"
+      ],
+      "handbookUrl": "https://programsandcourses.anu.edu.au/course/ASIA2366",
+      "reviewMetrics": [
+        "Teaching quality",
+        "Workload fairness",
+        "Assessment design"
+      ],
+      "tags": [
+        "cap",
+        "chl",
+        "pacific studies",
+        "asian studies"
+      ]
+    },
+    {
+      "id": "asia2516",
       "type": "course",
       "code": "ASIA2516",
       "name": "Indonesia: Politics, Society and Development",
-      "college": "ANU College of Asia and the Pacific",
+      "summary": "This course examines the politics and political economy of Indonesia, the world's third largest democracy and emerging Asian power. It introduces students to critical historical events and figures of the post-independence period (1945-), then moves on to examine specific topics in the development of contemporary Indonesia—including authoritarianism and democracy, the role of the military in politics, Islamic movements, the environment and natural resource politics, corruption and clientelism, and identity politics. Students will learn different scholarly interpretations and debates about these topics, and will develop the skills to critically analyse and explain contemporary political developments in this important Asian nation.",
       "school": "Department of Political and Social Change",
-      "schoolCode": "DOPAS",
+      "schoolCode": "CAP",
+      "college": "ANU College of Asia and the Pacific",
       "level": "UGRD",
-      "terms": [
-        "Second Semester"
+      "terms": [],
+      "conveners": [
+        "Prof Edward Aspinall",
+        "Prof Edward Aspinall"
       ],
-      "conveners": [],
-      "handbookUrl": "https://programsandcourses.anu.edu.au/course/asia2516",
-      "summary": "This course examines the politics and political economy of Indonesia, the world's third largest democracy and emerging Asian power. It introduces students to critical historical events and figures of the post-independence period (1945-), then moves on to examine specific topics in the development of contemporary Indonesia—including authoritarianism and de...",
-      "tags": [
-        "non language asian studies",
-        "development studies",
-        "international relations",
-        "political sciences"
-      ],
+      "handbookUrl": "https://programsandcourses.anu.edu.au/course/ASIA2516",
       "reviewMetrics": [
         "Teaching quality",
         "Workload fairness",
         "Assessment design"
+      ],
+      "tags": [
+        "cap",
+        "pacific studies",
+        "asian studies"
       ]
     },
     {
-      "id": "ASIA3011",
+      "id": "asia2747",
+      "type": "course",
+      "code": "ASIA2747",
+      "name": "Airlines in Asia and the Pacific: Histories, Technologies, Cultures, and Geographies",
+      "summary": "While aviation continues to inspire our imaginations, the traveling public is often eluded by the geo-political, technical, and cultural complexities of this massive industry in the Asia-Pacific region (and beyond). This course consists of three major sections: human-machine relationships, aviation labour, and finally aviation consumers/passengers. Drawing upon engineering history and human-machine relationships, using critical theories from social geography and anthropology, this course considers how aviation developed in relation to other forms of transportation and surveillance, as well as how “human factors” discourses are used to assess aviation disasters.",
+      "school": "School of Culture History and Language",
+      "schoolCode": "CHL",
+      "college": "ANU College of Asia and the Pacific",
+      "level": "UGRD",
+      "terms": [],
+      "conveners": [],
+      "handbookUrl": "https://programsandcourses.anu.edu.au/course/ASIA2747",
+      "reviewMetrics": [
+        "Teaching quality",
+        "Workload fairness",
+        "Assessment design"
+      ],
+      "tags": [
+        "cap",
+        "chl",
+        "pacific studies",
+        "asian studies"
+      ]
+    },
+    {
+      "id": "asia3011",
       "type": "course",
       "code": "ASIA3011",
       "name": "Samurai Society and Social Control in Japan",
-      "college": "ANU College of Asia and the Pacific",
+      "summary": "This course treats the development of Japanese culture from earliest times to the early 19th century in the context of the major political and social forces that moulded the country's history. The course covers major periods and cultural epochs of Japanese history, but particular attention will be paid to samurai culture and systems of social control from the 12th century onwards. The themes to be covered include the formation and the evolving conceptions of Japan's identity, politics, economic development, social trends, and religion, as well as Japan's interaction with Asian and European civilizations.",
       "school": "School of Culture History and Language",
-      "schoolCode": "SOCHA",
+      "schoolCode": "CHL",
+      "college": "ANU College of Asia and the Pacific",
       "level": "UGRD",
-      "terms": [
-        "Second Semester"
+      "terms": [],
+      "conveners": [
+        "Prof Li Narangoa",
+        "Prof Li Narangoa"
       ],
-      "conveners": [],
-      "handbookUrl": "https://programsandcourses.anu.edu.au/course/asia3011",
-      "summary": "This course treats the development of Japanese culture from earliest times to the early 19th century in the context of the major political and social forces that moulded the country's history. The course covers major periods and cultural epochs of Japanese history, but particular attention will be paid to samurai culture and systems of social control from...",
-      "tags": [
-        "non language asian studies",
-        "cultural studies",
-        "history",
-        "asian studies"
-      ],
+      "handbookUrl": "https://programsandcourses.anu.edu.au/course/ASIA3011",
       "reviewMetrics": [
         "Teaching quality",
         "Workload fairness",
         "Assessment design"
+      ],
+      "tags": [
+        "cap",
+        "chl",
+        "pacific studies",
+        "asian studies"
       ]
     },
     {
-      "id": "ASIA3030",
+      "id": "asia3012",
+      "type": "course",
+      "code": "ASIA3012",
+      "name": "Readings in Asian Societies and Histories",
+      "summary": "High-performing students who have completed their core program requirements can pursue an individual, in-depth exploration of a topic in Asian Studies not otherwise offered. Students obtain confirmation of their eligibility from the course convener and develop a specialised focus of study in consultation with an academic supervisor. While the focus is on English-language material, students studying an Asian language are encouraged to make use of those skills.",
+      "school": "School of Culture History and Language",
+      "schoolCode": "CHL",
+      "college": "ANU College of Asia and the Pacific",
+      "level": "UGRD",
+      "terms": [],
+      "conveners": [
+        "AsPr Shameem Black",
+        "Dr Tom Cliff"
+      ],
+      "handbookUrl": "https://programsandcourses.anu.edu.au/course/ASIA3012",
+      "reviewMetrics": [
+        "Teaching quality",
+        "Workload fairness",
+        "Assessment design"
+      ],
+      "tags": [
+        "cap",
+        "chl",
+        "pacific studies",
+        "asian studies"
+      ]
+    },
+    {
+      "id": "asia3021",
+      "type": "course",
+      "code": "ASIA3021",
+      "name": "Engaging Asia: Australia and the Asian Century",
+      "summary": "The central question this course asks is: how can Australia successfully engage more with Asia? The course is divided into two main parts: i) Australia’s history and links with Asia, and ii) Asia’s current and predicted trajectory and what this means for Australia. It is suitable for students looking to understand more about the ‘rise’ of Asia and the shifting nature of Australia’s place in the region and the world.",
+      "school": "School of Culture History and Language",
+      "schoolCode": "CHL",
+      "college": "ANU College of Asia and the Pacific",
+      "level": "UGRD",
+      "terms": [],
+      "conveners": [],
+      "handbookUrl": "https://programsandcourses.anu.edu.au/course/ASIA3021",
+      "reviewMetrics": [
+        "Teaching quality",
+        "Workload fairness",
+        "Assessment design"
+      ],
+      "tags": [
+        "cap",
+        "chl",
+        "pacific studies",
+        "asian studies"
+      ]
+    },
+    {
+      "id": "asia3023",
+      "type": "course",
+      "code": "ASIA3023",
+      "name": "Asia Pacific Week Internship",
+      "summary": "The aim is to recognise the efforts of high-achieving students in the organising committee of ANU Asia Pacific Week and allow the students to engage deeply with one conference panel or theme. The conference is an opportunity for students to work closely with the College of Asia and the Pacific and to apply the knowledge they have acquired into running a week-long academic event. This involves placement in one portfolio (Logistics, Delegates, Media and Marketing, Finance, Content and Special Projects) and 6-7 months commitment to the projects and duties of that portfolio.",
+      "school": "ANU College of Asia and the Pacific",
+      "schoolCode": "CAP",
+      "college": "ANU College of Asia and the Pacific",
+      "level": "UGRD",
+      "terms": [],
+      "conveners": [
+        "Nicholas Hoare Mode of delivery In Person Offered in First Semester",
+        "Nicholas Hoare Mode of delivery In Person Offered in First Semester"
+      ],
+      "handbookUrl": "https://programsandcourses.anu.edu.au/course/ASIA3023",
+      "reviewMetrics": [
+        "Teaching quality",
+        "Workload fairness",
+        "Assessment design"
+      ],
+      "tags": [
+        "cap",
+        "pacific studies",
+        "asian studies"
+      ]
+    },
+    {
+      "id": "asia3029",
+      "type": "course",
+      "code": "ASIA3029",
+      "name": "Reconciliation and the Memory of Conflict in Asia",
+      "summary": "For most of human history in Asia, the end of military and civil conflict was followed only by a renegotiation of the balance of power between the antagonists, and by the division of spoils among the victors. During the 20th century, especially in the aftermath of the Second World War, policy-makers became aware that the terms of peace could have a powerful impact on the likelihood of return to conflict. Significant progress has been made in developing peace-making processes that undercut the original causes of conflict and which thus diminish the possibility that conflict will recur.",
+      "school": "School of Culture History and Language",
+      "schoolCode": "CHL",
+      "college": "ANU College of Asia and the Pacific",
+      "level": "UGRD",
+      "terms": [],
+      "conveners": [
+        "Prof Li Narangoa",
+        "Prof Li Narangoa"
+      ],
+      "handbookUrl": "https://programsandcourses.anu.edu.au/course/ASIA3029",
+      "reviewMetrics": [
+        "Teaching quality",
+        "Workload fairness",
+        "Assessment design"
+      ],
+      "tags": [
+        "cap",
+        "chl",
+        "pacific studies",
+        "asian studies"
+      ]
+    },
+    {
+      "id": "asia3030",
       "type": "course",
       "code": "ASIA3030",
       "name": "History of the State System in Southeast Asia",
-      "college": "ANU College of Asia and the Pacific",
+      "summary": "This course will trace the emergence of the international order in Southeast Asia. It will examine the different types of polity that have been established in the region, and how they defined relations with their neighbours and with the more distant civilisations of China, India and the Muslim world. The course will examine the series of transformations in Southeast Asia's 'international' system which European colonial powers brought about, and will consider Southeast Asia's influence on the emergence of the global international relations system.",
       "school": "School of Culture History and Language",
-      "schoolCode": "SOCHA",
+      "schoolCode": "CHL",
+      "college": "ANU College of Asia and the Pacific",
       "level": "UGRD",
-      "terms": [
-        "First Semester"
+      "terms": [],
+      "conveners": [
+        "Dr Ross Tapsell",
+        "Dr Ross Tapsell"
       ],
-      "conveners": [],
-      "handbookUrl": "https://programsandcourses.anu.edu.au/course/asia3030",
-      "summary": "This course will trace the emergence of the international order in Southeast Asia. It will examine the different types of polity that have been established in the region, and how they defined relations with their neighbours and with the more distant civilisations of China, India and the Muslim world.",
-      "tags": [
-        "non language asian studies",
-        "history",
-        "political sciences",
-        "international business"
-      ],
+      "handbookUrl": "https://programsandcourses.anu.edu.au/course/ASIA3030",
       "reviewMetrics": [
         "Teaching quality",
         "Workload fairness",
         "Assessment design"
+      ],
+      "tags": [
+        "cap",
+        "chl",
+        "pacific studies",
+        "asian studies"
       ]
     },
     {
-      "id": "ASIA3272",
+      "id": "asia3031",
       "type": "course",
-      "code": "ASIA3272",
-      "name": "Truth and Falsity in Indian History and Politics",
-      "college": "ANU College of Asia and the Pacific",
+      "code": "ASIA3031",
+      "name": "Cultures in Korean Society: Filmic Dramatisations of History",
+      "summary": "The Korean Wave currently sweeping over the globe continues to raise considerable interest in contemporary South Korean popular culture. This course seeks to examine core components of this culture as they reflect and shape contemporary Korean society and its recent past. Topics include the original triptych of K-pop, television drama, and film, as well as creative industries behind the production and marketing of mass culture, language as a mirror of society, derivative consumer products, and transmission channels such as advertising and online media.",
       "school": "School of Culture History and Language",
-      "schoolCode": "SOCHA",
+      "schoolCode": "CHL",
+      "college": "ANU College of Asia and the Pacific",
       "level": "UGRD",
-      "terms": [
-        "First Semester"
+      "terms": [],
+      "conveners": [
+        "Dr EUNSEON KIM",
+        "Dr EUNSEON KIM"
       ],
-      "conveners": [],
-      "handbookUrl": "https://programsandcourses.anu.edu.au/course/asia3272",
-      "summary": "Contemporary India finds itself at the intersection of the trajectories of a number of widely varying notions of truth, falsity, authenticity and illegitimacy. The variation in these trajectories—in their cultural origins and in their content—can make their crossings unpredictable and explosive and often unintelligible.",
-      "tags": [
-        "history",
-        "asian studies",
-        "asia pacific studies",
-        "asia-pacific studies"
-      ],
+      "handbookUrl": "https://programsandcourses.anu.edu.au/course/ASIA3031",
       "reviewMetrics": [
         "Teaching quality",
         "Workload fairness",
         "Assessment design"
+      ],
+      "tags": [
+        "cap",
+        "chl",
+        "pacific studies",
+        "asian studies"
+      ]
+    },
+    {
+      "id": "asia3032",
+      "type": "course",
+      "code": "ASIA3032",
+      "name": "Technology and Society in Asia",
+      "summary": "This course examines two dynamic concurrent trends: the rapid advances in new technologies and the rise of Asia as an economic powerhouse driving these advances globally. Grounded in interdisciplinary approaches, this course will encourage critical reflection on the interlocking logistical, ethical, gendered, cultural and political considerations faced by Asian people on a daily basis when it comes to new technologies. These trends include digitalisation, artificial intelligence (A.I.) and science and technology studies (STS) more broadly.",
+      "school": "School of Culture History and Language",
+      "schoolCode": "CHL",
+      "college": "ANU College of Asia and the Pacific",
+      "level": "UGRD",
+      "terms": [],
+      "conveners": [
+        "Dr Ross Tapsell",
+        "Dr Ross Tapsell"
+      ],
+      "handbookUrl": "https://programsandcourses.anu.edu.au/course/ASIA3032",
+      "reviewMetrics": [
+        "Teaching quality",
+        "Workload fairness",
+        "Assessment design"
+      ],
+      "tags": [
+        "cap",
+        "chl",
+        "pacific studies",
+        "asian studies"
+      ]
+    },
+    {
+      "id": "asia3033",
+      "type": "course",
+      "code": "ASIA3033",
+      "name": "Rethinking Northeast Asia: Region, Culture and Society",
+      "summary": "Northeast Asia is in the midst of major transformations. Developments in the region, including the rise of China and ongoing efforts to resolve the crisis created by the last remaining corner of the Cold War - the division of the Korean Peninsula - have global implications. This course offers a new look at Northeast Asia.",
+      "school": "School of Culture History and Language",
+      "schoolCode": "CHL",
+      "college": "ANU College of Asia and the Pacific",
+      "level": "UGRD",
+      "terms": [],
+      "conveners": [
+        "Dr Matthew Galway",
+        "Dr Matthew Galway"
+      ],
+      "handbookUrl": "https://programsandcourses.anu.edu.au/course/ASIA3033",
+      "reviewMetrics": [
+        "Teaching quality",
+        "Workload fairness",
+        "Assessment design"
+      ],
+      "tags": [
+        "cap",
+        "chl",
+        "pacific studies",
+        "asian studies"
+      ]
+    },
+    {
+      "id": "asia3034",
+      "type": "course",
+      "code": "ASIA3034",
+      "name": "The Contemporary Chinese World: From Mao to Now",
+      "summary": "This 3000-level seminar subject analyses the modern history of the People's Republic of China in the wider context of world and global history from its foundation in 1949 to its entry into the World Trade Organization at the end of the twentieth century to the rise of the China Dream and Belt and Road Initiative of recent years. The subject format is chronological, although themes and dates more or less overlap. Its aims are to encourage students to identify and explore the multiple and intricate connections that the Chinese state has forged historically and with the wider world throughout its recent history, and to help students build on their craft skills of critical reading, thinking, and writing about the past.",
+      "school": "School of Culture History and Language",
+      "schoolCode": "CHL",
+      "college": "ANU College of Asia and the Pacific",
+      "level": "UGRD",
+      "terms": [],
+      "conveners": [
+        "Dr Matthew Galway",
+        "Dr Matthew Galway"
+      ],
+      "handbookUrl": "https://programsandcourses.anu.edu.au/course/ASIA3034",
+      "reviewMetrics": [
+        "Teaching quality",
+        "Workload fairness",
+        "Assessment design"
+      ],
+      "tags": [
+        "cap",
+        "chl",
+        "pacific studies",
+        "asian studies"
+      ]
+    },
+    {
+      "id": "asia3039",
+      "type": "course",
+      "code": "ASIA3039",
+      "name": "Research Project in Asian and Pacific Studies",
+      "summary": "ASIA3039 Research Project in Asian and Pacific Studies provides students with an opportunity to conduct an in-depth review of the literature on a topic of their interest in the Humanities and Social Sciences, with an Asia Pacific focus. Students develop their research paper along with a select cohort of peers. Each student receives close guidance from the program convenor and professional academic skills advisers as well as structured peer input; students also learn to formulate and provide constructive criticism of others’ work and to edit their own work.",
+      "school": "School of Culture History and Language",
+      "schoolCode": "CHL",
+      "college": "ANU College of Asia and the Pacific",
+      "level": "UGRD",
+      "terms": [],
+      "conveners": [
+        "Dr Tom Cliff",
+        "Dr Tom Cliff"
+      ],
+      "handbookUrl": "https://programsandcourses.anu.edu.au/course/ASIA3039",
+      "reviewMetrics": [
+        "Teaching quality",
+        "Workload fairness",
+        "Assessment design"
+      ],
+      "tags": [
+        "cap",
+        "chl",
+        "pacific studies",
+        "asian studies"
+      ]
+    },
+    {
+      "id": "asia3040",
+      "type": "course",
+      "code": "ASIA3040",
+      "name": "Literary and Cultural Discourse in Modern Japan",
+      "summary": "Literary and Cultural Discourse in Modern Japan will introduce students to seminal texts (in English translation) that defined literary and cultural discourse from the Meiji period to present-day Japan. Specifically, the course has three central aims. Firstly, the course seeks to help students attain a strong degree of familiarity with key Japanese literary texts and to understand how they relate to their various literary, cultural, political and historical contexts.",
+      "school": "School of Culture History and Language",
+      "schoolCode": "CHL",
+      "college": "ANU College of Asia and the Pacific",
+      "level": "UGRD",
+      "terms": [],
+      "conveners": [],
+      "handbookUrl": "https://programsandcourses.anu.edu.au/course/ASIA3040",
+      "reviewMetrics": [
+        "Teaching quality",
+        "Workload fairness",
+        "Assessment design"
+      ],
+      "tags": [
+        "cap",
+        "chl",
+        "pacific studies",
+        "asian studies"
+      ]
+    },
+    {
+      "id": "asia3088",
+      "type": "course",
+      "code": "ASIA3088",
+      "name": "The Korean War",
+      "summary": "This course aims to provide both a historical and a sociocultural understanding of the origins, development and impact of the Korean War (1950-1953). Often dubbed “the Forgotten War,” the Korean War was an integral part of the global Cold War. The Korean peninsula became one of the most volatile zones in global politics.",
+      "school": "School of Culture History and Language",
+      "schoolCode": "CHL",
+      "college": "ANU College of Asia and the Pacific",
+      "level": "UGRD",
+      "terms": [],
+      "conveners": [],
+      "handbookUrl": "https://programsandcourses.anu.edu.au/course/ASIA3088",
+      "reviewMetrics": [
+        "Teaching quality",
+        "Workload fairness",
+        "Assessment design"
+      ],
+      "tags": [
+        "cap",
+        "chl",
+        "pacific studies",
+        "asian studies"
+      ]
+    },
+    {
+      "id": "asia3272",
+      "type": "course",
+      "code": "ASIA3272",
+      "name": "Truth and Falsity in Indian History and Politics",
+      "summary": "Contemporary India finds itself at the intersection of the trajectories of a number of widely varying notions of truth, falsity, authenticity and illegitimacy. The variation in these trajectories—in their cultural origins and in their content—can make their crossings unpredictable and explosive and often unintelligible. This course will explore with students the claims and negotiations that are fundamental to some of the critical debates in Indian history and politics over the past two centuries.",
+      "school": "School of Culture History and Language",
+      "schoolCode": "CHL",
+      "college": "ANU College of Asia and the Pacific",
+      "level": "UGRD",
+      "terms": [],
+      "conveners": [
+        "AsPr Meera Ashar",
+        "AsPr Meera Ashar"
+      ],
+      "handbookUrl": "https://programsandcourses.anu.edu.au/course/ASIA3272",
+      "reviewMetrics": [
+        "Teaching quality",
+        "Workload fairness",
+        "Assessment design"
+      ],
+      "tags": [
+        "cap",
+        "chl",
+        "pacific studies",
+        "asian studies"
+      ]
+    },
+    {
+      "id": "asia3525",
+      "type": "course",
+      "code": "ASIA3525",
+      "name": "Learning Language Locally",
+      "summary": "Students undertaking this course will pursue intensive language study at an ANU partner institution. This is a short-term (three weeks) in-country course where students will learn locally. The course is offered for a range of language proficiency levels and aims to provide: 1.",
+      "school": "School of Culture History and Language",
+      "schoolCode": "CHL",
+      "college": "ANU College of Asia and the Pacific",
+      "level": "UGRD",
+      "terms": [],
+      "conveners": [
+        "AsPr Fengyuan Ji",
+        "Dr EUNSEON KIM"
+      ],
+      "handbookUrl": "https://programsandcourses.anu.edu.au/course/ASIA3525",
+      "reviewMetrics": [
+        "Teaching quality",
+        "Workload fairness",
+        "Assessment design"
+      ],
+      "tags": [
+        "cap",
+        "chl",
+        "pacific studies",
+        "asian studies"
+      ]
+    },
+    {
+      "id": "asia3551",
+      "type": "course",
+      "code": "ASIA3551",
+      "name": "Year in Asia",
+      "summary": "Year in Asia is the ANU College of Asia and the Pacific's flagship program for in-country study, providing students with an opportunity to immerse themselves in the language and culture of their chosen country for two consecutive semesters. Students study a combination of language and disciplinary studies at a partner institution, and complete coursework provided by the host institution or organization. Students are required to pass all in-country courses.",
+      "school": "School of Culture History and Language",
+      "schoolCode": "CHL",
+      "college": "ANU College of Asia and the Pacific",
+      "level": "UGRD",
+      "terms": [],
+      "conveners": [
+        "Dr Elly Kent",
+        "Dr Elly Kent"
+      ],
+      "handbookUrl": "https://programsandcourses.anu.edu.au/course/ASIA3551",
+      "reviewMetrics": [
+        "Teaching quality",
+        "Workload fairness",
+        "Assessment design"
+      ],
+      "tags": [
+        "cap",
+        "chl",
+        "pacific studies",
+        "asian studies"
+      ]
+    },
+    {
+      "id": "bapa1001",
+      "type": "course",
+      "code": "BAPA1001",
+      "name": "The Origins of Political Order in Asia",
+      "summary": "This course traces the historical development of Asia's diverse political systems. It examines underlying geo-political realities and their implications for political structure and focusses on the religious and political systems of thought that have shaped Asian political systems, especially regarding leadership, the family, ethnicity, social class and age. The course commences with the emergence of civilization in Asia, examines political structures as they were influenced by Hinduism, Buddhism, Confucianism, Islam and Christianity, the transformation of ethnic and national identities brought about in the era of western imperialism, and the assertion of new political ideals inspired by communism, liberalism, religions and reinterpretations of the past.",
+      "school": "Department of Political and Social Change",
+      "schoolCode": "CAP",
+      "college": "ANU College of Asia and the Pacific",
+      "level": "UGRD",
+      "terms": [],
+      "conveners": [],
+      "handbookUrl": "https://programsandcourses.anu.edu.au/course/BAPA1001",
+      "reviewMetrics": [
+        "Teaching quality",
+        "Workload fairness",
+        "Assessment design"
+      ],
+      "tags": [
+        "cap",
+        "pacific studies",
+        "asian studies"
+      ]
+    },
+    {
+      "id": "bapa1002",
+      "type": "course",
+      "code": "BAPA1002",
+      "name": "Understanding Peace and Conflict",
+      "summary": "This course explores core questions about modern armed conflict: What is war? What shapes does it take? What are its main drivers?",
+      "school": "Department of International Relations",
+      "schoolCode": "CAP",
+      "college": "ANU College of Asia and the Pacific",
+      "level": "UGRD",
+      "terms": [],
+      "conveners": [],
+      "handbookUrl": "https://programsandcourses.anu.edu.au/course/BAPA1002",
+      "reviewMetrics": [
+        "Teaching quality",
+        "Workload fairness",
+        "Assessment design"
+      ],
+      "tags": [
+        "cap",
+        "pacific studies",
+        "asian studies"
+      ]
+    },
+    {
+      "id": "bapa1003",
+      "type": "course",
+      "code": "BAPA1003",
+      "name": "Pacific Encounters: An introduction to Pacific Studies",
+      "summary": "Pacific encounters provides an introduction into the debates about theory and practice that shape how we conceptualise and think about the Pacific region and its peoples. The course is built around three learning modules - the past, present and future. In the past we come to understand the voyages that brought people to the region and the stories they tell about their journeys.",
+      "school": "Department of Pacific Affairs",
+      "schoolCode": "CAP",
+      "college": "ANU College of Asia and the Pacific",
+      "level": "UGRD",
+      "terms": [],
+      "conveners": [
+        "Dr Rochelle-lee Bailey",
+        "Dr Rochelle-lee Bailey"
+      ],
+      "handbookUrl": "https://programsandcourses.anu.edu.au/course/BAPA1003",
+      "reviewMetrics": [
+        "Teaching quality",
+        "Workload fairness",
+        "Assessment design"
+      ],
+      "tags": [
+        "cap",
+        "pacific studies",
+        "asian studies"
+      ]
+    },
+    {
+      "id": "bapa1004",
+      "type": "course",
+      "code": "BAPA1004",
+      "name": "Introduction to International Security Studies",
+      "summary": "Is war likely between global powers the United States and China? Could we see a nuclear conflict in the next decade? What is the role of race in international security?",
+      "school": "Strategic and Defence Studies Centre",
+      "schoolCode": "CAP",
+      "college": "ANU College of Asia and the Pacific",
+      "level": "UGRD",
+      "terms": [],
+      "conveners": [
+        "AsPr Kerryn Baker",
+        "AsPr Kerryn Baker"
+      ],
+      "handbookUrl": "https://programsandcourses.anu.edu.au/course/BAPA1004",
+      "reviewMetrics": [
+        "Teaching quality",
+        "Workload fairness",
+        "Assessment design"
+      ],
+      "tags": [
+        "cap",
+        "pacific studies",
+        "asian studies"
+      ]
+    },
+    {
+      "id": "bapa3001",
+      "type": "course",
+      "code": "BAPA3001",
+      "name": "Humanitarianism: Principles, Politics and Practice",
+      "summary": "When large-scale human suffering occurs, does the international community have a responsibility to assist? Who exactly should take action? What principles should guide these actors?",
+      "school": "Department of International Relations",
+      "schoolCode": "CAP",
+      "college": "ANU College of Asia and the Pacific",
+      "level": "UGRD",
+      "terms": [],
+      "conveners": [
+        "Dr Rochelle-lee Bailey",
+        "Dr Rochelle-lee Bailey"
+      ],
+      "handbookUrl": "https://programsandcourses.anu.edu.au/course/BAPA3001",
+      "reviewMetrics": [
+        "Teaching quality",
+        "Workload fairness",
+        "Assessment design"
+      ],
+      "tags": [
+        "cap",
+        "pacific studies",
+        "asian studies"
+      ]
+    },
+    {
+      "id": "bapa3002",
+      "type": "course",
+      "code": "BAPA3002",
+      "name": "Global Governance in the Asia-Pacific",
+      "summary": "The Asia-Pacific region is undergoing rapid changes that present both great opportunities and enormous challenges in a number of areas. The complex interactions across states, institutions, and local communities in the region will determine how the region addresses its major governance challenges, such terrorism, refugees, health, drugs, economic development, and the environment. Using these issues as weekly topical case studies, this course focuses on how the wide range of actors in the Asia-Pacific region attempt to comprehend and resolve governance and policy problems.",
+      "school": "Department of International Relations",
+      "schoolCode": "CAP",
+      "college": "ANU College of Asia and the Pacific",
+      "level": "UGRD",
+      "terms": [],
+      "conveners": [],
+      "handbookUrl": "https://programsandcourses.anu.edu.au/course/BAPA3002",
+      "reviewMetrics": [
+        "Teaching quality",
+        "Workload fairness",
+        "Assessment design"
+      ],
+      "tags": [
+        "cap",
+        "pacific studies",
+        "asian studies"
+      ]
+    },
+    {
+      "id": "bapa3003",
+      "type": "course",
+      "code": "BAPA3003",
+      "name": "Politics and Development in the Contemporary Pacific",
+      "summary": "The Pacific is a region of diverse and complex island states and territories. While made up of mostly small islands, collectively it spans one-third of the planet’s surface and almost a quarter of the world’s languages are spoken in the Pacific Islands. The region is on the frontlines of climate change, encompassing the countries most vulnerable to sea level rise and natural disasters in the world, yet it is also a site of pioneering forms of climate adaptability and resilience.",
+      "school": "Department of Pacific Affairs",
+      "schoolCode": "CAP",
+      "college": "ANU College of Asia and the Pacific",
+      "level": "UGRD",
+      "terms": [],
+      "conveners": [
+        "AsPr Kerryn Baker",
+        "AsPr Kerryn Baker"
+      ],
+      "handbookUrl": "https://programsandcourses.anu.edu.au/course/BAPA3003",
+      "reviewMetrics": [
+        "Teaching quality",
+        "Workload fairness",
+        "Assessment design"
+      ],
+      "tags": [
+        "cap",
+        "pacific studies",
+        "asian studies"
+      ]
+    },
+    {
+      "id": "bapa3004",
+      "type": "course",
+      "code": "BAPA3004",
+      "name": "Living with Giants: Australia's Security in a Contested Asia",
+      "summary": "The 2020s have seen the rise of numerous strategic problems for Australia. There are giant states in fierce competition, such as the United States and China, and emerging giants in India and Indonesia. There are also problems from below, such as climate change, artificial intelligence, cyber security, and terrorism.",
+      "school": "Strategic and Defence Studies Centre",
+      "schoolCode": "CAP",
+      "college": "ANU College of Asia and the Pacific",
+      "level": "UGRD",
+      "terms": [],
+      "conveners": [],
+      "handbookUrl": "https://programsandcourses.anu.edu.au/course/BAPA3004",
+      "reviewMetrics": [
+        "Teaching quality",
+        "Workload fairness",
+        "Assessment design"
+      ],
+      "tags": [
+        "cap",
+        "pacific studies",
+        "asian studies"
       ]
     },
     {
@@ -15446,6 +20330,535 @@ window.ANREVIEW_DATA = {
         "Teaching quality",
         "Workload fairness",
         "Assessment design"
+      ]
+    },
+    {
+      "id": "chin1012",
+      "type": "course",
+      "code": "CHIN1012",
+      "name": "Modern Chinese 1: Spoken",
+      "summary": "Modern Chinese 1: Spoken (CHIN1012) is designed for absolute beginners who are (near-) native speakers of English. It introduces the basics of standard modern Chinese language ( Putonghua ), including Chinese phonetics (sounds and tones), basic vocabulary and simple sentence structures associated with various communicative topics. Listening and speaking skills are trained intensively with a focus on ‘here and now’ and everyday conversation exchanges.",
+      "school": "School of Culture History and Language",
+      "schoolCode": "CHL",
+      "college": "ANU College of Asia and the Pacific",
+      "level": "UGRD",
+      "terms": [],
+      "conveners": [
+        "Dr Eve Chen",
+        "Dr Eve Chen"
+      ],
+      "handbookUrl": "https://programsandcourses.anu.edu.au/course/CHIN1012",
+      "reviewMetrics": [
+        "Teaching quality",
+        "Workload fairness",
+        "Assessment design"
+      ],
+      "tags": [
+        "cap",
+        "chl",
+        "pacific studies",
+        "asian studies"
+      ]
+    },
+    {
+      "id": "chin1013",
+      "type": "course",
+      "code": "CHIN1013",
+      "name": "Modern Chinese 1: Written",
+      "summary": "Modern Chinese 1: Written (CHIN1013) is designed for absolute beginners who are (near-) native speakers of English. It introduces the basics of the Standard Modern Chinese language such as sounds and tones, the pinyin system (Chinese Romanization), vocabulary, and simple sentence structures associated with a range of communicative expressions. The course provides intensive training on literacy skills.",
+      "school": "School of Culture History and Language",
+      "schoolCode": "CHL",
+      "college": "ANU College of Asia and the Pacific",
+      "level": "UGRD",
+      "terms": [],
+      "conveners": [
+        "Dr Eve Chen",
+        "Dr Eve Chen"
+      ],
+      "handbookUrl": "https://programsandcourses.anu.edu.au/course/CHIN1013",
+      "reviewMetrics": [
+        "Teaching quality",
+        "Workload fairness",
+        "Assessment design"
+      ],
+      "tags": [
+        "cap",
+        "chl",
+        "pacific studies",
+        "asian studies"
+      ]
+    },
+    {
+      "id": "chin2013",
+      "type": "course",
+      "code": "CHIN2013",
+      "name": "Taiwanese (Southern Min)",
+      "summary": "This course introduces students to current Taiwanese, also known as Holo, which is part of the Hokkien or Southern Min (Minnanyu) language group. It places specific emphasis on the use of this language in daily practices in Taiwan, although the language is also used in the southern part of Fujian Province, People's Republic of China, and in many diasporic communities in South-east Asia. The course covers basic pronunciation and grammar.",
+      "school": "School of Culture History and Language",
+      "schoolCode": "CHL",
+      "college": "ANU College of Asia and the Pacific",
+      "level": "UGRD",
+      "terms": [],
+      "conveners": [
+        "Prof Benjamin Penny",
+        "Prof Benjamin Penny"
+      ],
+      "handbookUrl": "https://programsandcourses.anu.edu.au/course/CHIN2013",
+      "reviewMetrics": [
+        "Teaching quality",
+        "Workload fairness",
+        "Assessment design"
+      ],
+      "tags": [
+        "cap",
+        "chl",
+        "pacific studies",
+        "asian studies"
+      ]
+    },
+    {
+      "id": "chin2019",
+      "type": "course",
+      "code": "CHIN2019",
+      "name": "Literary Chinese 1",
+      "summary": "Literary Chinese is a written language that matured long before the Qin dynasty (221-206 B.C.), when China first became an empire. It continued to be used by China's governing and elite cultures for nearly three millennia. A command of Literary Chinese is therefore indispensable for the study of any aspect of Chinese literature, thought, history, politics, or society before the twentieth century.",
+      "school": "School of Culture History and Language",
+      "schoolCode": "CHL",
+      "college": "ANU College of Asia and the Pacific",
+      "level": "UGRD",
+      "terms": [],
+      "conveners": [
+        "Dr Mark Strange",
+        "Dr Mark Strange"
+      ],
+      "handbookUrl": "https://programsandcourses.anu.edu.au/course/CHIN2019",
+      "reviewMetrics": [
+        "Teaching quality",
+        "Workload fairness",
+        "Assessment design"
+      ],
+      "tags": [
+        "cap",
+        "chl",
+        "pacific studies",
+        "asian studies"
+      ]
+    },
+    {
+      "id": "chin2021",
+      "type": "course",
+      "code": "CHIN2021",
+      "name": "Literary Chinese 2",
+      "summary": "This course focuses on the analysis and translation of intermediate texts from various periods. Based on the knowledge acquired in Literary Chinese 1, the course attempts to improve the students’ proficiency in philological translation with a sample of different types of text. To meet the challenges posed by the selected texts, the course further introduces Sinological reference tools useful for their elucidation.",
+      "school": "School of Culture History and Language",
+      "schoolCode": "CHL",
+      "college": "ANU College of Asia and the Pacific",
+      "level": "UGRD",
+      "terms": [],
+      "conveners": [
+        "Dr Michael Schimmelpfennig",
+        "Dr Michael Schimmelpfennig"
+      ],
+      "handbookUrl": "https://programsandcourses.anu.edu.au/course/CHIN2021",
+      "reviewMetrics": [
+        "Teaching quality",
+        "Workload fairness",
+        "Assessment design"
+      ],
+      "tags": [
+        "cap",
+        "chl",
+        "pacific studies",
+        "asian studies"
+      ]
+    },
+    {
+      "id": "chin2022",
+      "type": "course",
+      "code": "CHIN2022",
+      "name": "Modern Chinese 2: Spoken",
+      "summary": "In this course, students will further develop their oral component of a one-year intensive beginners program (CHIN1012 in Semester 1 and CHIN2022 in Semester 2) in Modern Standard Chinese ( Putonghua or Mandarin). The objective of this course is to lay a solid oral foundation for further studies of the Chinese language and to provide students with deeper knowledge of the Chinese culture. Students will engage in student-led discussions and other activities such as role-play, speeches and listening exercises to practice grammar points and vocabulary and develop their linguistic knowledge.",
+      "school": "School of Culture History and Language",
+      "schoolCode": "CHL",
+      "college": "ANU College of Asia and the Pacific",
+      "level": "UGRD",
+      "terms": [],
+      "conveners": [
+        "Yan Yan Wang Mode of delivery In Person Offered in Second Semester",
+        "Yan Yan Wang Mode of delivery In Person Offered in Second Semester"
+      ],
+      "handbookUrl": "https://programsandcourses.anu.edu.au/course/CHIN2022",
+      "reviewMetrics": [
+        "Teaching quality",
+        "Workload fairness",
+        "Assessment design"
+      ],
+      "tags": [
+        "cap",
+        "chl",
+        "pacific studies",
+        "asian studies"
+      ]
+    },
+    {
+      "id": "chin2023",
+      "type": "course",
+      "code": "CHIN2023",
+      "name": "Modern Chinese 2: Written",
+      "summary": "In this course, students will further develop their written component of a one-year intensive beginners program (CHIN1013 in S1 and CHIN2023 in S2) in Modern Standard Chinese ( Putonghua or Mandarin). The objective of this course is to lay a solid written foundation for further studies of the Chinese language and to provide students with deeper knowledge of Chinese culture. Students will undertake written activities to practice their grammar points and vocabulary and develop their linguistic knowledge.",
+      "school": "School of Culture History and Language",
+      "schoolCode": "CHL",
+      "college": "ANU College of Asia and the Pacific",
+      "level": "UGRD",
+      "terms": [],
+      "conveners": [
+        "Yan Yan Wang Mode of delivery In Person Offered in Second Semester",
+        "Yan Yan Wang Mode of delivery In Person Offered in Second Semester"
+      ],
+      "handbookUrl": "https://programsandcourses.anu.edu.au/course/CHIN2023",
+      "reviewMetrics": [
+        "Teaching quality",
+        "Workload fairness",
+        "Assessment design"
+      ],
+      "tags": [
+        "cap",
+        "chl",
+        "pacific studies",
+        "asian studies"
+      ]
+    },
+    {
+      "id": "chin2024",
+      "type": "course",
+      "code": "CHIN2024",
+      "name": "Cantonese 1",
+      "summary": "This course offers an introduction to Cantonese with an emphasis mainly on communicative ability and partly on comparison with Mandarin Chinese (Putonghua). It is designed for students who have no or very limited prior knowledge of the Cantonese language. Students will learn the basics of Cantonese in this course, including pronunciation, the Cantonese Romanisation systems, vocabulary and structures for basic communication.",
+      "school": "School of Culture History and Language",
+      "schoolCode": "CHL",
+      "college": "ANU College of Asia and the Pacific",
+      "level": "UGRD",
+      "terms": [],
+      "conveners": [
+        "Dr Eve Chen",
+        "Dr Eve Chen"
+      ],
+      "handbookUrl": "https://programsandcourses.anu.edu.au/course/CHIN2024",
+      "reviewMetrics": [
+        "Teaching quality",
+        "Workload fairness",
+        "Assessment design"
+      ],
+      "tags": [
+        "cap",
+        "chl",
+        "pacific studies",
+        "asian studies"
+      ]
+    },
+    {
+      "id": "chin2025",
+      "type": "course",
+      "code": "CHIN2025",
+      "name": "Cantonese 2",
+      "summary": "This course is a continuation of Cantonese 1. Built on the fundamental Cantonese language skills taught and trained in Cantonese 1, Cantonese 2 is designed to cultivate students' Cantonese communicative skills to a high-intermediate to low-advanced level. The course emphasis will be placed on developing speaking skills in daily communication and enhancing competence in listening comprehension.",
+      "school": "School of Culture History and Language",
+      "schoolCode": "CHL",
+      "college": "ANU College of Asia and the Pacific",
+      "level": "UGRD",
+      "terms": [],
+      "conveners": [
+        "Dr Eve Chen",
+        "Dr Eve Chen"
+      ],
+      "handbookUrl": "https://programsandcourses.anu.edu.au/course/CHIN2025",
+      "reviewMetrics": [
+        "Teaching quality",
+        "Workload fairness",
+        "Assessment design"
+      ],
+      "tags": [
+        "cap",
+        "chl",
+        "pacific studies",
+        "asian studies"
+      ]
+    },
+    {
+      "id": "chin3017",
+      "type": "course",
+      "code": "CHIN3017",
+      "name": "Modern Chinese 3",
+      "summary": "In this intermediate level Chinese language course, students will further develop their linguistic and cultural competence in reading, writing, listening and speaking skills. This course uses a Chinese language textbook, authentic audio and visual materials to provide students with an opportunity to gain a comprehensive understanding of Chinese culture, society, history and language. Throughout the course, students have weekly opportunities to practice in writing and speaking, and to critically think about the differences between Chinese and Western cultures.",
+      "school": "School of Culture History and Language",
+      "schoolCode": "CHL",
+      "college": "ANU College of Asia and the Pacific",
+      "level": "UGRD",
+      "terms": [],
+      "conveners": [
+        "Yan Yan Wang Mode of delivery In Person Offered in First Semester",
+        "Yan Yan Wang Mode of delivery In Person Offered in First Semester"
+      ],
+      "handbookUrl": "https://programsandcourses.anu.edu.au/course/CHIN3017",
+      "reviewMetrics": [
+        "Teaching quality",
+        "Workload fairness",
+        "Assessment design"
+      ],
+      "tags": [
+        "cap",
+        "chl",
+        "pacific studies",
+        "asian studies"
+      ]
+    },
+    {
+      "id": "chin3018",
+      "type": "course",
+      "code": "CHIN3018",
+      "name": "Modern Chinese 4",
+      "summary": "This is an intermediate level Chinese language course, following on from Modern Chinese 3. This course is designed to cover the remaining essential grammatical points of Standard Modern Chinese language before moving on to a higher-intermediate level which will focus on the written style. This course will help students to raise their' linguistic competence in reading, writing, listening and speaking in Standard modern Chinese.",
+      "school": "School of Culture History and Language",
+      "schoolCode": "CHL",
+      "college": "ANU College of Asia and the Pacific",
+      "level": "UGRD",
+      "terms": [],
+      "conveners": [
+        "AsPr Fengyuan Ji",
+        "AsPr Fengyuan Ji"
+      ],
+      "handbookUrl": "https://programsandcourses.anu.edu.au/course/CHIN3018",
+      "reviewMetrics": [
+        "Teaching quality",
+        "Workload fairness",
+        "Assessment design"
+      ],
+      "tags": [
+        "cap",
+        "chl",
+        "pacific studies",
+        "asian studies"
+      ]
+    },
+    {
+      "id": "chin3022",
+      "type": "course",
+      "code": "CHIN3022",
+      "name": "Modern Chinese 5",
+      "summary": "Building upon the second-year Modern Chinese courses, this course is designed for students studying Chinese at a high intermediate level. Taking an integrated approach, this course aims at developing students’ linguistic fluency and accuracy through reading and discussion on social issues in contemporary China. It introduces written forms of Chinese language to students and develops their knowledge and skills concerning general writing styles.",
+      "school": "School of Culture History and Language",
+      "schoolCode": "CHL",
+      "college": "ANU College of Asia and the Pacific",
+      "level": "UGRD",
+      "terms": [],
+      "conveners": [
+        "Yan Yan Wang Mode of delivery In Person Offered in First Semester",
+        "Yan Yan Wang Mode of delivery In Person Offered in First Semester"
+      ],
+      "handbookUrl": "https://programsandcourses.anu.edu.au/course/CHIN3022",
+      "reviewMetrics": [
+        "Teaching quality",
+        "Workload fairness",
+        "Assessment design"
+      ],
+      "tags": [
+        "cap",
+        "chl",
+        "pacific studies",
+        "asian studies"
+      ]
+    },
+    {
+      "id": "chin3023",
+      "type": "course",
+      "code": "CHIN3023",
+      "name": "Modern Chinese 6",
+      "summary": "This is a third-year Modern Chinese language course, designed for students of Chinese as a foreign language at a beginning advanced level. This course is a continuation of CHIN3022: Modern Chinese 5 in Semester One. Taking an integrated approach, this course aims at developing students' fluency and accuracy through reading and discussion of topics concerning social issues in contemporary China.",
+      "school": "School of Culture History and Language",
+      "schoolCode": "CHL",
+      "college": "ANU College of Asia and the Pacific",
+      "level": "UGRD",
+      "terms": [],
+      "conveners": [
+        "Dr YUN ZHOU",
+        "Dr YUN ZHOU"
+      ],
+      "handbookUrl": "https://programsandcourses.anu.edu.au/course/CHIN3023",
+      "reviewMetrics": [
+        "Teaching quality",
+        "Workload fairness",
+        "Assessment design"
+      ],
+      "tags": [
+        "cap",
+        "chl",
+        "pacific studies",
+        "asian studies"
+      ]
+    },
+    {
+      "id": "chin3024",
+      "type": "course",
+      "code": "CHIN3024",
+      "name": "Modern Chinese 7",
+      "summary": "This is an advanced Modern Chinese language course, designed for students who have completed successfully CHIN3023 (Modern Chinese 6), or achieved the equivalence through placement test. While the course places special emphasis on reading comprehension of the selected texts, it will also expose the students to live videos which are in natural native Chinese in order to enhance students’ listening and oral proficiency. The course is taught mainly in Chinese.",
+      "school": "School of Culture History and Language",
+      "schoolCode": "CHL",
+      "college": "ANU College of Asia and the Pacific",
+      "level": "UGRD",
+      "terms": [],
+      "conveners": [
+        "AsPr Fengyuan Ji",
+        "AsPr Fengyuan Ji"
+      ],
+      "handbookUrl": "https://programsandcourses.anu.edu.au/course/CHIN3024",
+      "reviewMetrics": [
+        "Teaching quality",
+        "Workload fairness",
+        "Assessment design"
+      ],
+      "tags": [
+        "cap",
+        "chl",
+        "pacific studies",
+        "asian studies"
+      ]
+    },
+    {
+      "id": "chin3025",
+      "type": "course",
+      "code": "CHIN3025",
+      "name": "Modern Chinese 8",
+      "summary": "This is an advanced Standard Modern Chinese language course designed for students who have successfully completed Modern Chinese 7 (Advanced Modern Chinese A) or have achieved the equivalence approved to enrol by proficiency assessment. The course aims at elevating students’ Chinese-language proficiency to near-native level and cultivating a high-level sense of cultural awareness in varieties of topics, from the latest news to historical essays. The course introduces varieties of literary styles.",
+      "school": "School of Culture History and Language",
+      "schoolCode": "CHL",
+      "college": "ANU College of Asia and the Pacific",
+      "level": "UGRD",
+      "terms": [],
+      "conveners": [
+        "Dr YUN ZHOU",
+        "Dr YUN ZHOU"
+      ],
+      "handbookUrl": "https://programsandcourses.anu.edu.au/course/CHIN3025",
+      "reviewMetrics": [
+        "Teaching quality",
+        "Workload fairness",
+        "Assessment design"
+      ],
+      "tags": [
+        "cap",
+        "chl",
+        "pacific studies",
+        "asian studies"
+      ]
+    },
+    {
+      "id": "chin3041",
+      "type": "course",
+      "code": "CHIN3041",
+      "name": "Chinese-English Translation",
+      "summary": "This course is designed for Independent level Standard Modern Chinese language students as a course in Chinese-English translation. The course is intended to equip students with translation skills and serve as a foundation course for further Chinese-English translation courses. Students will learn how to use the most common on- line tools critically, how to judge and critique the quality of an accomplished translation task, and have some experience in handling translation issues in real life.",
+      "school": "School of Culture History and Language",
+      "schoolCode": "CHL",
+      "college": "ANU College of Asia and the Pacific",
+      "level": "UGRD",
+      "terms": [],
+      "conveners": [
+        "AsPr Shengyu Fan",
+        "AsPr Shengyu Fan"
+      ],
+      "handbookUrl": "https://programsandcourses.anu.edu.au/course/CHIN3041",
+      "reviewMetrics": [
+        "Teaching quality",
+        "Workload fairness",
+        "Assessment design"
+      ],
+      "tags": [
+        "cap",
+        "chl",
+        "pacific studies",
+        "asian studies"
+      ]
+    },
+    {
+      "id": "chin3216",
+      "type": "course",
+      "code": "CHIN3216",
+      "name": "Chinese-English Interpreting",
+      "summary": "This course is designed for Independent level Standard Modern Chinese language students as a course in Chinese-English interpretation. It will introduce various forms of interpretation, but will focus on consecutive interpretation and sight interpretation. The course is intended to equip students with interpretation skills and serve as a foundation course for further Chinese-English interpretation courses.",
+      "school": "School of Culture History and Language",
+      "schoolCode": "CHL",
+      "college": "ANU College of Asia and the Pacific",
+      "level": "UGRD",
+      "terms": [],
+      "conveners": [],
+      "handbookUrl": "https://programsandcourses.anu.edu.au/course/CHIN3216",
+      "reviewMetrics": [
+        "Teaching quality",
+        "Workload fairness",
+        "Assessment design"
+      ],
+      "tags": [
+        "cap",
+        "chl",
+        "pacific studies",
+        "asian studies"
+      ]
+    },
+    {
+      "id": "chst3211",
+      "type": "course",
+      "code": "CHST3211",
+      "name": "Reading China: Past and Present",
+      "summary": "This is an advanced reading course offered in modern Chinese language to explore China’s modern history and contemporary society through intensive and extensive readings. The course aims to develop and enhance students' critical thinking through a series of thinking processes, including contextualising, interpreting, evaluating, and analysing the reading materials. It selects ten crucial themes including the New Culture Movement, gender, political campaigns, population policies, and rural issues.",
+      "school": "School of Culture History and Language",
+      "schoolCode": "CHL",
+      "college": "ANU College of Asia and the Pacific",
+      "level": "UGRD",
+      "terms": [],
+      "conveners": [
+        "Dr YUN ZHOU",
+        "Dr YUN ZHOU"
+      ],
+      "handbookUrl": "https://programsandcourses.anu.edu.au/course/CHST3211",
+      "reviewMetrics": [
+        "Teaching quality",
+        "Workload fairness",
+        "Assessment design"
+      ],
+      "tags": [
+        "cap",
+        "chl",
+        "pacific studies",
+        "asian studies"
+      ]
+    },
+    {
+      "id": "chst3212",
+      "type": "course",
+      "code": "CHST3212",
+      "name": "Reading Chinese Literature: Theory and Criticism",
+      "summary": "Taught entirely in Chinese in the Australian context, this course trains students in critical analysis and discussion of the most famous classical Chinese novel Hongloumeng and its brilliant English translation The Story of the Stone by David Hawkes and John Minford. Through minute textual analysis this course will explore this Chinese literary classic and its translation from an interdisciplinary perspective, aiming at training students to become more competent bilingual readers. The goal of the course is to engage with literary texts and critical thinking to develop independent research and academic writing skills, meanwhile emphasizing the idea of translation as a dialogue between the original and the translated text, between the translator and his former self, and a learning process both for the translator and the reader of his translation.",
+      "school": "School of Culture History and Language",
+      "schoolCode": "CHL",
+      "college": "ANU College of Asia and the Pacific",
+      "level": "UGRD",
+      "terms": [],
+      "conveners": [
+        "AsPr Shengyu Fan",
+        "AsPr Shengyu Fan"
+      ],
+      "handbookUrl": "https://programsandcourses.anu.edu.au/course/CHST3212",
+      "reviewMetrics": [
+        "Teaching quality",
+        "Workload fairness",
+        "Assessment design"
+      ],
+      "tags": [
+        "cap",
+        "chl",
+        "pacific studies",
+        "asian studies"
       ]
     },
     {
@@ -19407,202 +24820,620 @@ window.ANREVIEW_DATA = {
       ]
     },
     {
-      "id": "INTR2010",
+      "id": "intr1021",
+      "type": "course",
+      "code": "INTR1021",
+      "name": "Understanding Peace and Conflict",
+      "summary": "This course explores core questions about modern armed conflict: What is war? What shapes does it take? What are its main drivers?",
+      "school": "Department of International Relations",
+      "schoolCode": "CAP",
+      "college": "ANU College of Asia and the Pacific",
+      "level": "UGRD",
+      "terms": [],
+      "conveners": [
+        "Dr Eglantine Raux ep Staunton",
+        "Dr Eglantine Raux ep Staunton"
+      ],
+      "handbookUrl": "https://programsandcourses.anu.edu.au/course/INTR1021",
+      "reviewMetrics": [
+        "Teaching quality",
+        "Workload fairness",
+        "Assessment design"
+      ],
+      "tags": [
+        "cap",
+        "pacific studies",
+        "asian studies"
+      ]
+    },
+    {
+      "id": "intr1022",
+      "type": "course",
+      "code": "INTR1022",
+      "name": "Peacebuilding and Conflict Resolution",
+      "summary": "In the 21st century the need for effective peacebuilding and conflict resolution is as great as ever. Many long-running conflicts remain unresolved. Pessimists see the menacing potential for new wars looming just over the horizon.",
+      "school": "Department of International Relations",
+      "schoolCode": "CAP",
+      "college": "ANU College of Asia and the Pacific",
+      "level": "UGRD",
+      "terms": [],
+      "conveners": [
+        "Dr Charlotte Grech-Madin",
+        "Dr Charlotte Grech-Madin"
+      ],
+      "handbookUrl": "https://programsandcourses.anu.edu.au/course/INTR1022",
+      "reviewMetrics": [
+        "Teaching quality",
+        "Workload fairness",
+        "Assessment design"
+      ],
+      "tags": [
+        "cap",
+        "pacific studies",
+        "asian studies"
+      ]
+    },
+    {
+      "id": "intr2010",
       "type": "course",
       "code": "INTR2010",
       "name": "International Relations in the Asia-Pacific",
-      "college": "ANU College of Asia and the Pacific",
+      "summary": "This course will apply foundational international relations theories encompassing realist, liberal-internationalist and constructivist perspectives to ongoing and emerging political dynamics in the Asia-Pacific region. It complements comparative political perspectives on regional governance by applying state-centric and key sub-state based perspectives on understanding how the region ‘matters’ in a global context. Various perspectives on international political economics, foreign policy analysis, international security and regional/international institutions will supplement the theoretical perspectives that underwrite the subject’s conceptual approach.",
       "school": "Department of International Relations",
-      "schoolCode": "DOIR",
+      "schoolCode": "CAP",
+      "college": "ANU College of Asia and the Pacific",
       "level": "UGRD",
-      "terms": [
-        "See ANU course page"
-      ],
+      "terms": [],
       "conveners": [],
-      "handbookUrl": "https://programsandcourses.anu.edu.au/course/intr2010",
-      "summary": "This course will apply foundational international relations theories encompassing realist, liberal-internationalist and constructivist perspectives to ongoing and emerging political dynamics in the Asia-Pacific region. It complements comparative political perspectives on regional governance by applying state-centric and key sub-state based perspectives on...",
-      "tags": [
-        "intr"
-      ],
+      "handbookUrl": "https://programsandcourses.anu.edu.au/course/INTR2010",
       "reviewMetrics": [
         "Teaching quality",
         "Workload fairness",
         "Assessment design"
+      ],
+      "tags": [
+        "cap",
+        "pacific studies",
+        "asian studies"
       ]
     },
     {
-      "id": "INTR2012",
+      "id": "intr2012",
       "type": "course",
       "code": "INTR2012",
       "name": "Chinese Foreign and Security Policy",
-      "college": "ANU College of Asia and the Pacific",
+      "summary": "This course surveys the rise of China and its implications for regional and global security. The course critically examines the theory and practice of China's international relations, as well as explores the ways in which China's historical legacy has shaped its worldview and foreign policy. Drawing on key concepts of power, legitimacy, national identity and international status, the course examines China's evolving global role, with a particular emphasis on key relationships and security challenges in the Asia-Pacific.",
       "school": "Department of International Relations",
-      "schoolCode": "DOIR",
+      "schoolCode": "CAP",
+      "college": "ANU College of Asia and the Pacific",
       "level": "UGRD",
-      "terms": [
-        "See ANU course page"
-      ],
+      "terms": [],
       "conveners": [],
-      "handbookUrl": "https://programsandcourses.anu.edu.au/course/intr2012",
-      "summary": "This course surveys the rise of China and its implications for regional and global security. The course critically examines the theory and practice of China's international relations, as well as explores the ways in which China's historical legacy has shaped its worldview and foreign policy.",
-      "tags": [
-        "intr"
-      ],
+      "handbookUrl": "https://programsandcourses.anu.edu.au/course/INTR2012",
       "reviewMetrics": [
         "Teaching quality",
         "Workload fairness",
         "Assessment design"
+      ],
+      "tags": [
+        "cap",
+        "pacific studies",
+        "asian studies"
       ]
     },
     {
-      "id": "INTR2018",
+      "id": "intr2018",
       "type": "course",
       "code": "INTR2018",
       "name": "Japanese Foreign and Security Policy",
-      "college": "ANU College of Asia and the Pacific",
+      "summary": "Japan's role as a major power in the Asia-Pacific and the world generally makes understanding the context, drivers and nature of its foreign and security policies an imperative. This course examines how Japan has approached international affairs, from the 19th century until the present. It covers both the domestic and international dimensions of Japanese policymaking, focusing on how different political forces have shaped the evolution of the country's foreign and security policy practices.",
       "school": "Department of International Relations",
-      "schoolCode": "DOIR",
+      "schoolCode": "CAP",
+      "college": "ANU College of Asia and the Pacific",
       "level": "UGRD",
-      "terms": [
-        "See ANU course page"
-      ],
+      "terms": [],
       "conveners": [],
-      "handbookUrl": "https://programsandcourses.anu.edu.au/course/intr2018",
-      "summary": "Japan's role as a major power in the Asia-Pacific and the world generally makes understanding the context, drivers and nature of its foreign and security policies an imperative. This course examines how Japan has approached international affairs, from the 19th century until the present.",
-      "tags": [
-        "intr"
-      ],
+      "handbookUrl": "https://programsandcourses.anu.edu.au/course/INTR2018",
       "reviewMetrics": [
         "Teaching quality",
         "Workload fairness",
         "Assessment design"
+      ],
+      "tags": [
+        "cap",
+        "pacific studies",
+        "asian studies"
       ]
     },
     {
-      "id": "INTR2024",
+      "id": "intr2024",
       "type": "course",
       "code": "INTR2024",
       "name": "The Politics of Nuclear Weapons",
-      "college": "ANU College of Asia and the Pacific",
+      "summary": "In this course we will study the politics of the possession, management, and control of the most destructive weapon ever created. We will analyse the history and current policies of the states that possess nuclear weapons, as well as “threshold” states that maintain some ability to acquire a nuclear capability. We will examine the attempts to control the spread of these weapons, successful and otherwise, and even examples of states giving up nuclear capabilities.",
       "school": "Department of International Relations",
-      "schoolCode": "DOIR",
+      "schoolCode": "CAP",
+      "college": "ANU College of Asia and the Pacific",
       "level": "UGRD",
-      "terms": [
-        "See ANU course page"
-      ],
+      "terms": [],
       "conveners": [],
-      "handbookUrl": "https://programsandcourses.anu.edu.au/course/intr2024",
-      "summary": "In this course we will study the politics of the possession, management, and control of the most destructive weapon ever created. We will analyse the history and current policies of the states that possess nuclear weapons, as well as “threshold” states that maintain some ability to acquire a nuclear capability.",
-      "tags": [
-        "intr"
-      ],
+      "handbookUrl": "https://programsandcourses.anu.edu.au/course/INTR2024",
       "reviewMetrics": [
         "Teaching quality",
         "Workload fairness",
         "Assessment design"
+      ],
+      "tags": [
+        "cap",
+        "pacific studies",
+        "asian studies"
       ]
     },
     {
-      "id": "INTR3001",
+      "id": "intr3001",
       "type": "course",
       "code": "INTR3001",
       "name": "Humanitarianism: Principles, Politics and Practice",
-      "college": "ANU College of Asia and the Pacific",
-      "school": "Department of International Relations",
-      "schoolCode": "DOIR",
-      "level": "UGRD",
-      "terms": [
-        "First Semester"
-      ],
-      "conveners": [],
-      "handbookUrl": "https://programsandcourses.anu.edu.au/course/intr3001",
       "summary": "When large-scale human suffering occurs, does the international community have a responsibility to assist? Who exactly should take action? What principles should guide these actors?",
-      "tags": [
-        "international relations"
+      "school": "Department of International Relations",
+      "schoolCode": "CAP",
+      "college": "ANU College of Asia and the Pacific",
+      "level": "UGRD",
+      "terms": [],
+      "conveners": [
+        "Dr Cecilia Jacob",
+        "Dr Cecilia Jacob"
       ],
+      "handbookUrl": "https://programsandcourses.anu.edu.au/course/INTR3001",
       "reviewMetrics": [
         "Teaching quality",
         "Workload fairness",
         "Assessment design"
+      ],
+      "tags": [
+        "cap",
+        "pacific studies",
+        "asian studies"
       ]
     },
     {
-      "id": "INTR3002",
+      "id": "intr3002",
       "type": "course",
       "code": "INTR3002",
       "name": "Global Governance in the Asia-Pacific",
-      "college": "ANU College of Asia and the Pacific",
+      "summary": "The Asia-Pacific region is undergoing rapid changes that present both great opportunities and enormous challenges in a number of areas. The complex interactions across states, institutions, and local communities in the region will determine how the region addresses its major governance challenges, such terrorism, refugees, health, drugs, economic development, and the environment. Using these issues as weekly topical case studies, this course focuses on how the wide range of actors in the Asia-Pacific region attempt to comprehend and resolve governance and policy problems.",
       "school": "Department of International Relations",
-      "schoolCode": "DOIR",
+      "schoolCode": "CAP",
+      "college": "ANU College of Asia and the Pacific",
       "level": "UGRD",
-      "terms": [
-        "First Semester"
+      "terms": [],
+      "conveners": [
+        "Dr HDP Envall",
+        "Dr HDP Envall"
       ],
-      "conveners": [],
-      "handbookUrl": "https://programsandcourses.anu.edu.au/course/intr3002",
-      "summary": "The Asia-Pacific region is undergoing rapid changes that present both great opportunities and enormous challenges in a number of areas. The complex interactions across states, institutions, and local communities in the region will determine how the region addresses its major governance challenges, such terrorism, refugees, health, drugs, economic developm...",
-      "tags": [
-        "international relations"
-      ],
+      "handbookUrl": "https://programsandcourses.anu.edu.au/course/INTR3002",
       "reviewMetrics": [
         "Teaching quality",
         "Workload fairness",
         "Assessment design"
+      ],
+      "tags": [
+        "cap",
+        "pacific studies",
+        "asian studies"
       ]
     },
     {
-      "id": "JPNS2024",
+      "id": "intr3003",
+      "type": "course",
+      "code": "INTR3003",
+      "name": "Perspectives on Peace and Conflict",
+      "summary": "For millions of people across the world, violent conflict remains a persistent and tragic reality. In this course, we interrogate how issues of peace and conflict both imprint themselves on and are interpreted through Australian political life. We will look at the “scripts” that shape how Australians understand war, consider the conditioning role that “perspective” plays in those scripts, and extend the concepts we cover to address contemporary “confrontations” in global politics.",
+      "school": "Department of International Relations",
+      "schoolCode": "CAP",
+      "college": "ANU College of Asia and the Pacific",
+      "level": "UGRD",
+      "terms": [],
+      "conveners": [
+        "Dr Cian O'Driscoll",
+        "Dr Cian O'Driscoll"
+      ],
+      "handbookUrl": "https://programsandcourses.anu.edu.au/course/INTR3003",
+      "reviewMetrics": [
+        "Teaching quality",
+        "Workload fairness",
+        "Assessment design"
+      ],
+      "tags": [
+        "cap",
+        "pacific studies",
+        "asian studies"
+      ]
+    },
+    {
+      "id": "jpns1012",
+      "type": "course",
+      "code": "JPNS1012",
+      "name": "Japanese 1: Spoken",
+      "summary": "This course aims at developing spoken conversation skills in Japanese for those who have never studied previously, or have a little knowledge of, the language. It is designed to provide a comprehensive and systematic approach to the acquisition of the Japanese colloquial language. It begins with the Japanese basic sounds and their scripts, and then expands to basic vocabulary, sentence structures and grammar points, as well as constant practices on how to use those vocabulary and grammar points in actual conversations.",
+      "school": "School of Culture History and Language",
+      "schoolCode": "CHL",
+      "college": "ANU College of Asia and the Pacific",
+      "level": "UGRD",
+      "terms": [],
+      "conveners": [
+        "Dr Mayuko Itoh",
+        "Dr Mayuko Itoh"
+      ],
+      "handbookUrl": "https://programsandcourses.anu.edu.au/course/JPNS1012",
+      "reviewMetrics": [
+        "Teaching quality",
+        "Workload fairness",
+        "Assessment design"
+      ],
+      "tags": [
+        "cap",
+        "chl",
+        "pacific studies",
+        "asian studies"
+      ]
+    },
+    {
+      "id": "jpns1014",
+      "type": "course",
+      "code": "JPNS1014",
+      "name": "Japanese 1: Written",
+      "summary": "Japanese 1: Written aims to develop your knowledge and competence in modern written Japanese. The course will cover basic Japanese grammar and general knowledge about the writing system and you will learn the phonetic scripts of hiragana and katakana and 120 kanji characters. In the initial stage, hiragana, katakana and kanji are introduced as individual characters.",
+      "school": "School of Culture History and Language",
+      "schoolCode": "CHL",
+      "college": "ANU College of Asia and the Pacific",
+      "level": "UGRD",
+      "terms": [],
+      "conveners": [
+        "Prof Shunichi Ishihara",
+        "Prof Shunichi Ishihara"
+      ],
+      "handbookUrl": "https://programsandcourses.anu.edu.au/course/JPNS1014",
+      "reviewMetrics": [
+        "Teaching quality",
+        "Workload fairness",
+        "Assessment design"
+      ],
+      "tags": [
+        "cap",
+        "chl",
+        "pacific studies",
+        "asian studies"
+      ]
+    },
+    {
+      "id": "jpns2003",
+      "type": "course",
+      "code": "JPNS2003",
+      "name": "Japanese 2: Spoken",
+      "summary": "This course is the second half of the beginner's level and is designed for those learners who have acquired basic knowledge and skills through Japanese 1: Spoken or equivalent and want to further develop their Japanese spoken conversation skills. It provides a comprehensive learning, and covers all key components such as vocabulary, phrases, grammar points, communication strategies, cultural aspects, and listening practice, which are necessary to reinforce conversation skills. It also adopts a step-by-step learning by which learners first focus on constructing and understanding simple sentences, then practicing short dialogues that use those sentences, and further work on longer conversations.",
+      "school": "School of Culture History and Language",
+      "schoolCode": "CHL",
+      "college": "ANU College of Asia and the Pacific",
+      "level": "UGRD",
+      "terms": [],
+      "conveners": [
+        "Dr Mayuko Itoh",
+        "Dr Mayuko Itoh"
+      ],
+      "handbookUrl": "https://programsandcourses.anu.edu.au/course/JPNS2003",
+      "reviewMetrics": [
+        "Teaching quality",
+        "Workload fairness",
+        "Assessment design"
+      ],
+      "tags": [
+        "cap",
+        "chl",
+        "pacific studies",
+        "asian studies"
+      ]
+    },
+    {
+      "id": "jpns2005",
+      "type": "course",
+      "code": "JPNS2005",
+      "name": "Japanese 2: Written",
+      "summary": "This course is the second half of the beginner's level and is designed for those learners who have acquired basic knowledge and skills through Japanese 1: Spoken and Japanese 1: Written or equivalent and want to further develop their Japanese skills. The course will focus on reading and writing skills and on using all three of the writing systems appropriately in a cohesive text. In this course, you will learn 180 kanji characters on top of the 120 kanji introduced in JPNS1014 Japanese 1: Written.",
+      "school": "School of Culture History and Language",
+      "schoolCode": "CHL",
+      "college": "ANU College of Asia and the Pacific",
+      "level": "UGRD",
+      "terms": [],
+      "conveners": [
+        "Prof Shunichi Ishihara",
+        "Prof Shunichi Ishihara"
+      ],
+      "handbookUrl": "https://programsandcourses.anu.edu.au/course/JPNS2005",
+      "reviewMetrics": [
+        "Teaching quality",
+        "Workload fairness",
+        "Assessment design"
+      ],
+      "tags": [
+        "cap",
+        "chl",
+        "pacific studies",
+        "asian studies"
+      ]
+    },
+    {
+      "id": "jpns2024",
       "type": "course",
       "code": "JPNS2024",
       "name": "Japanese Grammar and Expressions",
-      "college": "ANU College of Asia and the Pacific",
+      "summary": "The course aims to provide a systematic treatment of modern Japanese grammar and vocabulary for intermediate students of the language. It examines various grammatical items and interrelations between Japanese words. It will therefore help students in their acquisition of Japanese language skills.",
       "school": "School of Culture History and Language",
-      "schoolCode": "SOCHA",
+      "schoolCode": "CHL",
+      "college": "ANU College of Asia and the Pacific",
       "level": "UGRD",
-      "terms": [
-        "First Semester"
-      ],
+      "terms": [],
       "conveners": [],
-      "handbookUrl": "https://programsandcourses.anu.edu.au/course/jpns2024",
-      "summary": "The course aims to provide a systematic treatment of modern Japanese grammar and vocabulary for intermediate students of the language. It examines various grammatical items and interrelations between Japanese words.",
-      "tags": [
-        "asian languages",
-        "asian studies",
-        "asia pacific studies",
-        "language studies"
-      ],
+      "handbookUrl": "https://programsandcourses.anu.edu.au/course/JPNS2024",
       "reviewMetrics": [
         "Teaching quality",
         "Workload fairness",
         "Assessment design"
+      ],
+      "tags": [
+        "cap",
+        "chl",
+        "pacific studies",
+        "asian studies"
       ]
     },
     {
-      "id": "JPNS3012",
+      "id": "jpns3005",
       "type": "course",
-      "code": "JPNS3012",
-      "name": "Teaching Japanese",
-      "college": "ANU College of Asia and the Pacific",
+      "code": "JPNS3005",
+      "name": "Advanced Japanese",
+      "summary": "This advanced Japanese course develops high-level language competence through engagement with authentic materials drawn from diverse sources including media, literature, academic texts, and real-world content spanning the 20th and 21st centuries. Students develop and demonstrate advanced proficiency by working with genuine Japanese materials that address contemporary societal issues, cultural themes, and literary works from multiple disciplinary perspectives including linguistic, anthropological, sociological, and psychological viewpoints. The course emphasises developing advanced literacy skills, critical reading abilities, listening comprehension, and presentation skills while students learn to navigate complex texts independently.",
       "school": "School of Culture History and Language",
-      "schoolCode": "SOCHA",
+      "schoolCode": "CHL",
+      "college": "ANU College of Asia and the Pacific",
       "level": "UGRD",
-      "terms": [
-        "First Semester",
-        "Second Semester"
+      "terms": [],
+      "conveners": [
+        "Dr Mayuko Itoh",
+        "Dr Mayuko Itoh"
       ],
-      "conveners": [],
-      "handbookUrl": "https://programsandcourses.anu.edu.au/course/jpns3012",
-      "summary": "Teaching Japanese is an advanced Japanese course that develops students’ knowledge and skills for teaching Japanese to English-speaking learners in Australia and beyond. Students critically engage with selected information to determine what to teach, how to teach, or both, as required.",
-      "tags": [
-        "asian languages",
-        "linguistics and applied linguist",
-        "language studies",
-        "asia-pacific studies"
-      ],
+      "handbookUrl": "https://programsandcourses.anu.edu.au/course/JPNS3005",
       "reviewMetrics": [
         "Teaching quality",
         "Workload fairness",
         "Assessment design"
+      ],
+      "tags": [
+        "cap",
+        "chl",
+        "pacific studies",
+        "asian studies"
+      ]
+    },
+    {
+      "id": "jpns3012",
+      "type": "course",
+      "code": "JPNS3012",
+      "name": "Teaching Japanese",
+      "summary": "Teaching Japanese is an advanced Japanese course that develops students’ knowledge and skills for teaching Japanese to English-speaking learners in Australia and beyond. Students critically engage with selected information to determine what to teach, how to teach, or both, as required. The course also enhances Japanese proficiency, enabling students to communicate effectively, understand relevant technical terminology, engage with academic literature, and produce written reports in Japanese—or in English if Japanese is the student’s first language.",
+      "school": "School of Culture History and Language",
+      "schoolCode": "CHL",
+      "college": "ANU College of Asia and the Pacific",
+      "level": "UGRD",
+      "terms": [],
+      "conveners": [
+        "Dr Takuya Kojima",
+        "Dr Takuya Kojima"
+      ],
+      "handbookUrl": "https://programsandcourses.anu.edu.au/course/JPNS3012",
+      "reviewMetrics": [
+        "Teaching quality",
+        "Workload fairness",
+        "Assessment design"
+      ],
+      "tags": [
+        "cap",
+        "chl",
+        "pacific studies",
+        "asian studies"
+      ]
+    },
+    {
+      "id": "jpns3013",
+      "type": "course",
+      "code": "JPNS3013",
+      "name": "Japanese - English Translation",
+      "summary": "This course is designed to give students practical, hands-on experience in Japanese to English translation, with a particular focus on literary translation. The class will introduce students to issues and problems central to translation in general and issues specific to literary translation. Classes are conducted in a workshop format, where we read and translate passages of Japanese texts with an eye to developing strategies for some of the thornier issues encountered in translation.",
+      "school": "School of Culture History and Language",
+      "schoolCode": "CHL",
+      "college": "ANU College of Asia and the Pacific",
+      "level": "UGRD",
+      "terms": [],
+      "conveners": [],
+      "handbookUrl": "https://programsandcourses.anu.edu.au/course/JPNS3013",
+      "reviewMetrics": [
+        "Teaching quality",
+        "Workload fairness",
+        "Assessment design"
+      ],
+      "tags": [
+        "cap",
+        "chl",
+        "pacific studies",
+        "asian studies"
+      ]
+    },
+    {
+      "id": "jpns3023",
+      "type": "course",
+      "code": "JPNS3023",
+      "name": "Research Topics in Japanese: History & Society",
+      "summary": "This course develops Japanese language skills at a higher advanced level. It is designed for students with advanced Japanese language competency who are interested in applying their language skills to the study of topics in Japanese history and society. The course serves three purposes.",
+      "school": "School of Culture History and Language",
+      "schoolCode": "CHL",
+      "college": "ANU College of Asia and the Pacific",
+      "level": "UGRD",
+      "terms": [],
+      "conveners": [
+        "Dr Toshiyuki Nakamura",
+        "Dr Toshiyuki Nakamura"
+      ],
+      "handbookUrl": "https://programsandcourses.anu.edu.au/course/JPNS3023",
+      "reviewMetrics": [
+        "Teaching quality",
+        "Workload fairness",
+        "Assessment design"
+      ],
+      "tags": [
+        "cap",
+        "chl",
+        "pacific studies",
+        "asian studies"
+      ]
+    },
+    {
+      "id": "jpns3102",
+      "type": "course",
+      "code": "JPNS3102",
+      "name": "Debating Japan: Contemporary Intellectual Debates",
+      "summary": "This course aims to develop near-native competence in reading contemporary Japanese texts independently and without a heavy reliance upon translations or a supervisor's assistance. The course will focus on extensive reading in contemporary Japanese texts on social, historical, ethnological, anthropological, and biological themes, amongst others, and discussion of issues raised. The course will enhance the students' ability to read, write, speak and listen in Japanese in a broad range of topics.",
+      "school": "School of Culture History and Language",
+      "schoolCode": "CHL",
+      "college": "ANU College of Asia and the Pacific",
+      "level": "UGRD",
+      "terms": [],
+      "conveners": [
+        "Prof Shunichi Ishihara",
+        "Prof Shunichi Ishihara"
+      ],
+      "handbookUrl": "https://programsandcourses.anu.edu.au/course/JPNS3102",
+      "reviewMetrics": [
+        "Teaching quality",
+        "Workload fairness",
+        "Assessment design"
+      ],
+      "tags": [
+        "cap",
+        "chl",
+        "pacific studies",
+        "asian studies"
+      ]
+    },
+    {
+      "id": "jpns3201",
+      "type": "course",
+      "code": "JPNS3201",
+      "name": "Japanese 3",
+      "summary": "Japanese 3 is an intermediate Japanese language course designed to enhance students’ proficiency in modern spoken Japanese. The course primarily focuses on developing the oral and aural skills necessary for understanding and participating in everyday conversations, while also incorporating reading and writing skills to support the growth of spoken communication abilities. Through a variety of communication activities and tasks, students are encouraged to develop practical communication skills.",
+      "school": "School of Culture History and Language",
+      "schoolCode": "CHL",
+      "college": "ANU College of Asia and the Pacific",
+      "level": "UGRD",
+      "terms": [],
+      "conveners": [
+        "Dr Takuya Kojima",
+        "Dr Takuya Kojima"
+      ],
+      "handbookUrl": "https://programsandcourses.anu.edu.au/course/JPNS3201",
+      "reviewMetrics": [
+        "Teaching quality",
+        "Workload fairness",
+        "Assessment design"
+      ],
+      "tags": [
+        "cap",
+        "chl",
+        "pacific studies",
+        "asian studies"
+      ]
+    },
+    {
+      "id": "jpns3202",
+      "type": "course",
+      "code": "JPNS3202",
+      "name": "Japanese 4",
+      "summary": "Japanese 4 is a higher intermediate Japanese language course that builds on the foundation established in Japanese 3. This course aims to further enhance students' proficiency in modern spoken Japanese while fostering the development of essential linguistic skills at the intermediate level, with a focus on progressing toward a more advanced stage. Reading and writing skills are also addressed to support the improvement of speaking and listening abilities.",
+      "school": "School of Culture History and Language",
+      "schoolCode": "CHL",
+      "college": "ANU College of Asia and the Pacific",
+      "level": "UGRD",
+      "terms": [],
+      "conveners": [
+        "Dr Takuya Kojima",
+        "Dr Takuya Kojima"
+      ],
+      "handbookUrl": "https://programsandcourses.anu.edu.au/course/JPNS3202",
+      "reviewMetrics": [
+        "Teaching quality",
+        "Workload fairness",
+        "Assessment design"
+      ],
+      "tags": [
+        "cap",
+        "chl",
+        "pacific studies",
+        "asian studies"
+      ]
+    },
+    {
+      "id": "jpns3203",
+      "type": "course",
+      "code": "JPNS3203",
+      "name": "Japanese 5",
+      "summary": "Japanese 5 is an intermediate Japanese language course. During lectures, tutorials, and seminars, students work in small groups reading, discussing, and writing about a broad range of real-world materials. The focus of this course is to help students to transition from the certainty of a textbook to the ambiguity and confusion of real-world Japanese.",
+      "school": "School of Culture History and Language",
+      "schoolCode": "CHL",
+      "college": "ANU College of Asia and the Pacific",
+      "level": "UGRD",
+      "terms": [],
+      "conveners": [
+        "Dr Toshiyuki Nakamura",
+        "Dr Toshiyuki Nakamura"
+      ],
+      "handbookUrl": "https://programsandcourses.anu.edu.au/course/JPNS3203",
+      "reviewMetrics": [
+        "Teaching quality",
+        "Workload fairness",
+        "Assessment design"
+      ],
+      "tags": [
+        "cap",
+        "chl",
+        "pacific studies",
+        "asian studies"
+      ]
+    },
+    {
+      "id": "jpns3204",
+      "type": "course",
+      "code": "JPNS3204",
+      "name": "Japanese 6",
+      "summary": "Japanese 6 is a higher intermediate Japanese language course that equips students with the skills to read a range of real-world Japanese texts, such as newspapers and academic articles with the aid of a dictionary. During lectures, tutorials, and seminars, students work in small groups reading, discussing and writing about a broad range of real-world materials. The language of instruction for this class is Japanese and it is expected that all students will make every effort to use only Japanese in class time and class-related correspondence.",
+      "school": "School of Culture History and Language",
+      "schoolCode": "CHL",
+      "college": "ANU College of Asia and the Pacific",
+      "level": "UGRD",
+      "terms": [],
+      "conveners": [
+        "Dr Toshiyuki Nakamura",
+        "Dr Toshiyuki Nakamura"
+      ],
+      "handbookUrl": "https://programsandcourses.anu.edu.au/course/JPNS3204",
+      "reviewMetrics": [
+        "Teaching quality",
+        "Workload fairness",
+        "Assessment design"
+      ],
+      "tags": [
+        "cap",
+        "chl",
+        "pacific studies",
+        "asian studies"
       ]
     },
     {
@@ -21104,57 +26935,6 @@ window.ANREVIEW_DATA = {
       ]
     },
     {
-      "id": "LING2003",
-      "type": "course",
-      "code": "LING2003",
-      "name": "Grammar of the World's Languages",
-      "college": "ANU College of Asia and the Pacific",
-      "school": "School of Culture History and Language",
-      "schoolCode": "SOCHA",
-      "level": "UGRD",
-      "terms": [
-        "Second Semester"
-      ],
-      "conveners": [],
-      "handbookUrl": "https://programsandcourses.anu.edu.au/course/ling2003",
-      "summary": "In this course students will learn about with a wide variety of sentence and word structures found across the world's languages, including languages of Australia and the Asia-Pacific region. The course showcases the rich diversity of expression in human language.",
-      "tags": [
-        "asian languages",
-        "european languages",
-        "linguistics and applied linguist",
-        "translation studies"
-      ],
-      "reviewMetrics": [
-        "Teaching quality",
-        "Workload fairness",
-        "Assessment design"
-      ]
-    },
-    {
-      "id": "LING2005",
-      "type": "course",
-      "code": "LING2005",
-      "name": "Language Across Time",
-      "college": "ANU College of Asia and the Pacific",
-      "school": "School of Culture History and Language",
-      "schoolCode": "SOCHA",
-      "level": "UGRD",
-      "terms": [
-        "Second Semester"
-      ],
-      "conveners": [],
-      "handbookUrl": "https://programsandcourses.anu.edu.au/course/ling2005",
-      "summary": "This course takes as its starting point the fact that all languages change over time. It explores explanations and motivations for change across different linguistic domains, and introduces students to cross-linguistic tendencies of language change and the linguistic and socio-cultural factors that underpin language continuity and change.",
-      "tags": [
-        "linguistics and applied linguist"
-      ],
-      "reviewMetrics": [
-        "Teaching quality",
-        "Workload fairness",
-        "Assessment design"
-      ]
-    },
-    {
       "id": "LING2008",
       "type": "course",
       "code": "LING2008",
@@ -21413,31 +27193,6 @@ window.ANREVIEW_DATA = {
       ]
     },
     {
-      "id": "LING2028",
-      "type": "course",
-      "code": "LING2028",
-      "name": "Japanese Linguistics",
-      "college": "ANU College of Asia and the Pacific",
-      "school": "School of Culture History and Language",
-      "schoolCode": "SOCHA",
-      "level": "UGRD",
-      "terms": [
-        "Second Semester"
-      ],
-      "conveners": [],
-      "handbookUrl": "https://programsandcourses.anu.edu.au/course/ling2028",
-      "summary": "This course serves as an introduction to the field of Japanese linguistics, covering a wide range of linguistic topics of the language from phonetics and phonology through to syntax and pragmatics. Various linguistic data of the language will be presented in the course in order for students to understand the unique linguistic properties of Japanese, and a...",
-      "tags": [
-        "asian languages",
-        "linguistics"
-      ],
-      "reviewMetrics": [
-        "Teaching quality",
-        "Workload fairness",
-        "Assessment design"
-      ]
-    },
-    {
       "id": "LING2029",
       "type": "course",
       "code": "LING2029",
@@ -21482,60 +27237,6 @@ window.ANREVIEW_DATA = {
         "linguistics and applied linguist",
         "communications",
         "health"
-      ],
-      "reviewMetrics": [
-        "Teaching quality",
-        "Workload fairness",
-        "Assessment design"
-      ]
-    },
-    {
-      "id": "LING2040",
-      "type": "course",
-      "code": "LING2040",
-      "name": "Austronesian Languages",
-      "college": "ANU College of Asia and the Pacific",
-      "school": "School of Culture History and Language",
-      "schoolCode": "SOCHA",
-      "level": "UGRD",
-      "terms": [
-        "First Semester"
-      ],
-      "conveners": [],
-      "handbookUrl": "https://programsandcourses.anu.edu.au/course/ling2040",
-      "summary": "This course is an introduction to Austronesian languages, exploring the history, linguistic and socio-cultural-political diversity of the Austronesian world. Austronesian is the world's largest language family in terms of geographical spread, spanning more than half the globe: from Madagascar to Easter Island, and from Taiwan to New Zealand.",
-      "tags": [
-        "asian languages",
-        "linguistics and applied linguist",
-        "language studies",
-        "linguistics"
-      ],
-      "reviewMetrics": [
-        "Teaching quality",
-        "Workload fairness",
-        "Assessment design"
-      ]
-    },
-    {
-      "id": "LING2105",
-      "type": "course",
-      "code": "LING2105",
-      "name": "Forensic Linguistics: Language and the Law",
-      "college": "ANU College of Asia and the Pacific",
-      "school": "School of Culture History and Language",
-      "schoolCode": "SOCHA",
-      "level": "UGRD",
-      "terms": [
-        "First Semester"
-      ],
-      "conveners": [],
-      "handbookUrl": "https://programsandcourses.anu.edu.au/course/ling2105",
-      "summary": "This course focuses on the role that linguistics and languages play within the rapidly growing field of forensic science; namely forensic linguistics. Forensic linguistics is a diverse field that not only has applications in legal and criminal investigations, but also makes important contributions to the military, government and business, and can contribu...",
-      "tags": [
-        "asian languages",
-        "european languages",
-        "linguistics and applied linguist",
-        "computer science"
       ],
       "reviewMetrics": [
         "Teaching quality",
@@ -21617,60 +27318,6 @@ window.ANREVIEW_DATA = {
       ]
     },
     {
-      "id": "LING3031",
-      "type": "course",
-      "code": "LING3031",
-      "name": "Papuan Languages",
-      "college": "ANU College of Asia and the Pacific",
-      "school": "School of Culture History and Language",
-      "schoolCode": "SOCHA",
-      "level": "UGRD",
-      "terms": [
-        "Autumn Session"
-      ],
-      "conveners": [],
-      "handbookUrl": "https://programsandcourses.anu.edu.au/course/ling3031",
-      "summary": "This course will examine the so-called Papuan languages, which are the 800 or so languages of Melanesia and surrounding areas (from Timor to the Solomon Islands) which do not belong to the Austronesian family – and which are famed as coming from the most linguistically diverse region on earth. These 800 languages belong to perhaps 45 distinct language fam...",
-      "tags": [
-        "linguistics and applied linguist",
-        "pacific studies",
-        "asia pacific studies",
-        "language studies"
-      ],
-      "reviewMetrics": [
-        "Teaching quality",
-        "Workload fairness",
-        "Assessment design"
-      ]
-    },
-    {
-      "id": "LING3032",
-      "type": "course",
-      "code": "LING3032",
-      "name": "Forensic Linguistics: Forensic Voice and Text Comparison",
-      "college": "ANU College of Asia and the Pacific",
-      "school": "School of Culture History and Language",
-      "schoolCode": "SOCHA",
-      "level": "UGRD",
-      "terms": [
-        "First Semester"
-      ],
-      "conveners": [],
-      "handbookUrl": "https://programsandcourses.anu.edu.au/course/ling3032",
-      "summary": "Recorded speech and written texts are increasingly presented as scientific evidence in legal cases. This is due to the fact that the accessibility and anonymity of mobile phones and the internet mean that they are often exploited for criminal acts, but at the same time they leave records which must then be analysed as forensic evidence.",
-      "tags": [
-        "asian languages",
-        "european languages",
-        "linguistics and applied linguist",
-        "forensic anthropology"
-      ],
-      "reviewMetrics": [
-        "Teaching quality",
-        "Workload fairness",
-        "Assessment design"
-      ]
-    },
-    {
       "id": "LING3035",
       "type": "course",
       "code": "LING3035",
@@ -21717,33 +27364,6 @@ window.ANREVIEW_DATA = {
         "european languages",
         "australian indigenous studies",
         "linguistics and applied linguist"
-      ],
-      "reviewMetrics": [
-        "Teaching quality",
-        "Workload fairness",
-        "Assessment design"
-      ]
-    },
-    {
-      "id": "LING3038",
-      "type": "course",
-      "code": "LING3038",
-      "name": "Corpus Linguistics",
-      "college": "ANU College of Asia and the Pacific",
-      "school": "School of Culture History and Language",
-      "schoolCode": "SOCHA",
-      "level": "UGRD",
-      "terms": [
-        "First Semester"
-      ],
-      "conveners": [],
-      "handbookUrl": "https://programsandcourses.anu.edu.au/course/ling3038",
-      "summary": "Corpus linguistics is an approach to understanding large amounts of data. Corpora are large collections of language data in a computer readable format.",
-      "tags": [
-        "cultural studies",
-        "linguistics and applied linguist",
-        "asia pacific studies",
-        "language studies"
       ],
       "reviewMetrics": [
         "Teaching quality",
@@ -22883,204 +28503,296 @@ window.ANREVIEW_DATA = {
       ]
     },
     {
-      "id": "PASI1011",
+      "id": "pasi1011",
       "type": "course",
       "code": "PASI1011",
       "name": "Pacific Encounters: An introduction to Pacific Studies",
-      "college": "ANU College of Asia and the Pacific",
+      "summary": "Pacific encounters provide an introduction into the debates about theory and practice that shape how we conceptualise and think about the Pacific region and its peoples. And to a certain extent the relationship with Australia and its Indigenous population. The course highlights the mapping of the Pacific, early migrations, historical and current interactions.",
       "school": "Department of Pacific Affairs",
-      "schoolCode": "DOPA",
+      "schoolCode": "CAP",
+      "college": "ANU College of Asia and the Pacific",
       "level": "UGRD",
-      "terms": [
-        "First Semester"
+      "terms": [],
+      "conveners": [
+        "Romitesh Kant Mode of delivery In Person Offered in First Semester",
+        "Romitesh Kant Mode of delivery In Person Offered in First Semester"
       ],
-      "conveners": [],
-      "handbookUrl": "https://programsandcourses.anu.edu.au/course/pasi1011",
-      "summary": "Pacific encounters provide an introduction into the debates about theory and practice that shape how we conceptualise and think about the Pacific region and its peoples. And to a certain extent the relationship with Australia and its Indigenous population.",
-      "tags": [
-        "geography",
-        "interdisciplinary studies - sust",
-        "development studies",
-        "social research"
-      ],
+      "handbookUrl": "https://programsandcourses.anu.edu.au/course/PASI1011",
       "reviewMetrics": [
         "Teaching quality",
         "Workload fairness",
         "Assessment design"
+      ],
+      "tags": [
+        "cap",
+        "pacific studies",
+        "asian studies"
       ]
     },
     {
-      "id": "PASI2001",
+      "id": "pasi1012",
+      "type": "course",
+      "code": "PASI1012",
+      "name": "Pacific Worlds: critical inquiry in Oceania",
+      "summary": "This course introduces students to the Pacific region and to the wealth of Pacific knowledge, resources, and institutions at ANU and in Canberra more broadly. Students will have the opportunity to learn through hands-on engagement with key historical, archival and museum collections and other institutions in Canberra. Pacific Worlds will be explored in seminar format and in dialogue with selected scholars and policymakers, and through visits to institutions such as the National Library, National Archives, and National Gallery of Australia.",
+      "school": "School of Culture History and Language",
+      "schoolCode": "CHL",
+      "college": "ANU College of Asia and the Pacific",
+      "level": "UGRD",
+      "terms": [],
+      "conveners": [
+        "Nayahamui Rooney Mode of delivery In Person Offered in Second Semester",
+        "Nayahamui Rooney Mode of delivery In Person Offered in Second Semester"
+      ],
+      "handbookUrl": "https://programsandcourses.anu.edu.au/course/PASI1012",
+      "reviewMetrics": [
+        "Teaching quality",
+        "Workload fairness",
+        "Assessment design"
+      ],
+      "tags": [
+        "cap",
+        "chl",
+        "pacific studies",
+        "asian studies"
+      ]
+    },
+    {
+      "id": "pasi2001",
       "type": "course",
       "code": "PASI2001",
       "name": "Pacific Studies in a Globalising World",
-      "college": "ANU College of Asia and the Pacific",
+      "summary": "This course introduces students to the histories, key terms and approaches shaping the dynamic, transdisciplinary field of Pacific Studies. It outlines the ways in which Oceania has been approached, mapped and represented in scholarly, policy, arts, mainstream, and social media contexts. The course also provides an introduction to Australian, Aotearoa New Zealand and US relations with the Pacific, and a comparative lens on the nature of Pacific Studies within these countries and the islands.",
       "school": "School of Culture History and Language",
-      "schoolCode": "SOCHA",
+      "schoolCode": "CHL",
+      "college": "ANU College of Asia and the Pacific",
       "level": "UGRD",
-      "terms": [
-        "First Semester"
+      "terms": [],
+      "conveners": [
+        "Prof Katerina Teaiwa",
+        "Prof Katerina Teaiwa"
       ],
-      "conveners": [],
-      "handbookUrl": "https://programsandcourses.anu.edu.au/course/pasi2001",
-      "summary": "This course introduces students to the histories, key terms and approaches shaping the dynamic, transdisciplinary field of Pacific Studies. It outlines the ways in which Oceania has been approached, mapped and represented in scholarly, policy, arts, mainstream, and social media contexts.",
-      "tags": [
-        "non language asian studies",
-        "pacific studies"
-      ],
+      "handbookUrl": "https://programsandcourses.anu.edu.au/course/PASI2001",
       "reviewMetrics": [
         "Teaching quality",
         "Workload fairness",
         "Assessment design"
+      ],
+      "tags": [
+        "cap",
+        "chl",
+        "pacific studies",
+        "asian studies"
       ]
     },
     {
-      "id": "PASI2002",
+      "id": "pasi2002",
       "type": "course",
       "code": "PASI2002",
       "name": "Australia in Oceania in the 19th and 20th Centuries",
-      "college": "ANU College of Asia and the Pacific",
+      "summary": "Is Australia just one big Pacific Island? In this course we examine this core question by exploring the history of Australia and Oceania – with a special focus on the island Pacific – through the ‘long’ 19th and 20th centuries. To start, we look at Australia and the Pacific in ‘deep time’, outlining the initial waves of human settlement and prehistoric mobility, before tackling major themes of Australia’s interactions with the island world: through European expansion and first encounters; the thickening relationships of trade, missionisation and formal colonialism in the 19th century; the world wars; the post war period; the era of independence; and developments of the late 20th and early 21st centuries – including Australia’s ‘interventions’ in the Pacific, the growth of Australia’s own Pasifika populations, and changing perceptions of Australia in the region.",
       "school": "Department of Pacific Affairs",
-      "schoolCode": "DOPA",
+      "schoolCode": "CAP",
+      "college": "ANU College of Asia and the Pacific",
       "level": "UGRD",
-      "terms": [
-        "See ANU course page"
-      ],
+      "terms": [],
       "conveners": [],
-      "handbookUrl": "https://programsandcourses.anu.edu.au/course/pasi2002",
-      "summary": "Is Australia just one big Pacific Island? In this course we examine this core question by exploring the history of Australia and Oceania – with a special focus on the island Pacific – through the ‘long’ 19th and 20th centuries.",
-      "tags": [
-        "pacific studies"
-      ],
+      "handbookUrl": "https://programsandcourses.anu.edu.au/course/PASI2002",
       "reviewMetrics": [
         "Teaching quality",
         "Workload fairness",
         "Assessment design"
+      ],
+      "tags": [
+        "cap",
+        "pacific studies",
+        "asian studies"
       ]
     },
     {
-      "id": "PASI2007",
+      "id": "pasi2007",
       "type": "course",
       "code": "PASI2007",
       "name": "War in the Islands: The Second World War in the Pacific",
-      "college": "ANU College of Asia and the Pacific",
+      "summary": "The extension of World War II to the Pacific Theatre in 1942 signalled a new era in the technology of war and profoundly shaped the modern history of the Asia Pacific region. This course is the first in the world to combine Allied, Japanese and Pacific Islander understandings of the Pacific War with particular attention to the South West Pacific. It complements the existing emphasis on the perspective from the United States and is distinctive in making ‘space’ for Islander experiences.",
       "school": "Department of Pacific Affairs",
-      "schoolCode": "DOPA",
+      "schoolCode": "CAP",
+      "college": "ANU College of Asia and the Pacific",
       "level": "UGRD",
-      "terms": [
-        "First Semester"
+      "terms": [],
+      "conveners": [
+        "Nicholas Hoare Mode of delivery In Person Co-taught Course PASI",
+        "Nicholas Hoare Mode of delivery In Person Co-taught Course PASI"
       ],
-      "conveners": [],
-      "handbookUrl": "https://programsandcourses.anu.edu.au/course/pasi2007",
-      "summary": "The extension of World War II to the Pacific Theatre in 1942 signalled a new era in the technology of war and profoundly shaped the modern history of the Asia Pacific region. This course is the first in the world to combine Allied, Japanese and Pacific Islander understandings of the Pacific War with particular attention to the South West Pacific.",
-      "tags": [
-        "history",
-        "pacific studies",
-        "asia pacific studies",
-        "international security"
-      ],
+      "handbookUrl": "https://programsandcourses.anu.edu.au/course/PASI2007",
       "reviewMetrics": [
         "Teaching quality",
         "Workload fairness",
         "Assessment design"
+      ],
+      "tags": [
+        "cap",
+        "pacific studies",
+        "asian studies"
       ]
     },
     {
-      "id": "PASI2030",
+      "id": "pasi2030",
       "type": "course",
       "code": "PASI2030",
       "name": "Study Tour: Regional Policymaking for Pacific Development",
-      "college": "ANU College of Asia and the Pacific",
+      "summary": "Students will spend two weeks in Fiji undertaking learning with USP peers and leveraging the University's strong connections in the region to obtain hands on experience working with three leading regional institutions – the University of the South Pacific (USP), the Pacific Islands Forum (PIF), and the Pacific Community (SPC). Students will be exposed to issues that are of direct relevance to Australia’s regional interests, and examine the main theoretical approaches to Pacific development such as Postcolonialism and Development Economics and how they affect development policy in the Pacific. Students will have an unique opportunity to experience policy-making and diplomacy in action from inside some of the region’s most important organisations.",
       "school": "Department of Pacific Affairs",
-      "schoolCode": "DOPA",
+      "schoolCode": "CAP",
+      "college": "ANU College of Asia and the Pacific",
       "level": "UGRD",
-      "terms": [
-        "Second Semester"
-      ],
+      "terms": [],
       "conveners": [],
-      "handbookUrl": "https://programsandcourses.anu.edu.au/course/pasi2030",
-      "summary": "Students will spend two weeks in Fiji undertaking learning with USP peers and leveraging the University's strong connections in the region to obtain hands on experience working with three leading regional institutions – the University of the South Pacific (USP), the Pacific Islands Forum (PIF), and the Pacific Community (SPC). Students will be exposed to...",
-      "tags": [
-        "pasi"
-      ],
+      "handbookUrl": "https://programsandcourses.anu.edu.au/course/PASI2030",
       "reviewMetrics": [
         "Teaching quality",
         "Workload fairness",
         "Assessment design"
+      ],
+      "tags": [
+        "cap",
+        "pacific studies",
+        "asian studies"
       ]
     },
     {
-      "id": "PASI3001",
+      "id": "pasi3001",
       "type": "course",
       "code": "PASI3001",
       "name": "Politics and Development in the Contemporary Pacific",
-      "college": "ANU College of Asia and the Pacific",
+      "summary": "The Pacific is a region of diverse and complex island states and territories. While made up of mostly small islands, collectively it spans one-third of the planet’s surface and almost a quarter of the world’s languages are spoken in the Pacific Islands. The region is on the frontlines of climate change, encompassing the countries most vulnerable to sea level rise and natural disasters in the world, yet it is also a site of pioneering forms of climate adaptability and resilience.",
       "school": "Department of Pacific Affairs",
-      "schoolCode": "DOPA",
+      "schoolCode": "CAP",
+      "college": "ANU College of Asia and the Pacific",
       "level": "UGRD",
-      "terms": [
-        "First Semester",
-        "Second Semester"
+      "terms": [],
+      "conveners": [
+        "Sonia Palmieri Mode of delivery In Person Offered in First Semester",
+        "Sonia Palmieri Mode of delivery In Person Offered in First Semester"
       ],
-      "conveners": [],
-      "handbookUrl": "https://programsandcourses.anu.edu.au/course/pasi3001",
-      "summary": "The Pacific is a region of diverse and complex island states and territories. While made up of mostly small islands, collectively it spans one-third of the planet’s surface and almost a quarter of the world’s languages are spoken in the Pacific Islands.",
-      "tags": [
-        "non language asian studies",
-        "pacific studies"
-      ],
+      "handbookUrl": "https://programsandcourses.anu.edu.au/course/PASI3001",
       "reviewMetrics": [
         "Teaching quality",
         "Workload fairness",
         "Assessment design"
+      ],
+      "tags": [
+        "cap",
+        "pacific studies",
+        "asian studies"
       ]
     },
     {
-      "id": "PASI3005",
+      "id": "pasi3002",
+      "type": "course",
+      "code": "PASI3002",
+      "name": "Gender and Sexuality in the Pacific",
+      "summary": "The course explores the encounters between Oceanic and Western models, values, and embodied experiences of gender and sexuality. The course examines the debates about universalism and relativism, nature and culture, and personhood and identity in understanding the differences between women, men, and transgendered persons. The course takes a historical and contextual approach to examine the transformations of patterns of gender and sexuality in the Pacific through the successive encounters of exploratory voyages, Christian missions, labour trade and plantation development, World War II and militarism, and mobility and the diaspora.",
+      "school": "School of Culture History and Language",
+      "schoolCode": "CHL",
+      "college": "ANU College of Asia and the Pacific",
+      "level": "UGRD",
+      "terms": [],
+      "conveners": [
+        "Nayahamui Rooney Mode of delivery In Person Co-taught Course GEND",
+        "Nayahamui Rooney Mode of delivery In Person Co-taught Course GEND"
+      ],
+      "handbookUrl": "https://programsandcourses.anu.edu.au/course/PASI3002",
+      "reviewMetrics": [
+        "Teaching quality",
+        "Workload fairness",
+        "Assessment design"
+      ],
+      "tags": [
+        "cap",
+        "chl",
+        "pacific studies",
+        "asian studies"
+      ]
+    },
+    {
+      "id": "pasi3005",
       "type": "course",
       "code": "PASI3005",
       "name": "Pacific Islands Field School",
-      "college": "ANU College of Asia and the Pacific",
+      "summary": "The course introduces students to the Pacific through practical engagement with the Pacific islands and/ or Pacific diasporas and histories in Australia. The emphasis is on integrating formal learning with first-hand experience. The in-country work and fieldtrips will include practical assignments and classes and tutorials given by staff from ANU and partner organisations.",
       "school": "School of Culture History and Language",
-      "schoolCode": "SOCHA",
+      "schoolCode": "CHL",
+      "college": "ANU College of Asia and the Pacific",
       "level": "UGRD",
-      "terms": [
-        "Spring Session"
-      ],
+      "terms": [],
       "conveners": [],
-      "handbookUrl": "https://programsandcourses.anu.edu.au/course/pasi3005",
-      "summary": "The course introduces students to the Pacific through practical engagement with the Pacific islands and/ or Pacific diasporas and histories in Australia. The emphasis is on integrating formal learning with first-hand experience.",
-      "tags": [
-        "pasi"
-      ],
+      "handbookUrl": "https://programsandcourses.anu.edu.au/course/PASI3005",
       "reviewMetrics": [
         "Teaching quality",
         "Workload fairness",
         "Assessment design"
+      ],
+      "tags": [
+        "cap",
+        "chl",
+        "pacific studies",
+        "asian studies"
       ]
     },
     {
-      "id": "PASI3013",
+      "id": "pasi3012",
       "type": "course",
-      "code": "PASI3013",
-      "name": "Environment and Development in the Pacific",
+      "code": "PASI3012",
+      "name": "Readings in Indigenous Studies",
+      "summary": "This is an individual course of readings on an Indigenous studies topic identified by the student in consultation with the course convener and nominated supervisor. This may include Indigenous cultures, issues and modes of knowledge production from the Pacific Islands, Asia, Australia, the United States, New Zealand, Canada or beyond the region. Weekly meetings with the supervisor to discuss material covered will be on a one-to-one basis, with an emphasis on critical analysis and writing.",
+      "school": "School of Culture History and Language",
+      "schoolCode": "CHL",
       "college": "ANU College of Asia and the Pacific",
-      "school": "Department of Pacific Affairs",
-      "schoolCode": "DOPA",
       "level": "UGRD",
-      "terms": [
-        "Second Semester"
+      "terms": [],
+      "conveners": [
+        "AsPr Christopher Ballard",
+        "AsPr Kerryn Baker"
       ],
-      "conveners": [],
-      "handbookUrl": "https://programsandcourses.anu.edu.au/course/pasi3013",
-      "summary": "This course explores the tangled, at times uneasy, interactions between environment and development in the region of Oceania. We will consider how diverse Oceanian environments provide important development opportunities for local communities and economies, reflect on the environmental (and social) impacts wrought by development, and problematise what ‘de...",
-      "tags": [
-        "pasi"
-      ],
+      "handbookUrl": "https://programsandcourses.anu.edu.au/course/PASI3012",
       "reviewMetrics": [
         "Teaching quality",
         "Workload fairness",
         "Assessment design"
+      ],
+      "tags": [
+        "cap",
+        "chl",
+        "pacific studies",
+        "asian studies"
+      ]
+    },
+    {
+      "id": "pasi3013",
+      "type": "course",
+      "code": "PASI3013",
+      "name": "Environment and Development in the Pacific",
+      "summary": "This course explores the tangled, at times uneasy, interactions between environment and development in the region of Oceania. We will consider how diverse Oceanian environments provide important development opportunities for local communities and economies, reflect on the environmental (and social) impacts wrought by development, and problematise what ‘development’ means in an age of climate crisis and enduring colonial legacies. Each week you will learn from ANU Pacific experts and discuss development case studies from the region in conversation with one popular development concept.",
+      "school": "Department of Pacific Affairs",
+      "schoolCode": "CAP",
+      "college": "ANU College of Asia and the Pacific",
+      "level": "UGRD",
+      "terms": [],
+      "conveners": [
+        "Anouk Ride Mode of delivery In Person Offered in Second Semester",
+        "Anouk Ride Mode of delivery In Person Offered in Second Semester"
+      ],
+      "handbookUrl": "https://programsandcourses.anu.edu.au/course/PASI3013",
+      "reviewMetrics": [
+        "Teaching quality",
+        "Workload fairness",
+        "Assessment design"
+      ],
+      "tags": [
+        "cap",
+        "pacific studies",
+        "asian studies"
       ]
     },
     {
@@ -23975,28 +29687,27 @@ window.ANREVIEW_DATA = {
       ]
     },
     {
-      "id": "POLS2055",
+      "id": "pols2055",
       "type": "course",
       "code": "POLS2055",
       "name": "Pacific Politics",
-      "college": "ANU College of Asia and the Pacific",
+      "summary": "The Pacific Islands is a region of diverse political traditions, complex developmental challenges and enduring strategic importance. The close relationship it shares with Australia stems from its geographical, historical and cultural ties, but has been tested by disputes over climate change and the role of China in the region. This course explores contemporary political and developmental issues in the region, including the ongoing legacy of colonialism, decolonisation and secessionist movements; the nature of democracy and how it has been challenged by coups, constitutional crises and rising authoritarianism in the region; and the ways in which Pacific states navigate the international system in an evolving geo-strategic environment.",
       "school": "Department of Pacific Affairs",
-      "schoolCode": "DOPA",
+      "schoolCode": "CAP",
+      "college": "ANU College of Asia and the Pacific",
       "level": "UGRD",
-      "terms": [
-        "See ANU course page"
-      ],
+      "terms": [],
       "conveners": [],
-      "handbookUrl": "https://programsandcourses.anu.edu.au/course/pols2055",
-      "summary": "The Pacific Islands is a region of diverse political traditions, complex developmental challenges and enduring strategic importance. The close relationship it shares with Australia stems from its geographical, historical and cultural ties, but has been tested by disputes over climate change and the role of China in the region.",
-      "tags": [
-        "political sciences",
-        "pacific studies"
-      ],
+      "handbookUrl": "https://programsandcourses.anu.edu.au/course/POLS2055",
       "reviewMetrics": [
         "Teaching quality",
         "Workload fairness",
         "Assessment design"
+      ],
+      "tags": [
+        "cap",
+        "pacific studies",
+        "asian studies"
       ]
     },
     {
@@ -24302,6 +30013,30 @@ window.ANREVIEW_DATA = {
         "Teaching quality",
         "Workload fairness",
         "Assessment design"
+      ]
+    },
+    {
+      "id": "pols3004",
+      "type": "course",
+      "code": "POLS3004",
+      "name": "Emotions in International Politics",
+      "summary": "Did George W. Bush declare a War on Terror because he felt humiliated by the 9/11 attacks? How do we assess a global phenomenon like climate anxiety and its impact on political activism?",
+      "school": "Department of Political and Social Change",
+      "schoolCode": "CAP",
+      "college": "ANU College of Asia and the Pacific",
+      "level": "UGRD",
+      "terms": [],
+      "conveners": [],
+      "handbookUrl": "https://programsandcourses.anu.edu.au/course/POLS3004",
+      "reviewMetrics": [
+        "Teaching quality",
+        "Workload fairness",
+        "Assessment design"
+      ],
+      "tags": [
+        "cap",
+        "pacific studies",
+        "asian studies"
       ]
     },
     {
@@ -25816,157 +31551,250 @@ window.ANREVIEW_DATA = {
       ]
     },
     {
-      "id": "STST1001",
+      "id": "stst1001",
       "type": "course",
       "code": "STST1001",
       "name": "Introduction to International Security Studies",
-      "college": "ANU College of Asia and the Pacific",
-      "school": "Strategic and Defence Studies Centre",
-      "schoolCode": "SADSC",
-      "level": "UGRD",
-      "terms": [
-        "First Semester"
-      ],
-      "conveners": [],
-      "handbookUrl": "https://programsandcourses.anu.edu.au/course/stst1001",
       "summary": "Is war likely between global powers the United States and China? Could we see a nuclear conflict in the next decade? What is the role of race in international security?",
-      "tags": [
-        "international relations",
-        "political sciences",
-        "international security"
+      "school": "Strategic and Defence Studies Centre",
+      "schoolCode": "CAP",
+      "college": "ANU College of Asia and the Pacific",
+      "level": "UGRD",
+      "terms": [],
+      "conveners": [
+        "Dr Kyungwon Suh",
+        "Dr Kyungwon Suh"
       ],
+      "handbookUrl": "https://programsandcourses.anu.edu.au/course/STST1001",
       "reviewMetrics": [
         "Teaching quality",
         "Workload fairness",
         "Assessment design"
+      ],
+      "tags": [
+        "cap",
+        "pacific studies",
+        "asian studies"
       ]
     },
     {
-      "id": "STST2001",
+      "id": "stst2001",
       "type": "course",
       "code": "STST2001",
       "name": "Security Concepts in the Asia-Pacific",
-      "college": "ANU College of Asia and the Pacific",
+      "summary": "The ideas, concepts, and theories we use in International Security have overwhelmingly been developed through the study of Western historical cases. Yet key security challenges and practices in the Asia-Pacific region do not always accord with concepts derived in the West. In this course, students will explore how the Asia-Pacific region challenges or complements existing security concepts, such as order & hierarchy, history & memory, alliances, reputation & credibility, and economics & security.",
       "school": "Strategic and Defence Studies Centre",
-      "schoolCode": "SADSC",
+      "schoolCode": "CAP",
+      "college": "ANU College of Asia and the Pacific",
       "level": "UGRD",
-      "terms": [
-        "First Semester"
+      "terms": [],
+      "conveners": [
+        "AsPr Amy King",
+        "AsPr Amy King"
       ],
-      "conveners": [],
-      "handbookUrl": "https://programsandcourses.anu.edu.au/course/stst2001",
-      "summary": "The ideas, concepts, and theories we use in International Security have overwhelmingly been developed through the study of Western historical cases. Yet key security challenges and practices in the Asia-Pacific region do not always accord with concepts derived in the West.",
-      "tags": [
-        "stst"
-      ],
+      "handbookUrl": "https://programsandcourses.anu.edu.au/course/STST2001",
       "reviewMetrics": [
         "Teaching quality",
         "Workload fairness",
         "Assessment design"
+      ],
+      "tags": [
+        "cap",
+        "pacific studies",
+        "asian studies"
       ]
     },
     {
-      "id": "STST2003",
+      "id": "stst2003",
       "type": "course",
       "code": "STST2003",
       "name": "Australia and Security in the Pacific Islands",
-      "college": "ANU College of Asia and the Pacific",
+      "summary": "The Pacific Islands region has long been of strategic importance to Australia, and Australia has played a significant role in addressing the security and development challenges in and to the region. The region faces non-traditional security challenges, including human security and the gendered dimensions thereof, climate change, environmental and resource security, transnational crime, and cybersecurity. Given the diversity of the region, these challenges affect Pacific Island states in different ways, and require varied responses.",
       "school": "Department of Pacific Affairs",
-      "schoolCode": "DOPA",
-      "level": "UGRD",
-      "terms": [
-        "First Semester"
-      ],
-      "conveners": [],
-      "handbookUrl": "https://programsandcourses.anu.edu.au/course/stst2003",
-      "summary": "The Pacific Islands region has long been of strategic importance to Australia, and Australia has played a significant role in addressing the security and development challenges in and to the region. The region faces non-traditional security challenges, including human security and the gendered dimensions thereof, climate change, environmental and resource...",
-      "tags": [
-        "stst"
-      ],
-      "reviewMetrics": [
-        "Teaching quality",
-        "Workload fairness",
-        "Assessment design"
-      ]
-    },
-    {
-      "id": "STST2020",
-      "type": "course",
-      "code": "STST2020",
-      "name": "Study tour: Southeast Asia's Security Choices",
+      "schoolCode": "CAP",
       "college": "ANU College of Asia and the Pacific",
-      "school": "Strategic and Defence Studies Centre",
-      "schoolCode": "SADSC",
       "level": "UGRD",
-      "terms": [
-        "See ANU course page"
+      "terms": [],
+      "conveners": [
+        "Dr Henrietta McNeill-Stowers",
+        "Dr Henrietta McNeill-Stowers"
       ],
-      "conveners": [],
-      "handbookUrl": "https://programsandcourses.anu.edu.au/course/stst2020",
-      "summary": "This mobility course will introduce students to the diverse security stances found in Southeast Asia, in particular three leading Southeast Asian states: Indonesia, Singapore and Thailand. Through meetings with experts and visits to key sites, they will encounter the complexity of Southeast Asian approaches to security, including the legacies of coloniali...",
-      "tags": [
-        "policy studies",
-        "political sciences",
-        "security studies",
-        "strategic studies"
-      ],
+      "handbookUrl": "https://programsandcourses.anu.edu.au/course/STST2003",
       "reviewMetrics": [
         "Teaching quality",
         "Workload fairness",
         "Assessment design"
+      ],
+      "tags": [
+        "cap",
+        "pacific studies",
+        "asian studies"
       ]
     },
     {
-      "id": "STST3002",
+      "id": "stst2005",
+      "type": "course",
+      "code": "STST2005",
+      "name": "Why Nations Fight: The Causes of International Conflict",
+      "summary": "Why do nations engage in international conflicts that are often costly and catastrophic? And what can be done to avoid these? This course dives into the complex factors that have fuelled wars throughout history and continue to threaten international security today.",
+      "school": "Strategic and Defence Studies Centre",
+      "schoolCode": "CAP",
+      "college": "ANU College of Asia and the Pacific",
+      "level": "UGRD",
+      "terms": [],
+      "conveners": [
+        "Dr Iain Henry",
+        "Dr Iain Henry"
+      ],
+      "handbookUrl": "https://programsandcourses.anu.edu.au/course/STST2005",
+      "reviewMetrics": [
+        "Teaching quality",
+        "Workload fairness",
+        "Assessment design"
+      ],
+      "tags": [
+        "cap",
+        "pacific studies",
+        "asian studies"
+      ]
+    },
+    {
+      "id": "stst3002",
       "type": "course",
       "code": "STST3002",
       "name": "Living with Giants: Australia's Security in a Contested Asia",
-      "college": "ANU College of Asia and the Pacific",
+      "summary": "The 2020s have seen the rise of numerous strategic problems for Australia. There are giant states in fierce competition, such as the United States and China, and emerging giants in India and Indonesia. There are also problems from below, such as climate change, artificial intelligence, cyber security, and terrorism.",
       "school": "Strategic and Defence Studies Centre",
-      "schoolCode": "SADSC",
+      "schoolCode": "CAP",
+      "college": "ANU College of Asia and the Pacific",
       "level": "UGRD",
-      "terms": [
-        "Second Semester",
-        "First Semester"
+      "terms": [],
+      "conveners": [
+        "Dr Andrew Carr",
+        "Dr Andrew Carr"
       ],
-      "conveners": [],
-      "handbookUrl": "https://programsandcourses.anu.edu.au/course/stst3002",
-      "summary": "The 2020s have seen the rise of numerous strategic problems for Australia. There are giant states in fierce competition, such as the United States and China, and emerging giants in India and Indonesia.",
-      "tags": [
-        "australian studies",
-        "policy studies",
-        "security studies"
-      ],
+      "handbookUrl": "https://programsandcourses.anu.edu.au/course/STST3002",
       "reviewMetrics": [
         "Teaching quality",
         "Workload fairness",
         "Assessment design"
+      ],
+      "tags": [
+        "cap",
+        "pacific studies",
+        "asian studies"
       ]
     },
     {
-      "id": "STST3003",
+      "id": "tetm1002",
       "type": "course",
-      "code": "STST3003",
-      "name": "Honeypots and Overcoats: Australian Intelligence in the World",
+      "code": "TETM1002",
+      "name": "Tetum 1",
+      "summary": "Tetum, the language of Timor-Leste, will allow you to engage with one of Australia’s closest neighbours. In this introductory course, through active engagement, students will acquire a vocabulary of approximately 1000 of the most frequently used words in Tetum. Students will learn the main grammar features of Tetum and learn how to pronounce its words accurately.",
+      "school": "School of Culture History and Language",
+      "schoolCode": "CHL",
       "college": "ANU College of Asia and the Pacific",
-      "school": "Strategic and Defence Studies Centre",
-      "schoolCode": "SADSC",
       "level": "UGRD",
-      "terms": [
-        "First Semester"
+      "terms": [],
+      "conveners": [
+        "Dr Darja Hoenigman",
+        "Dr Darja Hoenigman"
       ],
-      "conveners": [],
-      "handbookUrl": "https://programsandcourses.anu.edu.au/course/stst3003",
-      "summary": "This course provides a detailed investigation into the history, working and challenges experienced by Australia’s security and intelligence organisations. The course is designed to examine and contrast the varying roles and functions of the respective agencies as part of Australia’s national security apparatus in the context of its engagement in the Asia-...",
-      "tags": [
-        "australian studies",
-        "security studies",
-        "strategic studies"
-      ],
+      "handbookUrl": "https://programsandcourses.anu.edu.au/course/TETM1002",
       "reviewMetrics": [
         "Teaching quality",
         "Workload fairness",
         "Assessment design"
+      ],
+      "tags": [
+        "cap",
+        "chl",
+        "pacific studies",
+        "asian studies"
+      ]
+    },
+    {
+      "id": "tetm1003",
+      "type": "course",
+      "code": "TETM1003",
+      "name": "Tetum 2",
+      "summary": "In this course, through active engagement, students will be able to use an active vocabulary of about 2000 of the most frequently used words in Tetum. Students will build on the skills and knowledge learned in Tetum 1 and broaden their basic vocabulary and grammatical structures relevant to everyday conversations. Throughout the semester, students will engage in role-play conversations to learn how to use language appropriately in different social situations.",
+      "school": "School of Culture History and Language",
+      "schoolCode": "CHL",
+      "college": "ANU College of Asia and the Pacific",
+      "level": "UGRD",
+      "terms": [],
+      "conveners": [
+        "Dr Darja Hoenigman",
+        "Dr Darja Hoenigman"
+      ],
+      "handbookUrl": "https://programsandcourses.anu.edu.au/course/TETM1003",
+      "reviewMetrics": [
+        "Teaching quality",
+        "Workload fairness",
+        "Assessment design"
+      ],
+      "tags": [
+        "cap",
+        "chl",
+        "pacific studies",
+        "asian studies"
+      ]
+    },
+    {
+      "id": "tetm2004",
+      "type": "course",
+      "code": "TETM2004",
+      "name": "Tetum 3",
+      "summary": "In this course, with active engagement, students will be able to use a vocabulary of about 3000 of the most useful Tetum words. Students will build on the skills and knowledge learned in Tetum 2 and deepen their understanding of Tetum language and culture. Throughout the semester, students will engage in extensive role-play conversations to learn how to use language appropriately to different social situations.",
+      "school": "School of Culture History and Language",
+      "schoolCode": "CHL",
+      "college": "ANU College of Asia and the Pacific",
+      "level": "UGRD",
+      "terms": [],
+      "conveners": [
+        "Dr Darja Hoenigman",
+        "Dr Darja Hoenigman"
+      ],
+      "handbookUrl": "https://programsandcourses.anu.edu.au/course/TETM2004",
+      "reviewMetrics": [
+        "Teaching quality",
+        "Workload fairness",
+        "Assessment design"
+      ],
+      "tags": [
+        "cap",
+        "chl",
+        "pacific studies",
+        "asian studies"
+      ]
+    },
+    {
+      "id": "tetm2005",
+      "type": "course",
+      "code": "TETM2005",
+      "name": "Tetum 4",
+      "summary": "In this course, with active engagement students will be able to use active vocabulary of about 3500 of the most frequently used and useful Tetum words. Students will build on the skills and knowledge learned in Tetum 3 and develop a nuanced understanding of Tetum language and culture. Throughout the semester, students will engage in complex role-play conversations to learn how to use language appropriately to different social situations.",
+      "school": "School of Culture History and Language",
+      "schoolCode": "CHL",
+      "college": "ANU College of Asia and the Pacific",
+      "level": "UGRD",
+      "terms": [],
+      "conveners": [
+        "Dr Darja Hoenigman",
+        "Dr Darja Hoenigman"
+      ],
+      "handbookUrl": "https://programsandcourses.anu.edu.au/course/TETM2005",
+      "reviewMetrics": [
+        "Teaching quality",
+        "Workload fairness",
+        "Assessment design"
+      ],
+      "tags": [
+        "cap",
+        "chl",
+        "pacific studies",
+        "asian studies"
       ]
     }
   ],

@@ -23,6 +23,7 @@ const elements = {
   cbeTab: document.getElementById("cbe-tab"),
   lawTab: document.getElementById("law-tab"),
   cassTab: document.getElementById("cass-tab"),
+  capTab: document.getElementById("cap-tab"),
   coursesTab: document.getElementById("courses-tab"),
   professorsTab: document.getElementById("professors-tab"),
   searchInput: document.getElementById("search-input"),
@@ -83,6 +84,18 @@ function getCollegeForItem(item) {
   const college = `${item.college || ""}`.toLowerCase();
   const schoolCode = `${item.schoolCode || ""}`.toUpperCase();
   const schoolText = `${item.school || ""} ${item.schoolCode || ""}`.toLowerCase();
+  if (
+    college.includes("asia and the pacific") ||
+    schoolCode === "CAP" ||
+    schoolCode === "BELL" ||
+    schoolCode === "CHL" ||
+    schoolCode === "CIW" ||
+    schoolText.includes("asia pacific") ||
+    schoolText.includes("china in the world") ||
+    schoolText.includes("culture, history and language")
+  ) {
+    return "cap";
+  }
   if (college.includes("arts") || college.includes("social sciences") || college === "cass") {
     return "cass";
   }
@@ -186,8 +199,9 @@ function announceBundledCatalog() {
   const cbeCount = academics.filter((item) => getCollegeForItem(item) === "cbe").length;
   const lawCount = academics.filter((item) => getCollegeForItem(item) === "law").length;
   const cassCount = academics.filter((item) => getCollegeForItem(item) === "cass").length;
+  const capCount = academics.filter((item) => getCollegeForItem(item) === "cap").length;
   updateSyncStatus(
-    `Using fixed ANReview catalogue snapshot. ${courseCount} courses, ${cbeCount} CBE academics, ${lawCount} Law academics, and ${cassCount} CASS academics loaded instantly.`
+    `Using fixed ANReview catalogue snapshot. ${courseCount} courses, ${cbeCount} CBE academics, ${lawCount} Law academics, ${cassCount} CASS academics, and ${capCount} CAP academics loaded instantly.`
   );
 }
 
@@ -276,6 +290,7 @@ function syncCollegeTabs() {
   elements.cbeTab.classList.toggle("is-active", state.college === "cbe");
   elements.lawTab.classList.toggle("is-active", state.college === "law");
   elements.cassTab.classList.toggle("is-active", state.college === "cass");
+  elements.capTab.classList.toggle("is-active", state.college === "cap");
 }
 
 function syncTypeTabs() {
@@ -645,7 +660,7 @@ function bindFilters() {
     });
   });
 
-  [elements.allCollegesTab, elements.cbeTab, elements.lawTab, elements.cassTab].forEach((button) => {
+  [elements.allCollegesTab, elements.cbeTab, elements.lawTab, elements.cassTab, elements.capTab].forEach((button) => {
     button.addEventListener("click", () => {
       state.college = button.dataset.college;
       syncCollegeTabs();

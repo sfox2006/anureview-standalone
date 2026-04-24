@@ -171,6 +171,12 @@ def load_bundled_catalog_snapshot() -> dict | None:
         if (academic.get("college") or "").lower() in {"cass", "anu college of arts and social sciences"}
         or academic.get("schoolCode") == "CASS"
     )
+    cap_count = sum(
+        1
+        for academic in academics
+        if (academic.get("college") or "") == "ANU College of Asia and the Pacific"
+        or academic.get("schoolCode") in {"CAP", "BELL", "CHL", "CIW"}
+    )
     return {
         "version": CACHE_VERSION,
         "generatedAt": datetime.now().isoformat(timespec="seconds"),
@@ -181,6 +187,7 @@ def load_bundled_catalog_snapshot() -> dict | None:
             "cbe": cbe_count,
             "law": law_count,
             "cass": cass_count,
+            "cap": cap_count,
             "total": len(academics),
         },
     }
@@ -236,7 +243,7 @@ class AppHandler(SimpleHTTPRequestHandler):
                     {
                         "courses": [],
                         "academics": [],
-                        "counts": {"courses": 0, "cbe": 0, "law": 0, "total": 0},
+                        "counts": {"courses": 0, "cbe": 0, "law": 0, "cass": 0, "cap": 0, "total": 0},
                         "error": str(error),
                     },
                     status=503,
