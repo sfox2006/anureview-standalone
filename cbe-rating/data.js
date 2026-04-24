@@ -46,7 +46,7 @@ window.ANREVIEW_DATA = {
       "url": "https://cbe.anu.edu.au/about/staff-directory/"
     },
     {
-      "label": "ANU Law School: Our People",
+      "label": "law.anu.edu.au/about/our-people",
       "url": "https://law.anu.edu.au/about/our-people"
     },
     {
@@ -144,6 +144,66 @@ window.ANREVIEW_DATA = {
     {
       "label": "ciw.anu.edu.au/china-experts-anu",
       "url": "https://ciw.anu.edu.au/china-experts-anu"
+    },
+    {
+      "label": "programsandcourses.anu.edu.au/program/ALLB",
+      "url": "https://programsandcourses.anu.edu.au/program/ALLB"
+    },
+    {
+      "label": "programsandcourses.anu.edu.au/program/MJD",
+      "url": "https://programsandcourses.anu.edu.au/program/MJD"
+    },
+    {
+      "label": "programsandcourses.anu.edu.au/program/BPPOL",
+      "url": "https://programsandcourses.anu.edu.au/program/BPPOL"
+    },
+    {
+      "label": "programsandcourses.anu.edu.au/program/MPUPP",
+      "url": "https://programsandcourses.anu.edu.au/program/MPUPP"
+    },
+    {
+      "label": "programsandcourses.anu.edu.au/program/MREGG",
+      "url": "https://programsandcourses.anu.edu.au/program/MREGG"
+    },
+    {
+      "label": "programsandcourses.anu.edu.au/program/CREGOL",
+      "url": "https://programsandcourses.anu.edu.au/program/CREGOL"
+    },
+    {
+      "label": "programsandcourses.anu.edu.au/program/MNSEP",
+      "url": "https://programsandcourses.anu.edu.au/program/MNSEP"
+    },
+    {
+      "label": "programsandcourses.anu.edu.au/program/CNSEP",
+      "url": "https://programsandcourses.anu.edu.au/program/CNSEP"
+    },
+    {
+      "label": "programsandcourses.anu.edu.au/program/MPUBH",
+      "url": "https://programsandcourses.anu.edu.au/program/MPUBH"
+    },
+    {
+      "label": "programsandcourses.anu.edu.au/program/VPUBH",
+      "url": "https://programsandcourses.anu.edu.au/program/VPUBH"
+    },
+    {
+      "label": "programsandcourses.anu.edu.au/program/CPUBH",
+      "url": "https://programsandcourses.anu.edu.au/program/CPUBH"
+    },
+    {
+      "label": "programsandcourses.anu.edu.au/program/DPUBH",
+      "url": "https://programsandcourses.anu.edu.au/program/DPUBH"
+    },
+    {
+      "label": "crawford.anu.edu.au/people",
+      "url": "https://crawford.anu.edu.au/people"
+    },
+    {
+      "label": "regnet.anu.edu.au/people-0",
+      "url": "https://regnet.anu.edu.au/people-0"
+    },
+    {
+      "label": "nceph.anu.edu.au/people/profile-directory",
+      "url": "https://nceph.anu.edu.au/people/profile-directory"
     }
   ],
   "academics": [
@@ -171,6 +231,75 @@ window.ANREVIEW_DATA = {
       ]
     },
     {
+      "id": "clgp-craw-andrew-kennedy",
+      "type": "academic",
+      "name": "A/Prof Andrew Kennedy",
+      "position": "Associate Professor",
+      "focus": "International politics Science, technology, and innovation China, India, United States",
+      "school": "Crawford School of Public Policy",
+      "schoolCode": "CRAW",
+      "college": "ANU College of Law, Governance and Policy",
+      "profileUrl": "https://crawford.anu.edu.au/people/andrew-kennedy",
+      "email": "",
+      "office": "",
+      "linkedCourses": [],
+      "reviewMetrics": [
+        "Clarity",
+        "Support",
+        "Engagement"
+      ],
+      "tags": [
+        "crawford",
+        "public policy"
+      ]
+    },
+    {
+      "id": "clgp-craw-elise-klein",
+      "type": "academic",
+      "name": "A/Prof Elise Klein",
+      "position": "Associate Professor",
+      "focus": "POLICY AND ADMINISTRATION Aboriginal and Torres Strait Islander Policy Economic Development Policy",
+      "school": "Crawford School of Public Policy",
+      "schoolCode": "CRAW",
+      "college": "ANU College of Law, Governance and Policy",
+      "profileUrl": "https://crawford.anu.edu.au/people/elise-klein",
+      "email": "",
+      "office": "",
+      "linkedCourses": [],
+      "reviewMetrics": [
+        "Clarity",
+        "Support",
+        "Engagement"
+      ],
+      "tags": [
+        "crawford",
+        "public policy"
+      ]
+    },
+    {
+      "id": "clgp-craw-firman-kartaadipoetra",
+      "type": "academic",
+      "name": "A/Prof Firman Kartaadipoetra",
+      "position": "Associate Professor",
+      "focus": "Agricultural Economics Labour Economics Impact Evaluation",
+      "school": "Crawford School of Public Policy",
+      "schoolCode": "CRAW",
+      "college": "ANU College of Law, Governance and Policy",
+      "profileUrl": "https://crawford.anu.edu.au/people/firman-kartaadipoetra",
+      "email": "",
+      "office": "",
+      "linkedCourses": [],
+      "reviewMetrics": [
+        "Clarity",
+        "Support",
+        "Engagement"
+      ],
+      "tags": [
+        "crawford",
+        "public policy"
+      ]
+    },
+    {
       "id": "cap-bell-964ff14e-ac62-4966-b112-a743f70f3c01",
       "type": "academic",
       "name": "A/Prof Garth Pratten",
@@ -191,6 +320,75 @@ window.ANREVIEW_DATA = {
       "tags": [
         "bell",
         "asia-pacific affairs"
+      ]
+    },
+    {
+      "id": "clgp-craw-grant-walton",
+      "type": "academic",
+      "name": "A/Prof Grant Walton",
+      "position": "Associate Professor",
+      "focus": "Development Policy Centre Anti-Corruption Governance Papua New Guinea",
+      "school": "Crawford School of Public Policy",
+      "schoolCode": "CRAW",
+      "college": "ANU College of Law, Governance and Policy",
+      "profileUrl": "https://crawford.anu.edu.au/people/grant-walton",
+      "email": "",
+      "office": "",
+      "linkedCourses": [],
+      "reviewMetrics": [
+        "Clarity",
+        "Support",
+        "Engagement"
+      ],
+      "tags": [
+        "crawford",
+        "public policy"
+      ]
+    },
+    {
+      "id": "clgp-craw-hoa-nguyen",
+      "type": "academic",
+      "name": "A/Prof Hoa Nguyen",
+      "position": "Associate Professor",
+      "focus": "and Higher Degree Research Director ECONOMETRICS APPLIED ECONOMICS",
+      "school": "Crawford School of Public Policy",
+      "schoolCode": "CRAW",
+      "college": "ANU College of Law, Governance and Policy",
+      "profileUrl": "https://crawford.anu.edu.au/people/hoa-nguyen",
+      "email": "",
+      "office": "",
+      "linkedCourses": [],
+      "reviewMetrics": [
+        "Clarity",
+        "Support",
+        "Engagement"
+      ],
+      "tags": [
+        "crawford",
+        "public policy"
+      ]
+    },
+    {
+      "id": "clgp-craw-keith-barney",
+      "type": "academic",
+      "name": "A/Prof Keith Barney",
+      "position": "Associate Professor",
+      "focus": "political ecology resource geography agrarian studies",
+      "school": "Crawford School of Public Policy",
+      "schoolCode": "CRAW",
+      "college": "ANU College of Law, Governance and Policy",
+      "profileUrl": "https://crawford.anu.edu.au/people/keith-barney",
+      "email": "",
+      "office": "",
+      "linkedCourses": [],
+      "reviewMetrics": [
+        "Clarity",
+        "Support",
+        "Engagement"
+      ],
+      "tags": [
+        "crawford",
+        "public policy"
       ]
     },
     {
@@ -217,6 +415,144 @@ window.ANREVIEW_DATA = {
       ]
     },
     {
+      "id": "clgp-craw-mark-chou",
+      "type": "academic",
+      "name": "A/Prof Mark Chou",
+      "position": "Associate Professor",
+      "focus": "Political Theory and Political Philosophy Citizenship Urban Policy",
+      "school": "Crawford School of Public Policy",
+      "schoolCode": "CRAW",
+      "college": "ANU College of Law, Governance and Policy",
+      "profileUrl": "https://crawford.anu.edu.au/people/mark-chou",
+      "email": "",
+      "office": "",
+      "linkedCourses": [],
+      "reviewMetrics": [
+        "Clarity",
+        "Support",
+        "Engagement"
+      ],
+      "tags": [
+        "crawford",
+        "public policy"
+      ]
+    },
+    {
+      "id": "clgp-craw-michael-di-francesco",
+      "type": "academic",
+      "name": "A/Prof Michael Di Francesco",
+      "position": "Associate Professor",
+      "focus": "Public Administration Public Policy",
+      "school": "Crawford School of Public Policy",
+      "schoolCode": "CRAW",
+      "college": "ANU College of Law, Governance and Policy",
+      "profileUrl": "https://crawford.anu.edu.au/people/michael-di-francesco",
+      "email": "",
+      "office": "",
+      "linkedCourses": [],
+      "reviewMetrics": [
+        "Clarity",
+        "Support",
+        "Engagement"
+      ],
+      "tags": [
+        "crawford",
+        "public policy"
+      ]
+    },
+    {
+      "id": "clgp-craw-rebecca-colvin",
+      "type": "academic",
+      "name": "A/Prof Rebecca Colvin",
+      "position": "Associate Professor",
+      "focus": "& DECRA Fellow Social and Community Psychology Environment Policy Environmental Sociology",
+      "school": "Crawford School of Public Policy",
+      "schoolCode": "CRAW",
+      "college": "ANU College of Law, Governance and Policy",
+      "profileUrl": "https://crawford.anu.edu.au/people/rebecca-colvin",
+      "email": "",
+      "office": "",
+      "linkedCourses": [],
+      "reviewMetrics": [
+        "Clarity",
+        "Support",
+        "Engagement"
+      ],
+      "tags": [
+        "crawford",
+        "public policy"
+      ]
+    },
+    {
+      "id": "clgp-craw-sarah-milne",
+      "type": "academic",
+      "name": "A/Prof Sarah Milne",
+      "position": "Associate Professor",
+      "focus": "ANTHROPOLOGY HUMAN GEOGRAPHY",
+      "school": "Crawford School of Public Policy",
+      "schoolCode": "CRAW",
+      "college": "ANU College of Law, Governance and Policy",
+      "profileUrl": "https://crawford.anu.edu.au/people/sarah-milne",
+      "email": "",
+      "office": "",
+      "linkedCourses": [],
+      "reviewMetrics": [
+        "Clarity",
+        "Support",
+        "Engagement"
+      ],
+      "tags": [
+        "crawford",
+        "public policy"
+      ]
+    },
+    {
+      "id": "clgp-craw-siobhan-mcdonnell",
+      "type": "academic",
+      "name": "A/Prof Siobhan McDonnell",
+      "position": "Associate Professor",
+      "focus": "Climate change impacts in Indigenous people in the Pacific and Australia Relocation and resettlement issues Loss and damage issues",
+      "school": "Crawford School of Public Policy",
+      "schoolCode": "CRAW",
+      "college": "ANU College of Law, Governance and Policy",
+      "profileUrl": "https://crawford.anu.edu.au/people/siobhan-mcdonnell",
+      "email": "",
+      "office": "",
+      "linkedCourses": [],
+      "reviewMetrics": [
+        "Clarity",
+        "Support",
+        "Engagement"
+      ],
+      "tags": [
+        "crawford",
+        "public policy"
+      ]
+    },
+    {
+      "id": "clgp-craw-sonia-akter",
+      "type": "academic",
+      "name": "A/Prof Sonia Akter",
+      "position": "Associate Professor",
+      "focus": "Environment and Resource Economics Agricultural Economics Bangladesh",
+      "school": "Crawford School of Public Policy",
+      "schoolCode": "CRAW",
+      "college": "ANU College of Law, Governance and Policy",
+      "profileUrl": "https://crawford.anu.edu.au/people/sonia-akter",
+      "email": "",
+      "office": "",
+      "linkedCourses": [],
+      "reviewMetrics": [
+        "Clarity",
+        "Support",
+        "Engagement"
+      ],
+      "tags": [
+        "crawford",
+        "public policy"
+      ]
+    },
+    {
       "id": "cap-bell-sonia-palmieri",
       "type": "academic",
       "name": "A/Prof Sonia Palmieri",
@@ -237,6 +573,29 @@ window.ANREVIEW_DATA = {
       "tags": [
         "bell",
         "asia-pacific affairs"
+      ]
+    },
+    {
+      "id": "clgp-craw-yixiao-zhou",
+      "type": "academic",
+      "name": "A/Prof Yixiao Zhou",
+      "position": "Associate Professor",
+      "focus": "and Director, China Economy Program Macroeconomics (incl. Monetary and Fiscal Theory) International Economics and International Finance Economics of innovation",
+      "school": "Crawford School of Public Policy",
+      "schoolCode": "CRAW",
+      "college": "ANU College of Law, Governance and Policy",
+      "profileUrl": "https://crawford.anu.edu.au/people/yixiao-zhou",
+      "email": "",
+      "office": "",
+      "linkedCourses": [],
+      "reviewMetrics": [
+        "Clarity",
+        "Support",
+        "Engagement"
+      ],
+      "tags": [
+        "crawford",
+        "public policy"
       ]
     },
     {
@@ -286,6 +645,29 @@ window.ANREVIEW_DATA = {
       ]
     },
     {
+      "id": "clgp-regn-alam-talib",
+      "type": "academic",
+      "name": "Alam Talib Balzan PhD",
+      "position": "Fellow",
+      "focus": "Regulation and governance",
+      "school": "School of Regulation and Global Governance",
+      "schoolCode": "REGN",
+      "college": "ANU College of Law, Governance and Policy",
+      "profileUrl": "https://regnet.anu.edu.au/people/alam-talib",
+      "email": "",
+      "office": "",
+      "linkedCourses": [],
+      "reviewMetrics": [
+        "Clarity",
+        "Support",
+        "Engagement"
+      ],
+      "tags": [
+        "regnet",
+        "regulation and governance"
+      ]
+    },
+    {
       "id": "alex-tietge",
       "type": "academic",
       "name": "Alex Tietge",
@@ -305,6 +687,29 @@ window.ANREVIEW_DATA = {
         "Clarity",
         "Support",
         "Engagement"
+      ]
+    },
+    {
+      "id": "clgp-regn-ali-kaba",
+      "type": "academic",
+      "name": "Ali Kaba Balzan PhD",
+      "position": "Fellow",
+      "focus": "Regulation and governance",
+      "school": "School of Regulation and Global Governance",
+      "schoolCode": "REGN",
+      "college": "ANU College of Law, Governance and Policy",
+      "profileUrl": "https://regnet.anu.edu.au/people/ali-kaba",
+      "email": "",
+      "office": "",
+      "linkedCourses": [],
+      "reviewMetrics": [
+        "Clarity",
+        "Support",
+        "Engagement"
+      ],
+      "tags": [
+        "regnet",
+        "regulation and governance"
       ]
     },
     {
@@ -351,6 +756,29 @@ window.ANREVIEW_DATA = {
         "Clarity",
         "Support",
         "Engagement"
+      ]
+    },
+    {
+      "id": "clgp-regn-j-amina-bitiyong-zemo",
+      "type": "academic",
+      "name": "Amina Bitiyong Balzan PhD",
+      "position": "Fellow",
+      "focus": "Regulation and governance",
+      "school": "School of Regulation and Global Governance",
+      "schoolCode": "REGN",
+      "college": "ANU College of Law, Governance and Policy",
+      "profileUrl": "https://regnet.anu.edu.au/people/j-amina-bitiyong-zemo",
+      "email": "",
+      "office": "",
+      "linkedCourses": [],
+      "reviewMetrics": [
+        "Clarity",
+        "Support",
+        "Engagement"
+      ],
+      "tags": [
+        "regnet",
+        "regulation and governance"
       ]
     },
     {
@@ -1134,6 +1562,29 @@ window.ANREVIEW_DATA = {
         "Clarity",
         "Support",
         "Engagement"
+      ]
+    },
+    {
+      "id": "clgp-craw-ben-ascione",
+      "type": "academic",
+      "name": "Assistant",
+      "position": "Professor",
+      "focus": "Ben Ascione Fellow POLITICAL SCIENCE International Relations Security Studies",
+      "school": "Crawford School of Public Policy",
+      "schoolCode": "CRAW",
+      "college": "ANU College of Law, Governance and Policy",
+      "profileUrl": "https://crawford.anu.edu.au/people/ben-ascione",
+      "email": "",
+      "office": "",
+      "linkedCourses": [],
+      "reviewMetrics": [
+        "Clarity",
+        "Support",
+        "Engagement"
+      ],
+      "tags": [
+        "crawford",
+        "public policy"
       ]
     },
     {
@@ -3191,6 +3642,75 @@ window.ANREVIEW_DATA = {
       ]
     },
     {
+      "id": "clgp-craw-changchen-ge",
+      "type": "academic",
+      "name": "Changchen Ge Postdoctoral",
+      "position": "Research Fellow",
+      "focus": "at Monash University",
+      "school": "Crawford School of Public Policy",
+      "schoolCode": "CRAW",
+      "college": "ANU College of Law, Governance and Policy",
+      "profileUrl": "https://crawford.anu.edu.au/people/changchen-ge",
+      "email": "",
+      "office": "",
+      "linkedCourses": [],
+      "reviewMetrics": [
+        "Clarity",
+        "Support",
+        "Engagement"
+      ],
+      "tags": [
+        "crawford",
+        "public policy"
+      ]
+    },
+    {
+      "id": "clgp-regn-charles-ekpo",
+      "type": "academic",
+      "name": "Charles Ekpo Balzan PhD",
+      "position": "Fellow",
+      "focus": "Regulation and governance",
+      "school": "School of Regulation and Global Governance",
+      "schoolCode": "REGN",
+      "college": "ANU College of Law, Governance and Policy",
+      "profileUrl": "https://regnet.anu.edu.au/people/charles-ekpo",
+      "email": "",
+      "office": "",
+      "linkedCourses": [],
+      "reviewMetrics": [
+        "Clarity",
+        "Support",
+        "Engagement"
+      ],
+      "tags": [
+        "regnet",
+        "regulation and governance"
+      ]
+    },
+    {
+      "id": "clgp-regn-chikaodili-orakwue",
+      "type": "academic",
+      "name": "Chikaodili Orakwue Balzan PhD",
+      "position": "Fellow",
+      "focus": "Regulation and governance",
+      "school": "School of Regulation and Global Governance",
+      "schoolCode": "REGN",
+      "college": "ANU College of Law, Governance and Policy",
+      "profileUrl": "https://regnet.anu.edu.au/people/chikaodili-orakwue",
+      "email": "",
+      "office": "",
+      "linkedCourses": [],
+      "reviewMetrics": [
+        "Clarity",
+        "Support",
+        "Engagement"
+      ],
+      "tags": [
+        "regnet",
+        "regulation and governance"
+      ]
+    },
+    {
       "id": "christopher-ward",
       "type": "academic",
       "name": "Christopher Ward",
@@ -3234,6 +3754,52 @@ window.ANREVIEW_DATA = {
         "Clarity",
         "Support",
         "Engagement"
+      ]
+    },
+    {
+      "id": "clgp-regn-damola-adeniran",
+      "type": "academic",
+      "name": "Damola Adeniran Balzan PhD",
+      "position": "Fellow",
+      "focus": "Regulation and governance",
+      "school": "School of Regulation and Global Governance",
+      "schoolCode": "REGN",
+      "college": "ANU College of Law, Governance and Policy",
+      "profileUrl": "https://regnet.anu.edu.au/people/damola-adeniran",
+      "email": "",
+      "office": "",
+      "linkedCourses": [],
+      "reviewMetrics": [
+        "Clarity",
+        "Support",
+        "Engagement"
+      ],
+      "tags": [
+        "regnet",
+        "regulation and governance"
+      ]
+    },
+    {
+      "id": "clgp-regn-daniel-yilma",
+      "type": "academic",
+      "name": "Daniel Yilma Balzan PhD",
+      "position": "Fellow",
+      "focus": "Regulation and governance",
+      "school": "School of Regulation and Global Governance",
+      "schoolCode": "REGN",
+      "college": "ANU College of Law, Governance and Policy",
+      "profileUrl": "https://regnet.anu.edu.au/people/daniel-yilma",
+      "email": "",
+      "office": "",
+      "linkedCourses": [],
+      "reviewMetrics": [
+        "Clarity",
+        "Support",
+        "Engagement"
+      ],
+      "tags": [
+        "regnet",
+        "regulation and governance"
       ]
     },
     {
@@ -3395,6 +3961,29 @@ window.ANREVIEW_DATA = {
       "tags": [
         "ciw",
         "china studies"
+      ]
+    },
+    {
+      "id": "clgp-craw-renee-mckibbin",
+      "type": "academic",
+      "name": "Distinguished Prof Renee McKibbin",
+      "position": "Distinguished Professor",
+      "focus": "Financial Economics Macroeconomics (incl. Monetary and Fiscal Theory) Time-Series Analysis",
+      "school": "Crawford School of Public Policy",
+      "schoolCode": "CRAW",
+      "college": "ANU College of Law, Governance and Policy",
+      "profileUrl": "https://crawford.anu.edu.au/people/renee-mckibbin",
+      "email": "",
+      "office": "",
+      "linkedCourses": [],
+      "reviewMetrics": [
+        "Clarity",
+        "Support",
+        "Engagement"
+      ],
+      "tags": [
+        "crawford",
+        "public policy"
       ]
     },
     {
@@ -3865,6 +4454,29 @@ window.ANREVIEW_DATA = {
       ]
     },
     {
+      "id": "clgp-regn-amy-carrad",
+      "type": "academic",
+      "name": "Dr Amy Carrad Research",
+      "position": "Dr",
+      "focus": "Officer",
+      "school": "School of Regulation and Global Governance",
+      "schoolCode": "REGN",
+      "college": "ANU College of Law, Governance and Policy",
+      "profileUrl": "https://regnet.anu.edu.au/people/amy-carrad",
+      "email": "",
+      "office": "",
+      "linkedCourses": [],
+      "reviewMetrics": [
+        "Clarity",
+        "Support",
+        "Engagement"
+      ],
+      "tags": [
+        "regnet",
+        "regulation and governance"
+      ]
+    },
+    {
       "id": "anas-iqtait",
       "type": "academic",
       "name": "Dr Anas Iqtait",
@@ -3957,6 +4569,29 @@ window.ANREVIEW_DATA = {
         "Clarity",
         "Support",
         "Engagement"
+      ]
+    },
+    {
+      "id": "clgp-craw-andrew-levidis",
+      "type": "academic",
+      "name": "Dr Andrew Levidis",
+      "position": "Research Fellow",
+      "focus": "History of empires, imperialism and colonialism Asian History Global and world history",
+      "school": "Crawford School of Public Policy",
+      "schoolCode": "CRAW",
+      "college": "ANU College of Law, Governance and Policy",
+      "profileUrl": "https://crawford.anu.edu.au/people/andrew-levidis",
+      "email": "",
+      "office": "",
+      "linkedCourses": [],
+      "reviewMetrics": [
+        "Clarity",
+        "Support",
+        "Engagement"
+      ],
+      "tags": [
+        "crawford",
+        "public policy"
       ]
     },
     {
@@ -4075,6 +4710,29 @@ window.ANREVIEW_DATA = {
         "Clarity",
         "Support",
         "Engagement"
+      ]
+    },
+    {
+      "id": "clgp-craw-annabel-dulhunty",
+      "type": "academic",
+      "name": "Dr Annabel Dulhunty",
+      "position": "Senior Lecturer",
+      "focus": "Public policy",
+      "school": "Crawford School of Public Policy",
+      "schoolCode": "CRAW",
+      "college": "ANU College of Law, Governance and Policy",
+      "profileUrl": "https://crawford.anu.edu.au/people/annabel-dulhunty",
+      "email": "",
+      "office": "",
+      "linkedCourses": [],
+      "reviewMetrics": [
+        "Clarity",
+        "Support",
+        "Engagement"
+      ],
+      "tags": [
+        "crawford",
+        "public policy"
       ]
     },
     {
@@ -4539,6 +5197,29 @@ window.ANREVIEW_DATA = {
       ]
     },
     {
+      "id": "clgp-craw-cadhla-o-sullivan",
+      "type": "academic",
+      "name": "Dr Cadhla O'Sullivan",
+      "position": "Research Fellow",
+      "focus": "Qualitative participatory research methods and methodology Children’s human rights and justice issues Public Policy",
+      "school": "Crawford School of Public Policy",
+      "schoolCode": "CRAW",
+      "college": "ANU College of Law, Governance and Policy",
+      "profileUrl": "https://crawford.anu.edu.au/people/cadhla-o-sullivan",
+      "email": "",
+      "office": "",
+      "linkedCourses": [],
+      "reviewMetrics": [
+        "Clarity",
+        "Support",
+        "Engagement"
+      ],
+      "tags": [
+        "crawford",
+        "public policy"
+      ]
+    },
+    {
       "id": "cagri-kumru",
       "type": "academic",
       "name": "Dr Cagri Kumru",
@@ -4558,6 +5239,29 @@ window.ANREVIEW_DATA = {
         "Clarity",
         "Support",
         "Engagement"
+      ]
+    },
+    {
+      "id": "clgp-craw-cameron-hill",
+      "type": "academic",
+      "name": "Dr Cameron Hill Senior",
+      "position": "Dr",
+      "focus": "Research Officer, Development Policy Centre",
+      "school": "Crawford School of Public Policy",
+      "schoolCode": "CRAW",
+      "college": "ANU College of Law, Governance and Policy",
+      "profileUrl": "https://crawford.anu.edu.au/people/cameron-hill",
+      "email": "",
+      "office": "",
+      "linkedCourses": [],
+      "reviewMetrics": [
+        "Clarity",
+        "Support",
+        "Engagement"
+      ],
+      "tags": [
+        "crawford",
+        "public policy"
       ]
     },
     {
@@ -4678,6 +5382,29 @@ window.ANREVIEW_DATA = {
       ]
     },
     {
+      "id": "clgp-craw-charlotte-bedford",
+      "type": "academic",
+      "name": "Dr Charlotte Bedford",
+      "position": "Research Fellow",
+      "focus": "Development Policy Centre Human migration and mobility Migration, work and employment HUMAN GEOGRAPHY",
+      "school": "Crawford School of Public Policy",
+      "schoolCode": "CRAW",
+      "college": "ANU College of Law, Governance and Policy",
+      "profileUrl": "https://crawford.anu.edu.au/people/charlotte-bedford",
+      "email": "",
+      "office": "",
+      "linkedCourses": [],
+      "reviewMetrics": [
+        "Clarity",
+        "Support",
+        "Engagement"
+      ],
+      "tags": [
+        "crawford",
+        "public policy"
+      ]
+    },
+    {
       "id": "cap-bell-8e4f7718-3d62-4e0c-add4-70d6163ced1f",
       "type": "academic",
       "name": "Dr Charlotte Grech-Madin",
@@ -4792,6 +5519,29 @@ window.ANREVIEW_DATA = {
         "Clarity",
         "Support",
         "Engagement"
+      ]
+    },
+    {
+      "id": "clgp-craw-christina-griffin",
+      "type": "academic",
+      "name": "Dr Christina Griffin",
+      "position": "Senior Lecturer",
+      "focus": "Qualitative human geography Natural hazards and climate change adaptation Agrarian change",
+      "school": "Crawford School of Public Policy",
+      "schoolCode": "CRAW",
+      "college": "ANU College of Law, Governance and Policy",
+      "profileUrl": "https://crawford.anu.edu.au/people/christina-griffin",
+      "email": "",
+      "office": "",
+      "linkedCourses": [],
+      "reviewMetrics": [
+        "Clarity",
+        "Support",
+        "Engagement"
+      ],
+      "tags": [
+        "crawford",
+        "public policy"
       ]
     },
     {
@@ -5186,6 +5936,29 @@ window.ANREVIEW_DATA = {
       ]
     },
     {
+      "id": "clgp-craw-dominic-meagher",
+      "type": "academic",
+      "name": "Dr Dominic Meagher",
+      "position": "Research Fellow",
+      "focus": "China's political economy Climate and energy policy Australian politics and public policy",
+      "school": "Crawford School of Public Policy",
+      "schoolCode": "CRAW",
+      "college": "ANU College of Law, Governance and Policy",
+      "profileUrl": "https://crawford.anu.edu.au/people/dominic-meagher",
+      "email": "",
+      "office": "",
+      "linkedCourses": [],
+      "reviewMetrics": [
+        "Clarity",
+        "Support",
+        "Engagement"
+      ],
+      "tags": [
+        "crawford",
+        "public policy"
+      ]
+    },
+    {
       "id": "dongwook-kim",
       "type": "academic",
       "name": "Dr Dongwook Kim",
@@ -5255,6 +6028,29 @@ window.ANREVIEW_DATA = {
       ]
     },
     {
+      "id": "clgp-regn-elena-escalante-block",
+      "type": "academic",
+      "name": "Dr Elena Escalante Block HDR Convenor/Braithwaite",
+      "position": "Research Fellow",
+      "focus": "EU Politics EU-Australia relations Regulation and Governance",
+      "school": "School of Regulation and Global Governance",
+      "schoolCode": "REGN",
+      "college": "ANU College of Law, Governance and Policy",
+      "profileUrl": "https://regnet.anu.edu.au/people/elena-escalante-block",
+      "email": "",
+      "office": "",
+      "linkedCourses": [],
+      "reviewMetrics": [
+        "Clarity",
+        "Support",
+        "Engagement"
+      ],
+      "tags": [
+        "regnet",
+        "regulation and governance"
+      ]
+    },
+    {
       "id": "elisa-decourcy",
       "type": "academic",
       "name": "Dr Elisa deCourcy",
@@ -5298,6 +6094,29 @@ window.ANREVIEW_DATA = {
       "tags": [
         "chl",
         "asia-pacific"
+      ]
+    },
+    {
+      "id": "clgp-craw-emerson-sanchez",
+      "type": "academic",
+      "name": "Dr Emerson Sanchez",
+      "position": "Senior Lecturer",
+      "focus": "Environmental Policy Risk Policy Deliberative Democracy",
+      "school": "Crawford School of Public Policy",
+      "schoolCode": "CRAW",
+      "college": "ANU College of Law, Governance and Policy",
+      "profileUrl": "https://crawford.anu.edu.au/people/emerson-sanchez",
+      "email": "",
+      "office": "",
+      "linkedCourses": [],
+      "reviewMetrics": [
+        "Clarity",
+        "Support",
+        "Engagement"
+      ],
+      "tags": [
+        "crawford",
+        "public policy"
       ]
     },
     {
@@ -5834,6 +6653,29 @@ window.ANREVIEW_DATA = {
       ]
     },
     {
+      "id": "clgp-craw-hayley-henderson",
+      "type": "academic",
+      "name": "Dr Hayley Henderson",
+      "position": "Senior Lecturer",
+      "focus": "URBAN AND REGIONAL PLANNING Blue Green Infrastructure Comparative Government and Politics",
+      "school": "Crawford School of Public Policy",
+      "schoolCode": "CRAW",
+      "college": "ANU College of Law, Governance and Policy",
+      "profileUrl": "https://crawford.anu.edu.au/people/hayley-henderson",
+      "email": "",
+      "office": "",
+      "linkedCourses": [],
+      "reviewMetrics": [
+        "Clarity",
+        "Support",
+        "Engagement"
+      ],
+      "tags": [
+        "crawford",
+        "public policy"
+      ]
+    },
+    {
       "id": "helen-taylor",
       "type": "academic",
       "name": "Dr Helen Taylor",
@@ -5903,6 +6745,29 @@ window.ANREVIEW_DATA = {
       ]
     },
     {
+      "id": "clgp-craw-hiroshi-matsushima",
+      "type": "academic",
+      "name": "Dr Hiroshi Matsushima",
+      "position": "Research Fellow",
+      "focus": "Environment and energy policy Environment and Resource Economics Cost-Benefit Analysis",
+      "school": "Crawford School of Public Policy",
+      "schoolCode": "CRAW",
+      "college": "ANU College of Law, Governance and Policy",
+      "profileUrl": "https://crawford.anu.edu.au/people/hiroshi-matsushima",
+      "email": "",
+      "office": "",
+      "linkedCourses": [],
+      "reviewMetrics": [
+        "Clarity",
+        "Support",
+        "Engagement"
+      ],
+      "tags": [
+        "crawford",
+        "public policy"
+      ]
+    },
+    {
       "id": "hongbo-guo",
       "type": "academic",
       "name": "Dr Hongbo Guo",
@@ -5922,6 +6787,29 @@ window.ANREVIEW_DATA = {
         "Clarity",
         "Support",
         "Engagement"
+      ]
+    },
+    {
+      "id": "clgp-regn-hridesh-gajurel-0",
+      "type": "academic",
+      "name": "Dr Hridesh Gajurel",
+      "position": "Research Fellow",
+      "focus": "Political economy Historical institutionalism Comparative capitalism",
+      "school": "School of Regulation and Global Governance",
+      "schoolCode": "REGN",
+      "college": "ANU College of Law, Governance and Policy",
+      "profileUrl": "https://regnet.anu.edu.au/people/hridesh-gajurel-0",
+      "email": "",
+      "office": "",
+      "linkedCourses": [],
+      "reviewMetrics": [
+        "Clarity",
+        "Support",
+        "Engagement"
+      ],
+      "tags": [
+        "regnet",
+        "regulation and governance"
       ]
     },
     {
@@ -5991,6 +6879,29 @@ window.ANREVIEW_DATA = {
       "tags": [
         "bell",
         "asia-pacific affairs"
+      ]
+    },
+    {
+      "id": "clgp-regn-a8dce18f-2320-4c4e-8872-1192b7708948",
+      "type": "academic",
+      "name": "Dr Ibi Losoncz",
+      "position": "Research Fellow",
+      "focus": "Human migration and mobility Crime, violence and justice Compliance, defiance and enforcement",
+      "school": "School of Regulation and Global Governance",
+      "schoolCode": "REGN",
+      "college": "ANU College of Law, Governance and Policy",
+      "profileUrl": "https://researchportalplus.anu.edu.au/en/persons/a8dce18f-2320-4c4e-8872-1192b7708948",
+      "email": "",
+      "office": "",
+      "linkedCourses": [],
+      "reviewMetrics": [
+        "Clarity",
+        "Support",
+        "Engagement"
+      ],
+      "tags": [
+        "regnet",
+        "regulation and governance"
       ]
     },
     {
@@ -6224,6 +7135,29 @@ window.ANREVIEW_DATA = {
       ]
     },
     {
+      "id": "clgp-regn-33ac0af0-0cf9-44d4-b069-d6c62c2e7dd3",
+      "type": "academic",
+      "name": "Dr Jarrett Blaustein Climate",
+      "position": "Dr",
+      "focus": "change and energy transitions Police Administration, Procedures and Practice Complexity, risk and resilience",
+      "school": "School of Regulation and Global Governance",
+      "schoolCode": "REGN",
+      "college": "ANU College of Law, Governance and Policy",
+      "profileUrl": "https://researchportalplus.anu.edu.au/en/persons/33ac0af0-0cf9-44d4-b069-d6c62c2e7dd3",
+      "email": "",
+      "office": "",
+      "linkedCourses": [],
+      "reviewMetrics": [
+        "Clarity",
+        "Support",
+        "Engagement"
+      ],
+      "tags": [
+        "regnet",
+        "regulation and governance"
+      ]
+    },
+    {
       "id": "jeffrey-sarmiento",
       "type": "academic",
       "name": "Dr Jeffrey Sarmiento",
@@ -6270,6 +7204,29 @@ window.ANREVIEW_DATA = {
       ]
     },
     {
+      "id": "clgp-regn-8c52cacc-9b80-4856-b149-40e8fb1087a7",
+      "type": "academic",
+      "name": "Dr Jenna Harb Global",
+      "position": "Dr",
+      "focus": "governance and regulatory institutions Human migration and mobility Regulation and Governance",
+      "school": "School of Regulation and Global Governance",
+      "schoolCode": "REGN",
+      "college": "ANU College of Law, Governance and Policy",
+      "profileUrl": "https://researchportalplus.anu.edu.au/en/persons/8c52cacc-9b80-4856-b149-40e8fb1087a7",
+      "email": "",
+      "office": "",
+      "linkedCourses": [],
+      "reviewMetrics": [
+        "Clarity",
+        "Support",
+        "Engagement"
+      ],
+      "tags": [
+        "regnet",
+        "regulation and governance"
+      ]
+    },
+    {
       "id": "jessie-moritz",
       "type": "academic",
       "name": "Dr Jessie Moritz",
@@ -6290,6 +7247,29 @@ window.ANREVIEW_DATA = {
         "Clarity",
         "Support",
         "Engagement"
+      ]
+    },
+    {
+      "id": "clgp-craw-dr-jing-wu",
+      "type": "academic",
+      "name": "Dr Jing Wu",
+      "position": "Research Fellow",
+      "focus": "(Level B) Energy transition Climate and energy governance Industrial Decarbonisation",
+      "school": "Crawford School of Public Policy",
+      "schoolCode": "CRAW",
+      "college": "ANU College of Law, Governance and Policy",
+      "profileUrl": "https://crawford.anu.edu.au/people/dr-jing-wu",
+      "email": "",
+      "office": "",
+      "linkedCourses": [],
+      "reviewMetrics": [
+        "Clarity",
+        "Support",
+        "Engagement"
+      ],
+      "tags": [
+        "crawford",
+        "public policy"
       ]
     },
     {
@@ -6317,6 +7297,52 @@ window.ANREVIEW_DATA = {
       ]
     },
     {
+      "id": "clgp-regn-e49c5d92-2420-4988-85e2-5bf0ef256395",
+      "type": "academic",
+      "name": "Dr John Noel Viana ARC DECRA",
+      "position": "fellow",
+      "focus": "at the Justice and Technoscience Laboratory Bioethics (human and animal) Health equity and well-being Science and Technology Studies",
+      "school": "School of Regulation and Global Governance",
+      "schoolCode": "REGN",
+      "college": "ANU College of Law, Governance and Policy",
+      "profileUrl": "https://researchportalplus.anu.edu.au/en/persons/e49c5d92-2420-4988-85e2-5bf0ef256395",
+      "email": "",
+      "office": "",
+      "linkedCourses": [],
+      "reviewMetrics": [
+        "Clarity",
+        "Support",
+        "Engagement"
+      ],
+      "tags": [
+        "regnet",
+        "regulation and governance"
+      ]
+    },
+    {
+      "id": "clgp-craw-jorrit-gosens",
+      "type": "academic",
+      "name": "Dr Jorrit Gosens",
+      "position": "Senior Research Fellow",
+      "focus": "and Modelling Lead Renewable Energy Environment and Resource Economics Amp",
+      "school": "Crawford School of Public Policy",
+      "schoolCode": "CRAW",
+      "college": "ANU College of Law, Governance and Policy",
+      "profileUrl": "https://crawford.anu.edu.au/people/jorrit-gosens",
+      "email": "",
+      "office": "",
+      "linkedCourses": [],
+      "reviewMetrics": [
+        "Clarity",
+        "Support",
+        "Engagement"
+      ],
+      "tags": [
+        "crawford",
+        "public policy"
+      ]
+    },
+    {
       "id": "cap-bell-ab07f552-cf09-4ced-b04e-12bd3815e314",
       "type": "academic",
       "name": "Dr Joseph MacKay",
@@ -6337,6 +7363,29 @@ window.ANREVIEW_DATA = {
       "tags": [
         "bell",
         "asia-pacific affairs"
+      ]
+    },
+    {
+      "id": "clgp-regn-judit-molnar",
+      "type": "academic",
+      "name": "Dr Judit Molnar",
+      "position": "Research Fellow",
+      "focus": "Regulation and governance",
+      "school": "School of Regulation and Global Governance",
+      "schoolCode": "REGN",
+      "college": "ANU College of Law, Governance and Policy",
+      "profileUrl": "https://regnet.anu.edu.au/people/judit-molnar",
+      "email": "",
+      "office": "",
+      "linkedCourses": [],
+      "reviewMetrics": [
+        "Clarity",
+        "Support",
+        "Engagement"
+      ],
+      "tags": [
+        "regnet",
+        "regulation and governance"
       ]
     },
     {
@@ -6879,6 +7928,29 @@ window.ANREVIEW_DATA = {
       ]
     },
     {
+      "id": "clgp-craw-kirsty-jones",
+      "type": "academic",
+      "name": "Dr Kirsty Jones",
+      "position": "Research Fellow",
+      "focus": "OTHER STUDIES IN HUMAN SOCIETY PUBLIC HEALTH AND HEALTH SERVICES",
+      "school": "Crawford School of Public Policy",
+      "schoolCode": "CRAW",
+      "college": "ANU College of Law, Governance and Policy",
+      "profileUrl": "https://crawford.anu.edu.au/people/kirsty-jones",
+      "email": "",
+      "office": "",
+      "linkedCourses": [],
+      "reviewMetrics": [
+        "Clarity",
+        "Support",
+        "Engagement"
+      ],
+      "tags": [
+        "crawford",
+        "public policy"
+      ]
+    },
+    {
       "id": "cap-chl-449d4e70-103c-4e39-9156-3af472db7456",
       "type": "academic",
       "name": "Dr Kirsty Wissing",
@@ -7017,6 +8089,29 @@ window.ANREVIEW_DATA = {
       ]
     },
     {
+      "id": "clgp-craw-laura-davy",
+      "type": "academic",
+      "name": "Dr Laura Davy",
+      "position": "Senior Lecturer",
+      "focus": "Social Policy Political Theory and Political Philosophy Disability and care",
+      "school": "Crawford School of Public Policy",
+      "schoolCode": "CRAW",
+      "college": "ANU College of Law, Governance and Policy",
+      "profileUrl": "https://crawford.anu.edu.au/people/laura-davy",
+      "email": "",
+      "office": "",
+      "linkedCourses": [],
+      "reviewMetrics": [
+        "Clarity",
+        "Support",
+        "Engagement"
+      ],
+      "tags": [
+        "crawford",
+        "public policy"
+      ]
+    },
+    {
       "id": "cap-bell-6af4908b-885f-4bcb-99ec-5117f4e6ec68",
       "type": "academic",
       "name": "Dr Lauren Richardson",
@@ -7107,6 +8202,52 @@ window.ANREVIEW_DATA = {
         "Clarity",
         "Support",
         "Engagement"
+      ]
+    },
+    {
+      "id": "clgp-craw-lhawang-ugyel",
+      "type": "academic",
+      "name": "Dr Lhawang Ugyel",
+      "position": "Senior Lecturer",
+      "focus": "Public Administration Public Policy Non-Western Public Administration",
+      "school": "Crawford School of Public Policy",
+      "schoolCode": "CRAW",
+      "college": "ANU College of Law, Governance and Policy",
+      "profileUrl": "https://crawford.anu.edu.au/people/lhawang-ugyel",
+      "email": "",
+      "office": "",
+      "linkedCourses": [],
+      "reviewMetrics": [
+        "Clarity",
+        "Support",
+        "Engagement"
+      ],
+      "tags": [
+        "crawford",
+        "public policy"
+      ]
+    },
+    {
+      "id": "clgp-craw-liam-gammon",
+      "type": "academic",
+      "name": "Dr Liam Gammon",
+      "position": "Research Fellow",
+      "focus": "Public policy",
+      "school": "Crawford School of Public Policy",
+      "schoolCode": "CRAW",
+      "college": "ANU College of Law, Governance and Policy",
+      "profileUrl": "https://crawford.anu.edu.au/people/liam-gammon",
+      "email": "",
+      "office": "",
+      "linkedCourses": [],
+      "reviewMetrics": [
+        "Clarity",
+        "Support",
+        "Engagement"
+      ],
+      "tags": [
+        "crawford",
+        "public policy"
       ]
     },
     {
@@ -7292,6 +8433,29 @@ window.ANREVIEW_DATA = {
         "Clarity",
         "Support",
         "Engagement"
+      ]
+    },
+    {
+      "id": "clgp-craw-mai-nguyen",
+      "type": "academic",
+      "name": "Dr Mai Nguyen",
+      "position": "Research Fellow",
+      "focus": "Water Food security International trade",
+      "school": "Crawford School of Public Policy",
+      "schoolCode": "CRAW",
+      "college": "ANU College of Law, Governance and Policy",
+      "profileUrl": "https://crawford.anu.edu.au/people/mai-nguyen",
+      "email": "",
+      "office": "",
+      "linkedCourses": [],
+      "reviewMetrics": [
+        "Clarity",
+        "Support",
+        "Engagement"
+      ],
+      "tags": [
+        "crawford",
+        "public policy"
       ]
     },
     {
@@ -7503,6 +8667,29 @@ window.ANREVIEW_DATA = {
       ]
     },
     {
+      "id": "clgp-craw-martin-davies",
+      "type": "academic",
+      "name": "Dr Martin Davies",
+      "position": "Professor of Economics, Washington and Lee University",
+      "focus": "/ Visitor, Development Policy Centre",
+      "school": "Crawford School of Public Policy",
+      "schoolCode": "CRAW",
+      "college": "ANU College of Law, Governance and Policy",
+      "profileUrl": "https://crawford.anu.edu.au/people/martin-davies",
+      "email": "",
+      "office": "",
+      "linkedCourses": [],
+      "reviewMetrics": [
+        "Clarity",
+        "Support",
+        "Engagement"
+      ],
+      "tags": [
+        "crawford",
+        "public policy"
+      ]
+    },
+    {
       "id": "mathieu-leclerc",
       "type": "academic",
       "name": "Dr Mathieu Leclerc",
@@ -7687,6 +8874,29 @@ window.ANREVIEW_DATA = {
       ]
     },
     {
+      "id": "clgp-craw-megan-poore",
+      "type": "academic",
+      "name": "Dr Megan Poore",
+      "position": "Academic",
+      "focus": "& Research Skills Advisor - PhD students",
+      "school": "Crawford School of Public Policy",
+      "schoolCode": "CRAW",
+      "college": "ANU College of Law, Governance and Policy",
+      "profileUrl": "https://crawford.anu.edu.au/people/megan-poore",
+      "email": "",
+      "office": "",
+      "linkedCourses": [],
+      "reviewMetrics": [
+        "Clarity",
+        "Support",
+        "Engagement"
+      ],
+      "tags": [
+        "crawford",
+        "public policy"
+      ]
+    },
+    {
       "id": "melissa-lovell",
       "type": "academic",
       "name": "Dr Melissa Lovell",
@@ -7799,6 +9009,29 @@ window.ANREVIEW_DATA = {
         "Clarity",
         "Support",
         "Engagement"
+      ]
+    },
+    {
+      "id": "clgp-craw-mira-kakonen",
+      "type": "academic",
+      "name": "Dr Mira Kakonen ARC DECRA",
+      "position": "Fellow",
+      "focus": "Environmental geography Development studies",
+      "school": "Crawford School of Public Policy",
+      "schoolCode": "CRAW",
+      "college": "ANU College of Law, Governance and Policy",
+      "profileUrl": "https://crawford.anu.edu.au/people/mira-kakonen",
+      "email": "",
+      "office": "",
+      "linkedCourses": [],
+      "reviewMetrics": [
+        "Clarity",
+        "Support",
+        "Engagement"
+      ],
+      "tags": [
+        "crawford",
+        "public policy"
       ]
     },
     {
@@ -7963,6 +9196,29 @@ window.ANREVIEW_DATA = {
       ]
     },
     {
+      "id": "clgp-craw-nemat-bizhan",
+      "type": "academic",
+      "name": "Dr Nemat Bizhan",
+      "position": "Senior Lecturer",
+      "focus": "Development Policy Centre Public Policy International Development and International Relations Political economy",
+      "school": "Crawford School of Public Policy",
+      "schoolCode": "CRAW",
+      "college": "ANU College of Law, Governance and Policy",
+      "profileUrl": "https://crawford.anu.edu.au/people/nemat-bizhan",
+      "email": "",
+      "office": "",
+      "linkedCourses": [],
+      "reviewMetrics": [
+        "Clarity",
+        "Support",
+        "Engagement"
+      ],
+      "tags": [
+        "crawford",
+        "public policy"
+      ]
+    },
+    {
       "id": "nghia-tran",
       "type": "academic",
       "name": "Dr Nghia Tran",
@@ -8031,6 +9287,52 @@ window.ANREVIEW_DATA = {
       "tags": [
         "bell",
         "asia-pacific affairs"
+      ]
+    },
+    {
+      "id": "clgp-regn-99d915ea-4938-4a72-ba4f-d82635415d60",
+      "type": "academic",
+      "name": "Dr Nicholas Drake Climate",
+      "position": "Dr",
+      "focus": "change and energy transitions Health equity and well-being Ethics and applied social and political philosophy",
+      "school": "School of Regulation and Global Governance",
+      "schoolCode": "REGN",
+      "college": "ANU College of Law, Governance and Policy",
+      "profileUrl": "https://researchportalplus.anu.edu.au/en/persons/99d915ea-4938-4a72-ba4f-d82635415d60",
+      "email": "",
+      "office": "",
+      "linkedCourses": [],
+      "reviewMetrics": [
+        "Clarity",
+        "Support",
+        "Engagement"
+      ],
+      "tags": [
+        "regnet",
+        "regulation and governance"
+      ]
+    },
+    {
+      "id": "clgp-regn-3b0069bd-f442-4e2f-ac9f-b3e3185780b5",
+      "type": "academic",
+      "name": "Dr Nicholas Frank Laureate",
+      "position": "Research Fellow",
+      "focus": "Global governance and regulatory institutions Health equity and well-being Geopolitics, economics and security",
+      "school": "School of Regulation and Global Governance",
+      "schoolCode": "REGN",
+      "college": "ANU College of Law, Governance and Policy",
+      "profileUrl": "https://researchportalplus.anu.edu.au/en/persons/3b0069bd-f442-4e2f-ac9f-b3e3185780b5",
+      "email": "",
+      "office": "",
+      "linkedCourses": [],
+      "reviewMetrics": [
+        "Clarity",
+        "Support",
+        "Engagement"
+      ],
+      "tags": [
+        "regnet",
+        "regulation and governance"
       ]
     },
     {
@@ -8128,6 +9430,29 @@ window.ANREVIEW_DATA = {
       ]
     },
     {
+      "id": "clgp-craw-nobuaki-yamashita",
+      "type": "academic",
+      "name": "Dr Nobuaki Yamashita",
+      "position": "Fellow",
+      "focus": "Global value chains Japan China",
+      "school": "Crawford School of Public Policy",
+      "schoolCode": "CRAW",
+      "college": "ANU College of Law, Governance and Policy",
+      "profileUrl": "https://crawford.anu.edu.au/people/nobuaki-yamashita",
+      "email": "",
+      "office": "",
+      "linkedCourses": [],
+      "reviewMetrics": [
+        "Clarity",
+        "Support",
+        "Engagement"
+      ],
+      "tags": [
+        "crawford",
+        "public policy"
+      ]
+    },
+    {
       "id": "nuhu-osman-attah",
       "type": "academic",
       "name": "Dr Nuhu Osman Attah",
@@ -8148,6 +9473,29 @@ window.ANREVIEW_DATA = {
         "Clarity",
         "Support",
         "Engagement"
+      ]
+    },
+    {
+      "id": "clgp-craw-nurina-merdikawati",
+      "type": "academic",
+      "name": "Dr Nurina Merdikawati",
+      "position": "Lecturer",
+      "focus": "Labour Economics Development economics Gender issues",
+      "school": "Crawford School of Public Policy",
+      "schoolCode": "CRAW",
+      "college": "ANU College of Law, Governance and Policy",
+      "profileUrl": "https://crawford.anu.edu.au/people/nurina-merdikawati",
+      "email": "",
+      "office": "",
+      "linkedCourses": [],
+      "reviewMetrics": [
+        "Clarity",
+        "Support",
+        "Engagement"
+      ],
+      "tags": [
+        "crawford",
+        "public policy"
       ]
     },
     {
@@ -8222,6 +9570,29 @@ window.ANREVIEW_DATA = {
       ]
     },
     {
+      "id": "clgp-craw-paul-wyrwoll",
+      "type": "academic",
+      "name": "Dr Paul Wyrwoll",
+      "position": "Fellow",
+      "focus": "Environmental and Resource Economics Water Infrastructure Water Policy and Management",
+      "school": "Crawford School of Public Policy",
+      "schoolCode": "CRAW",
+      "college": "ANU College of Law, Governance and Policy",
+      "profileUrl": "https://crawford.anu.edu.au/people/paul-wyrwoll",
+      "email": "",
+      "office": "",
+      "linkedCourses": [],
+      "reviewMetrics": [
+        "Clarity",
+        "Support",
+        "Engagement"
+      ],
+      "tags": [
+        "crawford",
+        "public policy"
+      ]
+    },
+    {
       "id": "cap-bell-fed03235-576e-4469-87d5-7ea2f10eca44",
       "type": "academic",
       "name": "Dr Pauline Kerr",
@@ -8267,6 +9638,29 @@ window.ANREVIEW_DATA = {
         "Clarity",
         "Support",
         "Engagement"
+      ]
+    },
+    {
+      "id": "clgp-craw-dr-peter-varela",
+      "type": "academic",
+      "name": "Dr Peter Varela",
+      "position": "Research Fellow",
+      "focus": "Labour Economics ECONOMETRICS Family economics",
+      "school": "Crawford School of Public Policy",
+      "schoolCode": "CRAW",
+      "college": "ANU College of Law, Governance and Policy",
+      "profileUrl": "https://crawford.anu.edu.au/people/dr-peter-varela",
+      "email": "",
+      "office": "",
+      "linkedCourses": [],
+      "reviewMetrics": [
+        "Clarity",
+        "Support",
+        "Engagement"
+      ],
+      "tags": [
+        "crawford",
+        "public policy"
       ]
     },
     {
@@ -8409,6 +9803,29 @@ window.ANREVIEW_DATA = {
       ]
     },
     {
+      "id": "clgp-craw-rani-kerin",
+      "type": "academic",
+      "name": "Dr Rani Kerin Managing",
+      "position": "Dr",
+      "focus": "Editor",
+      "school": "Crawford School of Public Policy",
+      "schoolCode": "CRAW",
+      "college": "ANU College of Law, Governance and Policy",
+      "profileUrl": "https://crawford.anu.edu.au/people/rani-kerin",
+      "email": "",
+      "office": "",
+      "linkedCourses": [],
+      "reviewMetrics": [
+        "Clarity",
+        "Support",
+        "Engagement"
+      ],
+      "tags": [
+        "crawford",
+        "public policy"
+      ]
+    },
+    {
       "id": "raquel-ormella",
       "type": "academic",
       "name": "Dr Raquel Ormella",
@@ -8527,6 +9944,75 @@ window.ANREVIEW_DATA = {
       ]
     },
     {
+      "id": "clgp-craw-richard-curtain",
+      "type": "academic",
+      "name": "Dr Richard Curtain Research",
+      "position": "Dr",
+      "focus": "Associate Labour Economics Political economy",
+      "school": "Crawford School of Public Policy",
+      "schoolCode": "CRAW",
+      "college": "ANU College of Law, Governance and Policy",
+      "profileUrl": "https://crawford.anu.edu.au/people/richard-curtain",
+      "email": "",
+      "office": "",
+      "linkedCourses": [],
+      "reviewMetrics": [
+        "Clarity",
+        "Support",
+        "Engagement"
+      ],
+      "tags": [
+        "crawford",
+        "public policy"
+      ]
+    },
+    {
+      "id": "clgp-craw-richard-curtain-0",
+      "type": "academic",
+      "name": "Dr Richard Curtain Visitor,",
+      "position": "Dr",
+      "focus": "Development Policy Centre",
+      "school": "Crawford School of Public Policy",
+      "schoolCode": "CRAW",
+      "college": "ANU College of Law, Governance and Policy",
+      "profileUrl": "https://crawford.anu.edu.au/people/richard-curtain-0",
+      "email": "",
+      "office": "",
+      "linkedCourses": [],
+      "reviewMetrics": [
+        "Clarity",
+        "Support",
+        "Engagement"
+      ],
+      "tags": [
+        "crawford",
+        "public policy"
+      ]
+    },
+    {
+      "id": "clgp-craw-richard-reid",
+      "type": "academic",
+      "name": "Dr Richard Reid",
+      "position": "Research Fellow",
+      "focus": "Public policy",
+      "school": "Crawford School of Public Policy",
+      "schoolCode": "CRAW",
+      "college": "ANU College of Law, Governance and Policy",
+      "profileUrl": "https://crawford.anu.edu.au/people/richard-reid",
+      "email": "",
+      "office": "",
+      "linkedCourses": [],
+      "reviewMetrics": [
+        "Clarity",
+        "Support",
+        "Engagement"
+      ],
+      "tags": [
+        "crawford",
+        "public policy"
+      ]
+    },
+    {
       "id": "richard-frank",
       "type": "academic",
       "name": "Dr Richard W Frank",
@@ -8571,6 +10057,29 @@ window.ANREVIEW_DATA = {
         "Clarity",
         "Support",
         "Engagement"
+      ]
+    },
+    {
+      "id": "clgp-craw-robert-cannon",
+      "type": "academic",
+      "name": "Dr Robert Cannon Visitor,",
+      "position": "Dr",
+      "focus": "Development Policy Centre",
+      "school": "Crawford School of Public Policy",
+      "schoolCode": "CRAW",
+      "college": "ANU College of Law, Governance and Policy",
+      "profileUrl": "https://crawford.anu.edu.au/people/robert-cannon",
+      "email": "",
+      "office": "",
+      "linkedCourses": [],
+      "reviewMetrics": [
+        "Clarity",
+        "Support",
+        "Engagement"
+      ],
+      "tags": [
+        "crawford",
+        "public policy"
       ]
     },
     {
@@ -8643,6 +10152,29 @@ window.ANREVIEW_DATA = {
       ]
     },
     {
+      "id": "clgp-craw-rubayat-chowdhury",
+      "type": "academic",
+      "name": "Dr Rubayat Chowdhury Research",
+      "position": "Dr",
+      "focus": "Officer, Development Policy Centre Macroeconomics Australia and the Pacific Applied econometrics",
+      "school": "Crawford School of Public Policy",
+      "schoolCode": "CRAW",
+      "college": "ANU College of Law, Governance and Policy",
+      "profileUrl": "https://crawford.anu.edu.au/people/rubayat-chowdhury",
+      "email": "",
+      "office": "",
+      "linkedCourses": [],
+      "reviewMetrics": [
+        "Clarity",
+        "Support",
+        "Engagement"
+      ],
+      "tags": [
+        "crawford",
+        "public policy"
+      ]
+    },
+    {
       "id": "ruitian-lang",
       "type": "academic",
       "name": "Dr Ruitian Lang",
@@ -8686,6 +10218,29 @@ window.ANREVIEW_DATA = {
         "Clarity",
         "Support",
         "Engagement"
+      ]
+    },
+    {
+      "id": "clgp-craw-ruth-oconnor",
+      "type": "academic",
+      "name": "Dr Ruth O'Connor",
+      "position": "Research Fellow",
+      "focus": "Decision Making Impact Evaluation Public Engagement",
+      "school": "Crawford School of Public Policy",
+      "schoolCode": "CRAW",
+      "college": "ANU College of Law, Governance and Policy",
+      "profileUrl": "https://crawford.anu.edu.au/people/ruth-oconnor",
+      "email": "",
+      "office": "",
+      "linkedCourses": [],
+      "reviewMetrics": [
+        "Clarity",
+        "Support",
+        "Engagement"
+      ],
+      "tags": [
+        "crawford",
+        "public policy"
       ]
     },
     {
@@ -8827,6 +10382,29 @@ window.ANREVIEW_DATA = {
         "Clarity",
         "Support",
         "Engagement"
+      ]
+    },
+    {
+      "id": "clgp-craw-samuel-bashfield-1",
+      "type": "academic",
+      "name": "Dr Samuel Bashfield Senior",
+      "position": "Dr",
+      "focus": "Research Officer Indo-Pacific Nuclear Diplomacy",
+      "school": "Crawford School of Public Policy",
+      "schoolCode": "CRAW",
+      "college": "ANU College of Law, Governance and Policy",
+      "profileUrl": "https://crawford.anu.edu.au/people/samuel-bashfield-1",
+      "email": "",
+      "office": "",
+      "linkedCourses": [],
+      "reviewMetrics": [
+        "Clarity",
+        "Support",
+        "Engagement"
+      ],
+      "tags": [
+        "crawford",
+        "public policy"
       ]
     },
     {
@@ -9199,6 +10777,29 @@ window.ANREVIEW_DATA = {
       ]
     },
     {
+      "id": "clgp-craw-simon-west",
+      "type": "academic",
+      "name": "Dr Simon West",
+      "position": "Senior Lecturer",
+      "focus": "Environment Policy Environmental Management Aboriginal and Torres Strait Islander land and water management",
+      "school": "Crawford School of Public Policy",
+      "schoolCode": "CRAW",
+      "college": "ANU College of Law, Governance and Policy",
+      "profileUrl": "https://crawford.anu.edu.au/people/simon-west",
+      "email": "",
+      "office": "",
+      "linkedCourses": [],
+      "reviewMetrics": [
+        "Clarity",
+        "Support",
+        "Engagement"
+      ],
+      "tags": [
+        "crawford",
+        "public policy"
+      ]
+    },
+    {
       "id": "simona-martorana",
       "type": "academic",
       "name": "Dr Simona Martorana",
@@ -9245,6 +10846,29 @@ window.ANREVIEW_DATA = {
       ]
     },
     {
+      "id": "clgp-craw-soimart-rungmanee-0",
+      "type": "academic",
+      "name": "Dr Soimart Rungmanee",
+      "position": "Research Fellow",
+      "focus": "Agrarian Studies, Migration and Development",
+      "school": "Crawford School of Public Policy",
+      "schoolCode": "CRAW",
+      "college": "ANU College of Law, Governance and Policy",
+      "profileUrl": "https://crawford.anu.edu.au/people/soimart-rungmanee-0",
+      "email": "",
+      "office": "",
+      "linkedCourses": [],
+      "reviewMetrics": [
+        "Clarity",
+        "Support",
+        "Engagement"
+      ],
+      "tags": [
+        "crawford",
+        "public policy"
+      ]
+    },
+    {
       "id": "solene-inceoglu",
       "type": "academic",
       "name": "Dr Solène Inceoglu",
@@ -9265,6 +10889,52 @@ window.ANREVIEW_DATA = {
         "Clarity",
         "Support",
         "Engagement"
+      ]
+    },
+    {
+      "id": "clgp-regn-sophie-robinson-0",
+      "type": "academic",
+      "name": "Dr Sophie Robinson Laureate",
+      "position": "Research Fellow",
+      "focus": "Climate change and health Climate and energy governance Social ecological systems",
+      "school": "School of Regulation and Global Governance",
+      "schoolCode": "REGN",
+      "college": "ANU College of Law, Governance and Policy",
+      "profileUrl": "https://regnet.anu.edu.au/people/sophie-robinson-0",
+      "email": "",
+      "office": "",
+      "linkedCourses": [],
+      "reviewMetrics": [
+        "Clarity",
+        "Support",
+        "Engagement"
+      ],
+      "tags": [
+        "regnet",
+        "regulation and governance"
+      ]
+    },
+    {
+      "id": "clgp-craw-sophie-yates",
+      "type": "academic",
+      "name": "Dr Sophie Yates",
+      "position": "Senior Research Fellow",
+      "focus": "Social Policy Public Administration Gender-based violence",
+      "school": "Crawford School of Public Policy",
+      "schoolCode": "CRAW",
+      "college": "ANU College of Law, Governance and Policy",
+      "profileUrl": "https://crawford.anu.edu.au/people/sophie-yates",
+      "email": "",
+      "office": "",
+      "linkedCourses": [],
+      "reviewMetrics": [
+        "Clarity",
+        "Support",
+        "Engagement"
+      ],
+      "tags": [
+        "crawford",
+        "public policy"
       ]
     },
     {
@@ -9566,6 +11236,29 @@ window.ANREVIEW_DATA = {
       ]
     },
     {
+      "id": "clgp-craw-terence-wood",
+      "type": "academic",
+      "name": "Dr Terence Wood",
+      "position": "Fellow",
+      "focus": "Development Policy Centre Aid policy and effectiveness Australian aid New Zealand aid",
+      "school": "Crawford School of Public Policy",
+      "schoolCode": "CRAW",
+      "college": "ANU College of Law, Governance and Policy",
+      "profileUrl": "https://crawford.anu.edu.au/people/terence-wood",
+      "email": "",
+      "office": "",
+      "linkedCourses": [],
+      "reviewMetrics": [
+        "Clarity",
+        "Support",
+        "Engagement"
+      ],
+      "tags": [
+        "crawford",
+        "public policy"
+      ]
+    },
+    {
       "id": "terhi-nurmikko-fuller",
       "type": "academic",
       "name": "Dr Terhi Nurmikko-Fuller",
@@ -9586,6 +11279,29 @@ window.ANREVIEW_DATA = {
         "Clarity",
         "Support",
         "Engagement"
+      ]
+    },
+    {
+      "id": "clgp-craw-thang-do",
+      "type": "academic",
+      "name": "Dr Thang Do",
+      "position": "Fellow",
+      "focus": "Environment and Resource Economics Energy transitions Mekong",
+      "school": "Crawford School of Public Policy",
+      "schoolCode": "CRAW",
+      "college": "ANU College of Law, Governance and Policy",
+      "profileUrl": "https://crawford.anu.edu.au/people/thang-do",
+      "email": "",
+      "office": "",
+      "linkedCourses": [],
+      "reviewMetrics": [
+        "Clarity",
+        "Support",
+        "Engagement"
+      ],
+      "tags": [
+        "crawford",
+        "public policy"
       ]
     },
     {
@@ -9632,6 +11348,29 @@ window.ANREVIEW_DATA = {
       "tags": [
         "bell",
         "asia-pacific affairs"
+      ]
+    },
+    {
+      "id": "clgp-craw-thi-ha-lien-le",
+      "type": "academic",
+      "name": "Dr Thi Ha Lien Le",
+      "position": "Research Fellow",
+      "focus": "Agricultural policy and inclusive rural development Green economy and low-carbon transition strategies Climate-resilient economies and adaptation",
+      "school": "Crawford School of Public Policy",
+      "schoolCode": "CRAW",
+      "college": "ANU College of Law, Governance and Policy",
+      "profileUrl": "https://crawford.anu.edu.au/people/thi-ha-lien-le",
+      "email": "",
+      "office": "",
+      "linkedCourses": [],
+      "reviewMetrics": [
+        "Clarity",
+        "Support",
+        "Engagement"
+      ],
+      "tags": [
+        "crawford",
+        "public policy"
       ]
     },
     {
@@ -9701,6 +11440,29 @@ window.ANREVIEW_DATA = {
         "Clarity",
         "Support",
         "Engagement"
+      ]
+    },
+    {
+      "id": "clgp-craw-thuy-do",
+      "type": "academic",
+      "name": "Dr Thuy Do",
+      "position": "Academic",
+      "focus": "Skills Adviser",
+      "school": "Crawford School of Public Policy",
+      "schoolCode": "CRAW",
+      "college": "ANU College of Law, Governance and Policy",
+      "profileUrl": "https://crawford.anu.edu.au/people/thuy-do",
+      "email": "",
+      "office": "",
+      "linkedCourses": [],
+      "reviewMetrics": [
+        "Clarity",
+        "Support",
+        "Engagement"
+      ],
+      "tags": [
+        "crawford",
+        "public policy"
       ]
     },
     {
@@ -9819,6 +11581,29 @@ window.ANREVIEW_DATA = {
       ]
     },
     {
+      "id": "clgp-craw-toan-nguyen",
+      "type": "academic",
+      "name": "Dr Toan Nguyen",
+      "position": "Research Fellow",
+      "focus": "Development Policy Centre Economics of immigration Labour Economics Development economics",
+      "school": "Crawford School of Public Policy",
+      "schoolCode": "CRAW",
+      "college": "ANU College of Law, Governance and Policy",
+      "profileUrl": "https://crawford.anu.edu.au/people/toan-nguyen",
+      "email": "",
+      "office": "",
+      "linkedCourses": [],
+      "reviewMetrics": [
+        "Clarity",
+        "Support",
+        "Engagement"
+      ],
+      "tags": [
+        "crawford",
+        "public policy"
+      ]
+    },
+    {
       "id": "tom-geue",
       "type": "academic",
       "name": "Dr Tom Geue",
@@ -9839,6 +11624,29 @@ window.ANREVIEW_DATA = {
         "Clarity",
         "Support",
         "Engagement"
+      ]
+    },
+    {
+      "id": "clgp-craw-tom-westland",
+      "type": "academic",
+      "name": "Dr Tom Westland",
+      "position": "Research Fellow",
+      "focus": "Economic history of Asia and Africa Structural change Trade and investment policy",
+      "school": "Crawford School of Public Policy",
+      "schoolCode": "CRAW",
+      "college": "ANU College of Law, Governance and Policy",
+      "profileUrl": "https://crawford.anu.edu.au/people/tom-westland",
+      "email": "",
+      "office": "",
+      "linkedCourses": [],
+      "reviewMetrics": [
+        "Clarity",
+        "Support",
+        "Engagement"
+      ],
+      "tags": [
+        "crawford",
+        "public policy"
       ]
     },
     {
@@ -9912,6 +11720,29 @@ window.ANREVIEW_DATA = {
       ]
     },
     {
+      "id": "clgp-regn-walter-g-johnson",
+      "type": "academic",
+      "name": "Dr Walter G. Johnson",
+      "position": "Dr",
+      "focus": "Stanford Law School",
+      "school": "School of Regulation and Global Governance",
+      "schoolCode": "REGN",
+      "college": "ANU College of Law, Governance and Policy",
+      "profileUrl": "https://regnet.anu.edu.au/people/walter-g-johnson",
+      "email": "",
+      "office": "",
+      "linkedCourses": [],
+      "reviewMetrics": [
+        "Clarity",
+        "Support",
+        "Engagement"
+      ],
+      "tags": [
+        "regnet",
+        "regulation and governance"
+      ]
+    },
+    {
       "id": "wei-zeng",
       "type": "academic",
       "name": "Dr Wei Zeng",
@@ -9981,6 +11812,52 @@ window.ANREVIEW_DATA = {
       ]
     },
     {
+      "id": "clgp-regn-william-kakenmaster",
+      "type": "academic",
+      "name": "Dr William Kakenmaster Postdoctoral",
+      "position": "Research Fellow",
+      "focus": "Climate change and energy transitions",
+      "school": "School of Regulation and Global Governance",
+      "schoolCode": "REGN",
+      "college": "ANU College of Law, Governance and Policy",
+      "profileUrl": "https://regnet.anu.edu.au/people/william-kakenmaster",
+      "email": "",
+      "office": "",
+      "linkedCourses": [],
+      "reviewMetrics": [
+        "Clarity",
+        "Support",
+        "Engagement"
+      ],
+      "tags": [
+        "regnet",
+        "regulation and governance"
+      ]
+    },
+    {
+      "id": "clgp-craw-xiongzhi-wang",
+      "type": "academic",
+      "name": "Dr Xiongzhi Wang",
+      "position": "Research Fellow",
+      "focus": "Environmental social psychology Social and political conflict about climate policy Climate and environmental communication",
+      "school": "Crawford School of Public Policy",
+      "schoolCode": "CRAW",
+      "college": "ANU College of Law, Governance and Policy",
+      "profileUrl": "https://crawford.anu.edu.au/people/xiongzhi-wang",
+      "email": "",
+      "office": "",
+      "linkedCourses": [],
+      "reviewMetrics": [
+        "Clarity",
+        "Support",
+        "Engagement"
+      ],
+      "tags": [
+        "crawford",
+        "public policy"
+      ]
+    },
+    {
       "id": "xiu-ye-zhang",
       "type": "academic",
       "name": "Dr Xiu-Ye Zhang",
@@ -10025,6 +11902,29 @@ window.ANREVIEW_DATA = {
         "Clarity",
         "Support",
         "Engagement"
+      ]
+    },
+    {
+      "id": "clgp-craw-xue-sarah-dong",
+      "type": "academic",
+      "name": "Dr Xue (Sarah) Dong",
+      "position": "Fellow",
+      "focus": "Labour Economics Economic Development and Growth",
+      "school": "Crawford School of Public Policy",
+      "schoolCode": "CRAW",
+      "college": "ANU College of Law, Governance and Policy",
+      "profileUrl": "https://crawford.anu.edu.au/people/xue-sarah-dong",
+      "email": "",
+      "office": "",
+      "linkedCourses": [],
+      "reviewMetrics": [
+        "Clarity",
+        "Support",
+        "Engagement"
+      ],
+      "tags": [
+        "crawford",
+        "public policy"
       ]
     },
     {
@@ -10328,6 +12228,29 @@ window.ANREVIEW_DATA = {
       ]
     },
     {
+      "id": "clgp-regn-elisha-manirampa",
+      "type": "academic",
+      "name": "Elisha Manirampa Balzan PhD",
+      "position": "Fellow",
+      "focus": "Regulation and governance",
+      "school": "School of Regulation and Global Governance",
+      "schoolCode": "REGN",
+      "college": "ANU College of Law, Governance and Policy",
+      "profileUrl": "https://regnet.anu.edu.au/people/elisha-manirampa",
+      "email": "",
+      "office": "",
+      "linkedCourses": [],
+      "reviewMetrics": [
+        "Clarity",
+        "Support",
+        "Engagement"
+      ],
+      "tags": [
+        "regnet",
+        "regulation and governance"
+      ]
+    },
+    {
       "id": "elizabeth-curran",
       "type": "academic",
       "name": "Elizabeth Curran",
@@ -10555,6 +12478,29 @@ window.ANREVIEW_DATA = {
       "tags": [
         "bell",
         "asia-pacific affairs"
+      ]
+    },
+    {
+      "id": "clgp-regn-fa412d4a-92b8-40c7-a01a-24bd71f9c7e0",
+      "type": "academic",
+      "name": "EmPr Valerie Braithwaite",
+      "position": "Professor",
+      "focus": "Regulatory Institutions Network Citizenship Public Policy CRIMINOLOGY",
+      "school": "School of Regulation and Global Governance",
+      "schoolCode": "REGN",
+      "college": "ANU College of Law, Governance and Policy",
+      "profileUrl": "https://researchportalplus.anu.edu.au/en/persons/fa412d4a-92b8-40c7-a01a-24bd71f9c7e0",
+      "email": "",
+      "office": "",
+      "linkedCourses": [],
+      "reviewMetrics": [
+        "Clarity",
+        "Support",
+        "Engagement"
+      ],
+      "tags": [
+        "regnet",
+        "regulation and governance"
       ]
     },
     {
@@ -10856,6 +12802,29 @@ window.ANREVIEW_DATA = {
         "Clarity",
         "Support",
         "Engagement"
+      ]
+    },
+    {
+      "id": "clgp-regn-emmanuel-sarabwe",
+      "type": "academic",
+      "name": "Emmanuel Sarabwe Balzan PhD",
+      "position": "Fellow",
+      "focus": "Regulation and governance",
+      "school": "School of Regulation and Global Governance",
+      "schoolCode": "REGN",
+      "college": "ANU College of Law, Governance and Policy",
+      "profileUrl": "https://regnet.anu.edu.au/people/emmanuel-sarabwe",
+      "email": "",
+      "office": "",
+      "linkedCourses": [],
+      "reviewMetrics": [
+        "Clarity",
+        "Support",
+        "Engagement"
+      ],
+      "tags": [
+        "regnet",
+        "regulation and governance"
       ]
     },
     {
@@ -11347,6 +13316,29 @@ window.ANREVIEW_DATA = {
       ]
     },
     {
+      "id": "clgp-regn-jean-frederic-morin-0",
+      "type": "academic",
+      "name": "Jean-Frédéric Morin",
+      "position": "Professor",
+      "focus": "Regulation and governance",
+      "school": "School of Regulation and Global Governance",
+      "schoolCode": "REGN",
+      "college": "ANU College of Law, Governance and Policy",
+      "profileUrl": "https://regnet.anu.edu.au/people/jean-frederic-morin-0",
+      "email": "",
+      "office": "",
+      "linkedCourses": [],
+      "reviewMetrics": [
+        "Clarity",
+        "Support",
+        "Engagement"
+      ],
+      "tags": [
+        "regnet",
+        "regulation and governance"
+      ]
+    },
+    {
       "id": "jelena-gligorijevic-0",
       "type": "academic",
       "name": "Jelena Gligorijevic",
@@ -11672,6 +13664,29 @@ window.ANREVIEW_DATA = {
       ]
     },
     {
+      "id": "clgp-regn-kim-thomas",
+      "type": "academic",
+      "name": "Kim Thomas Balzan PhD",
+      "position": "Fellow",
+      "focus": "Regulation and governance",
+      "school": "School of Regulation and Global Governance",
+      "schoolCode": "REGN",
+      "college": "ANU College of Law, Governance and Policy",
+      "profileUrl": "https://regnet.anu.edu.au/people/kim-thomas",
+      "email": "",
+      "office": "",
+      "linkedCourses": [],
+      "reviewMetrics": [
+        "Clarity",
+        "Support",
+        "Engagement"
+      ],
+      "tags": [
+        "regnet",
+        "regulation and governance"
+      ]
+    },
+    {
       "id": "cap-chl-eae4f85e-7800-4ddf-abbe-01faf512c79d",
       "type": "academic",
       "name": "Larissa Schneider Main Group",
@@ -11692,6 +13707,29 @@ window.ANREVIEW_DATA = {
       "tags": [
         "chl",
         "asia-pacific"
+      ]
+    },
+    {
+      "id": "clgp-regn-laura-festus",
+      "type": "academic",
+      "name": "Laura Festus Balzan PhD",
+      "position": "Fellow",
+      "focus": "Regulation and governance",
+      "school": "School of Regulation and Global Governance",
+      "schoolCode": "REGN",
+      "college": "ANU College of Law, Governance and Policy",
+      "profileUrl": "https://regnet.anu.edu.au/people/laura-festus",
+      "email": "",
+      "office": "",
+      "linkedCourses": [],
+      "reviewMetrics": [
+        "Clarity",
+        "Support",
+        "Engagement"
+      ],
+      "tags": [
+        "regnet",
+        "regulation and governance"
       ]
     },
     {
@@ -11878,6 +13916,29 @@ window.ANREVIEW_DATA = {
         "Clarity",
         "Support",
         "Engagement"
+      ]
+    },
+    {
+      "id": "clgp-craw-mark-badger",
+      "type": "academic",
+      "name": "Mark Badger",
+      "position": "Academic",
+      "focus": "Skills Adviser",
+      "school": "Crawford School of Public Policy",
+      "schoolCode": "CRAW",
+      "college": "ANU College of Law, Governance and Policy",
+      "profileUrl": "https://crawford.anu.edu.au/people/mark-badger",
+      "email": "",
+      "office": "",
+      "linkedCourses": [],
+      "reviewMetrics": [
+        "Clarity",
+        "Support",
+        "Engagement"
+      ],
+      "tags": [
+        "crawford",
+        "public policy"
       ]
     },
     {
@@ -12134,6 +14195,29 @@ window.ANREVIEW_DATA = {
       ]
     },
     {
+      "id": "clgp-regn-giorgia-dalla-libera-marchiori",
+      "type": "academic",
+      "name": "Miss Giorgia Dalla Libera",
+      "position": "Miss",
+      "focus": "Marchiori PhD Scholar",
+      "school": "School of Regulation and Global Governance",
+      "schoolCode": "REGN",
+      "college": "ANU College of Law, Governance and Policy",
+      "profileUrl": "https://regnet.anu.edu.au/people/giorgia-dalla-libera-marchiori",
+      "email": "",
+      "office": "",
+      "linkedCourses": [],
+      "reviewMetrics": [
+        "Clarity",
+        "Support",
+        "Engagement"
+      ],
+      "tags": [
+        "regnet",
+        "regulation and governance"
+      ]
+    },
+    {
       "id": "moeen-cheema",
       "type": "academic",
       "name": "Moeen Cheema",
@@ -12270,6 +14354,29 @@ window.ANREVIEW_DATA = {
       ]
     },
     {
+      "id": "clgp-craw-conrad-buffier",
+      "type": "academic",
+      "name": "Mr Conrad Buffier PhD",
+      "position": "Mr",
+      "focus": "Scholar",
+      "school": "Crawford School of Public Policy",
+      "schoolCode": "CRAW",
+      "college": "ANU College of Law, Governance and Policy",
+      "profileUrl": "https://crawford.anu.edu.au/people/conrad-buffier",
+      "email": "",
+      "office": "",
+      "linkedCourses": [],
+      "reviewMetrics": [
+        "Clarity",
+        "Support",
+        "Engagement"
+      ],
+      "tags": [
+        "crawford",
+        "public policy"
+      ]
+    },
+    {
       "id": "cap-bell-19bf5b01-bc41-4a7c-abe6-287529b66eff",
       "type": "academic",
       "name": "Mr David Oakeshott",
@@ -12387,6 +14494,29 @@ window.ANREVIEW_DATA = {
       ]
     },
     {
+      "id": "clgp-craw-ihan-chang",
+      "type": "academic",
+      "name": "Mr Ihan Chang PhD",
+      "position": "Mr",
+      "focus": "Scholar Financial Economics Financial Econometrics Macroeconomics",
+      "school": "Crawford School of Public Policy",
+      "schoolCode": "CRAW",
+      "college": "ANU College of Law, Governance and Policy",
+      "profileUrl": "https://crawford.anu.edu.au/people/ihan-chang",
+      "email": "",
+      "office": "",
+      "linkedCourses": [],
+      "reviewMetrics": [
+        "Clarity",
+        "Support",
+        "Engagement"
+      ],
+      "tags": [
+        "crawford",
+        "public policy"
+      ]
+    },
+    {
       "id": "cap-bell-73cb123a-d573-400b-a41e-1490a7ae3931",
       "type": "academic",
       "name": "Mr James Batley Distinguished Policy",
@@ -12457,6 +14587,29 @@ window.ANREVIEW_DATA = {
       ]
     },
     {
+      "id": "clgp-craw-amalina-yasmin-binti-haji-mohd-sokri",
+      "type": "academic",
+      "name": "Ms Amalina Yasmin Mohd",
+      "position": "Ms",
+      "focus": "Sokri PhD Scholar Socio-legal Studies Judicial Politics Geopolitics in Southeast Asia",
+      "school": "Crawford School of Public Policy",
+      "schoolCode": "CRAW",
+      "college": "ANU College of Law, Governance and Policy",
+      "profileUrl": "https://crawford.anu.edu.au/people/amalina-yasmin-binti-haji-mohd-sokri",
+      "email": "",
+      "office": "",
+      "linkedCourses": [],
+      "reviewMetrics": [
+        "Clarity",
+        "Support",
+        "Engagement"
+      ],
+      "tags": [
+        "crawford",
+        "public policy"
+      ]
+    },
+    {
       "id": "bonnie-allan",
       "type": "academic",
       "name": "Ms Bonnie Allan",
@@ -12476,6 +14629,29 @@ window.ANREVIEW_DATA = {
         "Clarity",
         "Support",
         "Engagement"
+      ]
+    },
+    {
+      "id": "clgp-craw-gabrielle-lawrence",
+      "type": "academic",
+      "name": "Ms Gabrielle Lawrence PhD",
+      "position": "Ms",
+      "focus": "Scholar",
+      "school": "Crawford School of Public Policy",
+      "schoolCode": "CRAW",
+      "college": "ANU College of Law, Governance and Policy",
+      "profileUrl": "https://crawford.anu.edu.au/people/gabrielle-lawrence",
+      "email": "",
+      "office": "",
+      "linkedCourses": [],
+      "reviewMetrics": [
+        "Clarity",
+        "Support",
+        "Engagement"
+      ],
+      "tags": [
+        "crawford",
+        "public policy"
       ]
     },
     {
@@ -12548,6 +14724,29 @@ window.ANREVIEW_DATA = {
       ]
     },
     {
+      "id": "clgp-craw-melissa-hitchman-1",
+      "type": "academic",
+      "name": "Ms Melissa Hitchman PhD",
+      "position": "Ms",
+      "focus": "Scholar Diplomacy, Gender and International Affairs International security National Security Policy",
+      "school": "Crawford School of Public Policy",
+      "schoolCode": "CRAW",
+      "college": "ANU College of Law, Governance and Policy",
+      "profileUrl": "https://crawford.anu.edu.au/people/melissa-hitchman-1",
+      "email": "",
+      "office": "",
+      "linkedCourses": [],
+      "reviewMetrics": [
+        "Clarity",
+        "Support",
+        "Engagement"
+      ],
+      "tags": [
+        "crawford",
+        "public policy"
+      ]
+    },
+    {
       "id": "minda-murray",
       "type": "academic",
       "name": "Ms Minda Murray",
@@ -12571,6 +14770,29 @@ window.ANREVIEW_DATA = {
       ]
     },
     {
+      "id": "clgp-craw-sadia-islam",
+      "type": "academic",
+      "name": "Ms Sadia Islam PhD",
+      "position": "Ms",
+      "focus": "Scholar",
+      "school": "Crawford School of Public Policy",
+      "schoolCode": "CRAW",
+      "college": "ANU College of Law, Governance and Policy",
+      "profileUrl": "https://crawford.anu.edu.au/people/sadia-islam",
+      "email": "",
+      "office": "",
+      "linkedCourses": [],
+      "reviewMetrics": [
+        "Clarity",
+        "Support",
+        "Engagement"
+      ],
+      "tags": [
+        "crawford",
+        "public policy"
+      ]
+    },
+    {
       "id": "faulkner-sxx",
       "type": "academic",
       "name": "Ms Samantha Faulkner",
@@ -12591,6 +14813,52 @@ window.ANREVIEW_DATA = {
         "Clarity",
         "Support",
         "Engagement"
+      ]
+    },
+    {
+      "id": "clgp-craw-thuy-linh-bui",
+      "type": "academic",
+      "name": "Ms Thuy-Linh Bui PhD",
+      "position": "Ms",
+      "focus": "Scholar International trade Environmental economics Applied econometrics",
+      "school": "Crawford School of Public Policy",
+      "schoolCode": "CRAW",
+      "college": "ANU College of Law, Governance and Policy",
+      "profileUrl": "https://crawford.anu.edu.au/people/thuy-linh-bui",
+      "email": "",
+      "office": "",
+      "linkedCourses": [],
+      "reviewMetrics": [
+        "Clarity",
+        "Support",
+        "Engagement"
+      ],
+      "tags": [
+        "crawford",
+        "public policy"
+      ]
+    },
+    {
+      "id": "clgp-craw-yurou-gao-0",
+      "type": "academic",
+      "name": "Ms Yurou Gao PhD",
+      "position": "Ms",
+      "focus": "Scholar Economic growth Development economics Digital economics",
+      "school": "Crawford School of Public Policy",
+      "schoolCode": "CRAW",
+      "college": "ANU College of Law, Governance and Policy",
+      "profileUrl": "https://crawford.anu.edu.au/people/yurou-gao-0",
+      "email": "",
+      "office": "",
+      "linkedCourses": [],
+      "reviewMetrics": [
+        "Clarity",
+        "Support",
+        "Engagement"
+      ],
+      "tags": [
+        "crawford",
+        "public policy"
       ]
     },
     {
@@ -13013,6 +15281,29 @@ window.ANREVIEW_DATA = {
       ]
     },
     {
+      "id": "clgp-regn-b43b3bd3-f516-4c58-88a7-21e66e255937",
+      "type": "academic",
+      "name": "Prof Anthea Roberts RegNet",
+      "position": "Prof",
+      "focus": "School of Regulation and Global Governance Complexity, risk and resilience Geoeconomics Global governance and regulatory institutions",
+      "school": "School of Regulation and Global Governance",
+      "schoolCode": "REGN",
+      "college": "ANU College of Law, Governance and Policy",
+      "profileUrl": "https://researchportalplus.anu.edu.au/en/persons/b43b3bd3-f516-4c58-88a7-21e66e255937",
+      "email": "",
+      "office": "",
+      "linkedCourses": [],
+      "reviewMetrics": [
+        "Clarity",
+        "Support",
+        "Engagement"
+      ],
+      "tags": [
+        "regnet",
+        "regulation and governance"
+      ]
+    },
+    {
       "id": "cap-chl-93c2b7bb-3747-4f86-a1b3-f9c4e3a49697",
       "type": "academic",
       "name": "Prof Ari Heinrich",
@@ -13082,6 +15373,29 @@ window.ANREVIEW_DATA = {
       ]
     },
     {
+      "id": "clgp-craw-bjoern-dressel",
+      "type": "academic",
+      "name": "Prof Bjoern Dressel",
+      "position": "Professor",
+      "focus": "Government and Politics of Asia and the Pacific Comparative Judicial Politics Rule of Law",
+      "school": "Crawford School of Public Policy",
+      "schoolCode": "CRAW",
+      "college": "ANU College of Law, Governance and Policy",
+      "profileUrl": "https://crawford.anu.edu.au/people/bjoern-dressel",
+      "email": "",
+      "office": "",
+      "linkedCourses": [],
+      "reviewMetrics": [
+        "Clarity",
+        "Support",
+        "Engagement"
+      ],
+      "tags": [
+        "crawford",
+        "public policy"
+      ]
+    },
+    {
       "id": "cap-bell-8f66c2e6-0d5b-4a97-af87-fabde03d9848",
       "type": "academic",
       "name": "Prof Brendan Taylor",
@@ -13105,6 +15419,75 @@ window.ANREVIEW_DATA = {
       ]
     },
     {
+      "id": "clgp-craw-budy-resosudarmo",
+      "type": "academic",
+      "name": "Prof Budy Resosudarmo",
+      "position": "Professor",
+      "focus": "Arndt-Corden Department of Economics; Head, ANU Indonesia Project Urban and Regional Economics Economic Development and Growth Econometric and Statistical Methods",
+      "school": "Crawford School of Public Policy",
+      "schoolCode": "CRAW",
+      "college": "ANU College of Law, Governance and Policy",
+      "profileUrl": "https://crawford.anu.edu.au/people/budy-resosudarmo",
+      "email": "",
+      "office": "",
+      "linkedCourses": [],
+      "reviewMetrics": [
+        "Clarity",
+        "Support",
+        "Engagement"
+      ],
+      "tags": [
+        "crawford",
+        "public policy"
+      ]
+    },
+    {
+      "id": "clgp-craw-carolyn-hendriks",
+      "type": "academic",
+      "name": "Prof Carolyn Hendriks",
+      "position": "Professor",
+      "focus": "Public Policy Environmental Politics Political Theory and Political Philosophy",
+      "school": "Crawford School of Public Policy",
+      "schoolCode": "CRAW",
+      "college": "ANU College of Law, Governance and Policy",
+      "profileUrl": "https://crawford.anu.edu.au/people/carolyn-hendriks",
+      "email": "",
+      "office": "",
+      "linkedCourses": [],
+      "reviewMetrics": [
+        "Clarity",
+        "Support",
+        "Engagement"
+      ],
+      "tags": [
+        "crawford",
+        "public policy"
+      ]
+    },
+    {
+      "id": "clgp-regn-1fd63f20-61c6-497e-93bd-0391450c6a7e",
+      "type": "academic",
+      "name": "Prof Christian Downie Business",
+      "position": "Prof",
+      "focus": "and Politics Private power and corporations International organizations",
+      "school": "School of Regulation and Global Governance",
+      "schoolCode": "REGN",
+      "college": "ANU College of Law, Governance and Policy",
+      "profileUrl": "https://researchportalplus.anu.edu.au/en/persons/1fd63f20-61c6-497e-93bd-0391450c6a7e",
+      "email": "",
+      "office": "",
+      "linkedCourses": [],
+      "reviewMetrics": [
+        "Clarity",
+        "Support",
+        "Engagement"
+      ],
+      "tags": [
+        "regnet",
+        "regulation and governance"
+      ]
+    },
+    {
       "id": "cap-bell-eb7ff54d-7ee6-4e9e-b7c7-3729e8e1ae86",
       "type": "academic",
       "name": "Prof Cian O'Driscoll",
@@ -13125,6 +15508,29 @@ window.ANREVIEW_DATA = {
       "tags": [
         "bell",
         "asia-pacific affairs"
+      ]
+    },
+    {
+      "id": "clgp-craw-creina-day",
+      "type": "academic",
+      "name": "Prof Creina Day",
+      "position": "Professor",
+      "focus": "Economic Development and Growth Fertility Macroeconomic Theory",
+      "school": "Crawford School of Public Policy",
+      "schoolCode": "CRAW",
+      "college": "ANU College of Law, Governance and Policy",
+      "profileUrl": "https://crawford.anu.edu.au/people/creina-day",
+      "email": "",
+      "office": "",
+      "linkedCourses": [],
+      "reviewMetrics": [
+        "Clarity",
+        "Support",
+        "Engagement"
+      ],
+      "tags": [
+        "crawford",
+        "public policy"
       ]
     },
     {
@@ -13171,6 +15577,29 @@ window.ANREVIEW_DATA = {
       "tags": [
         "bell",
         "asia-pacific affairs"
+      ]
+    },
+    {
+      "id": "clgp-craw-frank-jotzo",
+      "type": "academic",
+      "name": "Prof Frank Jotzo",
+      "position": "Professor",
+      "focus": "Crawford School of Public Policy Economic Development Policy Environment and Resource Economics Environment Policy",
+      "school": "Crawford School of Public Policy",
+      "schoolCode": "CRAW",
+      "college": "ANU College of Law, Governance and Policy",
+      "profileUrl": "https://crawford.anu.edu.au/people/frank-jotzo",
+      "email": "",
+      "office": "",
+      "linkedCourses": [],
+      "reviewMetrics": [
+        "Clarity",
+        "Support",
+        "Engagement"
+      ],
+      "tags": [
+        "crawford",
+        "public policy"
       ]
     },
     {
@@ -13243,6 +15672,52 @@ window.ANREVIEW_DATA = {
       ]
     },
     {
+      "id": "clgp-craw-jane-golley",
+      "type": "academic",
+      "name": "Prof Jane Golley",
+      "position": "Head",
+      "focus": "Arndt-Corden Department of Economics Geoeconomics Labour Economics OTHER ECONOMICS",
+      "school": "Crawford School of Public Policy",
+      "schoolCode": "CRAW",
+      "college": "ANU College of Law, Governance and Policy",
+      "profileUrl": "https://crawford.anu.edu.au/people/jane-golley",
+      "email": "",
+      "office": "",
+      "linkedCourses": [],
+      "reviewMetrics": [
+        "Clarity",
+        "Support",
+        "Engagement"
+      ],
+      "tags": [
+        "crawford",
+        "public policy"
+      ]
+    },
+    {
+      "id": "clgp-craw-janine-oflynn",
+      "type": "academic",
+      "name": "Prof Janine O'Flynn Crawford School of Public Policy",
+      "position": "Director",
+      "focus": "Public policy",
+      "school": "Crawford School of Public Policy",
+      "schoolCode": "CRAW",
+      "college": "ANU College of Law, Governance and Policy",
+      "profileUrl": "https://crawford.anu.edu.au/people/janine-oflynn",
+      "email": "",
+      "office": "",
+      "linkedCourses": [],
+      "reviewMetrics": [
+        "Clarity",
+        "Support",
+        "Engagement"
+      ],
+      "tags": [
+        "crawford",
+        "public policy"
+      ]
+    },
+    {
       "id": "cap-bell-ae3a4447-69b9-4bb6-8c29-6e57e5845ffd",
       "type": "academic",
       "name": "Prof Jochen Prantl Strategic",
@@ -13286,6 +15761,52 @@ window.ANREVIEW_DATA = {
       "tags": [
         "bell",
         "asia-pacific affairs"
+      ]
+    },
+    {
+      "id": "clgp-regn-758ff7f8-bf2d-46eb-b548-f039f2f5a6c5",
+      "type": "academic",
+      "name": "Prof John Braithwaite",
+      "position": "Distinguished Professor",
+      "focus": "College of Asia and the Pacific Legal Institutions (incl. Courts and Justice Systems) International Law (excl.",
+      "school": "School of Regulation and Global Governance",
+      "schoolCode": "REGN",
+      "college": "ANU College of Law, Governance and Policy",
+      "profileUrl": "https://researchportalplus.anu.edu.au/en/persons/758ff7f8-bf2d-46eb-b548-f039f2f5a6c5",
+      "email": "",
+      "office": "",
+      "linkedCourses": [],
+      "reviewMetrics": [
+        "Clarity",
+        "Support",
+        "Engagement"
+      ],
+      "tags": [
+        "regnet",
+        "regulation and governance"
+      ]
+    },
+    {
+      "id": "clgp-craw-john-mccarthy",
+      "type": "academic",
+      "name": "Prof John McCarthy",
+      "position": "Professor",
+      "focus": "Anthropology of Development OTHER STUDIES IN HUMAN SOCIETY Agricultural Land Management",
+      "school": "Crawford School of Public Policy",
+      "schoolCode": "CRAW",
+      "college": "ANU College of Law, Governance and Policy",
+      "profileUrl": "https://crawford.anu.edu.au/people/john-mccarthy",
+      "email": "",
+      "office": "",
+      "linkedCourses": [],
+      "reviewMetrics": [
+        "Clarity",
+        "Support",
+        "Engagement"
+      ],
+      "tags": [
+        "crawford",
+        "public policy"
       ]
     },
     {
@@ -13404,6 +15925,75 @@ window.ANREVIEW_DATA = {
       ]
     },
     {
+      "id": "clgp-craw-ligang-song",
+      "type": "academic",
+      "name": "Prof Ligang Song",
+      "position": "Professor",
+      "focus": "Development economics Institutional economics Chinese economy",
+      "school": "Crawford School of Public Policy",
+      "schoolCode": "CRAW",
+      "college": "ANU College of Law, Governance and Policy",
+      "profileUrl": "https://crawford.anu.edu.au/people/ligang-song",
+      "email": "",
+      "office": "",
+      "linkedCourses": [],
+      "reviewMetrics": [
+        "Clarity",
+        "Support",
+        "Engagement"
+      ],
+      "tags": [
+        "crawford",
+        "public policy"
+      ]
+    },
+    {
+      "id": "clgp-craw-llewelyn-hughes",
+      "type": "academic",
+      "name": "Prof Llewelyn Hughes",
+      "position": "Professor",
+      "focus": "Japan Energy transition China",
+      "school": "Crawford School of Public Policy",
+      "schoolCode": "CRAW",
+      "college": "ANU College of Law, Governance and Policy",
+      "profileUrl": "https://crawford.anu.edu.au/people/llewelyn-hughes",
+      "email": "",
+      "office": "",
+      "linkedCourses": [],
+      "reviewMetrics": [
+        "Clarity",
+        "Support",
+        "Engagement"
+      ],
+      "tags": [
+        "crawford",
+        "public policy"
+      ]
+    },
+    {
+      "id": "clgp-craw-long-chu",
+      "type": "academic",
+      "name": "Prof Long Chu",
+      "position": "Professor",
+      "focus": "and Director of Research and Impact Economic Modelling and Quantitative Data Analysis Applied Economics and Policy Analysis Environmental and Resource Economics",
+      "school": "Crawford School of Public Policy",
+      "schoolCode": "CRAW",
+      "college": "ANU College of Law, Governance and Policy",
+      "profileUrl": "https://crawford.anu.edu.au/people/long-chu",
+      "email": "",
+      "office": "",
+      "linkedCourses": [],
+      "reviewMetrics": [
+        "Clarity",
+        "Support",
+        "Engagement"
+      ],
+      "tags": [
+        "crawford",
+        "public policy"
+      ]
+    },
+    {
       "id": "cap-bell-41b0ce23-e5bf-4c20-850e-738b48abdc2d",
       "type": "academic",
       "name": "Prof Luke Glanville",
@@ -13519,6 +16109,52 @@ window.ANREVIEW_DATA = {
       ]
     },
     {
+      "id": "clgp-regn-41afaeeb-70de-4bbb-95ab-e22d0952f2a8",
+      "type": "academic",
+      "name": "Prof Miranda Forsyth",
+      "position": "Professor",
+      "focus": "Crime, violence and justice Complexity, risk and resilience Criminal Law and Procedure",
+      "school": "School of Regulation and Global Governance",
+      "schoolCode": "REGN",
+      "college": "ANU College of Law, Governance and Policy",
+      "profileUrl": "https://researchportalplus.anu.edu.au/en/persons/41afaeeb-70de-4bbb-95ab-e22d0952f2a8",
+      "email": "",
+      "office": "",
+      "linkedCourses": [],
+      "reviewMetrics": [
+        "Clarity",
+        "Support",
+        "Engagement"
+      ],
+      "tags": [
+        "regnet",
+        "regulation and governance"
+      ]
+    },
+    {
+      "id": "clgp-regn-5ed788d3-11ba-4b2a-97c0-49001b24a4fe",
+      "type": "academic",
+      "name": "Prof Nicholas Bainton Climate",
+      "position": "Prof",
+      "focus": "change and energy transitions Complexity, risk and resilience Geopolitics, economics and security",
+      "school": "School of Regulation and Global Governance",
+      "schoolCode": "REGN",
+      "college": "ANU College of Law, Governance and Policy",
+      "profileUrl": "https://researchportalplus.anu.edu.au/en/persons/5ed788d3-11ba-4b2a-97c0-49001b24a4fe",
+      "email": "",
+      "office": "",
+      "linkedCourses": [],
+      "reviewMetrics": [
+        "Clarity",
+        "Support",
+        "Engagement"
+      ],
+      "tags": [
+        "regnet",
+        "regulation and governance"
+      ]
+    },
+    {
       "id": "cap-chl-ffb6763b-4593-4fb4-837b-cda9888df30f",
       "type": "academic",
       "name": "Prof Nicholas Evans Distinguished",
@@ -13588,6 +16224,52 @@ window.ANREVIEW_DATA = {
       ]
     },
     {
+      "id": "clgp-craw-paul-burke",
+      "type": "academic",
+      "name": "Prof Paul Burke",
+      "position": "Professor",
+      "focus": "Economic Development and Growth Applied economics Environment and Resource Economics",
+      "school": "Crawford School of Public Policy",
+      "schoolCode": "CRAW",
+      "college": "ANU College of Law, Governance and Policy",
+      "profileUrl": "https://crawford.anu.edu.au/people/paul-burke",
+      "email": "",
+      "office": "",
+      "linkedCourses": [],
+      "reviewMetrics": [
+        "Clarity",
+        "Support",
+        "Engagement"
+      ],
+      "tags": [
+        "crawford",
+        "public policy"
+      ]
+    },
+    {
+      "id": "clgp-craw-peter-whiteford",
+      "type": "academic",
+      "name": "Prof Peter Whiteford",
+      "position": "Professor",
+      "focus": "and Director of the Social Policy Institute POLICY AND ADMINISTRATION Social Policy",
+      "school": "Crawford School of Public Policy",
+      "schoolCode": "CRAW",
+      "college": "ANU College of Law, Governance and Policy",
+      "profileUrl": "https://crawford.anu.edu.au/people/peter-whiteford",
+      "email": "",
+      "office": "",
+      "linkedCourses": [],
+      "reviewMetrics": [
+        "Clarity",
+        "Support",
+        "Engagement"
+      ],
+      "tags": [
+        "crawford",
+        "public policy"
+      ]
+    },
+    {
       "id": "cap-chl-12a9db41-15f7-4b47-b983-2cad81f2db6d",
       "type": "academic",
       "name": "Prof Roald Maliangkay Entertainment",
@@ -13611,6 +16293,121 @@ window.ANREVIEW_DATA = {
       ]
     },
     {
+      "id": "clgp-craw-robert-breunig",
+      "type": "academic",
+      "name": "Prof Robert Breunig",
+      "position": "Professor",
+      "focus": "and Director, Tax and Transfer Policy Institute Applied economics Public Policy Empirical labour economics and public finance",
+      "school": "Crawford School of Public Policy",
+      "schoolCode": "CRAW",
+      "college": "ANU College of Law, Governance and Policy",
+      "profileUrl": "https://crawford.anu.edu.au/people/robert-breunig",
+      "email": "",
+      "office": "",
+      "linkedCourses": [],
+      "reviewMetrics": [
+        "Clarity",
+        "Support",
+        "Engagement"
+      ],
+      "tags": [
+        "crawford",
+        "public policy"
+      ]
+    },
+    {
+      "id": "clgp-craw-sango-mahanty",
+      "type": "academic",
+      "name": "Prof Sango Mahanty",
+      "position": "Professor",
+      "focus": "political ecology HUMAN GEOGRAPHY Critical agrarian studies",
+      "school": "Crawford School of Public Policy",
+      "schoolCode": "CRAW",
+      "college": "ANU College of Law, Governance and Policy",
+      "profileUrl": "https://crawford.anu.edu.au/people/sango-mahanty",
+      "email": "",
+      "office": "",
+      "linkedCourses": [],
+      "reviewMetrics": [
+        "Clarity",
+        "Support",
+        "Engagement"
+      ],
+      "tags": [
+        "crawford",
+        "public policy"
+      ]
+    },
+    {
+      "id": "clgp-craw-sara-bice",
+      "type": "academic",
+      "name": "Prof Sara Bice",
+      "position": "Professor",
+      "focus": "and Director Social and policy science Social impact assessment Social risk management",
+      "school": "Crawford School of Public Policy",
+      "schoolCode": "CRAW",
+      "college": "ANU College of Law, Governance and Policy",
+      "profileUrl": "https://crawford.anu.edu.au/people/sara-bice",
+      "email": "",
+      "office": "",
+      "linkedCourses": [],
+      "reviewMetrics": [
+        "Clarity",
+        "Support",
+        "Engagement"
+      ],
+      "tags": [
+        "crawford",
+        "public policy"
+      ]
+    },
+    {
+      "id": "clgp-craw-sharon-bessell",
+      "type": "academic",
+      "name": "Prof Sharon Bessell",
+      "position": "Professor",
+      "focus": "and Director Social Policy Professional Ethics (incl. police and research ethics) Gender Specific Studies",
+      "school": "Crawford School of Public Policy",
+      "schoolCode": "CRAW",
+      "college": "ANU College of Law, Governance and Policy",
+      "profileUrl": "https://crawford.anu.edu.au/people/sharon-bessell",
+      "email": "",
+      "office": "",
+      "linkedCourses": [],
+      "reviewMetrics": [
+        "Clarity",
+        "Support",
+        "Engagement"
+      ],
+      "tags": [
+        "crawford",
+        "public policy"
+      ]
+    },
+    {
+      "id": "clgp-regn-e4fe1262-972b-46f6-88c3-1957f71ec164",
+      "type": "academic",
+      "name": "Prof Sharon Friel ARC Laureate",
+      "position": "Fellow",
+      "focus": "and Professor of Health Equity Governance Global governance and regulatory institutions Climate change and energy transitions",
+      "school": "School of Regulation and Global Governance",
+      "schoolCode": "REGN",
+      "college": "ANU College of Law, Governance and Policy",
+      "profileUrl": "https://researchportalplus.anu.edu.au/en/persons/e4fe1262-972b-46f6-88c3-1957f71ec164",
+      "email": "",
+      "office": "",
+      "linkedCourses": [],
+      "reviewMetrics": [
+        "Clarity",
+        "Support",
+        "Engagement"
+      ],
+      "tags": [
+        "regnet",
+        "regulation and governance"
+      ]
+    },
+    {
       "id": "cap-chl-fb936a54-1524-480e-b2d2-653fe4cc6f43",
       "type": "academic",
       "name": "Prof Shunichi Ishihara Speech",
@@ -13631,6 +16428,29 @@ window.ANREVIEW_DATA = {
       "tags": [
         "chl",
         "asia-pacific"
+      ]
+    },
+    {
+      "id": "clgp-craw-shyamal-chowdhury",
+      "type": "academic",
+      "name": "Prof Shyamal Chowdhury",
+      "position": "Professor",
+      "focus": "Economic Development Migration Microfinance",
+      "school": "Crawford School of Public Policy",
+      "schoolCode": "CRAW",
+      "college": "ANU College of Law, Governance and Policy",
+      "profileUrl": "https://crawford.anu.edu.au/people/shyamal-chowdhury",
+      "email": "",
+      "office": "",
+      "linkedCourses": [],
+      "reviewMetrics": [
+        "Clarity",
+        "Support",
+        "Engagement"
+      ],
+      "tags": [
+        "crawford",
+        "public policy"
       ]
     },
     {
@@ -13703,6 +16523,29 @@ window.ANREVIEW_DATA = {
       ]
     },
     {
+      "id": "clgp-craw-stephen-howes",
+      "type": "academic",
+      "name": "Prof Stephen Howes",
+      "position": "Professor of Economics and Director, Development Policy Centre",
+      "focus": "Public policy",
+      "school": "Crawford School of Public Policy",
+      "schoolCode": "CRAW",
+      "college": "ANU College of Law, Governance and Policy",
+      "profileUrl": "https://crawford.anu.edu.au/people/stephen-howes",
+      "email": "",
+      "office": "",
+      "linkedCourses": [],
+      "reviewMetrics": [
+        "Clarity",
+        "Support",
+        "Engagement"
+      ],
+      "tags": [
+        "crawford",
+        "public policy"
+      ]
+    },
+    {
       "id": "cap-chl-e5ae836e-4698-43ca-a4a7-9b51f72a3a08",
       "type": "academic",
       "name": "Prof Susan O'Connor Distinguished",
@@ -13746,6 +16589,52 @@ window.ANREVIEW_DATA = {
       "tags": [
         "chl",
         "asia-pacific"
+      ]
+    },
+    {
+      "id": "clgp-craw-timothy-hatton",
+      "type": "academic",
+      "name": "Prof Timothy Hatton",
+      "position": "Professor of Economics APPLIED ECONOMICS Health Economics International Economics and International Finance",
+      "focus": "Public policy",
+      "school": "Crawford School of Public Policy",
+      "schoolCode": "CRAW",
+      "college": "ANU College of Law, Governance and Policy",
+      "profileUrl": "https://crawford.anu.edu.au/people/timothy-hatton",
+      "email": "",
+      "office": "",
+      "linkedCourses": [],
+      "reviewMetrics": [
+        "Clarity",
+        "Support",
+        "Engagement"
+      ],
+      "tags": [
+        "crawford",
+        "public policy"
+      ]
+    },
+    {
+      "id": "clgp-regn-5dee2aa7-e726-4a38-b1aa-6e97425e6caa",
+      "type": "academic",
+      "name": "Prof Veronica Taylor",
+      "position": "Professor of Law and Regulation, School of Regulation and Global Governance",
+      "focus": "(RegNet) International Law (excl. International Trade Law) Regulatory reform and stewardship Legal Institutions (incl.",
+      "school": "School of Regulation and Global Governance",
+      "schoolCode": "REGN",
+      "college": "ANU College of Law, Governance and Policy",
+      "profileUrl": "https://researchportalplus.anu.edu.au/en/persons/5dee2aa7-e726-4a38-b1aa-6e97425e6caa",
+      "email": "",
+      "office": "",
+      "linkedCourses": [],
+      "reviewMetrics": [
+        "Clarity",
+        "Support",
+        "Engagement"
+      ],
+      "tags": [
+        "regnet",
+        "regulation and governance"
       ]
     },
     {
@@ -13815,6 +16704,29 @@ window.ANREVIEW_DATA = {
       "tags": [
         "bell",
         "asia-pacific affairs"
+      ]
+    },
+    {
+      "id": "clgp-craw-yu-sheng",
+      "type": "academic",
+      "name": "Prof Yu Sheng",
+      "position": "Professor",
+      "focus": "Climate Change Rural Transformation Science and Technology Policy",
+      "school": "Crawford School of Public Policy",
+      "schoolCode": "CRAW",
+      "college": "ANU College of Law, Governance and Policy",
+      "profileUrl": "https://crawford.anu.edu.au/people/yu-sheng",
+      "email": "",
+      "office": "",
+      "linkedCourses": [],
+      "reviewMetrics": [
+        "Clarity",
+        "Support",
+        "Engagement"
+      ],
+      "tags": [
+        "crawford",
+        "public policy"
       ]
     },
     {
@@ -16863,6 +19775,29 @@ window.ANREVIEW_DATA = {
       ]
     },
     {
+      "id": "clgp-craw-steven-cork",
+      "type": "academic",
+      "name": "Steven Cork Adjunct",
+      "position": "Professor",
+      "focus": "Public policy",
+      "school": "Crawford School of Public Policy",
+      "schoolCode": "CRAW",
+      "college": "ANU College of Law, Governance and Policy",
+      "profileUrl": "https://crawford.anu.edu.au/people/steven-cork",
+      "email": "",
+      "office": "",
+      "linkedCourses": [],
+      "reviewMetrics": [
+        "Clarity",
+        "Support",
+        "Engagement"
+      ],
+      "tags": [
+        "crawford",
+        "public policy"
+      ]
+    },
+    {
       "id": "sumonkanti-das",
       "type": "academic",
       "name": "Sumonkanti Das",
@@ -17096,6 +20031,52 @@ window.ANREVIEW_DATA = {
       ]
     },
     {
+      "id": "clgp-regn-yan-zhang-0",
+      "type": "academic",
+      "name": "Yan Zhang Deputy",
+      "position": "Director",
+      "focus": "Regulation and governance",
+      "school": "School of Regulation and Global Governance",
+      "schoolCode": "REGN",
+      "college": "ANU College of Law, Governance and Policy",
+      "profileUrl": "https://regnet.anu.edu.au/people/yan-zhang-0",
+      "email": "",
+      "office": "",
+      "linkedCourses": [],
+      "reviewMetrics": [
+        "Clarity",
+        "Support",
+        "Engagement"
+      ],
+      "tags": [
+        "regnet",
+        "regulation and governance"
+      ]
+    },
+    {
+      "id": "clgp-regn-yayew-genet-chekol",
+      "type": "academic",
+      "name": "Yayew Chekol Balzan PhD",
+      "position": "Fellow",
+      "focus": "Regulation and governance",
+      "school": "School of Regulation and Global Governance",
+      "schoolCode": "REGN",
+      "college": "ANU College of Law, Governance and Policy",
+      "profileUrl": "https://regnet.anu.edu.au/people/yayew-genet-chekol",
+      "email": "",
+      "office": "",
+      "linkedCourses": [],
+      "reviewMetrics": [
+        "Clarity",
+        "Support",
+        "Engagement"
+      ],
+      "tags": [
+        "regnet",
+        "regulation and governance"
+      ]
+    },
+    {
       "id": "cap-chl-a7f6fd71-5fd6-40d4-b109-b53551c4747c",
       "type": "academic",
       "name": "Yen Le ANTHROPOLOGY PUBLIC",
@@ -17116,6 +20097,29 @@ window.ANREVIEW_DATA = {
       "tags": [
         "chl",
         "asia-pacific"
+      ]
+    },
+    {
+      "id": "clgp-regn-zelalem-tesfaye-sirna",
+      "type": "academic",
+      "name": "Zelalem Tesfaye Sirna Deputy",
+      "position": "Director",
+      "focus": "Regulation and governance",
+      "school": "School of Regulation and Global Governance",
+      "schoolCode": "REGN",
+      "college": "ANU College of Law, Governance and Policy",
+      "profileUrl": "https://regnet.anu.edu.au/people/zelalem-tesfaye-sirna",
+      "email": "",
+      "office": "",
+      "linkedCourses": [],
+      "reviewMetrics": [
+        "Clarity",
+        "Support",
+        "Engagement"
+      ],
+      "tags": [
+        "regnet",
+        "regulation and governance"
       ]
     },
     {
@@ -17144,7 +20148,7 @@ window.ANREVIEW_DATA = {
   ],
   "courses": [
     {
-      "id": "AATD2001",
+      "id": "aatd2001",
       "type": "course",
       "code": "AATD2001",
       "name": "SoCIETIE Initiative",
@@ -17176,7 +20180,7 @@ window.ANREVIEW_DATA = {
       ]
     },
     {
-      "id": "AATD3001",
+      "id": "aatd3001",
       "type": "course",
       "code": "AATD3001",
       "name": "SoCIETIE Initiative",
@@ -17208,7 +20212,7 @@ window.ANREVIEW_DATA = {
       ]
     },
     {
-      "id": "ANIP3003",
+      "id": "anip3003",
       "type": "course",
       "code": "ANIP3003",
       "name": "Australian National Internships Program A",
@@ -17236,7 +20240,7 @@ window.ANREVIEW_DATA = {
       ]
     },
     {
-      "id": "ANIP3005",
+      "id": "anip3005",
       "type": "course",
       "code": "ANIP3005",
       "name": "Australian National Internships Program B",
@@ -17264,7 +20268,7 @@ window.ANREVIEW_DATA = {
       ]
     },
     {
-      "id": "ANTH1002",
+      "id": "anth1002",
       "type": "course",
       "code": "ANTH1002",
       "name": "Culture and Human Diversity: Introducing Anthropology",
@@ -17290,7 +20294,7 @@ window.ANREVIEW_DATA = {
       ]
     },
     {
-      "id": "ANTH1003",
+      "id": "anth1003",
       "type": "course",
       "code": "ANTH1003",
       "name": "Anthropology: Critical Foundations",
@@ -17317,7 +20321,7 @@ window.ANREVIEW_DATA = {
       ]
     },
     {
-      "id": "ANTH2005",
+      "id": "anth2005",
       "type": "course",
       "code": "ANTH2005",
       "name": "Traditional Australian Indigenous Cultures, Societies and Environment",
@@ -17342,7 +20346,7 @@ window.ANREVIEW_DATA = {
       ]
     },
     {
-      "id": "ANTH2009",
+      "id": "anth2009",
       "type": "course",
       "code": "ANTH2009",
       "name": "Culture and Development",
@@ -17369,7 +20373,7 @@ window.ANREVIEW_DATA = {
       ]
     },
     {
-      "id": "ANTH2017",
+      "id": "anth2017",
       "type": "course",
       "code": "ANTH2017",
       "name": "Culture, Social Justice and Aboriginal Society Today",
@@ -17393,7 +20397,7 @@ window.ANREVIEW_DATA = {
       ]
     },
     {
-      "id": "ANTH2020",
+      "id": "anth2020",
       "type": "course",
       "code": "ANTH2020",
       "name": "Cultures of Innovation: Anthropology of Science and Technology",
@@ -17419,7 +20423,7 @@ window.ANREVIEW_DATA = {
       ]
     },
     {
-      "id": "ANTH2025",
+      "id": "anth2025",
       "type": "course",
       "code": "ANTH2025",
       "name": "Gender in Cross-Cultural Perspective",
@@ -17444,7 +20448,7 @@ window.ANREVIEW_DATA = {
       ]
     },
     {
-      "id": "ANTH2026",
+      "id": "anth2026",
       "type": "course",
       "code": "ANTH2026",
       "name": "Medicine, Healing and the Body",
@@ -17471,7 +20475,7 @@ window.ANREVIEW_DATA = {
       ]
     },
     {
-      "id": "ANTH2027",
+      "id": "anth2027",
       "type": "course",
       "code": "ANTH2027",
       "name": "EthnoLab 1: Anthropological Methods",
@@ -17498,7 +20502,7 @@ window.ANREVIEW_DATA = {
       ]
     },
     {
-      "id": "ANTH2122",
+      "id": "anth2122",
       "type": "course",
       "code": "ANTH2122",
       "name": "Economic Anthropology: cross-cultural alternatives to capitalism",
@@ -17523,7 +20527,7 @@ window.ANREVIEW_DATA = {
       ]
     },
     {
-      "id": "ANTH2129",
+      "id": "anth2129",
       "type": "course",
       "code": "ANTH2129",
       "name": "Crossing Borders: Migration, Displacement and Im/mobility",
@@ -17547,7 +20551,7 @@ window.ANREVIEW_DATA = {
       ]
     },
     {
-      "id": "ANTH2130",
+      "id": "anth2130",
       "type": "course",
       "code": "ANTH2130",
       "name": "Violence and Terror",
@@ -17571,7 +20575,7 @@ window.ANREVIEW_DATA = {
       ]
     },
     {
-      "id": "ANTH3010",
+      "id": "anth3010",
       "type": "course",
       "code": "ANTH3010",
       "name": "Contemporary Anthropological Theory: Special Topics",
@@ -17595,7 +20599,7 @@ window.ANREVIEW_DATA = {
       ]
     },
     {
-      "id": "ANTH3018",
+      "id": "anth3018",
       "type": "course",
       "code": "ANTH3018",
       "name": "Unfreedoms: Anthropological Explorations of Oppression, Tyranny and Domination",
@@ -17621,7 +20625,7 @@ window.ANREVIEW_DATA = {
       ]
     },
     {
-      "id": "ANTH3059",
+      "id": "anth3059",
       "type": "course",
       "code": "ANTH3059",
       "name": "EthnoLab 2: Applied Anthropology",
@@ -17648,7 +20652,7 @@ window.ANREVIEW_DATA = {
       ]
     },
     {
-      "id": "ARCH2004",
+      "id": "arch2004",
       "type": "course",
       "code": "ARCH2004",
       "name": "Australian Archaeology",
@@ -17673,7 +20677,7 @@ window.ANREVIEW_DATA = {
       ]
     },
     {
-      "id": "ARCH2037",
+      "id": "arch2037",
       "type": "course",
       "code": "ARCH2037",
       "name": "From Empire to Invasions: the Archaeology of Europe from the Romans to the Vikings",
@@ -17700,7 +20704,7 @@ window.ANREVIEW_DATA = {
       ]
     },
     {
-      "id": "ARCH2055",
+      "id": "arch2055",
       "type": "course",
       "code": "ARCH2055",
       "name": "Archaeological Field Schools and Fieldwork Practice",
@@ -17726,7 +20730,7 @@ window.ANREVIEW_DATA = {
       ]
     },
     {
-      "id": "ARCH2058",
+      "id": "arch2058",
       "type": "course",
       "code": "ARCH2058",
       "name": "European Prehistory from Cultivation to the Celts",
@@ -18235,7 +21239,7 @@ window.ANREVIEW_DATA = {
       ]
     },
     {
-      "id": "ASIA2067",
+      "id": "asia2067",
       "type": "course",
       "code": "ASIA2067",
       "name": "Asian Economies",
@@ -19466,7 +22470,7 @@ window.ANREVIEW_DATA = {
       ]
     },
     {
-      "id": "BIAN2064",
+      "id": "bian2064",
       "type": "course",
       "code": "BIAN2064",
       "name": "Anthropology of Environmental Disasters",
@@ -19492,7 +22496,7 @@ window.ANREVIEW_DATA = {
       ]
     },
     {
-      "id": "BIAN2119",
+      "id": "bian2119",
       "type": "course",
       "code": "BIAN2119",
       "name": "Nutrition, Disease and the Environment",
@@ -19519,7 +22523,7 @@ window.ANREVIEW_DATA = {
       ]
     },
     {
-      "id": "BIAN3113",
+      "id": "bian3113",
       "type": "course",
       "code": "BIAN3113",
       "name": "Human Evolution",
@@ -19546,7 +22550,7 @@ window.ANREVIEW_DATA = {
       ]
     },
     {
-      "id": "BIAN3127",
+      "id": "bian3127",
       "type": "course",
       "code": "BIAN3127",
       "name": "Primate Behaviour and Conservation",
@@ -19573,7 +22577,7 @@ window.ANREVIEW_DATA = {
       ]
     },
     {
-      "id": "BUSI2023",
+      "id": "busi2023",
       "type": "course",
       "code": "BUSI2023",
       "name": "Dynamics of Asian Business",
@@ -19598,7 +22602,7 @@ window.ANREVIEW_DATA = {
       ]
     },
     {
-      "id": "BUSI2024",
+      "id": "busi2024",
       "type": "course",
       "code": "BUSI2024",
       "name": "Dynamics of Business in the Middle East",
@@ -19623,7 +22627,7 @@ window.ANREVIEW_DATA = {
       ]
     },
     {
-      "id": "BUSI2025",
+      "id": "busi2025",
       "type": "course",
       "code": "BUSI2025",
       "name": "International Business",
@@ -19649,7 +22653,7 @@ window.ANREVIEW_DATA = {
       ]
     },
     {
-      "id": "BUSI2034",
+      "id": "busi2034",
       "type": "course",
       "code": "BUSI2034",
       "name": "Dynamics of European Business",
@@ -19673,7 +22677,7 @@ window.ANREVIEW_DATA = {
       ]
     },
     {
-      "id": "BUSI3020",
+      "id": "busi3020",
       "type": "course",
       "code": "BUSI3020",
       "name": "International Strategic Management",
@@ -19698,7 +22702,7 @@ window.ANREVIEW_DATA = {
       ]
     },
     {
-      "id": "BUSI3024",
+      "id": "busi3024",
       "type": "course",
       "code": "BUSI3024",
       "name": "Export Business Planning",
@@ -19724,7 +22728,7 @@ window.ANREVIEW_DATA = {
       ]
     },
     {
-      "id": "BUSI3028",
+      "id": "busi3028",
       "type": "course",
       "code": "BUSI3028",
       "name": "Business in China",
@@ -19751,7 +22755,7 @@ window.ANREVIEW_DATA = {
       ]
     },
     {
-      "id": "BUSI3029",
+      "id": "busi3029",
       "type": "course",
       "code": "BUSI3029",
       "name": "Cross-Cultural Management",
@@ -19776,7 +22780,7 @@ window.ANREVIEW_DATA = {
       ]
     },
     {
-      "id": "BUSI3030",
+      "id": "busi3030",
       "type": "course",
       "code": "BUSI3030",
       "name": "International Supply Chain Management",
@@ -19800,7 +22804,7 @@ window.ANREVIEW_DATA = {
       ]
     },
     {
-      "id": "BUSN1001",
+      "id": "busn1001",
       "type": "course",
       "code": "BUSN1001",
       "name": "Business Reporting and Analysis",
@@ -19826,7 +22830,7 @@ window.ANREVIEW_DATA = {
       ]
     },
     {
-      "id": "BUSN1002",
+      "id": "busn1002",
       "type": "course",
       "code": "BUSN1002",
       "name": "Accounting Processes and Systems",
@@ -19851,7 +22855,7 @@ window.ANREVIEW_DATA = {
       ]
     },
     {
-      "id": "BUSN1101",
+      "id": "busn1101",
       "type": "course",
       "code": "BUSN1101",
       "name": "Introduction to Commercial Law",
@@ -19875,7 +22879,7 @@ window.ANREVIEW_DATA = {
       ]
     },
     {
-      "id": "BUSN2011",
+      "id": "busn2011",
       "type": "course",
       "code": "BUSN2011",
       "name": "Management Accounting",
@@ -19900,7 +22904,7 @@ window.ANREVIEW_DATA = {
       ]
     },
     {
-      "id": "BUSN2015",
+      "id": "busn2015",
       "type": "course",
       "code": "BUSN2015",
       "name": "Company Accounting",
@@ -19925,7 +22929,7 @@ window.ANREVIEW_DATA = {
       ]
     },
     {
-      "id": "BUSN2036",
+      "id": "busn2036",
       "type": "course",
       "code": "BUSN2036",
       "name": "Financial Statement Analysis",
@@ -19950,7 +22954,7 @@ window.ANREVIEW_DATA = {
       ]
     },
     {
-      "id": "BUSN2037",
+      "id": "busn2037",
       "type": "course",
       "code": "BUSN2037",
       "name": "Fundamentals of Accounting Data Analytics",
@@ -19975,7 +22979,7 @@ window.ANREVIEW_DATA = {
       ]
     },
     {
-      "id": "BUSN2101",
+      "id": "busn2101",
       "type": "course",
       "code": "BUSN2101",
       "name": "Law of Business Entities",
@@ -19999,7 +23003,7 @@ window.ANREVIEW_DATA = {
       ]
     },
     {
-      "id": "BUSN3001",
+      "id": "busn3001",
       "type": "course",
       "code": "BUSN3001",
       "name": "Accounting Theory",
@@ -20024,7 +23028,7 @@ window.ANREVIEW_DATA = {
       ]
     },
     {
-      "id": "BUSN3002",
+      "id": "busn3002",
       "type": "course",
       "code": "BUSN3002",
       "name": "Auditing",
@@ -20048,7 +23052,7 @@ window.ANREVIEW_DATA = {
       ]
     },
     {
-      "id": "BUSN3003",
+      "id": "busn3003",
       "type": "course",
       "code": "BUSN3003",
       "name": "Advanced Management Accounting",
@@ -20072,7 +23076,7 @@ window.ANREVIEW_DATA = {
       ]
     },
     {
-      "id": "BUSN3008",
+      "id": "busn3008",
       "type": "course",
       "code": "BUSN3008",
       "name": "Financial Reporting By Corporations",
@@ -20096,7 +23100,7 @@ window.ANREVIEW_DATA = {
       ]
     },
     {
-      "id": "BUSN3014",
+      "id": "busn3014",
       "type": "course",
       "code": "BUSN3014",
       "name": "Principles of Tax Law",
@@ -20121,7 +23125,7 @@ window.ANREVIEW_DATA = {
       ]
     },
     {
-      "id": "BUSN3017",
+      "id": "busn3017",
       "type": "course",
       "code": "BUSN3017",
       "name": "Corporate Social Responsibility, Accountability and Reporting",
@@ -20148,7 +23152,7 @@ window.ANREVIEW_DATA = {
       ]
     },
     {
-      "id": "BUSN3051",
+      "id": "busn3051",
       "type": "course",
       "code": "BUSN3051",
       "name": "Advanced Accounting Data Analytics",
@@ -20172,7 +23176,7 @@ window.ANREVIEW_DATA = {
       ]
     },
     {
-      "id": "CBEA2000",
+      "id": "cbea2000",
       "type": "course",
       "code": "CBEA2000",
       "name": "Employability Fundamentals for Professional Practice",
@@ -20199,7 +23203,7 @@ window.ANREVIEW_DATA = {
       ]
     },
     {
-      "id": "CBEA2001",
+      "id": "cbea2001",
       "type": "course",
       "code": "CBEA2001",
       "name": "Australian Indigenous Perspectives in Business and Economics",
@@ -20226,7 +23230,7 @@ window.ANREVIEW_DATA = {
       ]
     },
     {
-      "id": "CBEA3001",
+      "id": "cbea3001",
       "type": "course",
       "code": "CBEA3001",
       "name": "College of Business and Economics Special Industry Project",
@@ -20254,7 +23258,7 @@ window.ANREVIEW_DATA = {
       ]
     },
     {
-      "id": "CBEA3003",
+      "id": "cbea3003",
       "type": "course",
       "code": "CBEA3003",
       "name": "Australian and First Nations Business Immersion",
@@ -20279,7 +23283,7 @@ window.ANREVIEW_DATA = {
       ]
     },
     {
-      "id": "CBEA3066",
+      "id": "cbea3066",
       "type": "course",
       "code": "CBEA3066",
       "name": "Global Business Immersion",
@@ -20305,7 +23309,7 @@ window.ANREVIEW_DATA = {
       ]
     },
     {
-      "id": "CBEA3070",
+      "id": "cbea3070",
       "type": "course",
       "code": "CBEA3070",
       "name": "ANU College of Business and Economics Internship Program (UG)",
@@ -20862,7 +23866,7 @@ window.ANREVIEW_DATA = {
       ]
     },
     {
-      "id": "CLAS2014",
+      "id": "clas2014",
       "type": "course",
       "code": "CLAS2014",
       "name": "Democrats, Tyrants, and Emperors: The Art of Government in the Ancient Mediterranean",
@@ -20889,7 +23893,7 @@ window.ANREVIEW_DATA = {
       ]
     },
     {
-      "id": "CLAS2015",
+      "id": "clas2015",
       "type": "course",
       "code": "CLAS2015",
       "name": "Alexander the Great and the Hellenistic World: An Age of Transformation and Discovery",
@@ -20916,7 +23920,7 @@ window.ANREVIEW_DATA = {
       ]
     },
     {
-      "id": "CLAS3001",
+      "id": "clas3001",
       "type": "course",
       "code": "CLAS3001",
       "name": "Rome: The Eternal City from Antiquity to the Early Middle Ages",
@@ -20943,7 +23947,7 @@ window.ANREVIEW_DATA = {
       ]
     },
     {
-      "id": "CLAS3003",
+      "id": "clas3003",
       "type": "course",
       "code": "CLAS3003",
       "name": "Faith and Belief in Ancient Greece and Rome",
@@ -20970,7 +23974,7 @@ window.ANREVIEW_DATA = {
       ]
     },
     {
-      "id": "COMP1100",
+      "id": "comp1100",
       "type": "course",
       "code": "COMP1100",
       "name": "Programming as Problem Solving",
@@ -20998,7 +24002,7 @@ window.ANREVIEW_DATA = {
       ]
     },
     {
-      "id": "COMP1110",
+      "id": "comp1110",
       "type": "course",
       "code": "COMP1110",
       "name": "Structured Programming",
@@ -21026,7 +24030,7 @@ window.ANREVIEW_DATA = {
       ]
     },
     {
-      "id": "COMP1710",
+      "id": "comp1710",
       "type": "course",
       "code": "COMP1710",
       "name": "Web Development and Design",
@@ -21053,7 +24057,7 @@ window.ANREVIEW_DATA = {
       ]
     },
     {
-      "id": "COMP2400",
+      "id": "comp2400",
       "type": "course",
       "code": "COMP2400",
       "name": "Relational Databases",
@@ -21081,7 +24085,7 @@ window.ANREVIEW_DATA = {
       ]
     },
     {
-      "id": "COMP2700",
+      "id": "comp2700",
       "type": "course",
       "code": "COMP2700",
       "name": "Cyber Security Foundations",
@@ -21108,7 +24112,7 @@ window.ANREVIEW_DATA = {
       ]
     },
     {
-      "id": "CRIM1001",
+      "id": "crim1001",
       "type": "course",
       "code": "CRIM1001",
       "name": "Criminological Imaginations: Understanding Criminality",
@@ -21135,7 +24139,7 @@ window.ANREVIEW_DATA = {
       ]
     },
     {
-      "id": "CRIM1002",
+      "id": "crim1002",
       "type": "course",
       "code": "CRIM1002",
       "name": "Criminological Perspectives: Understanding Crime",
@@ -21162,7 +24166,7 @@ window.ANREVIEW_DATA = {
       ]
     },
     {
-      "id": "CRIM2003",
+      "id": "crim2003",
       "type": "course",
       "code": "CRIM2003",
       "name": "Controversies in Crime Control",
@@ -21186,7 +24190,7 @@ window.ANREVIEW_DATA = {
       ]
     },
     {
-      "id": "CRIM2005",
+      "id": "crim2005",
       "type": "course",
       "code": "CRIM2005",
       "name": "Alcohol, Drugs and Crime: Promoting Health and Preventing Consequences",
@@ -21213,7 +24217,7 @@ window.ANREVIEW_DATA = {
       ]
     },
     {
-      "id": "CRIM2006",
+      "id": "crim2006",
       "type": "course",
       "code": "CRIM2006",
       "name": "Young People and Crime: Developmental Criminology and its Discontents",
@@ -21240,7 +24244,7 @@ window.ANREVIEW_DATA = {
       ]
     },
     {
-      "id": "CRIM2009",
+      "id": "crim2009",
       "type": "course",
       "code": "CRIM2009",
       "name": "Corruption in our world",
@@ -21267,7 +24271,7 @@ window.ANREVIEW_DATA = {
       ]
     },
     {
-      "id": "CRIM2010",
+      "id": "crim2010",
       "type": "course",
       "code": "CRIM2010",
       "name": "Cybercrime: an introduction",
@@ -21293,7 +24297,7 @@ window.ANREVIEW_DATA = {
       ]
     },
     {
-      "id": "CRIM3001",
+      "id": "crim3001",
       "type": "course",
       "code": "CRIM3001",
       "name": "Professional Perspectives on Crime and Prevention",
@@ -21320,7 +24324,7 @@ window.ANREVIEW_DATA = {
       ]
     },
     {
-      "id": "CRIM3002",
+      "id": "crim3002",
       "type": "course",
       "code": "CRIM3002",
       "name": "Corruption in Sport",
@@ -21346,7 +24350,7 @@ window.ANREVIEW_DATA = {
       ]
     },
     {
-      "id": "CRIM3003",
+      "id": "crim3003",
       "type": "course",
       "code": "CRIM3003",
       "name": "Criminology at the Scene 1",
@@ -21372,7 +24376,7 @@ window.ANREVIEW_DATA = {
       ]
     },
     {
-      "id": "CRIM3005",
+      "id": "crim3005",
       "type": "course",
       "code": "CRIM3005",
       "name": "Diversity and Crime: Equality in the Criminal Justice System",
@@ -21399,7 +24403,7 @@ window.ANREVIEW_DATA = {
       ]
     },
     {
-      "id": "CRIM3006",
+      "id": "crim3006",
       "type": "course",
       "code": "CRIM3006",
       "name": "Crime Prevention: Evaluation Theory and Practice",
@@ -21426,7 +24430,7 @@ window.ANREVIEW_DATA = {
       ]
     },
     {
-      "id": "CRIM3010",
+      "id": "crim3010",
       "type": "course",
       "code": "CRIM3010",
       "name": "Doing Criminology: Advanced Research Methods",
@@ -21453,7 +24457,79 @@ window.ANREVIEW_DATA = {
       ]
     },
     {
-      "id": "DEMO1001",
+      "id": "crwf7900",
+      "type": "course",
+      "code": "CRWF7900",
+      "name": "Graduate Academic and Research Skills for Public Policy",
+      "summary": "This pre-sessional course aims to prepare students who may be embarking on graduate coursework for the first time, or who may have been away from formal studies for a significant period of time. It ensures students can adjust to the academic culture and expectations of graduate study by familiarising them with the Crawford academic environment. This includes expectations around teaching and learning, the language of different disciplines, research skills, critical analysis, use of argument and evidence, academic reading and writing, academic integrity and referencing, and presentation skills.",
+      "school": "Crawford School of Public Policy",
+      "schoolCode": "CRAW",
+      "college": "ANU College of Law, Governance and Policy",
+      "level": "PGRD",
+      "terms": [],
+      "conveners": [
+        "Dr Michael Di Francesco",
+        "Dr Thuy Do"
+      ],
+      "handbookUrl": "https://programsandcourses.anu.edu.au/course/CRWF7900",
+      "reviewMetrics": [
+        "Teaching quality",
+        "Workload fairness",
+        "Assessment design"
+      ],
+      "tags": [
+        "public policy"
+      ]
+    },
+    {
+      "id": "crwf8019",
+      "type": "course",
+      "code": "CRWF8019",
+      "name": "Public Policy and Professional Internship",
+      "summary": "The Public Policy and Professional Internship is part of the Crawford School of Public Policy’s suite of work integrated learning (WIL) options that promote reciprocal learning between academic studies and workplace application. This course provides students with an opportunity to gain credit towards their degree by undertaking a self-sourced internship. Students complete a placement in an appropriate public purpose or private entity to gain exposure to the organisational context and professional practice of public policy, and prepare a substantial research report that applies theoretical knowledge to a project topic connected to the internship.",
+      "school": "Crawford School of Public Policy",
+      "schoolCode": "CRAW",
+      "college": "ANU College of Law, Governance and Policy",
+      "level": "PGRD",
+      "terms": [],
+      "conveners": [
+        "Dr Michael Di Francesco",
+        "Dr Michael Di Francesco"
+      ],
+      "handbookUrl": "https://programsandcourses.anu.edu.au/course/CRWF8019",
+      "reviewMetrics": [
+        "Teaching quality",
+        "Workload fairness",
+        "Assessment design"
+      ],
+      "tags": [
+        "public policy"
+      ]
+    },
+    {
+      "id": "crwf8021",
+      "type": "course",
+      "code": "CRWF8021",
+      "name": "Applied Policy Project",
+      "summary": "The Applied Policy Project is part of the Crawford School of Public Policy’s suite of work integrated learning (WIL) options that promote reciprocal learning between academic studies and workplace application. This course provides students with an opportunity to undertake applied research for real-world policy organisations. Clients from the public or non-government sectors – such as government departments, think tanks, peak bodies, and advocacy groups – initiate each project.",
+      "school": "Crawford School of Public Policy",
+      "schoolCode": "CRAW",
+      "college": "ANU College of Law, Governance and Policy",
+      "level": "PGRD",
+      "terms": [],
+      "conveners": [],
+      "handbookUrl": "https://programsandcourses.anu.edu.au/course/CRWF8021",
+      "reviewMetrics": [
+        "Teaching quality",
+        "Workload fairness",
+        "Assessment design"
+      ],
+      "tags": [
+        "public policy"
+      ]
+    },
+    {
+      "id": "demo1001",
       "type": "course",
       "code": "DEMO1001",
       "name": "Global population challenges",
@@ -21480,7 +24556,7 @@ window.ANREVIEW_DATA = {
       ]
     },
     {
-      "id": "DEMO2001",
+      "id": "demo2001",
       "type": "course",
       "code": "DEMO2001",
       "name": "Understanding Population Change",
@@ -21507,7 +24583,7 @@ window.ANREVIEW_DATA = {
       ]
     },
     {
-      "id": "DEMO2002",
+      "id": "demo2002",
       "type": "course",
       "code": "DEMO2002",
       "name": "Population Analysis",
@@ -21534,7 +24610,7 @@ window.ANREVIEW_DATA = {
       ]
     },
     {
-      "id": "DEMO2003",
+      "id": "demo2003",
       "type": "course",
       "code": "DEMO2003",
       "name": "Migration in the Modern World",
@@ -21562,7 +24638,7 @@ window.ANREVIEW_DATA = {
       ]
     },
     {
-      "id": "DEMO2004",
+      "id": "demo2004",
       "type": "course",
       "code": "DEMO2004",
       "name": "Social Inequalities in Health",
@@ -21589,7 +24665,7 @@ window.ANREVIEW_DATA = {
       ]
     },
     {
-      "id": "DEMO3001",
+      "id": "demo3001",
       "type": "course",
       "code": "DEMO3001",
       "name": "Population Policy Case Studies",
@@ -21616,7 +24692,7 @@ window.ANREVIEW_DATA = {
       ]
     },
     {
-      "id": "DEMO3002",
+      "id": "demo3002",
       "type": "course",
       "code": "DEMO3002",
       "name": "Demographic Research Internship",
@@ -21644,7 +24720,7 @@ window.ANREVIEW_DATA = {
       ]
     },
     {
-      "id": "DEMO3010",
+      "id": "demo3010",
       "type": "course",
       "code": "DEMO3010",
       "name": "Perspectives on Sex, Gender and Population",
@@ -21671,7 +24747,7 @@ window.ANREVIEW_DATA = {
       ]
     },
     {
-      "id": "ECHI1006",
+      "id": "echi1006",
       "type": "course",
       "code": "ECHI1006",
       "name": "The Australian Economy: Past and Present",
@@ -21695,7 +24771,7 @@ window.ANREVIEW_DATA = {
       ]
     },
     {
-      "id": "ECHI3009",
+      "id": "echi3009",
       "type": "course",
       "code": "ECHI3009",
       "name": "World Economy Since 1800",
@@ -21719,7 +24795,7 @@ window.ANREVIEW_DATA = {
       ]
     },
     {
-      "id": "ECON1100",
+      "id": "econ1100",
       "type": "course",
       "code": "ECON1100",
       "name": "Economics I (H)",
@@ -21743,7 +24819,7 @@ window.ANREVIEW_DATA = {
       ]
     },
     {
-      "id": "ECON1101",
+      "id": "econ1101",
       "type": "course",
       "code": "ECON1101",
       "name": "Microeconomics 1",
@@ -21769,7 +24845,7 @@ window.ANREVIEW_DATA = {
       ]
     },
     {
-      "id": "ECON1102",
+      "id": "econ1102",
       "type": "course",
       "code": "ECON1102",
       "name": "Macroeconomics 1",
@@ -21794,7 +24870,7 @@ window.ANREVIEW_DATA = {
       ]
     },
     {
-      "id": "ECON2009",
+      "id": "econ2009",
       "type": "course",
       "code": "ECON2009",
       "name": "Labour Economics and Industrial Relations",
@@ -21818,7 +24894,7 @@ window.ANREVIEW_DATA = {
       ]
     },
     {
-      "id": "ECON2013",
+      "id": "econ2013",
       "type": "course",
       "code": "ECON2013",
       "name": "Behavioral Economics",
@@ -21844,7 +24920,7 @@ window.ANREVIEW_DATA = {
       ]
     },
     {
-      "id": "ECON2014",
+      "id": "econ2014",
       "type": "course",
       "code": "ECON2014",
       "name": "Managerial Economics",
@@ -21869,7 +24945,7 @@ window.ANREVIEW_DATA = {
       ]
     },
     {
-      "id": "ECON2016",
+      "id": "econ2016",
       "type": "course",
       "code": "ECON2016",
       "name": "Economics II (H)",
@@ -21893,7 +24969,7 @@ window.ANREVIEW_DATA = {
       ]
     },
     {
-      "id": "ECON2026",
+      "id": "econ2026",
       "type": "course",
       "code": "ECON2026",
       "name": "Money and Banking",
@@ -21917,7 +24993,7 @@ window.ANREVIEW_DATA = {
       ]
     },
     {
-      "id": "ECON2101",
+      "id": "econ2101",
       "type": "course",
       "code": "ECON2101",
       "name": "Microeconomics 2",
@@ -21942,7 +25018,7 @@ window.ANREVIEW_DATA = {
       ]
     },
     {
-      "id": "ECON2102",
+      "id": "econ2102",
       "type": "course",
       "code": "ECON2102",
       "name": "Macroeconomics 2",
@@ -21967,7 +25043,7 @@ window.ANREVIEW_DATA = {
       ]
     },
     {
-      "id": "ECON2108",
+      "id": "econ2108",
       "type": "course",
       "code": "ECON2108",
       "name": "Japanese Economy and Economic Policy",
@@ -21991,7 +25067,7 @@ window.ANREVIEW_DATA = {
       ]
     },
     {
-      "id": "ECON2125",
+      "id": "econ2125",
       "type": "course",
       "code": "ECON2125",
       "name": "Optimisation for Economics and Financial Economics",
@@ -22017,7 +25093,7 @@ window.ANREVIEW_DATA = {
       ]
     },
     {
-      "id": "ECON2131",
+      "id": "econ2131",
       "type": "course",
       "code": "ECON2131",
       "name": "Public Sector Economics",
@@ -22041,7 +25117,7 @@ window.ANREVIEW_DATA = {
       ]
     },
     {
-      "id": "ECON2141",
+      "id": "econ2141",
       "type": "course",
       "code": "ECON2141",
       "name": "Strategic Thinking: An introduction to Game Theory",
@@ -22065,7 +25141,7 @@ window.ANREVIEW_DATA = {
       ]
     },
     {
-      "id": "ECON2900",
+      "id": "econ2900",
       "type": "course",
       "code": "ECON2900",
       "name": "Development Poverty and Famine",
@@ -22092,7 +25168,7 @@ window.ANREVIEW_DATA = {
       ]
     },
     {
-      "id": "ECON3004",
+      "id": "econ3004",
       "type": "course",
       "code": "ECON3004",
       "name": "Health Economics",
@@ -22116,7 +25192,7 @@ window.ANREVIEW_DATA = {
       ]
     },
     {
-      "id": "ECON3006",
+      "id": "econ3006",
       "type": "course",
       "code": "ECON3006",
       "name": "Financial Economics",
@@ -22141,7 +25217,7 @@ window.ANREVIEW_DATA = {
       ]
     },
     {
-      "id": "ECON3021",
+      "id": "econ3021",
       "type": "course",
       "code": "ECON3021",
       "name": "International Monetary Economics",
@@ -22165,7 +25241,7 @@ window.ANREVIEW_DATA = {
       ]
     },
     {
-      "id": "ECON3023",
+      "id": "econ3023",
       "type": "course",
       "code": "ECON3023",
       "name": "Economic Policy Issues",
@@ -22189,7 +25265,7 @@ window.ANREVIEW_DATA = {
       ]
     },
     {
-      "id": "ECON3057",
+      "id": "econ3057",
       "type": "course",
       "code": "ECON3057",
       "name": "Industrial Organisation",
@@ -22213,7 +25289,7 @@ window.ANREVIEW_DATA = {
       ]
     },
     {
-      "id": "ECON3100",
+      "id": "econ3100",
       "type": "course",
       "code": "ECON3100",
       "name": "Economics 3 (H)",
@@ -22237,7 +25313,7 @@ window.ANREVIEW_DATA = {
       ]
     },
     {
-      "id": "ECON3101",
+      "id": "econ3101",
       "type": "course",
       "code": "ECON3101",
       "name": "Microeconomics 3",
@@ -22261,7 +25337,7 @@ window.ANREVIEW_DATA = {
       ]
     },
     {
-      "id": "ECON3102",
+      "id": "econ3102",
       "type": "course",
       "code": "ECON3102",
       "name": "Macroeconomics 3",
@@ -22285,7 +25361,7 @@ window.ANREVIEW_DATA = {
       ]
     },
     {
-      "id": "ECON3103",
+      "id": "econ3103",
       "type": "course",
       "code": "ECON3103",
       "name": "International Economics",
@@ -22310,7 +25386,7 @@ window.ANREVIEW_DATA = {
       ]
     },
     {
-      "id": "ECON3128",
+      "id": "econ3128",
       "type": "course",
       "code": "ECON3128",
       "name": "Resource and Environmental Economics",
@@ -22334,7 +25410,7 @@ window.ANREVIEW_DATA = {
       ]
     },
     {
-      "id": "ECON3152",
+      "id": "econ3152",
       "type": "course",
       "code": "ECON3152",
       "name": "Game Theory",
@@ -22358,7 +25434,7 @@ window.ANREVIEW_DATA = {
       ]
     },
     {
-      "id": "ECON3180",
+      "id": "econ3180",
       "type": "course",
       "code": "ECON3180",
       "name": "Advanced Behavioral Economics",
@@ -22383,7 +25459,157 @@ window.ANREVIEW_DATA = {
       ]
     },
     {
-      "id": "EMET1001",
+      "id": "emdv8009",
+      "type": "course",
+      "code": "EMDV8009",
+      "name": "Asia-Pacific Environmental Conflicts",
+      "summary": "This course explores the drivers and effects of environmental and resource conflicts in the Asia-Pacific region including Australia. The course develops a critically informed toolkit, which has applications for conflict avoidance and resolution, as well as for transformative change. Students will engage with classic debates on whether cases of environmental violence are best understood as connected to the dynamics of resource degradation, poverty and scarcity, or the mechanisms of extraction and unequal distribution of resource-based wealth in a globalised economy.",
+      "school": "Crawford School of Public Policy",
+      "schoolCode": "CRAW",
+      "college": "ANU College of Law, Governance and Policy",
+      "level": "PGRD",
+      "terms": [],
+      "conveners": [
+        "AsPr Keith Barney",
+        "AsPr Keith Barney"
+      ],
+      "handbookUrl": "https://programsandcourses.anu.edu.au/course/EMDV8009",
+      "reviewMetrics": [
+        "Teaching quality",
+        "Workload fairness",
+        "Assessment design"
+      ],
+      "tags": [
+        "public policy"
+      ]
+    },
+    {
+      "id": "emdv8079",
+      "type": "course",
+      "code": "EMDV8079",
+      "name": "Water Justice, Management and Governance",
+      "summary": "This course explores key challenges and debates in contemporary water management and governance and how these relate to water (in)justice. This transdisciplinary course draws on geography, economics, social and environmental sciences and policy to cover the following topics: · What is water justice?: key frameworks and links to water rights, equity and fairness; justice theory; · Competing uses as drivers of water (in)justice : Interconnections between water, social justice and socio-technical systems such as energy and food; · Justice dimensions of climate change and water infrastructure: environmental; distribution of costs and benefits; water pollution · Human right to water and sanitation: SDG 6 and interconnection with other SDGs, gaps in drinking water access in the Global North · Barriers to water justice : water and conflict · Water management & governance approaches : Indigenous and decolonial critiques; · Water justice counter- discourses : review and critique of exiting governance models; co-governance and legal pluralism The course combines research-based teaching by the conveners and guest lecturers with interactive learning activities. Over two weeks, participants will be encouraged to use their knowledge and experiences as a foundation for exploring diverse perspectives of ‘water justice’ in order to develop their capability to work in transdisciplinary fields.",
+      "school": "Crawford School of Public Policy",
+      "schoolCode": "CRAW",
+      "college": "ANU College of Law, Governance and Policy",
+      "level": "PGRD",
+      "terms": [],
+      "conveners": [
+        "Dr Mai Nguyen",
+        "Dr Mai Nguyen"
+      ],
+      "handbookUrl": "https://programsandcourses.anu.edu.au/course/EMDV8079",
+      "reviewMetrics": [
+        "Teaching quality",
+        "Workload fairness",
+        "Assessment design"
+      ],
+      "tags": [
+        "public policy"
+      ]
+    },
+    {
+      "id": "emdv8080",
+      "type": "course",
+      "code": "EMDV8080",
+      "name": "International Climate Change Policy and Economics",
+      "summary": "This course introduces students to foundations of and recent developments in international climate change policy. Topics covered include climate change response options, and economic and policy perspectives on the problem of international cooperation; international environmental agreements, especially the UN Framework Convention on Climate Change and the Paris Agreement; international carbon markets and climate finance; cooperation on technology; international dimensions of adaptation to climate change; relationship with other international objectives such as the Sustainable Development Goals; and international governance of climate change action. The course provides a non-technical introduction to some economic thinking on climate change, no prior economics study in needed.",
+      "school": "Crawford School of Public Policy",
+      "schoolCode": "CRAW",
+      "college": "ANU College of Law, Governance and Policy",
+      "level": "PGRD",
+      "terms": [],
+      "conveners": [
+        "Dr Frank Jotzo",
+        "Dr Frank Jotzo"
+      ],
+      "handbookUrl": "https://programsandcourses.anu.edu.au/course/EMDV8080",
+      "reviewMetrics": [
+        "Teaching quality",
+        "Workload fairness",
+        "Assessment design"
+      ],
+      "tags": [
+        "public policy"
+      ]
+    },
+    {
+      "id": "emdv8081",
+      "type": "course",
+      "code": "EMDV8081",
+      "name": "Domestic Climate Change Policy and Economics",
+      "summary": "Climate change is a key concern for public policy making, including as part of core economic policy. Decarbonisation will require changes in technologies, production and consumption, and means transition in some industries. Meanwhile, communities and businesses will need to prepare for impacts from climate change and adapt to them.",
+      "school": "Crawford School of Public Policy",
+      "schoolCode": "CRAW",
+      "college": "ANU College of Law, Governance and Policy",
+      "level": "PGRD",
+      "terms": [],
+      "conveners": [
+        "Dr Frank Jotzo",
+        "Dr Frank Jotzo"
+      ],
+      "handbookUrl": "https://programsandcourses.anu.edu.au/course/EMDV8081",
+      "reviewMetrics": [
+        "Teaching quality",
+        "Workload fairness",
+        "Assessment design"
+      ],
+      "tags": [
+        "public policy"
+      ]
+    },
+    {
+      "id": "emdv8104",
+      "type": "course",
+      "code": "EMDV8104",
+      "name": "Environmental Governance",
+      "summary": "In this course we examine local, national and international environmental governance issues, with a focus on ethical principles, theories and frameworks that may be used to address a wide range of problems relating to environment and development issues, in the domains of biodiversity conservation, climate change, and forests and fisheries management, among others. We consider the organisations, institutions and actors influencing environmental management, and we look for policies and tools to address the problems of environmental degradation and social inequality. A range of resource management approaches are also considered, including common property management, market and non-market incentives for resource management, government regulation and planning, decentralization, and indigenous and community-based initiatives.",
+      "school": "Crawford School of Public Policy",
+      "schoolCode": "CRAW",
+      "college": "ANU College of Law, Governance and Policy",
+      "level": "PGRD",
+      "terms": [],
+      "conveners": [
+        "AsPr Sarah Milne",
+        "AsPr Sarah Milne"
+      ],
+      "handbookUrl": "https://programsandcourses.anu.edu.au/course/EMDV8104",
+      "reviewMetrics": [
+        "Teaching quality",
+        "Workload fairness",
+        "Assessment design"
+      ],
+      "tags": [
+        "public policy"
+      ]
+    },
+    {
+      "id": "emdv8124",
+      "type": "course",
+      "code": "EMDV8124",
+      "name": "Disaster Risk Reduction and Management",
+      "summary": "This course takes a critical approach to explore case studies of disaster governance and responses across Asia and the Pacific. Beginning with framing ideas of resilience theory, as well as concepts of vulnerability and disaster governance this course is designed to explore the politics of disasters and climate change. The second half of the course will involve students playing the innovative online disaster game.",
+      "school": "Crawford School of Public Policy",
+      "schoolCode": "CRAW",
+      "college": "ANU College of Law, Governance and Policy",
+      "level": "PGRD",
+      "terms": [],
+      "conveners": [
+        "Dr Siobhan McDonnell",
+        "Dr Siobhan McDonnell"
+      ],
+      "handbookUrl": "https://programsandcourses.anu.edu.au/course/EMDV8124",
+      "reviewMetrics": [
+        "Teaching quality",
+        "Workload fairness",
+        "Assessment design"
+      ],
+      "tags": [
+        "public policy"
+      ]
+    },
+    {
+      "id": "emet1001",
       "type": "course",
       "code": "EMET1001",
       "name": "Foundations of Economic and Financial Models",
@@ -22410,7 +25636,7 @@ window.ANREVIEW_DATA = {
       ]
     },
     {
-      "id": "EMET2007",
+      "id": "emet2007",
       "type": "course",
       "code": "EMET2007",
       "name": "Econometrics I: Econometric Methods",
@@ -22434,7 +25660,7 @@ window.ANREVIEW_DATA = {
       ]
     },
     {
-      "id": "EMET3006",
+      "id": "emet3006",
       "type": "course",
       "code": "EMET3006",
       "name": "Applied Micro-econometrics",
@@ -22459,7 +25685,7 @@ window.ANREVIEW_DATA = {
       ]
     },
     {
-      "id": "EMET3007",
+      "id": "emet3007",
       "type": "course",
       "code": "EMET3007",
       "name": "Business and Economic Forecasting",
@@ -22483,7 +25709,7 @@ window.ANREVIEW_DATA = {
       ]
     },
     {
-      "id": "ENGL1100",
+      "id": "engl1100",
       "type": "course",
       "code": "ENGL1100",
       "name": "Secrets and Lies: Literature and the Self",
@@ -22509,7 +25735,7 @@ window.ANREVIEW_DATA = {
       ]
     },
     {
-      "id": "ENGL1200",
+      "id": "engl1200",
       "type": "course",
       "code": "ENGL1200",
       "name": "Imagined Worlds",
@@ -22533,7 +25759,7 @@ window.ANREVIEW_DATA = {
       ]
     },
     {
-      "id": "ENGL2015",
+      "id": "engl2015",
       "type": "course",
       "code": "ENGL2015",
       "name": "Creative Writing",
@@ -22559,7 +25785,7 @@ window.ANREVIEW_DATA = {
       ]
     },
     {
-      "id": "ENGL2020",
+      "id": "engl2020",
       "type": "course",
       "code": "ENGL2020",
       "name": "Texts in Performance",
@@ -22586,7 +25812,7 @@ window.ANREVIEW_DATA = {
       ]
     },
     {
-      "id": "ENGL2022",
+      "id": "engl2022",
       "type": "course",
       "code": "ENGL2022",
       "name": "Jane Austen History and Fiction",
@@ -22613,7 +25839,7 @@ window.ANREVIEW_DATA = {
       ]
     },
     {
-      "id": "ENGL2023",
+      "id": "engl2023",
       "type": "course",
       "code": "ENGL2023",
       "name": "Feeling Bad in Contemporary Literature",
@@ -22637,7 +25863,7 @@ window.ANREVIEW_DATA = {
       ]
     },
     {
-      "id": "ENGL2027",
+      "id": "engl2027",
       "type": "course",
       "code": "ENGL2027",
       "name": "Queens, Tyrants, Traitors: Power Play on the Early Modern Stage",
@@ -22661,7 +25887,7 @@ window.ANREVIEW_DATA = {
       ]
     },
     {
-      "id": "ENGL2040",
+      "id": "engl2040",
       "type": "course",
       "code": "ENGL2040",
       "name": "The Making of Literature: Topics in Literary Production and Reception",
@@ -22687,7 +25913,7 @@ window.ANREVIEW_DATA = {
       ]
     },
     {
-      "id": "ENGL2067",
+      "id": "engl2067",
       "type": "course",
       "code": "ENGL2067",
       "name": "Adaptation: From Text to Screen",
@@ -22713,7 +25939,7 @@ window.ANREVIEW_DATA = {
       ]
     },
     {
-      "id": "ENGL2068",
+      "id": "engl2068",
       "type": "course",
       "code": "ENGL2068",
       "name": "Empire: the Black Atlantic and Colonial Romanticism",
@@ -22737,7 +25963,7 @@ window.ANREVIEW_DATA = {
       ]
     },
     {
-      "id": "ENGL2077",
+      "id": "engl2077",
       "type": "course",
       "code": "ENGL2077",
       "name": "Creative Writing 2: Story to Script to Performance",
@@ -22761,7 +25987,7 @@ window.ANREVIEW_DATA = {
       ]
     },
     {
-      "id": "ENGL2085",
+      "id": "engl2085",
       "type": "course",
       "code": "ENGL2085",
       "name": "Strange Home: Rethinking Australian Literature",
@@ -22787,7 +26013,7 @@ window.ANREVIEW_DATA = {
       ]
     },
     {
-      "id": "ENGL2087",
+      "id": "engl2087",
       "type": "course",
       "code": "ENGL2087",
       "name": "Reality Effects: Truth, Representation and Narrative Form",
@@ -22811,7 +26037,7 @@ window.ANREVIEW_DATA = {
       ]
     },
     {
-      "id": "ENGL2111",
+      "id": "engl2111",
       "type": "course",
       "code": "ENGL2111",
       "name": "Imaginary Journeys: Writing Travel in Australian Literature and Film",
@@ -22837,7 +26063,7 @@ window.ANREVIEW_DATA = {
       ]
     },
     {
-      "id": "ENGL2116",
+      "id": "engl2116",
       "type": "course",
       "code": "ENGL2116",
       "name": "Televisual: Investigating Narrative Television",
@@ -22864,7 +26090,7 @@ window.ANREVIEW_DATA = {
       ]
     },
     {
-      "id": "ENGL2222",
+      "id": "engl2222",
       "type": "course",
       "code": "ENGL2222",
       "name": "Great Writers: Special Topics in Gender, Authorship and History",
@@ -22891,7 +26117,7 @@ window.ANREVIEW_DATA = {
       ]
     },
     {
-      "id": "ENGL2230",
+      "id": "engl2230",
       "type": "course",
       "code": "ENGL2230",
       "name": "Poetry and Activism",
@@ -22915,7 +26141,7 @@ window.ANREVIEW_DATA = {
       ]
     },
     {
-      "id": "ENGL2789",
+      "id": "engl2789",
       "type": "course",
       "code": "ENGL2789",
       "name": "Writing Climate: Form and Crisis",
@@ -22939,7 +26165,7 @@ window.ANREVIEW_DATA = {
       ]
     },
     {
-      "id": "ENGL3005",
+      "id": "engl3005",
       "type": "course",
       "code": "ENGL3005",
       "name": "The Evolution of Comedy: Early Modern to Eighteenth Century",
@@ -22964,7 +26190,7 @@ window.ANREVIEW_DATA = {
       ]
     },
     {
-      "id": "ENGL3008",
+      "id": "engl3008",
       "type": "course",
       "code": "ENGL3008",
       "name": "The Meaning of Monsters: Frankenstein and Literary Theory",
@@ -22989,7 +26215,7 @@ window.ANREVIEW_DATA = {
       ]
     },
     {
-      "id": "ENGL3021",
+      "id": "engl3021",
       "type": "course",
       "code": "ENGL3021",
       "name": "American Literature: Nature, Retreat, Experiment",
@@ -23016,7 +26242,7 @@ window.ANREVIEW_DATA = {
       ]
     },
     {
-      "id": "ENGL3022",
+      "id": "engl3022",
       "type": "course",
       "code": "ENGL3022",
       "name": "Make It New: Innovation and Experiment in Modernist Literature, 1910-1940",
@@ -23041,7 +26267,7 @@ window.ANREVIEW_DATA = {
       ]
     },
     {
-      "id": "ENGL3036",
+      "id": "engl3036",
       "type": "course",
       "code": "ENGL3036",
       "name": "Victorian Literature",
@@ -23067,7 +26293,7 @@ window.ANREVIEW_DATA = {
       ]
     },
     {
-      "id": "ENGL3037",
+      "id": "engl3037",
       "type": "course",
       "code": "ENGL3037",
       "name": "Literature, Law and Human Rights",
@@ -23094,7 +26320,7 @@ window.ANREVIEW_DATA = {
       ]
     },
     {
-      "id": "ENGL3078",
+      "id": "engl3078",
       "type": "course",
       "code": "ENGL3078",
       "name": "Advanced Creative Writing: Genre and Literary Value",
@@ -23118,7 +26344,7 @@ window.ANREVIEW_DATA = {
       ]
     },
     {
-      "id": "ENGL3100",
+      "id": "engl3100",
       "type": "course",
       "code": "ENGL3100",
       "name": "English Capstone: Understanding, Communicating, Creating",
@@ -23142,7 +26368,7 @@ window.ANREVIEW_DATA = {
       ]
     },
     {
-      "id": "ENGN3013",
+      "id": "engn3013",
       "type": "course",
       "code": "ENGN3013",
       "name": "Engineering for a Humanitarian Context",
@@ -23170,7 +26396,7 @@ window.ANREVIEW_DATA = {
       ]
     },
     {
-      "id": "ENVS1003",
+      "id": "envs1003",
       "type": "course",
       "code": "ENVS1003",
       "name": "Introduction to Environmental and Social Research",
@@ -23197,7 +26423,7 @@ window.ANREVIEW_DATA = {
       ]
     },
     {
-      "id": "ENVS2005",
+      "id": "envs2005",
       "type": "course",
       "code": "ENVS2005",
       "name": "Island Sustainable Development: Fiji Field School",
@@ -23224,7 +26450,7 @@ window.ANREVIEW_DATA = {
       ]
     },
     {
-      "id": "ENVS2011",
+      "id": "envs2011",
       "type": "course",
       "code": "ENVS2011",
       "name": "Human Ecology",
@@ -23251,7 +26477,7 @@ window.ANREVIEW_DATA = {
       ]
     },
     {
-      "id": "ENVS2013",
+      "id": "envs2013",
       "type": "course",
       "code": "ENVS2013",
       "name": "Society and Environmental Change",
@@ -23278,7 +26504,7 @@ window.ANREVIEW_DATA = {
       ]
     },
     {
-      "id": "ENVS2017",
+      "id": "envs2017",
       "type": "course",
       "code": "ENVS2017",
       "name": "Vietnam Field School",
@@ -23305,7 +26531,7 @@ window.ANREVIEW_DATA = {
       ]
     },
     {
-      "id": "ENVS2023",
+      "id": "envs2023",
       "type": "course",
       "code": "ENVS2023",
       "name": "Sustainable Agricultural Systems",
@@ -23332,7 +26558,7 @@ window.ANREVIEW_DATA = {
       ]
     },
     {
-      "id": "ENVS3020",
+      "id": "envs3020",
       "type": "course",
       "code": "ENVS3020",
       "name": "Climate Change: Science, Society, and Policy",
@@ -23360,7 +26586,7 @@ window.ANREVIEW_DATA = {
       ]
     },
     {
-      "id": "ENVS3028",
+      "id": "envs3028",
       "type": "course",
       "code": "ENVS3028",
       "name": "Environmental Policy",
@@ -23387,7 +26613,7 @@ window.ANREVIEW_DATA = {
       ]
     },
     {
-      "id": "ENVS3033",
+      "id": "envs3033",
       "type": "course",
       "code": "ENVS3033",
       "name": "International Environmental Policy",
@@ -23414,7 +26640,7 @@ window.ANREVIEW_DATA = {
       ]
     },
     {
-      "id": "FINM1001",
+      "id": "finm1001",
       "type": "course",
       "code": "FINM1001",
       "name": "Foundations of Finance",
@@ -23439,7 +26665,7 @@ window.ANREVIEW_DATA = {
       ]
     },
     {
-      "id": "FINM2001",
+      "id": "finm2001",
       "type": "course",
       "code": "FINM2001",
       "name": "Corporate Finance",
@@ -23464,7 +26690,7 @@ window.ANREVIEW_DATA = {
       ]
     },
     {
-      "id": "FINM2002",
+      "id": "finm2002",
       "type": "course",
       "code": "FINM2002",
       "name": "Derivatives",
@@ -23489,7 +26715,7 @@ window.ANREVIEW_DATA = {
       ]
     },
     {
-      "id": "FINM3003",
+      "id": "finm3003",
       "type": "course",
       "code": "FINM3003",
       "name": "Continuous Time Finance",
@@ -23513,7 +26739,7 @@ window.ANREVIEW_DATA = {
       ]
     },
     {
-      "id": "FINM3005",
+      "id": "finm3005",
       "type": "course",
       "code": "FINM3005",
       "name": "Corporate Valuation",
@@ -23538,7 +26764,7 @@ window.ANREVIEW_DATA = {
       ]
     },
     {
-      "id": "FINM3006",
+      "id": "finm3006",
       "type": "course",
       "code": "FINM3006",
       "name": "Financial Intermediation and Debt Markets",
@@ -23562,7 +26788,7 @@ window.ANREVIEW_DATA = {
       ]
     },
     {
-      "id": "FINM3007",
+      "id": "finm3007",
       "type": "course",
       "code": "FINM3007",
       "name": "Advanced Derivatives Pricing and Applications",
@@ -23586,7 +26812,7 @@ window.ANREVIEW_DATA = {
       ]
     },
     {
-      "id": "FINM3008",
+      "id": "finm3008",
       "type": "course",
       "code": "FINM3008",
       "name": "Portfolio Construction",
@@ -23611,7 +26837,7 @@ window.ANREVIEW_DATA = {
       ]
     },
     {
-      "id": "FINM3009",
+      "id": "finm3009",
       "type": "course",
       "code": "FINM3009",
       "name": "Student Managed Fund",
@@ -23636,7 +26862,7 @@ window.ANREVIEW_DATA = {
       ]
     },
     {
-      "id": "FINM3010",
+      "id": "finm3010",
       "type": "course",
       "code": "FINM3010",
       "name": "Student Managed Fund Extension",
@@ -23661,7 +26887,7 @@ window.ANREVIEW_DATA = {
       ]
     },
     {
-      "id": "FINM3011",
+      "id": "finm3011",
       "type": "course",
       "code": "FINM3011",
       "name": "Investments",
@@ -23686,7 +26912,7 @@ window.ANREVIEW_DATA = {
       ]
     },
     {
-      "id": "FINM3015",
+      "id": "finm3015",
       "type": "course",
       "code": "FINM3015",
       "name": "Foundations of Fintech",
@@ -23710,7 +26936,7 @@ window.ANREVIEW_DATA = {
       ]
     },
     {
-      "id": "FINM3045",
+      "id": "finm3045",
       "type": "course",
       "code": "FINM3045",
       "name": "Asian Capital Markets",
@@ -23735,7 +26961,7 @@ window.ANREVIEW_DATA = {
       ]
     },
     {
-      "id": "FREN3515",
+      "id": "fren3515",
       "type": "course",
       "code": "FREN3515",
       "name": "The Sounds of French: Phonetics and Pronunciation",
@@ -23761,7 +26987,7 @@ window.ANREVIEW_DATA = {
       ]
     },
     {
-      "id": "GEND2023",
+      "id": "gend2023",
       "type": "course",
       "code": "GEND2023",
       "name": "Gender, Sex and Sexuality: An Introduction to Feminist Theory",
@@ -23785,7 +27011,7 @@ window.ANREVIEW_DATA = {
       ]
     },
     {
-      "id": "GEND2037",
+      "id": "gend2037",
       "type": "course",
       "code": "GEND2037",
       "name": "Young People, Sex and Consent",
@@ -23813,7 +27039,7 @@ window.ANREVIEW_DATA = {
       ]
     },
     {
-      "id": "GEND3016",
+      "id": "gend3016",
       "type": "course",
       "code": "GEND3016",
       "name": "Writing Lives: Autobiography in Fiction and Memoir",
@@ -23838,7 +27064,7 @@ window.ANREVIEW_DATA = {
       ]
     },
     {
-      "id": "HIST1209",
+      "id": "hist1209",
       "type": "course",
       "code": "HIST1209",
       "name": "Terror to Terrorism: A History",
@@ -23865,7 +27091,7 @@ window.ANREVIEW_DATA = {
       ]
     },
     {
-      "id": "HIST1214",
+      "id": "hist1214",
       "type": "course",
       "code": "HIST1214",
       "name": "Empires in Global History",
@@ -23892,7 +27118,7 @@ window.ANREVIEW_DATA = {
       ]
     },
     {
-      "id": "HIST2022",
+      "id": "hist2022",
       "type": "course",
       "code": "HIST2022",
       "name": "Aboriginal and Torres Strait Islander History",
@@ -23917,7 +27143,7 @@ window.ANREVIEW_DATA = {
       ]
     },
     {
-      "id": "HIST2070",
+      "id": "hist2070",
       "type": "course",
       "code": "HIST2070",
       "name": "Emperors, Pilgrims and Crusaders: The World of Byzantium",
@@ -23944,7 +27170,7 @@ window.ANREVIEW_DATA = {
       ]
     },
     {
-      "id": "HIST2110",
+      "id": "hist2110",
       "type": "course",
       "code": "HIST2110",
       "name": "Approaches to History",
@@ -23969,7 +27195,7 @@ window.ANREVIEW_DATA = {
       ]
     },
     {
-      "id": "HIST2136",
+      "id": "hist2136",
       "type": "course",
       "code": "HIST2136",
       "name": "World at War, 1939-1945",
@@ -23993,7 +27219,7 @@ window.ANREVIEW_DATA = {
       ]
     },
     {
-      "id": "HIST2141",
+      "id": "hist2141",
       "type": "course",
       "code": "HIST2141",
       "name": "The Cold War: 1945-1989",
@@ -24020,7 +27246,7 @@ window.ANREVIEW_DATA = {
       ]
     },
     {
-      "id": "HIST2196",
+      "id": "hist2196",
       "type": "course",
       "code": "HIST2196",
       "name": "From the Romans to the Anglo-Saxons: Early Medieval Europe c. 400-1000 CE",
@@ -24047,7 +27273,7 @@ window.ANREVIEW_DATA = {
       ]
     },
     {
-      "id": "HIST2205",
+      "id": "hist2205",
       "type": "course",
       "code": "HIST2205",
       "name": "Europe and the Atlantic World, c.1492—1776.",
@@ -24071,7 +27297,7 @@ window.ANREVIEW_DATA = {
       ]
     },
     {
-      "id": "HIST2206",
+      "id": "hist2206",
       "type": "course",
       "code": "HIST2206",
       "name": "The Great War’s Battlefields: A Study Tour of Gallipoli, the Western Front and Paris",
@@ -24097,7 +27323,7 @@ window.ANREVIEW_DATA = {
       ]
     },
     {
-      "id": "HIST2211",
+      "id": "hist2211",
       "type": "course",
       "code": "HIST2211",
       "name": "Global Environmental History Since 1945",
@@ -24122,7 +27348,7 @@ window.ANREVIEW_DATA = {
       ]
     },
     {
-      "id": "HIST2214",
+      "id": "hist2214",
       "type": "course",
       "code": "HIST2214",
       "name": "The Great War. The Conflict that Changed the World.",
@@ -24148,7 +27374,7 @@ window.ANREVIEW_DATA = {
       ]
     },
     {
-      "id": "HIST2221",
+      "id": "hist2221",
       "type": "course",
       "code": "HIST2221",
       "name": "Britain in the Age of Revolutions and Empires 1688-1848",
@@ -24172,7 +27398,7 @@ window.ANREVIEW_DATA = {
       ]
     },
     {
-      "id": "HIST2226",
+      "id": "hist2226",
       "type": "course",
       "code": "HIST2226",
       "name": "Nazi Germany",
@@ -24199,7 +27425,7 @@ window.ANREVIEW_DATA = {
       ]
     },
     {
-      "id": "HIST2227",
+      "id": "hist2227",
       "type": "course",
       "code": "HIST2227",
       "name": "Australian Political History",
@@ -24223,7 +27449,7 @@ window.ANREVIEW_DATA = {
       ]
     },
     {
-      "id": "HIST2231",
+      "id": "hist2231",
       "type": "course",
       "code": "HIST2231",
       "name": "Exploration: From Captain Cook to the Astronauts",
@@ -24250,7 +27476,7 @@ window.ANREVIEW_DATA = {
       ]
     },
     {
-      "id": "HIST2232",
+      "id": "hist2232",
       "type": "course",
       "code": "HIST2232",
       "name": "Crime and Justice: Historical Dilemmas",
@@ -24274,7 +27500,7 @@ window.ANREVIEW_DATA = {
       ]
     },
     {
-      "id": "HIST2240",
+      "id": "hist2240",
       "type": "course",
       "code": "HIST2240",
       "name": "Democracy and Dissent: Europe Since 1945",
@@ -24301,7 +27527,7 @@ window.ANREVIEW_DATA = {
       ]
     },
     {
-      "id": "HIST2242",
+      "id": "hist2242",
       "type": "course",
       "code": "HIST2242",
       "name": "The Soviet Union: From the Russian Revolution to the Collapse of Communism",
@@ -24329,7 +27555,7 @@ window.ANREVIEW_DATA = {
       ]
     },
     {
-      "id": "HIST2252",
+      "id": "hist2252",
       "type": "course",
       "code": "HIST2252",
       "name": "Twentieth Century America: Building a Global Hegemon",
@@ -24356,7 +27582,7 @@ window.ANREVIEW_DATA = {
       ]
     },
     {
-      "id": "HIST3007",
+      "id": "hist3007",
       "type": "course",
       "code": "HIST3007",
       "name": "Making History",
@@ -24380,7 +27606,7 @@ window.ANREVIEW_DATA = {
       ]
     },
     {
-      "id": "HIST3012",
+      "id": "hist3012",
       "type": "course",
       "code": "HIST3012",
       "name": "Topics in History",
@@ -24405,7 +27631,7 @@ window.ANREVIEW_DATA = {
       ]
     },
     {
-      "id": "HIST3110",
+      "id": "hist3110",
       "type": "course",
       "code": "HIST3110",
       "name": "Approaches to History",
@@ -24430,7 +27656,7 @@ window.ANREVIEW_DATA = {
       ]
     },
     {
-      "id": "HIST3142",
+      "id": "hist3142",
       "type": "course",
       "code": "HIST3142",
       "name": "Indigenous History, Memory and Politics",
@@ -24457,7 +27683,7 @@ window.ANREVIEW_DATA = {
       ]
     },
     {
-      "id": "HLTH2001",
+      "id": "hlth2001",
       "type": "course",
       "code": "HLTH2001",
       "name": "Health Systems and Policy: An Introduction",
@@ -24483,7 +27709,7 @@ window.ANREVIEW_DATA = {
       ]
     },
     {
-      "id": "HONS4300",
+      "id": "hons4300",
       "type": "course",
       "code": "HONS4300",
       "name": "Final Honours Grade",
@@ -24508,7 +27734,120 @@ window.ANREVIEW_DATA = {
       ]
     },
     {
-      "id": "INDG1001",
+      "id": "idec8000",
+      "type": "course",
+      "code": "IDEC8000",
+      "name": "Government, Markets and Global Change",
+      "summary": "This course tackles the big questions of economic growth, inequality, and sustainability. It introduces students to a range of contemporary debates, frameworks, and insights and helps students to apply them to produce technically sound and politically attractive policy advice on real-world problems. Through a mix of lectures, interactive case workshops, and the writing of case papers, the course exposes students to the key policy debates of our time and helps them to improve their analytical and writing skills.",
+      "school": "Crawford School of Public Policy",
+      "schoolCode": "CRAW",
+      "college": "ANU College of Law, Governance and Policy",
+      "level": "PGRD",
+      "terms": [],
+      "conveners": [],
+      "handbookUrl": "https://programsandcourses.anu.edu.au/course/IDEC8000",
+      "reviewMetrics": [
+        "Teaching quality",
+        "Workload fairness",
+        "Assessment design"
+      ],
+      "tags": [
+        "public policy"
+      ]
+    },
+    {
+      "id": "idec8021",
+      "type": "course",
+      "code": "IDEC8021",
+      "name": "The Chinese Economy",
+      "summary": "Since Deng Xiaoping initiated the process of 'reform and opening up' in the late 1970s, China has emerged as the second largest and one of the most dynamic economies in the world. China's domestic economic reforms and integration into the global economy raise countless questions about the nature of China's economic growth and development process in the past, present, and future: Has China's transition from central planning to an increasingly market-based economy been successful? What kind of capitalist system is China becoming, if becoming capitalist at all?",
+      "school": "Crawford School of Public Policy",
+      "schoolCode": "CRAW",
+      "college": "ANU College of Law, Governance and Policy",
+      "level": "PGRD",
+      "terms": [],
+      "conveners": [],
+      "handbookUrl": "https://programsandcourses.anu.edu.au/course/IDEC8021",
+      "reviewMetrics": [
+        "Teaching quality",
+        "Workload fairness",
+        "Assessment design"
+      ],
+      "tags": [
+        "public policy"
+      ]
+    },
+    {
+      "id": "idec8034",
+      "type": "course",
+      "code": "IDEC8034",
+      "name": "Middle Eastern Economies",
+      "summary": "This course provides a comparative analysis of the economic development of Middle Eastern economies. The course deals primarily with the determinants of each country's economic development and the roles of historical, cultural, institutional, social, and political factors. The main focus will be identifying and comparing the relative importance of those factors that appear to have hindered or promoted economic development in each of the studied economies.",
+      "school": "Crawford School of Public Policy",
+      "schoolCode": "CRAW",
+      "college": "ANU College of Law, Governance and Policy",
+      "level": "PGRD",
+      "terms": [],
+      "conveners": [],
+      "handbookUrl": "https://programsandcourses.anu.edu.au/course/IDEC8034",
+      "reviewMetrics": [
+        "Teaching quality",
+        "Workload fairness",
+        "Assessment design"
+      ],
+      "tags": [
+        "public policy"
+      ]
+    },
+    {
+      "id": "idec8035",
+      "type": "course",
+      "code": "IDEC8035",
+      "name": "Islamic Economies in Practice",
+      "summary": "This course examines key concepts and ideas within the field of Islamic economics and finance and how they relate to contemporary economic and banking practices. It provides students with an in-depth understanding of the Islamic economic systems and their contemporary applications in various Muslim majority countries. The course pays close attention to the emergence of Islamic finance, as well as introducing key ideas and common products in Islamic banking.",
+      "school": "Crawford School of Public Policy",
+      "schoolCode": "CRAW",
+      "college": "ANU College of Law, Governance and Policy",
+      "level": "PGRD",
+      "terms": [],
+      "conveners": [],
+      "handbookUrl": "https://programsandcourses.anu.edu.au/course/IDEC8035",
+      "reviewMetrics": [
+        "Teaching quality",
+        "Workload fairness",
+        "Assessment design"
+      ],
+      "tags": [
+        "public policy"
+      ]
+    },
+    {
+      "id": "idec8089",
+      "type": "course",
+      "code": "IDEC8089",
+      "name": "Energy Economics",
+      "summary": "The course examines the role of energy in the economy, economic methods of assessing and modelling energy, the economics of various sources of energy, electricity markets, and other key topics in energy economics. Fossil fuel, renewable, and nuclear energy sources will each be studied, as will energy efficiency, security, and sustainability. The course will examine key challenges and opportunities in the energy sector in Australia and overseas.",
+      "school": "Crawford School of Public Policy",
+      "schoolCode": "CRAW",
+      "college": "ANU College of Law, Governance and Policy",
+      "level": "PGRD",
+      "terms": [],
+      "conveners": [
+        "Dr Hiroshi Matsushima",
+        "Dr Hiroshi Matsushima"
+      ],
+      "handbookUrl": "https://programsandcourses.anu.edu.au/course/IDEC8089",
+      "reviewMetrics": [
+        "Teaching quality",
+        "Workload fairness",
+        "Assessment design"
+      ],
+      "tags": [
+        "public policy"
+      ]
+    },
+    {
+      "id": "indg1001",
       "type": "course",
       "code": "INDG1001",
       "name": "Country, Kinship and Continuities: An Introduction to Australian Indigenous Studies",
@@ -24535,7 +27874,7 @@ window.ANREVIEW_DATA = {
       ]
     },
     {
-      "id": "INDG1002",
+      "id": "indg1002",
       "type": "course",
       "code": "INDG1002",
       "name": "Resilience, Responsibility, and Resurgence: First Peoples' Experiences and Ways of Being",
@@ -24562,7 +27901,7 @@ window.ANREVIEW_DATA = {
       ]
     },
     {
-      "id": "INDG2003",
+      "id": "indg2003",
       "type": "course",
       "code": "INDG2003",
       "name": "Gamilaraay - Introduction to an Australian Indigenous Language",
@@ -24589,7 +27928,7 @@ window.ANREVIEW_DATA = {
       ]
     },
     {
-      "id": "INDG2004",
+      "id": "indg2004",
       "type": "course",
       "code": "INDG2004",
       "name": "Continuing Gamilaraay",
@@ -24617,7 +27956,7 @@ window.ANREVIEW_DATA = {
       ]
     },
     {
-      "id": "INDG3001",
+      "id": "indg3001",
       "type": "course",
       "code": "INDG3001",
       "name": "First Nations Peoples, the State and Public Policy in Australia",
@@ -24644,7 +27983,7 @@ window.ANREVIEW_DATA = {
       ]
     },
     {
-      "id": "INDG3003",
+      "id": "indg3003",
       "type": "course",
       "code": "INDG3003",
       "name": "First Peoples' economic self-determination and prosperity in the Australian economy",
@@ -24671,7 +28010,7 @@ window.ANREVIEW_DATA = {
       ]
     },
     {
-      "id": "INFS1001",
+      "id": "infs1001",
       "type": "course",
       "code": "INFS1001",
       "name": "Business Information Systems",
@@ -24696,7 +28035,7 @@ window.ANREVIEW_DATA = {
       ]
     },
     {
-      "id": "INFS2005",
+      "id": "infs2005",
       "type": "course",
       "code": "INFS2005",
       "name": "Accounting Information Systems",
@@ -24722,7 +28061,7 @@ window.ANREVIEW_DATA = {
       ]
     },
     {
-      "id": "INFS2024",
+      "id": "infs2024",
       "type": "course",
       "code": "INFS2024",
       "name": "Information Systems Analysis",
@@ -24746,7 +28085,7 @@ window.ANREVIEW_DATA = {
       ]
     },
     {
-      "id": "INFS3002",
+      "id": "infs3002",
       "type": "course",
       "code": "INFS3002",
       "name": "Enterprise Systems in Business",
@@ -24770,7 +28109,7 @@ window.ANREVIEW_DATA = {
       ]
     },
     {
-      "id": "INFS3024",
+      "id": "infs3024",
       "type": "course",
       "code": "INFS3024",
       "name": "Information Systems Management",
@@ -24794,7 +28133,7 @@ window.ANREVIEW_DATA = {
       ]
     },
     {
-      "id": "INFS3059",
+      "id": "infs3059",
       "type": "course",
       "code": "INFS3059",
       "name": "Information Systems Capstone Project",
@@ -25437,7 +28776,7 @@ window.ANREVIEW_DATA = {
       ]
     },
     {
-      "id": "LANG3007",
+      "id": "lang3007",
       "type": "course",
       "code": "LANG3007",
       "name": "Romance Linguistics",
@@ -25463,466 +28802,474 @@ window.ANREVIEW_DATA = {
       ]
     },
     {
-      "id": "LAWS1201",
+      "id": "laws1201",
       "type": "course",
       "code": "LAWS1201",
       "name": "Foundations of Australian Law",
-      "college": "ANU College of Law, Governance and Policy",
+      "summary": "This course must be taken in the commencing semester of a student's LLB program. Students commencing their legal studies in Semester One are expected to undertake Foundations of Australian Law with LAWS1203 Torts. Students commencing their legal studies in Semester Two are expected to undertake Foundations of Australian Law with LAWS1204 Contracts.",
       "school": "ANU Law School",
       "schoolCode": "LAW",
+      "college": "ANU College of Law, Governance and Policy",
       "level": "UGRD",
-      "terms": [
-        "First Semester",
-        "Second Semester"
+      "terms": [],
+      "conveners": [
+        "AsPr Judith Jones",
+        "Dr Michelle Worthington"
       ],
-      "conveners": [],
-      "handbookUrl": "https://programsandcourses.anu.edu.au/course/laws1201",
-      "summary": "This course must be taken in the commencing semester of a student's LLB program. Students commencing their legal studies in Semester One are expected to undertake Foundations of Australian Law with LAWS1203 Torts.",
-      "tags": [
-        "law"
-      ],
+      "handbookUrl": "https://programsandcourses.anu.edu.au/course/LAWS1201",
       "reviewMetrics": [
         "Teaching quality",
         "Workload fairness",
         "Assessment design"
+      ],
+      "tags": [
+        "law"
       ]
     },
     {
-      "id": "LAWS1202",
+      "id": "laws1202",
       "type": "course",
       "code": "LAWS1202",
       "name": "Lawyers Justice and Ethics",
-      "college": "ANU College of Law, Governance and Policy",
+      "summary": "Lawyers, Justice and Ethics (LJE) builds on the learning outcomes of LAWS1201 Foundations of Law in three significant ways. First, within the framework of the Australian legal system studied in LAWS1201, LJE examines the role and ethical obligations of lawyers as the principal representatives and interpreters of the legal system. Secondly, LJE analyses perceptions of justice in and through law.",
       "school": "ANU Law School",
       "schoolCode": "LAW",
+      "college": "ANU College of Law, Governance and Policy",
       "level": "UGRD",
-      "terms": [
-        "Second Semester"
+      "terms": [],
+      "conveners": [
+        "Dr Susan Bartie",
+        "Dr Susan Bartie"
       ],
-      "conveners": [],
-      "handbookUrl": "https://programsandcourses.anu.edu.au/course/laws1202",
-      "summary": "Lawyers, Justice and Ethics (LJE) builds on the learning outcomes of LAWS1201 Foundations of Law in three significant ways. First, within the framework of the Australian legal system studied in LAWS1201, LJE examines the role and ethical obligations of lawyers as the principal representatives and interpreters of the legal system.",
-      "tags": [
-        "law"
-      ],
+      "handbookUrl": "https://programsandcourses.anu.edu.au/course/LAWS1202",
       "reviewMetrics": [
         "Teaching quality",
         "Workload fairness",
         "Assessment design"
+      ],
+      "tags": [
+        "law"
       ]
     },
     {
-      "id": "LAWS1203",
+      "id": "laws1203",
       "type": "course",
       "code": "LAWS1203",
       "name": "Torts",
-      "college": "ANU College of Law, Governance and Policy",
+      "summary": "When a person has been harmed by the conduct of another it is the law of torts which determines who has to bear the loss. This is an important aspect of the civil law (in contrast to criminal law). Historically, it derived largely from judicial decisions, and hence was largely what we call common law, but in more recent times legislation has become increasingly important.",
       "school": "ANU Law School",
       "schoolCode": "LAW",
+      "college": "ANU College of Law, Governance and Policy",
       "level": "UGRD",
-      "terms": [
-        "First Semester"
+      "terms": [],
+      "conveners": [
+        "AsPr Rebekah McWhirter",
+        "AsPr Rebekah McWhirter"
       ],
-      "conveners": [],
-      "handbookUrl": "https://programsandcourses.anu.edu.au/course/laws1203",
-      "summary": "When a person has been harmed by the conduct of another it is the law of torts which determines who has to bear the loss. This is an important aspect of the civil law (in contrast to criminal law).",
-      "tags": [
-        "law"
-      ],
+      "handbookUrl": "https://programsandcourses.anu.edu.au/course/LAWS1203",
       "reviewMetrics": [
         "Teaching quality",
         "Workload fairness",
         "Assessment design"
+      ],
+      "tags": [
+        "law"
       ]
     },
     {
-      "id": "LAWS1204",
+      "id": "laws1204",
       "type": "course",
       "code": "LAWS1204",
       "name": "Contracts",
-      "college": "ANU College of Law, Governance and Policy",
+      "summary": "Contracts is one of the foundation subjects in the law program and examines a central aspect of the law of obligations. The course considers the evolution of contract law, its central role in a market economy, and the criteria for making legally enforceable promissory obligations. The requirements for the formation of a binding contract are examined together with the content of agreements.",
       "school": "ANU Law School",
       "schoolCode": "LAW",
+      "college": "ANU College of Law, Governance and Policy",
       "level": "UGRD",
-      "terms": [
-        "Second Semester"
-      ],
+      "terms": [],
       "conveners": [],
-      "handbookUrl": "https://programsandcourses.anu.edu.au/course/laws1204",
-      "summary": "Contracts is one of the foundation subjects in the law program and examines a central aspect of the law of obligations. The course considers the evolution of contract law, its central role in a market economy, and the criteria for making legally enforceable promissory obligations.",
-      "tags": [
-        "law"
-      ],
+      "handbookUrl": "https://programsandcourses.anu.edu.au/course/LAWS1204",
       "reviewMetrics": [
         "Teaching quality",
         "Workload fairness",
         "Assessment design"
+      ],
+      "tags": [
+        "law"
       ]
     },
     {
-      "id": "LAWS1205",
+      "id": "laws1205",
       "type": "course",
       "code": "LAWS1205",
       "name": "Australian Public Law",
-      "college": "ANU College of Law, Governance and Policy",
+      "summary": "This course examines the structure and themes of Australian public law, providing a bridge to all other public law study in the curriculum. In essence, the course examines how public power is structured, distributed, and controlled in Australia. The distinctive roles played by the legislature, the executive and the judiciary receive special attention.",
       "school": "ANU Law School",
       "schoolCode": "LAW",
+      "college": "ANU College of Law, Governance and Policy",
       "level": "UGRD",
-      "terms": [
-        "First Semester"
+      "terms": [],
+      "conveners": [
+        "Dr Clement Chen",
+        "Prof Ron Levy"
       ],
-      "conveners": [],
-      "handbookUrl": "https://programsandcourses.anu.edu.au/course/laws1205",
-      "summary": "This course examines the structure and themes of Australian public law, providing a bridge to all other public law study in the curriculum. In essence, the course examines how public power is structured, distributed, and controlled in Australia.",
-      "tags": [
-        "law"
-      ],
+      "handbookUrl": "https://programsandcourses.anu.edu.au/course/LAWS1205",
       "reviewMetrics": [
         "Teaching quality",
         "Workload fairness",
         "Assessment design"
+      ],
+      "tags": [
+        "law"
       ]
     },
     {
-      "id": "LAWS1206",
+      "id": "laws1206",
       "type": "course",
       "code": "LAWS1206",
       "name": "Criminal Law and Procedure",
-      "college": "ANU College of Law, Governance and Policy",
+      "summary": "This course introduces students to the sources of law which define principles of criminal responsibility, and to substantive criminal offences, criminal defences and criminal procedure. The substantive offences include assault, sexual assault, murder, manslaughter, and property offences, and the criminal defences include provocation and self-defence. This course will provide students with an understanding of: Key legal theories of criminal law; Common law sources; and Legislation and criminal codes where relevant.",
       "school": "ANU Law School",
       "schoolCode": "LAW",
+      "college": "ANU College of Law, Governance and Policy",
       "level": "UGRD",
-      "terms": [
-        "First Semester"
+      "terms": [],
+      "conveners": [
+        "Dr Anton Moiseienko",
+        "Dr Anton Moiseienko"
       ],
-      "conveners": [],
-      "handbookUrl": "https://programsandcourses.anu.edu.au/course/laws1206",
-      "summary": "This course introduces students to the sources of law which define principles of criminal responsibility, and to substantive criminal offences, criminal defences and criminal procedure. The substantive offences include assault, sexual assault, murder, manslaughter, and property offences, and the criminal defences include provocation and self-defence.",
+      "handbookUrl": "https://programsandcourses.anu.edu.au/course/LAWS1206",
+      "reviewMetrics": [
+        "Teaching quality",
+        "Workload fairness",
+        "Assessment design"
+      ],
       "tags": [
         "law",
         "criminology"
-      ],
-      "reviewMetrics": [
-        "Teaching quality",
-        "Workload fairness",
-        "Assessment design"
       ]
     },
     {
-      "id": "LAWS2201",
+      "id": "laws2201",
       "type": "course",
       "code": "LAWS2201",
       "name": "Administrative Law",
-      "college": "ANU College of Law, Governance and Policy",
+      "summary": "Administrative Law examines the legal framework for controlling decision-making by Commonwealth, State and local government decision-makers in Australia. It focuses on the legal restraints upon government, and the role those restraints play in maintaining government accountability. The role played by courts, tribunals and Ombudsman and the opportunities available to the public to question government activity is examined.",
       "school": "ANU Law School",
       "schoolCode": "LAW",
+      "college": "ANU College of Law, Governance and Policy",
       "level": "UGRD",
-      "terms": [
-        "First Semester"
+      "terms": [],
+      "conveners": [
+        "Prof Leighton McDonald",
+        "Prof Leighton McDonald"
       ],
-      "conveners": [],
-      "handbookUrl": "https://programsandcourses.anu.edu.au/course/laws2201",
-      "summary": "Administrative Law examines the legal framework for controlling decision-making by Commonwealth, State and local government decision-makers in Australia. It focuses on the legal restraints upon government, and the role those restraints play in maintaining government accountability.",
-      "tags": [
-        "law"
-      ],
+      "handbookUrl": "https://programsandcourses.anu.edu.au/course/LAWS2201",
       "reviewMetrics": [
         "Teaching quality",
         "Workload fairness",
         "Assessment design"
+      ],
+      "tags": [
+        "law"
       ]
     },
     {
-      "id": "LAWS2202",
+      "id": "laws2202",
       "type": "course",
       "code": "LAWS2202",
       "name": "Commonwealth Constitutional Law",
-      "college": "ANU College of Law, Governance and Policy",
+      "summary": "Building on previous public law studies, particularly Australian Public Law, this course deepens student understanding of key aspects of the Commonwealth Constitution and its judicial interpretation by the High Court. Particular attention will be paid to the historical, social and institutional forces which have helped shape the Constitution and the High Court's reading of it. The course includes: the historical, social and institutional context of Australian constitutional law; the scope of Commonwealth legislative power, including the corporations power (s 51(xx)), the external affairs power (s 51(xxix)); the 'races' power (s51(XXVI)), the process of characterisation and the principle in the Communist Party Case; inconsistency between Commonwealth and State laws (s 109); federal financial powers and economic union; general principles and theories of interpretation; the Engineers Case and implied intergovernmental immunities; the implied freedom of political communication; and the nature of judicial review and the role of the High Court.",
       "school": "ANU Law School",
       "schoolCode": "LAW",
+      "college": "ANU College of Law, Governance and Policy",
       "level": "UGRD",
-      "terms": [
-        "Second Semester"
+      "terms": [],
+      "conveners": [
+        "Prof Ron Levy",
+        "Prof Ron Levy"
       ],
-      "conveners": [],
-      "handbookUrl": "https://programsandcourses.anu.edu.au/course/laws2202",
-      "summary": "Building on previous public law studies, particularly Australian Public Law, this course deepens student understanding of key aspects of the Commonwealth Constitution and its judicial interpretation by the High Court. Particular attention will be paid to the historical, social and institutional forces which have helped shape the Constitution and the High...",
-      "tags": [
-        "law"
-      ],
+      "handbookUrl": "https://programsandcourses.anu.edu.au/course/LAWS2202",
       "reviewMetrics": [
         "Teaching quality",
         "Workload fairness",
         "Assessment design"
+      ],
+      "tags": [
+        "law"
       ]
     },
     {
-      "id": "LAWS2203",
+      "id": "laws2203",
       "type": "course",
       "code": "LAWS2203",
       "name": "Corporations Law",
-      "college": "ANU College of Law, Governance and Policy",
+      "summary": "This course provides an understanding of Australian corporate law. The course is structured to meet the admission requirements for practice as a legal practitioner in the Australian states and territories. The following topics will be covered: forms of business association, including partnership; incorporation and the concept of separate legal personality; the corporate constitution; membership of the corporation and share capital; corporate contracting; duties and liabilities of directors and officers; basic features of the management of companies; shareholders' remedies; company credit and security arrangements; and winding up.",
       "school": "ANU Law School",
       "schoolCode": "LAW",
+      "college": "ANU College of Law, Governance and Policy",
       "level": "UGRD",
-      "terms": [
-        "First Semester"
+      "terms": [],
+      "conveners": [
+        "Dr Michelle Worthington",
+        "Dr Michelle Worthington"
       ],
-      "conveners": [],
-      "handbookUrl": "https://programsandcourses.anu.edu.au/course/laws2203",
-      "summary": "This course provides an understanding of Australian corporate law. The course is structured to meet the admission requirements for practice as a legal practitioner in the Australian states and territories.",
-      "tags": [
-        "law"
-      ],
+      "handbookUrl": "https://programsandcourses.anu.edu.au/course/LAWS2203",
       "reviewMetrics": [
         "Teaching quality",
         "Workload fairness",
         "Assessment design"
+      ],
+      "tags": [
+        "law"
       ]
     },
     {
-      "id": "LAWS2204",
+      "id": "laws2204",
       "type": "course",
       "code": "LAWS2204",
       "name": "Property",
-      "college": "ANU College of Law, Governance and Policy",
+      "summary": "This course is a compulsory course required for admission to legal practice. Understanding the law of property is essential for any practising lawyer. The course builds heavily on the law of contract (which you have already completed) and will lead on to other compulsory and elective courses.",
       "school": "ANU Law School",
       "schoolCode": "LAW",
+      "college": "ANU College of Law, Governance and Policy",
       "level": "UGRD",
-      "terms": [
-        "First Semester"
-      ],
+      "terms": [],
       "conveners": [],
-      "handbookUrl": "https://programsandcourses.anu.edu.au/course/laws2204",
-      "summary": "This course is a compulsory course required for admission to legal practice. Understanding the law of property is essential for any practising lawyer.",
-      "tags": [
-        "law"
-      ],
+      "handbookUrl": "https://programsandcourses.anu.edu.au/course/LAWS2204",
       "reviewMetrics": [
         "Teaching quality",
         "Workload fairness",
         "Assessment design"
+      ],
+      "tags": [
+        "law"
       ]
     },
     {
-      "id": "LAWS2205",
+      "id": "laws2205",
       "type": "course",
       "code": "LAWS2205",
       "name": "Equity and Trusts",
-      "college": "ANU College of Law, Governance and Policy",
+      "summary": "The objective of the course is to provide students with an overall understanding of the law of equity with special emphasis on fiduciary obligations, trusts, equitable assignment of property and equitable remedies. The course will consider the history of equity, basic principles which dominate its jurisprudence and the relevance of equity today; the nature of fiduciary obligations, recognised categories of fiduciaries and the extension of these categories in recent times, breach of fiduciary obligations, defences and remedies for the breach of fiduciary obligations; the requirements for express trusts, the liability of a third party to a breach of trust or fiduciary duty, and the remedies for breach of trust and fiduciary duty, including tracing. The course then shifts its focus to equity more generally by considering the equitable rules for assignment of property and the remedies of specific performance and injunctions.",
       "school": "ANU Law School",
       "schoolCode": "LAW",
+      "college": "ANU College of Law, Governance and Policy",
       "level": "UGRD",
-      "terms": [
-        "Second Semester"
+      "terms": [],
+      "conveners": [
+        "Dr Darryn Jensen",
+        "Dr Darryn Jensen"
       ],
-      "conveners": [],
-      "handbookUrl": "https://programsandcourses.anu.edu.au/course/laws2205",
-      "summary": "The objective of the course is to provide students with an overall understanding of the law of equity with special emphasis on fiduciary obligations, trusts, equitable assignment of property and equitable remedies. The course will consider the history of equity, basic principles which dominate its jurisprudence and the relevance of equity today; the natur...",
-      "tags": [
-        "law"
-      ],
+      "handbookUrl": "https://programsandcourses.anu.edu.au/course/LAWS2205",
       "reviewMetrics": [
         "Teaching quality",
         "Workload fairness",
         "Assessment design"
+      ],
+      "tags": [
+        "law"
       ]
     },
     {
-      "id": "LAWS2207",
+      "id": "laws2207",
       "type": "course",
       "code": "LAWS2207",
       "name": "Evidence",
-      "college": "ANU College of Law, Governance and Policy",
+      "summary": "This course covers important aspects of fact-finding and the adducing and admissibility of evidence in legal proceedings. The course is structured to meet the admission requirements for practice as a legal practitioner in the Australian States and Territories. Particular topics include: investigation and organisation of factual material adducing evidence in court testimonial, real and documentary evidence examination, cross-examination and reexamination of witnesses burden and standard of proof relevance of evidence to facts in issue admissibility rules (e.g.",
       "school": "ANU Law School",
       "schoolCode": "LAW",
+      "college": "ANU College of Law, Governance and Policy",
       "level": "UGRD",
-      "terms": [
-        "Second Semester"
+      "terms": [],
+      "conveners": [
+        "AsPr Jason Chin",
+        "AsPr Jason Chin"
       ],
-      "conveners": [],
-      "handbookUrl": "https://programsandcourses.anu.edu.au/course/laws2207",
-      "summary": "This course covers important aspects of fact-finding and the adducing and admissibility of evidence in legal proceedings. The course is structured to meet the admission requirements for practice as a legal practitioner in the Australian States and Territories.",
-      "tags": [
-        "human sciences"
-      ],
+      "handbookUrl": "https://programsandcourses.anu.edu.au/course/LAWS2207",
       "reviewMetrics": [
         "Teaching quality",
         "Workload fairness",
         "Assessment design"
+      ],
+      "tags": [
+        "law",
+        "human sciences"
       ]
     },
     {
-      "id": "LAWS2244",
+      "id": "laws2244",
       "type": "course",
       "code": "LAWS2244",
       "name": "Litigation and Dispute Management",
-      "college": "ANU College of Law, Governance and Policy",
+      "summary": "This course is an introduction to dispute resolution focussing upon mediation and civil litigation. The course will examine dispute resolution within and outside the legal system and will explore litigation via the principles of civil procedure. The interlocutory steps in civil litigation will be analysed alongside the strategies adopted by lawyers in the conduct of litigation.",
       "school": "ANU Law School",
       "schoolCode": "LAW",
+      "college": "ANU College of Law, Governance and Policy",
       "level": "UGRD",
-      "terms": [
-        "First Semester"
+      "terms": [],
+      "conveners": [
+        "Prof Kate Ogg",
+        "Prof Kate Ogg"
       ],
-      "conveners": [],
-      "handbookUrl": "https://programsandcourses.anu.edu.au/course/laws2244",
-      "summary": "This course is an introduction to dispute resolution focussing upon mediation and civil litigation. The course will examine dispute resolution within and outside the legal system and will explore litigation via the principles of civil procedure.",
-      "tags": [
-        "law"
-      ],
+      "handbookUrl": "https://programsandcourses.anu.edu.au/course/LAWS2244",
       "reviewMetrics": [
         "Teaching quality",
         "Workload fairness",
         "Assessment design"
+      ],
+      "tags": [
+        "law"
       ]
     },
     {
-      "id": "LAWS2248",
+      "id": "laws2248",
       "type": "course",
       "code": "LAWS2248",
       "name": "Legal Research and Writing",
-      "college": "ANU College of Law, Governance and Policy",
+      "summary": "The ability to conduct research into complex legal problems and the ability to write about law, addressing a range of audiences, are essential skills for any lawyer. This course builds on the legal research and writing skills introduced in first year and acquired during compulsory courses throughout the degree to date. It will cover a range of research and writing topics.",
       "school": "ANU Law School",
       "schoolCode": "LAW",
+      "college": "ANU College of Law, Governance and Policy",
       "level": "UGRD",
-      "terms": [
-        "Second Semester"
-      ],
+      "terms": [],
       "conveners": [],
-      "handbookUrl": "https://programsandcourses.anu.edu.au/course/laws2248",
-      "summary": "The ability to conduct research into complex legal problems and the ability to write about law, addressing a range of audiences, are essential skills for any lawyer. This course builds on the legal research and writing skills introduced in first year and acquired during compulsory courses throughout the degree to date.",
-      "tags": [
-        "law"
-      ],
+      "handbookUrl": "https://programsandcourses.anu.edu.au/course/LAWS2248",
       "reviewMetrics": [
         "Teaching quality",
         "Workload fairness",
         "Assessment design"
+      ],
+      "tags": [
+        "law"
       ]
     },
     {
-      "id": "LAWS2249",
+      "id": "laws2249",
       "type": "course",
       "code": "LAWS2249",
       "name": "Legal Theory",
-      "college": "ANU College of Law, Governance and Policy",
+      "summary": "Legal theory encompasses any theoretical reflection about law. Within legal theory, legal philosophy, as its name implies, is the philosophy of law. Legal philosophy brings philosophical rigour to the theoretical reflection about law.",
       "school": "ANU Law School",
       "schoolCode": "LAW",
+      "college": "ANU College of Law, Governance and Policy",
       "level": "UGRD",
-      "terms": [
-        "Second Semester"
+      "terms": [],
+      "conveners": [
+        "AsPr Moeen Cheema",
+        "AsPr Moeen Cheema"
       ],
-      "conveners": [],
-      "handbookUrl": "https://programsandcourses.anu.edu.au/course/laws2249",
-      "summary": "Legal theory encompasses any theoretical reflection about law. Within legal theory, legal philosophy, as its name implies, is the philosophy of law.",
-      "tags": [
-        "law"
-      ],
+      "handbookUrl": "https://programsandcourses.anu.edu.au/course/LAWS2249",
       "reviewMetrics": [
         "Teaching quality",
         "Workload fairness",
         "Assessment design"
+      ],
+      "tags": [
+        "law"
       ]
     },
     {
-      "id": "LAWS2250",
+      "id": "laws2250",
       "type": "course",
       "code": "LAWS2250",
       "name": "International Law",
-      "college": "ANU College of Law, Governance and Policy",
+      "summary": "This course deals with the body of law known as International Law or sometimes ‘Public International Law', as distinct from ‘Private International Law'. The field of International Law deals with many aspects of the functioning of the international community (including the relations of States with each other and with international organisations); it also affects many activities that occur within or across State boundaries (including the treatment by States of their citizens, environmental law, military operations, and many other areas). The impact of international law on the Australian legal system and the globalised nature of many governmental, judicial and social activities means that a basic knowledge of the terminology, institutions, and substance of international law is not only worthwhile acquiring in its own right, but is also a necessary part of the knowledge and skills of any law graduate.",
       "school": "ANU Law School",
       "schoolCode": "LAW",
+      "college": "ANU College of Law, Governance and Policy",
       "level": "UGRD",
-      "terms": [
-        "Second Semester"
-      ],
+      "terms": [],
       "conveners": [],
-      "handbookUrl": "https://programsandcourses.anu.edu.au/course/laws2250",
-      "summary": "This course deals with the body of law known as International Law or sometimes ‘Public International Law', as distinct from ‘Private International Law'. The field of International Law deals with many aspects of the functioning of the international community (including the relations of States with each other and with international organisations); it also a...",
-      "tags": [
-        "law"
-      ],
+      "handbookUrl": "https://programsandcourses.anu.edu.au/course/LAWS2250",
       "reviewMetrics": [
         "Teaching quality",
         "Workload fairness",
         "Assessment design"
+      ],
+      "tags": [
+        "law"
       ]
     },
     {
-      "id": "LAWS4010",
+      "id": "laws4010",
       "type": "course",
       "code": "LAWS4010",
       "name": "Jessup Moot",
-      "college": "ANU College of Law, Governance and Policy",
+      "summary": "Jessup Moot is a summer session elective. It is the Australian round of the Philip C. Jessup International Law Moot Court Competition, the world’s largest mooting competition.",
       "school": "ANU Law School",
       "schoolCode": "LAW",
+      "college": "ANU College of Law, Governance and Policy",
       "level": "UGRD",
-      "terms": [
-        "Summer Session"
+      "terms": [],
+      "conveners": [
+        "Dr Wanshu Cong",
+        "Dr Wanshu Cong"
       ],
-      "conveners": [],
-      "handbookUrl": "https://programsandcourses.anu.edu.au/course/laws4010",
-      "summary": "Jessup Moot is a summer session elective. It is the Australian round of the Philip C. Jessup International Law Moot Court Competition, the world’s largest mooting competition.",
+      "handbookUrl": "https://programsandcourses.anu.edu.au/course/LAWS4010",
+      "reviewMetrics": [
+        "Teaching quality",
+        "Workload fairness",
+        "Assessment design"
+      ],
       "tags": [
         "law",
         "international affairs"
-      ],
-      "reviewMetrics": [
-        "Teaching quality",
-        "Workload fairness",
-        "Assessment design"
       ]
     },
     {
-      "id": "LAWS4213",
+      "id": "laws4213",
       "type": "course",
       "code": "LAWS4213",
       "name": "Contemporary Issues in Constitutional Law",
-      "college": "ANU College of Law, Governance and Policy",
+      "summary": "This course builds on the foundational subjects Australian Public Law and Commonwealth Constitutional Law. The course examines constitutional law in greater depth, with a particular focus on how Australia and other democracies use both written and unwritten constitutional law to regulate the democratic process, including elections, referendums, parliaments, and political parties. A central theme of the course is the use of law to improve the practice of democratic politics.",
       "school": "ANU Law School",
       "schoolCode": "LAW",
+      "college": "ANU College of Law, Governance and Policy",
       "level": "UGRD",
-      "terms": [
-        "First Semester"
+      "terms": [],
+      "conveners": [
+        "Prof Ron Levy",
+        "Prof Ron Levy"
       ],
-      "conveners": [],
-      "handbookUrl": "https://programsandcourses.anu.edu.au/course/laws4213",
-      "summary": "This course builds on the foundational subjects Australian Public Law and Commonwealth Constitutional Law. The course examines constitutional law in greater depth, with a particular focus on how Australia and other democracies use both written and unwritten constitutional law to regulate the democratic process, including elections, referendums, parliament...",
-      "tags": [
-        "law"
-      ],
+      "handbookUrl": "https://programsandcourses.anu.edu.au/course/LAWS4213",
       "reviewMetrics": [
         "Teaching quality",
         "Workload fairness",
         "Assessment design"
+      ],
+      "tags": [
+        "law"
       ]
     },
     {
-      "id": "LAWS4218",
+      "id": "laws4218",
       "type": "course",
       "code": "LAWS4218",
       "name": "Feminist and Critical Legal Theory",
-      "college": "ANU College of Law, Governance and Policy",
+      "summary": "The aim of this course is to engender critical thought about law. In particular, the course introduces students to feminist theories about law. A range of topics will be discussed using a diverse range of feminist and critical materials.",
       "school": "ANU Law School",
       "schoolCode": "LAW",
+      "college": "ANU College of Law, Governance and Policy",
       "level": "UGRD",
-      "terms": [
-        "First Semester"
+      "terms": [],
+      "conveners": [
+        "Dr Jessica Hambly",
+        "Dr Jessica Hambly"
       ],
-      "conveners": [],
-      "handbookUrl": "https://programsandcourses.anu.edu.au/course/laws4218",
-      "summary": "The aim of this course is to engender critical thought about law. In particular, the course introduces students to feminist theories about law.",
-      "tags": [
-        "human sciences"
-      ],
+      "handbookUrl": "https://programsandcourses.anu.edu.au/course/LAWS4218",
       "reviewMetrics": [
         "Teaching quality",
         "Workload fairness",
         "Assessment design"
+      ],
+      "tags": [
+        "law",
+        "human sciences"
       ]
     },
     {
-      "id": "LAWS4221",
+      "id": "laws4221",
       "type": "course",
       "code": "LAWS4221",
       "name": "Income Tax",
@@ -25946,945 +29293,1042 @@ window.ANREVIEW_DATA = {
       ]
     },
     {
-      "id": "LAWS4230",
+      "id": "laws4230",
       "type": "course",
       "code": "LAWS4230",
       "name": "Law Internship (Capstone)",
-      "college": "ANU College of Law, Governance and Policy",
+      "summary": "The ANU Law School internship course offers students an unparalleled opportunity to put their learning into action and carry out a law-based research project in a legal professional workplace. The course requires and develops both legal knowledge and a lawyer's approach to problem identification, analysis and recommendations. Internship placements are available within a variety of Commonwealth and Australian Capital Territory government departments, statutory bodies, community legal centres and other non-government organisations.",
       "school": "ANU Law School",
       "schoolCode": "LAW",
+      "college": "ANU College of Law, Governance and Policy",
       "level": "UGRD",
-      "terms": [
-        "Summer Session",
-        "First Semester",
-        "Winter Session",
-        "Second Semester"
+      "terms": [],
+      "conveners": [
+        "AsPr Matthew Zagor",
+        "Dr Jonathan Liljeblad"
       ],
-      "conveners": [],
-      "handbookUrl": "https://programsandcourses.anu.edu.au/course/laws4230",
-      "summary": "The ANU Law School internship course offers students an unparalleled opportunity to put their learning into action and carry out a law-based research project in a legal professional workplace. The course requires and develops both legal knowledge and a lawyer's approach to problem identification, analysis and recommendations.",
-      "tags": [
-        "law"
-      ],
+      "handbookUrl": "https://programsandcourses.anu.edu.au/course/LAWS4230",
       "reviewMetrics": [
         "Teaching quality",
         "Workload fairness",
         "Assessment design"
+      ],
+      "tags": [
+        "law"
       ]
     },
     {
-      "id": "LAWS4256",
+      "id": "laws4256",
       "type": "course",
       "code": "LAWS4256",
       "name": "Law, Gender Identities and Sexualities",
-      "college": "ANU College of Law, Governance and Policy",
+      "summary": "This course is designed to explore the interactions between law gender identity and sexualities. It will: provide a theoretical framework which highlights the complexity and contradictions inherent in the construction of sexualities, from a transdisciplinary perspective examine a range of legal controversies surrounding sexuality consider the interaction of gender, class, race and sexuality issues consider the relationship between \"queer\" theory, lesbian and gay theory and feminist theory consider the relationship between activism and the legal process.",
       "school": "ANU Law School",
       "schoolCode": "LAW",
+      "college": "ANU College of Law, Governance and Policy",
       "level": "UGRD",
-      "terms": [
-        "Second Semester"
-      ],
+      "terms": [],
       "conveners": [],
-      "handbookUrl": "https://programsandcourses.anu.edu.au/course/laws4256",
-      "summary": "This course is designed to explore the interactions between law gender identity and sexualities. It will: provide a theoretical framework which highlights the complexity and contradictions inherent in the construction of sexualities, from a transdisciplinary perspective examine a range of legal controversies surrounding sexuality consider the interaction...",
-      "tags": [
-        "gender studies",
-        "law"
-      ],
+      "handbookUrl": "https://programsandcourses.anu.edu.au/course/LAWS4256",
       "reviewMetrics": [
         "Teaching quality",
         "Workload fairness",
         "Assessment design"
+      ],
+      "tags": [
+        "law",
+        "gender studies"
       ]
     },
     {
-      "id": "LAWS4262",
+      "id": "laws4262",
       "type": "course",
       "code": "LAWS4262",
       "name": "Advanced Administrative Law",
-      "college": "ANU College of Law, Governance and Policy",
+      "summary": "This course is designed to expose students to some of the most interesting challenges in Australian Administrative Law, and to permit them to engage in a scholarly and reflective analysis of the issues involved in cases and issues which have come before the courts. This course will extend students’ knowledge of the interface between administrative law and other remedial options against public decision makers. The theme of the course builds upon the foundation material studied in the compulsory administrative law classes.",
       "school": "ANU Law School",
       "schoolCode": "LAW",
+      "college": "ANU College of Law, Governance and Policy",
       "level": "UGRD",
-      "terms": [
-        "Second Semester"
+      "terms": [],
+      "conveners": [
+        "Prof Leighton McDonald",
+        "Prof Leighton McDonald"
       ],
-      "conveners": [],
-      "handbookUrl": "https://programsandcourses.anu.edu.au/course/laws4262",
-      "summary": "This course is designed to expose students to some of the most interesting challenges in Australian Administrative Law, and to permit them to engage in a scholarly and reflective analysis of the issues involved in cases and issues which have come before the courts. This course will extend students’ knowledge of the interface between administrative law and...",
-      "tags": [
-        "law"
-      ],
+      "handbookUrl": "https://programsandcourses.anu.edu.au/course/LAWS4262",
       "reviewMetrics": [
         "Teaching quality",
         "Workload fairness",
         "Assessment design"
+      ],
+      "tags": [
+        "law"
       ]
     },
     {
-      "id": "LAWS4299",
+      "id": "laws4299",
       "type": "course",
       "code": "LAWS4299",
       "name": "Law's History and Context",
-      "college": "ANU College of Law, Governance and Policy",
+      "summary": "Law’s History and Context explores history’s role in revealing new insights about law, lawyers and legal institutions and examines how lawyers enlist history to achieve certain ends. Topics include: the relationship between law and colonialism; the contextual qualities of First Nation’s law; the history of legal education and the legal profession; historical and socio-legal methods; legal life writing; law and the history of capitalism; law and the history of the environment; the history of crime; and law’s changing role in matters of gender, sexuality and race. The course is framed around a number of case studies, both local and international, which interrogate long-held beliefs and assumptions about law.",
       "school": "ANU Law School",
       "schoolCode": "LAW",
+      "college": "ANU College of Law, Governance and Policy",
       "level": "UGRD",
-      "terms": [
-        "See ANU course page"
-      ],
+      "terms": [],
       "conveners": [],
-      "handbookUrl": "https://programsandcourses.anu.edu.au/course/laws4299",
-      "summary": "Law’s History and Context explores history’s role in revealing new insights about law, lawyers and legal institutions and examines how lawyers enlist history to achieve certain ends. Topics include: the relationship between law and colonialism; the contextual qualities of First Nation’s law; the history of legal education and the legal profession; histori...",
-      "tags": [
-        "law"
-      ],
+      "handbookUrl": "https://programsandcourses.anu.edu.au/course/LAWS4299",
       "reviewMetrics": [
         "Teaching quality",
         "Workload fairness",
         "Assessment design"
+      ],
+      "tags": [
+        "law"
       ]
     },
     {
-      "id": "LAWS4300",
+      "id": "laws4300",
       "type": "course",
       "code": "LAWS4300",
       "name": "Undergraduate Law Dissertation",
-      "college": "ANU College of Law, Governance and Policy",
+      "summary": "A law research dissertation may be taken as part of a Bachelor of Laws (Honours). The course is worth 12 units and involves the completion of an 11,000-13,000 word research dissertation that will take the place of two standard electives in the LLB (Hons) program. Students will organise supervisors according to the published supervised allocation process that is required in the semester before the commencement of LAWS4300: Undergraduate Law Dissertation.",
       "school": "ANU Law School",
       "schoolCode": "LAW",
+      "college": "ANU College of Law, Governance and Policy",
       "level": "UGRD",
-      "terms": [
-        "First Semester",
-        "Second Semester"
+      "terms": [],
+      "conveners": [
+        "Prof Jolyon Ford",
+        "Prof Jolyon Ford"
       ],
-      "conveners": [],
-      "handbookUrl": "https://programsandcourses.anu.edu.au/course/laws4300",
-      "summary": "A law research dissertation may be taken as part of a Bachelor of Laws (Honours). The course is worth 12 units and involves the completion of an 11,000-13,000 word research dissertation that will take the place of two standard electives in the LLB (Hons) program.",
-      "tags": [
-        "law"
-      ],
+      "handbookUrl": "https://programsandcourses.anu.edu.au/course/LAWS4300",
       "reviewMetrics": [
         "Teaching quality",
         "Workload fairness",
         "Assessment design"
+      ],
+      "tags": [
+        "law"
       ]
     },
     {
-      "id": "LAWS4302",
+      "id": "laws4302",
       "type": "course",
       "code": "LAWS4302",
       "name": "International Law Clinic",
-      "college": "ANU College of Law, Governance and Policy",
+      "summary": "The International Law Clinical Program gives students interested in International Law an experience of the practical application of International Law. The International Law Clinical Program applies students' knowledge of international law and drafting and research skills to contemporary international law projects. The main focus of the Clinical Program is responding to projects initiated by the Convenor and students working collaboratively.",
       "school": "ANU Law School",
       "schoolCode": "LAW",
+      "college": "ANU College of Law, Governance and Policy",
       "level": "UGRD",
-      "terms": [
-        "First Semester"
+      "terms": [],
+      "conveners": [
+        "AsPr Imogen Saunders",
+        "AsPr Imogen Saunders"
       ],
-      "conveners": [],
-      "handbookUrl": "https://programsandcourses.anu.edu.au/course/laws4302",
-      "summary": "The International Law Clinical Program gives students interested in International Law an experience of the practical application of International Law. The International Law Clinical Program applies students' knowledge of international law and drafting and research skills to contemporary international law projects.",
-      "tags": [
-        "law"
-      ],
+      "handbookUrl": "https://programsandcourses.anu.edu.au/course/LAWS4302",
       "reviewMetrics": [
         "Teaching quality",
         "Workload fairness",
         "Assessment design"
+      ],
+      "tags": [
+        "law"
       ]
     },
     {
-      "id": "LAWS4315",
+      "id": "laws4315",
       "type": "course",
       "code": "LAWS4315",
       "name": "Law and Development in the Contemporary South Pacific",
-      "college": "ANU College of Law, Governance and Policy",
+      "summary": "'Good governance', 'rule of law', 'strengthening access to justice' and 'land reform' are currently high on the agenda of governments and donors in the South Pacific region. Law reform is often presented as a remedy to political instability, corruption, disappointing economic growth, and conflict. This course introduces students to the legal systems of the independent nations of the South Pacific and examines the transdisciplinary relationship between law, governance and development in the region.",
       "school": "ANU Law School",
       "schoolCode": "LAW",
+      "college": "ANU College of Law, Governance and Policy",
       "level": "UGRD",
-      "terms": [
-        "Winter Session"
+      "terms": [],
+      "conveners": [
+        "Prof Rebecca Monson",
+        "Prof Rebecca Monson"
       ],
-      "conveners": [],
-      "handbookUrl": "https://programsandcourses.anu.edu.au/course/laws4315",
-      "summary": "'Good governance', 'rule of law', 'strengthening access to justice' and 'land reform' are currently high on the agenda of governments and donors in the South Pacific region. Law reform is often presented as a remedy to political instability, corruption, disappointing economic growth, and conflict.",
-      "tags": [
-        "development studies",
-        "law",
-        "pacific studies"
-      ],
+      "handbookUrl": "https://programsandcourses.anu.edu.au/course/LAWS4315",
       "reviewMetrics": [
         "Teaching quality",
         "Workload fairness",
         "Assessment design"
+      ],
+      "tags": [
+        "law",
+        "development studies",
+        "pacific studies"
       ]
     },
     {
-      "id": "LAWS4601",
+      "id": "laws4601",
       "type": "course",
       "code": "LAWS4601",
       "name": "Comparative Human Rights",
-      "college": "ANU College of Law, Governance and Policy",
+      "summary": "Comparative Human Rights is an exciting course focusing on ways in which domestic and international courts around the world have grappled with some of the most pressing contemporary human rights law issues. With a case-law-driven approach, this course links human rights theory with doctrinal debates, lawyers’ arguments, and detailed analysis of judges’ decisions. In so doing we use the case law to explore many of the most exciting battles over human rights law, its strengths and weaknesses, and look at the many ways in which human rights law interacts with politics and the broader world.",
       "school": "ANU Law School",
       "schoolCode": "LAW",
+      "college": "ANU College of Law, Governance and Policy",
       "level": "UGRD",
-      "terms": [
-        "See ANU course page"
-      ],
+      "terms": [],
       "conveners": [],
-      "handbookUrl": "https://programsandcourses.anu.edu.au/course/laws4601",
-      "summary": "Comparative Human Rights is an exciting course focusing on ways in which domestic and international courts around the world have grappled with some of the most pressing contemporary human rights law issues. With a case-law-driven approach, this course links human rights theory with doctrinal debates, lawyers’ arguments, and detailed analysis of judges’ de...",
-      "tags": [
-        "human sciences",
-        "law"
-      ],
+      "handbookUrl": "https://programsandcourses.anu.edu.au/course/LAWS4601",
       "reviewMetrics": [
         "Teaching quality",
         "Workload fairness",
         "Assessment design"
+      ],
+      "tags": [
+        "law",
+        "human sciences"
       ]
     },
     {
-      "id": "LAWS4700",
+      "id": "laws4700",
       "type": "course",
       "code": "LAWS4700",
       "name": "Law Research Capstone Project",
-      "college": "ANU College of Law, Governance and Policy",
+      "summary": "This course is offered to Bachelor of Laws (Honours) students in the final or penultimate semester of study in their program. In consultation with the convenor and teachers, during the first three weeks of the course, students identify a substantial individual or group research project that addresses a complex problem of their choice. The research project may be undertaken in a range of academic or professional settings.",
       "school": "ANU Law School",
       "schoolCode": "LAW",
+      "college": "ANU College of Law, Governance and Policy",
       "level": "UGRD",
-      "terms": [
-        "First Semester",
-        "Second Semester"
+      "terms": [],
+      "conveners": [
+        "Prof Jolyon Ford",
+        "Prof Jolyon Ford"
       ],
-      "conveners": [],
-      "handbookUrl": "https://programsandcourses.anu.edu.au/course/laws4700",
-      "summary": "This course is offered to Bachelor of Laws (Honours) students in the final or penultimate semester of study in their program. In consultation with the convenor and teachers, during the first three weeks of the course, students identify a substantial individual or group research project that addresses a complex problem of their choice.",
-      "tags": [
-        "law"
-      ],
+      "handbookUrl": "https://programsandcourses.anu.edu.au/course/LAWS4700",
       "reviewMetrics": [
         "Teaching quality",
         "Workload fairness",
         "Assessment design"
+      ],
+      "tags": [
+        "law"
       ]
     },
     {
-      "id": "LAWS6010",
+      "id": "laws6010",
       "type": "course",
       "code": "LAWS6010",
       "name": "Jessup Moot",
-      "college": "ANU College of Law, Governance and Policy",
+      "summary": "Jessup Moot is a summer session elective. It is the Australian round of the Philip C. Jessup International Law Moot Court Competition, the world’s largest mooting competition.",
       "school": "ANU Law School",
       "schoolCode": "LAW",
+      "college": "ANU College of Law, Governance and Policy",
       "level": "PGRD",
-      "terms": [
-        "Summer Session"
+      "terms": [],
+      "conveners": [
+        "Dr Wanshu Cong",
+        "Dr Wanshu Cong"
       ],
-      "conveners": [],
-      "handbookUrl": "https://programsandcourses.anu.edu.au/course/laws6010",
-      "summary": "Jessup Moot is a summer session elective. It is the Australian round of the Philip C. Jessup International Law Moot Court Competition, the world’s largest mooting competition.",
+      "handbookUrl": "https://programsandcourses.anu.edu.au/course/LAWS6010",
+      "reviewMetrics": [
+        "Teaching quality",
+        "Workload fairness",
+        "Assessment design"
+      ],
       "tags": [
         "law",
         "international affairs"
-      ],
-      "reviewMetrics": [
-        "Teaching quality",
-        "Workload fairness",
-        "Assessment design"
       ]
     },
     {
-      "id": "LAWS6101",
+      "id": "laws6101",
       "type": "course",
       "code": "LAWS6101",
       "name": "Foundations of Australian Law",
-      "college": "ANU College of Law, Governance and Policy",
+      "summary": "This course must be taken in the commencing semester of a student's JD program. Students commencing their legal studies in Semester One are expected to undertake Foundations of Australian Law with LAWS6103 Torts. Students commencing their legal studies in Semester Two are expected to undertake Foundations of Australian Law with LAWS6104 Contracts.",
       "school": "ANU Law School",
       "schoolCode": "LAW",
+      "college": "ANU College of Law, Governance and Policy",
       "level": "PGRD",
-      "terms": [
-        "First Semester",
-        "Second Semester"
+      "terms": [],
+      "conveners": [
+        "AsPr Judith Jones",
+        "Dr Michelle Worthington"
       ],
-      "conveners": [],
-      "handbookUrl": "https://programsandcourses.anu.edu.au/course/laws6101",
-      "summary": "This course must be taken in the commencing semester of a student's JD program. Students commencing their legal studies in Semester One are expected to undertake Foundations of Australian Law with LAWS6103 Torts.",
-      "tags": [
-        "law"
-      ],
+      "handbookUrl": "https://programsandcourses.anu.edu.au/course/LAWS6101",
       "reviewMetrics": [
         "Teaching quality",
         "Workload fairness",
         "Assessment design"
+      ],
+      "tags": [
+        "law"
       ]
     },
     {
-      "id": "LAWS6102",
+      "id": "laws6102",
       "type": "course",
       "code": "LAWS6102",
       "name": "Lawyers, Justice and Ethics",
-      "college": "ANU College of Law, Governance and Policy",
+      "summary": "This course (LJE) builds on the learning outcomes of LAWS6101 Foundations of Law in three significant ways. First, within the framework of the Australian legal system studied in LAWS6101, LJE examines the role and ethical obligations of lawyers as the principal representatives and interpreters of the legal system. Secondly, LJE analyses perceptions of justice in and through law.",
       "school": "ANU Law School",
       "schoolCode": "LAW",
+      "college": "ANU College of Law, Governance and Policy",
       "level": "PGRD",
-      "terms": [
-        "Second Semester"
+      "terms": [],
+      "conveners": [
+        "Dr Susan Bartie",
+        "Dr Susan Bartie"
       ],
-      "conveners": [],
-      "handbookUrl": "https://programsandcourses.anu.edu.au/course/laws6102",
-      "summary": "This course (LJE) builds on the learning outcomes of LAWS6101 Foundations of Law in three significant ways. First, within the framework of the Australian legal system studied in LAWS6101, LJE examines the role and ethical obligations of lawyers as the principal representatives and interpreters of the legal system.",
-      "tags": [
-        "law"
-      ],
+      "handbookUrl": "https://programsandcourses.anu.edu.au/course/LAWS6102",
       "reviewMetrics": [
         "Teaching quality",
         "Workload fairness",
         "Assessment design"
+      ],
+      "tags": [
+        "law"
       ]
     },
     {
-      "id": "LAWS6103",
+      "id": "laws6103",
       "type": "course",
       "code": "LAWS6103",
       "name": "Torts",
-      "college": "ANU College of Law, Governance and Policy",
+      "summary": "When a person has been harmed by the conduct of another it is the law of torts which determines who has to bear the loss. This is an important aspect of the civil law (in contrast to criminal law). Historically, it derived largely from judicial decisions, and hence was largely what we call common law, but in more recent times legislation has become increasingly important.",
       "school": "ANU Law School",
       "schoolCode": "LAW",
+      "college": "ANU College of Law, Governance and Policy",
       "level": "PGRD",
-      "terms": [
-        "First Semester"
+      "terms": [],
+      "conveners": [
+        "AsPr Rebekah McWhirter",
+        "AsPr Rebekah McWhirter"
       ],
-      "conveners": [],
-      "handbookUrl": "https://programsandcourses.anu.edu.au/course/laws6103",
-      "summary": "When a person has been harmed by the conduct of another it is the law of torts which determines who has to bear the loss. This is an important aspect of the civil law (in contrast to criminal law).",
-      "tags": [
-        "law"
-      ],
+      "handbookUrl": "https://programsandcourses.anu.edu.au/course/LAWS6103",
       "reviewMetrics": [
         "Teaching quality",
         "Workload fairness",
         "Assessment design"
+      ],
+      "tags": [
+        "law"
       ]
     },
     {
-      "id": "LAWS6104",
+      "id": "laws6104",
       "type": "course",
       "code": "LAWS6104",
       "name": "Contracts",
-      "college": "ANU College of Law, Governance and Policy",
+      "summary": "Contracts is one of the foundation subjects in the Juris Doctor program and examines a central aspect of the law of obligations. The course considers the evolution of contract law, its central role in a market economy, and the criteria for making legally enforceable promissory obligations. The requirements for the formation of a binding contract are examined together with the content of agreements.",
       "school": "ANU Law School",
       "schoolCode": "LAW",
+      "college": "ANU College of Law, Governance and Policy",
       "level": "PGRD",
-      "terms": [
-        "First Semester",
-        "Second Semester"
+      "terms": [],
+      "conveners": [
+        "Dr Anne McNaughton",
+        "Dr Anne McNaughton"
       ],
-      "conveners": [],
-      "handbookUrl": "https://programsandcourses.anu.edu.au/course/laws6104",
-      "summary": "Contracts is one of the foundation subjects in the Juris Doctor program and examines a central aspect of the law of obligations. The course considers the evolution of contract law, its central role in a market economy, and the criteria for making legally enforceable promissory obligations.",
-      "tags": [
-        "law"
-      ],
+      "handbookUrl": "https://programsandcourses.anu.edu.au/course/LAWS6104",
       "reviewMetrics": [
         "Teaching quality",
         "Workload fairness",
         "Assessment design"
+      ],
+      "tags": [
+        "law"
       ]
     },
     {
-      "id": "LAWS6105",
+      "id": "laws6105",
       "type": "course",
       "code": "LAWS6105",
       "name": "Australian Public Law",
-      "college": "ANU College of Law, Governance and Policy",
+      "summary": "This course in Australian Public Law reflects the distinctive vision of the ANU JD program in which the study of Australian Public Law is a compulsory part. It also reflects the particular emphasis that the ANU College of Law gives to the study and research of Australian Public Law, which ultimately is reflected in the research of the ANU College of Law and in organisations such as the Centre for International and Public Law. The study of Australian Public Law at a relatively early stage in JD studies will open a pathway into a range of additional law courses and opportunities, and to thinking about opportunities beyond the JD too.",
       "school": "ANU Law School",
       "schoolCode": "LAW",
+      "college": "ANU College of Law, Governance and Policy",
       "level": "PGRD",
-      "terms": [
-        "First Semester",
-        "Second Semester"
+      "terms": [],
+      "conveners": [
+        "Dr Clement Chen",
+        "Prof Ron Levy"
       ],
-      "conveners": [],
-      "handbookUrl": "https://programsandcourses.anu.edu.au/course/laws6105",
-      "summary": "This course in Australian Public Law reflects the distinctive vision of the ANU JD program in which the study of Australian Public Law is a compulsory part. It also reflects the particular emphasis that the ANU College of Law gives to the study and research of Australian Public Law, which ultimately is reflected in the research of the ANU College of Law a...",
-      "tags": [
-        "law"
-      ],
+      "handbookUrl": "https://programsandcourses.anu.edu.au/course/LAWS6105",
       "reviewMetrics": [
         "Teaching quality",
         "Workload fairness",
         "Assessment design"
+      ],
+      "tags": [
+        "law"
       ]
     },
     {
-      "id": "LAWS6106",
+      "id": "laws6106",
       "type": "course",
       "code": "LAWS6106",
       "name": "Criminal Law and Procedure",
-      "college": "ANU College of Law, Governance and Policy",
+      "summary": "This course introduces students to the sources of law which define principles of criminal responsibility, and to substantive criminal offences, criminal defences and criminal procedure. The substantive offences include assault, sexual assault, murder, manslaughter, and property offences, and the criminal defences include provocation and self-defence. This course will provide students with an understanding of: Key legal theories of criminal law; Common law sources; and Legislation and criminal codes where relevant.",
       "school": "ANU Law School",
       "schoolCode": "LAW",
+      "college": "ANU College of Law, Governance and Policy",
       "level": "PGRD",
-      "terms": [
-        "First Semester"
+      "terms": [],
+      "conveners": [
+        "Dr Anton Moiseienko",
+        "Dr Anton Moiseienko"
       ],
-      "conveners": [],
-      "handbookUrl": "https://programsandcourses.anu.edu.au/course/laws6106",
-      "summary": "This course introduces students to the sources of law which define principles of criminal responsibility, and to substantive criminal offences, criminal defences and criminal procedure. The substantive offences include assault, sexual assault, murder, manslaughter, and property offences, and the criminal defences include provocation and self-defence.",
-      "tags": [
-        "law"
-      ],
+      "handbookUrl": "https://programsandcourses.anu.edu.au/course/LAWS6106",
       "reviewMetrics": [
         "Teaching quality",
         "Workload fairness",
         "Assessment design"
+      ],
+      "tags": [
+        "law"
       ]
     },
     {
-      "id": "LAWS6201",
+      "id": "laws6201",
       "type": "course",
       "code": "LAWS6201",
       "name": "Administrative Law",
-      "college": "ANU College of Law, Governance and Policy",
+      "summary": "Administrative Law examines the legal framework for controlling decision-making by Commonwealth, State and local government decision-makers in Australia. It focuses on the legal restraints upon government, and the role those restraints play in maintaining government accountability. The role played by courts, tribunals and Ombudsman and the opportunities available to the public to question government activity is examined.",
       "school": "ANU Law School",
       "schoolCode": "LAW",
+      "college": "ANU College of Law, Governance and Policy",
       "level": "PGRD",
-      "terms": [
-        "First Semester"
+      "terms": [],
+      "conveners": [
+        "Prof Leighton McDonald",
+        "Prof Leighton McDonald"
       ],
-      "conveners": [],
-      "handbookUrl": "https://programsandcourses.anu.edu.au/course/laws6201",
-      "summary": "Administrative Law examines the legal framework for controlling decision-making by Commonwealth, State and local government decision-makers in Australia. It focuses on the legal restraints upon government, and the role those restraints play in maintaining government accountability.",
-      "tags": [
-        "law"
-      ],
+      "handbookUrl": "https://programsandcourses.anu.edu.au/course/LAWS6201",
       "reviewMetrics": [
         "Teaching quality",
         "Workload fairness",
         "Assessment design"
+      ],
+      "tags": [
+        "law"
       ]
     },
     {
-      "id": "LAWS6202",
+      "id": "laws6202",
       "type": "course",
       "code": "LAWS6202",
       "name": "Commonwealth Constitutional Law",
-      "college": "ANU College of Law, Governance and Policy",
+      "summary": "Building on previous public law studies, particularly Australian Public Law, this course aims to deepen student understanding of key aspects of the Commonwealth Constitution and the way it has been interpreted by the High Court of Australia. Specifically, we consider: The scope of Commonwealth legislative power, by reference to key federal heads of legislative power including the corporations power (s 51(xx)), the external affairs power (s 51(xxix)), the races power (s 51(xxvi), the taxation power (s 51(ii)) and the grants power (s 96); The principles of interpretation and ‘characterisation’ applied by the High Court when interpreting the scope of federal legislative power; The principles that operate to resolve a clash or conflict between Commonwealth and State laws (s 109); Many of the important constitutional limitations placed on the exercise of Commonwealth and State legislative power, including both the express limitations set out in the text (eg, ss 90 and 92) and those that have been implied by the High Court from the text and structure of the Constitution (eg, federal/State immunities, and implications from representative government); The important role that the High Court has played in shaping the federal system and protecting federal government institutions created by the Constitution; and The historical and social context in which federal constitutional law has developed. In conjunction with LAWS6105 Australian Public Law, this course meets the requirements of the Law Admissions Consultative Committee Prescribed Academic Areas of Knowledge for Federal and State Constitutional Law.",
       "school": "ANU Law School",
       "schoolCode": "LAW",
+      "college": "ANU College of Law, Governance and Policy",
       "level": "PGRD",
-      "terms": [
-        "Second Semester"
+      "terms": [],
+      "conveners": [
+        "Prof Ron Levy",
+        "Prof Ron Levy"
       ],
-      "conveners": [],
-      "handbookUrl": "https://programsandcourses.anu.edu.au/course/laws6202",
-      "summary": "Building on previous public law studies, particularly Australian Public Law, this course aims to deepen student understanding of key aspects of the Commonwealth Constitution and the way it has been interpreted by the High Court of Australia. Specifically, we consider: The scope of Commonwealth legislative power, by reference to key federal heads of legisl...",
-      "tags": [
-        "laws"
-      ],
+      "handbookUrl": "https://programsandcourses.anu.edu.au/course/LAWS6202",
       "reviewMetrics": [
         "Teaching quality",
         "Workload fairness",
         "Assessment design"
+      ],
+      "tags": [
+        "law",
+        "laws"
       ]
     },
     {
-      "id": "LAWS6203",
+      "id": "laws6203",
       "type": "course",
       "code": "LAWS6203",
       "name": "Corporations Law",
-      "college": "ANU College of Law, Governance and Policy",
+      "summary": "This course provides an understanding of Australian corporate law. The course is structured to meet the admission requirements for practice as a legal practitioner in the Australian states and territories. The following topics will be covered: forms of business association, including partnership; incorporation and the concept of separate legal personality; the corporate constitution; membership of the corporation and share capital; corporate contracting; duties and liabilities of directors and officers; basic features of the management of companies; shareholders' remedies; company credit and security arrangements; and winding up.",
       "school": "ANU Law School",
       "schoolCode": "LAW",
+      "college": "ANU College of Law, Governance and Policy",
       "level": "PGRD",
-      "terms": [
-        "First Semester"
+      "terms": [],
+      "conveners": [
+        "Dr Michelle Worthington",
+        "Dr Michelle Worthington"
       ],
-      "conveners": [],
-      "handbookUrl": "https://programsandcourses.anu.edu.au/course/laws6203",
-      "summary": "This course provides an understanding of Australian corporate law. The course is structured to meet the admission requirements for practice as a legal practitioner in the Australian states and territories.",
-      "tags": [
-        "law"
-      ],
+      "handbookUrl": "https://programsandcourses.anu.edu.au/course/LAWS6203",
       "reviewMetrics": [
         "Teaching quality",
         "Workload fairness",
         "Assessment design"
+      ],
+      "tags": [
+        "law"
       ]
     },
     {
-      "id": "LAWS6204",
+      "id": "laws6204",
       "type": "course",
       "code": "LAWS6204",
       "name": "Property",
-      "college": "ANU College of Law, Governance and Policy",
+      "summary": "This course is a compulsory course required for admission to legal practice. Understanding the law of property is essential for any practising lawyer. The course builds heavily on the law of contract (which you have already completed) and will lead on to other compulsory and elective courses.",
       "school": "ANU Law School",
       "schoolCode": "LAW",
+      "college": "ANU College of Law, Governance and Policy",
       "level": "PGRD",
-      "terms": [
-        "First Semester"
-      ],
+      "terms": [],
       "conveners": [],
-      "handbookUrl": "https://programsandcourses.anu.edu.au/course/laws6204",
-      "summary": "This course is a compulsory course required for admission to legal practice. Understanding the law of property is essential for any practising lawyer.",
-      "tags": [
-        "law"
-      ],
+      "handbookUrl": "https://programsandcourses.anu.edu.au/course/LAWS6204",
       "reviewMetrics": [
         "Teaching quality",
         "Workload fairness",
         "Assessment design"
+      ],
+      "tags": [
+        "law"
       ]
     },
     {
-      "id": "LAWS6205",
+      "id": "laws6205",
       "type": "course",
       "code": "LAWS6205",
       "name": "Equity and Trusts",
-      "college": "ANU College of Law, Governance and Policy",
+      "summary": "The objective of the course is to provide students with an overall understanding of the law of equity with special emphasis on fiduciary obligations, trusts, equitable assignment of property and equitable remedies. The course will consider the history of equity, basic principles which dominate its jurisprudence and the relevance of equity today; the nature of fiduciary obligations, recognised categories of fiduciaries and the extension of these categories in recent times, breach of fiduciary obligations, defences and remedies for the breach of fiduciary obligations; the requirements for express trusts, the liability of a third party to a breach of trust or fiduciary duty, and the remedies for breach of trust and fiduciary duty, including tracing. The course then shifts its focus to equity more generally by considering the equitable rules for assignment of property and the remedies of specific performance and injunctions.",
       "school": "ANU Law School",
       "schoolCode": "LAW",
+      "college": "ANU College of Law, Governance and Policy",
       "level": "PGRD",
-      "terms": [
-        "Second Semester"
+      "terms": [],
+      "conveners": [
+        "Dr Darryn Jensen",
+        "Dr Darryn Jensen"
       ],
-      "conveners": [],
-      "handbookUrl": "https://programsandcourses.anu.edu.au/course/laws6205",
-      "summary": "The objective of the course is to provide students with an overall understanding of the law of equity with special emphasis on fiduciary obligations, trusts, equitable assignment of property and equitable remedies. The course will consider the history of equity, basic principles which dominate its jurisprudence and the relevance of equity today; the natur...",
-      "tags": [
-        "law"
-      ],
+      "handbookUrl": "https://programsandcourses.anu.edu.au/course/LAWS6205",
       "reviewMetrics": [
         "Teaching quality",
         "Workload fairness",
         "Assessment design"
+      ],
+      "tags": [
+        "law"
       ]
     },
     {
-      "id": "LAWS6207",
+      "id": "laws6207",
       "type": "course",
       "code": "LAWS6207",
       "name": "Evidence",
-      "college": "ANU College of Law, Governance and Policy",
+      "summary": "Evidence law governs the use of proof in legal proceedings and answers important questions like: How much proof is enough? What will the jury be allowed to hear? And what kinds of proof can be used?",
       "school": "ANU Law School",
       "schoolCode": "LAW",
+      "college": "ANU College of Law, Governance and Policy",
       "level": "PGRD",
-      "terms": [
-        "Second Semester"
+      "terms": [],
+      "conveners": [
+        "AsPr Jason Chin",
+        "AsPr Jason Chin"
       ],
-      "conveners": [],
-      "handbookUrl": "https://programsandcourses.anu.edu.au/course/laws6207",
-      "summary": "Evidence law governs the use of proof in legal proceedings and answers important questions like: How much proof is enough? What will the jury be allowed to hear?",
-      "tags": [
-        "human sciences"
-      ],
+      "handbookUrl": "https://programsandcourses.anu.edu.au/course/LAWS6207",
       "reviewMetrics": [
         "Teaching quality",
         "Workload fairness",
         "Assessment design"
+      ],
+      "tags": [
+        "law",
+        "human sciences"
       ]
     },
     {
-      "id": "LAWS6230",
+      "id": "laws6230",
       "type": "course",
       "code": "LAWS6230",
       "name": "Law Internship (Capstone)",
-      "college": "ANU College of Law, Governance and Policy",
+      "summary": "The ANU Law School internship course offers students an unparalleled opportunity to put their learning into action and carry out a law-based research project in a legal professional workplace. The course requires and develops both legal knowledge and a lawyer's approach to problem identification, analysis and recommendations. Internship placements are available within a variety of Commonwealth and Australian Capital Territory government departments, statutory bodies, community legal centres and other non-government organisations.",
       "school": "ANU Law School",
       "schoolCode": "LAW",
+      "college": "ANU College of Law, Governance and Policy",
       "level": "PGRD",
-      "terms": [
-        "Summer Session",
-        "First Semester",
-        "Winter Session",
-        "Second Semester"
+      "terms": [],
+      "conveners": [
+        "AsPr Matthew Zagor",
+        "Dr Jonathan Liljeblad"
       ],
-      "conveners": [],
-      "handbookUrl": "https://programsandcourses.anu.edu.au/course/laws6230",
-      "summary": "The ANU Law School internship course offers students an unparalleled opportunity to put their learning into action and carry out a law-based research project in a legal professional workplace. The course requires and develops both legal knowledge and a lawyer's approach to problem identification, analysis and recommendations.",
-      "tags": [
-        "law"
-      ],
+      "handbookUrl": "https://programsandcourses.anu.edu.au/course/LAWS6230",
       "reviewMetrics": [
         "Teaching quality",
         "Workload fairness",
         "Assessment design"
+      ],
+      "tags": [
+        "law"
       ]
     },
     {
-      "id": "LAWS6244",
+      "id": "laws6244",
       "type": "course",
       "code": "LAWS6244",
       "name": "Litigation and Dispute Management",
-      "college": "ANU College of Law, Governance and Policy",
+      "summary": "This course is an introduction to dispute resolution focussing upon mediation and civil litigation. The course will examine dispute resolution within and outside the legal system and will explore litigation via the principles of civil procedure. The interlocutory steps in civil litigation will be analysed alongside the strategies adopted by lawyers in the conduct of litigation.",
       "school": "ANU Law School",
       "schoolCode": "LAW",
+      "college": "ANU College of Law, Governance and Policy",
       "level": "PGRD",
-      "terms": [
-        "First Semester"
+      "terms": [],
+      "conveners": [
+        "Prof Kate Ogg",
+        "Prof Kate Ogg"
       ],
-      "conveners": [],
-      "handbookUrl": "https://programsandcourses.anu.edu.au/course/laws6244",
-      "summary": "This course is an introduction to dispute resolution focussing upon mediation and civil litigation. The course will examine dispute resolution within and outside the legal system and will explore litigation via the principles of civil procedure.",
-      "tags": [
-        "law"
-      ],
+      "handbookUrl": "https://programsandcourses.anu.edu.au/course/LAWS6244",
       "reviewMetrics": [
         "Teaching quality",
         "Workload fairness",
         "Assessment design"
+      ],
+      "tags": [
+        "law"
       ]
     },
     {
-      "id": "LAWS6249",
+      "id": "laws6249",
       "type": "course",
       "code": "LAWS6249",
       "name": "Legal Theory",
-      "college": "ANU College of Law, Governance and Policy",
+      "summary": "Legal theory encompasses any theoretical reflection about law. Within legal theory, legal philosophy, as its name implies, is the philosophy of law. Legal philosophy brings philosophical rigour to the theoretical reflection about law.",
       "school": "ANU Law School",
       "schoolCode": "LAW",
+      "college": "ANU College of Law, Governance and Policy",
       "level": "PGRD",
-      "terms": [
-        "Second Semester"
+      "terms": [],
+      "conveners": [
+        "AsPr Moeen Cheema",
+        "AsPr Moeen Cheema"
       ],
-      "conveners": [],
-      "handbookUrl": "https://programsandcourses.anu.edu.au/course/laws6249",
-      "summary": "Legal theory encompasses any theoretical reflection about law. Within legal theory, legal philosophy, as its name implies, is the philosophy of law.",
-      "tags": [
-        "law"
-      ],
+      "handbookUrl": "https://programsandcourses.anu.edu.au/course/LAWS6249",
       "reviewMetrics": [
         "Teaching quality",
         "Workload fairness",
         "Assessment design"
+      ],
+      "tags": [
+        "law"
       ]
     },
     {
-      "id": "LAWS6250",
+      "id": "laws6250",
       "type": "course",
       "code": "LAWS6250",
       "name": "International Law",
-      "college": "ANU College of Law, Governance and Policy",
+      "summary": "This course deals with the body of law known as International Law or sometimes 'Public International Law', as distinct from 'Private International Law'. The field of International Law deals with many aspects of the functioning of the international community (including the treatment by States with each other and with international organisations); it also affects many activities that occur within or across State boundaries (including the treatment by States of their citizens, environmental law, military operations, and many other areas). The impact of international law on the Australian legal system and the globalised nature of many governmental judicial and social activities means that a basic knowledge of the terminology, institutions, and substance of international law is not only worthwhile acquiring in its own right, but is also a necessary part of the knowledge and skills of any law graduate.",
       "school": "ANU Law School",
       "schoolCode": "LAW",
+      "college": "ANU College of Law, Governance and Policy",
       "level": "PGRD",
-      "terms": [
-        "Second Semester"
-      ],
+      "terms": [],
       "conveners": [],
-      "handbookUrl": "https://programsandcourses.anu.edu.au/course/laws6250",
-      "summary": "This course deals with the body of law known as International Law or sometimes 'Public International Law', as distinct from 'Private International Law'. The field of International Law deals with many aspects of the functioning of the international community (including the treatment by States with each other and with international organisations); it also a...",
-      "tags": [
-        "law"
-      ],
+      "handbookUrl": "https://programsandcourses.anu.edu.au/course/LAWS6250",
       "reviewMetrics": [
         "Teaching quality",
         "Workload fairness",
         "Assessment design"
+      ],
+      "tags": [
+        "law"
       ]
     },
     {
-      "id": "LAWS6267",
+      "id": "laws6267",
       "type": "course",
       "code": "LAWS6267",
       "name": "Youth Law Clinic",
-      "college": "ANU College of Law, Governance and Policy",
+      "summary": "This is a clinical program based in a community legal practice environment. Students participate in the Youth Law Centre, a non-profit legal service for ACT youth aged 12-25 years. While analysing the various roles that lawyers can play, students will focus on extending legal assistance, social justice and reform - particularly in relation to youth legal needs in the ACT.",
       "school": "ANU Law School",
       "schoolCode": "LAW",
+      "college": "ANU College of Law, Governance and Policy",
       "level": "PGRD",
-      "terms": [
-        "First Semester",
-        "Second Semester"
+      "terms": [],
+      "conveners": [
+        "Prof Leighton McDonald",
+        "Prof Leighton McDonald"
       ],
-      "conveners": [],
-      "handbookUrl": "https://programsandcourses.anu.edu.au/course/laws6267",
-      "summary": "This is a clinical program based in a community legal practice environment. Students participate in the Youth Law Centre, a non-profit legal service for ACT youth aged 12-25 years.",
-      "tags": [
-        "law"
-      ],
+      "handbookUrl": "https://programsandcourses.anu.edu.au/course/LAWS6267",
       "reviewMetrics": [
         "Teaching quality",
         "Workload fairness",
         "Assessment design"
+      ],
+      "tags": [
+        "law"
       ]
     },
     {
-      "id": "LAWS6268",
+      "id": "laws6268",
       "type": "course",
       "code": "LAWS6268",
       "name": "Community Law Clinic",
-      "college": "ANU College of Law, Governance and Policy",
+      "summary": "This is a clinical program based in a community legal practice environment. During the course students work for one full day a week at Canberra community Law where they provide legal information and undertake casework under the supervision of solicitors. The course objectives are to: contextualise the study of law and student learning in a wide range of other law courses; guide and support students in identifying, developing and applying ethical legal practice skills; develop students' critical understanding of legal practice approaches, the roles of lawyers in relation to individual clients and social justice issues; and encourage, promote and validate student aspirations to promote access to justice and equality before the law.",
       "school": "ANU Law School",
       "schoolCode": "LAW",
+      "college": "ANU College of Law, Governance and Policy",
       "level": "PGRD",
-      "terms": [
-        "First Semester",
-        "Second Semester"
+      "terms": [],
+      "conveners": [
+        "Prof Leighton McDonald",
+        "Prof Leighton McDonald"
       ],
-      "conveners": [],
-      "handbookUrl": "https://programsandcourses.anu.edu.au/course/laws6268",
-      "summary": "This is a clinical program based in a community legal practice environment. During the course students work for one full day a week at Canberra community Law where they provide legal information and undertake casework under the supervision of solicitors.",
-      "tags": [
-        "law"
-      ],
+      "handbookUrl": "https://programsandcourses.anu.edu.au/course/LAWS6268",
       "reviewMetrics": [
         "Teaching quality",
         "Workload fairness",
         "Assessment design"
+      ],
+      "tags": [
+        "law"
       ]
     },
     {
-      "id": "LAWS6278",
+      "id": "laws6278",
       "type": "course",
       "code": "LAWS6278",
       "name": "Indigenous Community Legal Clinic",
-      "college": "ANU College of Law, Governance and Policy",
+      "summary": "This is a clinical program based in a community legal practice environment. During the course students work for one full day a week at a community law practice focused on providing legal assistance to Indigenous people. Students work under the supervision of solicitors.",
       "school": "ANU Law School",
       "schoolCode": "LAW",
+      "college": "ANU College of Law, Governance and Policy",
       "level": "PGRD",
-      "terms": [
-        "First Semester",
-        "Second Semester"
+      "terms": [],
+      "conveners": [
+        "Prof Leighton McDonald",
+        "Prof Leighton McDonald"
       ],
-      "conveners": [],
-      "handbookUrl": "https://programsandcourses.anu.edu.au/course/laws6278",
-      "summary": "This is a clinical program based in a community legal practice environment. During the course students work for one full day a week at a community law practice focused on providing legal assistance to Indigenous people.",
-      "tags": [
-        "australian indigenous studies",
-        "law"
-      ],
+      "handbookUrl": "https://programsandcourses.anu.edu.au/course/LAWS6278",
       "reviewMetrics": [
         "Teaching quality",
         "Workload fairness",
         "Assessment design"
+      ],
+      "tags": [
+        "law",
+        "australian indigenous studies"
       ]
     },
     {
-      "id": "LAWS6281",
+      "id": "laws6281",
       "type": "course",
       "code": "LAWS6281",
       "name": "Environmental Law Clinic",
-      "college": "ANU College of Law, Governance and Policy",
+      "summary": "This is a clinical program focused on applying legal and other skills to current environment and planning issues. During the course, students will attend a supervised clinic for one day a week where they will work on environmental issues. The course objectives are to: Guide and support students in identifying, developing and applying practical legal and other skills in environment and planning law; Develop students’ critical understanding of legal practice approaches, and the roles of lawyers and others, in relation to individual clients and environment and social justice issues; Contextualise the study of law, particularly environment and planning law and applying ethical legal practice skills; Encourage, promote and validate student aspirations to promote access to justice and equality before the law specifically in relation to individual and community needs in environment and planning law; Guide students to critically consider the effect of the law and its ability to: deliver improved environmental outcomes; and provide adequate opportunity for the community to be heard on public interest environmental issues.",
       "school": "ANU Law School",
       "schoolCode": "LAW",
+      "college": "ANU College of Law, Governance and Policy",
       "level": "PGRD",
-      "terms": [
-        "First Semester"
+      "terms": [],
+      "conveners": [
+        "Prof Leighton McDonald",
+        "Prof Leighton McDonald"
       ],
-      "conveners": [],
-      "handbookUrl": "https://programsandcourses.anu.edu.au/course/laws6281",
-      "summary": "This is a clinical program focused on applying legal and other skills to current environment and planning issues. During the course, students will attend a supervised clinic for one day a week where they will work on environmental issues.",
-      "tags": [
-        "law"
-      ],
+      "handbookUrl": "https://programsandcourses.anu.edu.au/course/LAWS6281",
       "reviewMetrics": [
         "Teaching quality",
         "Workload fairness",
         "Assessment design"
+      ],
+      "tags": [
+        "law"
       ]
     },
     {
-      "id": "LAWS6301",
+      "id": "laws6301",
       "type": "course",
       "code": "LAWS6301",
       "name": "Law and Development Clinic",
-      "college": "ANU College of Law, Governance and Policy",
+      "summary": "This course involves students & supervising academic staff from the ANU College of Law (CoL) collaborating with students & supervising academic staff at a law school in a developing country. The choice of developing country and the choice of partner law school will be at the discretion of the CoL, and will be a function of CoL partnerships with developing country law schools, ANU international strategy, relevance to unit learning outcomes and assessments, and safety. The collaboration will involve research of topics in the chosen developing country, with the topics adopted in coordination with the academic staff of the partner law school.",
       "school": "ANU Law School",
       "schoolCode": "LAW",
+      "college": "ANU College of Law, Governance and Policy",
       "level": "PGRD",
-      "terms": [
-        "Summer Session"
+      "terms": [],
+      "conveners": [
+        "Dr Jonathan Liljeblad",
+        "Dr Jonathan Liljeblad"
       ],
-      "conveners": [],
-      "handbookUrl": "https://programsandcourses.anu.edu.au/course/laws6301",
-      "summary": "This course involves students & supervising academic staff from the ANU College of Law (CoL) collaborating with students & supervising academic staff at a law school in a developing country. The choice of developing country and the choice of partner law school will be at the discretion of the CoL, and will be a function of CoL partnerships with developing...",
-      "tags": [
-        "law"
-      ],
+      "handbookUrl": "https://programsandcourses.anu.edu.au/course/LAWS6301",
       "reviewMetrics": [
         "Teaching quality",
         "Workload fairness",
         "Assessment design"
+      ],
+      "tags": [
+        "law"
       ]
     },
     {
-      "id": "LAWS6302",
+      "id": "laws6302",
       "type": "course",
       "code": "LAWS6302",
       "name": "International Law Clinic",
-      "college": "ANU College of Law, Governance and Policy",
+      "summary": "The International Law Clinical Program gives students interested in International Law an experience of the practical application of International Law. The International Law Clinical Program applies students' knowledge of international law and drafting and research skills to contemporary international law projects. The main focus of the Clinical Program is responding to projects initiated by the Convenor and students working collaboratively.",
       "school": "ANU Law School",
       "schoolCode": "LAW",
+      "college": "ANU College of Law, Governance and Policy",
       "level": "PGRD",
-      "terms": [
-        "First Semester"
+      "terms": [],
+      "conveners": [
+        "AsPr Imogen Saunders",
+        "AsPr Imogen Saunders"
       ],
-      "conveners": [],
-      "handbookUrl": "https://programsandcourses.anu.edu.au/course/laws6302",
-      "summary": "The International Law Clinical Program gives students interested in International Law an experience of the practical application of International Law. The International Law Clinical Program applies students' knowledge of international law and drafting and research skills to contemporary international law projects.",
-      "tags": [
-        "law"
-      ],
+      "handbookUrl": "https://programsandcourses.anu.edu.au/course/LAWS6302",
       "reviewMetrics": [
         "Teaching quality",
         "Workload fairness",
         "Assessment design"
+      ],
+      "tags": [
+        "law"
       ]
     },
     {
-      "id": "LAWS6304",
+      "id": "laws6304",
       "type": "course",
       "code": "LAWS6304",
       "name": "Prison Legal Clinic",
-      "college": "ANU College of Law, Governance and Policy",
+      "summary": "Due to changes in the delivery of this cousre, students will not be attending the Alexander Maconochie Centre (AMC) for the Semester one, 2026 iteration of this course. There will be at least three field trips to various ACT criminal justice institutions. The assessment will also vary for this iteration, please see the class summary.",
       "school": "ANU Law School",
       "schoolCode": "LAW",
+      "college": "ANU College of Law, Governance and Policy",
       "level": "PGRD",
-      "terms": [
-        "First Semester",
-        "Second Semester"
+      "terms": [],
+      "conveners": [
+        "Prof Leighton McDonald",
+        "Prof Leighton McDonald"
       ],
-      "conveners": [],
-      "handbookUrl": "https://programsandcourses.anu.edu.au/course/laws6304",
-      "summary": "Due to changes in the delivery of this cousre, students will not be attending the Alexander Maconochie Centre (AMC) for the Semester one, 2026 iteration of this course. There will be at least three field trips to various ACT criminal justice institutions.",
-      "tags": [
-        "law"
-      ],
+      "handbookUrl": "https://programsandcourses.anu.edu.au/course/LAWS6304",
       "reviewMetrics": [
         "Teaching quality",
         "Workload fairness",
         "Assessment design"
+      ],
+      "tags": [
+        "law"
       ]
     },
     {
-      "id": "LAWS6307",
+      "id": "laws6307",
       "type": "course",
       "code": "LAWS6307",
       "name": "Legal Education for True Justice: Indigenous Perspectives and Deep Listening on Country",
-      "college": "ANU College of Law, Governance and Policy",
+      "summary": "ANU Law School has partnered with Oonchiumpa Consultancy, a company whose Traditional Owner Directors have been instrumental in the design and delivery of this on-country intensive course since its inception. Central to the course is the examination of the adequacy of the current state of Australian legal education, legal practice, and law and justice in relation to First Nations peoples, with a view to exploring possibilities for reform. The course acknowledges the multidimensional roles of law and explores connections between law, culture and identity and between law, legitimacy and resources.",
       "school": "ANU Law School",
       "schoolCode": "LAW",
+      "college": "ANU College of Law, Governance and Policy",
       "level": "PGRD",
-      "terms": [
-        "See ANU course page"
-      ],
+      "terms": [],
       "conveners": [],
-      "handbookUrl": "https://programsandcourses.anu.edu.au/course/laws6307",
-      "summary": "ANU Law School has partnered with Oonchiumpa Consultancy, a company whose Traditional Owner Directors have been instrumental in the design and delivery of this on-country intensive course since its inception. Central to the course is the examination of the adequacy of the current state of Australian legal education, legal practice, and law and justice in...",
-      "tags": [
-        "laws"
-      ],
+      "handbookUrl": "https://programsandcourses.anu.edu.au/course/LAWS6307",
       "reviewMetrics": [
         "Teaching quality",
         "Workload fairness",
         "Assessment design"
+      ],
+      "tags": [
+        "law",
+        "laws"
       ]
     },
     {
-      "id": "LAWS6700",
+      "id": "laws6700",
       "type": "course",
       "code": "LAWS6700",
       "name": "Law Capstone Project",
-      "college": "ANU College of Law, Governance and Policy",
+      "summary": "This capstone course draws together areas of knowledge and skills developed across the Juris Doctor program through the planning and execution of a substantial, professionally focused, research project. In consultation with the Convenor, students identify a project that addresses a social problem of their choice that incorporates, or impacts, multiple areas of law. The project does not need to be completed in a workplace, however, the project must address a complex, real-world problem.",
       "school": "ANU Law School",
       "schoolCode": "LAW",
+      "college": "ANU College of Law, Governance and Policy",
       "level": "PGRD",
-      "terms": [
-        "First Semester",
-        "Second Semester"
+      "terms": [],
+      "conveners": [
+        "Prof Jolyon Ford",
+        "Prof Jolyon Ford"
       ],
-      "conveners": [],
-      "handbookUrl": "https://programsandcourses.anu.edu.au/course/laws6700",
-      "summary": "This capstone course draws together areas of knowledge and skills developed across the Juris Doctor program through the planning and execution of a substantial, professionally focused, research project. In consultation with the Convenor, students identify a project that addresses a social problem of their choice that incorporates, or impacts, multiple are...",
-      "tags": [
-        "law"
-      ],
+      "handbookUrl": "https://programsandcourses.anu.edu.au/course/LAWS6700",
       "reviewMetrics": [
         "Teaching quality",
         "Workload fairness",
         "Assessment design"
+      ],
+      "tags": [
+        "law"
       ]
     },
     {
-      "id": "LAWS8301",
+      "id": "laws8035",
+      "type": "course",
+      "code": "LAWS8035",
+      "name": "Cyber Warfare Law",
+      "summary": "Although the ideas of cyber warfare and of computer network attacks are new, there is growing awareness of the significant issues they raise in the modern world. The Australian Government is not alone in acknowledging the threat of cyber attacks and the need to develop cyber security capability. There is a strong interest, particularly among Canberra communities, in anticipating potential legal issues that might arise in cyber warfare and the applicability of existing rules of international law in this context.",
+      "school": "ANU Law School",
+      "schoolCode": "LAW",
+      "college": "ANU College of Law, Governance and Policy",
+      "level": "PGRD",
+      "terms": [],
+      "conveners": [],
+      "handbookUrl": "https://programsandcourses.anu.edu.au/course/LAWS8035",
+      "reviewMetrics": [
+        "Teaching quality",
+        "Workload fairness",
+        "Assessment design"
+      ],
+      "tags": [
+        "law"
+      ]
+    },
+    {
+      "id": "laws8077",
+      "type": "course",
+      "code": "LAWS8077",
+      "name": "Cyber Law",
+      "summary": "Cyber security spans public and private, international and domestic law. A key focus question for this course is: How can cyber law regulate the behaviour of enterprise to protect the privacy of individuals and the integrity of algorithmic automation? The course offers a grounding in key legal frameworks linked to the protection of information in the digital environment and examines how technological developments threaten our security.",
+      "school": "ANU Law School",
+      "schoolCode": "LAW",
+      "college": "ANU College of Law, Governance and Policy",
+      "level": "PGRD",
+      "terms": [],
+      "conveners": [
+        "Dr Philippa Ryan",
+        "Dr Philippa Ryan"
+      ],
+      "handbookUrl": "https://programsandcourses.anu.edu.au/course/LAWS8077",
+      "reviewMetrics": [
+        "Teaching quality",
+        "Workload fairness",
+        "Assessment design"
+      ],
+      "tags": [
+        "law"
+      ]
+    },
+    {
+      "id": "laws8237",
+      "type": "course",
+      "code": "LAWS8237",
+      "name": "Health Law, Bioethics and Human Rights",
+      "summary": "Health is a core human concern, and decisions about how it is delivered, funded and improved affect all of us. Law is involved from the level of individual clinical encounters all the way through to international efforts to manage global health, and the way it does so is hotly contested, with strong ethical and human rights dimensions to health law debates. This course will examine the various ways that law interacts with health and medicine, and the role of ethics in shaping these interactions.",
+      "school": "ANU Law School",
+      "schoolCode": "LAW",
+      "college": "ANU College of Law, Governance and Policy",
+      "level": "PGRD",
+      "terms": [],
+      "conveners": [
+        "AsPr Rebekah McWhirter",
+        "AsPr Rebekah McWhirter"
+      ],
+      "handbookUrl": "https://programsandcourses.anu.edu.au/course/LAWS8237",
+      "reviewMetrics": [
+        "Teaching quality",
+        "Workload fairness",
+        "Assessment design"
+      ],
+      "tags": [
+        "law"
+      ]
+    },
+    {
+      "id": "laws8301",
       "type": "course",
       "code": "LAWS8301",
       "name": "Postgraduate Law Dissertation",
-      "college": "ANU College of Law, Governance and Policy",
+      "summary": "The Postgraduate Law Dissertation is designed to build upon previous foundational and elective courses and allow students to develop cutting-edge legal research under the supervision of a member of staff. This cousre may be taken as part of a Juris Doctor, Master of Laws, Master of Financial Management and Law or the Master of International Law and Diplomacy program. The course is worth 12 units and involves the completion of a 12,000 – 16,000 word research thesis that will take the place of two standard courses.",
       "school": "ANU Law School",
       "schoolCode": "LAW",
+      "college": "ANU College of Law, Governance and Policy",
       "level": "PGRD",
-      "terms": [
-        "First Semester",
-        "Second Semester"
+      "terms": [],
+      "conveners": [
+        "Prof Jolyon Ford",
+        "Prof Jolyon Ford"
       ],
-      "conveners": [],
-      "handbookUrl": "https://programsandcourses.anu.edu.au/course/laws8301",
-      "summary": "The Postgraduate Law Dissertation is designed to build upon previous foundational and elective courses and allow students to develop cutting-edge legal research under the supervision of a member of staff. This cousre may be taken as part of a Juris Doctor, Master of Laws, Master of Financial Management and Law or the Master of International Law and Diplom...",
-      "tags": [
-        "law"
-      ],
+      "handbookUrl": "https://programsandcourses.anu.edu.au/course/LAWS8301",
       "reviewMetrics": [
         "Teaching quality",
         "Workload fairness",
         "Assessment design"
+      ],
+      "tags": [
+        "law"
       ]
     },
     {
-      "id": "LAWS8430",
+      "id": "laws8430",
       "type": "course",
       "code": "LAWS8430",
       "name": "Law Internship",
-      "college": "ANU College of Law, Governance and Policy",
+      "summary": "The ANU Law School internship course offers students an unparalleled opportunity to put their learning into action and carry out a law-based research project in a legal professional workplace. The course requires and develops both legal knowledge and a lawyer's approach to problem identification, analysis and recommendations. Internship placements are available within a variety of Commonwealth and Australian Capital Territory government departments, statutory bodies, community legal centres and other non-government organisations.",
       "school": "ANU Law School",
       "schoolCode": "LAW",
+      "college": "ANU College of Law, Governance and Policy",
       "level": "PGRD",
-      "terms": [
-        "Summer Session",
-        "First Semester",
-        "Winter Session",
-        "Second Semester"
+      "terms": [],
+      "conveners": [
+        "AsPr Matthew Zagor",
+        "Dr Jonathan Liljeblad"
       ],
-      "conveners": [],
-      "handbookUrl": "https://programsandcourses.anu.edu.au/course/laws8430",
-      "summary": "The ANU Law School internship course offers students an unparalleled opportunity to put their learning into action and carry out a law-based research project in a legal professional workplace. The course requires and develops both legal knowledge and a lawyer's approach to problem identification, analysis and recommendations.",
-      "tags": [
-        "law"
-      ],
+      "handbookUrl": "https://programsandcourses.anu.edu.au/course/LAWS8430",
       "reviewMetrics": [
         "Teaching quality",
         "Workload fairness",
         "Assessment design"
+      ],
+      "tags": [
+        "law"
       ]
     },
     {
-      "id": "LAWS8800",
+      "id": "laws8660",
+      "type": "course",
+      "code": "LAWS8660",
+      "name": "Foundations of Public Law",
+      "summary": "This course will introduce students to the core concepts, rules and procedures of public law, namely the legal system that governs relationships between the state on the one hand and individuals on the other as well as the interactions between different branches and levels of government. Traversing traditional divides, this course will examine together the basics of constitutional and administrative law with a view to drawing out both their similarities and differences. Students will focus on Australian public law as a unique system that combines elements of both the UK and the US systems of government (often referred to as ‘Washminster’).",
+      "school": "ANU Law School",
+      "schoolCode": "LAW",
+      "college": "ANU College of Law, Governance and Policy",
+      "level": "PGRD",
+      "terms": [],
+      "conveners": [],
+      "handbookUrl": "https://programsandcourses.anu.edu.au/course/LAWS8660",
+      "reviewMetrics": [
+        "Teaching quality",
+        "Workload fairness",
+        "Assessment design"
+      ],
+      "tags": [
+        "law"
+      ]
+    },
+    {
+      "id": "laws8800",
       "type": "course",
       "code": "LAWS8800",
       "name": "Advanced Legal Methods and Legal Writing",
-      "college": "ANU College of Law, Governance and Policy",
+      "summary": "An advanced introduction to legal methods and legal writing designed to assist students in preparation of writing research papers. The course is structured around three main objectives: offer students an understanding of the practical questions often subsumed under the monikers of method and methodology (question, theory, materials etc); equip students with a sophisticated understanding of a variety of research methods and of how to combine them; enable students to interact with and evaluate different types and styles of legal writing and to improve their own writing skills. The course will combine pre-assigned readings with in-class exercises and active student engagement.",
       "school": "ANU Law School",
       "schoolCode": "LAW",
+      "college": "ANU College of Law, Governance and Policy",
       "level": "PGRD",
-      "terms": [
-        "First Semester"
+      "terms": [],
+      "conveners": [
+        "Dr Jelena Gligorijevic",
+        "Dr Jelena Gligorijevic"
       ],
-      "conveners": [],
-      "handbookUrl": "https://programsandcourses.anu.edu.au/course/laws8800",
-      "summary": "An advanced introduction to legal methods and legal writing designed to assist students in preparation of writing research papers. The course is structured around three main objectives: offer students an understanding of the practical questions often subsumed under the monikers of method and methodology (question, theory, materials etc); equip students wi...",
-      "tags": [
-        "law"
-      ],
+      "handbookUrl": "https://programsandcourses.anu.edu.au/course/LAWS8800",
       "reviewMetrics": [
         "Teaching quality",
         "Workload fairness",
         "Assessment design"
+      ],
+      "tags": [
+        "law"
       ]
     },
     {
-      "id": "LING1001",
+      "id": "ling1001",
       "type": "course",
       "code": "LING1001",
       "name": "Language Unlocked: An Introduction to Linguistics",
@@ -26908,7 +30352,7 @@ window.ANREVIEW_DATA = {
       ]
     },
     {
-      "id": "LING1002",
+      "id": "ling1002",
       "type": "course",
       "code": "LING1002",
       "name": "The Social Life of Language",
@@ -26935,7 +30379,7 @@ window.ANREVIEW_DATA = {
       ]
     },
     {
-      "id": "LING2008",
+      "id": "ling2008",
       "type": "course",
       "code": "LING2008",
       "name": "Semantics",
@@ -26960,7 +30404,7 @@ window.ANREVIEW_DATA = {
       ]
     },
     {
-      "id": "LING2010",
+      "id": "ling2010",
       "type": "course",
       "code": "LING2010",
       "name": "Sounds of the World's Languages: Phonetics and Phonology",
@@ -26987,7 +30431,7 @@ window.ANREVIEW_DATA = {
       ]
     },
     {
-      "id": "LING2013",
+      "id": "ling2013",
       "type": "course",
       "code": "LING2013",
       "name": "Teaching Languages",
@@ -27014,7 +30458,7 @@ window.ANREVIEW_DATA = {
       ]
     },
     {
-      "id": "LING2015",
+      "id": "ling2015",
       "type": "course",
       "code": "LING2015",
       "name": "Language, Culture and Translation",
@@ -27041,7 +30485,7 @@ window.ANREVIEW_DATA = {
       ]
     },
     {
-      "id": "LING2016",
+      "id": "ling2016",
       "type": "course",
       "code": "LING2016",
       "name": "Language and Society in Indigenous Australia",
@@ -27066,7 +30510,7 @@ window.ANREVIEW_DATA = {
       ]
     },
     {
-      "id": "LING2017",
+      "id": "ling2017",
       "type": "course",
       "code": "LING2017",
       "name": "Chinese Linguistics",
@@ -27092,7 +30536,7 @@ window.ANREVIEW_DATA = {
       ]
     },
     {
-      "id": "LING2018",
+      "id": "ling2018",
       "type": "course",
       "code": "LING2018",
       "name": "Languages in Contact",
@@ -27116,7 +30560,7 @@ window.ANREVIEW_DATA = {
       ]
     },
     {
-      "id": "LING2020",
+      "id": "ling2020",
       "type": "course",
       "code": "LING2020",
       "name": "Structure of English",
@@ -27143,7 +30587,7 @@ window.ANREVIEW_DATA = {
       ]
     },
     {
-      "id": "LING2021",
+      "id": "ling2021",
       "type": "course",
       "code": "LING2021",
       "name": "Cross Cultural Communication",
@@ -27168,7 +30612,7 @@ window.ANREVIEW_DATA = {
       ]
     },
     {
-      "id": "LING2023",
+      "id": "ling2023",
       "type": "course",
       "code": "LING2023",
       "name": "Dictionaries and Dictionary-Making",
@@ -27193,7 +30637,7 @@ window.ANREVIEW_DATA = {
       ]
     },
     {
-      "id": "LING2029",
+      "id": "ling2029",
       "type": "course",
       "code": "LING2029",
       "name": "Language, Assessment and Policy",
@@ -27219,7 +30663,7 @@ window.ANREVIEW_DATA = {
       ]
     },
     {
-      "id": "LING2034",
+      "id": "ling2034",
       "type": "course",
       "code": "LING2034",
       "name": "Communication in Health Care",
@@ -27245,7 +30689,7 @@ window.ANREVIEW_DATA = {
       ]
     },
     {
-      "id": "LING2106",
+      "id": "ling2106",
       "type": "course",
       "code": "LING2106",
       "name": "Language and Social Interaction",
@@ -27269,7 +30713,7 @@ window.ANREVIEW_DATA = {
       ]
     },
     {
-      "id": "LING2521",
+      "id": "ling2521",
       "type": "course",
       "code": "LING2521",
       "name": "Child Language Acquisition",
@@ -27293,7 +30737,7 @@ window.ANREVIEW_DATA = {
       ]
     },
     {
-      "id": "LING3025",
+      "id": "ling3025",
       "type": "course",
       "code": "LING3025",
       "name": "Special Topics in Linguistics",
@@ -27318,7 +30762,7 @@ window.ANREVIEW_DATA = {
       ]
     },
     {
-      "id": "LING3035",
+      "id": "ling3035",
       "type": "course",
       "code": "LING3035",
       "name": "Semantic Typology",
@@ -27345,7 +30789,7 @@ window.ANREVIEW_DATA = {
       ]
     },
     {
-      "id": "LING3036",
+      "id": "ling3036",
       "type": "course",
       "code": "LING3036",
       "name": "Advanced Sociolinguistics",
@@ -27372,7 +30816,7 @@ window.ANREVIEW_DATA = {
       ]
     },
     {
-      "id": "LING3101",
+      "id": "ling3101",
       "type": "course",
       "code": "LING3101",
       "name": "Second Language Acquisition",
@@ -27399,7 +30843,7 @@ window.ANREVIEW_DATA = {
       ]
     },
     {
-      "id": "LING3126",
+      "id": "ling3126",
       "type": "course",
       "code": "LING3126",
       "name": "Topics in Advanced Syntax and Morphology",
@@ -27426,7 +30870,7 @@ window.ANREVIEW_DATA = {
       ]
     },
     {
-      "id": "MATH1013",
+      "id": "math1013",
       "type": "course",
       "code": "MATH1013",
       "name": "Mathematics and Applications 1",
@@ -27451,7 +30895,7 @@ window.ANREVIEW_DATA = {
       ]
     },
     {
-      "id": "MATH1014",
+      "id": "math1014",
       "type": "course",
       "code": "MATH1014",
       "name": "Mathematics and Applications 2",
@@ -27476,7 +30920,7 @@ window.ANREVIEW_DATA = {
       ]
     },
     {
-      "id": "MATH1113",
+      "id": "math1113",
       "type": "course",
       "code": "MATH1113",
       "name": "Mathematical Foundations for Actuarial Studies",
@@ -27501,7 +30945,7 @@ window.ANREVIEW_DATA = {
       ]
     },
     {
-      "id": "MATH1115",
+      "id": "math1115",
       "type": "course",
       "code": "MATH1115",
       "name": "Advanced Mathematics and Applications 1",
@@ -27525,7 +30969,7 @@ window.ANREVIEW_DATA = {
       ]
     },
     {
-      "id": "MATH1116",
+      "id": "math1116",
       "type": "course",
       "code": "MATH1116",
       "name": "Advanced Mathematics and Applications 2",
@@ -27549,7 +30993,7 @@ window.ANREVIEW_DATA = {
       ]
     },
     {
-      "id": "MEAS1001",
+      "id": "meas1001",
       "type": "course",
       "code": "MEAS1001",
       "name": "Introduction to the Modern Middle East",
@@ -27573,7 +31017,7 @@ window.ANREVIEW_DATA = {
       ]
     },
     {
-      "id": "MEAS1002",
+      "id": "meas1002",
       "type": "course",
       "code": "MEAS1002",
       "name": "Islam: History and Institutions",
@@ -27597,7 +31041,7 @@ window.ANREVIEW_DATA = {
       ]
     },
     {
-      "id": "MEAS2000",
+      "id": "meas2000",
       "type": "course",
       "code": "MEAS2000",
       "name": "Iranian History and Culture",
@@ -27624,7 +31068,7 @@ window.ANREVIEW_DATA = {
       ]
     },
     {
-      "id": "MEAS2001",
+      "id": "meas2001",
       "type": "course",
       "code": "MEAS2001",
       "name": "New States of Eurasia: Emerging Issues in Politics and Security",
@@ -27649,7 +31093,7 @@ window.ANREVIEW_DATA = {
       ]
     },
     {
-      "id": "MEAS2003",
+      "id": "meas2003",
       "type": "course",
       "code": "MEAS2003",
       "name": "Modern Turkey: History, Society and Culture",
@@ -27676,7 +31120,7 @@ window.ANREVIEW_DATA = {
       ]
     },
     {
-      "id": "MEAS2004",
+      "id": "meas2004",
       "type": "course",
       "code": "MEAS2004",
       "name": "Turkish Politics and Foreign Policy",
@@ -27703,7 +31147,7 @@ window.ANREVIEW_DATA = {
       ]
     },
     {
-      "id": "MEAS2006",
+      "id": "meas2006",
       "type": "course",
       "code": "MEAS2006",
       "name": "Gallipoli: A Transnational History",
@@ -27730,7 +31174,7 @@ window.ANREVIEW_DATA = {
       ]
     },
     {
-      "id": "MEAS2105",
+      "id": "meas2105",
       "type": "course",
       "code": "MEAS2105",
       "name": "The Political Economy of the Middle East",
@@ -27756,7 +31200,7 @@ window.ANREVIEW_DATA = {
       ]
     },
     {
-      "id": "MEAS3005",
+      "id": "meas3005",
       "type": "course",
       "code": "MEAS3005",
       "name": "Modern Iraq: State, Politics and Society",
@@ -27780,7 +31224,7 @@ window.ANREVIEW_DATA = {
       ]
     },
     {
-      "id": "MEAS3007",
+      "id": "meas3007",
       "type": "course",
       "code": "MEAS3007",
       "name": "Syria in the Levant: State, Society, and the Current Turmoil",
@@ -27806,7 +31250,7 @@ window.ANREVIEW_DATA = {
       ]
     },
     {
-      "id": "MEAS3008",
+      "id": "meas3008",
       "type": "course",
       "code": "MEAS3008",
       "name": "Egypt: Social and Political Dynamics in a Changing Middle East",
@@ -27832,7 +31276,7 @@ window.ANREVIEW_DATA = {
       ]
     },
     {
-      "id": "MEAS3009",
+      "id": "meas3009",
       "type": "course",
       "code": "MEAS3009",
       "name": "Modern Arabian Peninsula: Politics, Security and Society",
@@ -27860,7 +31304,7 @@ window.ANREVIEW_DATA = {
       ]
     },
     {
-      "id": "MGMT1003",
+      "id": "mgmt1003",
       "type": "course",
       "code": "MGMT1003",
       "name": "Management, People and Organisations",
@@ -27885,7 +31329,7 @@ window.ANREVIEW_DATA = {
       ]
     },
     {
-      "id": "MGMT2001",
+      "id": "mgmt2001",
       "type": "course",
       "code": "MGMT2001",
       "name": "Corporate Sustainability",
@@ -27911,7 +31355,7 @@ window.ANREVIEW_DATA = {
       ]
     },
     {
-      "id": "MGMT2003",
+      "id": "mgmt2003",
       "type": "course",
       "code": "MGMT2003",
       "name": "Business Decision Making",
@@ -27935,7 +31379,7 @@ window.ANREVIEW_DATA = {
       ]
     },
     {
-      "id": "MGMT2004",
+      "id": "mgmt2004",
       "type": "course",
       "code": "MGMT2004",
       "name": "Negotiation",
@@ -27960,7 +31404,7 @@ window.ANREVIEW_DATA = {
       ]
     },
     {
-      "id": "MGMT2005",
+      "id": "mgmt2005",
       "type": "course",
       "code": "MGMT2005",
       "name": "Career Planning and Management",
@@ -27984,7 +31428,7 @@ window.ANREVIEW_DATA = {
       ]
     },
     {
-      "id": "MGMT2007",
+      "id": "mgmt2007",
       "type": "course",
       "code": "MGMT2007",
       "name": "Organisational Behaviour",
@@ -28008,7 +31452,7 @@ window.ANREVIEW_DATA = {
       ]
     },
     {
-      "id": "MGMT2008",
+      "id": "mgmt2008",
       "type": "course",
       "code": "MGMT2008",
       "name": "Social Enterprises and Social Business",
@@ -28033,7 +31477,7 @@ window.ANREVIEW_DATA = {
       ]
     },
     {
-      "id": "MGMT2030",
+      "id": "mgmt2030",
       "type": "course",
       "code": "MGMT2030",
       "name": "Human Resource Management and Strategy",
@@ -28057,7 +31501,7 @@ window.ANREVIEW_DATA = {
       ]
     },
     {
-      "id": "MGMT2035",
+      "id": "mgmt2035",
       "type": "course",
       "code": "MGMT2035",
       "name": "Managing Organisational Change",
@@ -28081,7 +31525,7 @@ window.ANREVIEW_DATA = {
       ]
     },
     {
-      "id": "MGMT2100",
+      "id": "mgmt2100",
       "type": "course",
       "code": "MGMT2100",
       "name": "Communication for Business",
@@ -28110,7 +31554,7 @@ window.ANREVIEW_DATA = {
       ]
     },
     {
-      "id": "MGMT3002",
+      "id": "mgmt3002",
       "type": "course",
       "code": "MGMT3002",
       "name": "Techniques for Business Project Management",
@@ -28134,7 +31578,7 @@ window.ANREVIEW_DATA = {
       ]
     },
     {
-      "id": "MGMT3015",
+      "id": "mgmt3015",
       "type": "course",
       "code": "MGMT3015",
       "name": "Corporate Strategy",
@@ -28159,7 +31603,7 @@ window.ANREVIEW_DATA = {
       ]
     },
     {
-      "id": "MGMT3016",
+      "id": "mgmt3016",
       "type": "course",
       "code": "MGMT3016",
       "name": "Business Ethics",
@@ -28184,7 +31628,7 @@ window.ANREVIEW_DATA = {
       ]
     },
     {
-      "id": "MGMT3021",
+      "id": "mgmt3021",
       "type": "course",
       "code": "MGMT3021",
       "name": "Leadership",
@@ -28208,7 +31652,7 @@ window.ANREVIEW_DATA = {
       ]
     },
     {
-      "id": "MGMT3025",
+      "id": "mgmt3025",
       "type": "course",
       "code": "MGMT3025",
       "name": "International Human Resource Management",
@@ -28234,7 +31678,7 @@ window.ANREVIEW_DATA = {
       ]
     },
     {
-      "id": "MGMT3027",
+      "id": "mgmt3027",
       "type": "course",
       "code": "MGMT3027",
       "name": "Entrepreneurship and Innovation",
@@ -28258,7 +31702,7 @@ window.ANREVIEW_DATA = {
       ]
     },
     {
-      "id": "MGMT3102",
+      "id": "mgmt3102",
       "type": "course",
       "code": "MGMT3102",
       "name": "Business and its Social Stakeholders",
@@ -28284,7 +31728,7 @@ window.ANREVIEW_DATA = {
       ]
     },
     {
-      "id": "MKTG2002",
+      "id": "mktg2002",
       "type": "course",
       "code": "MKTG2002",
       "name": "Sustainable Marketing",
@@ -28309,7 +31753,7 @@ window.ANREVIEW_DATA = {
       ]
     },
     {
-      "id": "MKTG2004",
+      "id": "mktg2004",
       "type": "course",
       "code": "MKTG2004",
       "name": "Introduction to Marketing",
@@ -28334,7 +31778,7 @@ window.ANREVIEW_DATA = {
       ]
     },
     {
-      "id": "MKTG2023",
+      "id": "mktg2023",
       "type": "course",
       "code": "MKTG2023",
       "name": "Services Marketing",
@@ -28358,7 +31802,7 @@ window.ANREVIEW_DATA = {
       ]
     },
     {
-      "id": "MKTG2031",
+      "id": "mktg2031",
       "type": "course",
       "code": "MKTG2031",
       "name": "Consumer Behaviour",
@@ -28382,7 +31826,7 @@ window.ANREVIEW_DATA = {
       ]
     },
     {
-      "id": "MKTG2032",
+      "id": "mktg2032",
       "type": "course",
       "code": "MKTG2032",
       "name": "E-Marketing",
@@ -28406,7 +31850,7 @@ window.ANREVIEW_DATA = {
       ]
     },
     {
-      "id": "MKTG3001",
+      "id": "mktg3001",
       "type": "course",
       "code": "MKTG3001",
       "name": "Marketing Research",
@@ -28430,7 +31874,7 @@ window.ANREVIEW_DATA = {
       ]
     },
     {
-      "id": "MKTG3023",
+      "id": "mktg3023",
       "type": "course",
       "code": "MKTG3023",
       "name": "Strategic Marketing",
@@ -28454,7 +31898,7 @@ window.ANREVIEW_DATA = {
       ]
     },
     {
-      "id": "MKTG3033",
+      "id": "mktg3033",
       "type": "course",
       "code": "MKTG3033",
       "name": "Integrated Marketing Communications",
@@ -28478,7 +31922,7 @@ window.ANREVIEW_DATA = {
       ]
     },
     {
-      "id": "MUSI2234",
+      "id": "musi2234",
       "type": "course",
       "code": "MUSI2234",
       "name": "Music, History, and Culture",
@@ -28500,6 +31944,648 @@ window.ANREVIEW_DATA = {
         "Teaching quality",
         "Workload fairness",
         "Assessment design"
+      ]
+    },
+    {
+      "id": "nspo8006",
+      "type": "course",
+      "code": "NSPO8006",
+      "name": "National Security Policymaking",
+      "summary": "This is a core course in the Master of National Security Policy degree. It is also available as an elective to other students seeking a broad introduction to national security policy that bridges the practical and the conceptual. This course examines the structures, processes, actors and norms of national security policymaking, with reference to the Australian experience.",
+      "school": "ANU National Security College",
+      "schoolCode": "NSC",
+      "college": "ANU College of Law, Governance and Policy",
+      "level": "PGRD",
+      "terms": [],
+      "conveners": [
+        "Dr Kevin Robb",
+        "Dr Kevin Robb"
+      ],
+      "handbookUrl": "https://programsandcourses.anu.edu.au/course/NSPO8006",
+      "reviewMetrics": [
+        "Teaching quality",
+        "Workload fairness",
+        "Assessment design"
+      ],
+      "tags": [
+        "national security"
+      ]
+    },
+    {
+      "id": "nspo8007",
+      "type": "course",
+      "code": "NSPO8007",
+      "name": "National Security: Concepts and Methods",
+      "summary": "National security challenges facing Australia and the world involve many complex risks and challenges from diverse sources. What exactly is national security? How does it relate to international and domestic security?",
+      "school": "Crawford School of Public Policy",
+      "schoolCode": "CRAW",
+      "college": "ANU College of Law, Governance and Policy",
+      "level": "PGRD",
+      "terms": [],
+      "conveners": [
+        "Dr James Mortensen",
+        "Dr James Mortensen"
+      ],
+      "handbookUrl": "https://programsandcourses.anu.edu.au/course/NSPO8007",
+      "reviewMetrics": [
+        "Teaching quality",
+        "Workload fairness",
+        "Assessment design"
+      ],
+      "tags": [
+        "public policy"
+      ]
+    },
+    {
+      "id": "nspo8008",
+      "type": "course",
+      "code": "NSPO8008",
+      "name": "Ethical Challenges for National Security",
+      "summary": "As Australia faces security challenges ranging from terrorism to cybersecurity to interstate rivalries and climate change, discussions around national security will continue to play across our community, in the media and in policymaking. This course examines the ethical norms that both underpin and limit national security. It has a particular focus on the way that the relationships between those ethical norms pose challenges for national security policy and practice.",
+      "school": "Crawford School of Public Policy",
+      "schoolCode": "CRAW",
+      "college": "ANU College of Law, Governance and Policy",
+      "level": "PGRD",
+      "terms": [],
+      "conveners": [
+        "Dr Dilnoza Ubaydullaeva",
+        "Dr Dilnoza Ubaydullaeva"
+      ],
+      "handbookUrl": "https://programsandcourses.anu.edu.au/course/NSPO8008",
+      "reviewMetrics": [
+        "Teaching quality",
+        "Workload fairness",
+        "Assessment design"
+      ],
+      "tags": [
+        "public policy"
+      ]
+    },
+    {
+      "id": "nspo8009",
+      "type": "course",
+      "code": "NSPO8009",
+      "name": "Cyber and Emerging Technologies in National Security",
+      "summary": "The course examines cyber and other emerging technologies as a domain where states project power and protect their interests. It considers the interaction of state and non-state actors, cyber enabled conflict and cooperation, as well as cyber-enhanced tools of statecraft including espionage and information operations. It also considers how states are adapting to the threats and opportunities in this new domain, including those presented by emerging technologies such as the Internet of Things (IoT), drones and artificial intelligence.",
+      "school": "ANU National Security College",
+      "schoolCode": "NSC",
+      "college": "ANU College of Law, Governance and Policy",
+      "level": "PGRD",
+      "terms": [],
+      "conveners": [
+        "Dr David Schaefer",
+        "Dr David Schaefer"
+      ],
+      "handbookUrl": "https://programsandcourses.anu.edu.au/course/NSPO8009",
+      "reviewMetrics": [
+        "Teaching quality",
+        "Workload fairness",
+        "Assessment design"
+      ],
+      "tags": [
+        "national security"
+      ]
+    },
+    {
+      "id": "nspo8012",
+      "type": "course",
+      "code": "NSPO8012",
+      "name": "Leadership, Risk, Resilience, and Crisis",
+      "summary": "Crises are endemic to national security policymaking. The modern era is punctuated by crises emanating from the natural geopolitical and social worlds that threaten local, national and international security. This course considers this backdrop of threats alongside changing notions of ‘threat’, ‘risk’ and ‘crisis’ and challenges participants to determine how leadership and policymaking can reconcile the competing imperatives of national security and the public interest in the midst of crisis.",
+      "school": "Crawford School of Public Policy",
+      "schoolCode": "CRAW",
+      "college": "ANU College of Law, Governance and Policy",
+      "level": "PGRD",
+      "terms": [],
+      "conveners": [
+        "Dr Kevin Robb",
+        "Dr Kevin Robb"
+      ],
+      "handbookUrl": "https://programsandcourses.anu.edu.au/course/NSPO8012",
+      "reviewMetrics": [
+        "Teaching quality",
+        "Workload fairness",
+        "Assessment design"
+      ],
+      "tags": [
+        "public policy"
+      ]
+    },
+    {
+      "id": "nspo8018",
+      "type": "course",
+      "code": "NSPO8018",
+      "name": "The Evolution of National Security Policy since 1945",
+      "summary": "The end of the Second World War and the onset of the Cold War saw the development of a new way of viewing the concept of national security within official government policy-making structures. Disputes over the lessons of war and national security agendas influenced government debates and decision-making throughout the Cold War and post-Cold War periods. This course provides an overview of post-war global security history and discusses the evolution of the concept of national security since 1945, examining how and why certain security threats and interests were perceived and how national security policies transformed over time.",
+      "school": "ANU National Security College",
+      "schoolCode": "NSC",
+      "college": "ANU College of Law, Governance and Policy",
+      "level": "PGRD",
+      "terms": [],
+      "conveners": [],
+      "handbookUrl": "https://programsandcourses.anu.edu.au/course/NSPO8018",
+      "reviewMetrics": [
+        "Teaching quality",
+        "Workload fairness",
+        "Assessment design"
+      ],
+      "tags": [
+        "national security"
+      ]
+    },
+    {
+      "id": "nspo8028",
+      "type": "course",
+      "code": "NSPO8028",
+      "name": "History for Policymakers",
+      "summary": "Contemporary policy issues often have long historical precedents. History can therefore provide policymakers with some perspective through the knowledge of past patterns, and when used responsibly, it can have a constructive influence on policy. Historical evidence can benefit policymakers as it provides not merely insight into the past, but also a basis for informed decisions, which can be drawn through the examination of continuity and change.",
+      "school": "Crawford School of Public Policy",
+      "schoolCode": "CRAW",
+      "college": "ANU College of Law, Governance and Policy",
+      "level": "PGRD",
+      "terms": [],
+      "conveners": [],
+      "handbookUrl": "https://programsandcourses.anu.edu.au/course/NSPO8028",
+      "reviewMetrics": [
+        "Teaching quality",
+        "Workload fairness",
+        "Assessment design"
+      ],
+      "tags": [
+        "public policy"
+      ]
+    },
+    {
+      "id": "nspo8030",
+      "type": "course",
+      "code": "NSPO8030",
+      "name": "Coercion and National Security",
+      "summary": "What is the role of coercion in international security affairs? When should it be used to achieve which national security goals, and under what conditions is it most effective? Coercion is as old as the international system itself, but while answers to these questions remain poorly understood they are only likely to become more important in the contemporary Indo-Pacific.",
+      "school": "Crawford School of Public Policy",
+      "schoolCode": "CRAW",
+      "college": "ANU College of Law, Governance and Policy",
+      "level": "PGRD",
+      "terms": [],
+      "conveners": [
+        "Dr Michael Cohen",
+        "Dr Michael Cohen"
+      ],
+      "handbookUrl": "https://programsandcourses.anu.edu.au/course/NSPO8030",
+      "reviewMetrics": [
+        "Teaching quality",
+        "Workload fairness",
+        "Assessment design"
+      ],
+      "tags": [
+        "public policy"
+      ]
+    },
+    {
+      "id": "nspo8031",
+      "type": "course",
+      "code": "NSPO8031",
+      "name": "Thesis",
+      "summary": "This is a 24-unit thesis course available in the Master of National Security Policy program. In relation to relevant thesis topics, the notion of national security (together with any policies related to it) is understood in broad terms and students are therefore welcome to investigate traditional and/or non-traditional security issues. The completion of this thesis will demonstrate an advanced aptitude for conducting innovative research and producing high quality writing with minimal supervision.",
+      "school": "Crawford School of Public Policy",
+      "schoolCode": "CRAW",
+      "college": "ANU College of Law, Governance and Policy",
+      "level": "PGRD",
+      "terms": [],
+      "conveners": [],
+      "handbookUrl": "https://programsandcourses.anu.edu.au/course/NSPO8031",
+      "reviewMetrics": [
+        "Teaching quality",
+        "Workload fairness",
+        "Assessment design"
+      ],
+      "tags": [
+        "public policy"
+      ]
+    },
+    {
+      "id": "nspo8032",
+      "type": "course",
+      "code": "NSPO8032",
+      "name": "Geoeconomics and National Security",
+      "summary": "National security and economics are often treated as separate realms, both in policymaking and scholarship. But the early 21st century is marked by a convergence of security and economic factors in the national security challenges facing governments. This course introduces students to the intersection of security and economics, captured in the concept of ‘geoeconomics’.",
+      "school": "Crawford School of Public Policy",
+      "schoolCode": "CRAW",
+      "college": "ANU College of Law, Governance and Policy",
+      "level": "PGRD",
+      "terms": [],
+      "conveners": [
+        "Dr Dirk Van Der Kley",
+        "Dr Dirk Van Der Kley"
+      ],
+      "handbookUrl": "https://programsandcourses.anu.edu.au/course/NSPO8032",
+      "reviewMetrics": [
+        "Teaching quality",
+        "Workload fairness",
+        "Assessment design"
+      ],
+      "tags": [
+        "public policy"
+      ]
+    },
+    {
+      "id": "nspo8033",
+      "type": "course",
+      "code": "NSPO8033",
+      "name": "Climate, the Environment and National Security",
+      "summary": "Climate change is one of the most defining - and contested - issues of the 21st century. While catastrophic weather events such as fires, cyclones, and droughts increasingly tax state capacity, the political, economic and social consequences pose potentially grave risks for state stability and global order. This course examines climate change and environmental security from a national security lens, examining the potential for conflict, confrontation and cooperation.",
+      "school": "Crawford School of Public Policy",
+      "schoolCode": "CRAW",
+      "college": "ANU College of Law, Governance and Policy",
+      "level": "PGRD",
+      "terms": [],
+      "conveners": [
+        "Dr Dilnoza Ubaydullaeva",
+        "Dr Dilnoza Ubaydullaeva"
+      ],
+      "handbookUrl": "https://programsandcourses.anu.edu.au/course/NSPO8033",
+      "reviewMetrics": [
+        "Teaching quality",
+        "Workload fairness",
+        "Assessment design"
+      ],
+      "tags": [
+        "public policy"
+      ]
+    },
+    {
+      "id": "nspo8034",
+      "type": "course",
+      "code": "NSPO8034",
+      "name": "China, America and National Security",
+      "summary": "This course examines the relationship between the United States and the People’s Republic of China (PRC). Both the PRC and US are shaping – and are being shaped by – the behaviour of countries across the Indo-Pacific. This will profoundly impact Australia’s national interest for the foreseeable future.",
+      "school": "Crawford School of Public Policy",
+      "schoolCode": "CRAW",
+      "college": "ANU College of Law, Governance and Policy",
+      "level": "PGRD",
+      "terms": [],
+      "conveners": [
+        "Dr David Schaefer",
+        "Dr David Schaefer"
+      ],
+      "handbookUrl": "https://programsandcourses.anu.edu.au/course/NSPO8034",
+      "reviewMetrics": [
+        "Teaching quality",
+        "Workload fairness",
+        "Assessment design"
+      ],
+      "tags": [
+        "public policy"
+      ]
+    },
+    {
+      "id": "nspo8035",
+      "type": "course",
+      "code": "NSPO8035",
+      "name": "Australia’s Strategic Environment and future security challenges",
+      "summary": "Australia faces twenty-first century national security challenges that combine many of the trade-offs that Canberra has long grappled with with a new spate of risks and threats. Australia’s strategic environment therefore raises a host of new challenges for national security policy-makers. This course provides a whole-of-government focus to address these national security challenges, and offers theoretical grounding with deep policy-maker engagement to enable students to establish theoretically grounded and empirically supported policy proscriptions and prescriptions.",
+      "school": "Crawford School of Public Policy",
+      "schoolCode": "CRAW",
+      "college": "ANU College of Law, Governance and Policy",
+      "level": "PGRD",
+      "terms": [],
+      "conveners": [
+        "Dr Michael Cohen",
+        "Dr Michael Cohen"
+      ],
+      "handbookUrl": "https://programsandcourses.anu.edu.au/course/NSPO8035",
+      "reviewMetrics": [
+        "Teaching quality",
+        "Workload fairness",
+        "Assessment design"
+      ],
+      "tags": [
+        "public policy"
+      ]
+    },
+    {
+      "id": "nspo8036",
+      "type": "course",
+      "code": "NSPO8036",
+      "name": "Australian National Security Law: An introduction for policymakers",
+      "summary": "In the past twenty years Australia has enacted an extraordinary number of new laws relating to national security, and the rate of new legislation in this field does not appear to be slowing. People who work in national security policy roles play an essential part in the development and review of these laws. To do this work well policy makers need a good understanding of Australia’s legal framework and the role of legislation in both granting powers and protecting rights to ensure that the State’s power over citizens in the name of national security is exercised consistently with Australia’s character as a liberal democratic society.",
+      "school": "Crawford School of Public Policy",
+      "schoolCode": "CRAW",
+      "college": "ANU College of Law, Governance and Policy",
+      "level": "PGRD",
+      "terms": [],
+      "conveners": [
+        "Dr Dominique Dalla-Pozza",
+        "Dr Dominique Dalla-Pozza"
+      ],
+      "handbookUrl": "https://programsandcourses.anu.edu.au/course/NSPO8036",
+      "reviewMetrics": [
+        "Teaching quality",
+        "Workload fairness",
+        "Assessment design"
+      ],
+      "tags": [
+        "public policy"
+      ]
+    },
+    {
+      "id": "nspo8037",
+      "type": "course",
+      "code": "NSPO8037",
+      "name": "Research Project",
+      "summary": "As an individual research project, this course provides students with an opportunity to acquire an advanced level of knowledge concerning their own choice of a national security issue and build the student’s skills in research and complex writing. Regular supervisory sessions will help facilitate and support the completion of the research project. Research projects will be supervised by the course convenor and supported by class and supervisory discussions.",
+      "school": "Crawford School of Public Policy",
+      "schoolCode": "CRAW",
+      "college": "ANU College of Law, Governance and Policy",
+      "level": "PGRD",
+      "terms": [],
+      "conveners": [
+        "Dr Michael Cohen",
+        "Dr Michael Cohen"
+      ],
+      "handbookUrl": "https://programsandcourses.anu.edu.au/course/NSPO8037",
+      "reviewMetrics": [
+        "Teaching quality",
+        "Workload fairness",
+        "Assessment design"
+      ],
+      "tags": [
+        "public policy"
+      ]
+    },
+    {
+      "id": "nspo8038",
+      "type": "course",
+      "code": "NSPO8038",
+      "name": "Pacific Regional and National Security Policy",
+      "summary": "Pacific island countries and communities today face an unprecedented set of security challenges, many of which will intensify over coming decades: climate change, geopolitics, a contested ocean, promoting human development and dealing with transnational crime. In response, the Pacific is drawing together to take collective action; developing innovative national security strategies, collaborating on security initiatives through an evolving regional architecture, and advocating for Pacific priorities on the global stage. The course will critically analyse some of the key challenges before the region, and the policy responses.",
+      "school": "Crawford School of Public Policy",
+      "schoolCode": "CRAW",
+      "college": "ANU College of Law, Governance and Policy",
+      "level": "PGRD",
+      "terms": [],
+      "conveners": [],
+      "handbookUrl": "https://programsandcourses.anu.edu.au/course/NSPO8038",
+      "reviewMetrics": [
+        "Teaching quality",
+        "Workload fairness",
+        "Assessment design"
+      ],
+      "tags": [
+        "public policy"
+      ]
+    },
+    {
+      "id": "nspo8040",
+      "type": "course",
+      "code": "NSPO8040",
+      "name": "Gender and Security",
+      "summary": "This course will address the importance of analysing gender perspectives in national security-related policy and decision making, implementation and practice. Students will gain an enhanced understanding of gendered policies in national security communities in government, the private sector, non-government organisations and the media. Students will engage with critical gender theory and empirical research from a range of interdisciplinary sources and perspectives.",
+      "school": "Crawford School of Public Policy",
+      "schoolCode": "CRAW",
+      "college": "ANU College of Law, Governance and Policy",
+      "level": "PGRD",
+      "terms": [],
+      "conveners": [],
+      "handbookUrl": "https://programsandcourses.anu.edu.au/course/NSPO8040",
+      "reviewMetrics": [
+        "Teaching quality",
+        "Workload fairness",
+        "Assessment design"
+      ],
+      "tags": [
+        "public policy"
+      ]
+    },
+    {
+      "id": "nspo8041",
+      "type": "course",
+      "code": "NSPO8041",
+      "name": "Borders, Migration And Security",
+      "summary": "This course examines a theme frequently identified as a significant security challenge for policymakers: the role of borders and migration in security. The course draws from the interdisciplinary nature of scholarly writing on this topic to provide students with the conceptual and empirical knowledge to make informed and policy-focused analyses. The course will consider human movement, territory, citizenship and borders through critical, practical and national security lenses.",
+      "school": "Crawford School of Public Policy",
+      "schoolCode": "CRAW",
+      "college": "ANU College of Law, Governance and Policy",
+      "level": "PGRD",
+      "terms": [],
+      "conveners": [],
+      "handbookUrl": "https://programsandcourses.anu.edu.au/course/NSPO8041",
+      "reviewMetrics": [
+        "Teaching quality",
+        "Workload fairness",
+        "Assessment design"
+      ],
+      "tags": [
+        "public policy"
+      ]
+    },
+    {
+      "id": "nspo8042",
+      "type": "course",
+      "code": "NSPO8042",
+      "name": "Civil-Military Coordination",
+      "summary": "In this course students will examine the difficulties for military forces, civilian agencies and humanitarian actors in navigating the 'space' in which they are co-located. Policies, principles and practices of the Australian Government, the United Nations, and other key international actors and non-government organisations will be considered. Attention will also be given to disaster risk reduction and peace-building strategies to help minimise the severity of natural disasters and the reversion of fragile states into conflict.",
+      "school": "Crawford School of Public Policy",
+      "schoolCode": "CRAW",
+      "college": "ANU College of Law, Governance and Policy",
+      "level": "PGRD",
+      "terms": [],
+      "conveners": [],
+      "handbookUrl": "https://programsandcourses.anu.edu.au/course/NSPO8042",
+      "reviewMetrics": [
+        "Teaching quality",
+        "Workload fairness",
+        "Assessment design"
+      ],
+      "tags": [
+        "public policy"
+      ]
+    },
+    {
+      "id": "nspo8043",
+      "type": "course",
+      "code": "NSPO8043",
+      "name": "Health and National Security",
+      "summary": "Covid-19 highlighted just how critical 'health' is in local, national, regional and global security. This course assesses the political and security significance of not only infectious diseases and pandemics but a broader range of existential threats to health such as climate, water and food security. From the historical experiences with smallpox, plague and cholera, to contemporary challenges posed by other infectious diseases such as HIV/AIDS and SARS or the Covid-19 pandemic, it is clear that pathogenic micro-organisms exercise a powerful influence over the security of people, societies and states.",
+      "school": "Crawford School of Public Policy",
+      "schoolCode": "CRAW",
+      "college": "ANU College of Law, Governance and Policy",
+      "level": "PGRD",
+      "terms": [],
+      "conveners": [],
+      "handbookUrl": "https://programsandcourses.anu.edu.au/course/NSPO8043",
+      "reviewMetrics": [
+        "Teaching quality",
+        "Workload fairness",
+        "Assessment design"
+      ],
+      "tags": [
+        "public policy"
+      ]
+    },
+    {
+      "id": "nspo8044",
+      "type": "course",
+      "code": "NSPO8044",
+      "name": "Energy Security",
+      "summary": "This course provides a critical understanding of energy security - its various conceptualisations, its relationship to other forms of security, and its embeddedness in the structures of the modern state. In the format of an intensive unit, this course examines energy security in terms of supply, demand, critical infrastructure, environment, as well as the flow on effects for the political, economic, commercial and military realms. It considers a range of potential threats from geostrategic tensions to the destabilising consequences of global climate change.",
+      "school": "Crawford School of Public Policy",
+      "schoolCode": "CRAW",
+      "college": "ANU College of Law, Governance and Policy",
+      "level": "PGRD",
+      "terms": [],
+      "conveners": [],
+      "handbookUrl": "https://programsandcourses.anu.edu.au/course/NSPO8044",
+      "reviewMetrics": [
+        "Teaching quality",
+        "Workload fairness",
+        "Assessment design"
+      ],
+      "tags": [
+        "public policy"
+      ]
+    },
+    {
+      "id": "nspo8045",
+      "type": "course",
+      "code": "NSPO8045",
+      "name": "Propaganda and information war",
+      "summary": "This course examines a theme frequently identified as a difficult security challenge for policymakers: the rise of propaganda, populism, and information war, especially in the digital age. The course draws from the interdisciplinary nature of writing on this topic in order to provide students with the conceptual and empirical knowledge to make informed policy-focused assessments and analyses of the subject material. Innovative assessment approaches (like identifying ‘fake’ news stories and deconstructing them) underscore the national security policy relevance of the material.",
+      "school": "Crawford School of Public Policy",
+      "schoolCode": "CRAW",
+      "college": "ANU College of Law, Governance and Policy",
+      "level": "PGRD",
+      "terms": [],
+      "conveners": [
+        "Dr James Mortensen",
+        "Dr James Mortensen"
+      ],
+      "handbookUrl": "https://programsandcourses.anu.edu.au/course/NSPO8045",
+      "reviewMetrics": [
+        "Teaching quality",
+        "Workload fairness",
+        "Assessment design"
+      ],
+      "tags": [
+        "public policy"
+      ]
+    },
+    {
+      "id": "nspo8046",
+      "type": "course",
+      "code": "NSPO8046",
+      "name": "Terrorism and national security",
+      "summary": "This course explores the nature and causes of terrorism as well as individual (state) and collective (international) responses. It does so through an explicitly multi-disciplinary approach that incorporates historical (\"new\" and \"old\" terrorism); conceptual (state-sponsored vs. non-state; global vs.",
+      "school": "Crawford School of Public Policy",
+      "schoolCode": "CRAW",
+      "college": "ANU College of Law, Governance and Policy",
+      "level": "PGRD",
+      "terms": [],
+      "conveners": [
+        "Dr Dilnoza Ubaydullaeva",
+        "Dr Dilnoza Ubaydullaeva"
+      ],
+      "handbookUrl": "https://programsandcourses.anu.edu.au/course/NSPO8046",
+      "reviewMetrics": [
+        "Teaching quality",
+        "Workload fairness",
+        "Assessment design"
+      ],
+      "tags": [
+        "public policy"
+      ]
+    },
+    {
+      "id": "nspo8047",
+      "type": "course",
+      "code": "NSPO8047",
+      "name": "How Canberra Works: A Guide for Security Policy Makers",
+      "summary": "How is security policy in Australia really made? This is a primer on the institutions, actors and their interaction – sometimes outside formal structures – that shape decision-making in Canberra on key issues related to national security. Policy practitioners will guide students through the intersection of politics, bureaucracy, intelligence and external influences, tying together this foundational knowledge in a policy simulation exercise in which students will formulate, and afterwards critique, a government response to a hypothetical national security problem.",
+      "school": "Crawford School of Public Policy",
+      "schoolCode": "CRAW",
+      "college": "ANU College of Law, Governance and Policy",
+      "level": "PGRD",
+      "terms": [],
+      "conveners": [
+        "Prof Rory Medcalf",
+        "Prof Rory Medcalf"
+      ],
+      "handbookUrl": "https://programsandcourses.anu.edu.au/course/NSPO8047",
+      "reviewMetrics": [
+        "Teaching quality",
+        "Workload fairness",
+        "Assessment design"
+      ],
+      "tags": [
+        "public policy"
+      ]
+    },
+    {
+      "id": "nspo8048",
+      "type": "course",
+      "code": "NSPO8048",
+      "name": "The Future of Intelligence",
+      "summary": "Knowledge is integral to security, but the value of intelligence — the process by which information is acquired, analysed and disseminated for unique insights — is under challenge. In an era of disruption, complexity and information saturation, the changing role of intelligence is a central concern for national security policymakers and analysts. This course provides students with sufficient foundational awareness of intelligence issues to enable them to critically evaluate the utility of 21st century espionage and thus anticipate its evolution.",
+      "school": "Crawford School of Public Policy",
+      "schoolCode": "CRAW",
+      "college": "ANU College of Law, Governance and Policy",
+      "level": "PGRD",
+      "terms": [],
+      "conveners": [
+        "Dr David Schaefer",
+        "Dr David Schaefer"
+      ],
+      "handbookUrl": "https://programsandcourses.anu.edu.au/course/NSPO8048",
+      "reviewMetrics": [
+        "Teaching quality",
+        "Workload fairness",
+        "Assessment design"
+      ],
+      "tags": [
+        "public policy"
+      ]
+    },
+    {
+      "id": "nspo8049",
+      "type": "course",
+      "code": "NSPO8049",
+      "name": "Security in the Indo-Pacific",
+      "summary": "National security is about the nexus of international and domestic security, and Australia’s security is bound up with its region, increasingly defined by governments as the Indo-Pacific. This course thus introduces students to the challenges and choices facing national security policy-makers in an era of connectivity and contestation across the Pacific and Indian oceans. The debate about the Indo-Pacific as a coherent regional framework will be introduced, along with implications for the security interests of key regional powers, notably China, India, Japan, Indonesia, the United States and Australia.",
+      "school": "Crawford School of Public Policy",
+      "schoolCode": "CRAW",
+      "college": "ANU College of Law, Governance and Policy",
+      "level": "PGRD",
+      "terms": [],
+      "conveners": [],
+      "handbookUrl": "https://programsandcourses.anu.edu.au/course/NSPO8049",
+      "reviewMetrics": [
+        "Teaching quality",
+        "Workload fairness",
+        "Assessment design"
+      ],
+      "tags": [
+        "public policy"
+      ]
+    },
+    {
+      "id": "nspo8050",
+      "type": "course",
+      "code": "NSPO8050",
+      "name": "National Security, Human Rights, and International Law",
+      "summary": "This course will equip students with an understanding of the relationship between national security and international law. It introduces the foundations of international law and considers sub-topics of direct relevance to national security, with a focus on human rights. No prior legal training or study is necessary, and this course is available to persons with or without legal qualifications.",
+      "school": "Crawford School of Public Policy",
+      "schoolCode": "CRAW",
+      "college": "ANU College of Law, Governance and Policy",
+      "level": "PGRD",
+      "terms": [],
+      "conveners": [],
+      "handbookUrl": "https://programsandcourses.anu.edu.au/course/NSPO8050",
+      "reviewMetrics": [
+        "Teaching quality",
+        "Workload fairness",
+        "Assessment design"
+      ],
+      "tags": [
+        "public policy"
       ]
     },
     {
@@ -28796,7 +32882,7 @@ window.ANREVIEW_DATA = {
       ]
     },
     {
-      "id": "PHIL1004",
+      "id": "phil1004",
       "type": "course",
       "code": "PHIL1004",
       "name": "Fundamental Ideas in Philosophy: An Introduction",
@@ -28820,7 +32906,7 @@ window.ANREVIEW_DATA = {
       ]
     },
     {
-      "id": "PHIL1005",
+      "id": "phil1005",
       "type": "course",
       "code": "PHIL1005",
       "name": "Logic and Critical Thinking",
@@ -28844,7 +32930,7 @@ window.ANREVIEW_DATA = {
       ]
     },
     {
-      "id": "PHIL2012",
+      "id": "phil2012",
       "type": "course",
       "code": "PHIL2012",
       "name": "Buddhist Philosophy",
@@ -28871,7 +32957,7 @@ window.ANREVIEW_DATA = {
       ]
     },
     {
-      "id": "PHIL2014",
+      "id": "phil2014",
       "type": "course",
       "code": "PHIL2014",
       "name": "Topics in Analytic Philosophy",
@@ -28895,7 +32981,7 @@ window.ANREVIEW_DATA = {
       ]
     },
     {
-      "id": "PHIL2020",
+      "id": "phil2020",
       "type": "course",
       "code": "PHIL2020",
       "name": "Theories of Social Justice",
@@ -28921,7 +33007,7 @@ window.ANREVIEW_DATA = {
       ]
     },
     {
-      "id": "PHIL2057",
+      "id": "phil2057",
       "type": "course",
       "code": "PHIL2057",
       "name": "Philosophy of Science",
@@ -28946,7 +33032,7 @@ window.ANREVIEW_DATA = {
       ]
     },
     {
-      "id": "PHIL2061",
+      "id": "phil2061",
       "type": "course",
       "code": "PHIL2061",
       "name": "Philosophy of Mind",
@@ -28973,7 +33059,7 @@ window.ANREVIEW_DATA = {
       ]
     },
     {
-      "id": "PHIL2074",
+      "id": "phil2074",
       "type": "course",
       "code": "PHIL2074",
       "name": "Modern Theories of Knowledge",
@@ -28997,7 +33083,7 @@ window.ANREVIEW_DATA = {
       ]
     },
     {
-      "id": "PHIL2082",
+      "id": "phil2082",
       "type": "course",
       "code": "PHIL2082",
       "name": "Topics in the Philosophy of Biology",
@@ -29022,7 +33108,7 @@ window.ANREVIEW_DATA = {
       ]
     },
     {
-      "id": "PHIL2087",
+      "id": "phil2087",
       "type": "course",
       "code": "PHIL2087",
       "name": "Nietzsche",
@@ -29046,7 +33132,7 @@ window.ANREVIEW_DATA = {
       ]
     },
     {
-      "id": "PHIL2122",
+      "id": "phil2122",
       "type": "course",
       "code": "PHIL2122",
       "name": "Philosophy and Public Policy",
@@ -29073,7 +33159,7 @@ window.ANREVIEW_DATA = {
       ]
     },
     {
-      "id": "PHIL2125",
+      "id": "phil2125",
       "type": "course",
       "code": "PHIL2125",
       "name": "Rationality and Social Cooperation",
@@ -29100,7 +33186,7 @@ window.ANREVIEW_DATA = {
       ]
     },
     {
-      "id": "PHIL2126",
+      "id": "phil2126",
       "type": "course",
       "code": "PHIL2126",
       "name": "Science in Society: Ethics, Public Policy and Scientific Practice",
@@ -29127,7 +33213,7 @@ window.ANREVIEW_DATA = {
       ]
     },
     {
-      "id": "PHIL2127",
+      "id": "phil2127",
       "type": "course",
       "code": "PHIL2127",
       "name": "The Philosophy of Time",
@@ -29151,7 +33237,7 @@ window.ANREVIEW_DATA = {
       ]
     },
     {
-      "id": "PHIL2128",
+      "id": "phil2128",
       "type": "course",
       "code": "PHIL2128",
       "name": "Philosophy of Physics",
@@ -29176,7 +33262,7 @@ window.ANREVIEW_DATA = {
       ]
     },
     {
-      "id": "PHIL2129",
+      "id": "phil2129",
       "type": "course",
       "code": "PHIL2129",
       "name": "Normative Ethical Theory",
@@ -29201,7 +33287,7 @@ window.ANREVIEW_DATA = {
       ]
     },
     {
-      "id": "PHIL2150",
+      "id": "phil2150",
       "type": "course",
       "code": "PHIL2150",
       "name": "Symbolic Logic",
@@ -29225,7 +33311,7 @@ window.ANREVIEW_DATA = {
       ]
     },
     {
-      "id": "PHIL2289",
+      "id": "phil2289",
       "type": "course",
       "code": "PHIL2289",
       "name": "Leviathan, Art and Law: Constituting the Body Politic",
@@ -29252,7 +33338,7 @@ window.ANREVIEW_DATA = {
       ]
     },
     {
-      "id": "PHIL2290",
+      "id": "phil2290",
       "type": "course",
       "code": "PHIL2290",
       "name": "Philosophy, AI and Society",
@@ -29279,7 +33365,7 @@ window.ANREVIEW_DATA = {
       ]
     },
     {
-      "id": "PHIL3073",
+      "id": "phil3073",
       "type": "course",
       "code": "PHIL3073",
       "name": "Topics in Advanced Ethics, Social and Political Philosophy",
@@ -29306,7 +33392,7 @@ window.ANREVIEW_DATA = {
       ]
     },
     {
-      "id": "PHIL3074",
+      "id": "phil3074",
       "type": "course",
       "code": "PHIL3074",
       "name": "Advanced Philosophical Topics",
@@ -29330,7 +33416,7 @@ window.ANREVIEW_DATA = {
       ]
     },
     {
-      "id": "PHIL3075",
+      "id": "phil3075",
       "type": "course",
       "code": "PHIL3075",
       "name": "The Philosophy of Gender: Knowledge, Power, Bodies",
@@ -29357,7 +33443,7 @@ window.ANREVIEW_DATA = {
       ]
     },
     {
-      "id": "PHIL3076",
+      "id": "phil3076",
       "type": "course",
       "code": "PHIL3076",
       "name": "Philosophy of the Life Sciences",
@@ -29384,7 +33470,7 @@ window.ANREVIEW_DATA = {
       ]
     },
     {
-      "id": "PHIL3077",
+      "id": "phil3077",
       "type": "course",
       "code": "PHIL3077",
       "name": "The Metaphysics of David Lewis",
@@ -29408,7 +33494,7 @@ window.ANREVIEW_DATA = {
       ]
     },
     {
-      "id": "PHIL3078",
+      "id": "phil3078",
       "type": "course",
       "code": "PHIL3078",
       "name": "The Philosophy of Emotions",
@@ -29434,7 +33520,7 @@ window.ANREVIEW_DATA = {
       ]
     },
     {
-      "id": "PHIL3079",
+      "id": "phil3079",
       "type": "course",
       "code": "PHIL3079",
       "name": "Evolution and Human Nature",
@@ -29459,7 +33545,699 @@ window.ANREVIEW_DATA = {
       ]
     },
     {
-      "id": "POLS1002",
+      "id": "pogo7901",
+      "type": "course",
+      "code": "POGO7901",
+      "name": "Graduate Preparatory Social, Political and Policy Analysis",
+      "summary": "This course forms part of the pre-sessional program which prepares students for high performance in their Crawford School degrees. The aim of this course is to expose students to some of the key concepts and analytical tools in the fields of public policy (which includes social policy and political analysis). This course ensures that all students are brought to the same level, and focuses on achieving an intuitive understanding of public policy as a discipline.",
+      "school": "Crawford School of Public Policy",
+      "schoolCode": "CRAW",
+      "college": "ANU College of Law, Governance and Policy",
+      "level": "PGRD",
+      "terms": [],
+      "conveners": [
+        "Dr Lhawang Ugyel",
+        "Dr Lhawang Ugyel"
+      ],
+      "handbookUrl": "https://programsandcourses.anu.edu.au/course/POGO7901",
+      "reviewMetrics": [
+        "Teaching quality",
+        "Workload fairness",
+        "Assessment design"
+      ],
+      "tags": [
+        "public policy"
+      ]
+    },
+    {
+      "id": "pogo8016",
+      "type": "course",
+      "code": "POGO8016",
+      "name": "The Economic Way of Thinking",
+      "summary": "Economic way of thinking examines how people make choices under conditions of scarcity and systems of production, consumption, and distribution. It also examines the effects of government policy and actions on market outcomes. The economic way of thinking provides a decision-making framework for individuals, firms and policy-makers.",
+      "school": "Crawford School of Public Policy",
+      "schoolCode": "CRAW",
+      "college": "ANU College of Law, Governance and Policy",
+      "level": "PGRD",
+      "terms": [],
+      "conveners": [
+        "Dr Shiro Armstrong",
+        "Dr Shiro Armstrong"
+      ],
+      "handbookUrl": "https://programsandcourses.anu.edu.au/course/POGO8016",
+      "reviewMetrics": [
+        "Teaching quality",
+        "Workload fairness",
+        "Assessment design"
+      ],
+      "tags": [
+        "public policy"
+      ]
+    },
+    {
+      "id": "pogo8021",
+      "type": "course",
+      "code": "POGO8021",
+      "name": "Public Sector Ethics",
+      "summary": "In a landscape where public servants and political leaders face complex ethical challenges and public sector scandals often seem to proliferate, how can we ensure integrity and accountability in public governance? This course introduces students to key debates in public sector ethics. It explores the responsibilities of public officials and how they negotiate complex and often contested or competing values in their relationships with politicians, citizens, and other stakeholders.",
+      "school": "Crawford School of Public Policy",
+      "schoolCode": "CRAW",
+      "college": "ANU College of Law, Governance and Policy",
+      "level": "PGRD",
+      "terms": [],
+      "conveners": [
+        "Dr Laura Davy",
+        "Dr Laura Davy"
+      ],
+      "handbookUrl": "https://programsandcourses.anu.edu.au/course/POGO8021",
+      "reviewMetrics": [
+        "Teaching quality",
+        "Workload fairness",
+        "Assessment design"
+      ],
+      "tags": [
+        "public policy"
+      ]
+    },
+    {
+      "id": "pogo8035",
+      "type": "course",
+      "code": "POGO8035",
+      "name": "Research Project (6 units)",
+      "summary": "This course comprises a supervised research project supported and complemented by class and supervisory discussions. It is designed for high performing students who have completed Research Methods (POGO8096 or POGO8196) and wish to undertake original research in a selected area of policy and governance. Students will identify their own research topic in discussion with the course convenor, and thereafter frame appropriate research questions and hypotheses or propositions, adopt appropriate research methodology, develop an analytical framework, conduct necessary detailed research, and write an academic research paper -- with supervision being provided by a member of staff.",
+      "school": "Crawford School of Public Policy",
+      "schoolCode": "CRAW",
+      "college": "ANU College of Law, Governance and Policy",
+      "level": "PGRD",
+      "terms": [],
+      "conveners": [
+        "Dr Zahid Mumtaz",
+        "Dr Zahid Mumtaz"
+      ],
+      "handbookUrl": "https://programsandcourses.anu.edu.au/course/POGO8035",
+      "reviewMetrics": [
+        "Teaching quality",
+        "Workload fairness",
+        "Assessment design"
+      ],
+      "tags": [
+        "public policy"
+      ]
+    },
+    {
+      "id": "pogo8045",
+      "type": "course",
+      "code": "POGO8045",
+      "name": "International Policy Making in the Shadow of the Future",
+      "summary": "The Asia-Pacific region is changing rapidly as result of economic development, political change, and shifting international alignments. In many ways, it is the most dynamic region in the world. In this context, it is not enough for policy makers and policy advocates to understand where the region stands today.",
+      "school": "Crawford School of Public Policy",
+      "schoolCode": "CRAW",
+      "college": "ANU College of Law, Governance and Policy",
+      "level": "PGRD",
+      "terms": [],
+      "conveners": [],
+      "handbookUrl": "https://programsandcourses.anu.edu.au/course/POGO8045",
+      "reviewMetrics": [
+        "Teaching quality",
+        "Workload fairness",
+        "Assessment design"
+      ],
+      "tags": [
+        "public policy"
+      ]
+    },
+    {
+      "id": "pogo8062",
+      "type": "course",
+      "code": "POGO8062",
+      "name": "Public Sector Management",
+      "summary": "How is the public sector managed? This course introduces students to key trends and debates in public sector management from a critical and comparative perspective. All countries in the modern world have systems of government that include permanent administrative organisations (departments or agencies) whose task it is to carry out the various functions of government, typically under the direction of political leaders and supervised by legislatures and courts.",
+      "school": "Crawford School of Public Policy",
+      "schoolCode": "CRAW",
+      "college": "ANU College of Law, Governance and Policy",
+      "level": "PGRD",
+      "terms": [],
+      "conveners": [
+        "Dr Lhawang Ugyel",
+        "Dr Lhawang Ugyel"
+      ],
+      "handbookUrl": "https://programsandcourses.anu.edu.au/course/POGO8062",
+      "reviewMetrics": [
+        "Teaching quality",
+        "Workload fairness",
+        "Assessment design"
+      ],
+      "tags": [
+        "public policy"
+      ]
+    },
+    {
+      "id": "pogo8076",
+      "type": "course",
+      "code": "POGO8076",
+      "name": "Corruption and Anti-corruption",
+      "summary": "The course is an interdisciplinary introduction to the theory and practice of corruption and anti-corruption efforts. It shows how different understandings of corruption suggest different remedies. Students will consider definitions, explanations and measures of corruption, and its links to development, politics, geography, economics and culture.",
+      "school": "Crawford School of Public Policy",
+      "schoolCode": "CRAW",
+      "college": "ANU College of Law, Governance and Policy",
+      "level": "PGRD",
+      "terms": [],
+      "conveners": [
+        "AsPr Grant Walton",
+        "AsPr Grant Walton"
+      ],
+      "handbookUrl": "https://programsandcourses.anu.edu.au/course/POGO8076",
+      "reviewMetrics": [
+        "Teaching quality",
+        "Workload fairness",
+        "Assessment design"
+      ],
+      "tags": [
+        "public policy"
+      ]
+    },
+    {
+      "id": "pogo8081",
+      "type": "course",
+      "code": "POGO8081",
+      "name": "Economics for Government",
+      "summary": "This course presents a systematic way of thinking about economic principles and the role of government. The course will ensure participants understand the nature and role of markets. Governments interact with the economy in general and markets at all levels, ranging from market design to hybrid public-private programs, from policies designed to provide incentives or disincentives to market and other behaviours, to incorporating behavioural and economic principles in government itself.",
+      "school": "Crawford School of Public Policy",
+      "schoolCode": "CRAW",
+      "college": "ANU College of Law, Governance and Policy",
+      "level": "PGRD",
+      "terms": [],
+      "conveners": [
+        "Dr Shiro Armstrong",
+        "Dr Shiro Armstrong"
+      ],
+      "handbookUrl": "https://programsandcourses.anu.edu.au/course/POGO8081",
+      "reviewMetrics": [
+        "Teaching quality",
+        "Workload fairness",
+        "Assessment design"
+      ],
+      "tags": [
+        "public policy"
+      ]
+    },
+    {
+      "id": "pogo8083",
+      "type": "course",
+      "code": "POGO8083",
+      "name": "Policy Advocacy",
+      "summary": "There are a whole range of individuals, groups and organisations that seek to influence the formulation and implementation of public policy – from community advocacy organisations and think tanks to political lobbyists and ‘policy entrepreneurs’ within government. This course explores the nature of policy advocacy and the important role it plays in public policy and policy processes in democratic systems. It examines strategies and tactics deployed by policy advocates inside and outside of government when persuading decision makers and the public, mobilising supporters, and building policy networks.",
+      "school": "Crawford School of Public Policy",
+      "schoolCode": "CRAW",
+      "college": "ANU College of Law, Governance and Policy",
+      "level": "PGRD",
+      "terms": [],
+      "conveners": [],
+      "handbookUrl": "https://programsandcourses.anu.edu.au/course/POGO8083",
+      "reviewMetrics": [
+        "Teaching quality",
+        "Workload fairness",
+        "Assessment design"
+      ],
+      "tags": [
+        "public policy"
+      ]
+    },
+    {
+      "id": "pogo8096",
+      "type": "course",
+      "code": "POGO8096",
+      "name": "Policy Research",
+      "summary": "This course provides students with important skills for interpreting and using policy research. Students will be introduced to the process and methods of empirical policy research. The course begins with an introduction to the research process before moving on to discuss aspects of concept formation and operationalization.",
+      "school": "Crawford School of Public Policy",
+      "schoolCode": "CRAW",
+      "college": "ANU College of Law, Governance and Policy",
+      "level": "PGRD",
+      "terms": [],
+      "conveners": [],
+      "handbookUrl": "https://programsandcourses.anu.edu.au/course/POGO8096",
+      "reviewMetrics": [
+        "Teaching quality",
+        "Workload fairness",
+        "Assessment design"
+      ],
+      "tags": [
+        "public policy"
+      ]
+    },
+    {
+      "id": "pogo8135",
+      "type": "course",
+      "code": "POGO8135",
+      "name": "Research Project (12 units)",
+      "summary": "This course comprises a supervised research project supported and complemented by class and supervisory discussions. It is designed for high performing students who have taken Policy Research (POGO8096) and wish to undertake extended original research in a selected area of policy and governance. Students will identify their own research topic in discussion with the course convenor, and thereafter frame appropriate research questions and hypotheses or propositions, adopt appropriate research methodology, develop an analytical framework, conduct necessary detailed research, and write an academic research paper -- with supervision being provided by a member of staff.",
+      "school": "Crawford School of Public Policy",
+      "schoolCode": "CRAW",
+      "college": "ANU College of Law, Governance and Policy",
+      "level": "PGRD",
+      "terms": [],
+      "conveners": [
+        "Dr Zahid Mumtaz",
+        "Dr Zahid Mumtaz"
+      ],
+      "handbookUrl": "https://programsandcourses.anu.edu.au/course/POGO8135",
+      "reviewMetrics": [
+        "Teaching quality",
+        "Workload fairness",
+        "Assessment design"
+      ],
+      "tags": [
+        "public policy"
+      ]
+    },
+    {
+      "id": "pogo8136",
+      "type": "course",
+      "code": "POGO8136",
+      "name": "Participating in Public Policy: Citizen Engagement and Public Talk",
+      "summary": "This course explores how different publics engage in aspects of public policy. Taught through six intensive interactive seminars, students consider diverse practices of participatory governance as well as the politics that community consultation and citizen engagement can generate. Seminars explore questions such as: What does meaningful citizen participation in public policy look like in an era of 24/7 news cycles and social media?",
+      "school": "Crawford School of Public Policy",
+      "schoolCode": "CRAW",
+      "college": "ANU College of Law, Governance and Policy",
+      "level": "PGRD",
+      "terms": [],
+      "conveners": [
+        "Prof Carolyn Hendriks",
+        "Prof Carolyn Hendriks"
+      ],
+      "handbookUrl": "https://programsandcourses.anu.edu.au/course/POGO8136",
+      "reviewMetrics": [
+        "Teaching quality",
+        "Workload fairness",
+        "Assessment design"
+      ],
+      "tags": [
+        "public policy"
+      ]
+    },
+    {
+      "id": "pogo8138",
+      "type": "course",
+      "code": "POGO8138",
+      "name": "Science, Technology and Public Policy",
+      "summary": "Science and technology (S&T) play a key role in shaping public policy issues in practically every sector. National governments and multilateral agencies (e.g., the United Nations) have high expectations of technological solutions to major policy problems related to the economy, public health, education, energy, agriculture, environment, defence and more. Yet, novel technologies also demand government intervention such as regulation in the public good.",
+      "school": "Centre for the Public Awareness of Science and the Crawford School of Public Policy",
+      "schoolCode": "CRAW",
+      "college": "ANU College of Law, Governance and Policy",
+      "level": "PGRD",
+      "terms": [],
+      "conveners": [],
+      "handbookUrl": "https://programsandcourses.anu.edu.au/course/POGO8138",
+      "reviewMetrics": [
+        "Teaching quality",
+        "Workload fairness",
+        "Assessment design"
+      ],
+      "tags": [
+        "public policy"
+      ]
+    },
+    {
+      "id": "pogo8230",
+      "type": "course",
+      "code": "POGO8230",
+      "name": "Gender Analysis in Public Policy",
+      "summary": "Policy and related instruments are often presented as gender-neutral. However, policies affect people differently, and critical considerations of gender are essential for good contemporary policy making. The failure to bring a gender lens to policy development and implementation can lead to poor outcomes for all and hinder the achievement of social and economic equality for women and gender diverse people.",
+      "school": "Crawford School of Public Policy",
+      "schoolCode": "CRAW",
+      "college": "ANU College of Law, Governance and Policy",
+      "level": "PGRD",
+      "terms": [],
+      "conveners": [],
+      "handbookUrl": "https://programsandcourses.anu.edu.au/course/POGO8230",
+      "reviewMetrics": [
+        "Teaching quality",
+        "Workload fairness",
+        "Assessment design"
+      ],
+      "tags": [
+        "public policy"
+      ]
+    },
+    {
+      "id": "pogo8232",
+      "type": "course",
+      "code": "POGO8232",
+      "name": "Persuasion for Policymakers",
+      "summary": "The ability to influence and persuade is a key skill for policymakers and public managers, used when presenting advice to Ministers and Secretaries, influencing a group in a meeting, and building support with stakeholders. This subject provides a practical introduction to persuasion, exploring both classical and contemporary theories and ideas. It draws on the art of rhetoric and the fields of social psychology, communication and management.",
+      "school": "Crawford School of Public Policy",
+      "schoolCode": "CRAW",
+      "college": "ANU College of Law, Governance and Policy",
+      "level": "PGRD",
+      "terms": [],
+      "conveners": [
+        "Prof Sara Bice",
+        "Prof Sara Bice"
+      ],
+      "handbookUrl": "https://programsandcourses.anu.edu.au/course/POGO8232",
+      "reviewMetrics": [
+        "Teaching quality",
+        "Workload fairness",
+        "Assessment design"
+      ],
+      "tags": [
+        "public policy"
+      ]
+    },
+    {
+      "id": "pogo8233",
+      "type": "course",
+      "code": "POGO8233",
+      "name": "Policy Tools and Mixes",
+      "summary": "The increasing complexity and interconnectivity of policy problems has led to governments turning to innovative policy tools to achieve policy outcomes. This course on policy tools and mixes offers an overview of contemporary and emerging tools and tools mixes. We use the obvious, but helpful, metaphor of a tool box and explore what tools are available in the tool box, how they are chosen, and whether they work.",
+      "school": "Crawford School of Public Policy",
+      "schoolCode": "CRAW",
+      "college": "ANU College of Law, Governance and Policy",
+      "level": "PGRD",
+      "terms": [],
+      "conveners": [
+        "Dr Lhawang Ugyel",
+        "Dr Lhawang Ugyel"
+      ],
+      "handbookUrl": "https://programsandcourses.anu.edu.au/course/POGO8233",
+      "reviewMetrics": [
+        "Teaching quality",
+        "Workload fairness",
+        "Assessment design"
+      ],
+      "tags": [
+        "public policy"
+      ]
+    },
+    {
+      "id": "pogo8234",
+      "type": "course",
+      "code": "POGO8234",
+      "name": "Unpacking Policy Capacity",
+      "summary": "Can governments address ‘wicked’ or complex challenges such as climate change or control healthcare costs? Can governments in developing countries price and distribute clean drinking water? Can governments enforce contracts?",
+      "school": "Crawford School of Public Policy",
+      "schoolCode": "CRAW",
+      "college": "ANU College of Law, Governance and Policy",
+      "level": "PGRD",
+      "terms": [],
+      "conveners": [],
+      "handbookUrl": "https://programsandcourses.anu.edu.au/course/POGO8234",
+      "reviewMetrics": [
+        "Teaching quality",
+        "Workload fairness",
+        "Assessment design"
+      ],
+      "tags": [
+        "public policy"
+      ]
+    },
+    {
+      "id": "pogo8235",
+      "type": "course",
+      "code": "POGO8235",
+      "name": "Engaging China: Working with Policy in the PRC",
+      "summary": "China's rise in the 21st century has created both tremendous opportunities and terrific challenges for the outside world. This course prepares current and future public sector professionals to engage with counterparts in China, even as geopolitical and geoeconomic rivalries create new challenges for bilateral and multilateral relationships. The course familiarizes participants with key features of China’s political and policymaking architecture, including its political system, decision-making processes, and policy tools.",
+      "school": "Crawford School of Public Policy",
+      "schoolCode": "CRAW",
+      "college": "ANU College of Law, Governance and Policy",
+      "level": "PGRD",
+      "terms": [],
+      "conveners": [
+        "AsPr Andrew Kennedy",
+        "AsPr Andrew Kennedy"
+      ],
+      "handbookUrl": "https://programsandcourses.anu.edu.au/course/POGO8235",
+      "reviewMetrics": [
+        "Teaching quality",
+        "Workload fairness",
+        "Assessment design"
+      ],
+      "tags": [
+        "public policy"
+      ]
+    },
+    {
+      "id": "pogo8236",
+      "type": "course",
+      "code": "POGO8236",
+      "name": "Public Strategy",
+      "summary": "Developing strategy in the public sector is enormously challenging. Policy problems are complex and multi-faceted, governments change leadership and direction, policy development is highly contestable, and the voices of stakeholders and citizens may push in different directions. In this context, policy makers need to be well informed, responsive, collaborative and innovative - as well as realistic about what is possible.",
+      "school": "Crawford School of Public Policy",
+      "schoolCode": "CRAW",
+      "college": "ANU College of Law, Governance and Policy",
+      "level": "PGRD",
+      "terms": [],
+      "conveners": [],
+      "handbookUrl": "https://programsandcourses.anu.edu.au/course/POGO8236",
+      "reviewMetrics": [
+        "Teaching quality",
+        "Workload fairness",
+        "Assessment design"
+      ],
+      "tags": [
+        "public policy"
+      ]
+    },
+    {
+      "id": "pogo8237",
+      "type": "course",
+      "code": "POGO8237",
+      "name": "Budgeting for Outcomes: Purposes, Programs and Performance",
+      "summary": "Contemporary public sector budgeting is about explaining the performance story behind the financial numbers, and working with the inevitable contestability around what the numbers mean. It is about how performance information can be used to better frame dialogue around funding priorities, and to actively manage program delivery within budget constraints. Current sector-wide performance and accountability frameworks emphasise clear linkages between funding and outcomes, and the integration of performance metrics with budget decision processes, internal organisational management, and external performance reporting.",
+      "school": "Crawford School of Public Policy",
+      "schoolCode": "CRAW",
+      "college": "ANU College of Law, Governance and Policy",
+      "level": "PGRD",
+      "terms": [],
+      "conveners": [],
+      "handbookUrl": "https://programsandcourses.anu.edu.au/course/POGO8237",
+      "reviewMetrics": [
+        "Teaching quality",
+        "Workload fairness",
+        "Assessment design"
+      ],
+      "tags": [
+        "public policy"
+      ]
+    },
+    {
+      "id": "pogo8238",
+      "type": "course",
+      "code": "POGO8238",
+      "name": "Fundamentals of Intergovernmental Management",
+      "summary": "The course will give participants a practical orientation to a major and vital area of public administration. It provides them with an insight into the major frameworks and issues of federalism and public administration relevant to the practice of intergovernmental management. While particular attention will be paid to the federal context, including its formal and informal institutions, and the vertical and horizontal settings for intergovernmental management, the issues we will explore here will be of wider theoretical and practical value, including for those working on intergovernmental relations in non-federal systems.",
+      "school": "Crawford School of Public Policy",
+      "schoolCode": "CRAW",
+      "college": "ANU College of Law, Governance and Policy",
+      "level": "PGRD",
+      "terms": [],
+      "conveners": [],
+      "handbookUrl": "https://programsandcourses.anu.edu.au/course/POGO8238",
+      "reviewMetrics": [
+        "Teaching quality",
+        "Workload fairness",
+        "Assessment design"
+      ],
+      "tags": [
+        "public policy"
+      ]
+    },
+    {
+      "id": "pogo8239",
+      "type": "course",
+      "code": "POGO8239",
+      "name": "Contemporary Challenges in Indigenous Policy",
+      "summary": "Public policy in Australia is, and will continue to be unsettled by First Nation's self-determination, sovereignty and resurgence until these concepts are embraced by policy. This course will equip those working in and around public policy processes to understand ongoing contentions that the public policy process brings, and to better work to support First Nation's self-determination and wellbeing in the Australian specific context. The course will outline important challenges when considering in public policy in Australia and will focus students on active engagement using tailored case studies and exercises drawing on real life scenarios.",
+      "school": "Crawford School of Public Policy",
+      "schoolCode": "CRAW",
+      "college": "ANU College of Law, Governance and Policy",
+      "level": "PGRD",
+      "terms": [],
+      "conveners": [
+        "AsPr Elise Klein",
+        "AsPr Elise Klein"
+      ],
+      "handbookUrl": "https://programsandcourses.anu.edu.au/course/POGO8239",
+      "reviewMetrics": [
+        "Teaching quality",
+        "Workload fairness",
+        "Assessment design"
+      ],
+      "tags": [
+        "public policy"
+      ]
+    },
+    {
+      "id": "pogo8240",
+      "type": "course",
+      "code": "POGO8240",
+      "name": "Evidence Based Thinking (EBT): Decision Making and Policy Development",
+      "summary": "Evidence-based thinking is an approach to conducting your professional life be it in the private or public sector. When you read a business case or a policy development argument that asks you to accept a conclusion that has implications for you – Are you confident that your decisions are grounded in clear evidence? Are you put in situations where you make decisions by a ‘gut-feeling’ or intuition?",
+      "school": "Crawford School of Public Policy",
+      "schoolCode": "CRAW",
+      "college": "ANU College of Law, Governance and Policy",
+      "level": "PGRD",
+      "terms": [],
+      "conveners": [],
+      "handbookUrl": "https://programsandcourses.anu.edu.au/course/POGO8240",
+      "reviewMetrics": [
+        "Teaching quality",
+        "Workload fairness",
+        "Assessment design"
+      ],
+      "tags": [
+        "public policy"
+      ]
+    },
+    {
+      "id": "pogo8242",
+      "type": "course",
+      "code": "POGO8242",
+      "name": "Community Development Strategies",
+      "summary": "This course is a practical, hands-on master class which will help students to design, critique and implement a community development strategy. Different types of community development strategies will be examined, such as Asset Based Community Development, Feminist Participatory Action Research, Participatory Rural Appraisal and a Freirean approach. These strategies will be compared and contrasted.",
+      "school": "Crawford School of Public Policy",
+      "schoolCode": "CRAW",
+      "college": "ANU College of Law, Governance and Policy",
+      "level": "PGRD",
+      "terms": [],
+      "conveners": [
+        "Dr Annabel Dulhunty",
+        "Dr Annabel Dulhunty"
+      ],
+      "handbookUrl": "https://programsandcourses.anu.edu.au/course/POGO8242",
+      "reviewMetrics": [
+        "Teaching quality",
+        "Workload fairness",
+        "Assessment design"
+      ],
+      "tags": [
+        "public policy"
+      ]
+    },
+    {
+      "id": "pogo8243",
+      "type": "course",
+      "code": "POGO8243",
+      "name": "The Localist Revolution – The Changing Face of Local Government",
+      "summary": "While local governments have traditionally been thought of as relatively powerless and administrative in nature, this has been rapidly changing. In recent years, many local governments around the world have jumped headfirst into a range of complex and controversial policy debates that were previously reserved for national governments. In some notable instances, local governments, and the cities they represent, have even taken the lead in addressing some of today’s most pressing political, economic, and environmental challenges – from climate change, economic inequality, to political polarization.",
+      "school": "Crawford School of Public Policy",
+      "schoolCode": "CRAW",
+      "college": "ANU College of Law, Governance and Policy",
+      "level": "PGRD",
+      "terms": [],
+      "conveners": [],
+      "handbookUrl": "https://programsandcourses.anu.edu.au/course/POGO8243",
+      "reviewMetrics": [
+        "Teaching quality",
+        "Workload fairness",
+        "Assessment design"
+      ],
+      "tags": [
+        "public policy"
+      ]
+    },
+    {
+      "id": "pogo8401",
+      "type": "course",
+      "code": "POGO8401",
+      "name": "Foundations in Public Policy",
+      "summary": "With the world rapidly changing and populations around the globe faced with crisis as well as ongoing inequalities, the study of public policy and the ability to do it well, matters. This course introduces students to the fundamentals of contemporary public policy making. Students will explore core debates in policy studies and consider concepts, models and tools for understanding, designing, implementing and evaluating public policy for a rapidly changing world.",
+      "school": "Crawford School of Public Policy",
+      "schoolCode": "CRAW",
+      "college": "ANU College of Law, Governance and Policy",
+      "level": "PGRD",
+      "terms": [],
+      "conveners": [
+        "AsPr Elise Klein",
+        "AsPr Elise Klein"
+      ],
+      "handbookUrl": "https://programsandcourses.anu.edu.au/course/POGO8401",
+      "reviewMetrics": [
+        "Teaching quality",
+        "Workload fairness",
+        "Assessment design"
+      ],
+      "tags": [
+        "public policy"
+      ]
+    },
+    {
+      "id": "pogo8402",
+      "type": "course",
+      "code": "POGO8402",
+      "name": "The Political and Institutional Architecture of Public Policy",
+      "summary": "This course introduces students to frameworks and theories for understanding the political and institutional context of contemporary policy making. Particular emphasis in the course is given to how various political, regulatory, administrative and communicative institutions shape the process and outcomes of public policy. Throughout the course students will engage critically in ideas on the structures of policy making, including the role of constitutions, the executive, the bureaucracy, the judiciary and other regulators, political parties, elections and the media.",
+      "school": "Crawford School of Public Policy",
+      "schoolCode": "CRAW",
+      "college": "ANU College of Law, Governance and Policy",
+      "level": "PGRD",
+      "terms": [],
+      "conveners": [
+        "AsPr Mark Chou",
+        "AsPr Mark Chou"
+      ],
+      "handbookUrl": "https://programsandcourses.anu.edu.au/course/POGO8402",
+      "reviewMetrics": [
+        "Teaching quality",
+        "Workload fairness",
+        "Assessment design"
+      ],
+      "tags": [
+        "public policy"
+      ]
+    },
+    {
+      "id": "pogo8403",
+      "type": "course",
+      "code": "POGO8403",
+      "name": "Cases in Contemporary Public Policy",
+      "summary": "The world is awash with change. The geopolitical landscape is in flux, and globalisation is being challenged and transformed. Technological revolutions are remaking myriad aspects of human life, while environmental change is reshaping the world as we know it.",
+      "school": "Crawford School of Public Policy",
+      "schoolCode": "CRAW",
+      "college": "ANU College of Law, Governance and Policy",
+      "level": "PGRD",
+      "terms": [],
+      "conveners": [
+        "AsPr Andrew Kennedy",
+        "Dr Debby Chan"
+      ],
+      "handbookUrl": "https://programsandcourses.anu.edu.au/course/POGO8403",
+      "reviewMetrics": [
+        "Teaching quality",
+        "Workload fairness",
+        "Assessment design"
+      ],
+      "tags": [
+        "public policy"
+      ]
+    },
+    {
+      "id": "pogo8500",
+      "type": "course",
+      "code": "POGO8500",
+      "name": "Evidence and Analysis in Public Policy",
+      "summary": "In this course students examine the role of evidence, knowledge production and politics in policy analysis. Particular emphasis is placed on equipping students with skills to critically evaluate common techniques used for policy analysis, such as modelling, impact evaluation and cost benefit analysis. Students begin with an overview of the logic and rationale for commonly used techniques, before moving on to consider the practical, political and epistemic considerations necessary to effectively contextualize these (and similar) techniques.",
+      "school": "Crawford School of Public Policy",
+      "schoolCode": "CRAW",
+      "college": "ANU College of Law, Governance and Policy",
+      "level": "PGRD",
+      "terms": [],
+      "conveners": [
+        "Dr Annabel Dulhunty",
+        "Dr Annabel Dulhunty"
+      ],
+      "handbookUrl": "https://programsandcourses.anu.edu.au/course/POGO8500",
+      "reviewMetrics": [
+        "Teaching quality",
+        "Workload fairness",
+        "Assessment design"
+      ],
+      "tags": [
+        "public policy"
+      ]
+    },
+    {
+      "id": "pols1002",
       "type": "course",
       "code": "POLS1002",
       "name": "Introduction to Politics",
@@ -29486,7 +34264,7 @@ window.ANREVIEW_DATA = {
       ]
     },
     {
-      "id": "POLS1005",
+      "id": "pols1005",
       "type": "course",
       "code": "POLS1005",
       "name": "Introduction to International Relations Foundations and Concepts",
@@ -29510,7 +34288,7 @@ window.ANREVIEW_DATA = {
       ]
     },
     {
-      "id": "POLS1009",
+      "id": "pols1009",
       "type": "course",
       "code": "POLS1009",
       "name": "Introduction to Data and Methods for Political Science and International Relations",
@@ -29537,7 +34315,7 @@ window.ANREVIEW_DATA = {
       ]
     },
     {
-      "id": "POLS2002",
+      "id": "pols2002",
       "type": "course",
       "code": "POLS2002",
       "name": "Public Policy: Theory and Practice",
@@ -29563,7 +34341,7 @@ window.ANREVIEW_DATA = {
       ]
     },
     {
-      "id": "POLS2010",
+      "id": "pols2010",
       "type": "course",
       "code": "POLS2010",
       "name": "Comparative Politics",
@@ -29588,7 +34366,7 @@ window.ANREVIEW_DATA = {
       ]
     },
     {
-      "id": "POLS2017",
+      "id": "pols2017",
       "type": "course",
       "code": "POLS2017",
       "name": "International Relations Theory",
@@ -29612,7 +34390,7 @@ window.ANREVIEW_DATA = {
       ]
     },
     {
-      "id": "POLS2031",
+      "id": "pols2031",
       "type": "course",
       "code": "POLS2031",
       "name": "Politics in the Middle East",
@@ -29636,7 +34414,7 @@ window.ANREVIEW_DATA = {
       ]
     },
     {
-      "id": "POLS2044",
+      "id": "pols2044",
       "type": "course",
       "code": "POLS2044",
       "name": "Quantitative Methods in Political Science and International Relations",
@@ -29662,7 +34440,7 @@ window.ANREVIEW_DATA = {
       ]
     },
     {
-      "id": "POLS2045",
+      "id": "pols2045",
       "type": "course",
       "code": "POLS2045",
       "name": "Qualitative Methods in Political Science and International Relations Research",
@@ -29711,7 +34489,7 @@ window.ANREVIEW_DATA = {
       ]
     },
     {
-      "id": "POLS2069",
+      "id": "pols2069",
       "type": "course",
       "code": "POLS2069",
       "name": "Politics in Russia",
@@ -29738,7 +34516,7 @@ window.ANREVIEW_DATA = {
       ]
     },
     {
-      "id": "POLS2094",
+      "id": "pols2094",
       "type": "course",
       "code": "POLS2094",
       "name": "International Political Economy",
@@ -29764,7 +34542,7 @@ window.ANREVIEW_DATA = {
       ]
     },
     {
-      "id": "POLS2100",
+      "id": "pols2100",
       "type": "course",
       "code": "POLS2100",
       "name": "Genocide in the Modern World",
@@ -29791,7 +34569,7 @@ window.ANREVIEW_DATA = {
       ]
     },
     {
-      "id": "POLS2102",
+      "id": "pols2102",
       "type": "course",
       "code": "POLS2102",
       "name": "Political Belief and Deceit",
@@ -29817,7 +34595,7 @@ window.ANREVIEW_DATA = {
       ]
     },
     {
-      "id": "POLS2114",
+      "id": "pols2114",
       "type": "course",
       "code": "POLS2114",
       "name": "Australian Politics",
@@ -29841,7 +34619,7 @@ window.ANREVIEW_DATA = {
       ]
     },
     {
-      "id": "POLS2119",
+      "id": "pols2119",
       "type": "course",
       "code": "POLS2119",
       "name": "Ideas in Politics",
@@ -29866,7 +34644,7 @@ window.ANREVIEW_DATA = {
       ]
     },
     {
-      "id": "POLS2130",
+      "id": "pols2130",
       "type": "course",
       "code": "POLS2130",
       "name": "Public Choice and Politics",
@@ -29891,7 +34669,7 @@ window.ANREVIEW_DATA = {
       ]
     },
     {
-      "id": "POLS2132",
+      "id": "pols2132",
       "type": "course",
       "code": "POLS2132",
       "name": "War and International Relations",
@@ -29915,7 +34693,7 @@ window.ANREVIEW_DATA = {
       ]
     },
     {
-      "id": "POLS2133",
+      "id": "pols2133",
       "type": "course",
       "code": "POLS2133",
       "name": "Global Cooperation and Institutions",
@@ -29941,7 +34719,7 @@ window.ANREVIEW_DATA = {
       ]
     },
     {
-      "id": "POLS2137",
+      "id": "pols2137",
       "type": "course",
       "code": "POLS2137",
       "name": "Meaning in Politics: Interpretation, Method and Critique",
@@ -29965,7 +34743,7 @@ window.ANREVIEW_DATA = {
       ]
     },
     {
-      "id": "POLS3001",
+      "id": "pols3001",
       "type": "course",
       "code": "POLS3001",
       "name": "Foreign Policy Analysis",
@@ -29989,7 +34767,7 @@ window.ANREVIEW_DATA = {
       ]
     },
     {
-      "id": "POLS3002",
+      "id": "pols3002",
       "type": "course",
       "code": "POLS3002",
       "name": "Comparative European Politics",
@@ -30040,7 +34818,7 @@ window.ANREVIEW_DATA = {
       ]
     },
     {
-      "id": "POLS3029",
+      "id": "pols3029",
       "type": "course",
       "code": "POLS3029",
       "name": "Sharing Power: Federalism in Comparative Perspective",
@@ -30066,7 +34844,7 @@ window.ANREVIEW_DATA = {
       ]
     },
     {
-      "id": "POLS3032",
+      "id": "pols3032",
       "type": "course",
       "code": "POLS3032",
       "name": "The Politics of Empire",
@@ -30090,7 +34868,7 @@ window.ANREVIEW_DATA = {
       ]
     },
     {
-      "id": "POLS3035",
+      "id": "pols3035",
       "type": "course",
       "code": "POLS3035",
       "name": "Norms and International Law in World Politics",
@@ -30117,7 +34895,7 @@ window.ANREVIEW_DATA = {
       ]
     },
     {
-      "id": "POLS3036",
+      "id": "pols3036",
       "type": "course",
       "code": "POLS3036",
       "name": "International Terrorism",
@@ -30144,7 +34922,7 @@ window.ANREVIEW_DATA = {
       ]
     },
     {
-      "id": "POLS3043",
+      "id": "pols3043",
       "type": "course",
       "code": "POLS3043",
       "name": "Pressure Groups and Political Lobbying",
@@ -30171,7 +34949,7 @@ window.ANREVIEW_DATA = {
       ]
     },
     {
-      "id": "POLS3095",
+      "id": "pols3095",
       "type": "course",
       "code": "POLS3095",
       "name": "Politics in Latin America",
@@ -30198,7 +34976,7 @@ window.ANREVIEW_DATA = {
       ]
     },
     {
-      "id": "POLS3111",
+      "id": "pols3111",
       "type": "course",
       "code": "POLS3111",
       "name": "Elections, Political Behaviour and Public Opinion in Australia",
@@ -30222,7 +35000,7 @@ window.ANREVIEW_DATA = {
       ]
     },
     {
-      "id": "POLS3113",
+      "id": "pols3113",
       "type": "course",
       "code": "POLS3113",
       "name": "Human Rights",
@@ -30249,7 +35027,7 @@ window.ANREVIEW_DATA = {
       ]
     },
     {
-      "id": "POLS3125",
+      "id": "pols3125",
       "type": "course",
       "code": "POLS3125",
       "name": "Game Theory and Social Sciences",
@@ -30275,7 +35053,7 @@ window.ANREVIEW_DATA = {
       ]
     },
     {
-      "id": "POLS3126",
+      "id": "pols3126",
       "type": "course",
       "code": "POLS3126",
       "name": "Democracy and Dictatorship",
@@ -30301,7 +35079,7 @@ window.ANREVIEW_DATA = {
       ]
     },
     {
-      "id": "POLS3127",
+      "id": "pols3127",
       "type": "course",
       "code": "POLS3127",
       "name": "U.S. Politics",
@@ -30326,7 +35104,7 @@ window.ANREVIEW_DATA = {
       ]
     },
     {
-      "id": "POLS3134",
+      "id": "pols3134",
       "type": "course",
       "code": "POLS3134",
       "name": "The Politics of Gender, Race and Indentity",
@@ -30352,7 +35130,7 @@ window.ANREVIEW_DATA = {
       ]
     },
     {
-      "id": "POLS3136",
+      "id": "pols3136",
       "type": "course",
       "code": "POLS3136",
       "name": "Power and influence in world politics",
@@ -30377,7 +35155,364 @@ window.ANREVIEW_DATA = {
       ]
     },
     {
-      "id": "PSYC1003",
+      "id": "poph6115",
+      "type": "course",
+      "code": "POPH6115",
+      "name": "Health Promotion Principles and Practice",
+      "summary": "This interdisciplinary course examines the ways in which societies attempt to enhance and promote health in a range of settings, while critically assessing the associated risks and barriers. Students will learn how public health campaigns are planned, implemented and evaluated and will have the opportunity to engage with and learn from practitioners in the field. The course provides a sound theoretical understanding of dominant health promotion and protection theories and models, as they relate to contemporary health issues in Australia and internationally.",
+      "school": "National Centre Epidemiology & Population Health",
+      "schoolCode": "NCEPH",
+      "college": "ANU College of Law, Governance and Policy",
+      "level": "PGRD",
+      "terms": [],
+      "conveners": [
+        "Dr Laura Dawes",
+        "Dr Laura Dawes"
+      ],
+      "handbookUrl": "https://programsandcourses.anu.edu.au/course/POPH6115",
+      "reviewMetrics": [
+        "Teaching quality",
+        "Workload fairness",
+        "Assessment design"
+      ],
+      "tags": [
+        "population health"
+      ]
+    },
+    {
+      "id": "poph8021",
+      "type": "course",
+      "code": "POPH8021",
+      "name": "Epidemiology and Population Health Research Project",
+      "summary": "The course enables students to undertake a research project that builds upon their coursework knowledge. It focuses on conducting original research under academic supervision to develop independent research skills and gain practical experience. Before enrolment, students will negotiate the details of the project with their supervisor/s and obtain approval from the school.",
+      "school": "National Centre Epidemiology & Population Health",
+      "schoolCode": "NCEPH",
+      "college": "ANU College of Law, Governance and Policy",
+      "level": "PGRD",
+      "terms": [],
+      "conveners": [],
+      "handbookUrl": "https://programsandcourses.anu.edu.au/course/POPH8021",
+      "reviewMetrics": [
+        "Teaching quality",
+        "Workload fairness",
+        "Assessment design"
+      ],
+      "tags": [
+        "population health"
+      ]
+    },
+    {
+      "id": "poph8100",
+      "type": "course",
+      "code": "POPH8100",
+      "name": "Fundamentals of Epidemiology",
+      "summary": "Epidemiology is the study of the distribution and determinants of health in populations and the application of this study to improve health. The course will cover basic epidemiological concepts including study design; measures of disease frequency and association; bias, confounding and effect modification; causality; screening; and disease surveillance. The course will also introduce the basic tools necessary for using and interpreting population health data.",
+      "school": "National Centre Epidemiology & Population Health",
+      "schoolCode": "NCEPH",
+      "college": "ANU College of Law, Governance and Policy",
+      "level": "PGRD",
+      "terms": [],
+      "conveners": [],
+      "handbookUrl": "https://programsandcourses.anu.edu.au/course/POPH8100",
+      "reviewMetrics": [
+        "Teaching quality",
+        "Workload fairness",
+        "Assessment design"
+      ],
+      "tags": [
+        "population health"
+      ]
+    },
+    {
+      "id": "poph8101",
+      "type": "course",
+      "code": "POPH8101",
+      "name": "Biostatistics in Population Health",
+      "summary": "This course will examine principles of biostatistics, in the context of real-world public health issues. The aim of the course is to help those without a specialised background to read and interpret biostatistical content in the medical and public health literature. Topics, chosen by frequency of occurrence in the literature, will include: Introduction to sampling distributions, hypothesis tests and estimation Analysis of normal data, including t-tests and linear regression Analysis of binary data, including 2x2 tables, Mantel-Haenszel methods and logistic regression Analysis of count data, including comparing rates between two groups Poisson regression Throughout the course, the emphasis will be on understanding the reasons why the techniques are appropriate, underlying assumptions, use of the statistical analysis package Stata and interpretation of results, rather than the mechanics of calculation.",
+      "school": "National Centre Epidemiology & Population Health",
+      "schoolCode": "NCEPH",
+      "college": "ANU College of Law, Governance and Policy",
+      "level": "PGRD",
+      "terms": [],
+      "conveners": [],
+      "handbookUrl": "https://programsandcourses.anu.edu.au/course/POPH8101",
+      "reviewMetrics": [
+        "Teaching quality",
+        "Workload fairness",
+        "Assessment design"
+      ],
+      "tags": [
+        "population health"
+      ]
+    },
+    {
+      "id": "poph8102",
+      "type": "course",
+      "code": "POPH8102",
+      "name": "Global Population Health",
+      "summary": "This course introduces the field of Global Health, which is the health of populations at a global scale. Global Population Health provides a comprehensive understanding of the factors influencing the health and well-being of populations around the world. Students gain insights into the major global health challenges, such as infectious diseases, non-communicable diseases, maternal and child health, and mental health.",
+      "school": "National Centre Epidemiology & Population Health",
+      "schoolCode": "NCEPH",
+      "college": "ANU College of Law, Governance and Policy",
+      "level": "PGRD",
+      "terms": [],
+      "conveners": [
+        "Dr Haribondhu Sarma",
+        "Dr Haribondhu Sarma"
+      ],
+      "handbookUrl": "https://programsandcourses.anu.edu.au/course/POPH8102",
+      "reviewMetrics": [
+        "Teaching quality",
+        "Workload fairness",
+        "Assessment design"
+      ],
+      "tags": [
+        "population health"
+      ]
+    },
+    {
+      "id": "poph8103",
+      "type": "course",
+      "code": "POPH8103",
+      "name": "Introduction to Health Services Research and Policy",
+      "summary": "This course provides an introduction to health services research, health care systems, policy formulation and analysis. The overall aim of this course is to enable you to understand the principles of health services research and policy, including the frameworks for formulating and assessing health policy. The course aims to provide you with a broad overview of the structure and components of contemporary healthcare systems, methods and mechanisms in health services research and policy how they function.",
+      "school": "National Centre Epidemiology & Population Health",
+      "schoolCode": "NCEPH",
+      "college": "ANU College of Law, Governance and Policy",
+      "level": "PGRD",
+      "terms": [],
+      "conveners": [
+        "Dr Jinhu Li",
+        "Dr Jinhu Li"
+      ],
+      "handbookUrl": "https://programsandcourses.anu.edu.au/course/POPH8103",
+      "reviewMetrics": [
+        "Teaching quality",
+        "Workload fairness",
+        "Assessment design"
+      ],
+      "tags": [
+        "population health"
+      ]
+    },
+    {
+      "id": "poph8106",
+      "type": "course",
+      "code": "POPH8106",
+      "name": "Public Health Research Project",
+      "summary": "This course provides students with an opportunity to undertake a public health research project, on a topic of their choice, by collecting data and analysing, presenting and writing up their research results. Students need to achieve a minimum Distinction grade in POPH8315 to enrol in this course and will benefit if they choose their project prior to starting POPH8315. Students' research projects are supervised by one, or more, specific supervisors and the course convenor facilitates and monitors the students progress.",
+      "school": "National Centre Epidemiology & Population Health",
+      "schoolCode": "NCEPH",
+      "college": "ANU College of Law, Governance and Policy",
+      "level": "PGRD",
+      "terms": [],
+      "conveners": [],
+      "handbookUrl": "https://programsandcourses.anu.edu.au/course/POPH8106",
+      "reviewMetrics": [
+        "Teaching quality",
+        "Workload fairness",
+        "Assessment design"
+      ],
+      "tags": [
+        "population health"
+      ]
+    },
+    {
+      "id": "poph8108",
+      "type": "course",
+      "code": "POPH8108",
+      "name": "Social and Cultural Determinants of Health",
+      "summary": "Understanding the social determinants of health is important for health promotion, health prevention and also for crafting an approach to treatment and health care that considers people’s uneven exposures to social and cultural risks or resources. The social determinants of health are important from a public health perspective because they point to the causes of health risks and hence the necessary interventions; explain chronic disease policy failure; explain differentials in health outcomes; address questions posed in philosophy regarding pathways to equity and equality. The social determinants of health framework has been adopted by the World Health Organisation and governments, and this course aims to supply an in-depth understanding of the field and its importance.",
+      "school": "National Centre Epidemiology & Population Health",
+      "schoolCode": "NCEPH",
+      "college": "ANU College of Law, Governance and Policy",
+      "level": "PGRD",
+      "terms": [],
+      "conveners": [
+        "Dr Andini Pramono",
+        "Dr Andini Pramono"
+      ],
+      "handbookUrl": "https://programsandcourses.anu.edu.au/course/POPH8108",
+      "reviewMetrics": [
+        "Teaching quality",
+        "Workload fairness",
+        "Assessment design"
+      ],
+      "tags": [
+        "population health"
+      ]
+    },
+    {
+      "id": "poph8313",
+      "type": "course",
+      "code": "POPH8313",
+      "name": "Analysis of Public Health Data",
+      "summary": "Data analysis is a central activity in applied epidemiology providing underlying evidence for public health policy formulation and action. Data may come from studies with survey, cohort or case control designs, or from health system surveillance or monitoring. The different types of data require different analytic methods appropriate to the form of the data and to the research question.",
+      "school": "National Centre Epidemiology & Population Health",
+      "schoolCode": "NCEPH",
+      "college": "ANU College of Law, Governance and Policy",
+      "level": "PGRD",
+      "terms": [],
+      "conveners": [],
+      "handbookUrl": "https://programsandcourses.anu.edu.au/course/POPH8313",
+      "reviewMetrics": [
+        "Teaching quality",
+        "Workload fairness",
+        "Assessment design"
+      ],
+      "tags": [
+        "population health"
+      ]
+    },
+    {
+      "id": "poph8315",
+      "type": "course",
+      "code": "POPH8315",
+      "name": "Research Design and Methods",
+      "summary": "The Research Design and Methods course teaches relevant theories, concepts, tools, and techniques in epidemiology to equip students with the knowledge and skills needed to undertake an applied epidemiological research study. The focus is on transforming a research question into a study that is appropriate for the setting and capable of answering the research question. Students apply the skills they learn by developing their own research proposal on a topic of their choosing.",
+      "school": "National Centre Epidemiology & Population Health",
+      "schoolCode": "NCEPH",
+      "college": "ANU College of Law, Governance and Policy",
+      "level": "PGRD",
+      "terms": [],
+      "conveners": [
+        "Dr Tehzeeb Zulfiqar",
+        "Dr Tehzeeb Zulfiqar"
+      ],
+      "handbookUrl": "https://programsandcourses.anu.edu.au/course/POPH8315",
+      "reviewMetrics": [
+        "Teaching quality",
+        "Workload fairness",
+        "Assessment design"
+      ],
+      "tags": [
+        "population health"
+      ]
+    },
+    {
+      "id": "poph8316",
+      "type": "course",
+      "code": "POPH8316",
+      "name": "Outbreak Investigation",
+      "summary": "Outbreak investigation is a central aspect of applied epidemiology which aims to control the outbreak and prevent future outbreaks. The Outbreak Investigation course is designed to equip students with the knowledge and skills to undertake outbreak investigations in the field. The course combines theory with outbreak investigation case studies based on real-life outbreaks.",
+      "school": "National Centre Epidemiology & Population Health",
+      "schoolCode": "NCEPH",
+      "college": "ANU College of Law, Governance and Policy",
+      "level": "PGRD",
+      "terms": [],
+      "conveners": [],
+      "handbookUrl": "https://programsandcourses.anu.edu.au/course/POPH8316",
+      "reviewMetrics": [
+        "Teaching quality",
+        "Workload fairness",
+        "Assessment design"
+      ],
+      "tags": [
+        "population health"
+      ]
+    },
+    {
+      "id": "poph8317",
+      "type": "course",
+      "code": "POPH8317",
+      "name": "Public Health Surveillance",
+      "summary": "Public Health Surveillance is the collection, analysis and interpretation of health or related data for public health action. This course aims to teach students about public health surveillance in four domains: establishment, maintenance, reporting, and evaluation of surveillance systems. Topics will include: Introduction to surveillance: Why do we have it?; Different types and uses Legislation and guidelines for public health surveillance Surveillance in Australia Establishment of surveillance and how it can be enhanced surveillance Analysis and reviewing outputs Communicating results Evaluating surveillance systems Surveillance in special situations and populations, such as: humanitarian crises, public health emergencies, and mass gatherings.",
+      "school": "National Centre Epidemiology & Population Health",
+      "schoolCode": "NCEPH",
+      "college": "ANU College of Law, Governance and Policy",
+      "level": "PGRD",
+      "terms": [],
+      "conveners": [
+        "Dr Tehzeeb Zulfiqar",
+        "Dr Tehzeeb Zulfiqar"
+      ],
+      "handbookUrl": "https://programsandcourses.anu.edu.au/course/POPH8317",
+      "reviewMetrics": [
+        "Teaching quality",
+        "Workload fairness",
+        "Assessment design"
+      ],
+      "tags": [
+        "population health"
+      ]
+    },
+    {
+      "id": "poph8318",
+      "type": "course",
+      "code": "POPH8318",
+      "name": "Human Health, Environment and Climate Change",
+      "summary": "This course examines the fundamental concepts in environmental health, health needs assessment, and environmental risk assessment and management. This will include a range of environmental risks, including water and food quality, sanitation, air quality, occupational health, environmental toxicology and the built environment. This course will also examine the pathways through which climate change is likely to influence human health.",
+      "school": "National Centre Epidemiology & Population Health",
+      "schoolCode": "NCEPH",
+      "college": "ANU College of Law, Governance and Policy",
+      "level": "PGRD",
+      "terms": [],
+      "conveners": [
+        "Dr Michael Tong",
+        "Dr Michael Tong"
+      ],
+      "handbookUrl": "https://programsandcourses.anu.edu.au/course/POPH8318",
+      "reviewMetrics": [
+        "Teaching quality",
+        "Workload fairness",
+        "Assessment design"
+      ],
+      "tags": [
+        "population health"
+      ]
+    },
+    {
+      "id": "poph8400",
+      "type": "course",
+      "code": "POPH8400",
+      "name": "Epidemiology and Population Health Internship",
+      "summary": "This course provides an opportunity for high-achieving graduate students in the Masters of Public Health (MPH) to apply and develop professional skills and attributes in an area of their choice. This course offers opportunities to network with professional organisations, local and national government and industry, and to acquire skills, knowledge and professional attributes which may facilitate future employment opportunities. The internship will be under the direct supervision of a workplace professional, with access to an appropriate academic within the National Centre for Epidemiology and Population Health.",
+      "school": "National Centre Epidemiology & Population Health",
+      "schoolCode": "NCEPH",
+      "college": "ANU College of Law, Governance and Policy",
+      "level": "PGRD",
+      "terms": [],
+      "conveners": [
+        "Dr Matthew Kelly",
+        "Dr Matthew Kelly"
+      ],
+      "handbookUrl": "https://programsandcourses.anu.edu.au/course/POPH8400",
+      "reviewMetrics": [
+        "Teaching quality",
+        "Workload fairness",
+        "Assessment design"
+      ],
+      "tags": [
+        "population health"
+      ]
+    },
+    {
+      "id": "popm8001",
+      "type": "course",
+      "code": "POPM8001",
+      "name": "Research, Treatment, Policy: Current Issues in Mental Health",
+      "summary": "The aim of the course is to provide a practical introduction to the nature, epidemiology and treatment of mental health disorders. Lecturers are staff at the Centre for Mental Health Research (CMHR) and guest lecturers from other specialties. It is expected that the course will be of interest to postgraduate students with an interest in mental health, professionals working in health sectors, and public servants and administrators who need to keep abreast of the latest empirical findings in mental health research.",
+      "school": "National Centre Epidemiology & Population Health",
+      "schoolCode": "NCEPH",
+      "college": "ANU College of Law, Governance and Policy",
+      "level": "PGRD",
+      "terms": [],
+      "conveners": [
+        "Dr Amelia Gulliver",
+        "Dr Amelia Gulliver"
+      ],
+      "handbookUrl": "https://programsandcourses.anu.edu.au/course/POPM8001",
+      "reviewMetrics": [
+        "Teaching quality",
+        "Workload fairness",
+        "Assessment design"
+      ],
+      "tags": [
+        "population health"
+      ]
+    },
+    {
+      "id": "psyc1003",
       "type": "course",
       "code": "PSYC1003",
       "name": "Psychology 1: Understanding Mind, Brain and Behaviour",
@@ -30404,7 +35539,7 @@ window.ANREVIEW_DATA = {
       ]
     },
     {
-      "id": "PSYC1004",
+      "id": "psyc1004",
       "type": "course",
       "code": "PSYC1004",
       "name": "Psychology 2: Understanding People in Context",
@@ -30428,7 +35563,7 @@ window.ANREVIEW_DATA = {
       ]
     },
     {
-      "id": "PSYC2001",
+      "id": "psyc2001",
       "type": "course",
       "code": "PSYC2001",
       "name": "Social Psychology",
@@ -30452,7 +35587,7 @@ window.ANREVIEW_DATA = {
       ]
     },
     {
-      "id": "PSYC2002",
+      "id": "psyc2002",
       "type": "course",
       "code": "PSYC2002",
       "name": "Developmental Psychology",
@@ -30476,7 +35611,7 @@ window.ANREVIEW_DATA = {
       ]
     },
     {
-      "id": "PSYC2007",
+      "id": "psyc2007",
       "type": "course",
       "code": "PSYC2007",
       "name": "Biological Basis of Psychology",
@@ -30502,7 +35637,7 @@ window.ANREVIEW_DATA = {
       ]
     },
     {
-      "id": "PSYC2008",
+      "id": "psyc2008",
       "type": "course",
       "code": "PSYC2008",
       "name": "Cognition",
@@ -30526,7 +35661,7 @@ window.ANREVIEW_DATA = {
       ]
     },
     {
-      "id": "PSYC2009",
+      "id": "psyc2009",
       "type": "course",
       "code": "PSYC2009",
       "name": "Quantitative Methods in Psychology",
@@ -30550,7 +35685,7 @@ window.ANREVIEW_DATA = {
       ]
     },
     {
-      "id": "PSYC2011",
+      "id": "psyc2011",
       "type": "course",
       "code": "PSYC2011",
       "name": "Introduction to Forensic and Criminal Psychology",
@@ -30577,7 +35712,7 @@ window.ANREVIEW_DATA = {
       ]
     },
     {
-      "id": "PSYC3018",
+      "id": "psyc3018",
       "type": "course",
       "code": "PSYC3018",
       "name": "Advanced Research Methods",
@@ -30601,7 +35736,7 @@ window.ANREVIEW_DATA = {
       ]
     },
     {
-      "id": "PSYC3025",
+      "id": "psyc3025",
       "type": "course",
       "code": "PSYC3025",
       "name": "Psychopathology Across the Lifespan",
@@ -30625,7 +35760,7 @@ window.ANREVIEW_DATA = {
       ]
     },
     {
-      "id": "PSYC3026",
+      "id": "psyc3026",
       "type": "course",
       "code": "PSYC3026",
       "name": "Personality Psychology",
@@ -30649,7 +35784,204 @@ window.ANREVIEW_DATA = {
       ]
     },
     {
-      "id": "SCRN2003",
+      "id": "regn8005",
+      "type": "course",
+      "code": "REGN8005",
+      "name": "Restorative Justice in the World",
+      "summary": "This course introduces students to the main concepts and debates in restorative justice in an evidence-informed way. It explores the multitude of ways restorative justice can and is being used to respond to a variety of societal challenges. This includes the juvenile and adult criminal justice context, as well as areas as diverse as environmental protection, sexual abuse and health.",
+      "school": "School of Regulation and Global Governance",
+      "schoolCode": "REGN",
+      "college": "ANU College of Law, Governance and Policy",
+      "level": "PGRD",
+      "terms": [],
+      "conveners": [
+        "Dr Miranda Forsyth",
+        "Dr Miranda Forsyth"
+      ],
+      "handbookUrl": "https://programsandcourses.anu.edu.au/course/REGN8005",
+      "reviewMetrics": [
+        "Teaching quality",
+        "Workload fairness",
+        "Assessment design"
+      ],
+      "tags": [
+        "regulation"
+      ]
+    },
+    {
+      "id": "regn8012",
+      "type": "course",
+      "code": "REGN8012",
+      "name": "Special Topics in Regulation and Governance",
+      "summary": "Information on the particular topic offered under this course will be outlined in the ‘Other Information’ section, including topic title, topic convenor, and an indication of workload and indicative assessment. This course complements the suite of existing courses offered by the School of Regulation and Global Governance (RegNet). The topics offered will vary in response to current issues and emerging research.",
+      "school": "School of Regulation and Global Governance",
+      "schoolCode": "REGN",
+      "college": "ANU College of Law, Governance and Policy",
+      "level": "PGRD",
+      "terms": [],
+      "conveners": [],
+      "handbookUrl": "https://programsandcourses.anu.edu.au/course/REGN8012",
+      "reviewMetrics": [
+        "Teaching quality",
+        "Workload fairness",
+        "Assessment design"
+      ],
+      "tags": [
+        "regulation"
+      ]
+    },
+    {
+      "id": "regn8014",
+      "type": "course",
+      "code": "REGN8014",
+      "name": "Contemporary Issues in Technology Governance",
+      "summary": "Technological change is a central feature of societies. The pervasiveness of digital technologies in everyday life poses ongoing challenges for regulation and governance. How should the generation and use of private data be managed?",
+      "school": "School of Regulation and Global Governance",
+      "schoolCode": "REGN",
+      "college": "ANU College of Law, Governance and Policy",
+      "level": "PGRD",
+      "terms": [],
+      "conveners": [
+        "Dr John Noel Viana",
+        "Dr John Noel Viana"
+      ],
+      "handbookUrl": "https://programsandcourses.anu.edu.au/course/REGN8014",
+      "reviewMetrics": [
+        "Teaching quality",
+        "Workload fairness",
+        "Assessment design"
+      ],
+      "tags": [
+        "regulation"
+      ]
+    },
+    {
+      "id": "regn8022",
+      "type": "course",
+      "code": "REGN8022",
+      "name": "Governance in a Complex and Uncertain World",
+      "summary": "We live in a complex and uncertain world. In the 21st century, humanity faces challenges stemming from climate change, pandemics, rising inequality, and great power rivalry, which cannot be understood or managed from the perspective of a single discipline. Domains that were previously kept relatively separate (such as economics, security, health and the environment) are colliding.",
+      "school": "School of Regulation and Global Governance",
+      "schoolCode": "REGN",
+      "college": "ANU College of Law, Governance and Policy",
+      "level": "PGRD",
+      "terms": [],
+      "conveners": [
+        "Dr Jade Hutchinson",
+        "Dr Jade Hutchinson"
+      ],
+      "handbookUrl": "https://programsandcourses.anu.edu.au/course/REGN8022",
+      "reviewMetrics": [
+        "Teaching quality",
+        "Workload fairness",
+        "Assessment design"
+      ],
+      "tags": [
+        "regulation"
+      ]
+    },
+    {
+      "id": "regn8024",
+      "type": "course",
+      "code": "REGN8024",
+      "name": "Regulating Nuclear Capabilities",
+      "summary": "Responsible management of Australia's nuclear capabilities is a complex regulatory problem. Australia exports, but does not enrich, uranium; it uses nuclear technology for scientific and medical purposes, but not for power generation; it is globally ranked as a leading exponent of nuclear safeguards but is also a partner in AUKUS -- the 2021 agreement between Australia, the United Kingdom and the United States to share defence technologies and know-how. Amongst other things, this commits Australia to developing a nuclear-propelled submarine fleet.",
+      "school": "School of Regulation and Global Governance",
+      "schoolCode": "REGN",
+      "college": "ANU College of Law, Governance and Policy",
+      "level": "PGRD",
+      "terms": [],
+      "conveners": [
+        "Prof Veronica Taylor",
+        "Prof Veronica Taylor"
+      ],
+      "handbookUrl": "https://programsandcourses.anu.edu.au/course/REGN8024",
+      "reviewMetrics": [
+        "Teaching quality",
+        "Workload fairness",
+        "Assessment design"
+      ],
+      "tags": [
+        "regulation"
+      ]
+    },
+    {
+      "id": "regn8049",
+      "type": "course",
+      "code": "REGN8049",
+      "name": "Regulating Disruptive Technologies",
+      "summary": "Technological innovation has transformed everyday life and disrupted established industries. Artificial intelligence, big data, blockchain, machine learning, industry 4.0, the Internet of Things and synthetic biology are not simply buzzwords: they impact agriculture, communications, energy, healthcare, hospitality, infrastructure, social welfare and transportation. While disruptive technologies may contribute to positive social change, they can pose risks and dangers if unchecked.",
+      "school": "School of Regulation and Global Governance",
+      "schoolCode": "REGN",
+      "college": "ANU College of Law, Governance and Policy",
+      "level": "PGRD",
+      "terms": [],
+      "conveners": [
+        "Dr Jenna Harb",
+        "Dr Jenna Harb"
+      ],
+      "handbookUrl": "https://programsandcourses.anu.edu.au/course/REGN8049",
+      "reviewMetrics": [
+        "Teaching quality",
+        "Workload fairness",
+        "Assessment design"
+      ],
+      "tags": [
+        "regulation"
+      ]
+    },
+    {
+      "id": "regn8050",
+      "type": "course",
+      "code": "REGN8050",
+      "name": "The Policy and Practice of Regulation",
+      "summary": "This course is designed to help individual professionals and organisations understand and apply contemporary Australian and international approaches to effective regulation. Regulatory issues covered include regulatory complexity, risk assessment, responsiveness, compliance, regulating technology and managing stakeholders. It is for people who are currently managing regulatory portfolios and projects in government agencies (e.g.",
+      "school": "School of Regulation and Global Governance",
+      "schoolCode": "REGN",
+      "college": "ANU College of Law, Governance and Policy",
+      "level": "PGRD",
+      "terms": [],
+      "conveners": [
+        "Dr Jarrett Blaustein",
+        "Dr Jarrett Blaustein"
+      ],
+      "handbookUrl": "https://programsandcourses.anu.edu.au/course/REGN8050",
+      "reviewMetrics": [
+        "Teaching quality",
+        "Workload fairness",
+        "Assessment design"
+      ],
+      "tags": [
+        "regulation"
+      ]
+    },
+    {
+      "id": "regn8052",
+      "type": "course",
+      "code": "REGN8052",
+      "name": "Regulation and Governance",
+      "summary": "The course will help students understand the nature of regulation and governance in complex social environments. It examines the work of leading regulatory scholars and considers how their theoretical insights could be applied in practical settings. Case studies are drawn from a broad range of regulatory arenas, including public health, commerce, crime, environmental and climate change, human rights and development.",
+      "school": "School of Regulation and Global Governance",
+      "schoolCode": "REGN",
+      "college": "ANU College of Law, Governance and Policy",
+      "level": "PGRD",
+      "terms": [],
+      "conveners": [
+        "Prof Christian Downie",
+        "Prof Christian Downie"
+      ],
+      "handbookUrl": "https://programsandcourses.anu.edu.au/course/REGN8052",
+      "reviewMetrics": [
+        "Teaching quality",
+        "Workload fairness",
+        "Assessment design"
+      ],
+      "tags": [
+        "regulation"
+      ]
+    },
+    {
+      "id": "scrn2003",
       "type": "course",
       "code": "SCRN2003",
       "name": "Film and History: Hollywood and Beyond",
@@ -30676,7 +36008,7 @@ window.ANREVIEW_DATA = {
       ]
     },
     {
-      "id": "SOCR1001",
+      "id": "socr1001",
       "type": "course",
       "code": "SOCR1001",
       "name": "Foundations of Social Research",
@@ -30703,7 +36035,7 @@ window.ANREVIEW_DATA = {
       ]
     },
     {
-      "id": "SOCR3001",
+      "id": "socr3001",
       "type": "course",
       "code": "SOCR3001",
       "name": "Data for Decision Making",
@@ -30727,7 +36059,7 @@ window.ANREVIEW_DATA = {
       ]
     },
     {
-      "id": "SOCY1002",
+      "id": "socy1002",
       "type": "course",
       "code": "SOCY1002",
       "name": "Self and Society",
@@ -30751,7 +36083,7 @@ window.ANREVIEW_DATA = {
       ]
     },
     {
-      "id": "SOCY1004",
+      "id": "socy1004",
       "type": "course",
       "code": "SOCY1004",
       "name": "Economy and Society",
@@ -30776,7 +36108,7 @@ window.ANREVIEW_DATA = {
       ]
     },
     {
-      "id": "SOCY2022",
+      "id": "socy2022",
       "type": "course",
       "code": "SOCY2022",
       "name": "Environmental Sociology",
@@ -30803,7 +36135,7 @@ window.ANREVIEW_DATA = {
       ]
     },
     {
-      "id": "SOCY2026",
+      "id": "socy2026",
       "type": "course",
       "code": "SOCY2026",
       "name": "Excessive Appetites: Sociocultural Perspectives on Addiction and Drug Use",
@@ -30829,7 +36161,7 @@ window.ANREVIEW_DATA = {
       ]
     },
     {
-      "id": "SOCY2030",
+      "id": "socy2030",
       "type": "course",
       "code": "SOCY2030",
       "name": "Social Inequalities and Development",
@@ -30854,7 +36186,7 @@ window.ANREVIEW_DATA = {
       ]
     },
     {
-      "id": "SOCY2035",
+      "id": "socy2035",
       "type": "course",
       "code": "SOCY2035",
       "name": "Cities and Urban Transformation",
@@ -30880,7 +36212,7 @@ window.ANREVIEW_DATA = {
       ]
     },
     {
-      "id": "SOCY2038",
+      "id": "socy2038",
       "type": "course",
       "code": "SOCY2038",
       "name": "Introduction to Quantitative Research Methods",
@@ -30907,7 +36239,7 @@ window.ANREVIEW_DATA = {
       ]
     },
     {
-      "id": "SOCY2040",
+      "id": "socy2040",
       "type": "course",
       "code": "SOCY2040",
       "name": "Classical Social Theory",
@@ -30931,7 +36263,7 @@ window.ANREVIEW_DATA = {
       ]
     },
     {
-      "id": "SOCY2043",
+      "id": "socy2043",
       "type": "course",
       "code": "SOCY2043",
       "name": "Introduction to Qualitative Research Methods",
@@ -30958,7 +36290,7 @@ window.ANREVIEW_DATA = {
       ]
     },
     {
-      "id": "SOCY2101",
+      "id": "socy2101",
       "type": "course",
       "code": "SOCY2101",
       "name": "Social Policy: Principles and Practice",
@@ -30982,7 +36314,7 @@ window.ANREVIEW_DATA = {
       ]
     },
     {
-      "id": "SOCY2157",
+      "id": "socy2157",
       "type": "course",
       "code": "SOCY2157",
       "name": "Surveillance and Society",
@@ -31009,7 +36341,7 @@ window.ANREVIEW_DATA = {
       ]
     },
     {
-      "id": "SOCY2161",
+      "id": "socy2161",
       "type": "course",
       "code": "SOCY2161",
       "name": "Contemporary Social Theory",
@@ -31034,7 +36366,7 @@ window.ANREVIEW_DATA = {
       ]
     },
     {
-      "id": "SOCY2166",
+      "id": "socy2166",
       "type": "course",
       "code": "SOCY2166",
       "name": "Social Science of the Internet",
@@ -31061,7 +36393,7 @@ window.ANREVIEW_DATA = {
       ]
     },
     {
-      "id": "SOCY2170",
+      "id": "socy2170",
       "type": "course",
       "code": "SOCY2170",
       "name": "The Social Life of Algorithms",
@@ -31088,7 +36420,7 @@ window.ANREVIEW_DATA = {
       ]
     },
     {
-      "id": "SOCY3001",
+      "id": "socy3001",
       "type": "course",
       "code": "SOCY3001",
       "name": "Research Internship",
@@ -31114,7 +36446,7 @@ window.ANREVIEW_DATA = {
       ]
     },
     {
-      "id": "SOCY3005",
+      "id": "socy3005",
       "type": "course",
       "code": "SOCY3005",
       "name": "Quantitative Projects for Inclusion and Diversity",
@@ -31141,7 +36473,7 @@ window.ANREVIEW_DATA = {
       ]
     },
     {
-      "id": "SOCY3007",
+      "id": "socy3007",
       "type": "course",
       "code": "SOCY3007",
       "name": "Understanding Neoliberalism",
@@ -31168,7 +36500,7 @@ window.ANREVIEW_DATA = {
       ]
     },
     {
-      "id": "SOCY3010",
+      "id": "socy3010",
       "type": "course",
       "code": "SOCY3010",
       "name": "Posthuman Bodies",
@@ -31195,7 +36527,7 @@ window.ANREVIEW_DATA = {
       ]
     },
     {
-      "id": "SOCY3050",
+      "id": "socy3050",
       "type": "course",
       "code": "SOCY3050",
       "name": "Education and Society",
@@ -31219,7 +36551,7 @@ window.ANREVIEW_DATA = {
       ]
     },
     {
-      "id": "SOCY3057",
+      "id": "socy3057",
       "type": "course",
       "code": "SOCY3057",
       "name": "Relationships, Marriage and Family",
@@ -31243,7 +36575,7 @@ window.ANREVIEW_DATA = {
       ]
     },
     {
-      "id": "SOCY3124",
+      "id": "socy3124",
       "type": "course",
       "code": "SOCY3124",
       "name": "Transforming Society",
@@ -31267,7 +36599,7 @@ window.ANREVIEW_DATA = {
       ]
     },
     {
-      "id": "SOCY3167",
+      "id": "socy3167",
       "type": "course",
       "code": "SOCY3167",
       "name": "Populism: Gender, Race, Class and Backlash",
@@ -31294,7 +36626,7 @@ window.ANREVIEW_DATA = {
       ]
     },
     {
-      "id": "SOCY3169",
+      "id": "socy3169",
       "type": "course",
       "code": "SOCY3169",
       "name": "Online Research Methods",
@@ -31321,7 +36653,7 @@ window.ANREVIEW_DATA = {
       ]
     },
     {
-      "id": "STAT1003",
+      "id": "stat1003",
       "type": "course",
       "code": "STAT1003",
       "name": "Statistical Techniques",
@@ -31345,7 +36677,7 @@ window.ANREVIEW_DATA = {
       ]
     },
     {
-      "id": "STAT1008",
+      "id": "stat1008",
       "type": "course",
       "code": "STAT1008",
       "name": "Quantitative Research Methods",
@@ -31371,7 +36703,7 @@ window.ANREVIEW_DATA = {
       ]
     },
     {
-      "id": "STAT2001",
+      "id": "stat2001",
       "type": "course",
       "code": "STAT2001",
       "name": "Introductory Mathematical Statistics",
@@ -31396,7 +36728,7 @@ window.ANREVIEW_DATA = {
       ]
     },
     {
-      "id": "STAT2005",
+      "id": "stat2005",
       "type": "course",
       "code": "STAT2005",
       "name": "Introduction to Stochastic Processes",
@@ -31422,7 +36754,7 @@ window.ANREVIEW_DATA = {
       ]
     },
     {
-      "id": "STAT2008",
+      "id": "stat2008",
       "type": "course",
       "code": "STAT2008",
       "name": "Regression Modelling",
@@ -31447,7 +36779,7 @@ window.ANREVIEW_DATA = {
       ]
     },
     {
-      "id": "STAT2013",
+      "id": "stat2013",
       "type": "course",
       "code": "STAT2013",
       "name": "Introductory Mathematical Statistics for Actuarial Studies",
@@ -31473,7 +36805,7 @@ window.ANREVIEW_DATA = {
       ]
     },
     {
-      "id": "STAT2014",
+      "id": "stat2014",
       "type": "course",
       "code": "STAT2014",
       "name": "Regression Modelling for Actuarial Studies",
@@ -31499,7 +36831,7 @@ window.ANREVIEW_DATA = {
       ]
     },
     {
-      "id": "STAT2032",
+      "id": "stat2032",
       "type": "course",
       "code": "STAT2032",
       "name": "Financial Mathematics",
@@ -31526,7 +36858,7 @@ window.ANREVIEW_DATA = {
       ]
     },
     {
-      "id": "STAT3011",
+      "id": "stat3011",
       "type": "course",
       "code": "STAT3011",
       "name": "Graphical Data Analysis",

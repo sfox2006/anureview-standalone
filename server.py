@@ -163,7 +163,8 @@ def load_bundled_catalog_snapshot() -> dict | None:
     law_count = sum(
         1
         for academic in academics
-        if academic.get("schoolCode") == "LAW" or (academic.get("college") or "") == "ANU Law School"
+        if academic.get("schoolCode") in {"LAW", "CRAW", "REGN", "NSC", "NCEPH"}
+        or (academic.get("college") or "") in {"ANU Law School", "ANU College of Law, Governance and Policy"}
     )
     cass_count = sum(
         1

@@ -99,7 +99,20 @@ function getCollegeForItem(item) {
   if (college.includes("arts") || college.includes("social sciences") || college === "cass") {
     return "cass";
   }
-  if (schoolCode === "LAW" || schoolText.includes("law")) {
+  if (
+    schoolCode === "LAW" ||
+    schoolCode === "CRAW" ||
+    schoolCode === "REGN" ||
+    schoolCode === "NSC" ||
+    schoolCode === "NCEPH" ||
+    college.includes("law, governance and policy") ||
+    schoolText.includes("law") ||
+    schoolText.includes("crawford") ||
+    schoolText.includes("regulation and global governance") ||
+    schoolText.includes("national security") ||
+    schoolText.includes("epidemiology") ||
+    schoolText.includes("population health")
+  ) {
     return "law";
   }
   if (schoolCode === "SPIR" || schoolCode === "CASS" || schoolText.includes("politics") || schoolText.includes("international relations")) {
@@ -201,7 +214,7 @@ function announceBundledCatalog() {
   const cassCount = academics.filter((item) => getCollegeForItem(item) === "cass").length;
   const capCount = academics.filter((item) => getCollegeForItem(item) === "cap").length;
   updateSyncStatus(
-    `Using fixed ANReview catalogue snapshot. ${courseCount} courses, ${cbeCount} CBE academics, ${lawCount} Law academics, ${cassCount} CASS academics, and ${capCount} CAP academics loaded instantly.`
+    `Using fixed ANReview catalogue snapshot. ${courseCount} courses, ${cbeCount} CBE academics, ${lawCount} CLGP academics, ${cassCount} CASS academics, and ${capCount} CAP academics loaded instantly.`
   );
 }
 
