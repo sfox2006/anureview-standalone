@@ -645,6 +645,21 @@ body {
 .input-wrap {
   position: relative;
 }
+
+.search-submit-row {
+  display: flex;
+  gap: 10px;
+  align-items: center;
+}
+
+.search-submit-row .input-wrap {
+  flex: 1;
+}
+
+.search-submit {
+  flex-shrink: 0;
+  min-width: 108px;
+}
 .input-icon {
   position: absolute;
   left: 12px;
@@ -1286,6 +1301,8 @@ select.field, .field select {
   .detail-page-nav    { width: 100%; }
   .detail-page-nav .btn-secondary,
   .detail-page-bar > .btn-secondary { width: 100%; }
+  .search-submit-row  { flex-direction: column; align-items: stretch; }
+  .search-submit      { width: 100%; }
   .filters-card       { grid-template-columns: 1fr; }
   .stat-strip         { grid-template-columns: 1fr 1fr; }
   .detail-metrics     { grid-template-columns: repeat(2, 1fr); }

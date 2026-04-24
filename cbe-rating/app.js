@@ -29,6 +29,7 @@ const elements = {
   cssTab: document.getElementById("css-tab"),
   coursesTab: document.getElementById("courses-tab"),
   professorsTab: document.getElementById("professors-tab"),
+  searchForm: document.getElementById("directory-search-form"),
   searchInput: document.getElementById("search-input"),
   contextFilterLabel: document.getElementById("context-filter-label"),
   schoolFilter: document.getElementById("school-filter"),
@@ -787,8 +788,9 @@ async function handleReviewSubmit(event) {
 }
 
 function bindFilters() {
-  elements.searchInput.addEventListener("input", () => {
-    state.search = elements.searchInput.value;
+  elements.searchForm.addEventListener("submit", (event) => {
+    event.preventDefault();
+    state.search = elements.searchInput.value.trim();
     if (moveDetailViewToVisibleResult()) {
       return;
     }
