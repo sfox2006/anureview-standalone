@@ -91,6 +91,23 @@ function syncSelectionToVisibleResults() {
   }
 }
 
+function moveDetailViewToVisibleResult() {
+  if (state.view !== "detail") {
+    return false;
+  }
+  const visibleItems = filteredItems();
+  if (!visibleItems.length) {
+    state.selectedId = null;
+    openBrowse();
+    return true;
+  }
+  if (!visibleItems.some((item) => item.id === state.selectedId)) {
+    state.selectedId = visibleItems[0].id;
+  }
+  openDetail(state.selectedId);
+  return true;
+}
+
 function buildRatingOptions(select) {
   select.innerHTML = "";
   for (let rating = 5; rating >= 1; rating -= 1) {
@@ -772,7 +789,9 @@ async function handleReviewSubmit(event) {
 function bindFilters() {
   elements.searchInput.addEventListener("input", () => {
     state.search = elements.searchInput.value;
-    returnToBrowseForDirectoryChange();
+    if (moveDetailViewToVisibleResult()) {
+      return;
+    }
     syncSelectionToVisibleResults();
     renderResults();
     renderDetail();
@@ -781,14 +800,12 @@ function bindFilters() {
   [elements.coursesTab, elements.professorsTab].forEach((button) => {
     button.addEventListener("click", () => {
       state.type = button.dataset.type;
-      returnToBrowseForDirectoryChange();
       syncTypeTabs();
       populateSchoolFilter();
-      syncSelectionToVisibleResults();
-      if (state.view === "detail" && state.selectedId && !filteredItems().some((item) => item.id === state.selectedId)) {
-        openBrowse();
+      if (moveDetailViewToVisibleResult()) {
         return;
       }
+      syncSelectionToVisibleResults();
       renderResults();
       renderDetail();
     });
@@ -797,14 +814,13 @@ function bindFilters() {
   [elements.allCollegesTab, elements.cbeTab, elements.lawTab, elements.cassTab, elements.capTab, elements.csmTab, elements.cssTab].forEach((button) => {
     button.addEventListener("click", () => {
       state.college = button.dataset.college;
-      returnToBrowseForDirectoryChange();
       syncCollegeTabs();
       populateSchoolFilter();
-      syncSelectionToVisibleResults();
-      if (state.view === "detail" && !state.selectedId) {
-        openBrowse();
+      if (moveDetailViewToVisibleResult()) {
+        updateCounts();
         return;
       }
+      syncSelectionToVisibleResults();
       updateCounts();
       renderResults();
       renderDetail();
@@ -813,30 +829,28 @@ function bindFilters() {
 
   elements.schoolFilter.addEventListener("change", () => {
     state.school = elements.schoolFilter.value;
-    returnToBrowseForDirectoryChange();
-    syncSelectionToVisibleResults();
-    if (state.view === "detail" && !state.selectedId) {
-      openBrowse();
+    if (moveDetailViewToVisibleResult()) {
       return;
     }
+    syncSelectionToVisibleResults();
     renderResults();
     renderDetail();
   });
   elements.levelFilter.addEventListener("change", () => {
     state.level = elements.levelFilter.value;
-    returnToBrowseForDirectoryChange();
     populateSchoolFilter();
-    syncSelectionToVisibleResults();
-    if (state.view === "detail" && !state.selectedId) {
-      openBrowse();
+    if (moveDetailViewToVisibleResult()) {
       return;
     }
+    syncSelectionToVisibleResults();
     renderResults();
     renderDetail();
   });
   elements.sortFilter.addEventListener("change", () => {
     state.sort = elements.sortFilter.value;
-    returnToBrowseForDirectoryChange();
+    if (moveDetailViewToVisibleResult()) {
+      return;
+    }
     syncSelectionToVisibleResults();
     renderResults();
     renderDetail();

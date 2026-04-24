@@ -12,7 +12,19 @@ from urllib.parse import urljoin, urlparse
 from urllib.request import Request, urlopen
 
 WORKSPACE_DIR = Path(__file__).resolve().parent
-ANREVIEW_STORAGE_DIR = Path(tempfile.gettempdir()) / "ANReview"
+
+
+def resolve_storage_dir() -> Path:
+    configured = os.environ.get("ANREVIEW_STORAGE_DIR")
+    if configured:
+        return Path(configured)
+    render_disk = Path("/var/data")
+    if render_disk.exists():
+        return render_disk / "ANReview"
+    return Path(tempfile.gettempdir()) / "ANReview"
+
+
+ANREVIEW_STORAGE_DIR = resolve_storage_dir()
 ANREVIEW_REVIEWS_PATH = ANREVIEW_STORAGE_DIR / "shared-reviews.json"
 ANREVIEW_REPORTS_PATH = ANREVIEW_STORAGE_DIR / "review-reports.json"
 ANREVIEW_CATALOG_CACHE_PATH = ANREVIEW_STORAGE_DIR / "catalog-cache.json"
