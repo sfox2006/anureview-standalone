@@ -601,11 +601,11 @@ function resetLinkedReviewPanel() {
 
 function filteredCompanionItems(item) {
   const search = elements.linkedReviewSearch.value.trim().toLowerCase();
-  const source = companionItemsFor(item);
   if (!search) {
-    return source.slice(0, 150);
+    return [];
   }
 
+  const source = companionItemsFor(item);
   const matches = source.filter((candidate) => {
     const haystack = candidate.type === "course"
       ? `${candidate.code} ${candidate.name} ${candidate.school}`.toLowerCase()
@@ -620,21 +620,23 @@ function populateLinkedReviewTargets(item) {
   const candidates = filteredCompanionItems(item);
   elements.linkedReviewTarget.innerHTML = "";
 
+  if (!candidates.length) {
+    const option = document.createElement("option");
+    option.value = "";
+    option.textContent = elements.linkedReviewSearch.value.trim()
+      ? "No matches found"
+      : "Start typing to search";
+    elements.linkedReviewTarget.appendChild(option);
+    elements.linkedReviewTarget.value = "";
+    return [];
+  }
+
   candidates.forEach((candidate) => {
     const option = document.createElement("option");
     option.value = candidate.id;
     option.textContent = itemDisplayName(candidate);
     elements.linkedReviewTarget.appendChild(option);
   });
-
-  if (!candidates.length) {
-    const option = document.createElement("option");
-    option.value = "";
-    option.textContent = "No matches found";
-    elements.linkedReviewTarget.appendChild(option);
-    elements.linkedReviewTarget.value = "";
-    return [];
-  }
 
   elements.linkedReviewTarget.value = candidates.some((candidate) => candidate.id === currentValue)
     ? currentValue
