@@ -76,6 +76,7 @@ const elements = {
   linkedReviewToggleWrap: document.getElementById("linked-review-toggle-wrap"),
   linkedReviewEnabled: document.getElementById("linked-review-enabled"),
   linkedReviewToggleCopy: document.getElementById("linked-review-toggle-copy"),
+  linkedReviewToggleSubcopy: document.getElementById("linked-review-toggle-subcopy"),
   linkedReviewHint: document.getElementById("linked-review-hint"),
   linkedReviewPanel: document.getElementById("linked-review-panel"),
   linkedReviewTitle: document.getElementById("linked-review-title"),
@@ -678,6 +679,10 @@ function configureLinkedReviewPanel(item) {
     item.type === "course"
       ? "Also rate a professor at the same time"
       : "Also rate a course at the same time";
+  elements.linkedReviewToggleSubcopy.textContent =
+    item.type === "course"
+      ? "Tick this to open a searchable professor review beside the course review."
+      : "Tick this to open a searchable course review beside the professor review.";
   elements.linkedReviewSearchLabel.textContent = item.type === "course" ? "Search professor" : "Search course";
   elements.linkedReviewSearch.placeholder =
     item.type === "course"
