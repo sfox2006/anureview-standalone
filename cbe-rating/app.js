@@ -606,13 +606,28 @@ function filteredCompanionItems(item) {
   }
 
   const source = companionItemsFor(item);
-  const matches = source.filter((candidate) => {
-    const haystack = candidate.type === "course"
-      ? `${candidate.code} ${candidate.name} ${candidate.school}`.toLowerCase()
-      : `${candidate.name} ${candidate.position} ${candidate.school}`.toLowerCase();
-    return haystack.includes(search);
-  });
-  return matches.slice(0, 150);
+  const matches = source
+    .map((candidate) => {
+      const haystack = candidate.type === "course"
+        ? `${candidate.code} ${candidate.name} ${candidate.school} ${candidate.college || ""}`.toLowerCase()
+        : `${candidate.name} ${candidate.position} ${candidate.school} ${candidate.college || ""} ${candidate.focus || ""}`.toLowerCase();
+      const startsWith = haystack.startsWith(search);
+      const nameStartsWith = `${candidate.name || candidate.code || ""}`.toLowerCase().startsWith(search);
+      const includes = haystack.includes(search);
+      return { candidate, startsWith, nameStartsWith, includes };
+    })
+    .filter((entry) => entry.includes)
+    .sort((left, right) => {
+      if (left.nameStartsWith !== right.nameStartsWith) {
+        return left.nameStartsWith ? -1 : 1;
+      }
+      if (left.startsWith !== right.startsWith) {
+        return left.startsWith ? -1 : 1;
+      }
+      return itemDisplayName(left.candidate).localeCompare(itemDisplayName(right.candidate));
+    })
+    .map((entry) => entry.candidate);
+  return matches;
 }
 
 function populateLinkedReviewTargets(item) {
