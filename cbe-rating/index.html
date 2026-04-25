@@ -180,11 +180,10 @@
             <div class="search-submit-row">
               <div class="input-wrap">
               <svg class="input-icon" viewBox="0 0 20 20" fill="none"><circle cx="8.5" cy="8.5" r="5.5" stroke="currentColor" stroke-width="1.6"/><path d="M13 13l3.5 3.5" stroke="currentColor" stroke-width="1.6" stroke-linecap="round"/></svg>
-              <input id="search-input" type="search" list="search-suggestions" placeholder="Search ECON1101, Timo Henckel, management…">
+              <input id="search-input" type="search" placeholder="Search ECON1101, Timo Henckel, management…">
               </div>
               <button id="search-submit" class="btn-secondary search-submit" type="submit">Search</button>
             </div>
-            <datalist id="search-suggestions"></datalist>
           </label>
 
           <label class="field">
@@ -228,7 +227,10 @@
 
         <section id="detail-page" class="detail-page is-hidden">
           <div class="detail-page-bar">
-            <button id="back-to-results" class="btn-secondary" type="button">Back to results</button>
+            <div class="detail-page-actions">
+              <button id="back-to-results" class="btn-secondary" type="button">Back to results</button>
+              <button id="back-to-search" class="btn-secondary" type="button">Back to search</button>
+            </div>
             <div class="detail-page-nav">
               <button id="prev-item" class="btn-secondary" type="button">Previous</button>
               <button id="next-item" class="btn-secondary" type="button">Next</button>
@@ -376,8 +378,8 @@
       </div>
     </div>
 
-    <script src="data.js?v=20260425f"></script>
-    <script src="app.js?v=20260425f"></script>
+    <script src="data.js?v=20260425g"></script>
+    <script src="app.js?v=20260425g"></script>
     <script>
       // ── Tweaks wiring ──────────────────────────────────────────
       const TWEAK_DEFAULTS = /*EDITMODE-BEGIN*/{

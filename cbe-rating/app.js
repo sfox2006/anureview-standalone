@@ -31,7 +31,6 @@ const elements = {
   professorsTab: document.getElementById("professors-tab"),
   searchForm: document.getElementById("directory-search-form"),
   searchInput: document.getElementById("search-input"),
-  searchSuggestions: document.getElementById("search-suggestions"),
   contextFilterLabel: document.getElementById("context-filter-label"),
   schoolFilter: document.getElementById("school-filter"),
   levelFilter: document.getElementById("level-filter"),
@@ -41,6 +40,7 @@ const elements = {
   browseView: document.getElementById("browse-view"),
   detailPage: document.getElementById("detail-page"),
   backToResults: document.getElementById("back-to-results"),
+  backToSearch: document.getElementById("back-to-search"),
   prevItem: document.getElementById("prev-item"),
   nextItem: document.getElementById("next-item"),
   detailEmpty: document.getElementById("detail-empty"),
@@ -110,40 +110,13 @@ function moveDetailViewToVisibleResult() {
   return true;
 }
 
-function suggestionPool() {
-  return allItems()
-    .filter((item) => state.college === "all" || getCollegeForItem(item) === state.college)
-    .filter((item) => !state.type || item.type === state.type)
-    .filter((item) => state.level === "all" || !item.level || item.level === state.level)
-    .map((item) => item.type === "course" ? `${item.code} ${item.name}` : item.name);
-}
-
-function updateSearchSuggestions() {
-  if (!elements.searchSuggestions) {
-    return;
-  }
-  const query = elements.searchInput.value.trim().toLowerCase();
-  const options = suggestionPool()
-    .filter(Boolean)
-    .filter((option) => !query || option.toLowerCase().includes(query))
-    .slice(0, 8);
-
-  elements.searchSuggestions.innerHTML = "";
-  options.forEach((optionValue) => {
-    const option = document.createElement("option");
-    option.value = optionValue;
-    elements.searchSuggestions.appendChild(option);
-  });
-}
-
 function runDirectorySearch() {
   state.search = elements.searchInput.value.trim();
-  if (moveDetailViewToVisibleResult()) {
-    return;
-  }
+  returnToBrowseForDirectoryChange();
   syncSelectionToVisibleResults();
   renderResults();
   renderDetail();
+  document.getElementById("directory")?.scrollIntoView({ behavior: "smooth", block: "start" });
 }
 
 function buildRatingOptions(select) {
@@ -829,12 +802,12 @@ function bindFilters() {
     event.preventDefault();
     runDirectorySearch();
   });
-  elements.searchInput.addEventListener("input", updateSearchSuggestions);
-  elements.searchInput.addEventListener("keydown", (event) => {
-    if (event.key === "Enter") {
-      event.preventDefault();
-      runDirectorySearch();
-    }
+  elements.searchInput.addEventListener("input", () => {
+    state.search = elements.searchInput.value.trim();
+    returnToBrowseForDirectoryChange();
+    syncSelectionToVisibleResults();
+    renderResults();
+    renderDetail();
   });
 
   [elements.coursesTab, elements.professorsTab].forEach((button) => {
@@ -842,7 +815,6 @@ function bindFilters() {
       state.type = button.dataset.type;
       syncTypeTabs();
       populateSchoolFilter();
-      updateSearchSuggestions();
       if (moveDetailViewToVisibleResult()) {
         return;
       }
@@ -857,7 +829,6 @@ function bindFilters() {
       state.college = button.dataset.college;
       syncCollegeTabs();
       populateSchoolFilter();
-      updateSearchSuggestions();
       if (moveDetailViewToVisibleResult()) {
         updateCounts();
         return;
@@ -881,7 +852,6 @@ function bindFilters() {
   elements.levelFilter.addEventListener("change", () => {
     state.level = elements.levelFilter.value;
     populateSchoolFilter();
-    updateSearchSuggestions();
     if (moveDetailViewToVisibleResult()) {
       return;
     }
@@ -900,6 +870,11 @@ function bindFilters() {
   });
   elements.backToResults.addEventListener("click", () => {
     openBrowse();
+  });
+  elements.backToSearch.addEventListener("click", () => {
+    openBrowse();
+    document.getElementById("directory")?.scrollIntoView({ behavior: "smooth", block: "start" });
+    elements.searchInput.focus();
   });
   elements.prevItem.addEventListener("click", () => {
     const items = filteredOnlyCurrentType();
@@ -932,7 +907,6 @@ async function init() {
   announceBundledCatalog();
 
   populateSchoolFilter();
-  updateSearchSuggestions();
   state.selectedId = filteredItems()[0]?.id || dataset.courses[0]?.id || null;
   const hash = window.location.hash || "";
   const match = hash.match(/#item=([^&]+)/);
