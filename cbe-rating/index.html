@@ -308,34 +308,92 @@
                       <input id="review-author" type="text" maxlength="40" placeholder="Anonymous">
                     </label>
 
-                    <div class="review-ratings-grid">
-                      <label class="field">
-                        <span class="field-label">Overall</span>
-                        <select id="review-overall"></select>
+                    <div class="review-dual-toggle-wrap">
+                      <label id="linked-review-toggle-wrap" class="linked-review-toggle is-hidden">
+                        <input id="linked-review-enabled" type="checkbox">
+                        <span id="linked-review-toggle-copy">Also rate a linked professor at the same time</span>
                       </label>
-                      <label class="field">
-                        <span id="review-metric-a-label" class="field-label">Clarity</span>
-                        <select id="review-metric-a"></select>
-                      </label>
-                      <label class="field">
-                        <span id="review-metric-b-label" class="field-label">Support</span>
-                        <select id="review-metric-b"></select>
-                      </label>
-                      <label class="field">
-                        <span id="review-metric-c-label" class="field-label">Assessment</span>
-                        <select id="review-metric-c"></select>
-                      </label>
+                      <p id="linked-review-hint" class="linked-review-hint is-hidden"></p>
                     </div>
 
-                    <label class="field">
-                      <span class="field-label">Tags <span class="field-optional">(comma-separated)</span></span>
-                      <input id="review-tags" type="text" maxlength="80" placeholder="clear lectures, heavy workload, useful tutorials">
-                    </label>
+                    <div class="review-dual-shell">
+                      <section class="review-panel">
+                        <div class="review-panel-head">
+                          <h5 class="review-panel-title">Selected item review</h5>
+                          <p id="review-panel-subtitle" class="review-panel-subtitle"></p>
+                        </div>
 
-                    <label class="field">
-                      <span class="field-label">Comment <span class="field-optional">(min 20 chars)</span></span>
-                      <textarea id="review-comment" rows="5" maxlength="600" placeholder="Share the honest version students usually only say privately. Keep it specific and fair."></textarea>
-                    </label>
+                        <div class="review-ratings-grid">
+                          <label class="field">
+                            <span class="field-label">Overall</span>
+                            <select id="review-overall"></select>
+                          </label>
+                          <label class="field">
+                            <span id="review-metric-a-label" class="field-label">Clarity</span>
+                            <select id="review-metric-a"></select>
+                          </label>
+                          <label class="field">
+                            <span id="review-metric-b-label" class="field-label">Support</span>
+                            <select id="review-metric-b"></select>
+                          </label>
+                          <label class="field">
+                            <span id="review-metric-c-label" class="field-label">Assessment</span>
+                            <select id="review-metric-c"></select>
+                          </label>
+                        </div>
+
+                        <label class="field">
+                          <span class="field-label">Tags <span class="field-optional">(comma-separated)</span></span>
+                          <input id="review-tags" type="text" maxlength="80" placeholder="clear lectures, heavy workload, useful tutorials">
+                        </label>
+
+                        <label class="field">
+                          <span class="field-label">Comment <span class="field-optional">(min 20 chars)</span></span>
+                          <textarea id="review-comment" rows="5" maxlength="600" placeholder="Share the honest version students usually only say privately. Keep it specific and fair."></textarea>
+                        </label>
+                      </section>
+
+                      <aside id="linked-review-panel" class="review-panel review-panel--linked is-hidden">
+                        <div class="review-panel-head">
+                          <h5 id="linked-review-title" class="review-panel-title">Linked item review</h5>
+                          <p id="linked-review-subtitle" class="review-panel-subtitle"></p>
+                        </div>
+
+                        <label class="field">
+                          <span class="field-label">Linked item</span>
+                          <select id="linked-review-target"></select>
+                        </label>
+
+                        <div class="review-ratings-grid review-ratings-grid--linked">
+                          <label class="field">
+                            <span class="field-label">Overall</span>
+                            <select id="linked-review-overall"></select>
+                          </label>
+                          <label class="field">
+                            <span id="linked-review-metric-a-label" class="field-label">Clarity</span>
+                            <select id="linked-review-metric-a"></select>
+                          </label>
+                          <label class="field">
+                            <span id="linked-review-metric-b-label" class="field-label">Support</span>
+                            <select id="linked-review-metric-b"></select>
+                          </label>
+                          <label class="field">
+                            <span id="linked-review-metric-c-label" class="field-label">Assessment</span>
+                            <select id="linked-review-metric-c"></select>
+                          </label>
+                        </div>
+
+                        <label class="field">
+                          <span class="field-label">Tags <span class="field-optional">(comma-separated)</span></span>
+                          <input id="linked-review-tags" type="text" maxlength="80" placeholder="engaging, clear explanations, useful seminars">
+                        </label>
+
+                        <label class="field">
+                          <span class="field-label">Comment <span class="field-optional">(min 20 chars)</span></span>
+                          <textarea id="linked-review-comment" rows="5" maxlength="600" placeholder="Add a separate linked review if you want your course and lecturer ratings to save together."></textarea>
+                        </label>
+                      </aside>
+                    </div>
 
                     <button class="btn-primary btn-submit" type="submit">Publish review</button>
                     <p id="review-feedback" class="form-feedback" aria-live="polite"></p>

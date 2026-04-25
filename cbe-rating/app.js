@@ -63,6 +63,7 @@ const elements = {
   reviewList: document.getElementById("review-list"),
   reviewForm: document.getElementById("review-form"),
   reviewAuthor: document.getElementById("review-author"),
+  reviewPanelSubtitle: document.getElementById("review-panel-subtitle"),
   reviewOverall: document.getElementById("review-overall"),
   reviewMetricALabel: document.getElementById("review-metric-a-label"),
   reviewMetricA: document.getElementById("review-metric-a"),
@@ -72,6 +73,23 @@ const elements = {
   reviewMetricC: document.getElementById("review-metric-c"),
   reviewTags: document.getElementById("review-tags"),
   reviewComment: document.getElementById("review-comment"),
+  linkedReviewToggleWrap: document.getElementById("linked-review-toggle-wrap"),
+  linkedReviewEnabled: document.getElementById("linked-review-enabled"),
+  linkedReviewToggleCopy: document.getElementById("linked-review-toggle-copy"),
+  linkedReviewHint: document.getElementById("linked-review-hint"),
+  linkedReviewPanel: document.getElementById("linked-review-panel"),
+  linkedReviewTitle: document.getElementById("linked-review-title"),
+  linkedReviewSubtitle: document.getElementById("linked-review-subtitle"),
+  linkedReviewTarget: document.getElementById("linked-review-target"),
+  linkedReviewOverall: document.getElementById("linked-review-overall"),
+  linkedReviewMetricALabel: document.getElementById("linked-review-metric-a-label"),
+  linkedReviewMetricA: document.getElementById("linked-review-metric-a"),
+  linkedReviewMetricBLabel: document.getElementById("linked-review-metric-b-label"),
+  linkedReviewMetricB: document.getElementById("linked-review-metric-b"),
+  linkedReviewMetricCLabel: document.getElementById("linked-review-metric-c-label"),
+  linkedReviewMetricC: document.getElementById("linked-review-metric-c"),
+  linkedReviewTags: document.getElementById("linked-review-tags"),
+  linkedReviewComment: document.getElementById("linked-review-comment"),
   reviewFeedback: document.getElementById("review-feedback"),
   sourceList: document.getElementById("source-list")
 };
@@ -128,6 +146,27 @@ function buildRatingOptions(select) {
     select.appendChild(option);
   }
   select.value = "4";
+}
+
+function linkedItemsFor(item) {
+  if (!item) {
+    return [];
+  }
+  if (item.type === "course") {
+    return item.conveners.map(getItemById).filter(Boolean);
+  }
+  return (item.linkedCourses || []).map(getItemById).filter(Boolean);
+}
+
+function itemDisplayName(item) {
+  return item.type === "course" ? `${item.code} - ${item.name}` : item.name;
+}
+
+function metricLabelsForReviewElements(item, labels) {
+  const [metricA, metricB, metricC] = metricLabelsFor(item);
+  labels.metricALabel.textContent = metricA;
+  labels.metricBLabel.textContent = metricB;
+  labels.metricCLabel.textContent = metricC;
 }
 
 function allItems() {
@@ -526,9 +565,71 @@ function setMetricCopy(item) {
   elements.metricALabel.textContent = metricA;
   elements.metricBLabel.textContent = metricB;
   elements.metricCLabel.textContent = metricC;
-  elements.reviewMetricALabel.textContent = metricA;
-  elements.reviewMetricBLabel.textContent = metricB;
-  elements.reviewMetricCLabel.textContent = metricC;
+  metricLabelsForReviewElements(item, {
+    metricALabel: elements.reviewMetricALabel,
+    metricBLabel: elements.reviewMetricBLabel,
+    metricCLabel: elements.reviewMetricCLabel
+  });
+  elements.reviewPanelSubtitle.textContent = itemDisplayName(item);
+}
+
+function resetLinkedReviewPanel() {
+  elements.linkedReviewEnabled.checked = false;
+  elements.linkedReviewToggleWrap.classList.add("is-hidden");
+  elements.linkedReviewPanel.classList.add("is-hidden");
+  elements.linkedReviewHint.classList.add("is-hidden");
+  elements.linkedReviewHint.textContent = "";
+  elements.linkedReviewTarget.innerHTML = "";
+  elements.linkedReviewTags.value = "";
+  elements.linkedReviewComment.value = "";
+}
+
+function syncLinkedReviewPanel() {
+  const item = getItemById(state.selectedId);
+  const linkedItems = linkedItemsFor(item);
+  const activeTarget = linkedItems.find((linkedItem) => linkedItem.id === elements.linkedReviewTarget.value) || linkedItems[0];
+  const shouldShow = Boolean(item && linkedItems.length && elements.linkedReviewEnabled.checked && activeTarget);
+
+  elements.linkedReviewPanel.classList.toggle("is-hidden", !shouldShow);
+  if (!shouldShow) {
+    return;
+  }
+
+  elements.linkedReviewTitle.textContent = activeTarget.type === "course" ? "Linked course review" : "Linked professor review";
+  elements.linkedReviewSubtitle.textContent = itemDisplayName(activeTarget);
+  metricLabelsForReviewElements(activeTarget, {
+    metricALabel: elements.linkedReviewMetricALabel,
+    metricBLabel: elements.linkedReviewMetricBLabel,
+    metricCLabel: elements.linkedReviewMetricCLabel
+  });
+}
+
+function configureLinkedReviewPanel(item) {
+  resetLinkedReviewPanel();
+  const linkedItems = linkedItemsFor(item);
+  if (!linkedItems.length) {
+    return;
+  }
+
+  elements.linkedReviewToggleWrap.classList.remove("is-hidden");
+  elements.linkedReviewToggleCopy.textContent =
+    item.type === "course"
+      ? "Also rate a linked professor at the same time"
+      : "Also rate a linked course at the same time";
+  elements.linkedReviewHint.classList.remove("is-hidden");
+  elements.linkedReviewHint.textContent =
+    item.type === "course"
+      ? "Tick this if you want to save a matching lecturer review alongside the course review."
+      : "Tick this if you want to save a matching course review alongside the lecturer review.";
+
+  linkedItems.forEach((linkedItem) => {
+    const option = document.createElement("option");
+    option.value = linkedItem.id;
+    option.textContent = itemDisplayName(linkedItem);
+    elements.linkedReviewTarget.appendChild(option);
+  });
+  elements.linkedReviewTarget.value = linkedItems[0].id;
+  syncLinkedReviewPanel();
 }
 
 function renderLinkedEntities(item) {
@@ -701,6 +802,7 @@ function renderDetail() {
   renderFacts(item);
   renderLinkedEntities(item);
   renderReviews(item);
+  configureLinkedReviewPanel(item);
   const items = filteredOnlyCurrentType();
   const index = items.findIndex((entry) => entry.id === item.id);
   elements.prevItem.disabled = index <= 0;
@@ -741,6 +843,28 @@ function updateFeedback(message, isError = false) {
   elements.reviewFeedback.style.color = isError ? "#a33c22" : "#19483d";
 }
 
+function parseTags(value) {
+  return value
+    .split(",")
+    .map((tag) => tag.trim())
+    .filter(Boolean)
+    .slice(0, 5);
+}
+
+async function submitReviewPayload(payload) {
+  const response = await fetch("/api/anreview/reviews", {
+    method: "POST",
+    headers: { "Content-Type": "application/json" },
+    body: JSON.stringify(payload)
+  });
+
+  const result = await response.json();
+  if (!response.ok || !result.ok) {
+    throw new Error(result.error || "Unable to save review.");
+  }
+  return result.review;
+}
+
 async function handleReviewSubmit(event) {
   event.preventDefault();
 
@@ -756,41 +880,73 @@ async function handleReviewSubmit(event) {
     return;
   }
 
-  const tags = elements.reviewTags.value
-    .split(",")
-    .map((tag) => tag.trim())
-    .filter(Boolean)
-    .slice(0, 5);
+  const linkedTarget = getItemById(elements.linkedReviewTarget.value);
+  const saveLinkedReview = Boolean(
+    elements.linkedReviewEnabled.checked &&
+    linkedTarget &&
+    !elements.linkedReviewPanel.classList.contains("is-hidden")
+  );
+  const linkedComment = elements.linkedReviewComment.value.trim();
+  if (saveLinkedReview && linkedComment.length < 20) {
+    updateFeedback("Write at least 20 characters for the linked review as well.", true);
+    return;
+  }
+
+  const author = elements.reviewAuthor.value.trim() || "Anonymous";
+  const tags = parseTags(elements.reviewTags.value);
 
   try {
-    const response = await fetch("/api/anreview/reviews", {
-      method: "POST",
-      headers: { "Content-Type": "application/json" },
-      body: JSON.stringify({
-        itemId: item.id,
-        itemType: item.type,
-        author: elements.reviewAuthor.value.trim() || "Anonymous",
-        overall: Number(elements.reviewOverall.value),
-        metricA: Number(elements.reviewMetricA.value),
-        metricB: Number(elements.reviewMetricB.value),
-        metricC: Number(elements.reviewMetricC.value),
-        tags,
-        comment
-      })
+    const savedReviews = [];
+    const mainReview = await submitReviewPayload({
+      itemId: item.id,
+      itemType: item.type,
+      author,
+      overall: Number(elements.reviewOverall.value),
+      metricA: Number(elements.reviewMetricA.value),
+      metricB: Number(elements.reviewMetricB.value),
+      metricC: Number(elements.reviewMetricC.value),
+      tags,
+      comment
     });
+    savedReviews.push(mainReview);
 
-    const payload = await response.json();
-    if (!response.ok || !payload.ok) {
-      throw new Error(payload.error || "Unable to save review.");
+    if (saveLinkedReview) {
+      const linkedReview = await submitReviewPayload({
+        itemId: linkedTarget.id,
+        itemType: linkedTarget.type,
+        author,
+        overall: Number(elements.linkedReviewOverall.value),
+        metricA: Number(elements.linkedReviewMetricA.value),
+        metricB: Number(elements.linkedReviewMetricB.value),
+        metricC: Number(elements.linkedReviewMetricC.value),
+        tags: parseTags(elements.linkedReviewTags.value),
+        comment: linkedComment
+      });
+      savedReviews.push(linkedReview);
     }
 
-    state.sharedReviews.unshift(payload.review);
+    savedReviews.slice().reverse().forEach((review) => state.sharedReviews.unshift(review));
     updateCounts();
     renderResults();
     renderDetail();
     elements.reviewForm.reset();
-    [elements.reviewOverall, elements.reviewMetricA, elements.reviewMetricB, elements.reviewMetricC].forEach(buildRatingOptions);
-    updateFeedback(`Your review was saved to the shared ANReview server${payload.review.author === "Anonymous" ? " as Anonymous" : ""}.`);
+    [
+      elements.reviewOverall,
+      elements.reviewMetricA,
+      elements.reviewMetricB,
+      elements.reviewMetricC,
+      elements.linkedReviewOverall,
+      elements.linkedReviewMetricA,
+      elements.linkedReviewMetricB,
+      elements.linkedReviewMetricC
+    ].forEach(buildRatingOptions);
+    resetLinkedReviewPanel();
+    configureLinkedReviewPanel(item);
+    updateFeedback(
+      saveLinkedReview
+        ? `Both reviews were saved to the shared ANReview server${author === "Anonymous" ? " as Anonymous" : ""}.`
+        : `Your review was saved to the shared ANReview server${author === "Anonymous" ? " as Anonymous" : ""}.`
+    );
     updateSyncStatus(`Shared review sync live. ${state.sharedReviews.length} server review${state.sharedReviews.length === 1 ? "" : "s"} loaded.`);
   } catch (error) {
     updateFeedback(error.message || "Unable to save review right now.", true);
@@ -890,11 +1046,26 @@ function bindFilters() {
       openDetail(items[index + 1].id);
     }
   });
+  elements.linkedReviewEnabled.addEventListener("change", () => {
+    syncLinkedReviewPanel();
+  });
+  elements.linkedReviewTarget.addEventListener("change", () => {
+    syncLinkedReviewPanel();
+  });
   elements.reviewForm.addEventListener("submit", handleReviewSubmit);
 }
 
 function initSelects() {
-  [elements.reviewOverall, elements.reviewMetricA, elements.reviewMetricB, elements.reviewMetricC].forEach(buildRatingOptions);
+  [
+    elements.reviewOverall,
+    elements.reviewMetricA,
+    elements.reviewMetricB,
+    elements.reviewMetricC,
+    elements.linkedReviewOverall,
+    elements.linkedReviewMetricA,
+    elements.linkedReviewMetricB,
+    elements.linkedReviewMetricC
+  ].forEach(buildRatingOptions);
 }
 
 async function init() {
