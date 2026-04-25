@@ -80,6 +80,9 @@ const elements = {
   linkedReviewPanel: document.getElementById("linked-review-panel"),
   linkedReviewTitle: document.getElementById("linked-review-title"),
   linkedReviewSubtitle: document.getElementById("linked-review-subtitle"),
+  linkedReviewSearchLabel: document.getElementById("linked-review-search-label"),
+  linkedReviewSearch: document.getElementById("linked-review-search"),
+  linkedReviewTargetLabel: document.getElementById("linked-review-target-label"),
   linkedReviewTarget: document.getElementById("linked-review-target"),
   linkedReviewOverall: document.getElementById("linked-review-overall"),
   linkedReviewMetricALabel: document.getElementById("linked-review-metric-a-label"),
@@ -160,6 +163,13 @@ function linkedItemsFor(item) {
     return explicitLinks;
   }
   return dataset.courses.filter((course) => (course.conveners || []).includes(item.id));
+}
+
+function companionItemsFor(item) {
+  if (!item) {
+    return [];
+  }
+  return item.type === "course" ? dataset.academics : dataset.courses;
 }
 
 function itemDisplayName(item) {
@@ -579,28 +589,76 @@ function setMetricCopy(item) {
 
 function resetLinkedReviewPanel() {
   elements.linkedReviewEnabled.checked = false;
-  elements.linkedReviewEnabled.disabled = false;
   elements.linkedReviewToggleWrap.classList.remove("is-hidden");
   elements.linkedReviewPanel.classList.add("is-hidden");
-  elements.linkedReviewHint.classList.remove("is-hidden");
   elements.linkedReviewHint.textContent = "";
+  elements.linkedReviewSearch.value = "";
   elements.linkedReviewTarget.innerHTML = "";
   elements.linkedReviewTags.value = "";
   elements.linkedReviewComment.value = "";
 }
 
+function filteredCompanionItems(item) {
+  const search = elements.linkedReviewSearch.value.trim().toLowerCase();
+  const source = companionItemsFor(item);
+  if (!search) {
+    return source.slice(0, 150);
+  }
+
+  const matches = source.filter((candidate) => {
+    const haystack = candidate.type === "course"
+      ? `${candidate.code} ${candidate.name} ${candidate.school}`.toLowerCase()
+      : `${candidate.name} ${candidate.position} ${candidate.school}`.toLowerCase();
+    return haystack.includes(search);
+  });
+  return matches.slice(0, 150);
+}
+
+function populateLinkedReviewTargets(item) {
+  const currentValue = elements.linkedReviewTarget.value;
+  const candidates = filteredCompanionItems(item);
+  elements.linkedReviewTarget.innerHTML = "";
+
+  candidates.forEach((candidate) => {
+    const option = document.createElement("option");
+    option.value = candidate.id;
+    option.textContent = itemDisplayName(candidate);
+    elements.linkedReviewTarget.appendChild(option);
+  });
+
+  if (!candidates.length) {
+    const option = document.createElement("option");
+    option.value = "";
+    option.textContent = "No matches found";
+    elements.linkedReviewTarget.appendChild(option);
+    elements.linkedReviewTarget.value = "";
+    return [];
+  }
+
+  elements.linkedReviewTarget.value = candidates.some((candidate) => candidate.id === currentValue)
+    ? currentValue
+    : candidates[0].id;
+  return candidates;
+}
+
 function syncLinkedReviewPanel() {
   const item = getItemById(state.selectedId);
-  const linkedItems = linkedItemsFor(item);
-  const activeTarget = linkedItems.find((linkedItem) => linkedItem.id === elements.linkedReviewTarget.value) || linkedItems[0];
-  const shouldShow = Boolean(item && linkedItems.length && elements.linkedReviewEnabled.checked && activeTarget);
+  const availableTargets = populateLinkedReviewTargets(item);
+  const activeTarget = availableTargets.find((candidate) => candidate.id === elements.linkedReviewTarget.value);
+  const shouldShow = Boolean(item && elements.linkedReviewEnabled.checked);
 
   elements.linkedReviewPanel.classList.toggle("is-hidden", !shouldShow);
   if (!shouldShow) {
     return;
   }
 
-  elements.linkedReviewTitle.textContent = activeTarget.type === "course" ? "Linked course review" : "Linked professor review";
+  if (!activeTarget) {
+    elements.linkedReviewTitle.textContent = item.type === "course" ? "Additional professor review" : "Additional course review";
+    elements.linkedReviewSubtitle.textContent = "No matching result yet. Keep typing to find the right item.";
+    return;
+  }
+
+  elements.linkedReviewTitle.textContent = activeTarget.type === "course" ? "Additional course review" : "Additional professor review";
   elements.linkedReviewSubtitle.textContent = itemDisplayName(activeTarget);
   metricLabelsForReviewElements(activeTarget, {
     metricALabel: elements.linkedReviewMetricALabel,
@@ -613,38 +671,25 @@ function configureLinkedReviewPanel(item) {
   resetLinkedReviewPanel();
   if (!item) {
     elements.linkedReviewToggleWrap.classList.add("is-hidden");
-    elements.linkedReviewHint.classList.add("is-hidden");
     return;
   }
 
-  const linkedItems = linkedItemsFor(item);
   elements.linkedReviewToggleCopy.textContent =
     item.type === "course"
-      ? "Also rate a linked professor at the same time"
-      : "Also rate a linked course at the same time";
-
-  if (!linkedItems.length) {
-    elements.linkedReviewEnabled.disabled = true;
-    elements.linkedReviewHint.textContent =
-      item.type === "course"
-        ? "No linked professors are loaded for this course yet."
-        : "No linked courses are loaded for this professor yet.";
-    return;
-  }
+      ? "Also rate a professor at the same time"
+      : "Also rate a course at the same time";
+  elements.linkedReviewSearchLabel.textContent = item.type === "course" ? "Search professor" : "Search course";
+  elements.linkedReviewSearch.placeholder =
+    item.type === "course"
+      ? "Start typing a professor name"
+      : "Start typing a course code or title";
+  elements.linkedReviewTargetLabel.textContent = item.type === "course" ? "Professor" : "Course";
 
   elements.linkedReviewHint.textContent =
     item.type === "course"
-      ? "Tick this if you want to save a matching lecturer review alongside the course review."
-      : "Tick this if you want to save a matching course review alongside the lecturer review.";
-
-  linkedItems.forEach((linkedItem) => {
-    const option = document.createElement("option");
-    option.value = linkedItem.id;
-    option.textContent = itemDisplayName(linkedItem);
-    elements.linkedReviewTarget.appendChild(option);
-  });
-  elements.linkedReviewTarget.value = linkedItems[0].id;
-  syncLinkedReviewPanel();
+      ? "Tick this to open a search panel and rate any professor in the ANRevU sample alongside the course."
+      : "Tick this to open a search panel and rate any course in the ANRevU sample alongside the professor.";
+  populateLinkedReviewTargets(item);
 }
 
 function renderLinkedEntities(item) {
@@ -898,9 +943,12 @@ async function handleReviewSubmit(event) {
   const linkedTarget = getItemById(elements.linkedReviewTarget.value);
   const saveLinkedReview = Boolean(
     elements.linkedReviewEnabled.checked &&
-    linkedTarget &&
     !elements.linkedReviewPanel.classList.contains("is-hidden")
   );
+  if (saveLinkedReview && !linkedTarget) {
+    updateFeedback("Choose a professor or course in the extra panel before submitting both reviews.", true);
+    return;
+  }
   const linkedComment = elements.linkedReviewComment.value.trim();
   if (saveLinkedReview && linkedComment.length < 20) {
     updateFeedback("Write at least 20 characters for the linked review as well.", true);
@@ -1062,6 +1110,15 @@ function bindFilters() {
     }
   });
   elements.linkedReviewEnabled.addEventListener("change", () => {
+    syncLinkedReviewPanel();
+    if (elements.linkedReviewEnabled.checked && !elements.linkedReviewPanel.classList.contains("is-hidden")) {
+      elements.linkedReviewSearch.focus();
+    }
+  });
+  elements.linkedReviewSearch.addEventListener("input", () => {
+    if (!elements.linkedReviewEnabled.checked) {
+      return;
+    }
     syncLinkedReviewPanel();
   });
   elements.linkedReviewTarget.addEventListener("change", () => {

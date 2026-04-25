@@ -309,11 +309,11 @@
                     </label>
 
                     <div class="review-dual-toggle-wrap">
-                      <label id="linked-review-toggle-wrap" class="linked-review-toggle is-hidden">
+                      <label id="linked-review-toggle-wrap" class="linked-review-toggle">
                         <input id="linked-review-enabled" type="checkbox">
-                        <span id="linked-review-toggle-copy">Also rate a linked professor at the same time</span>
+                        <span id="linked-review-toggle-copy">Also rate a professor at the same time</span>
                       </label>
-                      <p id="linked-review-hint" class="linked-review-hint is-hidden"></p>
+                      <p id="linked-review-hint" class="linked-review-hint"></p>
                     </div>
 
                     <div class="review-dual-shell">
@@ -355,12 +355,17 @@
 
                       <aside id="linked-review-panel" class="review-panel review-panel--linked is-hidden">
                         <div class="review-panel-head">
-                          <h5 id="linked-review-title" class="review-panel-title">Linked item review</h5>
+                          <h5 id="linked-review-title" class="review-panel-title">Additional item review</h5>
                           <p id="linked-review-subtitle" class="review-panel-subtitle"></p>
                         </div>
 
                         <label class="field">
-                          <span class="field-label">Linked item</span>
+                          <span id="linked-review-search-label" class="field-label">Search professor</span>
+                          <input id="linked-review-search" type="text" maxlength="80" placeholder="Start typing a professor name">
+                        </label>
+
+                        <label class="field">
+                          <span id="linked-review-target-label" class="field-label">Professor</span>
                           <select id="linked-review-target"></select>
                         </label>
 
