@@ -155,7 +155,11 @@ function linkedItemsFor(item) {
   if (item.type === "course") {
     return item.conveners.map(getItemById).filter(Boolean);
   }
-  return (item.linkedCourses || []).map(getItemById).filter(Boolean);
+  const explicitLinks = (item.linkedCourses || []).map(getItemById).filter(Boolean);
+  if (explicitLinks.length) {
+    return explicitLinks;
+  }
+  return dataset.courses.filter((course) => (course.conveners || []).includes(item.id));
 }
 
 function itemDisplayName(item) {
@@ -575,9 +579,10 @@ function setMetricCopy(item) {
 
 function resetLinkedReviewPanel() {
   elements.linkedReviewEnabled.checked = false;
-  elements.linkedReviewToggleWrap.classList.add("is-hidden");
+  elements.linkedReviewEnabled.disabled = false;
+  elements.linkedReviewToggleWrap.classList.remove("is-hidden");
   elements.linkedReviewPanel.classList.add("is-hidden");
-  elements.linkedReviewHint.classList.add("is-hidden");
+  elements.linkedReviewHint.classList.remove("is-hidden");
   elements.linkedReviewHint.textContent = "";
   elements.linkedReviewTarget.innerHTML = "";
   elements.linkedReviewTags.value = "";
@@ -606,17 +611,27 @@ function syncLinkedReviewPanel() {
 
 function configureLinkedReviewPanel(item) {
   resetLinkedReviewPanel();
-  const linkedItems = linkedItemsFor(item);
-  if (!linkedItems.length) {
+  if (!item) {
+    elements.linkedReviewToggleWrap.classList.add("is-hidden");
+    elements.linkedReviewHint.classList.add("is-hidden");
     return;
   }
 
-  elements.linkedReviewToggleWrap.classList.remove("is-hidden");
+  const linkedItems = linkedItemsFor(item);
   elements.linkedReviewToggleCopy.textContent =
     item.type === "course"
       ? "Also rate a linked professor at the same time"
       : "Also rate a linked course at the same time";
-  elements.linkedReviewHint.classList.remove("is-hidden");
+
+  if (!linkedItems.length) {
+    elements.linkedReviewEnabled.disabled = true;
+    elements.linkedReviewHint.textContent =
+      item.type === "course"
+        ? "No linked professors are loaded for this course yet."
+        : "No linked courses are loaded for this professor yet.";
+    return;
+  }
+
   elements.linkedReviewHint.textContent =
     item.type === "course"
       ? "Tick this if you want to save a matching lecturer review alongside the course review."
@@ -649,7 +664,7 @@ function renderLinkedEntities(item) {
   }
 
   elements.detailLinkedTitle.textContent = "Linked courses";
-  (item.linkedCourses || []).map(getItemById).filter(Boolean).forEach((course) => {
+  linkedItemsFor(item).forEach((course) => {
     const button = document.createElement("button");
     button.type = "button";
     button.textContent = `${course.code} ${course.name}`;
