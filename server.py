@@ -216,6 +216,14 @@ class AppHandler(SimpleHTTPRequestHandler):
     def __init__(self, *args, **kwargs):
         super().__init__(*args, directory=str(WORKSPACE_DIR), **kwargs)
 
+    def end_headers(self) -> None:
+        parsed = urlparse(self.path)
+        if parsed.path.startswith("/cbe-rating") or parsed.path.startswith("/api/anreview"):
+            self.send_header("Cache-Control", "no-store, no-cache, must-revalidate, max-age=0")
+            self.send_header("Pragma", "no-cache")
+            self.send_header("Expires", "0")
+        super().end_headers()
+
     def do_GET(self) -> None:
         parsed = urlparse(self.path)
         if parsed.path == "/":
