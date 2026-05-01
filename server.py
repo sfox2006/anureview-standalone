@@ -381,14 +381,26 @@ class AppHandler(SimpleHTTPRequestHandler):
             self.end_headers()
             return
         if parsed.path == "/api/anreview/reviews":
-            send_json(
-                self,
-                {
-                    "reviews": load_anreview_reviews(),
-                    "reportCount": len(load_anreview_reports()),
-                    "generatedAt": datetime.now().isoformat(timespec="seconds"),
-                },
-            )
+            try:
+                send_json(
+                    self,
+                    {
+                        "reviews": load_anreview_reviews(),
+                        "reportCount": len(load_anreview_reports()),
+                        "generatedAt": datetime.now().isoformat(timespec="seconds"),
+                    },
+                )
+            except Exception as error:
+                send_json(
+                    self,
+                    {
+                        "reviews": [],
+                        "reportCount": 0,
+                        "generatedAt": datetime.now().isoformat(timespec="seconds"),
+                        "error": str(error) or "Unable to load review storage.",
+                    },
+                    status=503,
+                )
             return
         if parsed.path == "/api/anreview/catalog":
             try:
