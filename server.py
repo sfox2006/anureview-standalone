@@ -34,6 +34,16 @@ HOST = "0.0.0.0"
 PORT = int(os.environ.get("PORT", "8000"))
 CACHE_VERSION = 9
 DEFAULT_REVIEW_METRICS = ["Clarity", "Support", "Engagement"]
+BLOCKED_WORD_PATTERNS = [
+    r"\bfuck(?:ing|ed|er|ers)?\b",
+    r"\bshit(?:ty|ting|ted)?\b",
+    r"\bbitch(?:es|y)?\b",
+    r"\basshole?s?\b",
+    r"\bcunt\b",
+    r"\bdick(?:head)?s?\b",
+    r"\bbastard(?:s)?\b",
+    r"\bpiss(?:ed|ing)?\b",
+]
 SUPABASE_URL = os.environ.get("SUPABASE_URL", "").rstrip("/")
 SUPABASE_SERVICE_ROLE_KEY = os.environ.get("SUPABASE_SERVICE_ROLE_KEY", "")
 SUPABASE_REVIEWS_TABLE = os.environ.get("SUPABASE_REVIEWS_TABLE", "anreview_reviews")
@@ -93,6 +103,11 @@ def read_request_json(handler: SimpleHTTPRequestHandler) -> dict:
 
 def sanitize_text(value: str, max_length: int) -> str:
     return re.sub(r"\s+", " ", value).strip()[:max_length]
+
+
+def contains_blocked_language(value: str) -> bool:
+    lowered = value.lower()
+    return any(re.search(pattern, lowered) for pattern in BLOCKED_WORD_PATTERNS)
 
 
 def supabase_enabled() -> bool:
@@ -293,6 +308,8 @@ def build_review_record(payload: dict) -> dict:
     comment = sanitize_text(str(payload.get("comment", "")), 600)
     if len(comment) < 20:
         raise ValueError("Comment must be at least 20 characters long.")
+    if contains_blocked_language(comment):
+        raise ValueError("Swear words cannot be published.")
 
     item_id = sanitize_text(str(payload.get("itemId", "")), 80)
     item_type = sanitize_text(str(payload.get("itemType", "")), 20)
@@ -304,6 +321,12 @@ def build_review_record(payload: dict) -> dict:
         for tag in payload.get("tags", [])
         if sanitize_text(str(tag), 24)
     ][:5]
+    if any(contains_blocked_language(tag) for tag in tags):
+        raise ValueError("Swear words cannot be published.")
+
+    author = sanitize_text(str(payload.get("author", "Anonymous")) or "Anonymous", 40)
+    if contains_blocked_language(author):
+        raise ValueError("Swear words cannot be published.")
 
     ratings = {}
     for field in ("overall", "metricA", "metricB", "metricC"):
@@ -316,7 +339,7 @@ def build_review_record(payload: dict) -> dict:
         "id": f"shared-{datetime.now().strftime('%Y%m%d%H%M%S%f')}",
         "itemId": item_id,
         "itemType": item_type,
-        "author": sanitize_text(str(payload.get("author", "Anonymous")) or "Anonymous", 40),
+        "author": author,
         "createdAt": datetime.now().date().isoformat(),
         "overall": ratings["overall"],
         "metricA": ratings["metricA"],
