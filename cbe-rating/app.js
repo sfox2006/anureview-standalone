@@ -409,21 +409,33 @@ function academicOptionsForCourse(item, searchValue = "") {
     return [];
   }
   const search = searchValue.trim().toLowerCase();
-  return linkedItemsFor(item).filter((academic) => {
-    if (!search) {
-      return true;
-    }
-    return academic.name.toLowerCase().includes(search);
-  });
+  if (!search) {
+    return [];
+  }
+  return dataset.academics
+    .map((academic) => {
+      const haystack = `${academic.name} ${academic.position} ${academic.school} ${academic.college || ""} ${academic.focus || ""}`.toLowerCase();
+      const startsWith = haystack.startsWith(search);
+      const nameStartsWith = academic.name.toLowerCase().startsWith(search);
+      const includes = haystack.includes(search);
+      return { academic, startsWith, nameStartsWith, includes };
+    })
+    .filter((entry) => entry.includes)
+    .sort((left, right) => {
+      if (left.nameStartsWith !== right.nameStartsWith) {
+        return left.nameStartsWith ? -1 : 1;
+      }
+      if (left.startsWith !== right.startsWith) {
+        return left.startsWith ? -1 : 1;
+      }
+      return left.academic.name.localeCompare(right.academic.name);
+    })
+    .map((entry) => entry.academic);
 }
 
 function populateAcademicSelect(select, searchInput, item, selectedValue = "") {
   const previous = selectedValue || select.value;
   select.innerHTML = "";
-  const base = document.createElement("option");
-  base.value = "";
-  base.textContent = "No academic selected";
-  select.appendChild(base);
   if (!item || item.type !== "course") {
     if (searchInput) {
       searchInput.value = "";
@@ -431,7 +443,22 @@ function populateAcademicSelect(select, searchInput, item, selectedValue = "") {
     select.value = "";
     return;
   }
-  academicOptionsForCourse(item, searchInput?.value || "").forEach((academic) => {
+  const candidates = academicOptionsForCourse(item, searchInput?.value || "");
+  if (!candidates.length) {
+    const option = document.createElement("option");
+    option.value = "";
+    option.textContent = searchInput?.value?.trim()
+      ? "No matches found"
+      : "Start typing to search";
+    select.appendChild(option);
+    select.value = "";
+    return;
+  }
+  const base = document.createElement("option");
+  base.value = "";
+  base.textContent = "No academic selected";
+  select.appendChild(base);
+  candidates.forEach((academic) => {
     const option = document.createElement("option");
     option.value = academic.id;
     option.textContent = academic.name;
@@ -872,8 +899,8 @@ function configureLinkedReviewPanel(item) {
 
   elements.linkedReviewToggleCopy.textContent =
     item.type === "course"
-      ? "Also rate an academic at the same time"
-      : "Also rate a course at the same time";
+      ? "Rate the academic at the same time"
+      : "Rate the course at the same time";
   elements.linkedReviewToggleSubcopy.textContent =
     item.type === "course"
       ? "Tick this to open a searchable academic review beside the course review."
