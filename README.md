@@ -60,6 +60,15 @@ If you are pasting manually in the Supabase dashboard, copy the contents of:
 supabase/anrevu_schema.sql
 ```
 
+If you already created the tables before this schema update, also run:
+
+```sql
+grant usage on schema public to anon, authenticated, service_role;
+grant select on public.anreview_reviews to anon, authenticated;
+grant select, insert on public.anreview_reviews to service_role;
+grant select, insert on public.anreview_reports to service_role;
+```
+
 ### 2. Add Render environment variables
 
 In your Render service, set:

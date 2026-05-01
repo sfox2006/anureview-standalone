@@ -30,6 +30,11 @@ create table if not exists public.anreview_reports (
 create index if not exists anreview_reports_status_idx
   on public.anreview_reports (status, created_at desc);
 
+grant usage on schema public to anon, authenticated, service_role;
+grant select on public.anreview_reviews to anon, authenticated;
+grant select, insert on public.anreview_reviews to service_role;
+grant select, insert on public.anreview_reports to service_role;
+
 alter table public.anreview_reviews enable row level security;
 alter table public.anreview_reports enable row level security;
 
