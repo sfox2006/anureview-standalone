@@ -491,17 +491,7 @@ function mergeOfficialCourses(officialCourses) {
 }
 
 function announceBundledCatalog() {
-  const courseCount = dataset.courses.length;
-  const academics = dataset.academics;
-  const cbeCount = academics.filter((item) => getCollegeForItem(item) === "cbe").length;
-  const lawCount = academics.filter((item) => getCollegeForItem(item) === "law").length;
-  const cassCount = academics.filter((item) => getCollegeForItem(item) === "cass").length;
-  const capCount = academics.filter((item) => getCollegeForItem(item) === "cap").length;
-  const csmCount = academics.filter((item) => getCollegeForItem(item) === "csm").length;
-  const cssCount = academics.filter((item) => getCollegeForItem(item) === "css").length;
-  updateSyncStatus(
-    `Using fixed ANReview catalogue snapshot. ${courseCount} courses, ${cbeCount} CBE academics, ${lawCount} CLGP academics, ${cassCount} CASS academics, ${capCount} CAP academics, ${csmCount} CSM academics, and ${cssCount} CSS academics loaded instantly.`
-  );
+  updateSyncStatus("ANRevU catalogue loaded.");
 }
 
 async function fetchSharedReviews() {
