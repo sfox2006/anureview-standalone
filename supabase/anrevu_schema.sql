@@ -10,10 +10,15 @@ create table if not exists public.anreview_reviews (
   metric_a integer not null check (metric_a between 1 and 5),
   metric_b integer not null check (metric_b between 1 and 5),
   metric_c integer not null check (metric_c between 1 and 5),
+  upvotes integer not null default 0,
+  downvotes integer not null default 0,
   tags jsonb not null default '[]'::jsonb,
   comment text not null,
   inserted_at timestamptz not null default timezone('utc', now())
 );
+
+alter table public.anreview_reviews add column if not exists upvotes integer not null default 0;
+alter table public.anreview_reviews add column if not exists downvotes integer not null default 0;
 
 create index if not exists anreview_reviews_item_idx
   on public.anreview_reviews (item_id, inserted_at desc);
@@ -32,7 +37,7 @@ create index if not exists anreview_reports_status_idx
 
 grant usage on schema public to anon, authenticated, service_role;
 grant select on public.anreview_reviews to anon, authenticated;
-grant select, insert on public.anreview_reviews to service_role;
+grant select, insert, update on public.anreview_reviews to service_role;
 grant select, insert on public.anreview_reports to service_role;
 
 alter table public.anreview_reviews enable row level security;

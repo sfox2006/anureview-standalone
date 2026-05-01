@@ -991,9 +991,9 @@ select.field, .field select {
 }
 
 /* ── Info cards ──────────────────────────────────────────── */
-.detail-sections { display: grid; gap: 12px; }
+.detail-sections { display: grid; gap: 22px; margin-top: 18px; }
 .info-card {
-  padding: 16px 18px;
+  padding: 22px 22px;
   background: var(--bg-subtle);
   border: 1px solid var(--line);
   border-radius: var(--radius-md);
@@ -1004,10 +1004,10 @@ select.field, .field select {
 }
 .info-heading {
   font-family: var(--font-head);
-  font-size: 0.9rem;
-  font-weight: 700;
+  font-size: 1.08rem;
+  font-weight: 800;
   color: var(--ink);
-  margin-bottom: 2px;
+  margin-bottom: 4px;
 }
 .section-head {
   display: flex;
@@ -1087,8 +1087,39 @@ select.field, .field select {
   display: flex;
   justify-content: space-between;
   align-items: center;
+  flex-wrap: wrap;
   margin-top: 12px;
   gap: 8px;
+}
+.review-vote-bar {
+  display: inline-flex;
+  align-items: center;
+  gap: 8px;
+}
+.vote-button {
+  height: 32px;
+  padding: 0 12px;
+  border: 1px solid color-mix(in srgb, var(--accent) 35%, var(--line));
+  border-radius: 999px;
+  background: color-mix(in srgb, var(--accent) 6%, var(--surface));
+  color: var(--ink);
+  font: inherit;
+  font-size: 0.76rem;
+  font-weight: 700;
+  cursor: pointer;
+  transition: border-color var(--transition), background var(--transition), color var(--transition);
+}
+.vote-button:hover {
+  border-color: var(--accent);
+  background: color-mix(in srgb, var(--accent) 12%, var(--surface));
+}
+.vote-button--down {
+  border-color: color-mix(in srgb, #b45309 35%, var(--line));
+  background: color-mix(in srgb, #b45309 7%, var(--surface));
+}
+.vote-button:disabled {
+  opacity: 0.6;
+  cursor: default;
 }
 .report-button {
   height: 30px;

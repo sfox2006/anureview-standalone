@@ -142,6 +142,8 @@ def review_to_supabase_row(review: dict) -> dict:
         "metric_a": review["metricA"],
         "metric_b": review["metricB"],
         "metric_c": review["metricC"],
+        "upvotes": review.get("upvotes", 0),
+        "downvotes": review.get("downvotes", 0),
         "tags": review["tags"],
         "comment": review["comment"],
     }
@@ -158,6 +160,8 @@ def review_from_supabase_row(row: dict) -> dict:
         "metricA": row.get("metric_a", 0),
         "metricB": row.get("metric_b", 0),
         "metricC": row.get("metric_c", 0),
+        "upvotes": row.get("upvotes", 0) or 0,
+        "downvotes": row.get("downvotes", 0) or 0,
         "tags": row.get("tags", []) or [],
         "comment": row.get("comment", ""),
     }
@@ -235,6 +239,56 @@ def save_report(report: dict) -> dict:
     return report
 
 
+def find_review(review_id: str) -> dict | None:
+    reviews = load_anreview_reviews()
+    return next((review for review in reviews if review.get("id") == review_id), None)
+
+
+def save_review_vote(review_id: str, direction: str) -> dict:
+    if direction not in {"up", "down"}:
+        raise ValueError("Vote direction must be 'up' or 'down'.")
+
+    if supabase_enabled():
+        rows = call_supabase(
+            f"/rest/v1/{SUPABASE_REVIEWS_TABLE}?id=eq.{review_id}&select=*"
+        )
+        if not isinstance(rows, list) or not rows:
+            raise ValueError("Review not found.")
+        current = review_from_supabase_row(rows[0])
+        current["upvotes"] = int(current.get("upvotes", 0))
+        current["downvotes"] = int(current.get("downvotes", 0))
+        if direction == "up":
+            current["upvotes"] += 1
+        else:
+            current["downvotes"] += 1
+        result = call_supabase(
+            f"/rest/v1/{SUPABASE_REVIEWS_TABLE}?id=eq.{review_id}",
+            method="PATCH",
+            payload={
+                "upvotes": current["upvotes"],
+                "downvotes": current["downvotes"],
+            },
+            prefer="return=representation",
+        )
+        if isinstance(result, list) and result:
+            return review_from_supabase_row(result[0])
+        return current
+
+    ensure_anreview_storage()
+    reviews = load_anreview_reviews()
+    for review in reviews:
+        if review.get("id") == review_id:
+            review["upvotes"] = int(review.get("upvotes", 0))
+            review["downvotes"] = int(review.get("downvotes", 0))
+            if direction == "up":
+                review["upvotes"] += 1
+            else:
+                review["downvotes"] += 1
+            write_json_file(ANREVIEW_REVIEWS_PATH, reviews)
+            return review
+    raise ValueError("Review not found.")
+
+
 def build_review_record(payload: dict) -> dict:
     comment = sanitize_text(str(payload.get("comment", "")), 600)
     if len(comment) < 20:
@@ -268,6 +322,8 @@ def build_review_record(payload: dict) -> dict:
         "metricA": ratings["metricA"],
         "metricB": ratings["metricB"],
         "metricC": ratings["metricC"],
+        "upvotes": 0,
+        "downvotes": 0,
         "tags": tags,
         "comment": comment,
     }
@@ -447,6 +503,15 @@ class AppHandler(SimpleHTTPRequestHandler):
                 report = build_report_record(payload)
                 saved_report = save_report(report)
                 send_json(self, {"ok": True, "report": saved_report}, status=201)
+                return
+
+            if parsed.path == "/api/anreview/reviews/vote":
+                review_id = sanitize_text(str(payload.get("reviewId", "")), 80)
+                direction = sanitize_text(str(payload.get("direction", "")), 8)
+                if not review_id:
+                    raise ValueError("Vote must include reviewId.")
+                updated_review = save_review_vote(review_id, direction)
+                send_json(self, {"ok": True, "review": updated_review}, status=200)
                 return
 
             send_json(self, {"ok": False, "error": "Not found."}, status=404)

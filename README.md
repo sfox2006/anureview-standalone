@@ -65,8 +65,10 @@ If you already created the tables before this schema update, also run:
 ```sql
 grant usage on schema public to anon, authenticated, service_role;
 grant select on public.anreview_reviews to anon, authenticated;
-grant select, insert on public.anreview_reviews to service_role;
+grant select, insert, update on public.anreview_reviews to service_role;
 grant select, insert on public.anreview_reports to service_role;
+alter table public.anreview_reviews add column if not exists upvotes integer not null default 0;
+alter table public.anreview_reviews add column if not exists downvotes integer not null default 0;
 ```
 
 ### 2. Add Render environment variables

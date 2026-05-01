@@ -57,8 +57,6 @@ const elements = {
   metricCLabel: document.getElementById("metric-c-label"),
   metricC: document.getElementById("metric-c"),
   detailFacts: document.getElementById("detail-facts"),
-  detailLinkedTitle: document.getElementById("detail-linked-title"),
-  detailLinks: document.getElementById("detail-links"),
   reviewSummary: document.getElementById("review-summary"),
   reviewList: document.getElementById("review-list"),
   reviewForm: document.getElementById("review-form"),
@@ -714,34 +712,6 @@ function configureLinkedReviewPanel(item) {
   populateLinkedReviewTargets(item);
 }
 
-function renderLinkedEntities(item) {
-  elements.detailLinks.innerHTML = "";
-  if (item.type === "course") {
-    elements.detailLinkedTitle.textContent = "Linked staff";
-    item.conveners.map(getItemById).filter(Boolean).forEach((academic) => {
-      const button = document.createElement("button");
-      button.type = "button";
-      button.textContent = academic.name;
-      button.addEventListener("click", () => {
-        openDetail(academic.id);
-      });
-      elements.detailLinks.appendChild(button);
-    });
-    return;
-  }
-
-  elements.detailLinkedTitle.textContent = "Linked courses";
-  linkedItemsFor(item).forEach((course) => {
-    const button = document.createElement("button");
-    button.type = "button";
-    button.textContent = `${course.code} ${course.name}`;
-    button.addEventListener("click", () => {
-      openDetail(course.id);
-    });
-    elements.detailLinks.appendChild(button);
-  });
-}
-
 function renderFacts(item) {
   elements.detailFacts.innerHTML = "";
   const facts = [];
@@ -800,6 +770,46 @@ async function reportReview(review, triggerButton) {
   }
 }
 
+function voteCounts(review) {
+  return {
+    upvotes: Number(review.upvotes || 0),
+    downvotes: Number(review.downvotes || 0)
+  };
+}
+
+async function voteReview(review, direction, triggerButton) {
+  const previousText = triggerButton.textContent;
+  triggerButton.disabled = true;
+  try {
+    const response = await fetch("/api/anreview/reviews/vote", {
+      method: "POST",
+      headers: { "Content-Type": "application/json" },
+      body: JSON.stringify({
+        reviewId: review.id,
+        direction
+      })
+    });
+
+    const raw = await response.text();
+    const payload = raw ? JSON.parse(raw) : {};
+    if (!response.ok || !payload.ok) {
+      throw new Error(payload.error || "Unable to save vote.");
+    }
+
+    const updatedReview = payload.review || {};
+    const target = [...dataset.seedReviews, ...state.sharedReviews].find((entry) => entry.id === review.id);
+    if (target) {
+      target.upvotes = Number(updatedReview.upvotes || 0);
+      target.downvotes = Number(updatedReview.downvotes || 0);
+    }
+    renderReviews(getItemById(state.selectedId));
+  } catch (error) {
+    updateFeedback(error.message || "Unable to save vote right now.", true);
+    triggerButton.disabled = false;
+    triggerButton.textContent = previousText;
+  }
+}
+
 function renderReviews(item) {
   const reviews = getReviewsForItem(item.id).sort((left, right) => right.createdAt.localeCompare(left.createdAt));
   elements.reviewList.innerHTML = "";
@@ -843,6 +853,28 @@ function renderReviews(item) {
     tags.className = "result-tags";
     (review.tags || []).forEach((tag) => tags.append(createChip(tag, "tag-chip")));
 
+    const voteBar = document.createElement("div");
+    voteBar.className = "review-vote-bar";
+    const counts = voteCounts(review);
+
+    const upvoteButton = document.createElement("button");
+    upvoteButton.type = "button";
+    upvoteButton.className = "vote-button";
+    upvoteButton.textContent = `Upvote ${counts.upvotes}`;
+    upvoteButton.addEventListener("click", () => {
+      voteReview(review, "up", upvoteButton);
+    });
+
+    const downvoteButton = document.createElement("button");
+    downvoteButton.type = "button";
+    downvoteButton.className = "vote-button vote-button--down";
+    downvoteButton.textContent = `Downvote ${counts.downvotes}`;
+    downvoteButton.addEventListener("click", () => {
+      voteReview(review, "down", downvoteButton);
+    });
+
+    voteBar.append(upvoteButton, downvoteButton);
+
     const reportButton = document.createElement("button");
     reportButton.type = "button";
     reportButton.className = "report-button";
@@ -851,7 +883,7 @@ function renderReviews(item) {
       reportReview(review, reportButton);
     });
 
-    footer.append(tags, reportButton);
+    footer.append(tags, voteBar, reportButton);
     card.append(meta, metricRow, quote, footer);
     elements.reviewList.appendChild(card);
   });
@@ -882,7 +914,6 @@ function renderDetail() {
   elements.metricC.textContent = formatScore(summary.metricC);
 
   renderFacts(item);
-  renderLinkedEntities(item);
   renderReviews(item);
   configureLinkedReviewPanel(item);
   const items = filteredOnlyCurrentType();
