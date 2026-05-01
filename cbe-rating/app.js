@@ -388,6 +388,10 @@ function reviewYearOptions() {
   return years;
 }
 
+function semesterOptions() {
+  return ["Summer", "Winter", "Semester 1", "Semester 2"];
+}
+
 function populateYearSelect(select, selectedValue = "") {
   const previous = selectedValue || select.value;
   select.innerHTML = "";
@@ -986,8 +990,9 @@ function voteCounts(review) {
 }
 
 function populateReviewFilterOptions(reviews) {
-  const semesterValues = [...new Set(reviews.map((review) => review.semester).filter(Boolean))];
-  const yearValues = [...new Set(reviews.map((review) => reviewYear(review)).filter(Boolean))].sort((left, right) => right.localeCompare(left));
+  const semesterValues = semesterOptions();
+  const reviewYearValues = [...new Set(reviews.map((review) => reviewYear(review)).filter(Boolean))].sort((left, right) => right.localeCompare(left));
+  const yearValues = [...new Set([...reviewYearOptions(), ...reviewYearValues])].sort((left, right) => right.localeCompare(left));
 
   const previousSemester = state.reviewSemester;
   const previousYear = state.reviewYear;
