@@ -7,7 +7,7 @@
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Bricolage+Grotesque:opsz,wght@12..96,400;12..96,500;12..96,600;12..96,700;12..96,800&family=DM+Sans:ital,opsz,wght@0,9..40,400;0,9..40,500;0,9..40,600;1,9..40,400&display=swap" rel="stylesheet">
-    <link rel="stylesheet" href="styles.css?v=20260501b">
+    <link rel="stylesheet" href="styles.css?v=20260501c">
   </head>
   <body>
 
@@ -292,6 +292,37 @@
                     </div>
                     <p id="review-summary" class="section-sub"></p>
                   </div>
+                  <div class="review-toolbar">
+                    <label class="field field--compact">
+                      <span class="field-label">Sort reviews</span>
+                      <select id="review-sort-filter">
+                        <option value="net">Top by net upvotes</option>
+                        <option value="recent">Most recent</option>
+                        <option value="oldest">Oldest first</option>
+                        <option value="rating">Highest rated</option>
+                      </select>
+                    </label>
+                    <label class="field field--compact">
+                      <span class="field-label">Semester</span>
+                      <select id="review-semester-filter">
+                        <option value="all">All semesters</option>
+                      </select>
+                    </label>
+                    <label class="field field--compact">
+                      <span class="field-label">Year</span>
+                      <select id="review-year-filter">
+                        <option value="all">All years</option>
+                      </select>
+                    </label>
+                    <label class="field field--compact">
+                      <span class="field-label">Source</span>
+                      <select id="review-source-filter">
+                        <option value="all">All reviews</option>
+                        <option value="shared">Shared reviews</option>
+                        <option value="seed">Seed reviews</option>
+                      </select>
+                    </label>
+                  </div>
                   <div id="review-list" class="review-list"></div>
                 </section>
 
@@ -459,8 +490,8 @@
       </div>
     </div>
 
-    <script src="data.js?v=20260501b"></script>
-    <script src="app.js?v=20260501b"></script>
+    <script src="data.js?v=20260501c"></script>
+    <script src="app.js?v=20260501c"></script>
     <script>
       // ── Tweaks wiring ──────────────────────────────────────────
       const TWEAK_DEFAULTS = /*EDITMODE-BEGIN*/{

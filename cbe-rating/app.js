@@ -9,6 +9,10 @@ const state = {
   school: "all",
   level: "all",
   sort: "rating",
+  reviewSort: "net",
+  reviewSemester: "all",
+  reviewYear: "all",
+  reviewSource: "all",
   sharedReviews: [],
   reportCount: 0,
   syncState: "Connecting to local ANReview server..."
@@ -58,6 +62,10 @@ const elements = {
   metricC: document.getElementById("metric-c"),
   detailFacts: document.getElementById("detail-facts"),
   reviewSummary: document.getElementById("review-summary"),
+  reviewSortFilter: document.getElementById("review-sort-filter"),
+  reviewSemesterFilter: document.getElementById("review-semester-filter"),
+  reviewYearFilter: document.getElementById("review-year-filter"),
+  reviewSourceFilter: document.getElementById("review-source-filter"),
   reviewList: document.getElementById("review-list"),
   reviewForm: document.getElementById("review-form"),
   reviewAuthor: document.getElementById("review-author"),
@@ -297,6 +305,14 @@ function getReviewsForItem(itemId) {
   return [...dataset.seedReviews, ...state.sharedReviews].filter((review) => review.itemId === itemId);
 }
 
+function reviewNetVotes(review) {
+  return Number(review.upvotes || 0) - Number(review.downvotes || 0);
+}
+
+function reviewYear(review) {
+  return `${review.createdAt || ""}`.slice(0, 4);
+}
+
 function average(values) {
   if (!values.length) {
     return 0;
@@ -393,7 +409,7 @@ function mergeOfficialCourses(officialCourses) {
       ...course,
       tags: course.tags?.length ? course.tags : existing.tags || [],
       terms: course.terms?.length ? course.terms : existing.terms || [],
-      reviewMetrics: existing.reviewMetrics || course.reviewMetrics || ["Teaching quality", "Workload fairness", "Assessment design"]
+      reviewMetrics: existing.reviewMetrics || course.reviewMetrics || ["Teaching quality", "Assessment design", "How interesting"]
     };
   });
   const seen = new Set(merged.map((course) => course.id));
@@ -830,6 +846,105 @@ function voteCounts(review) {
   };
 }
 
+function populateReviewFilterOptions(reviews) {
+  const semesterValues = [...new Set(reviews.map((review) => review.semester).filter(Boolean))];
+  const yearValues = [...new Set(reviews.map((review) => reviewYear(review)).filter(Boolean))].sort((left, right) => right.localeCompare(left));
+
+  const previousSemester = state.reviewSemester;
+  const previousYear = state.reviewYear;
+
+  elements.reviewSemesterFilter.innerHTML = "";
+  elements.reviewYearFilter.innerHTML = "";
+
+  const baseSemester = document.createElement("option");
+  baseSemester.value = "all";
+  baseSemester.textContent = "All semesters";
+  elements.reviewSemesterFilter.appendChild(baseSemester);
+  semesterValues.forEach((semester) => {
+    const option = document.createElement("option");
+    option.value = semester;
+    option.textContent = semester;
+    elements.reviewSemesterFilter.appendChild(option);
+  });
+
+  const unknownSemesterCount = reviews.filter((review) => !review.semester).length;
+  if (unknownSemesterCount) {
+    const option = document.createElement("option");
+    option.value = "unknown";
+    option.textContent = "Unknown / not given";
+    elements.reviewSemesterFilter.appendChild(option);
+  }
+
+  const baseYear = document.createElement("option");
+  baseYear.value = "all";
+  baseYear.textContent = "All years";
+  elements.reviewYearFilter.appendChild(baseYear);
+  yearValues.forEach((year) => {
+    const option = document.createElement("option");
+    option.value = year;
+    option.textContent = year;
+    elements.reviewYearFilter.appendChild(option);
+  });
+
+  state.reviewSemester = [...semesterValues, "all", ...(unknownSemesterCount ? ["unknown"] : [])].includes(previousSemester)
+    ? previousSemester
+    : "all";
+  state.reviewYear = [...yearValues, "all"].includes(previousYear) ? previousYear : "all";
+
+  elements.reviewSemesterFilter.value = state.reviewSemester;
+  elements.reviewYearFilter.value = state.reviewYear;
+  elements.reviewSourceFilter.value = state.reviewSource;
+  elements.reviewSortFilter.value = state.reviewSort;
+}
+
+function filteredReviewsForItem(itemId) {
+  return getReviewsForItem(itemId).filter((review) => {
+    if (state.reviewSource === "shared" && !review.id.startsWith("shared-")) {
+      return false;
+    }
+    if (state.reviewSource === "seed" && review.id.startsWith("shared-")) {
+      return false;
+    }
+    if (state.reviewSemester === "unknown" && review.semester) {
+      return false;
+    }
+    if (state.reviewSemester !== "all" && state.reviewSemester !== "unknown" && review.semester !== state.reviewSemester) {
+      return false;
+    }
+    if (state.reviewYear !== "all" && reviewYear(review) !== state.reviewYear) {
+      return false;
+    }
+    return true;
+  });
+}
+
+function sortReviews(reviews) {
+  return reviews.slice().sort((left, right) => {
+    if (state.reviewSort === "recent") {
+      return `${right.createdAt}`.localeCompare(`${left.createdAt}`);
+    }
+    if (state.reviewSort === "oldest") {
+      return `${left.createdAt}`.localeCompare(`${right.createdAt}`);
+    }
+    if (state.reviewSort === "rating") {
+      const ratingGap = overallFromMetrics(right.metricA, right.metricB, right.metricC) - overallFromMetrics(left.metricA, left.metricB, left.metricC);
+      if (ratingGap !== 0) {
+        return ratingGap;
+      }
+    } else {
+      const netGap = reviewNetVotes(right) - reviewNetVotes(left);
+      if (netGap !== 0) {
+        return netGap;
+      }
+    }
+    const upvoteGap = Number(right.upvotes || 0) - Number(left.upvotes || 0);
+    if (upvoteGap !== 0) {
+      return upvoteGap;
+    }
+    return `${right.createdAt}`.localeCompare(`${left.createdAt}`);
+  });
+}
+
 async function voteReview(review, direction, triggerButton) {
   const previousText = triggerButton.textContent;
   triggerButton.disabled = true;
@@ -864,9 +979,14 @@ async function voteReview(review, direction, triggerButton) {
 }
 
 function renderReviews(item) {
-  const reviews = getReviewsForItem(item.id).sort((left, right) => right.createdAt.localeCompare(left.createdAt));
+  const allReviews = getReviewsForItem(item.id);
+  populateReviewFilterOptions(allReviews);
+  const reviews = sortReviews(filteredReviewsForItem(item.id));
   elements.reviewList.innerHTML = "";
-  elements.reviewSummary.textContent = `${reviews.length} review${reviews.length === 1 ? "" : "s"} on this item`;
+  elements.reviewSummary.textContent =
+    reviews.length === allReviews.length
+      ? `${reviews.length} review${reviews.length === 1 ? "" : "s"} on this item`
+      : `${reviews.length} of ${allReviews.length} reviews shown`;
 
   if (!reviews.length) {
     const empty = document.createElement("p");
@@ -1254,6 +1374,20 @@ function bindFilters() {
       select.addEventListener("change", () => {
         updateComputedOverall(output, metricA, metricB, metricC);
       });
+    });
+  });
+  [
+    [elements.reviewSortFilter, "reviewSort"],
+    [elements.reviewSemesterFilter, "reviewSemester"],
+    [elements.reviewYearFilter, "reviewYear"],
+    [elements.reviewSourceFilter, "reviewSource"]
+  ].forEach(([select, stateKey]) => {
+    select.addEventListener("change", () => {
+      state[stateKey] = select.value;
+      const currentItem = getItemById(state.selectedId);
+      if (currentItem) {
+        renderReviews(currentItem);
+      }
     });
   });
   elements.reviewForm.addEventListener("submit", handleReviewSubmit);

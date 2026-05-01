@@ -1020,6 +1020,16 @@ select.field, .field select {
   font-size: 0.78rem;
   color: var(--ink-muted);
 }
+.field--compact {
+  min-width: 0;
+}
+.review-toolbar {
+  display: grid;
+  grid-template-columns: repeat(4, minmax(0, 1fr));
+  gap: 12px;
+  margin-top: 14px;
+  margin-bottom: 10px;
+}
 .section-sub--title {
   font-size: 0.86rem;
   line-height: 1.55;
@@ -1454,6 +1464,7 @@ select.field, .field select {
   .sources-section    { grid-template-columns: 1fr; gap: 24px; }
   .detail-metrics     { grid-template-columns: repeat(2, 1fr); }
   .review-ratings-grid{ grid-template-columns: repeat(2, 1fr); }
+  .review-toolbar     { grid-template-columns: repeat(2, minmax(0, 1fr)); }
 }
 
 @media (max-width: 780px) {
@@ -1481,6 +1492,7 @@ select.field, .field select {
   .shell { padding: 20px 14px 48px; }
   .stat-strip { grid-template-columns: 1fr 1fr; }
   .review-ratings-grid { grid-template-columns: 1fr 1fr; }
+  .review-toolbar { grid-template-columns: 1fr; }
   .sources-section { padding: 24px 20px; }
   .hero { padding: 28px 20px; }
 }
