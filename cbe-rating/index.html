@@ -7,7 +7,7 @@
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Bricolage+Grotesque:opsz,wght@12..96,400;12..96,500;12..96,600;12..96,700;12..96,800&family=DM+Sans:ital,opsz,wght@0,9..40,400;0,9..40,500;0,9..40,600;1,9..40,400&display=swap" rel="stylesheet">
-    <link rel="stylesheet" href="styles.css?v=20260501e">
+    <link rel="stylesheet" href="styles.css?v=20260501f">
   </head>
   <body>
 
@@ -295,10 +295,11 @@
                     <label class="field field--compact">
                       <span class="field-label">Sort reviews</span>
                       <select id="review-sort-filter">
-                        <option value="net">Top by net upvotes</option>
-                        <option value="recent">Most recent</option>
-                        <option value="oldest">Oldest first</option>
-                        <option value="rating">Highest rated</option>
+                        <option value="upvotes">By upvote</option>
+                        <option value="recent">Most Recent</option>
+                        <option value="oldest">Oldest</option>
+                        <option value="rating-high">Highest rated</option>
+                        <option value="rating-low">Lowest rated</option>
                       </select>
                     </label>
                     <label class="field field--compact">
@@ -398,6 +399,7 @@
 
                         <label id="review-academic-field" class="field is-hidden">
                           <span class="field-label">Academic who taught it <span class="field-optional">(optional)</span></span>
+                          <input id="review-academic-search" type="text" maxlength="80" placeholder="Search academic name">
                           <select id="review-academic">
                             <option value="">No academic selected</option>
                           </select>
@@ -464,6 +466,7 @@
 
                         <label id="linked-review-academic-field" class="field is-hidden">
                           <span class="field-label">Academic who taught it <span class="field-optional">(optional)</span></span>
+                          <input id="linked-review-academic-search" type="text" maxlength="80" placeholder="Search academic name">
                           <select id="linked-review-academic">
                             <option value="">No academic selected</option>
                           </select>
@@ -517,8 +520,8 @@
       </div>
     </div>
 
-    <script src="data.js?v=20260501e"></script>
-    <script src="app.js?v=20260501e"></script>
+    <script src="data.js?v=20260501f"></script>
+    <script src="app.js?v=20260501f"></script>
     <script>
       // ── Tweaks wiring ──────────────────────────────────────────
       const TWEAK_DEFAULTS = /*EDITMODE-BEGIN*/{

@@ -9,7 +9,7 @@ const state = {
   school: "all",
   level: "all",
   sort: "rating",
-  reviewSort: "net",
+  reviewSort: "upvotes",
   reviewSemester: "all",
   reviewYear: "all",
   reviewSource: "all",
@@ -76,6 +76,7 @@ const elements = {
   reviewYearField: document.getElementById("review-year-field"),
   reviewYear: document.getElementById("review-year"),
   reviewAcademicField: document.getElementById("review-academic-field"),
+  reviewAcademicSearch: document.getElementById("review-academic-search"),
   reviewAcademic: document.getElementById("review-academic"),
   reviewMetricALabel: document.getElementById("review-metric-a-label"),
   reviewMetricA: document.getElementById("review-metric-a"),
@@ -102,6 +103,7 @@ const elements = {
   linkedReviewYearField: document.getElementById("linked-review-year-field"),
   linkedReviewYear: document.getElementById("linked-review-year"),
   linkedReviewAcademicField: document.getElementById("linked-review-academic-field"),
+  linkedReviewAcademicSearch: document.getElementById("linked-review-academic-search"),
   linkedReviewAcademic: document.getElementById("linked-review-academic"),
   linkedReviewMetricALabel: document.getElementById("linked-review-metric-a-label"),
   linkedReviewMetricA: document.getElementById("linked-review-metric-a"),
@@ -365,7 +367,7 @@ function formatScore(value) {
 
 function metricLabelsFor(item) {
   return item.type === "course"
-    ? ["Teaching quality", "Assessment design", "How interesting"]
+    ? ["Course load", "Assessment design", "How interesting"]
     : ["Clarity", "Support", "Engagement"];
 }
 
@@ -402,7 +404,20 @@ function populateYearSelect(select, selectedValue = "") {
   select.value = reviewYearOptions().includes(previous) ? previous : "";
 }
 
-function populateAcademicSelect(select, item, selectedValue = "") {
+function academicOptionsForCourse(item, searchValue = "") {
+  if (!item || item.type !== "course") {
+    return [];
+  }
+  const search = searchValue.trim().toLowerCase();
+  return linkedItemsFor(item).filter((academic) => {
+    if (!search) {
+      return true;
+    }
+    return academic.name.toLowerCase().includes(search);
+  });
+}
+
+function populateAcademicSelect(select, searchInput, item, selectedValue = "") {
   const previous = selectedValue || select.value;
   select.innerHTML = "";
   const base = document.createElement("option");
@@ -410,16 +425,19 @@ function populateAcademicSelect(select, item, selectedValue = "") {
   base.textContent = "No academic selected";
   select.appendChild(base);
   if (!item || item.type !== "course") {
+    if (searchInput) {
+      searchInput.value = "";
+    }
     select.value = "";
     return;
   }
-  linkedItemsFor(item).forEach((academic) => {
+  academicOptionsForCourse(item, searchInput?.value || "").forEach((academic) => {
     const option = document.createElement("option");
     option.value = academic.id;
     option.textContent = academic.name;
     select.appendChild(option);
   });
-  select.value = previous;
+  select.value = [...select.options].some((option) => option.value === previous) ? previous : "";
 }
 
 function setCourseReviewFields(item, config) {
@@ -428,12 +446,15 @@ function setCourseReviewFields(item, config) {
   config.academicField.classList.toggle("is-hidden", !isCourse);
   setSemesterVisibility(config.semesterField, config.semesterSelect, item);
   if (!isCourse) {
+    if (config.academicSearch) {
+      config.academicSearch.value = "";
+    }
     config.yearSelect.value = "";
     config.academicSelect.value = "";
     return;
   }
   populateYearSelect(config.yearSelect);
-  populateAcademicSelect(config.academicSelect, item);
+  populateAcademicSelect(config.academicSelect, config.academicSearch, item);
 }
 
 function updateComputedOverall(output, metricASelect, metricBSelect, metricCSelect) {
@@ -698,6 +719,7 @@ function setMetricCopy(item) {
     yearField: elements.reviewYearField,
     yearSelect: elements.reviewYear,
     academicField: elements.reviewAcademicField,
+    academicSearch: elements.reviewAcademicSearch,
     academicSelect: elements.reviewAcademic
   });
   updateComputedOverall(
@@ -718,6 +740,7 @@ function resetLinkedReviewPanel() {
   elements.linkedReviewComment.value = "";
   elements.linkedReviewSemester.value = "";
   elements.linkedReviewYear.value = "";
+  elements.linkedReviewAcademicSearch.value = "";
   elements.linkedReviewAcademic.value = "";
   elements.linkedReviewSemesterField.classList.add("is-hidden");
   elements.linkedReviewYearField.classList.add("is-hidden");
@@ -810,6 +833,7 @@ function syncLinkedReviewPanel() {
       yearField: elements.linkedReviewYearField,
       yearSelect: elements.linkedReviewYear,
       academicField: elements.linkedReviewAcademicField,
+      academicSearch: elements.linkedReviewAcademicSearch,
       academicSelect: elements.linkedReviewAcademic
     });
     return;
@@ -828,6 +852,7 @@ function syncLinkedReviewPanel() {
     yearField: elements.linkedReviewYearField,
     yearSelect: elements.linkedReviewYear,
     academicField: elements.linkedReviewAcademicField,
+    academicSearch: elements.linkedReviewAcademicSearch,
     academicSelect: elements.linkedReviewAcademic
   });
   updateComputedOverall(
@@ -1022,8 +1047,13 @@ function sortReviews(reviews) {
     if (state.reviewSort === "oldest") {
       return `${left.createdAt}`.localeCompare(`${right.createdAt}`);
     }
-    if (state.reviewSort === "rating") {
+    if (state.reviewSort === "rating-high") {
       const ratingGap = overallFromMetrics(right.metricA, right.metricB, right.metricC) - overallFromMetrics(left.metricA, left.metricB, left.metricC);
+      if (ratingGap !== 0) {
+        return ratingGap;
+      }
+    } else if (state.reviewSort === "rating-low") {
+      const ratingGap = overallFromMetrics(left.metricA, left.metricB, left.metricC) - overallFromMetrics(right.metricA, right.metricB, right.metricC);
       if (ratingGap !== 0) {
         return ratingGap;
       }
@@ -1365,6 +1395,7 @@ async function handleReviewSubmit(event) {
       elements.linkedReviewMetricB,
       elements.linkedReviewMetricC
     );
+    setMetricCopy(item);
     resetLinkedReviewPanel();
     configureLinkedReviewPanel(item);
     updateFeedback(
@@ -1485,6 +1516,22 @@ function bindFilters() {
   });
   elements.linkedReviewTarget.addEventListener("change", () => {
     syncLinkedReviewPanel();
+  });
+  elements.reviewAcademicSearch.addEventListener("input", () => {
+    const currentItem = getItemById(state.selectedId);
+    populateAcademicSelect(elements.reviewAcademic, elements.reviewAcademicSearch, currentItem);
+  });
+  elements.linkedReviewAcademicSearch.addEventListener("input", () => {
+    const linkedTarget = getItemById(elements.linkedReviewTarget.value);
+    populateAcademicSelect(elements.linkedReviewAcademic, elements.linkedReviewAcademicSearch, linkedTarget);
+  });
+  elements.reviewAcademic.addEventListener("change", () => {
+    const currentItem = getItemById(state.selectedId);
+    populateAcademicSelect(elements.reviewAcademic, elements.reviewAcademicSearch, currentItem, elements.reviewAcademic.value);
+  });
+  elements.linkedReviewAcademic.addEventListener("change", () => {
+    const linkedTarget = getItemById(elements.linkedReviewTarget.value);
+    populateAcademicSelect(elements.linkedReviewAcademic, elements.linkedReviewAcademicSearch, linkedTarget, elements.linkedReviewAcademic.value);
   });
   [
     [elements.reviewMetricA, elements.reviewMetricB, elements.reviewMetricC, elements.reviewOverall],
