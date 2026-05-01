@@ -63,6 +63,8 @@ const elements = {
   reviewAuthor: document.getElementById("review-author"),
   reviewPanelSubtitle: document.getElementById("review-panel-subtitle"),
   reviewOverall: document.getElementById("review-overall"),
+  reviewSemesterField: document.getElementById("review-semester-field"),
+  reviewSemester: document.getElementById("review-semester"),
   reviewMetricALabel: document.getElementById("review-metric-a-label"),
   reviewMetricA: document.getElementById("review-metric-a"),
   reviewMetricBLabel: document.getElementById("review-metric-b-label"),
@@ -83,6 +85,8 @@ const elements = {
   linkedReviewTargetLabel: document.getElementById("linked-review-target-label"),
   linkedReviewTarget: document.getElementById("linked-review-target"),
   linkedReviewOverall: document.getElementById("linked-review-overall"),
+  linkedReviewSemesterField: document.getElementById("linked-review-semester-field"),
+  linkedReviewSemester: document.getElementById("linked-review-semester"),
   linkedReviewMetricALabel: document.getElementById("linked-review-metric-a-label"),
   linkedReviewMetricA: document.getElementById("linked-review-metric-a"),
   linkedReviewMetricBLabel: document.getElementById("linked-review-metric-b-label"),
@@ -139,13 +143,13 @@ function runDirectorySearch() {
 
 function buildRatingOptions(select) {
   select.innerHTML = "";
-  for (let rating = 5; rating >= 1; rating -= 1) {
+  for (let rating = 10; rating >= 1; rating -= 1) {
     const option = document.createElement("option");
     option.value = String(rating);
-    option.textContent = `${rating} / 5`;
+    option.textContent = `${rating} / 10`;
     select.appendChild(option);
   }
-  select.value = "4";
+  select.value = "8";
 }
 
 function linkedItemsFor(item) {
@@ -300,14 +304,30 @@ function average(values) {
   return values.reduce((sum, value) => sum + value, 0) / values.length;
 }
 
+function normalizeRatingValue(value) {
+  const numeric = Number(value || 0);
+  if (!numeric) {
+    return 0;
+  }
+  return numeric <= 5 ? numeric * 2 : numeric;
+}
+
+function overallFromMetrics(metricA, metricB, metricC) {
+  return average([
+    normalizeRatingValue(metricA),
+    normalizeRatingValue(metricB),
+    normalizeRatingValue(metricC)
+  ]);
+}
+
 function ratingSummary(itemId) {
   const reviews = getReviewsForItem(itemId);
   return {
     count: reviews.length,
-    overall: average(reviews.map((review) => review.overall)),
-    metricA: average(reviews.map((review) => review.metricA)),
-    metricB: average(reviews.map((review) => review.metricB)),
-    metricC: average(reviews.map((review) => review.metricC))
+    overall: average(reviews.map((review) => overallFromMetrics(review.metricA, review.metricB, review.metricC))),
+    metricA: average(reviews.map((review) => normalizeRatingValue(review.metricA))),
+    metricB: average(reviews.map((review) => normalizeRatingValue(review.metricB))),
+    metricC: average(reviews.map((review) => normalizeRatingValue(review.metricC)))
   };
 }
 
@@ -317,8 +337,21 @@ function formatScore(value) {
 
 function metricLabelsFor(item) {
   return item.type === "course"
-    ? item.reviewMetrics || ["Teaching quality", "Workload fairness", "Assessment design"]
-    : item.reviewMetrics || ["Clarity", "Support", "Engagement"];
+    ? ["Teaching quality", "Assessment design", "How interesting"]
+    : ["Clarity", "Support", "Engagement"];
+}
+
+function setSemesterVisibility(field, select, item) {
+  const isCourse = item?.type === "course";
+  field.classList.toggle("is-hidden", !isCourse);
+  if (!isCourse) {
+    select.value = "";
+  }
+}
+
+function updateComputedOverall(output, metricASelect, metricBSelect, metricCSelect) {
+  const overall = overallFromMetrics(metricASelect.value, metricBSelect.value, metricCSelect.value);
+  output.value = `${formatScore(overall)} / 10`;
 }
 
 function updateSyncStatus(message) {
@@ -530,7 +563,7 @@ function renderResults() {
     const topMeta = document.createElement("div");
     topMeta.className = "result-meta";
     topMeta.append(
-      createChip(item.type === "course" ? "Course" : "Professor", "score-badge"),
+      createChip(item.type === "course" ? "Course" : "Academic", "score-badge"),
       createChip(item.schoolCode || item.school),
       createChip(item.level === "PGRD" ? "Postgrad" : item.level === "UGRD" ? "Undergrad" : item.position || "CBE")
     );
@@ -582,6 +615,13 @@ function setMetricCopy(item) {
     metricCLabel: elements.reviewMetricCLabel
   });
   elements.reviewPanelSubtitle.textContent = itemDisplayName(item);
+  setSemesterVisibility(elements.reviewSemesterField, elements.reviewSemester, item);
+  updateComputedOverall(
+    elements.reviewOverall,
+    elements.reviewMetricA,
+    elements.reviewMetricB,
+    elements.reviewMetricC
+  );
 }
 
 function resetLinkedReviewPanel() {
@@ -592,6 +632,14 @@ function resetLinkedReviewPanel() {
   elements.linkedReviewSearch.value = "";
   elements.linkedReviewTarget.innerHTML = "";
   elements.linkedReviewComment.value = "";
+  elements.linkedReviewSemester.value = "";
+  elements.linkedReviewSemesterField.classList.add("is-hidden");
+  updateComputedOverall(
+    elements.linkedReviewOverall,
+    elements.linkedReviewMetricA,
+    elements.linkedReviewMetricB,
+    elements.linkedReviewMetricC
+  );
 }
 
 function filteredCompanionItems(item) {
@@ -666,18 +714,26 @@ function syncLinkedReviewPanel() {
   }
 
   if (!activeTarget) {
-    elements.linkedReviewTitle.textContent = item.type === "course" ? "Additional professor review" : "Additional course review";
+    elements.linkedReviewTitle.textContent = item.type === "course" ? "Additional academic review" : "Additional course review";
     elements.linkedReviewSubtitle.textContent = "No matching result yet. Keep typing to find the right item.";
+    setSemesterVisibility(elements.linkedReviewSemesterField, elements.linkedReviewSemester, null);
     return;
   }
 
-  elements.linkedReviewTitle.textContent = activeTarget.type === "course" ? "Additional course review" : "Additional professor review";
+  elements.linkedReviewTitle.textContent = activeTarget.type === "course" ? "Additional course review" : "Additional academic review";
   elements.linkedReviewSubtitle.textContent = itemDisplayName(activeTarget);
   metricLabelsForReviewElements(activeTarget, {
     metricALabel: elements.linkedReviewMetricALabel,
     metricBLabel: elements.linkedReviewMetricBLabel,
     metricCLabel: elements.linkedReviewMetricCLabel
   });
+  setSemesterVisibility(elements.linkedReviewSemesterField, elements.linkedReviewSemester, activeTarget);
+  updateComputedOverall(
+    elements.linkedReviewOverall,
+    elements.linkedReviewMetricA,
+    elements.linkedReviewMetricB,
+    elements.linkedReviewMetricC
+  );
 }
 
 function configureLinkedReviewPanel(item) {
@@ -689,23 +745,23 @@ function configureLinkedReviewPanel(item) {
 
   elements.linkedReviewToggleCopy.textContent =
     item.type === "course"
-      ? "Also rate a professor at the same time"
+      ? "Also rate an academic at the same time"
       : "Also rate a course at the same time";
   elements.linkedReviewToggleSubcopy.textContent =
     item.type === "course"
-      ? "Tick this to open a searchable professor review beside the course review."
-      : "Tick this to open a searchable course review beside the professor review.";
-  elements.linkedReviewSearchLabel.textContent = item.type === "course" ? "Search professor" : "Search course";
+      ? "Tick this to open a searchable academic review beside the course review."
+      : "Tick this to open a searchable course review beside the academic review.";
+  elements.linkedReviewSearchLabel.textContent = item.type === "course" ? "Search academic" : "Search course";
   elements.linkedReviewSearch.placeholder =
     item.type === "course"
-      ? "Start typing a professor name"
+      ? "Start typing an academic name"
       : "Start typing a course code or title";
-  elements.linkedReviewTargetLabel.textContent = item.type === "course" ? "Professor" : "Course";
+  elements.linkedReviewTargetLabel.textContent = item.type === "course" ? "Academic" : "Course";
 
   elements.linkedReviewHint.textContent =
     item.type === "course"
-      ? "Tick this to open a search panel and rate any professor in the ANRevU sample alongside the course."
-      : "Tick this to open a search panel and rate any course in the ANRevU sample alongside the professor.";
+      ? "Tick this to open a search panel and rate any academic in the ANRevU sample alongside the course."
+      : "Tick this to open a search panel and rate any course in the ANRevU sample alongside the academic.";
   populateLinkedReviewTargets(item);
 }
 
@@ -828,17 +884,20 @@ function renderReviews(item) {
     meta.className = "review-meta";
     meta.append(
       createChip(review.author || "Anonymous"),
-      createChip(`${formatScore(review.overall)} overall`, "score-badge"),
+      createChip(`${formatScore(overallFromMetrics(review.metricA, review.metricB, review.metricC))} overall`, "score-badge"),
       createChip(review.createdAt),
       createChip(review.id.startsWith("shared-") ? "Shared server review" : "Seed review", "tag-chip")
     );
+    if (review.semester) {
+      meta.append(createChip(review.semester, "tag-chip"));
+    }
 
     const metricRow = document.createElement("div");
     metricRow.className = "result-tags";
     const [metricA, metricB, metricC] = metricLabelsFor(item);
     [metricA, metricB, metricC].forEach((label, index) => {
       const values = [review.metricA, review.metricB, review.metricC];
-      metricRow.append(createChip(`${label}: ${values[index]}/5`, "tag-chip"));
+      metricRow.append(createChip(`${label}: ${formatScore(normalizeRatingValue(values[index]))}/10`, "tag-chip"));
     });
 
     const quote = document.createElement("blockquote");
@@ -846,10 +905,6 @@ function renderReviews(item) {
 
     const footer = document.createElement("div");
     footer.className = "review-actions";
-    const tags = document.createElement("div");
-    tags.className = "result-tags";
-    (review.tags || []).forEach((tag) => tags.append(createChip(tag, "tag-chip")));
-
     const voteBar = document.createElement("div");
     voteBar.className = "review-vote-bar";
     const counts = voteCounts(review);
@@ -880,7 +935,7 @@ function renderReviews(item) {
       reportReview(review, reportButton);
     });
 
-    footer.append(tags, voteBar, reportButton);
+    footer.append(voteBar, reportButton);
     card.append(meta, metricRow, quote, footer);
     elements.reviewList.appendChild(card);
   });
@@ -898,7 +953,7 @@ function renderDetail() {
   setMetricCopy(item);
   elements.detailEmpty.classList.add("is-hidden");
   elements.detailView.classList.remove("is-hidden");
-  elements.detailType.textContent = item.type === "course" ? "Course" : "Professor";
+  elements.detailType.textContent = item.type === "course" ? "Course" : "Academic";
   elements.detailTitle.textContent = item.type === "course" ? `${item.code} - ${item.name}` : item.name;
   elements.detailSubtitle.textContent =
     item.type === "course"
@@ -991,36 +1046,54 @@ async function handleReviewSubmit(event) {
     !elements.linkedReviewPanel.classList.contains("is-hidden")
   );
   if (saveLinkedReview && !linkedTarget) {
-    updateFeedback("Choose a professor or course in the extra panel before submitting both reviews.", true);
+    updateFeedback("Choose an academic or course in the extra panel before submitting both reviews.", true);
     return;
   }
   const linkedComment = elements.linkedReviewComment.value.trim();
   const author = elements.reviewAuthor.value.trim() || "Anonymous";
+  const semester = item.type === "course" ? elements.reviewSemester.value : "";
+  if (item.type === "course" && !semester) {
+    updateFeedback("Choose the semester when you took this course.", true);
+    return;
+  }
+  const linkedSemester = linkedTarget?.type === "course" ? elements.linkedReviewSemester.value : "";
+  if (saveLinkedReview && linkedTarget?.type === "course" && !linkedSemester) {
+    updateFeedback("Choose the semester for the additional course review.", true);
+    return;
+  }
 
   try {
     const savedReviews = [];
+    const mainMetricA = Number(elements.reviewMetricA.value);
+    const mainMetricB = Number(elements.reviewMetricB.value);
+    const mainMetricC = Number(elements.reviewMetricC.value);
     const mainReview = await submitReviewPayload({
       itemId: item.id,
       itemType: item.type,
       author,
-      overall: Number(elements.reviewOverall.value),
-      metricA: Number(elements.reviewMetricA.value),
-      metricB: Number(elements.reviewMetricB.value),
-      metricC: Number(elements.reviewMetricC.value),
+      overall: Number(overallFromMetrics(mainMetricA, mainMetricB, mainMetricC).toFixed(1)),
+      metricA: mainMetricA,
+      metricB: mainMetricB,
+      metricC: mainMetricC,
+      semester,
       tags: [],
       comment
     });
     savedReviews.push(mainReview);
 
     if (saveLinkedReview) {
+      const linkedMetricA = Number(elements.linkedReviewMetricA.value);
+      const linkedMetricB = Number(elements.linkedReviewMetricB.value);
+      const linkedMetricC = Number(elements.linkedReviewMetricC.value);
       const linkedReview = await submitReviewPayload({
         itemId: linkedTarget.id,
         itemType: linkedTarget.type,
         author,
-        overall: Number(elements.linkedReviewOverall.value),
-        metricA: Number(elements.linkedReviewMetricA.value),
-        metricB: Number(elements.linkedReviewMetricB.value),
-        metricC: Number(elements.linkedReviewMetricC.value),
+        overall: Number(overallFromMetrics(linkedMetricA, linkedMetricB, linkedMetricC).toFixed(1)),
+        metricA: linkedMetricA,
+        metricB: linkedMetricB,
+        metricC: linkedMetricC,
+        semester: linkedSemester,
         tags: [],
         comment: linkedComment
       });
@@ -1033,15 +1106,25 @@ async function handleReviewSubmit(event) {
     renderDetail();
     elements.reviewForm.reset();
     [
-      elements.reviewOverall,
       elements.reviewMetricA,
       elements.reviewMetricB,
       elements.reviewMetricC,
-      elements.linkedReviewOverall,
       elements.linkedReviewMetricA,
       elements.linkedReviewMetricB,
       elements.linkedReviewMetricC
     ].forEach(buildRatingOptions);
+    updateComputedOverall(
+      elements.reviewOverall,
+      elements.reviewMetricA,
+      elements.reviewMetricB,
+      elements.reviewMetricC
+    );
+    updateComputedOverall(
+      elements.linkedReviewOverall,
+      elements.linkedReviewMetricA,
+      elements.linkedReviewMetricB,
+      elements.linkedReviewMetricC
+    );
     resetLinkedReviewPanel();
     configureLinkedReviewPanel(item);
     updateFeedback(
@@ -1163,20 +1246,40 @@ function bindFilters() {
   elements.linkedReviewTarget.addEventListener("change", () => {
     syncLinkedReviewPanel();
   });
+  [
+    [elements.reviewMetricA, elements.reviewMetricB, elements.reviewMetricC, elements.reviewOverall],
+    [elements.linkedReviewMetricA, elements.linkedReviewMetricB, elements.linkedReviewMetricC, elements.linkedReviewOverall]
+  ].forEach(([metricA, metricB, metricC, output]) => {
+    [metricA, metricB, metricC].forEach((select) => {
+      select.addEventListener("change", () => {
+        updateComputedOverall(output, metricA, metricB, metricC);
+      });
+    });
+  });
   elements.reviewForm.addEventListener("submit", handleReviewSubmit);
 }
 
 function initSelects() {
   [
-    elements.reviewOverall,
     elements.reviewMetricA,
     elements.reviewMetricB,
     elements.reviewMetricC,
-    elements.linkedReviewOverall,
     elements.linkedReviewMetricA,
     elements.linkedReviewMetricB,
     elements.linkedReviewMetricC
   ].forEach(buildRatingOptions);
+  updateComputedOverall(
+    elements.reviewOverall,
+    elements.reviewMetricA,
+    elements.reviewMetricB,
+    elements.reviewMetricC
+  );
+  updateComputedOverall(
+    elements.linkedReviewOverall,
+    elements.linkedReviewMetricA,
+    elements.linkedReviewMetricB,
+    elements.linkedReviewMetricC
+  );
 }
 
 async function init() {

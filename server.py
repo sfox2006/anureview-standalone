@@ -157,6 +157,7 @@ def review_to_supabase_row(review: dict) -> dict:
         "metric_a": review["metricA"],
         "metric_b": review["metricB"],
         "metric_c": review["metricC"],
+        "semester": review.get("semester", ""),
         "upvotes": review.get("upvotes", 0),
         "downvotes": review.get("downvotes", 0),
         "tags": review["tags"],
@@ -175,6 +176,7 @@ def review_from_supabase_row(row: dict) -> dict:
         "metricA": row.get("metric_a", 0),
         "metricB": row.get("metric_b", 0),
         "metricC": row.get("metric_c", 0),
+        "semester": row.get("semester", "") or "",
         "upvotes": row.get("upvotes", 0) or 0,
         "downvotes": row.get("downvotes", 0) or 0,
         "tags": row.get("tags", []) or [],
@@ -326,11 +328,17 @@ def build_review_record(payload: dict) -> dict:
     if contains_blocked_language(author):
         raise ValueError("Swear words cannot be published.")
 
+    semester = sanitize_text(str(payload.get("semester", "")), 20)
+    if item_type == "course" and semester not in {"Summer", "Winter", "Semester 1", "Semester 2"}:
+        raise ValueError("Course reviews must include a valid semester.")
+    if item_type != "course":
+        semester = ""
+
     ratings = {}
     for field in ("overall", "metricA", "metricB", "metricC"):
-        value = int(payload.get(field, 0))
-        if value < 1 or value > 5:
-            raise ValueError("Ratings must be between 1 and 5.")
+        value = float(payload.get(field, 0))
+        if value < 1 or value > 10:
+            raise ValueError("Ratings must be between 1 and 10.")
         ratings[field] = value
 
     return {
@@ -343,6 +351,7 @@ def build_review_record(payload: dict) -> dict:
         "metricA": ratings["metricA"],
         "metricB": ratings["metricB"],
         "metricC": ratings["metricC"],
+        "semester": semester,
         "upvotes": 0,
         "downvotes": 0,
         "tags": tags,

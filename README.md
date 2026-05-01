@@ -69,6 +69,28 @@ grant select, insert, update on public.anreview_reviews to service_role;
 grant select, insert on public.anreview_reports to service_role;
 alter table public.anreview_reviews add column if not exists upvotes integer not null default 0;
 alter table public.anreview_reviews add column if not exists downvotes integer not null default 0;
+alter table public.anreview_reviews add column if not exists semester text not null default '';
+```
+
+If your existing table was created on the older 5-point review scale, also run:
+
+```sql
+alter table public.anreview_reviews
+  alter column overall type numeric(3,1),
+  alter column metric_a type numeric(3,1),
+  alter column metric_b type numeric(3,1),
+  alter column metric_c type numeric(3,1);
+
+alter table public.anreview_reviews drop constraint if exists anreview_reviews_overall_check;
+alter table public.anreview_reviews drop constraint if exists anreview_reviews_metric_a_check;
+alter table public.anreview_reviews drop constraint if exists anreview_reviews_metric_b_check;
+alter table public.anreview_reviews drop constraint if exists anreview_reviews_metric_c_check;
+
+alter table public.anreview_reviews
+  add constraint anreview_reviews_overall_check check (overall between 1 and 10),
+  add constraint anreview_reviews_metric_a_check check (metric_a between 1 and 10),
+  add constraint anreview_reviews_metric_b_check check (metric_b between 1 and 10),
+  add constraint anreview_reviews_metric_c_check check (metric_c between 1 and 10);
 ```
 
 ### 2. Add Render environment variables

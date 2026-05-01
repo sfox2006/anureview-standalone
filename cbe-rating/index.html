@@ -3,11 +3,11 @@
   <head>
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
-    <title>ANRevU | ANU Course & Lecturer Ratings</title>
+    <title>ANRevU | ANU Course & Academic Ratings</title>
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Bricolage+Grotesque:opsz,wght@12..96,400;12..96,500;12..96,600;12..96,700;12..96,800&family=DM+Sans:ital,opsz,wght@0,9..40,400;0,9..40,500;0,9..40,600;1,9..40,400&display=swap" rel="stylesheet">
-    <link rel="stylesheet" href="styles.css?v=20260501a">
+    <link rel="stylesheet" href="styles.css?v=20260501b">
   </head>
   <body>
 
@@ -16,11 +16,11 @@
       <div class="header-inner">
         <a class="wordmark" href="/cbe-rating/" aria-label="Go to ANRevU home">
           <img class="wordmark-logo" src="assets/anrevu-logo-white.png" alt="ANRevU">
-          <span class="wordmark-badge">ANU course and lecturer reviews</span>
+          <span class="wordmark-badge">ANU course and academic reviews</span>
         </a>
         <nav class="header-nav">
           <a href="#directory" class="nav-link">Courses</a>
-          <a href="#directory" class="nav-link" id="nav-professors">Professors</a>
+          <a href="#directory" class="nav-link" id="nav-professors">Academics</a>
           <a href="sources.html" class="nav-link">Sources</a>
           <span class="nav-dot" id="sync-dot" title="Connecting…"></span>
         </nav>
@@ -149,22 +149,22 @@
         <div class="directory-head">
           <div>
             <p class="eyebrow">Directory</p>
-            <h2 class="directory-title">Find a course or professor.</h2>
+            <h2 class="directory-title">Find a course or academic.</h2>
           </div>
-          <p class="directory-note">Step 1: search or filter for a course or lecturer. Step 2: open that result's page to read ratings and leave a review.</p>
+          <p class="directory-note">Step 1: search or filter for a course or academic. Step 2: open that result's page to read ratings and leave a review.</p>
         </div>
 
         <!-- Type toggle -->
         <div class="type-switch" aria-label="Browse mode">
           <button id="courses-tab" class="type-tab is-active" type="button" data-type="course">Courses</button>
-          <button id="professors-tab" class="type-tab" type="button" data-type="academic">Professors</button>
+          <button id="professors-tab" class="type-tab" type="button" data-type="academic">Academics</button>
         </div>
 
         <div class="workflow-strip" aria-label="How ANReview works">
           <article class="workflow-card">
             <p class="workflow-step">Step 1</p>
-            <h3>Find the course or lecturer</h3>
-            <p>Use the search bar and filters to narrow the results, then tap the course or lecturer you want.</p>
+            <h3>Find the course or academic</h3>
+            <p>Use the search bar and filters to narrow the results, then tap the course or academic you want.</p>
           </article>
           <article class="workflow-card">
             <p class="workflow-step">Step 2</p>
@@ -217,7 +217,7 @@
             <div class="list-header">
               <div>
                 <p class="panel-step">Step 1</p>
-                <h3 class="list-heading">Choose a course or professor</h3>
+                <h3 class="list-heading">Choose a course or academic</h3>
               </div>
               <p id="results-meta" class="results-meta-text">Loading…</p>
             </div>
@@ -241,7 +241,7 @@
             <div id="detail-empty" class="detail-empty">
               <div class="detail-empty-icon">↗</div>
               <p class="panel-step">Step 2</p>
-              <h3>Open a course or lecturer page</h3>
+              <h3>Open a course or academic page</h3>
               <p>Select a result first, then this page will show its ratings, reviews and review form.</p>
             </div>
 
@@ -254,7 +254,7 @@
                 </div>
                 <div class="score-chip">
                   <span id="detail-score">—</span>
-                  <small>/ 5</small>
+                  <small>/ 10</small>
                 </div>
               </div>
 
@@ -301,7 +301,7 @@
                       <h4 class="info-heading">Leave a review</h4>
                       <p class="section-sub section-sub--title">Share your own rating for this selected item</p>
                     </div>
-                    <p class="section-sub">This form applies to the selected course or professor shown above.</p>
+                    <p class="section-sub">This form applies to the selected course or academic shown above.</p>
                   </div>
 
                   <form id="review-form" class="review-form">
@@ -315,7 +315,7 @@
                         <input id="linked-review-enabled" type="checkbox">
                         <span class="linked-review-box" aria-hidden="true"></span>
                         <span class="linked-review-copy">
-                          <strong id="linked-review-toggle-copy">Also rate a professor at the same time</strong>
+                          <strong id="linked-review-toggle-copy">Also rate an academic at the same time</strong>
                           <span id="linked-review-toggle-subcopy">Tick this to open a second review panel.</span>
                         </span>
                       </label>
@@ -331,8 +331,8 @@
 
                         <div class="review-ratings-grid">
                           <label class="field">
-                            <span class="field-label">Overall</span>
-                            <select id="review-overall"></select>
+                            <span class="field-label">Overall (auto-calculated)</span>
+                            <input id="review-overall" type="text" value="8.0 / 10" readonly>
                           </label>
                           <label class="field">
                             <span id="review-metric-a-label" class="field-label">Clarity</span>
@@ -348,6 +348,17 @@
                           </label>
                         </div>
 
+                        <label id="review-semester-field" class="field is-hidden">
+                          <span class="field-label">Semester taken</span>
+                          <select id="review-semester">
+                            <option value="">Choose a semester</option>
+                            <option value="Summer">Summer</option>
+                            <option value="Winter">Winter</option>
+                            <option value="Semester 1">Semester 1</option>
+                            <option value="Semester 2">Semester 2</option>
+                          </select>
+                        </label>
+
                         <label class="field">
                           <span class="field-label">Comment</span>
                           <textarea id="review-comment" rows="5" maxlength="600" placeholder="Be specific and fair. No racism or swear words. Doing so risks the site being shut down and ruining it for everyone."></textarea>
@@ -361,19 +372,19 @@
                         </div>
 
                         <label class="field">
-                          <span id="linked-review-search-label" class="field-label">Search professor</span>
-                          <input id="linked-review-search" type="text" maxlength="80" placeholder="Start typing a professor name">
+                          <span id="linked-review-search-label" class="field-label">Search academic</span>
+                          <input id="linked-review-search" type="text" maxlength="80" placeholder="Start typing an academic name">
                         </label>
 
                         <label class="field">
-                          <span id="linked-review-target-label" class="field-label">Professor</span>
+                          <span id="linked-review-target-label" class="field-label">Academic</span>
                           <select id="linked-review-target"></select>
                         </label>
 
                         <div class="review-ratings-grid review-ratings-grid--linked">
                           <label class="field">
-                            <span class="field-label">Overall</span>
-                            <select id="linked-review-overall"></select>
+                            <span class="field-label">Overall (auto-calculated)</span>
+                            <input id="linked-review-overall" type="text" value="8.0 / 10" readonly>
                           </label>
                           <label class="field">
                             <span id="linked-review-metric-a-label" class="field-label">Clarity</span>
@@ -388,6 +399,17 @@
                             <select id="linked-review-metric-c"></select>
                           </label>
                         </div>
+
+                        <label id="linked-review-semester-field" class="field is-hidden">
+                          <span class="field-label">Semester taken</span>
+                          <select id="linked-review-semester">
+                            <option value="">Choose a semester</option>
+                            <option value="Summer">Summer</option>
+                            <option value="Winter">Winter</option>
+                            <option value="Semester 1">Semester 1</option>
+                            <option value="Semester 2">Semester 2</option>
+                          </select>
+                        </label>
 
                         <label class="field">
                           <span class="field-label">Comment</span>
@@ -437,8 +459,8 @@
       </div>
     </div>
 
-    <script src="data.js?v=20260501a"></script>
-    <script src="app.js?v=20260501a"></script>
+    <script src="data.js?v=20260501b"></script>
+    <script src="app.js?v=20260501b"></script>
     <script>
       // ── Tweaks wiring ──────────────────────────────────────────
       const TWEAK_DEFAULTS = /*EDITMODE-BEGIN*/{
@@ -492,7 +514,7 @@
       window.parent.postMessage({ type: '__edit_mode_available' }, '*');
       applyTweaks();
 
-      // Nav shortcut to professors tab
+      // Nav shortcut to academics tab
       document.getElementById('nav-professors').addEventListener('click', () => {
         document.getElementById('professors-tab').click();
       });
