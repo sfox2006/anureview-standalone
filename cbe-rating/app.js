@@ -464,7 +464,8 @@ function populateAcademicSelect(select, searchInput, item, selectedValue = "") {
     option.textContent = academic.name;
     select.appendChild(option);
   });
-  select.value = [...select.options].some((option) => option.value === previous) ? previous : "";
+  const hasPrevious = candidates.some((academic) => academic.id === previous);
+  select.value = hasPrevious ? previous : candidates[0].id;
 }
 
 function setCourseReviewFields(item, config) {
