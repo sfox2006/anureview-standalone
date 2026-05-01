@@ -69,7 +69,6 @@ const elements = {
   reviewMetricB: document.getElementById("review-metric-b"),
   reviewMetricCLabel: document.getElementById("review-metric-c-label"),
   reviewMetricC: document.getElementById("review-metric-c"),
-  reviewTags: document.getElementById("review-tags"),
   reviewComment: document.getElementById("review-comment"),
   linkedReviewToggleWrap: document.getElementById("linked-review-toggle-wrap"),
   linkedReviewEnabled: document.getElementById("linked-review-enabled"),
@@ -90,7 +89,6 @@ const elements = {
   linkedReviewMetricB: document.getElementById("linked-review-metric-b"),
   linkedReviewMetricCLabel: document.getElementById("linked-review-metric-c-label"),
   linkedReviewMetricC: document.getElementById("linked-review-metric-c"),
-  linkedReviewTags: document.getElementById("linked-review-tags"),
   linkedReviewComment: document.getElementById("linked-review-comment"),
   reviewFeedback: document.getElementById("review-feedback"),
   sourceList: document.getElementById("source-list")
@@ -593,7 +591,6 @@ function resetLinkedReviewPanel() {
   elements.linkedReviewHint.textContent = "";
   elements.linkedReviewSearch.value = "";
   elements.linkedReviewTarget.innerHTML = "";
-  elements.linkedReviewTags.value = "";
   elements.linkedReviewComment.value = "";
 }
 
@@ -956,14 +953,6 @@ function updateFeedback(message, isError = false) {
   elements.reviewFeedback.style.color = isError ? "#a33c22" : "#19483d";
 }
 
-function parseTags(value) {
-  return value
-    .split(",")
-    .map((tag) => tag.trim())
-    .filter(Boolean)
-    .slice(0, 5);
-}
-
 async function submitReviewPayload(payload) {
   const response = await fetch("/api/anreview/reviews", {
     method: "POST",
@@ -996,11 +985,6 @@ async function handleReviewSubmit(event) {
   }
 
   const comment = elements.reviewComment.value.trim();
-  if (comment.length < 20) {
-    updateFeedback("Write at least 20 characters so the review is useful.", true);
-    return;
-  }
-
   const linkedTarget = getItemById(elements.linkedReviewTarget.value);
   const saveLinkedReview = Boolean(
     elements.linkedReviewEnabled.checked &&
@@ -1011,13 +995,7 @@ async function handleReviewSubmit(event) {
     return;
   }
   const linkedComment = elements.linkedReviewComment.value.trim();
-  if (saveLinkedReview && linkedComment.length < 20) {
-    updateFeedback("Write at least 20 characters for the linked review as well.", true);
-    return;
-  }
-
   const author = elements.reviewAuthor.value.trim() || "Anonymous";
-  const tags = parseTags(elements.reviewTags.value);
 
   try {
     const savedReviews = [];
@@ -1029,7 +1007,7 @@ async function handleReviewSubmit(event) {
       metricA: Number(elements.reviewMetricA.value),
       metricB: Number(elements.reviewMetricB.value),
       metricC: Number(elements.reviewMetricC.value),
-      tags,
+      tags: [],
       comment
     });
     savedReviews.push(mainReview);
@@ -1043,7 +1021,7 @@ async function handleReviewSubmit(event) {
         metricA: Number(elements.linkedReviewMetricA.value),
         metricB: Number(elements.linkedReviewMetricB.value),
         metricC: Number(elements.linkedReviewMetricC.value),
-        tags: parseTags(elements.linkedReviewTags.value),
+        tags: [],
         comment: linkedComment
       });
       savedReviews.push(linkedReview);

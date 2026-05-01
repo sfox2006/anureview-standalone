@@ -306,8 +306,6 @@ def save_review_vote(review_id: str, direction: str) -> dict:
 
 def build_review_record(payload: dict) -> dict:
     comment = sanitize_text(str(payload.get("comment", "")), 600)
-    if len(comment) < 20:
-        raise ValueError("Comment must be at least 20 characters long.")
     if contains_blocked_language(comment):
         raise ValueError("Swear words cannot be published.")
 
