@@ -7,7 +7,7 @@
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Bricolage+Grotesque:opsz,wght@12..96,400;12..96,500;12..96,600;12..96,700;12..96,800&family=DM+Sans:ital,opsz,wght@0,9..40,400;0,9..40,500;0,9..40,600;1,9..40,400&display=swap" rel="stylesheet">
-    <link rel="stylesheet" href="styles.css?v=20260501c">
+    <link rel="stylesheet" href="styles.css?v=20260501d">
   </head>
   <body>
 
@@ -35,8 +35,8 @@
           <img class="hero-logo" src="assets/anrevu-logo-white.png" alt="ANRevU">
           <p class="eyebrow">Student-powered · ANU CBE, CLGP, CASS, CAP, CSM &amp; CSS</p>
           <h1 class="hero-heading">
-            Know what a course<br>
-            <em>actually</em> feels like.
+            Find out what a course is
+            <em>actually</em> like.
           </h1>
           <p class="hero-body">
             Official course descriptions only tell half the story.
@@ -390,6 +390,20 @@
                           </select>
                         </label>
 
+                        <label id="review-year-field" class="field is-hidden">
+                          <span class="field-label">Year taken</span>
+                          <select id="review-year">
+                            <option value="">Choose a year</option>
+                          </select>
+                        </label>
+
+                        <label id="review-academic-field" class="field is-hidden">
+                          <span class="field-label">Academic who taught it <span class="field-optional">(optional)</span></span>
+                          <select id="review-academic">
+                            <option value="">No academic selected</option>
+                          </select>
+                        </label>
+
                         <label class="field">
                           <span class="field-label">Comment</span>
                           <textarea id="review-comment" rows="5" maxlength="600" placeholder="Be specific and fair. No racism or swear words. Doing so risks the site being shut down and ruining it for everyone."></textarea>
@@ -442,6 +456,20 @@
                           </select>
                         </label>
 
+                        <label id="linked-review-year-field" class="field is-hidden">
+                          <span class="field-label">Year taken</span>
+                          <select id="linked-review-year">
+                            <option value="">Choose a year</option>
+                          </select>
+                        </label>
+
+                        <label id="linked-review-academic-field" class="field is-hidden">
+                          <span class="field-label">Academic who taught it <span class="field-optional">(optional)</span></span>
+                          <select id="linked-review-academic">
+                            <option value="">No academic selected</option>
+                          </select>
+                        </label>
+
                         <label class="field">
                           <span class="field-label">Comment</span>
                           <textarea id="linked-review-comment" rows="5" maxlength="600" placeholder="Be specific and fair. No racism or swear words. Doing so risks the site being shut down and ruining it for everyone."></textarea>
@@ -490,8 +518,8 @@
       </div>
     </div>
 
-    <script src="data.js?v=20260501c"></script>
-    <script src="app.js?v=20260501c"></script>
+    <script src="data.js?v=20260501d"></script>
+    <script src="app.js?v=20260501d"></script>
     <script>
       // ── Tweaks wiring ──────────────────────────────────────────
       const TWEAK_DEFAULTS = /*EDITMODE-BEGIN*/{

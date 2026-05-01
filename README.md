@@ -70,6 +70,9 @@ grant select, insert on public.anreview_reports to service_role;
 alter table public.anreview_reviews add column if not exists upvotes integer not null default 0;
 alter table public.anreview_reviews add column if not exists downvotes integer not null default 0;
 alter table public.anreview_reviews add column if not exists semester text not null default '';
+alter table public.anreview_reviews add column if not exists taken_year text not null default '';
+alter table public.anreview_reviews add column if not exists academic_id text not null default '';
+alter table public.anreview_reviews add column if not exists academic_name text not null default '';
 ```
 
 If your existing table was created on the older 5-point review scale, also run:

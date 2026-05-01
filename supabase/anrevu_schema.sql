@@ -11,6 +11,9 @@ create table if not exists public.anreview_reviews (
   metric_b numeric(3,1) not null check (metric_b between 1 and 10),
   metric_c numeric(3,1) not null check (metric_c between 1 and 10),
   semester text not null default '',
+  taken_year text not null default '',
+  academic_id text not null default '',
+  academic_name text not null default '',
   upvotes integer not null default 0,
   downvotes integer not null default 0,
   tags jsonb not null default '[]'::jsonb,
@@ -21,6 +24,9 @@ create table if not exists public.anreview_reviews (
 alter table public.anreview_reviews add column if not exists upvotes integer not null default 0;
 alter table public.anreview_reviews add column if not exists downvotes integer not null default 0;
 alter table public.anreview_reviews add column if not exists semester text not null default '';
+alter table public.anreview_reviews add column if not exists taken_year text not null default '';
+alter table public.anreview_reviews add column if not exists academic_id text not null default '';
+alter table public.anreview_reviews add column if not exists academic_name text not null default '';
 
 create index if not exists anreview_reviews_item_idx
   on public.anreview_reviews (item_id, inserted_at desc);

@@ -158,6 +158,9 @@ def review_to_supabase_row(review: dict) -> dict:
         "metric_b": review["metricB"],
         "metric_c": review["metricC"],
         "semester": review.get("semester", ""),
+        "taken_year": review.get("takenYear", ""),
+        "academic_id": review.get("academicId", ""),
+        "academic_name": review.get("academicName", ""),
         "upvotes": review.get("upvotes", 0),
         "downvotes": review.get("downvotes", 0),
         "tags": review["tags"],
@@ -177,6 +180,9 @@ def review_from_supabase_row(row: dict) -> dict:
         "metricB": row.get("metric_b", 0),
         "metricC": row.get("metric_c", 0),
         "semester": row.get("semester", "") or "",
+        "takenYear": row.get("taken_year", "") or "",
+        "academicId": row.get("academic_id", "") or "",
+        "academicName": row.get("academic_name", "") or "",
         "upvotes": row.get("upvotes", 0) or 0,
         "downvotes": row.get("downvotes", 0) or 0,
         "tags": row.get("tags", []) or [],
@@ -334,6 +340,15 @@ def build_review_record(payload: dict) -> dict:
     if item_type != "course":
         semester = ""
 
+    taken_year = sanitize_text(str(payload.get("takenYear", "")), 4)
+    if item_type == "course" and (not taken_year.isdigit() or not (2015 <= int(taken_year) <= 2100)):
+        raise ValueError("Course reviews must include a valid year.")
+    if item_type != "course":
+        taken_year = ""
+
+    academic_id = sanitize_text(str(payload.get("academicId", "")), 80) if item_type == "course" else ""
+    academic_name = sanitize_text(str(payload.get("academicName", "")), 120) if item_type == "course" else ""
+
     ratings = {}
     for field in ("overall", "metricA", "metricB", "metricC"):
         value = float(payload.get(field, 0))
@@ -352,6 +367,9 @@ def build_review_record(payload: dict) -> dict:
         "metricB": ratings["metricB"],
         "metricC": ratings["metricC"],
         "semester": semester,
+        "takenYear": taken_year,
+        "academicId": academic_id,
+        "academicName": academic_name,
         "upvotes": 0,
         "downvotes": 0,
         "tags": tags,
