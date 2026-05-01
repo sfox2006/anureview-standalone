@@ -107,7 +107,7 @@ def supabase_headers() -> dict[str, str]:
     }
 
 
-def call_supabase(path: str, method: str = "GET", payload: dict | list | None = None, prefer: str | None = None) -> list | dict:
+def call_supabase(path: str, method: str = "GET", payload: dict | list | None = None, prefer: str | None = None) -> list | dict | str:
     request = Request(f"{SUPABASE_URL}{path}", method=method, headers=supabase_headers())
     if prefer:
         request.add_header("Prefer", prefer)
@@ -116,7 +116,12 @@ def call_supabase(path: str, method: str = "GET", payload: dict | list | None = 
     try:
         with urlopen(request, timeout=20) as response:
             body = response.read().decode("utf-8")
-            return json.loads(body) if body else {}
+            if not body:
+                return {}
+            try:
+                return json.loads(body)
+            except json.JSONDecodeError:
+                return body
     except HTTPError as error:
         detail = error.read().decode("utf-8", errors="ignore")
         raise RuntimeError(f"Supabase request failed: {error.code} {detail or error.reason}") from error
@@ -192,34 +197,40 @@ def load_supabase_reports() -> list[dict]:
     return [report_from_supabase_row(row) for row in rows]
 
 
-def save_review(review: dict) -> None:
+def save_review(review: dict) -> dict:
     if supabase_enabled():
-        call_supabase(
+        result = call_supabase(
             f"/rest/v1/{SUPABASE_REVIEWS_TABLE}",
             method="POST",
             payload=review_to_supabase_row(review),
-            prefer="return=representation",
+            prefer="return=representation"
         )
-        return
+        if isinstance(result, list) and result:
+            return review_from_supabase_row(result[0])
+        return review
 
     reviews = load_anreview_reviews()
     reviews.insert(0, review)
     write_json_file(ANREVIEW_REVIEWS_PATH, reviews)
+    return review
 
 
-def save_report(report: dict) -> None:
+def save_report(report: dict) -> dict:
     if supabase_enabled():
-        call_supabase(
+        result = call_supabase(
             f"/rest/v1/{SUPABASE_REPORTS_TABLE}",
             method="POST",
             payload=report_to_supabase_row(report),
-            prefer="return=representation",
+            prefer="return=representation"
         )
-        return
+        if isinstance(result, list) and result:
+            return report_from_supabase_row(result[0])
+        return report
 
     reports = load_anreview_reports()
     reports.insert(0, report)
     write_json_file(ANREVIEW_REPORTS_PATH, reports)
+    return report
 
 
 def build_review_record(payload: dict) -> dict:
@@ -414,14 +425,14 @@ class AppHandler(SimpleHTTPRequestHandler):
             payload = read_request_json(self)
             if parsed.path == "/api/anreview/reviews":
                 review = build_review_record(payload)
-                save_review(review)
-                send_json(self, {"ok": True, "review": review}, status=201)
+                saved_review = save_review(review)
+                send_json(self, {"ok": True, "review": saved_review}, status=201)
                 return
 
             if parsed.path == "/api/anreview/reports":
                 report = build_report_record(payload)
-                save_report(report)
-                send_json(self, {"ok": True, "report": report}, status=201)
+                saved_report = save_report(report)
+                send_json(self, {"ok": True, "report": saved_report}, status=201)
                 return
 
             send_json(self, {"ok": False, "error": "Not found."}, status=404)
