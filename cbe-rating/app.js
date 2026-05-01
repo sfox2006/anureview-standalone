@@ -940,7 +940,15 @@ async function submitReviewPayload(payload) {
     body: JSON.stringify(payload)
   });
 
-  const result = await response.json();
+  const raw = await response.text();
+  let result = {};
+  if (raw) {
+    try {
+      result = JSON.parse(raw);
+    } catch {
+      throw new Error(raw.trim() || "Unable to save review.");
+    }
+  }
   if (!response.ok || !result.ok) {
     throw new Error(result.error || "Unable to save review.");
   }

@@ -440,6 +440,8 @@ class AppHandler(SimpleHTTPRequestHandler):
             send_json(self, {"ok": False, "error": str(error)}, status=400)
         except json.JSONDecodeError:
             send_json(self, {"ok": False, "error": "Invalid JSON body."}, status=400)
+        except Exception as error:  # pragma: no cover - defensive API guard
+            send_json(self, {"ok": False, "error": str(error) or "Unexpected server error."}, status=500)
 
 
 if __name__ == "__main__":
