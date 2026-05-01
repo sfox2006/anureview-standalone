@@ -100,11 +100,13 @@ def supabase_enabled() -> bool:
 
 
 def supabase_headers() -> dict[str, str]:
-    return {
+    headers = {
         "apikey": SUPABASE_SERVICE_ROLE_KEY,
-        "Authorization": f"Bearer {SUPABASE_SERVICE_ROLE_KEY}",
         "Content-Type": "application/json",
     }
+    if "." in SUPABASE_SERVICE_ROLE_KEY:
+        headers["Authorization"] = f"Bearer {SUPABASE_SERVICE_ROLE_KEY}"
+    return headers
 
 
 def call_supabase(path: str, method: str = "GET", payload: dict | list | None = None, prefer: str | None = None) -> list | dict | str:
