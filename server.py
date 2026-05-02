@@ -8,7 +8,7 @@ from datetime import datetime
 from html import unescape
 from http.server import SimpleHTTPRequestHandler, ThreadingHTTPServer
 from pathlib import Path
-from urllib.parse import urljoin, urlparse
+from urllib.parse import quote, urljoin, urlparse
 from urllib.error import HTTPError, URLError
 from urllib.request import Request, urlopen
 
@@ -46,8 +46,10 @@ BLOCKED_WORD_PATTERNS = [
 ]
 SUPABASE_URL = os.environ.get("SUPABASE_URL", "").rstrip("/")
 SUPABASE_SERVICE_ROLE_KEY = os.environ.get("SUPABASE_SERVICE_ROLE_KEY", "")
+SUPABASE_PUBLISHABLE_KEY = os.environ.get("SUPABASE_PUBLISHABLE_KEY", "").strip()
 SUPABASE_REVIEWS_TABLE = os.environ.get("SUPABASE_REVIEWS_TABLE", "anreview_reviews")
 SUPABASE_REPORTS_TABLE = os.environ.get("SUPABASE_REPORTS_TABLE", "anreview_reports")
+SUPABASE_PROFILES_TABLE = os.environ.get("SUPABASE_PROFILES_TABLE", "anreview_profiles")
 GA_MEASUREMENT_ID = os.environ.get("GA_MEASUREMENT_ID", "").strip()
 
 
@@ -99,6 +101,8 @@ def send_json(handler: SimpleHTTPRequestHandler, payload: dict | list, status: i
 def public_config_payload() -> dict:
     return {
         "gaMeasurementId": GA_MEASUREMENT_ID,
+        "supabaseUrl": SUPABASE_URL,
+        "supabasePublishableKey": SUPABASE_PUBLISHABLE_KEY,
     }
 
 
@@ -131,6 +135,15 @@ def supabase_headers() -> dict[str, str]:
     return headers
 
 
+def supabase_auth_headers(access_token: str) -> dict[str, str]:
+    api_key = SUPABASE_PUBLISHABLE_KEY or SUPABASE_SERVICE_ROLE_KEY
+    return {
+        "apikey": api_key,
+        "Authorization": f"Bearer {access_token}",
+        "Content-Type": "application/json",
+    }
+
+
 def call_supabase(path: str, method: str = "GET", payload: dict | list | None = None, prefer: str | None = None) -> list | dict | str:
     request = Request(f"{SUPABASE_URL}{path}", method=method, headers=supabase_headers())
     if prefer:
@@ -153,12 +166,152 @@ def call_supabase(path: str, method: str = "GET", payload: dict | list | None = 
         raise RuntimeError(f"Supabase request failed: {error.reason}") from error
 
 
+def call_supabase_auth(path: str, access_token: str) -> dict:
+    request = Request(f"{SUPABASE_URL}{path}", method="GET", headers=supabase_auth_headers(access_token))
+    try:
+        with urlopen(request, timeout=20) as response:
+            body = response.read().decode("utf-8")
+            return json.loads(body) if body else {}
+    except HTTPError as error:
+        detail = error.read().decode("utf-8", errors="ignore")
+        raise RuntimeError(f"Supabase auth request failed: {error.code} {detail or error.reason}") from error
+    except URLError as error:
+        raise RuntimeError(f"Supabase auth request failed: {error.reason}") from error
+
+
+def extract_bearer_token(handler: SimpleHTTPRequestHandler) -> str:
+    authorization = handler.headers.get("Authorization", "").strip()
+    if authorization.lower().startswith("bearer "):
+        return authorization[7:].strip()
+    return ""
+
+
+def normalize_profile_value(value: str, max_length: int) -> str:
+    return sanitize_text(value, max_length)
+
+
+def derive_verified_flag(email: str) -> bool:
+    return email.lower().endswith("@anu.edu.au")
+
+
+def derive_user_profile(auth_user: dict, stored_profile: dict | None = None, profile_updates: dict | None = None) -> dict:
+    stored_profile = stored_profile or {}
+    profile_updates = profile_updates or {}
+    metadata = auth_user.get("user_metadata") or {}
+    email = normalize_profile_value(str(auth_user.get("email", "") or stored_profile.get("email", "")), 160)
+    display_name = normalize_profile_value(
+        str(
+            profile_updates.get("displayName")
+            or stored_profile.get("display_name")
+            or metadata.get("display_name")
+            or metadata.get("full_name")
+            or metadata.get("name")
+            or ""
+        ),
+        80,
+    )
+    username = normalize_profile_value(
+        str(profile_updates.get("username") or stored_profile.get("username") or metadata.get("username") or ""),
+        40,
+    ).lower()
+    phone = normalize_profile_value(
+        str(profile_updates.get("phone") or stored_profile.get("phone") or metadata.get("phone") or ""),
+        32,
+    )
+    is_anu_verified = derive_verified_flag(email)
+    fallback_author = username or display_name or email.split("@", 1)[0] or "Anonymous"
+    return {
+        "id": auth_user.get("id", ""),
+        "email": email,
+        "display_name": display_name,
+        "username": username,
+        "phone": phone,
+        "is_anu_verified": is_anu_verified,
+        "author": normalize_profile_value(fallback_author, 40) or "Anonymous",
+    }
+
+
+def ensure_unique_username(profile: dict, user_id: str) -> None:
+    username = profile.get("username", "")
+    if not username:
+        return
+    if not re.fullmatch(r"[a-z0-9._-]{3,40}", username):
+        raise ValueError("Usernames must be 3-40 characters using letters, numbers, dots, underscores, or hyphens.")
+    rows = call_supabase(
+        f"/rest/v1/{SUPABASE_PROFILES_TABLE}?select=id,username&username=eq.{quote(username)}"
+    )
+    if isinstance(rows, list):
+        for row in rows:
+            if row.get("id") != user_id:
+                raise ValueError("That username is already taken.")
+
+
+def load_profile_row(user_id: str) -> dict | None:
+    rows = call_supabase(
+        f"/rest/v1/{SUPABASE_PROFILES_TABLE}?select=*&id=eq.{quote(user_id)}"
+    )
+    if isinstance(rows, list) and rows:
+        return rows[0]
+    return None
+
+
+def upsert_profile(auth_user: dict, profile_updates: dict | None = None) -> dict:
+    if not supabase_enabled():
+        raise ValueError("Supabase auth is not configured.")
+    user_id = sanitize_text(str(auth_user.get("id", "")), 80)
+    if not user_id:
+        raise ValueError("Authenticated user is missing an id.")
+    stored_profile = load_profile_row(user_id)
+    profile = derive_user_profile(auth_user, stored_profile, profile_updates)
+    ensure_unique_username(profile, user_id)
+    payload = {
+        "id": user_id,
+        "email": profile["email"],
+        "display_name": profile["display_name"],
+        "username": profile["username"],
+        "phone": profile["phone"],
+        "is_anu_verified": profile["is_anu_verified"],
+        "updated_at": datetime.now().isoformat(timespec="seconds"),
+    }
+    result = call_supabase(
+        f"/rest/v1/{SUPABASE_PROFILES_TABLE}",
+        method="POST",
+        payload=payload,
+        prefer="resolution=merge-duplicates,return=representation",
+    )
+    if isinstance(result, list) and result:
+        merged = dict(result[0])
+        merged["author"] = profile["author"]
+        return merged
+    merged = dict(payload)
+    merged["author"] = profile["author"]
+    return merged
+
+
+def verify_supabase_user(access_token: str) -> tuple[dict, dict]:
+    if not supabase_enabled():
+        raise ValueError("Supabase auth is not configured.")
+    if not access_token:
+        raise ValueError("Authentication is required.")
+    user = call_supabase_auth("/auth/v1/user", access_token)
+    if not user.get("id"):
+        raise ValueError("Unable to verify this login session.")
+    profile = upsert_profile(user)
+    return user, profile
+
+
 def review_to_supabase_row(review: dict) -> dict:
     return {
         "id": review["id"],
         "item_id": review["itemId"],
         "item_type": review["itemType"],
         "author": review["author"],
+        "user_id": review.get("userId") or None,
+        "user_email": review.get("userEmail", ""),
+        "display_name": review.get("displayName", ""),
+        "username": review.get("username", ""),
+        "is_anu_verified": bool(review.get("isAnuVerified", False)),
+        "is_guest": bool(review.get("isGuest", True)),
         "created_at": review["createdAt"],
         "overall": review["overall"],
         "metric_a": review["metricA"],
@@ -181,6 +334,12 @@ def review_from_supabase_row(row: dict) -> dict:
         "itemId": row.get("item_id", ""),
         "itemType": row.get("item_type", ""),
         "author": row.get("author", "Anonymous"),
+        "userId": row.get("user_id", "") or "",
+        "userEmail": row.get("user_email", "") or "",
+        "displayName": row.get("display_name", "") or "",
+        "username": row.get("username", "") or "",
+        "isAnuVerified": bool(row.get("is_anu_verified", False)),
+        "isGuest": bool(row.get("is_guest", True)),
         "createdAt": row.get("created_at", ""),
         "overall": row.get("overall", 0),
         "metricA": row.get("metric_a", 0),
@@ -343,7 +502,7 @@ def save_review_vote(review_id: str, direction: str) -> dict:
     raise ValueError("Review not found.")
 
 
-def build_review_record(payload: dict) -> dict:
+def build_review_record(payload: dict, auth_user: dict | None = None, profile: dict | None = None) -> dict:
     comment = sanitize_text(str(payload.get("comment", "")), 600)
     if contains_blocked_language(comment):
         raise ValueError("Swear words cannot be published.")
@@ -361,9 +520,12 @@ def build_review_record(payload: dict) -> dict:
     if any(contains_blocked_language(tag) for tag in tags):
         raise ValueError("Swear words cannot be published.")
 
-    author = sanitize_text(str(payload.get("author", "Anonymous")) or "Anonymous", 40)
-    if contains_blocked_language(author):
-        raise ValueError("Swear words cannot be published.")
+    if auth_user and profile:
+        author = normalize_profile_value(str(profile.get("author", "Anonymous")), 40) or "Anonymous"
+    else:
+        author = sanitize_text(str(payload.get("author", "Anonymous")) or "Anonymous", 40)
+        if contains_blocked_language(author):
+            raise ValueError("Swear words cannot be published.")
 
     semester = sanitize_text(str(payload.get("semester", "")), 20)
     if item_type == "course" and semester not in {"Summer", "Winter", "Semester 1", "Semester 2"}:
@@ -392,6 +554,12 @@ def build_review_record(payload: dict) -> dict:
         "itemId": item_id,
         "itemType": item_type,
         "author": author,
+        "userId": auth_user.get("id", "") if auth_user else "",
+        "userEmail": profile.get("email", "") if profile else "",
+        "displayName": profile.get("display_name", "") if profile else "",
+        "username": profile.get("username", "") if profile else "",
+        "isAnuVerified": bool(profile.get("is_anu_verified", False)) if profile else False,
+        "isGuest": not bool(auth_user),
         "createdAt": datetime.now().date().isoformat(),
         "overall": ratings["overall"],
         "metricA": ratings["metricA"],
@@ -408,6 +576,39 @@ def build_review_record(payload: dict) -> dict:
     }
 
 
+def update_review_record(existing_review: dict, payload: dict, auth_user: dict, profile: dict) -> dict:
+    if not existing_review.get("userId") or existing_review.get("userId") != auth_user.get("id"):
+        raise ValueError("You can only edit your own signed-in reviews.")
+    updated = build_review_record(payload, auth_user=auth_user, profile=profile)
+    updated["id"] = existing_review["id"]
+    updated["createdAt"] = existing_review.get("createdAt", updated["createdAt"])
+    updated["upvotes"] = int(existing_review.get("upvotes", 0))
+    updated["downvotes"] = int(existing_review.get("downvotes", 0))
+    return updated
+
+
+def save_review_update(review_id: str, review: dict) -> dict:
+    if supabase_enabled():
+        result = call_supabase(
+            f"/rest/v1/{SUPABASE_REVIEWS_TABLE}?id=eq.{quote(review_id)}",
+            method="PATCH",
+            payload=review_to_supabase_row(review),
+            prefer="return=representation",
+        )
+        if isinstance(result, list) and result:
+            return review_from_supabase_row(result[0])
+        return review
+
+    ensure_anreview_storage()
+    reviews = load_anreview_reviews()
+    for index, existing in enumerate(reviews):
+        if existing.get("id") == review_id:
+            reviews[index] = review
+            write_json_file(ANREVIEW_REVIEWS_PATH, reviews)
+            return review
+    raise ValueError("Review not found.")
+
+
 def build_report_record(payload: dict) -> dict:
     review_id = sanitize_text(str(payload.get("reviewId", "")), 80)
     item_id = sanitize_text(str(payload.get("itemId", "")), 80)
@@ -422,6 +623,18 @@ def build_report_record(payload: dict) -> dict:
         "reason": reason or "Needs moderator review",
         "createdAt": datetime.now().isoformat(timespec="seconds"),
         "status": "open",
+    }
+
+
+def profile_response_payload(auth_user: dict, profile: dict) -> dict:
+    return {
+        "id": auth_user.get("id", ""),
+        "email": profile.get("email", ""),
+        "displayName": profile.get("display_name", ""),
+        "username": profile.get("username", ""),
+        "phone": profile.get("phone", ""),
+        "isAnuVerified": bool(profile.get("is_anu_verified", False)),
+        "author": profile.get("author", "Anonymous"),
     }
 
 
@@ -540,6 +753,13 @@ class AppHandler(SimpleHTTPRequestHandler):
         if parsed.path == "/api/anreview/public-config":
             send_json(self, public_config_payload())
             return
+        if parsed.path == "/api/anreview/profile":
+            try:
+                auth_user, profile = verify_supabase_user(extract_bearer_token(self))
+                send_json(self, {"ok": True, "profile": profile_response_payload(auth_user, profile)})
+            except Exception as error:
+                send_json(self, {"ok": False, "error": str(error) or "Unable to load your profile."}, status=401)
+            return
         if parsed.path == "/api/anreview/catalog":
             try:
                 send_json(self, build_catalog_payload())
@@ -586,9 +806,35 @@ class AppHandler(SimpleHTTPRequestHandler):
                 return
 
             if parsed.path == "/api/anreview/reviews":
-                review = build_review_record(payload)
+                access_token = extract_bearer_token(self)
+                auth_user = None
+                profile = None
+                if access_token:
+                    auth_user, profile = verify_supabase_user(access_token)
+                review = build_review_record(payload, auth_user=auth_user, profile=profile)
                 saved_review = save_review(review)
                 send_json(self, {"ok": True, "review": saved_review}, status=201)
+                return
+
+            if parsed.path == "/api/anreview/reviews/update":
+                access_token = extract_bearer_token(self)
+                auth_user, profile = verify_supabase_user(access_token)
+                review_id = sanitize_text(str(payload.get("reviewId", "")), 80)
+                if not review_id:
+                    raise ValueError("Review update must include reviewId.")
+                existing_review = find_review(review_id)
+                if not existing_review:
+                    raise ValueError("Review not found.")
+                updated_review = update_review_record(existing_review, payload, auth_user, profile)
+                saved_review = save_review_update(review_id, updated_review)
+                send_json(self, {"ok": True, "review": saved_review}, status=200)
+                return
+
+            if parsed.path == "/api/anreview/profile":
+                access_token = extract_bearer_token(self)
+                auth_user = call_supabase_auth("/auth/v1/user", access_token)
+                profile = upsert_profile(auth_user, payload)
+                send_json(self, {"ok": True, "profile": profile_response_payload(auth_user, profile)}, status=200)
                 return
 
             if parsed.path == "/api/anreview/reports":

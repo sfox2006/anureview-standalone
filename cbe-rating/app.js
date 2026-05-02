@@ -14,13 +14,23 @@ const state = {
   reviewYear: "all",
   sharedReviews: [],
   reportCount: 0,
-  syncState: "Connecting to local ANReview server..."
+  syncState: "Connecting to local ANReview server...",
+  authMode: "signin",
+  authReady: false,
+  editingReviewId: null
 };
 
 const analytics = {
   measurementId: "",
   ready: false,
   lastPagePath: ""
+};
+
+const authState = {
+  client: null,
+  session: null,
+  user: null,
+  profile: null
 };
 
 const elements = {
@@ -119,6 +129,32 @@ const elements = {
   linkedReviewMetricC: document.getElementById("linked-review-metric-c"),
   linkedReviewComment: document.getElementById("linked-review-comment"),
   reviewFeedback: document.getElementById("review-feedback"),
+  reviewSubmit: document.getElementById("review-submit"),
+  reviewCancelEdit: document.getElementById("review-cancel-edit"),
+  authLaunch: document.getElementById("auth-launch"),
+  reviewAuthAction: document.getElementById("review-auth-action"),
+  reviewSignout: document.getElementById("review-signout"),
+  authReviewCopy: document.getElementById("auth-review-copy"),
+  authModal: document.getElementById("auth-modal"),
+  authModalBackdrop: document.getElementById("auth-modal-backdrop"),
+  authClose: document.getElementById("auth-close"),
+  authModeSignIn: document.getElementById("auth-mode-signin"),
+  authModeSignUp: document.getElementById("auth-mode-signup"),
+  authGoogle: document.getElementById("auth-google"),
+  authForm: document.getElementById("auth-form"),
+  authDisplayNameField: document.getElementById("auth-display-name-field"),
+  authDisplayName: document.getElementById("auth-display-name"),
+  authUsernameField: document.getElementById("auth-username-field"),
+  authUsername: document.getElementById("auth-username"),
+  authPhoneField: document.getElementById("auth-phone-field"),
+  authPhone: document.getElementById("auth-phone"),
+  authEmailField: document.getElementById("auth-email-field"),
+  authEmail: document.getElementById("auth-email"),
+  authPasswordField: document.getElementById("auth-password-field"),
+  authPassword: document.getElementById("auth-password"),
+  authHelper: document.getElementById("auth-helper"),
+  authFeedback: document.getElementById("auth-feedback"),
+  authSubmit: document.getElementById("auth-submit"),
   sourceList: document.getElementById("source-list")
 };
 
@@ -1276,9 +1312,11 @@ function renderReviews(item) {
     meta.append(
       createChip(review.author || "Anonymous"),
       createChip(`${formatScore(overallFromMetrics(review.metricA, review.metricB, review.metricC))} overall`, "score-badge"),
-      createChip(review.createdAt),
-      createChip(review.id.startsWith("shared-") ? "Shared server review" : "Seed review", "tag-chip")
+      createChip(review.createdAt)
     );
+    if (review.isAnuVerified) {
+      meta.append(createChip("Verified ANU", "tag-chip"));
+    }
     if (review.semester) {
       meta.append(createChip(review.semester, "tag-chip"));
     }
@@ -1304,6 +1342,8 @@ function renderReviews(item) {
     footer.className = "review-actions";
     const voteBar = document.createElement("div");
     voteBar.className = "review-vote-bar";
+    const actionBar = document.createElement("div");
+    actionBar.className = "review-owner-bar";
     const counts = voteCounts(review);
 
     const upvoteButton = document.createElement("button");
@@ -1332,7 +1372,19 @@ function renderReviews(item) {
       reportReview(review, reportButton);
     });
 
-    footer.append(voteBar, reportButton);
+    if (reviewBelongsToCurrentUser(review)) {
+      const editButton = document.createElement("button");
+      editButton.type = "button";
+      editButton.className = "report-button";
+      editButton.textContent = "Edit";
+      editButton.addEventListener("click", () => {
+        enterEditMode(review);
+      });
+      actionBar.appendChild(editButton);
+    }
+
+    actionBar.appendChild(reportButton);
+    footer.append(voteBar, actionBar);
     card.append(meta, metricRow, quote, footer);
     elements.reviewList.appendChild(card);
   });
@@ -1400,6 +1452,202 @@ function renderSources() {
   });
 }
 
+function authHeaders() {
+  if (authState.session?.access_token) {
+    return {
+      "Content-Type": "application/json",
+      Authorization: `Bearer ${authState.session.access_token}`
+    };
+  }
+  return { "Content-Type": "application/json" };
+}
+
+function isLoggedIn() {
+  return Boolean(authState.user && authState.session);
+}
+
+function currentAuthorLabel() {
+  if (!isLoggedIn()) {
+    return "Anonymous";
+  }
+  return authState.profile?.author || authState.profile?.username || authState.profile?.displayName || authState.user.email || "Signed-in user";
+}
+
+function updateAuthFeedback(message, isError = false) {
+  elements.authFeedback.textContent = message;
+  elements.authFeedback.classList.remove("is-hidden", "is-error", "is-success");
+  elements.authFeedback.classList.add(isError ? "is-error" : "is-success");
+}
+
+function clearAuthFeedback() {
+  elements.authFeedback.textContent = "";
+  elements.authFeedback.classList.add("is-hidden");
+  elements.authFeedback.classList.remove("is-error", "is-success");
+}
+
+function syncAuthMode() {
+  const signingUp = state.authMode === "signup";
+  const managingProfile = signingUp && isLoggedIn();
+  elements.authModeSignUp.textContent = isLoggedIn() ? "Profile" : "Create account";
+  elements.authModeSignIn.classList.toggle("is-active", !signingUp);
+  elements.authModeSignUp.classList.toggle("is-active", signingUp);
+  elements.authDisplayNameField.classList.toggle("is-hidden", !signingUp);
+  elements.authUsernameField.classList.toggle("is-hidden", !signingUp);
+  elements.authPhoneField.classList.toggle("is-hidden", !signingUp);
+  elements.authEmailField.classList.toggle("is-hidden", managingProfile);
+  elements.authPasswordField.classList.toggle("is-hidden", managingProfile);
+  elements.authEmail.required = !managingProfile;
+  elements.authPassword.required = !managingProfile;
+  elements.authSubmit.textContent = managingProfile ? "Save profile" : signingUp ? "Create account" : "Sign in";
+  elements.authHelper.innerHTML = signingUp
+    ? "Use an <code>@anu.edu.au</code> email to receive a verified ANU tick beside your reviews."
+    : "Use the same email you used to sign up. Google sign-in works too.";
+}
+
+function openAuthModal(mode = state.authMode) {
+  state.authMode = mode;
+  syncAuthMode();
+  clearAuthFeedback();
+  document.getElementById("auth-modal-title").textContent =
+    isLoggedIn() && state.authMode === "signup"
+      ? "Manage your review profile"
+      : "Sign in or create an account";
+  elements.authDisplayName.value = authState.profile?.displayName || "";
+  elements.authUsername.value = authState.profile?.username || "";
+  elements.authPhone.value = authState.profile?.phone || "";
+  elements.authEmail.value = authState.user?.email || "";
+  elements.authPassword.value = "";
+  elements.authModal.classList.remove("is-hidden");
+  elements.authModal.setAttribute("aria-hidden", "false");
+  document.body.classList.add("modal-open");
+  if (state.authMode === "signup") {
+    elements.authDisplayName.focus();
+  } else {
+    elements.authEmail.focus();
+  }
+}
+
+function closeAuthModal() {
+  elements.authModal.classList.add("is-hidden");
+  elements.authModal.setAttribute("aria-hidden", "true");
+  document.body.classList.remove("modal-open");
+}
+
+async function fetchAuthProfile() {
+  const response = await fetch("/api/anreview/profile", {
+    headers: {
+      Authorization: `Bearer ${authState.session.access_token}`
+    }
+  });
+  const payload = await response.json();
+  if (!response.ok || !payload.ok) {
+    throw new Error(payload.error || "Unable to load your profile.");
+  }
+  authState.profile = payload.profile;
+  return payload.profile;
+}
+
+async function saveAuthProfile(profilePayload) {
+  const response = await fetch("/api/anreview/profile", {
+    method: "POST",
+    headers: authHeaders(),
+    body: JSON.stringify(profilePayload)
+  });
+  const payload = await response.json();
+  if (!response.ok || !payload.ok) {
+    throw new Error(payload.error || "Unable to save your profile.");
+  }
+  authState.profile = payload.profile;
+  return payload.profile;
+}
+
+function reviewBelongsToCurrentUser(review) {
+  return Boolean(isLoggedIn() && review.userId && authState.user?.id === review.userId);
+}
+
+function syncReviewIdentity() {
+  const loggedIn = isLoggedIn();
+  const authorLabel = currentAuthorLabel();
+  elements.reviewAuthor.disabled = loggedIn;
+  elements.reviewAuthor.value = loggedIn ? authorLabel : "";
+  elements.reviewAuthor.placeholder = loggedIn ? authorLabel : "Anonymous";
+  elements.reviewAuthAction.textContent = loggedIn ? "Manage profile" : "Sign in";
+  elements.reviewSignout.classList.toggle("is-hidden", !loggedIn);
+  elements.authLaunch.textContent = loggedIn ? "My account" : "Sign in";
+  if (loggedIn) {
+    const verified = authState.profile?.isAnuVerified ? " You have the verified ANU tick." : " Sign in with an @anu.edu.au email if you want the verified ANU tick.";
+    elements.authReviewCopy.textContent = `${authorLabel} is signed in. Reviews posted now can be edited later.${verified}`;
+  } else {
+    elements.authReviewCopy.textContent = "Sign in to attach your profile, earn ANU verification, and edit your own reviews later.";
+  }
+}
+
+function exitEditMode() {
+  state.editingReviewId = null;
+  elements.reviewCancelEdit.classList.add("is-hidden");
+  elements.reviewSubmit.textContent = "Publish review";
+  elements.reviewForm.reset();
+  [
+    elements.reviewMetricA,
+    elements.reviewMetricB,
+    elements.reviewMetricC,
+    elements.linkedReviewMetricA,
+    elements.linkedReviewMetricB,
+    elements.linkedReviewMetricC
+  ].forEach(buildRatingOptions);
+  updateComputedOverall(
+    elements.reviewOverall,
+    elements.reviewMetricA,
+    elements.reviewMetricB,
+    elements.reviewMetricC
+  );
+  updateComputedOverall(
+    elements.linkedReviewOverall,
+    elements.linkedReviewMetricA,
+    elements.linkedReviewMetricB,
+    elements.linkedReviewMetricC
+  );
+  syncReviewIdentity();
+  resetLinkedReviewPanel();
+  const item = getItemById(state.selectedId);
+  if (item) {
+    setMetricCopy(item);
+    configureLinkedReviewPanel(item);
+  }
+}
+
+function enterEditMode(review) {
+  state.editingReviewId = review.id;
+  elements.reviewCancelEdit.classList.remove("is-hidden");
+  elements.reviewSubmit.textContent = "Save changes";
+  elements.linkedReviewEnabled.checked = false;
+  syncLinkedReviewPanel();
+  elements.reviewAuthor.value = review.author || currentAuthorLabel();
+  elements.reviewMetricA.value = String(Math.round(Number(review.metricA || 8)));
+  elements.reviewMetricB.value = String(Math.round(Number(review.metricB || 8)));
+  elements.reviewMetricC.value = String(Math.round(Number(review.metricC || 8)));
+  updateComputedOverall(
+    elements.reviewOverall,
+    elements.reviewMetricA,
+    elements.reviewMetricB,
+    elements.reviewMetricC
+  );
+  elements.reviewSemester.value = review.semester || "";
+  elements.reviewYear.value = review.takenYear || "";
+  if (review.academicId) {
+    elements.reviewAcademicSearch.value = review.academicName || "";
+    populateAcademicSelect(elements.reviewAcademic, elements.reviewAcademicSearch, getItemById(state.selectedId), review.academicId);
+  } else if (review.academicName) {
+    elements.reviewAcademicSearch.value = review.academicName;
+    populateAcademicSelect(elements.reviewAcademic, elements.reviewAcademicSearch, getItemById(state.selectedId), "__other__");
+    elements.reviewAcademicOther.value = review.academicName;
+  }
+  syncOtherAcademicInput(elements.reviewAcademic, elements.reviewAcademicOther);
+  elements.reviewComment.value = review.comment || "";
+  updateFeedback("Edit mode is on. Save changes when you're ready.");
+  elements.reviewForm.scrollIntoView({ behavior: "smooth", block: "start" });
+}
+
 function updateFeedback(message, isError = false) {
   elements.reviewFeedback.textContent = message;
   elements.reviewFeedback.classList.remove("is-hidden", "is-error", "is-success");
@@ -1410,7 +1658,7 @@ function updateFeedback(message, isError = false) {
 async function submitReviewPayload(payload) {
   const response = await fetch("/api/anreview/reviews", {
     method: "POST",
-    headers: { "Content-Type": "application/json" },
+    headers: authHeaders(),
     body: JSON.stringify(payload)
   });
 
@@ -1425,6 +1673,31 @@ async function submitReviewPayload(payload) {
   }
   if (!response.ok || !result.ok) {
     throw new Error(result.error || "Unable to save review.");
+  }
+  return result.review;
+}
+
+async function updateReviewPayload(reviewId, payload) {
+  const response = await fetch("/api/anreview/reviews/update", {
+    method: "POST",
+    headers: authHeaders(),
+    body: JSON.stringify({
+      ...payload,
+      reviewId
+    })
+  });
+
+  const raw = await response.text();
+  let result = {};
+  if (raw) {
+    try {
+      result = JSON.parse(raw);
+    } catch {
+      throw new Error(raw.trim() || "Unable to update review.");
+    }
+  }
+  if (!response.ok || !result.ok) {
+    throw new Error(result.error || "Unable to update review.");
   }
   return result.review;
 }
@@ -1449,7 +1722,8 @@ async function handleReviewSubmit(event) {
     return;
   }
   const linkedComment = elements.linkedReviewComment.value.trim();
-  const author = elements.reviewAuthor.value.trim() || "Anonymous";
+  const loggedIn = isLoggedIn();
+  const author = loggedIn ? currentAuthorLabel() : (elements.reviewAuthor.value.trim() || "Anonymous");
   const semester = item.type === "course" ? elements.reviewSemester.value : "";
   if (item.type === "course" && !semester) {
     updateFeedback("Choose the semester when you took this course.", true);
@@ -1492,11 +1766,12 @@ async function handleReviewSubmit(event) {
   }
 
   try {
+    const wasEditing = Boolean(state.editingReviewId);
     const savedReviews = [];
     const mainMetricA = Number(elements.reviewMetricA.value);
     const mainMetricB = Number(elements.reviewMetricB.value);
     const mainMetricC = Number(elements.reviewMetricC.value);
-    const mainReview = await submitReviewPayload({
+    const mainPayload = {
       itemId: item.id,
       itemType: item.type,
       author,
@@ -1510,10 +1785,13 @@ async function handleReviewSubmit(event) {
       academicName: selectedAcademicName,
       tags: [],
       comment
-    });
+    };
+    const mainReview = wasEditing
+      ? await updateReviewPayload(state.editingReviewId, mainPayload)
+      : await submitReviewPayload(mainPayload);
     savedReviews.push(mainReview);
 
-    if (saveLinkedReview) {
+    if (saveLinkedReview && !wasEditing) {
       const linkedMetricA = Number(elements.linkedReviewMetricA.value);
       const linkedMetricB = Number(elements.linkedReviewMetricB.value);
       const linkedMetricC = Number(elements.linkedReviewMetricC.value);
@@ -1535,36 +1813,22 @@ async function handleReviewSubmit(event) {
       savedReviews.push(linkedReview);
     }
 
-    savedReviews.slice().reverse().forEach((review) => state.sharedReviews.unshift(review));
+    savedReviews.forEach((review) => {
+      const existingIndex = state.sharedReviews.findIndex((entry) => entry.id === review.id);
+      if (existingIndex >= 0) {
+        state.sharedReviews.splice(existingIndex, 1, review);
+      } else {
+        state.sharedReviews.unshift(review);
+      }
+    });
     updateCounts();
     renderResults();
     renderDetail();
-    elements.reviewForm.reset();
-    [
-      elements.reviewMetricA,
-      elements.reviewMetricB,
-      elements.reviewMetricC,
-      elements.linkedReviewMetricA,
-      elements.linkedReviewMetricB,
-      elements.linkedReviewMetricC
-    ].forEach(buildRatingOptions);
-    updateComputedOverall(
-      elements.reviewOverall,
-      elements.reviewMetricA,
-      elements.reviewMetricB,
-      elements.reviewMetricC
-    );
-    updateComputedOverall(
-      elements.linkedReviewOverall,
-      elements.linkedReviewMetricA,
-      elements.linkedReviewMetricB,
-      elements.linkedReviewMetricC
-    );
-    setMetricCopy(item);
-    resetLinkedReviewPanel();
-    configureLinkedReviewPanel(item);
+    exitEditMode();
     updateFeedback(
-      saveLinkedReview
+      wasEditing
+        ? "Success: your changes were saved."
+        : saveLinkedReview
         ? `Success: both reviews were published${author === "Anonymous" ? " as Anonymous" : ""}.`
         : `Success: your review was published${author === "Anonymous" ? " as Anonymous" : ""}.`
     );
@@ -1576,7 +1840,164 @@ async function handleReviewSubmit(event) {
   }
 }
 
+async function hydrateAuthState(session) {
+  authState.session = session;
+  authState.user = session?.user || null;
+  authState.profile = null;
+  if (authState.session) {
+    try {
+      await fetchAuthProfile();
+    } catch (error) {
+      updateFeedback(error.message || "Unable to load your saved profile.", true);
+    }
+  }
+  syncReviewIdentity();
+  renderDetail();
+}
+
+async function initAuth(config) {
+  if (!config.supabaseUrl || !config.supabasePublishableKey || !window.supabase?.createClient) {
+    syncReviewIdentity();
+    return;
+  }
+  authState.client = window.supabase.createClient(config.supabaseUrl, config.supabasePublishableKey);
+  const {
+    data: { session }
+  } = await authState.client.auth.getSession();
+  await hydrateAuthState(session);
+  authState.client.auth.onAuthStateChange(async (_event, sessionValue) => {
+    await hydrateAuthState(sessionValue);
+  });
+}
+
+async function handleAuthSubmit(event) {
+  event.preventDefault();
+  if (!authState.client) {
+    updateAuthFeedback("Login is not configured on this deployment yet.", true);
+    return;
+  }
+  clearAuthFeedback();
+  const email = elements.authEmail.value.trim();
+  const password = elements.authPassword.value;
+  try {
+    if (state.authMode === "signup") {
+      const displayName = elements.authDisplayName.value.trim();
+      const username = elements.authUsername.value.trim().toLowerCase();
+      const phone = elements.authPhone.value.trim();
+      if (!displayName || !username) {
+        throw new Error("Name and username are required to create an account.");
+      }
+      if (isLoggedIn()) {
+        await saveAuthProfile({ displayName, username, phone });
+        updateAuthFeedback("Profile updated.");
+        closeAuthModal();
+        syncReviewIdentity();
+        renderDetail();
+        updateFeedback("Profile updated. Your future signed-in reviews will use these details.");
+        return;
+      }
+      const { error } = await authState.client.auth.signUp({
+        email,
+        password,
+        options: {
+          data: {
+            display_name: displayName,
+            username,
+            phone
+          }
+        }
+      });
+      if (error) {
+        throw error;
+      }
+      const currentSession = (await authState.client.auth.getSession()).data.session;
+      if (currentSession) {
+        await hydrateAuthState(currentSession);
+        await saveAuthProfile({ displayName, username, phone });
+      }
+      updateAuthFeedback("Account created. Check your email if Supabase asks you to confirm it.");
+      closeAuthModal();
+      updateFeedback("Account created. You can now post signed-in reviews and edit them later.");
+      renderDetail();
+      return;
+    }
+
+    const { error } = await authState.client.auth.signInWithPassword({
+      email,
+      password
+    });
+    if (error) {
+      throw error;
+    }
+    updateAuthFeedback("Signed in successfully.");
+    closeAuthModal();
+    updateFeedback("Signed in successfully. Your next review will be attached to your account.");
+  } catch (error) {
+    updateAuthFeedback(error.message || "Unable to complete sign in right now.", true);
+  }
+}
+
+async function handleGoogleSignIn() {
+  if (!authState.client) {
+    updateAuthFeedback("Login is not configured on this deployment yet.", true);
+    return;
+  }
+  clearAuthFeedback();
+  const redirectTo = `${window.location.origin}${window.location.pathname}${window.location.hash || "#directory"}`;
+  const { error } = await authState.client.auth.signInWithOAuth({
+    provider: "google",
+    options: {
+      redirectTo
+    }
+  });
+  if (error) {
+    updateAuthFeedback(error.message || "Unable to start Google sign-in.", true);
+  }
+}
+
+async function handleSignOut() {
+  if (!authState.client) {
+    return;
+  }
+  await authState.client.auth.signOut();
+  exitEditMode();
+  updateFeedback("Signed out. Guest posting is still available.");
+}
+
 function bindFilters() {
+  elements.authLaunch.addEventListener("click", () => {
+    if (isLoggedIn()) {
+      openAuthModal("signup");
+    } else {
+      openAuthModal("signin");
+    }
+  });
+  elements.reviewAuthAction.addEventListener("click", () => {
+    if (isLoggedIn()) {
+      openAuthModal("signup");
+    } else {
+      openAuthModal("signin");
+    }
+  });
+  elements.reviewSignout.addEventListener("click", handleSignOut);
+  elements.authClose.addEventListener("click", closeAuthModal);
+  elements.authModalBackdrop.addEventListener("click", closeAuthModal);
+  elements.authModeSignIn.addEventListener("click", () => {
+    state.authMode = "signin";
+    syncAuthMode();
+    clearAuthFeedback();
+  });
+  elements.authModeSignUp.addEventListener("click", () => {
+    state.authMode = "signup";
+    syncAuthMode();
+    clearAuthFeedback();
+  });
+  elements.authGoogle.addEventListener("click", handleGoogleSignIn);
+  elements.authForm.addEventListener("submit", handleAuthSubmit);
+  elements.reviewCancelEdit.addEventListener("click", () => {
+    exitEditMode();
+    updateFeedback("Edit cancelled.");
+  });
   elements.searchForm.addEventListener("submit", (event) => {
     event.preventDefault();
     runDirectorySearch();
@@ -1767,6 +2188,7 @@ async function init() {
     if (config.gaMeasurementId) {
       ensureAnalyticsLoaded(config.gaMeasurementId);
     }
+    await initAuth(config);
   } catch (error) {
     console.warn(error.message);
   }

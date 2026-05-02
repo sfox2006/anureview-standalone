@@ -20,6 +20,7 @@
           <span class="wordmark-badge">ANU course and academic reviews</span>
         </a>
         <nav class="header-nav">
+          <button id="auth-launch" class="nav-link nav-link--button" type="button">Sign in</button>
           <a href="about.html" class="nav-link">About</a>
           <a href="#directory" class="nav-link">Courses</a>
           <a href="#directory" class="nav-link" id="nav-professors">Academics</a>
@@ -329,6 +330,16 @@
                   </div>
 
                   <form id="review-form" class="review-form">
+                    <div id="auth-review-card" class="auth-review-card">
+                      <div>
+                        <p class="auth-review-title">Guest posting is still available.</p>
+                        <p id="auth-review-copy" class="auth-review-copy">Sign in to attach your profile, earn ANU verification, and edit your own reviews later.</p>
+                      </div>
+                      <div class="auth-review-actions">
+                        <button id="review-auth-action" class="btn-secondary" type="button">Sign in</button>
+                        <button id="review-signout" class="btn-secondary is-hidden" type="button">Sign out</button>
+                      </div>
+                    </div>
                     <label class="field">
                       <span class="field-label">Your name <span class="field-optional">(optional, leave blank for Anonymous)</span></span>
                       <input id="review-author" type="text" maxlength="40" placeholder="Anonymous">
@@ -475,7 +486,10 @@
                     </div>
 
                     <p id="review-feedback" class="form-feedback is-hidden" aria-live="polite" role="alert"></p>
-                    <button class="btn-primary btn-submit" type="submit">Publish review</button>
+                    <div class="review-submit-row">
+                      <button id="review-cancel-edit" class="btn-secondary is-hidden" type="button">Cancel edit</button>
+                      <button id="review-submit" class="btn-primary btn-submit" type="submit">Publish review</button>
+                    </div>
                   </form>
                 </section>
               </div>
@@ -515,7 +529,53 @@
       </div>
     </div>
 
+    <div id="auth-modal" class="auth-modal is-hidden" aria-hidden="true">
+      <div id="auth-modal-backdrop" class="auth-modal-backdrop"></div>
+      <div class="auth-modal-dialog" role="dialog" aria-modal="true" aria-labelledby="auth-modal-title">
+        <div class="auth-modal-head">
+          <div>
+            <p class="eyebrow">Account</p>
+            <h3 id="auth-modal-title">Sign in or create an account</h3>
+          </div>
+          <button id="auth-close" class="auth-close" type="button" aria-label="Close sign in dialog">×</button>
+        </div>
+        <p class="auth-modal-copy">Guests can still post, but signing in lets you keep your review identity, earn the ANU tick, and edit your own reviews.</p>
+        <div class="auth-modal-switch">
+          <button id="auth-mode-signin" class="type-tab is-active" type="button">Sign in</button>
+          <button id="auth-mode-signup" class="type-tab" type="button">Create account</button>
+        </div>
+        <button id="auth-google" class="auth-google" type="button">Continue with Google</button>
+        <div class="auth-divider"><span>or use email</span></div>
+        <form id="auth-form" class="auth-form">
+          <label id="auth-display-name-field" class="field">
+            <span class="field-label">Name</span>
+            <input id="auth-display-name" type="text" maxlength="80" placeholder="How your reviews should appear">
+          </label>
+          <label id="auth-username-field" class="field">
+            <span class="field-label">Username</span>
+            <input id="auth-username" type="text" maxlength="40" placeholder="Choose a unique username">
+          </label>
+          <label id="auth-phone-field" class="field">
+            <span class="field-label">Phone number <span class="field-optional">(optional)</span></span>
+            <input id="auth-phone" type="tel" maxlength="32" placeholder="+61 4xx xxx xxx">
+          </label>
+          <label id="auth-email-field" class="field">
+            <span class="field-label">Email</span>
+            <input id="auth-email" type="email" maxlength="160" placeholder="you@example.com" required>
+          </label>
+          <label id="auth-password-field" class="field">
+            <span class="field-label">Password</span>
+            <input id="auth-password" type="password" minlength="8" maxlength="72" placeholder="At least 8 characters" required>
+          </label>
+          <p id="auth-helper" class="auth-helper">Use an <code>@anu.edu.au</code> email to receive a verified ANU tick beside your reviews.</p>
+          <p id="auth-feedback" class="form-feedback is-hidden" aria-live="polite" role="alert"></p>
+          <button id="auth-submit" class="btn-primary btn-submit" type="submit">Sign in</button>
+        </form>
+      </div>
+    </div>
+
     <script src="data.js?v=20260502h"></script>
+    <script src="https://cdn.jsdelivr.net/npm/@supabase/supabase-js@2"></script>
     <script src="app.js?v=20260502h"></script>
     <script>
       // ── Tweaks wiring ──────────────────────────────────────────
