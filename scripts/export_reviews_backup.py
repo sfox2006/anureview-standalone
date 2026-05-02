@@ -42,7 +42,7 @@ def supabase_headers() -> dict[str, str]:
     return headers
 
 
-def call_supabase(path: str) -> list[dict]:
+def call_supabase(path: str) -> object:
     base_url = require_env("SUPABASE_URL", SUPABASE_URL)
     request = Request(f"{base_url}{path}", headers=supabase_headers())
     try:
@@ -55,15 +55,42 @@ def call_supabase(path: str) -> list[dict]:
         raise RuntimeError(f"Supabase export failed: {error.reason}") from error
 
 
+def normalize_rows(payload: object, label: str) -> list[dict]:
+    if payload is None:
+        return []
+    if isinstance(payload, dict):
+        return [payload]
+    if isinstance(payload, list):
+        normalized: list[dict] = []
+        for index, row in enumerate(payload):
+            if isinstance(row, dict):
+                normalized.append(row)
+            else:
+                normalized.append(
+                    {
+                        "id": f"invalid-{label}-{index}",
+                        "raw_value": json.dumps(row, ensure_ascii=False),
+                    }
+                )
+        return normalized
+    return [{"id": f"invalid-{label}-0", "raw_value": json.dumps(payload, ensure_ascii=False)}]
+
+
 def fetch_reviews() -> list[dict]:
-    return call_supabase(
-        f"/rest/v1/{SUPABASE_REVIEWS_TABLE}?select=*&order=created_at.desc,id.desc"
+    return normalize_rows(
+        call_supabase(
+            f"/rest/v1/{SUPABASE_REVIEWS_TABLE}?select=*&order=created_at.desc,id.desc"
+        ),
+        "reviews",
     )
 
 
 def fetch_reports() -> list[dict]:
-    return call_supabase(
-        f"/rest/v1/{SUPABASE_REPORTS_TABLE}?select=*&order=created_at.desc,id.desc"
+    return normalize_rows(
+        call_supabase(
+            f"/rest/v1/{SUPABASE_REPORTS_TABLE}?select=*&order=created_at.desc,id.desc"
+        ),
+        "reports",
     )
 
 
@@ -78,7 +105,10 @@ def write_csv(path: Path, rows: list[dict], fieldnames: list[str]) -> None:
         writer = csv.DictWriter(handle, fieldnames=fieldnames)
         writer.writeheader()
         for row in rows:
-            safe_row = {field: row.get(field, "") for field in fieldnames}
+            if not isinstance(row, dict):
+                safe_row = {fieldnames[0]: "", fieldnames[-1]: str(row)}
+            else:
+                safe_row = {field: row.get(field, "") for field in fieldnames}
             writer.writerow(safe_row)
 
 
