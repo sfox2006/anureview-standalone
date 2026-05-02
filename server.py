@@ -262,6 +262,30 @@ def save_report(report: dict) -> dict:
     return report
 
 
+def clear_all_reviews() -> None:
+    if supabase_enabled():
+        call_supabase(
+            f"/rest/v1/{SUPABASE_REVIEWS_TABLE}?id=not.is.null",
+            method="DELETE",
+            prefer="return=minimal",
+        )
+        return
+    ensure_anreview_storage()
+    write_json_file(ANREVIEW_REVIEWS_PATH, [])
+
+
+def clear_all_reports() -> None:
+    if supabase_enabled():
+        call_supabase(
+            f"/rest/v1/{SUPABASE_REPORTS_TABLE}?id=not.is.null",
+            method="DELETE",
+            prefer="return=minimal",
+        )
+        return
+    ensure_anreview_storage()
+    write_json_file(ANREVIEW_REPORTS_PATH, [])
+
+
 def find_review(review_id: str) -> dict | None:
     reviews = load_anreview_reviews()
     return next((review for review in reviews if review.get("id") == review_id), None)
@@ -541,6 +565,16 @@ class AppHandler(SimpleHTTPRequestHandler):
         parsed = urlparse(self.path)
         try:
             payload = read_request_json(self)
+            if parsed.path == "/api/anreview/admin/clear":
+                provided_secret = self.headers.get("X-ANREVIEW-ADMIN", "")
+                if not SUPABASE_SERVICE_ROLE_KEY or provided_secret != SUPABASE_SERVICE_ROLE_KEY:
+                    send_json(self, {"ok": False, "error": "Forbidden."}, status=403)
+                    return
+                clear_all_reviews()
+                clear_all_reports()
+                send_json(self, {"ok": True}, status=200)
+                return
+
             if parsed.path == "/api/anreview/reviews":
                 review = build_review_record(payload)
                 saved_review = save_review(review)

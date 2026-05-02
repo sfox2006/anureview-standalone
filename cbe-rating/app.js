@@ -12,7 +12,6 @@ const state = {
   reviewSort: "upvotes",
   reviewSemester: "all",
   reviewYear: "all",
-  reviewSource: "all",
   sharedReviews: [],
   reportCount: 0,
   syncState: "Connecting to local ANReview server..."
@@ -65,7 +64,6 @@ const elements = {
   reviewSortFilter: document.getElementById("review-sort-filter"),
   reviewSemesterFilter: document.getElementById("review-semester-filter"),
   reviewYearFilter: document.getElementById("review-year-filter"),
-  reviewSourceFilter: document.getElementById("review-source-filter"),
   reviewList: document.getElementById("review-list"),
   reviewForm: document.getElementById("review-form"),
   reviewAuthor: document.getElementById("review-author"),
@@ -1070,18 +1068,11 @@ function populateReviewFilterOptions(reviews) {
 
   elements.reviewSemesterFilter.value = state.reviewSemester;
   elements.reviewYearFilter.value = state.reviewYear;
-  elements.reviewSourceFilter.value = state.reviewSource;
   elements.reviewSortFilter.value = state.reviewSort;
 }
 
 function filteredReviewsForItem(itemId) {
   return getReviewsForItem(itemId).filter((review) => {
-    if (state.reviewSource === "shared" && !review.id.startsWith("shared-")) {
-      return false;
-    }
-    if (state.reviewSource === "seed" && review.id.startsWith("shared-")) {
-      return false;
-    }
     if (state.reviewSemester === "unknown" && review.semester) {
       return false;
     }
@@ -1627,8 +1618,7 @@ function bindFilters() {
   [
     [elements.reviewSortFilter, "reviewSort"],
     [elements.reviewSemesterFilter, "reviewSemester"],
-    [elements.reviewYearFilter, "reviewYear"],
-    [elements.reviewSourceFilter, "reviewSource"]
+    [elements.reviewYearFilter, "reviewYear"]
   ].forEach(([select, stateKey]) => {
     select.addEventListener("change", () => {
       state[stateKey] = select.value;
