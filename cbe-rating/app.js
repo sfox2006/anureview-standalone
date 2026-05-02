@@ -17,7 +17,8 @@ const state = {
   syncState: "Connecting to local ANReview server...",
   authMode: "signin",
   authReady: false,
-  editingReviewId: null
+  editingReviewId: null,
+  welcomeDismissed: false
 };
 
 const analytics = {
@@ -155,6 +156,11 @@ const elements = {
   authHelper: document.getElementById("auth-helper"),
   authFeedback: document.getElementById("auth-feedback"),
   authSubmit: document.getElementById("auth-submit"),
+  welcomeModal: document.getElementById("welcome-modal"),
+  welcomeBackdrop: document.getElementById("welcome-backdrop"),
+  welcomeClose: document.getElementById("welcome-close"),
+  welcomeSignIn: document.getElementById("welcome-signin"),
+  welcomeGuest: document.getElementById("welcome-guest"),
   sourceList: document.getElementById("source-list")
 };
 
@@ -1530,7 +1536,52 @@ function openAuthModal(mode = state.authMode) {
 function closeAuthModal() {
   elements.authModal.classList.add("is-hidden");
   elements.authModal.setAttribute("aria-hidden", "true");
-  document.body.classList.remove("modal-open");
+  if (!elements.welcomeModal || elements.welcomeModal.classList.contains("is-hidden")) {
+    document.body.classList.remove("modal-open");
+  }
+}
+
+function welcomeStorageKey() {
+  return "anrevu-welcome-dismissed";
+}
+
+function shouldShowWelcomeModal() {
+  if (isLoggedIn()) {
+    return false;
+  }
+  if (state.welcomeDismissed) {
+    return false;
+  }
+  try {
+    return sessionStorage.getItem(welcomeStorageKey()) !== "1";
+  } catch {
+    return true;
+  }
+}
+
+function openWelcomeModal() {
+  if (!shouldShowWelcomeModal()) {
+    return;
+  }
+  elements.welcomeModal.classList.remove("is-hidden");
+  elements.welcomeModal.setAttribute("aria-hidden", "false");
+  document.body.classList.add("modal-open");
+}
+
+function closeWelcomeModal(remember = true) {
+  elements.welcomeModal.classList.add("is-hidden");
+  elements.welcomeModal.setAttribute("aria-hidden", "true");
+  if (!elements.authModal || elements.authModal.classList.contains("is-hidden")) {
+    document.body.classList.remove("modal-open");
+  }
+  if (remember) {
+    state.welcomeDismissed = true;
+    try {
+      sessionStorage.setItem(welcomeStorageKey(), "1");
+    } catch {
+      // ignore storage failures
+    }
+  }
 }
 
 async function fetchAuthProfile() {
@@ -1579,6 +1630,9 @@ function syncReviewIdentity() {
     elements.authReviewCopy.textContent = `${authorLabel} is signed in. Reviews posted now can be edited later.${verified}`;
   } else {
     elements.authReviewCopy.textContent = "Sign in to attach your profile, unlock the Verified ANU tick with an @anu.edu.au email, and edit your own reviews later.";
+  }
+  if (loggedIn) {
+    closeWelcomeModal(true);
   }
 }
 
@@ -1994,6 +2048,16 @@ function bindFilters() {
   });
   elements.authGoogle.addEventListener("click", handleGoogleSignIn);
   elements.authForm.addEventListener("submit", handleAuthSubmit);
+  elements.welcomeClose.addEventListener("click", () => closeWelcomeModal(true));
+  elements.welcomeBackdrop.addEventListener("click", () => closeWelcomeModal(true));
+  elements.welcomeGuest.addEventListener("click", () => {
+    closeWelcomeModal(true);
+    updateFeedback("You can browse and post as a guest. Sign in any time later if you want the Verified ANU tick or to edit your own reviews.");
+  });
+  elements.welcomeSignIn.addEventListener("click", () => {
+    closeWelcomeModal(true);
+    openAuthModal("signup");
+  });
   elements.reviewCancelEdit.addEventListener("click", () => {
     exitEditMode();
     updateFeedback("Edit cancelled.");
@@ -2217,6 +2281,9 @@ async function init() {
   renderDetail();
   renderPageState();
   trackCurrentPageView(true);
+  setTimeout(() => {
+    openWelcomeModal();
+  }, 120);
 }
 
 init();

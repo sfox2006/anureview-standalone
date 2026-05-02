@@ -583,6 +583,46 @@
       </div>
     </div>
 
+    <div id="welcome-modal" class="auth-modal is-hidden" aria-hidden="true">
+      <div id="welcome-backdrop" class="auth-modal-backdrop"></div>
+      <div class="auth-modal-dialog welcome-dialog" role="dialog" aria-modal="true" aria-labelledby="welcome-title">
+        <div class="auth-modal-head">
+          <div>
+            <p class="eyebrow">Welcome</p>
+            <h3 id="welcome-title">Choose how you want to use ANRevU</h3>
+          </div>
+          <button id="welcome-close" class="auth-close" type="button" aria-label="Close welcome dialog">×</button>
+        </div>
+        <p class="auth-modal-copy">You can browse and post as a guest, or sign in for a more trusted and useful experience.</p>
+        <div class="welcome-grid">
+          <section class="welcome-card welcome-card--highlight">
+            <p class="welcome-card-label">Sign in</p>
+            <h4>Best for people who want their reviews to carry more weight.</h4>
+            <ul class="welcome-points">
+              <li>Use an <code>@anu.edu.au</code> email to get the <strong>Verified ANU</strong> tick.</li>
+              <li>Edit your own reviews later if you change your mind or want to update them.</li>
+              <li>Build a recognisable identity beyond anonymous guest posting.</li>
+            </ul>
+            <div class="welcome-actions">
+              <button id="welcome-signin" class="btn-primary" type="button">Sign in or create account</button>
+            </div>
+          </section>
+          <section class="welcome-card">
+            <p class="welcome-card-label">Continue as guest</p>
+            <h4>Fastest option if you just want to look around or leave an anonymous review.</h4>
+            <ul class="welcome-points">
+              <li>You can still browse ratings and post reviews.</li>
+              <li>Your review will not get the Verified ANU tick.</li>
+              <li>Guest reviews cannot be edited later through an account.</li>
+            </ul>
+            <div class="welcome-actions">
+              <button id="welcome-guest" class="btn-secondary" type="button">Continue as guest</button>
+            </div>
+          </section>
+        </div>
+      </div>
+    </div>
+
     <script src="data.js?v=20260502h"></script>
     <script src="https://cdn.jsdelivr.net/npm/@supabase/supabase-js@2"></script>
     <script src="app.js?v=20260502h"></script>

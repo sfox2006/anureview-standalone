@@ -322,6 +322,50 @@ body {
   display: grid;
   gap: 14px;
 }
+.welcome-dialog {
+  width: min(96vw, 880px);
+}
+.welcome-grid {
+  display: grid;
+  grid-template-columns: 1.15fr 0.95fr;
+  gap: 18px;
+  margin-top: 18px;
+}
+.welcome-card {
+  padding: 20px;
+  border-radius: var(--radius-lg);
+  border: 1px solid var(--line);
+  background: var(--bg-subtle);
+}
+.welcome-card--highlight {
+  border-color: color-mix(in srgb, var(--accent) 28%, var(--line));
+  background: linear-gradient(180deg, color-mix(in srgb, var(--accent-light) 72%, white), var(--surface));
+}
+.welcome-card-label {
+  margin-bottom: 8px;
+  color: var(--accent-text);
+  font-size: 0.78rem;
+  font-weight: 800;
+  letter-spacing: 0.08em;
+  text-transform: uppercase;
+}
+.welcome-card h4 {
+  font-family: var(--font-head);
+  font-size: 1.3rem;
+  line-height: 1.2;
+  margin-bottom: 12px;
+}
+.welcome-points {
+  padding-left: 18px;
+  color: var(--ink-muted);
+  display: grid;
+  gap: 10px;
+}
+.welcome-actions {
+  display: flex;
+  justify-content: flex-start;
+  margin-top: 18px;
+}
 
 /* ── Shell ──────────────────────────────────────────────── */
 .shell {
@@ -1749,6 +1793,8 @@ select.field, .field select {
   .auth-review-actions,
   .review-owner-bar { justify-content: stretch; }
   .auth-modal-dialog { width: min(96vw, 560px); padding: 22px; }
+  .welcome-dialog { width: min(96vw, 560px); }
+  .welcome-grid { grid-template-columns: 1fr; }
   .section-head { gap: 8px; }
   .section-sub { font-size: 0.86rem; line-height: 1.5; }
   .field input,
