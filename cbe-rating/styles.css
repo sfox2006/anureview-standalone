@@ -1285,9 +1285,26 @@ select.field, .field select {
   cursor: default;
 }
 .form-feedback {
-  font-size: 0.82rem;
-  font-weight: 600;
-  min-height: 18px;
+  font-size: 0.95rem;
+  font-weight: 700;
+  min-height: 20px;
+  padding: 14px 16px;
+  border-radius: var(--radius-md);
+  border: 1px solid transparent;
+  line-height: 1.5;
+}
+.form-feedback.is-hidden {
+  display: none;
+}
+.form-feedback.is-success {
+  color: #19483d;
+  background: color-mix(in srgb, #19483d 10%, white);
+  border-color: color-mix(in srgb, #19483d 24%, white);
+}
+.form-feedback.is-error {
+  color: #8f2b17;
+  background: color-mix(in srgb, #c84b31 12%, white);
+  border-color: color-mix(in srgb, #c84b31 26%, white);
 }
 
 @media (min-width: 980px) {
@@ -1321,6 +1338,10 @@ select.field, .field select {
   font-size: 0.84rem;
   color: var(--ink-muted);
   line-height: 1.65;
+}
+.about-section .sources-note {
+  font-size: 1.02rem;
+  line-height: 1.85;
 }
 .source-list {
   display: grid;
@@ -1360,6 +1381,11 @@ select.field, .field select {
   background: var(--surface-2);
   border: 1px solid var(--line);
   box-shadow: var(--shadow-sm);
+}
+
+.about-card .feature-list li {
+  font-size: 0.98rem;
+  line-height: 1.65;
 }
 
 /* ── Tweaks panel ─────────────────────────────────────────── */

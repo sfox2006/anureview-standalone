@@ -1093,7 +1093,7 @@ async function reportReview(review, triggerButton) {
 
     state.reportCount += 1;
     elements.moderationCount.textContent = String(state.reportCount);
-    updateFeedback("Review reported for moderator review.");
+    updateFeedback("Report submitted successfully. This review is now flagged for moderator review.");
     triggerButton.textContent = "Reported";
   } catch (error) {
     updateFeedback(error.message || "Unable to report review right now.", true);
@@ -1402,7 +1402,9 @@ function renderSources() {
 
 function updateFeedback(message, isError = false) {
   elements.reviewFeedback.textContent = message;
-  elements.reviewFeedback.style.color = isError ? "#a33c22" : "#19483d";
+  elements.reviewFeedback.classList.remove("is-hidden", "is-error", "is-success");
+  elements.reviewFeedback.classList.add(isError ? "is-error" : "is-success");
+  elements.reviewFeedback.scrollIntoView({ behavior: "smooth", block: "nearest" });
 }
 
 async function submitReviewPayload(payload) {
@@ -1563,13 +1565,14 @@ async function handleReviewSubmit(event) {
     configureLinkedReviewPanel(item);
     updateFeedback(
       saveLinkedReview
-        ? `Both reviews were saved to the shared ANReview server${author === "Anonymous" ? " as Anonymous" : ""}.`
-        : `Your review was saved to the shared ANReview server${author === "Anonymous" ? " as Anonymous" : ""}.`
+        ? `Success: both reviews were published${author === "Anonymous" ? " as Anonymous" : ""}.`
+        : `Success: your review was published${author === "Anonymous" ? " as Anonymous" : ""}.`
     );
     updateSyncStatus(`Shared review sync live. ${state.sharedReviews.length} server review${state.sharedReviews.length === 1 ? "" : "s"} loaded.`);
     trackReviewSubmit(item, saveLinkedReview);
   } catch (error) {
-    updateFeedback(error.message || "Unable to save review right now.", true);
+    const errorMessage = error.message || "Unable to save review right now.";
+    updateFeedback(`Review could not be published: ${errorMessage}`, true);
   }
 }
 
