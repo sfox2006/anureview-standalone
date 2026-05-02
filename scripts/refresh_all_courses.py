@@ -220,8 +220,6 @@ def parse_course_details(code: str, aggregate: CourseAggregate, school_to_colleg
         mode = first_value(fields.get("Mode of delivery")) or ""
         subject = first_value(fields.get("Course subject")) or code_prefix(code)
         terms = dedupe_preserve(split_sessions(" / ".join(fields.get("Offered in") or []))) or aggregate.latest_sessions()
-        if used_historical_page or aggregate.latest_year < latest_catalogue_year:
-            summary = f"This course is no longer offered. {summary}".strip()
         school_code = school_to_code.get(school) or code_prefix(code)
         tags = build_tags(subject, school, level)
         return {
@@ -242,8 +240,6 @@ def parse_course_details(code: str, aggregate: CourseAggregate, school_to_colleg
         }
 
     latest_sessions = aggregate.latest_sessions()
-    if aggregate.latest_year < latest_catalogue_year:
-        summary = f"This course is no longer offered. {summary}"
     return {
         "id": code.lower(),
         "type": "course",
@@ -336,6 +332,7 @@ def refresh_courses() -> tuple[int, int]:
         futures = {
             executor.submit(parse_course_details, code, aggregate, school_to_college, school_to_code, latest_catalogue_year): code
             for code, aggregate in course_map.items()
+            if aggregate.latest_year >= latest_catalogue_year
         }
         for index, future in enumerate(as_completed(futures), start=1):
             refreshed.append(future.result())
@@ -351,8 +348,7 @@ def refresh_courses() -> tuple[int, int]:
             {"label": source_label, "url": "https://programsandcourses.anu.edu.au/search"}
         )
     write_payload(payload)
-    historical = sum(1 for course in refreshed if course["summary"].startswith("This course is no longer offered."))
-    return len(refreshed), historical
+    return len(refreshed), 0
 
 
 if __name__ == "__main__":
