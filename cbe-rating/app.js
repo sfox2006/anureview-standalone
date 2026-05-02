@@ -78,6 +78,7 @@ const elements = {
   reviewAcademicField: document.getElementById("review-academic-field"),
   reviewAcademicSearch: document.getElementById("review-academic-search"),
   reviewAcademic: document.getElementById("review-academic"),
+  reviewAcademicOther: document.getElementById("review-academic-other"),
   reviewMetricALabel: document.getElementById("review-metric-a-label"),
   reviewMetricA: document.getElementById("review-metric-a"),
   reviewMetricBLabel: document.getElementById("review-metric-b-label"),
@@ -105,6 +106,7 @@ const elements = {
   linkedReviewAcademicField: document.getElementById("linked-review-academic-field"),
   linkedReviewAcademicSearch: document.getElementById("linked-review-academic-search"),
   linkedReviewAcademic: document.getElementById("linked-review-academic"),
+  linkedReviewAcademicOther: document.getElementById("linked-review-academic-other"),
   linkedReviewMetricALabel: document.getElementById("linked-review-metric-a-label"),
   linkedReviewMetricA: document.getElementById("linked-review-metric-a"),
   linkedReviewMetricBLabel: document.getElementById("linked-review-metric-b-label"),
@@ -462,14 +464,26 @@ function populateAcademicSelect(select, searchInput, item, selectedValue = "") {
   base.value = "";
   base.textContent = "No academic selected";
   select.appendChild(base);
+  const other = document.createElement("option");
+  other.value = "__other__";
+  other.textContent = "Other";
+  select.appendChild(other);
   candidates.forEach((academic) => {
     const option = document.createElement("option");
     option.value = academic.id;
     option.textContent = academic.name;
     select.appendChild(option);
   });
-  const hasPrevious = candidates.some((academic) => academic.id === previous);
+  const hasPrevious = previous === "__other__" || candidates.some((academic) => academic.id === previous);
   select.value = hasPrevious ? previous : candidates[0].id;
+}
+
+function syncOtherAcademicInput(select, otherInput) {
+  const showOther = select.value === "__other__";
+  otherInput.classList.toggle("is-hidden", !showOther);
+  if (!showOther) {
+    otherInput.value = "";
+  }
 }
 
 function setCourseReviewFields(item, config) {
@@ -481,12 +495,19 @@ function setCourseReviewFields(item, config) {
     if (config.academicSearch) {
       config.academicSearch.value = "";
     }
+    if (config.academicOther) {
+      config.academicOther.classList.add("is-hidden");
+      config.academicOther.value = "";
+    }
     config.yearSelect.value = "";
     config.academicSelect.value = "";
     return;
   }
   populateYearSelect(config.yearSelect);
   populateAcademicSelect(config.academicSelect, config.academicSearch, item);
+  if (config.academicOther) {
+    syncOtherAcademicInput(config.academicSelect, config.academicOther);
+  }
 }
 
 function updateComputedOverall(output, metricASelect, metricBSelect, metricCSelect) {
@@ -544,7 +565,7 @@ function mergeOfficialCourses(officialCourses) {
 }
 
 function announceBundledCatalog() {
-  updateSyncStatus("ANRevU catalogue loaded.");
+  updateSyncStatus("");
 }
 
 async function fetchSharedReviews() {
@@ -752,7 +773,8 @@ function setMetricCopy(item) {
     yearSelect: elements.reviewYear,
     academicField: elements.reviewAcademicField,
     academicSearch: elements.reviewAcademicSearch,
-    academicSelect: elements.reviewAcademic
+    academicSelect: elements.reviewAcademic,
+    academicOther: elements.reviewAcademicOther
   });
   updateComputedOverall(
     elements.reviewOverall,
@@ -774,6 +796,8 @@ function resetLinkedReviewPanel() {
   elements.linkedReviewYear.value = "";
   elements.linkedReviewAcademicSearch.value = "";
   elements.linkedReviewAcademic.value = "";
+  elements.linkedReviewAcademicOther.value = "";
+  elements.linkedReviewAcademicOther.classList.add("is-hidden");
   elements.linkedReviewSemesterField.classList.add("is-hidden");
   elements.linkedReviewYearField.classList.add("is-hidden");
   elements.linkedReviewAcademicField.classList.add("is-hidden");
@@ -866,7 +890,8 @@ function syncLinkedReviewPanel() {
       yearSelect: elements.linkedReviewYear,
       academicField: elements.linkedReviewAcademicField,
       academicSearch: elements.linkedReviewAcademicSearch,
-      academicSelect: elements.linkedReviewAcademic
+      academicSelect: elements.linkedReviewAcademic,
+      academicOther: elements.linkedReviewAcademicOther
     });
     return;
   }
@@ -885,7 +910,8 @@ function syncLinkedReviewPanel() {
     yearSelect: elements.linkedReviewYear,
     academicField: elements.linkedReviewAcademicField,
     academicSearch: elements.linkedReviewAcademicSearch,
-    academicSelect: elements.linkedReviewAcademic
+    academicSelect: elements.linkedReviewAcademic,
+    academicOther: elements.linkedReviewAcademicOther
   });
   updateComputedOverall(
     elements.linkedReviewOverall,
@@ -1347,6 +1373,15 @@ async function handleReviewSubmit(event) {
     return;
   }
   const selectedAcademic = item.type === "course" ? getItemById(elements.reviewAcademic.value) : null;
+  const selectedAcademicName = item.type === "course"
+    ? (elements.reviewAcademic.value === "__other__"
+        ? elements.reviewAcademicOther.value.trim()
+        : (selectedAcademic?.name || ""))
+    : "";
+  if (item.type === "course" && elements.reviewAcademic.value === "__other__" && !selectedAcademicName) {
+    updateFeedback("Choose Other and then write the academic name.", true);
+    return;
+  }
   const linkedSemester = linkedTarget?.type === "course" ? elements.linkedReviewSemester.value : "";
   if (saveLinkedReview && linkedTarget?.type === "course" && !linkedSemester) {
     updateFeedback("Choose the semester for the additional course review.", true);
@@ -1358,6 +1393,15 @@ async function handleReviewSubmit(event) {
     return;
   }
   const linkedSelectedAcademic = linkedTarget?.type === "course" ? getItemById(elements.linkedReviewAcademic.value) : null;
+  const linkedSelectedAcademicName = linkedTarget?.type === "course"
+    ? (elements.linkedReviewAcademic.value === "__other__"
+        ? elements.linkedReviewAcademicOther.value.trim()
+        : (linkedSelectedAcademic?.name || ""))
+    : "";
+  if (saveLinkedReview && linkedTarget?.type === "course" && elements.linkedReviewAcademic.value === "__other__" && !linkedSelectedAcademicName) {
+    updateFeedback("Choose Other and then write the academic name for the additional course review.", true);
+    return;
+  }
 
   try {
     const savedReviews = [];
@@ -1375,7 +1419,7 @@ async function handleReviewSubmit(event) {
       semester,
       takenYear,
       academicId: selectedAcademic?.id || "",
-      academicName: selectedAcademic?.name || "",
+      academicName: selectedAcademicName,
       tags: [],
       comment
     });
@@ -1396,7 +1440,7 @@ async function handleReviewSubmit(event) {
         semester: linkedSemester,
         takenYear: linkedTakenYear,
         academicId: linkedSelectedAcademic?.id || "",
-        academicName: linkedSelectedAcademic?.name || "",
+        academicName: linkedSelectedAcademicName,
         tags: [],
         comment: linkedComment
       });
@@ -1553,18 +1597,22 @@ function bindFilters() {
   elements.reviewAcademicSearch.addEventListener("input", () => {
     const currentItem = getItemById(state.selectedId);
     populateAcademicSelect(elements.reviewAcademic, elements.reviewAcademicSearch, currentItem);
+    syncOtherAcademicInput(elements.reviewAcademic, elements.reviewAcademicOther);
   });
   elements.linkedReviewAcademicSearch.addEventListener("input", () => {
     const linkedTarget = getItemById(elements.linkedReviewTarget.value);
     populateAcademicSelect(elements.linkedReviewAcademic, elements.linkedReviewAcademicSearch, linkedTarget);
+    syncOtherAcademicInput(elements.linkedReviewAcademic, elements.linkedReviewAcademicOther);
   });
   elements.reviewAcademic.addEventListener("change", () => {
     const currentItem = getItemById(state.selectedId);
     populateAcademicSelect(elements.reviewAcademic, elements.reviewAcademicSearch, currentItem, elements.reviewAcademic.value);
+    syncOtherAcademicInput(elements.reviewAcademic, elements.reviewAcademicOther);
   });
   elements.linkedReviewAcademic.addEventListener("change", () => {
     const linkedTarget = getItemById(elements.linkedReviewTarget.value);
     populateAcademicSelect(elements.linkedReviewAcademic, elements.linkedReviewAcademicSearch, linkedTarget, elements.linkedReviewAcademic.value);
+    syncOtherAcademicInput(elements.linkedReviewAcademic, elements.linkedReviewAcademicOther);
   });
   [
     [elements.reviewMetricA, elements.reviewMetricB, elements.reviewMetricC, elements.reviewOverall],

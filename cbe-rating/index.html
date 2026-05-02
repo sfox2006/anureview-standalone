@@ -7,7 +7,7 @@
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Bricolage+Grotesque:opsz,wght@12..96,400;12..96,500;12..96,600;12..96,700;12..96,800&family=DM+Sans:ital,opsz,wght@0,9..40,400;0,9..40,500;0,9..40,600;1,9..40,400&display=swap" rel="stylesheet">
-    <link rel="stylesheet" href="styles.css?v=20260501i">
+    <link rel="stylesheet" href="styles.css?v=20260502a">
   </head>
   <body>
 
@@ -32,7 +32,7 @@
       <!-- ── HERO ────────────────────────────────────────────── -->
       <section class="hero">
         <div class="hero-left">
-          <p class="eyebrow">Student-powered · ANU CBE, CLGP, CASS, CAP, CSM &amp; CSS</p>
+          <p class="eyebrow">Student-powered</p>
           <h1 class="hero-heading">
             Find out what a course is
             <em>actually</em> like.
@@ -108,7 +108,7 @@
       <!-- ── SYNC STATUS ──────────────────────────────────────── -->
       <div class="status-bar" aria-label="Sync status">
         <span class="status-dot"></span>
-        <p id="sync-status">ANRevU catalogue loaded.</p>
+        <p id="sync-status"></p>
       </div>
 
       <!-- ── COLLEGE TABS ─────────────────────────────────────── -->
@@ -399,10 +399,11 @@
 
                         <label id="review-academic-field" class="field is-hidden">
                           <span class="field-label">Academic who taught it <span class="field-optional">(optional)</span></span>
-                          <input id="review-academic-search" type="text" maxlength="80" placeholder="Search academic name">
+                          <input id="review-academic-search" type="text" maxlength="80" placeholder="Search academic name or choose Other below">
                           <select id="review-academic">
                             <option value="">No academic selected</option>
                           </select>
+                          <input id="review-academic-other" class="is-hidden" type="text" maxlength="120" placeholder="Choose Other, then write the academic name here">
                         </label>
 
                         <label class="field">
@@ -466,10 +467,11 @@
 
                         <label id="linked-review-academic-field" class="field is-hidden">
                           <span class="field-label">Academic who taught it <span class="field-optional">(optional)</span></span>
-                          <input id="linked-review-academic-search" type="text" maxlength="80" placeholder="Search academic name">
+                          <input id="linked-review-academic-search" type="text" maxlength="80" placeholder="Search academic name or choose Other below">
                           <select id="linked-review-academic">
                             <option value="">No academic selected</option>
                           </select>
+                          <input id="linked-review-academic-other" class="is-hidden" type="text" maxlength="120" placeholder="Choose Other, then write the academic name here">
                         </label>
 
                         <label class="field">
@@ -520,8 +522,8 @@
       </div>
     </div>
 
-    <script src="data.js?v=20260501i"></script>
-    <script src="app.js?v=20260501i"></script>
+    <script src="data.js?v=20260502a"></script>
+    <script src="app.js?v=20260502a"></script>
     <script>
       // ── Tweaks wiring ──────────────────────────────────────────
       const TWEAK_DEFAULTS = /*EDITMODE-BEGIN*/{
