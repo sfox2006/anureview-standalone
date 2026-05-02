@@ -170,6 +170,37 @@ def create_export_bundle() -> tuple[Path, Path]:
     return run_dir, zip_path
 
 
+def ensure_drive_folder(service, parent_id: str, folder_name: str) -> str:
+    escaped_name = folder_name.replace("'", "\\'")
+    query = (
+        f"'{parent_id}' in parents and "
+        f"name = '{escaped_name}' and "
+        "mimeType = 'application/vnd.google-apps.folder' and trashed = false"
+    )
+    response = (
+        service.files()
+        .list(q=query, spaces="drive", fields="files(id,name)", pageSize=10)
+        .execute()
+    )
+    files = response.get("files", [])
+    if files:
+        return files[0]["id"]
+
+    created = (
+        service.files()
+        .create(
+            body={
+                "name": folder_name,
+                "parents": [parent_id],
+                "mimeType": "application/vnd.google-apps.folder",
+            },
+            fields="id",
+        )
+        .execute()
+    )
+    return created["id"]
+
+
 def drive_service_account_info() -> dict | None:
     if not GOOGLE_DRIVE_SERVICE_ACCOUNT_JSON:
         return None
@@ -211,15 +242,23 @@ def upload_to_google_drive(zip_path: Path, manifest_path: Path) -> str | None:
             return None
 
     service = build("drive", "v3", credentials=credentials, cache_discovery=False)
+    run_stamp = zip_path.stem.replace("anreview-backup-", "")
+    run_day = f"{run_stamp[0:4]}-{run_stamp[4:6]}-{run_stamp[6:8]}"
+    run_folder_id = ensure_drive_folder(service, GOOGLE_DRIVE_FOLDER_ID, run_day)
 
     uploaded_ids: list[str] = []
-    for path, mime_type in (
+    upload_files = [
         (zip_path, "application/zip"),
+        (manifest_path.parent / "reviews.json", "application/json"),
+        (manifest_path.parent / "reports.json", "application/json"),
+        (manifest_path.parent / "reviews.csv", "text/csv"),
+        (manifest_path.parent / "reports.csv", "text/csv"),
         (manifest_path, "application/json"),
-    ):
+    ]
+    for path, mime_type in upload_files:
         metadata = {
             "name": path.name,
-            "parents": [GOOGLE_DRIVE_FOLDER_ID],
+            "parents": [run_folder_id],
         }
         media = MediaFileUpload(str(path), mimetype=mime_type, resumable=False)
         created = (
