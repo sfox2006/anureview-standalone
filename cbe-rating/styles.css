@@ -1345,6 +1345,23 @@ select.field, .field select {
   box-shadow: var(--shadow-sm);
 }
 
+.about-section {
+  grid-template-columns: minmax(0, 1.2fr) minmax(280px, 0.8fr);
+}
+
+.about-card-grid {
+  display: grid;
+  gap: 20px;
+}
+
+.about-card {
+  padding: 26px;
+  border-radius: var(--radius-lg);
+  background: var(--surface-2);
+  border: 1px solid var(--line);
+  box-shadow: var(--shadow-sm);
+}
+
 /* ── Tweaks panel ─────────────────────────────────────────── */
 .tweaks-panel {
   position: fixed;
@@ -1462,6 +1479,7 @@ select.field, .field select {
   .detail-panel       { position: static; max-height: none; }
   .filters-card       { grid-template-columns: 1fr 1fr; }
   .sources-section    { grid-template-columns: 1fr; gap: 24px; }
+  .about-section      { grid-template-columns: 1fr; }
   .detail-metrics     { grid-template-columns: repeat(2, 1fr); }
   .review-ratings-grid{ grid-template-columns: repeat(2, 1fr); }
   .review-toolbar     { grid-template-columns: repeat(2, minmax(0, 1fr)); }
