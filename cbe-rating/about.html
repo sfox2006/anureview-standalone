@@ -18,6 +18,10 @@
           <span class="wordmark-badge">ANU course and academic reviews</span>
         </a>
         <nav class="header-nav">
+          <button id="theme-toggle" class="theme-toggle" type="button" aria-pressed="false" aria-label="Switch to night mode">
+            <span id="theme-toggle-icon" class="theme-toggle-icon" aria-hidden="true">☾</span>
+            <span id="theme-toggle-text">Night mode</span>
+          </button>
           <a href="/cbe-rating/about.html" class="nav-link">About</a>
           <a href="/cbe-rating/#directory" class="nav-link">Courses</a>
           <a href="/cbe-rating/#directory" class="nav-link">Academics</a>
@@ -43,6 +47,7 @@
 
         <section class="about-block">
           <p class="panel-label">1. Why this exists and what its purpose is</p>
+          <h2 class="about-block-title">Why this exists and what its purpose is</h2>
           <p class="sources-note">
             Official course descriptions and handbook pages only tell part of the story. Students still have to commit large amounts of time, money and energy without really knowing what a course will feel like in practice or what an academic is like to learn from.
           </p>
@@ -56,6 +61,7 @@
 
         <section class="about-block">
           <p class="panel-label">2. How it is funded</p>
+          <h2 class="about-block-title">How it is funded</h2>
           <p class="sources-note">
             ANRevU is paid for by students who care about making course choice easier and fairer for everyone else. It is not set up as a profit-making business and it is not designed to extract value from students.
           </p>
@@ -66,6 +72,7 @@
 
         <section class="about-block about-block--highlight">
           <p class="panel-label">3. Why people need to help</p>
+          <h2 class="about-block-title">Why people need to help</h2>
           <p class="sources-note">
             This only works if students actually contribute. A review website is useful only when people leave honest feedback, because each review helps the next student make a better decision.
           </p>
@@ -75,5 +82,33 @@
         </section>
       </section>
     </main>
+    <script>
+      (function () {
+        const STORAGE_KEY = "anrevu-theme-mode";
+        const root = document.documentElement;
+        const toggle = document.getElementById("theme-toggle");
+        const toggleText = document.getElementById("theme-toggle-text");
+        const toggleIcon = document.getElementById("theme-toggle-icon");
+        let dark = false;
+        try {
+          dark = localStorage.getItem(STORAGE_KEY) === "dark";
+        } catch {}
+        function applyTheme() {
+          root.classList.toggle("dark", dark);
+          toggle?.setAttribute("aria-pressed", dark ? "true" : "false");
+          toggle?.setAttribute("aria-label", dark ? "Switch to normal mode" : "Switch to night mode");
+          if (toggleText) toggleText.textContent = dark ? "Normal mode" : "Night mode";
+          if (toggleIcon) toggleIcon.textContent = dark ? "☀" : "☾";
+        }
+        toggle?.addEventListener("click", function () {
+          dark = !dark;
+          try {
+            localStorage.setItem(STORAGE_KEY, dark ? "dark" : "light");
+          } catch {}
+          applyTheme();
+        });
+        applyTheme();
+      }());
+    </script>
   </body>
 </html>

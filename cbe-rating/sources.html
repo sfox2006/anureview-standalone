@@ -18,6 +18,10 @@
           <span class="wordmark-badge">ANU course and lecturer reviews</span>
         </a>
         <nav class="header-nav">
+          <button id="theme-toggle" class="theme-toggle" type="button" aria-pressed="false" aria-label="Switch to night mode">
+            <span id="theme-toggle-icon" class="theme-toggle-icon" aria-hidden="true">☾</span>
+            <span id="theme-toggle-text">Night mode</span>
+          </button>
           <a href="/cbe-rating/about.html" class="nav-link">About</a>
           <a href="/cbe-rating/" class="nav-link">Home</a>
           <a href="/cbe-rating/#directory" class="nav-link">Directory</a>
@@ -55,6 +59,33 @@
         entry.appendChild(link);
         sourceList.appendChild(entry);
       });
+
+      (function () {
+        const STORAGE_KEY = "anrevu-theme-mode";
+        const root = document.documentElement;
+        const toggle = document.getElementById("theme-toggle");
+        const toggleText = document.getElementById("theme-toggle-text");
+        const toggleIcon = document.getElementById("theme-toggle-icon");
+        let dark = false;
+        try {
+          dark = localStorage.getItem(STORAGE_KEY) === "dark";
+        } catch {}
+        function applyTheme() {
+          root.classList.toggle("dark", dark);
+          toggle?.setAttribute("aria-pressed", dark ? "true" : "false");
+          toggle?.setAttribute("aria-label", dark ? "Switch to normal mode" : "Switch to night mode");
+          if (toggleText) toggleText.textContent = dark ? "Normal mode" : "Night mode";
+          if (toggleIcon) toggleIcon.textContent = dark ? "☀" : "☾";
+        }
+        toggle?.addEventListener("click", function () {
+          dark = !dark;
+          try {
+            localStorage.setItem(STORAGE_KEY, dark ? "dark" : "light");
+          } catch {}
+          applyTheme();
+        });
+        applyTheme();
+      }());
     </script>
   </body>
 </html>

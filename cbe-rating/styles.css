@@ -78,6 +78,8 @@
   --shadow-sm:   0 1px 3px rgba(0,0,0,.3);
   --shadow-md:   0 4px 16px rgba(0,0,0,.3);
   --shadow-lg:   0 12px 40px rgba(0,0,0,.35);
+  --accent-text: #f4d28d;
+  --accent-light: #23324d;
 }
 
 /* ── Reset ──────────────────────────────────────────────── */
@@ -148,6 +150,10 @@ body {
   text-transform: uppercase;
   white-space: nowrap;
 }
+.dark .wordmark-badge {
+  background: #22314d;
+  color: #f7ddb0;
+}
 .header-nav {
   display: flex;
   align-items: center;
@@ -197,6 +203,10 @@ body {
   background: transparent;
   cursor: pointer;
   font-family: inherit;
+}
+.nav-link--signed-in {
+  background: color-mix(in srgb, var(--accent) 12%, transparent);
+  color: var(--ink);
 }
 .nav-link:hover {
   background: var(--bg-muted);
@@ -249,6 +259,10 @@ body {
   font-size: 0.78rem;
   font-weight: 700;
 }
+.dark .auth-benefit-pill {
+  background: #22314d;
+  color: #f7ddb0;
+}
 .auth-highlight {
   margin: 14px 0 2px;
   padding: 14px 16px;
@@ -272,6 +286,35 @@ body {
   display: flex;
   align-items: center;
   gap: 10px;
+}
+.auth-status-note {
+  padding: 10px 12px;
+  border-radius: var(--radius-sm);
+  background: color-mix(in srgb, var(--accent) 10%, var(--bg-subtle));
+  border: 1px solid color-mix(in srgb, var(--accent) 22%, var(--line));
+  color: var(--ink);
+  font-size: 0.88rem;
+  line-height: 1.55;
+}
+.auth-account-actions {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 10px;
+}
+.auth-text-button {
+  justify-self: flex-start;
+  border: 0;
+  background: transparent;
+  color: var(--accent);
+  font: inherit;
+  font-size: 0.86rem;
+  font-weight: 700;
+  cursor: pointer;
+  padding: 0;
+}
+.auth-text-button:hover {
+  color: var(--accent-text);
+  text-decoration: underline;
 }
 .auth-modal {
   position: fixed;
@@ -986,6 +1029,25 @@ select.field, .field select {
   background: var(--accent-light);
   box-shadow: 0 0 0 3px color-mix(in srgb, var(--accent) 12%, transparent);
 }
+.dark .result-card.is-active {
+  background: #f4ead6;
+  border-color: #d3a54f;
+}
+.dark .result-card.is-active h4,
+.dark .result-card.is-active .result-snippet,
+.dark .result-card.is-active .meta-chip {
+  color: #172033;
+  opacity: 1;
+}
+.dark .result-card.is-active .meta-chip {
+  background: rgba(23, 32, 51, 0.08);
+  border-color: rgba(23, 32, 51, 0.12);
+}
+.dark .result-card.is-active .tag-chip,
+.dark .result-card.is-active .score-badge {
+  background: rgba(190, 131, 14, 0.12);
+  color: #7a4e00;
+}
 .result-card h4 {
   font-family: var(--font-head);
   font-size: 0.95rem;
@@ -1049,6 +1111,11 @@ select.field, .field select {
   color: var(--accent-text);
   font-size: 0.75rem;
   font-weight: 600;
+}
+.dark .tag-chip,
+.dark .score-badge {
+  background: rgba(244, 210, 141, 0.12);
+  color: #f6dca9;
 }
 .score-badge {
   display: inline-flex;
@@ -1186,6 +1253,12 @@ select.field, .field select {
   gap: 8px;
   margin-bottom: 16px;
 }
+#detail-view .score-chip {
+  display: none;
+}
+.detail-metrics .metric-card:has(#metric-overall) {
+  display: none;
+}
 .metric-card {
   padding: 12px;
   background: var(--bg-subtle);
@@ -1307,6 +1380,46 @@ select.field, .field select {
   transition: border-color var(--transition);
 }
 .review-card:hover { border-color: var(--line-strong); }
+.review-author-row {
+  display: flex;
+  align-items: center;
+  flex-wrap: wrap;
+  gap: 10px;
+  margin-bottom: 8px;
+}
+.review-author-name {
+  font-family: var(--font-head);
+  font-size: 0.98rem;
+  font-weight: 800;
+  color: var(--ink);
+}
+.review-verified-badge {
+  display: inline-flex;
+  align-items: center;
+  gap: 6px;
+  padding: 5px 10px;
+  border-radius: 999px;
+  background: rgba(37, 99, 235, 0.14);
+  color: #1d4ed8;
+  font-size: 0.74rem;
+  font-weight: 800;
+}
+.dark .review-verified-badge {
+  background: rgba(96, 165, 250, 0.16);
+  color: #bfdbfe;
+}
+.review-verified-icon {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  width: 18px;
+  height: 18px;
+  border-radius: 50%;
+  background: currentColor;
+  color: white;
+  font-size: 0.66rem;
+  line-height: 1;
+}
 .review-card blockquote {
   margin: 10px 0 0;
   padding-left: 12px;
@@ -1500,6 +1613,10 @@ select.field, .field select {
   grid-template-columns: repeat(4, 1fr);
   gap: 10px;
 }
+.review-ratings-grid .field:has(#review-overall),
+.review-ratings-grid .field:has(#linked-review-overall) {
+  display: none;
+}
 .review-form input[readonly] {
   background: color-mix(in srgb, var(--accent) 8%, var(--bg-subtle));
   color: var(--accent-text);
@@ -1629,6 +1746,14 @@ select.field, .field select {
 }
 
 .about-block .panel-label {
+  margin-bottom: 14px;
+}
+.about-block-title {
+  font-family: var(--font-head);
+  font-size: clamp(1.7rem, 2.6vw, 2.25rem);
+  line-height: 1.08;
+  letter-spacing: -0.02em;
+  color: var(--ink);
   margin-bottom: 14px;
 }
 

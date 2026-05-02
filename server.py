@@ -190,8 +190,12 @@ def normalize_profile_value(value: str, max_length: int) -> str:
     return sanitize_text(value, max_length)
 
 
-def derive_verified_flag(email: str) -> bool:
-    return email.lower().endswith("@anu.edu.au")
+def email_verified_from_user(auth_user: dict) -> bool:
+    return bool(auth_user.get("email_confirmed_at") or auth_user.get("confirmed_at"))
+
+
+def derive_verified_flag(email: str, email_is_verified: bool) -> bool:
+    return email_is_verified and email.lower().endswith("@anu.edu.au")
 
 
 def derive_user_profile(auth_user: dict, stored_profile: dict | None = None, profile_updates: dict | None = None) -> dict:
@@ -218,14 +222,16 @@ def derive_user_profile(auth_user: dict, stored_profile: dict | None = None, pro
         str(profile_updates.get("phone") or stored_profile.get("phone") or metadata.get("phone") or ""),
         32,
     )
-    is_anu_verified = derive_verified_flag(email)
-    fallback_author = username or display_name or email.split("@", 1)[0] or "Anonymous"
+    email_is_verified = email_verified_from_user(auth_user)
+    is_anu_verified = derive_verified_flag(email, email_is_verified)
+    fallback_author = display_name or username or email.split("@", 1)[0] or "Anonymous"
     return {
         "id": auth_user.get("id", ""),
         "email": email,
         "display_name": display_name,
         "username": username,
         "phone": phone,
+        "is_email_verified": email_is_verified,
         "is_anu_verified": is_anu_verified,
         "author": normalize_profile_value(fallback_author, 40) or "Anonymous",
     }
@@ -282,9 +288,12 @@ def upsert_profile(auth_user: dict, profile_updates: dict | None = None) -> dict
     if isinstance(result, list) and result:
         merged = dict(result[0])
         merged["author"] = profile["author"]
+        merged["is_email_verified"] = profile["is_email_verified"]
+        merged["is_anu_verified"] = profile["is_anu_verified"]
         return merged
     merged = dict(payload)
     merged["author"] = profile["author"]
+    merged["is_email_verified"] = profile["is_email_verified"]
     return merged
 
 
@@ -633,6 +642,7 @@ def profile_response_payload(auth_user: dict, profile: dict) -> dict:
         "displayName": profile.get("display_name", ""),
         "username": profile.get("username", ""),
         "phone": profile.get("phone", ""),
+        "isEmailVerified": bool(profile.get("is_email_verified", False)),
         "isAnuVerified": bool(profile.get("is_anu_verified", False)),
         "author": profile.get("author", "Anonymous"),
     }
@@ -844,6 +854,8 @@ class AppHandler(SimpleHTTPRequestHandler):
                 return
 
             if parsed.path == "/api/anreview/reviews/vote":
+                access_token = extract_bearer_token(self)
+                verify_supabase_user(access_token)
                 review_id = sanitize_text(str(payload.get("reviewId", "")), 80)
                 direction = sanitize_text(str(payload.get("direction", "")), 8)
                 if not review_id:

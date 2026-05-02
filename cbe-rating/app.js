@@ -8,7 +8,7 @@ const state = {
   type: "all",
   school: "all",
   level: "all",
-  sort: "rating",
+  sort: "reviews",
   reviewSort: "upvotes",
   reviewSemester: "all",
   reviewYear: "all",
@@ -153,7 +153,14 @@ const elements = {
   authEmail: document.getElementById("auth-email"),
   authPasswordField: document.getElementById("auth-password-field"),
   authPassword: document.getElementById("auth-password"),
+  authNewPasswordField: document.getElementById("auth-new-password-field"),
+  authNewPassword: document.getElementById("auth-new-password"),
   authHelper: document.getElementById("auth-helper"),
+  authStatusNote: document.getElementById("auth-status-note"),
+  authAccountActions: document.getElementById("auth-account-actions"),
+  authSwitchAccount: document.getElementById("auth-switch-account"),
+  authSignoutModal: document.getElementById("auth-signout-modal"),
+  authResetPassword: document.getElementById("auth-reset-password"),
   authFeedback: document.getElementById("auth-feedback"),
   authSubmit: document.getElementById("auth-submit"),
   welcomeModal: document.getElementById("welcome-modal"),
@@ -163,6 +170,94 @@ const elements = {
   welcomeGuest: document.getElementById("welcome-guest"),
   sourceList: document.getElementById("source-list")
 };
+
+function enhanceStaticMarkup() {
+  elements.detailScore?.closest(".score-chip")?.remove();
+  elements.metricOverall?.closest(".metric-card")?.remove();
+
+  [elements.reviewOverall, elements.linkedReviewOverall].forEach((input) => {
+    const field = input?.closest(".field");
+    if (field && input) {
+      input.type = "hidden";
+      field.classList.add("is-hidden");
+    }
+  });
+
+  if (elements.linkedReviewToggleCopy) {
+    elements.linkedReviewToggleCopy.textContent = "Rate the academic at the same time";
+  }
+  if (elements.authGoogle) {
+    elements.authGoogle.textContent = "Continue to ANRevU with Google";
+  }
+
+  const authForm = elements.authForm;
+  if (authForm && !elements.authNewPasswordField) {
+    const newPasswordField = document.createElement("label");
+    newPasswordField.id = "auth-new-password-field";
+    newPasswordField.className = "field is-hidden";
+    newPasswordField.innerHTML = `
+      <span class="field-label">New password <span class="field-optional">(optional)</span></span>
+      <input id="auth-new-password" type="password" minlength="8" maxlength="72" placeholder="Enter a new password if you want to change it">
+    `;
+    elements.authHelper.before(newPasswordField);
+    elements.authNewPasswordField = newPasswordField;
+    elements.authNewPassword = newPasswordField.querySelector("input");
+  }
+
+  if (authForm && !elements.authStatusNote) {
+    const statusNote = document.createElement("p");
+    statusNote.id = "auth-status-note";
+    statusNote.className = "auth-status-note is-hidden";
+    elements.authHelper.before(statusNote);
+    elements.authStatusNote = statusNote;
+  }
+
+  if (authForm && !elements.authAccountActions) {
+    const actionBar = document.createElement("div");
+    actionBar.id = "auth-account-actions";
+    actionBar.className = "auth-account-actions is-hidden";
+    actionBar.innerHTML = `
+      <button id="auth-switch-account" class="btn-secondary" type="button">Use another account</button>
+      <button id="auth-signout-modal" class="btn-secondary" type="button">Sign out</button>
+    `;
+    elements.authHelper.before(actionBar);
+    elements.authAccountActions = actionBar;
+    elements.authSwitchAccount = actionBar.querySelector("#auth-switch-account");
+    elements.authSignoutModal = actionBar.querySelector("#auth-signout-modal");
+  }
+
+  if (authForm && !elements.authResetPassword) {
+    const resetButton = document.createElement("button");
+    resetButton.id = "auth-reset-password";
+    resetButton.className = "auth-text-button";
+    resetButton.type = "button";
+    resetButton.textContent = "Send password reset email";
+    elements.authHelper.before(resetButton);
+    elements.authResetPassword = resetButton;
+  }
+
+  if (elements.authHelper) {
+    elements.authHelper.innerHTML = "You can use any email. Only verified <code>@anu.edu.au</code> accounts receive the Verified ANU tick.";
+  }
+  if (elements.welcomeModal) {
+    const welcomeCopy = elements.welcomeModal.querySelector(".auth-modal-copy");
+    if (welcomeCopy) {
+      welcomeCopy.innerHTML = "You can look around as a guest, or sign in for a more trusted and useful experience. Non-ANU emails still work perfectly well; only verified <code>@anu.edu.au</code> accounts get the ANU tick.";
+    }
+    const welcomeCards = elements.welcomeModal.querySelectorAll(".welcome-card");
+    if (welcomeCards[0]) {
+      const points = welcomeCards[0].querySelector(".welcome-points");
+      if (points) {
+        points.innerHTML = `
+          <li>Use an <code>@anu.edu.au</code> email and verify it to get the <strong>Verified ANU</strong> tick.</li>
+          <li>Edit your own reviews later if you change your mind or want to update them.</li>
+          <li>Non-ANU emails still work, but they will not receive the verification tick.</li>
+          <li>Build a recognisable identity beyond anonymous guest posting.</li>
+        `;
+      }
+    }
+  }
+}
 
 function returnToBrowseForDirectoryChange() {
   if (state.view === "detail") {
@@ -385,6 +480,17 @@ function average(values) {
   return values.reduce((sum, value) => sum + value, 0) / values.length;
 }
 
+function normalizeSearch(value) {
+  return `${value || ""}`
+    .toLowerCase()
+    .replace(/[^a-z0-9]+/g, " ")
+    .trim();
+}
+
+function compactSearch(value) {
+  return `${value || ""}`.toLowerCase().replace(/[^a-z0-9]+/g, "");
+}
+
 function normalizeRatingValue(value) {
   const numeric = Number(value || 0);
   if (!numeric) {
@@ -416,10 +522,89 @@ function formatScore(value) {
   return value ? value.toFixed(1) : "0.0";
 }
 
+function isEmailVerified() {
+  return Boolean(authState.profile?.isEmailVerified);
+}
+
 function metricLabelsFor(item) {
   return item.type === "course"
     ? ["Course load", "Assessment design", "How interesting"]
     : ["Clarity", "Support", "Engagement"];
+}
+
+function directorySortOptions() {
+  if (state.type === "course") {
+    return [
+      { value: "reviews", label: "Most reviewed" },
+      { value: "metric-a-low", label: "Lowest course load" },
+      { value: "metric-b-high", label: "Best assessment design" },
+      { value: "metric-c-high", label: "Most interesting" },
+      { value: "name", label: "Alphabetical" }
+    ];
+  }
+  return [
+    { value: "reviews", label: "Most reviewed" },
+    { value: "metric-a-high", label: "Most clear" },
+    { value: "metric-b-high", label: "Most supportive" },
+    { value: "metric-c-high", label: "Most engaging" },
+    { value: "name", label: "Alphabetical" }
+  ];
+}
+
+function reviewSortOptions(item) {
+  if (item.type === "course") {
+    return [
+      { value: "upvotes", label: "By upvote" },
+      { value: "recent", label: "Most recent" },
+      { value: "oldest", label: "Oldest" },
+      { value: "metric-a-low", label: "Lowest course load" },
+      { value: "metric-b-high", label: "Best assessment design" },
+      { value: "metric-c-high", label: "Most interesting" }
+    ];
+  }
+  return [
+    { value: "upvotes", label: "By upvote" },
+    { value: "recent", label: "Most recent" },
+    { value: "oldest", label: "Oldest" },
+    { value: "metric-a-high", label: "Most clear" },
+    { value: "metric-b-high", label: "Most supportive" },
+    { value: "metric-c-high", label: "Most engaging" }
+  ];
+}
+
+function populateSelectOptions(select, options, fallbackValue) {
+  const previous = fallbackValue || select.value;
+  select.innerHTML = "";
+  options.forEach(({ value, label }) => {
+    const option = document.createElement("option");
+    option.value = value;
+    option.textContent = label;
+    select.appendChild(option);
+  });
+  const availableValues = options.map((option) => option.value);
+  select.value = availableValues.includes(previous) ? previous : options[0]?.value || "";
+  return select.value;
+}
+
+function updateDirectorySortOptions() {
+  state.sort = populateSelectOptions(elements.sortFilter, directorySortOptions(), state.sort);
+}
+
+function updateReviewSortOptions(item) {
+  state.reviewSort = populateSelectOptions(elements.reviewSortFilter, reviewSortOptions(item), state.reviewSort);
+}
+
+function metricSortValue(summary, sortKey) {
+  if (sortKey.startsWith("metric-a")) {
+    return summary.metricA;
+  }
+  if (sortKey.startsWith("metric-b")) {
+    return summary.metricB;
+  }
+  if (sortKey.startsWith("metric-c")) {
+    return summary.metricC;
+  }
+  return 0;
 }
 
 function setSemesterVisibility(field, select, item) {
@@ -750,6 +935,45 @@ function renderPageState() {
   elements.detailPage.classList.toggle("is-hidden", !showingDetail);
 }
 
+function searchScoreForItem(item, query) {
+  const normalizedQuery = normalizeSearch(query);
+  const compactQuery = compactSearch(query);
+  if (!normalizedQuery && !compactQuery) {
+    return 0;
+  }
+
+  const code = `${item.code || ""}`;
+  const normalizedCode = normalizeSearch(code);
+  const compactCode = compactSearch(code);
+  const name = normalizeSearch(item.name);
+  const school = normalizeSearch(item.school);
+  const position = normalizeSearch(item.position);
+  const focus = normalizeSearch(item.focus);
+  const summary = normalizeSearch(item.summary);
+  const tags = (item.tags || []).map(normalizeSearch);
+  const words = [normalizedCode, name, school, position, focus, summary, ...tags].join(" ").split(/\s+/).filter(Boolean);
+
+  let score = 0;
+  if (compactQuery && compactCode.startsWith(compactQuery)) {
+    score += 300;
+  } else if (compactQuery && compactCode.includes(compactQuery)) {
+    score += 180;
+  }
+  if (normalizedQuery && name.startsWith(normalizedQuery)) {
+    score += 140;
+  }
+  if (normalizedQuery && words.some((word) => word.startsWith(normalizedQuery))) {
+    score += 80;
+  }
+  if (normalizedQuery && `${school} ${position} ${focus}`.includes(normalizedQuery)) {
+    score += 35;
+  }
+  if (normalizedQuery && summary.includes(normalizedQuery)) {
+    score += 20;
+  }
+  return score;
+}
+
 function filteredItems() {
   return allItems()
     .filter((item) => {
@@ -775,6 +999,9 @@ function filteredItems() {
         return true;
       }
 
+      const search = state.search.trim();
+      const normalizedQuery = normalizeSearch(search);
+      const compactQuery = compactSearch(search);
       const haystack = [
         item.name,
         item.code,
@@ -788,19 +1015,36 @@ function filteredItems() {
         .join(" ")
         .toLowerCase();
 
-      return haystack.includes(state.search.toLowerCase());
+      const normalizedHaystack = normalizeSearch(haystack);
+      const compactHaystack = compactSearch(haystack);
+
+      return (
+        searchScoreForItem(item, search) > 0 ||
+        (normalizedQuery && normalizedHaystack.includes(normalizedQuery)) ||
+        (compactQuery && compactHaystack.includes(compactQuery))
+      );
     })
     .sort((left, right) => {
+      if (state.search.trim()) {
+        const searchGap = searchScoreForItem(right, state.search) - searchScoreForItem(left, state.search);
+        if (searchGap !== 0) {
+          return searchGap;
+        }
+      }
       if (state.sort === "name") {
         return (left.code || left.name).localeCompare(right.code || right.name);
       }
       if (state.sort === "reviews") {
         return ratingSummary(right.id).count - ratingSummary(left.id).count;
       }
-
-      const ratingGap = ratingSummary(right.id).overall - ratingSummary(left.id).overall;
-      if (ratingGap !== 0) {
-        return ratingGap;
+      if (state.sort.startsWith("metric-")) {
+        const leftSummary = ratingSummary(left.id);
+        const rightSummary = ratingSummary(right.id);
+        const direction = state.sort.endsWith("-low") ? 1 : -1;
+        const metricGap = (metricSortValue(leftSummary, state.sort) - metricSortValue(rightSummary, state.sort)) * direction;
+        if (metricGap !== 0) {
+          return metricGap;
+        }
       }
       return ratingSummary(right.id).count - ratingSummary(left.id).count;
     });
@@ -864,7 +1108,6 @@ function renderResults() {
     const tagRow = document.createElement("div");
     tagRow.className = "result-tags";
     tagRow.append(
-      createChip(`${formatScore(summary.overall)} overall`, "score-badge"),
       createChip(`${summary.count} review${summary.count === 1 ? "" : "s"}`),
       ...(item.tags || []).slice(0, 3).map((tag) => createChip(tag, "tag-chip"))
     );
@@ -1234,15 +1477,27 @@ function sortReviews(reviews) {
     if (state.reviewSort === "oldest") {
       return `${left.createdAt}`.localeCompare(`${right.createdAt}`);
     }
-    if (state.reviewSort === "rating-high") {
-      const ratingGap = overallFromMetrics(right.metricA, right.metricB, right.metricC) - overallFromMetrics(left.metricA, left.metricB, left.metricC);
-      if (ratingGap !== 0) {
-        return ratingGap;
-      }
-    } else if (state.reviewSort === "rating-low") {
-      const ratingGap = overallFromMetrics(left.metricA, left.metricB, left.metricC) - overallFromMetrics(right.metricA, right.metricB, right.metricC);
-      if (ratingGap !== 0) {
-        return ratingGap;
+    if (state.reviewSort.startsWith("metric-")) {
+      const leftMetric = metricSortValue(
+        {
+          metricA: normalizeRatingValue(left.metricA),
+          metricB: normalizeRatingValue(left.metricB),
+          metricC: normalizeRatingValue(left.metricC)
+        },
+        state.reviewSort
+      );
+      const rightMetric = metricSortValue(
+        {
+          metricA: normalizeRatingValue(right.metricA),
+          metricB: normalizeRatingValue(right.metricB),
+          metricC: normalizeRatingValue(right.metricC)
+        },
+        state.reviewSort
+      );
+      const direction = state.reviewSort.endsWith("-low") ? 1 : -1;
+      const metricGap = (leftMetric - rightMetric) * direction;
+      if (metricGap !== 0) {
+        return metricGap;
       }
     } else {
       const netGap = reviewNetVotes(right) - reviewNetVotes(left);
@@ -1259,12 +1514,17 @@ function sortReviews(reviews) {
 }
 
 async function voteReview(review, direction, triggerButton) {
+  if (!isLoggedIn()) {
+    updateFeedback("Sign in to upvote or downvote reviews.", true);
+    openAuthModal("signin");
+    return;
+  }
   const previousText = triggerButton.textContent;
   triggerButton.disabled = true;
   try {
     const response = await fetch("/api/anreview/reviews/vote", {
       method: "POST",
-      headers: { "Content-Type": "application/json" },
+      headers: authHeaders(),
       body: JSON.stringify({
         reviewId: review.id,
         direction
@@ -1293,6 +1553,7 @@ async function voteReview(review, direction, triggerButton) {
 
 function renderReviews(item) {
   const allReviews = getReviewsForItem(item.id);
+  updateReviewSortOptions(item);
   populateReviewFilterOptions(allReviews);
   const reviews = sortReviews(filteredReviewsForItem(item.id));
   elements.reviewList.innerHTML = "";
@@ -1313,16 +1574,22 @@ function renderReviews(item) {
     const card = document.createElement("article");
     card.className = "review-card";
 
+    const authorRow = document.createElement("div");
+    authorRow.className = "review-author-row";
+    const authorName = document.createElement("strong");
+    authorName.className = "review-author-name";
+    authorName.textContent = review.displayName || review.author || review.username || "Anonymous";
+    authorRow.appendChild(authorName);
+    if (review.isAnuVerified) {
+      const verifiedBadge = document.createElement("span");
+      verifiedBadge.className = "review-verified-badge";
+      verifiedBadge.innerHTML = "<span class='review-verified-icon' aria-hidden='true'>✓</span><span>Verified ANU</span>";
+      authorRow.appendChild(verifiedBadge);
+    }
+
     const meta = document.createElement("div");
     meta.className = "review-meta";
-    meta.append(
-      createChip(review.author || "Anonymous"),
-      createChip(`${formatScore(overallFromMetrics(review.metricA, review.metricB, review.metricC))} overall`, "score-badge"),
-      createChip(review.createdAt)
-    );
-    if (review.isAnuVerified) {
-      meta.append(createChip("Verified ANU", "tag-chip"));
-    }
+    meta.append(createChip(review.createdAt));
     if (review.semester) {
       meta.append(createChip(review.semester, "tag-chip"));
     }
@@ -1356,6 +1623,8 @@ function renderReviews(item) {
     upvoteButton.type = "button";
     upvoteButton.className = "vote-button";
     upvoteButton.textContent = `Upvote ${counts.upvotes}`;
+    upvoteButton.title = isLoggedIn() ? "Upvote this review" : "Sign in to vote on reviews";
+    upvoteButton.disabled = !isLoggedIn();
     upvoteButton.addEventListener("click", () => {
       voteReview(review, "up", upvoteButton);
     });
@@ -1364,6 +1633,8 @@ function renderReviews(item) {
     downvoteButton.type = "button";
     downvoteButton.className = "vote-button vote-button--down";
     downvoteButton.textContent = `Downvote ${counts.downvotes}`;
+    downvoteButton.title = isLoggedIn() ? "Downvote this review" : "Sign in to vote on reviews";
+    downvoteButton.disabled = !isLoggedIn();
     downvoteButton.addEventListener("click", () => {
       voteReview(review, "down", downvoteButton);
     });
@@ -1391,7 +1662,7 @@ function renderReviews(item) {
 
     actionBar.appendChild(reportButton);
     footer.append(voteBar, actionBar);
-    card.append(meta, metricRow, quote, footer);
+    card.append(authorRow, meta, metricRow, quote, footer);
     elements.reviewList.appendChild(card);
   });
 }
@@ -1414,8 +1685,6 @@ function renderDetail() {
     item.type === "course"
       ? `${item.school} - ${item.level === "UGRD" ? "Undergraduate" : "Postgraduate"}`
       : `${item.position} - ${item.school}`;
-  elements.detailScore.textContent = formatScore(summary.overall);
-  elements.metricOverall.textContent = formatScore(summary.overall);
   elements.metricA.textContent = formatScore(summary.metricA);
   elements.metricB.textContent = formatScore(summary.metricB);
   elements.metricC.textContent = formatScore(summary.metricC);
@@ -1476,7 +1745,7 @@ function currentAuthorLabel() {
   if (!isLoggedIn()) {
     return "Anonymous";
   }
-  return authState.profile?.author || authState.profile?.username || authState.profile?.displayName || authState.user.email || "Signed-in user";
+  return authState.profile?.displayName || authState.profile?.author || authState.profile?.username || authState.user.email || "Signed-in user";
 }
 
 function updateAuthFeedback(message, isError = false) {
@@ -1494,20 +1763,41 @@ function clearAuthFeedback() {
 function syncAuthMode() {
   const signingUp = state.authMode === "signup";
   const managingProfile = signingUp && isLoggedIn();
-  elements.authModeSignUp.textContent = isLoggedIn() ? "Profile" : "Create account";
+  const showReset = !isLoggedIn() && !signingUp;
+  elements.authModeSignUp.textContent = isLoggedIn() ? "Account" : "Create account";
   elements.authModeSignIn.classList.toggle("is-active", !signingUp);
   elements.authModeSignUp.classList.toggle("is-active", signingUp);
+  elements.authModeSignIn.classList.toggle("is-hidden", isLoggedIn());
   elements.authDisplayNameField.classList.toggle("is-hidden", !signingUp);
   elements.authUsernameField.classList.toggle("is-hidden", !signingUp);
   elements.authPhoneField.classList.toggle("is-hidden", !signingUp);
   elements.authEmailField.classList.toggle("is-hidden", managingProfile);
   elements.authPasswordField.classList.toggle("is-hidden", managingProfile);
+  elements.authNewPasswordField.classList.toggle("is-hidden", !managingProfile);
+  elements.authAccountActions.classList.toggle("is-hidden", !isLoggedIn());
+  elements.authResetPassword.classList.toggle("is-hidden", !showReset);
   elements.authEmail.required = !managingProfile;
   elements.authPassword.required = !managingProfile;
-  elements.authSubmit.textContent = managingProfile ? "Save profile" : signingUp ? "Create account" : "Sign in";
-  elements.authHelper.innerHTML = signingUp
-    ? "Best option: use an <code>@anu.edu.au</code> email so your reviews can show the <strong>Verified ANU</strong> tick."
-    : "Use the same email you used to sign up. Google sign-in works too, and <code>@anu.edu.au</code> accounts receive the Verified ANU tick.";
+  elements.authSubmit.textContent = managingProfile ? "Save account" : signingUp ? "Create account" : "Sign in";
+  if (managingProfile) {
+    elements.authHelper.innerHTML = "You can update your public profile here. If you add a new password, it will replace your current one.";
+  } else if (signingUp) {
+    elements.authHelper.innerHTML = "Any email works for ANRevU. Only verified <code>@anu.edu.au</code> accounts receive the <strong>Verified ANU</strong> tick.";
+  } else {
+    elements.authHelper.innerHTML = "Use the same email you signed up with. Google sign-in works too, and verified <code>@anu.edu.au</code> accounts receive the Verified ANU tick.";
+  }
+
+  elements.authStatusNote.classList.add("is-hidden");
+  elements.authStatusNote.textContent = "";
+  if (isLoggedIn()) {
+    const verifiedTick = authState.profile?.isAnuVerified
+      ? "Your ANU email is verified and your reviews can show the Verified ANU tick."
+      : isEmailVerified()
+      ? "You are signed in. If you switch this account to an @anu.edu.au email, future reviews can show the Verified ANU tick."
+      : "Verify this email account to finish setting up your signed-in profile. Only verified @anu.edu.au accounts receive the Verified ANU tick.";
+    elements.authStatusNote.textContent = verifiedTick;
+    elements.authStatusNote.classList.remove("is-hidden");
+  }
 }
 
 function openAuthModal(mode = state.authMode) {
@@ -1516,17 +1806,20 @@ function openAuthModal(mode = state.authMode) {
   clearAuthFeedback();
   document.getElementById("auth-modal-title").textContent =
     isLoggedIn() && state.authMode === "signup"
-      ? "Manage your review profile"
+      ? "Your ANRevU account"
       : "Sign in or create an account";
   elements.authDisplayName.value = authState.profile?.displayName || "";
   elements.authUsername.value = authState.profile?.username || "";
   elements.authPhone.value = authState.profile?.phone || "";
   elements.authEmail.value = authState.user?.email || "";
   elements.authPassword.value = "";
+  elements.authNewPassword.value = "";
   elements.authModal.classList.remove("is-hidden");
   elements.authModal.setAttribute("aria-hidden", "false");
   document.body.classList.add("modal-open");
-  if (state.authMode === "signup") {
+  if (isLoggedIn() && state.authMode === "signup") {
+    elements.authDisplayName.focus();
+  } else if (state.authMode === "signup") {
     elements.authDisplayName.focus();
   } else {
     elements.authEmail.focus();
@@ -1622,14 +1915,19 @@ function syncReviewIdentity() {
   elements.reviewAuthor.disabled = loggedIn;
   elements.reviewAuthor.value = loggedIn ? authorLabel : "";
   elements.reviewAuthor.placeholder = loggedIn ? authorLabel : "Anonymous";
-  elements.reviewAuthAction.textContent = loggedIn ? "Manage profile" : "Sign in";
+  elements.reviewAuthAction.textContent = loggedIn ? "Manage account" : "Sign in";
   elements.reviewSignout.classList.toggle("is-hidden", !loggedIn);
-  elements.authLaunch.textContent = loggedIn ? "My account" : "Sign in";
+  elements.authLaunch.textContent = loggedIn ? "Account" : "Sign in";
+  elements.authLaunch.classList.toggle("nav-link--signed-in", loggedIn);
   if (loggedIn) {
-    const verified = authState.profile?.isAnuVerified ? " You have the Verified ANU tick." : " Switch to an @anu.edu.au email if you want the Verified ANU tick beside your reviews.";
+    const verified = authState.profile?.isAnuVerified
+      ? " You have the Verified ANU tick."
+      : isEmailVerified()
+      ? " You are signed in with a non-ANU or unverified ANU email, so your reviews will not show the Verified ANU tick."
+      : " Verify your email to finish activating this account. Only verified @anu.edu.au accounts receive the Verified ANU tick.";
     elements.authReviewCopy.textContent = `${authorLabel} is signed in. Reviews posted now can be edited later.${verified}`;
   } else {
-    elements.authReviewCopy.textContent = "Sign in to attach your profile, unlock the Verified ANU tick with an @anu.edu.au email, and edit your own reviews later.";
+    elements.authReviewCopy.textContent = "Sign in to attach your profile, unlock the Verified ANU tick with a verified @anu.edu.au email, and edit your own reviews later. Non-ANU emails still work, but they do not receive the tick.";
   }
   if (loggedIn) {
     closeWelcomeModal(true);
@@ -1919,8 +2217,15 @@ async function initAuth(config) {
     data: { session }
   } = await authState.client.auth.getSession();
   await hydrateAuthState(session);
-  authState.client.auth.onAuthStateChange(async (_event, sessionValue) => {
+  authState.client.auth.onAuthStateChange(async (event, sessionValue) => {
     await hydrateAuthState(sessionValue);
+    if (event === "SIGNED_IN" && sessionValue?.user) {
+      const signedInName = authState.profile?.displayName || authState.profile?.author || sessionValue.user.email || "your account";
+      updateSyncStatus(`Signed in as ${signedInName}. Your reviews can now be attached to your account.`);
+      if (elements.authModal && !elements.authModal.classList.contains("is-hidden")) {
+        updateAuthFeedback(`Signed in successfully as ${signedInName}.`);
+      }
+    }
   });
 }
 
@@ -1938,16 +2243,23 @@ async function handleAuthSubmit(event) {
       const displayName = elements.authDisplayName.value.trim();
       const username = elements.authUsername.value.trim().toLowerCase();
       const phone = elements.authPhone.value.trim();
+      const newPassword = elements.authNewPassword.value.trim();
       if (!displayName || !username) {
         throw new Error("Name and username are required to create an account.");
       }
       if (isLoggedIn()) {
         await saveAuthProfile({ displayName, username, phone });
-        updateAuthFeedback("Profile updated.");
+        if (newPassword) {
+          const { error: passwordError } = await authState.client.auth.updateUser({ password: newPassword });
+          if (passwordError) {
+            throw passwordError;
+          }
+        }
+        updateAuthFeedback("Account updated.");
         closeAuthModal();
         syncReviewIdentity();
         renderDetail();
-        updateFeedback("Profile updated. Your future signed-in reviews will use these details.");
+        updateFeedback(newPassword ? "Account updated, including your password." : "Profile updated. Your future signed-in reviews will use these details.");
         return;
       }
       const { error } = await authState.client.auth.signUp({
@@ -1969,9 +2281,9 @@ async function handleAuthSubmit(event) {
         await hydrateAuthState(currentSession);
         await saveAuthProfile({ displayName, username, phone });
       }
-      updateAuthFeedback("Account created. Check your email if Supabase asks you to confirm it.");
+      updateAuthFeedback("Account created. Check your email and verify it before expecting the ANU tick to appear.");
       closeAuthModal();
-      updateFeedback("Account created. You can now post signed-in reviews and edit them later.");
+      updateFeedback("Account created. Verify your email, then sign in to post reviews with your account.");
       renderDetail();
       return;
     }
@@ -1991,6 +2303,26 @@ async function handleAuthSubmit(event) {
   }
 }
 
+async function handleResetPassword() {
+  if (!authState.client) {
+    updateAuthFeedback("Login is not configured on this deployment yet.", true);
+    return;
+  }
+  clearAuthFeedback();
+  const email = elements.authEmail.value.trim();
+  if (!email) {
+    updateAuthFeedback("Enter your email first, then request a password reset.", true);
+    return;
+  }
+  const redirectTo = `${window.location.origin}${window.location.pathname}`;
+  const { error } = await authState.client.auth.resetPasswordForEmail(email, { redirectTo });
+  if (error) {
+    updateAuthFeedback(error.message || "Unable to send a password reset email right now.", true);
+    return;
+  }
+  updateAuthFeedback("Password reset email sent. Check your inbox.");
+}
+
 async function handleGoogleSignIn() {
   if (!authState.client) {
     updateAuthFeedback("Login is not configured on this deployment yet.", true);
@@ -2001,7 +2333,10 @@ async function handleGoogleSignIn() {
   const { error } = await authState.client.auth.signInWithOAuth({
     provider: "google",
     options: {
-      redirectTo
+      redirectTo,
+      queryParams: {
+        prompt: "select_account"
+      }
     }
   });
   if (error) {
@@ -2016,6 +2351,13 @@ async function handleSignOut() {
   await authState.client.auth.signOut();
   exitEditMode();
   updateFeedback("Signed out. Guest posting is still available.");
+}
+
+async function handleSwitchAccount() {
+  await handleSignOut();
+  state.authMode = "signin";
+  openAuthModal("signin");
+  updateAuthFeedback("Signed out. Choose a different account to continue.");
 }
 
 function bindFilters() {
@@ -2048,11 +2390,17 @@ function bindFilters() {
   });
   elements.authGoogle.addEventListener("click", handleGoogleSignIn);
   elements.authForm.addEventListener("submit", handleAuthSubmit);
+  elements.authSwitchAccount.addEventListener("click", handleSwitchAccount);
+  elements.authSignoutModal.addEventListener("click", async () => {
+    closeAuthModal();
+    await handleSignOut();
+  });
+  elements.authResetPassword.addEventListener("click", handleResetPassword);
   elements.welcomeClose.addEventListener("click", () => closeWelcomeModal(true));
   elements.welcomeBackdrop.addEventListener("click", () => closeWelcomeModal(true));
   elements.welcomeGuest.addEventListener("click", () => {
     closeWelcomeModal(true);
-    updateFeedback("You can browse and post as a guest. Sign in any time later if you want the Verified ANU tick or to edit your own reviews.");
+    updateFeedback("You can browse and post as a guest. Sign in any time later if you want the Verified ANU tick or to edit your own reviews. Non-ANU emails still work, but they do not receive the tick.");
   });
   elements.welcomeSignIn.addEventListener("click", () => {
     closeWelcomeModal(true);
@@ -2078,6 +2426,7 @@ function bindFilters() {
     button.addEventListener("click", () => {
       state.type = button.dataset.type;
       syncTypeTabs();
+      updateDirectorySortOptions();
       populateSchoolFilter();
       if (moveDetailViewToVisibleResult()) {
         return;
@@ -2239,10 +2588,12 @@ function initSelects() {
 }
 
 async function init() {
+  enhanceStaticMarkup();
   initSelects();
   syncCollegeTabs();
   state.type = "course";
   syncTypeTabs();
+  updateDirectorySortOptions();
   renderSources();
   bindFilters();
   announceBundledCatalog();
@@ -2283,7 +2634,7 @@ async function init() {
   trackCurrentPageView(true);
   setTimeout(() => {
     openWelcomeModal();
-  }, 120);
+  }, 20000);
 }
 
 init();

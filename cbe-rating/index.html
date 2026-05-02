@@ -210,8 +210,10 @@
           <label class="field">
             <span class="field-label">Sort</span>
             <select id="sort-filter">
-              <option value="rating">Top rated</option>
               <option value="reviews">Most reviewed</option>
+              <option value="metric-a-low">Lowest course load</option>
+              <option value="metric-b-high">Best assessment design</option>
+              <option value="metric-c-high">Most interesting</option>
               <option value="name">Alphabetical</option>
             </select>
           </label>
@@ -302,10 +304,11 @@
                       <span class="field-label">Sort reviews</span>
                       <select id="review-sort-filter">
                         <option value="upvotes">By upvote</option>
-                        <option value="recent">Most Recent</option>
+                        <option value="recent">Most recent</option>
                         <option value="oldest">Oldest</option>
-                        <option value="rating-high">Highest rated</option>
-                        <option value="rating-low">Lowest rated</option>
+                        <option value="metric-a-low">Lowest course load</option>
+                        <option value="metric-b-high">Best assessment design</option>
+                        <option value="metric-c-high">Most interesting</option>
                       </select>
                     </label>
                     <label class="field field--compact">
@@ -359,7 +362,7 @@
                         <input id="linked-review-enabled" type="checkbox">
                         <span class="linked-review-box" aria-hidden="true"></span>
                         <span class="linked-review-copy">
-                          <strong id="linked-review-toggle-copy">Also rate an academic at the same time</strong>
+                          <strong id="linked-review-toggle-copy">Rate the academic at the same time</strong>
                           <span id="linked-review-toggle-subcopy">Tick this to open a second review panel.</span>
                         </span>
                       </label>
@@ -374,10 +377,7 @@
                         </div>
 
                         <div class="review-ratings-grid">
-                          <label class="field">
-                            <span class="field-label">Overall (auto-calculated)</span>
-                            <input id="review-overall" type="text" value="8.0 / 10" readonly>
-                          </label>
+                          <input id="review-overall" type="hidden" value="8.0 / 10" readonly>
                           <label class="field">
                             <span id="review-metric-a-label" class="field-label">Clarity</span>
                             <select id="review-metric-a"></select>
@@ -442,10 +442,7 @@
                         </label>
 
                         <div class="review-ratings-grid review-ratings-grid--linked">
-                          <label class="field">
-                            <span class="field-label">Overall (auto-calculated)</span>
-                            <input id="linked-review-overall" type="text" value="8.0 / 10" readonly>
-                          </label>
+                          <input id="linked-review-overall" type="hidden" value="8.0 / 10" readonly>
                           <label class="field">
                             <span id="linked-review-metric-a-label" class="field-label">Clarity</span>
                             <select id="linked-review-metric-a"></select>
@@ -548,16 +545,16 @@
           </div>
           <button id="auth-close" class="auth-close" type="button" aria-label="Close sign in dialog">×</button>
         </div>
-        <p class="auth-modal-copy">Guests can still post, but signing in makes your reviews more trusted and more useful to you later.</p>
+        <p class="auth-modal-copy">Guests can still post, but signing in makes your reviews more trusted and more useful to you later. Non-ANU emails still work, but only verified <code>@anu.edu.au</code> accounts receive the Verified ANU tick.</p>
         <div class="auth-highlight">
           <p class="auth-highlight-title">Best reason to sign in</p>
-          <p class="auth-highlight-copy">If you use an email ending in <code>@anu.edu.au</code>, your reviews can show a <strong>Verified ANU</strong> tick. Signed-in reviews can also be edited later.</p>
+          <p class="auth-highlight-copy">If you use a verified email ending in <code>@anu.edu.au</code>, your reviews can show a <strong>Verified ANU</strong> tick. Signed-in reviews can also be edited later, while non-ANU emails can still create normal signed-in accounts.</p>
         </div>
         <div class="auth-modal-switch">
           <button id="auth-mode-signin" class="type-tab is-active" type="button">Sign in</button>
           <button id="auth-mode-signup" class="type-tab" type="button">Create account</button>
         </div>
-        <button id="auth-google" class="auth-google" type="button">Continue with Google</button>
+        <button id="auth-google" class="auth-google" type="button">Continue to ANRevU with Google</button>
         <div class="auth-divider"><span>or use email</span></div>
         <form id="auth-form" class="auth-form">
           <label id="auth-display-name-field" class="field">
@@ -580,7 +577,17 @@
             <span class="field-label">Password</span>
             <input id="auth-password" type="password" minlength="8" maxlength="72" placeholder="At least 8 characters" required>
           </label>
-          <p id="auth-helper" class="auth-helper">Use an <code>@anu.edu.au</code> email to receive a verified ANU tick beside your reviews.</p>
+          <label id="auth-new-password-field" class="field is-hidden">
+            <span class="field-label">New password <span class="field-optional">(optional)</span></span>
+            <input id="auth-new-password" type="password" minlength="8" maxlength="72" placeholder="Enter a new password if you want to change it">
+          </label>
+          <p id="auth-status-note" class="auth-status-note is-hidden"></p>
+          <div id="auth-account-actions" class="auth-account-actions is-hidden">
+            <button id="auth-switch-account" class="btn-secondary" type="button">Use another account</button>
+            <button id="auth-signout-modal" class="btn-secondary" type="button">Sign out</button>
+          </div>
+          <button id="auth-reset-password" class="auth-text-button is-hidden" type="button">Send password reset email</button>
+          <p id="auth-helper" class="auth-helper">Use any email to sign up. Only verified <code>@anu.edu.au</code> accounts receive a verified ANU tick beside their reviews.</p>
           <p id="auth-feedback" class="form-feedback is-hidden" aria-live="polite" role="alert"></p>
           <button id="auth-submit" class="btn-primary btn-submit" type="submit">Sign in</button>
         </form>
@@ -597,14 +604,15 @@
           </div>
           <button id="welcome-close" class="auth-close" type="button" aria-label="Close welcome dialog">×</button>
         </div>
-        <p class="auth-modal-copy">You can browse and post as a guest, or sign in for a more trusted and useful experience.</p>
+        <p class="auth-modal-copy">You can browse and post as a guest, or sign in for a more trusted and useful experience. Non-ANU emails still work perfectly well; only verified <code>@anu.edu.au</code> accounts get the ANU tick.</p>
         <div class="welcome-grid">
           <section class="welcome-card welcome-card--highlight">
             <p class="welcome-card-label">Sign in</p>
             <h4>Best for people who want their reviews to carry more weight.</h4>
             <ul class="welcome-points">
-              <li>Use an <code>@anu.edu.au</code> email to get the <strong>Verified ANU</strong> tick.</li>
+              <li>Use a verified <code>@anu.edu.au</code> email to get the <strong>Verified ANU</strong> tick.</li>
               <li>Edit your own reviews later if you change your mind or want to update them.</li>
+              <li>Non-ANU emails still work, but they do not receive the verification tick.</li>
               <li>Build a recognisable identity beyond anonymous guest posting.</li>
             </ul>
             <div class="welcome-actions">
