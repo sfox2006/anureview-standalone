@@ -17,6 +17,12 @@ const state = {
   syncState: "Connecting to local ANReview server..."
 };
 
+const analytics = {
+  measurementId: "",
+  ready: false,
+  lastPagePath: ""
+};
+
 const elements = {
   courseCount: document.getElementById("course-count"),
   staffCount: document.getElementById("staff-count"),
@@ -156,6 +162,7 @@ function runDirectorySearch() {
   syncSelectionToVisibleResults();
   renderResults();
   renderDetail();
+  trackSearch();
   document.getElementById("directory")?.scrollIntoView({ behavior: "smooth", block: "start" });
 }
 
@@ -303,12 +310,14 @@ function openDetail(itemId) {
   renderResults();
   renderDetail();
   renderPageState();
+  trackCurrentPageView();
 }
 
 function openBrowse() {
   state.view = "browse";
   syncRoute();
   renderPageState();
+  trackCurrentPageView();
 }
 
 function getReviewsForItem(itemId) {
@@ -516,6 +525,92 @@ function updateComputedOverall(output, metricASelect, metricBSelect, metricCSele
 function updateSyncStatus(message) {
   state.syncState = message;
   elements.syncStatus.textContent = message;
+}
+
+function analyticsEnabled() {
+  return analytics.ready && typeof window.gtag === "function";
+}
+
+function ensureAnalyticsLoaded(measurementId) {
+  if (!measurementId || analytics.measurementId === measurementId) {
+    return;
+  }
+  if (!document.getElementById("ga4-loader")) {
+    const script = document.createElement("script");
+    script.id = "ga4-loader";
+    script.async = true;
+    script.src = `https://www.googletagmanager.com/gtag/js?id=${encodeURIComponent(measurementId)}`;
+    document.head.appendChild(script);
+  }
+  window.dataLayer = window.dataLayer || [];
+  window.gtag = window.gtag || function gtag() {
+    window.dataLayer.push(arguments);
+  };
+  window.gtag("js", new Date());
+  window.gtag("config", measurementId, { send_page_view: false });
+  analytics.measurementId = measurementId;
+  analytics.ready = true;
+}
+
+function currentPagePath() {
+  if (state.view === "detail" && state.selectedId) {
+    return `/cbe-rating/item/${state.selectedId}`;
+  }
+  return "/cbe-rating/directory";
+}
+
+function currentPageTitle() {
+  if (state.view === "detail" && state.selectedId) {
+    const item = getItemById(state.selectedId);
+    return item ? `ANRevU - ${itemDisplayName(item)}` : "ANRevU";
+  }
+  return "ANRevU - Directory";
+}
+
+function trackCurrentPageView(force = false) {
+  if (!analyticsEnabled()) {
+    return;
+  }
+  const pagePath = currentPagePath();
+  if (!force && analytics.lastPagePath === pagePath) {
+    return;
+  }
+  window.gtag("event", "page_view", {
+    page_title: currentPageTitle(),
+    page_path: pagePath,
+    page_location: `${window.location.origin}${window.location.pathname}${window.location.hash || ""}`
+  });
+  analytics.lastPagePath = pagePath;
+}
+
+function trackSearch() {
+  if (!analyticsEnabled()) {
+    return;
+  }
+  window.gtag("event", "search", {
+    item_type: state.type || "all",
+    college: state.college,
+    query_length: state.search.length
+  });
+}
+
+function trackReviewSubmit(item, hasLinkedReview) {
+  if (!analyticsEnabled() || !item) {
+    return;
+  }
+  window.gtag("event", "anrevu_review_submit", {
+    item_type: item.type,
+    college: getCollegeForItem(item),
+    has_linked_review: hasLinkedReview ? "yes" : "no"
+  });
+}
+
+async function fetchPublicConfig() {
+  const response = await fetch("/api/anreview/public-config");
+  if (!response.ok) {
+    throw new Error("Unable to load public site configuration.");
+  }
+  return response.json();
 }
 
 function delay(ms) {
@@ -1472,6 +1567,7 @@ async function handleReviewSubmit(event) {
         : `Your review was saved to the shared ANReview server${author === "Anonymous" ? " as Anonymous" : ""}.`
     );
     updateSyncStatus(`Shared review sync live. ${state.sharedReviews.length} server review${state.sharedReviews.length === 1 ? "" : "s"} loaded.`);
+    trackReviewSubmit(item, saveLinkedReview);
   } catch (error) {
     updateFeedback(error.message || "Unable to save review right now.", true);
   }
@@ -1663,6 +1759,15 @@ async function init() {
   bindFilters();
   announceBundledCatalog();
 
+  try {
+    const config = await fetchPublicConfig();
+    if (config.gaMeasurementId) {
+      ensureAnalyticsLoaded(config.gaMeasurementId);
+    }
+  } catch (error) {
+    console.warn(error.message);
+  }
+
   populateSchoolFilter();
   state.selectedId = filteredItems()[0]?.id || dataset.courses[0]?.id || null;
   const hash = window.location.hash || "";
@@ -1686,6 +1791,7 @@ async function init() {
   renderResults();
   renderDetail();
   renderPageState();
+  trackCurrentPageView(true);
 }
 
 init();

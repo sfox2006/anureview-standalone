@@ -48,6 +48,7 @@ SUPABASE_URL = os.environ.get("SUPABASE_URL", "").rstrip("/")
 SUPABASE_SERVICE_ROLE_KEY = os.environ.get("SUPABASE_SERVICE_ROLE_KEY", "")
 SUPABASE_REVIEWS_TABLE = os.environ.get("SUPABASE_REVIEWS_TABLE", "anreview_reviews")
 SUPABASE_REPORTS_TABLE = os.environ.get("SUPABASE_REPORTS_TABLE", "anreview_reports")
+GA_MEASUREMENT_ID = os.environ.get("GA_MEASUREMENT_ID", "").strip()
 
 
 def read_json_file(path: Path, default: list[dict]) -> list[dict]:
@@ -93,6 +94,12 @@ def send_json(handler: SimpleHTTPRequestHandler, payload: dict | list, status: i
     handler.send_header("Content-Length", str(len(body)))
     handler.end_headers()
     handler.wfile.write(body)
+
+
+def public_config_payload() -> dict:
+    return {
+        "gaMeasurementId": GA_MEASUREMENT_ID,
+    }
 
 
 def read_request_json(handler: SimpleHTTPRequestHandler) -> dict:
@@ -529,6 +536,9 @@ class AppHandler(SimpleHTTPRequestHandler):
                     },
                     status=503,
                 )
+            return
+        if parsed.path == "/api/anreview/public-config":
+            send_json(self, public_config_payload())
             return
         if parsed.path == "/api/anreview/catalog":
             try:
