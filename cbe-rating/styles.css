@@ -1471,6 +1471,7 @@ select.field, .field select {
   .hero               { grid-template-columns: 1fr; padding: 32px 24px; }
   .hero-right         { display: none; }
   .hero-heading       { font-size: clamp(2rem, 10vw, 3rem); }
+  .hero-body          { font-size: 1.02rem; line-height: 1.75; max-width: none; }
   .hero-logo          { width: min(100%, 210px); }
   .college-switch     { grid-template-columns: 1fr; }
   .directory-head     { flex-direction: column; align-items: flex-start; }
@@ -1484,15 +1485,42 @@ select.field, .field select {
   .filters-card       { grid-template-columns: 1fr; }
   .stat-strip         { grid-template-columns: 1fr 1fr; }
   .detail-metrics     { grid-template-columns: repeat(2, 1fr); }
-   .wordmark-badge     { display: none; }
+  .detail-title       { font-size: 1.6rem; line-height: 1.18; }
+  .detail-subtitle    { font-size: 0.98rem; line-height: 1.55; }
+  .facts              { grid-template-columns: 1fr; gap: 4px; font-size: 0.95rem; }
+  .facts dt           { margin-top: 8px; }
+  .facts dd           { margin-left: 0; line-height: 1.6; }
+  .review-panel       { padding: 16px; }
+  .review-panel-title { font-size: 1rem; }
+  .review-panel-subtitle { font-size: 0.88rem; line-height: 1.5; }
+  .metric-card        { padding: 14px 10px; }
+  .metric-val         { font-size: 1.7rem; }
+  .wordmark-badge     { display: none; }
   .header-nav .nav-link { display: none; }
 }
 
 @media (max-width: 480px) {
   .shell { padding: 20px 14px 48px; }
+  .site-header { height: 76px; }
+  .header-inner { padding: 0 14px; }
+  .wordmark-logo { height: 56px; }
   .stat-strip { grid-template-columns: 1fr 1fr; }
-  .review-ratings-grid { grid-template-columns: 1fr 1fr; }
+  .review-ratings-grid { grid-template-columns: 1fr; }
   .review-toolbar { grid-template-columns: 1fr; }
   .sources-section { padding: 24px 20px; }
   .hero { padding: 28px 20px; }
+  .hero-heading { font-size: clamp(1.8rem, 11vw, 2.5rem); }
+  .hero-body { font-size: 0.98rem; line-height: 1.7; }
+  .detail-metrics { grid-template-columns: 1fr; }
+  .detail-top { gap: 14px; }
+  .detail-title { font-size: 1.4rem; }
+  .detail-subtitle { font-size: 0.94rem; }
+  .info-card { padding: 16px 14px; }
+  .section-head { gap: 8px; }
+  .section-sub { font-size: 0.86rem; line-height: 1.5; }
+  .field input,
+  .field select,
+  .field textarea { font-size: 16px; }
+  .btn-primary,
+  .btn-secondary { min-height: 48px; }
 }
