@@ -10,6 +10,8 @@ from pathlib import Path
 from urllib.error import HTTPError, URLError
 from urllib.request import Request, urlopen
 
+from google.auth.transport.requests import Request as GoogleAuthRequest
+from google.oauth2.credentials import Credentials as UserCredentials
 from google.oauth2.service_account import Credentials
 from googleapiclient.discovery import build
 from googleapiclient.http import MediaFileUpload
@@ -22,7 +24,10 @@ SUPABASE_REPORTS_TABLE = os.environ.get("SUPABASE_REPORTS_TABLE", "anreview_repo
 BACKUP_DIR = Path(os.environ.get("ANREVIEW_BACKUP_DIR", "backups/review-exports"))
 GOOGLE_DRIVE_FOLDER_ID = os.environ.get("GOOGLE_DRIVE_FOLDER_ID", "").strip()
 GOOGLE_DRIVE_SERVICE_ACCOUNT_JSON = os.environ.get("GOOGLE_DRIVE_SERVICE_ACCOUNT_JSON", "").strip()
-GOOGLE_DRIVE_SCOPES = ["https://www.googleapis.com/auth/drive.file"]
+GOOGLE_DRIVE_OAUTH_CLIENT_ID = os.environ.get("GOOGLE_DRIVE_OAUTH_CLIENT_ID", "").strip()
+GOOGLE_DRIVE_OAUTH_CLIENT_SECRET = os.environ.get("GOOGLE_DRIVE_OAUTH_CLIENT_SECRET", "").strip()
+GOOGLE_DRIVE_OAUTH_REFRESH_TOKEN = os.environ.get("GOOGLE_DRIVE_OAUTH_REFRESH_TOKEN", "").strip()
+GOOGLE_DRIVE_SCOPES = ["https://www.googleapis.com/auth/drive"]
 
 
 def require_env(name: str, value: str) -> str:
@@ -171,15 +176,40 @@ def drive_service_account_info() -> dict | None:
     return json.loads(GOOGLE_DRIVE_SERVICE_ACCOUNT_JSON)
 
 
-def upload_to_google_drive(zip_path: Path, manifest_path: Path) -> str | None:
-    service_account_info = drive_service_account_info()
-    if not service_account_info or not GOOGLE_DRIVE_FOLDER_ID:
+def drive_user_credentials() -> UserCredentials | None:
+    if not (
+        GOOGLE_DRIVE_OAUTH_CLIENT_ID
+        and GOOGLE_DRIVE_OAUTH_CLIENT_SECRET
+        and GOOGLE_DRIVE_OAUTH_REFRESH_TOKEN
+    ):
         return None
-
-    credentials = Credentials.from_service_account_info(
-        service_account_info,
+    credentials = UserCredentials(
+        token=None,
+        refresh_token=GOOGLE_DRIVE_OAUTH_REFRESH_TOKEN,
+        token_uri="https://oauth2.googleapis.com/token",
+        client_id=GOOGLE_DRIVE_OAUTH_CLIENT_ID,
+        client_secret=GOOGLE_DRIVE_OAUTH_CLIENT_SECRET,
         scopes=GOOGLE_DRIVE_SCOPES,
     )
+    credentials.refresh(GoogleAuthRequest())
+    return credentials
+
+
+def upload_to_google_drive(zip_path: Path, manifest_path: Path) -> str | None:
+    if not GOOGLE_DRIVE_FOLDER_ID:
+        return None
+
+    credentials = drive_user_credentials()
+    if credentials is None:
+        service_account_info = drive_service_account_info()
+        if service_account_info:
+            credentials = Credentials.from_service_account_info(
+                service_account_info,
+                scopes=GOOGLE_DRIVE_SCOPES,
+            )
+        else:
+            return None
+
     service = build("drive", "v3", credentials=credentials, cache_discovery=False)
 
     uploaded_ids: list[str] = []

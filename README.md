@@ -125,15 +125,29 @@ This path is gitignored so backups do not get committed into the repo.
 
 If you add Google Drive credentials, the same backup export can upload the zip archive and manifest to your Google Drive folder.
 
-#### Google Drive setup
+#### Personal Google Drive via OAuth
 
-1. In Google Cloud, create or use a project
-2. Enable the Google Drive API
-3. Create a service account
-4. Create a JSON key for that service account
-5. In Google Drive, create a folder for ANRevU backups
-6. Share that folder with the service account email address
-7. Copy the folder ID from the Drive URL
+For a normal personal Google Drive account, use OAuth secrets:
+
+```text
+GOOGLE_DRIVE_OAUTH_CLIENT_ID
+GOOGLE_DRIVE_OAUTH_CLIENT_SECRET
+GOOGLE_DRIVE_OAUTH_REFRESH_TOKEN
+GOOGLE_DRIVE_FOLDER_ID
+```
+
+This is the recommended path for personal Gmail / My Drive uploads.
+
+#### Shared Drive or Workspace via service account
+
+If you are using a Google Shared Drive or Workspace-style setup, you can instead use:
+
+```text
+GOOGLE_DRIVE_SERVICE_ACCOUNT_JSON
+GOOGLE_DRIVE_FOLDER_ID
+```
+
+Service-account upload is best suited to shared-drive style storage, not ordinary personal My Drive storage.
 
 #### GitHub Actions secrets
 
@@ -142,7 +156,6 @@ In your GitHub repository, add these secrets:
 ```text
 SUPABASE_URL
 SUPABASE_SERVICE_ROLE_KEY
-GOOGLE_DRIVE_SERVICE_ACCOUNT_JSON
 GOOGLE_DRIVE_FOLDER_ID
 ```
 
@@ -151,6 +164,10 @@ Optional:
 ```text
 SUPABASE_REVIEWS_TABLE
 SUPABASE_REPORTS_TABLE
+GOOGLE_DRIVE_OAUTH_CLIENT_ID
+GOOGLE_DRIVE_OAUTH_CLIENT_SECRET
+GOOGLE_DRIVE_OAUTH_REFRESH_TOKEN
+GOOGLE_DRIVE_SERVICE_ACCOUNT_JSON
 ```
 
 If the Google Drive secrets are missing, the workflow still creates the export files and uploads them as a GitHub Actions artifact.
