@@ -20,6 +20,10 @@
           <span class="wordmark-badge">ANU course and academic reviews</span>
         </a>
         <nav class="header-nav">
+          <button id="theme-toggle" class="theme-toggle" type="button" aria-pressed="false" aria-label="Switch to night mode">
+            <span id="theme-toggle-icon" class="theme-toggle-icon" aria-hidden="true">☾</span>
+            <span id="theme-toggle-text">Night mode</span>
+          </button>
           <button id="auth-launch" class="nav-link nav-link--button" type="button">Sign in</button>
           <a href="about.html" class="nav-link">About</a>
           <a href="#directory" class="nav-link">Courses</a>
@@ -635,12 +639,26 @@
       }/*EDITMODE-END*/;
 
       let tweakState = { ...TWEAK_DEFAULTS };
+      const STORAGE_KEY = 'anrevu-theme-mode';
+
+      try {
+        const storedMode = localStorage.getItem(STORAGE_KEY);
+        if (storedMode === 'dark') tweakState.dark = true;
+        if (storedMode === 'light') tweakState.dark = false;
+      } catch {}
 
       function applyTweaks() {
         document.documentElement.setAttribute('data-theme', tweakState.theme);
         document.documentElement.classList.toggle('dark', tweakState.dark);
         document.documentElement.setAttribute('data-hero', tweakState.hero);
         document.getElementById('dark-mode-toggle').checked = tweakState.dark;
+        const visibleToggle = document.getElementById('theme-toggle');
+        const visibleToggleText = document.getElementById('theme-toggle-text');
+        const visibleToggleIcon = document.getElementById('theme-toggle-icon');
+        visibleToggle?.setAttribute('aria-pressed', tweakState.dark ? 'true' : 'false');
+        visibleToggle?.setAttribute('aria-label', tweakState.dark ? 'Switch to normal mode' : 'Switch to night mode');
+        if (visibleToggleText) visibleToggleText.textContent = tweakState.dark ? 'Normal mode' : 'Night mode';
+        if (visibleToggleIcon) visibleToggleIcon.textContent = tweakState.dark ? '☀' : '☾';
         document.querySelectorAll('.swatch').forEach(s => s.classList.toggle('is-selected', s.dataset.theme === tweakState.theme));
         document.querySelectorAll('[data-hero]').forEach(b => b.classList.toggle('is-selected', b.dataset.hero === tweakState.hero));
       }
@@ -655,7 +673,16 @@
 
       document.getElementById('dark-mode-toggle').addEventListener('change', e => {
         tweakState.dark = e.target.checked;
+        try { localStorage.setItem(STORAGE_KEY, tweakState.dark ? 'dark' : 'light'); } catch {}
         applyTweaks();
+        window.parent.postMessage({ type: '__edit_mode_set_keys', edits: { dark: tweakState.dark } }, '*');
+      });
+
+      document.getElementById('theme-toggle').addEventListener('click', () => {
+        tweakState.dark = !tweakState.dark;
+        try { localStorage.setItem(STORAGE_KEY, tweakState.dark ? 'dark' : 'light'); } catch {}
+        applyTweaks();
+        document.getElementById('dark-mode-toggle').checked = tweakState.dark;
         window.parent.postMessage({ type: '__edit_mode_set_keys', edits: { dark: tweakState.dark } }, '*');
       });
 
