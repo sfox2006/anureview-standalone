@@ -205,6 +205,40 @@ body {
 .auth-helper {
   color: var(--ink-muted);
 }
+.auth-benefit-list {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 8px;
+  margin-top: 10px;
+}
+.auth-benefit-pill {
+  display: inline-flex;
+  align-items: center;
+  gap: 6px;
+  padding: 6px 10px;
+  border-radius: 999px;
+  background: var(--accent-light);
+  color: var(--accent-text);
+  font-size: 0.78rem;
+  font-weight: 700;
+}
+.auth-highlight {
+  margin: 14px 0 2px;
+  padding: 14px 16px;
+  border: 1px solid color-mix(in srgb, var(--accent) 28%, var(--line));
+  border-radius: var(--radius-md);
+  background: color-mix(in srgb, var(--accent-light) 70%, white);
+}
+.auth-highlight-title {
+  font-weight: 800;
+  color: var(--accent-text);
+  margin-bottom: 4px;
+}
+.auth-highlight-copy {
+  color: var(--ink);
+  font-size: 0.94rem;
+  line-height: 1.55;
+}
 .auth-review-actions,
 .review-submit-row,
 .review-owner-bar {

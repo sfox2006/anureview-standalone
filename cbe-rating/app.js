@@ -1500,8 +1500,8 @@ function syncAuthMode() {
   elements.authPassword.required = !managingProfile;
   elements.authSubmit.textContent = managingProfile ? "Save profile" : signingUp ? "Create account" : "Sign in";
   elements.authHelper.innerHTML = signingUp
-    ? "Use an <code>@anu.edu.au</code> email to receive a verified ANU tick beside your reviews."
-    : "Use the same email you used to sign up. Google sign-in works too.";
+    ? "Best option: use an <code>@anu.edu.au</code> email so your reviews can show the <strong>Verified ANU</strong> tick."
+    : "Use the same email you used to sign up. Google sign-in works too, and <code>@anu.edu.au</code> accounts receive the Verified ANU tick.";
 }
 
 function openAuthModal(mode = state.authMode) {
@@ -1575,10 +1575,10 @@ function syncReviewIdentity() {
   elements.reviewSignout.classList.toggle("is-hidden", !loggedIn);
   elements.authLaunch.textContent = loggedIn ? "My account" : "Sign in";
   if (loggedIn) {
-    const verified = authState.profile?.isAnuVerified ? " You have the verified ANU tick." : " Sign in with an @anu.edu.au email if you want the verified ANU tick.";
+    const verified = authState.profile?.isAnuVerified ? " You have the Verified ANU tick." : " Switch to an @anu.edu.au email if you want the Verified ANU tick beside your reviews.";
     elements.authReviewCopy.textContent = `${authorLabel} is signed in. Reviews posted now can be edited later.${verified}`;
   } else {
-    elements.authReviewCopy.textContent = "Sign in to attach your profile, earn ANU verification, and edit your own reviews later.";
+    elements.authReviewCopy.textContent = "Sign in to attach your profile, unlock the Verified ANU tick with an @anu.edu.au email, and edit your own reviews later.";
   }
 }
 
