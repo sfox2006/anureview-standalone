@@ -130,7 +130,7 @@ body {
 .wordmark-logo {
   display: block;
   width: auto;
-  height: 68px;
+  height: 78px;
 }
 .wordmark-badge {
   display: inline-flex;
@@ -1370,6 +1370,16 @@ select.field, .field select {
   grid-template-columns: minmax(0, 1.2fr) minmax(280px, 0.8fr);
 }
 
+.about-section--stacked {
+  display: grid;
+  grid-template-columns: 1fr;
+  gap: 28px;
+}
+
+.about-intro {
+  max-width: 860px;
+}
+
 .about-card-grid {
   display: grid;
   gap: 20px;
@@ -1386,6 +1396,28 @@ select.field, .field select {
 .about-card .feature-list li {
   font-size: 0.98rem;
   line-height: 1.65;
+}
+
+.about-block {
+  padding: 30px 32px;
+  border-radius: var(--radius-lg);
+  background: var(--surface-2);
+  border: 1px solid var(--line);
+  box-shadow: var(--shadow-sm);
+}
+
+.about-block .panel-label {
+  margin-bottom: 14px;
+}
+
+.about-block .sources-note + .sources-note {
+  margin-top: 14px;
+}
+
+.about-block--highlight {
+  background: linear-gradient(135deg, color-mix(in srgb, var(--accent) 11%, white), color-mix(in srgb, var(--accent-2) 10%, white));
+  border-color: color-mix(in srgb, var(--accent) 22%, white);
+  box-shadow: var(--shadow-md);
 }
 
 /* ── Tweaks panel ─────────────────────────────────────────── */
@@ -1547,7 +1579,7 @@ select.field, .field select {
   .shell { padding: 20px 14px 48px; }
   .site-header { height: 76px; }
   .header-inner { padding: 0 14px; }
-  .wordmark-logo { height: 56px; }
+  .wordmark-logo { height: 62px; }
   .stat-strip { grid-template-columns: 1fr 1fr; }
   .review-ratings-grid { grid-template-columns: 1fr; }
   .review-toolbar { grid-template-columns: 1fr; }
