@@ -204,12 +204,19 @@ def upload_to_google_drive(zip_path: Path, manifest_path: Path) -> str | None:
 def main() -> None:
     run_dir, zip_path = create_export_bundle()
     manifest_path = run_dir / "manifest.json"
-    drive_ids = upload_to_google_drive(zip_path, manifest_path)
+    drive_ids = None
+    drive_error = None
+    try:
+        drive_ids = upload_to_google_drive(zip_path, manifest_path)
+    except Exception as error:  # pragma: no cover - depends on external Drive config
+        drive_error = str(error)
 
     print(f"Backup written to {run_dir}")
     print(f"Archive written to {zip_path}")
     if drive_ids:
         print(f"Uploaded backup files to Google Drive: {drive_ids}")
+    elif drive_error:
+        print(f"Google Drive upload failed: {drive_error}")
     else:
         print("Google Drive upload skipped (no credentials or folder configured).")
 
