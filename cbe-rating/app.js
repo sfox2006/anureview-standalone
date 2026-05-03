@@ -31,7 +31,8 @@ const authState = {
   client: null,
   session: null,
   user: null,
-  profile: null
+  profile: null,
+  pendingVerification: null
 };
 
 const elements = {
@@ -153,6 +154,8 @@ const elements = {
   authEmail: document.getElementById("auth-email"),
   authPasswordField: document.getElementById("auth-password-field"),
   authPassword: document.getElementById("auth-password"),
+  authCodeField: document.getElementById("auth-code-field"),
+  authCode: document.getElementById("auth-code"),
   authNewPasswordField: document.getElementById("auth-new-password-field"),
   authNewPassword: document.getElementById("auth-new-password"),
   authHelper: document.getElementById("auth-helper"),
@@ -1741,6 +1744,10 @@ function isLoggedIn() {
   return Boolean(authState.user && authState.session);
 }
 
+function isVerificationPending() {
+  return Boolean(authState.pendingVerification);
+}
+
 function currentAuthorLabel() {
   if (!isLoggedIn()) {
     return "Anonymous";
@@ -1762,25 +1769,39 @@ function clearAuthFeedback() {
 
 function syncAuthMode() {
   const signingUp = state.authMode === "signup";
+  const verifyingSignup = state.authMode === "verify";
   const managingProfile = signingUp && isLoggedIn();
   const showReset = !isLoggedIn() && !signingUp;
   elements.authModeSignUp.textContent = isLoggedIn() ? "Account" : "Create account";
-  elements.authModeSignIn.classList.toggle("is-active", !signingUp);
-  elements.authModeSignUp.classList.toggle("is-active", signingUp);
-  elements.authModeSignIn.classList.toggle("is-hidden", isLoggedIn());
-  elements.authDisplayNameField.classList.toggle("is-hidden", !signingUp);
-  elements.authUsernameField.classList.toggle("is-hidden", !signingUp);
-  elements.authPhoneField.classList.toggle("is-hidden", !signingUp);
-  elements.authEmailField.classList.toggle("is-hidden", managingProfile);
-  elements.authPasswordField.classList.toggle("is-hidden", managingProfile);
+  elements.authModeSignIn.classList.toggle("is-active", !signingUp && !verifyingSignup);
+  elements.authModeSignUp.classList.toggle("is-active", signingUp || verifyingSignup);
+  elements.authModeSignIn.classList.toggle("is-hidden", isLoggedIn() || verifyingSignup);
+  elements.authModeSignUp.classList.toggle("is-hidden", verifyingSignup);
+  elements.authDisplayNameField.classList.toggle("is-hidden", !signingUp || verifyingSignup);
+  elements.authUsernameField.classList.toggle("is-hidden", !signingUp || verifyingSignup);
+  elements.authPhoneField.classList.toggle("is-hidden", !signingUp || verifyingSignup);
+  elements.authEmailField.classList.toggle("is-hidden", managingProfile || verifyingSignup);
+  elements.authPasswordField.classList.toggle("is-hidden", managingProfile || verifyingSignup);
+  elements.authCodeField.classList.toggle("is-hidden", !verifyingSignup);
   elements.authNewPasswordField.classList.toggle("is-hidden", !managingProfile);
   elements.authAccountActions.classList.toggle("is-hidden", !isLoggedIn());
-  elements.authResetPassword.classList.toggle("is-hidden", !showReset);
-  elements.authEmail.required = !managingProfile;
-  elements.authPassword.required = !managingProfile;
-  elements.authSubmit.textContent = managingProfile ? "Save account" : signingUp ? "Create account" : "Sign in";
+  elements.authResetPassword.classList.toggle("is-hidden", !showReset || verifyingSignup);
+  elements.authGoogle.classList.toggle("is-hidden", verifyingSignup || isLoggedIn());
+  elements.authEmail.required = !managingProfile && !verifyingSignup;
+  elements.authPassword.required = !managingProfile && !verifyingSignup;
+  elements.authCode.required = verifyingSignup;
+  elements.authSubmit.textContent = verifyingSignup
+    ? "Verify code"
+    : managingProfile
+    ? "Save account"
+    : signingUp
+    ? "Create account"
+    : "Sign in";
   if (managingProfile) {
     elements.authHelper.innerHTML = "You can update your public profile here. If you add a new password, it will replace your current one.";
+  } else if (verifyingSignup) {
+    const pendingEmail = authState.pendingVerification?.email || "your email";
+    elements.authHelper.innerHTML = `We just sent a 6-digit verification code to <strong>${pendingEmail}</strong>. Enter it here to finish creating your ANRevU account.`;
   } else if (signingUp) {
     elements.authHelper.innerHTML = "Any email works for ANRevU. Only verified <code>@anu.edu.au</code> accounts receive the <strong>Verified ANU</strong> tick.";
   } else {
@@ -1805,6 +1826,9 @@ function openAuthModal(mode = state.authMode) {
   syncAuthMode();
   clearAuthFeedback();
   document.getElementById("auth-modal-title").textContent =
+    state.authMode === "verify"
+      ? "Verify your email"
+      :
     isLoggedIn() && state.authMode === "signup"
       ? "Your ANRevU account"
       : "Sign in or create an account";
@@ -1813,11 +1837,14 @@ function openAuthModal(mode = state.authMode) {
   elements.authPhone.value = authState.profile?.phone || "";
   elements.authEmail.value = authState.user?.email || "";
   elements.authPassword.value = "";
+  elements.authCode.value = "";
   elements.authNewPassword.value = "";
   elements.authModal.classList.remove("is-hidden");
   elements.authModal.setAttribute("aria-hidden", "false");
   document.body.classList.add("modal-open");
-  if (isLoggedIn() && state.authMode === "signup") {
+  if (state.authMode === "verify") {
+    elements.authCode.focus();
+  } else if (isLoggedIn() && state.authMode === "signup") {
     elements.authDisplayName.focus();
   } else if (state.authMode === "signup") {
     elements.authDisplayName.focus();
@@ -2239,6 +2266,47 @@ async function handleAuthSubmit(event) {
   const email = elements.authEmail.value.trim();
   const password = elements.authPassword.value;
   try {
+    if (state.authMode === "verify") {
+      const pending = authState.pendingVerification;
+      const token = elements.authCode.value.trim();
+      if (!pending?.email) {
+        throw new Error("Start account creation again so we know where to send the verification code.");
+      }
+      if (!/^\d{6}$/.test(token)) {
+        throw new Error("Enter the 6-digit verification code from your email.");
+      }
+      const {
+        data: verificationData,
+        error
+      } = await authState.client.auth.verifyOtp({
+        email: pending.email,
+        token,
+        type: "signup"
+      });
+      if (error) {
+        throw error;
+      }
+      const verifiedSession =
+        verificationData?.session ||
+        (await authState.client.auth.getSession()).data.session ||
+        null;
+      if (verifiedSession) {
+        await hydrateAuthState(verifiedSession);
+        await saveAuthProfile({
+          displayName: pending.displayName,
+          username: pending.username,
+          phone: pending.phone
+        });
+      }
+      authState.pendingVerification = null;
+      state.authMode = "signin";
+      updateAuthFeedback("Email verified. Your account is now active.");
+      closeAuthModal();
+      updateFeedback("Your email has been verified and your ANRevU account is now active.");
+      renderDetail();
+      return;
+    }
+
     if (state.authMode === "signup") {
       const displayName = elements.authDisplayName.value.trim();
       const username = elements.authUsername.value.trim().toLowerCase();
@@ -2276,14 +2344,16 @@ async function handleAuthSubmit(event) {
       if (error) {
         throw error;
       }
-      const currentSession = (await authState.client.auth.getSession()).data.session;
-      if (currentSession) {
-        await hydrateAuthState(currentSession);
-        await saveAuthProfile({ displayName, username, phone });
-      }
-      updateAuthFeedback("Account created. Check your email and verify it before expecting the ANU tick to appear.");
-      closeAuthModal();
-      updateFeedback("Account created. Verify your email, then sign in to post reviews with your account.");
+      authState.pendingVerification = {
+        email,
+        displayName,
+        username,
+        phone
+      };
+      state.authMode = "verify";
+      syncAuthMode();
+      updateAuthFeedback("We just sent a 6-digit verification code to your email. Enter it here to finish creating your account.");
+      elements.authCode.focus();
       renderDetail();
       return;
     }
@@ -2348,12 +2418,14 @@ async function handleSignOut() {
   if (!authState.client) {
     return;
   }
+  authState.pendingVerification = null;
   await authState.client.auth.signOut();
   exitEditMode();
   updateFeedback("Signed out. Guest posting is still available.");
 }
 
 async function handleSwitchAccount() {
+  authState.pendingVerification = null;
   await handleSignOut();
   state.authMode = "signin";
   openAuthModal("signin");
@@ -2364,6 +2436,8 @@ function bindFilters() {
   elements.authLaunch.addEventListener("click", () => {
     if (isLoggedIn()) {
       openAuthModal("signup");
+    } else if (isVerificationPending()) {
+      openAuthModal("verify");
     } else {
       openAuthModal("signin");
     }
@@ -2371,6 +2445,8 @@ function bindFilters() {
   elements.reviewAuthAction.addEventListener("click", () => {
     if (isLoggedIn()) {
       openAuthModal("signup");
+    } else if (isVerificationPending()) {
+      openAuthModal("verify");
     } else {
       openAuthModal("signin");
     }
@@ -2379,11 +2455,13 @@ function bindFilters() {
   elements.authClose.addEventListener("click", closeAuthModal);
   elements.authModalBackdrop.addEventListener("click", closeAuthModal);
   elements.authModeSignIn.addEventListener("click", () => {
+    authState.pendingVerification = null;
     state.authMode = "signin";
     syncAuthMode();
     clearAuthFeedback();
   });
   elements.authModeSignUp.addEventListener("click", () => {
+    authState.pendingVerification = null;
     state.authMode = "signup";
     syncAuthMode();
     clearAuthFeedback();
@@ -2404,7 +2482,7 @@ function bindFilters() {
   });
   elements.welcomeSignIn.addEventListener("click", () => {
     closeWelcomeModal(true);
-    openAuthModal("signup");
+    openAuthModal(isVerificationPending() ? "verify" : "signup");
   });
   elements.reviewCancelEdit.addEventListener("click", () => {
     exitEditMode();

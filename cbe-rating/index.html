@@ -577,6 +577,10 @@
             <span class="field-label">Password</span>
             <input id="auth-password" type="password" minlength="8" maxlength="72" placeholder="At least 8 characters" required>
           </label>
+          <label id="auth-code-field" class="field is-hidden">
+            <span class="field-label">Verification code</span>
+            <input id="auth-code" type="text" inputmode="numeric" autocomplete="one-time-code" maxlength="6" placeholder="Enter the 6-digit code from your email">
+          </label>
           <label id="auth-new-password-field" class="field is-hidden">
             <span class="field-label">New password <span class="field-optional">(optional)</span></span>
             <input id="auth-new-password" type="password" minlength="8" maxlength="72" placeholder="Enter a new password if you want to change it">
