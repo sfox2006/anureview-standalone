@@ -1865,6 +1865,33 @@ function welcomeStorageKey() {
   return "anrevu-welcome-dismissed";
 }
 
+function oauthReturnHashKey() {
+  return "anrevu-oauth-return-hash";
+}
+
+function rememberOauthReturnHash() {
+  try {
+    sessionStorage.setItem(oauthReturnHashKey(), window.location.hash || "#directory");
+  } catch {
+    // ignore storage failures
+  }
+}
+
+function restoreOauthReturnHash() {
+  try {
+    const savedHash = sessionStorage.getItem(oauthReturnHashKey());
+    if (!savedHash) {
+      return;
+    }
+    sessionStorage.removeItem(oauthReturnHashKey());
+    const normalizedHash = savedHash.startsWith("#") ? savedHash : `#${savedHash}`;
+    const nextUrl = `${window.location.pathname}${window.location.search}${normalizedHash}`;
+    window.history.replaceState({}, "", nextUrl);
+  } catch {
+    // ignore storage failures
+  }
+}
+
 function shouldShowWelcomeModal() {
   if (isLoggedIn()) {
     return false;
@@ -2244,9 +2271,22 @@ async function initAuth(config) {
     data: { session }
   } = await authState.client.auth.getSession();
   await hydrateAuthState(session);
+  if (session?.user) {
+    restoreOauthReturnHash();
+    state.authMode = "signin";
+    syncAuthMode();
+  }
   authState.client.auth.onAuthStateChange(async (event, sessionValue) => {
     await hydrateAuthState(sessionValue);
+    if (event === "SIGNED_OUT") {
+      state.authMode = "signin";
+      syncAuthMode();
+      return;
+    }
     if (event === "SIGNED_IN" && sessionValue?.user) {
+      restoreOauthReturnHash();
+      state.authMode = "signin";
+      syncAuthMode();
       const signedInName = authState.profile?.displayName || authState.profile?.author || sessionValue.user.email || "your account";
       updateSyncStatus(`Signed in as ${signedInName}. Your reviews can now be attached to your account.`);
       if (elements.authModal && !elements.authModal.classList.contains("is-hidden")) {
@@ -2365,6 +2405,12 @@ async function handleAuthSubmit(event) {
     if (error) {
       throw error;
     }
+    const currentSession = (await authState.client.auth.getSession()).data.session || null;
+    if (currentSession) {
+      await hydrateAuthState(currentSession);
+    }
+    state.authMode = "signin";
+    syncAuthMode();
     updateAuthFeedback("Signed in successfully.");
     closeAuthModal();
     updateFeedback("Signed in successfully. Your next review will be attached to your account.");
@@ -2399,7 +2445,8 @@ async function handleGoogleSignIn() {
     return;
   }
   clearAuthFeedback();
-  const redirectTo = `${window.location.origin}${window.location.pathname}${window.location.hash || "#directory"}`;
+  rememberOauthReturnHash();
+  const redirectTo = `${window.location.origin}${window.location.pathname}`;
   const { error } = await authState.client.auth.signInWithOAuth({
     provider: "google",
     options: {
