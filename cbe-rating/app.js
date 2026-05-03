@@ -158,6 +158,10 @@ const elements = {
   authCode: document.getElementById("auth-code"),
   authNewPasswordField: document.getElementById("auth-new-password-field"),
   authNewPassword: document.getElementById("auth-new-password"),
+  authCurrentPasswordField: document.getElementById("auth-current-password-field"),
+  authCurrentPassword: document.getElementById("auth-current-password"),
+  authConfirmPasswordField: document.getElementById("auth-confirm-password-field"),
+  authConfirmPassword: document.getElementById("auth-confirm-password"),
   authHelper: document.getElementById("auth-helper"),
   authStatusNote: document.getElementById("auth-status-note"),
   authAccountActions: document.getElementById("auth-account-actions"),
@@ -1784,12 +1788,16 @@ function syncAuthMode() {
   elements.authPasswordField.classList.toggle("is-hidden", managingProfile || verifyingSignup);
   elements.authCodeField.classList.toggle("is-hidden", !verifyingSignup);
   elements.authNewPasswordField.classList.toggle("is-hidden", !managingProfile);
+  elements.authCurrentPasswordField.classList.toggle("is-hidden", !managingProfile);
+  elements.authConfirmPasswordField.classList.toggle("is-hidden", !managingProfile);
   elements.authAccountActions.classList.toggle("is-hidden", !isLoggedIn());
   elements.authResetPassword.classList.toggle("is-hidden", !showReset || verifyingSignup);
   elements.authGoogle.classList.toggle("is-hidden", verifyingSignup || isLoggedIn());
   elements.authEmail.required = !managingProfile && !verifyingSignup;
   elements.authPassword.required = !managingProfile && !verifyingSignup;
   elements.authCode.required = verifyingSignup;
+  elements.authCurrentPassword.required = managingProfile && Boolean(elements.authNewPassword.value.trim());
+  elements.authConfirmPassword.required = managingProfile && Boolean(elements.authNewPassword.value.trim());
   elements.authSubmit.textContent = verifyingSignup
     ? "Verify code"
     : managingProfile
@@ -1839,6 +1847,8 @@ function openAuthModal(mode = state.authMode) {
   elements.authPassword.value = "";
   elements.authCode.value = "";
   elements.authNewPassword.value = "";
+  elements.authCurrentPassword.value = "";
+  elements.authConfirmPassword.value = "";
   elements.authModal.classList.remove("is-hidden");
   elements.authModal.setAttribute("aria-hidden", "false");
   document.body.classList.add("modal-open");
@@ -1865,8 +1875,23 @@ function welcomeStorageKey() {
   return "anrevu-welcome-dismissed";
 }
 
+function requestedAuthViewFromHash() {
+  const hash = window.location.hash || "";
+  if (hash === "#account") {
+    return "account";
+  }
+  if (hash === "#signin") {
+    return "signin";
+  }
+  return null;
+}
+
 function oauthReturnHashKey() {
   return "anrevu-oauth-return-hash";
+}
+
+function authStatusStorageKey() {
+  return "anrevu-auth-status";
 }
 
 function rememberOauthReturnHash() {
@@ -1887,6 +1912,26 @@ function restoreOauthReturnHash() {
     const normalizedHash = savedHash.startsWith("#") ? savedHash : `#${savedHash}`;
     const nextUrl = `${window.location.pathname}${window.location.search}${normalizedHash}`;
     window.history.replaceState({}, "", nextUrl);
+  } catch {
+    // ignore storage failures
+  }
+}
+
+function persistAuthStatus() {
+  try {
+    if (!isLoggedIn()) {
+      localStorage.removeItem(authStatusStorageKey());
+      return;
+    }
+    localStorage.setItem(
+      authStatusStorageKey(),
+      JSON.stringify({
+        signedIn: true,
+        displayName: authState.profile?.displayName || authState.profile?.username || authState.user?.email || "Account",
+        email: authState.user?.email || "",
+        isAnuVerified: Boolean(authState.profile?.isAnuVerified)
+      })
+    );
   } catch {
     // ignore storage failures
   }
@@ -1983,6 +2028,7 @@ function syncReviewIdentity() {
   } else {
     elements.authReviewCopy.textContent = "Sign in to attach your profile, unlock the Verified ANU tick with a verified @anu.edu.au email, and edit your own reviews later. Non-ANU emails still work, but they do not receive the tick.";
   }
+  persistAuthStatus();
   if (loggedIn) {
     closeWelcomeModal(true);
   }
@@ -2356,6 +2402,26 @@ async function handleAuthSubmit(event) {
         throw new Error("Name and username are required to create an account.");
       }
       if (isLoggedIn()) {
+        if (newPassword) {
+          const currentPassword = elements.authCurrentPassword.value.trim();
+          const confirmPassword = elements.authConfirmPassword.value.trim();
+          if (!currentPassword) {
+            throw new Error("Enter your current password before setting a new one.");
+          }
+          if (!confirmPassword) {
+            throw new Error("Re-enter your new password to confirm it.");
+          }
+          if (newPassword !== confirmPassword) {
+            throw new Error("Your new password and confirmation password do not match.");
+          }
+          const { error: reauthError } = await authState.client.auth.signInWithPassword({
+            email: authState.user?.email || email,
+            password: currentPassword
+          });
+          if (reauthError) {
+            throw new Error("Your current password is incorrect.");
+          }
+        }
         await saveAuthProfile({ displayName, username, phone });
         if (newPassword) {
           const { error: passwordError } = await authState.client.auth.updateUser({ password: newPassword });
@@ -2521,6 +2587,7 @@ function bindFilters() {
     await handleSignOut();
   });
   elements.authResetPassword.addEventListener("click", handleResetPassword);
+  elements.authNewPassword.addEventListener("input", syncAuthMode);
   elements.welcomeClose.addEventListener("click", () => closeWelcomeModal(true));
   elements.welcomeBackdrop.addEventListener("click", () => closeWelcomeModal(true));
   elements.welcomeGuest.addEventListener("click", () => {
@@ -2734,8 +2801,9 @@ async function init() {
   }
 
   populateSchoolFilter();
-  state.selectedId = filteredItems()[0]?.id || dataset.courses[0]?.id || null;
   const hash = window.location.hash || "";
+  const requestedAuthView = requestedAuthViewFromHash();
+  state.selectedId = filteredItems()[0]?.id || dataset.courses[0]?.id || null;
   const match = hash.match(/#item=([^&]+)/);
   if (match) {
     const candidate = decodeURIComponent(match[1]);
@@ -2757,6 +2825,10 @@ async function init() {
   renderDetail();
   renderPageState();
   trackCurrentPageView(true);
+  if (requestedAuthView) {
+    const modalMode = requestedAuthView === "account" && isLoggedIn() ? "signup" : "signin";
+    openAuthModal(modalMode);
+  }
   setTimeout(() => {
     openWelcomeModal();
   }, 20000);

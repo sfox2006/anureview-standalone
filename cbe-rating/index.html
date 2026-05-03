@@ -585,6 +585,14 @@
             <span class="field-label">New password <span class="field-optional">(optional)</span></span>
             <input id="auth-new-password" type="password" minlength="8" maxlength="72" placeholder="Enter a new password if you want to change it">
           </label>
+          <label id="auth-current-password-field" class="field is-hidden">
+            <span class="field-label">Current password</span>
+            <input id="auth-current-password" type="password" minlength="8" maxlength="72" placeholder="Enter your current password to confirm changes">
+          </label>
+          <label id="auth-confirm-password-field" class="field is-hidden">
+            <span class="field-label">Confirm new password</span>
+            <input id="auth-confirm-password" type="password" minlength="8" maxlength="72" placeholder="Re-enter your new password">
+          </label>
           <p id="auth-status-note" class="auth-status-note is-hidden"></p>
           <div id="auth-account-actions" class="auth-account-actions is-hidden">
             <button id="auth-switch-account" class="btn-secondary" type="button">Use another account</button>
