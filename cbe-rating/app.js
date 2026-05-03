@@ -244,21 +244,22 @@ function enhanceStaticMarkup() {
   }
 
   if (elements.authHelper) {
-    elements.authHelper.innerHTML = "You can use any email. Only verified <code>@anu.edu.au</code> accounts receive the Verified ANU tick.";
+    elements.authHelper.innerHTML = "You can use any email, but every email account must be verified before it becomes active. Only verified <code>@anu.edu.au</code> accounts receive the Verified ANU tick.";
   }
   if (elements.welcomeModal) {
     const welcomeCopy = elements.welcomeModal.querySelector(".auth-modal-copy");
     if (welcomeCopy) {
-      welcomeCopy.innerHTML = "You can look around as a guest, or sign in for a more trusted and useful experience. Non-ANU emails still work perfectly well; only verified <code>@anu.edu.au</code> accounts get the ANU tick.";
+      welcomeCopy.innerHTML = "You can look around as a guest, or sign in for a more trusted and useful experience. Any email can create an account, but every email account must be verified. Only verified <code>@anu.edu.au</code> accounts get the ANU tick.";
     }
     const welcomeCards = elements.welcomeModal.querySelectorAll(".welcome-card");
     if (welcomeCards[0]) {
       const points = welcomeCards[0].querySelector(".welcome-points");
       if (points) {
         points.innerHTML = `
+          <li>Every signed-in email account must be verified before it becomes active.</li>
           <li>Use an <code>@anu.edu.au</code> email and verify it to get the <strong>Verified ANU</strong> tick.</li>
           <li>Edit your own reviews later if you change your mind or want to update them.</li>
-          <li>Non-ANU emails still work, but they will not receive the verification tick.</li>
+          <li>Non-ANU emails still work, but they will not receive the ANU verification tick.</li>
           <li>Build a recognisable identity beyond anonymous guest posting.</li>
         `;
       }
@@ -531,6 +532,10 @@ function formatScore(value) {
 
 function isEmailVerified() {
   return Boolean(authState.profile?.isEmailVerified);
+}
+
+function hasVerifiedAccount() {
+  return Boolean(isLoggedIn() && isEmailVerified());
 }
 
 function metricLabelsFor(item) {
@@ -1526,6 +1531,11 @@ async function voteReview(review, direction, triggerButton) {
     openAuthModal("signin");
     return;
   }
+  if (!isEmailVerified()) {
+    updateFeedback("Verify your email before upvoting or downvoting reviews.", true);
+    openAuthModal("signup");
+    return;
+  }
   const previousText = triggerButton.textContent;
   triggerButton.disabled = true;
   try {
@@ -1630,8 +1640,12 @@ function renderReviews(item) {
     upvoteButton.type = "button";
     upvoteButton.className = "vote-button";
     upvoteButton.textContent = `Upvote ${counts.upvotes}`;
-    upvoteButton.title = isLoggedIn() ? "Upvote this review" : "Sign in to vote on reviews";
-    upvoteButton.disabled = !isLoggedIn();
+    upvoteButton.title = hasVerifiedAccount()
+      ? "Upvote this review"
+      : isLoggedIn()
+      ? "Verify your email to vote on reviews"
+      : "Sign in to vote on reviews";
+    upvoteButton.disabled = !hasVerifiedAccount();
     upvoteButton.addEventListener("click", () => {
       voteReview(review, "up", upvoteButton);
     });
@@ -1640,8 +1654,12 @@ function renderReviews(item) {
     downvoteButton.type = "button";
     downvoteButton.className = "vote-button vote-button--down";
     downvoteButton.textContent = `Downvote ${counts.downvotes}`;
-    downvoteButton.title = isLoggedIn() ? "Downvote this review" : "Sign in to vote on reviews";
-    downvoteButton.disabled = !isLoggedIn();
+    downvoteButton.title = hasVerifiedAccount()
+      ? "Downvote this review"
+      : isLoggedIn()
+      ? "Verify your email to vote on reviews"
+      : "Sign in to vote on reviews";
+    downvoteButton.disabled = !hasVerifiedAccount();
     downvoteButton.addEventListener("click", () => {
       voteReview(review, "down", downvoteButton);
     });
@@ -1811,9 +1829,9 @@ function syncAuthMode() {
     const pendingEmail = authState.pendingVerification?.email || "your email";
     elements.authHelper.innerHTML = `We just sent a 6-digit verification code to <strong>${pendingEmail}</strong>. Enter it here to finish creating your ANRevU account.`;
   } else if (signingUp) {
-    elements.authHelper.innerHTML = "Any email works for ANRevU. Only verified <code>@anu.edu.au</code> accounts receive the <strong>Verified ANU</strong> tick.";
+    elements.authHelper.innerHTML = "Any email works for ANRevU, but every email account must be verified before it becomes active. Only verified <code>@anu.edu.au</code> accounts receive the <strong>Verified ANU</strong> tick.";
   } else {
-    elements.authHelper.innerHTML = "Use the same email you signed up with. Google sign-in works too, and verified <code>@anu.edu.au</code> accounts receive the Verified ANU tick.";
+    elements.authHelper.innerHTML = "Use the same email you signed up with. All email accounts must be verified to activate signed-in features. Google sign-in works too, and verified <code>@anu.edu.au</code> accounts receive the Verified ANU tick.";
   }
 
   elements.authStatusNote.classList.add("is-hidden");
@@ -1822,8 +1840,8 @@ function syncAuthMode() {
     const verifiedTick = authState.profile?.isAnuVerified
       ? "Your ANU email is verified and your reviews can show the Verified ANU tick."
       : isEmailVerified()
-      ? "You are signed in. If you switch this account to an @anu.edu.au email, future reviews can show the Verified ANU tick."
-      : "Verify this email account to finish setting up your signed-in profile. Only verified @anu.edu.au accounts receive the Verified ANU tick.";
+      ? "Your email is verified. If you switch this account to an @anu.edu.au email, future reviews can show the Verified ANU tick."
+      : "Verify this email account to activate signed-in features. Only verified @anu.edu.au accounts receive the Verified ANU tick.";
     elements.authStatusNote.textContent = verifiedTick;
     elements.authStatusNote.classList.remove("is-hidden");
   }
@@ -2010,23 +2028,25 @@ function reviewBelongsToCurrentUser(review) {
 
 function syncReviewIdentity() {
   const loggedIn = isLoggedIn();
+  const verifiedAccount = hasVerifiedAccount();
   const authorLabel = currentAuthorLabel();
   elements.reviewAuthor.disabled = loggedIn;
   elements.reviewAuthor.value = loggedIn ? authorLabel : "";
   elements.reviewAuthor.placeholder = loggedIn ? authorLabel : "Anonymous";
   elements.reviewAuthAction.textContent = loggedIn ? "Manage account" : "Sign in";
   elements.reviewSignout.classList.toggle("is-hidden", !loggedIn);
+  elements.reviewSubmit.disabled = loggedIn && !verifiedAccount;
   elements.authLaunch.textContent = loggedIn ? "Account" : "Sign in";
   elements.authLaunch.classList.toggle("nav-link--signed-in", loggedIn);
   if (loggedIn) {
     const verified = authState.profile?.isAnuVerified
       ? " You have the Verified ANU tick."
       : isEmailVerified()
-      ? " You are signed in with a non-ANU or unverified ANU email, so your reviews will not show the Verified ANU tick."
-      : " Verify your email to finish activating this account. Only verified @anu.edu.au accounts receive the Verified ANU tick.";
-    elements.authReviewCopy.textContent = `${authorLabel} is signed in. Reviews posted now can be edited later.${verified}`;
+      ? " Your email is verified. If it ends in @anu.edu.au, your reviews can show the Verified ANU tick."
+      : " Verify your email to activate signed-in features. All email accounts must be verified before you can post under your account or vote.";
+    elements.authReviewCopy.textContent = `${authorLabel} is signed in.${verified}`;
   } else {
-    elements.authReviewCopy.textContent = "Sign in to attach your profile, unlock the Verified ANU tick with a verified @anu.edu.au email, and edit your own reviews later. Non-ANU emails still work, but they do not receive the tick.";
+    elements.authReviewCopy.textContent = "Sign in to attach your profile, verify your email, unlock the Verified ANU tick with a verified @anu.edu.au email, and edit your own reviews later. Non-ANU emails still work, but they also need verification and do not receive the tick.";
   }
   persistAuthStatus();
   if (loggedIn) {
@@ -2175,6 +2195,11 @@ async function handleReviewSubmit(event) {
   }
   const linkedComment = elements.linkedReviewComment.value.trim();
   const loggedIn = isLoggedIn();
+  if (loggedIn && !isEmailVerified()) {
+    updateFeedback("Verify your email before posting reviews from your account. You can still continue as a guest if you prefer.", true);
+    openAuthModal("signup");
+    return;
+  }
   const author = loggedIn ? currentAuthorLabel() : (elements.reviewAuthor.value.trim() || "Anonymous");
   const semester = item.type === "course" ? elements.reviewSemester.value : "";
   if (item.type === "course" && !semester) {
