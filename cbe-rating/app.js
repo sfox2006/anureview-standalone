@@ -32,7 +32,8 @@ const authState = {
   session: null,
   user: null,
   profile: null,
-  pendingVerification: null
+  pendingVerification: null,
+  pendingPasswordChange: null
 };
 
 const elements = {
@@ -140,9 +141,13 @@ const elements = {
   authModal: document.getElementById("auth-modal"),
   authModalBackdrop: document.getElementById("auth-modal-backdrop"),
   authClose: document.getElementById("auth-close"),
+  authModalCopy: document.getElementById("auth-modal-copy"),
+  authHighlight: document.getElementById("auth-highlight"),
+  authModalSwitch: document.getElementById("auth-modal-switch"),
   authModeSignIn: document.getElementById("auth-mode-signin"),
   authModeSignUp: document.getElementById("auth-mode-signup"),
   authGoogle: document.getElementById("auth-google"),
+  authDivider: document.getElementById("auth-divider"),
   authForm: document.getElementById("auth-form"),
   authDisplayNameField: document.getElementById("auth-display-name-field"),
   authDisplayName: document.getElementById("auth-display-name"),
@@ -1533,7 +1538,7 @@ async function voteReview(review, direction, triggerButton) {
   }
   if (!isEmailVerified()) {
     updateFeedback("Verify your email before upvoting or downvoting reviews.", true);
-    openAuthModal("signup");
+    openAuthModal("account");
     return;
   }
   const previousText = triggerButton.textContent;
@@ -1770,6 +1775,18 @@ function isVerificationPending() {
   return Boolean(authState.pendingVerification);
 }
 
+function isPasswordChangePending() {
+  return Boolean(authState.pendingPasswordChange);
+}
+
+function profileFieldsChanged(displayName, username, phone) {
+  return (
+    displayName !== (authState.profile?.displayName || "") ||
+    username !== (authState.profile?.username || "") ||
+    phone !== (authState.profile?.phone || "")
+  );
+}
+
 function currentAuthorLabel() {
   if (!isLoggedIn()) {
     return "Anonymous";
@@ -1792,31 +1809,38 @@ function clearAuthFeedback() {
 function syncAuthMode() {
   const signingUp = state.authMode === "signup";
   const verifyingSignup = state.authMode === "verify";
-  const managingProfile = signingUp && isLoggedIn();
+  const verifyingPassword = state.authMode === "passwordVerify";
+  const managingProfile = state.authMode === "account" && isLoggedIn();
   const showReset = !isLoggedIn() && !signingUp;
   elements.authModeSignUp.textContent = isLoggedIn() ? "Account" : "Create account";
-  elements.authModeSignIn.classList.toggle("is-active", !signingUp && !verifyingSignup);
-  elements.authModeSignUp.classList.toggle("is-active", signingUp || verifyingSignup);
-  elements.authModeSignIn.classList.toggle("is-hidden", isLoggedIn() || verifyingSignup);
-  elements.authModeSignUp.classList.toggle("is-hidden", verifyingSignup);
-  elements.authDisplayNameField.classList.toggle("is-hidden", !signingUp || verifyingSignup);
-  elements.authUsernameField.classList.toggle("is-hidden", !signingUp || verifyingSignup);
-  elements.authPhoneField.classList.toggle("is-hidden", !signingUp || verifyingSignup);
-  elements.authEmailField.classList.toggle("is-hidden", managingProfile || verifyingSignup);
-  elements.authPasswordField.classList.toggle("is-hidden", managingProfile || verifyingSignup);
-  elements.authCodeField.classList.toggle("is-hidden", !verifyingSignup);
+  elements.authModalCopy.classList.toggle("is-hidden", managingProfile || verifyingPassword);
+  elements.authHighlight.classList.toggle("is-hidden", managingProfile || verifyingPassword);
+  elements.authModalSwitch.classList.toggle("is-hidden", managingProfile || verifyingSignup || verifyingPassword);
+  elements.authDivider.classList.toggle("is-hidden", managingProfile || verifyingSignup || verifyingPassword || isLoggedIn());
+  elements.authModeSignIn.classList.toggle("is-active", !signingUp && !verifyingSignup && !verifyingPassword);
+  elements.authModeSignUp.classList.toggle("is-active", signingUp || verifyingSignup || verifyingPassword || managingProfile);
+  elements.authModeSignIn.classList.toggle("is-hidden", isLoggedIn() || verifyingSignup || verifyingPassword);
+  elements.authModeSignUp.classList.toggle("is-hidden", verifyingSignup || verifyingPassword || managingProfile);
+  elements.authDisplayNameField.classList.toggle("is-hidden", (!signingUp && !managingProfile) || verifyingSignup || verifyingPassword);
+  elements.authUsernameField.classList.toggle("is-hidden", (!signingUp && !managingProfile) || verifyingSignup || verifyingPassword);
+  elements.authPhoneField.classList.toggle("is-hidden", (!signingUp && !managingProfile) || verifyingSignup || verifyingPassword);
+  elements.authEmailField.classList.toggle("is-hidden", managingProfile || verifyingSignup || verifyingPassword);
+  elements.authPasswordField.classList.toggle("is-hidden", managingProfile || verifyingSignup || verifyingPassword);
+  elements.authCodeField.classList.toggle("is-hidden", !verifyingSignup && !verifyingPassword);
   elements.authNewPasswordField.classList.toggle("is-hidden", !managingProfile);
   elements.authCurrentPasswordField.classList.toggle("is-hidden", !managingProfile);
   elements.authConfirmPasswordField.classList.toggle("is-hidden", !managingProfile);
   elements.authAccountActions.classList.toggle("is-hidden", !isLoggedIn());
   elements.authResetPassword.classList.toggle("is-hidden", !showReset || verifyingSignup);
-  elements.authGoogle.classList.toggle("is-hidden", verifyingSignup || isLoggedIn());
-  elements.authEmail.required = !managingProfile && !verifyingSignup;
-  elements.authPassword.required = !managingProfile && !verifyingSignup;
-  elements.authCode.required = verifyingSignup;
-  elements.authCurrentPassword.required = managingProfile && Boolean(elements.authNewPassword.value.trim());
+  elements.authGoogle.classList.toggle("is-hidden", verifyingSignup || verifyingPassword || isLoggedIn());
+  elements.authEmail.required = !managingProfile && !verifyingSignup && !verifyingPassword;
+  elements.authPassword.required = !managingProfile && !verifyingSignup && !verifyingPassword;
+  elements.authCode.required = verifyingSignup || verifyingPassword;
+  elements.authCurrentPassword.required = managingProfile;
   elements.authConfirmPassword.required = managingProfile && Boolean(elements.authNewPassword.value.trim());
-  elements.authSubmit.textContent = verifyingSignup
+  elements.authSubmit.textContent = verifyingPassword
+    ? "Verify password change"
+    : verifyingSignup
     ? "Verify code"
     : managingProfile
     ? "Save account"
@@ -1824,7 +1848,10 @@ function syncAuthMode() {
     ? "Create account"
     : "Sign in";
   if (managingProfile) {
-    elements.authHelper.innerHTML = "You can update your public profile here. If you add a new password, it will replace your current one.";
+    elements.authHelper.innerHTML = "Change your name, username, or phone number here. Enter your current password to save account changes. Password changes also require an email verification code.";
+  } else if (verifyingPassword) {
+    const pendingEmail = authState.pendingPasswordChange?.email || authState.user?.email || "your email";
+    elements.authHelper.innerHTML = `We sent a 6-digit password change code to <strong>${pendingEmail}</strong>. Enter it here to finish changing your password.`;
   } else if (verifyingSignup) {
     const pendingEmail = authState.pendingVerification?.email || "your email";
     elements.authHelper.innerHTML = `We just sent a 6-digit verification code to <strong>${pendingEmail}</strong>. Enter it here to finish creating your ANRevU account.`;
@@ -1852,10 +1879,12 @@ function openAuthModal(mode = state.authMode) {
   syncAuthMode();
   clearAuthFeedback();
   document.getElementById("auth-modal-title").textContent =
-    state.authMode === "verify"
+    state.authMode === "passwordVerify"
+      ? "Verify password change"
+      : state.authMode === "verify"
       ? "Verify your email"
       :
-    isLoggedIn() && state.authMode === "signup"
+    isLoggedIn() && state.authMode === "account"
       ? "Your ANRevU account"
       : "Sign in or create an account";
   elements.authDisplayName.value = authState.profile?.displayName || "";
@@ -1872,7 +1901,9 @@ function openAuthModal(mode = state.authMode) {
   document.body.classList.add("modal-open");
   if (state.authMode === "verify") {
     elements.authCode.focus();
-  } else if (isLoggedIn() && state.authMode === "signup") {
+  } else if (state.authMode === "passwordVerify") {
+    elements.authCode.focus();
+  } else if (isLoggedIn() && state.authMode === "account") {
     elements.authDisplayName.focus();
   } else if (state.authMode === "signup") {
     elements.authDisplayName.focus();
@@ -2197,7 +2228,7 @@ async function handleReviewSubmit(event) {
   const loggedIn = isLoggedIn();
   if (loggedIn && !isEmailVerified()) {
     updateFeedback("Verify your email before posting reviews from your account. You can still continue as a guest if you prefer.", true);
-    openAuthModal("signup");
+    openAuthModal("account");
     return;
   }
   const author = loggedIn ? currentAuthorLabel() : (elements.reviewAuthor.value.trim() || "Anonymous");
@@ -2418,48 +2449,107 @@ async function handleAuthSubmit(event) {
       return;
     }
 
-    if (state.authMode === "signup") {
+    if (state.authMode === "passwordVerify") {
+      const pending = authState.pendingPasswordChange;
+      const token = elements.authCode.value.trim();
+      if (!pending?.email || !pending?.newPassword) {
+        throw new Error("Start the password change again so we know which account to verify.");
+      }
+      if (!/^\d{6}$/.test(token)) {
+        throw new Error("Enter the 6-digit password change code from your email.");
+      }
+      const { error: verifyError } = await authState.client.auth.verifyOtp({
+        email: pending.email,
+        token,
+        type: "recovery"
+      });
+      if (verifyError) {
+        throw verifyError;
+      }
+      const { error: passwordError } = await authState.client.auth.updateUser({
+        password: pending.newPassword
+      });
+      if (passwordError) {
+        throw passwordError;
+      }
+      authState.pendingPasswordChange = null;
+      state.authMode = "account";
+      updateAuthFeedback("Password changed successfully.");
+      closeAuthModal();
+      updateFeedback("Your password has been changed.");
+      return;
+    }
+
+    if (state.authMode === "account" && isLoggedIn()) {
       const displayName = elements.authDisplayName.value.trim();
       const username = elements.authUsername.value.trim().toLowerCase();
       const phone = elements.authPhone.value.trim();
       const newPassword = elements.authNewPassword.value.trim();
+      const confirmPassword = elements.authConfirmPassword.value.trim();
+      const currentPassword = elements.authCurrentPassword.value;
+      const changedProfile = profileFieldsChanged(displayName, username, phone);
+      if (!displayName || !username) {
+        throw new Error("Name and username cannot be blank.");
+      }
+      if (!changedProfile && !newPassword) {
+        throw new Error("Make a change first, then save your account.");
+      }
+      if (!currentPassword) {
+        throw new Error("Enter your current password before saving account changes.");
+      }
+      if (newPassword) {
+        if (!confirmPassword) {
+          throw new Error("Re-enter your new password to confirm it.");
+        }
+        if (newPassword !== confirmPassword) {
+          throw new Error("Your new password and confirmation password do not match.");
+        }
+      }
+      const { error: reauthError } = await authState.client.auth.signInWithPassword({
+        email: authState.user?.email || email,
+        password: currentPassword
+      });
+      if (reauthError) {
+        throw new Error("Your current password is incorrect.");
+      }
+      if (changedProfile) {
+        await saveAuthProfile({ displayName, username, phone });
+      }
+      if (newPassword) {
+        const redirectTo = `${window.location.origin}${window.location.pathname}`;
+        const { error: resetError } = await authState.client.auth.resetPasswordForEmail(authState.user.email, { redirectTo });
+        if (resetError) {
+          throw resetError;
+        }
+        authState.pendingPasswordChange = {
+          email: authState.user.email,
+          newPassword
+        };
+        elements.authCode.value = "";
+        state.authMode = "passwordVerify";
+        syncAuthMode();
+        updateAuthFeedback("We sent a 6-digit password change code to your email. Enter it here to finish changing your password.");
+        elements.authCode.focus();
+        if (changedProfile) {
+          syncReviewIdentity();
+          renderDetail();
+        }
+        return;
+      }
+      updateAuthFeedback("Account updated.");
+      closeAuthModal();
+      syncReviewIdentity();
+      renderDetail();
+      updateFeedback("Profile updated. Your future signed-in reviews will use these details.");
+      return;
+    }
+
+    if (state.authMode === "signup") {
+      const displayName = elements.authDisplayName.value.trim();
+      const username = elements.authUsername.value.trim().toLowerCase();
+      const phone = elements.authPhone.value.trim();
       if (!displayName || !username) {
         throw new Error("Name and username are required to create an account.");
-      }
-      if (isLoggedIn()) {
-        if (newPassword) {
-          const currentPassword = elements.authCurrentPassword.value.trim();
-          const confirmPassword = elements.authConfirmPassword.value.trim();
-          if (!currentPassword) {
-            throw new Error("Enter your current password before setting a new one.");
-          }
-          if (!confirmPassword) {
-            throw new Error("Re-enter your new password to confirm it.");
-          }
-          if (newPassword !== confirmPassword) {
-            throw new Error("Your new password and confirmation password do not match.");
-          }
-          const { error: reauthError } = await authState.client.auth.signInWithPassword({
-            email: authState.user?.email || email,
-            password: currentPassword
-          });
-          if (reauthError) {
-            throw new Error("Your current password is incorrect.");
-          }
-        }
-        await saveAuthProfile({ displayName, username, phone });
-        if (newPassword) {
-          const { error: passwordError } = await authState.client.auth.updateUser({ password: newPassword });
-          if (passwordError) {
-            throw passwordError;
-          }
-        }
-        updateAuthFeedback("Account updated.");
-        closeAuthModal();
-        syncReviewIdentity();
-        renderDetail();
-        updateFeedback(newPassword ? "Account updated, including your password." : "Profile updated. Your future signed-in reviews will use these details.");
-        return;
       }
       const { error } = await authState.client.auth.signUp({
         email,
@@ -2557,6 +2647,7 @@ async function handleSignOut() {
     return;
   }
   authState.pendingVerification = null;
+  authState.pendingPasswordChange = null;
   await authState.client.auth.signOut();
   exitEditMode();
   updateFeedback("Signed out. Guest posting is still available.");
@@ -2564,6 +2655,7 @@ async function handleSignOut() {
 
 async function handleSwitchAccount() {
   authState.pendingVerification = null;
+  authState.pendingPasswordChange = null;
   await handleSignOut();
   state.authMode = "signin";
   openAuthModal("signin");
@@ -2573,7 +2665,7 @@ async function handleSwitchAccount() {
 function bindFilters() {
   elements.authLaunch.addEventListener("click", () => {
     if (isLoggedIn()) {
-      openAuthModal("signup");
+      openAuthModal("account");
     } else if (isVerificationPending()) {
       openAuthModal("verify");
     } else {
@@ -2582,7 +2674,7 @@ function bindFilters() {
   });
   elements.reviewAuthAction.addEventListener("click", () => {
     if (isLoggedIn()) {
-      openAuthModal("signup");
+      openAuthModal("account");
     } else if (isVerificationPending()) {
       openAuthModal("verify");
     } else {
@@ -2594,13 +2686,15 @@ function bindFilters() {
   elements.authModalBackdrop.addEventListener("click", closeAuthModal);
   elements.authModeSignIn.addEventListener("click", () => {
     authState.pendingVerification = null;
+    authState.pendingPasswordChange = null;
     state.authMode = "signin";
     syncAuthMode();
     clearAuthFeedback();
   });
   elements.authModeSignUp.addEventListener("click", () => {
     authState.pendingVerification = null;
-    state.authMode = "signup";
+    authState.pendingPasswordChange = null;
+    state.authMode = isLoggedIn() ? "account" : "signup";
     syncAuthMode();
     clearAuthFeedback();
   });
@@ -2851,7 +2945,7 @@ async function init() {
   renderPageState();
   trackCurrentPageView(true);
   if (requestedAuthView) {
-    const modalMode = requestedAuthView === "account" && isLoggedIn() ? "signup" : "signin";
+    const modalMode = requestedAuthView === "account" && isLoggedIn() ? "account" : "signin";
     openAuthModal(modalMode);
   }
   setTimeout(() => {

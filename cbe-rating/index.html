@@ -545,17 +545,17 @@
           </div>
           <button id="auth-close" class="auth-close" type="button" aria-label="Close sign in dialog">×</button>
         </div>
-        <p class="auth-modal-copy">Guests can still post, but signing in makes your reviews more trusted and more useful to you later. Non-ANU emails still work, but only verified <code>@anu.edu.au</code> accounts receive the Verified ANU tick.</p>
-        <div class="auth-highlight">
+        <p id="auth-modal-copy" class="auth-modal-copy">Guests can still post, but signing in makes your reviews more trusted and more useful to you later. Non-ANU emails still work, but only verified <code>@anu.edu.au</code> accounts receive the Verified ANU tick.</p>
+        <div id="auth-highlight" class="auth-highlight">
           <p class="auth-highlight-title">Best reason to sign in</p>
           <p class="auth-highlight-copy">If you use a verified email ending in <code>@anu.edu.au</code>, your reviews can show a <strong>Verified ANU</strong> tick. Signed-in reviews can also be edited later, while non-ANU emails can still create normal signed-in accounts.</p>
         </div>
-        <div class="auth-modal-switch">
+        <div id="auth-modal-switch" class="auth-modal-switch">
           <button id="auth-mode-signin" class="type-tab is-active" type="button">Sign in</button>
           <button id="auth-mode-signup" class="type-tab" type="button">Create account</button>
         </div>
         <button id="auth-google" class="auth-google" type="button">Continue to ANRevU with Google</button>
-        <div class="auth-divider"><span>or use email</span></div>
+        <div id="auth-divider" class="auth-divider"><span>or use email</span></div>
         <form id="auth-form" class="auth-form">
           <label id="auth-display-name-field" class="field">
             <span class="field-label">Name</span>
@@ -583,11 +583,11 @@
           </label>
           <label id="auth-new-password-field" class="field is-hidden">
             <span class="field-label">New password <span class="field-optional">(optional)</span></span>
-            <input id="auth-new-password" type="password" minlength="8" maxlength="72" placeholder="Enter a new password if you want to change it">
+            <input id="auth-new-password" type="password" minlength="8" maxlength="72" placeholder="Enter a new password, then verify by email">
           </label>
           <label id="auth-current-password-field" class="field is-hidden">
             <span class="field-label">Current password</span>
-            <input id="auth-current-password" type="password" minlength="8" maxlength="72" placeholder="Enter your current password to confirm changes">
+            <input id="auth-current-password" type="password" minlength="8" maxlength="72" placeholder="Required to save account changes">
           </label>
           <label id="auth-confirm-password-field" class="field is-hidden">
             <span class="field-label">Confirm new password</span>
