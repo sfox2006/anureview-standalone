@@ -86,6 +86,8 @@ const elements = {
   reviewList: document.getElementById("review-list"),
   reviewForm: document.getElementById("review-form"),
   reviewAuthor: document.getElementById("review-author"),
+  reviewAnonymousWrap: document.getElementById("review-anonymous-wrap"),
+  reviewAnonymous: document.getElementById("review-anonymous"),
   reviewPanelSubtitle: document.getElementById("review-panel-subtitle"),
   reviewOverall: document.getElementById("review-overall"),
   reviewSemesterField: document.getElementById("review-semester-field"),
@@ -159,6 +161,8 @@ const elements = {
   authEmail: document.getElementById("auth-email"),
   authPasswordField: document.getElementById("auth-password-field"),
   authPassword: document.getElementById("auth-password"),
+  authStaySignedInField: document.getElementById("auth-stay-signed-in-field"),
+  authStaySignedIn: document.getElementById("auth-stay-signed-in"),
   authCodeField: document.getElementById("auth-code-field"),
   authCode: document.getElementById("auth-code"),
   authNewPasswordField: document.getElementById("auth-new-password-field"),
@@ -1775,10 +1779,6 @@ function isVerificationPending() {
   return Boolean(authState.pendingVerification);
 }
 
-function isPasswordChangePending() {
-  return Boolean(authState.pendingPasswordChange);
-}
-
 function profileFieldsChanged(displayName, username, phone) {
   return (
     displayName !== (authState.profile?.displayName || "") ||
@@ -1791,7 +1791,7 @@ function currentAuthorLabel() {
   if (!isLoggedIn()) {
     return "Anonymous";
   }
-  return authState.profile?.displayName || authState.profile?.author || authState.profile?.username || authState.user.email || "Signed-in user";
+  return authState.profile?.username || authState.profile?.displayName || authState.profile?.author || authState.user.email?.split("@", 1)[0] || "Signed-in user";
 }
 
 function updateAuthFeedback(message, isError = false) {
@@ -1826,6 +1826,7 @@ function syncAuthMode() {
   elements.authPhoneField.classList.toggle("is-hidden", (!signingUp && !managingProfile) || verifyingSignup || verifyingPassword);
   elements.authEmailField.classList.toggle("is-hidden", managingProfile || verifyingSignup || verifyingPassword);
   elements.authPasswordField.classList.toggle("is-hidden", managingProfile || verifyingSignup || verifyingPassword);
+  elements.authStaySignedInField.classList.toggle("is-hidden", managingProfile || verifyingSignup || verifyingPassword || signingUp);
   elements.authCodeField.classList.toggle("is-hidden", !verifyingSignup && !verifyingPassword);
   elements.authNewPasswordField.classList.toggle("is-hidden", !managingProfile);
   elements.authCurrentPasswordField.classList.toggle("is-hidden", !managingProfile);
@@ -1891,6 +1892,7 @@ function openAuthModal(mode = state.authMode) {
   elements.authUsername.value = authState.profile?.username || "";
   elements.authPhone.value = authState.profile?.phone || "";
   elements.authEmail.value = authState.user?.email || "";
+  elements.authStaySignedIn.checked = loadStaySignedInPreference();
   elements.authPassword.value = "";
   elements.authCode.value = "";
   elements.authNewPassword.value = "";
@@ -1943,6 +1945,37 @@ function authStatusStorageKey() {
   return "anrevu-auth-status";
 }
 
+function staySignedInStorageKey() {
+  return "anrevu-stay-signed-in";
+}
+
+function loadStaySignedInPreference() {
+  try {
+    return localStorage.getItem(staySignedInStorageKey()) !== "0";
+  } catch {
+    return true;
+  }
+}
+
+function saveStaySignedInPreference(value) {
+  try {
+    localStorage.setItem(staySignedInStorageKey(), value ? "1" : "0");
+  } catch {
+    // ignore storage failures
+  }
+}
+
+function bindSessionOnlySignOut() {
+  if (loadStaySignedInPreference()) {
+    return;
+  }
+  window.addEventListener("pagehide", () => {
+    if (authState.client && isLoggedIn()) {
+      authState.client.auth.signOut();
+    }
+  });
+}
+
 function rememberOauthReturnHash() {
   try {
     sessionStorage.setItem(oauthReturnHashKey(), window.location.hash || "#directory");
@@ -1976,7 +2009,7 @@ function persistAuthStatus() {
       authStatusStorageKey(),
       JSON.stringify({
         signedIn: true,
-        displayName: authState.profile?.displayName || authState.profile?.username || authState.user?.email || "Account",
+        displayName: authState.profile?.username || authState.profile?.displayName || authState.user?.email || "Account",
         email: authState.user?.email || "",
         isAnuVerified: Boolean(authState.profile?.isAnuVerified)
       })
@@ -2061,6 +2094,7 @@ function syncReviewIdentity() {
   const loggedIn = isLoggedIn();
   const verifiedAccount = hasVerifiedAccount();
   const authorLabel = currentAuthorLabel();
+  elements.reviewAnonymousWrap.classList.toggle("is-hidden", !loggedIn);
   elements.reviewAuthor.disabled = loggedIn;
   elements.reviewAuthor.value = loggedIn ? authorLabel : "";
   elements.reviewAuthor.placeholder = loggedIn ? authorLabel : "Anonymous";
@@ -2075,7 +2109,7 @@ function syncReviewIdentity() {
       : isEmailVerified()
       ? " Your email is verified. If it ends in @anu.edu.au, your reviews can show the Verified ANU tick."
       : " Verify your email to activate signed-in features. All email accounts must be verified before you can post under your account or vote.";
-    elements.authReviewCopy.textContent = `${authorLabel} is signed in.${verified}`;
+    elements.authReviewCopy.textContent = `${authorLabel} is signed in. You can still post a review anonymously.${verified}`;
   } else {
     elements.authReviewCopy.textContent = "Sign in to attach your profile, verify your email, unlock the Verified ANU tick with a verified @anu.edu.au email, and edit your own reviews later. Non-ANU emails still work, but they also need verification and do not receive the tick.";
   }
@@ -2090,6 +2124,9 @@ function exitEditMode() {
   elements.reviewCancelEdit.classList.add("is-hidden");
   elements.reviewSubmit.textContent = "Publish review";
   elements.reviewForm.reset();
+  if (elements.reviewAnonymous) {
+    elements.reviewAnonymous.checked = false;
+  }
   [
     elements.reviewMetricA,
     elements.reviewMetricB,
@@ -2125,6 +2162,9 @@ function enterEditMode(review) {
   elements.reviewSubmit.textContent = "Save changes";
   elements.linkedReviewEnabled.checked = false;
   syncLinkedReviewPanel();
+  if (elements.reviewAnonymous) {
+    elements.reviewAnonymous.checked = Boolean(review.isGuest && review.userId);
+  }
   elements.reviewAuthor.value = review.author || currentAuthorLabel();
   elements.reviewMetricA.value = String(Math.round(Number(review.metricA || 8)));
   elements.reviewMetricB.value = String(Math.round(Number(review.metricB || 8)));
@@ -2231,7 +2271,8 @@ async function handleReviewSubmit(event) {
     openAuthModal("account");
     return;
   }
-  const author = loggedIn ? currentAuthorLabel() : (elements.reviewAuthor.value.trim() || "Anonymous");
+  const postAnonymously = loggedIn && elements.reviewAnonymous.checked;
+  const author = postAnonymously ? "Anonymous" : loggedIn ? currentAuthorLabel() : (elements.reviewAuthor.value.trim() || "Anonymous");
   const semester = item.type === "course" ? elements.reviewSemester.value : "";
   if (item.type === "course" && !semester) {
     updateFeedback("Choose the semester when you took this course.", true);
@@ -2291,6 +2332,7 @@ async function handleReviewSubmit(event) {
       takenYear,
       academicId: selectedAcademic?.id || "",
       academicName: selectedAcademicName,
+      postAnonymously,
       tags: [],
       comment
     };
@@ -2315,6 +2357,7 @@ async function handleReviewSubmit(event) {
         takenYear: linkedTakenYear,
         academicId: linkedSelectedAcademic?.id || "",
         academicName: linkedSelectedAcademicName,
+        postAnonymously,
         tags: [],
         comment: linkedComment
       });
@@ -2369,6 +2412,7 @@ async function initAuth(config) {
     return;
   }
   authState.client = window.supabase.createClient(config.supabaseUrl, config.supabasePublishableKey);
+  bindSessionOnlySignOut();
   const {
     data: { session }
   } = await authState.client.auth.getSession();
@@ -2586,6 +2630,7 @@ async function handleAuthSubmit(event) {
     if (error) {
       throw error;
     }
+    saveStaySignedInPreference(elements.authStaySignedIn.checked);
     const currentSession = (await authState.client.auth.getSession()).data.session || null;
     if (currentSession) {
       await hydrateAuthState(currentSession);
@@ -2626,6 +2671,7 @@ async function handleGoogleSignIn() {
     return;
   }
   clearAuthFeedback();
+  saveStaySignedInPreference(elements.authStaySignedIn.checked);
   rememberOauthReturnHash();
   const redirectTo = `${window.location.origin}${window.location.pathname}`;
   const { error } = await authState.client.auth.signInWithOAuth({

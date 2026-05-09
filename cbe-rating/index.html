@@ -356,6 +356,13 @@
                       <span class="field-label">Your name <span class="field-optional">(optional, leave blank for Anonymous)</span></span>
                       <input id="review-author" type="text" maxlength="40" placeholder="Anonymous">
                     </label>
+                    <label id="review-anonymous-wrap" class="inline-check is-hidden">
+                      <input id="review-anonymous" type="checkbox">
+                      <span>
+                        <strong>Post this review anonymously</strong>
+                        <small>Your account still owns it so you can edit it later.</small>
+                      </span>
+                    </label>
 
                     <div class="review-dual-toggle-wrap">
                       <label id="linked-review-toggle-wrap" class="linked-review-toggle">
@@ -576,6 +583,13 @@
           <label id="auth-password-field" class="field">
             <span class="field-label">Password</span>
             <input id="auth-password" type="password" minlength="8" maxlength="72" placeholder="At least 8 characters" required>
+          </label>
+          <label id="auth-stay-signed-in-field" class="inline-check">
+            <input id="auth-stay-signed-in" type="checkbox" checked>
+            <span>
+              <strong>Stay signed in on this device</strong>
+              <small>If unticked, ANRevU signs you out when this browser session ends.</small>
+            </span>
           </label>
           <label id="auth-code-field" class="field is-hidden">
             <span class="field-label">Verification code</span>

@@ -529,8 +529,14 @@ def build_review_record(payload: dict, auth_user: dict | None = None, profile: d
     if any(contains_blocked_language(tag) for tag in tags):
         raise ValueError("Swear words cannot be published.")
 
-    if auth_user and profile:
-        author = normalize_profile_value(str(profile.get("author", "Anonymous")), 40) or "Anonymous"
+    post_anonymously = bool(payload.get("postAnonymously", False))
+    if auth_user and profile and not post_anonymously:
+        author = normalize_profile_value(
+            str(profile.get("username") or profile.get("display_name") or profile.get("author") or "Anonymous"),
+            40,
+        ) or "Anonymous"
+    elif auth_user and post_anonymously:
+        author = "Anonymous"
     else:
         author = sanitize_text(str(payload.get("author", "Anonymous")) or "Anonymous", 40)
         if contains_blocked_language(author):
@@ -565,10 +571,10 @@ def build_review_record(payload: dict, auth_user: dict | None = None, profile: d
         "author": author,
         "userId": auth_user.get("id", "") if auth_user else "",
         "userEmail": profile.get("email", "") if profile else "",
-        "displayName": profile.get("display_name", "") if profile else "",
-        "username": profile.get("username", "") if profile else "",
-        "isAnuVerified": bool(profile.get("is_anu_verified", False)) if profile else False,
-        "isGuest": not bool(auth_user),
+        "displayName": "" if post_anonymously else profile.get("display_name", "") if profile else "",
+        "username": "" if post_anonymously else profile.get("username", "") if profile else "",
+        "isAnuVerified": bool(profile.get("is_anu_verified", False)) if profile and not post_anonymously else False,
+        "isGuest": bool(post_anonymously) or not bool(auth_user),
         "createdAt": datetime.now().date().isoformat(),
         "overall": ratings["overall"],
         "metricA": ratings["metricA"],

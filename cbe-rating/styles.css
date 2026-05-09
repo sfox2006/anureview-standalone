@@ -263,6 +263,33 @@ body {
   background: #22314d;
   color: #f7ddb0;
 }
+.inline-check {
+  display: grid;
+  grid-template-columns: 20px 1fr;
+  align-items: start;
+  gap: 10px;
+  padding: 12px 14px;
+  border: 1px solid var(--line);
+  border-radius: var(--radius-sm);
+  background: var(--surface);
+  color: var(--ink);
+}
+.inline-check input {
+  width: 18px;
+  height: 18px;
+  margin-top: 2px;
+  accent-color: var(--accent);
+}
+.inline-check strong {
+  display: block;
+  font-size: 0.88rem;
+}
+.inline-check small {
+  display: block;
+  margin-top: 2px;
+  color: var(--ink-muted);
+  line-height: 1.45;
+}
 .auth-highlight {
   margin: 14px 0 2px;
   padding: 14px 16px;
