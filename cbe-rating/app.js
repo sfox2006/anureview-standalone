@@ -19,7 +19,9 @@ const state = {
   authReady: false,
   editingReviewId: null,
   welcomeDismissed: false,
-  accountEditing: false
+  accountEditing: false,
+  pendingVoteIds: new Set(),
+  localReviewVotes: {}
 };
 
 const analytics = {
@@ -1425,6 +1427,29 @@ function voteCounts(review) {
   };
 }
 
+function findMutableReview(reviewId) {
+  return [...dataset.seedReviews, ...state.sharedReviews].find((entry) => entry.id === reviewId);
+}
+
+function currentUserVoteKey(reviewId) {
+  return `${authState.user?.id || "guest"}:${reviewId}`;
+}
+
+function applyLocalVoteCounts(review, nextDirection, previousDirection = "") {
+  review.upvotes = Number(review.upvotes || 0);
+  review.downvotes = Number(review.downvotes || 0);
+  if (previousDirection === "up") {
+    review.upvotes = Math.max(0, review.upvotes - 1);
+  } else if (previousDirection === "down") {
+    review.downvotes = Math.max(0, review.downvotes - 1);
+  }
+  if (nextDirection === "up") {
+    review.upvotes += 1;
+  } else if (nextDirection === "down") {
+    review.downvotes += 1;
+  }
+}
+
 function populateReviewFilterOptions(reviews) {
   const semesterValues = semesterOptions();
   const reviewYearValues = [...new Set(reviews.map((review) => reviewYear(review)).filter(Boolean))].sort((left, right) => right.localeCompare(left));
@@ -1556,8 +1581,25 @@ async function voteReview(review, direction, triggerButton) {
     openAuthModal("account");
     return;
   }
-  const previousText = triggerButton.textContent;
-  triggerButton.disabled = true;
+  if (state.pendingVoteIds.has(review.id)) {
+    return;
+  }
+  const target = findMutableReview(review.id);
+  if (!target) {
+    updateFeedback("Unable to find that review right now.", true);
+    return;
+  }
+  const voteKey = currentUserVoteKey(review.id);
+  const previousDirection = state.localReviewVotes[voteKey] || "";
+  if (previousDirection === direction) {
+    updateFeedback(`You have already ${direction === "up" ? "upvoted" : "downvoted"} this review.`);
+    return;
+  }
+  const previousCounts = voteCounts(target);
+  state.pendingVoteIds.add(review.id);
+  state.localReviewVotes[voteKey] = direction;
+  applyLocalVoteCounts(target, direction, previousDirection);
+  renderReviews(getItemById(state.selectedId));
   try {
     const response = await fetch("/api/anreview/reviews/vote", {
       method: "POST",
@@ -1575,16 +1617,22 @@ async function voteReview(review, direction, triggerButton) {
     }
 
     const updatedReview = payload.review || {};
-    const target = [...dataset.seedReviews, ...state.sharedReviews].find((entry) => entry.id === review.id);
-    if (target) {
-      target.upvotes = Number(updatedReview.upvotes || 0);
-      target.downvotes = Number(updatedReview.downvotes || 0);
-    }
+    target.upvotes = Number(updatedReview.upvotes || 0);
+    target.downvotes = Number(updatedReview.downvotes || 0);
+    state.localReviewVotes[voteKey] = direction;
+    state.pendingVoteIds.delete(review.id);
     renderReviews(getItemById(state.selectedId));
   } catch (error) {
+    target.upvotes = previousCounts.upvotes;
+    target.downvotes = previousCounts.downvotes;
+    if (previousDirection) {
+      state.localReviewVotes[voteKey] = previousDirection;
+    } else {
+      delete state.localReviewVotes[voteKey];
+    }
+    state.pendingVoteIds.delete(review.id);
+    renderReviews(getItemById(state.selectedId));
     updateFeedback(error.message || "Unable to save vote right now.", true);
-    triggerButton.disabled = false;
-    triggerButton.textContent = previousText;
   }
 }
 
@@ -1665,6 +1713,7 @@ function renderReviews(item) {
       : isLoggedIn()
       ? "Verify your email to vote on reviews"
       : "Sign in to vote on reviews";
+    upvoteButton.disabled = state.pendingVoteIds.has(review.id);
     upvoteButton.addEventListener("click", () => {
       voteReview(review, "up", upvoteButton);
     });
@@ -1678,6 +1727,7 @@ function renderReviews(item) {
       : isLoggedIn()
       ? "Verify your email to vote on reviews"
       : "Sign in to vote on reviews";
+    downvoteButton.disabled = state.pendingVoteIds.has(review.id);
     downvoteButton.addEventListener("click", () => {
       voteReview(review, "down", downvoteButton);
     });
