@@ -1875,6 +1875,10 @@ function currentAuthorLabel() {
   return authState.profile?.username || authState.profile?.displayName || authState.profile?.author || authState.user.email?.split("@", 1)[0] || "Signed-in user";
 }
 
+function reviewAuthorPreviewLabel() {
+  return isLoggedIn() && elements.reviewAnonymous?.checked ? "Anonymous" : currentAuthorLabel();
+}
+
 function updateAuthFeedback(message, isError = false) {
   elements.authFeedback.textContent = message;
   elements.authFeedback.classList.remove("is-hidden", "is-error", "is-success");
@@ -2188,10 +2192,11 @@ function syncReviewIdentity() {
   const loggedIn = isLoggedIn();
   const verifiedAccount = hasVerifiedAccount();
   const authorLabel = currentAuthorLabel();
+  const reviewAuthorLabel = reviewAuthorPreviewLabel();
   elements.reviewAnonymousWrap.classList.toggle("is-hidden", !loggedIn);
   elements.reviewAuthor.disabled = loggedIn;
-  elements.reviewAuthor.value = loggedIn ? authorLabel : "";
-  elements.reviewAuthor.placeholder = loggedIn ? authorLabel : "Anonymous";
+  elements.reviewAuthor.value = loggedIn ? reviewAuthorLabel : "";
+  elements.reviewAuthor.placeholder = loggedIn ? reviewAuthorLabel : "Anonymous";
   elements.reviewAuthAction.textContent = loggedIn ? "Manage account" : "Sign in";
   elements.reviewSignout.classList.toggle("is-hidden", !loggedIn);
   elements.reviewSubmit.disabled = loggedIn && !verifiedAccount;
@@ -2882,6 +2887,7 @@ function bindFilters() {
     exitEditMode();
     updateFeedback("Edit cancelled.");
   });
+  elements.reviewAnonymous.addEventListener("change", syncReviewIdentity);
   elements.searchForm.addEventListener("submit", (event) => {
     event.preventDefault();
     runDirectorySearch();
