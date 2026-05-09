@@ -560,6 +560,28 @@
         <button id="auth-google" class="auth-google" type="button">Continue to ANRevU with Google</button>
         <div id="auth-divider" class="auth-divider"><span>or use email</span></div>
         <form id="auth-form" class="auth-form">
+          <section id="auth-account-summary" class="auth-account-summary is-hidden" aria-live="polite">
+            <div class="account-detail-row">
+              <span>Name</span>
+              <strong id="account-summary-name">-</strong>
+            </div>
+            <div class="account-detail-row">
+              <span>Username</span>
+              <strong id="account-summary-username">-</strong>
+            </div>
+            <div class="account-detail-row">
+              <span>Email</span>
+              <strong id="account-summary-email">-</strong>
+            </div>
+            <div class="account-detail-row">
+              <span>Phone</span>
+              <strong id="account-summary-phone">-</strong>
+            </div>
+            <div class="account-detail-row">
+              <span>Status</span>
+              <strong id="account-summary-status">-</strong>
+            </div>
+          </section>
           <label id="auth-display-name-field" class="field">
             <span class="field-label">Name</span>
             <input id="auth-display-name" type="text" maxlength="80" placeholder="How your reviews should appear">
@@ -605,9 +627,11 @@
           </label>
           <p id="auth-status-note" class="auth-status-note is-hidden"></p>
           <div id="auth-account-actions" class="auth-account-actions is-hidden">
+            <button id="auth-edit-account" class="btn-secondary" type="button">Change details</button>
             <button id="auth-switch-account" class="btn-secondary" type="button">Use another account</button>
             <button id="auth-signout-modal" class="btn-secondary" type="button">Sign out</button>
           </div>
+          <button id="auth-cancel-account-edit" class="auth-text-button is-hidden" type="button">Cancel changes</button>
           <button id="auth-reset-password" class="auth-text-button is-hidden" type="button">Send password reset email</button>
           <p id="auth-helper" class="auth-helper">Use any email to sign up. Only verified <code>@anu.edu.au</code> accounts receive a verified ANU tick beside their reviews.</p>
           <p id="auth-feedback" class="form-feedback is-hidden" aria-live="polite" role="alert"></p>

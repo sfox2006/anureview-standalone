@@ -18,7 +18,8 @@ const state = {
   authMode: "signin",
   authReady: false,
   editingReviewId: null,
-  welcomeDismissed: false
+  welcomeDismissed: false,
+  accountEditing: false
 };
 
 const analytics = {
@@ -151,6 +152,12 @@ const elements = {
   authGoogle: document.getElementById("auth-google"),
   authDivider: document.getElementById("auth-divider"),
   authForm: document.getElementById("auth-form"),
+  authAccountSummary: document.getElementById("auth-account-summary"),
+  accountSummaryName: document.getElementById("account-summary-name"),
+  accountSummaryUsername: document.getElementById("account-summary-username"),
+  accountSummaryEmail: document.getElementById("account-summary-email"),
+  accountSummaryPhone: document.getElementById("account-summary-phone"),
+  accountSummaryStatus: document.getElementById("account-summary-status"),
   authDisplayNameField: document.getElementById("auth-display-name-field"),
   authDisplayName: document.getElementById("auth-display-name"),
   authUsernameField: document.getElementById("auth-username-field"),
@@ -174,8 +181,10 @@ const elements = {
   authHelper: document.getElementById("auth-helper"),
   authStatusNote: document.getElementById("auth-status-note"),
   authAccountActions: document.getElementById("auth-account-actions"),
+  authEditAccount: document.getElementById("auth-edit-account"),
   authSwitchAccount: document.getElementById("auth-switch-account"),
   authSignoutModal: document.getElementById("auth-signout-modal"),
+  authCancelAccountEdit: document.getElementById("auth-cancel-account-edit"),
   authResetPassword: document.getElementById("auth-reset-password"),
   authFeedback: document.getElementById("auth-feedback"),
   authSubmit: document.getElementById("auth-submit"),
@@ -1791,6 +1800,24 @@ function profileFieldsChanged(displayName, username, phone) {
   );
 }
 
+function accountStatusLabel() {
+  if (!isEmailVerified()) {
+    return "Email not verified";
+  }
+  return authState.profile?.isAnuVerified ? "Verified ANU" : "Email verified";
+}
+
+function syncAccountSummary() {
+  if (!elements.authAccountSummary) {
+    return;
+  }
+  elements.accountSummaryName.textContent = authState.profile?.displayName || "Not set";
+  elements.accountSummaryUsername.textContent = authState.profile?.username || "Not set";
+  elements.accountSummaryEmail.textContent = authState.user?.email || authState.profile?.email || "Not set";
+  elements.accountSummaryPhone.textContent = authState.profile?.phone || "Not set";
+  elements.accountSummaryStatus.textContent = accountStatusLabel();
+}
+
 function currentAuthorLabel() {
   if (!isLoggedIn()) {
     return "Anonymous";
@@ -1814,35 +1841,41 @@ function syncAuthMode() {
   const signingUp = state.authMode === "signup";
   const verifyingSignup = state.authMode === "verify";
   const verifyingPassword = state.authMode === "passwordVerify";
-  const managingProfile = state.authMode === "account" && isLoggedIn();
+  const viewingAccount = state.authMode === "account" && isLoggedIn() && !state.accountEditing;
+  const managingProfile = state.authMode === "account" && isLoggedIn() && state.accountEditing;
   const showReset = !isLoggedIn() && !signingUp;
+  syncAccountSummary();
   elements.authModeSignUp.textContent = isLoggedIn() ? "Account" : "Create account";
-  elements.authModalCopy.classList.toggle("is-hidden", managingProfile || verifyingPassword);
-  elements.authHighlight.classList.toggle("is-hidden", managingProfile || verifyingPassword);
-  elements.authModalSwitch.classList.toggle("is-hidden", managingProfile || verifyingSignup || verifyingPassword);
-  elements.authDivider.classList.toggle("is-hidden", managingProfile || verifyingSignup || verifyingPassword || isLoggedIn());
+  elements.authModalCopy.classList.toggle("is-hidden", viewingAccount || managingProfile || verifyingPassword);
+  elements.authHighlight.classList.toggle("is-hidden", viewingAccount || managingProfile || verifyingPassword);
+  elements.authModalSwitch.classList.toggle("is-hidden", viewingAccount || managingProfile || verifyingSignup || verifyingPassword);
+  elements.authDivider.classList.toggle("is-hidden", viewingAccount || managingProfile || verifyingSignup || verifyingPassword || isLoggedIn());
   elements.authModeSignIn.classList.toggle("is-active", !signingUp && !verifyingSignup && !verifyingPassword);
   elements.authModeSignUp.classList.toggle("is-active", signingUp || verifyingSignup || verifyingPassword || managingProfile);
   elements.authModeSignIn.classList.toggle("is-hidden", isLoggedIn() || verifyingSignup || verifyingPassword);
   elements.authModeSignUp.classList.toggle("is-hidden", verifyingSignup || verifyingPassword || managingProfile);
-  elements.authDisplayNameField.classList.toggle("is-hidden", (!signingUp && !managingProfile) || verifyingSignup || verifyingPassword);
-  elements.authUsernameField.classList.toggle("is-hidden", (!signingUp && !managingProfile) || verifyingSignup || verifyingPassword);
-  elements.authPhoneField.classList.toggle("is-hidden", (!signingUp && !managingProfile) || verifyingSignup || verifyingPassword);
-  elements.authEmailField.classList.toggle("is-hidden", managingProfile || verifyingSignup || verifyingPassword);
-  elements.authPasswordField.classList.toggle("is-hidden", managingProfile || verifyingSignup || verifyingPassword);
+  elements.authAccountSummary.classList.toggle("is-hidden", !viewingAccount);
+  elements.authDisplayNameField.classList.toggle("is-hidden", (!signingUp && !managingProfile) || verifyingSignup || verifyingPassword || viewingAccount);
+  elements.authUsernameField.classList.toggle("is-hidden", (!signingUp && !managingProfile) || verifyingSignup || verifyingPassword || viewingAccount);
+  elements.authPhoneField.classList.toggle("is-hidden", (!signingUp && !managingProfile) || verifyingSignup || verifyingPassword || viewingAccount);
+  elements.authEmailField.classList.toggle("is-hidden", viewingAccount || managingProfile || verifyingSignup || verifyingPassword);
+  elements.authPasswordField.classList.toggle("is-hidden", viewingAccount || managingProfile || verifyingSignup || verifyingPassword);
   elements.authStaySignedInField.classList.toggle("is-hidden", managingProfile || verifyingSignup || verifyingPassword || signingUp);
   elements.authCodeField.classList.toggle("is-hidden", !verifyingSignup && !verifyingPassword);
   elements.authNewPasswordField.classList.toggle("is-hidden", !managingProfile);
   elements.authCurrentPasswordField.classList.toggle("is-hidden", !managingProfile);
   elements.authConfirmPasswordField.classList.toggle("is-hidden", !managingProfile);
-  elements.authAccountActions.classList.toggle("is-hidden", !isLoggedIn());
+  elements.authAccountActions.classList.toggle("is-hidden", !isLoggedIn() || verifyingPassword);
+  elements.authEditAccount.classList.toggle("is-hidden", !viewingAccount);
+  elements.authCancelAccountEdit.classList.toggle("is-hidden", !managingProfile);
   elements.authResetPassword.classList.toggle("is-hidden", !showReset || verifyingSignup);
   elements.authGoogle.classList.toggle("is-hidden", verifyingSignup || verifyingPassword || isLoggedIn());
-  elements.authEmail.required = !managingProfile && !verifyingSignup && !verifyingPassword;
-  elements.authPassword.required = !managingProfile && !verifyingSignup && !verifyingPassword;
+  elements.authEmail.required = !viewingAccount && !managingProfile && !verifyingSignup && !verifyingPassword;
+  elements.authPassword.required = !viewingAccount && !managingProfile && !verifyingSignup && !verifyingPassword;
   elements.authCode.required = verifyingSignup || verifyingPassword;
   elements.authCurrentPassword.required = managingProfile;
   elements.authConfirmPassword.required = managingProfile && Boolean(elements.authNewPassword.value.trim());
+  elements.authSubmit.classList.toggle("is-hidden", viewingAccount);
   elements.authSubmit.textContent = verifyingPassword
     ? "Verify password change"
     : verifyingSignup
@@ -1852,7 +1885,9 @@ function syncAuthMode() {
     : signingUp
     ? "Create account"
     : "Sign in";
-  if (managingProfile) {
+  if (viewingAccount) {
+    elements.authHelper.innerHTML = "These are your existing account details. Choose Change details if you want to update them.";
+  } else if (managingProfile) {
     elements.authHelper.innerHTML = "Change your name, username, or phone number here. Enter your current password to save account changes. Password changes also require an email verification code.";
   } else if (verifyingPassword) {
     const pendingEmail = authState.pendingPasswordChange?.email || authState.user?.email || "your email";
@@ -1881,6 +1916,9 @@ function syncAuthMode() {
 
 function openAuthModal(mode = state.authMode) {
   state.authMode = mode;
+  if (mode === "account") {
+    state.accountEditing = false;
+  }
   syncAuthMode();
   clearAuthFeedback();
   document.getElementById("auth-modal-title").textContent =
@@ -1909,8 +1947,10 @@ function openAuthModal(mode = state.authMode) {
     elements.authCode.focus();
   } else if (state.authMode === "passwordVerify") {
     elements.authCode.focus();
-  } else if (isLoggedIn() && state.authMode === "account") {
+  } else if (isLoggedIn() && state.authMode === "account" && state.accountEditing) {
     elements.authDisplayName.focus();
+  } else if (isLoggedIn() && state.authMode === "account") {
+    elements.authEditAccount.focus();
   } else if (state.authMode === "signup") {
     elements.authDisplayName.focus();
   } else {
@@ -2585,6 +2625,7 @@ async function handleAuthSubmit(event) {
         return;
       }
       updateAuthFeedback("Account updated.");
+      state.accountEditing = false;
       closeAuthModal();
       syncReviewIdentity();
       renderDetail();
@@ -2698,6 +2739,7 @@ async function handleSignOut() {
   }
   authState.pendingVerification = null;
   authState.pendingPasswordChange = null;
+  state.accountEditing = false;
   await authState.client.auth.signOut();
   exitEditMode();
   updateFeedback("Signed out. Guest posting is still available.");
@@ -2706,6 +2748,7 @@ async function handleSignOut() {
 async function handleSwitchAccount() {
   authState.pendingVerification = null;
   authState.pendingPasswordChange = null;
+  state.accountEditing = false;
   await handleSignOut();
   state.authMode = "signin";
   openAuthModal("signin");
@@ -2750,6 +2793,24 @@ function bindFilters() {
   });
   elements.authGoogle.addEventListener("click", handleGoogleSignIn);
   elements.authForm.addEventListener("submit", handleAuthSubmit);
+  elements.authEditAccount.addEventListener("click", () => {
+    state.accountEditing = true;
+    syncAuthMode();
+    clearAuthFeedback();
+    elements.authDisplayName.focus();
+  });
+  elements.authCancelAccountEdit.addEventListener("click", () => {
+    state.accountEditing = false;
+    elements.authDisplayName.value = authState.profile?.displayName || "";
+    elements.authUsername.value = authState.profile?.username || "";
+    elements.authPhone.value = authState.profile?.phone || "";
+    elements.authNewPassword.value = "";
+    elements.authCurrentPassword.value = "";
+    elements.authConfirmPassword.value = "";
+    syncAuthMode();
+    clearAuthFeedback();
+    elements.authEditAccount.focus();
+  });
   elements.authSwitchAccount.addEventListener("click", handleSwitchAccount);
   elements.authSignoutModal.addEventListener("click", async () => {
     closeAuthModal();
