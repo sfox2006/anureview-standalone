@@ -1545,7 +1545,7 @@ function sortReviews(reviews) {
 
 async function voteReview(review, direction, triggerButton) {
   if (!isLoggedIn()) {
-    updateFeedback("Sign in to upvote or downvote reviews.", true);
+    updateFeedback("To upvote or downvote, you need to sign in.", true);
     openAuthModal("signin");
     return;
   }
@@ -1658,12 +1658,11 @@ function renderReviews(item) {
     upvoteButton.type = "button";
     upvoteButton.className = "vote-button";
     upvoteButton.textContent = `Upvote ${counts.upvotes}`;
-    upvoteButton.title = hasVerifiedAccount()
+    upvoteButton.title = isEmailVerified()
       ? "Upvote this review"
       : isLoggedIn()
       ? "Verify your email to vote on reviews"
       : "Sign in to vote on reviews";
-    upvoteButton.disabled = !hasVerifiedAccount();
     upvoteButton.addEventListener("click", () => {
       voteReview(review, "up", upvoteButton);
     });
@@ -1672,12 +1671,11 @@ function renderReviews(item) {
     downvoteButton.type = "button";
     downvoteButton.className = "vote-button vote-button--down";
     downvoteButton.textContent = `Downvote ${counts.downvotes}`;
-    downvoteButton.title = hasVerifiedAccount()
+    downvoteButton.title = isEmailVerified()
       ? "Downvote this review"
       : isLoggedIn()
       ? "Verify your email to vote on reviews"
       : "Sign in to vote on reviews";
-    downvoteButton.disabled = !hasVerifiedAccount();
     downvoteButton.addEventListener("click", () => {
       voteReview(review, "down", downvoteButton);
     });

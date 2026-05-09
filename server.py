@@ -50,6 +50,7 @@ SUPABASE_PUBLISHABLE_KEY = os.environ.get("SUPABASE_PUBLISHABLE_KEY", "").strip(
 SUPABASE_REVIEWS_TABLE = os.environ.get("SUPABASE_REVIEWS_TABLE", "anreview_reviews")
 SUPABASE_REPORTS_TABLE = os.environ.get("SUPABASE_REPORTS_TABLE", "anreview_reports")
 SUPABASE_PROFILES_TABLE = os.environ.get("SUPABASE_PROFILES_TABLE", "anreview_profiles")
+SUPABASE_REVIEW_VOTES_TABLE = os.environ.get("SUPABASE_REVIEW_VOTES_TABLE", "anreview_review_votes")
 GA_MEASUREMENT_ID = os.environ.get("GA_MEASUREMENT_ID", "").strip()
 
 
@@ -466,25 +467,47 @@ def find_review(review_id: str) -> dict | None:
     return next((review for review in reviews if review.get("id") == review_id), None)
 
 
-def save_review_vote(review_id: str, direction: str) -> dict:
+def save_review_vote(review_id: str, direction: str, auth_user: dict | None = None) -> dict:
     if direction not in {"up", "down"}:
         raise ValueError("Vote direction must be 'up' or 'down'.")
+    user_id = sanitize_text(str((auth_user or {}).get("id", "")), 80)
+    if not user_id:
+        raise ValueError("Authentication is required.")
 
     if supabase_enabled():
         rows = call_supabase(
-            f"/rest/v1/{SUPABASE_REVIEWS_TABLE}?id=eq.{review_id}&select=*"
+            f"/rest/v1/{SUPABASE_REVIEWS_TABLE}?id=eq.{quote(review_id)}&select=*"
         )
         if not isinstance(rows, list) or not rows:
             raise ValueError("Review not found.")
         current = review_from_supabase_row(rows[0])
-        current["upvotes"] = int(current.get("upvotes", 0))
-        current["downvotes"] = int(current.get("downvotes", 0))
-        if direction == "up":
-            current["upvotes"] += 1
-        else:
-            current["downvotes"] += 1
+        existing_votes = call_supabase(
+            f"/rest/v1/{SUPABASE_REVIEW_VOTES_TABLE}?review_id=eq.{quote(review_id)}&user_id=eq.{quote(user_id)}&select=direction"
+        )
+        previous_direction = existing_votes[0].get("direction") if isinstance(existing_votes, list) and existing_votes else ""
+        if previous_direction == direction:
+            return current
+        vote_payload = {
+            "review_id": review_id,
+            "user_id": user_id,
+            "direction": direction,
+            "updated_at": datetime.now().isoformat(timespec="seconds"),
+        }
+        call_supabase(
+            f"/rest/v1/{SUPABASE_REVIEW_VOTES_TABLE}",
+            method="POST",
+            payload=vote_payload,
+            prefer="resolution=merge-duplicates,return=minimal",
+        )
+        count_rows = call_supabase(
+            f"/rest/v1/{SUPABASE_REVIEW_VOTES_TABLE}?review_id=eq.{quote(review_id)}&select=direction"
+        )
+        if not isinstance(count_rows, list):
+            count_rows = []
+        current["upvotes"] = sum(1 for vote in count_rows if vote.get("direction") == "up")
+        current["downvotes"] = sum(1 for vote in count_rows if vote.get("direction") == "down")
         result = call_supabase(
-            f"/rest/v1/{SUPABASE_REVIEWS_TABLE}?id=eq.{review_id}",
+            f"/rest/v1/{SUPABASE_REVIEWS_TABLE}?id=eq.{quote(review_id)}",
             method="PATCH",
             payload={
                 "upvotes": current["upvotes"],
@@ -500,8 +523,17 @@ def save_review_vote(review_id: str, direction: str) -> dict:
     reviews = load_anreview_reviews()
     for review in reviews:
         if review.get("id") == review_id:
+            votes = review.setdefault("votes", {})
+            previous_direction = votes.get(user_id)
+            if previous_direction == direction:
+                return review
             review["upvotes"] = int(review.get("upvotes", 0))
             review["downvotes"] = int(review.get("downvotes", 0))
+            if previous_direction == "up":
+                review["upvotes"] = max(0, review["upvotes"] - 1)
+            elif previous_direction == "down":
+                review["downvotes"] = max(0, review["downvotes"] - 1)
+            votes[user_id] = direction
             if direction == "up":
                 review["upvotes"] += 1
             else:
@@ -861,12 +893,12 @@ class AppHandler(SimpleHTTPRequestHandler):
 
             if parsed.path == "/api/anreview/reviews/vote":
                 access_token = extract_bearer_token(self)
-                verify_supabase_user(access_token)
+                auth_user, _profile = verify_supabase_user(access_token)
                 review_id = sanitize_text(str(payload.get("reviewId", "")), 80)
                 direction = sanitize_text(str(payload.get("direction", "")), 8)
                 if not review_id:
                     raise ValueError("Vote must include reviewId.")
-                updated_review = save_review_vote(review_id, direction)
+                updated_review = save_review_vote(review_id, direction, auth_user=auth_user)
                 send_json(self, {"ok": True, "review": updated_review}, status=200)
                 return
 

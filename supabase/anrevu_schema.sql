@@ -58,6 +58,17 @@ create unique index if not exists anreview_profiles_username_idx
 create index if not exists anreview_reviews_item_idx
   on public.anreview_reviews (item_id, inserted_at desc);
 
+create table if not exists public.anreview_review_votes (
+  review_id text not null references public.anreview_reviews(id) on delete cascade,
+  user_id uuid not null,
+  direction text not null check (direction in ('up', 'down')),
+  updated_at timestamptz not null default timezone('utc', now()),
+  primary key (review_id, user_id)
+);
+
+create index if not exists anreview_review_votes_review_idx
+  on public.anreview_review_votes (review_id);
+
 create table if not exists public.anreview_reports (
   id text primary key,
   review_id text not null,
@@ -73,10 +84,12 @@ create index if not exists anreview_reports_status_idx
 grant usage on schema public to anon, authenticated, service_role;
 grant select on public.anreview_reviews to anon, authenticated;
 grant select, insert, update on public.anreview_reviews to service_role;
+grant select, insert, update, delete on public.anreview_review_votes to service_role;
 grant select, insert on public.anreview_reports to service_role;
 grant select, insert, update on public.anreview_profiles to service_role;
 
 alter table public.anreview_reviews enable row level security;
+alter table public.anreview_review_votes enable row level security;
 alter table public.anreview_reports enable row level security;
 alter table public.anreview_profiles enable row level security;
 
@@ -86,6 +99,13 @@ create policy "public can read reviews"
   for select
   to anon, authenticated
   using (true);
+
+drop policy if exists "review votes are server-managed" on public.anreview_review_votes;
+create policy "review votes are server-managed"
+  on public.anreview_review_votes
+  for select
+  to authenticated
+  using (false);
 
 drop policy if exists "public can read reports count only via server" on public.anreview_reports;
 create policy "public can read reports count only via server"
