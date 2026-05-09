@@ -60,6 +60,7 @@ const elements = {
   sortFilter: document.getElementById("sort-filter"),
   resultsMeta: document.getElementById("results-meta"),
   resultsGrid: document.getElementById("results-grid"),
+  directory: document.getElementById("directory"),
   browseView: document.getElementById("browse-view"),
   detailPage: document.getElementById("detail-page"),
   backToResults: document.getElementById("back-to-results"),
@@ -961,6 +962,7 @@ function populateSchoolFilter() {
 
 function renderPageState() {
   const showingDetail = state.view === "detail" && !!getItemById(state.selectedId);
+  elements.directory.classList.toggle("is-detail-open", showingDetail);
   elements.browseView.classList.toggle("is-hidden", showingDetail);
   elements.detailPage.classList.toggle("is-hidden", !showingDetail);
 }

@@ -865,6 +865,14 @@ body {
 /* ── Directory section ──────────────────────────────────── */
 .directory { margin-top: 40px; }
 
+.directory.is-detail-open .directory-head,
+.directory.is-detail-open .type-switch,
+.directory.is-detail-open .workflow-strip,
+.directory.is-detail-open .filters-card,
+.directory.is-detail-open .browse-view {
+  display: none !important;
+}
+
 .directory-head {
   display: flex;
   justify-content: space-between;
