@@ -39,6 +39,32 @@ const authState = {
   pendingPasswordChange: null
 };
 
+const pseudonymAdjectives = [
+  "brave",
+  "bright",
+  "calm",
+  "clever",
+  "curious",
+  "gentle",
+  "kind",
+  "quiet",
+  "swift",
+  "witty"
+];
+
+const pseudonymNouns = [
+  "bear",
+  "falcon",
+  "koala",
+  "otter",
+  "penguin",
+  "possum",
+  "quokka",
+  "sparrow",
+  "turtle",
+  "wombat"
+];
+
 const elements = {
   courseCount: document.getElementById("course-count"),
   staffCount: document.getElementById("staff-count"),
@@ -281,7 +307,7 @@ function enhanceStaticMarkup() {
           <li>Use an <code>@anu.edu.au</code> email and verify it to get the <strong>Verified ANU</strong> tick.</li>
           <li>Edit your own reviews later if you change your mind or want to update them.</li>
           <li>Non-ANU emails still work, but they will not receive the ANU verification tick.</li>
-          <li>Build a recognisable identity beyond anonymous guest posting.</li>
+          <li>Use a pseudonymous reviewer name so nobody can impersonate a real person.</li>
         `;
       }
     }
@@ -366,6 +392,34 @@ function companionItemsFor(item) {
 
 function itemDisplayName(item) {
   return item.type === "course" ? `${item.code} - ${item.name}` : item.name;
+}
+
+function randomReviewerName() {
+  const adjective = pseudonymAdjectives[Math.floor(Math.random() * pseudonymAdjectives.length)];
+  const noun = pseudonymNouns[Math.floor(Math.random() * pseudonymNouns.length)];
+  const suffix = Math.floor(Math.random() * 900) + 100;
+  return `${adjective} ${noun} ${suffix}`;
+}
+
+function normalizeReviewerName(value) {
+  return `${value || ""}`
+    .toLowerCase()
+    .replace(/[^a-z0-9 -]+/g, "")
+    .replace(/[\s-]+/g, " ")
+    .trim()
+    .slice(0, 40)
+    .trim();
+}
+
+function reviewerNameForDisplay(value) {
+  const normalized = normalizeReviewerName(value);
+  if (!normalized) {
+    return "Anonymous";
+  }
+  return normalized
+    .split(" ")
+    .map((part) => part.charAt(0).toUpperCase() + part.slice(1))
+    .join(" ");
 }
 
 function metricLabelsForReviewElements(item, labels) {
@@ -1663,7 +1717,11 @@ function renderReviews(item) {
     authorRow.className = "review-author-row";
     const authorName = document.createElement("strong");
     authorName.className = "review-author-name";
-    authorName.textContent = review.displayName || review.author || review.username || "Anonymous";
+    authorName.textContent = review.isGuest
+      ? "Anonymous"
+      : review.username
+      ? reviewerNameForDisplay(review.username)
+      : "Signed-in reviewer";
     authorRow.appendChild(authorName);
     if (review.isAnuVerified) {
       const verifiedBadge = document.createElement("span");
@@ -1862,7 +1920,9 @@ function syncAccountSummary() {
     return;
   }
   elements.accountSummaryName.textContent = authState.profile?.displayName || "Not set";
-  elements.accountSummaryUsername.textContent = authState.profile?.username || "Not set";
+  elements.accountSummaryUsername.textContent = authState.profile?.username
+    ? reviewerNameForDisplay(authState.profile.username)
+    : "Not set";
   elements.accountSummaryEmail.textContent = authState.user?.email || authState.profile?.email || "Not set";
   elements.accountSummaryPhone.textContent = authState.profile?.phone || "Not set";
   elements.accountSummaryStatus.textContent = accountStatusLabel();
@@ -1872,7 +1932,10 @@ function currentAuthorLabel() {
   if (!isLoggedIn()) {
     return "Anonymous";
   }
-  return authState.profile?.username || authState.profile?.displayName || authState.profile?.author || authState.user.email?.split("@", 1)[0] || "Signed-in user";
+  if (authState.profile?.username) {
+    return reviewerNameForDisplay(authState.profile.username);
+  }
+  return "Signed-in reviewer";
 }
 
 function reviewAuthorPreviewLabel() {
@@ -1942,7 +2005,7 @@ function syncAuthMode() {
   if (viewingAccount) {
     elements.authHelper.innerHTML = "These are your existing account details. Choose Change details if you want to update them.";
   } else if (managingProfile) {
-    elements.authHelper.innerHTML = "Change your name, username, or phone number here. Enter your current password to save account changes. Password changes also require an email verification code.";
+    elements.authHelper.innerHTML = "Change your account details here. Your reviewer name should stay pseudonymous, like <strong>curious bear</strong>, to reduce impersonation and keep ANRevU sustainable. Enter your current password to save account changes.";
   } else if (verifyingPassword) {
     const pendingEmail = authState.pendingPasswordChange?.email || authState.user?.email || "your email";
     elements.authHelper.innerHTML = `We sent a 6-digit password change code to <strong>${pendingEmail}</strong>. Enter it here to finish changing your password.`;
@@ -1950,7 +2013,7 @@ function syncAuthMode() {
     const pendingEmail = authState.pendingVerification?.email || "your email";
     elements.authHelper.innerHTML = `We just sent a 6-digit verification code to <strong>${pendingEmail}</strong>. Enter it here to finish creating your ANRevU account.`;
   } else if (signingUp) {
-    elements.authHelper.innerHTML = "Any email works for ANRevU, but every email account must be verified before it becomes active. Only verified <code>@anu.edu.au</code> accounts receive the <strong>Verified ANU</strong> tick.";
+    elements.authHelper.innerHTML = "Any email works for ANRevU, but every email account must be verified before it becomes active. You are assigned a random reviewer name to reduce impersonation; you can change it to another pseudonym.";
   } else {
     elements.authHelper.innerHTML = "Use the same email you signed up with. All email accounts must be verified to activate signed-in features. Google sign-in works too, and verified <code>@anu.edu.au</code> accounts receive the Verified ANU tick.";
   }
@@ -1985,7 +2048,7 @@ function openAuthModal(mode = state.authMode) {
       ? "Your ANRevU account"
       : "Sign in or create an account";
   elements.authDisplayName.value = authState.profile?.displayName || "";
-  elements.authUsername.value = authState.profile?.username || "";
+  elements.authUsername.value = authState.profile?.username || (state.authMode === "signup" ? randomReviewerName() : "");
   elements.authPhone.value = authState.profile?.phone || "";
   elements.authEmail.value = authState.user?.email || "";
   elements.authStaySignedIn.checked = loadStaySignedInPreference();
@@ -2107,7 +2170,7 @@ function persistAuthStatus() {
       authStatusStorageKey(),
       JSON.stringify({
         signedIn: true,
-        displayName: authState.profile?.username || authState.profile?.displayName || authState.user?.email || "Account",
+        displayName: authState.profile?.username ? reviewerNameForDisplay(authState.profile.username) : "Account",
         email: authState.user?.email || "",
         isAnuVerified: Boolean(authState.profile?.isAnuVerified)
       })
@@ -2208,9 +2271,9 @@ function syncReviewIdentity() {
       : isEmailVerified()
       ? " Your email is verified. If it ends in @anu.edu.au, your reviews can show the Verified ANU tick."
       : " Verify your email to activate signed-in features. All email accounts must be verified before you can post under your account or vote.";
-    elements.authReviewCopy.textContent = `${authorLabel} is signed in. You can still post a review anonymously.${verified}`;
+    elements.authReviewCopy.textContent = `${authorLabel} is your reviewer name. You can still post a review anonymously.${verified}`;
   } else {
-    elements.authReviewCopy.textContent = "Sign in to attach your profile, verify your email, unlock the Verified ANU tick with a verified @anu.edu.au email, and edit your own reviews later. Non-ANU emails still work, but they also need verification and do not receive the tick.";
+    elements.authReviewCopy.textContent = "Sign in to use a pseudonymous reviewer name, verify your email, unlock the Verified ANU tick with a verified @anu.edu.au email, and edit your own reviews later. Non-ANU emails still work, but they also need verification and do not receive the tick.";
   }
   persistAuthStatus();
   if (loggedIn) {
@@ -2532,7 +2595,7 @@ async function initAuth(config) {
       restoreOauthReturnHash();
       state.authMode = "signin";
       syncAuthMode();
-      const signedInName = authState.profile?.displayName || authState.profile?.author || sessionValue.user.email || "your account";
+      const signedInName = currentAuthorLabel();
       updateSyncStatus(`Signed in as ${signedInName}. Your reviews can now be attached to your account.`);
       if (elements.authModal && !elements.authModal.classList.contains("is-hidden")) {
         updateAuthFeedback(`Signed in successfully as ${signedInName}.`);
@@ -2625,14 +2688,14 @@ async function handleAuthSubmit(event) {
 
     if (state.authMode === "account" && isLoggedIn()) {
       const displayName = elements.authDisplayName.value.trim();
-      const username = elements.authUsername.value.trim().toLowerCase();
+      const username = normalizeReviewerName(elements.authUsername.value);
       const phone = elements.authPhone.value.trim();
       const newPassword = elements.authNewPassword.value.trim();
       const confirmPassword = elements.authConfirmPassword.value.trim();
       const currentPassword = elements.authCurrentPassword.value;
       const changedProfile = profileFieldsChanged(displayName, username, phone);
       if (!displayName || !username) {
-        throw new Error("Name and username cannot be blank.");
+        throw new Error("Name and reviewer name cannot be blank.");
       }
       if (!changedProfile && !newPassword) {
         throw new Error("Make a change first, then save your account.");
@@ -2690,10 +2753,10 @@ async function handleAuthSubmit(event) {
 
     if (state.authMode === "signup") {
       const displayName = elements.authDisplayName.value.trim();
-      const username = elements.authUsername.value.trim().toLowerCase();
+      const username = normalizeReviewerName(elements.authUsername.value);
       const phone = elements.authPhone.value.trim();
       if (!displayName || !username) {
-        throw new Error("Name and username are required to create an account.");
+        throw new Error("Name and reviewer name are required to create an account.");
       }
       const { error } = await authState.client.auth.signUp({
         email,
@@ -2877,7 +2940,7 @@ function bindFilters() {
   elements.welcomeBackdrop.addEventListener("click", () => closeWelcomeModal(true));
   elements.welcomeGuest.addEventListener("click", () => {
     closeWelcomeModal(true);
-    updateFeedback("You can browse and post as a guest. Sign in any time later if you want the Verified ANU tick or to edit your own reviews. Non-ANU emails still work, but they do not receive the tick.");
+    updateFeedback("You can browse and post as a guest. Sign in any time later if you want a pseudonymous reviewer name, the Verified ANU tick, or the ability to edit your own reviews.");
   });
   elements.welcomeSignIn.addEventListener("click", () => {
     closeWelcomeModal(true);

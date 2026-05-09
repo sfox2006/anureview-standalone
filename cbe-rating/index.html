@@ -339,11 +339,11 @@
                     <div id="auth-review-card" class="auth-review-card">
                       <div>
                         <p class="auth-review-title">Guest posting is still available.</p>
-                        <p id="auth-review-copy" class="auth-review-copy">Sign in to attach your profile, unlock the Verified ANU tick with an <code>@anu.edu.au</code> email, and edit your own reviews later.</p>
+                        <p id="auth-review-copy" class="auth-review-copy">Sign in to use a pseudonymous reviewer name, unlock the Verified ANU tick with an <code>@anu.edu.au</code> email, and edit your own reviews later.</p>
                         <div class="auth-benefit-list">
                           <span class="auth-benefit-pill">Verified ANU tick for <code>@anu.edu.au</code></span>
                           <span class="auth-benefit-pill">Edit your own reviews later</span>
-                          <span class="auth-benefit-pill">Build a trusted identity beyond Anonymous</span>
+                          <span class="auth-benefit-pill">Use a pseudonym instead of a real name</span>
                         </div>
                       </div>
                       <div class="auth-review-actions">
@@ -352,7 +352,7 @@
                       </div>
                     </div>
                     <label class="field">
-                      <span class="field-label">Your name <span class="field-optional">(optional, leave blank for Anonymous)</span></span>
+                      <span class="field-label">Reviewer name <span class="field-optional">(shown as Anonymous unless you are signed in)</span></span>
                       <input id="review-author" type="text" maxlength="40" placeholder="Anonymous">
                     </label>
                     <label id="review-anonymous-wrap" class="inline-check is-hidden">
@@ -575,7 +575,7 @@
               <strong id="account-summary-name">-</strong>
             </div>
             <div class="account-detail-row">
-              <span>Username</span>
+              <span>Reviewer name</span>
               <strong id="account-summary-username">-</strong>
             </div>
             <div class="account-detail-row">
@@ -592,12 +592,12 @@
             </div>
           </section>
           <label id="auth-display-name-field" class="field">
-            <span class="field-label">Name</span>
-            <input id="auth-display-name" type="text" maxlength="80" placeholder="How your reviews should appear">
+            <span class="field-label">Name <span class="field-optional">(account only, not shown on reviews)</span></span>
+            <input id="auth-display-name" type="text" maxlength="80" placeholder="Your account name">
           </label>
           <label id="auth-username-field" class="field">
-            <span class="field-label">Username <span class="field-optional">(this is the name that comes up on your reviews, unless you opt to remain anonymous)</span></span>
-            <input id="auth-username" type="text" maxlength="40" placeholder="Choose a unique username">
+            <span class="field-label">Reviewer name <span class="field-optional">(a pseudonym like curious bear; this is what comes up on reviews unless you post anonymously)</span></span>
+            <input id="auth-username" type="text" maxlength="40" placeholder="curious bear">
           </label>
           <label id="auth-phone-field" class="field">
             <span class="field-label">Phone number <span class="field-optional">(optional)</span></span>
@@ -668,7 +668,7 @@
               <li>Use a verified <code>@anu.edu.au</code> email to get the <strong>Verified ANU</strong> tick.</li>
               <li>Edit your own reviews later if you change your mind or want to update them.</li>
               <li>Non-ANU emails still work, but they do not receive the verification tick.</li>
-              <li>Build a recognisable identity beyond anonymous guest posting.</li>
+              <li>Use a pseudonymous reviewer name so nobody can impersonate a real person.</li>
             </ul>
             <div class="welcome-actions">
               <button id="welcome-signin" class="btn-primary" type="button">Sign in or create account</button>

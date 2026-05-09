@@ -1,6 +1,7 @@
 from __future__ import annotations
 
 import json
+import hashlib
 import os
 import re
 import tempfile
@@ -33,6 +34,31 @@ BUNDLED_DATA_PATH = WORKSPACE_DIR / "cbe-rating" / "data.js"
 HOST = "0.0.0.0"
 PORT = int(os.environ.get("PORT", "8000"))
 CACHE_VERSION = 9
+
+PSEUDONYM_ADJECTIVES = [
+    "brave",
+    "bright",
+    "calm",
+    "clever",
+    "curious",
+    "gentle",
+    "kind",
+    "quiet",
+    "swift",
+    "witty",
+]
+PSEUDONYM_NOUNS = [
+    "bear",
+    "falcon",
+    "koala",
+    "otter",
+    "penguin",
+    "possum",
+    "quokka",
+    "sparrow",
+    "turtle",
+    "wombat",
+]
 DEFAULT_REVIEW_METRICS = ["Clarity", "Support", "Engagement"]
 BLOCKED_WORD_PATTERNS = [
     r"\bfuck(?:ing|ed|er|ers)?\b",
@@ -191,6 +217,26 @@ def normalize_profile_value(value: str, max_length: int) -> str:
     return sanitize_text(value, max_length)
 
 
+def normalize_reviewer_name(value: str) -> str:
+    cleaned = sanitize_text(value, 40).lower()
+    cleaned = re.sub(r"[^a-z0-9 -]+", "", cleaned)
+    cleaned = re.sub(r"[\s-]+", " ", cleaned).strip()
+    return cleaned[:40].strip()
+
+
+def reviewer_name_for_display(value: str) -> str:
+    normalized = normalize_reviewer_name(value)
+    return " ".join(part.capitalize() for part in normalized.split()) or "Anonymous"
+
+
+def generated_reviewer_name(seed: str) -> str:
+    digest = hashlib.sha256(seed.encode("utf-8")).hexdigest()
+    adjective = PSEUDONYM_ADJECTIVES[int(digest[:2], 16) % len(PSEUDONYM_ADJECTIVES)]
+    noun = PSEUDONYM_NOUNS[int(digest[2:4], 16) % len(PSEUDONYM_NOUNS)]
+    suffix = str(int(digest[4:8], 16) % 900 + 100)
+    return f"{adjective} {noun} {suffix}"
+
+
 def email_verified_from_user(auth_user: dict) -> bool:
     return bool(auth_user.get("email_confirmed_at") or auth_user.get("confirmed_at"))
 
@@ -215,17 +261,18 @@ def derive_user_profile(auth_user: dict, stored_profile: dict | None = None, pro
         ),
         80,
     )
-    username = normalize_profile_value(
-        str(profile_updates.get("username") or stored_profile.get("username") or metadata.get("username") or ""),
-        40,
-    ).lower()
+    username = normalize_reviewer_name(
+        str(profile_updates.get("username") or stored_profile.get("username") or metadata.get("username") or "")
+    )
+    if not username:
+        username = generated_reviewer_name(str(auth_user.get("id") or email or "anonymous"))
     phone = normalize_profile_value(
         str(profile_updates.get("phone") or stored_profile.get("phone") or metadata.get("phone") or ""),
         32,
     )
     email_is_verified = email_verified_from_user(auth_user)
     is_anu_verified = derive_verified_flag(email, email_is_verified)
-    fallback_author = display_name or username or email.split("@", 1)[0] or "Anonymous"
+    fallback_author = reviewer_name_for_display(username)
     return {
         "id": auth_user.get("id", ""),
         "email": email,
@@ -242,15 +289,15 @@ def ensure_unique_username(profile: dict, user_id: str) -> None:
     username = profile.get("username", "")
     if not username:
         return
-    if not re.fullmatch(r"[a-z0-9._-]{3,40}", username):
-        raise ValueError("Usernames must be 3-40 characters using letters, numbers, dots, underscores, or hyphens.")
+    if not re.fullmatch(r"[a-z0-9][a-z0-9 -]{1,38}[a-z0-9]", username):
+        raise ValueError("Reviewer names must be 3-40 characters using letters, numbers, spaces, or hyphens.")
     rows = call_supabase(
         f"/rest/v1/{SUPABASE_PROFILES_TABLE}?select=id,username&username=eq.{quote(username)}"
     )
     if isinstance(rows, list):
         for row in rows:
             if row.get("id") != user_id:
-                raise ValueError("That username is already taken.")
+                raise ValueError("That reviewer name is already taken.")
 
 
 def load_profile_row(user_id: str) -> dict | None:
@@ -563,10 +610,7 @@ def build_review_record(payload: dict, auth_user: dict | None = None, profile: d
 
     post_anonymously = bool(payload.get("postAnonymously", False))
     if auth_user and profile and not post_anonymously:
-        author = normalize_profile_value(
-            str(profile.get("username") or profile.get("display_name") or profile.get("author") or "Anonymous"),
-            40,
-        ) or "Anonymous"
+        author = reviewer_name_for_display(str(profile.get("username") or profile.get("author") or "Anonymous"))
     elif auth_user and post_anonymously:
         author = "Anonymous"
     else:
@@ -603,7 +647,7 @@ def build_review_record(payload: dict, auth_user: dict | None = None, profile: d
         "author": author,
         "userId": auth_user.get("id", "") if auth_user else "",
         "userEmail": profile.get("email", "") if profile else "",
-        "displayName": "" if post_anonymously else profile.get("display_name", "") if profile else "",
+        "displayName": "" if post_anonymously else reviewer_name_for_display(str(profile.get("username", ""))) if profile else "",
         "username": "" if post_anonymously else profile.get("username", "") if profile else "",
         "isAnuVerified": bool(profile.get("is_anu_verified", False)) if profile and not post_anonymously else False,
         "isGuest": bool(post_anonymously) or not bool(auth_user),
