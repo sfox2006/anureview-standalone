@@ -1728,8 +1728,12 @@ function renderDetail() {
   configureLinkedReviewPanel(item);
   const items = filteredOnlyCurrentType();
   const index = items.findIndex((entry) => entry.id === item.id);
-  elements.prevItem.disabled = index <= 0;
-  elements.nextItem.disabled = index === -1 || index >= items.length - 1;
+  if (elements.prevItem) {
+    elements.prevItem.disabled = index <= 0;
+  }
+  if (elements.nextItem) {
+    elements.nextItem.disabled = index === -1 || index >= items.length - 1;
+  }
 }
 
 function updateCounts() {
@@ -2846,20 +2850,24 @@ function bindFilters() {
     document.getElementById("directory")?.scrollIntoView({ behavior: "smooth", block: "start" });
     elements.searchInput.focus();
   });
-  elements.prevItem.addEventListener("click", () => {
-    const items = filteredOnlyCurrentType();
-    const index = items.findIndex((item) => item.id === state.selectedId);
-    if (index > 0) {
-      openDetail(items[index - 1].id);
-    }
-  });
-  elements.nextItem.addEventListener("click", () => {
-    const items = filteredOnlyCurrentType();
-    const index = items.findIndex((item) => item.id === state.selectedId);
-    if (index > -1 && index < items.length - 1) {
-      openDetail(items[index + 1].id);
-    }
-  });
+  if (elements.prevItem) {
+    elements.prevItem.addEventListener("click", () => {
+      const items = filteredOnlyCurrentType();
+      const index = items.findIndex((item) => item.id === state.selectedId);
+      if (index > 0) {
+        openDetail(items[index - 1].id);
+      }
+    });
+  }
+  if (elements.nextItem) {
+    elements.nextItem.addEventListener("click", () => {
+      const items = filteredOnlyCurrentType();
+      const index = items.findIndex((item) => item.id === state.selectedId);
+      if (index > -1 && index < items.length - 1) {
+        openDetail(items[index + 1].id);
+      }
+    });
+  }
   elements.linkedReviewEnabled.addEventListener("change", () => {
     syncLinkedReviewPanel();
     if (elements.linkedReviewEnabled.checked && !elements.linkedReviewPanel.classList.contains("is-hidden")) {

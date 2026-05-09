@@ -1181,18 +1181,23 @@ select.field, .field select {
   justify-content: space-between;
   align-items: center;
   gap: 12px;
-  margin-bottom: 14px;
+  min-height: 86px;
+  margin: 6px 0 22px;
+  padding: 18px 22px;
+  border: 1px solid var(--line);
+  border-radius: var(--radius-lg);
+  background: color-mix(in srgb, var(--surface) 88%, var(--bg-subtle));
 }
 
 .detail-page-actions {
   display: flex;
-  gap: 10px;
+  gap: 14px;
   flex-wrap: wrap;
 }
-
-.detail-page-nav {
-  display: flex;
-  gap: 10px;
+.detail-page-actions .btn-secondary {
+  min-height: 54px;
+  padding: 0 24px;
+  font-size: 0.95rem;
 }
 
 .detail-empty {
@@ -1925,11 +1930,9 @@ select.field, .field select {
   .hero-logo          { width: min(100%, 210px); }
   .college-switch     { grid-template-columns: 1fr; }
   .directory-head     { flex-direction: column; align-items: flex-start; }
-  .detail-page-bar    { flex-direction: column; align-items: stretch; }
+  .detail-page-bar    { flex-direction: column; align-items: stretch; padding: 16px; min-height: auto; }
   .detail-page-actions { width: 100%; flex-direction: column; }
-  .detail-page-nav    { width: 100%; }
-  .detail-page-actions .btn-secondary,
-  .detail-page-nav .btn-secondary { width: 100%; }
+  .detail-page-actions .btn-secondary { width: 100%; }
   .search-submit-row  { flex-direction: column; align-items: stretch; }
   .search-submit      { width: 100%; }
   .filters-card       { grid-template-columns: 1fr; }
