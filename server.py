@@ -608,13 +608,23 @@ def build_review_record(payload: dict, auth_user: dict | None = None, profile: d
     if any(contains_blocked_language(tag) for tag in tags):
         raise ValueError("Swear words cannot be published.")
 
+    review_id = f"shared-{datetime.now().strftime('%Y%m%d%H%M%S%f')}"
     post_anonymously = bool(payload.get("postAnonymously", False))
+    reviewer_username = ""
+    display_name = ""
     if auth_user and profile and not post_anonymously:
-        author = reviewer_name_for_display(str(profile.get("username") or profile.get("author") or "Anonymous"))
+        reviewer_username = normalize_reviewer_name(str(profile.get("username") or profile.get("author") or ""))
+        author = reviewer_name_for_display(reviewer_username)
+        display_name = author
     elif auth_user and post_anonymously:
         author = "Anonymous"
     else:
-        author = sanitize_text(str(payload.get("author", "Anonymous")) or "Anonymous", 40)
+        requested_guest_name = normalize_reviewer_name(str(payload.get("author", "")))
+        if not requested_guest_name or requested_guest_name == "anonymous":
+            requested_guest_name = generated_reviewer_name(review_id)
+        reviewer_username = requested_guest_name
+        author = reviewer_name_for_display(reviewer_username)
+        display_name = author
         if contains_blocked_language(author):
             raise ValueError("Swear words cannot be published.")
 
@@ -641,14 +651,14 @@ def build_review_record(payload: dict, auth_user: dict | None = None, profile: d
         ratings[field] = value
 
     return {
-        "id": f"shared-{datetime.now().strftime('%Y%m%d%H%M%S%f')}",
+        "id": review_id,
         "itemId": item_id,
         "itemType": item_type,
         "author": author,
         "userId": auth_user.get("id", "") if auth_user else "",
         "userEmail": profile.get("email", "") if profile else "",
-        "displayName": "" if post_anonymously else reviewer_name_for_display(str(profile.get("username", ""))) if profile else "",
-        "username": "" if post_anonymously else profile.get("username", "") if profile else "",
+        "displayName": "" if post_anonymously else display_name,
+        "username": "" if post_anonymously else reviewer_username,
         "isAnuVerified": bool(profile.get("is_anu_verified", False)) if profile and not post_anonymously else False,
         "isGuest": bool(post_anonymously) or not bool(auth_user),
         "createdAt": datetime.now().date().isoformat(),

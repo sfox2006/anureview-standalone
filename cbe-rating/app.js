@@ -39,6 +39,8 @@ const authState = {
   pendingPasswordChange: null
 };
 
+const GUEST_REVIEWER_STORAGE_KEY = "anrevu-guest-reviewer-name";
+
 const pseudonymAdjectives = [
   "brave",
   "bright",
@@ -399,6 +401,20 @@ function randomReviewerName() {
   const noun = pseudonymNouns[Math.floor(Math.random() * pseudonymNouns.length)];
   const suffix = Math.floor(Math.random() * 900) + 100;
   return `${adjective} ${noun} ${suffix}`;
+}
+
+function guestReviewerName() {
+  try {
+    const stored = localStorage.getItem(GUEST_REVIEWER_STORAGE_KEY);
+    if (stored) {
+      return reviewerNameForDisplay(stored);
+    }
+    const generated = randomReviewerName();
+    localStorage.setItem(GUEST_REVIEWER_STORAGE_KEY, generated);
+    return reviewerNameForDisplay(generated);
+  } catch {
+    return reviewerNameForDisplay(randomReviewerName());
+  }
 }
 
 function normalizeReviewerName(value) {
@@ -1717,10 +1733,10 @@ function renderReviews(item) {
     authorRow.className = "review-author-row";
     const authorName = document.createElement("strong");
     authorName.className = "review-author-name";
-    authorName.textContent = review.isGuest
-      ? "Anonymous"
-      : review.username
+    authorName.textContent = review.username
       ? reviewerNameForDisplay(review.username)
+      : review.isGuest
+      ? "Anonymous"
       : "Signed-in reviewer";
     authorRow.appendChild(authorName);
     if (review.isAnuVerified) {
@@ -1930,7 +1946,7 @@ function syncAccountSummary() {
 
 function currentAuthorLabel() {
   if (!isLoggedIn()) {
-    return "Anonymous";
+    return guestReviewerName();
   }
   if (authState.profile?.username) {
     return reviewerNameForDisplay(authState.profile.username);
@@ -2257,9 +2273,9 @@ function syncReviewIdentity() {
   const authorLabel = currentAuthorLabel();
   const reviewAuthorLabel = reviewAuthorPreviewLabel();
   elements.reviewAnonymousWrap.classList.toggle("is-hidden", !loggedIn);
-  elements.reviewAuthor.disabled = loggedIn;
-  elements.reviewAuthor.value = loggedIn ? reviewAuthorLabel : "";
-  elements.reviewAuthor.placeholder = loggedIn ? reviewAuthorLabel : "Anonymous";
+  elements.reviewAuthor.disabled = true;
+  elements.reviewAuthor.value = reviewAuthorLabel;
+  elements.reviewAuthor.placeholder = reviewAuthorLabel;
   elements.reviewAuthAction.textContent = loggedIn ? "Manage account" : "Sign in";
   elements.reviewSignout.classList.toggle("is-hidden", !loggedIn);
   elements.reviewSubmit.disabled = loggedIn && !verifiedAccount;
@@ -2273,7 +2289,7 @@ function syncReviewIdentity() {
       : " Verify your email to activate signed-in features. All email accounts must be verified before you can post under your account or vote.";
     elements.authReviewCopy.textContent = `${authorLabel} is your reviewer name. You can still post a review anonymously.${verified}`;
   } else {
-    elements.authReviewCopy.textContent = "Sign in to use a pseudonymous reviewer name, verify your email, unlock the Verified ANU tick with a verified @anu.edu.au email, and edit your own reviews later. Non-ANU emails still work, but they also need verification and do not receive the tick.";
+    elements.authReviewCopy.textContent = `${authorLabel} is your assigned guest reviewer name. Sign in to customise your reviewer name, verify your email, unlock the Verified ANU tick with a verified @anu.edu.au email, and edit your own reviews later.`;
   }
   persistAuthStatus();
   if (loggedIn) {
@@ -2434,7 +2450,7 @@ async function handleReviewSubmit(event) {
     return;
   }
   const postAnonymously = loggedIn && elements.reviewAnonymous.checked;
-  const author = postAnonymously ? "Anonymous" : loggedIn ? currentAuthorLabel() : (elements.reviewAuthor.value.trim() || "Anonymous");
+  const author = postAnonymously ? "Anonymous" : currentAuthorLabel();
   const semester = item.type === "course" ? elements.reviewSemester.value : "";
   if (item.type === "course" && !semester) {
     updateFeedback("Choose the semester when you took this course.", true);
