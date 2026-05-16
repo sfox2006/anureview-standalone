@@ -1726,9 +1726,19 @@ select.field, .field select {
 
 .course-context-grid {
   display: grid;
-  grid-template-columns: minmax(160px, 1.2fr) minmax(170px, 1.3fr) minmax(120px, 0.75fr) minmax(110px, 0.7fr) auto;
+  grid-template-columns: repeat(2, minmax(0, 1fr));
   gap: 10px;
   align-items: end;
+}
+
+.course-context-grid .field {
+  min-width: 0;
+}
+
+.course-context-grid .btn-secondary {
+  grid-column: 1 / -1;
+  width: 100%;
+  min-height: 48px;
 }
 
 .course-context-list {
@@ -2032,7 +2042,6 @@ select.field, .field select {
   .about-section      { grid-template-columns: 1fr; }
   .detail-metrics     { grid-template-columns: repeat(2, 1fr); }
   .review-ratings-grid{ grid-template-columns: repeat(2, 1fr); }
-  .course-context-grid{ grid-template-columns: 1fr 1fr; }
   .review-toolbar     { grid-template-columns: repeat(2, minmax(0, 1fr)); }
 }
 
