@@ -684,7 +684,7 @@ window.ANREVIEW_DATA = {
       "name": "Aarin Sirima",
       "position": "Academic",
       "focus": "ANU Research Portal+ profile",
-      "school": "School of Culture, History &amp; Language",
+      "school": "School of Culture, History & Language",
       "schoolCode": "CHAL",
       "college": "ANU College of Asia and the Pacific",
       "profileUrl": "https://researchportalplus.anu.edu.au/en/persons/aarin-sirima/",
@@ -708,7 +708,7 @@ window.ANREVIEW_DATA = {
       "name": "Aaron Bruhn",
       "position": "Academic",
       "focus": "ANU Research Portal+ profile",
-      "school": "Research School of Finance, Actuarial Studies &amp; Statistics",
+      "school": "Research School of Finance, Actuarial Studies & Statistics",
       "schoolCode": "FASAS",
       "college": "ANU College of Systems and Society",
       "profileUrl": "https://researchportalplus.anu.edu.au/en/persons/aaron-bruhn/",
@@ -754,7 +754,7 @@ window.ANREVIEW_DATA = {
       "name": "Aaron Tang",
       "position": "Academic",
       "focus": "ANU Research Portal+ profile",
-      "school": "Fenner School of Environment &amp; Society",
+      "school": "Fenner School of Environment & Society",
       "schoolCode": "FEAS",
       "college": "ANU College of Systems and Society",
       "profileUrl": "https://researchportalplus.anu.edu.au/en/persons/aaron-tang/",
@@ -791,32 +791,12 @@ window.ANREVIEW_DATA = {
         "Engagement"
       ],
       "tags": [
-        "physics"
-      ]
-    },
-    {
-      "id": "anu-portal-aaron-tranter",
-      "type": "academic",
-      "name": "Aaron Tranter",
-      "position": "Academic",
-      "focus": "ANU Research Portal+ profile",
-      "school": "Department of Quantum Science &amp; Technology",
-      "schoolCode": "DQSAT",
-      "college": "ANU College of Arts and Social Sciences",
-      "profileUrl": "https://researchportalplus.anu.edu.au/en/persons/aaron-tranter/",
-      "email": "",
-      "office": "",
-      "linkedCourses": [],
-      "reviewMetrics": [
-        "Clarity",
-        "Support",
-        "Engagement"
-      ],
-      "tags": [
+        "physics",
         "department-of-quantum-science-amp-technology",
         "college-of-arts-and-social-sciences",
         "research-portal"
-      ]
+      ],
+      "summary": ""
     },
     {
       "id": "anu-portal-abbey-diaz",
@@ -872,7 +852,7 @@ window.ANREVIEW_DATA = {
       "name": "Abhinav Mehta",
       "position": "Academic",
       "focus": "ANU Research Portal+ profile",
-      "school": "Research School of Finance, Actuarial Studies &amp; Statistics",
+      "school": "Research School of Finance, Actuarial Studies & Statistics",
       "schoolCode": "FASAS",
       "college": "ANU College of Systems and Society",
       "profileUrl": "https://researchportalplus.anu.edu.au/en/persons/abhinav-mehta/",
@@ -920,7 +900,7 @@ window.ANREVIEW_DATA = {
       "name": "Adam Butt",
       "position": "Academic",
       "focus": "ANU Research Portal+ profile",
-      "school": "Research School of Finance, Actuarial Studies &amp; Statistics",
+      "school": "Research School of Finance, Actuarial Studies & Statistics",
       "schoolCode": "FASAS",
       "college": "ANU College of Systems and Society",
       "profileUrl": "https://researchportalplus.anu.edu.au/en/persons/adam-butt/",
@@ -944,7 +924,7 @@ window.ANREVIEW_DATA = {
       "name": "Adam Masters",
       "position": "Academic",
       "focus": "ANU Research Portal+ profile",
-      "school": "ANU College of Arts &amp; Social Sciences",
+      "school": "ANU College of Arts & Social Sciences",
       "schoolCode": "AASS",
       "college": "ANU College of Arts and Social Sciences",
       "profileUrl": "https://researchportalplus.anu.edu.au/en/persons/adam-masters/",
@@ -1085,7 +1065,7 @@ window.ANREVIEW_DATA = {
       "name": "Adelaide Bragias",
       "position": "Academic",
       "focus": "ANU Research Portal+ profile",
-      "school": "ANU College of Arts &amp; Social Sciences",
+      "school": "ANU College of Arts & Social Sciences",
       "schoolCode": "AASS",
       "college": "ANU College of Arts and Social Sciences",
       "profileUrl": "https://researchportalplus.anu.edu.au/en/persons/adelaide-bragias/",
@@ -1109,7 +1089,7 @@ window.ANREVIEW_DATA = {
       "name": "Adele Lehane",
       "position": "Academic",
       "focus": "ANU Research Portal+ profile",
-      "school": "Division of Biomedical Science &amp; Biochemistry",
+      "school": "Division of Biomedical Science & Biochemistry",
       "schoolCode": "DBSAB",
       "college": "ANU College of Science and Medicine",
       "profileUrl": "https://researchportalplus.anu.edu.au/en/persons/adele-lehane/",
@@ -1157,7 +1137,7 @@ window.ANREVIEW_DATA = {
       "name": "Aditi Vijayan",
       "position": "Academic",
       "focus": "ANU Research Portal+ profile",
-      "school": "Research School of Astronomy &amp; Astrophysics",
+      "school": "Research School of Astronomy & Astrophysics",
       "schoolCode": "AAA",
       "college": "ANU College of Science and Medicine",
       "profileUrl": "https://researchportalplus.anu.edu.au/en/persons/aditi-vijayan/",
@@ -1218,32 +1198,12 @@ window.ANREVIEW_DATA = {
         "Engagement"
       ],
       "tags": [
-        "physics"
-      ]
-    },
-    {
-      "id": "anu-portal-adrian-ankiewicz",
-      "type": "academic",
-      "name": "Adrian Ankiewicz",
-      "position": "Academic",
-      "focus": "ANU Research Portal+ profile",
-      "school": "Department of Fundamental &amp; Theoretical Physics",
-      "schoolCode": "DFATP",
-      "college": "ANU College of Science and Medicine",
-      "profileUrl": "https://researchportalplus.anu.edu.au/en/persons/adrian-ankiewicz/",
-      "email": "",
-      "office": "",
-      "linkedCourses": [],
-      "reviewMetrics": [
-        "Clarity",
-        "Support",
-        "Engagement"
-      ],
-      "tags": [
+        "physics",
         "department-of-fundamental-amp-theoretical-physics",
         "college-of-science-and-medicine",
         "research-portal"
-      ]
+      ],
+      "summary": ""
     },
     {
       "id": "anu-portal-adrian-cioanca",
@@ -1275,7 +1235,7 @@ window.ANREVIEW_DATA = {
       "name": "Adrian Manning",
       "position": "Academic",
       "focus": "ANU Research Portal+ profile",
-      "school": "Fenner School of Environment &amp; Society",
+      "school": "Fenner School of Environment & Society",
       "schoolCode": "FEAS",
       "college": "ANU College of Systems and Society",
       "profileUrl": "https://researchportalplus.anu.edu.au/en/persons/adrian-manning/",
@@ -1323,7 +1283,7 @@ window.ANREVIEW_DATA = {
       "name": "Adrian Walter",
       "position": "Academic",
       "focus": "ANU Research Portal+ profile",
-      "school": "School of Literature, Languages &amp; Linguistics",
+      "school": "School of Literature, Languages & Linguistics",
       "schoolCode": "LLAL",
       "college": "ANU College of Arts and Social Sciences",
       "profileUrl": "https://researchportalplus.anu.edu.au/en/persons/adrian-walter/",
@@ -1487,7 +1447,7 @@ window.ANREVIEW_DATA = {
       "name": "Aidan Hartshorn",
       "position": "Academic",
       "focus": "ANU Research Portal+ profile",
-      "school": "School of Art &amp; Design",
+      "school": "School of Art & Design",
       "schoolCode": "AAD",
       "college": "ANU College of Systems and Society",
       "profileUrl": "https://researchportalplus.anu.edu.au/en/persons/aidan-hartshorn/",
@@ -1613,38 +1573,18 @@ window.ANREVIEW_DATA = {
       "profileUrl": "https://law.anu.edu.au/about/our-people/akshaya-kamalnath",
       "tags": [
         "law",
-        "asian law commercial and corpora"
-      ],
-      "linkedCourses": [],
-      "reviewMetrics": [
-        "Clarity",
-        "Support",
-        "Engagement"
-      ]
-    },
-    {
-      "id": "anu-portal-akshaya-kamalnath",
-      "type": "academic",
-      "name": "Akshaya Kamalnath",
-      "position": "Academic",
-      "focus": "ANU Research Portal+ profile",
-      "school": "ANU College of Law, Governance and Policy",
-      "schoolCode": "LGP",
-      "college": "ANU College of Law, Governance and Policy",
-      "profileUrl": "https://researchportalplus.anu.edu.au/en/persons/akshaya-kamalnath/",
-      "email": "",
-      "office": "",
-      "linkedCourses": [],
-      "reviewMetrics": [
-        "Clarity",
-        "Support",
-        "Engagement"
-      ],
-      "tags": [
+        "asian law commercial and corpora",
         "anu-college-of-law-governance-and-policy",
         "college-of-law-governance-and-policy",
         "research-portal"
-      ]
+      ],
+      "linkedCourses": [],
+      "reviewMetrics": [
+        "Clarity",
+        "Support",
+        "Engagement"
+      ],
+      "summary": ""
     },
     {
       "id": "anu-portal-ala-barhoum",
@@ -1817,7 +1757,7 @@ window.ANREVIEW_DATA = {
       "name": "Alan Rumsey",
       "position": "Academic",
       "focus": "ANU Research Portal+ profile",
-      "school": "School of Culture, History &amp; Language",
+      "school": "School of Culture, History & Language",
       "schoolCode": "CHAL",
       "college": "ANU College of Arts and Social Sciences",
       "profileUrl": "https://researchportalplus.anu.edu.au/en/persons/alan-rumsey/",
@@ -1841,7 +1781,7 @@ window.ANREVIEW_DATA = {
       "name": "Alan Welsh",
       "position": "Academic",
       "focus": "ANU Research Portal+ profile",
-      "school": "Research School of Finance, Actuarial Studies &amp; Statistics",
+      "school": "Research School of Finance, Actuarial Studies & Statistics",
       "schoolCode": "FASAS",
       "college": "ANU College of Systems and Society",
       "profileUrl": "https://researchportalplus.anu.edu.au/en/persons/alan-welsh/",
@@ -1865,7 +1805,7 @@ window.ANREVIEW_DATA = {
       "name": "Alannah Pearson",
       "position": "Academic",
       "focus": "ANU Research Portal+ profile",
-      "school": "School of Archaeology &amp; Anthropology",
+      "school": "School of Archaeology & Anthropology",
       "schoolCode": "AAA",
       "college": "ANU College of Arts and Social Sciences",
       "profileUrl": "https://researchportalplus.anu.edu.au/en/persons/alannah-pearson/",
@@ -1911,7 +1851,7 @@ window.ANREVIEW_DATA = {
       "name": "Albert Van Dijk",
       "position": "Academic",
       "focus": "ANU Research Portal+ profile",
-      "school": "Fenner School of Environment &amp; Society",
+      "school": "Fenner School of Environment & Society",
       "schoolCode": "FEAS",
       "college": "ANU College of Systems and Society",
       "profileUrl": "https://researchportalplus.anu.edu.au/en/persons/albert-van-dijk/",
@@ -1994,32 +1934,12 @@ window.ANREVIEW_DATA = {
         "Engagement"
       ],
       "tags": [
-        "physics"
-      ]
-    },
-    {
-      "id": "anu-portal-aleese-barron",
-      "type": "academic",
-      "name": "Aleese Barron",
-      "position": "Academic",
-      "focus": "ANU Research Portal+ profile",
-      "school": "Department of Materials Physics",
-      "schoolCode": "DMP",
-      "college": "ANU College of Science and Medicine",
-      "profileUrl": "https://researchportalplus.anu.edu.au/en/persons/aleese-barron/",
-      "email": "",
-      "office": "",
-      "linkedCourses": [],
-      "reviewMetrics": [
-        "Clarity",
-        "Support",
-        "Engagement"
-      ],
-      "tags": [
+        "physics",
         "department-of-materials-physics",
         "college-of-science-and-medicine",
         "research-portal"
-      ]
+      ],
+      "summary": ""
     },
     {
       "id": "anu-portal-alessandra-capezio",
@@ -2075,7 +1995,7 @@ window.ANREVIEW_DATA = {
       "name": "Alex Francois",
       "position": "Academic",
       "focus": "ANU Research Portal+ profile",
-      "school": "School of Culture, History &amp; Language",
+      "school": "School of Culture, History & Language",
       "schoolCode": "CHAL",
       "college": "ANU College of Arts and Social Sciences",
       "profileUrl": "https://researchportalplus.anu.edu.au/en/persons/alex-francois/",
@@ -2112,32 +2032,12 @@ window.ANREVIEW_DATA = {
         "Engagement"
       ],
       "tags": [
-        "comp"
-      ]
-    },
-    {
-      "id": "anu-portal-alex-potanin",
-      "type": "academic",
-      "name": "Alex Potanin",
-      "position": "Academic",
-      "focus": "ANU Research Portal+ profile",
-      "school": "School of Computing",
-      "schoolCode": "COMP",
-      "college": "ANU College of Systems and Society",
-      "profileUrl": "https://researchportalplus.anu.edu.au/en/persons/alex-potanin/",
-      "email": "",
-      "office": "",
-      "linkedCourses": [],
-      "reviewMetrics": [
-        "Clarity",
-        "Support",
-        "Engagement"
-      ],
-      "tags": [
+        "comp",
         "school-of-computing",
         "college-of-systems-and-society",
         "research-portal"
-      ]
+      ],
+      "summary": ""
     },
     {
       "id": "anu-portal-alex-richardson",
@@ -2300,32 +2200,12 @@ window.ANREVIEW_DATA = {
         "Engagement"
       ],
       "tags": [
-        "physics"
-      ]
-    },
-    {
-      "id": "anu-portal-alexander-kiy",
-      "type": "academic",
-      "name": "Alexander Kiy",
-      "position": "Academic",
-      "focus": "ANU Research Portal+ profile",
-      "school": "Department of Materials Physics",
-      "schoolCode": "DMP",
-      "college": "ANU College of Science and Medicine",
-      "profileUrl": "https://researchportalplus.anu.edu.au/en/persons/alexander-kiy/",
-      "email": "",
-      "office": "",
-      "linkedCourses": [],
-      "reviewMetrics": [
-        "Clarity",
-        "Support",
-        "Engagement"
-      ],
-      "tags": [
+        "physics",
         "department-of-materials-physics",
         "college-of-science-and-medicine",
         "research-portal"
-      ]
+      ],
+      "summary": ""
     },
     {
       "id": "anu-portal-alexander-skeels",
@@ -2381,7 +2261,7 @@ window.ANREVIEW_DATA = {
       "name": "Alexander Vadilyev",
       "position": "Academic",
       "focus": "ANU Research Portal+ profile",
-      "school": "Research School of Finance, Actuarial Studies &amp; Statistics",
+      "school": "Research School of Finance, Actuarial Studies & Statistics",
       "schoolCode": "FASAS",
       "college": "ANU College of Systems and Society",
       "profileUrl": "https://researchportalplus.anu.edu.au/en/persons/alexander-vadilyev/",
@@ -2508,38 +2388,18 @@ window.ANREVIEW_DATA = {
       "profileUrl": "https://www.aliajaneparker.com/about",
       "tags": [
         "cass",
-        "school of art & design"
-      ],
-      "linkedCourses": [],
-      "reviewMetrics": [
-        "Clarity",
-        "Support",
-        "Engagement"
-      ]
-    },
-    {
-      "id": "anu-portal-alia-parker",
-      "type": "academic",
-      "name": "Alia Parker",
-      "position": "Academic",
-      "focus": "ANU Research Portal+ profile",
-      "school": "School of Art &amp; Design",
-      "schoolCode": "AAD",
-      "college": "ANU College of Systems and Society",
-      "profileUrl": "https://researchportalplus.anu.edu.au/en/persons/alia-parker/",
-      "email": "",
-      "office": "",
-      "linkedCourses": [],
-      "reviewMetrics": [
-        "Clarity",
-        "Support",
-        "Engagement"
-      ],
-      "tags": [
+        "school of art & design",
         "school-of-art-amp-design",
         "college-of-systems-and-society",
         "research-portal"
-      ]
+      ],
+      "linkedCourses": [],
+      "reviewMetrics": [
+        "Clarity",
+        "Support",
+        "Engagement"
+      ],
+      "summary": ""
     },
     {
       "id": "anu-portal-alice-kennard",
@@ -2667,7 +2527,7 @@ window.ANREVIEW_DATA = {
       "name": "Alison Behie",
       "position": "Academic",
       "focus": "ANU Research Portal+ profile",
-      "school": "ANU College of Arts &amp; Social Sciences",
+      "school": "ANU College of Arts & Social Sciences",
       "schoolCode": "AASS",
       "college": "ANU College of Arts and Social Sciences",
       "profileUrl": "https://researchportalplus.anu.edu.au/en/persons/alison-behie/",
@@ -2859,7 +2719,7 @@ window.ANREVIEW_DATA = {
       "name": "Alison Rotha Moore",
       "position": "Academic",
       "focus": "ANU Research Portal+ profile",
-      "school": "School of Literature, Languages &amp; Linguistics",
+      "school": "School of Literature, Languages & Linguistics",
       "schoolCode": "LLAL",
       "college": "ANU College of Arts and Social Sciences",
       "profileUrl": "https://researchportalplus.anu.edu.au/en/persons/alison-rotha-moore/",
@@ -2929,7 +2789,7 @@ window.ANREVIEW_DATA = {
       "name": "Alvaro Conca Esquembre",
       "position": "Academic",
       "focus": "ANU Research Portal+ profile",
-      "school": "Biology Teaching &amp; Learning Centre",
+      "school": "Biology Teaching & Learning Centre",
       "schoolCode": "BTAL",
       "college": "ANU College of Science and Medicine",
       "profileUrl": "https://researchportalplus.anu.edu.au/en/persons/alvaro-conca-esquembre/",
@@ -2966,32 +2826,12 @@ window.ANREVIEW_DATA = {
         "Engagement"
       ],
       "tags": [
-        "comp"
-      ]
-    },
-    {
-      "id": "anu-portal-alwen-tiu",
-      "type": "academic",
-      "name": "Alwen Tiu",
-      "position": "Academic",
-      "focus": "ANU Research Portal+ profile",
-      "school": "School of Computing",
-      "schoolCode": "COMP",
-      "college": "ANU College of Systems and Society",
-      "profileUrl": "https://researchportalplus.anu.edu.au/en/persons/alwen-tiu/",
-      "email": "",
-      "office": "",
-      "linkedCourses": [],
-      "reviewMetrics": [
-        "Clarity",
-        "Support",
-        "Engagement"
-      ],
-      "tags": [
+        "comp",
         "school-of-computing",
         "college-of-systems-and-society",
         "research-portal"
-      ]
+      ],
+      "summary": ""
     },
     {
       "id": "anu-portal-alysia-robertson",
@@ -3141,7 +2981,7 @@ window.ANREVIEW_DATA = {
       "name": "Amanda Kearney",
       "position": "Academic",
       "focus": "ANU Research Portal+ profile",
-      "school": "School of Archaeology &amp; Anthropology",
+      "school": "School of Archaeology & Anthropology",
       "schoolCode": "AAA",
       "college": "ANU College of Arts and Social Sciences",
       "profileUrl": "https://researchportalplus.anu.edu.au/en/persons/amanda-kearney/",
@@ -3165,7 +3005,7 @@ window.ANREVIEW_DATA = {
       "name": "Amanda Laugesen",
       "position": "Academic",
       "focus": "ANU Research Portal+ profile",
-      "school": "School of Literature, Languages &amp; Linguistics",
+      "school": "School of Literature, Languages & Linguistics",
       "schoolCode": "LLAL",
       "college": "ANU College of Arts and Social Sciences",
       "profileUrl": "https://researchportalplus.anu.edu.au/en/persons/amanda-laugesen/",
@@ -3213,7 +3053,7 @@ window.ANREVIEW_DATA = {
       "name": "Amanda Stuart",
       "position": "Academic",
       "focus": "ANU Research Portal+ profile",
-      "school": "School of Art &amp; Design",
+      "school": "School of Art & Design",
       "schoolCode": "AAD",
       "college": "ANU College of Systems and Society",
       "profileUrl": "https://researchportalplus.anu.edu.au/en/persons/amanda-stuart/",
@@ -3475,7 +3315,7 @@ window.ANREVIEW_DATA = {
       "name": "Amit Seta",
       "position": "Academic",
       "focus": "ANU Research Portal+ profile",
-      "school": "Research School of Astronomy &amp; Astrophysics",
+      "school": "Research School of Astronomy & Astrophysics",
       "schoolCode": "AAA",
       "college": "ANU College of Science and Medicine",
       "profileUrl": "https://researchportalplus.anu.edu.au/en/persons/amit-seta/",
@@ -3499,7 +3339,7 @@ window.ANREVIEW_DATA = {
       "name": "Amy Carrad",
       "position": "Academic",
       "focus": "ANU Research Portal+ profile",
-      "school": "School of Regulation &amp; Global Governance",
+      "school": "School of Regulation & Global Governance",
       "schoolCode": "RAGG",
       "college": "ANU College of Law, Governance and Policy",
       "profileUrl": "https://researchportalplus.anu.edu.au/en/persons/amy-carrad/",
@@ -3560,32 +3400,12 @@ window.ANREVIEW_DATA = {
         "Engagement"
       ],
       "tags": [
-        "cyb"
-      ]
-    },
-    {
-      "id": "anu-portal-amy-mclennan",
-      "type": "academic",
-      "name": "Amy McLennan",
-      "position": "Academic",
-      "focus": "ANU Research Portal+ profile",
-      "school": "School of Cybernetics",
-      "schoolCode": "CYB",
-      "college": "ANU College of Systems and Society",
-      "profileUrl": "https://researchportalplus.anu.edu.au/en/persons/amy-mclennan/",
-      "email": "",
-      "office": "",
-      "linkedCourses": [],
-      "reviewMetrics": [
-        "Clarity",
-        "Support",
-        "Engagement"
-      ],
-      "tags": [
+        "cyb",
         "school-of-cybernetics",
         "college-of-systems-and-society",
         "research-portal"
-      ]
+      ],
+      "summary": ""
     },
     {
       "id": "anu-portal-amy-parry",
@@ -3663,7 +3483,7 @@ window.ANREVIEW_DATA = {
       "name": "Ana Gracanin",
       "position": "Academic",
       "focus": "ANU Research Portal+ profile",
-      "school": "Fenner School of Environment &amp; Society",
+      "school": "Fenner School of Environment & Society",
       "schoolCode": "FEAS",
       "college": "ANU College of Systems and Society",
       "profileUrl": "https://researchportalplus.anu.edu.au/en/persons/ana-gracanin/",
@@ -3805,7 +3625,7 @@ window.ANREVIEW_DATA = {
       "name": "Andras Keszei",
       "position": "Academic",
       "focus": "ANU Research Portal+ profile",
-      "school": "Biology Teaching &amp; Learning Centre",
+      "school": "Biology Teaching & Learning Centre",
       "schoolCode": "BTAL",
       "college": "ANU College of Science and Medicine",
       "profileUrl": "https://researchportalplus.anu.edu.au/en/persons/andras-keszei/",
@@ -3873,7 +3693,7 @@ window.ANREVIEW_DATA = {
       "name": "Andrew Battisti",
       "position": "Academic",
       "focus": "ANU Research Portal+ profile",
-      "school": "Research School of Astronomy &amp; Astrophysics",
+      "school": "Research School of Astronomy & Astrophysics",
       "schoolCode": "AAA",
       "college": "ANU College of Science and Medicine",
       "profileUrl": "https://researchportalplus.anu.edu.au/en/persons/andrew-battisti/",
@@ -4017,7 +3837,7 @@ window.ANREVIEW_DATA = {
       "name": "Andrew Campbell",
       "position": "Academic",
       "focus": "ANU Research Portal+ profile",
-      "school": "Fenner School of Environment &amp; Society",
+      "school": "Fenner School of Environment & Society",
       "schoolCode": "FEAS",
       "college": "ANU College of Systems and Society",
       "profileUrl": "https://researchportalplus.anu.edu.au/en/persons/andrew-campbell/",
@@ -4041,7 +3861,7 @@ window.ANREVIEW_DATA = {
       "name": "Andrew Carr",
       "position": "Academic",
       "focus": "ANU Research Portal+ profile",
-      "school": "Strategic &amp; Defence Studies Centre",
+      "school": "Strategic & Defence Studies Centre",
       "schoolCode": "SADS",
       "college": "ANU College of Arts and Social Sciences",
       "profileUrl": "https://researchportalplus.anu.edu.au/en/persons/andrew-carr/",
@@ -4087,7 +3907,7 @@ window.ANREVIEW_DATA = {
       "name": "Andrew Hammond",
       "position": "Academic",
       "focus": "ANU Research Portal+ profile",
-      "school": "Centre for Arab &amp; Islamic Studies",
+      "school": "Centre for Arab & Islamic Studies",
       "schoolCode": "AAIS",
       "college": "ANU College of Arts and Social Sciences",
       "profileUrl": "https://researchportalplus.anu.edu.au/en/persons/andrew-hammond/",
@@ -4159,7 +3979,7 @@ window.ANREVIEW_DATA = {
       "name": "Andrew Kennedy",
       "position": "Academic",
       "focus": "ANU Research Portal+ profile",
-      "school": "Policy &amp; Governance Program",
+      "school": "Policy & Governance Program",
       "schoolCode": "PAGP",
       "college": "ANU College of Law, Governance and Policy",
       "profileUrl": "https://researchportalplus.anu.edu.au/en/persons/andrew-kennedy/",
@@ -4196,32 +4016,12 @@ window.ANREVIEW_DATA = {
         "Engagement"
       ],
       "tags": [
-        "physics"
-      ]
-    },
-    {
-      "id": "anu-portal-andrew-kingston",
-      "type": "academic",
-      "name": "Andrew Kingston",
-      "position": "Academic",
-      "focus": "ANU Research Portal+ profile",
-      "school": "Department of Materials Physics",
-      "schoolCode": "DMP",
-      "college": "ANU College of Science and Medicine",
-      "profileUrl": "https://researchportalplus.anu.edu.au/en/persons/andrew-kingston/",
-      "email": "",
-      "office": "",
-      "linkedCourses": [],
-      "reviewMetrics": [
-        "Clarity",
-        "Support",
-        "Engagement"
-      ],
-      "tags": [
+        "physics",
         "department-of-materials-physics",
         "college-of-science-and-medicine",
         "research-portal"
-      ]
+      ],
+      "summary": ""
     },
     {
       "id": "anu-portal-andrew-kiss",
@@ -4285,38 +4085,18 @@ window.ANREVIEW_DATA = {
       "profileUrl": "https://law.anu.edu.au/about/our-people/andrew-macintosh",
       "tags": [
         "law",
-        "administrative law environmental"
-      ],
-      "linkedCourses": [],
-      "reviewMetrics": [
-        "Clarity",
-        "Support",
-        "Engagement"
-      ]
-    },
-    {
-      "id": "anu-portal-andrew-macintosh",
-      "type": "academic",
-      "name": "Andrew Macintosh",
-      "position": "Academic",
-      "focus": "ANU Research Portal+ profile",
-      "school": "ANU College of Law, Governance and Policy",
-      "schoolCode": "LGP",
-      "college": "ANU College of Law, Governance and Policy",
-      "profileUrl": "https://researchportalplus.anu.edu.au/en/persons/andrew-macintosh/",
-      "email": "",
-      "office": "",
-      "linkedCourses": [],
-      "reviewMetrics": [
-        "Clarity",
-        "Support",
-        "Engagement"
-      ],
-      "tags": [
+        "administrative law environmental",
         "anu-college-of-law-governance-and-policy",
         "college-of-law-governance-and-policy",
         "research-portal"
-      ]
+      ],
+      "linkedCourses": [],
+      "reviewMetrics": [
+        "Clarity",
+        "Support",
+        "Engagement"
+      ],
+      "summary": ""
     },
     {
       "id": "anu-portal-andrew-mackenzie",
@@ -4324,7 +4104,7 @@ window.ANREVIEW_DATA = {
       "name": "Andrew MacKenzie",
       "position": "Academic",
       "focus": "ANU Research Portal+ profile",
-      "school": "Fenner School of Environment &amp; Society",
+      "school": "Fenner School of Environment & Society",
       "schoolCode": "FEAS",
       "college": "ANU College of Systems and Society",
       "profileUrl": "https://researchportalplus.anu.edu.au/en/persons/andrew-mackenzie/",
@@ -4372,7 +4152,7 @@ window.ANREVIEW_DATA = {
       "name": "Andrew McWilliam",
       "position": "Academic",
       "focus": "ANU Research Portal+ profile",
-      "school": "School of Culture, History &amp; Language",
+      "school": "School of Culture, History & Language",
       "schoolCode": "CHAL",
       "college": "ANU College of Arts and Social Sciences",
       "profileUrl": "https://researchportalplus.anu.edu.au/en/persons/andrew-mcwilliam/",
@@ -4648,32 +4428,12 @@ window.ANREVIEW_DATA = {
         "Engagement"
       ],
       "tags": [
-        "physics"
-      ]
-    },
-    {
-      "id": "anu-portal-andrew-truscott",
-      "type": "academic",
-      "name": "Andrew Truscott",
-      "position": "Academic",
-      "focus": "ANU Research Portal+ profile",
-      "school": "Department of Quantum Science &amp; Technology",
-      "schoolCode": "DQSAT",
-      "college": "ANU College of Arts and Social Sciences",
-      "profileUrl": "https://researchportalplus.anu.edu.au/en/persons/andrew-truscott/",
-      "email": "",
-      "office": "",
-      "linkedCourses": [],
-      "reviewMetrics": [
-        "Clarity",
-        "Support",
-        "Engagement"
-      ],
-      "tags": [
+        "physics",
         "department-of-quantum-science-amp-technology",
         "college-of-arts-and-social-sciences",
         "research-portal"
-      ]
+      ],
+      "summary": ""
     },
     {
       "id": "phys-andrew-wade",
@@ -4694,32 +4454,12 @@ window.ANREVIEW_DATA = {
         "Engagement"
       ],
       "tags": [
-        "physics"
-      ]
-    },
-    {
-      "id": "anu-portal-andrew-wade",
-      "type": "academic",
-      "name": "Andrew Wade",
-      "position": "Academic",
-      "focus": "ANU Research Portal+ profile",
-      "school": "Centre for Gravitational Astrophysics",
-      "schoolCode": "GA",
-      "college": "ANU College of Science and Medicine",
-      "profileUrl": "https://researchportalplus.anu.edu.au/en/persons/andrew-wade/",
-      "email": "",
-      "office": "",
-      "linkedCourses": [],
-      "reviewMetrics": [
-        "Clarity",
-        "Support",
-        "Engagement"
-      ],
-      "tags": [
+        "physics",
         "centre-for-gravitational-astrophysics",
         "college-of-science-and-medicine",
         "research-portal"
-      ]
+      ],
+      "summary": ""
     },
     {
       "id": "anu-portal-andrew-white",
@@ -4751,7 +4491,7 @@ window.ANREVIEW_DATA = {
       "name": "Andrew Wood",
       "position": "Academic",
       "focus": "ANU Research Portal+ profile",
-      "school": "Research School of Finance, Actuarial Studies &amp; Statistics",
+      "school": "Research School of Finance, Actuarial Studies & Statistics",
       "schoolCode": "FASAS",
       "college": "ANU College of Systems and Society",
       "profileUrl": "https://researchportalplus.anu.edu.au/en/persons/andrew-wood/",
@@ -4823,7 +4563,7 @@ window.ANREVIEW_DATA = {
       "name": "Andy Reisinger",
       "position": "Academic",
       "focus": "ANU Research Portal+ profile",
-      "school": "Institute for Climate, Energy &amp; Disaster Solutions",
+      "school": "Institute for Climate, Energy & Disaster Solutions",
       "schoolCode": "ICEADS",
       "college": "ANU College of Arts and Social Sciences",
       "profileUrl": "https://researchportalplus.anu.edu.au/en/persons/andy-reisinger/",
@@ -4847,7 +4587,7 @@ window.ANREVIEW_DATA = {
       "name": "Angela Nicoli",
       "position": "Academic",
       "focus": "ANU Research Portal+ profile",
-      "school": "Biology Teaching &amp; Learning Centre",
+      "school": "Biology Teaching & Learning Centre",
       "schoolCode": "BTAL",
       "college": "ANU College of Science and Medicine",
       "profileUrl": "https://researchportalplus.anu.edu.au/en/persons/angela-nicoli/",
@@ -4943,7 +4683,7 @@ window.ANREVIEW_DATA = {
       "name": "Anik Bhaduri",
       "position": "Academic",
       "focus": "ANU Research Portal+ profile",
-      "school": "Fenner School of Environment &amp; Society",
+      "school": "Fenner School of Environment & Society",
       "schoolCode": "FEAS",
       "college": "ANU College of Systems and Society",
       "profileUrl": "https://researchportalplus.anu.edu.au/en/persons/anik-bhaduri/",
@@ -5037,7 +4777,7 @@ window.ANREVIEW_DATA = {
       "name": "Ann Kumar",
       "position": "Academic",
       "focus": "ANU Research Portal+ profile",
-      "school": "School of Culture, History &amp; Language",
+      "school": "School of Culture, History & Language",
       "schoolCode": "CHAL",
       "college": "ANU College of Arts and Social Sciences",
       "profileUrl": "https://researchportalplus.anu.edu.au/en/persons/ann-kumar/",
@@ -5251,7 +4991,7 @@ window.ANREVIEW_DATA = {
       "name": "Anna Robinson",
       "position": "Academic",
       "focus": "ANU Research Portal+ profile",
-      "school": "Division of Biomedical Science &amp; Biochemistry",
+      "school": "Division of Biomedical Science & Biochemistry",
       "schoolCode": "DBSAB",
       "college": "ANU College of Science and Medicine",
       "profileUrl": "https://researchportalplus.anu.edu.au/en/persons/anna-robinson/",
@@ -5307,38 +5047,18 @@ window.ANREVIEW_DATA = {
       "profileUrl": "https://law.anu.edu.au/about/our-people/anna-saunders",
       "tags": [
         "law",
-        "intellectual property law intern"
-      ],
-      "linkedCourses": [],
-      "reviewMetrics": [
-        "Clarity",
-        "Support",
-        "Engagement"
-      ]
-    },
-    {
-      "id": "anu-portal-anna-saunders",
-      "type": "academic",
-      "name": "Anna Saunders",
-      "position": "Academic",
-      "focus": "ANU Research Portal+ profile",
-      "school": "ANU College of Law, Governance and Policy",
-      "schoolCode": "LGP",
-      "college": "ANU College of Law, Governance and Policy",
-      "profileUrl": "https://researchportalplus.anu.edu.au/en/persons/anna-saunders/",
-      "email": "",
-      "office": "",
-      "linkedCourses": [],
-      "reviewMetrics": [
-        "Clarity",
-        "Support",
-        "Engagement"
-      ],
-      "tags": [
+        "intellectual property law intern",
         "anu-college-of-law-governance-and-policy",
         "college-of-law-governance-and-policy",
         "research-portal"
-      ]
+      ],
+      "linkedCourses": [],
+      "reviewMetrics": [
+        "Clarity",
+        "Support",
+        "Engagement"
+      ],
+      "summary": ""
     },
     {
       "id": "anu-portal-anna-skobeleva",
@@ -5370,7 +5090,7 @@ window.ANREVIEW_DATA = {
       "name": "Anna von Reibnitz",
       "position": "Academic",
       "focus": "ANU Research Portal+ profile",
-      "school": "Research School of Finance, Actuarial Studies &amp; Statistics",
+      "school": "Research School of Finance, Actuarial Studies & Statistics",
       "schoolCode": "FASAS",
       "college": "ANU College of Systems and Society",
       "profileUrl": "https://researchportalplus.anu.edu.au/en/persons/anna-von-reibnitz/",
@@ -5418,7 +5138,7 @@ window.ANREVIEW_DATA = {
       "name": "Annabel Dulhunty",
       "position": "Academic",
       "focus": "ANU Research Portal+ profile",
-      "school": "Policy &amp; Governance Program",
+      "school": "Policy & Governance Program",
       "schoolCode": "PAGP",
       "college": "ANU College of Law, Governance and Policy",
       "profileUrl": "https://researchportalplus.anu.edu.au/en/persons/annabel-dulhunty/",
@@ -5570,38 +5290,18 @@ window.ANREVIEW_DATA = {
       "profileUrl": "https://law.anu.edu.au/about/our-people/anne-mcnaughton",
       "tags": [
         "law",
-        "european law international law p"
-      ],
-      "linkedCourses": [],
-      "reviewMetrics": [
-        "Clarity",
-        "Support",
-        "Engagement"
-      ]
-    },
-    {
-      "id": "anu-portal-anne-mcnaughton",
-      "type": "academic",
-      "name": "Anne McNaughton",
-      "position": "Academic",
-      "focus": "ANU Research Portal+ profile",
-      "school": "ANU Centre for European Studies",
-      "schoolCode": "ES",
-      "college": "ANU College of Law, Governance and Policy",
-      "profileUrl": "https://researchportalplus.anu.edu.au/en/persons/anne-mcnaughton/",
-      "email": "",
-      "office": "",
-      "linkedCourses": [],
-      "reviewMetrics": [
-        "Clarity",
-        "Support",
-        "Engagement"
-      ],
-      "tags": [
+        "european law international law p",
         "anu-centre-for-european-studies",
         "college-of-law-governance-and-policy",
         "research-portal"
-      ]
+      ],
+      "linkedCourses": [],
+      "reviewMetrics": [
+        "Clarity",
+        "Support",
+        "Engagement"
+      ],
+      "summary": ""
     },
     {
       "id": "comp-anne-ozdowska",
@@ -5622,32 +5322,12 @@ window.ANREVIEW_DATA = {
         "Engagement"
       ],
       "tags": [
-        "comp"
-      ]
-    },
-    {
-      "id": "anu-portal-anne-ozdowska",
-      "type": "academic",
-      "name": "Anne Ozdowska",
-      "position": "Academic",
-      "focus": "ANU Research Portal+ profile",
-      "school": "School of Computing",
-      "schoolCode": "COMP",
-      "college": "ANU College of Systems and Society",
-      "profileUrl": "https://researchportalplus.anu.edu.au/en/persons/anne-ozdowska/",
-      "email": "",
-      "office": "",
-      "linkedCourses": [],
-      "reviewMetrics": [
-        "Clarity",
-        "Support",
-        "Engagement"
-      ],
-      "tags": [
+        "comp",
         "school-of-computing",
         "college-of-systems-and-society",
         "research-portal"
-      ]
+      ],
+      "summary": ""
     },
     {
       "id": "anu-portal-anne-parkinson",
@@ -5679,7 +5359,7 @@ window.ANREVIEW_DATA = {
       "name": "Anne Sofie Cornelius Nielsen",
       "position": "Academic",
       "focus": "ANU Research Portal+ profile",
-      "school": "ANU College of Arts &amp; Social Sciences",
+      "school": "ANU College of Arts & Social Sciences",
       "schoolCode": "AASS",
       "college": "ANU College of Arts and Social Sciences",
       "profileUrl": "https://researchportalplus.anu.edu.au/en/persons/anne-sofie-cornelius-nielsen/",
@@ -5703,7 +5383,7 @@ window.ANREVIEW_DATA = {
       "name": "Anneke Myers",
       "position": "Academic",
       "focus": "ANU Research Portal+ profile",
-      "school": "ANU College of Arts &amp; Social Sciences",
+      "school": "ANU College of Arts & Social Sciences",
       "schoolCode": "AASS",
       "college": "ANU College of Arts and Social Sciences",
       "profileUrl": "https://researchportalplus.anu.edu.au/en/persons/anneke-myers/",
@@ -5799,7 +5479,7 @@ window.ANREVIEW_DATA = {
       "name": "Annika Herbert",
       "position": "Academic",
       "focus": "ANU Research Portal+ profile",
-      "school": "School of Culture, History &amp; Language",
+      "school": "School of Culture, History & Language",
       "schoolCode": "CHAL",
       "college": "ANU College of Arts and Social Sciences",
       "profileUrl": "https://researchportalplus.anu.edu.au/en/persons/annika-herbert/",
@@ -5870,7 +5550,7 @@ window.ANREVIEW_DATA = {
       "name": "Anthea Roberts",
       "position": "Academic",
       "focus": "ANU Research Portal+ profile",
-      "school": "School of Regulation &amp; Global Governance",
+      "school": "School of Regulation & Global Governance",
       "schoolCode": "RAGG",
       "college": "ANU College of Law, Governance and Policy",
       "profileUrl": "https://researchportalplus.anu.edu.au/en/persons/anthea-roberts/",
@@ -6014,7 +5694,7 @@ window.ANREVIEW_DATA = {
       "name": "Anthony Milner",
       "position": "Academic",
       "focus": "ANU Research Portal+ profile",
-      "school": "School of Culture, History &amp; Language",
+      "school": "School of Culture, History & Language",
       "schoolCode": "CHAL",
       "college": "ANU College of Arts and Social Sciences",
       "profileUrl": "https://researchportalplus.anu.edu.au/en/persons/anthony-milner/",
@@ -6110,7 +5790,7 @@ window.ANREVIEW_DATA = {
       "name": "Antje Berndt",
       "position": "Academic",
       "focus": "ANU Research Portal+ profile",
-      "school": "Research School of Finance, Actuarial Studies &amp; Statistics",
+      "school": "Research School of Finance, Actuarial Studies & Statistics",
       "schoolCode": "FASAS",
       "college": "ANU College of Systems and Society",
       "profileUrl": "https://researchportalplus.anu.edu.au/en/persons/antje-berndt/",
@@ -6134,7 +5814,7 @@ window.ANREVIEW_DATA = {
       "name": "Antoine Marchal",
       "position": "Academic",
       "focus": "ANU Research Portal+ profile",
-      "school": "Research School of Astronomy &amp; Astrophysics",
+      "school": "Research School of Astronomy & Astrophysics",
       "schoolCode": "AAA",
       "college": "ANU College of Science and Medicine",
       "profileUrl": "https://researchportalplus.anu.edu.au/en/persons/antoine-marchal/",
@@ -6158,7 +5838,7 @@ window.ANREVIEW_DATA = {
       "name": "Anton Malko",
       "position": "Academic",
       "focus": "ANU Research Portal+ profile",
-      "school": "School of Literature, Languages &amp; Linguistics",
+      "school": "School of Literature, Languages & Linguistics",
       "schoolCode": "LLAL",
       "college": "ANU College of Arts and Social Sciences",
       "profileUrl": "https://researchportalplus.anu.edu.au/en/persons/anton-malko/",
@@ -6190,38 +5870,18 @@ window.ANREVIEW_DATA = {
       "profileUrl": "https://law.anu.edu.au/about/our-people/anton-moiseienko",
       "tags": [
         "law",
-        "criminal justice criminal law fi"
-      ],
-      "linkedCourses": [],
-      "reviewMetrics": [
-        "Clarity",
-        "Support",
-        "Engagement"
-      ]
-    },
-    {
-      "id": "anu-portal-anton-moiseienko",
-      "type": "academic",
-      "name": "Anton Moiseienko",
-      "position": "Academic",
-      "focus": "ANU Research Portal+ profile",
-      "school": "ANU College of Law, Governance and Policy",
-      "schoolCode": "LGP",
-      "college": "ANU College of Law, Governance and Policy",
-      "profileUrl": "https://researchportalplus.anu.edu.au/en/persons/anton-moiseienko/",
-      "email": "",
-      "office": "",
-      "linkedCourses": [],
-      "reviewMetrics": [
-        "Clarity",
-        "Support",
-        "Engagement"
-      ],
-      "tags": [
+        "criminal justice criminal law fi",
         "anu-college-of-law-governance-and-policy",
         "college-of-law-governance-and-policy",
         "research-portal"
-      ]
+      ],
+      "linkedCourses": [],
+      "reviewMetrics": [
+        "Clarity",
+        "Support",
+        "Engagement"
+      ],
+      "summary": ""
     },
     {
       "id": "anu-portal-anton-westveld",
@@ -6229,7 +5889,7 @@ window.ANREVIEW_DATA = {
       "name": "Anton Westveld",
       "position": "Academic",
       "focus": "ANU Research Portal+ profile",
-      "school": "Research School of Finance, Actuarial Studies &amp; Statistics",
+      "school": "Research School of Finance, Actuarial Studies & Statistics",
       "schoolCode": "FASAS",
       "college": "ANU College of Systems and Society",
       "profileUrl": "https://researchportalplus.anu.edu.au/en/persons/anton-westveld/",
@@ -6290,32 +5950,12 @@ window.ANREVIEW_DATA = {
         "Engagement"
       ],
       "tags": [
-        "comp"
-      ]
-    },
-    {
-      "id": "anu-portal-antony-hosking",
-      "type": "academic",
-      "name": "Antony Hosking",
-      "position": "Academic",
-      "focus": "ANU Research Portal+ profile",
-      "school": "School of Computing",
-      "schoolCode": "COMP",
-      "college": "ANU College of Systems and Society",
-      "profileUrl": "https://researchportalplus.anu.edu.au/en/persons/antony-hosking/",
-      "email": "",
-      "office": "",
-      "linkedCourses": [],
-      "reviewMetrics": [
-        "Clarity",
-        "Support",
-        "Engagement"
-      ],
-      "tags": [
+        "comp",
         "school-of-computing",
         "college-of-systems-and-society",
         "research-portal"
-      ]
+      ],
+      "summary": ""
     },
     {
       "id": "phys-anuradha-patel",
@@ -6489,7 +6129,7 @@ window.ANREVIEW_DATA = {
       "name": "Arezou Zaresani",
       "position": "Academic",
       "focus": "ANU Research Portal+ profile",
-      "school": "Tax &amp; Transfer Policy Institute",
+      "school": "Tax & Transfer Policy Institute",
       "schoolCode": "TATPI",
       "college": "ANU College of Law, Governance and Policy",
       "profileUrl": "https://researchportalplus.anu.edu.au/en/persons/arezou-zaresani/",
@@ -6513,7 +6153,7 @@ window.ANREVIEW_DATA = {
       "name": "Ari Heinrich",
       "position": "Academic",
       "focus": "ANU Research Portal+ profile",
-      "school": "School of Culture, History &amp; Language",
+      "school": "School of Culture, History & Language",
       "schoolCode": "CHAL",
       "college": "ANU College of Arts and Social Sciences",
       "profileUrl": "https://researchportalplus.anu.edu.au/en/persons/ari-heinrich/",
@@ -6537,7 +6177,7 @@ window.ANREVIEW_DATA = {
       "name": "Ariadne Vromen",
       "position": "Academic",
       "focus": "ANU Research Portal+ profile",
-      "school": "Policy &amp; Governance Program",
+      "school": "Policy & Governance Program",
       "schoolCode": "PAGP",
       "college": "ANU College of Law, Governance and Policy",
       "profileUrl": "https://researchportalplus.anu.edu.au/en/persons/ariadne-vromen/",
@@ -6633,7 +6273,7 @@ window.ANREVIEW_DATA = {
       "name": "Arnagretta Hunter",
       "position": "Academic",
       "focus": "ANU Research Portal+ profile",
-      "school": "Policy &amp; Governance Program",
+      "school": "Policy & Governance Program",
       "schoolCode": "PAGP",
       "college": "ANU College of Law, Governance and Policy",
       "profileUrl": "https://researchportalplus.anu.edu.au/en/persons/arnagretta-hunter/",
@@ -6657,7 +6297,7 @@ window.ANREVIEW_DATA = {
       "name": "Arnick Abdollahi",
       "position": "Academic",
       "focus": "ANU Research Portal+ profile",
-      "school": "Fenner School of Environment &amp; Society",
+      "school": "Fenner School of Environment & Society",
       "schoolCode": "FEAS",
       "college": "ANU College of Systems and Society",
       "profileUrl": "https://researchportalplus.anu.edu.au/en/persons/arnick-abdollahi/",
@@ -6753,7 +6393,7 @@ window.ANREVIEW_DATA = {
       "name": "Ash Collins",
       "position": "Academic",
       "focus": "ANU Research Portal+ profile",
-      "school": "School of Literature, Languages &amp; Linguistics",
+      "school": "School of Literature, Languages & Linguistics",
       "schoolCode": "LLAL",
       "college": "ANU College of Arts and Social Sciences",
       "profileUrl": "https://researchportalplus.anu.edu.au/en/persons/ashok-collins/",
@@ -6814,32 +6454,12 @@ window.ANREVIEW_DATA = {
         "Engagement"
       ],
       "tags": [
-        "cyb"
-      ]
-    },
-    {
-      "id": "anu-portal-ash-lenton",
-      "type": "academic",
-      "name": "Ash Lenton",
-      "position": "Academic",
-      "focus": "ANU Research Portal+ profile",
-      "school": "School of Cybernetics",
-      "schoolCode": "CYB",
-      "college": "ANU College of Systems and Society",
-      "profileUrl": "https://researchportalplus.anu.edu.au/en/persons/ash-lenton/",
-      "email": "",
-      "office": "",
-      "linkedCourses": [],
-      "reviewMetrics": [
-        "Clarity",
-        "Support",
-        "Engagement"
-      ],
-      "tags": [
+        "cyb",
         "school-of-cybernetics",
         "college-of-systems-and-society",
         "research-portal"
-      ]
+      ],
+      "summary": ""
     },
     {
       "id": "anu-portal-ashis-talukder",
@@ -6966,7 +6586,7 @@ window.ANREVIEW_DATA = {
       "name": "Ashley Schram",
       "position": "Academic",
       "focus": "ANU Research Portal+ profile",
-      "school": "School of Regulation &amp; Global Governance",
+      "school": "School of Regulation & Global Governance",
       "schoolCode": "RAGG",
       "college": "ANU College of Law, Governance and Policy",
       "profileUrl": "https://researchportalplus.anu.edu.au/en/persons/ashley-schram/",
@@ -6990,7 +6610,7 @@ window.ANREVIEW_DATA = {
       "name": "Ashton Robinson",
       "position": "Academic",
       "focus": "ANU Research Portal+ profile",
-      "school": "Strategic &amp; Defence Studies Centre",
+      "school": "Strategic & Defence Studies Centre",
       "schoolCode": "SADS",
       "college": "ANU College of Arts and Social Sciences",
       "profileUrl": "https://researchportalplus.anu.edu.au/en/persons/ashton-robinson/",
@@ -7094,38 +6714,18 @@ window.ANREVIEW_DATA = {
       "profileUrl": "https://law.anu.edu.au/about/our-people/asmi-wood",
       "tags": [
         "law",
-        "australian indigenous rights con"
-      ],
-      "linkedCourses": [],
-      "reviewMetrics": [
-        "Clarity",
-        "Support",
-        "Engagement"
-      ]
-    },
-    {
-      "id": "anu-portal-asmi-wood",
-      "type": "academic",
-      "name": "Asmi Wood",
-      "position": "Academic",
-      "focus": "ANU Research Portal+ profile",
-      "school": "ANU College of Law, Governance and Policy",
-      "schoolCode": "LGP",
-      "college": "ANU College of Law, Governance and Policy",
-      "profileUrl": "https://researchportalplus.anu.edu.au/en/persons/asmi-wood/",
-      "email": "",
-      "office": "",
-      "linkedCourses": [],
-      "reviewMetrics": [
-        "Clarity",
-        "Support",
-        "Engagement"
-      ],
-      "tags": [
+        "australian indigenous rights con",
         "anu-college-of-law-governance-and-policy",
         "college-of-law-governance-and-policy",
         "research-portal"
-      ]
+      ],
+      "linkedCourses": [],
+      "reviewMetrics": [
+        "Clarity",
+        "Support",
+        "Engagement"
+      ],
+      "summary": ""
     },
     {
       "id": "cap-bell-f98f340d-4b70-49ee-bf8f-7664dce2c5b2",
@@ -7708,7 +7308,7 @@ window.ANREVIEW_DATA = {
       "name": "Assa Doron",
       "position": "Academic",
       "focus": "ANU Research Portal+ profile",
-      "school": "School of Culture, History &amp; Language",
+      "school": "School of Culture, History & Language",
       "schoolCode": "CHAL",
       "college": "ANU College of Arts and Social Sciences",
       "profileUrl": "https://researchportalplus.anu.edu.au/en/persons/assa-doron/",
@@ -7850,7 +7450,7 @@ window.ANREVIEW_DATA = {
       "school": "Research School of Management",
       "schoolCode": "RSM",
       "college": "CBE",
-      "position": "Associate Professor &amp; Deputy Director - Education",
+      "position": "Associate Professor & Deputy Director - Education",
       "focus": "Business & business administration, Business information systems, Commerce, Management",
       "email": "See ANU profile",
       "office": "Research School of Management",
@@ -9625,7 +9225,7 @@ window.ANREVIEW_DATA = {
       "name": "Ataklti Gebreegziabher",
       "position": "Academic",
       "focus": "ANU Research Portal+ profile",
-      "school": "ANU College of Asia &amp; the Pacific",
+      "school": "ANU College of Asia & the Pacific",
       "schoolCode": "AAP",
       "college": "ANU College of Asia and the Pacific",
       "profileUrl": "https://researchportalplus.anu.edu.au/en/persons/ataklti-gebreegziabher/",
@@ -9697,7 +9297,7 @@ window.ANREVIEW_DATA = {
       "name": "Atholl Anderson",
       "position": "Academic",
       "focus": "ANU Research Portal+ profile",
-      "school": "School of Culture, History &amp; Language",
+      "school": "School of Culture, History & Language",
       "schoolCode": "CHAL",
       "college": "ANU College of Arts and Social Sciences",
       "profileUrl": "https://researchportalplus.anu.edu.au/en/persons/atholl-anderson/",
@@ -9721,7 +9321,7 @@ window.ANREVIEW_DATA = {
       "name": "Aude Fahrer",
       "position": "Academic",
       "focus": "ANU Research Portal+ profile",
-      "school": "Division of Biomedical Science &amp; Biochemistry",
+      "school": "Division of Biomedical Science & Biochemistry",
       "schoolCode": "DBSAB",
       "college": "ANU College of Science and Medicine",
       "profileUrl": "https://researchportalplus.anu.edu.au/en/persons/aude-fahrer/",
@@ -9745,7 +9345,7 @@ window.ANREVIEW_DATA = {
       "name": "Avery Andrews",
       "position": "Academic",
       "focus": "ANU Research Portal+ profile",
-      "school": "School of Literature, Languages &amp; Linguistics",
+      "school": "School of Literature, Languages & Linguistics",
       "schoolCode": "LLAL",
       "college": "ANU College of Arts and Social Sciences",
       "profileUrl": "https://researchportalplus.anu.edu.au/en/persons/avery-andrews/",
@@ -9841,7 +9441,7 @@ window.ANREVIEW_DATA = {
       "name": "Baihua Fu",
       "position": "Academic",
       "focus": "ANU Research Portal+ profile",
-      "school": "Fenner School of Environment &amp; Society",
+      "school": "Fenner School of Environment & Society",
       "schoolCode": "FEAS",
       "college": "ANU College of Systems and Society",
       "profileUrl": "https://researchportalplus.anu.edu.au/en/persons/baihua-fu/",
@@ -10075,7 +9675,7 @@ window.ANREVIEW_DATA = {
       "name": "Bart Meehan",
       "position": "Academic",
       "focus": "ANU Research Portal+ profile",
-      "school": "Fenner School of Environment &amp; Society",
+      "school": "Fenner School of Environment & Society",
       "schoolCode": "FEAS",
       "college": "ANU College of Systems and Society",
       "profileUrl": "https://researchportalplus.anu.edu.au/en/persons/bart-meehan/",
@@ -10099,7 +9699,7 @@ window.ANREVIEW_DATA = {
       "name": "Bashir Fayaq",
       "position": "Academic",
       "focus": "ANU Research Portal+ profile",
-      "school": "ANU College of Asia &amp; the Pacific",
+      "school": "ANU College of Asia & the Pacific",
       "schoolCode": "AAP",
       "college": "ANU College of Asia and the Pacific",
       "profileUrl": "https://researchportalplus.anu.edu.au/en/persons/bashir-fayaq/",
@@ -10147,7 +9747,7 @@ window.ANREVIEW_DATA = {
       "name": "Beatrice Bodart-Bailey",
       "position": "Academic",
       "focus": "ANU Research Portal+ profile",
-      "school": "School of Culture, History &amp; Language",
+      "school": "School of Culture, History & Language",
       "schoolCode": "CHAL",
       "college": "ANU College of Arts and Social Sciences",
       "profileUrl": "https://researchportalplus.anu.edu.au/en/persons/beatrice-bodart-bailey/",
@@ -10243,7 +9843,7 @@ window.ANREVIEW_DATA = {
       "name": "Belinda Townsend",
       "position": "Academic",
       "focus": "ANU Research Portal+ profile",
-      "school": "School of Regulation &amp; Global Governance",
+      "school": "School of Regulation & Global Governance",
       "schoolCode": "RAGG",
       "college": "ANU College of Law, Governance and Policy",
       "profileUrl": "https://researchportalplus.anu.edu.au/en/persons/belinda-townsend/",
@@ -10267,7 +9867,7 @@ window.ANREVIEW_DATA = {
       "name": "Belinda Wilson",
       "position": "Academic",
       "focus": "ANU Research Portal+ profile",
-      "school": "Fenner School of Environment &amp; Society",
+      "school": "Fenner School of Environment & Society",
       "schoolCode": "FEAS",
       "college": "ANU College of Systems and Society",
       "profileUrl": "https://researchportalplus.anu.edu.au/en/persons/belinda-wilson/",
@@ -10339,7 +9939,7 @@ window.ANREVIEW_DATA = {
       "name": "Ben Bramble",
       "position": "Academic",
       "focus": "ANU Research Portal+ profile",
-      "school": "Fenner School of Environment &amp; Society",
+      "school": "Fenner School of Environment & Society",
       "schoolCode": "FEAS",
       "college": "ANU College of Systems and Society",
       "profileUrl": "https://researchportalplus.anu.edu.au/en/persons/ben-bramble/",
@@ -10376,32 +9976,12 @@ window.ANREVIEW_DATA = {
         "Engagement"
       ],
       "tags": [
-        "physics"
-      ]
-    },
-    {
-      "id": "anu-portal-ben-buchler",
-      "type": "academic",
-      "name": "Ben Buchler",
-      "position": "Academic",
-      "focus": "ANU Research Portal+ profile",
-      "school": "Physics Education Centre",
-      "schoolCode": "PE",
-      "college": "ANU College of Science and Medicine",
-      "profileUrl": "https://researchportalplus.anu.edu.au/en/persons/ben-buchler/",
-      "email": "",
-      "office": "",
-      "linkedCourses": [],
-      "reviewMetrics": [
-        "Clarity",
-        "Support",
-        "Engagement"
-      ],
-      "tags": [
+        "physics",
         "physics-education-centre",
         "college-of-science-and-medicine",
         "research-portal"
-      ]
+      ],
+      "summary": ""
     },
     {
       "id": "anu-portal-ben-coombes",
@@ -10409,7 +9989,7 @@ window.ANREVIEW_DATA = {
       "name": "Ben Coombes",
       "position": "Academic",
       "focus": "ANU Research Portal+ profile",
-      "school": "Department of Nuclear Physics &amp; Accelerator Applications",
+      "school": "Department of Nuclear Physics & Accelerator Applications",
       "schoolCode": "DNPAAA",
       "college": "ANU College of Science and Medicine",
       "profileUrl": "https://researchportalplus.anu.edu.au/en/persons/ben-coombes/",
@@ -10433,7 +10013,7 @@ window.ANREVIEW_DATA = {
       "name": "Ben Corry",
       "position": "Academic",
       "focus": "ANU Research Portal+ profile",
-      "school": "Division of Biomedical Science &amp; Biochemistry",
+      "school": "Division of Biomedical Science & Biochemistry",
       "schoolCode": "DBSAB",
       "college": "ANU College of Science and Medicine",
       "profileUrl": "https://researchportalplus.anu.edu.au/en/persons/ben-corry/",
@@ -10599,7 +10179,7 @@ window.ANREVIEW_DATA = {
       "name": "Ben Silverstein",
       "position": "Academic",
       "focus": "ANU Research Portal+ profile",
-      "school": "ANU College of Arts &amp; Social Sciences",
+      "school": "ANU College of Arts & Social Sciences",
       "schoolCode": "AASS",
       "college": "ANU College of Arts and Social Sciences",
       "profileUrl": "https://researchportalplus.anu.edu.au/en/persons/ben-silverstein/",
@@ -10636,54 +10216,13 @@ window.ANREVIEW_DATA = {
         "Engagement"
       ],
       "tags": [
-        "comp"
-      ]
-    },
-    {
-      "id": "cyb-ben-swift",
-      "type": "academic",
-      "name": "Ben Swift",
-      "position": "Senior Lecturer",
-      "focus": "School of Cybernetics",
-      "school": "School of Cybernetics",
-      "schoolCode": "CYB",
-      "college": "ANU College of Systems and Society",
-      "profileUrl": "https://cybernetics.anu.edu.au/people/ben-swift/",
-      "email": "ben.swift@anu.edu.au",
-      "office": "Birch Building",
-      "linkedCourses": [],
-      "reviewMetrics": [
-        "Clarity",
-        "Support",
-        "Engagement"
-      ],
-      "tags": [
-        "cyb"
-      ]
-    },
-    {
-      "id": "anu-portal-ben-swift",
-      "type": "academic",
-      "name": "Ben Swift",
-      "position": "Academic",
-      "focus": "ANU Research Portal+ profile",
-      "school": "School of Cybernetics",
-      "schoolCode": "CYB",
-      "college": "ANU College of Systems and Society",
-      "profileUrl": "https://researchportalplus.anu.edu.au/en/persons/ben-swift/",
-      "email": "",
-      "office": "",
-      "linkedCourses": [],
-      "reviewMetrics": [
-        "Clarity",
-        "Support",
-        "Engagement"
-      ],
-      "tags": [
+        "comp",
+        "cyb",
         "school-of-cybernetics",
         "college-of-systems-and-society",
         "research-portal"
-      ]
+      ],
+      "summary": ""
     },
     {
       "id": "anu-portal-benedict-keaney",
@@ -10691,7 +10230,7 @@ window.ANREVIEW_DATA = {
       "name": "Benedict Keaney",
       "position": "Academic",
       "focus": "ANU Research Portal+ profile",
-      "school": "School of Culture, History &amp; Language",
+      "school": "School of Culture, History & Language",
       "schoolCode": "CHAL",
       "college": "ANU College of Arts and Social Sciences",
       "profileUrl": "https://researchportalplus.anu.edu.au/en/persons/benedict-keaney/",
@@ -10715,7 +10254,7 @@ window.ANREVIEW_DATA = {
       "name": "Benedict Kerkvliet",
       "position": "Academic",
       "focus": "ANU Research Portal+ profile",
-      "school": "ANU College of Asia &amp; the Pacific",
+      "school": "ANU College of Asia & the Pacific",
       "schoolCode": "AAP",
       "college": "ANU College of Asia and the Pacific",
       "profileUrl": "https://researchportalplus.anu.edu.au/en/persons/benedict-kerkvliet/",
@@ -10739,7 +10278,7 @@ window.ANREVIEW_DATA = {
       "name": "Benedict Moleta",
       "position": "Academic",
       "focus": "ANU Research Portal+ profile",
-      "school": "ANU College of Asia &amp; the Pacific",
+      "school": "ANU College of Asia & the Pacific",
       "schoolCode": "AAP",
       "college": "ANU College of Asia and the Pacific",
       "profileUrl": "https://researchportalplus.anu.edu.au/en/persons/benedict-moleta/",
@@ -10859,7 +10398,7 @@ window.ANREVIEW_DATA = {
       "name": "Benjamin Mitchell",
       "position": "Academic",
       "focus": "ANU Research Portal+ profile",
-      "school": "ANU College of Business &amp; Economics",
+      "school": "ANU College of Business & Economics",
       "schoolCode": "BAE",
       "college": "ANU College of Business and Economics",
       "profileUrl": "https://researchportalplus.anu.edu.au/en/persons/benjamin-mitchell/",
@@ -10883,7 +10422,7 @@ window.ANREVIEW_DATA = {
       "name": "Benjamin Penny",
       "position": "Academic",
       "focus": "ANU Research Portal+ profile",
-      "school": "School of Culture, History &amp; Language",
+      "school": "School of Culture, History & Language",
       "schoolCode": "CHAL",
       "college": "ANU College of Arts and Social Sciences",
       "profileUrl": "https://researchportalplus.anu.edu.au/en/persons/benjamin-penny/",
@@ -10907,7 +10446,7 @@ window.ANREVIEW_DATA = {
       "name": "Benjamin Scheele",
       "position": "Academic",
       "focus": "ANU Research Portal+ profile",
-      "school": "Fenner School of Environment &amp; Society",
+      "school": "Fenner School of Environment & Society",
       "schoolCode": "FEAS",
       "college": "ANU College of Systems and Society",
       "profileUrl": "https://researchportalplus.anu.edu.au/en/persons/benjamin-scheele/",
@@ -11355,7 +10894,7 @@ window.ANREVIEW_DATA = {
       "name": "Bjoern Dressel",
       "position": "Academic",
       "focus": "ANU Research Portal+ profile",
-      "school": "Policy &amp; Governance Program",
+      "school": "Policy & Governance Program",
       "schoolCode": "PAGP",
       "college": "ANU College of Law, Governance and Policy",
       "profileUrl": "https://researchportalplus.anu.edu.au/en/persons/bjoern-dressel/",
@@ -11427,7 +10966,7 @@ window.ANREVIEW_DATA = {
       "name": "Bob Webb",
       "position": "Academic",
       "focus": "ANU Research Portal+ profile",
-      "school": "Institute for Climate, Energy &amp; Disaster Solutions",
+      "school": "Institute for Climate, Energy & Disaster Solutions",
       "schoolCode": "ICEADS",
       "college": "ANU College of Arts and Social Sciences",
       "profileUrl": "https://researchportalplus.anu.edu.au/en/persons/bob-webb/",
@@ -11521,7 +11060,7 @@ window.ANREVIEW_DATA = {
       "name": "Borge Bakken",
       "position": "Academic",
       "focus": "ANU Research Portal+ profile",
-      "school": "ANU College of Arts &amp; Social Sciences",
+      "school": "ANU College of Arts & Social Sciences",
       "schoolCode": "AASS",
       "college": "ANU College of Arts and Social Sciences",
       "profileUrl": "https://researchportalplus.anu.edu.au/en/persons/borge-bakken/",
@@ -11569,7 +11108,7 @@ window.ANREVIEW_DATA = {
       "name": "Boris Buchmann",
       "position": "Academic",
       "focus": "ANU Research Portal+ profile",
-      "school": "Research School of Finance, Actuarial Studies &amp; Statistics",
+      "school": "Research School of Finance, Actuarial Studies & Statistics",
       "schoolCode": "FASAS",
       "college": "ANU College of Systems and Society",
       "profileUrl": "https://researchportalplus.anu.edu.au/en/persons/boris-buchmann/",
@@ -11615,7 +11154,7 @@ window.ANREVIEW_DATA = {
       "name": "Brad Tucker",
       "position": "Academic",
       "focus": "ANU Research Portal+ profile",
-      "school": "Research School of Astronomy &amp; Astrophysics",
+      "school": "Research School of Astronomy & Astrophysics",
       "schoolCode": "AAA",
       "college": "ANU College of Science and Medicine",
       "profileUrl": "https://researchportalplus.anu.edu.au/en/persons/brad-tucker/",
@@ -11676,32 +11215,12 @@ window.ANREVIEW_DATA = {
         "Engagement"
       ],
       "tags": [
-        "physics"
-      ]
-    },
-    {
-      "id": "anu-portal-bram-slagmolen",
-      "type": "academic",
-      "name": "Bram Slagmolen",
-      "position": "Academic",
-      "focus": "ANU Research Portal+ profile",
-      "school": "Centre for Gravitational Astrophysics",
-      "schoolCode": "GA",
-      "college": "ANU College of Science and Medicine",
-      "profileUrl": "https://researchportalplus.anu.edu.au/en/persons/bram-slagmolen/",
-      "email": "",
-      "office": "",
-      "linkedCourses": [],
-      "reviewMetrics": [
-        "Clarity",
-        "Support",
-        "Engagement"
-      ],
-      "tags": [
+        "physics",
         "centre-for-gravitational-astrophysics",
         "college-of-science-and-medicine",
         "research-portal"
-      ]
+      ],
+      "summary": ""
     },
     {
       "id": "anu-portal-bree-blakeman",
@@ -11746,32 +11265,12 @@ window.ANREVIEW_DATA = {
         "Engagement"
       ],
       "tags": [
-        "physics"
-      ]
-    },
-    {
-      "id": "anu-portal-brendan-mccormick",
-      "type": "academic",
-      "name": "Brendan McCormick",
-      "position": "Academic",
-      "focus": "ANU Research Portal+ profile",
-      "school": "Department of Nuclear Physics &amp; Accelerator Applications",
-      "schoolCode": "DNPAAA",
-      "college": "ANU College of Science and Medicine",
-      "profileUrl": "https://researchportalplus.anu.edu.au/en/persons/brendan-mccormick/",
-      "email": "",
-      "office": "",
-      "linkedCourses": [],
-      "reviewMetrics": [
-        "Clarity",
-        "Support",
-        "Engagement"
-      ],
-      "tags": [
+        "physics",
         "department-of-nuclear-physics-amp-accelerator-applications",
         "college-of-science-and-medicine",
         "research-portal"
-      ]
+      ],
+      "summary": ""
     },
     {
       "id": "comp-brendan-mckay",
@@ -11792,32 +11291,12 @@ window.ANREVIEW_DATA = {
         "Engagement"
       ],
       "tags": [
-        "comp"
-      ]
-    },
-    {
-      "id": "anu-portal-brendan-mckay",
-      "type": "academic",
-      "name": "Brendan McKay",
-      "position": "Academic",
-      "focus": "ANU Research Portal+ profile",
-      "school": "School of Computing",
-      "schoolCode": "COMP",
-      "college": "ANU College of Systems and Society",
-      "profileUrl": "https://researchportalplus.anu.edu.au/en/persons/brendan-mckay/",
-      "email": "",
-      "office": "",
-      "linkedCourses": [],
-      "reviewMetrics": [
-        "Clarity",
-        "Support",
-        "Engagement"
-      ],
-      "tags": [
+        "comp",
         "school-of-computing",
         "college-of-systems-and-society",
         "research-portal"
-      ]
+      ],
+      "summary": ""
     },
     {
       "id": "anu-portal-brendan-mcmorran",
@@ -11849,7 +11328,7 @@ window.ANREVIEW_DATA = {
       "name": "Brendan Taylor",
       "position": "Academic",
       "focus": "ANU Research Portal+ profile",
-      "school": "Strategic &amp; Defence Studies Centre",
+      "school": "Strategic & Defence Studies Centre",
       "schoolCode": "SADS",
       "college": "ANU College of Arts and Social Sciences",
       "profileUrl": "https://researchportalplus.anu.edu.au/en/persons/brendan-taylor/",
@@ -11886,32 +11365,12 @@ window.ANREVIEW_DATA = {
         "Engagement"
       ],
       "tags": [
-        "cyb"
-      ]
-    },
-    {
-      "id": "anu-portal-brendan-traw",
-      "type": "academic",
-      "name": "Brendan Traw",
-      "position": "Academic",
-      "focus": "ANU Research Portal+ profile",
-      "school": "School of Cybernetics",
-      "schoolCode": "CYB",
-      "college": "ANU College of Systems and Society",
-      "profileUrl": "https://researchportalplus.anu.edu.au/en/persons/brendan-traw/",
-      "email": "",
-      "office": "",
-      "linkedCourses": [],
-      "reviewMetrics": [
-        "Clarity",
-        "Support",
-        "Engagement"
-      ],
-      "tags": [
+        "cyb",
         "school-of-cybernetics",
         "college-of-systems-and-society",
         "research-portal"
-      ]
+      ],
+      "summary": ""
     },
     {
       "id": "phys-brenton-emeritus-lewis",
@@ -12181,7 +11640,7 @@ window.ANREVIEW_DATA = {
       "name": "Brian Li",
       "position": "Academic",
       "focus": "ANU Research Portal+ profile",
-      "school": "School of Culture, History &amp; Language",
+      "school": "School of Culture, History & Language",
       "schoolCode": "CHAL",
       "college": "ANU College of Arts and Social Sciences",
       "profileUrl": "https://researchportalplus.anu.edu.au/en/persons/brian-li/",
@@ -12242,32 +11701,12 @@ window.ANREVIEW_DATA = {
         "Engagement"
       ],
       "tags": [
-        "physics"
-      ]
-    },
-    {
-      "id": "anu-portal-brian-robson",
-      "type": "academic",
-      "name": "Brian Robson",
-      "position": "Academic",
-      "focus": "ANU Research Portal+ profile",
-      "school": "Department of Fundamental &amp; Theoretical Physics",
-      "schoolCode": "DFATP",
-      "college": "ANU College of Science and Medicine",
-      "profileUrl": "https://researchportalplus.anu.edu.au/en/persons/brian-robson/",
-      "email": "",
-      "office": "",
-      "linkedCourses": [],
-      "reviewMetrics": [
-        "Clarity",
-        "Support",
-        "Engagement"
-      ],
-      "tags": [
+        "physics",
         "department-of-fundamental-amp-theoretical-physics",
         "college-of-science-and-medicine",
         "research-portal"
-      ]
+      ],
+      "summary": ""
     },
     {
       "id": "anu-portal-brian-schmidt",
@@ -12347,7 +11786,7 @@ window.ANREVIEW_DATA = {
       "name": "Brian Walker",
       "position": "Academic",
       "focus": "ANU Research Portal+ profile",
-      "school": "Fenner School of Environment &amp; Society",
+      "school": "Fenner School of Environment & Society",
       "schoolCode": "FEAS",
       "college": "ANU College of Systems and Society",
       "profileUrl": "https://researchportalplus.anu.edu.au/en/persons/brian-walker/",
@@ -12379,38 +11818,18 @@ window.ANREVIEW_DATA = {
       "profileUrl": "https://rsfas.anu.edu.au/people/bridget-browne",
       "tags": [
         "rsfas",
-        "actuarial studies"
-      ],
-      "linkedCourses": [],
-      "reviewMetrics": [
-        "Clarity",
-        "Support",
-        "Engagement"
-      ]
-    },
-    {
-      "id": "anu-portal-bridget-browne",
-      "type": "academic",
-      "name": "Bridget Browne",
-      "position": "Academic",
-      "focus": "ANU Research Portal+ profile",
-      "school": "Research School of Finance, Actuarial Studies &amp; Statistics",
-      "schoolCode": "FASAS",
-      "college": "ANU College of Systems and Society",
-      "profileUrl": "https://researchportalplus.anu.edu.au/en/persons/bridget-browne/",
-      "email": "",
-      "office": "",
-      "linkedCourses": [],
-      "reviewMetrics": [
-        "Clarity",
-        "Support",
-        "Engagement"
-      ],
-      "tags": [
+        "actuarial studies",
         "research-school-of-finance-actuarial-studies-amp-statistics",
         "college-of-systems-and-society",
         "research-portal"
-      ]
+      ],
+      "linkedCourses": [],
+      "reviewMetrics": [
+        "Clarity",
+        "Support",
+        "Engagement"
+      ],
+      "summary": ""
     },
     {
       "id": "anu-portal-bridie-moy",
@@ -12442,7 +11861,7 @@ window.ANREVIEW_DATA = {
       "name": "Bronwen Douglas",
       "position": "Academic",
       "focus": "ANU Research Portal+ profile",
-      "school": "School of Culture, History &amp; Language",
+      "school": "School of Culture, History & Language",
       "schoolCode": "CHAL",
       "college": "ANU College of Arts and Social Sciences",
       "profileUrl": "https://researchportalplus.anu.edu.au/en/persons/bronwen-douglas/",
@@ -12466,7 +11885,7 @@ window.ANREVIEW_DATA = {
       "name": "Bronwen Whiting",
       "position": "Academic",
       "focus": "ANU Research Portal+ profile",
-      "school": "Research School of Finance, Actuarial Studies &amp; Statistics",
+      "school": "Research School of Finance, Actuarial Studies & Statistics",
       "schoolCode": "FASAS",
       "college": "ANU College of Systems and Society",
       "profileUrl": "https://researchportalplus.anu.edu.au/en/persons/bronwen-whiting/",
@@ -12490,7 +11909,7 @@ window.ANREVIEW_DATA = {
       "name": "Bronwyn Loong",
       "position": "Academic",
       "focus": "ANU Research Portal+ profile",
-      "school": "Research School of Finance, Actuarial Studies &amp; Statistics",
+      "school": "Research School of Finance, Actuarial Studies & Statistics",
       "schoolCode": "FASAS",
       "college": "ANU College of Systems and Society",
       "profileUrl": "https://researchportalplus.anu.edu.au/en/persons/bronwyn-loong/",
@@ -12562,7 +11981,7 @@ window.ANREVIEW_DATA = {
       "name": "Bruce Doran",
       "position": "Academic",
       "focus": "ANU Research Portal+ profile",
-      "school": "Fenner School of Environment &amp; Society",
+      "school": "Fenner School of Environment & Society",
       "schoolCode": "FEAS",
       "college": "ANU College of Systems and Society",
       "profileUrl": "https://researchportalplus.anu.edu.au/en/persons/bruce-doran/",
@@ -12586,7 +12005,7 @@ window.ANREVIEW_DATA = {
       "name": "Bruce Moore",
       "position": "Academic",
       "focus": "ANU Research Portal+ profile",
-      "school": "School of Literature, Languages &amp; Linguistics",
+      "school": "School of Literature, Languages & Linguistics",
       "schoolCode": "LLAL",
       "college": "ANU College of Arts and Social Sciences",
       "profileUrl": "https://researchportalplus.anu.edu.au/en/persons/bruce-moore/",
@@ -12754,7 +12173,7 @@ window.ANREVIEW_DATA = {
       "name": "Cadhla O Sullivan",
       "position": "Academic",
       "focus": "ANU Research Portal+ profile",
-      "school": "Policy &amp; Governance Program",
+      "school": "Policy & Governance Program",
       "schoolCode": "PAGP",
       "college": "ANU College of Law, Governance and Policy",
       "profileUrl": "https://researchportalplus.anu.edu.au/en/persons/cadhla-o-sullivan/",
@@ -12802,7 +12221,7 @@ window.ANREVIEW_DATA = {
       "name": "Caillan Davenport",
       "position": "Academic",
       "focus": "ANU Research Portal+ profile",
-      "school": "School of Literature, Languages &amp; Linguistics",
+      "school": "School of Literature, Languages & Linguistics",
       "schoolCode": "LLAL",
       "college": "ANU College of Arts and Social Sciences",
       "profileUrl": "https://researchportalplus.anu.edu.au/en/persons/caillan-davenport/",
@@ -13001,38 +12420,18 @@ window.ANREVIEW_DATA = {
       "profileUrl": "https://law.anu.edu.au/about/our-people/cameron-roles",
       "tags": [
         "law",
-        "labour law private law"
-      ],
-      "linkedCourses": [],
-      "reviewMetrics": [
-        "Clarity",
-        "Support",
-        "Engagement"
-      ]
-    },
-    {
-      "id": "anu-portal-cameron-roles",
-      "type": "academic",
-      "name": "Cameron Roles",
-      "position": "Academic",
-      "focus": "ANU Research Portal+ profile",
-      "school": "ANU College of Law, Governance and Policy",
-      "schoolCode": "LGP",
-      "college": "ANU College of Law, Governance and Policy",
-      "profileUrl": "https://researchportalplus.anu.edu.au/en/persons/cameron-roles/",
-      "email": "",
-      "office": "",
-      "linkedCourses": [],
-      "reviewMetrics": [
-        "Clarity",
-        "Support",
-        "Engagement"
-      ],
-      "tags": [
+        "labour law private law",
         "anu-college-of-law-governance-and-policy",
         "college-of-law-governance-and-policy",
         "research-portal"
-      ]
+      ],
+      "linkedCourses": [],
+      "reviewMetrics": [
+        "Clarity",
+        "Support",
+        "Engagement"
+      ],
+      "summary": ""
     },
     {
       "id": "anu-portal-cameron-van-eck",
@@ -13040,7 +12439,7 @@ window.ANREVIEW_DATA = {
       "name": "Cameron Van Eck",
       "position": "Academic",
       "focus": "ANU Research Portal+ profile",
-      "school": "Research School of Astronomy &amp; Astrophysics",
+      "school": "Research School of Astronomy & Astrophysics",
       "schoolCode": "AAA",
       "college": "ANU College of Science and Medicine",
       "profileUrl": "https://researchportalplus.anu.edu.au/en/persons/cameron-van-eck/",
@@ -13064,7 +12463,7 @@ window.ANREVIEW_DATA = {
       "name": "Campbell Macknight",
       "position": "Academic",
       "focus": "ANU Research Portal+ profile",
-      "school": "School of Culture, History &amp; Language",
+      "school": "School of Culture, History & Language",
       "schoolCode": "CHAL",
       "college": "ANU College of Arts and Social Sciences",
       "profileUrl": "https://researchportalplus.anu.edu.au/en/persons/campbell-macknight/",
@@ -13111,7 +12510,7 @@ window.ANREVIEW_DATA = {
       "name": "Carina Wyborn",
       "position": "Academic",
       "focus": "ANU Research Portal+ profile",
-      "school": "Fenner School of Environment &amp; Society",
+      "school": "Fenner School of Environment & Society",
       "schoolCode": "FEAS",
       "college": "ANU College of Systems and Society",
       "profileUrl": "https://researchportalplus.anu.edu.au/en/persons/carina-wyborn/",
@@ -13159,7 +12558,7 @@ window.ANREVIEW_DATA = {
       "name": "Carl Tidemann",
       "position": "Academic",
       "focus": "ANU Research Portal+ profile",
-      "school": "Fenner School of Environment &amp; Society",
+      "school": "Fenner School of Environment & Society",
       "schoolCode": "FEAS",
       "college": "ANU College of Systems and Society",
       "profileUrl": "https://researchportalplus.anu.edu.au/en/persons/carl-tidemann/",
@@ -13327,7 +12726,7 @@ window.ANREVIEW_DATA = {
       "name": "Carolyn Hendriks",
       "position": "Academic",
       "focus": "ANU Research Portal+ profile",
-      "school": "Policy &amp; Governance Program",
+      "school": "Policy & Governance Program",
       "schoolCode": "PAGP",
       "college": "ANU College of Law, Governance and Policy",
       "profileUrl": "https://researchportalplus.anu.edu.au/en/persons/carolyn-hendriks/",
@@ -13434,32 +12833,12 @@ window.ANREVIEW_DATA = {
         "Engagement"
       ],
       "tags": [
-        "comp"
-      ]
-    },
-    {
-      "id": "anu-portal-catherine-galvin",
-      "type": "academic",
-      "name": "Catherine Galvin",
-      "position": "Academic",
-      "focus": "ANU Research Portal+ profile",
-      "school": "School of Engineering",
-      "schoolCode": "ENGN",
-      "college": "ANU College of Systems and Society",
-      "profileUrl": "https://researchportalplus.anu.edu.au/en/persons/catherine-galvin/",
-      "email": "",
-      "office": "",
-      "linkedCourses": [],
-      "reviewMetrics": [
-        "Clarity",
-        "Support",
-        "Engagement"
-      ],
-      "tags": [
+        "comp",
         "school-of-engineering",
         "college-of-systems-and-society",
         "research-portal"
-      ]
+      ],
+      "summary": ""
     },
     {
       "id": "anu-portal-catherine-hirst",
@@ -13491,7 +12870,7 @@ window.ANREVIEW_DATA = {
       "name": "Catherine Ross",
       "position": "Academic",
       "focus": "ANU Research Portal+ profile",
-      "school": "Fenner School of Environment &amp; Society",
+      "school": "Fenner School of Environment & Society",
       "schoolCode": "FEAS",
       "college": "ANU College of Systems and Society",
       "profileUrl": "https://researchportalplus.anu.edu.au/en/persons/catherine-ross/",
@@ -13515,7 +12894,7 @@ window.ANREVIEW_DATA = {
       "name": "Cathy Franzi",
       "position": "Academic",
       "focus": "ANU Research Portal+ profile",
-      "school": "School of Art &amp; Design",
+      "school": "School of Art & Design",
       "schoolCode": "AAD",
       "college": "ANU College of Systems and Society",
       "profileUrl": "https://researchportalplus.anu.edu.au/en/persons/cathy-franzi/",
@@ -13563,7 +12942,7 @@ window.ANREVIEW_DATA = {
       "name": "Cathy Thebridge",
       "position": "Academic",
       "focus": "ANU Research Portal+ profile",
-      "school": "Policy &amp; Governance Program",
+      "school": "Policy & Governance Program",
       "schoolCode": "PAGP",
       "college": "ANU College of Law, Governance and Policy",
       "profileUrl": "https://researchportalplus.anu.edu.au/en/persons/cathy-thebridge/",
@@ -13624,32 +13003,12 @@ window.ANREVIEW_DATA = {
         "Engagement"
       ],
       "tags": [
-        "physics"
-      ]
-    },
-    {
-      "id": "anu-portal-cedric-simenel",
-      "type": "academic",
-      "name": "Cedric Simenel",
-      "position": "Academic",
-      "focus": "ANU Research Portal+ profile",
-      "school": "Department of Nuclear Physics &amp; Accelerator Applications",
-      "schoolCode": "DNPAAA",
-      "college": "ANU College of Science and Medicine",
-      "profileUrl": "https://researchportalplus.anu.edu.au/en/persons/cedric-simenel/",
-      "email": "",
-      "office": "",
-      "linkedCourses": [],
-      "reviewMetrics": [
-        "Clarity",
-        "Support",
-        "Engagement"
-      ],
-      "tags": [
+        "physics",
         "department-of-nuclear-physics-amp-accelerator-applications",
         "college-of-science-and-medicine",
         "research-portal"
-      ]
+      ],
+      "summary": ""
     },
     {
       "id": "anu-portal-celeste-linde",
@@ -13727,7 +13086,7 @@ window.ANREVIEW_DATA = {
       "name": "Celine d'Orgeville",
       "position": "Academic",
       "focus": "ANU Research Portal+ profile",
-      "school": "Research School of Astronomy &amp; Astrophysics",
+      "school": "Research School of Astronomy & Astrophysics",
       "schoolCode": "AAA",
       "college": "ANU College of Science and Medicine",
       "profileUrl": "https://researchportalplus.anu.edu.au/en/persons/celine-dorgeville/",
@@ -13751,7 +13110,7 @@ window.ANREVIEW_DATA = {
       "name": "Ceri Shipton",
       "position": "Academic",
       "focus": "ANU Research Portal+ profile",
-      "school": "School of Culture, History &amp; Language",
+      "school": "School of Culture, History & Language",
       "schoolCode": "CHAL",
       "college": "ANU College of Arts and Social Sciences",
       "profileUrl": "https://researchportalplus.anu.edu.au/en/persons/ceri-shipton/",
@@ -13775,7 +13134,7 @@ window.ANREVIEW_DATA = {
       "name": "Chad Stevenson",
       "position": "Academic",
       "focus": "ANU Research Portal+ profile",
-      "school": "ANU College of Arts &amp; Social Sciences",
+      "school": "ANU College of Arts & Social Sciences",
       "schoolCode": "AASS",
       "college": "ANU College of Arts and Social Sciences",
       "profileUrl": "https://researchportalplus.anu.edu.au/en/persons/chad-stevenson/",
@@ -13799,7 +13158,7 @@ window.ANREVIEW_DATA = {
       "name": "Chalaka Fernando",
       "position": "Academic",
       "focus": "ANU Research Portal+ profile",
-      "school": "Fenner School of Environment &amp; Society",
+      "school": "Fenner School of Environment & Society",
       "schoolCode": "FEAS",
       "college": "ANU College of Systems and Society",
       "profileUrl": "https://researchportalplus.anu.edu.au/en/persons/chalaka-fernando/",
@@ -13823,7 +13182,7 @@ window.ANREVIEW_DATA = {
       "name": "Chandani Lokuge",
       "position": "Academic",
       "focus": "ANU Research Portal+ profile",
-      "school": "School of Literature, Languages &amp; Linguistics",
+      "school": "School of Literature, Languages & Linguistics",
       "schoolCode": "LLAL",
       "college": "ANU College of Arts and Social Sciences",
       "profileUrl": "https://researchportalplus.anu.edu.au/en/persons/chandani-lokuge/",
@@ -13870,7 +13229,7 @@ window.ANREVIEW_DATA = {
       "name": "Chao Gao",
       "position": "Academic",
       "focus": "ANU Research Portal+ profile",
-      "school": "Research School of Finance, Actuarial Studies &amp; Statistics",
+      "school": "Research School of Finance, Actuarial Studies & Statistics",
       "schoolCode": "FASAS",
       "college": "ANU College of Systems and Society",
       "profileUrl": "https://researchportalplus.anu.edu.au/en/persons/chao-gao/",
@@ -13931,32 +13290,12 @@ window.ANREVIEW_DATA = {
         "Engagement"
       ],
       "tags": [
-        "physics"
-      ]
-    },
-    {
-      "id": "anu-portal-chaohao-chen",
-      "type": "academic",
-      "name": "Chaohao Chen",
-      "position": "Academic",
-      "focus": "ANU Research Portal+ profile",
-      "school": "Department of Electronic Materials Engineering",
-      "schoolCode": "DEME",
-      "college": "ANU College of Systems and Society",
-      "profileUrl": "https://researchportalplus.anu.edu.au/en/persons/chaohao-chen/",
-      "email": "",
-      "office": "",
-      "linkedCourses": [],
-      "reviewMetrics": [
-        "Clarity",
-        "Support",
-        "Engagement"
-      ],
-      "tags": [
+        "physics",
         "department-of-electronic-materials-engineering",
         "college-of-systems-and-society",
         "research-portal"
-      ]
+      ],
+      "summary": ""
     },
     {
       "id": "comp-charini-nanayakkara",
@@ -13977,32 +13316,12 @@ window.ANREVIEW_DATA = {
         "Engagement"
       ],
       "tags": [
-        "comp"
-      ]
-    },
-    {
-      "id": "anu-portal-charini-nanayakkara",
-      "type": "academic",
-      "name": "Charini Nanayakkara",
-      "position": "Academic",
-      "focus": "ANU Research Portal+ profile",
-      "school": "School of Computing",
-      "schoolCode": "COMP",
-      "college": "ANU College of Systems and Society",
-      "profileUrl": "https://researchportalplus.anu.edu.au/en/persons/charini-nanayakkara/",
-      "email": "",
-      "office": "",
-      "linkedCourses": [],
-      "reviewMetrics": [
-        "Clarity",
-        "Support",
-        "Engagement"
-      ],
-      "tags": [
+        "comp",
         "school-of-computing",
         "college-of-systems-and-society",
         "research-portal"
-      ]
+      ],
+      "summary": ""
     },
     {
       "id": "anu-portal-charles-bou-sleiman",
@@ -14070,32 +13389,12 @@ window.ANREVIEW_DATA = {
         "Engagement"
       ],
       "tags": [
-        "comp"
-      ]
-    },
-    {
-      "id": "anu-portal-charles-gretton",
-      "type": "academic",
-      "name": "Charles Gretton",
-      "position": "Academic",
-      "focus": "ANU Research Portal+ profile",
-      "school": "School of Computing",
-      "schoolCode": "COMP",
-      "college": "ANU College of Systems and Society",
-      "profileUrl": "https://researchportalplus.anu.edu.au/en/persons/charles-gretton/",
-      "email": "",
-      "office": "",
-      "linkedCourses": [],
-      "reviewMetrics": [
-        "Clarity",
-        "Support",
-        "Engagement"
-      ],
-      "tags": [
+        "comp",
         "school-of-computing",
         "college-of-systems-and-society",
         "research-portal"
-      ]
+      ],
+      "summary": ""
     },
     {
       "id": "comp-charles-martin",
@@ -14116,32 +13415,12 @@ window.ANREVIEW_DATA = {
         "Engagement"
       ],
       "tags": [
-        "comp"
-      ]
-    },
-    {
-      "id": "anu-portal-charles-martin",
-      "type": "academic",
-      "name": "Charles Martin",
-      "position": "Academic",
-      "focus": "ANU Research Portal+ profile",
-      "school": "School of Computing",
-      "schoolCode": "COMP",
-      "college": "ANU College of Systems and Society",
-      "profileUrl": "https://researchportalplus.anu.edu.au/en/persons/charles-martin/",
-      "email": "",
-      "office": "",
-      "linkedCourses": [],
-      "reviewMetrics": [
-        "Clarity",
-        "Support",
-        "Engagement"
-      ],
-      "tags": [
+        "comp",
         "school-of-computing",
         "college-of-systems-and-society",
         "research-portal"
-      ]
+      ],
+      "summary": ""
     },
     {
       "id": "anu-portal-charlie-cooper-charlie-cooper",
@@ -14269,7 +13548,7 @@ window.ANREVIEW_DATA = {
       "name": "Charlotte Kendra Gotangco Gonzales",
       "position": "Academic",
       "focus": "ANU Research Portal+ profile",
-      "school": "Fenner School of Environment &amp; Society",
+      "school": "Fenner School of Environment & Society",
       "schoolCode": "FEAS",
       "college": "ANU College of Systems and Society",
       "profileUrl": "https://researchportalplus.anu.edu.au/en/persons/charlotte-kendra-gotangco-gonzales/",
@@ -14306,32 +13585,12 @@ window.ANREVIEW_DATA = {
         "Engagement"
       ],
       "tags": [
-        "physics"
-      ]
-    },
-    {
-      "id": "anu-portal-chathura-bandutunga",
-      "type": "academic",
-      "name": "Chathura Bandutunga",
-      "position": "Academic",
-      "focus": "ANU Research Portal+ profile",
-      "school": "Centre for Gravitational Astrophysics",
-      "schoolCode": "GA",
-      "college": "ANU College of Science and Medicine",
-      "profileUrl": "https://researchportalplus.anu.edu.au/en/persons/chathura-bandutunga/",
-      "email": "",
-      "office": "",
-      "linkedCourses": [],
-      "reviewMetrics": [
-        "Clarity",
-        "Support",
-        "Engagement"
-      ],
-      "tags": [
+        "physics",
         "centre-for-gravitational-astrophysics",
         "college-of-science-and-medicine",
         "research-portal"
-      ]
+      ],
+      "summary": ""
     },
     {
       "id": "anu-portal-chathura-suraweera",
@@ -14411,7 +13670,7 @@ window.ANREVIEW_DATA = {
       "name": "Chen Tang",
       "position": "Academic",
       "focus": "ANU Research Portal+ profile",
-      "school": "Research School of Finance, Actuarial Studies &amp; Statistics",
+      "school": "Research School of Finance, Actuarial Studies & Statistics",
       "schoolCode": "FASAS",
       "college": "ANU College of Systems and Society",
       "profileUrl": "https://researchportalplus.anu.edu.au/en/persons/chen-tang/",
@@ -14553,7 +13812,7 @@ window.ANREVIEW_DATA = {
       "name": "Chenke Zang",
       "position": "Academic",
       "focus": "ANU Research Portal+ profile",
-      "school": "Biology Teaching &amp; Learning Centre",
+      "school": "Biology Teaching & Learning Centre",
       "schoolCode": "BTAL",
       "college": "ANU College of Science and Medicine",
       "profileUrl": "https://researchportalplus.anu.edu.au/en/persons/chenke-zang/",
@@ -14590,32 +13849,12 @@ window.ANREVIEW_DATA = {
         "Engagement"
       ],
       "tags": [
-        "physics"
-      ]
-    },
-    {
-      "id": "anu-portal-chennupati-jagadish",
-      "type": "academic",
-      "name": "Chennupati Jagadish",
-      "position": "Academic",
-      "focus": "ANU Research Portal+ profile",
-      "school": "Department of Electronic Materials Engineering",
-      "schoolCode": "DEME",
-      "college": "ANU College of Systems and Society",
-      "profileUrl": "https://researchportalplus.anu.edu.au/en/persons/chennupati-jagadish/",
-      "email": "",
-      "office": "",
-      "linkedCourses": [],
-      "reviewMetrics": [
-        "Clarity",
-        "Support",
-        "Engagement"
-      ],
-      "tags": [
+        "physics",
         "department-of-electronic-materials-engineering",
         "college-of-systems-and-society",
         "research-portal"
-      ]
+      ],
+      "summary": ""
     },
     {
       "id": "anu-portal-chiara-holgate",
@@ -14731,32 +13970,12 @@ window.ANREVIEW_DATA = {
         "Engagement"
       ],
       "tags": [
-        "comp"
-      ]
-    },
-    {
-      "id": "anu-portal-chirath-hettiarachchi",
-      "type": "academic",
-      "name": "Chirath Hettiarachchi",
-      "position": "Academic",
-      "focus": "ANU Research Portal+ profile",
-      "school": "School of Computing",
-      "schoolCode": "COMP",
-      "college": "ANU College of Systems and Society",
-      "profileUrl": "https://researchportalplus.anu.edu.au/en/persons/chirath-hettiarachchi/",
-      "email": "",
-      "office": "",
-      "linkedCourses": [],
-      "reviewMetrics": [
-        "Clarity",
-        "Support",
-        "Engagement"
-      ],
-      "tags": [
+        "comp",
         "school-of-computing",
         "college-of-systems-and-society",
         "research-portal"
-      ]
+      ],
+      "summary": ""
     },
     {
       "id": "anu-portal-chitresh-saraswat",
@@ -14812,7 +14031,7 @@ window.ANREVIEW_DATA = {
       "name": "ChongChong He",
       "position": "Academic",
       "focus": "ANU Research Portal+ profile",
-      "school": "Research School of Astronomy &amp; Astrophysics",
+      "school": "Research School of Astronomy & Astrophysics",
       "schoolCode": "AAA",
       "college": "ANU College of Science and Medicine",
       "profileUrl": "https://researchportalplus.anu.edu.au/en/persons/chongchong-he/",
@@ -14873,32 +14092,12 @@ window.ANREVIEW_DATA = {
         "Engagement"
       ],
       "tags": [
-        "cyb"
-      ]
-    },
-    {
-      "id": "anu-portal-chris-danta",
-      "type": "academic",
-      "name": "Chris Danta",
-      "position": "Academic",
-      "focus": "ANU Research Portal+ profile",
-      "school": "School of Cybernetics",
-      "schoolCode": "CYB",
-      "college": "ANU College of Systems and Society",
-      "profileUrl": "https://researchportalplus.anu.edu.au/en/persons/chris-danta/",
-      "email": "",
-      "office": "",
-      "linkedCourses": [],
-      "reviewMetrics": [
-        "Clarity",
-        "Support",
-        "Engagement"
-      ],
-      "tags": [
+        "cyb",
         "school-of-cybernetics",
         "college-of-systems-and-society",
         "research-portal"
-      ]
+      ],
+      "summary": ""
     },
     {
       "id": "anu-portal-chris-dickie",
@@ -15026,7 +14225,7 @@ window.ANREVIEW_DATA = {
       "name": "Christian Downie",
       "position": "Academic",
       "focus": "ANU Research Portal+ profile",
-      "school": "School of Regulation &amp; Global Governance",
+      "school": "School of Regulation & Global Governance",
       "schoolCode": "RAGG",
       "college": "ANU College of Law, Governance and Policy",
       "profileUrl": "https://researchportalplus.anu.edu.au/en/persons/christian-downie/",
@@ -15111,32 +14310,12 @@ window.ANREVIEW_DATA = {
         "Engagement"
       ],
       "tags": [
-        "physics"
-      ]
-    },
-    {
-      "id": "anu-portal-christian-notthoff",
-      "type": "academic",
-      "name": "Christian Notthoff",
-      "position": "Academic",
-      "focus": "ANU Research Portal+ profile",
-      "school": "Research School of Physics",
-      "schoolCode": "PHYS",
-      "college": "ANU College of Science and Medicine",
-      "profileUrl": "https://researchportalplus.anu.edu.au/en/persons/christian-notthoff/",
-      "email": "",
-      "office": "",
-      "linkedCourses": [],
-      "reviewMetrics": [
-        "Clarity",
-        "Support",
-        "Engagement"
-      ],
-      "tags": [
+        "physics",
         "research-school-of-physics",
         "college-of-science-and-medicine",
         "research-portal"
-      ]
+      ],
+      "summary": ""
     },
     {
       "id": "anu-portal-christian-wolf",
@@ -15240,7 +14419,7 @@ window.ANREVIEW_DATA = {
       "name": "Christina Spry",
       "position": "Academic",
       "focus": "ANU Research Portal+ profile",
-      "school": "Division of Biomedical Science &amp; Biochemistry",
+      "school": "Division of Biomedical Science & Biochemistry",
       "schoolCode": "DBSAB",
       "college": "ANU College of Science and Medicine",
       "profileUrl": "https://researchportalplus.anu.edu.au/en/persons/christina-spry/",
@@ -15277,32 +14456,12 @@ window.ANREVIEW_DATA = {
         "Engagement"
       ],
       "tags": [
-        "physics"
-      ]
-    },
-    {
-      "id": "anu-portal-christine-charles",
-      "type": "academic",
-      "name": "Christine Charles",
-      "position": "Academic",
-      "focus": "ANU Research Portal+ profile",
-      "school": "Department of Nuclear Physics &amp; Accelerator Applications",
-      "schoolCode": "DNPAAA",
-      "college": "ANU College of Science and Medicine",
-      "profileUrl": "https://researchportalplus.anu.edu.au/en/persons/christine-charles/",
-      "email": "",
-      "office": "",
-      "linkedCourses": [],
-      "reviewMetrics": [
-        "Clarity",
-        "Support",
-        "Engagement"
-      ],
-      "tags": [
+        "physics",
         "department-of-nuclear-physics-amp-accelerator-applications",
         "college-of-science-and-medicine",
         "research-portal"
-      ]
+      ],
+      "summary": ""
     },
     {
       "id": "anu-portal-christine-labond",
@@ -15382,7 +14541,7 @@ window.ANREVIEW_DATA = {
       "name": "Christoph Federrath",
       "position": "Academic",
       "focus": "ANU Research Portal+ profile",
-      "school": "Research School of Astronomy &amp; Astrophysics",
+      "school": "Research School of Astronomy & Astrophysics",
       "schoolCode": "AAA",
       "college": "ANU College of Science and Medicine",
       "profileUrl": "https://researchportalplus.anu.edu.au/en/persons/christoph-federrath/",
@@ -15454,7 +14613,7 @@ window.ANREVIEW_DATA = {
       "name": "Christopher Diamond",
       "position": "Academic",
       "focus": "ANU Research Portal+ profile",
-      "school": "School of Culture, History &amp; Language",
+      "school": "School of Culture, History & Language",
       "schoolCode": "CHAL",
       "college": "ANU College of Arts and Social Sciences",
       "profileUrl": "https://researchportalplus.anu.edu.au/en/persons/chris-diamond/",
@@ -15478,7 +14637,7 @@ window.ANREVIEW_DATA = {
       "name": "Christopher Healey",
       "position": "Academic",
       "focus": "ANU Research Portal+ profile",
-      "school": "School of Culture, History &amp; Language",
+      "school": "School of Culture, History & Language",
       "schoolCode": "CHAL",
       "college": "ANU College of Arts and Social Sciences",
       "profileUrl": "https://researchportalplus.anu.edu.au/en/persons/christopher-healey/",
@@ -15502,7 +14661,7 @@ window.ANREVIEW_DATA = {
       "name": "Christopher Hoy",
       "position": "Academic",
       "focus": "ANU Research Portal+ profile",
-      "school": "Tax &amp; Transfer Policy Institute",
+      "school": "Tax & Transfer Policy Institute",
       "schoolCode": "TATPI",
       "college": "ANU College of Law, Governance and Policy",
       "profileUrl": "https://researchportalplus.anu.edu.au/en/persons/christopher-hoy/",
@@ -15550,7 +14709,7 @@ window.ANREVIEW_DATA = {
       "name": "Christopher Onken",
       "position": "Academic",
       "focus": "ANU Research Portal+ profile",
-      "school": "Research School of Astronomy &amp; Astrophysics",
+      "school": "Research School of Astronomy & Astrophysics",
       "schoolCode": "AAA",
       "college": "ANU College of Science and Medicine",
       "profileUrl": "https://researchportalplus.anu.edu.au/en/persons/christopher-onken/",
@@ -15667,7 +14826,7 @@ window.ANREVIEW_DATA = {
       "name": "Claire Foster",
       "position": "Academic",
       "focus": "ANU Research Portal+ profile",
-      "school": "Fenner School of Environment &amp; Society",
+      "school": "Fenner School of Environment & Society",
       "schoolCode": "FEAS",
       "college": "ANU College of Systems and Society",
       "profileUrl": "https://researchportalplus.anu.edu.au/en/persons/claire-foster/",
@@ -15715,7 +14874,7 @@ window.ANREVIEW_DATA = {
       "name": "Claudia Munera Roldan",
       "position": "Academic",
       "focus": "ANU Research Portal+ profile",
-      "school": "Fenner School of Environment &amp; Society",
+      "school": "Fenner School of Environment & Society",
       "schoolCode": "FEAS",
       "college": "ANU College of Systems and Society",
       "profileUrl": "https://researchportalplus.anu.edu.au/en/persons/claudia-munera-roldan/",
@@ -15739,7 +14898,7 @@ window.ANREVIEW_DATA = {
       "name": "Claudia Reyes",
       "position": "Academic",
       "focus": "ANU Research Portal+ profile",
-      "school": "Research School of Astronomy &amp; Astrophysics",
+      "school": "Research School of Astronomy & Astrophysics",
       "schoolCode": "AAA",
       "college": "ANU College of Science and Medicine",
       "profileUrl": "https://researchportalplus.anu.edu.au/en/persons/claudia-reyes/",
@@ -15785,7 +14944,7 @@ window.ANREVIEW_DATA = {
       "name": "Clem Davis",
       "position": "Academic",
       "focus": "ANU Research Portal+ profile",
-      "school": "Fenner School of Environment &amp; Society",
+      "school": "Fenner School of Environment & Society",
       "schoolCode": "FEAS",
       "college": "ANU College of Systems and Society",
       "profileUrl": "https://researchportalplus.anu.edu.au/en/persons/clem-davis/",
@@ -15856,7 +15015,7 @@ window.ANREVIEW_DATA = {
       "name": "Cleo Anne Calimbahin",
       "position": "Academic",
       "focus": "ANU Research Portal+ profile",
-      "school": "Department of Political &amp; Social Change",
+      "school": "Department of Political & Social Change",
       "schoolCode": "DPASC",
       "college": "ANU College of Arts and Social Sciences",
       "profileUrl": "https://researchportalplus.anu.edu.au/en/persons/cleo-anne-calimbahin/",
@@ -15928,7 +15087,7 @@ window.ANREVIEW_DATA = {
       "name": "Colette Einfeld",
       "position": "Academic",
       "focus": "ANU Research Portal+ profile",
-      "school": "ANU College of Asia &amp; the Pacific",
+      "school": "ANU College of Asia & the Pacific",
       "schoolCode": "AAP",
       "college": "ANU College of Asia and the Pacific",
       "profileUrl": "https://researchportalplus.anu.edu.au/en/persons/colette-einfeld/",
@@ -16048,7 +15207,7 @@ window.ANREVIEW_DATA = {
       "name": "Colleen Bryant",
       "position": "Academic",
       "focus": "ANU Research Portal+ profile",
-      "school": "Fenner School of Environment &amp; Society",
+      "school": "Fenner School of Environment & Society",
       "schoolCode": "FEAS",
       "college": "ANU College of Systems and Society",
       "profileUrl": "https://researchportalplus.anu.edu.au/en/persons/colleen-bryant/",
@@ -16133,32 +15292,12 @@ window.ANREVIEW_DATA = {
         "Engagement"
       ],
       "tags": [
-        "physics"
-      ]
-    },
-    {
-      "id": "anu-portal-cormac-corr",
-      "type": "academic",
-      "name": "Cormac Corr",
-      "position": "Academic",
-      "focus": "ANU Research Portal+ profile",
-      "school": "Department of Materials Physics",
-      "schoolCode": "DMP",
-      "college": "ANU College of Science and Medicine",
-      "profileUrl": "https://researchportalplus.anu.edu.au/en/persons/cormac-corr/",
-      "email": "",
-      "office": "",
-      "linkedCourses": [],
-      "reviewMetrics": [
-        "Clarity",
-        "Support",
-        "Engagement"
-      ],
-      "tags": [
+        "physics",
         "department-of-materials-physics",
         "college-of-science-and-medicine",
         "research-portal"
-      ]
+      ],
+      "summary": ""
     },
     {
       "id": "anu-portal-craig-anderson",
@@ -16166,7 +15305,7 @@ window.ANREVIEW_DATA = {
       "name": "Craig Anderson",
       "position": "Academic",
       "focus": "ANU Research Portal+ profile",
-      "school": "Research School of Astronomy &amp; Astrophysics",
+      "school": "Research School of Astronomy & Astrophysics",
       "schoolCode": "AAA",
       "college": "ANU College of Science and Medicine",
       "profileUrl": "https://researchportalplus.anu.edu.au/en/persons/craig-anderson/",
@@ -16190,7 +15329,7 @@ window.ANREVIEW_DATA = {
       "name": "Craig Ashhurst",
       "position": "Academic",
       "focus": "ANU Research Portal+ profile",
-      "school": "Fenner School of Environment &amp; Society",
+      "school": "Fenner School of Environment & Society",
       "schoolCode": "FEAS",
       "college": "ANU College of Systems and Society",
       "profileUrl": "https://researchportalplus.anu.edu.au/en/persons/craig-ashhurst/",
@@ -16238,7 +15377,7 @@ window.ANREVIEW_DATA = {
       "name": "Craig Strong",
       "position": "Academic",
       "focus": "ANU Research Portal+ profile",
-      "school": "Fenner School of Environment &amp; Society",
+      "school": "Fenner School of Environment & Society",
       "schoolCode": "FEAS",
       "college": "ANU College of Systems and Society",
       "profileUrl": "https://researchportalplus.anu.edu.au/en/persons/craig-strong/",
@@ -16286,7 +15425,7 @@ window.ANREVIEW_DATA = {
       "name": "Cristopher Brack",
       "position": "Academic",
       "focus": "ANU Research Portal+ profile",
-      "school": "Fenner School of Environment &amp; Society",
+      "school": "Fenner School of Environment & Society",
       "schoolCode": "FEAS",
       "college": "ANU College of Systems and Society",
       "profileUrl": "https://researchportalplus.anu.edu.au/en/persons/cristopher-brack/",
@@ -16334,7 +15473,7 @@ window.ANREVIEW_DATA = {
       "name": "Crystal Bradley",
       "position": "Academic",
       "focus": "ANU Research Portal+ profile",
-      "school": "Fenner School of Environment &amp; Society",
+      "school": "Fenner School of Environment & Society",
       "schoolCode": "FEAS",
       "college": "ANU College of Systems and Society",
       "profileUrl": "https://researchportalplus.anu.edu.au/en/persons/crystal-bradley/",
@@ -16358,7 +15497,7 @@ window.ANREVIEW_DATA = {
       "name": "Cynthia Allen",
       "position": "Academic",
       "focus": "ANU Research Portal+ profile",
-      "school": "School of Literature, Languages &amp; Linguistics",
+      "school": "School of Literature, Languages & Linguistics",
       "schoolCode": "LLAL",
       "college": "ANU College of Arts and Social Sciences",
       "profileUrl": "https://researchportalplus.anu.edu.au/en/persons/cynthia-allen/",
@@ -16466,32 +15605,12 @@ window.ANREVIEW_DATA = {
         "Engagement"
       ],
       "tags": [
-        "comp"
-      ]
-    },
-    {
-      "id": "anu-portal-dan-andrews",
-      "type": "academic",
-      "name": "Dan Andrews",
-      "position": "Academic",
-      "focus": "ANU Research Portal+ profile",
-      "school": "Division of Immunology and Infectious Diseases",
-      "schoolCode": "DIID",
-      "college": "ANU College of Arts and Social Sciences",
-      "profileUrl": "https://researchportalplus.anu.edu.au/en/persons/dan-andrews-2/",
-      "email": "",
-      "office": "",
-      "linkedCourses": [],
-      "reviewMetrics": [
-        "Clarity",
-        "Support",
-        "Engagement"
-      ],
-      "tags": [
+        "comp",
         "division-of-immunology-and-infectious-diseases",
         "college-of-arts-and-social-sciences",
         "research-portal"
-      ]
+      ],
+      "summary": ""
     },
     {
       "id": "anu-portal-dan-liu",
@@ -16641,7 +15760,7 @@ window.ANREVIEW_DATA = {
       "name": "Daniel Casey",
       "position": "Academic",
       "focus": "ANU Research Portal+ profile",
-      "school": "School of Politics &amp; International Relations",
+      "school": "School of Politics & International Relations",
       "schoolCode": "PAIR",
       "college": "ANU College of Arts and Social Sciences",
       "profileUrl": "https://researchportalplus.anu.edu.au/en/persons/daniel-casey/",
@@ -16689,7 +15808,7 @@ window.ANREVIEW_DATA = {
       "name": "Daniel Gilfillan",
       "position": "Academic",
       "focus": "ANU Research Portal+ profile",
-      "school": "Fenner School of Environment &amp; Society",
+      "school": "Fenner School of Environment & Society",
       "schoolCode": "FEAS",
       "college": "ANU College of Systems and Society",
       "profileUrl": "https://researchportalplus.anu.edu.au/en/persons/daniel-gilfillan/",
@@ -16761,7 +15880,7 @@ window.ANREVIEW_DATA = {
       "name": "Daniel Martin",
       "position": "Academic",
       "focus": "ANU Research Portal+ profile",
-      "school": "School of Literature, Languages &amp; Linguistics",
+      "school": "School of Literature, Languages & Linguistics",
       "schoolCode": "LLAL",
       "college": "ANU College of Arts and Social Sciences",
       "profileUrl": "https://researchportalplus.anu.edu.au/en/persons/daniel-martin/",
@@ -16870,32 +15989,12 @@ window.ANREVIEW_DATA = {
         "Engagement"
       ],
       "tags": [
-        "physics"
-      ]
-    },
-    {
-      "id": "anu-portal-daniel-shaddock",
-      "type": "academic",
-      "name": "Daniel Shaddock",
-      "position": "Academic",
-      "focus": "ANU Research Portal+ profile",
-      "school": "Centre for Gravitational Astrophysics",
-      "schoolCode": "GA",
-      "college": "ANU College of Science and Medicine",
-      "profileUrl": "https://researchportalplus.anu.edu.au/en/persons/daniel-shaddock/",
-      "email": "",
-      "office": "",
-      "linkedCourses": [],
-      "reviewMetrics": [
-        "Clarity",
-        "Support",
-        "Engagement"
-      ],
-      "tags": [
+        "physics",
         "centre-for-gravitational-astrophysics",
         "college-of-science-and-medicine",
         "research-portal"
-      ]
+      ],
+      "summary": ""
     },
     {
       "id": "anu-portal-daniel-skorich",
@@ -17164,7 +16263,7 @@ window.ANREVIEW_DATA = {
       "name": "Daria Smirnova",
       "position": "Academic",
       "focus": "ANU Research Portal+ profile",
-      "school": "Department of Fundamental &amp; Theoretical Physics",
+      "school": "Department of Fundamental & Theoretical Physics",
       "schoolCode": "DFATP",
       "college": "ANU College of Science and Medicine",
       "profileUrl": "https://researchportalplus.anu.edu.au/en/persons/daria-smirnova/",
@@ -17188,7 +16287,7 @@ window.ANREVIEW_DATA = {
       "name": "Darja Hoenigman",
       "position": "Academic",
       "focus": "ANU Research Portal+ profile",
-      "school": "School of Culture, History &amp; Language",
+      "school": "School of Culture, History & Language",
       "schoolCode": "CHAL",
       "college": "ANU College of Arts and Social Sciences",
       "profileUrl": "https://researchportalplus.anu.edu.au/en/persons/darja-hoenigman/",
@@ -17282,7 +16381,7 @@ window.ANREVIEW_DATA = {
       "name": "Daruo Xie",
       "position": "Academic",
       "focus": "ANU Research Portal+ profile",
-      "school": "Research School of Finance, Actuarial Studies &amp; Statistics",
+      "school": "Research School of Finance, Actuarial Studies & Statistics",
       "schoolCode": "FASAS",
       "college": "ANU College of Systems and Society",
       "profileUrl": "https://researchportalplus.anu.edu.au/en/persons/daruo-xie/",
@@ -17306,7 +16405,7 @@ window.ANREVIEW_DATA = {
       "name": "Dave Johnston",
       "position": "Academic",
       "focus": "ANU Research Portal+ profile",
-      "school": "ANU College of Arts &amp; Social Sciences",
+      "school": "ANU College of Arts & Social Sciences",
       "schoolCode": "AASS",
       "college": "ANU College of Arts and Social Sciences",
       "profileUrl": "https://researchportalplus.anu.edu.au/en/persons/dave-johnston/",
@@ -17450,7 +16549,7 @@ window.ANREVIEW_DATA = {
       "name": "David Collings",
       "position": "Academic",
       "focus": "ANU Research Portal+ profile",
-      "school": "Biology Teaching &amp; Learning Centre",
+      "school": "Biology Teaching & Learning Centre",
       "schoolCode": "BTAL",
       "college": "ANU College of Science and Medicine",
       "profileUrl": "https://researchportalplus.anu.edu.au/en/persons/david-collings/",
@@ -17520,7 +16619,7 @@ window.ANREVIEW_DATA = {
       "name": "David Freudenberger",
       "position": "Academic",
       "focus": "ANU Research Portal+ profile",
-      "school": "Fenner School of Environment &amp; Society",
+      "school": "Fenner School of Environment & Society",
       "schoolCode": "FEAS",
       "college": "ANU College of Systems and Society",
       "profileUrl": "https://researchportalplus.anu.edu.au/en/persons/david-freudenberger/",
@@ -17615,7 +16714,7 @@ window.ANREVIEW_DATA = {
       "name": "David Horner",
       "position": "Academic",
       "focus": "ANU Research Portal+ profile",
-      "school": "Strategic &amp; Defence Studies Centre",
+      "school": "Strategic & Defence Studies Centre",
       "schoolCode": "SADS",
       "college": "ANU College of Arts and Social Sciences",
       "profileUrl": "https://researchportalplus.anu.edu.au/en/persons/david-horner/",
@@ -17662,7 +16761,7 @@ window.ANREVIEW_DATA = {
       "name": "David Lindenmayer",
       "position": "Academic",
       "focus": "ANU Research Portal+ profile",
-      "school": "Fenner School of Environment &amp; Society",
+      "school": "Fenner School of Environment & Society",
       "schoolCode": "FEAS",
       "college": "ANU College of Systems and Society",
       "profileUrl": "https://researchportalplus.anu.edu.au/en/persons/david-lindenmayer/",
@@ -17758,7 +16857,7 @@ window.ANREVIEW_DATA = {
       "name": "David Nash",
       "position": "Academic",
       "focus": "ANU Research Portal+ profile",
-      "school": "School of Literature, Languages &amp; Linguistics",
+      "school": "School of Literature, Languages & Linguistics",
       "schoolCode": "LLAL",
       "college": "ANU College of Arts and Social Sciences",
       "profileUrl": "https://researchportalplus.anu.edu.au/en/persons/david-nash/",
@@ -17782,7 +16881,7 @@ window.ANREVIEW_DATA = {
       "name": "David Nicholls",
       "position": "Academic",
       "focus": "ANU Research Portal+ profile",
-      "school": "Research School of Astronomy &amp; Astrophysics",
+      "school": "Research School of Astronomy & Astrophysics",
       "schoolCode": "AAA",
       "college": "ANU College of Science and Medicine",
       "profileUrl": "https://researchportalplus.anu.edu.au/en/persons/david-nicholls/",
@@ -18077,32 +17176,12 @@ window.ANREVIEW_DATA = {
         "Engagement"
       ],
       "tags": [
-        "comp"
-      ]
-    },
-    {
-      "id": "anu-portal-dawei-chen",
-      "type": "academic",
-      "name": "Dawei Chen",
-      "position": "Academic",
-      "focus": "ANU Research Portal+ profile",
-      "school": "School of Computing",
-      "schoolCode": "COMP",
-      "college": "ANU College of Systems and Society",
-      "profileUrl": "https://researchportalplus.anu.edu.au/en/persons/dawei-chen/",
-      "email": "",
-      "office": "",
-      "linkedCourses": [],
-      "reviewMetrics": [
-        "Clarity",
-        "Support",
-        "Engagement"
-      ],
-      "tags": [
+        "comp",
         "school-of-computing",
         "college-of-systems-and-society",
         "research-portal"
-      ]
+      ],
+      "summary": ""
     },
     {
       "id": "anu-portal-dean-ansell",
@@ -18134,7 +17213,7 @@ window.ANREVIEW_DATA = {
       "name": "Dean Katselas",
       "position": "Academic",
       "focus": "ANU Research Portal+ profile",
-      "school": "Research School of Finance, Actuarial Studies &amp; Statistics",
+      "school": "Research School of Finance, Actuarial Studies & Statistics",
       "schoolCode": "FASAS",
       "college": "ANU College of Systems and Society",
       "profileUrl": "https://researchportalplus.anu.edu.au/en/persons/dean-katselas/",
@@ -18228,7 +17307,7 @@ window.ANREVIEW_DATA = {
       "name": "Debbie Argue",
       "position": "Academic",
       "focus": "ANU Research Portal+ profile",
-      "school": "School of Culture, History &amp; Language",
+      "school": "School of Culture, History & Language",
       "schoolCode": "CHAL",
       "college": "ANU College of Arts and Social Sciences",
       "profileUrl": "https://researchportalplus.anu.edu.au/en/persons/debbie-argue/",
@@ -18276,7 +17355,7 @@ window.ANREVIEW_DATA = {
       "name": "Deborah O'Connell",
       "position": "Academic",
       "focus": "ANU Research Portal+ profile",
-      "school": "Fenner School of Environment &amp; Society",
+      "school": "Fenner School of Environment & Society",
       "schoolCode": "FEAS",
       "college": "ANU College of Systems and Society",
       "profileUrl": "https://researchportalplus.anu.edu.au/en/persons/deborah-oconnell/",
@@ -18372,7 +17451,7 @@ window.ANREVIEW_DATA = {
       "name": "Dejan Stojanovic",
       "position": "Academic",
       "focus": "ANU Research Portal+ profile",
-      "school": "Fenner School of Environment &amp; Society",
+      "school": "Fenner School of Environment & Society",
       "schoolCode": "FEAS",
       "college": "ANU College of Systems and Society",
       "profileUrl": "https://researchportalplus.anu.edu.au/en/persons/dejan-stojanovic/",
@@ -18420,7 +17499,7 @@ window.ANREVIEW_DATA = {
       "name": "Denise Angelo",
       "position": "Academic",
       "focus": "ANU Research Portal+ profile",
-      "school": "School of Literature, Languages &amp; Linguistics",
+      "school": "School of Literature, Languages & Linguistics",
       "schoolCode": "LLAL",
       "college": "ANU College of Arts and Social Sciences",
       "profileUrl": "https://researchportalplus.anu.edu.au/en/persons/denise-angelo/",
@@ -18468,7 +17547,7 @@ window.ANREVIEW_DATA = {
       "name": "Denisse Leyton",
       "position": "Academic",
       "focus": "ANU Research Portal+ profile",
-      "school": "Division of Biomedical Science &amp; Biochemistry",
+      "school": "Division of Biomedical Science & Biochemistry",
       "schoolCode": "DBSAB",
       "college": "ANU College of Science and Medicine",
       "profileUrl": "https://researchportalplus.anu.edu.au/en/persons/denisse-leyton/",
@@ -18515,7 +17594,7 @@ window.ANREVIEW_DATA = {
       "name": "Depi Susilawati",
       "position": "Academic",
       "focus": "ANU Research Portal+ profile",
-      "school": "Fenner School of Environment &amp; Society",
+      "school": "Fenner School of Environment & Society",
       "schoolCode": "FEAS",
       "college": "ANU College of Systems and Society",
       "profileUrl": "https://researchportalplus.anu.edu.au/en/persons/depi-susilawati/",
@@ -18547,38 +17626,18 @@ window.ANREVIEW_DATA = {
       "profileUrl": "https://law.anu.edu.au/about/our-people/desmond-manderson",
       "tags": [
         "law",
-        "comparative law critical legal s"
-      ],
-      "linkedCourses": [],
-      "reviewMetrics": [
-        "Clarity",
-        "Support",
-        "Engagement"
-      ]
-    },
-    {
-      "id": "anu-portal-desmond-manderson",
-      "type": "academic",
-      "name": "Desmond Manderson",
-      "position": "Academic",
-      "focus": "ANU Research Portal+ profile",
-      "school": "ANU College of Law, Governance and Policy",
-      "schoolCode": "LGP",
-      "college": "ANU College of Law, Governance and Policy",
-      "profileUrl": "https://researchportalplus.anu.edu.au/en/persons/desmond-manderson/",
-      "email": "",
-      "office": "",
-      "linkedCourses": [],
-      "reviewMetrics": [
-        "Clarity",
-        "Support",
-        "Engagement"
-      ],
-      "tags": [
+        "comparative law critical legal s",
         "anu-college-of-law-governance-and-policy",
         "college-of-law-governance-and-policy",
         "research-portal"
-      ]
+      ],
+      "linkedCourses": [],
+      "reviewMetrics": [
+        "Clarity",
+        "Support",
+        "Engagement"
+      ],
+      "summary": ""
     },
     {
       "id": "anu-portal-desmond-yip",
@@ -18610,7 +17669,7 @@ window.ANREVIEW_DATA = {
       "name": "Deyun Qiu",
       "position": "Academic",
       "focus": "ANU Research Portal+ profile",
-      "school": "Division of Biomedical Science &amp; Biochemistry",
+      "school": "Division of Biomedical Science & Biochemistry",
       "schoolCode": "DBSAB",
       "college": "ANU College of Science and Medicine",
       "profileUrl": "https://researchportalplus.anu.edu.au/en/persons/deyun-qiu/",
@@ -18658,7 +17717,7 @@ window.ANREVIEW_DATA = {
       "name": "Diana Kostyrko",
       "position": "Academic",
       "focus": "ANU Research Portal+ profile",
-      "school": "Research School of Humanities &amp; the Arts",
+      "school": "Research School of Humanities & the Arts",
       "schoolCode": "HAA",
       "college": "ANU College of Arts and Social Sciences",
       "profileUrl": "https://researchportalplus.anu.edu.au/en/persons/diana-kostyrko/",
@@ -18846,7 +17905,7 @@ window.ANREVIEW_DATA = {
       "name": "Ding Ding",
       "position": "Academic",
       "focus": "ANU Research Portal+ profile",
-      "school": "Research School of Finance, Actuarial Studies &amp; Statistics",
+      "school": "Research School of Finance, Actuarial Studies & Statistics",
       "schoolCode": "FASAS",
       "college": "ANU College of Systems and Society",
       "profileUrl": "https://researchportalplus.anu.edu.au/en/persons/ding-ding/",
@@ -18894,7 +17953,7 @@ window.ANREVIEW_DATA = {
       "name": "Dipika Adhikari",
       "position": "Academic",
       "focus": "ANU Research Portal+ profile",
-      "school": "Fenner School of Environment &amp; Society",
+      "school": "Fenner School of Environment & Society",
       "schoolCode": "FEAS",
       "college": "ANU College of Systems and Society",
       "profileUrl": "https://researchportalplus.anu.edu.au/en/persons/dipika-adhikari/",
@@ -18977,32 +18036,12 @@ window.ANREVIEW_DATA = {
         "Engagement"
       ],
       "tags": [
-        "comp"
-      ]
-    },
-    {
-      "id": "anu-portal-dirk-pattinson",
-      "type": "academic",
-      "name": "Dirk Pattinson",
-      "position": "Academic",
-      "focus": "ANU Research Portal+ profile",
-      "school": "School of Computing",
-      "schoolCode": "COMP",
-      "college": "ANU College of Systems and Society",
-      "profileUrl": "https://researchportalplus.anu.edu.au/en/persons/dirk-pattinson/",
-      "email": "",
-      "office": "",
-      "linkedCourses": [],
-      "reviewMetrics": [
-        "Clarity",
-        "Support",
-        "Engagement"
-      ],
-      "tags": [
+        "comp",
         "school-of-computing",
         "college-of-systems-and-society",
         "research-portal"
-      ]
+      ],
+      "summary": ""
     },
     {
       "id": "anu-portal-dirk-staunton",
@@ -19010,7 +18049,7 @@ window.ANREVIEW_DATA = {
       "name": "Dirk Staunton",
       "position": "Academic",
       "focus": "ANU Research Portal+ profile",
-      "school": "ANU College of Asia &amp; the Pacific",
+      "school": "ANU College of Asia & the Pacific",
       "schoolCode": "AAP",
       "college": "ANU College of Asia and the Pacific",
       "profileUrl": "https://researchportalplus.anu.edu.au/en/persons/dirk-staunton/",
@@ -19136,38 +18175,18 @@ window.ANREVIEW_DATA = {
       "profileUrl": "https://law.anu.edu.au/about/our-people/dominique-dalla-pozza",
       "tags": [
         "law",
-        "administrative law constitutiona"
-      ],
-      "linkedCourses": [],
-      "reviewMetrics": [
-        "Clarity",
-        "Support",
-        "Engagement"
-      ]
-    },
-    {
-      "id": "anu-portal-dominique-dalla-pozza",
-      "type": "academic",
-      "name": "Dominique Dalla-Pozza",
-      "position": "Academic",
-      "focus": "ANU Research Portal+ profile",
-      "school": "ANU College of Law, Governance and Policy",
-      "schoolCode": "LGP",
-      "college": "ANU College of Law, Governance and Policy",
-      "profileUrl": "https://researchportalplus.anu.edu.au/en/persons/dominique-dalla-pozza/",
-      "email": "",
-      "office": "",
-      "linkedCourses": [],
-      "reviewMetrics": [
-        "Clarity",
-        "Support",
-        "Engagement"
-      ],
-      "tags": [
+        "administrative law constitutiona",
         "anu-college-of-law-governance-and-policy",
         "college-of-law-governance-and-policy",
         "research-portal"
-      ]
+      ],
+      "linkedCourses": [],
+      "reviewMetrics": [
+        "Clarity",
+        "Support",
+        "Engagement"
+      ],
+      "summary": ""
     },
     {
       "id": "anu-portal-don-butler",
@@ -19277,38 +18296,18 @@ window.ANREVIEW_DATA = {
       "profileUrl": "https://law.anu.edu.au/about/our-people/donald-rothwell",
       "tags": [
         "law",
-        "international law law & politics"
-      ],
-      "linkedCourses": [],
-      "reviewMetrics": [
-        "Clarity",
-        "Support",
-        "Engagement"
-      ]
-    },
-    {
-      "id": "anu-portal-donald-rothwell",
-      "type": "academic",
-      "name": "Donald Rothwell",
-      "position": "Academic",
-      "focus": "ANU Research Portal+ profile",
-      "school": "ANU College of Law, Governance and Policy",
-      "schoolCode": "LGP",
-      "college": "ANU College of Law, Governance and Policy",
-      "profileUrl": "https://researchportalplus.anu.edu.au/en/persons/donald-rothwell/",
-      "email": "",
-      "office": "",
-      "linkedCourses": [],
-      "reviewMetrics": [
-        "Clarity",
-        "Support",
-        "Engagement"
-      ],
-      "tags": [
+        "international law law & politics",
         "anu-college-of-law-governance-and-policy",
         "college-of-law-governance-and-policy",
         "research-portal"
-      ]
+      ],
+      "linkedCourses": [],
+      "reviewMetrics": [
+        "Clarity",
+        "Support",
+        "Engagement"
+      ],
+      "summary": ""
     },
     {
       "id": "anu-portal-dongkeun-lee",
@@ -19316,7 +18315,7 @@ window.ANREVIEW_DATA = {
       "name": "Dongkeun Lee",
       "position": "Academic",
       "focus": "ANU Research Portal+ profile",
-      "school": "Department of Political &amp; Social Change",
+      "school": "Department of Political & Social Change",
       "schoolCode": "DPASC",
       "college": "ANU College of Asia and the Pacific",
       "profileUrl": "https://researchportalplus.anu.edu.au/en/persons/dongkeun-lee/",
@@ -22606,7 +21605,7 @@ window.ANREVIEW_DATA = {
       "name": "Dr Joe Altin",
       "position": "Academic",
       "focus": "ANU Research Portal+ profile",
-      "school": "Biology Teaching &amp; Learning Centre",
+      "school": "Biology Teaching & Learning Centre",
       "schoolCode": "BTAL",
       "college": "ANU College of Science and Medicine",
       "profileUrl": "https://researchportalplus.anu.edu.au/en/persons/joe-altin/",
@@ -23215,7 +22214,7 @@ window.ANREVIEW_DATA = {
       "school": "Research School of Management",
       "schoolCode": "RSM",
       "college": "CBE",
-      "position": "Senior Lecturer &amp; HDR convenor",
+      "position": "Senior Lecturer & HDR convenor",
       "focus": "Corporate social responsibility, Corporate sustainability, Management, Organisational behaviour",
       "email": "See ANU profile",
       "office": "Research School of Management",
@@ -24055,37 +23054,17 @@ window.ANREVIEW_DATA = {
       "profileUrl": "https://researchportalplus.anu.edu.au/en/persons/mathieu-leclerc",
       "tags": [
         "cass",
-        "anu college of arts and social s"
-      ],
-      "linkedCourses": [],
-      "reviewMetrics": [
-        "Clarity",
-        "Support",
-        "Engagement"
-      ]
-    },
-    {
-      "id": "cap-chl-c1e556a4-7fa1-4374-8cb8-e6a261ea86b5",
-      "type": "academic",
-      "name": "Dr Mathieu Leclerc",
-      "position": "Lecturer",
-      "focus": "in Archaeology ARCHAEOLOGY Archaeology of New Guinea and Pacific Islands (excl. New Zealand) Archaeological Science",
-      "school": "School of Culture, History and Language",
-      "schoolCode": "CHL",
-      "college": "ANU College of Asia and the Pacific",
-      "profileUrl": "https://researchportalplus.anu.edu.au/en/persons/c1e556a4-7fa1-4374-8cb8-e6a261ea86b5",
-      "email": "",
-      "office": "",
-      "linkedCourses": [],
-      "reviewMetrics": [
-        "Clarity",
-        "Support",
-        "Engagement"
-      ],
-      "tags": [
+        "anu college of arts and social s",
         "chl",
         "asia-pacific"
-      ]
+      ],
+      "linkedCourses": [],
+      "reviewMetrics": [
+        "Clarity",
+        "Support",
+        "Engagement"
+      ],
+      "summary": ""
     },
     {
       "id": "matt-withers",
@@ -24694,7 +23673,7 @@ window.ANREVIEW_DATA = {
       "school": "Research School of Management",
       "schoolCode": "RSM",
       "college": "CBE",
-      "position": "Lecturer in Innovation &amp; Entrepreneurship",
+      "position": "Lecturer in Innovation & Entrepreneurship",
       "focus": "Entrepreneurship, Innovation, Management, Organisation studies",
       "email": "See ANU profile",
       "office": "Research School of Management",
@@ -25232,7 +24211,7 @@ window.ANREVIEW_DATA = {
       "school": "Research School of Accounting",
       "schoolCode": "RSA",
       "college": "CBE",
-      "position": "Senior Lecturer &amp; Master&rsquo;s Course Work Convener",
+      "position": "Senior Lecturer & Master’s Course Work Convener",
       "focus": "Accounting, Corporate sustainability",
       "email": "See ANU profile",
       "office": "Research School of Accounting",
@@ -27563,7 +26542,7 @@ window.ANREVIEW_DATA = {
       "name": "Duck-Young Lee",
       "position": "Academic",
       "focus": "ANU Research Portal+ profile",
-      "school": "School of Culture, History &amp; Language",
+      "school": "School of Culture, History & Language",
       "schoolCode": "CHAL",
       "college": "ANU College of Arts and Social Sciences",
       "profileUrl": "https://researchportalplus.anu.edu.au/en/persons/duck-young-lee/",
@@ -27587,7 +26566,7 @@ window.ANREVIEW_DATA = {
       "name": "Duk Choi",
       "position": "Academic",
       "focus": "ANU Research Portal+ profile",
-      "school": "Department of Quantum Science &amp; Technology",
+      "school": "Department of Quantum Science & Technology",
       "schoolCode": "DQSAT",
       "college": "ANU College of Arts and Social Sciences",
       "profileUrl": "https://researchportalplus.anu.edu.au/en/persons/duk-choi/",
@@ -27718,32 +26697,12 @@ window.ANREVIEW_DATA = {
         "Engagement"
       ],
       "tags": [
-        "comp"
-      ]
-    },
-    {
-      "id": "anu-portal-dylan-campbell",
-      "type": "academic",
-      "name": "Dylan Campbell",
-      "position": "Academic",
-      "focus": "ANU Research Portal+ profile",
-      "school": "School of Computing",
-      "schoolCode": "COMP",
-      "college": "ANU College of Systems and Society",
-      "profileUrl": "https://researchportalplus.anu.edu.au/en/persons/dylan-campbell/",
-      "email": "",
-      "office": "",
-      "linkedCourses": [],
-      "reviewMetrics": [
-        "Clarity",
-        "Support",
-        "Engagement"
-      ],
-      "tags": [
+        "comp",
         "school-of-computing",
         "college-of-systems-and-society",
         "research-portal"
-      ]
+      ],
+      "summary": ""
     },
     {
       "id": "anu-portal-e-wen-wong",
@@ -27799,7 +26758,7 @@ window.ANREVIEW_DATA = {
       "name": "Ed Simpson",
       "position": "Academic",
       "focus": "ANU Research Portal+ profile",
-      "school": "Department of Nuclear Physics &amp; Accelerator Applications",
+      "school": "Department of Nuclear Physics & Accelerator Applications",
       "schoolCode": "DNPAAA",
       "college": "ANU College of Science and Medicine",
       "profileUrl": "https://researchportalplus.anu.edu.au/en/persons/ed-simpson/",
@@ -27860,32 +26819,12 @@ window.ANREVIEW_DATA = {
         "Engagement"
       ],
       "tags": [
-        "comp"
-      ]
-    },
-    {
-      "id": "anu-portal-eduardo-souza",
-      "type": "academic",
-      "name": "Eduardo Souza",
-      "position": "Academic",
-      "focus": "ANU Research Portal+ profile",
-      "school": "School of Computing",
-      "schoolCode": "COMP",
-      "college": "ANU College of Systems and Society",
-      "profileUrl": "https://researchportalplus.anu.edu.au/en/persons/eduardo-souza/",
-      "email": "",
-      "office": "",
-      "linkedCourses": [],
-      "reviewMetrics": [
-        "Clarity",
-        "Support",
-        "Engagement"
-      ],
-      "tags": [
+        "comp",
         "school-of-computing",
         "college-of-systems-and-society",
         "research-portal"
-      ]
+      ],
+      "summary": ""
     },
     {
       "id": "anu-portal-eduardo-trifoni",
@@ -27917,7 +26856,7 @@ window.ANREVIEW_DATA = {
       "name": "Edward Aspinall",
       "position": "Academic",
       "focus": "ANU Research Portal+ profile",
-      "school": "Department of Political &amp; Social Change",
+      "school": "Department of Political & Social Change",
       "schoolCode": "DPASC",
       "college": "ANU College of Arts and Social Sciences",
       "profileUrl": "https://researchportalplus.anu.edu.au/en/persons/edward-aspinall/",
@@ -27965,7 +26904,7 @@ window.ANREVIEW_DATA = {
       "name": "Edward Frees",
       "position": "Academic",
       "focus": "ANU Research Portal+ profile",
-      "school": "Research School of Finance, Actuarial Studies &amp; Statistics",
+      "school": "Research School of Finance, Actuarial Studies & Statistics",
       "schoolCode": "FASAS",
       "college": "ANU College of Systems and Society",
       "profileUrl": "https://researchportalplus.anu.edu.au/en/persons/edward-frees/",
@@ -28033,7 +26972,7 @@ window.ANREVIEW_DATA = {
       "name": "Edwina Fingleton-Smith",
       "position": "Academic",
       "focus": "ANU Research Portal+ profile",
-      "school": "Fenner School of Environment &amp; Society",
+      "school": "Fenner School of Environment & Society",
       "schoolCode": "FEAS",
       "college": "ANU College of Systems and Society",
       "profileUrl": "https://researchportalplus.anu.edu.au/en/persons/edwina-fingleton-smith/",
@@ -28175,7 +27114,7 @@ window.ANREVIEW_DATA = {
       "name": "Ejaz Qureshi",
       "position": "Academic",
       "focus": "ANU Research Portal+ profile",
-      "school": "Fenner School of Environment &amp; Society",
+      "school": "Fenner School of Environment & Society",
       "schoolCode": "FEAS",
       "college": "ANU College of Systems and Society",
       "profileUrl": "https://researchportalplus.anu.edu.au/en/persons/ejaz-qureshi/",
@@ -28247,7 +27186,7 @@ window.ANREVIEW_DATA = {
       "name": "Elena Ostrovskaya",
       "position": "Academic",
       "focus": "ANU Research Portal+ profile",
-      "school": "Department of Quantum Science &amp; Technology",
+      "school": "Department of Quantum Science & Technology",
       "schoolCode": "DQSAT",
       "college": "ANU College of Arts and Social Sciences",
       "profileUrl": "https://researchportalplus.anu.edu.au/en/persons/elena-ostrovskaya/",
@@ -28308,32 +27247,12 @@ window.ANREVIEW_DATA = {
         "Engagement"
       ],
       "tags": [
-        "physics"
-      ]
-    },
-    {
-      "id": "anu-portal-eliezer-estrecho",
-      "type": "academic",
-      "name": "Eliezer Estrecho",
-      "position": "Academic",
-      "focus": "ANU Research Portal+ profile",
-      "school": "Department of Quantum Science &amp; Technology",
-      "schoolCode": "DQSAT",
-      "college": "ANU College of Arts and Social Sciences",
-      "profileUrl": "https://researchportalplus.anu.edu.au/en/persons/eliezer-estrecho/",
-      "email": "",
-      "office": "",
-      "linkedCourses": [],
-      "reviewMetrics": [
-        "Clarity",
-        "Support",
-        "Engagement"
-      ],
-      "tags": [
+        "physics",
         "department-of-quantum-science-amp-technology",
         "college-of-arts-and-social-sciences",
         "research-portal"
-      ]
+      ],
+      "summary": ""
     },
     {
       "id": "anu-portal-elisa-crossing",
@@ -28341,7 +27260,7 @@ window.ANREVIEW_DATA = {
       "name": "Elisa Crossing",
       "position": "Academic",
       "focus": "ANU Research Portal+ profile",
-      "school": "School of Art &amp; Design",
+      "school": "School of Art & Design",
       "schoolCode": "AAD",
       "college": "ANU College of Science and Medicine",
       "profileUrl": "https://researchportalplus.anu.edu.au/en/persons/elisa-crossing/",
@@ -28389,7 +27308,7 @@ window.ANREVIEW_DATA = {
       "name": "Elisa Scorsini",
       "position": "Academic",
       "focus": "ANU Research Portal+ profile",
-      "school": "School of Archaeology &amp; Anthropology",
+      "school": "School of Archaeology & Anthropology",
       "schoolCode": "AAA",
       "college": "ANU College of Asia and the Pacific",
       "profileUrl": "https://researchportalplus.anu.edu.au/en/persons/elisa-scorsini/",
@@ -28437,7 +27356,7 @@ window.ANREVIEW_DATA = {
       "name": "Elise Klein",
       "position": "Academic",
       "focus": "ANU Research Portal+ profile",
-      "school": "Policy &amp; Governance Program",
+      "school": "Policy & Governance Program",
       "schoolCode": "PAGP",
       "college": "ANU College of Law, Governance and Policy",
       "profileUrl": "https://researchportalplus.anu.edu.au/en/persons/elise-klein/",
@@ -28555,7 +27474,7 @@ window.ANREVIEW_DATA = {
       "name": "Elizabeth Fewster",
       "position": "Academic",
       "focus": "ANU Research Portal+ profile",
-      "school": "School of Literature, Languages &amp; Linguistics",
+      "school": "School of Literature, Languages & Linguistics",
       "schoolCode": "LLAL",
       "college": "ANU College of Science and Medicine",
       "profileUrl": "https://researchportalplus.anu.edu.au/en/persons/elizabeth-fewster/",
@@ -28675,7 +27594,7 @@ window.ANREVIEW_DATA = {
       "name": "Elizabeth Minchin",
       "position": "Academic",
       "focus": "ANU Research Portal+ profile",
-      "school": "School of Literature, Languages &amp; Linguistics",
+      "school": "School of Literature, Languages & Linguistics",
       "schoolCode": "LLAL",
       "college": "ANU College of Arts and Social Sciences",
       "profileUrl": "https://researchportalplus.anu.edu.au/en/persons/elizabeth-minchin/",
@@ -28747,7 +27666,7 @@ window.ANREVIEW_DATA = {
       "name": "Elizabeth Sheppard",
       "position": "Academic",
       "focus": "ANU Research Portal+ profile",
-      "school": "ANU College of Arts &amp; Social Sciences",
+      "school": "ANU College of Arts & Social Sciences",
       "schoolCode": "AASS",
       "college": "ANU College of Arts and Social Sciences",
       "profileUrl": "https://researchportalplus.anu.edu.au/en/persons/elizabeth-sheppard/",
@@ -28832,32 +27751,12 @@ window.ANREVIEW_DATA = {
         "Engagement"
       ],
       "tags": [
-        "physics"
-      ]
-    },
-    {
-      "id": "anu-portal-elizabeth-williams",
-      "type": "academic",
-      "name": "Elizabeth Williams",
-      "position": "Academic",
-      "focus": "ANU Research Portal+ profile",
-      "school": "School of Engineering",
-      "schoolCode": "ENGN",
-      "college": "ANU College of Systems and Society",
-      "profileUrl": "https://researchportalplus.anu.edu.au/en/persons/elizabeth-williams-2/",
-      "email": "",
-      "office": "",
-      "linkedCourses": [],
-      "reviewMetrics": [
-        "Clarity",
-        "Support",
-        "Engagement"
-      ],
-      "tags": [
+        "physics",
         "school-of-engineering",
         "college-of-systems-and-society",
         "research-portal"
-      ]
+      ],
+      "summary": ""
     },
     {
       "id": "anu-portal-ella-barclay",
@@ -28865,7 +27764,7 @@ window.ANREVIEW_DATA = {
       "name": "Ella Barclay",
       "position": "Academic",
       "focus": "ANU Research Portal+ profile",
-      "school": "School of Art &amp; Design",
+      "school": "School of Art & Design",
       "schoolCode": "AAD",
       "college": "ANU College of Systems and Society",
       "profileUrl": "https://researchportalplus.anu.edu.au/en/persons/ella-barclay/",
@@ -28889,7 +27788,7 @@ window.ANREVIEW_DATA = {
       "name": "Elle Bowd",
       "position": "Academic",
       "focus": "ANU Research Portal+ profile",
-      "school": "Fenner School of Environment &amp; Society",
+      "school": "Fenner School of Environment & Society",
       "schoolCode": "FEAS",
       "college": "ANU College of Systems and Society",
       "profileUrl": "https://researchportalplus.anu.edu.au/en/persons/elle-bowd/",
@@ -28913,7 +27812,7 @@ window.ANREVIEW_DATA = {
       "name": "Elle Grono",
       "position": "Academic",
       "focus": "ANU Research Portal+ profile",
-      "school": "School of Culture, History &amp; Language",
+      "school": "School of Culture, History & Language",
       "schoolCode": "CHAL",
       "college": "ANU College of Arts and Social Sciences",
       "profileUrl": "https://researchportalplus.anu.edu.au/en/persons/elle-grono/",
@@ -28937,7 +27836,7 @@ window.ANREVIEW_DATA = {
       "name": "Elle Saber",
       "position": "Academic",
       "focus": "ANU Research Portal+ profile",
-      "school": "Biology Teaching &amp; Learning Centre",
+      "school": "Biology Teaching & Learning Centre",
       "schoolCode": "BTAL",
       "college": "ANU College of Science and Medicine",
       "profileUrl": "https://researchportalplus.anu.edu.au/en/persons/elle-saber/",
@@ -28985,7 +27884,7 @@ window.ANREVIEW_DATA = {
       "name": "Elly Kent",
       "position": "Academic",
       "focus": "ANU Research Portal+ profile",
-      "school": "School of Culture, History &amp; Language",
+      "school": "School of Culture, History & Language",
       "schoolCode": "CHAL",
       "college": "ANU College of Arts and Social Sciences",
       "profileUrl": "https://researchportalplus.anu.edu.au/en/persons/elly-kent/",
@@ -29334,7 +28233,7 @@ window.ANREVIEW_DATA = {
       "name": "Emi Tanaka",
       "position": "Academic",
       "focus": "ANU Research Portal+ profile",
-      "school": "Research School of Finance, Actuarial Studies &amp; Statistics",
+      "school": "Research School of Finance, Actuarial Studies & Statistics",
       "schoolCode": "FASAS",
       "college": "ANU College of Systems and Society",
       "profileUrl": "https://researchportalplus.anu.edu.au/en/persons/emi-tanaka/",
@@ -29406,7 +28305,7 @@ window.ANREVIEW_DATA = {
       "name": "Emily Fong",
       "position": "Academic",
       "focus": "ANU Research Portal+ profile",
-      "school": "School of Culture, History &amp; Language",
+      "school": "School of Culture, History & Language",
       "schoolCode": "CHAL",
       "college": "ANU College of Arts and Social Sciences",
       "profileUrl": "https://researchportalplus.anu.edu.au/en/persons/emily-fong/",
@@ -29430,7 +28329,7 @@ window.ANREVIEW_DATA = {
       "name": "Emily Furlong",
       "position": "Academic",
       "focus": "ANU Research Portal+ profile",
-      "school": "Division of Biomedical Science &amp; Biochemistry",
+      "school": "Division of Biomedical Science & Biochemistry",
       "schoolCode": "DBSAB",
       "college": "ANU College of Science and Medicine",
       "profileUrl": "https://researchportalplus.anu.edu.au/en/persons/emily-furlong/",
@@ -29563,32 +28462,12 @@ window.ANREVIEW_DATA = {
         "Engagement"
       ],
       "tags": [
-        "physics"
-      ]
-    },
-    {
-      "id": "anu-portal-emily-rose-rees",
-      "type": "academic",
-      "name": "Emily Rose Rees",
-      "position": "Academic",
-      "focus": "ANU Research Portal+ profile",
-      "school": "Physics Education Centre",
-      "schoolCode": "PE",
-      "college": "ANU College of Science and Medicine",
-      "profileUrl": "https://researchportalplus.anu.edu.au/en/persons/emily-rose-rees/",
-      "email": "",
-      "office": "",
-      "linkedCourses": [],
-      "reviewMetrics": [
-        "Clarity",
-        "Support",
-        "Engagement"
-      ],
-      "tags": [
+        "physics",
         "physics-education-centre",
         "college-of-science-and-medicine",
         "research-portal"
-      ]
+      ],
+      "summary": ""
     },
     {
       "id": "anu-portal-emily-roycroft",
@@ -29620,7 +28499,7 @@ window.ANREVIEW_DATA = {
       "name": "Emily Tomlinson",
       "position": "Academic",
       "focus": "ANU Research Portal+ profile",
-      "school": "Centre for Heritage &amp; Museum Studies",
+      "school": "Centre for Heritage & Museum Studies",
       "schoolCode": "HAMS",
       "college": "ANU College of Arts and Social Sciences",
       "profileUrl": "https://researchportalplus.anu.edu.au/en/persons/emily-tomlinson/",
@@ -29644,7 +28523,7 @@ window.ANREVIEW_DATA = {
       "name": "Emily Wisnioski",
       "position": "Academic",
       "focus": "ANU Research Portal+ profile",
-      "school": "Research School of Astronomy &amp; Astrophysics",
+      "school": "Research School of Astronomy & Astrophysics",
       "schoolCode": "AAA",
       "college": "ANU College of Science and Medicine",
       "profileUrl": "https://researchportalplus.anu.edu.au/en/persons/emily-wisnioski/",
@@ -29668,7 +28547,7 @@ window.ANREVIEW_DATA = {
       "name": "Emirza Syailendra",
       "position": "Academic",
       "focus": "ANU Research Portal+ profile",
-      "school": "Strategic &amp; Defence Studies Centre",
+      "school": "Strategic & Defence Studies Centre",
       "schoolCode": "SADS",
       "college": "ANU College of Arts and Social Sciences",
       "profileUrl": "https://researchportalplus.anu.edu.au/en/persons/emirza-syailendra/",
@@ -29725,38 +28604,18 @@ window.ANREVIEW_DATA = {
       "tags": [
         "law",
         "climate change & climate finance",
-        "climate & health environmental l"
-      ],
-      "linkedCourses": [],
-      "reviewMetrics": [
-        "Clarity",
-        "Support",
-        "Engagement"
-      ]
-    },
-    {
-      "id": "anu-portal-emma-aisbett",
-      "type": "academic",
-      "name": "Emma Aisbett",
-      "position": "Academic",
-      "focus": "ANU Research Portal+ profile",
-      "school": "ANU College of Law, Governance and Policy",
-      "schoolCode": "LGP",
-      "college": "ANU College of Law, Governance and Policy",
-      "profileUrl": "https://researchportalplus.anu.edu.au/en/persons/emma-aisbett/",
-      "email": "",
-      "office": "",
-      "linkedCourses": [],
-      "reviewMetrics": [
-        "Clarity",
-        "Support",
-        "Engagement"
-      ],
-      "tags": [
+        "climate & health environmental l",
         "anu-college-of-law-governance-and-policy",
         "college-of-law-governance-and-policy",
         "research-portal"
-      ]
+      ],
+      "linkedCourses": [],
+      "reviewMetrics": [
+        "Clarity",
+        "Support",
+        "Engagement"
+      ],
+      "summary": ""
     },
     {
       "id": "anu-portal-emma-belton",
@@ -29812,7 +28671,7 @@ window.ANREVIEW_DATA = {
       "name": "Emma Holvast",
       "position": "Academic",
       "focus": "ANU Research Portal+ profile",
-      "school": "School of Archaeology &amp; Anthropology",
+      "school": "School of Archaeology & Anthropology",
       "schoolCode": "AAA",
       "college": "ANU College of Arts and Social Sciences",
       "profileUrl": "https://researchportalplus.anu.edu.au/en/persons/emma-holvast/",
@@ -29836,7 +28695,7 @@ window.ANREVIEW_DATA = {
       "name": "Emma Ligtermoet",
       "position": "Academic",
       "focus": "ANU Research Portal+ profile",
-      "school": "Fenner School of Environment &amp; Society",
+      "school": "Fenner School of Environment & Society",
       "schoolCode": "FEAS",
       "college": "ANU College of Systems and Society",
       "profileUrl": "https://researchportalplus.anu.edu.au/en/persons/emma-ligtermoet/",
@@ -29860,7 +28719,7 @@ window.ANREVIEW_DATA = {
       "name": "Emma Schultz",
       "position": "Academic",
       "focus": "ANU Research Portal+ profile",
-      "school": "Research School of Finance, Actuarial Studies &amp; Statistics",
+      "school": "Research School of Finance, Actuarial Studies & Statistics",
       "schoolCode": "FASAS",
       "college": "ANU College of Systems and Society",
       "profileUrl": "https://researchportalplus.anu.edu.au/en/persons/emma-schultz/",
@@ -30137,7 +28996,7 @@ window.ANREVIEW_DATA = {
       "name": "Eri Kashima",
       "position": "Academic",
       "focus": "ANU Research Portal+ profile",
-      "school": "Fenner School of Environment &amp; Society",
+      "school": "Fenner School of Environment & Society",
       "schoolCode": "FEAS",
       "college": "ANU College of Systems and Society",
       "profileUrl": "https://researchportalplus.anu.edu.au/en/persons/eri-kashima/",
@@ -30231,7 +29090,7 @@ window.ANREVIEW_DATA = {
       "name": "Erick Tjhin",
       "position": "Academic",
       "focus": "ANU Research Portal+ profile",
-      "school": "Division of Biomedical Science &amp; Biochemistry",
+      "school": "Division of Biomedical Science & Biochemistry",
       "schoolCode": "DBSAB",
       "college": "ANU College of Science and Medicine",
       "profileUrl": "https://researchportalplus.anu.edu.au/en/persons/erick-tjhin/",
@@ -30255,7 +29114,7 @@ window.ANREVIEW_DATA = {
       "name": "Erik Eklund",
       "position": "Academic",
       "focus": "ANU Research Portal+ profile",
-      "school": "Centre for Heritage &amp; Museum Studies",
+      "school": "Centre for Heritage & Museum Studies",
       "schoolCode": "HAMS",
       "college": "ANU College of Arts and Social Sciences",
       "profileUrl": "https://researchportalplus.anu.edu.au/en/persons/erik-eklund/",
@@ -30311,38 +29170,18 @@ window.ANREVIEW_DATA = {
       "profileUrl": "https://law.anu.edu.au/about/our-people/ernst-willheim",
       "tags": [
         "law",
-        "administrative law australian in"
-      ],
-      "linkedCourses": [],
-      "reviewMetrics": [
-        "Clarity",
-        "Support",
-        "Engagement"
-      ]
-    },
-    {
-      "id": "anu-portal-ernst-willheim",
-      "type": "academic",
-      "name": "Ernst Willheim",
-      "position": "Academic",
-      "focus": "ANU Research Portal+ profile",
-      "school": "ANU College of Law, Governance and Policy",
-      "schoolCode": "LGP",
-      "college": "ANU College of Law, Governance and Policy",
-      "profileUrl": "https://researchportalplus.anu.edu.au/en/persons/ernst-willheim/",
-      "email": "",
-      "office": "",
-      "linkedCourses": [],
-      "reviewMetrics": [
-        "Clarity",
-        "Support",
-        "Engagement"
-      ],
-      "tags": [
+        "administrative law australian in",
         "anu-college-of-law-governance-and-policy",
         "college-of-law-governance-and-policy",
         "research-portal"
-      ]
+      ],
+      "linkedCourses": [],
+      "reviewMetrics": [
+        "Clarity",
+        "Support",
+        "Engagement"
+      ],
+      "summary": ""
     },
     {
       "id": "anu-portal-eryn-newman",
@@ -30445,7 +29284,7 @@ window.ANREVIEW_DATA = {
       "name": "Esther Klein",
       "position": "Academic",
       "focus": "ANU Research Portal+ profile",
-      "school": "School of Culture, History &amp; Language",
+      "school": "School of Culture, History & Language",
       "schoolCode": "CHAL",
       "college": "ANU College of Arts and Social Sciences",
       "profileUrl": "https://researchportalplus.anu.edu.au/en/persons/esther-klein/",
@@ -30515,7 +29354,7 @@ window.ANREVIEW_DATA = {
       "name": "Eunseon Kim",
       "position": "Academic",
       "focus": "ANU Research Portal+ profile",
-      "school": "School of Culture, History &amp; Language",
+      "school": "School of Culture, History & Language",
       "schoolCode": "CHAL",
       "college": "ANU College of Arts and Social Sciences",
       "profileUrl": "https://researchportalplus.anu.edu.au/en/persons/eunseon-kim/",
@@ -30539,7 +29378,7 @@ window.ANREVIEW_DATA = {
       "name": "Eva Nisa",
       "position": "Academic",
       "focus": "ANU Research Portal+ profile",
-      "school": "School of Culture, History &amp; Language",
+      "school": "School of Culture, History & Language",
       "schoolCode": "CHAL",
       "college": "ANU College of Arts and Social Sciences",
       "profileUrl": "https://researchportalplus.anu.edu.au/en/persons/eva-nisa/",
@@ -30563,7 +29402,7 @@ window.ANREVIEW_DATA = {
       "name": "Evan Kidd",
       "position": "Academic",
       "focus": "ANU Research Portal+ profile",
-      "school": "School of Literature, Languages &amp; Linguistics",
+      "school": "School of Literature, Languages & Linguistics",
       "schoolCode": "LLAL",
       "college": "ANU College of Arts and Social Sciences",
       "profileUrl": "https://researchportalplus.anu.edu.au/en/persons/evan-kidd/",
@@ -30611,7 +29450,7 @@ window.ANREVIEW_DATA = {
       "name": "Eve Chen",
       "position": "Academic",
       "focus": "ANU Research Portal+ profile",
-      "school": "School of Culture, History &amp; Language",
+      "school": "School of Culture, History & Language",
       "schoolCode": "CHAL",
       "college": "ANU College of Arts and Social Sciences",
       "profileUrl": "https://researchportalplus.anu.edu.au/en/persons/eve-chen/",
@@ -30667,38 +29506,18 @@ window.ANREVIEW_DATA = {
       "profileUrl": "https://law.anu.edu.au/about/our-people/eve-lester",
       "tags": [
         "law",
-        "administrative law international"
-      ],
-      "linkedCourses": [],
-      "reviewMetrics": [
-        "Clarity",
-        "Support",
-        "Engagement"
-      ]
-    },
-    {
-      "id": "anu-portal-eve-lester",
-      "type": "academic",
-      "name": "Eve Lester",
-      "position": "Academic",
-      "focus": "ANU Research Portal+ profile",
-      "school": "ANU College of Law, Governance and Policy",
-      "schoolCode": "LGP",
-      "college": "ANU College of Law, Governance and Policy",
-      "profileUrl": "https://researchportalplus.anu.edu.au/en/persons/eve-lester/",
-      "email": "",
-      "office": "",
-      "linkedCourses": [],
-      "reviewMetrics": [
-        "Clarity",
-        "Support",
-        "Engagement"
-      ],
-      "tags": [
+        "administrative law international",
         "anu-college-of-law-governance-and-policy",
         "college-of-law-governance-and-policy",
         "research-portal"
-      ]
+      ],
+      "linkedCourses": [],
+      "reviewMetrics": [
+        "Clarity",
+        "Support",
+        "Engagement"
+      ],
+      "summary": ""
     },
     {
       "id": "anu-portal-evelyn-goh",
@@ -30706,7 +29525,7 @@ window.ANREVIEW_DATA = {
       "name": "Evelyn Goh",
       "position": "Academic",
       "focus": "ANU Research Portal+ profile",
-      "school": "Strategic &amp; Defence Studies Centre",
+      "school": "Strategic & Defence Studies Centre",
       "schoolCode": "SADS",
       "college": "ANU College of Arts and Social Sciences",
       "profileUrl": "https://researchportalplus.anu.edu.au/en/persons/evelyn-goh/",
@@ -30730,7 +29549,7 @@ window.ANREVIEW_DATA = {
       "name": "Ewan Maidment",
       "position": "Academic",
       "focus": "ANU Research Portal+ profile",
-      "school": "School of Culture, History &amp; Language",
+      "school": "School of Culture, History & Language",
       "schoolCode": "CHAL",
       "college": "ANU College of Arts and Social Sciences",
       "profileUrl": "https://researchportalplus.anu.edu.au/en/persons/ewan-maidment/",
@@ -30950,38 +29769,18 @@ window.ANREVIEW_DATA = {
       "profileUrl": "https://law.anu.edu.au/about/our-people/faith-gordon",
       "tags": [
         "law",
-        "criminal law criminology law & t"
-      ],
-      "linkedCourses": [],
-      "reviewMetrics": [
-        "Clarity",
-        "Support",
-        "Engagement"
-      ]
-    },
-    {
-      "id": "anu-portal-faith-gordon",
-      "type": "academic",
-      "name": "Faith Gordon",
-      "position": "Academic",
-      "focus": "ANU Research Portal+ profile",
-      "school": "ANU College of Law, Governance and Policy",
-      "schoolCode": "LGP",
-      "college": "ANU College of Law, Governance and Policy",
-      "profileUrl": "https://researchportalplus.anu.edu.au/en/persons/faith-gordon/",
-      "email": "",
-      "office": "",
-      "linkedCourses": [],
-      "reviewMetrics": [
-        "Clarity",
-        "Support",
-        "Engagement"
-      ],
-      "tags": [
+        "criminal law criminology law & t",
         "anu-college-of-law-governance-and-policy",
         "college-of-law-governance-and-policy",
         "research-portal"
-      ]
+      ],
+      "linkedCourses": [],
+      "reviewMetrics": [
+        "Clarity",
+        "Support",
+        "Engagement"
+      ],
+      "summary": ""
     },
     {
       "id": "anu-portal-faranak-hardcastle",
@@ -31109,7 +29908,7 @@ window.ANREVIEW_DATA = {
       "name": "Fazal Wahab",
       "position": "Academic",
       "focus": "ANU Research Portal+ profile",
-      "school": "ANU College of Asia &amp; the Pacific",
+      "school": "ANU College of Asia & the Pacific",
       "schoolCode": "AAP",
       "college": "ANU College of Asia and the Pacific",
       "profileUrl": "https://researchportalplus.anu.edu.au/en/persons/fazal-wahab/",
@@ -31157,7 +29956,7 @@ window.ANREVIEW_DATA = {
       "name": "Felicitas Hopf",
       "position": "Academic",
       "focus": "ANU Research Portal+ profile",
-      "school": "School of Culture, History &amp; Language",
+      "school": "School of Culture, History & Language",
       "schoolCode": "CHAL",
       "college": "ANU College of Arts and Social Sciences",
       "profileUrl": "https://researchportalplus.anu.edu.au/en/persons/felicitas-hopf/",
@@ -31181,7 +29980,7 @@ window.ANREVIEW_DATA = {
       "name": "Felicity Tepper",
       "position": "Academic",
       "focus": "ANU Research Portal+ profile",
-      "school": "School of Regulation &amp; Global Governance",
+      "school": "School of Regulation & Global Governance",
       "schoolCode": "RAGG",
       "college": "ANU College of Law, Governance and Policy",
       "profileUrl": "https://researchportalplus.anu.edu.au/en/persons/felicity-tepper/",
@@ -31218,32 +30017,12 @@ window.ANREVIEW_DATA = {
         "Engagement"
       ],
       "tags": [
-        "physics"
-      ]
-    },
-    {
-      "id": "anu-portal-felipe-kremer",
-      "type": "academic",
-      "name": "Felipe Kremer",
-      "position": "Academic",
-      "focus": "ANU Research Portal+ profile",
-      "school": "Centre for Advanced Microscopy",
-      "schoolCode": "AM",
-      "college": "ANU College of Arts and Social Sciences",
-      "profileUrl": "https://researchportalplus.anu.edu.au/en/persons/felipe-kremer/",
-      "email": "",
-      "office": "",
-      "linkedCourses": [],
-      "reviewMetrics": [
-        "Clarity",
-        "Support",
-        "Engagement"
-      ],
-      "tags": [
+        "physics",
         "centre-for-advanced-microscopy",
         "college-of-arts-and-social-sciences",
         "research-portal"
-      ]
+      ],
+      "summary": ""
     },
     {
       "id": "comp-felipe-trevizan",
@@ -31297,7 +30076,7 @@ window.ANREVIEW_DATA = {
       "name": "Fengming Lu",
       "position": "Academic",
       "focus": "ANU Research Portal+ profile",
-      "school": "Department of Political &amp; Social Change",
+      "school": "Department of Political & Social Change",
       "schoolCode": "DPASC",
       "college": "ANU College of Arts and Social Sciences",
       "profileUrl": "https://researchportalplus.anu.edu.au/en/persons/fengming-lu/",
@@ -31321,7 +30100,7 @@ window.ANREVIEW_DATA = {
       "name": "Fernanda Alves de Amorim",
       "position": "Academic",
       "focus": "ANU Research Portal+ profile",
-      "school": "Fenner School of Environment &amp; Society",
+      "school": "Fenner School of Environment & Society",
       "schoolCode": "FEAS",
       "college": "ANU College of Systems and Society",
       "profileUrl": "https://researchportalplus.anu.edu.au/en/persons/fernanda-alves-de-amorim/",
@@ -31534,7 +30313,7 @@ window.ANREVIEW_DATA = {
       "name": "Fouzieyha Towghi",
       "position": "Academic",
       "focus": "ANU Research Portal+ profile",
-      "school": "School of Archaeology &amp; Anthropology",
+      "school": "School of Archaeology & Anthropology",
       "schoolCode": "AAA",
       "college": "ANU College of Arts and Social Sciences",
       "profileUrl": "https://researchportalplus.anu.edu.au/en/persons/fouzieyha-towghi/",
@@ -31558,7 +30337,7 @@ window.ANREVIEW_DATA = {
       "name": "Frances Morphy",
       "position": "Academic",
       "focus": "ANU Research Portal+ profile",
-      "school": "School of Literature, Languages &amp; Linguistics",
+      "school": "School of Literature, Languages & Linguistics",
       "schoolCode": "LLAL",
       "college": "ANU College of Arts and Social Sciences",
       "profileUrl": "https://researchportalplus.anu.edu.au/en/persons/frances-morphy/",
@@ -31582,7 +30361,7 @@ window.ANREVIEW_DATA = {
       "name": "Francesco De Toni",
       "position": "Academic",
       "focus": "ANU Research Portal+ profile",
-      "school": "School of Literature, Languages &amp; Linguistics",
+      "school": "School of Literature, Languages & Linguistics",
       "schoolCode": "LLAL",
       "college": "ANU College of Arts and Social Sciences",
       "profileUrl": "https://researchportalplus.anu.edu.au/en/persons/francesco-de-toni/",
@@ -31630,7 +30409,7 @@ window.ANREVIEW_DATA = {
       "name": "Francis Hui",
       "position": "Academic",
       "focus": "ANU Research Portal+ profile",
-      "school": "Research School of Finance, Actuarial Studies &amp; Statistics",
+      "school": "Research School of Finance, Actuarial Studies & Statistics",
       "schoolCode": "FASAS",
       "college": "ANU College of Systems and Society",
       "profileUrl": "https://researchportalplus.anu.edu.au/en/persons/francis-hui/",
@@ -31750,7 +30529,7 @@ window.ANREVIEW_DATA = {
       "name": "Frank Mills",
       "position": "Academic",
       "focus": "ANU Research Portal+ profile",
-      "school": "Fenner School of Environment &amp; Society",
+      "school": "Fenner School of Environment & Society",
       "schoolCode": "FEAS",
       "college": "ANU College of Systems and Society",
       "profileUrl": "https://researchportalplus.anu.edu.au/en/persons/frank-mills/",
@@ -31835,32 +30614,12 @@ window.ANREVIEW_DATA = {
         "Engagement"
       ],
       "tags": [
-        "cyb"
-      ]
-    },
-    {
-      "id": "anu-portal-gabriela-ferraro",
-      "type": "academic",
-      "name": "Gabriela Ferraro",
-      "position": "Academic",
-      "focus": "ANU Research Portal+ profile",
-      "school": "School of Cybernetics",
-      "schoolCode": "CYB",
-      "college": "ANU College of Systems and Society",
-      "profileUrl": "https://researchportalplus.anu.edu.au/en/persons/gabriela-ferraro/",
-      "email": "",
-      "office": "",
-      "linkedCourses": [],
-      "reviewMetrics": [
-        "Clarity",
-        "Support",
-        "Engagement"
-      ],
-      "tags": [
+        "cyb",
         "school-of-cybernetics",
         "college-of-systems-and-society",
         "research-portal"
-      ]
+      ],
+      "summary": ""
     },
     {
       "id": "anu-portal-gabriele-bammer",
@@ -31940,7 +30699,7 @@ window.ANREVIEW_DATA = {
       "name": "Gareth Knapman",
       "position": "Academic",
       "focus": "ANU Research Portal+ profile",
-      "school": "Centre for Heritage &amp; Museum Studies",
+      "school": "Centre for Heritage & Museum Studies",
       "schoolCode": "HAMS",
       "college": "ANU College of Arts and Social Sciences",
       "profileUrl": "https://researchportalplus.anu.edu.au/en/persons/gareth-knapman/",
@@ -32012,7 +30771,7 @@ window.ANREVIEW_DATA = {
       "name": "Garrick Hitchcock",
       "position": "Academic",
       "focus": "ANU Research Portal+ profile",
-      "school": "School of Culture, History &amp; Language",
+      "school": "School of Culture, History & Language",
       "schoolCode": "CHAL",
       "college": "ANU College of Arts and Social Sciences",
       "profileUrl": "https://researchportalplus.anu.edu.au/en/persons/garrick-hitchcock/",
@@ -32036,7 +30795,7 @@ window.ANREVIEW_DATA = {
       "name": "Garth Pratten",
       "position": "Academic",
       "focus": "ANU Research Portal+ profile",
-      "school": "Strategic &amp; Defence Studies Centre",
+      "school": "Strategic & Defence Studies Centre",
       "schoolCode": "SADS",
       "college": "ANU College of Arts and Social Sciences",
       "profileUrl": "https://researchportalplus.anu.edu.au/en/persons/garth-pratten/",
@@ -32084,7 +30843,7 @@ window.ANREVIEW_DATA = {
       "name": "Gaurav Khemka",
       "position": "Academic",
       "focus": "ANU Research Portal+ profile",
-      "school": "Research School of Finance, Actuarial Studies &amp; Statistics",
+      "school": "Research School of Finance, Actuarial Studies & Statistics",
       "schoolCode": "FASAS",
       "college": "ANU College of Systems and Society",
       "profileUrl": "https://researchportalplus.anu.edu.au/en/persons/gaurav-khemka/",
@@ -32250,7 +31009,7 @@ window.ANREVIEW_DATA = {
       "name": "Geoff Cary",
       "position": "Academic",
       "focus": "ANU Research Portal+ profile",
-      "school": "Fenner School of Environment &amp; Society",
+      "school": "Fenner School of Environment & Society",
       "schoolCode": "FEAS",
       "college": "ANU College of Systems and Society",
       "profileUrl": "https://researchportalplus.anu.edu.au/en/persons/geoff-cary/",
@@ -32296,7 +31055,7 @@ window.ANREVIEW_DATA = {
       "name": "Geoff Heard",
       "position": "Academic",
       "focus": "ANU Research Portal+ profile",
-      "school": "Fenner School of Environment &amp; Society",
+      "school": "Fenner School of Environment & Society",
       "schoolCode": "FEAS",
       "college": "ANU College of Systems and Society",
       "profileUrl": "https://researchportalplus.anu.edu.au/en/persons/geoff-heard/",
@@ -32320,7 +31079,7 @@ window.ANREVIEW_DATA = {
       "name": "Geoff Hinchcliffe",
       "position": "Academic",
       "focus": "ANU Research Portal+ profile",
-      "school": "School of Art &amp; Design",
+      "school": "School of Art & Design",
       "schoolCode": "AAD",
       "college": "ANU College of Systems and Society",
       "profileUrl": "https://researchportalplus.anu.edu.au/en/persons/geoff-hinchcliffe/",
@@ -32344,7 +31103,7 @@ window.ANREVIEW_DATA = {
       "name": "Geoffrey Clark",
       "position": "Academic",
       "focus": "ANU Research Portal+ profile",
-      "school": "School of Culture, History &amp; Language",
+      "school": "School of Culture, History & Language",
       "schoolCode": "CHAL",
       "college": "ANU College of Arts and Social Sciences",
       "profileUrl": "https://researchportalplus.anu.edu.au/en/persons/geoffrey-clark/",
@@ -32463,7 +31222,7 @@ window.ANREVIEW_DATA = {
       "name": "George Olah",
       "position": "Academic",
       "focus": "ANU Research Portal+ profile",
-      "school": "Fenner School of Environment &amp; Society",
+      "school": "Fenner School of Environment & Society",
       "schoolCode": "FEAS",
       "college": "ANU College of Systems and Society",
       "profileUrl": "https://researchportalplus.anu.edu.au/en/persons/george-olah/",
@@ -32487,7 +31246,7 @@ window.ANREVIEW_DATA = {
       "name": "George Wilson",
       "position": "Academic",
       "focus": "ANU Research Portal+ profile",
-      "school": "Fenner School of Environment &amp; Society",
+      "school": "Fenner School of Environment & Society",
       "schoolCode": "FEAS",
       "college": "ANU College of Systems and Society",
       "profileUrl": "https://researchportalplus.anu.edu.au/en/persons/george-wilson/",
@@ -32581,7 +31340,7 @@ window.ANREVIEW_DATA = {
       "name": "Geremie Barme",
       "position": "Academic",
       "focus": "ANU Research Portal+ profile",
-      "school": "School of Culture, History &amp; Language",
+      "school": "School of Culture, History & Language",
       "schoolCode": "CHAL",
       "college": "ANU College of Arts and Social Sciences",
       "profileUrl": "https://researchportalplus.anu.edu.au/en/persons/geremie-barme/",
@@ -32605,7 +31364,7 @@ window.ANREVIEW_DATA = {
       "name": "Giacomo Cordoni",
       "position": "Academic",
       "focus": "ANU Research Portal+ profile",
-      "school": "Research School of Astronomy &amp; Astrophysics",
+      "school": "Research School of Astronomy & Astrophysics",
       "schoolCode": "AAA",
       "college": "ANU College of Science and Medicine",
       "profileUrl": "https://researchportalplus.anu.edu.au/en/persons/giacomo-cordoni/",
@@ -32629,7 +31388,7 @@ window.ANREVIEW_DATA = {
       "name": "Giada Casali",
       "position": "Academic",
       "focus": "ANU Research Portal+ profile",
-      "school": "Research School of Astronomy &amp; Astrophysics",
+      "school": "Research School of Astronomy & Astrophysics",
       "schoolCode": "AAA",
       "college": "ANU College of Science and Medicine",
       "profileUrl": "https://researchportalplus.anu.edu.au/en/persons/giada-casali/",
@@ -32653,7 +31412,7 @@ window.ANREVIEW_DATA = {
       "name": "Giel van Dooren",
       "position": "Academic",
       "focus": "ANU Research Portal+ profile",
-      "school": "Division of Biomedical Science &amp; Biochemistry",
+      "school": "Division of Biomedical Science & Biochemistry",
       "schoolCode": "DBSAB",
       "college": "ANU College of Science and Medicine",
       "profileUrl": "https://researchportalplus.anu.edu.au/en/persons/giel-van-dooren/",
@@ -32747,7 +31506,7 @@ window.ANREVIEW_DATA = {
       "name": "Ginny Sargent",
       "position": "Academic",
       "focus": "ANU Research Portal+ profile",
-      "school": "ANU College of Arts &amp; Social Sciences",
+      "school": "ANU College of Arts & Social Sciences",
       "schoolCode": "AASS",
       "college": "ANU College of Arts and Social Sciences",
       "profileUrl": "https://researchportalplus.anu.edu.au/en/persons/ginny-sargent/",
@@ -32819,7 +31578,7 @@ window.ANREVIEW_DATA = {
       "name": "Giselle Cruzado Melendez",
       "position": "Academic",
       "focus": "ANU Research Portal+ profile",
-      "school": "Fenner School of Environment &amp; Society",
+      "school": "Fenner School of Environment & Society",
       "schoolCode": "FEAS",
       "college": "ANU College of Systems and Society",
       "profileUrl": "https://researchportalplus.anu.edu.au/en/persons/giselle-cruzado-melendez/",
@@ -32843,7 +31602,7 @@ window.ANREVIEW_DATA = {
       "name": "Giselle Owens",
       "position": "Academic",
       "focus": "ANU Research Portal+ profile",
-      "school": "Fenner School of Environment &amp; Society",
+      "school": "Fenner School of Environment & Society",
       "schoolCode": "FEAS",
       "college": "ANU College of Systems and Society",
       "profileUrl": "https://researchportalplus.anu.edu.au/en/persons/giselle-owens/",
@@ -32937,7 +31696,7 @@ window.ANREVIEW_DATA = {
       "name": "Glen Berman",
       "position": "Academic",
       "focus": "ANU Research Portal+ profile",
-      "school": "ANU College of Arts &amp; Social Sciences",
+      "school": "ANU College of Arts & Social Sciences",
       "schoolCode": "AASS",
       "college": "ANU College of Systems and Society",
       "profileUrl": "https://researchportalplus.anu.edu.au/en/persons/glen-berman/",
@@ -32974,32 +31733,12 @@ window.ANREVIEW_DATA = {
         "Engagement"
       ],
       "tags": [
-        "physics"
-      ]
-    },
-    {
-      "id": "anu-portal-glenn-myers",
-      "type": "academic",
-      "name": "Glenn Myers",
-      "position": "Academic",
-      "focus": "ANU Research Portal+ profile",
-      "school": "Department of Materials Physics",
-      "schoolCode": "DMP",
-      "college": "ANU College of Science and Medicine",
-      "profileUrl": "https://researchportalplus.anu.edu.au/en/persons/glenn-myers/",
-      "email": "",
-      "office": "",
-      "linkedCourses": [],
-      "reviewMetrics": [
-        "Clarity",
-        "Support",
-        "Engagement"
-      ],
-      "tags": [
+        "physics",
         "department-of-materials-physics",
         "college-of-science-and-medicine",
         "research-portal"
-      ]
+      ],
+      "summary": ""
     },
     {
       "id": "anu-portal-glenn-withers",
@@ -33149,7 +31888,7 @@ window.ANREVIEW_DATA = {
       "name": "Grace Koch",
       "position": "Academic",
       "focus": "ANU Research Portal+ profile",
-      "school": "Centre for Heritage &amp; Museum Studies",
+      "school": "Centre for Heritage & Museum Studies",
       "schoolCode": "HAMS",
       "college": "ANU College of Arts and Social Sciences",
       "profileUrl": "https://researchportalplus.anu.edu.au/en/persons/grace-koch/",
@@ -33306,32 +32045,12 @@ window.ANREVIEW_DATA = {
         "Engagement"
       ],
       "tags": [
-        "comp"
-      ]
-    },
-    {
-      "id": "anu-portal-graham-williams",
-      "type": "academic",
-      "name": "Graham Williams",
-      "position": "Academic",
-      "focus": "ANU Research Portal+ profile",
-      "school": "School of Computing",
-      "schoolCode": "COMP",
-      "college": "ANU College of Systems and Society",
-      "profileUrl": "https://researchportalplus.anu.edu.au/en/persons/graham-williams/",
-      "email": "",
-      "office": "",
-      "linkedCourses": [],
-      "reviewMetrics": [
-        "Clarity",
-        "Support",
-        "Engagement"
-      ],
-      "tags": [
+        "comp",
         "school-of-computing",
         "college-of-systems-and-society",
         "research-portal"
-      ]
+      ],
+      "summary": ""
     },
     {
       "id": "anu-portal-grant-walton",
@@ -33385,7 +32104,7 @@ window.ANREVIEW_DATA = {
       "name": "Greg Fealy",
       "position": "Academic",
       "focus": "ANU Research Portal+ profile",
-      "school": "ANU College of Asia &amp; the Pacific",
+      "school": "ANU College of Asia & the Pacific",
       "schoolCode": "AAP",
       "college": "ANU College of Asia and the Pacific",
       "profileUrl": "https://researchportalplus.anu.edu.au/en/persons/greg-fealy/",
@@ -33409,7 +32128,7 @@ window.ANREVIEW_DATA = {
       "name": "Greg Lane",
       "position": "Academic",
       "focus": "ANU Research Portal+ profile",
-      "school": "Department of Nuclear Physics &amp; Accelerator Applications",
+      "school": "Department of Nuclear Physics & Accelerator Applications",
       "schoolCode": "DNPAAA",
       "college": "ANU College of Science and Medicine",
       "profileUrl": "https://researchportalplus.anu.edu.au/en/persons/greg-lane/",
@@ -33433,7 +32152,7 @@ window.ANREVIEW_DATA = {
       "name": "Greg Raymond",
       "position": "Academic",
       "focus": "ANU Research Portal+ profile",
-      "school": "Strategic &amp; Defence Studies Centre",
+      "school": "Strategic & Defence Studies Centre",
       "schoolCode": "SADS",
       "college": "ANU College of Arts and Social Sciences",
       "profileUrl": "https://researchportalplus.anu.edu.au/en/persons/greg-raymond/",
@@ -33489,38 +32208,18 @@ window.ANREVIEW_DATA = {
       "profileUrl": "https://law.anu.edu.au/about/our-people/greg-weeks",
       "tags": [
         "law",
-        "administrative law"
-      ],
-      "linkedCourses": [],
-      "reviewMetrics": [
-        "Clarity",
-        "Support",
-        "Engagement"
-      ]
-    },
-    {
-      "id": "anu-portal-greg-weeks",
-      "type": "academic",
-      "name": "Greg Weeks",
-      "position": "Academic",
-      "focus": "ANU Research Portal+ profile",
-      "school": "ANU College of Law, Governance and Policy",
-      "schoolCode": "LGP",
-      "college": "ANU College of Law, Governance and Policy",
-      "profileUrl": "https://researchportalplus.anu.edu.au/en/persons/greg-weeks/",
-      "email": "",
-      "office": "",
-      "linkedCourses": [],
-      "reviewMetrics": [
-        "Clarity",
-        "Support",
-        "Engagement"
-      ],
-      "tags": [
+        "administrative law",
         "anu-college-of-law-governance-and-policy",
         "college-of-law-governance-and-policy",
         "research-portal"
-      ]
+      ],
+      "linkedCourses": [],
+      "reviewMetrics": [
+        "Clarity",
+        "Support",
+        "Engagement"
+      ],
+      "summary": ""
     },
     {
       "id": "gregor-urbas",
@@ -33551,7 +32250,7 @@ window.ANREVIEW_DATA = {
       "name": "Gregory Dickson",
       "position": "Academic",
       "focus": "ANU Research Portal+ profile",
-      "school": "School of Culture, History &amp; Language",
+      "school": "School of Culture, History & Language",
       "schoolCode": "CHAL",
       "college": "ANU College of Arts and Social Sciences",
       "profileUrl": "https://researchportalplus.anu.edu.au/en/persons/gregory-dickson/",
@@ -33717,7 +32416,7 @@ window.ANREVIEW_DATA = {
       "name": "Guillaume Molle",
       "position": "Academic",
       "focus": "ANU Research Portal+ profile",
-      "school": "School of Archaeology &amp; Anthropology",
+      "school": "School of Archaeology & Anthropology",
       "schoolCode": "AAA",
       "college": "ANU College of Arts and Social Sciences",
       "profileUrl": "https://researchportalplus.anu.edu.au/en/persons/guillaume-molle/",
@@ -33765,7 +32464,7 @@ window.ANREVIEW_DATA = {
       "name": "Habiba Gitay",
       "position": "Academic",
       "focus": "ANU Research Portal+ profile",
-      "school": "Fenner School of Environment &amp; Society",
+      "school": "Fenner School of Environment & Society",
       "schoolCode": "FEAS",
       "college": "ANU College of Systems and Society",
       "profileUrl": "https://researchportalplus.anu.edu.au/en/persons/habiba-gitay/",
@@ -33837,7 +32536,7 @@ window.ANREVIEW_DATA = {
       "name": "Hajime Ogane",
       "position": "Academic",
       "focus": "ANU Research Portal+ profile",
-      "school": "Research School of Astronomy &amp; Astrophysics",
+      "school": "Research School of Astronomy & Astrophysics",
       "schoolCode": "AAA",
       "college": "ANU College of Science and Medicine",
       "profileUrl": "https://researchportalplus.anu.edu.au/en/persons/hajime-ogane/",
@@ -33909,7 +32608,7 @@ window.ANREVIEW_DATA = {
       "name": "Hanh Nguyen",
       "position": "Academic",
       "focus": "ANU Research Portal+ profile",
-      "school": "Strategic &amp; Defence Studies Centre",
+      "school": "Strategic & Defence Studies Centre",
       "schoolCode": "SADS",
       "college": "ANU College of Asia and the Pacific",
       "profileUrl": "https://researchportalplus.anu.edu.au/en/persons/hanh-nguyen/",
@@ -33946,32 +32645,12 @@ window.ANREVIEW_DATA = {
         "Engagement"
       ],
       "tags": [
-        "comp"
-      ]
-    },
-    {
-      "id": "anu-portal-hanna-kurniawati",
-      "type": "academic",
-      "name": "Hanna Kurniawati",
-      "position": "Academic",
-      "focus": "ANU Research Portal+ profile",
-      "school": "School of Computing",
-      "schoolCode": "COMP",
-      "college": "ANU College of Systems and Society",
-      "profileUrl": "https://researchportalplus.anu.edu.au/en/persons/hanna-kurniawati/",
-      "email": "",
-      "office": "",
-      "linkedCourses": [],
-      "reviewMetrics": [
-        "Clarity",
-        "Support",
-        "Engagement"
-      ],
-      "tags": [
+        "comp",
         "school-of-computing",
         "college-of-systems-and-society",
         "research-portal"
-      ]
+      ],
+      "summary": ""
     },
     {
       "id": "comp-hanna-suominen",
@@ -33992,32 +32671,12 @@ window.ANREVIEW_DATA = {
         "Engagement"
       ],
       "tags": [
-        "comp"
-      ]
-    },
-    {
-      "id": "anu-portal-hanna-suominen",
-      "type": "academic",
-      "name": "Hanna Suominen",
-      "position": "Academic",
-      "focus": "ANU Research Portal+ profile",
-      "school": "School of Computing",
-      "schoolCode": "COMP",
-      "college": "ANU College of Systems and Society",
-      "profileUrl": "https://researchportalplus.anu.edu.au/en/persons/hanna-suominen/",
-      "email": "",
-      "office": "",
-      "linkedCourses": [],
-      "reviewMetrics": [
-        "Clarity",
-        "Support",
-        "Engagement"
-      ],
-      "tags": [
+        "comp",
         "school-of-computing",
         "college-of-systems-and-society",
         "research-portal"
-      ]
+      ],
+      "summary": ""
     },
     {
       "id": "anu-portal-hannah-calich",
@@ -34062,32 +32721,12 @@ window.ANREVIEW_DATA = {
         "Engagement"
       ],
       "tags": [
-        "cyb"
-      ]
-    },
-    {
-      "id": "anu-portal-hannah-feldman",
-      "type": "academic",
-      "name": "Hannah Feldman",
-      "position": "Academic",
-      "focus": "ANU Research Portal+ profile",
-      "school": "School of Cybernetics",
-      "schoolCode": "CYB",
-      "college": "ANU College of Systems and Society",
-      "profileUrl": "https://researchportalplus.anu.edu.au/en/persons/hannah-feldman/",
-      "email": "",
-      "office": "",
-      "linkedCourses": [],
-      "reviewMetrics": [
-        "Clarity",
-        "Support",
-        "Engagement"
-      ],
-      "tags": [
+        "cyb",
         "school-of-cybernetics",
         "college-of-systems-and-society",
         "research-portal"
-      ]
+      ],
+      "summary": ""
     },
     {
       "id": "anu-portal-hannah-kelly",
@@ -34307,7 +32946,7 @@ window.ANREVIEW_DATA = {
       "name": "Harry Myrans",
       "position": "Academic",
       "focus": "ANU Research Portal+ profile",
-      "school": "Institute for Climate, Energy &amp; Disaster Solutions",
+      "school": "Institute for Climate, Energy & Disaster Solutions",
       "schoolCode": "ICEADS",
       "college": "ANU College of Arts and Social Sciences",
       "profileUrl": "https://researchportalplus.anu.edu.au/en/persons/harry-myrans/",
@@ -34532,38 +33171,18 @@ window.ANREVIEW_DATA = {
       "tags": [
         "law",
         "constitutional law courts & trib",
-        "sexuality & the law"
-      ],
-      "linkedCourses": [],
-      "reviewMetrics": [
-        "Clarity",
-        "Support",
-        "Engagement"
-      ]
-    },
-    {
-      "id": "anu-portal-heather-roberts",
-      "type": "academic",
-      "name": "Heather Roberts",
-      "position": "Academic",
-      "focus": "ANU Research Portal+ profile",
-      "school": "ANU College of Law, Governance and Policy",
-      "schoolCode": "LGP",
-      "college": "ANU College of Law, Governance and Policy",
-      "profileUrl": "https://researchportalplus.anu.edu.au/en/persons/heather-roberts/",
-      "email": "",
-      "office": "",
-      "linkedCourses": [],
-      "reviewMetrics": [
-        "Clarity",
-        "Support",
-        "Engagement"
-      ],
-      "tags": [
+        "sexuality & the law",
         "anu-college-of-law-governance-and-policy",
         "college-of-law-governance-and-policy",
         "research-portal"
-      ]
+      ],
+      "linkedCourses": [],
+      "reviewMetrics": [
+        "Clarity",
+        "Support",
+        "Engagement"
+      ],
+      "summary": ""
     },
     {
       "id": "anu-portal-helen-chung",
@@ -34571,7 +33190,7 @@ window.ANREVIEW_DATA = {
       "name": "Helen Chung",
       "position": "Academic",
       "focus": "ANU Research Portal+ profile",
-      "school": "School of Culture, History &amp; Language",
+      "school": "School of Culture, History & Language",
       "schoolCode": "CHAL",
       "college": "ANU College of Arts and Social Sciences",
       "profileUrl": "https://researchportalplus.anu.edu.au/en/persons/helen-chung/",
@@ -34667,7 +33286,7 @@ window.ANREVIEW_DATA = {
       "name": "Helena Clayton",
       "position": "Academic",
       "focus": "ANU Research Portal+ profile",
-      "school": "Fenner School of Environment &amp; Society",
+      "school": "Fenner School of Environment & Society",
       "schoolCode": "FEAS",
       "college": "ANU College of Systems and Society",
       "profileUrl": "https://researchportalplus.anu.edu.au/en/persons/helena-clayton/",
@@ -34691,7 +33310,7 @@ window.ANREVIEW_DATA = {
       "name": "Helmut Jerjen",
       "position": "Academic",
       "focus": "ANU Research Portal+ profile",
-      "school": "Research School of Astronomy &amp; Astrophysics",
+      "school": "Research School of Astronomy & Astrophysics",
       "schoolCode": "AAA",
       "college": "ANU College of Science and Medicine",
       "profileUrl": "https://researchportalplus.anu.edu.au/en/persons/helmut-jerjen/",
@@ -34715,7 +33334,7 @@ window.ANREVIEW_DATA = {
       "name": "Hemant Ojha",
       "position": "Academic",
       "focus": "ANU Research Portal+ profile",
-      "school": "Fenner School of Environment &amp; Society",
+      "school": "Fenner School of Environment & Society",
       "schoolCode": "FEAS",
       "college": "ANU College of Systems and Society",
       "profileUrl": "https://researchportalplus.anu.edu.au/en/persons/hemant-ojha/",
@@ -34859,7 +33478,7 @@ window.ANREVIEW_DATA = {
       "name": "Henry Zovaro",
       "position": "Academic",
       "focus": "ANU Research Portal+ profile",
-      "school": "Research School of Astronomy &amp; Astrophysics",
+      "school": "Research School of Astronomy & Astrophysics",
       "schoolCode": "AAA",
       "college": "ANU College of Science and Medicine",
       "profileUrl": "https://researchportalplus.anu.edu.au/en/persons/henry-zovaro/",
@@ -34907,7 +33526,7 @@ window.ANREVIEW_DATA = {
       "name": "Hiep Nguyen",
       "position": "Academic",
       "focus": "ANU Research Portal+ profile",
-      "school": "Research School of Astronomy &amp; Astrophysics",
+      "school": "Research School of Astronomy & Astrophysics",
       "schoolCode": "AAA",
       "college": "ANU College of Science and Medicine",
       "profileUrl": "https://researchportalplus.anu.edu.au/en/persons/hiep-nguyen/",
@@ -34955,7 +33574,7 @@ window.ANREVIEW_DATA = {
       "name": "Hilary Charlesworth",
       "position": "Academic",
       "focus": "ANU Research Portal+ profile",
-      "school": "School of Regulation &amp; Global Governance",
+      "school": "School of Regulation & Global Governance",
       "schoolCode": "RAGG",
       "college": "ANU College of Law, Governance and Policy",
       "profileUrl": "https://researchportalplus.anu.edu.au/en/persons/hilary-charlesworth/",
@@ -35003,7 +33622,7 @@ window.ANREVIEW_DATA = {
       "name": "Hilary Smith",
       "position": "Academic",
       "focus": "ANU Research Portal+ profile",
-      "school": "School of Literature, Languages &amp; Linguistics",
+      "school": "School of Literature, Languages & Linguistics",
       "schoolCode": "LLAL",
       "college": "ANU College of Arts and Social Sciences",
       "profileUrl": "https://researchportalplus.anu.edu.au/en/persons/hilary-smith-2/",
@@ -35060,38 +33679,18 @@ window.ANREVIEW_DATA = {
       "tags": [
         "law",
         "climate change & climate finance",
-        "climate & health environmental l"
-      ],
-      "linkedCourses": [],
-      "reviewMetrics": [
-        "Clarity",
-        "Support",
-        "Engagement"
-      ]
-    },
-    {
-      "id": "anu-portal-hina-aslam",
-      "type": "academic",
-      "name": "Hina Aslam",
-      "position": "Academic",
-      "focus": "ANU Research Portal+ profile",
-      "school": "ANU College of Law, Governance and Policy",
-      "schoolCode": "LGP",
-      "college": "ANU College of Law, Governance and Policy",
-      "profileUrl": "https://researchportalplus.anu.edu.au/en/persons/hina-aslam/",
-      "email": "",
-      "office": "",
-      "linkedCourses": [],
-      "reviewMetrics": [
-        "Clarity",
-        "Support",
-        "Engagement"
-      ],
-      "tags": [
+        "climate & health environmental l",
         "anu-college-of-law-governance-and-policy",
         "college-of-law-governance-and-policy",
         "research-portal"
-      ]
+      ],
+      "linkedCourses": [],
+      "reviewMetrics": [
+        "Clarity",
+        "Support",
+        "Engagement"
+      ],
+      "summary": ""
     },
     {
       "id": "phys-hiroshi-katsumata",
@@ -35206,32 +33805,12 @@ window.ANREVIEW_DATA = {
         "Engagement"
       ],
       "tags": [
-        "physics"
-      ]
-    },
-    {
-      "id": "anu-portal-hoe-tan",
-      "type": "academic",
-      "name": "Hoe Tan",
-      "position": "Academic",
-      "focus": "ANU Research Portal+ profile",
-      "school": "Department of Electronic Materials Engineering",
-      "schoolCode": "DEME",
-      "college": "ANU College of Systems and Society",
-      "profileUrl": "https://researchportalplus.anu.edu.au/en/persons/hoe-tan/",
-      "email": "",
-      "office": "",
-      "linkedCourses": [],
-      "reviewMetrics": [
-        "Clarity",
-        "Support",
-        "Engagement"
-      ],
-      "tags": [
+        "physics",
         "department-of-electronic-materials-engineering",
         "college-of-systems-and-society",
         "research-portal"
-      ]
+      ],
+      "summary": ""
     },
     {
       "id": "comp-hongdong-li",
@@ -35252,32 +33831,12 @@ window.ANREVIEW_DATA = {
         "Engagement"
       ],
       "tags": [
-        "comp"
-      ]
-    },
-    {
-      "id": "anu-portal-hongdong-li",
-      "type": "academic",
-      "name": "Hongdong Li",
-      "position": "Academic",
-      "focus": "ANU Research Portal+ profile",
-      "school": "School of Computing",
-      "schoolCode": "COMP",
-      "college": "ANU College of Systems and Society",
-      "profileUrl": "https://researchportalplus.anu.edu.au/en/persons/hongdong-li/",
-      "email": "",
-      "office": "",
-      "linkedCourses": [],
-      "reviewMetrics": [
-        "Clarity",
-        "Support",
-        "Engagement"
-      ],
-      "tags": [
+        "comp",
         "school-of-computing",
         "college-of-systems-and-society",
         "research-portal"
-      ]
+      ],
+      "summary": ""
     },
     {
       "id": "anu-portal-hongyi-xu",
@@ -35345,32 +33904,12 @@ window.ANREVIEW_DATA = {
         "Engagement"
       ],
       "tags": [
-        "physics"
-      ]
-    },
-    {
-      "id": "anu-portal-horst-punzmann",
-      "type": "academic",
-      "name": "Horst Punzmann",
-      "position": "Academic",
-      "focus": "ANU Research Portal+ profile",
-      "school": "Research School of Physics",
-      "schoolCode": "PHYS",
-      "college": "ANU College of Science and Medicine",
-      "profileUrl": "https://researchportalplus.anu.edu.au/en/persons/horst-punzmann/",
-      "email": "",
-      "office": "",
-      "linkedCourses": [],
-      "reviewMetrics": [
-        "Clarity",
-        "Support",
-        "Engagement"
-      ],
-      "tags": [
+        "physics",
         "research-school-of-physics",
         "college-of-science-and-medicine",
         "research-portal"
-      ]
+      ],
+      "summary": ""
     },
     {
       "id": "anu-portal-howard-bamsey",
@@ -35378,7 +33917,7 @@ window.ANREVIEW_DATA = {
       "name": "Howard Bamsey",
       "position": "Academic",
       "focus": "ANU Research Portal+ profile",
-      "school": "School of Regulation &amp; Global Governance",
+      "school": "School of Regulation & Global Governance",
       "schoolCode": "RAGG",
       "college": "ANU College of Law, Governance and Policy",
       "profileUrl": "https://researchportalplus.anu.edu.au/en/persons/howard-bamsey/",
@@ -35402,7 +33941,7 @@ window.ANREVIEW_DATA = {
       "name": "Howard Morphy",
       "position": "Academic",
       "focus": "ANU Research Portal+ profile",
-      "school": "Research School of Humanities &amp; the Arts",
+      "school": "Research School of Humanities & the Arts",
       "schoolCode": "HAA",
       "college": "ANU College of Arts and Social Sciences",
       "profileUrl": "https://researchportalplus.anu.edu.au/en/persons/howard-morphy/",
@@ -35450,7 +33989,7 @@ window.ANREVIEW_DATA = {
       "name": "Hridesh Gajurel",
       "position": "Academic",
       "focus": "ANU Research Portal+ profile",
-      "school": "School of Regulation &amp; Global Governance",
+      "school": "School of Regulation & Global Governance",
       "schoolCode": "RAGG",
       "college": "ANU College of Law, Governance and Policy",
       "profileUrl": "https://researchportalplus.anu.edu.au/en/persons/hridesh-gajurel/",
@@ -35522,7 +34061,7 @@ window.ANREVIEW_DATA = {
       "name": "Hsiao-chun Hung",
       "position": "Academic",
       "focus": "ANU Research Portal+ profile",
-      "school": "School of Culture, History &amp; Language",
+      "school": "School of Culture, History & Language",
       "schoolCode": "CHAL",
       "college": "ANU College of Arts and Social Sciences",
       "profileUrl": "https://researchportalplus.anu.edu.au/en/persons/hsiao-chun-hung/",
@@ -35546,7 +34085,7 @@ window.ANREVIEW_DATA = {
       "name": "Hua Deng",
       "position": "Academic",
       "focus": "ANU Research Portal+ profile",
-      "school": "Research School of Finance, Actuarial Studies &amp; Statistics",
+      "school": "Research School of Finance, Actuarial Studies & Statistics",
       "schoolCode": "FASAS",
       "college": "ANU College of Systems and Society",
       "profileUrl": "https://researchportalplus.anu.edu.au/en/persons/hua-deng/",
@@ -35618,7 +34157,7 @@ window.ANREVIEW_DATA = {
       "name": "Hugh White",
       "position": "Academic",
       "focus": "ANU Research Portal+ profile",
-      "school": "Strategic &amp; Defence Studies Centre",
+      "school": "Strategic & Defence Studies Centre",
       "schoolCode": "SADS",
       "college": "ANU College of Arts and Social Sciences",
       "profileUrl": "https://researchportalplus.anu.edu.au/en/persons/hugh-white/",
@@ -35736,7 +34275,7 @@ window.ANREVIEW_DATA = {
       "name": "I Wayan Arka",
       "position": "Academic",
       "focus": "ANU Research Portal+ profile",
-      "school": "School of Culture, History &amp; Language",
+      "school": "School of Culture, History & Language",
       "schoolCode": "CHAL",
       "college": "ANU College of Arts and Social Sciences",
       "profileUrl": "https://researchportalplus.anu.edu.au/en/persons/i-wayan-arka/",
@@ -35760,7 +34299,7 @@ window.ANREVIEW_DATA = {
       "name": "Iain D. Henry",
       "position": "Academic",
       "focus": "ANU Research Portal+ profile",
-      "school": "Strategic &amp; Defence Studies Centre",
+      "school": "Strategic & Defence Studies Centre",
       "schoolCode": "SADS",
       "college": "ANU College of Arts and Social Sciences",
       "profileUrl": "https://researchportalplus.anu.edu.au/en/persons/iain-d-henry/",
@@ -35784,7 +34323,7 @@ window.ANREVIEW_DATA = {
       "name": "Iain Gordon",
       "position": "Academic",
       "focus": "ANU Research Portal+ profile",
-      "school": "Fenner School of Environment &amp; Society",
+      "school": "Fenner School of Environment & Society",
       "schoolCode": "FEAS",
       "college": "ANU College of Systems and Society",
       "profileUrl": "https://researchportalplus.anu.edu.au/en/persons/iain-gordon/",
@@ -35856,7 +34395,7 @@ window.ANREVIEW_DATA = {
       "name": "Ian Fry",
       "position": "Academic",
       "focus": "ANU Research Portal+ profile",
-      "school": "Fenner School of Environment &amp; Society",
+      "school": "Fenner School of Environment & Society",
       "schoolCode": "FEAS",
       "college": "ANU College of Systems and Society",
       "profileUrl": "https://researchportalplus.anu.edu.au/en/persons/ian-fry/",
@@ -35880,7 +34419,7 @@ window.ANREVIEW_DATA = {
       "name": "Ian Higgins",
       "position": "Academic",
       "focus": "ANU Research Portal+ profile",
-      "school": "School of Literature, Languages &amp; Linguistics",
+      "school": "School of Literature, Languages & Linguistics",
       "schoolCode": "LLAL",
       "college": "ANU College of Arts and Social Sciences",
       "profileUrl": "https://researchportalplus.anu.edu.au/en/persons/ian-higgins/",
@@ -35928,7 +34467,7 @@ window.ANREVIEW_DATA = {
       "name": "Ian Noble",
       "position": "Academic",
       "focus": "ANU Research Portal+ profile",
-      "school": "Fenner School of Environment &amp; Society",
+      "school": "Fenner School of Environment & Society",
       "schoolCode": "FEAS",
       "college": "ANU College of Systems and Society",
       "profileUrl": "https://researchportalplus.anu.edu.au/en/persons/ian-noble/",
@@ -35976,7 +34515,7 @@ window.ANREVIEW_DATA = {
       "name": "Ian White",
       "position": "Academic",
       "focus": "ANU Research Portal+ profile",
-      "school": "Fenner School of Environment &amp; Society",
+      "school": "Fenner School of Environment & Society",
       "schoolCode": "FEAS",
       "college": "ANU College of Systems and Society",
       "profileUrl": "https://researchportalplus.anu.edu.au/en/persons/ian-white/",
@@ -36048,7 +34587,7 @@ window.ANREVIEW_DATA = {
       "name": "Ida Aju Pradnja Resosudarmo",
       "position": "Academic",
       "focus": "ANU Research Portal+ profile",
-      "school": "Fenner School of Environment &amp; Society",
+      "school": "Fenner School of Environment & Society",
       "schoolCode": "FEAS",
       "college": "ANU College of Systems and Society",
       "profileUrl": "https://researchportalplus.anu.edu.au/en/persons/ida-aju-pradnja-resosudarmo/",
@@ -36225,32 +34764,12 @@ window.ANREVIEW_DATA = {
         "Engagement"
       ],
       "tags": [
-        "physics"
-      ]
-    },
-    {
-      "id": "anu-portal-ilya-shadrivov",
-      "type": "academic",
-      "name": "Ilya Shadrivov",
-      "position": "Academic",
-      "focus": "ANU Research Portal+ profile",
-      "school": "Department of Fundamental &amp; Theoretical Physics",
-      "schoolCode": "DFATP",
-      "college": "ANU College of Science and Medicine",
-      "profileUrl": "https://researchportalplus.anu.edu.au/en/persons/ilya-shadrivov/",
-      "email": "",
-      "office": "",
-      "linkedCourses": [],
-      "reviewMetrics": [
-        "Clarity",
-        "Support",
-        "Engagement"
-      ],
-      "tags": [
+        "physics",
         "department-of-fundamental-amp-theoretical-physics",
         "college-of-science-and-medicine",
         "research-portal"
-      ]
+      ],
+      "summary": ""
     },
     {
       "id": "anu-portal-iman-shames",
@@ -36306,7 +34825,7 @@ window.ANREVIEW_DATA = {
       "name": "Imogen Frawley",
       "position": "Academic",
       "focus": "ANU Research Portal+ profile",
-      "school": "Fenner School of Environment &amp; Society",
+      "school": "Fenner School of Environment & Society",
       "schoolCode": "FEAS",
       "college": "ANU College of Systems and Society",
       "profileUrl": "https://researchportalplus.anu.edu.au/en/persons/imogen-frawley/",
@@ -36362,38 +34881,18 @@ window.ANREVIEW_DATA = {
       "profileUrl": "https://law.anu.edu.au/about/our-people/imogen-saunders",
       "tags": [
         "law",
-        "international law law & politics"
-      ],
-      "linkedCourses": [],
-      "reviewMetrics": [
-        "Clarity",
-        "Support",
-        "Engagement"
-      ]
-    },
-    {
-      "id": "anu-portal-imogen-saunders",
-      "type": "academic",
-      "name": "Imogen Saunders",
-      "position": "Academic",
-      "focus": "ANU Research Portal+ profile",
-      "school": "ANU College of Law, Governance and Policy",
-      "schoolCode": "LGP",
-      "college": "ANU College of Law, Governance and Policy",
-      "profileUrl": "https://researchportalplus.anu.edu.au/en/persons/imogen-saunders/",
-      "email": "",
-      "office": "",
-      "linkedCourses": [],
-      "reviewMetrics": [
-        "Clarity",
-        "Support",
-        "Engagement"
-      ],
-      "tags": [
+        "international law law & politics",
         "anu-college-of-law-governance-and-policy",
         "college-of-law-governance-and-policy",
         "research-portal"
-      ]
+      ],
+      "linkedCourses": [],
+      "reviewMetrics": [
+        "Clarity",
+        "Support",
+        "Engagement"
+      ],
+      "summary": ""
     },
     {
       "id": "anu-portal-ina-kehrberg-ostrasz",
@@ -36401,7 +34900,7 @@ window.ANREVIEW_DATA = {
       "name": "Ina Kehrberg-Ostrasz",
       "position": "Academic",
       "focus": "ANU Research Portal+ profile",
-      "school": "School of Archaeology &amp; Anthropology",
+      "school": "School of Archaeology & Anthropology",
       "schoolCode": "AAA",
       "college": "ANU College of Arts and Social Sciences",
       "profileUrl": "https://researchportalplus.anu.edu.au/en/persons/ina-kehrberg-ostrasz/",
@@ -36473,7 +34972,7 @@ window.ANREVIEW_DATA = {
       "name": "Irene Bain",
       "position": "Academic",
       "focus": "ANU Research Portal+ profile",
-      "school": "Fenner School of Environment &amp; Society",
+      "school": "Fenner School of Environment & Society",
       "schoolCode": "FEAS",
       "college": "ANU College of Systems and Society",
       "profileUrl": "https://researchportalplus.anu.edu.au/en/persons/irene-bain/",
@@ -36569,7 +35068,7 @@ window.ANREVIEW_DATA = {
       "name": "Isobel Bender",
       "position": "Academic",
       "focus": "ANU Research Portal+ profile",
-      "school": "Fenner School of Environment &amp; Society",
+      "school": "Fenner School of Environment & Society",
       "schoolCode": "FEAS",
       "college": "ANU College of Systems and Society",
       "profileUrl": "https://researchportalplus.anu.edu.au/en/persons/isobel-bender/",
@@ -36712,7 +35211,7 @@ window.ANREVIEW_DATA = {
       "name": "Jacie Liu",
       "position": "Academic",
       "focus": "ANU Research Portal+ profile",
-      "school": "Research School of Finance, Actuarial Studies &amp; Statistics",
+      "school": "Research School of Finance, Actuarial Studies & Statistics",
       "schoolCode": "FASAS",
       "college": "ANU College of Systems and Society",
       "profileUrl": "https://researchportalplus.anu.edu.au/en/persons/jacie-liu/",
@@ -36736,7 +35235,7 @@ window.ANREVIEW_DATA = {
       "name": "Jack Fenner",
       "position": "Academic",
       "focus": "ANU Research Portal+ profile",
-      "school": "School of Culture, History &amp; Language",
+      "school": "School of Culture, History & Language",
       "schoolCode": "CHAL",
       "college": "ANU College of Arts and Social Sciences",
       "profileUrl": "https://researchportalplus.anu.edu.au/en/persons/jack-fenner/",
@@ -36760,7 +35259,7 @@ window.ANREVIEW_DATA = {
       "name": "Jack Pezzey",
       "position": "Academic",
       "focus": "ANU Research Portal+ profile",
-      "school": "Fenner School of Environment &amp; Society",
+      "school": "Fenner School of Environment & Society",
       "schoolCode": "FEAS",
       "college": "ANU College of Systems and Society",
       "profileUrl": "https://researchportalplus.anu.edu.au/en/persons/jack-pezzey/",
@@ -36784,7 +35283,7 @@ window.ANREVIEW_DATA = {
       "name": "Jackie O'Sullivan",
       "position": "Academic",
       "focus": "ANU Research Portal+ profile",
-      "school": "Fenner School of Environment &amp; Society",
+      "school": "Fenner School of Environment & Society",
       "schoolCode": "FEAS",
       "college": "ANU College of Systems and Society",
       "profileUrl": "https://researchportalplus.anu.edu.au/en/persons/jackie-osullivan/",
@@ -36843,32 +35342,12 @@ window.ANREVIEW_DATA = {
         "Engagement"
       ],
       "tags": [
-        "physics"
-      ]
-    },
-    {
-      "id": "anu-portal-jacob-buete",
-      "type": "academic",
-      "name": "Jacob Buete",
-      "position": "Academic",
-      "focus": "ANU Research Portal+ profile",
-      "school": "Department of Nuclear Physics &amp; Accelerator Applications",
-      "schoolCode": "DNPAAA",
-      "college": "ANU College of Science and Medicine",
-      "profileUrl": "https://researchportalplus.anu.edu.au/en/persons/jacob-buete/",
-      "email": "",
-      "office": "",
-      "linkedCourses": [],
-      "reviewMetrics": [
-        "Clarity",
-        "Support",
-        "Engagement"
-      ],
-      "tags": [
+        "physics",
         "department-of-nuclear-physics-amp-accelerator-applications",
         "college-of-science-and-medicine",
         "research-portal"
-      ]
+      ],
+      "summary": ""
     },
     {
       "id": "anu-portal-jacquelyn-zhang",
@@ -36876,7 +35355,7 @@ window.ANREVIEW_DATA = {
       "name": "Jacquelyn Zhang",
       "position": "Academic",
       "focus": "ANU Research Portal+ profile",
-      "school": "Tax &amp; Transfer Policy Institute",
+      "school": "Tax & Transfer Policy Institute",
       "schoolCode": "TATPI",
       "college": "ANU College of Law, Governance and Policy",
       "profileUrl": "https://researchportalplus.anu.edu.au/en/persons/jacquelyn-zhang/",
@@ -36924,7 +35403,7 @@ window.ANREVIEW_DATA = {
       "name": "James Bednall",
       "position": "Academic",
       "focus": "ANU Research Portal+ profile",
-      "school": "School of Literature, Languages &amp; Linguistics",
+      "school": "School of Literature, Languages & Linguistics",
       "schoolCode": "LLAL",
       "college": "ANU College of Arts and Social Sciences",
       "profileUrl": "https://researchportalplus.anu.edu.au/en/persons/james-bednall/",
@@ -37005,38 +35484,18 @@ window.ANREVIEW_DATA = {
       "tags": [
         "law",
         "asian law gender",
-        "sexuality & the law law & humani"
-      ],
-      "linkedCourses": [],
-      "reviewMetrics": [
-        "Clarity",
-        "Support",
-        "Engagement"
-      ]
-    },
-    {
-      "id": "anu-portal-james-fisher",
-      "type": "academic",
-      "name": "James Fisher",
-      "position": "Academic",
-      "focus": "ANU Research Portal+ profile",
-      "school": "ANU College of Law, Governance and Policy",
-      "schoolCode": "LGP",
-      "college": "ANU College of Law, Governance and Policy",
-      "profileUrl": "https://researchportalplus.anu.edu.au/en/persons/james-fisher/",
-      "email": "",
-      "office": "",
-      "linkedCourses": [],
-      "reviewMetrics": [
-        "Clarity",
-        "Support",
-        "Engagement"
-      ],
-      "tags": [
+        "sexuality & the law law & humani",
         "anu-college-of-law-governance-and-policy",
         "college-of-law-governance-and-policy",
         "research-portal"
-      ]
+      ],
+      "linkedCourses": [],
+      "reviewMetrics": [
+        "Clarity",
+        "Support",
+        "Engagement"
+      ],
+      "summary": ""
     },
     {
       "id": "anu-portal-james-fox",
@@ -37092,7 +35551,7 @@ window.ANREVIEW_DATA = {
       "name": "James Latimer",
       "position": "Academic",
       "focus": "ANU Research Portal+ profile",
-      "school": "Fenner School of Environment &amp; Society",
+      "school": "Fenner School of Environment & Society",
       "schoolCode": "FEAS",
       "college": "ANU College of Systems and Society",
       "profileUrl": "https://researchportalplus.anu.edu.au/en/persons/james-latimer/",
@@ -37172,38 +35631,18 @@ window.ANREVIEW_DATA = {
       "profileUrl": "https://law.anu.edu.au/about/our-people/james-popple",
       "tags": [
         "law",
-        "administrative law constitutiona"
-      ],
-      "linkedCourses": [],
-      "reviewMetrics": [
-        "Clarity",
-        "Support",
-        "Engagement"
-      ]
-    },
-    {
-      "id": "anu-portal-james-popple",
-      "type": "academic",
-      "name": "James Popple",
-      "position": "Academic",
-      "focus": "ANU Research Portal+ profile",
-      "school": "School of Computing",
-      "schoolCode": "COMP",
-      "college": "ANU College of Systems and Society",
-      "profileUrl": "https://researchportalplus.anu.edu.au/en/persons/james-popple/",
-      "email": "",
-      "office": "",
-      "linkedCourses": [],
-      "reviewMetrics": [
-        "Clarity",
-        "Support",
-        "Engagement"
-      ],
-      "tags": [
+        "administrative law constitutiona",
         "school-of-computing",
         "college-of-systems-and-society",
         "research-portal"
-      ]
+      ],
+      "linkedCourses": [],
+      "reviewMetrics": [
+        "Clarity",
+        "Support",
+        "Engagement"
+      ],
+      "summary": ""
     },
     {
       "id": "anu-portal-james-smithies",
@@ -37211,7 +35650,7 @@ window.ANREVIEW_DATA = {
       "name": "James Smithies",
       "position": "Academic",
       "focus": "ANU Research Portal+ profile",
-      "school": "ANU College of Arts &amp; Social Sciences",
+      "school": "ANU College of Arts & Social Sciences",
       "schoolCode": "AASS",
       "college": "ANU College of Arts and Social Sciences",
       "profileUrl": "https://researchportalplus.anu.edu.au/en/persons/james-smithies/",
@@ -37272,32 +35711,12 @@ window.ANREVIEW_DATA = {
         "Engagement"
       ],
       "tags": [
-        "physics"
-      ]
-    },
-    {
-      "id": "anu-portal-james-stuart",
-      "type": "academic",
-      "name": "James Stuart",
-      "position": "Academic",
-      "focus": "ANU Research Portal+ profile",
-      "school": "Department of Quantum Science &amp; Technology",
-      "schoolCode": "DQSAT",
-      "college": "ANU College of Arts and Social Sciences",
-      "profileUrl": "https://researchportalplus.anu.edu.au/en/persons/james-stuart/",
-      "email": "",
-      "office": "",
-      "linkedCourses": [],
-      "reviewMetrics": [
-        "Clarity",
-        "Support",
-        "Engagement"
-      ],
-      "tags": [
+        "physics",
         "department-of-quantum-science-amp-technology",
         "college-of-arts-and-social-sciences",
         "research-portal"
-      ]
+      ],
+      "summary": ""
     },
     {
       "id": "anu-portal-james-sullivan",
@@ -37305,7 +35724,7 @@ window.ANREVIEW_DATA = {
       "name": "James Sullivan",
       "position": "Academic",
       "focus": "ANU Research Portal+ profile",
-      "school": "Department of Nuclear Physics &amp; Accelerator Applications",
+      "school": "Department of Nuclear Physics & Accelerator Applications",
       "schoolCode": "DNPAAA",
       "college": "ANU College of Science and Medicine",
       "profileUrl": "https://researchportalplus.anu.edu.au/en/persons/james-sullivan/",
@@ -37377,7 +35796,7 @@ window.ANREVIEW_DATA = {
       "name": "Jamie Pittock",
       "position": "Academic",
       "focus": "ANU Research Portal+ profile",
-      "school": "Fenner School of Environment &amp; Society",
+      "school": "Fenner School of Environment & Society",
       "schoolCode": "FEAS",
       "college": "ANU College of Systems and Society",
       "profileUrl": "https://researchportalplus.anu.edu.au/en/persons/jamie-pittock/",
@@ -37401,7 +35820,7 @@ window.ANREVIEW_DATA = {
       "name": "Jamie Soon",
       "position": "Academic",
       "focus": "ANU Research Portal+ profile",
-      "school": "Research School of Astronomy &amp; Astrophysics",
+      "school": "Research School of Astronomy & Astrophysics",
       "schoolCode": "AAA",
       "college": "ANU College of Science and Medicine",
       "profileUrl": "https://researchportalplus.anu.edu.au/en/persons/jamie-soon/",
@@ -37425,7 +35844,7 @@ window.ANREVIEW_DATA = {
       "name": "Jananie William",
       "position": "Academic",
       "focus": "ANU Research Portal+ profile",
-      "school": "Research School of Finance, Actuarial Studies &amp; Statistics",
+      "school": "Research School of Finance, Actuarial Studies & Statistics",
       "schoolCode": "FASAS",
       "college": "ANU College of Systems and Society",
       "profileUrl": "https://researchportalplus.anu.edu.au/en/persons/jananie-william/",
@@ -37449,7 +35868,7 @@ window.ANREVIEW_DATA = {
       "name": "Jane Catford",
       "position": "Academic",
       "focus": "ANU Research Portal+ profile",
-      "school": "Fenner School of Environment &amp; Society",
+      "school": "Fenner School of Environment & Society",
       "schoolCode": "FEAS",
       "college": "ANU College of Systems and Society",
       "profileUrl": "https://researchportalplus.anu.edu.au/en/persons/jane-catford/",
@@ -37521,7 +35940,7 @@ window.ANREVIEW_DATA = {
       "name": "Jane Ferguson",
       "position": "Academic",
       "focus": "ANU Research Portal+ profile",
-      "school": "School of Culture, History &amp; Language",
+      "school": "School of Culture, History & Language",
       "schoolCode": "CHAL",
       "college": "ANU College of Arts and Social Sciences",
       "profileUrl": "https://researchportalplus.anu.edu.au/en/persons/jane-ferguson/",
@@ -37569,7 +35988,7 @@ window.ANREVIEW_DATA = {
       "name": "Jane Simpson",
       "position": "Academic",
       "focus": "ANU Research Portal+ profile",
-      "school": "School of Literature, Languages &amp; Linguistics",
+      "school": "School of Literature, Languages & Linguistics",
       "schoolCode": "LLAL",
       "college": "ANU College of Arts and Social Sciences",
       "profileUrl": "https://researchportalplus.anu.edu.au/en/persons/jane-simpson/",
@@ -37616,7 +36035,7 @@ window.ANREVIEW_DATA = {
       "name": "Janelle Stevenson",
       "position": "Academic",
       "focus": "ANU Research Portal+ profile",
-      "school": "School of Culture, History &amp; Language",
+      "school": "School of Culture, History & Language",
       "schoolCode": "CHAL",
       "college": "ANU College of Arts and Social Sciences",
       "profileUrl": "https://researchportalplus.anu.edu.au/en/persons/janelle-stevenson/",
@@ -37640,7 +36059,7 @@ window.ANREVIEW_DATA = {
       "name": "Janet Davey",
       "position": "Academic",
       "focus": "ANU Research Portal+ profile",
-      "school": "ANU College of Arts &amp; Social Sciences",
+      "school": "ANU College of Arts & Social Sciences",
       "schoolCode": "AASS",
       "college": "ANU College of Arts and Social Sciences",
       "profileUrl": "https://researchportalplus.anu.edu.au/en/persons/janet-davey/",
@@ -37664,7 +36083,7 @@ window.ANREVIEW_DATA = {
       "name": "Janice Scealy",
       "position": "Academic",
       "focus": "ANU Research Portal+ profile",
-      "school": "Research School of Finance, Actuarial Studies &amp; Statistics",
+      "school": "Research School of Finance, Actuarial Studies & Statistics",
       "schoolCode": "FASAS",
       "college": "ANU College of Systems and Society",
       "profileUrl": "https://researchportalplus.anu.edu.au/en/persons/janice-scealy/",
@@ -37712,7 +36131,7 @@ window.ANREVIEW_DATA = {
       "name": "Janit Feangfu",
       "position": "Academic",
       "focus": "ANU Research Portal+ profile",
-      "school": "School of Culture, History &amp; Language",
+      "school": "School of Culture, History & Language",
       "schoolCode": "CHAL",
       "college": "ANU College of Arts and Social Sciences",
       "profileUrl": "https://researchportalplus.anu.edu.au/en/persons/janit-feangfu/",
@@ -37760,7 +36179,7 @@ window.ANREVIEW_DATA = {
       "name": "Jarrah Sastrawan",
       "position": "Academic",
       "focus": "ANU Research Portal+ profile",
-      "school": "School of Culture, History &amp; Language",
+      "school": "School of Culture, History & Language",
       "schoolCode": "CHAL",
       "college": "ANU College of Arts and Social Sciences",
       "profileUrl": "https://researchportalplus.anu.edu.au/en/persons/jarrah-sastrawan/",
@@ -37784,7 +36203,7 @@ window.ANREVIEW_DATA = {
       "name": "Jarrett Blaustein",
       "position": "Academic",
       "focus": "ANU Research Portal+ profile",
-      "school": "School of Regulation &amp; Global Governance",
+      "school": "School of Regulation & Global Governance",
       "schoolCode": "RAGG",
       "college": "ANU College of Law, Governance and Policy",
       "profileUrl": "https://researchportalplus.anu.edu.au/en/persons/jarrett-blaustein/",
@@ -37832,7 +36251,7 @@ window.ANREVIEW_DATA = {
       "name": "Jason Alexandra",
       "position": "Academic",
       "focus": "ANU Research Portal+ profile",
-      "school": "Institute for Climate, Energy &amp; Disaster Solutions",
+      "school": "Institute for Climate, Energy & Disaster Solutions",
       "schoolCode": "ICEADS",
       "college": "ANU College of Science and Medicine",
       "profileUrl": "https://researchportalplus.anu.edu.au/en/persons/jason-alexandra/",
@@ -37890,38 +36309,18 @@ window.ANREVIEW_DATA = {
         "law",
         "environment",
         "climate & health evidence law",
-        "science & technology"
-      ],
-      "linkedCourses": [],
-      "reviewMetrics": [
-        "Clarity",
-        "Support",
-        "Engagement"
-      ]
-    },
-    {
-      "id": "anu-portal-jason-chin",
-      "type": "academic",
-      "name": "Jason Chin",
-      "position": "Academic",
-      "focus": "ANU Research Portal+ profile",
-      "school": "ANU College of Law, Governance and Policy",
-      "schoolCode": "LGP",
-      "college": "ANU College of Law, Governance and Policy",
-      "profileUrl": "https://researchportalplus.anu.edu.au/en/persons/jason-chin/",
-      "email": "",
-      "office": "",
-      "linkedCourses": [],
-      "reviewMetrics": [
-        "Clarity",
-        "Support",
-        "Engagement"
-      ],
-      "tags": [
+        "science & technology",
         "anu-college-of-law-governance-and-policy",
         "college-of-law-governance-and-policy",
         "research-portal"
-      ]
+      ],
+      "linkedCourses": [],
+      "reviewMetrics": [
+        "Clarity",
+        "Support",
+        "Engagement"
+      ],
+      "summary": ""
     },
     {
       "id": "anu-portal-jason-proulx",
@@ -38001,7 +36400,7 @@ window.ANREVIEW_DATA = {
       "name": "Jean Bou",
       "position": "Academic",
       "focus": "ANU Research Portal+ profile",
-      "school": "Strategic &amp; Defence Studies Centre",
+      "school": "Strategic & Defence Studies Centre",
       "schoolCode": "SADS",
       "college": "ANU College of Arts and Social Sciences",
       "profileUrl": "https://researchportalplus.anu.edu.au/en/persons/jean-bou/",
@@ -38025,7 +36424,7 @@ window.ANREVIEW_DATA = {
       "name": "Jean-Frederic Morin",
       "position": "Academic",
       "focus": "ANU Research Portal+ profile",
-      "school": "School of Regulation &amp; Global Governance",
+      "school": "School of Regulation & Global Governance",
       "schoolCode": "RAGG",
       "college": "ANU College of Law, Governance and Policy",
       "profileUrl": "https://researchportalplus.anu.edu.au/en/persons/jean-frederic-morin/",
@@ -38128,38 +36527,18 @@ window.ANREVIEW_DATA = {
       "profileUrl": "https://law.anu.edu.au/about/our-people/jelena-gligorijevic-0",
       "tags": [
         "law",
-        "comparative public law constitut"
-      ],
-      "linkedCourses": [],
-      "reviewMetrics": [
-        "Clarity",
-        "Support",
-        "Engagement"
-      ]
-    },
-    {
-      "id": "anu-portal-jelena-gligorijevic",
-      "type": "academic",
-      "name": "Jelena Gligorijevic",
-      "position": "Academic",
-      "focus": "ANU Research Portal+ profile",
-      "school": "ANU College of Law, Governance and Policy",
-      "schoolCode": "LGP",
-      "college": "ANU College of Law, Governance and Policy",
-      "profileUrl": "https://researchportalplus.anu.edu.au/en/persons/jelena-gligorijevic/",
-      "email": "",
-      "office": "",
-      "linkedCourses": [],
-      "reviewMetrics": [
-        "Clarity",
-        "Support",
-        "Engagement"
-      ],
-      "tags": [
+        "comparative public law constitut",
         "anu-college-of-law-governance-and-policy",
         "college-of-law-governance-and-policy",
         "research-portal"
-      ]
+      ],
+      "linkedCourses": [],
+      "reviewMetrics": [
+        "Clarity",
+        "Support",
+        "Engagement"
+      ],
+      "summary": ""
     },
     {
       "id": "anu-portal-jemima-mcphee",
@@ -38167,7 +36546,7 @@ window.ANREVIEW_DATA = {
       "name": "Jemima McPhee",
       "position": "Academic",
       "focus": "ANU Research Portal+ profile",
-      "school": "School of Literature, Languages &amp; Linguistics",
+      "school": "School of Literature, Languages & Linguistics",
       "schoolCode": "LLAL",
       "college": "ANU College of Arts and Social Sciences",
       "profileUrl": "https://researchportalplus.anu.edu.au/en/persons/jemima-mcphee/",
@@ -38191,7 +36570,7 @@ window.ANREVIEW_DATA = {
       "name": "Jen Mason",
       "position": "Academic",
       "focus": "ANU Research Portal+ profile",
-      "school": "School of Culture, History &amp; Language",
+      "school": "School of Culture, History & Language",
       "schoolCode": "CHAL",
       "college": "ANU College of Arts and Social Sciences",
       "profileUrl": "https://researchportalplus.anu.edu.au/en/persons/jen-mason/",
@@ -38287,7 +36666,7 @@ window.ANREVIEW_DATA = {
       "name": "Jennie Mallela",
       "position": "Academic",
       "focus": "ANU Research Portal+ profile",
-      "school": "Biology Teaching &amp; Learning Centre",
+      "school": "Biology Teaching & Learning Centre",
       "schoolCode": "BTAL",
       "college": "ANU College of Science and Medicine",
       "profileUrl": "https://researchportalplus.anu.edu.au/en/persons/jennie-mallela/",
@@ -38335,7 +36714,7 @@ window.ANREVIEW_DATA = {
       "name": "Jennifer Newsome",
       "position": "Academic",
       "focus": "ANU Research Portal+ profile",
-      "school": "ANU College of Arts &amp; Social Sciences",
+      "school": "ANU College of Arts & Social Sciences",
       "schoolCode": "AASS",
       "college": "ANU College of Arts and Social Sciences",
       "profileUrl": "https://researchportalplus.anu.edu.au/en/persons/jennifer-newsome/",
@@ -38383,7 +36762,7 @@ window.ANREVIEW_DATA = {
       "name": "Jenny Homerang",
       "position": "Academic",
       "focus": "ANU Research Portal+ profile",
-      "school": "School of Culture, History &amp; Language",
+      "school": "School of Culture, History & Language",
       "schoolCode": "CHAL",
       "college": "ANU College of Arts and Social Sciences",
       "profileUrl": "https://researchportalplus.anu.edu.au/en/persons/jenny-homerang/",
@@ -38407,7 +36786,7 @@ window.ANREVIEW_DATA = {
       "name": "Jeong Yoon Ku",
       "position": "Academic",
       "focus": "ANU Research Portal+ profile",
-      "school": "School of Culture, History &amp; Language",
+      "school": "School of Culture, History & Language",
       "schoolCode": "CHAL",
       "college": "ANU College of Arts and Social Sciences",
       "profileUrl": "https://researchportalplus.anu.edu.au/en/persons/jeong-yoon-ku/",
@@ -38463,38 +36842,18 @@ window.ANREVIEW_DATA = {
       "profileUrl": "https://law.anu.edu.au/about/our-people/jeremy-farrall",
       "tags": [
         "law",
-        "international institution intern"
-      ],
-      "linkedCourses": [],
-      "reviewMetrics": [
-        "Clarity",
-        "Support",
-        "Engagement"
-      ]
-    },
-    {
-      "id": "anu-portal-jeremy-farrall",
-      "type": "academic",
-      "name": "Jeremy Farrall",
-      "position": "Academic",
-      "focus": "ANU Research Portal+ profile",
-      "school": "ANU College of Law, Governance and Policy",
-      "schoolCode": "LGP",
-      "college": "ANU College of Law, Governance and Policy",
-      "profileUrl": "https://researchportalplus.anu.edu.au/en/persons/jeremy-farrall/",
-      "email": "",
-      "office": "",
-      "linkedCourses": [],
-      "reviewMetrics": [
-        "Clarity",
-        "Support",
-        "Engagement"
-      ],
-      "tags": [
+        "international institution intern",
         "anu-college-of-law-governance-and-policy",
         "college-of-law-governance-and-policy",
         "research-portal"
-      ]
+      ],
+      "linkedCourses": [],
+      "reviewMetrics": [
+        "Clarity",
+        "Support",
+        "Engagement"
+      ],
+      "summary": ""
     },
     {
       "id": "anu-portal-jeremy-smith",
@@ -38526,7 +36885,7 @@ window.ANREVIEW_DATA = {
       "name": "Jeroen van der Heijden",
       "position": "Academic",
       "focus": "ANU Research Portal+ profile",
-      "school": "School of Regulation &amp; Global Governance",
+      "school": "School of Regulation & Global Governance",
       "schoolCode": "RAGG",
       "college": "ANU College of Law, Governance and Policy",
       "profileUrl": "https://researchportalplus.anu.edu.au/en/persons/jeroen-van-der-heijden/",
@@ -38633,32 +36992,12 @@ window.ANREVIEW_DATA = {
         "Engagement"
       ],
       "tags": [
-        "cyb"
-      ]
-    },
-    {
-      "id": "anu-portal-jessamy-perriam",
-      "type": "academic",
-      "name": "Jessamy Perriam",
-      "position": "Academic",
-      "focus": "ANU Research Portal+ profile",
-      "school": "School of Cybernetics",
-      "schoolCode": "CYB",
-      "college": "ANU College of Systems and Society",
-      "profileUrl": "https://researchportalplus.anu.edu.au/en/persons/jessamy-perriam/",
-      "email": "",
-      "office": "",
-      "linkedCourses": [],
-      "reviewMetrics": [
-        "Clarity",
-        "Support",
-        "Engagement"
-      ],
-      "tags": [
+        "cyb",
         "school-of-cybernetics",
         "college-of-systems-and-society",
         "research-portal"
-      ]
+      ],
+      "summary": ""
     },
     {
       "id": "anu-portal-jesse-cranney",
@@ -38703,32 +37042,12 @@ window.ANREVIEW_DATA = {
         "Engagement"
       ],
       "tags": [
-        "physics"
-      ]
-    },
-    {
-      "id": "anu-portal-jesse-everett",
-      "type": "academic",
-      "name": "Jesse Everett",
-      "position": "Academic",
-      "focus": "ANU Research Portal+ profile",
-      "school": "Department of Quantum Science &amp; Technology",
-      "schoolCode": "DQSAT",
-      "college": "ANU College of Arts and Social Sciences",
-      "profileUrl": "https://researchportalplus.anu.edu.au/en/persons/jesse-everett/",
-      "email": "",
-      "office": "",
-      "linkedCourses": [],
-      "reviewMetrics": [
-        "Clarity",
-        "Support",
-        "Engagement"
-      ],
-      "tags": [
+        "physics",
         "department-of-quantum-science-amp-technology",
         "college-of-arts-and-social-sciences",
         "research-portal"
-      ]
+      ],
+      "summary": ""
     },
     {
       "id": "anu-portal-jessica-arnup",
@@ -38791,38 +37110,18 @@ window.ANREVIEW_DATA = {
       "tags": [
         "law",
         "gender",
-        "sexuality & the law health law &"
-      ],
-      "linkedCourses": [],
-      "reviewMetrics": [
-        "Clarity",
-        "Support",
-        "Engagement"
-      ]
-    },
-    {
-      "id": "anu-portal-jessica-hambly",
-      "type": "academic",
-      "name": "Jessica Hambly",
-      "position": "Academic",
-      "focus": "ANU Research Portal+ profile",
-      "school": "The Migration Hub",
-      "schoolCode": "MH",
-      "college": "ANU College of Law, Governance and Policy",
-      "profileUrl": "https://researchportalplus.anu.edu.au/en/persons/jessica-hambly/",
-      "email": "",
-      "office": "",
-      "linkedCourses": [],
-      "reviewMetrics": [
-        "Clarity",
-        "Support",
-        "Engagement"
-      ],
-      "tags": [
+        "sexuality & the law health law &",
         "the-migration-hub",
         "college-of-law-governance-and-policy",
         "research-portal"
-      ]
+      ],
+      "linkedCourses": [],
+      "reviewMetrics": [
+        "Clarity",
+        "Support",
+        "Engagement"
+      ],
+      "summary": ""
     },
     {
       "id": "anu-portal-jessica-herrington",
@@ -39009,32 +37308,12 @@ window.ANREVIEW_DATA = {
         "Engagement"
       ],
       "tags": [
-        "physics"
-      ]
-    },
-    {
-      "id": "anu-portal-jiayi-qin",
-      "type": "academic",
-      "name": "Jiayi Qin",
-      "position": "Academic",
-      "focus": "ANU Research Portal+ profile",
-      "school": "Department of Quantum Science &amp; Technology",
-      "schoolCode": "DQSAT",
-      "college": "ANU College of Arts and Social Sciences",
-      "profileUrl": "https://researchportalplus.anu.edu.au/en/persons/jiayi-qin/",
-      "email": "",
-      "office": "",
-      "linkedCourses": [],
-      "reviewMetrics": [
-        "Clarity",
-        "Support",
-        "Engagement"
-      ],
-      "tags": [
+        "physics",
         "department-of-quantum-science-amp-technology",
         "college-of-arts-and-social-sciences",
         "research-portal"
-      ]
+      ],
+      "summary": ""
     },
     {
       "id": "anu-portal-jiayu-wen",
@@ -39090,7 +37369,7 @@ window.ANREVIEW_DATA = {
       "name": "Jie Yu",
       "position": "Academic",
       "focus": "ANU Research Portal+ profile",
-      "school": "Research School of Astronomy &amp; Astrophysics",
+      "school": "Research School of Astronomy & Astrophysics",
       "schoolCode": "AAA",
       "college": "ANU College of Science and Medicine",
       "profileUrl": "https://researchportalplus.anu.edu.au/en/persons/jie-yu/",
@@ -39127,32 +37406,12 @@ window.ANREVIEW_DATA = {
         "Engagement"
       ],
       "tags": [
-        "physics"
-      ]
-    },
-    {
-      "id": "anu-portal-jie-zhao",
-      "type": "academic",
-      "name": "Jie Zhao",
-      "position": "Academic",
-      "focus": "ANU Research Portal+ profile",
-      "school": "Department of Quantum Science &amp; Technology",
-      "schoolCode": "DQSAT",
-      "college": "ANU College of Arts and Social Sciences",
-      "profileUrl": "https://researchportalplus.anu.edu.au/en/persons/jie-zhao/",
-      "email": "",
-      "office": "",
-      "linkedCourses": [],
-      "reviewMetrics": [
-        "Clarity",
-        "Support",
-        "Engagement"
-      ],
-      "tags": [
+        "physics",
         "department-of-quantum-science-amp-technology",
         "college-of-arts-and-social-sciences",
         "research-portal"
-      ]
+      ],
+      "summary": ""
     },
     {
       "id": "anu-portal-jilda-andrews",
@@ -39289,56 +37548,14 @@ window.ANREVIEW_DATA = {
         "Engagement"
       ],
       "tags": [
-        "comp"
-      ]
-    },
-    {
-      "id": "anu-portal-jing-zhang",
-      "type": "academic",
-      "name": "Jing Zhang",
-      "position": "Academic",
-      "focus": "ANU Research Portal+ profile",
-      "school": "School of Computing",
-      "schoolCode": "COMP",
-      "college": "ANU College of Systems and Society",
-      "profileUrl": "https://researchportalplus.anu.edu.au/en/persons/jing-zhang-2/",
-      "email": "",
-      "office": "",
-      "linkedCourses": [],
-      "reviewMetrics": [
-        "Clarity",
-        "Support",
-        "Engagement"
-      ],
-      "tags": [
+        "comp",
         "school-of-computing",
         "college-of-systems-and-society",
-        "research-portal"
-      ]
-    },
-    {
-      "id": "anu-portal-jing-zhang",
-      "type": "academic",
-      "name": "Jing Zhang",
-      "position": "Academic",
-      "focus": "ANU Research Portal+ profile",
-      "school": "Division of Plant Sciences",
-      "schoolCode": "DPS",
-      "college": "ANU College of Arts and Social Sciences",
-      "profileUrl": "https://researchportalplus.anu.edu.au/en/persons/jing-zhang/",
-      "email": "",
-      "office": "",
-      "linkedCourses": [],
-      "reviewMetrics": [
-        "Clarity",
-        "Support",
-        "Engagement"
-      ],
-      "tags": [
+        "research-portal",
         "division-of-plant-sciences",
-        "college-of-arts-and-social-sciences",
-        "research-portal"
-      ]
+        "college-of-arts-and-social-sciences"
+      ],
+      "summary": ""
     },
     {
       "id": "anu-portal-jinhu-li",
@@ -39383,32 +37600,12 @@ window.ANREVIEW_DATA = {
         "Engagement"
       ],
       "tags": [
-        "physics"
-      ]
-    },
-    {
-      "id": "anu-portal-jiri-janousek",
-      "type": "academic",
-      "name": "Jiri Janousek",
-      "position": "Academic",
-      "focus": "ANU Research Portal+ profile",
-      "school": "ARC Centre of Excellence for Quantum Computation and Communication Technology",
-      "schoolCode": "AEQCCT",
-      "college": "ANU College of Systems and Society",
-      "profileUrl": "https://researchportalplus.anu.edu.au/en/persons/jiri-janousek/",
-      "email": "",
-      "office": "",
-      "linkedCourses": [],
-      "reviewMetrics": [
-        "Clarity",
-        "Support",
-        "Engagement"
-      ],
-      "tags": [
+        "physics",
         "arc-centre-of-excellence-for-quantum-computation-and-communication-technology",
         "college-of-systems-and-society",
         "research-portal"
-      ]
+      ],
+      "summary": ""
     },
     {
       "id": "anu-portal-jo-drienko",
@@ -39416,7 +37613,7 @@ window.ANREVIEW_DATA = {
       "name": "Jo Drienko",
       "position": "Academic",
       "focus": "ANU Research Portal+ profile",
-      "school": "Research School of Finance, Actuarial Studies &amp; Statistics",
+      "school": "Research School of Finance, Actuarial Studies & Statistics",
       "schoolCode": "FASAS",
       "college": "ANU College of Systems and Society",
       "profileUrl": "https://researchportalplus.anu.edu.au/en/persons/jo-drienko/",
@@ -39440,7 +37637,7 @@ window.ANREVIEW_DATA = {
       "name": "Joan Beaumont",
       "position": "Academic",
       "focus": "ANU Research Portal+ profile",
-      "school": "Strategic &amp; Defence Studies Centre",
+      "school": "Strategic & Defence Studies Centre",
       "schoolCode": "SADS",
       "college": "ANU College of Arts and Social Sciences",
       "profileUrl": "https://researchportalplus.anu.edu.au/en/persons/joan-beaumont/",
@@ -39608,7 +37805,7 @@ window.ANREVIEW_DATA = {
       "name": "Joanne Searle",
       "position": "Academic",
       "focus": "ANU Research Portal+ profile",
-      "school": "School of Art &amp; Design",
+      "school": "School of Art & Design",
       "schoolCode": "AAD",
       "college": "ANU College of Systems and Society",
       "profileUrl": "https://researchportalplus.anu.edu.au/en/persons/joanne-searle/",
@@ -39632,7 +37829,7 @@ window.ANREVIEW_DATA = {
       "name": "Joao Teixeira",
       "position": "Academic",
       "focus": "ANU Research Portal+ profile",
-      "school": "School of Culture, History &amp; Language",
+      "school": "School of Culture, History & Language",
       "schoolCode": "CHAL",
       "college": "ANU College of Arts and Social Sciences",
       "profileUrl": "https://researchportalplus.anu.edu.au/en/persons/joao-teixeira/",
@@ -39656,7 +37853,7 @@ window.ANREVIEW_DATA = {
       "name": "Jocelyn Bardot",
       "position": "Academic",
       "focus": "ANU Research Portal+ profile",
-      "school": "School of Literature, Languages &amp; Linguistics",
+      "school": "School of Literature, Languages & Linguistics",
       "schoolCode": "LLAL",
       "college": "ANU College of Arts and Social Sciences",
       "profileUrl": "https://researchportalplus.anu.edu.au/en/persons/jocelyn-bardot/",
@@ -39704,7 +37901,7 @@ window.ANREVIEW_DATA = {
       "name": "Jochen Prantl",
       "position": "Academic",
       "focus": "ANU Research Portal+ profile",
-      "school": "Strategic &amp; Defence Studies Centre",
+      "school": "Strategic & Defence Studies Centre",
       "schoolCode": "SADS",
       "college": "ANU College of Arts and Social Sciences",
       "profileUrl": "https://researchportalplus.anu.edu.au/en/persons/jochen-prantl/",
@@ -39741,32 +37938,12 @@ window.ANREVIEW_DATA = {
         "Engagement"
       ],
       "tags": [
-        "comp"
-      ]
-    },
-    {
-      "id": "anu-portal-jochen-renz",
-      "type": "academic",
-      "name": "Jochen Renz",
-      "position": "Academic",
-      "focus": "ANU Research Portal+ profile",
-      "school": "School of Computing",
-      "schoolCode": "COMP",
-      "college": "ANU College of Systems and Society",
-      "profileUrl": "https://researchportalplus.anu.edu.au/en/persons/jochen-renz/",
-      "email": "",
-      "office": "",
-      "linkedCourses": [],
-      "reviewMetrics": [
-        "Clarity",
-        "Support",
-        "Engagement"
-      ],
-      "tags": [
+        "comp",
         "school-of-computing",
         "college-of-systems-and-society",
         "research-portal"
-      ]
+      ],
+      "summary": ""
     },
     {
       "id": "anu-portal-jochen-trumpf",
@@ -39822,7 +37999,7 @@ window.ANREVIEW_DATA = {
       "name": "Joe Brock",
       "position": "Academic",
       "focus": "ANU Research Portal+ profile",
-      "school": "Division of Biomedical Science &amp; Biochemistry",
+      "school": "Division of Biomedical Science & Biochemistry",
       "schoolCode": "DBSAB",
       "college": "ANU College of Science and Medicine",
       "profileUrl": "https://researchportalplus.anu.edu.au/en/persons/joe-brock/",
@@ -39931,32 +38108,12 @@ window.ANREVIEW_DATA = {
         "Engagement"
       ],
       "tags": [
-        "physics"
-      ]
-    },
-    {
-      "id": "anu-portal-johannes-eichholz",
-      "type": "academic",
-      "name": "Johannes Eichholz",
-      "position": "Academic",
-      "focus": "ANU Research Portal+ profile",
-      "school": "Centre for Gravitational Astrophysics",
-      "schoolCode": "GA",
-      "college": "ANU College of Science and Medicine",
-      "profileUrl": "https://researchportalplus.anu.edu.au/en/persons/johannes-eichholz/",
-      "email": "",
-      "office": "",
-      "linkedCourses": [],
-      "reviewMetrics": [
-        "Clarity",
-        "Support",
-        "Engagement"
-      ],
-      "tags": [
+        "physics",
         "centre-for-gravitational-astrophysics",
         "college-of-science-and-medicine",
         "research-portal"
-      ]
+      ],
+      "summary": ""
     },
     {
       "id": "phys-john-associate-debs",
@@ -40010,7 +38167,7 @@ window.ANREVIEW_DATA = {
       "name": "John Blaxland",
       "position": "Academic",
       "focus": "ANU Research Portal+ profile",
-      "school": "Strategic &amp; Defence Studies Centre",
+      "school": "Strategic & Defence Studies Centre",
       "schoolCode": "SADS",
       "college": "ANU College of Arts and Social Sciences",
       "profileUrl": "https://researchportalplus.anu.edu.au/en/persons/john-blaxland/",
@@ -40034,7 +38191,7 @@ window.ANREVIEW_DATA = {
       "name": "John Braithwaite",
       "position": "Academic",
       "focus": "ANU Research Portal+ profile",
-      "school": "School of Regulation &amp; Global Governance",
+      "school": "School of Regulation & Global Governance",
       "schoolCode": "RAGG",
       "college": "ANU College of Law, Governance and Policy",
       "profileUrl": "https://researchportalplus.anu.edu.au/en/persons/john-braithwaite/",
@@ -40202,7 +38359,7 @@ window.ANREVIEW_DATA = {
       "name": "John Dore",
       "position": "Academic",
       "focus": "ANU Research Portal+ profile",
-      "school": "Fenner School of Environment &amp; Society",
+      "school": "Fenner School of Environment & Society",
       "schoolCode": "FEAS",
       "college": "ANU College of Systems and Society",
       "profileUrl": "https://researchportalplus.anu.edu.au/en/persons/john-dore/",
@@ -40250,7 +38407,7 @@ window.ANREVIEW_DATA = {
       "name": "John Giacon",
       "position": "Academic",
       "focus": "ANU Research Portal+ profile",
-      "school": "School of Literature, Languages &amp; Linguistics",
+      "school": "School of Literature, Languages & Linguistics",
       "schoolCode": "LLAL",
       "college": "ANU College of Arts and Social Sciences",
       "profileUrl": "https://researchportalplus.anu.edu.au/en/persons/john-giacon/",
@@ -40318,7 +38475,7 @@ window.ANREVIEW_DATA = {
       "name": "John Leys",
       "position": "Academic",
       "focus": "ANU Research Portal+ profile",
-      "school": "Fenner School of Environment &amp; Society",
+      "school": "Fenner School of Environment & Society",
       "schoolCode": "FEAS",
       "college": "ANU College of Systems and Society",
       "profileUrl": "https://researchportalplus.anu.edu.au/en/persons/john-leys/",
@@ -40355,32 +38512,12 @@ window.ANREVIEW_DATA = {
         "Engagement"
       ],
       "tags": [
-        "comp"
-      ]
-    },
-    {
-      "id": "anu-portal-john-lloyd",
-      "type": "academic",
-      "name": "John Lloyd",
-      "position": "Academic",
-      "focus": "ANU Research Portal+ profile",
-      "school": "School of Computing",
-      "schoolCode": "COMP",
-      "college": "ANU College of Systems and Society",
-      "profileUrl": "https://researchportalplus.anu.edu.au/en/persons/john-lloyd/",
-      "email": "",
-      "office": "",
-      "linkedCourses": [],
-      "reviewMetrics": [
-        "Clarity",
-        "Support",
-        "Engagement"
-      ],
-      "tags": [
+        "comp",
         "school-of-computing",
         "college-of-systems-and-society",
         "research-portal"
-      ]
+      ],
+      "summary": ""
     },
     {
       "id": "anu-portal-john-makeham",
@@ -40388,7 +38525,7 @@ window.ANREVIEW_DATA = {
       "name": "John Makeham",
       "position": "Academic",
       "focus": "ANU Research Portal+ profile",
-      "school": "School of Culture, History &amp; Language",
+      "school": "School of Culture, History & Language",
       "schoolCode": "CHAL",
       "college": "ANU College of Arts and Social Sciences",
       "profileUrl": "https://researchportalplus.anu.edu.au/en/persons/john-makeham/",
@@ -40497,32 +38634,12 @@ window.ANREVIEW_DATA = {
       ],
       "tags": [
         "chl",
-        "asia-pacific"
-      ]
-    },
-    {
-      "id": "anu-portal-john-minford",
-      "type": "academic",
-      "name": "John Minford",
-      "position": "Academic",
-      "focus": "ANU Research Portal+ profile",
-      "school": "School of Culture, History &amp; Language",
-      "schoolCode": "CHAL",
-      "college": "ANU College of Arts and Social Sciences",
-      "profileUrl": "https://researchportalplus.anu.edu.au/en/persons/john-minford/",
-      "email": "",
-      "office": "",
-      "linkedCourses": [],
-      "reviewMetrics": [
-        "Clarity",
-        "Support",
-        "Engagement"
-      ],
-      "tags": [
+        "asia-pacific",
         "school-of-culture-history-amp-language",
         "college-of-arts-and-social-sciences",
         "research-portal"
-      ]
+      ],
+      "summary": ""
     },
     {
       "id": "anu-portal-john-noel-viana",
@@ -40684,56 +38801,14 @@ window.ANREVIEW_DATA = {
         "Engagement"
       ],
       "tags": [
-        "comp"
-      ]
-    },
-    {
-      "id": "anu-portal-john-taylor",
-      "type": "academic",
-      "name": "John Taylor",
-      "position": "Academic",
-      "focus": "ANU Research Portal+ profile",
-      "school": "Centre for Indigenous Policy Research",
-      "schoolCode": "CASS",
-      "college": "CASS",
-      "profileUrl": "https://researchportalplus.anu.edu.au/en/persons/john-taylor-2/",
-      "email": "",
-      "office": "",
-      "linkedCourses": [],
-      "reviewMetrics": [
-        "Clarity",
-        "Support",
-        "Engagement"
-      ],
-      "tags": [
+        "comp",
         "centre-for-indigenous-policy-research",
         "cass",
-        "research-portal"
-      ]
-    },
-    {
-      "id": "anu-portal-john-taylor",
-      "type": "academic",
-      "name": "John Taylor",
-      "position": "Academic",
-      "focus": "ANU Research Portal+ profile",
-      "school": "School of Computing",
-      "schoolCode": "COMP",
-      "college": "ANU College of Systems and Society",
-      "profileUrl": "https://researchportalplus.anu.edu.au/en/persons/john-taylor/",
-      "email": "",
-      "office": "",
-      "linkedCourses": [],
-      "reviewMetrics": [
-        "Clarity",
-        "Support",
-        "Engagement"
-      ],
-      "tags": [
+        "research-portal",
         "school-of-computing",
-        "college-of-systems-and-society",
-        "research-portal"
-      ]
+        "college-of-systems-and-society"
+      ],
+      "summary": ""
     },
     {
       "id": "jolyon-ford",
@@ -40749,38 +38824,18 @@ window.ANREVIEW_DATA = {
       "profileUrl": "https://law.anu.edu.au/about/our-people/jolyon-ford",
       "tags": [
         "law",
-        "business & human rights internat"
-      ],
-      "linkedCourses": [],
-      "reviewMetrics": [
-        "Clarity",
-        "Support",
-        "Engagement"
-      ]
-    },
-    {
-      "id": "anu-portal-jolyon-ford",
-      "type": "academic",
-      "name": "Jolyon Ford",
-      "position": "Academic",
-      "focus": "ANU Research Portal+ profile",
-      "school": "ANU College of Law, Governance and Policy",
-      "schoolCode": "LGP",
-      "college": "ANU College of Law, Governance and Policy",
-      "profileUrl": "https://researchportalplus.anu.edu.au/en/persons/jolyon-ford/",
-      "email": "",
-      "office": "",
-      "linkedCourses": [],
-      "reviewMetrics": [
-        "Clarity",
-        "Support",
-        "Engagement"
-      ],
-      "tags": [
+        "business & human rights internat",
         "anu-college-of-law-governance-and-policy",
         "college-of-law-governance-and-policy",
         "research-portal"
-      ]
+      ],
+      "linkedCourses": [],
+      "reviewMetrics": [
+        "Clarity",
+        "Support",
+        "Engagement"
+      ],
+      "summary": ""
     },
     {
       "id": "anu-portal-jon-altman",
@@ -40845,38 +38900,18 @@ window.ANREVIEW_DATA = {
       "tags": [
         "law",
         "comparative law environment",
-        "climate & health international e"
-      ],
-      "linkedCourses": [],
-      "reviewMetrics": [
-        "Clarity",
-        "Support",
-        "Engagement"
-      ]
-    },
-    {
-      "id": "anu-portal-jonathan-liljeblad",
-      "type": "academic",
-      "name": "Jonathan Liljeblad",
-      "position": "Academic",
-      "focus": "ANU Research Portal+ profile",
-      "school": "ANU College of Law, Governance and Policy",
-      "schoolCode": "LGP",
-      "college": "ANU College of Law, Governance and Policy",
-      "profileUrl": "https://researchportalplus.anu.edu.au/en/persons/jonathan-liljeblad/",
-      "email": "",
-      "office": "",
-      "linkedCourses": [],
-      "reviewMetrics": [
-        "Clarity",
-        "Support",
-        "Engagement"
-      ],
-      "tags": [
+        "climate & health international e",
         "anu-college-of-law-governance-and-policy",
         "college-of-law-governance-and-policy",
         "research-portal"
-      ]
+      ],
+      "linkedCourses": [],
+      "reviewMetrics": [
+        "Clarity",
+        "Support",
+        "Engagement"
+      ],
+      "summary": ""
     },
     {
       "id": "anu-portal-jonathan-roco",
@@ -40908,7 +38943,7 @@ window.ANREVIEW_DATA = {
       "name": "Jonathan Unger",
       "position": "Academic",
       "focus": "ANU Research Portal+ profile",
-      "school": "Department of Political &amp; Social Change",
+      "school": "Department of Political & Social Change",
       "schoolCode": "DPASC",
       "college": "ANU College of Arts and Social Sciences",
       "profileUrl": "https://researchportalplus.anu.edu.au/en/persons/jonathan-unger/",
@@ -41113,32 +39148,12 @@ window.ANREVIEW_DATA = {
         "Engagement"
       ],
       "tags": [
-        "physics"
-      ]
-    },
-    {
-      "id": "anu-portal-joseph-hope",
-      "type": "academic",
-      "name": "Joseph Hope",
-      "position": "Academic",
-      "focus": "ANU Research Portal+ profile",
-      "school": "Department of Fundamental &amp; Theoretical Physics",
-      "schoolCode": "DFATP",
-      "college": "ANU College of Science and Medicine",
-      "profileUrl": "https://researchportalplus.anu.edu.au/en/persons/joseph-hope/",
-      "email": "",
-      "office": "",
-      "linkedCourses": [],
-      "reviewMetrics": [
-        "Clarity",
-        "Support",
-        "Engagement"
-      ],
-      "tags": [
+        "physics",
         "department-of-fundamental-amp-theoretical-physics",
         "college-of-science-and-medicine",
         "research-portal"
-      ]
+      ],
+      "summary": ""
     },
     {
       "id": "anu-portal-joseph-lynch",
@@ -41216,7 +39231,7 @@ window.ANREVIEW_DATA = {
       "name": "Josh Dahmen",
       "position": "Academic",
       "focus": "ANU Research Portal+ profile",
-      "school": "School of Culture, History &amp; Language",
+      "school": "School of Culture, History & Language",
       "schoolCode": "CHAL",
       "college": "ANU College of Arts and Social Sciences",
       "profileUrl": "https://researchportalplus.anu.edu.au/en/persons/josh-dahmen/",
@@ -41240,7 +39255,7 @@ window.ANREVIEW_DATA = {
       "name": "Josh Dorrough",
       "position": "Academic",
       "focus": "ANU Research Portal+ profile",
-      "school": "Fenner School of Environment &amp; Society",
+      "school": "Fenner School of Environment & Society",
       "schoolCode": "FEAS",
       "college": "ANU College of Systems and Society",
       "profileUrl": "https://researchportalplus.anu.edu.au/en/persons/josh-dorrough/",
@@ -41301,32 +39316,12 @@ window.ANREVIEW_DATA = {
         "Engagement"
       ],
       "tags": [
-        "physics"
-      ]
-    },
-    {
-      "id": "anu-portal-joshua-machacek",
-      "type": "academic",
-      "name": "Joshua Machacek",
-      "position": "Academic",
-      "focus": "ANU Research Portal+ profile",
-      "school": "Department of Quantum Science &amp; Technology",
-      "schoolCode": "DQSAT",
-      "college": "ANU College of Arts and Social Sciences",
-      "profileUrl": "https://researchportalplus.anu.edu.au/en/persons/joshua-machacek/",
-      "email": "",
-      "office": "",
-      "linkedCourses": [],
-      "reviewMetrics": [
-        "Clarity",
-        "Support",
-        "Engagement"
-      ],
-      "tags": [
+        "physics",
         "department-of-quantum-science-amp-technology",
         "college-of-arts-and-social-sciences",
         "research-portal"
-      ]
+      ],
+      "summary": ""
     },
     {
       "id": "joshua-neoh",
@@ -41342,38 +39337,18 @@ window.ANREVIEW_DATA = {
       "profileUrl": "https://law.anu.edu.au/about/our-people/joshua-neoh",
       "tags": [
         "law",
-        "asian law jurisprudence law & hu"
-      ],
-      "linkedCourses": [],
-      "reviewMetrics": [
-        "Clarity",
-        "Support",
-        "Engagement"
-      ]
-    },
-    {
-      "id": "anu-portal-joshua-neoh",
-      "type": "academic",
-      "name": "Joshua Neoh",
-      "position": "Academic",
-      "focus": "ANU Research Portal+ profile",
-      "school": "ANU College of Law, Governance and Policy",
-      "schoolCode": "LGP",
-      "college": "ANU College of Law, Governance and Policy",
-      "profileUrl": "https://researchportalplus.anu.edu.au/en/persons/joshua-neoh/",
-      "email": "",
-      "office": "",
-      "linkedCourses": [],
-      "reviewMetrics": [
-        "Clarity",
-        "Support",
-        "Engagement"
-      ],
-      "tags": [
+        "asian law jurisprudence law & hu",
         "anu-college-of-law-governance-and-policy",
         "college-of-law-governance-and-policy",
         "research-portal"
-      ]
+      ],
+      "linkedCourses": [],
+      "reviewMetrics": [
+        "Clarity",
+        "Support",
+        "Engagement"
+      ],
+      "summary": ""
     },
     {
       "id": "anu-portal-joshua-van-kleef",
@@ -41405,7 +39380,7 @@ window.ANREVIEW_DATA = {
       "name": "Joshua Willsher",
       "position": "Academic",
       "focus": "ANU Research Portal+ profile",
-      "school": "ANU College of Asia &amp; the Pacific",
+      "school": "ANU College of Asia & the Pacific",
       "schoolCode": "AAP",
       "college": "ANU College of Asia and the Pacific",
       "profileUrl": "https://researchportalplus.anu.edu.au/en/persons/joshua-willsher/",
@@ -41477,7 +39452,7 @@ window.ANREVIEW_DATA = {
       "name": "Jude Blacklock",
       "position": "Academic",
       "focus": "ANU Research Portal+ profile",
-      "school": "School of Regulation &amp; Global Governance",
+      "school": "School of Regulation & Global Governance",
       "schoolCode": "RAGG",
       "college": "ANU College of Law, Governance and Policy",
       "profileUrl": "https://researchportalplus.anu.edu.au/en/persons/jude-blacklock/",
@@ -41501,7 +39476,7 @@ window.ANREVIEW_DATA = {
       "name": "Judith Cameron",
       "position": "Academic",
       "focus": "ANU Research Portal+ profile",
-      "school": "ANU College of Arts &amp; Social Sciences",
+      "school": "ANU College of Arts & Social Sciences",
       "schoolCode": "AASS",
       "college": "ANU College of Arts and Social Sciences",
       "profileUrl": "https://researchportalplus.anu.edu.au/en/persons/judith-cameron/",
@@ -41533,38 +39508,18 @@ window.ANREVIEW_DATA = {
       "profileUrl": "https://law.anu.edu.au/about/our-people/judith-jones",
       "tags": [
         "law",
-        "environmental law law & migratio"
-      ],
-      "linkedCourses": [],
-      "reviewMetrics": [
-        "Clarity",
-        "Support",
-        "Engagement"
-      ]
-    },
-    {
-      "id": "anu-portal-judith-jones",
-      "type": "academic",
-      "name": "Judith Jones",
-      "position": "Academic",
-      "focus": "ANU Research Portal+ profile",
-      "school": "ANU College of Law, Governance and Policy",
-      "schoolCode": "LGP",
-      "college": "ANU College of Law, Governance and Policy",
-      "profileUrl": "https://researchportalplus.anu.edu.au/en/persons/judith-jones/",
-      "email": "",
-      "office": "",
-      "linkedCourses": [],
-      "reviewMetrics": [
-        "Clarity",
-        "Support",
-        "Engagement"
-      ],
-      "tags": [
+        "environmental law law & migratio",
         "anu-college-of-law-governance-and-policy",
         "college-of-law-governance-and-policy",
         "research-portal"
-      ]
+      ],
+      "linkedCourses": [],
+      "reviewMetrics": [
+        "Clarity",
+        "Support",
+        "Engagement"
+      ],
+      "summary": ""
     },
     {
       "id": "anu-portal-judith-nall-bird",
@@ -41668,7 +39623,7 @@ window.ANREVIEW_DATA = {
       "name": "Julia Colleen Miller",
       "position": "Academic",
       "focus": "ANU Research Portal+ profile",
-      "school": "School of Literature, Languages &amp; Linguistics",
+      "school": "School of Literature, Languages & Linguistics",
       "schoolCode": "LLAL",
       "college": "ANU College of Arts and Social Sciences",
       "profileUrl": "https://researchportalplus.anu.edu.au/en/persons/julia-colleen-miller/",
@@ -41716,7 +39671,7 @@ window.ANREVIEW_DATA = {
       "name": "Julia Gorham",
       "position": "Academic",
       "focus": "ANU Research Portal+ profile",
-      "school": "School of Literature, Languages &amp; Linguistics",
+      "school": "School of Literature, Languages & Linguistics",
       "schoolCode": "LLAL",
       "college": "ANU College of Arts and Social Sciences",
       "profileUrl": "https://researchportalplus.anu.edu.au/en/persons/julia-gorham/",
@@ -41788,7 +39743,7 @@ window.ANREVIEW_DATA = {
       "name": "Julian Reid",
       "position": "Academic",
       "focus": "ANU Research Portal+ profile",
-      "school": "Fenner School of Environment &amp; Society",
+      "school": "Fenner School of Environment & Society",
       "schoolCode": "FEAS",
       "college": "ANU College of Systems and Society",
       "profileUrl": "https://researchportalplus.anu.edu.au/en/persons/julian-reid/",
@@ -41812,7 +39767,7 @@ window.ANREVIEW_DATA = {
       "name": "Juliana Lazzari",
       "position": "Academic",
       "focus": "ANU Research Portal+ profile",
-      "school": "Fenner School of Environment &amp; Society",
+      "school": "Fenner School of Environment & Society",
       "schoolCode": "FEAS",
       "college": "ANU College of Systems and Society",
       "profileUrl": "https://researchportalplus.anu.edu.au/en/persons/juliana-lazzari/",
@@ -41954,7 +39909,7 @@ window.ANREVIEW_DATA = {
       "name": "Juliey Beckman",
       "position": "Academic",
       "focus": "ANU Research Portal+ profile",
-      "school": "Biology Teaching &amp; Learning Centre",
+      "school": "Biology Teaching & Learning Centre",
       "schoolCode": "BTAL",
       "college": "ANU College of Science and Medicine",
       "profileUrl": "https://researchportalplus.anu.edu.au/en/persons/juliey-beckman/",
@@ -42082,38 +40037,18 @@ window.ANREVIEW_DATA = {
       "profileUrl": "https://law.anu.edu.au/about/our-people/justin-mccaul",
       "tags": [
         "law",
-        "australian indigenous rights int"
-      ],
-      "linkedCourses": [],
-      "reviewMetrics": [
-        "Clarity",
-        "Support",
-        "Engagement"
-      ]
-    },
-    {
-      "id": "anu-portal-justin-mccaul",
-      "type": "academic",
-      "name": "Justin McCaul",
-      "position": "Academic",
-      "focus": "ANU Research Portal+ profile",
-      "school": "ANU College of Law, Governance and Policy",
-      "schoolCode": "LGP",
-      "college": "ANU College of Law, Governance and Policy",
-      "profileUrl": "https://researchportalplus.anu.edu.au/en/persons/justin-mccaul/",
-      "email": "",
-      "office": "",
-      "linkedCourses": [],
-      "reviewMetrics": [
-        "Clarity",
-        "Support",
-        "Engagement"
-      ],
-      "tags": [
+        "australian indigenous rights int",
         "anu-college-of-law-governance-and-policy",
         "college-of-law-governance-and-policy",
         "research-portal"
-      ]
+      ],
+      "linkedCourses": [],
+      "reviewMetrics": [
+        "Clarity",
+        "Support",
+        "Engagement"
+      ],
+      "summary": ""
     },
     {
       "id": "anu-portal-jyoti-nandan",
@@ -42121,7 +40056,7 @@ window.ANREVIEW_DATA = {
       "name": "Jyoti Nandan",
       "position": "Academic",
       "focus": "ANU Research Portal+ profile",
-      "school": "School of Literature, Languages &amp; Linguistics",
+      "school": "School of Literature, Languages & Linguistics",
       "schoolCode": "LLAL",
       "college": "ANU College of Arts and Social Sciences",
       "profileUrl": "https://researchportalplus.anu.edu.au/en/persons/jyoti-nandan/",
@@ -42206,32 +40141,12 @@ window.ANREVIEW_DATA = {
         "Engagement"
       ],
       "tags": [
-        "physics"
-      ]
-    },
-    {
-      "id": "anu-portal-kaitlin-cook",
-      "type": "academic",
-      "name": "Kaitlin Cook",
-      "position": "Academic",
-      "focus": "ANU Research Portal+ profile",
-      "school": "Department of Nuclear Physics &amp; Accelerator Applications",
-      "schoolCode": "DNPAAA",
-      "college": "ANU College of Science and Medicine",
-      "profileUrl": "https://researchportalplus.anu.edu.au/en/persons/kaitlin-cook/",
-      "email": "",
-      "office": "",
-      "linkedCourses": [],
-      "reviewMetrics": [
-        "Clarity",
-        "Support",
-        "Engagement"
-      ],
-      "tags": [
+        "physics",
         "department-of-nuclear-physics-amp-accelerator-applications",
         "college-of-science-and-medicine",
         "research-portal"
-      ]
+      ],
+      "summary": ""
     },
     {
       "id": "anu-portal-kaliappa-kalirajan",
@@ -42335,7 +40250,7 @@ window.ANREVIEW_DATA = {
       "name": "Kara Youngentob",
       "position": "Academic",
       "focus": "ANU Research Portal+ profile",
-      "school": "Fenner School of Environment &amp; Society",
+      "school": "Fenner School of Environment & Society",
       "schoolCode": "FEAS",
       "college": "ANU College of Systems and Society",
       "profileUrl": "https://researchportalplus.anu.edu.au/en/persons/kara-youngentob/",
@@ -42455,7 +40370,7 @@ window.ANREVIEW_DATA = {
       "name": "Karen Parry",
       "position": "Academic",
       "focus": "ANU Research Portal+ profile",
-      "school": "Fenner School of Environment &amp; Society",
+      "school": "Fenner School of Environment & Society",
       "schoolCode": "FEAS",
       "college": "ANU College of Systems and Society",
       "profileUrl": "https://researchportalplus.anu.edu.au/en/persons/karen-parry/",
@@ -42564,32 +40479,12 @@ window.ANREVIEW_DATA = {
         "Engagement"
       ],
       "tags": [
-        "physics"
-      ]
-    },
-    {
-      "id": "anu-portal-karl-wette",
-      "type": "academic",
-      "name": "Karl Wette",
-      "position": "Academic",
-      "focus": "ANU Research Portal+ profile",
-      "school": "Centre for Gravitational Astrophysics",
-      "schoolCode": "GA",
-      "college": "ANU College of Science and Medicine",
-      "profileUrl": "https://researchportalplus.anu.edu.au/en/persons/karl-wette/",
-      "email": "",
-      "office": "",
-      "linkedCourses": [],
-      "reviewMetrics": [
-        "Clarity",
-        "Support",
-        "Engagement"
-      ],
-      "tags": [
+        "physics",
         "centre-for-gravitational-astrophysics",
         "college-of-science-and-medicine",
         "research-portal"
-      ]
+      ],
+      "summary": ""
     },
     {
       "id": "anu-portal-karla-kelly",
@@ -42645,7 +40540,7 @@ window.ANREVIEW_DATA = {
       "name": "Karlie Noon",
       "position": "Academic",
       "focus": "ANU Research Portal+ profile",
-      "school": "Research School of Astronomy &amp; Astrophysics",
+      "school": "Research School of Astronomy & Astrophysics",
       "schoolCode": "AAA",
       "college": "ANU College of Science and Medicine",
       "profileUrl": "https://researchportalplus.anu.edu.au/en/persons/karlie-noon/",
@@ -42765,7 +40660,7 @@ window.ANREVIEW_DATA = {
       "name": "Kassel Hingee",
       "position": "Academic",
       "focus": "ANU Research Portal+ profile",
-      "school": "Research School of Finance, Actuarial Studies &amp; Statistics",
+      "school": "Research School of Finance, Actuarial Studies & Statistics",
       "schoolCode": "FASAS",
       "college": "ANU College of Systems and Society",
       "profileUrl": "https://researchportalplus.anu.edu.au/en/persons/kassel-hingee/",
@@ -42909,7 +40804,7 @@ window.ANREVIEW_DATA = {
       "name": "Kate Henne",
       "position": "Academic",
       "focus": "ANU Research Portal+ profile",
-      "school": "School of Regulation &amp; Global Governance",
+      "school": "School of Regulation & Global Governance",
       "schoolCode": "RAGG",
       "college": "ANU College of Law, Governance and Policy",
       "profileUrl": "https://researchportalplus.anu.edu.au/en/persons/kate-henne/",
@@ -42933,7 +40828,7 @@ window.ANREVIEW_DATA = {
       "name": "Kate Lawrence",
       "position": "Academic",
       "focus": "ANU Research Portal+ profile",
-      "school": "Institute for Climate, Energy &amp; Disaster Solutions",
+      "school": "Institute for Climate, Energy & Disaster Solutions",
       "schoolCode": "ICEADS",
       "college": "ANU College of Science and Medicine",
       "profileUrl": "https://researchportalplus.anu.edu.au/en/persons/kate-lawrence/",
@@ -42957,7 +40852,7 @@ window.ANREVIEW_DATA = {
       "name": "Kate Mitchell",
       "position": "Academic",
       "focus": "ANU Research Portal+ profile",
-      "school": "Research School of Humanities &amp; the Arts",
+      "school": "Research School of Humanities & the Arts",
       "schoolCode": "HAA",
       "college": "ANU College of Arts and Social Sciences",
       "profileUrl": "https://researchportalplus.anu.edu.au/en/persons/kate-mitchell/",
@@ -42990,38 +40885,18 @@ window.ANREVIEW_DATA = {
       "tags": [
         "law",
         "comparative law gender",
-        "sexuality & the law internationa"
-      ],
-      "linkedCourses": [],
-      "reviewMetrics": [
-        "Clarity",
-        "Support",
-        "Engagement"
-      ]
-    },
-    {
-      "id": "anu-portal-kate-ogg",
-      "type": "academic",
-      "name": "Kate Ogg",
-      "position": "Academic",
-      "focus": "ANU Research Portal+ profile",
-      "school": "The Migration Hub",
-      "schoolCode": "MH",
-      "college": "ANU College of Law, Governance and Policy",
-      "profileUrl": "https://researchportalplus.anu.edu.au/en/persons/kate-ogg/",
-      "email": "",
-      "office": "",
-      "linkedCourses": [],
-      "reviewMetrics": [
-        "Clarity",
-        "Support",
-        "Engagement"
-      ],
-      "tags": [
+        "sexuality & the law internationa",
         "the-migration-hub",
         "college-of-law-governance-and-policy",
         "research-portal"
-      ]
+      ],
+      "linkedCourses": [],
+      "reviewMetrics": [
+        "Clarity",
+        "Support",
+        "Engagement"
+      ],
+      "summary": ""
     },
     {
       "id": "anu-portal-kate-reynolds",
@@ -43077,7 +40952,7 @@ window.ANREVIEW_DATA = {
       "name": "Katerina Kormusheva",
       "position": "Academic",
       "focus": "ANU Research Portal+ profile",
-      "school": "ANU College of Business &amp; Economics",
+      "school": "ANU College of Business & Economics",
       "schoolCode": "BAE",
       "college": "ANU College of Business and Economics",
       "profileUrl": "https://researchportalplus.anu.edu.au/en/persons/katerina-kormusheva/",
@@ -43101,7 +40976,7 @@ window.ANREVIEW_DATA = {
       "name": "Katerina Teaiwa",
       "position": "Academic",
       "focus": "ANU Research Portal+ profile",
-      "school": "School of Culture, History &amp; Language",
+      "school": "School of Culture, History & Language",
       "schoolCode": "CHAL",
       "college": "ANU College of Arts and Social Sciences",
       "profileUrl": "https://researchportalplus.anu.edu.au/en/persons/katerina-teaiwa/",
@@ -43197,7 +41072,7 @@ window.ANREVIEW_DATA = {
       "name": "Katherine Daniell",
       "position": "Academic",
       "focus": "ANU Research Portal+ profile",
-      "school": "Fenner School of Environment &amp; Society",
+      "school": "Fenner School of Environment & Society",
       "schoolCode": "FEAS",
       "college": "ANU College of Systems and Society",
       "profileUrl": "https://researchportalplus.anu.edu.au/en/persons/katherine-daniell/",
@@ -43293,7 +41168,7 @@ window.ANREVIEW_DATA = {
       "name": "Kathryn Grasha",
       "position": "Academic",
       "focus": "ANU Research Portal+ profile",
-      "school": "Research School of Astronomy &amp; Astrophysics",
+      "school": "Research School of Astronomy & Astrophysics",
       "schoolCode": "AAA",
       "college": "ANU College of Science and Medicine",
       "profileUrl": "https://researchportalplus.anu.edu.au/en/persons/kathryn-grasha/",
@@ -43317,7 +41192,7 @@ window.ANREVIEW_DATA = {
       "name": "KATHRYN ROBINSON",
       "position": "Academic",
       "focus": "ANU Research Portal+ profile",
-      "school": "School of Culture, History &amp; Language",
+      "school": "School of Culture, History & Language",
       "schoolCode": "CHAL",
       "college": "ANU College of Arts and Social Sciences",
       "profileUrl": "https://researchportalplus.anu.edu.au/en/persons/kathryn-robinson/",
@@ -43341,7 +41216,7 @@ window.ANREVIEW_DATA = {
       "name": "Kathryn, Allan",
       "position": "Academic",
       "focus": "ANU Research Portal+ profile",
-      "school": "School of Archaeology &amp; Anthropology",
+      "school": "School of Archaeology & Anthropology",
       "schoolCode": "AAA",
       "college": "ANU College of Arts and Social Sciences",
       "profileUrl": "https://researchportalplus.anu.edu.au/en/persons/kathryn-allan/",
@@ -43485,7 +41360,7 @@ window.ANREVIEW_DATA = {
       "name": "Katrin Travouillon",
       "position": "Academic",
       "focus": "ANU Research Portal+ profile",
-      "school": "Department of Political &amp; Social Change",
+      "school": "Department of Political & Social Change",
       "schoolCode": "DPASC",
       "college": "ANU College of Arts and Social Sciences",
       "profileUrl": "https://researchportalplus.anu.edu.au/en/persons/katrin-travouillon/",
@@ -43525,31 +41400,8 @@ window.ANREVIEW_DATA = {
         "school-of-medicine-and-psychology",
         "college-of-science-and-medicine",
         "research-portal"
-      ]
-    },
-    {
-      "id": "anu-portal-katrina-anderson",
-      "type": "academic",
-      "name": "Katrina Anderson",
-      "position": "Academic",
-      "focus": "ANU Research Portal+ profile",
-      "school": "School of Medicine and Psychology",
-      "schoolCode": "SMP",
-      "college": "ANU College of Science and Medicine",
-      "profileUrl": "https://researchportalplus.anu.edu.au/en/persons/katrina-anderson-2/",
-      "email": "",
-      "office": "",
-      "linkedCourses": [],
-      "reviewMetrics": [
-        "Clarity",
-        "Support",
-        "Engagement"
       ],
-      "tags": [
-        "school-of-medicine-and-psychology",
-        "college-of-science-and-medicine",
-        "research-portal"
-      ]
+      "summary": ""
     },
     {
       "id": "anu-portal-katrina-proust",
@@ -43557,7 +41409,7 @@ window.ANREVIEW_DATA = {
       "name": "Katrina Proust",
       "position": "Academic",
       "focus": "ANU Research Portal+ profile",
-      "school": "Fenner School of Environment &amp; Society",
+      "school": "Fenner School of Environment & Society",
       "schoolCode": "FEAS",
       "college": "ANU College of Systems and Society",
       "profileUrl": "https://researchportalplus.anu.edu.au/en/persons/katrina-proust/",
@@ -43675,7 +41527,7 @@ window.ANREVIEW_DATA = {
       "name": "Kazuki Kagohashi",
       "position": "Academic",
       "focus": "ANU Research Portal+ profile",
-      "school": "Fenner School of Environment &amp; Society",
+      "school": "Fenner School of Environment & Society",
       "schoolCode": "FEAS",
       "college": "ANU College of Systems and Society",
       "profileUrl": "https://researchportalplus.anu.edu.au/en/persons/kazuki-kagohashi/",
@@ -43747,7 +41599,7 @@ window.ANREVIEW_DATA = {
       "name": "Keiko Tamura",
       "position": "Academic",
       "focus": "ANU Research Portal+ profile",
-      "school": "School of Culture, History &amp; Language",
+      "school": "School of Culture, History & Language",
       "schoolCode": "CHAL",
       "college": "ANU College of Arts and Social Sciences",
       "profileUrl": "https://researchportalplus.anu.edu.au/en/persons/keiko-tamura/",
@@ -43771,7 +41623,7 @@ window.ANREVIEW_DATA = {
       "name": "Keira Mullan",
       "position": "Academic",
       "focus": "ANU Research Portal+ profile",
-      "school": "School of Literature, Languages &amp; Linguistics",
+      "school": "School of Literature, Languages & Linguistics",
       "schoolCode": "LLAL",
       "college": "ANU College of Asia and the Pacific",
       "profileUrl": "https://researchportalplus.anu.edu.au/en/persons/keira-mullan/",
@@ -43889,7 +41741,7 @@ window.ANREVIEW_DATA = {
       "name": "Kelzang Tashi",
       "position": "Academic",
       "focus": "ANU Research Portal+ profile",
-      "school": "School of Culture, History &amp; Language",
+      "school": "School of Culture, History & Language",
       "schoolCode": "CHAL",
       "college": "ANU College of Arts and Social Sciences",
       "profileUrl": "https://researchportalplus.anu.edu.au/en/persons/kelzang-tashi/",
@@ -43913,7 +41765,7 @@ window.ANREVIEW_DATA = {
       "name": "Ken George",
       "position": "Academic",
       "focus": "ANU Research Portal+ profile",
-      "school": "School of Culture, History &amp; Language",
+      "school": "School of Culture, History & Language",
       "schoolCode": "CHAL",
       "college": "ANU College of Arts and Social Sciences",
       "profileUrl": "https://researchportalplus.anu.edu.au/en/persons/ken-george/",
@@ -43998,32 +41850,12 @@ window.ANREVIEW_DATA = {
         "Engagement"
       ],
       "tags": [
-        "physics"
-      ]
-    },
-    {
-      "id": "anu-portal-kenneth-baldwin",
-      "type": "academic",
-      "name": "Kenneth Baldwin",
-      "position": "Academic",
-      "focus": "ANU Research Portal+ profile",
-      "school": "Department of Quantum Science &amp; Technology",
-      "schoolCode": "DQSAT",
-      "college": "ANU College of Arts and Social Sciences",
-      "profileUrl": "https://researchportalplus.anu.edu.au/en/persons/kenneth-baldwin/",
-      "email": "",
-      "office": "",
-      "linkedCourses": [],
-      "reviewMetrics": [
-        "Clarity",
-        "Support",
-        "Engagement"
-      ],
-      "tags": [
+        "physics",
         "department-of-quantum-science-amp-technology",
         "college-of-arts-and-social-sciences",
         "research-portal"
-      ]
+      ],
+      "summary": ""
     },
     {
       "id": "anu-portal-kenneth-freeman",
@@ -44031,7 +41863,7 @@ window.ANREVIEW_DATA = {
       "name": "Kenneth Freeman",
       "position": "Academic",
       "focus": "ANU Research Portal+ profile",
-      "school": "Research School of Astronomy &amp; Astrophysics",
+      "school": "Research School of Astronomy & Astrophysics",
       "schoolCode": "AAA",
       "college": "ANU College of Science and Medicine",
       "profileUrl": "https://researchportalplus.anu.edu.au/en/persons/kenneth-freeman/",
@@ -44092,32 +41924,12 @@ window.ANREVIEW_DATA = {
         "Engagement"
       ],
       "tags": [
-        "comp"
-      ]
-    },
-    {
-      "id": "anu-portal-kerry-taylor",
-      "type": "academic",
-      "name": "Kerry Taylor",
-      "position": "Academic",
-      "focus": "ANU Research Portal+ profile",
-      "school": "School of Computing",
-      "schoolCode": "COMP",
-      "college": "ANU College of Systems and Society",
-      "profileUrl": "https://researchportalplus.anu.edu.au/en/persons/kerry-taylor/",
-      "email": "",
-      "office": "",
-      "linkedCourses": [],
-      "reviewMetrics": [
-        "Clarity",
-        "Support",
-        "Engagement"
-      ],
-      "tags": [
+        "comp",
         "school-of-computing",
         "college-of-systems-and-society",
         "research-portal"
-      ]
+      ],
+      "summary": ""
     },
     {
       "id": "anu-portal-kerryn-baker",
@@ -44162,32 +41974,12 @@ window.ANREVIEW_DATA = {
         "Engagement"
       ],
       "tags": [
-        "physics"
-      ]
-    },
-    {
-      "id": "anu-portal-keshu-huang",
-      "type": "academic",
-      "name": "Keshu Huang",
-      "position": "Academic",
-      "focus": "ANU Research Portal+ profile",
-      "school": "Department of Materials Physics",
-      "schoolCode": "DMP",
-      "college": "ANU College of Science and Medicine",
-      "profileUrl": "https://researchportalplus.anu.edu.au/en/persons/keshu-huang/",
-      "email": "",
-      "office": "",
-      "linkedCourses": [],
-      "reviewMetrics": [
-        "Clarity",
-        "Support",
-        "Engagement"
-      ],
-      "tags": [
+        "physics",
         "department-of-materials-physics",
         "college-of-science-and-medicine",
         "research-portal"
-      ]
+      ],
+      "summary": ""
     },
     {
       "id": "anu-portal-keturah-whitford",
@@ -44219,7 +42011,7 @@ window.ANREVIEW_DATA = {
       "name": "Kevin Lu",
       "position": "Academic",
       "focus": "ANU Research Portal+ profile",
-      "school": "Research School of Finance, Actuarial Studies &amp; Statistics",
+      "school": "Research School of Finance, Actuarial Studies & Statistics",
       "schoolCode": "FASAS",
       "college": "ANU College of Systems and Society",
       "profileUrl": "https://researchportalplus.anu.edu.au/en/persons/kevin-lu/",
@@ -44267,7 +42059,7 @@ window.ANREVIEW_DATA = {
       "name": "Kevin Saliba",
       "position": "Academic",
       "focus": "ANU Research Portal+ profile",
-      "school": "Division of Biomedical Science &amp; Biochemistry",
+      "school": "Division of Biomedical Science & Biochemistry",
       "schoolCode": "DBSAB",
       "college": "ANU College of Science and Medicine",
       "profileUrl": "https://researchportalplus.anu.edu.au/en/persons/kevin-saliba/",
@@ -44291,7 +42083,7 @@ window.ANREVIEW_DATA = {
       "name": "Kevin Windle",
       "position": "Academic",
       "focus": "ANU Research Portal+ profile",
-      "school": "School of Literature, Languages &amp; Linguistics",
+      "school": "School of Literature, Languages & Linguistics",
       "schoolCode": "LLAL",
       "college": "ANU College of Arts and Social Sciences",
       "profileUrl": "https://researchportalplus.anu.edu.au/en/persons/kevin-windle/",
@@ -44339,7 +42131,7 @@ window.ANREVIEW_DATA = {
       "name": "Khalid Al Bostanji",
       "position": "Academic",
       "focus": "ANU Research Portal+ profile",
-      "school": "Centre for Arab &amp; Islamic Studies",
+      "school": "Centre for Arab & Islamic Studies",
       "schoolCode": "AAIS",
       "college": "ANU College of Arts and Social Sciences",
       "profileUrl": "https://researchportalplus.anu.edu.au/en/persons/khalid-al-bostanji/",
@@ -44554,7 +42346,7 @@ window.ANREVIEW_DATA = {
       "name": "Kim Huynh",
       "position": "Academic",
       "focus": "ANU Research Portal+ profile",
-      "school": "School of Politics &amp; International Relations",
+      "school": "School of Politics & International Relations",
       "schoolCode": "PAIR",
       "college": "ANU College of Arts and Social Sciences",
       "profileUrl": "https://researchportalplus.anu.edu.au/en/persons/kim-huynh/",
@@ -44685,32 +42477,12 @@ window.ANREVIEW_DATA = {
         "Engagement"
       ],
       "tags": [
-        "physics"
-      ]
-    },
-    {
-      "id": "anu-portal-kirill-koshelev",
-      "type": "academic",
-      "name": "Kirill Koshelev",
-      "position": "Academic",
-      "focus": "ANU Research Portal+ profile",
-      "school": "Department of Electronic Materials Engineering",
-      "schoolCode": "DEME",
-      "college": "ANU College of Systems and Society",
-      "profileUrl": "https://researchportalplus.anu.edu.au/en/persons/kirill-koshelev/",
-      "email": "",
-      "office": "",
-      "linkedCourses": [],
-      "reviewMetrics": [
-        "Clarity",
-        "Support",
-        "Engagement"
-      ],
-      "tags": [
+        "physics",
         "department-of-electronic-materials-engineering",
         "college-of-systems-and-society",
         "research-portal"
-      ]
+      ],
+      "summary": ""
     },
     {
       "id": "anu-portal-kirin-narayan",
@@ -44718,7 +42490,7 @@ window.ANREVIEW_DATA = {
       "name": "Kirin Narayan",
       "position": "Academic",
       "focus": "ANU Research Portal+ profile",
-      "school": "School of Culture, History &amp; Language",
+      "school": "School of Culture, History & Language",
       "schoolCode": "CHAL",
       "college": "ANU College of Arts and Social Sciences",
       "profileUrl": "https://researchportalplus.anu.edu.au/en/persons/kirin-narayan/",
@@ -44788,7 +42560,7 @@ window.ANREVIEW_DATA = {
       "name": "Kirsten Maclean",
       "position": "Academic",
       "focus": "ANU Research Portal+ profile",
-      "school": "Fenner School of Environment &amp; Society",
+      "school": "Fenner School of Environment & Society",
       "schoolCode": "FEAS",
       "college": "ANU College of Systems and Society",
       "profileUrl": "https://researchportalplus.anu.edu.au/en/persons/kirsten-maclean/",
@@ -44812,7 +42584,7 @@ window.ANREVIEW_DATA = {
       "name": "Kirsty Gillespie",
       "position": "Academic",
       "focus": "ANU Research Portal+ profile",
-      "school": "School of Culture, History &amp; Language",
+      "school": "School of Culture, History & Language",
       "schoolCode": "CHAL",
       "college": "ANU College of Arts and Social Sciences",
       "profileUrl": "https://researchportalplus.anu.edu.au/en/persons/kirsty-gillespie/",
@@ -44860,7 +42632,7 @@ window.ANREVIEW_DATA = {
       "name": "Kirsty Wissing",
       "position": "Academic",
       "focus": "ANU Research Portal+ profile",
-      "school": "School of Culture, History &amp; Language",
+      "school": "School of Culture, History & Language",
       "schoolCode": "CHAL",
       "college": "ANU College of Arts and Social Sciences",
       "profileUrl": "https://researchportalplus.anu.edu.au/en/persons/kirsty-wissing/",
@@ -44897,32 +42669,12 @@ window.ANREVIEW_DATA = {
         "Engagement"
       ],
       "tags": [
-        "physics"
-      ]
-    },
-    {
-      "id": "anu-portal-klara-steklova",
-      "type": "academic",
-      "name": "Klara Steklova",
-      "position": "Academic",
-      "focus": "ANU Research Portal+ profile",
-      "school": "Department of Materials Physics",
-      "schoolCode": "DMP",
-      "college": "ANU College of Science and Medicine",
-      "profileUrl": "https://researchportalplus.anu.edu.au/en/persons/klara-steklova/",
-      "email": "",
-      "office": "",
-      "linkedCourses": [],
-      "reviewMetrics": [
-        "Clarity",
-        "Support",
-        "Engagement"
-      ],
-      "tags": [
+        "physics",
         "department-of-materials-physics",
         "college-of-science-and-medicine",
         "research-portal"
-      ]
+      ],
+      "summary": ""
     },
     {
       "id": "anu-portal-klara-verbyla",
@@ -45050,7 +42802,7 @@ window.ANREVIEW_DATA = {
       "name": "Kris Hardy",
       "position": "Academic",
       "focus": "ANU Research Portal+ profile",
-      "school": "Division of Biomedical Science &amp; Biochemistry",
+      "school": "Division of Biomedical Science & Biochemistry",
       "schoolCode": "DBSAB",
       "college": "ANU College of Science and Medicine",
       "profileUrl": "https://researchportalplus.anu.edu.au/en/persons/kris-hardy/",
@@ -45135,32 +42887,12 @@ window.ANREVIEW_DATA = {
         "Engagement"
       ],
       "tags": [
-        "physics"
-      ]
-    },
-    {
-      "id": "anu-portal-ksenia-maximova",
-      "type": "academic",
-      "name": "Ksenia Maximova",
-      "position": "Academic",
-      "focus": "ANU Research Portal+ profile",
-      "school": "Department of Quantum Science &amp; Technology",
-      "schoolCode": "DQSAT",
-      "college": "ANU College of Arts and Social Sciences",
-      "profileUrl": "https://researchportalplus.anu.edu.au/en/persons/ksenia-maximova/",
-      "email": "",
-      "office": "",
-      "linkedCourses": [],
-      "reviewMetrics": [
-        "Clarity",
-        "Support",
-        "Engagement"
-      ],
-      "tags": [
+        "physics",
         "department-of-quantum-science-amp-technology",
         "college-of-arts-and-social-sciences",
         "research-portal"
-      ]
+      ],
+      "summary": ""
     },
     {
       "id": "anu-portal-kun-li",
@@ -45168,7 +42900,7 @@ window.ANREVIEW_DATA = {
       "name": "Kun Li",
       "position": "Academic",
       "focus": "ANU Research Portal+ profile",
-      "school": "Research School of Finance, Actuarial Studies &amp; Statistics",
+      "school": "Research School of Finance, Actuarial Studies & Statistics",
       "schoolCode": "FASAS",
       "college": "ANU College of Systems and Society",
       "profileUrl": "https://researchportalplus.anu.edu.au/en/persons/kun-li/",
@@ -45205,32 +42937,12 @@ window.ANREVIEW_DATA = {
         "Engagement"
       ],
       "tags": [
-        "physics"
-      ]
-    },
-    {
-      "id": "anu-portal-kunlun-yan",
-      "type": "academic",
-      "name": "Kunlun Yan",
-      "position": "Academic",
-      "focus": "ANU Research Portal+ profile",
-      "school": "Department of Quantum Science &amp; Technology",
-      "schoolCode": "DQSAT",
-      "college": "ANU College of Arts and Social Sciences",
-      "profileUrl": "https://researchportalplus.anu.edu.au/en/persons/kunlun-yan/",
-      "email": "",
-      "office": "",
-      "linkedCourses": [],
-      "reviewMetrics": [
-        "Clarity",
-        "Support",
-        "Engagement"
-      ],
-      "tags": [
+        "physics",
         "department-of-quantum-science-amp-technology",
         "college-of-arts-and-social-sciences",
         "research-portal"
-      ]
+      ],
+      "summary": ""
     },
     {
       "id": "anu-portal-kuntala-lahiri-dutt",
@@ -45310,7 +43022,7 @@ window.ANREVIEW_DATA = {
       "name": "Kyung Moon Hwang",
       "position": "Academic",
       "focus": "ANU Research Portal+ profile",
-      "school": "School of Culture, History &amp; Language",
+      "school": "School of Culture, History & Language",
       "schoolCode": "CHAL",
       "college": "ANU College of Arts and Social Sciences",
       "profileUrl": "https://researchportalplus.anu.edu.au/en/persons/kyung-moon-hwang/",
@@ -45334,7 +43046,7 @@ window.ANREVIEW_DATA = {
       "name": "Kyungwon Suh",
       "position": "Academic",
       "focus": "ANU Research Portal+ profile",
-      "school": "Strategic &amp; Defence Studies Centre",
+      "school": "Strategic & Defence Studies Centre",
       "schoolCode": "SADS",
       "college": "ANU College of Arts and Social Sciences",
       "profileUrl": "https://researchportalplus.anu.edu.au/en/persons/kyungwon-suh/",
@@ -45443,32 +43155,12 @@ window.ANREVIEW_DATA = {
         "Engagement"
       ],
       "tags": [
-        "physics"
-      ]
-    },
-    {
-      "id": "anu-portal-lan-fu",
-      "type": "academic",
-      "name": "Lan Fu",
-      "position": "Academic",
-      "focus": "ANU Research Portal+ profile",
-      "school": "Department of Electronic Materials Engineering",
-      "schoolCode": "DEME",
-      "college": "ANU College of Systems and Society",
-      "profileUrl": "https://researchportalplus.anu.edu.au/en/persons/lan-fu/",
-      "email": "",
-      "office": "",
-      "linkedCourses": [],
-      "reviewMetrics": [
-        "Clarity",
-        "Support",
-        "Engagement"
-      ],
-      "tags": [
+        "physics",
         "department-of-electronic-materials-engineering",
         "college-of-systems-and-society",
         "research-portal"
-      ]
+      ],
+      "summary": ""
     },
     {
       "id": "phys-lara-gillan",
@@ -45489,32 +43181,12 @@ window.ANREVIEW_DATA = {
         "Engagement"
       ],
       "tags": [
-        "physics"
-      ]
-    },
-    {
-      "id": "anu-portal-lara-gillan",
-      "type": "academic",
-      "name": "Lara Gillan",
-      "position": "Academic",
-      "focus": "ANU Research Portal+ profile",
-      "school": "Department of Quantum Science &amp; Technology",
-      "schoolCode": "DQSAT",
-      "college": "ANU College of Arts and Social Sciences",
-      "profileUrl": "https://researchportalplus.anu.edu.au/en/persons/lara-gillan/",
-      "email": "",
-      "office": "",
-      "linkedCourses": [],
-      "reviewMetrics": [
-        "Clarity",
-        "Support",
-        "Engagement"
-      ],
-      "tags": [
+        "physics",
         "department-of-quantum-science-amp-technology",
         "college-of-arts-and-social-sciences",
         "research-portal"
-      ]
+      ],
+      "summary": ""
     },
     {
       "id": "anu-portal-lara-malins",
@@ -45546,7 +43218,7 @@ window.ANREVIEW_DATA = {
       "name": "Larissa Schneider",
       "position": "Academic",
       "focus": "ANU Research Portal+ profile",
-      "school": "School of Culture, History &amp; Language",
+      "school": "School of Culture, History & Language",
       "schoolCode": "CHAL",
       "college": "ANU College of Arts and Social Sciences",
       "profileUrl": "https://researchportalplus.anu.edu.au/en/persons/larissa-schneider/",
@@ -45689,7 +43361,7 @@ window.ANREVIEW_DATA = {
       "name": "Laura Davy",
       "position": "Academic",
       "focus": "ANU Research Portal+ profile",
-      "school": "Policy &amp; Governance Program",
+      "school": "Policy & Governance Program",
       "schoolCode": "PAGP",
       "college": "ANU College of Law, Governance and Policy",
       "profileUrl": "https://researchportalplus.anu.edu.au/en/persons/laura-davy/",
@@ -45856,7 +43528,7 @@ window.ANREVIEW_DATA = {
       "name": "Laurajane Smith",
       "position": "Academic",
       "focus": "ANU Research Portal+ profile",
-      "school": "Centre for Heritage &amp; Museum Studies",
+      "school": "Centre for Heritage & Museum Studies",
       "schoolCode": "HAMS",
       "college": "ANU College of Arts and Social Sciences",
       "profileUrl": "https://researchportalplus.anu.edu.au/en/persons/laurajane-smith/",
@@ -45880,7 +43552,7 @@ window.ANREVIEW_DATA = {
       "name": "Lauren Reed",
       "position": "Academic",
       "focus": "ANU Research Portal+ profile",
-      "school": "School of Literature, Languages &amp; Linguistics",
+      "school": "School of Literature, Languages & Linguistics",
       "schoolCode": "LLAL",
       "college": "ANU College of Arts and Social Sciences",
       "profileUrl": "https://researchportalplus.anu.edu.au/en/persons/lauren-reed/",
@@ -45989,32 +43661,12 @@ window.ANREVIEW_DATA = {
         "Engagement"
       ],
       "tags": [
-        "physics"
-      ]
-    },
-    {
-      "id": "anu-portal-lawrence-cram",
-      "type": "academic",
-      "name": "Lawrence Cram",
-      "position": "Academic",
-      "focus": "ANU Research Portal+ profile",
-      "school": "Research School of Physics",
-      "schoolCode": "PHYS",
-      "college": "ANU College of Science and Medicine",
-      "profileUrl": "https://researchportalplus.anu.edu.au/en/persons/lawrence-cram/",
-      "email": "",
-      "office": "",
-      "linkedCourses": [],
-      "reviewMetrics": [
-        "Clarity",
-        "Support",
-        "Engagement"
-      ],
-      "tags": [
+        "physics",
         "research-school-of-physics",
         "college-of-science-and-medicine",
         "research-portal"
-      ]
+      ],
+      "summary": ""
     },
     {
       "id": "anu-portal-le-chang",
@@ -46022,7 +43674,7 @@ window.ANREVIEW_DATA = {
       "name": "Le Chang",
       "position": "Academic",
       "focus": "ANU Research Portal+ profile",
-      "school": "Research School of Finance, Actuarial Studies &amp; Statistics",
+      "school": "Research School of Finance, Actuarial Studies & Statistics",
       "schoolCode": "FASAS",
       "college": "ANU College of Systems and Society",
       "profileUrl": "https://researchportalplus.anu.edu.au/en/persons/le-chang/",
@@ -46046,7 +43698,7 @@ window.ANREVIEW_DATA = {
       "name": "Le Zhang",
       "position": "Academic",
       "focus": "ANU Research Portal+ profile",
-      "school": "Research School of Finance, Actuarial Studies &amp; Statistics",
+      "school": "Research School of Finance, Actuarial Studies & Statistics",
       "schoolCode": "FASAS",
       "college": "ANU College of Systems and Society",
       "profileUrl": "https://researchportalplus.anu.edu.au/en/persons/le-zhang/",
@@ -46094,7 +43746,7 @@ window.ANREVIEW_DATA = {
       "name": "Leah Moore",
       "position": "Academic",
       "focus": "ANU Research Portal+ profile",
-      "school": "Fenner School of Environment &amp; Society",
+      "school": "Fenner School of Environment & Society",
       "schoolCode": "FEAS",
       "college": "ANU College of Systems and Society",
       "profileUrl": "https://researchportalplus.anu.edu.au/en/persons/leah-moore/",
@@ -46126,38 +43778,18 @@ window.ANREVIEW_DATA = {
       "profileUrl": "https://law.anu.edu.au/about/our-people/leighton-mcdonald",
       "tags": [
         "law",
-        "administrative law constitutiona"
-      ],
-      "linkedCourses": [],
-      "reviewMetrics": [
-        "Clarity",
-        "Support",
-        "Engagement"
-      ]
-    },
-    {
-      "id": "anu-portal-leighton-mcdonald",
-      "type": "academic",
-      "name": "Leighton McDonald",
-      "position": "Academic",
-      "focus": "ANU Research Portal+ profile",
-      "school": "ANU College of Law, Governance and Policy",
-      "schoolCode": "LGP",
-      "college": "ANU College of Law, Governance and Policy",
-      "profileUrl": "https://researchportalplus.anu.edu.au/en/persons/leighton-mcdonald/",
-      "email": "",
-      "office": "",
-      "linkedCourses": [],
-      "reviewMetrics": [
-        "Clarity",
-        "Support",
-        "Engagement"
-      ],
-      "tags": [
+        "administrative law constitutiona",
         "anu-college-of-law-governance-and-policy",
         "college-of-law-governance-and-policy",
         "research-portal"
-      ]
+      ],
+      "linkedCourses": [],
+      "reviewMetrics": [
+        "Clarity",
+        "Support",
+        "Engagement"
+      ],
+      "summary": ""
     },
     {
       "id": "anu-portal-leonardo-maltoni",
@@ -46189,7 +43821,7 @@ window.ANREVIEW_DATA = {
       "name": "Leonid Petrov",
       "position": "Academic",
       "focus": "ANU Research Portal+ profile",
-      "school": "School of Culture, History &amp; Language",
+      "school": "School of Culture, History & Language",
       "schoolCode": "CHAL",
       "college": "ANU College of Arts and Social Sciences",
       "profileUrl": "https://researchportalplus.anu.edu.au/en/persons/leonid-petrov/",
@@ -46250,32 +43882,12 @@ window.ANREVIEW_DATA = {
         "Engagement"
       ],
       "tags": [
-        "physics"
-      ]
-    },
-    {
-      "id": "anu-portal-levi-beeching",
-      "type": "academic",
-      "name": "Levi Beeching",
-      "position": "Academic",
-      "focus": "ANU Research Portal+ profile",
-      "school": "Department of Materials Physics",
-      "schoolCode": "DMP",
-      "college": "ANU College of Science and Medicine",
-      "profileUrl": "https://researchportalplus.anu.edu.au/en/persons/levi-beeching/",
-      "email": "",
-      "office": "",
-      "linkedCourses": [],
-      "reviewMetrics": [
-        "Clarity",
-        "Support",
-        "Engagement"
-      ],
-      "tags": [
+        "physics",
         "department-of-materials-physics",
         "college-of-science-and-medicine",
         "research-portal"
-      ]
+      ],
+      "summary": ""
     },
     {
       "id": "comp-lexing-xie",
@@ -46305,7 +43917,7 @@ window.ANREVIEW_DATA = {
       "name": "Lhawang Ugyel",
       "position": "Academic",
       "focus": "ANU Research Portal+ profile",
-      "school": "Policy &amp; Governance Program",
+      "school": "Policy & Governance Program",
       "schoolCode": "PAGP",
       "college": "ANU College of Law, Governance and Policy",
       "profileUrl": "https://researchportalplus.anu.edu.au/en/persons/lhawang-ugyel/",
@@ -46375,7 +43987,7 @@ window.ANREVIEW_DATA = {
       "name": "Li Narangoa",
       "position": "Academic",
       "focus": "ANU Research Portal+ profile",
-      "school": "School of Culture, History &amp; Language",
+      "school": "School of Culture, History & Language",
       "schoolCode": "CHAL",
       "college": "ANU College of Arts and Social Sciences",
       "profileUrl": "https://researchportalplus.anu.edu.au/en/persons/li-narangoa/",
@@ -46423,7 +44035,7 @@ window.ANREVIEW_DATA = {
       "name": "Li Zhao",
       "position": "Academic",
       "focus": "ANU Research Portal+ profile",
-      "school": "Fenner School of Environment &amp; Society",
+      "school": "Fenner School of Environment & Society",
       "schoolCode": "FEAS",
       "college": "ANU College of Systems and Society",
       "profileUrl": "https://researchportalplus.anu.edu.au/en/persons/li-zhao/",
@@ -46447,7 +44059,7 @@ window.ANREVIEW_DATA = {
       "name": "Lia Kent",
       "position": "Academic",
       "focus": "ANU Research Portal+ profile",
-      "school": "School of Regulation &amp; Global Governance",
+      "school": "School of Regulation & Global Governance",
       "schoolCode": "RAGG",
       "college": "ANU College of Law, Governance and Policy",
       "profileUrl": "https://researchportalplus.anu.edu.au/en/persons/lia-kent/",
@@ -46532,32 +44144,12 @@ window.ANREVIEW_DATA = {
         "Engagement"
       ],
       "tags": [
-        "comp"
-      ]
-    },
-    {
-      "id": "anu-portal-liam-o-connor",
-      "type": "academic",
-      "name": "Liam O'Connor",
-      "position": "Academic",
-      "focus": "ANU Research Portal+ profile",
-      "school": "School of Computing",
-      "schoolCode": "COMP",
-      "college": "ANU College of Systems and Society",
-      "profileUrl": "https://researchportalplus.anu.edu.au/en/persons/liam-oconnor-davis/",
-      "email": "",
-      "office": "",
-      "linkedCourses": [],
-      "reviewMetrics": [
-        "Clarity",
-        "Support",
-        "Engagement"
-      ],
-      "tags": [
+        "comp",
         "school-of-computing",
         "college-of-systems-and-society",
         "research-portal"
-      ]
+      ],
+      "summary": ""
     },
     {
       "id": "anu-portal-liana-leach",
@@ -46626,32 +44218,12 @@ window.ANREVIEW_DATA = {
         "Engagement"
       ],
       "tags": [
-        "comp"
-      ]
-    },
-    {
-      "id": "anu-portal-liang-zheng",
-      "type": "academic",
-      "name": "Liang Zheng",
-      "position": "Academic",
-      "focus": "ANU Research Portal+ profile",
-      "school": "School of Computing",
-      "schoolCode": "COMP",
-      "college": "ANU College of Systems and Society",
-      "profileUrl": "https://researchportalplus.anu.edu.au/en/persons/liang-zheng/",
-      "email": "",
-      "office": "",
-      "linkedCourses": [],
-      "reviewMetrics": [
-        "Clarity",
-        "Support",
-        "Engagement"
-      ],
-      "tags": [
+        "comp",
         "school-of-computing",
         "college-of-systems-and-society",
         "research-portal"
-      ]
+      ],
+      "summary": ""
     },
     {
       "id": "anu-portal-ligang-song",
@@ -46707,7 +44279,7 @@ window.ANREVIEW_DATA = {
       "name": "Lila San Roque",
       "position": "Academic",
       "focus": "ANU Research Portal+ profile",
-      "school": "School of Culture, History &amp; Language",
+      "school": "School of Culture, History & Language",
       "schoolCode": "CHAL",
       "college": "ANU College of Arts and Social Sciences",
       "profileUrl": "https://researchportalplus.anu.edu.au/en/persons/lila-san-roque/",
@@ -46905,38 +44477,18 @@ window.ANREVIEW_DATA = {
       "profileUrl": "https://rsa.anu.edu.au/people/lily-chen",
       "tags": [
         "rsa",
-        "accounting"
-      ],
-      "linkedCourses": [],
-      "reviewMetrics": [
-        "Clarity",
-        "Support",
-        "Engagement"
-      ]
-    },
-    {
-      "id": "anu-portal-lily-chen",
-      "type": "academic",
-      "name": "Lily Chen",
-      "position": "Academic",
-      "focus": "ANU Research Portal+ profile",
-      "school": "Research School of Accounting",
-      "schoolCode": "RSA",
-      "college": "CBE",
-      "profileUrl": "https://researchportalplus.anu.edu.au/en/persons/lily-chen/",
-      "email": "",
-      "office": "",
-      "linkedCourses": [],
-      "reviewMetrics": [
-        "Clarity",
-        "Support",
-        "Engagement"
-      ],
-      "tags": [
+        "accounting",
         "research-school-of-accounting",
         "cbe",
         "research-portal"
-      ]
+      ],
+      "linkedCourses": [],
+      "reviewMetrics": [
+        "Clarity",
+        "Support",
+        "Engagement"
+      ],
+      "summary": ""
     },
     {
       "id": "anu-portal-lin-cui",
@@ -46968,7 +44520,7 @@ window.ANREVIEW_DATA = {
       "name": "Lin Hu",
       "position": "Academic",
       "focus": "ANU Research Portal+ profile",
-      "school": "Research School of Finance, Actuarial Studies &amp; Statistics",
+      "school": "Research School of Finance, Actuarial Studies & Statistics",
       "schoolCode": "FASAS",
       "college": "ANU College of Systems and Society",
       "profileUrl": "https://researchportalplus.anu.edu.au/en/persons/lin-hu/",
@@ -47086,7 +44638,7 @@ window.ANREVIEW_DATA = {
       "name": "Linda Van Bommel",
       "position": "Academic",
       "focus": "ANU Research Portal+ profile",
-      "school": "Fenner School of Environment &amp; Society",
+      "school": "Fenner School of Environment & Society",
       "schoolCode": "FEAS",
       "college": "ANU College of Systems and Society",
       "profileUrl": "https://researchportalplus.anu.edu.au/en/persons/linda-van-bommel/",
@@ -47147,32 +44699,12 @@ window.ANREVIEW_DATA = {
         "Engagement"
       ],
       "tags": [
-        "physics"
-      ]
-    },
-    {
-      "id": "anu-portal-lindsey-bignell",
-      "type": "academic",
-      "name": "Lindsey Bignell",
-      "position": "Academic",
-      "focus": "ANU Research Portal+ profile",
-      "school": "Department of Nuclear Physics &amp; Accelerator Applications",
-      "schoolCode": "DNPAAA",
-      "college": "ANU College of Science and Medicine",
-      "profileUrl": "https://researchportalplus.anu.edu.au/en/persons/lindsey-bignell/",
-      "email": "",
-      "office": "",
-      "linkedCourses": [],
-      "reviewMetrics": [
-        "Clarity",
-        "Support",
-        "Engagement"
-      ],
-      "tags": [
+        "physics",
         "department-of-nuclear-physics-amp-accelerator-applications",
         "college-of-science-and-medicine",
         "research-portal"
-      ]
+      ],
+      "summary": ""
     },
     {
       "id": "anu-portal-ling-sun",
@@ -47252,7 +44784,7 @@ window.ANREVIEW_DATA = {
       "name": "Lisa Kewley",
       "position": "Academic",
       "focus": "ANU Research Portal+ profile",
-      "school": "Research School of Astronomy &amp; Astrophysics",
+      "school": "Research School of Astronomy & Astrophysics",
       "schoolCode": "AAA",
       "college": "ANU College of Science and Medicine",
       "profileUrl": "https://researchportalplus.anu.edu.au/en/persons/lisa-kewley/",
@@ -47395,7 +44927,7 @@ window.ANREVIEW_DATA = {
       "name": "Liza Goncharov",
       "position": "Academic",
       "focus": "ANU Research Portal+ profile",
-      "school": "School of Literature, Languages &amp; Linguistics",
+      "school": "School of Literature, Languages & Linguistics",
       "schoolCode": "LLAL",
       "college": "ANU College of Arts and Social Sciences",
       "profileUrl": "https://researchportalplus.anu.edu.au/en/persons/liza-goncharov/",
@@ -47419,7 +44951,7 @@ window.ANREVIEW_DATA = {
       "name": "Llewelyn Hughes",
       "position": "Academic",
       "focus": "ANU Research Portal+ profile",
-      "school": "Institute for Climate, Energy &amp; Disaster Solutions",
+      "school": "Institute for Climate, Energy & Disaster Solutions",
       "schoolCode": "ICEADS",
       "college": "ANU College of Arts and Social Sciences",
       "profileUrl": "https://researchportalplus.anu.edu.au/en/persons/llewelyn-hughes/",
@@ -47515,7 +45047,7 @@ window.ANREVIEW_DATA = {
       "name": "Lorrae Van Kerkhoff",
       "position": "Academic",
       "focus": "ANU Research Portal+ profile",
-      "school": "Fenner School of Environment &amp; Society",
+      "school": "Fenner School of Environment & Society",
       "schoolCode": "FEAS",
       "college": "ANU College of Systems and Society",
       "profileUrl": "https://researchportalplus.anu.edu.au/en/persons/lorrae-van-kerkhoff/",
@@ -47705,7 +45237,7 @@ window.ANREVIEW_DATA = {
       "name": "Luca Casagrande",
       "position": "Academic",
       "focus": "ANU Research Portal+ profile",
-      "school": "Research School of Astronomy &amp; Astrophysics",
+      "school": "Research School of Astronomy & Astrophysics",
       "schoolCode": "AAA",
       "college": "ANU College of Science and Medicine",
       "profileUrl": "https://researchportalplus.anu.edu.au/en/persons/luca-casagrande/",
@@ -47729,7 +45261,7 @@ window.ANREVIEW_DATA = {
       "name": "Luca Maestrini",
       "position": "Academic",
       "focus": "ANU Research Portal+ profile",
-      "school": "Research School of Finance, Actuarial Studies &amp; Statistics",
+      "school": "Research School of Finance, Actuarial Studies & Statistics",
       "schoolCode": "FASAS",
       "college": "ANU College of Systems and Society",
       "profileUrl": "https://researchportalplus.anu.edu.au/en/persons/luca-maestrini/",
@@ -47825,7 +45357,7 @@ window.ANREVIEW_DATA = {
       "name": "Lucy Hu",
       "position": "Academic",
       "focus": "ANU Research Portal+ profile",
-      "school": "Research School of Finance, Actuarial Studies &amp; Statistics",
+      "school": "Research School of Finance, Actuarial Studies & Statistics",
       "schoolCode": "FASAS",
       "college": "ANU College of Systems and Society",
       "profileUrl": "https://researchportalplus.anu.edu.au/en/persons/lucy-hu/",
@@ -47894,7 +45426,7 @@ window.ANREVIEW_DATA = {
       "name": "Ludovic Rapp",
       "position": "Academic",
       "focus": "ANU Research Portal+ profile",
-      "school": "Department of Quantum Science &amp; Technology",
+      "school": "Department of Quantum Science & Technology",
       "schoolCode": "DQSAT",
       "college": "ANU College of Arts and Social Sciences",
       "profileUrl": "https://researchportalplus.anu.edu.au/en/persons/ludovic-rapp/",
@@ -48179,7 +45711,7 @@ window.ANREVIEW_DATA = {
       "name": "Madeleine Bessell-Koprek",
       "position": "Academic",
       "focus": "ANU Research Portal+ profile",
-      "school": "Fenner School of Environment &amp; Society",
+      "school": "Fenner School of Environment & Society",
       "schoolCode": "FEAS",
       "college": "ANU College of Systems and Society",
       "profileUrl": "https://researchportalplus.anu.edu.au/en/persons/madeleine-bessell-koprek/",
@@ -48264,32 +45796,12 @@ window.ANREVIEW_DATA = {
         "Engagement"
       ],
       "tags": [
-        "physics"
-      ]
-    },
-    {
-      "id": "anu-portal-mahananda-dasgupta",
-      "type": "academic",
-      "name": "Mahananda Dasgupta",
-      "position": "Academic",
-      "focus": "ANU Research Portal+ profile",
-      "school": "Department of Nuclear Physics &amp; Accelerator Applications",
-      "schoolCode": "DNPAAA",
-      "college": "ANU College of Science and Medicine",
-      "profileUrl": "https://researchportalplus.anu.edu.au/en/persons/mahananda-dasgupta/",
-      "email": "",
-      "office": "",
-      "linkedCourses": [],
-      "reviewMetrics": [
-        "Clarity",
-        "Support",
-        "Engagement"
-      ],
-      "tags": [
+        "physics",
         "department-of-nuclear-physics-amp-accelerator-applications",
         "college-of-science-and-medicine",
         "research-portal"
-      ]
+      ],
+      "summary": ""
     },
     {
       "id": "anu-portal-mahbod-morshedi",
@@ -48404,32 +45916,12 @@ window.ANREVIEW_DATA = {
         "Engagement"
       ],
       "tags": [
-        "physics"
-      ]
-    },
-    {
-      "id": "anu-portal-mahyar-madadi",
-      "type": "academic",
-      "name": "Mahyar Madadi",
-      "position": "Academic",
-      "focus": "ANU Research Portal+ profile",
-      "school": "Department of Materials Physics",
-      "schoolCode": "DMP",
-      "college": "ANU College of Science and Medicine",
-      "profileUrl": "https://researchportalplus.anu.edu.au/en/persons/mahyar-madadi/",
-      "email": "",
-      "office": "",
-      "linkedCourses": [],
-      "reviewMetrics": [
-        "Clarity",
-        "Support",
-        "Engagement"
-      ],
-      "tags": [
+        "physics",
         "department-of-materials-physics",
         "college-of-science-and-medicine",
         "research-portal"
-      ]
+      ],
+      "summary": ""
     },
     {
       "id": "anu-portal-mai-nguyen",
@@ -48452,32 +45944,11 @@ window.ANREVIEW_DATA = {
       "tags": [
         "centre-of-epidemiology-for-policy-and-practice",
         "college-of-law-governance-and-policy",
-        "research-portal"
-      ]
-    },
-    {
-      "id": "anu-portal-mai-nguyen",
-      "type": "academic",
-      "name": "Mai Nguyen",
-      "position": "Academic",
-      "focus": "ANU Research Portal+ profile",
-      "school": "Resources, Environment and Development",
-      "schoolCode": "RED",
-      "college": "ANU College of Arts and Social Sciences",
-      "profileUrl": "https://researchportalplus.anu.edu.au/en/persons/mai-nguyen/",
-      "email": "",
-      "office": "",
-      "linkedCourses": [],
-      "reviewMetrics": [
-        "Clarity",
-        "Support",
-        "Engagement"
-      ],
-      "tags": [
+        "research-portal",
         "resources-environment-and-development",
-        "college-of-arts-and-social-sciences",
-        "research-portal"
-      ]
+        "college-of-arts-and-social-sciences"
+      ],
+      "summary": ""
     },
     {
       "id": "cyb-maia-gould",
@@ -48498,32 +45969,12 @@ window.ANREVIEW_DATA = {
         "Engagement"
       ],
       "tags": [
-        "cyb"
-      ]
-    },
-    {
-      "id": "anu-portal-maia-gould",
-      "type": "academic",
-      "name": "Maia Gould",
-      "position": "Academic",
-      "focus": "ANU Research Portal+ profile",
-      "school": "School of Cybernetics",
-      "schoolCode": "CYB",
-      "college": "ANU College of Systems and Society",
-      "profileUrl": "https://researchportalplus.anu.edu.au/en/persons/maia-gould/",
-      "email": "",
-      "office": "",
-      "linkedCourses": [],
-      "reviewMetrics": [
-        "Clarity",
-        "Support",
-        "Engagement"
-      ],
-      "tags": [
+        "cyb",
         "school-of-cybernetics",
         "college-of-systems-and-society",
         "research-portal"
-      ]
+      ],
+      "summary": ""
     },
     {
       "id": "anu-portal-maja-adamska",
@@ -48531,7 +45982,7 @@ window.ANREVIEW_DATA = {
       "name": "Maja Adamska",
       "position": "Academic",
       "focus": "ANU Research Portal+ profile",
-      "school": "Biology Teaching &amp; Learning Centre",
+      "school": "Biology Teaching & Learning Centre",
       "schoolCode": "BTAL",
       "college": "ANU College of Science and Medicine",
       "profileUrl": "https://researchportalplus.anu.edu.au/en/persons/maja-adamska/",
@@ -48592,32 +46043,12 @@ window.ANREVIEW_DATA = {
         "Engagement"
       ],
       "tags": [
-        "physics"
-      ]
-    },
-    {
-      "id": "anu-portal-malcolm-gray",
-      "type": "academic",
-      "name": "Malcolm Gray",
-      "position": "Academic",
-      "focus": "ANU Research Portal+ profile",
-      "school": "Centre for Gravitational Astrophysics",
-      "schoolCode": "GA",
-      "college": "ANU College of Science and Medicine",
-      "profileUrl": "https://researchportalplus.anu.edu.au/en/persons/malcolm-gray/",
-      "email": "",
-      "office": "",
-      "linkedCourses": [],
-      "reviewMetrics": [
-        "Clarity",
-        "Support",
-        "Engagement"
-      ],
-      "tags": [
+        "physics",
         "centre-for-gravitational-astrophysics",
         "college-of-science-and-medicine",
         "research-portal"
-      ]
+      ],
+      "summary": ""
     },
     {
       "id": "anu-portal-malcolm-mcleod",
@@ -48649,7 +46080,7 @@ window.ANREVIEW_DATA = {
       "name": "Malcolm Ross",
       "position": "Academic",
       "focus": "ANU Research Portal+ profile",
-      "school": "School of Culture, History &amp; Language",
+      "school": "School of Culture, History & Language",
       "schoolCode": "CHAL",
       "college": "ANU College of Arts and Social Sciences",
       "profileUrl": "https://researchportalplus.anu.edu.au/en/persons/malcolm-ross/",
@@ -48697,7 +46128,7 @@ window.ANREVIEW_DATA = {
       "name": "Maldwyn Evans",
       "position": "Academic",
       "focus": "ANU Research Portal+ profile",
-      "school": "Fenner School of Environment &amp; Society",
+      "school": "Fenner School of Environment & Society",
       "schoolCode": "FEAS",
       "college": "ANU College of Systems and Society",
       "profileUrl": "https://researchportalplus.anu.edu.au/en/persons/maldwyn-evans/",
@@ -48721,7 +46152,7 @@ window.ANREVIEW_DATA = {
       "name": "Mandy Scott",
       "position": "Academic",
       "focus": "ANU Research Portal+ profile",
-      "school": "School of Literature, Languages &amp; Linguistics",
+      "school": "School of Literature, Languages & Linguistics",
       "schoolCode": "LLAL",
       "college": "ANU College of Arts and Social Sciences",
       "profileUrl": "https://researchportalplus.anu.edu.au/en/persons/mandy-scott/",
@@ -48841,7 +46272,7 @@ window.ANREVIEW_DATA = {
       "name": "Marc Oxenham",
       "position": "Academic",
       "focus": "ANU Research Portal+ profile",
-      "school": "School of Archaeology &amp; Anthropology",
+      "school": "School of Archaeology & Anthropology",
       "schoolCode": "AAA",
       "college": "ANU College of Arts and Social Sciences",
       "profileUrl": "https://researchportalplus.anu.edu.au/en/persons/marc-oxenham/",
@@ -48913,7 +46344,7 @@ window.ANREVIEW_DATA = {
       "name": "Marcin Adamski",
       "position": "Academic",
       "focus": "ANU Research Portal+ profile",
-      "school": "Division of Biomedical Science &amp; Biochemistry",
+      "school": "Division of Biomedical Science & Biochemistry",
       "schoolCode": "DBSAB",
       "college": "ANU College of Science and Medicine",
       "profileUrl": "https://researchportalplus.anu.edu.au/en/persons/marcin-adamski/",
@@ -48937,7 +46368,7 @@ window.ANREVIEW_DATA = {
       "name": "Marco Casarotto",
       "position": "Academic",
       "focus": "ANU Research Portal+ profile",
-      "school": "Division of Biomedical Science &amp; Biochemistry",
+      "school": "Division of Biomedical Science & Biochemistry",
       "schoolCode": "DBSAB",
       "college": "ANU College of Science and Medicine",
       "profileUrl": "https://researchportalplus.anu.edu.au/en/persons/marco-casarotto/",
@@ -49079,7 +46510,7 @@ window.ANREVIEW_DATA = {
       "name": "Margaret (Margot) L. Lyon",
       "position": "Academic",
       "focus": "ANU Research Portal+ profile",
-      "school": "ANU College of Arts &amp; Social Sciences",
+      "school": "ANU College of Arts & Social Sciences",
       "schoolCode": "AASS",
       "college": "ANU College of Arts and Social Sciences",
       "profileUrl": "https://researchportalplus.anu.edu.au/en/persons/margaret-margot-l-lyon/",
@@ -49127,7 +46558,7 @@ window.ANREVIEW_DATA = {
       "name": "Margaret Jolly",
       "position": "Academic",
       "focus": "ANU Research Portal+ profile",
-      "school": "School of Culture, History &amp; Language",
+      "school": "School of Culture, History & Language",
       "schoolCode": "CHAL",
       "college": "ANU College of Arts and Social Sciences",
       "profileUrl": "https://researchportalplus.anu.edu.au/en/persons/margaret-jolly/",
@@ -49347,38 +46778,18 @@ window.ANREVIEW_DATA = {
       "profileUrl": "https://law.anu.edu.au/about/our-people/marie-waschka",
       "tags": [
         "law",
-        "environmental law"
-      ],
-      "linkedCourses": [],
-      "reviewMetrics": [
-        "Clarity",
-        "Support",
-        "Engagement"
-      ]
-    },
-    {
-      "id": "anu-portal-marie-waschka",
-      "type": "academic",
-      "name": "Marie Waschka",
-      "position": "Academic",
-      "focus": "ANU Research Portal+ profile",
-      "school": "ANU College of Law, Governance and Policy",
-      "schoolCode": "LGP",
-      "college": "ANU College of Law, Governance and Policy",
-      "profileUrl": "https://researchportalplus.anu.edu.au/en/persons/marie-waschka/",
-      "email": "",
-      "office": "",
-      "linkedCourses": [],
-      "reviewMetrics": [
-        "Clarity",
-        "Support",
-        "Engagement"
-      ],
-      "tags": [
+        "environmental law",
         "anu-college-of-law-governance-and-policy",
         "college-of-law-governance-and-policy",
         "research-portal"
-      ]
+      ],
+      "linkedCourses": [],
+      "reviewMetrics": [
+        "Clarity",
+        "Support",
+        "Engagement"
+      ],
+      "summary": ""
     },
     {
       "id": "anu-portal-marina-iskhakova",
@@ -49662,32 +47073,12 @@ window.ANREVIEW_DATA = {
         "Engagement"
       ],
       "tags": [
-        "physics"
-      ]
-    },
-    {
-      "id": "anu-portal-mark-knackstedt",
-      "type": "academic",
-      "name": "Mark Knackstedt",
-      "position": "Academic",
-      "focus": "ANU Research Portal+ profile",
-      "school": "Department of Materials Physics",
-      "schoolCode": "DMP",
-      "college": "ANU College of Science and Medicine",
-      "profileUrl": "https://researchportalplus.anu.edu.au/en/persons/mark-knackstedt/",
-      "email": "",
-      "office": "",
-      "linkedCourses": [],
-      "reviewMetrics": [
-        "Clarity",
-        "Support",
-        "Engagement"
-      ],
-      "tags": [
+        "physics",
         "department-of-materials-physics",
         "college-of-science-and-medicine",
         "research-portal"
-      ]
+      ],
+      "summary": ""
     },
     {
       "id": "anu-portal-mark-krumholz",
@@ -49695,7 +47086,7 @@ window.ANREVIEW_DATA = {
       "name": "Mark Krumholz",
       "position": "Academic",
       "focus": "ANU Research Portal+ profile",
-      "school": "Research School of Astronomy &amp; Astrophysics",
+      "school": "Research School of Astronomy & Astrophysics",
       "schoolCode": "AAA",
       "college": "ANU College of Science and Medicine",
       "profileUrl": "https://researchportalplus.anu.edu.au/en/persons/mark-krumholz/",
@@ -49719,7 +47110,7 @@ window.ANREVIEW_DATA = {
       "name": "Mark Lonsdale",
       "position": "Academic",
       "focus": "ANU Research Portal+ profile",
-      "school": "Fenner School of Environment &amp; Society",
+      "school": "Fenner School of Environment & Society",
       "schoolCode": "FEAS",
       "college": "ANU College of Systems and Society",
       "profileUrl": "https://researchportalplus.anu.edu.au/en/persons/mark-lonsdale/",
@@ -49743,7 +47134,7 @@ window.ANREVIEW_DATA = {
       "name": "Mark Mosko",
       "position": "Academic",
       "focus": "ANU Research Portal+ profile",
-      "school": "School of Culture, History &amp; Language",
+      "school": "School of Culture, History & Language",
       "schoolCode": "CHAL",
       "college": "ANU College of Arts and Social Sciences",
       "profileUrl": "https://researchportalplus.anu.edu.au/en/persons/mark-mosko/",
@@ -49862,7 +47253,7 @@ window.ANREVIEW_DATA = {
       "name": "Mark Strange",
       "position": "Academic",
       "focus": "ANU Research Portal+ profile",
-      "school": "School of Culture, History &amp; Language",
+      "school": "School of Culture, History & Language",
       "schoolCode": "CHAL",
       "college": "ANU College of Arts and Social Sciences",
       "profileUrl": "https://researchportalplus.anu.edu.au/en/persons/mark-strange/",
@@ -50006,7 +47397,7 @@ window.ANREVIEW_DATA = {
       "name": "Marta Yebra",
       "position": "Academic",
       "focus": "ANU Research Portal+ profile",
-      "school": "Fenner School of Environment &amp; Society",
+      "school": "Fenner School of Environment & Society",
       "schoolCode": "FEAS",
       "college": "ANU College of Systems and Society",
       "profileUrl": "https://researchportalplus.anu.edu.au/en/persons/marta-yebra/",
@@ -50198,7 +47589,7 @@ window.ANREVIEW_DATA = {
       "name": "Marwan El Hassan",
       "position": "Academic",
       "focus": "ANU Research Portal+ profile",
-      "school": "Fenner School of Environment &amp; Society",
+      "school": "Fenner School of Environment & Society",
       "schoolCode": "FEAS",
       "college": "ANU College of Systems and Society",
       "profileUrl": "https://researchportalplus.anu.edu.au/en/persons/marwan-el-hassan/",
@@ -50222,7 +47613,7 @@ window.ANREVIEW_DATA = {
       "name": "Mary Besemeres",
       "position": "Academic",
       "focus": "ANU Research Portal+ profile",
-      "school": "School of Literature, Languages &amp; Linguistics",
+      "school": "School of Literature, Languages & Linguistics",
       "schoolCode": "LLAL",
       "college": "ANU College of Arts and Social Sciences",
       "profileUrl": "https://researchportalplus.anu.edu.au/en/persons/mary-besemeres/",
@@ -50246,7 +47637,7 @@ window.ANREVIEW_DATA = {
       "name": "Mary Dahm",
       "position": "Academic",
       "focus": "ANU Research Portal+ profile",
-      "school": "School of Literature, Languages &amp; Linguistics",
+      "school": "School of Literature, Languages & Linguistics",
       "schoolCode": "LLAL",
       "college": "ANU College of Arts and Social Sciences",
       "profileUrl": "https://researchportalplus.anu.edu.au/en/persons/mary-dahm/",
@@ -50353,32 +47744,12 @@ window.ANREVIEW_DATA = {
         "Engagement"
       ],
       "tags": [
-        "physics"
-      ]
-    },
-    {
-      "id": "anu-portal-maryna-bilokur",
-      "type": "academic",
-      "name": "Maryna Bilokur",
-      "position": "Academic",
-      "focus": "ANU Research Portal+ profile",
-      "school": "Department of Materials Physics",
-      "schoolCode": "DMP",
-      "college": "ANU College of Science and Medicine",
-      "profileUrl": "https://researchportalplus.anu.edu.au/en/persons/maryna-bilokur/",
-      "email": "",
-      "office": "",
-      "linkedCourses": [],
-      "reviewMetrics": [
-        "Clarity",
-        "Support",
-        "Engagement"
-      ],
-      "tags": [
+        "physics",
         "department-of-materials-physics",
         "college-of-science-and-medicine",
         "research-portal"
-      ]
+      ],
+      "summary": ""
     },
     {
       "id": "masoud-afshari-mofrad",
@@ -50408,7 +47779,7 @@ window.ANREVIEW_DATA = {
       "name": "Mat Trinca Talalin",
       "position": "Academic",
       "focus": "ANU Research Portal+ profile",
-      "school": "Centre for Heritage &amp; Museum Studies",
+      "school": "Centre for Heritage & Museum Studies",
       "schoolCode": "HAMS",
       "college": "ANU College of Arts and Social Sciences",
       "profileUrl": "https://researchportalplus.anu.edu.au/en/persons/mat-trinca-talalin/",
@@ -50480,7 +47851,7 @@ window.ANREVIEW_DATA = {
       "name": "Mathew Lipson",
       "position": "Academic",
       "focus": "ANU Research Portal+ profile",
-      "school": "Fenner School of Environment &amp; Society",
+      "school": "Fenner School of Environment & Society",
       "schoolCode": "FEAS",
       "college": "ANU College of Systems and Society",
       "profileUrl": "https://researchportalplus.anu.edu.au/en/persons/mathew-lipson/",
@@ -50577,7 +47948,7 @@ window.ANREVIEW_DATA = {
       "name": "Matt Smith",
       "position": "Academic",
       "focus": "ANU Research Portal+ profile",
-      "school": "ANU College of Asia &amp; the Pacific",
+      "school": "ANU College of Asia & the Pacific",
       "schoolCode": "AAP",
       "college": "ANU College of Asia and the Pacific",
       "profileUrl": "https://researchportalplus.anu.edu.au/en/persons/matt-smith/",
@@ -50649,7 +48020,7 @@ window.ANREVIEW_DATA = {
       "name": "Matt Tomlinson",
       "position": "Academic",
       "focus": "ANU Research Portal+ profile",
-      "school": "School of Culture, History &amp; Language",
+      "school": "School of Culture, History & Language",
       "schoolCode": "CHAL",
       "college": "ANU College of Arts and Social Sciences",
       "profileUrl": "https://researchportalplus.anu.edu.au/en/persons/matt-tomlinson/",
@@ -50697,7 +48068,7 @@ window.ANREVIEW_DATA = {
       "name": "Matthew Brookhouse",
       "position": "Academic",
       "focus": "ANU Research Portal+ profile",
-      "school": "Fenner School of Environment &amp; Society",
+      "school": "Fenner School of Environment & Society",
       "schoolCode": "FEAS",
       "college": "ANU College of Systems and Society",
       "profileUrl": "https://researchportalplus.anu.edu.au/en/persons/matthew-brookhouse/",
@@ -50721,7 +48092,7 @@ window.ANREVIEW_DATA = {
       "name": "Matthew Colless",
       "position": "Academic",
       "focus": "ANU Research Portal+ profile",
-      "school": "Research School of Astronomy &amp; Astrophysics",
+      "school": "Research School of Astronomy & Astrophysics",
       "schoolCode": "AAA",
       "college": "ANU College of Science and Medicine",
       "profileUrl": "https://researchportalplus.anu.edu.au/en/persons/matthew-colless/",
@@ -50745,7 +48116,7 @@ window.ANREVIEW_DATA = {
       "name": "Matthew Colloff",
       "position": "Academic",
       "focus": "ANU Research Portal+ profile",
-      "school": "Fenner School of Environment &amp; Society",
+      "school": "Fenner School of Environment & Society",
       "schoolCode": "FEAS",
       "college": "ANU College of Systems and Society",
       "profileUrl": "https://researchportalplus.anu.edu.au/en/persons/matthew-colloff/",
@@ -50769,7 +48140,7 @@ window.ANREVIEW_DATA = {
       "name": "Matthew Cunneen",
       "position": "Academic",
       "focus": "ANU Research Portal+ profile",
-      "school": "School of Literature, Languages &amp; Linguistics",
+      "school": "School of Literature, Languages & Linguistics",
       "schoolCode": "LLAL",
       "college": "ANU College of Arts and Social Sciences",
       "profileUrl": "https://researchportalplus.anu.edu.au/en/persons/matthew-cunneen/",
@@ -50793,7 +48164,7 @@ window.ANREVIEW_DATA = {
       "name": "Matthew Emond",
       "position": "Academic",
       "focus": "ANU Research Portal+ profile",
-      "school": "School of Politics &amp; International Relations",
+      "school": "School of Politics & International Relations",
       "schoolCode": "PAIR",
       "college": "ANU College of Arts and Social Sciences",
       "profileUrl": "https://researchportalplus.anu.edu.au/en/persons/matthew-emond/",
@@ -50817,7 +48188,7 @@ window.ANREVIEW_DATA = {
       "name": "Matthew Gale",
       "position": "Academic",
       "focus": "ANU Research Portal+ profile",
-      "school": "Fenner School of Environment &amp; Society",
+      "school": "Fenner School of Environment & Society",
       "schoolCode": "FEAS",
       "college": "ANU College of Systems and Society",
       "profileUrl": "https://researchportalplus.anu.edu.au/en/persons/matthew-gale/",
@@ -50841,7 +48212,7 @@ window.ANREVIEW_DATA = {
       "name": "Matthew Galway",
       "position": "Academic",
       "focus": "ANU Research Portal+ profile",
-      "school": "School of Culture, History &amp; Language",
+      "school": "School of Culture, History & Language",
       "schoolCode": "CHAL",
       "college": "ANU College of Arts and Social Sciences",
       "profileUrl": "https://researchportalplus.anu.edu.au/en/persons/matthew-galway/",
@@ -50902,32 +48273,12 @@ window.ANREVIEW_DATA = {
         "Engagement"
       ],
       "tags": [
-        "comp"
-      ]
-    },
-    {
-      "id": "anu-portal-matthew-hole",
-      "type": "academic",
-      "name": "Matthew Hole",
-      "position": "Academic",
-      "focus": "ANU Research Portal+ profile",
-      "school": "Mathematical Sciences Institute",
-      "schoolCode": "MSI",
-      "college": "ANU College of Systems and Society",
-      "profileUrl": "https://researchportalplus.anu.edu.au/en/persons/matthew-hole/",
-      "email": "",
-      "office": "",
-      "linkedCourses": [],
-      "reviewMetrics": [
-        "Clarity",
-        "Support",
-        "Engagement"
-      ],
-      "tags": [
+        "comp",
         "mathematical-sciences-institute",
         "college-of-systems-and-society",
         "research-portal"
-      ]
+      ],
+      "summary": ""
     },
     {
       "id": "anu-portal-matthew-holt",
@@ -50990,38 +48341,18 @@ window.ANREVIEW_DATA = {
       "office": "Research School of Economics",
       "profileUrl": "https://rse.anu.edu.au/people/matthew-lilley",
       "tags": [
-        "rse"
-      ],
-      "linkedCourses": [],
-      "reviewMetrics": [
-        "Clarity",
-        "Support",
-        "Engagement"
-      ]
-    },
-    {
-      "id": "anu-portal-matthew-lilley",
-      "type": "academic",
-      "name": "Matthew Lilley",
-      "position": "Academic",
-      "focus": "ANU Research Portal+ profile",
-      "school": "Research School of Economics",
-      "schoolCode": "RSE",
-      "college": "CBE",
-      "profileUrl": "https://researchportalplus.anu.edu.au/en/persons/matthew-lilley/",
-      "email": "",
-      "office": "",
-      "linkedCourses": [],
-      "reviewMetrics": [
-        "Clarity",
-        "Support",
-        "Engagement"
-      ],
-      "tags": [
+        "rse",
         "research-school-of-economics",
         "cbe",
         "research-portal"
-      ]
+      ],
+      "linkedCourses": [],
+      "reviewMetrics": [
+        "Clarity",
+        "Support",
+        "Engagement"
+      ],
+      "summary": ""
     },
     {
       "id": "matthew-neuhaus",
@@ -51065,32 +48396,12 @@ window.ANREVIEW_DATA = {
         "Engagement"
       ],
       "tags": [
-        "physics"
-      ]
-    },
-    {
-      "id": "anu-portal-matthew-parry",
-      "type": "academic",
-      "name": "Matthew Parry",
-      "position": "Academic",
-      "focus": "ANU Research Portal+ profile",
-      "school": "Department of Electronic Materials Engineering",
-      "schoolCode": "DEME",
-      "college": "ANU College of Science and Medicine",
-      "profileUrl": "https://researchportalplus.anu.edu.au/en/persons/matthew-parry/",
-      "email": "",
-      "office": "",
-      "linkedCourses": [],
-      "reviewMetrics": [
-        "Clarity",
-        "Support",
-        "Engagement"
-      ],
-      "tags": [
+        "physics",
         "department-of-electronic-materials-engineering",
         "college-of-science-and-medicine",
         "research-portal"
-      ]
+      ],
+      "summary": ""
     },
     {
       "id": "phys-matthew-quinn",
@@ -51176,38 +48487,18 @@ window.ANREVIEW_DATA = {
       "profileUrl": "https://law.anu.edu.au/about/our-people/matthew-zagor",
       "tags": [
         "law",
-        "comparative public law constitut"
-      ],
-      "linkedCourses": [],
-      "reviewMetrics": [
-        "Clarity",
-        "Support",
-        "Engagement"
-      ]
-    },
-    {
-      "id": "anu-portal-matthew-zagor",
-      "type": "academic",
-      "name": "Matthew Zagor",
-      "position": "Academic",
-      "focus": "ANU Research Portal+ profile",
-      "school": "The Migration Hub",
-      "schoolCode": "MH",
-      "college": "ANU College of Law, Governance and Policy",
-      "profileUrl": "https://researchportalplus.anu.edu.au/en/persons/matthew-zagor/",
-      "email": "",
-      "office": "",
-      "linkedCourses": [],
-      "reviewMetrics": [
-        "Clarity",
-        "Support",
-        "Engagement"
-      ],
-      "tags": [
+        "comparative public law constitut",
         "the-migration-hub",
         "college-of-law-governance-and-policy",
         "research-portal"
-      ]
+      ],
+      "linkedCourses": [],
+      "reviewMetrics": [
+        "Clarity",
+        "Support",
+        "Engagement"
+      ],
+      "summary": ""
     },
     {
       "id": "anu-portal-maurice-stanley",
@@ -51239,7 +48530,7 @@ window.ANREVIEW_DATA = {
       "name": "Maw Maw Tun",
       "position": "Academic",
       "focus": "ANU Research Portal+ profile",
-      "school": "School of Culture, History &amp; Language",
+      "school": "School of Culture, History & Language",
       "schoolCode": "CHAL",
       "college": "ANU College of Arts and Social Sciences",
       "profileUrl": "https://researchportalplus.anu.edu.au/en/persons/maw-maw-tun/",
@@ -51287,7 +48578,7 @@ window.ANREVIEW_DATA = {
       "name": "Mayuko Itoh",
       "position": "Academic",
       "focus": "ANU Research Portal+ profile",
-      "school": "School of Culture, History &amp; Language",
+      "school": "School of Culture, History & Language",
       "schoolCode": "CHAL",
       "college": "ANU College of Arts and Social Sciences",
       "profileUrl": "https://researchportalplus.anu.edu.au/en/persons/mayuko-itoh/",
@@ -51335,7 +48626,7 @@ window.ANREVIEW_DATA = {
       "name": "McComas Taylor",
       "position": "Academic",
       "focus": "ANU Research Portal+ profile",
-      "school": "School of Culture, History &amp; Language",
+      "school": "School of Culture, History & Language",
       "schoolCode": "CHAL",
       "college": "ANU College of Arts and Social Sciences",
       "profileUrl": "https://researchportalplus.anu.edu.au/en/persons/mccomas-taylor/",
@@ -51383,7 +48674,7 @@ window.ANREVIEW_DATA = {
       "name": "Meena Sivagowre Sritharan",
       "position": "Academic",
       "focus": "ANU Research Portal+ profile",
-      "school": "Fenner School of Environment &amp; Society",
+      "school": "Fenner School of Environment & Society",
       "schoolCode": "FEAS",
       "college": "ANU College of Systems and Society",
       "profileUrl": "https://researchportalplus.anu.edu.au/en/persons/meena-sivagowre-sritharan/",
@@ -51407,7 +48698,7 @@ window.ANREVIEW_DATA = {
       "name": "Meera Ashar",
       "position": "Academic",
       "focus": "ANU Research Portal+ profile",
-      "school": "School of Culture, History &amp; Language",
+      "school": "School of Culture, History & Language",
       "schoolCode": "CHAL",
       "college": "ANU College of Arts and Social Sciences",
       "profileUrl": "https://researchportalplus.anu.edu.au/en/persons/meera-ashar/",
@@ -51503,7 +48794,7 @@ window.ANREVIEW_DATA = {
       "name": "Megan McNellie",
       "position": "Academic",
       "focus": "ANU Research Portal+ profile",
-      "school": "Fenner School of Environment &amp; Society",
+      "school": "Fenner School of Environment & Society",
       "schoolCode": "FEAS",
       "college": "ANU College of Systems and Society",
       "profileUrl": "https://researchportalplus.anu.edu.au/en/persons/megan-mcnellie/",
@@ -51527,7 +48818,7 @@ window.ANREVIEW_DATA = {
       "name": "Megan Outram",
       "position": "Academic",
       "focus": "ANU Research Portal+ profile",
-      "school": "Division of Biomedical Science &amp; Biochemistry",
+      "school": "Division of Biomedical Science & Biochemistry",
       "schoolCode": "DBSAB",
       "college": "ANU College of Science and Medicine",
       "profileUrl": "https://researchportalplus.anu.edu.au/en/persons/megan-outram/",
@@ -51575,7 +48866,7 @@ window.ANREVIEW_DATA = {
       "name": "Meighen McCrae",
       "position": "Academic",
       "focus": "ANU Research Portal+ profile",
-      "school": "Strategic &amp; Defence Studies Centre",
+      "school": "Strategic & Defence Studies Centre",
       "schoolCode": "SADS",
       "college": "ANU College of Arts and Social Sciences",
       "profileUrl": "https://researchportalplus.anu.edu.au/en/persons/meighen-mccrae/",
@@ -51671,7 +48962,7 @@ window.ANREVIEW_DATA = {
       "name": "Melanie Pill",
       "position": "Academic",
       "focus": "ANU Research Portal+ profile",
-      "school": "Fenner School of Environment &amp; Society",
+      "school": "Fenner School of Environment & Society",
       "schoolCode": "FEAS",
       "college": "ANU College of Systems and Society",
       "profileUrl": "https://researchportalplus.anu.edu.au/en/persons/melanie-pill/",
@@ -51743,7 +49034,7 @@ window.ANREVIEW_DATA = {
       "name": "Melissa Ness",
       "position": "Academic",
       "focus": "ANU Research Portal+ profile",
-      "school": "Research School of Astronomy &amp; Astrophysics",
+      "school": "Research School of Astronomy & Astrophysics",
       "schoolCode": "AAA",
       "college": "ANU College of Science and Medicine",
       "profileUrl": "https://researchportalplus.anu.edu.au/en/persons/melissa-ness/",
@@ -51828,32 +49119,12 @@ window.ANREVIEW_DATA = {
         "Engagement"
       ],
       "tags": [
-        "comp"
-      ]
-    },
-    {
-      "id": "anu-portal-mengxuan-zhang",
-      "type": "academic",
-      "name": "Mengxuan Zhang",
-      "position": "Academic",
-      "focus": "ANU Research Portal+ profile",
-      "school": "School of Computing",
-      "schoolCode": "COMP",
-      "college": "ANU College of Systems and Society",
-      "profileUrl": "https://researchportalplus.anu.edu.au/en/persons/mengxuan-zhang/",
-      "email": "",
-      "office": "",
-      "linkedCourses": [],
-      "reviewMetrics": [
-        "Clarity",
-        "Support",
-        "Engagement"
-      ],
-      "tags": [
+        "comp",
         "school-of-computing",
         "college-of-systems-and-society",
         "research-portal"
-      ]
+      ],
+      "summary": ""
     },
     {
       "id": "anu-portal-mercy-masta",
@@ -51885,7 +49156,7 @@ window.ANREVIEW_DATA = {
       "name": "Meredith Hope",
       "position": "Academic",
       "focus": "ANU Research Portal+ profile",
-      "school": "Fenner School of Environment &amp; Society",
+      "school": "Fenner School of Environment & Society",
       "schoolCode": "FEAS",
       "college": "ANU College of Systems and Society",
       "profileUrl": "https://researchportalplus.anu.edu.au/en/persons/meredith-hope/",
@@ -51933,7 +49204,7 @@ window.ANREVIEW_DATA = {
       "name": "Merlinda Bobis",
       "position": "Academic",
       "focus": "ANU Research Portal+ profile",
-      "school": "School of Literature, Languages &amp; Linguistics",
+      "school": "School of Literature, Languages & Linguistics",
       "schoolCode": "LLAL",
       "college": "ANU College of Arts and Social Sciences",
       "profileUrl": "https://researchportalplus.anu.edu.au/en/persons/merlinda-bobis/",
@@ -52042,32 +49313,12 @@ window.ANREVIEW_DATA = {
         "Engagement"
       ],
       "tags": [
-        "comp"
-      ]
-    },
-    {
-      "id": "anu-portal-miaomiao-liu",
-      "type": "academic",
-      "name": "Miaomiao Liu",
-      "position": "Academic",
-      "focus": "ANU Research Portal+ profile",
-      "school": "School of Computing",
-      "schoolCode": "COMP",
-      "college": "ANU College of Systems and Society",
-      "profileUrl": "https://researchportalplus.anu.edu.au/en/persons/miaomiao-liu/",
-      "email": "",
-      "office": "",
-      "linkedCourses": [],
-      "reviewMetrics": [
-        "Clarity",
-        "Support",
-        "Engagement"
-      ],
-      "tags": [
+        "comp",
         "school-of-computing",
         "college-of-systems-and-society",
         "research-portal"
-      ]
+      ],
+      "summary": ""
     },
     {
       "id": "anu-portal-michael-anenburg",
@@ -52218,7 +49469,7 @@ window.ANREVIEW_DATA = {
       "name": "Michael Di Francesco",
       "position": "Academic",
       "focus": "ANU Research Portal+ profile",
-      "school": "Policy &amp; Governance Program",
+      "school": "Policy & Governance Program",
       "schoolCode": "PAGP",
       "college": "ANU College of Law, Governance and Policy",
       "profileUrl": "https://researchportalplus.anu.edu.au/en/persons/michael-di-francesco/",
@@ -52382,7 +49633,7 @@ window.ANREVIEW_DATA = {
       "name": "Michael Hutchinson",
       "position": "Academic",
       "focus": "ANU Research Portal+ profile",
-      "school": "Fenner School of Environment &amp; Society",
+      "school": "Fenner School of Environment & Society",
       "schoolCode": "FEAS",
       "college": "ANU College of Systems and Society",
       "profileUrl": "https://researchportalplus.anu.edu.au/en/persons/michael-hutchinson/",
@@ -52419,32 +49670,12 @@ window.ANREVIEW_DATA = {
         "Engagement"
       ],
       "tags": [
-        "physics"
-      ]
-    },
-    {
-      "id": "anu-portal-michael-ireland",
-      "type": "academic",
-      "name": "Michael Ireland",
-      "position": "Academic",
-      "focus": "ANU Research Portal+ profile",
-      "school": "Research School of Astronomy &amp; Astrophysics",
-      "schoolCode": "AAA",
-      "college": "ANU College of Science and Medicine",
-      "profileUrl": "https://researchportalplus.anu.edu.au/en/persons/michael-ireland/",
-      "email": "",
-      "office": "",
-      "linkedCourses": [],
-      "reviewMetrics": [
-        "Clarity",
-        "Support",
-        "Engagement"
-      ],
-      "tags": [
+        "physics",
         "research-school-of-astronomy-amp-astrophysics",
         "college-of-science-and-medicine",
         "research-portal"
-      ]
+      ],
+      "summary": ""
     },
     {
       "id": "anu-portal-michael-jennions",
@@ -52523,7 +49754,7 @@ window.ANREVIEW_DATA = {
       "name": "Michael Lambropoulos",
       "position": "Academic",
       "focus": "ANU Research Portal+ profile",
-      "school": "ANU College of Asia &amp; the Pacific",
+      "school": "ANU College of Asia & the Pacific",
       "schoolCode": "AAP",
       "college": "ANU College of Asia and the Pacific",
       "profileUrl": "https://researchportalplus.anu.edu.au/en/persons/michael-lambropoulos/",
@@ -52594,7 +49825,7 @@ window.ANREVIEW_DATA = {
       "name": "Michael Macphail",
       "position": "Academic",
       "focus": "ANU Research Portal+ profile",
-      "school": "School of Culture, History &amp; Language",
+      "school": "School of Culture, History & Language",
       "schoolCode": "CHAL",
       "college": "ANU College of Arts and Social Sciences",
       "profileUrl": "https://researchportalplus.anu.edu.au/en/persons/michael-macphail/",
@@ -52618,7 +49849,7 @@ window.ANREVIEW_DATA = {
       "name": "Michael Martin",
       "position": "Academic",
       "focus": "ANU Research Portal+ profile",
-      "school": "Research School of Finance, Actuarial Studies &amp; Statistics",
+      "school": "Research School of Finance, Actuarial Studies & Statistics",
       "schoolCode": "FASAS",
       "college": "ANU College of Systems and Society",
       "profileUrl": "https://researchportalplus.anu.edu.au/en/persons/michael-martin/",
@@ -52655,32 +49886,12 @@ window.ANREVIEW_DATA = {
         "Engagement"
       ],
       "tags": [
-        "comp"
-      ]
-    },
-    {
-      "id": "anu-portal-michael-norrish",
-      "type": "academic",
-      "name": "Michael Norrish",
-      "position": "Academic",
-      "focus": "ANU Research Portal+ profile",
-      "school": "Mathematical Sciences Institute",
-      "schoolCode": "MSI",
-      "college": "ANU College of Systems and Society",
-      "profileUrl": "https://researchportalplus.anu.edu.au/en/persons/michael-norrish/",
-      "email": "",
-      "office": "",
-      "linkedCourses": [],
-      "reviewMetrics": [
-        "Clarity",
-        "Support",
-        "Engagement"
-      ],
-      "tags": [
+        "comp",
         "mathematical-sciences-institute",
         "college-of-systems-and-society",
         "research-portal"
-      ]
+      ],
+      "summary": ""
     },
     {
       "id": "anu-portal-michael-peek",
@@ -52712,7 +49923,7 @@ window.ANREVIEW_DATA = {
       "name": "Michael Pickering",
       "position": "Academic",
       "focus": "ANU Research Portal+ profile",
-      "school": "Centre for Heritage &amp; Museum Studies",
+      "school": "Centre for Heritage & Museum Studies",
       "schoolCode": "HAMS",
       "college": "ANU College of Arts and Social Sciences",
       "profileUrl": "https://researchportalplus.anu.edu.au/en/persons/michael-pickering/",
@@ -52784,7 +49995,7 @@ window.ANREVIEW_DATA = {
       "name": "Michael Schimmelpfennig",
       "position": "Academic",
       "focus": "ANU Research Portal+ profile",
-      "school": "School of Culture, History &amp; Language",
+      "school": "School of Culture, History & Language",
       "schoolCode": "CHAL",
       "college": "ANU College of Arts and Social Sciences",
       "profileUrl": "https://researchportalplus.anu.edu.au/en/persons/michael-schimmelpfennig/",
@@ -52970,7 +50181,7 @@ window.ANREVIEW_DATA = {
       "name": "Michael Vanderzee",
       "position": "Academic",
       "focus": "ANU Research Portal+ profile",
-      "school": "Fenner School of Environment &amp; Society",
+      "school": "Fenner School of Environment & Society",
       "schoolCode": "FEAS",
       "college": "ANU College of Systems and Society",
       "profileUrl": "https://researchportalplus.anu.edu.au/en/persons/michael-vanderzee/",
@@ -52994,7 +50205,7 @@ window.ANREVIEW_DATA = {
       "name": "Michael Vardon",
       "position": "Academic",
       "focus": "ANU Research Portal+ profile",
-      "school": "Fenner School of Environment &amp; Society",
+      "school": "Fenner School of Environment & Society",
       "schoolCode": "FEAS",
       "college": "ANU College of Systems and Society",
       "profileUrl": "https://researchportalplus.anu.edu.au/en/persons/michael-vardon/",
@@ -53031,32 +50242,12 @@ window.ANREVIEW_DATA = {
         "Engagement"
       ],
       "tags": [
-        "physics"
-      ]
-    },
-    {
-      "id": "anu-portal-michaela-froehlich",
-      "type": "academic",
-      "name": "Michaela Froehlich",
-      "position": "Academic",
-      "focus": "ANU Research Portal+ profile",
-      "school": "Department of Nuclear Physics &amp; Accelerator Applications",
-      "schoolCode": "DNPAAA",
-      "college": "ANU College of Science and Medicine",
-      "profileUrl": "https://researchportalplus.anu.edu.au/en/persons/michaela-froehlich/",
-      "email": "",
-      "office": "",
-      "linkedCourses": [],
-      "reviewMetrics": [
-        "Clarity",
-        "Support",
-        "Engagement"
-      ],
-      "tags": [
+        "physics",
         "department-of-nuclear-physics-amp-accelerator-applications",
         "college-of-science-and-medicine",
         "research-portal"
-      ]
+      ],
+      "summary": ""
     },
     {
       "id": "anu-portal-michelle-adiwangsa",
@@ -53350,7 +50541,7 @@ window.ANREVIEW_DATA = {
       "name": "Miguel Olivo-Villabrille",
       "position": "Academic",
       "focus": "ANU Research Portal+ profile",
-      "school": "Tax &amp; Transfer Policy Institute",
+      "school": "Tax & Transfer Policy Institute",
       "schoolCode": "TATPI",
       "college": "ANU College of Law, Governance and Policy",
       "profileUrl": "https://researchportalplus.anu.edu.au/en/persons/miguel-olivo/",
@@ -53490,7 +50681,7 @@ window.ANREVIEW_DATA = {
       "name": "Miles Keighley",
       "position": "Academic",
       "focus": "ANU Research Portal+ profile",
-      "school": "Fenner School of Environment &amp; Society",
+      "school": "Fenner School of Environment & Society",
       "schoolCode": "FEAS",
       "college": "ANU College of Systems and Society",
       "profileUrl": "https://researchportalplus.anu.edu.au/en/persons/miles-keighley/",
@@ -53514,7 +50705,7 @@ window.ANREVIEW_DATA = {
       "name": "Ming Hui Choy",
       "position": "Academic",
       "focus": "ANU Research Portal+ profile",
-      "school": "Fenner School of Environment &amp; Society",
+      "school": "Fenner School of Environment & Society",
       "schoolCode": "FEAS",
       "college": "ANU College of Systems and Society",
       "profileUrl": "https://researchportalplus.anu.edu.au/en/persons/ming-hui-choy/",
@@ -53562,7 +50753,7 @@ window.ANREVIEW_DATA = {
       "name": "Mingyuan Jiang",
       "position": "Academic",
       "focus": "ANU Research Portal+ profile",
-      "school": "ANU College of Arts &amp; Social Sciences",
+      "school": "ANU College of Arts & Social Sciences",
       "schoolCode": "AASS",
       "college": "ANU College of Arts and Social Sciences",
       "profileUrl": "https://researchportalplus.anu.edu.au/en/persons/mingyuan-jiang/",
@@ -53599,32 +50790,12 @@ window.ANREVIEW_DATA = {
         "Engagement"
       ],
       "tags": [
-        "comp"
-      ]
-    },
-    {
-      "id": "anu-portal-minh-bui",
-      "type": "academic",
-      "name": "Minh Bui",
-      "position": "Academic",
-      "focus": "ANU Research Portal+ profile",
-      "school": "School of Computing",
-      "schoolCode": "COMP",
-      "college": "ANU College of Systems and Society",
-      "profileUrl": "https://researchportalplus.anu.edu.au/en/persons/minh-bui/",
-      "email": "",
-      "office": "",
-      "linkedCourses": [],
-      "reviewMetrics": [
-        "Clarity",
-        "Support",
-        "Engagement"
-      ],
-      "tags": [
+        "comp",
         "school-of-computing",
         "college-of-systems-and-society",
         "research-portal"
-      ]
+      ],
+      "summary": ""
     },
     {
       "id": "anu-portal-minh-son-to",
@@ -53704,7 +50875,7 @@ window.ANREVIEW_DATA = {
       "name": "Miranda Forsyth",
       "position": "Academic",
       "focus": "ANU Research Portal+ profile",
-      "school": "School of Regulation &amp; Global Governance",
+      "school": "School of Regulation & Global Governance",
       "schoolCode": "RAGG",
       "college": "ANU College of Law, Governance and Policy",
       "profileUrl": "https://researchportalplus.anu.edu.au/en/persons/miranda-forsyth/",
@@ -53831,38 +51002,18 @@ window.ANREVIEW_DATA = {
       "profileUrl": "https://law.anu.edu.au/about/our-people/moeen-cheema",
       "tags": [
         "law",
-        "asian law comparative public law"
-      ],
-      "linkedCourses": [],
-      "reviewMetrics": [
-        "Clarity",
-        "Support",
-        "Engagement"
-      ]
-    },
-    {
-      "id": "anu-portal-moeen-cheema",
-      "type": "academic",
-      "name": "Moeen Cheema",
-      "position": "Academic",
-      "focus": "ANU Research Portal+ profile",
-      "school": "ANU College of Law, Governance and Policy",
-      "schoolCode": "LGP",
-      "college": "ANU College of Law, Governance and Policy",
-      "profileUrl": "https://researchportalplus.anu.edu.au/en/persons/moeen-cheema/",
-      "email": "",
-      "office": "",
-      "linkedCourses": [],
-      "reviewMetrics": [
-        "Clarity",
-        "Support",
-        "Engagement"
-      ],
-      "tags": [
+        "asian law comparative public law",
         "anu-college-of-law-governance-and-policy",
         "college-of-law-governance-and-policy",
         "research-portal"
-      ]
+      ],
+      "linkedCourses": [],
+      "reviewMetrics": [
+        "Clarity",
+        "Support",
+        "Engagement"
+      ],
+      "summary": ""
     },
     {
       "id": "anu-portal-mohamed-abdel-latif",
@@ -53902,38 +51053,18 @@ window.ANREVIEW_DATA = {
       "profileUrl": "https://rsfas.anu.edu.au/people/mohammed-abdullah-al-mamun",
       "tags": [
         "rsfas",
-        "finance"
-      ],
-      "linkedCourses": [],
-      "reviewMetrics": [
-        "Clarity",
-        "Support",
-        "Engagement"
-      ]
-    },
-    {
-      "id": "anu-portal-mohammed-abdullah-al-mamun",
-      "type": "academic",
-      "name": "Mohammed Abdullah Al Mamun",
-      "position": "Academic",
-      "focus": "ANU Research Portal+ profile",
-      "school": "Research School of Finance, Actuarial Studies &amp; Statistics",
-      "schoolCode": "FASAS",
-      "college": "ANU College of Systems and Society",
-      "profileUrl": "https://researchportalplus.anu.edu.au/en/persons/mohammed-abdullah-al-mamun/",
-      "email": "",
-      "office": "",
-      "linkedCourses": [],
-      "reviewMetrics": [
-        "Clarity",
-        "Support",
-        "Engagement"
-      ],
-      "tags": [
+        "finance",
         "research-school-of-finance-actuarial-studies-amp-statistics",
         "college-of-systems-and-society",
         "research-portal"
-      ]
+      ],
+      "linkedCourses": [],
+      "reviewMetrics": [
+        "Clarity",
+        "Support",
+        "Engagement"
+      ],
+      "summary": ""
     },
     {
       "id": "anu-portal-molly-o-brien",
@@ -53965,7 +51096,7 @@ window.ANREVIEW_DATA = {
       "name": "Molly Saunders",
       "position": "Academic",
       "focus": "ANU Research Portal+ profile",
-      "school": "Policy &amp; Governance Program",
+      "school": "Policy & Governance Program",
       "schoolCode": "PAGP",
       "college": "ANU College of Law, Governance and Policy",
       "profileUrl": "https://researchportalplus.anu.edu.au/en/persons/molly-saunders/",
@@ -54681,7 +51812,7 @@ window.ANREVIEW_DATA = {
       "name": "Mu Li",
       "position": "Academic",
       "focus": "ANU Research Portal+ profile",
-      "school": "Policy &amp; Governance Program",
+      "school": "Policy & Governance Program",
       "schoolCode": "PAGP",
       "college": "ANU College of Systems and Society",
       "profileUrl": "https://researchportalplus.anu.edu.au/en/persons/mu-li/",
@@ -54742,32 +51873,12 @@ window.ANREVIEW_DATA = {
         "Engagement"
       ],
       "tags": [
-        "comp"
-      ]
-    },
-    {
-      "id": "anu-portal-muhammad-farhan",
-      "type": "academic",
-      "name": "Muhammad Farhan",
-      "position": "Academic",
-      "focus": "ANU Research Portal+ profile",
-      "school": "School of Computing",
-      "schoolCode": "COMP",
-      "college": "ANU College of Systems and Society",
-      "profileUrl": "https://researchportalplus.anu.edu.au/en/persons/muhammad-farhan/",
-      "email": "",
-      "office": "",
-      "linkedCourses": [],
-      "reviewMetrics": [
-        "Clarity",
-        "Support",
-        "Engagement"
-      ],
-      "tags": [
+        "comp",
         "school-of-computing",
         "college-of-systems-and-society",
         "research-portal"
-      ]
+      ],
+      "summary": ""
     },
     {
       "id": "anu-portal-muhammad-hali-aprimadya",
@@ -54775,7 +51886,7 @@ window.ANREVIEW_DATA = {
       "name": "Muhammad Hali Aprimadya",
       "position": "Academic",
       "focus": "ANU Research Portal+ profile",
-      "school": "Policy &amp; Governance Program",
+      "school": "Policy & Governance Program",
       "schoolCode": "PAGP",
       "college": "ANU College of Asia and the Pacific",
       "profileUrl": "https://researchportalplus.anu.edu.au/en/persons/muhammad-hali-aprimadya/",
@@ -54799,7 +51910,7 @@ window.ANREVIEW_DATA = {
       "name": "Muhammad Kavesh",
       "position": "Academic",
       "focus": "ANU Research Portal+ profile",
-      "school": "School of Culture, History &amp; Language",
+      "school": "School of Culture, History & Language",
       "schoolCode": "CHAL",
       "college": "ANU College of Arts and Social Sciences",
       "profileUrl": "https://researchportalplus.anu.edu.au/en/persons/muhammad-kavesh/",
@@ -54858,32 +51969,12 @@ window.ANREVIEW_DATA = {
         "Engagement"
       ],
       "tags": [
-        "physics"
-      ]
-    },
-    {
-      "id": "anu-portal-murray-batchelor",
-      "type": "academic",
-      "name": "Murray Batchelor",
-      "position": "Academic",
-      "focus": "ANU Research Portal+ profile",
-      "school": "Mathematical Sciences Institute",
-      "schoolCode": "MSI",
-      "college": "ANU College of Systems and Society",
-      "profileUrl": "https://researchportalplus.anu.edu.au/en/persons/murray-batchelor/",
-      "email": "",
-      "office": "",
-      "linkedCourses": [],
-      "reviewMetrics": [
-        "Clarity",
-        "Support",
-        "Engagement"
-      ],
-      "tags": [
+        "physics",
         "mathematical-sciences-institute",
         "college-of-systems-and-society",
         "research-portal"
-      ]
+      ],
+      "summary": ""
     },
     {
       "id": "alistair-ott",
@@ -55148,7 +52239,7 @@ window.ANREVIEW_DATA = {
       "name": "Naomi McClure-Griffiths",
       "position": "Academic",
       "focus": "ANU Research Portal+ profile",
-      "school": "Research School of Astronomy &amp; Astrophysics",
+      "school": "Research School of Astronomy & Astrophysics",
       "schoolCode": "AAA",
       "college": "ANU College of Science and Medicine",
       "profileUrl": "https://researchportalplus.anu.edu.au/en/persons/naomi-mcclure-griffiths/",
@@ -55186,32 +52277,12 @@ window.ANREVIEW_DATA = {
       ],
       "tags": [
         "chl",
-        "asia-pacific"
-      ]
-    },
-    {
-      "id": "anu-portal-naomi-ogi",
-      "type": "academic",
-      "name": "Naomi Ogi",
-      "position": "Academic",
-      "focus": "ANU Research Portal+ profile",
-      "school": "School of Culture, History &amp; Language",
-      "schoolCode": "CHAL",
-      "college": "ANU College of Arts and Social Sciences",
-      "profileUrl": "https://researchportalplus.anu.edu.au/en/persons/naomi-ogi/",
-      "email": "",
-      "office": "",
-      "linkedCourses": [],
-      "reviewMetrics": [
-        "Clarity",
-        "Support",
-        "Engagement"
-      ],
-      "tags": [
+        "asia-pacific",
         "school-of-culture-history-amp-language",
         "college-of-arts-and-social-sciences",
         "research-portal"
-      ]
+      ],
+      "summary": ""
     },
     {
       "id": "anu-portal-naresh-verma",
@@ -55219,7 +52290,7 @@ window.ANREVIEW_DATA = {
       "name": "Naresh Verma",
       "position": "Academic",
       "focus": "ANU Research Portal+ profile",
-      "school": "Division of Biomedical Science &amp; Biochemistry",
+      "school": "Division of Biomedical Science & Biochemistry",
       "schoolCode": "DBSAB",
       "college": "ANU College of Science and Medicine",
       "profileUrl": "https://researchportalplus.anu.edu.au/en/persons/naresh-verma/",
@@ -55290,7 +52361,7 @@ window.ANREVIEW_DATA = {
       "name": "Natasha Fijn",
       "position": "Academic",
       "focus": "ANU Research Portal+ profile",
-      "school": "School of Culture, History &amp; Language",
+      "school": "School of Culture, History & Language",
       "schoolCode": "CHAL",
       "college": "ANU College of Arts and Social Sciences",
       "profileUrl": "https://researchportalplus.anu.edu.au/en/persons/natasha-fijn/",
@@ -55361,7 +52432,7 @@ window.ANREVIEW_DATA = {
       "name": "Natasha Robinson",
       "position": "Academic",
       "focus": "ANU Research Portal+ profile",
-      "school": "Fenner School of Environment &amp; Society",
+      "school": "Fenner School of Environment & Society",
       "schoolCode": "FEAS",
       "college": "ANU College of Systems and Society",
       "profileUrl": "https://researchportalplus.anu.edu.au/en/persons/natasha-robinson/",
@@ -55409,7 +52480,7 @@ window.ANREVIEW_DATA = {
       "name": "Nathan Deutscher",
       "position": "Academic",
       "focus": "ANU Research Portal+ profile",
-      "school": "Tax &amp; Transfer Policy Institute",
+      "school": "Tax & Transfer Policy Institute",
       "schoolCode": "TATPI",
       "college": "ANU College of Law, Governance and Policy",
       "profileUrl": "https://researchportalplus.anu.edu.au/en/persons/nathan-deutscher/",
@@ -55551,7 +52622,7 @@ window.ANREVIEW_DATA = {
       "name": "Neda Karimi",
       "position": "Academic",
       "focus": "ANU Research Portal+ profile",
-      "school": "School of Literature, Languages &amp; Linguistics",
+      "school": "School of Literature, Languages & Linguistics",
       "schoolCode": "LLAL",
       "college": "ANU College of Arts and Social Sciences",
       "profileUrl": "https://researchportalplus.anu.edu.au/en/persons/neda-karimi/",
@@ -55588,32 +52659,12 @@ window.ANREVIEW_DATA = {
         "Engagement"
       ],
       "tags": [
-        "physics"
-      ]
-    },
-    {
-      "id": "anu-portal-neelima-kandula",
-      "type": "academic",
-      "name": "Neelima Kandula",
-      "position": "Academic",
-      "focus": "ANU Research Portal+ profile",
-      "school": "Department of Materials Physics",
-      "schoolCode": "DMP",
-      "college": "ANU College of Science and Medicine",
-      "profileUrl": "https://researchportalplus.anu.edu.au/en/persons/neelima-kandula/",
-      "email": "",
-      "office": "",
-      "linkedCourses": [],
-      "reviewMetrics": [
-        "Clarity",
-        "Support",
-        "Engagement"
-      ],
-      "tags": [
+        "physics",
         "department-of-materials-physics",
         "college-of-science-and-medicine",
         "research-portal"
-      ]
+      ],
+      "summary": ""
     },
     {
       "id": "anu-portal-neil-bailey",
@@ -55645,7 +52696,7 @@ window.ANREVIEW_DATA = {
       "name": "Neil Gunningham",
       "position": "Academic",
       "focus": "ANU Research Portal+ profile",
-      "school": "School of Regulation &amp; Global Governance",
+      "school": "School of Regulation & Global Governance",
       "schoolCode": "RAGG",
       "college": "ANU College of Law, Governance and Policy",
       "profileUrl": "https://researchportalplus.anu.edu.au/en/persons/neil-gunningham/",
@@ -55739,7 +52790,7 @@ window.ANREVIEW_DATA = {
       "name": "Nghia Tran",
       "position": "Academic",
       "focus": "ANU Research Portal+ profile",
-      "school": "ANU College of Business &amp; Economics",
+      "school": "ANU College of Business & Economics",
       "schoolCode": "BAE",
       "college": "ANU College of Business and Economics",
       "profileUrl": "https://researchportalplus.anu.edu.au/en/persons/nghia-tran/",
@@ -55881,7 +52932,7 @@ window.ANREVIEW_DATA = {
       "name": "Nicholas Bainton",
       "position": "Academic",
       "focus": "ANU Research Portal+ profile",
-      "school": "School of Regulation &amp; Global Governance",
+      "school": "School of Regulation & Global Governance",
       "schoolCode": "RAGG",
       "college": "ANU College of Law, Governance and Policy",
       "profileUrl": "https://researchportalplus.anu.edu.au/en/persons/nicholas-bainton/",
@@ -55905,7 +52956,7 @@ window.ANREVIEW_DATA = {
       "name": "Nicholas Biddle",
       "position": "Academic",
       "focus": "ANU Research Portal+ profile",
-      "school": "School of Politics &amp; International Relations",
+      "school": "School of Politics & International Relations",
       "schoolCode": "PAIR",
       "college": "ANU College of Arts and Social Sciences",
       "profileUrl": "https://researchportalplus.anu.edu.au/en/persons/nicholas-biddle/",
@@ -55953,7 +53004,7 @@ window.ANREVIEW_DATA = {
       "name": "Nicholas Drake",
       "position": "Academic",
       "focus": "ANU Research Portal+ profile",
-      "school": "School of Regulation &amp; Global Governance",
+      "school": "School of Regulation & Global Governance",
       "schoolCode": "RAGG",
       "college": "ANU College of Law, Governance and Policy",
       "profileUrl": "https://researchportalplus.anu.edu.au/en/persons/nicholas-drake/",
@@ -56001,7 +53052,7 @@ window.ANREVIEW_DATA = {
       "name": "Nicholas Frank",
       "position": "Academic",
       "focus": "ANU Research Portal+ profile",
-      "school": "School of Regulation &amp; Global Governance",
+      "school": "School of Regulation & Global Governance",
       "schoolCode": "RAGG",
       "college": "ANU College of Law, Governance and Policy",
       "profileUrl": "https://researchportalplus.anu.edu.au/en/persons/nicholas-frank/",
@@ -56192,7 +53243,7 @@ window.ANREVIEW_DATA = {
       "name": "Nick Abel",
       "position": "Academic",
       "focus": "ANU Research Portal+ profile",
-      "school": "Fenner School of Environment &amp; Society",
+      "school": "Fenner School of Environment & Society",
       "schoolCode": "FEAS",
       "college": "ANU College of Systems and Society",
       "profileUrl": "https://researchportalplus.anu.edu.au/en/persons/nick-abel/",
@@ -56253,32 +53304,12 @@ window.ANREVIEW_DATA = {
         "Engagement"
       ],
       "tags": [
-        "comp"
-      ]
-    },
-    {
-      "id": "anu-portal-nick-barnes",
-      "type": "academic",
-      "name": "Nick Barnes",
-      "position": "Academic",
-      "focus": "ANU Research Portal+ profile",
-      "school": "School of Computing",
-      "schoolCode": "COMP",
-      "college": "ANU College of Systems and Society",
-      "profileUrl": "https://researchportalplus.anu.edu.au/en/persons/nick-barnes/",
-      "email": "",
-      "office": "",
-      "linkedCourses": [],
-      "reviewMetrics": [
-        "Clarity",
-        "Support",
-        "Engagement"
-      ],
-      "tags": [
+        "comp",
         "school-of-computing",
         "college-of-systems-and-society",
         "research-portal"
-      ]
+      ],
+      "summary": ""
     },
     {
       "id": "anu-portal-nick-cheesman",
@@ -56286,7 +53317,7 @@ window.ANREVIEW_DATA = {
       "name": "Nick Cheesman",
       "position": "Academic",
       "focus": "ANU Research Portal+ profile",
-      "school": "Department of Political &amp; Social Change",
+      "school": "Department of Political & Social Change",
       "schoolCode": "DPASC",
       "college": "ANU College of Arts and Social Sciences",
       "profileUrl": "https://researchportalplus.anu.edu.au/en/persons/nick-cheesman/",
@@ -56359,7 +53390,7 @@ window.ANREVIEW_DATA = {
       "name": "Nick Wilson",
       "position": "Academic",
       "focus": "ANU Research Portal+ profile",
-      "school": "Fenner School of Environment &amp; Society",
+      "school": "Fenner School of Environment & Society",
       "schoolCode": "FEAS",
       "college": "ANU College of Systems and Society",
       "profileUrl": "https://researchportalplus.anu.edu.au/en/persons/nick-wilson/",
@@ -56573,7 +53604,7 @@ window.ANREVIEW_DATA = {
       "name": "Nicolas Younes Cardenas",
       "position": "Academic",
       "focus": "ANU Research Portal+ profile",
-      "school": "Fenner School of Environment &amp; Society",
+      "school": "Fenner School of Environment & Society",
       "schoolCode": "FEAS",
       "college": "ANU College of Systems and Society",
       "profileUrl": "https://researchportalplus.anu.edu.au/en/persons/nicolas-younes-cardenas/",
@@ -56645,7 +53676,7 @@ window.ANREVIEW_DATA = {
       "name": "Nicole Lawder",
       "position": "Academic",
       "focus": "ANU Research Portal+ profile",
-      "school": "School of Politics &amp; International Relations",
+      "school": "School of Politics & International Relations",
       "schoolCode": "PAIR",
       "college": "ANU College of Arts and Social Sciences",
       "profileUrl": "https://researchportalplus.anu.edu.au/en/persons/nicole-lawder/",
@@ -56835,7 +53866,7 @@ window.ANREVIEW_DATA = {
       "name": "Nikolay Murashkin",
       "position": "Academic",
       "focus": "ANU Research Portal+ profile",
-      "school": "Strategic &amp; Defence Studies Centre",
+      "school": "Strategic & Defence Studies Centre",
       "schoolCode": "SADS",
       "college": "ANU College of Arts and Social Sciences",
       "profileUrl": "https://researchportalplus.anu.edu.au/en/persons/nikolay-murashkin/",
@@ -56883,7 +53914,7 @@ window.ANREVIEW_DATA = {
       "name": "Nilantha Hulugalle",
       "position": "Academic",
       "focus": "ANU Research Portal+ profile",
-      "school": "Fenner School of Environment &amp; Society",
+      "school": "Fenner School of Environment & Society",
       "schoolCode": "FEAS",
       "college": "ANU College of Systems and Society",
       "profileUrl": "https://researchportalplus.anu.edu.au/en/persons/nilantha-hulugalle/",
@@ -56961,38 +53992,18 @@ window.ANREVIEW_DATA = {
       "profileUrl": "https://rsfas.anu.edu.au/people/ning-wang",
       "tags": [
         "rsfas",
-        "actuarial studies"
-      ],
-      "linkedCourses": [],
-      "reviewMetrics": [
-        "Clarity",
-        "Support",
-        "Engagement"
-      ]
-    },
-    {
-      "id": "anu-portal-ning-wang",
-      "type": "academic",
-      "name": "Ning Wang",
-      "position": "Academic",
-      "focus": "ANU Research Portal+ profile",
-      "school": "Research School of Finance, Actuarial Studies &amp; Statistics",
-      "schoolCode": "FASAS",
-      "college": "ANU College of Systems and Society",
-      "profileUrl": "https://researchportalplus.anu.edu.au/en/persons/ning-wang/",
-      "email": "",
-      "office": "",
-      "linkedCourses": [],
-      "reviewMetrics": [
-        "Clarity",
-        "Support",
-        "Engagement"
-      ],
-      "tags": [
+        "actuarial studies",
         "research-school-of-finance-actuarial-studies-amp-statistics",
         "college-of-systems-and-society",
         "research-portal"
-      ]
+      ],
+      "linkedCourses": [],
+      "reviewMetrics": [
+        "Clarity",
+        "Support",
+        "Engagement"
+      ],
+      "summary": ""
     },
     {
       "id": "anu-portal-niraj-lal",
@@ -57037,32 +54048,12 @@ window.ANREVIEW_DATA = {
         "Engagement"
       ],
       "tags": [
-        "comp"
-      ]
-    },
-    {
-      "id": "anu-portal-nisansala-yatapanage",
-      "type": "academic",
-      "name": "Nisansala Yatapanage",
-      "position": "Academic",
-      "focus": "ANU Research Portal+ profile",
-      "school": "School of Computing",
-      "schoolCode": "COMP",
-      "college": "ANU College of Systems and Society",
-      "profileUrl": "https://researchportalplus.anu.edu.au/en/persons/nisansala-yatapanage/",
-      "email": "",
-      "office": "",
-      "linkedCourses": [],
-      "reviewMetrics": [
-        "Clarity",
-        "Support",
-        "Engagement"
-      ],
-      "tags": [
+        "comp",
         "school-of-computing",
         "college-of-systems-and-society",
         "research-portal"
-      ]
+      ],
+      "summary": ""
     },
     {
       "id": "anu-portal-noam-maitless",
@@ -57118,7 +54109,7 @@ window.ANREVIEW_DATA = {
       "name": "Noelia Martinez Rey",
       "position": "Academic",
       "focus": "ANU Research Portal+ profile",
-      "school": "Research School of Astronomy &amp; Astrophysics",
+      "school": "Research School of Astronomy & Astrophysics",
       "schoolCode": "AAA",
       "college": "ANU College of Science and Medicine",
       "profileUrl": "https://researchportalplus.anu.edu.au/en/persons/noelia-martinez-rey/",
@@ -57155,32 +54146,12 @@ window.ANREVIEW_DATA = {
         "Engagement"
       ],
       "tags": [
-        "physics"
-      ]
-    },
-    {
-      "id": "anu-portal-noemie-bastidon",
-      "type": "academic",
-      "name": "Noemie Bastidon",
-      "position": "Academic",
-      "focus": "ANU Research Portal+ profile",
-      "school": "Department of Materials Physics",
-      "schoolCode": "DMP",
-      "college": "ANU College of Science and Medicine",
-      "profileUrl": "https://researchportalplus.anu.edu.au/en/persons/noemie-bastidon/",
-      "email": "",
-      "office": "",
-      "linkedCourses": [],
-      "reviewMetrics": [
-        "Clarity",
-        "Support",
-        "Engagement"
-      ],
-      "tags": [
+        "physics",
         "department-of-materials-physics",
         "college-of-science-and-medicine",
         "research-portal"
-      ]
+      ],
+      "summary": ""
     },
     {
       "id": "anu-portal-ntina-tzouvala",
@@ -57236,7 +54207,7 @@ window.ANREVIEW_DATA = {
       "name": "Nusha Faizi",
       "position": "Academic",
       "focus": "ANU Research Portal+ profile",
-      "school": "Centre for Arab &amp; Islamic Studies",
+      "school": "Centre for Arab & Islamic Studies",
       "schoolCode": "AAIS",
       "college": "ANU College of Arts and Social Sciences",
       "profileUrl": "https://researchportalplus.anu.edu.au/en/persons/nusha-faizi/",
@@ -57297,32 +54268,12 @@ window.ANREVIEW_DATA = {
         "Engagement"
       ],
       "tags": [
-        "physics"
-      ]
-    },
-    {
-      "id": "anu-portal-olaf-delgado-friedrichs",
-      "type": "academic",
-      "name": "Olaf Delgado-Friedrichs",
-      "position": "Academic",
-      "focus": "ANU Research Portal+ profile",
-      "school": "Department of Materials Physics",
-      "schoolCode": "DMP",
-      "college": "ANU College of Science and Medicine",
-      "profileUrl": "https://researchportalplus.anu.edu.au/en/persons/olaf-delgado-friedrichs/",
-      "email": "",
-      "office": "",
-      "linkedCourses": [],
-      "reviewMetrics": [
-        "Clarity",
-        "Support",
-        "Engagement"
-      ],
-      "tags": [
+        "physics",
         "department-of-materials-physics",
         "college-of-science-and-medicine",
         "research-portal"
-      ]
+      ],
+      "summary": ""
     },
     {
       "id": "phys-olga-bazaka",
@@ -57492,7 +54443,7 @@ window.ANREVIEW_DATA = {
       "name": "Oluwafemi Adeyeri",
       "position": "Academic",
       "focus": "ANU Research Portal+ profile",
-      "school": "Fenner School of Environment &amp; Society",
+      "school": "Fenner School of Environment & Society",
       "schoolCode": "FEAS",
       "college": "ANU College of Systems and Society",
       "profileUrl": "https://researchportalplus.anu.edu.au/en/persons/oluwafemi-adeyeri/",
@@ -57632,7 +54583,7 @@ window.ANREVIEW_DATA = {
       "name": "Pamela Swadling",
       "position": "Academic",
       "focus": "ANU Research Portal+ profile",
-      "school": "School of Culture, History &amp; Language",
+      "school": "School of Culture, History & Language",
       "schoolCode": "CHAL",
       "college": "ANU College of Arts and Social Sciences",
       "profileUrl": "https://researchportalplus.anu.edu.au/en/persons/pamela-swadling/",
@@ -57717,32 +54668,12 @@ window.ANREVIEW_DATA = {
         "Engagement"
       ],
       "tags": [
-        "comp"
-      ]
-    },
-    {
-      "id": "anu-portal-pascal-bercher",
-      "type": "academic",
-      "name": "Pascal Bercher",
-      "position": "Academic",
-      "focus": "ANU Research Portal+ profile",
-      "school": "School of Computing",
-      "schoolCode": "COMP",
-      "college": "ANU College of Systems and Society",
-      "profileUrl": "https://researchportalplus.anu.edu.au/en/persons/pascal-bercher/",
-      "email": "",
-      "office": "",
-      "linkedCourses": [],
-      "reviewMetrics": [
-        "Clarity",
-        "Support",
-        "Engagement"
-      ],
-      "tags": [
+        "comp",
         "school-of-computing",
         "college-of-systems-and-society",
         "research-portal"
-      ]
+      ],
+      "summary": ""
     },
     {
       "id": "pat-barrett",
@@ -57751,7 +54682,7 @@ window.ANREVIEW_DATA = {
       "school": "Research School of Accounting",
       "schoolCode": "RSA",
       "college": "CBE",
-      "position": "Distinguished Honorary Professor &amp; Senior Fellow - ANCAAR",
+      "position": "Distinguished Honorary Professor & Senior Fellow - ANCAAR",
       "focus": "Accounting, Economics",
       "email": "See ANU profile",
       "office": "Research School of Accounting",
@@ -57774,7 +54705,7 @@ window.ANREVIEW_DATA = {
       "name": "Pat Leslie",
       "position": "Academic",
       "focus": "ANU Research Portal+ profile",
-      "school": "Policy &amp; Governance Program",
+      "school": "Policy & Governance Program",
       "schoolCode": "PAGP",
       "college": "ANU College of Law, Governance and Policy",
       "profileUrl": "https://researchportalplus.anu.edu.au/en/persons/pat-leslie/",
@@ -57798,7 +54729,7 @@ window.ANREVIEW_DATA = {
       "name": "Patricia Werner",
       "position": "Academic",
       "focus": "ANU Research Portal+ profile",
-      "school": "Fenner School of Environment &amp; Society",
+      "school": "Fenner School of Environment & Society",
       "schoolCode": "FEAS",
       "college": "ANU College of Systems and Society",
       "profileUrl": "https://researchportalplus.anu.edu.au/en/persons/patricia-werner/",
@@ -57846,7 +54777,7 @@ window.ANREVIEW_DATA = {
       "name": "Patrick Dumont",
       "position": "Academic",
       "focus": "ANU Research Portal+ profile",
-      "school": "School of Politics &amp; International Relations",
+      "school": "School of Politics & International Relations",
       "schoolCode": "PAIR",
       "college": "ANU College of Arts and Social Sciences",
       "profileUrl": "https://researchportalplus.anu.edu.au/en/persons/patrick-dumont/",
@@ -57870,7 +54801,7 @@ window.ANREVIEW_DATA = {
       "name": "Patrick Kilby",
       "position": "Academic",
       "focus": "ANU Research Portal+ profile",
-      "school": "School of Archaeology &amp; Anthropology",
+      "school": "School of Archaeology & Anthropology",
       "schoolCode": "AAA",
       "college": "ANU College of Arts and Social Sciences",
       "profileUrl": "https://researchportalplus.anu.edu.au/en/persons/patrick-kilby/",
@@ -57942,7 +54873,7 @@ window.ANREVIEW_DATA = {
       "name": "Patrick Li",
       "position": "Academic",
       "focus": "ANU Research Portal+ profile",
-      "school": "Research School of Finance, Actuarial Studies &amp; Statistics",
+      "school": "Research School of Finance, Actuarial Studies & Statistics",
       "schoolCode": "FASAS",
       "college": "ANU College of Systems and Society",
       "profileUrl": "https://researchportalplus.anu.edu.au/en/persons/patrick-li/",
@@ -57979,32 +54910,12 @@ window.ANREVIEW_DATA = {
         "Engagement"
       ],
       "tags": [
-        "comp"
-      ]
-    },
-    {
-      "id": "anu-portal-patrik-haslum",
-      "type": "academic",
-      "name": "Patrik Haslum",
-      "position": "Academic",
-      "focus": "ANU Research Portal+ profile",
-      "school": "School of Computing",
-      "schoolCode": "COMP",
-      "college": "ANU College of Systems and Society",
-      "profileUrl": "https://researchportalplus.anu.edu.au/en/persons/patrik-haslum/",
-      "email": "",
-      "office": "",
-      "linkedCourses": [],
-      "reviewMetrics": [
-        "Clarity",
-        "Support",
-        "Engagement"
-      ],
-      "tags": [
+        "comp",
         "school-of-computing",
         "college-of-systems-and-society",
         "research-portal"
-      ]
+      ],
+      "summary": ""
     },
     {
       "id": "Patsypayne.com",
@@ -58072,32 +54983,12 @@ window.ANREVIEW_DATA = {
         "Engagement"
       ],
       "tags": [
-        "physics"
-      ]
-    },
-    {
-      "id": "anu-portal-paul-altin",
-      "type": "academic",
-      "name": "Paul Altin",
-      "position": "Academic",
-      "focus": "ANU Research Portal+ profile",
-      "school": "Centre for Gravitational Astrophysics",
-      "schoolCode": "GA",
-      "college": "ANU College of Science and Medicine",
-      "profileUrl": "https://researchportalplus.anu.edu.au/en/persons/paul-altin/",
-      "email": "",
-      "office": "",
-      "linkedCourses": [],
-      "reviewMetrics": [
-        "Clarity",
-        "Support",
-        "Engagement"
-      ],
-      "tags": [
+        "physics",
         "centre-for-gravitational-astrophysics",
         "college-of-science-and-medicine",
         "research-portal"
-      ]
+      ],
+      "summary": ""
     },
     {
       "id": "anu-portal-paul-burke",
@@ -58200,7 +55091,7 @@ window.ANREVIEW_DATA = {
       "name": "Paul Dibb",
       "position": "Academic",
       "focus": "ANU Research Portal+ profile",
-      "school": "ANU College of Asia &amp; the Pacific",
+      "school": "ANU College of Asia & the Pacific",
       "schoolCode": "AAP",
       "college": "ANU College of Asia and the Pacific",
       "profileUrl": "https://researchportalplus.anu.edu.au/en/persons/paul-dibb/",
@@ -58248,7 +55139,7 @@ window.ANREVIEW_DATA = {
       "name": "Paul Francis",
       "position": "Academic",
       "focus": "ANU Research Portal+ profile",
-      "school": "Research School of Astronomy &amp; Astrophysics",
+      "school": "Research School of Astronomy & Astrophysics",
       "schoolCode": "AAA",
       "college": "ANU College of Science and Medicine",
       "profileUrl": "https://researchportalplus.anu.edu.au/en/persons/paul-francis/",
@@ -58405,32 +55296,11 @@ window.ANREVIEW_DATA = {
       "tags": [
         "genome-sciences-and-cancer-division",
         "college-of-arts-and-social-sciences",
-        "research-portal"
-      ]
-    },
-    {
-      "id": "anu-portal-paul-marshall",
-      "type": "academic",
-      "name": "Paul Marshall",
-      "position": "Academic",
-      "focus": "ANU Research Portal+ profile",
-      "school": "School of Regulation &amp; Global Governance",
-      "schoolCode": "RAGG",
-      "college": "ANU College of Law, Governance and Policy",
-      "profileUrl": "https://researchportalplus.anu.edu.au/en/persons/paul-marshall-2/",
-      "email": "",
-      "office": "",
-      "linkedCourses": [],
-      "reviewMetrics": [
-        "Clarity",
-        "Support",
-        "Engagement"
-      ],
-      "tags": [
+        "research-portal",
         "school-of-regulation-amp-global-governance",
-        "college-of-law-governance-and-policy",
-        "research-portal"
-      ]
+        "college-of-law-governance-and-policy"
+      ],
+      "summary": ""
     },
     {
       "id": "anu-portal-paul-ngo",
@@ -58438,7 +55308,7 @@ window.ANREVIEW_DATA = {
       "name": "Paul Ngo",
       "position": "Academic",
       "focus": "ANU Research Portal+ profile",
-      "school": "School of Politics &amp; International Relations",
+      "school": "School of Politics & International Relations",
       "schoolCode": "PAIR",
       "college": "CBE",
       "profileUrl": "https://researchportalplus.anu.edu.au/en/persons/paul-ngo/",
@@ -58510,7 +55380,7 @@ window.ANREVIEW_DATA = {
       "name": "Paul Pickering",
       "position": "Academic",
       "focus": "ANU Research Portal+ profile",
-      "school": "School of Politics &amp; International Relations",
+      "school": "School of Politics & International Relations",
       "schoolCode": "PAIR",
       "college": "ANU College of Arts and Social Sciences",
       "profileUrl": "https://researchportalplus.anu.edu.au/en/persons/paul-pickering/",
@@ -58547,32 +55417,12 @@ window.ANREVIEW_DATA = {
         "Engagement"
       ],
       "tags": [
-        "physics"
-      ]
-    },
-    {
-      "id": "anu-portal-paul-sibley",
-      "type": "academic",
-      "name": "Paul Sibley",
-      "position": "Academic",
-      "focus": "ANU Research Portal+ profile",
-      "school": "Centre for Gravitational Astrophysics",
-      "schoolCode": "GA",
-      "college": "ANU College of Science and Medicine",
-      "profileUrl": "https://researchportalplus.anu.edu.au/en/persons/paul-sibley/",
-      "email": "",
-      "office": "",
-      "linkedCourses": [],
-      "reviewMetrics": [
-        "Clarity",
-        "Support",
-        "Engagement"
-      ],
-      "tags": [
+        "physics",
         "centre-for-gravitational-astrophysics",
         "college-of-science-and-medicine",
         "research-portal"
-      ]
+      ],
+      "summary": ""
     },
     {
       "id": "anu-portal-paul-tregoning",
@@ -58617,32 +55467,12 @@ window.ANREVIEW_DATA = {
         "Engagement"
       ],
       "tags": [
-        "cyb"
-      ]
-    },
-    {
-      "id": "anu-portal-paul-wong",
-      "type": "academic",
-      "name": "Paul Wong",
-      "position": "Academic",
-      "focus": "ANU Research Portal+ profile",
-      "school": "School of Cybernetics",
-      "schoolCode": "CYB",
-      "college": "ANU College of Systems and Society",
-      "profileUrl": "https://researchportalplus.anu.edu.au/en/persons/paul-wong/",
-      "email": "",
-      "office": "",
-      "linkedCourses": [],
-      "reviewMetrics": [
-        "Clarity",
-        "Support",
-        "Engagement"
-      ],
-      "tags": [
+        "cyb",
         "school-of-cybernetics",
         "college-of-systems-and-society",
         "research-portal"
-      ]
+      ],
+      "summary": ""
     },
     {
       "id": "anu-portal-paul-wyrwoll",
@@ -58706,38 +55536,18 @@ window.ANREVIEW_DATA = {
       "profileUrl": "https://law.anu.edu.au/about/our-people/pauline-bomball",
       "tags": [
         "law",
-        "labour law law & technology priv"
-      ],
-      "linkedCourses": [],
-      "reviewMetrics": [
-        "Clarity",
-        "Support",
-        "Engagement"
-      ]
-    },
-    {
-      "id": "anu-portal-pauline-bomball",
-      "type": "academic",
-      "name": "Pauline Bomball",
-      "position": "Academic",
-      "focus": "ANU Research Portal+ profile",
-      "school": "ANU College of Law, Governance and Policy",
-      "schoolCode": "LGP",
-      "college": "ANU College of Law, Governance and Policy",
-      "profileUrl": "https://researchportalplus.anu.edu.au/en/persons/pauline-bomball/",
-      "email": "",
-      "office": "",
-      "linkedCourses": [],
-      "reviewMetrics": [
-        "Clarity",
-        "Support",
-        "Engagement"
-      ],
-      "tags": [
+        "labour law law & technology priv",
         "anu-college-of-law-governance-and-policy",
         "college-of-law-governance-and-policy",
         "research-portal"
-      ]
+      ],
+      "linkedCourses": [],
+      "reviewMetrics": [
+        "Clarity",
+        "Support",
+        "Engagement"
+      ],
+      "summary": ""
     },
     {
       "id": "anu-portal-pauline-kerr",
@@ -58777,38 +55587,18 @@ window.ANREVIEW_DATA = {
       "profileUrl": "https://law.anu.edu.au/about/our-people/pauline-ridge",
       "tags": [
         "law",
-        "law & religion private law"
-      ],
-      "linkedCourses": [],
-      "reviewMetrics": [
-        "Clarity",
-        "Support",
-        "Engagement"
-      ]
-    },
-    {
-      "id": "anu-portal-pauline-ridge",
-      "type": "academic",
-      "name": "Pauline Ridge",
-      "position": "Academic",
-      "focus": "ANU Research Portal+ profile",
-      "school": "ANU College of Law, Governance and Policy",
-      "schoolCode": "LGP",
-      "college": "ANU College of Law, Governance and Policy",
-      "profileUrl": "https://researchportalplus.anu.edu.au/en/persons/pauline-ridge/",
-      "email": "",
-      "office": "",
-      "linkedCourses": [],
-      "reviewMetrics": [
-        "Clarity",
-        "Support",
-        "Engagement"
-      ],
-      "tags": [
+        "law & religion private law",
         "anu-college-of-law-governance-and-policy",
         "college-of-law-governance-and-policy",
         "research-portal"
-      ]
+      ],
+      "linkedCourses": [],
+      "reviewMetrics": [
+        "Clarity",
+        "Support",
+        "Engagement"
+      ],
+      "summary": ""
     },
     {
       "id": "phys-pavel-tonkaev",
@@ -58829,32 +55619,12 @@ window.ANREVIEW_DATA = {
         "Engagement"
       ],
       "tags": [
-        "physics"
-      ]
-    },
-    {
-      "id": "anu-portal-pavel-tonkaev",
-      "type": "academic",
-      "name": "Pavel Tonkaev",
-      "position": "Academic",
-      "focus": "ANU Research Portal+ profile",
-      "school": "Department of Fundamental &amp; Theoretical Physics",
-      "schoolCode": "DFATP",
-      "college": "ANU College of Science and Medicine",
-      "profileUrl": "https://researchportalplus.anu.edu.au/en/persons/pavel-tonkaev/",
-      "email": "",
-      "office": "",
-      "linkedCourses": [],
-      "reviewMetrics": [
-        "Clarity",
-        "Support",
-        "Engagement"
-      ],
-      "tags": [
+        "physics",
         "department-of-fundamental-amp-theoretical-physics",
         "college-of-science-and-medicine",
         "research-portal"
-      ]
+      ],
+      "summary": ""
     },
     {
       "id": "anu-portal-pele-cannon",
@@ -58923,32 +55693,12 @@ window.ANREVIEW_DATA = {
         "Engagement"
       ],
       "tags": [
-        "comp"
-      ]
-    },
-    {
-      "id": "anu-portal-penny-kyburz",
-      "type": "academic",
-      "name": "Penny Kyburz",
-      "position": "Academic",
-      "focus": "ANU Research Portal+ profile",
-      "school": "School of Computing",
-      "schoolCode": "COMP",
-      "college": "ANU College of Systems and Society",
-      "profileUrl": "https://researchportalplus.anu.edu.au/en/persons/penny-kyburz/",
-      "email": "",
-      "office": "",
-      "linkedCourses": [],
-      "reviewMetrics": [
-        "Clarity",
-        "Support",
-        "Engagement"
-      ],
-      "tags": [
+        "comp",
         "school-of-computing",
         "college-of-systems-and-society",
         "research-portal"
-      ]
+      ],
+      "summary": ""
     },
     {
       "id": "anu-portal-penny-sackett",
@@ -59028,7 +55778,7 @@ window.ANREVIEW_DATA = {
       "name": "Peter Bellwood",
       "position": "Academic",
       "focus": "ANU Research Portal+ profile",
-      "school": "School of Archaeology &amp; Anthropology",
+      "school": "School of Archaeology & Anthropology",
       "schoolCode": "AAA",
       "college": "ANU College of Arts and Social Sciences",
       "profileUrl": "https://researchportalplus.anu.edu.au/en/persons/peter-bellwood/",
@@ -59076,7 +55826,7 @@ window.ANREVIEW_DATA = {
       "name": "Peter Bridgewater",
       "position": "Academic",
       "focus": "ANU Research Portal+ profile",
-      "school": "Centre for Heritage &amp; Museum Studies",
+      "school": "Centre for Heritage & Museum Studies",
       "schoolCode": "HAMS",
       "college": "ANU College of Arts and Social Sciences",
       "profileUrl": "https://researchportalplus.anu.edu.au/en/persons/peter-bridgewater/",
@@ -59160,32 +55910,12 @@ window.ANREVIEW_DATA = {
         "Engagement"
       ],
       "tags": [
-        "comp"
-      ]
-    },
-    {
-      "id": "anu-portal-peter-christen",
-      "type": "academic",
-      "name": "Peter Christen",
-      "position": "Academic",
-      "focus": "ANU Research Portal+ profile",
-      "school": "School of Computing",
-      "schoolCode": "COMP",
-      "college": "ANU College of Systems and Society",
-      "profileUrl": "https://researchportalplus.anu.edu.au/en/persons/peter-christen/",
-      "email": "",
-      "office": "",
-      "linkedCourses": [],
-      "reviewMetrics": [
-        "Clarity",
-        "Support",
-        "Engagement"
-      ],
-      "tags": [
+        "comp",
         "school-of-computing",
         "college-of-systems-and-society",
         "research-portal"
-      ]
+      ],
+      "summary": ""
     },
     {
       "id": "anu-portal-peter-davis",
@@ -59265,7 +55995,7 @@ window.ANREVIEW_DATA = {
       "name": "Peter Friedlander",
       "position": "Academic",
       "focus": "ANU Research Portal+ profile",
-      "school": "School of Culture, History &amp; Language",
+      "school": "School of Culture, History & Language",
       "schoolCode": "CHAL",
       "college": "ANU College of Arts and Social Sciences",
       "profileUrl": "https://researchportalplus.anu.edu.au/en/persons/peter-friedlander/",
@@ -59289,7 +56019,7 @@ window.ANREVIEW_DATA = {
       "name": "Peter Grabosky",
       "position": "Academic",
       "focus": "ANU Research Portal+ profile",
-      "school": "School of Regulation &amp; Global Governance",
+      "school": "School of Regulation & Global Governance",
       "schoolCode": "RAGG",
       "college": "ANU College of Law, Governance and Policy",
       "profileUrl": "https://researchportalplus.anu.edu.au/en/persons/peter-grabosky/",
@@ -59313,7 +56043,7 @@ window.ANREVIEW_DATA = {
       "name": "Peter Hazell",
       "position": "Academic",
       "focus": "ANU Research Portal+ profile",
-      "school": "Fenner School of Environment &amp; Society",
+      "school": "Fenner School of Environment & Society",
       "schoolCode": "FEAS",
       "college": "ANU College of Systems and Society",
       "profileUrl": "https://researchportalplus.anu.edu.au/en/persons/peter-hazell/",
@@ -59374,32 +56104,12 @@ window.ANREVIEW_DATA = {
         "Engagement"
       ],
       "tags": [
-        "comp"
-      ]
-    },
-    {
-      "id": "anu-portal-peter-hoefner",
-      "type": "academic",
-      "name": "Peter Hoefner",
-      "position": "Academic",
-      "focus": "ANU Research Portal+ profile",
-      "school": "School of Computing",
-      "schoolCode": "COMP",
-      "college": "ANU College of Systems and Society",
-      "profileUrl": "https://researchportalplus.anu.edu.au/en/persons/peter-hoefner/",
-      "email": "",
-      "office": "",
-      "linkedCourses": [],
-      "reviewMetrics": [
-        "Clarity",
-        "Support",
-        "Engagement"
-      ],
-      "tags": [
+        "comp",
         "school-of-computing",
         "college-of-systems-and-society",
         "research-portal"
-      ]
+      ],
+      "summary": ""
     },
     {
       "id": "anu-portal-peter-jackson",
@@ -59407,7 +56117,7 @@ window.ANREVIEW_DATA = {
       "name": "Peter Jackson",
       "position": "Academic",
       "focus": "ANU Research Portal+ profile",
-      "school": "School of Culture, History &amp; Language",
+      "school": "School of Culture, History & Language",
       "schoolCode": "CHAL",
       "college": "ANU College of Arts and Social Sciences",
       "profileUrl": "https://researchportalplus.anu.edu.au/en/persons/peter-jackson/",
@@ -59492,32 +56202,12 @@ window.ANREVIEW_DATA = {
         "Engagement"
       ],
       "tags": [
-        "physics"
-      ]
-    },
-    {
-      "id": "anu-portal-peter-linardakis",
-      "type": "academic",
-      "name": "Peter Linardakis",
-      "position": "Academic",
-      "focus": "ANU Research Portal+ profile",
-      "school": "Research School of Physics",
-      "schoolCode": "PHYS",
-      "college": "ANU College of Science and Medicine",
-      "profileUrl": "https://researchportalplus.anu.edu.au/en/persons/peter-linardakis/",
-      "email": "",
-      "office": "",
-      "linkedCourses": [],
-      "reviewMetrics": [
-        "Clarity",
-        "Support",
-        "Engagement"
-      ],
-      "tags": [
+        "physics",
         "research-school-of-physics",
         "college-of-science-and-medicine",
         "research-portal"
-      ]
+      ],
+      "summary": ""
     },
     {
       "id": "anu-portal-peter-londey",
@@ -59525,7 +56215,7 @@ window.ANREVIEW_DATA = {
       "name": "Peter Londey",
       "position": "Academic",
       "focus": "ANU Research Portal+ profile",
-      "school": "School of Literature, Languages &amp; Linguistics",
+      "school": "School of Literature, Languages & Linguistics",
       "schoolCode": "LLAL",
       "college": "ANU College of Arts and Social Sciences",
       "profileUrl": "https://researchportalplus.anu.edu.au/en/persons/peter-londey/",
@@ -59549,7 +56239,7 @@ window.ANREVIEW_DATA = {
       "name": "Peter McDonald",
       "position": "Academic",
       "focus": "ANU Research Portal+ profile",
-      "school": "School of Literature, Languages &amp; Linguistics",
+      "school": "School of Literature, Languages & Linguistics",
       "schoolCode": "LLAL",
       "college": "ANU College of Arts and Social Sciences",
       "profileUrl": "https://researchportalplus.anu.edu.au/en/persons/peter-mcdonald-2/",
@@ -59573,7 +56263,7 @@ window.ANREVIEW_DATA = {
       "name": "Peter McNamara",
       "position": "Academic",
       "focus": "ANU Research Portal+ profile",
-      "school": "Department of Nuclear Physics &amp; Accelerator Applications",
+      "school": "Department of Nuclear Physics & Accelerator Applications",
       "schoolCode": "DNPAAA",
       "college": "ANU College of Science and Medicine",
       "profileUrl": "https://researchportalplus.anu.edu.au/en/persons/peter-mcnamara/",
@@ -59610,32 +56300,12 @@ window.ANREVIEW_DATA = {
         "Engagement"
       ],
       "tags": [
-        "physics"
-      ]
-    },
-    {
-      "id": "anu-portal-peter-riggs",
-      "type": "academic",
-      "name": "Peter Riggs",
-      "position": "Academic",
-      "focus": "ANU Research Portal+ profile",
-      "school": "Department of Quantum Science &amp; Technology",
-      "schoolCode": "DQSAT",
-      "college": "ANU College of Arts and Social Sciences",
-      "profileUrl": "https://researchportalplus.anu.edu.au/en/persons/peter-riggs/",
-      "email": "",
-      "office": "",
-      "linkedCourses": [],
-      "reviewMetrics": [
-        "Clarity",
-        "Support",
-        "Engagement"
-      ],
-      "tags": [
+        "physics",
         "department-of-quantum-science-amp-technology",
         "college-of-arts-and-social-sciences",
         "research-portal"
-      ]
+      ],
+      "summary": ""
     },
     {
       "id": "anu-portal-peter-solomon",
@@ -59690,7 +56360,7 @@ window.ANREVIEW_DATA = {
       "name": "Peter Swanton",
       "position": "Academic",
       "focus": "ANU Research Portal+ profile",
-      "school": "Research School of Astronomy &amp; Astrophysics",
+      "school": "Research School of Astronomy & Astrophysics",
       "schoolCode": "AAA",
       "college": "ANU College of Systems and Society",
       "profileUrl": "https://researchportalplus.anu.edu.au/en/persons/peter-swanton/",
@@ -59714,7 +56384,7 @@ window.ANREVIEW_DATA = {
       "name": "Peter Taylor",
       "position": "Academic",
       "focus": "ANU Research Portal+ profile",
-      "school": "Fenner School of Environment &amp; Society",
+      "school": "Fenner School of Environment & Society",
       "schoolCode": "FEAS",
       "college": "ANU College of Systems and Society",
       "profileUrl": "https://researchportalplus.anu.edu.au/en/persons/peter-taylor/",
@@ -59762,7 +56432,7 @@ window.ANREVIEW_DATA = {
       "name": "Peter Varela",
       "position": "Academic",
       "focus": "ANU Research Portal+ profile",
-      "school": "Tax &amp; Transfer Policy Institute",
+      "school": "Tax & Transfer Policy Institute",
       "schoolCode": "TATPI",
       "college": "ANU College of Law, Governance and Policy",
       "profileUrl": "https://researchportalplus.anu.edu.au/en/persons/peter-varela/",
@@ -59808,7 +56478,7 @@ window.ANREVIEW_DATA = {
       "name": "Peter Weiske",
       "position": "Academic",
       "focus": "ANU Research Portal+ profile",
-      "school": "Fenner School of Environment &amp; Society",
+      "school": "Fenner School of Environment & Society",
       "schoolCode": "FEAS",
       "college": "ANU College of Systems and Society",
       "profileUrl": "https://researchportalplus.anu.edu.au/en/persons/peter-weiske/",
@@ -59832,7 +56502,7 @@ window.ANREVIEW_DATA = {
       "name": "Peter Whiteford",
       "position": "Academic",
       "focus": "ANU Research Portal+ profile",
-      "school": "Policy &amp; Governance Program",
+      "school": "Policy & Governance Program",
       "schoolCode": "PAGP",
       "college": "ANU College of Law, Governance and Policy",
       "profileUrl": "https://researchportalplus.anu.edu.au/en/persons/peter-whiteford/",
@@ -59950,7 +56620,7 @@ window.ANREVIEW_DATA = {
       "name": "Philip Gibbons",
       "position": "Academic",
       "focus": "ANU Research Portal+ profile",
-      "school": "Fenner School of Environment &amp; Society",
+      "school": "Fenner School of Environment & Society",
       "schoolCode": "FEAS",
       "college": "ANU College of Systems and Society",
       "profileUrl": "https://researchportalplus.anu.edu.au/en/persons/philip-gibbons/",
@@ -59974,7 +56644,7 @@ window.ANREVIEW_DATA = {
       "name": "Philip Taylor",
       "position": "Academic",
       "focus": "ANU Research Portal+ profile",
-      "school": "School of Culture, History &amp; Language",
+      "school": "School of Culture, History & Language",
       "schoolCode": "CHAL",
       "college": "ANU College of Arts and Social Sciences",
       "profileUrl": "https://researchportalplus.anu.edu.au/en/persons/philip-taylor/",
@@ -59998,7 +56668,7 @@ window.ANREVIEW_DATA = {
       "name": "Philip Zylstra",
       "position": "Academic",
       "focus": "ANU Research Portal+ profile",
-      "school": "Fenner School of Environment &amp; Society",
+      "school": "Fenner School of Environment & Society",
       "schoolCode": "FEAS",
       "college": "ANU College of Systems and Society",
       "profileUrl": "https://researchportalplus.anu.edu.au/en/persons/philip-zylstra/",
@@ -60139,7 +56809,7 @@ window.ANREVIEW_DATA = {
       "name": "Phoebe Barnes",
       "position": "Academic",
       "focus": "ANU Research Portal+ profile",
-      "school": "ANU College of Asia &amp; the Pacific",
+      "school": "ANU College of Asia & the Pacific",
       "schoolCode": "AAP",
       "college": "ANU College of Asia and the Pacific",
       "profileUrl": "https://researchportalplus.anu.edu.au/en/persons/phoebe-barnes/",
@@ -60163,7 +56833,7 @@ window.ANREVIEW_DATA = {
       "name": "Phong Ngo",
       "position": "Academic",
       "focus": "ANU Research Portal+ profile",
-      "school": "Research School of Finance, Actuarial Studies &amp; Statistics",
+      "school": "Research School of Finance, Actuarial Studies & Statistics",
       "schoolCode": "FASAS",
       "college": "ANU College of Systems and Society",
       "profileUrl": "https://researchportalplus.anu.edu.au/en/persons/phong-ngo/",
@@ -60401,7 +57071,7 @@ window.ANREVIEW_DATA = {
       "name": "Piumi Perera",
       "position": "Academic",
       "focus": "ANU Research Portal+ profile",
-      "school": "Research School of Finance, Actuarial Studies &amp; Statistics",
+      "school": "Research School of Finance, Actuarial Studies & Statistics",
       "schoolCode": "FASAS",
       "college": "ANU College of Systems and Society",
       "profileUrl": "https://researchportalplus.anu.edu.au/en/persons/piumi-perera/",
@@ -60497,7 +57167,7 @@ window.ANREVIEW_DATA = {
       "name": "Prabhasri Herath",
       "position": "Academic",
       "focus": "ANU Research Portal+ profile",
-      "school": "Institute for Climate, Energy &amp; Disaster Solutions",
+      "school": "Institute for Climate, Energy & Disaster Solutions",
       "schoolCode": "ICEADS",
       "college": "ANU College of Science and Medicine",
       "profileUrl": "https://researchportalplus.anu.edu.au/en/persons/prabhasri-herath/",
@@ -60641,7 +57311,7 @@ window.ANREVIEW_DATA = {
       "name": "Priya Dev",
       "position": "Academic",
       "focus": "ANU Research Portal+ profile",
-      "school": "Research School of Finance, Actuarial Studies &amp; Statistics",
+      "school": "Research School of Finance, Actuarial Studies & Statistics",
       "schoolCode": "FASAS",
       "college": "ANU College of Systems and Society",
       "profileUrl": "https://researchportalplus.anu.edu.au/en/persons/priya-dev/",
@@ -63609,7 +60279,7 @@ window.ANREVIEW_DATA = {
       "school": "Research School of Accounting",
       "schoolCode": "RSA",
       "college": "CBE",
-      "position": "Professor &amp; Convenor of HDR, Co-Director of ANCAAR",
+      "position": "Professor & Convenor of HDR, Co-Director of ANCAAR",
       "focus": "Accounting",
       "email": "See ANU profile",
       "office": "Research School of Accounting",
@@ -64790,7 +61460,7 @@ window.ANREVIEW_DATA = {
       "name": "Qiaoqiao Zhu",
       "position": "Academic",
       "focus": "ANU Research Portal+ profile",
-      "school": "Research School of Finance, Actuarial Studies &amp; Statistics",
+      "school": "Research School of Finance, Actuarial Studies & Statistics",
       "schoolCode": "FASAS",
       "college": "ANU College of Systems and Society",
       "profileUrl": "https://researchportalplus.anu.edu.au/en/persons/qiaoqiao-zhu/",
@@ -64851,32 +61521,12 @@ window.ANREVIEW_DATA = {
         "Engagement"
       ],
       "tags": [
-        "physics"
-      ]
-    },
-    {
-      "id": "anu-portal-qingbo-sun",
-      "type": "academic",
-      "name": "Qingbo Sun",
-      "position": "Academic",
-      "focus": "ANU Research Portal+ profile",
-      "school": "Department of Materials Physics",
-      "schoolCode": "DMP",
-      "college": "ANU College of Science and Medicine",
-      "profileUrl": "https://researchportalplus.anu.edu.au/en/persons/qingbo-sun/",
-      "email": "",
-      "office": "",
-      "linkedCourses": [],
-      "reviewMetrics": [
-        "Clarity",
-        "Support",
-        "Engagement"
-      ],
-      "tags": [
+        "physics",
         "department-of-materials-physics",
         "college-of-science-and-medicine",
         "research-portal"
-      ]
+      ],
+      "summary": ""
     },
     {
       "id": "anu-portal-qingyue-marco-li",
@@ -64964,38 +61614,18 @@ window.ANREVIEW_DATA = {
       "profileUrl": "https://rsfas.anu.edu.au/people/quan-vu",
       "tags": [
         "rsfas",
-        "statistics"
-      ],
-      "linkedCourses": [],
-      "reviewMetrics": [
-        "Clarity",
-        "Support",
-        "Engagement"
-      ]
-    },
-    {
-      "id": "anu-portal-quan-vu",
-      "type": "academic",
-      "name": "Quan Vu",
-      "position": "Academic",
-      "focus": "ANU Research Portal+ profile",
-      "school": "Research School of Finance, Actuarial Studies &amp; Statistics",
-      "schoolCode": "FASAS",
-      "college": "ANU College of Systems and Society",
-      "profileUrl": "https://researchportalplus.anu.edu.au/en/persons/quan-vu/",
-      "email": "",
-      "office": "",
-      "linkedCourses": [],
-      "reviewMetrics": [
-        "Clarity",
-        "Support",
-        "Engagement"
-      ],
-      "tags": [
+        "statistics",
         "research-school-of-finance-actuarial-studies-amp-statistics",
         "college-of-systems-and-society",
         "research-portal"
-      ]
+      ],
+      "linkedCourses": [],
+      "reviewMetrics": [
+        "Clarity",
+        "Support",
+        "Engagement"
+      ],
+      "summary": ""
     },
     {
       "id": "anu-portal-quanling-deng",
@@ -65074,7 +61704,7 @@ window.ANREVIEW_DATA = {
       "name": "Rabee Tourky",
       "position": "Academic",
       "focus": "ANU Research Portal+ profile",
-      "school": "ANU College of Business &amp; Economics",
+      "school": "ANU College of Business & Economics",
       "schoolCode": "BAE",
       "college": "ANU College of Business and Economics",
       "profileUrl": "https://researchportalplus.anu.edu.au/en/persons/rabee-tourky/",
@@ -65146,7 +61776,7 @@ window.ANREVIEW_DATA = {
       "name": "Rachael Remington",
       "position": "Academic",
       "focus": "ANU Research Portal+ profile",
-      "school": "Biology Teaching &amp; Learning Centre",
+      "school": "Biology Teaching & Learning Centre",
       "schoolCode": "BTAL",
       "college": "ANU College of Science and Medicine",
       "profileUrl": "https://researchportalplus.anu.edu.au/en/persons/rachael-remington/",
@@ -65170,7 +61800,7 @@ window.ANREVIEW_DATA = {
       "name": "Rachael Rodney Harris",
       "position": "Academic",
       "focus": "ANU Research Portal+ profile",
-      "school": "Fenner School of Environment &amp; Society",
+      "school": "Fenner School of Environment & Society",
       "schoolCode": "FEAS",
       "college": "ANU College of Systems and Society",
       "profileUrl": "https://researchportalplus.anu.edu.au/en/persons/rachael-rodney-harris/",
@@ -65218,7 +61848,7 @@ window.ANREVIEW_DATA = {
       "name": "Rachel Clarke",
       "position": "Academic",
       "focus": "ANU Research Portal+ profile",
-      "school": "Fenner School of Environment &amp; Society",
+      "school": "Fenner School of Environment & Society",
       "schoolCode": "FEAS",
       "college": "ANU College of Systems and Society",
       "profileUrl": "https://researchportalplus.anu.edu.au/en/persons/rachel-clarke/",
@@ -65351,32 +61981,12 @@ window.ANREVIEW_DATA = {
         "Engagement"
       ],
       "tags": [
-        "comp"
-      ]
-    },
-    {
-      "id": "anu-portal-rahul-shome",
-      "type": "academic",
-      "name": "Rahul Shome",
-      "position": "Academic",
-      "focus": "ANU Research Portal+ profile",
-      "school": "School of Computing",
-      "schoolCode": "COMP",
-      "college": "ANU College of Systems and Society",
-      "profileUrl": "https://researchportalplus.anu.edu.au/en/persons/rahul-shome/",
-      "email": "",
-      "office": "",
-      "linkedCourses": [],
-      "reviewMetrics": [
-        "Clarity",
-        "Support",
-        "Engagement"
-      ],
-      "tags": [
+        "comp",
         "school-of-computing",
         "college-of-systems-and-society",
         "research-portal"
-      ]
+      ],
+      "summary": ""
     },
     {
       "id": "anu-portal-rakshanya-sekar",
@@ -65384,7 +61994,7 @@ window.ANREVIEW_DATA = {
       "name": "Rakshanya Sekar",
       "position": "Academic",
       "focus": "ANU Research Portal+ profile",
-      "school": "Biology Teaching &amp; Learning Centre",
+      "school": "Biology Teaching & Learning Centre",
       "schoolCode": "BTAL",
       "college": "ANU College of Science and Medicine",
       "profileUrl": "https://researchportalplus.anu.edu.au/en/persons/rakshanya-sekar/",
@@ -65432,7 +62042,7 @@ window.ANREVIEW_DATA = {
       "name": "Ralph Sutherland",
       "position": "Academic",
       "focus": "ANU Research Portal+ profile",
-      "school": "Research School of Astronomy &amp; Astrophysics",
+      "school": "Research School of Astronomy & Astrophysics",
       "schoolCode": "AAA",
       "college": "ANU College of Science and Medicine",
       "profileUrl": "https://researchportalplus.anu.edu.au/en/persons/ralph-sutherland/",
@@ -65493,32 +62103,12 @@ window.ANREVIEW_DATA = {
         "Engagement"
       ],
       "tags": [
-        "comp"
-      ]
-    },
-    {
-      "id": "anu-portal-ranald-clouston",
-      "type": "academic",
-      "name": "Ranald Clouston",
-      "position": "Academic",
-      "focus": "ANU Research Portal+ profile",
-      "school": "School of Computing",
-      "schoolCode": "COMP",
-      "college": "ANU College of Systems and Society",
-      "profileUrl": "https://researchportalplus.anu.edu.au/en/persons/ranald-clouston/",
-      "email": "",
-      "office": "",
-      "linkedCourses": [],
-      "reviewMetrics": [
-        "Clarity",
-        "Support",
-        "Engagement"
-      ],
-      "tags": [
+        "comp",
         "school-of-computing",
         "college-of-systems-and-society",
         "research-portal"
-      ]
+      ],
+      "summary": ""
     },
     {
       "id": "phys-ray-roberts",
@@ -65666,7 +62256,7 @@ window.ANREVIEW_DATA = {
       "name": "Rebecca Hamilton",
       "position": "Academic",
       "focus": "ANU Research Portal+ profile",
-      "school": "School of Culture, History &amp; Language",
+      "school": "School of Culture, History & Language",
       "schoolCode": "CHAL",
       "college": "ANU College of Arts and Social Sciences",
       "profileUrl": "https://researchportalplus.anu.edu.au/en/persons/rebecca-hamilton/",
@@ -65724,38 +62314,18 @@ window.ANREVIEW_DATA = {
         "law",
         "critical legal scholarship envir",
         "climate & health gender",
-        "sexuality & the law"
-      ],
-      "linkedCourses": [],
-      "reviewMetrics": [
-        "Clarity",
-        "Support",
-        "Engagement"
-      ]
-    },
-    {
-      "id": "anu-portal-rebecca-monson",
-      "type": "academic",
-      "name": "Rebecca Monson",
-      "position": "Academic",
-      "focus": "ANU Research Portal+ profile",
-      "school": "The Migration Hub",
-      "schoolCode": "MH",
-      "college": "ANU Law School",
-      "profileUrl": "https://researchportalplus.anu.edu.au/en/persons/rebecca-monson/",
-      "email": "",
-      "office": "",
-      "linkedCourses": [],
-      "reviewMetrics": [
-        "Clarity",
-        "Support",
-        "Engagement"
-      ],
-      "tags": [
+        "sexuality & the law",
         "the-migration-hub",
         "law-school",
         "research-portal"
-      ]
+      ],
+      "linkedCourses": [],
+      "reviewMetrics": [
+        "Clarity",
+        "Support",
+        "Engagement"
+      ],
+      "summary": ""
     },
     {
       "id": "anu-portal-rebecca-murray",
@@ -65892,38 +62462,18 @@ window.ANREVIEW_DATA = {
       "tags": [
         "law",
         "australian indigenous rights env",
-        "climate & health health law & et"
-      ],
-      "linkedCourses": [],
-      "reviewMetrics": [
-        "Clarity",
-        "Support",
-        "Engagement"
-      ]
-    },
-    {
-      "id": "anu-portal-rebekah-mcwhirter",
-      "type": "academic",
-      "name": "Rebekah McWhirter",
-      "position": "Academic",
-      "focus": "ANU Research Portal+ profile",
-      "school": "ANU College of Law, Governance and Policy",
-      "schoolCode": "LGP",
-      "college": "ANU College of Law, Governance and Policy",
-      "profileUrl": "https://researchportalplus.anu.edu.au/en/persons/rebekah-mcwhirter/",
-      "email": "",
-      "office": "",
-      "linkedCourses": [],
-      "reviewMetrics": [
-        "Clarity",
-        "Support",
-        "Engagement"
-      ],
-      "tags": [
+        "climate & health health law & et",
         "anu-college-of-law-governance-and-policy",
         "college-of-law-governance-and-policy",
         "research-portal"
-      ]
+      ],
+      "linkedCourses": [],
+      "reviewMetrics": [
+        "Clarity",
+        "Support",
+        "Engagement"
+      ],
+      "summary": ""
     },
     {
       "id": "phys-remi-bernard",
@@ -66025,7 +62575,7 @@ window.ANREVIEW_DATA = {
       "name": "Renee Hartley",
       "position": "Academic",
       "focus": "ANU Research Portal+ profile",
-      "school": "Fenner School of Environment &amp; Society",
+      "school": "Fenner School of Environment & Society",
       "schoolCode": "FEAS",
       "college": "ANU College of Systems and Society",
       "profileUrl": "https://researchportalplus.anu.edu.au/en/persons/renee-hartley/",
@@ -66049,7 +62599,7 @@ window.ANREVIEW_DATA = {
       "name": "Rey Ileto",
       "position": "Academic",
       "focus": "ANU Research Portal+ profile",
-      "school": "School of Culture, History &amp; Language",
+      "school": "School of Culture, History & Language",
       "schoolCode": "CHAL",
       "college": "ANU College of Arts and Social Sciences",
       "profileUrl": "https://researchportalplus.anu.edu.au/en/persons/rey-ileto/",
@@ -66145,7 +62695,7 @@ window.ANREVIEW_DATA = {
       "name": "Richard Brabin-Smith",
       "position": "Academic",
       "focus": "ANU Research Portal+ profile",
-      "school": "Strategic &amp; Defence Studies Centre",
+      "school": "Strategic & Defence Studies Centre",
       "schoolCode": "SADS",
       "college": "ANU College of Arts and Social Sciences",
       "profileUrl": "https://researchportalplus.anu.edu.au/en/persons/richard-brabin-smith/",
@@ -66240,7 +62790,7 @@ window.ANREVIEW_DATA = {
       "name": "Richard Foltz",
       "position": "Academic",
       "focus": "ANU Research Portal+ profile",
-      "school": "Centre for Arab &amp; Islamic Studies",
+      "school": "Centre for Arab & Islamic Studies",
       "schoolCode": "AAIS",
       "college": "ANU College of Arts and Social Sciences",
       "profileUrl": "https://researchportalplus.anu.edu.au/en/persons/richard-foltz/",
@@ -66286,7 +62836,7 @@ window.ANREVIEW_DATA = {
       "name": "Richard Gillespie",
       "position": "Academic",
       "focus": "ANU Research Portal+ profile",
-      "school": "School of Culture, History &amp; Language",
+      "school": "School of Culture, History & Language",
       "schoolCode": "CHAL",
       "college": "ANU College of Arts and Social Sciences",
       "profileUrl": "https://researchportalplus.anu.edu.au/en/persons/richard-gillespie/",
@@ -66310,7 +62860,7 @@ window.ANREVIEW_DATA = {
       "name": "Richard Greene",
       "position": "Academic",
       "focus": "ANU Research Portal+ profile",
-      "school": "Fenner School of Environment &amp; Society",
+      "school": "Fenner School of Environment & Society",
       "schoolCode": "FEAS",
       "college": "ANU College of Systems and Society",
       "profileUrl": "https://researchportalplus.anu.edu.au/en/persons/richard-greene/",
@@ -66402,7 +62952,7 @@ window.ANREVIEW_DATA = {
       "name": "Richard Price",
       "position": "Academic",
       "focus": "ANU Research Portal+ profile",
-      "school": "Fenner School of Environment &amp; Society",
+      "school": "Fenner School of Environment & Society",
       "schoolCode": "FEAS",
       "college": "ANU College of Systems and Society",
       "profileUrl": "https://researchportalplus.anu.edu.au/en/persons/richard-price/",
@@ -66449,7 +62999,7 @@ window.ANREVIEW_DATA = {
       "name": "Richard Reid",
       "position": "Academic",
       "focus": "ANU Research Portal+ profile",
-      "school": "Policy &amp; Governance Program",
+      "school": "Policy & Governance Program",
       "schoolCode": "PAGP",
       "college": "ANU College of Law, Governance and Policy",
       "profileUrl": "https://researchportalplus.anu.edu.au/en/persons/richard-reid/",
@@ -66496,7 +63046,7 @@ window.ANREVIEW_DATA = {
       "name": "Richard Swain",
       "position": "Academic",
       "focus": "ANU Research Portal+ profile",
-      "school": "Fenner School of Environment &amp; Society",
+      "school": "Fenner School of Environment & Society",
       "schoolCode": "FEAS",
       "college": "ANU College of Systems and Society",
       "profileUrl": "https://researchportalplus.anu.edu.au/en/persons/richard-swain/",
@@ -66520,7 +63070,7 @@ window.ANREVIEW_DATA = {
       "name": "Richard Thackway",
       "position": "Academic",
       "focus": "ANU Research Portal+ profile",
-      "school": "Fenner School of Environment &amp; Society",
+      "school": "Fenner School of Environment & Society",
       "schoolCode": "FEAS",
       "college": "ANU College of Systems and Society",
       "profileUrl": "https://researchportalplus.anu.edu.au/en/persons/richard-thackway/",
@@ -66686,7 +63236,7 @@ window.ANREVIEW_DATA = {
       "name": "Riza Priandhita",
       "position": "Academic",
       "focus": "ANU Research Portal+ profile",
-      "school": "ANU College of Asia &amp; the Pacific",
+      "school": "ANU College of Asia & the Pacific",
       "schoolCode": "AAP",
       "college": "ANU College of Asia and the Pacific",
       "profileUrl": "https://researchportalplus.anu.edu.au/en/persons/riza-priandhita/",
@@ -66710,7 +63260,7 @@ window.ANREVIEW_DATA = {
       "name": "Roald Maliangkay",
       "position": "Academic",
       "focus": "ANU Research Portal+ profile",
-      "school": "School of Culture, History &amp; Language",
+      "school": "School of Culture, History & Language",
       "schoolCode": "CHAL",
       "college": "ANU College of Arts and Social Sciences",
       "profileUrl": "https://researchportalplus.anu.edu.au/en/persons/roald-maliangkay/",
@@ -66830,7 +63380,7 @@ window.ANREVIEW_DATA = {
       "name": "Robert Clark",
       "position": "Academic",
       "focus": "ANU Research Portal+ profile",
-      "school": "Research School of Finance, Actuarial Studies &amp; Statistics",
+      "school": "Research School of Finance, Actuarial Studies & Statistics",
       "schoolCode": "FASAS",
       "college": "ANU College of Systems and Society",
       "profileUrl": "https://researchportalplus.anu.edu.au/en/persons/robert-clark/",
@@ -66900,7 +63450,7 @@ window.ANREVIEW_DATA = {
       "name": "Robert Dyball",
       "position": "Academic",
       "focus": "ANU Research Portal+ profile",
-      "school": "Fenner School of Environment &amp; Society",
+      "school": "Fenner School of Environment & Society",
       "schoolCode": "FEAS",
       "college": "ANU College of Systems and Society",
       "profileUrl": "https://researchportalplus.anu.edu.au/en/persons/robert-dyball/",
@@ -67017,7 +63567,7 @@ window.ANREVIEW_DATA = {
       "name": "Robert Heinsohn",
       "position": "Academic",
       "focus": "ANU Research Portal+ profile",
-      "school": "Fenner School of Environment &amp; Society",
+      "school": "Fenner School of Environment & Society",
       "schoolCode": "FEAS",
       "college": "ANU College of Systems and Society",
       "profileUrl": "https://researchportalplus.anu.edu.au/en/persons/robert-heinsohn/",
@@ -67041,7 +63591,7 @@ window.ANREVIEW_DATA = {
       "name": "Robert Henderson",
       "position": "Academic",
       "focus": "ANU Research Portal+ profile",
-      "school": "School of Archaeology &amp; Anthropology",
+      "school": "School of Archaeology & Anthropology",
       "schoolCode": "AAA",
       "college": "ANU College of Asia and the Pacific",
       "profileUrl": "https://researchportalplus.anu.edu.au/en/persons/robert-henderson/",
@@ -67195,32 +63745,12 @@ window.ANREVIEW_DATA = {
         "Engagement"
       ],
       "tags": [
-        "physics"
-      ]
-    },
-    {
-      "id": "anu-portal-robert-renz-marcelo-gregorio",
-      "type": "academic",
-      "name": "Robert Renz Marcelo Gregorio",
-      "position": "Academic",
-      "focus": "ANU Research Portal+ profile",
-      "school": "Department of Nuclear Physics &amp; Accelerator Applications",
-      "schoolCode": "DNPAAA",
-      "college": "ANU College of Science and Medicine",
-      "profileUrl": "https://researchportalplus.anu.edu.au/en/persons/robert-renz-marcelo-gregorio/",
-      "email": "",
-      "office": "",
-      "linkedCourses": [],
-      "reviewMetrics": [
-        "Clarity",
-        "Support",
-        "Engagement"
-      ],
-      "tags": [
+        "physics",
         "department-of-nuclear-physics-amp-accelerator-applications",
         "college-of-science-and-medicine",
         "research-portal"
-      ]
+      ],
+      "summary": ""
     },
     {
       "id": "phys-robert-sok",
@@ -67272,7 +63802,7 @@ window.ANREVIEW_DATA = {
       "name": "Robert Wellington",
       "position": "Academic",
       "focus": "ANU Research Portal+ profile",
-      "school": "School of Art &amp; Design",
+      "school": "School of Art & Design",
       "schoolCode": "AAD",
       "college": "ANU College of Systems and Society",
       "profileUrl": "https://researchportalplus.anu.edu.au/en/persons/robert-wellington/",
@@ -67320,7 +63850,7 @@ window.ANREVIEW_DATA = {
       "name": "Robert Williams",
       "position": "Academic",
       "focus": "ANU Research Portal+ profile",
-      "school": "School of Culture, History &amp; Language",
+      "school": "School of Culture, History & Language",
       "schoolCode": "CHAL",
       "college": "ANU College of Asia and the Pacific",
       "profileUrl": "https://researchportalplus.anu.edu.au/en/persons/robert-williams/",
@@ -67461,7 +63991,7 @@ window.ANREVIEW_DATA = {
       "name": "Robyn McKenzie",
       "position": "Academic",
       "focus": "ANU Research Portal+ profile",
-      "school": "Centre for Heritage &amp; Museum Studies",
+      "school": "Centre for Heritage & Museum Studies",
       "schoolCode": "HAMS",
       "college": "ANU College of Arts and Social Sciences",
       "profileUrl": "https://researchportalplus.anu.edu.au/en/persons/robyn-mckenzie/",
@@ -67581,7 +64111,7 @@ window.ANREVIEW_DATA = {
       "name": "Roderic Broadhurst",
       "position": "Academic",
       "focus": "ANU Research Portal+ profile",
-      "school": "School of Regulation &amp; Global Governance",
+      "school": "School of Regulation & Global Governance",
       "schoolCode": "RAGG",
       "college": "ANU College of Law, Governance and Policy",
       "profileUrl": "https://researchportalplus.anu.edu.au/en/persons/roderic-broadhurst/",
@@ -67618,32 +64148,12 @@ window.ANREVIEW_DATA = {
         "Engagement"
       ],
       "tags": [
-        "physics"
-      ]
-    },
-    {
-      "id": "anu-portal-roderick-boswell",
-      "type": "academic",
-      "name": "Roderick Boswell",
-      "position": "Academic",
-      "focus": "ANU Research Portal+ profile",
-      "school": "Department of Nuclear Physics &amp; Accelerator Applications",
-      "schoolCode": "DNPAAA",
-      "college": "ANU College of Science and Medicine",
-      "profileUrl": "https://researchportalplus.anu.edu.au/en/persons/roderick-boswell/",
-      "email": "",
-      "office": "",
-      "linkedCourses": [],
-      "reviewMetrics": [
-        "Clarity",
-        "Support",
-        "Engagement"
-      ],
-      "tags": [
+        "physics",
         "department-of-nuclear-physics-amp-accelerator-applications",
         "college-of-science-and-medicine",
         "research-portal"
-      ]
+      ],
+      "summary": ""
     },
     {
       "id": "anu-portal-roger-burritt",
@@ -67651,7 +64161,7 @@ window.ANREVIEW_DATA = {
       "name": "Roger Burritt",
       "position": "Academic",
       "focus": "ANU Research Portal+ profile",
-      "school": "Fenner School of Environment &amp; Society",
+      "school": "Fenner School of Environment & Society",
       "schoolCode": "FEAS",
       "college": "ANU College of Systems and Society",
       "profileUrl": "https://researchportalplus.anu.edu.au/en/persons/roger-burritt/",
@@ -67723,7 +64233,7 @@ window.ANREVIEW_DATA = {
       "name": "Roger Hillman",
       "position": "Academic",
       "focus": "ANU Research Portal+ profile",
-      "school": "School of Literature, Languages &amp; Linguistics",
+      "school": "School of Literature, Languages & Linguistics",
       "schoolCode": "LLAL",
       "college": "ANU College of Arts and Social Sciences",
       "profileUrl": "https://researchportalplus.anu.edu.au/en/persons/roger-hillman/",
@@ -67795,7 +64305,7 @@ window.ANREVIEW_DATA = {
       "name": "Roland Crocker",
       "position": "Academic",
       "focus": "ANU Research Portal+ profile",
-      "school": "Research School of Astronomy &amp; Astrophysics",
+      "school": "Research School of Astronomy & Astrophysics",
       "schoolCode": "AAA",
       "college": "ANU College of Science and Medicine",
       "profileUrl": "https://researchportalplus.anu.edu.au/en/persons/roland-crocker/",
@@ -67899,38 +64409,18 @@ window.ANREVIEW_DATA = {
       "profileUrl": "https://law.anu.edu.au/about/our-people/ron-levy",
       "tags": [
         "law",
-        "comparative law constitutional l"
-      ],
-      "linkedCourses": [],
-      "reviewMetrics": [
-        "Clarity",
-        "Support",
-        "Engagement"
-      ]
-    },
-    {
-      "id": "anu-portal-ron-levy",
-      "type": "academic",
-      "name": "Ron Levy",
-      "position": "Academic",
-      "focus": "ANU Research Portal+ profile",
-      "school": "ANU College of Law, Governance and Policy",
-      "schoolCode": "LGP",
-      "college": "ANU College of Law, Governance and Policy",
-      "profileUrl": "https://researchportalplus.anu.edu.au/en/persons/ron-levy/",
-      "email": "",
-      "office": "",
-      "linkedCourses": [],
-      "reviewMetrics": [
-        "Clarity",
-        "Support",
-        "Engagement"
-      ],
-      "tags": [
+        "comparative law constitutional l",
         "anu-college-of-law-governance-and-policy",
         "college-of-law-governance-and-policy",
         "research-portal"
-      ]
+      ],
+      "linkedCourses": [],
+      "reviewMetrics": [
+        "Clarity",
+        "Support",
+        "Engagement"
+      ],
+      "summary": ""
     },
     {
       "id": "ronald-stauber",
@@ -67946,38 +64436,18 @@ window.ANREVIEW_DATA = {
       "profileUrl": "https://rse.anu.edu.au/people/ronald-stauber",
       "tags": [
         "rse",
-        "economics"
-      ],
-      "linkedCourses": [],
-      "reviewMetrics": [
-        "Clarity",
-        "Support",
-        "Engagement"
-      ]
-    },
-    {
-      "id": "anu-portal-ronald-stauber",
-      "type": "academic",
-      "name": "Ronald Stauber",
-      "position": "Academic",
-      "focus": "ANU Research Portal+ profile",
-      "school": "Research School of Economics",
-      "schoolCode": "RSE",
-      "college": "CBE",
-      "profileUrl": "https://researchportalplus.anu.edu.au/en/persons/ronald-stauber/",
-      "email": "",
-      "office": "",
-      "linkedCourses": [],
-      "reviewMetrics": [
-        "Clarity",
-        "Support",
-        "Engagement"
-      ],
-      "tags": [
+        "economics",
         "research-school-of-economics",
         "cbe",
         "research-portal"
-      ]
+      ],
+      "linkedCourses": [],
+      "reviewMetrics": [
+        "Clarity",
+        "Support",
+        "Engagement"
+      ],
+      "summary": ""
     },
     {
       "id": "anu-portal-ronit-ricci",
@@ -67985,7 +64455,7 @@ window.ANREVIEW_DATA = {
       "name": "Ronit Ricci",
       "position": "Academic",
       "focus": "ANU Research Portal+ profile",
-      "school": "School of Culture, History &amp; Language",
+      "school": "School of Culture, History & Language",
       "schoolCode": "CHAL",
       "college": "ANU College of Arts and Social Sciences",
       "profileUrl": "https://researchportalplus.anu.edu.au/en/persons/ronit-ricci/",
@@ -68081,7 +64551,7 @@ window.ANREVIEW_DATA = {
       "name": "Rosalind Smith",
       "position": "Academic",
       "focus": "ANU Research Portal+ profile",
-      "school": "School of Literature, Languages &amp; Linguistics",
+      "school": "School of Literature, Languages & Linguistics",
       "schoolCode": "LLAL",
       "college": "ANU College of Arts and Social Sciences",
       "profileUrl": "https://researchportalplus.anu.edu.au/en/persons/rosalind-smith/",
@@ -68105,7 +64575,7 @@ window.ANREVIEW_DATA = {
       "name": "Rosanna Stevens",
       "position": "Academic",
       "focus": "ANU Research Portal+ profile",
-      "school": "School of Culture, History &amp; Language",
+      "school": "School of Culture, History & Language",
       "schoolCode": "CHAL",
       "college": "ANU College of Arts and Social Sciences",
       "profileUrl": "https://researchportalplus.anu.edu.au/en/persons/rosanna-stevens/",
@@ -68142,32 +64612,12 @@ window.ANREVIEW_DATA = {
         "Engagement"
       ],
       "tags": [
-        "physics"
-      ]
-    },
-    {
-      "id": "anu-portal-rose-ahlefeldt",
-      "type": "academic",
-      "name": "Rose Ahlefeldt",
-      "position": "Academic",
-      "focus": "ANU Research Portal+ profile",
-      "school": "Department of Quantum Science &amp; Technology",
-      "schoolCode": "DQSAT",
-      "college": "ANU College of Arts and Social Sciences",
-      "profileUrl": "https://researchportalplus.anu.edu.au/en/persons/rose-ahlefeldt/",
-      "email": "",
-      "office": "",
-      "linkedCourses": [],
-      "reviewMetrics": [
-        "Clarity",
-        "Support",
-        "Engagement"
-      ],
-      "tags": [
+        "physics",
         "department-of-quantum-science-amp-technology",
         "college-of-arts-and-social-sciences",
         "research-portal"
-      ]
+      ],
+      "summary": ""
     },
     {
       "id": "anu-portal-rosemary-korda",
@@ -68223,7 +64673,7 @@ window.ANREVIEW_DATA = {
       "name": "Rosie Cooney",
       "position": "Academic",
       "focus": "ANU Research Portal+ profile",
-      "school": "Fenner School of Environment &amp; Society",
+      "school": "Fenner School of Environment & Society",
       "schoolCode": "FEAS",
       "college": "ANU College of Systems and Society",
       "profileUrl": "https://researchportalplus.anu.edu.au/en/persons/rosie-cooney/",
@@ -68247,7 +64697,7 @@ window.ANREVIEW_DATA = {
       "name": "Rosie Harris",
       "position": "Academic",
       "focus": "ANU Research Portal+ profile",
-      "school": "Biology Teaching &amp; Learning Centre",
+      "school": "Biology Teaching & Learning Centre",
       "schoolCode": "BTAL",
       "college": "ANU College of Science and Medicine",
       "profileUrl": "https://researchportalplus.anu.edu.au/en/persons/rosie-harris/",
@@ -68295,7 +64745,7 @@ window.ANREVIEW_DATA = {
       "name": "Ross Crates",
       "position": "Academic",
       "focus": "ANU Research Portal+ profile",
-      "school": "Fenner School of Environment &amp; Society",
+      "school": "Fenner School of Environment & Society",
       "schoolCode": "FEAS",
       "college": "ANU College of Systems and Society",
       "profileUrl": "https://researchportalplus.anu.edu.au/en/persons/ross-crates/",
@@ -68343,7 +64793,7 @@ window.ANREVIEW_DATA = {
       "name": "Ross Maller",
       "position": "Academic",
       "focus": "ANU Research Portal+ profile",
-      "school": "Research School of Finance, Actuarial Studies &amp; Statistics",
+      "school": "Research School of Finance, Actuarial Studies & Statistics",
       "schoolCode": "FASAS",
       "college": "ANU College of Systems and Society",
       "profileUrl": "https://researchportalplus.anu.edu.au/en/persons/ross-maller/",
@@ -68367,7 +64817,7 @@ window.ANREVIEW_DATA = {
       "name": "Ross Tapsell",
       "position": "Academic",
       "focus": "ANU Research Portal+ profile",
-      "school": "School of Culture, History &amp; Language",
+      "school": "School of Culture, History & Language",
       "schoolCode": "CHAL",
       "college": "ANU College of Arts and Social Sciences",
       "profileUrl": "https://researchportalplus.anu.edu.au/en/persons/ross-tapsell/",
@@ -68428,32 +64878,12 @@ window.ANREVIEW_DATA = {
         "Engagement"
       ],
       "tags": [
-        "physics"
-      ]
-    },
-    {
-      "id": "anu-portal-rowina-nathan",
-      "type": "academic",
-      "name": "Rowina Nathan",
-      "position": "Academic",
-      "focus": "ANU Research Portal+ profile",
-      "school": "Centre for Gravitational Astrophysics",
-      "schoolCode": "GA",
-      "college": "ANU College of Science and Medicine",
-      "profileUrl": "https://researchportalplus.anu.edu.au/en/persons/rowina-nathan/",
-      "email": "",
-      "office": "",
-      "linkedCourses": [],
-      "reviewMetrics": [
-        "Clarity",
-        "Support",
-        "Engagement"
-      ],
-      "tags": [
+        "physics",
         "centre-for-gravitational-astrophysics",
         "college-of-science-and-medicine",
         "research-portal"
-      ]
+      ],
+      "summary": ""
     },
     {
       "id": "anu-portal-roxana-claudia-tompea",
@@ -68655,38 +65085,18 @@ window.ANREVIEW_DATA = {
       "profileUrl": "https://law.anu.edu.au/about/our-people/ruoying-chen",
       "tags": [
         "law",
-        "administrative law asian law com"
-      ],
-      "linkedCourses": [],
-      "reviewMetrics": [
-        "Clarity",
-        "Support",
-        "Engagement"
-      ]
-    },
-    {
-      "id": "anu-portal-ruoying-chen",
-      "type": "academic",
-      "name": "Ruoying Chen",
-      "position": "Academic",
-      "focus": "ANU Research Portal+ profile",
-      "school": "ANU College of Law, Governance and Policy",
-      "schoolCode": "LGP",
-      "college": "ANU College of Law, Governance and Policy",
-      "profileUrl": "https://researchportalplus.anu.edu.au/en/persons/ruoying-chen/",
-      "email": "",
-      "office": "",
-      "linkedCourses": [],
-      "reviewMetrics": [
-        "Clarity",
-        "Support",
-        "Engagement"
-      ],
-      "tags": [
+        "administrative law asian law com",
         "anu-college-of-law-governance-and-policy",
         "college-of-law-governance-and-policy",
         "research-portal"
-      ]
+      ],
+      "linkedCourses": [],
+      "reviewMetrics": [
+        "Clarity",
+        "Support",
+        "Engagement"
+      ],
+      "summary": ""
     },
     {
       "id": "anu-portal-russell-gruen",
@@ -68718,7 +65128,7 @@ window.ANREVIEW_DATA = {
       "name": "Russell Sadeghi",
       "position": "Academic",
       "focus": "ANU Research Portal+ profile",
-      "school": "ANU College of Business &amp; Economics",
+      "school": "ANU College of Business & Economics",
       "schoolCode": "BAE",
       "college": "ANU College of Business and Economics",
       "profileUrl": "https://researchportalplus.anu.edu.au/en/persons/russell-sadeghi/",
@@ -68909,7 +65319,7 @@ window.ANREVIEW_DATA = {
       "name": "Ryan Mitchell Wittingslow",
       "position": "Academic",
       "focus": "ANU Research Portal+ profile",
-      "school": "ANU College of Arts &amp; Social Sciences",
+      "school": "ANU College of Arts & Social Sciences",
       "schoolCode": "AASS",
       "college": "ANU College of Arts and Social Sciences",
       "profileUrl": "https://researchportalplus.anu.edu.au/en/persons/ryan-mitchell-wittingslow/",
@@ -68970,32 +65380,12 @@ window.ANREVIEW_DATA = {
         "Engagement"
       ],
       "tags": [
-        "physics"
-      ]
-    },
-    {
-      "id": "anu-portal-ryan-thomas",
-      "type": "academic",
-      "name": "Ryan Thomas",
-      "position": "Academic",
-      "focus": "ANU Research Portal+ profile",
-      "school": "Department of Quantum Science &amp; Technology",
-      "schoolCode": "DQSAT",
-      "college": "ANU College of Arts and Social Sciences",
-      "profileUrl": "https://researchportalplus.anu.edu.au/en/persons/ryan-thomas/",
-      "email": "",
-      "office": "",
-      "linkedCourses": [],
-      "reviewMetrics": [
-        "Clarity",
-        "Support",
-        "Engagement"
-      ],
-      "tags": [
+        "physics",
         "department-of-quantum-science-amp-technology",
         "college-of-arts-and-social-sciences",
         "research-portal"
-      ]
+      ],
+      "summary": ""
     },
     {
       "id": "anu-portal-ryan-turner",
@@ -69003,7 +65393,7 @@ window.ANREVIEW_DATA = {
       "name": "Ryan Turner",
       "position": "Academic",
       "focus": "ANU Research Portal+ profile",
-      "school": "Research School of Astronomy &amp; Astrophysics",
+      "school": "Research School of Astronomy & Astrophysics",
       "schoolCode": "AAA",
       "college": "ANU College of Science and Medicine",
       "profileUrl": "https://researchportalplus.anu.edu.au/en/persons/ryan-turner/",
@@ -69027,7 +65417,7 @@ window.ANREVIEW_DATA = {
       "name": "Ryszard Maleszka",
       "position": "Academic",
       "focus": "ANU Research Portal+ profile",
-      "school": "Division of Biomedical Science &amp; Biochemistry",
+      "school": "Division of Biomedical Science & Biochemistry",
       "schoolCode": "DBSAB",
       "college": "ANU College of Science and Medicine",
       "profileUrl": "https://researchportalplus.anu.edu.au/en/persons/ryszard-maleszka/",
@@ -69075,7 +65465,7 @@ window.ANREVIEW_DATA = {
       "name": "Sabeena Shaikh",
       "position": "Academic",
       "focus": "ANU Research Portal+ profile",
-      "school": "School of Culture, History &amp; Language",
+      "school": "School of Culture, History & Language",
       "schoolCode": "CHAL",
       "college": "ANU College of Arts and Social Sciences",
       "profileUrl": "https://researchportalplus.anu.edu.au/en/persons/sabeena-shaikh/",
@@ -69160,32 +65550,12 @@ window.ANREVIEW_DATA = {
         "Engagement"
       ],
       "tags": [
-        "cyb"
-      ]
-    },
-    {
-      "id": "anu-portal-safiya-okai-ugbaje",
-      "type": "academic",
-      "name": "Safiya Okai-Ugbaje",
-      "position": "Academic",
-      "focus": "ANU Research Portal+ profile",
-      "school": "School of Cybernetics",
-      "schoolCode": "CYB",
-      "college": "ANU College of Systems and Society",
-      "profileUrl": "https://researchportalplus.anu.edu.au/en/persons/safiya-okai-ugbaje/",
-      "email": "",
-      "office": "",
-      "linkedCourses": [],
-      "reviewMetrics": [
-        "Clarity",
-        "Support",
-        "Engagement"
-      ],
-      "tags": [
+        "cyb",
         "school-of-cybernetics",
         "college-of-systems-and-society",
         "research-portal"
-      ]
+      ],
+      "summary": ""
     },
     {
       "id": "anu-portal-sahar-hosseini",
@@ -69217,7 +65587,7 @@ window.ANREVIEW_DATA = {
       "name": "Sally Brockwell",
       "position": "Academic",
       "focus": "ANU Research Portal+ profile",
-      "school": "School of Culture, History &amp; Language",
+      "school": "School of Culture, History & Language",
       "schoolCode": "CHAL",
       "college": "ANU College of Arts and Social Sciences",
       "profileUrl": "https://researchportalplus.anu.edu.au/en/persons/sally-brockwell/",
@@ -69361,7 +65731,7 @@ window.ANREVIEW_DATA = {
       "name": "Sally White",
       "position": "Academic",
       "focus": "ANU Research Portal+ profile",
-      "school": "Department of Political &amp; Social Change",
+      "school": "Department of Political & Social Change",
       "schoolCode": "DPASC",
       "college": "ANU College of Arts and Social Sciences",
       "profileUrl": "https://researchportalplus.anu.edu.au/en/persons/sally-white/",
@@ -69685,32 +66055,12 @@ window.ANREVIEW_DATA = {
         "Engagement"
       ],
       "tags": [
-        "physics"
-      ]
-    },
-    {
-      "id": "anu-portal-samuel-legge",
-      "type": "academic",
-      "name": "Samuel Legge",
-      "position": "Academic",
-      "focus": "ANU Research Portal+ profile",
-      "school": "Department of Quantum Science &amp; Technology",
-      "schoolCode": "DQSAT",
-      "college": "ANU College of Arts and Social Sciences",
-      "profileUrl": "https://researchportalplus.anu.edu.au/en/persons/samuel-legge/",
-      "email": "",
-      "office": "",
-      "linkedCourses": [],
-      "reviewMetrics": [
-        "Clarity",
-        "Support",
-        "Engagement"
-      ],
-      "tags": [
+        "physics",
         "department-of-quantum-science-amp-technology",
         "college-of-arts-and-social-sciences",
         "research-portal"
-      ]
+      ],
+      "summary": ""
     },
     {
       "id": "anu-portal-sana-jaffrey",
@@ -69718,7 +66068,7 @@ window.ANREVIEW_DATA = {
       "name": "Sana Jaffrey",
       "position": "Academic",
       "focus": "ANU Research Portal+ profile",
-      "school": "Department of Political &amp; Social Change",
+      "school": "Department of Political & Social Change",
       "schoolCode": "DPASC",
       "college": "ANU College of Arts and Social Sciences",
       "profileUrl": "https://researchportalplus.anu.edu.au/en/persons/sana-jaffrey/",
@@ -69779,32 +66129,12 @@ window.ANREVIEW_DATA = {
         "Engagement"
       ],
       "tags": [
-        "comp"
-      ]
-    },
-    {
-      "id": "anu-portal-sandaru-seneviratne",
-      "type": "academic",
-      "name": "Sandaru Seneviratne",
-      "position": "Academic",
-      "focus": "ANU Research Portal+ profile",
-      "school": "School of Computing",
-      "schoolCode": "COMP",
-      "college": "ANU College of Systems and Society",
-      "profileUrl": "https://researchportalplus.anu.edu.au/en/persons/sandaru-seneviratne/",
-      "email": "",
-      "office": "",
-      "linkedCourses": [],
-      "reviewMetrics": [
-        "Clarity",
-        "Support",
-        "Engagement"
-      ],
-      "tags": [
+        "comp",
         "school-of-computing",
         "college-of-systems-and-society",
         "research-portal"
-      ]
+      ],
+      "summary": ""
     },
     {
       "id": "anu-portal-sandhya-prayaga",
@@ -69919,32 +66249,12 @@ window.ANREVIEW_DATA = {
         "Engagement"
       ],
       "tags": [
-        "physics"
-      ]
-    },
-    {
-      "id": "anu-portal-sanjoy-nandi",
-      "type": "academic",
-      "name": "Sanjoy Nandi",
-      "position": "Academic",
-      "focus": "ANU Research Portal+ profile",
-      "school": "Department of Electronic Materials Engineering",
-      "schoolCode": "DEME",
-      "college": "ANU College of Systems and Society",
-      "profileUrl": "https://researchportalplus.anu.edu.au/en/persons/sanjoy-nandi/",
-      "email": "",
-      "office": "",
-      "linkedCourses": [],
-      "reviewMetrics": [
-        "Clarity",
-        "Support",
-        "Engagement"
-      ],
-      "tags": [
+        "physics",
         "department-of-electronic-materials-engineering",
         "college-of-systems-and-society",
         "research-portal"
-      ]
+      ],
+      "summary": ""
     },
     {
       "id": "anu-portal-sara-beavis",
@@ -69952,7 +66262,7 @@ window.ANREVIEW_DATA = {
       "name": "Sara Beavis",
       "position": "Academic",
       "focus": "ANU Research Portal+ profile",
-      "school": "Fenner School of Environment &amp; Society",
+      "school": "Fenner School of Environment & Society",
       "schoolCode": "FEAS",
       "college": "ANU College of Systems and Society",
       "profileUrl": "https://researchportalplus.anu.edu.au/en/persons/sara-beavis/",
@@ -70120,7 +66430,7 @@ window.ANREVIEW_DATA = {
       "name": "Sarah Clement",
       "position": "Academic",
       "focus": "ANU Research Portal+ profile",
-      "school": "Fenner School of Environment &amp; Society",
+      "school": "Fenner School of Environment & Society",
       "schoolCode": "FEAS",
       "college": "ANU College of Systems and Society",
       "profileUrl": "https://researchportalplus.anu.edu.au/en/persons/sarah-clement/",
@@ -70191,7 +66501,7 @@ window.ANREVIEW_DATA = {
       "name": "Sarah Hodge",
       "position": "Academic",
       "focus": "ANU Research Portal+ profile",
-      "school": "School of Art &amp; Design",
+      "school": "School of Art & Design",
       "schoolCode": "AAD",
       "college": "ANU College of Systems and Society",
       "profileUrl": "https://researchportalplus.anu.edu.au/en/persons/sarah-hodge/",
@@ -70239,7 +66549,7 @@ window.ANREVIEW_DATA = {
       "name": "Sarah Kirkpatrick",
       "position": "Academic",
       "focus": "ANU Research Portal+ profile",
-      "school": "Fenner School of Environment &amp; Society",
+      "school": "Fenner School of Environment & Society",
       "schoolCode": "FEAS",
       "college": "ANU College of Systems and Society",
       "profileUrl": "https://researchportalplus.anu.edu.au/en/persons/sarah-kirkpatrick/",
@@ -70263,7 +66573,7 @@ window.ANREVIEW_DATA = {
       "name": "Sarah Legge",
       "position": "Academic",
       "focus": "ANU Research Portal+ profile",
-      "school": "Fenner School of Environment &amp; Society",
+      "school": "Fenner School of Environment & Society",
       "schoolCode": "FEAS",
       "college": "ANU College of Systems and Society",
       "profileUrl": "https://researchportalplus.anu.edu.au/en/persons/sarah-legge/",
@@ -70335,7 +66645,7 @@ window.ANREVIEW_DATA = {
       "name": "Sarah Mueller",
       "position": "Academic",
       "focus": "ANU Research Portal+ profile",
-      "school": "Division of Biomedical Science &amp; Biochemistry",
+      "school": "Division of Biomedical Science & Biochemistry",
       "schoolCode": "DBSAB",
       "college": "ANU College of Science and Medicine",
       "profileUrl": "https://researchportalplus.anu.edu.au/en/persons/sarah-mueller/",
@@ -70359,7 +66669,7 @@ window.ANREVIEW_DATA = {
       "name": "Sarah Rodigari",
       "position": "Academic",
       "focus": "ANU Research Portal+ profile",
-      "school": "School of Art &amp; Design",
+      "school": "School of Art & Design",
       "schoolCode": "AAD",
       "college": "ANU College of Systems and Society",
       "profileUrl": "https://researchportalplus.anu.edu.au/en/persons/sarah-rodigari/",
@@ -70549,7 +66859,7 @@ window.ANREVIEW_DATA = {
       "name": "Sasan Bakhtiari",
       "position": "Academic",
       "focus": "ANU Research Portal+ profile",
-      "school": "Tax &amp; Transfer Policy Institute",
+      "school": "Tax & Transfer Policy Institute",
       "schoolCode": "TATPI",
       "college": "ANU College of Law, Governance and Policy",
       "profileUrl": "https://researchportalplus.anu.edu.au/en/persons/sasan-bakhtiari/",
@@ -70597,7 +66907,7 @@ window.ANREVIEW_DATA = {
       "name": "Satyapan Munshi",
       "position": "Academic",
       "focus": "ANU Research Portal+ profile",
-      "school": "Research School of Astronomy &amp; Astrophysics",
+      "school": "Research School of Astronomy & Astrophysics",
       "schoolCode": "AAA",
       "college": "ANU College of Science and Medicine",
       "profileUrl": "https://researchportalplus.anu.edu.au/en/persons/satyapan-munshi/",
@@ -70621,7 +66931,7 @@ window.ANREVIEW_DATA = {
       "name": "Saul Cunningham",
       "position": "Academic",
       "focus": "ANU Research Portal+ profile",
-      "school": "Fenner School of Environment &amp; Society",
+      "school": "Fenner School of Environment & Society",
       "schoolCode": "FEAS",
       "college": "ANU College of Systems and Society",
       "profileUrl": "https://researchportalplus.anu.edu.au/en/persons/saul-cunningham/",
@@ -70677,38 +66987,18 @@ window.ANREVIEW_DATA = {
       "profileUrl": "https://law.anu.edu.au/about/our-people/saule-burkitbayeva",
       "tags": [
         "law",
-        "climate change & climate finance"
-      ],
-      "linkedCourses": [],
-      "reviewMetrics": [
-        "Clarity",
-        "Support",
-        "Engagement"
-      ]
-    },
-    {
-      "id": "anu-portal-saule-burkitbayeva",
-      "type": "academic",
-      "name": "Saule Burkitbayeva",
-      "position": "Academic",
-      "focus": "ANU Research Portal+ profile",
-      "school": "ANU College of Law, Governance and Policy",
-      "schoolCode": "LGP",
-      "college": "ANU College of Law, Governance and Policy",
-      "profileUrl": "https://researchportalplus.anu.edu.au/en/persons/saule-burkitbayeva/",
-      "email": "",
-      "office": "",
-      "linkedCourses": [],
-      "reviewMetrics": [
-        "Clarity",
-        "Support",
-        "Engagement"
-      ],
-      "tags": [
+        "climate change & climate finance",
         "anu-college-of-law-governance-and-policy",
         "college-of-law-governance-and-policy",
         "research-portal"
-      ]
+      ],
+      "linkedCourses": [],
+      "reviewMetrics": [
+        "Clarity",
+        "Support",
+        "Engagement"
+      ],
+      "summary": ""
     },
     {
       "id": "anu-portal-saurabh-nath",
@@ -70716,7 +67006,7 @@ window.ANREVIEW_DATA = {
       "name": "Saurabh Nath",
       "position": "Academic",
       "focus": "ANU Research Portal+ profile",
-      "school": "School of Culture, History &amp; Language",
+      "school": "School of Culture, History & Language",
       "schoolCode": "CHAL",
       "college": "ANU College of Asia and the Pacific",
       "profileUrl": "https://researchportalplus.anu.edu.au/en/persons/saurabh-nath/",
@@ -70748,38 +67038,18 @@ window.ANREVIEW_DATA = {
       "profileUrl": "https://law.anu.edu.au/about/our-people/scott-chamberlain",
       "tags": [
         "law",
-        "law & technology"
-      ],
-      "linkedCourses": [],
-      "reviewMetrics": [
-        "Clarity",
-        "Support",
-        "Engagement"
-      ]
-    },
-    {
-      "id": "anu-portal-scott-chamberlain",
-      "type": "academic",
-      "name": "Scott Chamberlain",
-      "position": "Academic",
-      "focus": "ANU Research Portal+ profile",
-      "school": "ANU College of Law, Governance and Policy",
-      "schoolCode": "LGP",
-      "college": "ANU College of Law, Governance and Policy",
-      "profileUrl": "https://researchportalplus.anu.edu.au/en/persons/scott-chamberlain/",
-      "email": "",
-      "office": "",
-      "linkedCourses": [],
-      "reviewMetrics": [
-        "Clarity",
-        "Support",
-        "Engagement"
-      ],
-      "tags": [
+        "law & technology",
         "anu-college-of-law-governance-and-policy",
         "college-of-law-governance-and-policy",
         "research-portal"
-      ]
+      ],
+      "linkedCourses": [],
+      "reviewMetrics": [
+        "Clarity",
+        "Support",
+        "Engagement"
+      ],
+      "summary": ""
     },
     {
       "id": "anu-portal-scott-fitzpatrick",
@@ -70872,32 +67142,12 @@ window.ANREVIEW_DATA = {
         "Engagement"
       ],
       "tags": [
-        "physics"
-      ]
-    },
-    {
-      "id": "anu-portal-sean-hodgman",
-      "type": "academic",
-      "name": "Sean Hodgman",
-      "position": "Academic",
-      "focus": "ANU Research Portal+ profile",
-      "school": "Department of Quantum Science &amp; Technology",
-      "schoolCode": "DQSAT",
-      "college": "ANU College of Arts and Social Sciences",
-      "profileUrl": "https://researchportalplus.anu.edu.au/en/persons/sean-hodgman/",
-      "email": "",
-      "office": "",
-      "linkedCourses": [],
-      "reviewMetrics": [
-        "Clarity",
-        "Support",
-        "Engagement"
-      ],
-      "tags": [
+        "physics",
         "department-of-quantum-science-amp-technology",
         "college-of-arts-and-social-sciences",
         "research-portal"
-      ]
+      ],
+      "summary": ""
     },
     {
       "id": "anu-portal-sean-huan-zhi-tan",
@@ -70953,7 +67203,7 @@ window.ANREVIEW_DATA = {
       "name": "Sean Perera",
       "position": "Academic",
       "focus": "ANU Research Portal+ profile",
-      "school": "ANU College of Arts &amp; Social Sciences",
+      "school": "ANU College of Arts & Social Sciences",
       "schoolCode": "AASS",
       "college": "ANU College of Arts and Social Sciences",
       "profileUrl": "https://researchportalplus.anu.edu.au/en/persons/sean-perera/",
@@ -71025,7 +67275,7 @@ window.ANREVIEW_DATA = {
       "name": "Serena Hamilton",
       "position": "Academic",
       "focus": "ANU Research Portal+ profile",
-      "school": "Fenner School of Environment &amp; Society",
+      "school": "Fenner School of Environment & Society",
       "schoolCode": "FEAS",
       "college": "ANU College of Systems and Society",
       "profileUrl": "https://researchportalplus.anu.edu.au/en/persons/serena-hamilton/",
@@ -71062,32 +67312,12 @@ window.ANREVIEW_DATA = {
         "Engagement"
       ],
       "tags": [
-        "physics"
-      ]
-    },
-    {
-      "id": "anu-portal-sergey-kruk",
-      "type": "academic",
-      "name": "Sergey Kruk",
-      "position": "Academic",
-      "focus": "ANU Research Portal+ profile",
-      "school": "Department of Fundamental &amp; Theoretical Physics",
-      "schoolCode": "DFATP",
-      "college": "ANU College of Science and Medicine",
-      "profileUrl": "https://researchportalplus.anu.edu.au/en/persons/sergey-kruk/",
-      "email": "",
-      "office": "",
-      "linkedCourses": [],
-      "reviewMetrics": [
-        "Clarity",
-        "Support",
-        "Engagement"
-      ],
-      "tags": [
+        "physics",
         "department-of-fundamental-amp-theoretical-physics",
         "college-of-science-and-medicine",
         "research-portal"
-      ]
+      ],
+      "summary": ""
     },
     {
       "id": "anu-portal-sergio-rodriguez-mendez",
@@ -71213,7 +67443,7 @@ window.ANREVIEW_DATA = {
       "name": "Shakthi Vibodha De Silva",
       "position": "Academic",
       "focus": "ANU Research Portal+ profile",
-      "school": "ANU College of Asia &amp; the Pacific",
+      "school": "ANU College of Asia & the Pacific",
       "schoolCode": "AAP",
       "college": "ANU College of Asia and the Pacific",
       "profileUrl": "https://researchportalplus.anu.edu.au/en/persons/shakthi-vibodha-de-silva/",
@@ -71237,7 +67467,7 @@ window.ANREVIEW_DATA = {
       "name": "Shameem Black",
       "position": "Academic",
       "focus": "ANU Research Portal+ profile",
-      "school": "School of Culture, History &amp; Language",
+      "school": "School of Culture, History & Language",
       "schoolCode": "CHAL",
       "college": "ANU College of Arts and Social Sciences",
       "profileUrl": "https://researchportalplus.anu.edu.au/en/persons/shameem-black/",
@@ -71296,32 +67526,12 @@ window.ANREVIEW_DATA = {
         "Engagement"
       ],
       "tags": [
-        "physics"
-      ]
-    },
-    {
-      "id": "anu-portal-shane-latham",
-      "type": "academic",
-      "name": "Shane Latham",
-      "position": "Academic",
-      "focus": "ANU Research Portal+ profile",
-      "school": "Department of Materials Physics",
-      "schoolCode": "DMP",
-      "college": "ANU College of Science and Medicine",
-      "profileUrl": "https://researchportalplus.anu.edu.au/en/persons/shane-latham/",
-      "email": "",
-      "office": "",
-      "linkedCourses": [],
-      "reviewMetrics": [
-        "Clarity",
-        "Support",
-        "Engagement"
-      ],
-      "tags": [
+        "physics",
         "department-of-materials-physics",
         "college-of-science-and-medicine",
         "research-portal"
-      ]
+      ],
+      "summary": ""
     },
     {
       "id": "anu-portal-shanii-phillips",
@@ -71366,32 +67576,12 @@ window.ANREVIEW_DATA = {
         "Engagement"
       ],
       "tags": [
-        "physics"
-      ]
-    },
-    {
-      "id": "anu-portal-shankar-dutt",
-      "type": "academic",
-      "name": "Shankar Dutt",
-      "position": "Academic",
-      "focus": "ANU Research Portal+ profile",
-      "school": "Department of Materials Physics",
-      "schoolCode": "DMP",
-      "college": "ANU College of Science and Medicine",
-      "profileUrl": "https://researchportalplus.anu.edu.au/en/persons/shankar-dutt/",
-      "email": "",
-      "office": "",
-      "linkedCourses": [],
-      "reviewMetrics": [
-        "Clarity",
-        "Support",
-        "Engagement"
-      ],
-      "tags": [
+        "physics",
         "department-of-materials-physics",
         "college-of-science-and-medicine",
         "research-portal"
-      ]
+      ],
+      "summary": ""
     },
     {
       "id": "phys-shannon-essor-notley",
@@ -71421,7 +67611,7 @@ window.ANREVIEW_DATA = {
       "name": "Sharon Bell",
       "position": "Academic",
       "focus": "ANU Research Portal+ profile",
-      "school": "School of Culture, History &amp; Language",
+      "school": "School of Culture, History & Language",
       "schoolCode": "CHAL",
       "college": "ANU College of Arts and Social Sciences",
       "profileUrl": "https://researchportalplus.anu.edu.au/en/persons/sharon-bell/",
@@ -71445,7 +67635,7 @@ window.ANREVIEW_DATA = {
       "name": "Sharon Bessell",
       "position": "Academic",
       "focus": "ANU Research Portal+ profile",
-      "school": "Policy &amp; Governance Program",
+      "school": "Policy & Governance Program",
       "schoolCode": "PAGP",
       "college": "ANU College of Law, Governance and Policy",
       "profileUrl": "https://researchportalplus.anu.edu.au/en/persons/sharon-bessell/",
@@ -71469,7 +67659,7 @@ window.ANREVIEW_DATA = {
       "name": "Sharon Forwood",
       "position": "Academic",
       "focus": "ANU Research Portal+ profile",
-      "school": "Institute for Climate, Energy &amp; Disaster Solutions",
+      "school": "Institute for Climate, Energy & Disaster Solutions",
       "schoolCode": "ICEADS",
       "college": "ANU College of Arts and Social Sciences",
       "profileUrl": "https://researchportalplus.anu.edu.au/en/persons/sharon-forwood/",
@@ -71493,7 +67683,7 @@ window.ANREVIEW_DATA = {
       "name": "Sharon Friel",
       "position": "Academic",
       "focus": "ANU Research Portal+ profile",
-      "school": "School of Regulation &amp; Global Governance",
+      "school": "School of Regulation & Global Governance",
       "schoolCode": "RAGG",
       "college": "ANU College of Law, Governance and Policy",
       "profileUrl": "https://researchportalplus.anu.edu.au/en/persons/sharon-friel/",
@@ -71565,7 +67755,7 @@ window.ANREVIEW_DATA = {
       "name": "Shasta Shakya",
       "position": "Academic",
       "focus": "ANU Research Portal+ profile",
-      "school": "Research School of Finance, Actuarial Studies &amp; Statistics",
+      "school": "Research School of Finance, Actuarial Studies & Statistics",
       "schoolCode": "FASAS",
       "college": "ANU College of Systems and Society",
       "profileUrl": "https://researchportalplus.anu.edu.au/en/persons/shasta-shakya/",
@@ -71602,32 +67792,12 @@ window.ANREVIEW_DATA = {
         "Engagement"
       ],
       "tags": [
-        "physics"
-      ]
-    },
-    {
-      "id": "anu-portal-sheon-chua",
-      "type": "academic",
-      "name": "Sheon Chua",
-      "position": "Academic",
-      "focus": "ANU Research Portal+ profile",
-      "school": "Centre for Gravitational Astrophysics",
-      "schoolCode": "GA",
-      "college": "ANU College of Science and Medicine",
-      "profileUrl": "https://researchportalplus.anu.edu.au/en/persons/sheon-chua/",
-      "email": "",
-      "office": "",
-      "linkedCourses": [],
-      "reviewMetrics": [
-        "Clarity",
-        "Support",
-        "Engagement"
-      ],
-      "tags": [
+        "physics",
         "centre-for-gravitational-astrophysics",
         "college-of-science-and-medicine",
         "research-portal"
-      ]
+      ],
+      "summary": ""
     },
     {
       "id": "anu-portal-shimona-kealy",
@@ -71635,7 +67805,7 @@ window.ANREVIEW_DATA = {
       "name": "Shimona Kealy",
       "position": "Academic",
       "focus": "ANU Research Portal+ profile",
-      "school": "School of Culture, History &amp; Language",
+      "school": "School of Culture, History & Language",
       "schoolCode": "CHAL",
       "college": "ANU College of Arts and Social Sciences",
       "profileUrl": "https://researchportalplus.anu.edu.au/en/persons/shimona-kealy/",
@@ -71731,7 +67901,7 @@ window.ANREVIEW_DATA = {
       "name": "Shivangi Seth",
       "position": "Academic",
       "focus": "ANU Research Portal+ profile",
-      "school": "ANU College of Asia &amp; the Pacific",
+      "school": "ANU College of Asia & the Pacific",
       "schoolCode": "AAP",
       "college": "ANU College of Asia and the Pacific",
       "profileUrl": "https://researchportalplus.anu.edu.au/en/persons/shivangi-seth/",
@@ -71768,32 +67938,12 @@ window.ANREVIEW_DATA = {
         "Engagement"
       ],
       "tags": [
-        "comp"
-      ]
-    },
-    {
-      "id": "anu-portal-shoaib-akram",
-      "type": "academic",
-      "name": "Shoaib Akram",
-      "position": "Academic",
-      "focus": "ANU Research Portal+ profile",
-      "school": "School of Computing",
-      "schoolCode": "COMP",
-      "college": "ANU College of Systems and Society",
-      "profileUrl": "https://researchportalplus.anu.edu.au/en/persons/shoaib-akram/",
-      "email": "",
-      "office": "",
-      "linkedCourses": [],
-      "reviewMetrics": [
-        "Clarity",
-        "Support",
-        "Engagement"
-      ],
-      "tags": [
+        "comp",
         "school-of-computing",
         "college-of-systems-and-society",
         "research-portal"
-      ]
+      ],
+      "summary": ""
     },
     {
       "id": "anu-portal-shouvik-aditya",
@@ -71801,7 +67951,7 @@ window.ANREVIEW_DATA = {
       "name": "Shouvik Aditya",
       "position": "Academic",
       "focus": "ANU Research Portal+ profile",
-      "school": "Biology Teaching &amp; Learning Centre",
+      "school": "Biology Teaching & Learning Centre",
       "schoolCode": "BTAL",
       "college": "ANU College of Science and Medicine",
       "profileUrl": "https://researchportalplus.anu.edu.au/en/persons/shouvik-aditya/",
@@ -71873,7 +68023,7 @@ window.ANREVIEW_DATA = {
       "name": "Shubo Li",
       "position": "Academic",
       "focus": "ANU Research Portal+ profile",
-      "school": "School of Literature, Languages &amp; Linguistics",
+      "school": "School of Literature, Languages & Linguistics",
       "schoolCode": "LLAL",
       "college": "ANU College of Arts and Social Sciences",
       "profileUrl": "https://researchportalplus.anu.edu.au/en/persons/shubo-li/",
@@ -71897,7 +68047,7 @@ window.ANREVIEW_DATA = {
       "name": "Shuge Wei",
       "position": "Academic",
       "focus": "ANU Research Portal+ profile",
-      "school": "School of Culture, History &amp; Language",
+      "school": "School of Culture, History & Language",
       "schoolCode": "CHAL",
       "college": "ANU College of Arts and Social Sciences",
       "profileUrl": "https://researchportalplus.anu.edu.au/en/persons/shuge-wei/",
@@ -71921,7 +68071,7 @@ window.ANREVIEW_DATA = {
       "name": "Shunichi Ishihara",
       "position": "Academic",
       "focus": "ANU Research Portal+ profile",
-      "school": "School of Culture, History &amp; Language",
+      "school": "School of Culture, History & Language",
       "schoolCode": "CHAL",
       "college": "ANU College of Arts and Social Sciences",
       "profileUrl": "https://researchportalplus.anu.edu.au/en/persons/shunichi-ishihara/",
@@ -72113,7 +68263,7 @@ window.ANREVIEW_DATA = {
       "name": "Simon Apte",
       "position": "Academic",
       "focus": "ANU Research Portal+ profile",
-      "school": "School of Culture, History &amp; Language",
+      "school": "School of Culture, History & Language",
       "schoolCode": "CHAL",
       "college": "ANU College of Arts and Social Sciences",
       "profileUrl": "https://researchportalplus.anu.edu.au/en/persons/simon-apte/",
@@ -72137,7 +68287,7 @@ window.ANREVIEW_DATA = {
       "name": "Simon Avenell",
       "position": "Academic",
       "focus": "ANU Research Portal+ profile",
-      "school": "School of Culture, History &amp; Language",
+      "school": "School of Culture, History & Language",
       "schoolCode": "CHAL",
       "college": "ANU College of Arts and Social Sciences",
       "profileUrl": "https://researchportalplus.anu.edu.au/en/persons/simon-avenell/",
@@ -72161,7 +68311,7 @@ window.ANREVIEW_DATA = {
       "name": "Simon Coxe",
       "position": "Academic",
       "focus": "ANU Research Portal+ profile",
-      "school": "School of Culture, History &amp; Language",
+      "school": "School of Culture, History & Language",
       "schoolCode": "CHAL",
       "college": "ANU College of Arts and Social Sciences",
       "profileUrl": "https://researchportalplus.anu.edu.au/en/persons/simon-coxe/",
@@ -72246,32 +68396,12 @@ window.ANREVIEW_DATA = {
         "Engagement"
       ],
       "tags": [
-        "physics"
-      ]
-    },
-    {
-      "id": "anu-portal-simon-haine",
-      "type": "academic",
-      "name": "Simon Haine",
-      "position": "Academic",
-      "focus": "ANU Research Portal+ profile",
-      "school": "Department of Fundamental &amp; Theoretical Physics",
-      "schoolCode": "DFATP",
-      "college": "ANU College of Science and Medicine",
-      "profileUrl": "https://researchportalplus.anu.edu.au/en/persons/simon-haine/",
-      "email": "",
-      "office": "",
-      "linkedCourses": [],
-      "reviewMetrics": [
-        "Clarity",
-        "Support",
-        "Engagement"
-      ],
-      "tags": [
+        "physics",
         "department-of-fundamental-amp-theoretical-physics",
         "college-of-science-and-medicine",
         "research-portal"
-      ]
+      ],
+      "summary": ""
     },
     {
       "id": "anu-portal-simon-jiang",
@@ -72389,32 +68519,12 @@ window.ANREVIEW_DATA = {
       ],
       "tags": [
         "chl",
-        "asia-pacific"
-      ]
-    },
-    {
-      "id": "anu-portal-sina-emde",
-      "type": "academic",
-      "name": "Sina Emde",
-      "position": "Academic",
-      "focus": "ANU Research Portal+ profile",
-      "school": "School of Culture, History &amp; Language",
-      "schoolCode": "CHAL",
-      "college": "ANU College of Arts and Social Sciences",
-      "profileUrl": "https://researchportalplus.anu.edu.au/en/persons/sina-emde/",
-      "email": "",
-      "office": "",
-      "linkedCourses": [],
-      "reviewMetrics": [
-        "Clarity",
-        "Support",
-        "Engagement"
-      ],
-      "tags": [
+        "asia-pacific",
         "school-of-culture-history-amp-language",
         "college-of-arts-and-social-sciences",
         "research-portal"
-      ]
+      ],
+      "summary": ""
     },
     {
       "id": "anu-portal-sinan-brown",
@@ -72542,7 +68652,7 @@ window.ANREVIEW_DATA = {
       "name": "Sofia Samper Carro",
       "position": "Academic",
       "focus": "ANU Research Portal+ profile",
-      "school": "School of Culture, History &amp; Language",
+      "school": "School of Culture, History & Language",
       "schoolCode": "CHAL",
       "college": "ANU College of Arts and Social Sciences",
       "profileUrl": "https://researchportalplus.anu.edu.au/en/persons/sofia-samper-carro/",
@@ -72589,7 +68699,7 @@ window.ANREVIEW_DATA = {
       "name": "Sombol Mokhles",
       "position": "Academic",
       "focus": "ANU Research Portal+ profile",
-      "school": "Fenner School of Environment &amp; Society",
+      "school": "Fenner School of Environment & Society",
       "schoolCode": "FEAS",
       "college": "ANU College of Systems and Society",
       "profileUrl": "https://researchportalplus.anu.edu.au/en/persons/sombol-mokhles/",
@@ -72709,7 +68819,7 @@ window.ANREVIEW_DATA = {
       "name": "Sophie Constable",
       "position": "Academic",
       "focus": "ANU Research Portal+ profile",
-      "school": "Biology Teaching &amp; Learning Centre",
+      "school": "Biology Teaching & Learning Centre",
       "schoolCode": "BTAL",
       "college": "ANU College of Science and Medicine",
       "profileUrl": "https://researchportalplus.anu.edu.au/en/persons/sophie-constable/",
@@ -72733,7 +68843,7 @@ window.ANREVIEW_DATA = {
       "name": "Sophie Robinson",
       "position": "Academic",
       "focus": "ANU Research Portal+ profile",
-      "school": "School of Regulation &amp; Global Governance",
+      "school": "School of Regulation & Global Governance",
       "schoolCode": "RAGG",
       "college": "ANU College of Law, Governance and Policy",
       "profileUrl": "https://researchportalplus.anu.edu.au/en/persons/sophie-robinson/",
@@ -72757,7 +68867,7 @@ window.ANREVIEW_DATA = {
       "name": "Sophie Tallis",
       "position": "Academic",
       "focus": "ANU Research Portal+ profile",
-      "school": "ANU College of Arts &amp; Social Sciences",
+      "school": "ANU College of Arts & Social Sciences",
       "schoolCode": "AASS",
       "college": "ANU College of Arts and Social Sciences",
       "profileUrl": "https://researchportalplus.anu.edu.au/en/persons/sophie-tallis/",
@@ -72781,7 +68891,7 @@ window.ANREVIEW_DATA = {
       "name": "Sophie Yates",
       "position": "Academic",
       "focus": "ANU Research Portal+ profile",
-      "school": "Policy &amp; Governance Program",
+      "school": "Policy & Governance Program",
       "schoolCode": "PAGP",
       "college": "ANU College of Law, Governance and Policy",
       "profileUrl": "https://researchportalplus.anu.edu.au/en/persons/sophie-yates/",
@@ -72877,7 +68987,7 @@ window.ANREVIEW_DATA = {
       "name": "Stacey Ward",
       "position": "Academic",
       "focus": "ANU Research Portal+ profile",
-      "school": "School of Archaeology &amp; Anthropology",
+      "school": "School of Archaeology & Anthropology",
       "schoolCode": "AAA",
       "college": "ANU College of Arts and Social Sciences",
       "profileUrl": "https://researchportalplus.anu.edu.au/en/persons/stacey-ward/",
@@ -72901,7 +69011,7 @@ window.ANREVIEW_DATA = {
       "name": "Stefan Broer",
       "position": "Academic",
       "focus": "ANU Research Portal+ profile",
-      "school": "Division of Biomedical Science &amp; Biochemistry",
+      "school": "Division of Biomedical Science & Biochemistry",
       "schoolCode": "DBSAB",
       "college": "ANU College of Science and Medicine",
       "profileUrl": "https://researchportalplus.anu.edu.au/en/persons/stefan-broer/",
@@ -72938,32 +69048,12 @@ window.ANREVIEW_DATA = {
         "Engagement"
       ],
       "tags": [
-        "physics"
-      ]
-    },
-    {
-      "id": "anu-portal-stefan-pavetich",
-      "type": "academic",
-      "name": "Stefan Pavetich",
-      "position": "Academic",
-      "focus": "ANU Research Portal+ profile",
-      "school": "Department of Nuclear Physics &amp; Accelerator Applications",
-      "schoolCode": "DNPAAA",
-      "college": "ANU College of Science and Medicine",
-      "profileUrl": "https://researchportalplus.anu.edu.au/en/persons/stefan-pavetich/",
-      "email": "",
-      "office": "",
-      "linkedCourses": [],
-      "reviewMetrics": [
-        "Clarity",
-        "Support",
-        "Engagement"
-      ],
-      "tags": [
+        "physics",
         "department-of-nuclear-physics-amp-accelerator-applications",
         "college-of-science-and-medicine",
         "research-portal"
-      ]
+      ],
+      "summary": ""
     },
     {
       "id": "anu-portal-stefanie-puszka",
@@ -72995,7 +69085,7 @@ window.ANREVIEW_DATA = {
       "name": "Stephan Fruehling",
       "position": "Academic",
       "focus": "ANU Research Portal+ profile",
-      "school": "Strategic &amp; Defence Studies Centre",
+      "school": "Strategic & Defence Studies Centre",
       "schoolCode": "SADS",
       "college": "ANU College of Arts and Social Sciences",
       "profileUrl": "https://researchportalplus.anu.edu.au/en/persons/stephan-fruhling/",
@@ -73067,7 +69157,7 @@ window.ANREVIEW_DATA = {
       "name": "Stephanie Majcher",
       "position": "Academic",
       "focus": "ANU Research Portal+ profile",
-      "school": "School of Culture, History &amp; Language",
+      "school": "School of Culture, History & Language",
       "schoolCode": "CHAL",
       "college": "ANU College of Arts and Social Sciences",
       "profileUrl": "https://researchportalplus.anu.edu.au/en/persons/stephanie-majcher/",
@@ -73145,38 +69235,18 @@ window.ANREVIEW_DATA = {
       "profileUrl": "https://law.anu.edu.au/about/our-people/stephen-bottomley",
       "tags": [
         "law",
-        "law & society legal theory priva"
-      ],
-      "linkedCourses": [],
-      "reviewMetrics": [
-        "Clarity",
-        "Support",
-        "Engagement"
-      ]
-    },
-    {
-      "id": "anu-portal-stephen-bottomley",
-      "type": "academic",
-      "name": "Stephen Bottomley",
-      "position": "Academic",
-      "focus": "ANU Research Portal+ profile",
-      "school": "ANU College of Law, Governance and Policy",
-      "schoolCode": "LGP",
-      "college": "ANU College of Law, Governance and Policy",
-      "profileUrl": "https://researchportalplus.anu.edu.au/en/persons/stephen-bottomley/",
-      "email": "",
-      "office": "",
-      "linkedCourses": [],
-      "reviewMetrics": [
-        "Clarity",
-        "Support",
-        "Engagement"
-      ],
-      "tags": [
+        "law & society legal theory priva",
         "anu-college-of-law-governance-and-policy",
         "college-of-law-governance-and-policy",
         "research-portal"
-      ]
+      ],
+      "linkedCourses": [],
+      "reviewMetrics": [
+        "Clarity",
+        "Support",
+        "Engagement"
+      ],
+      "summary": ""
     },
     {
       "id": "phys-stephen-buckman",
@@ -73230,7 +69300,7 @@ window.ANREVIEW_DATA = {
       "name": "Stephen Dovers",
       "position": "Academic",
       "focus": "ANU Research Portal+ profile",
-      "school": "Fenner School of Environment &amp; Society",
+      "school": "Fenner School of Environment & Society",
       "schoolCode": "FEAS",
       "college": "ANU College of Systems and Society",
       "profileUrl": "https://researchportalplus.anu.edu.au/en/persons/stephen-dovers/",
@@ -73300,7 +69370,7 @@ window.ANREVIEW_DATA = {
       "name": "Stephen Fairweather",
       "position": "Academic",
       "focus": "ANU Research Portal+ profile",
-      "school": "Biology Teaching &amp; Learning Centre",
+      "school": "Biology Teaching & Learning Centre",
       "schoolCode": "BTAL",
       "college": "ANU College of Science and Medicine",
       "profileUrl": "https://researchportalplus.anu.edu.au/en/persons/stephen-fairweather/",
@@ -73337,32 +69407,12 @@ window.ANREVIEW_DATA = {
         "Engagement"
       ],
       "tags": [
-        "comp"
-      ]
-    },
-    {
-      "id": "anu-portal-stephen-gould",
-      "type": "academic",
-      "name": "Stephen Gould",
-      "position": "Academic",
-      "focus": "ANU Research Portal+ profile",
-      "school": "School of Computing",
-      "schoolCode": "COMP",
-      "college": "ANU College of Systems and Society",
-      "profileUrl": "https://researchportalplus.anu.edu.au/en/persons/stephen-gould/",
-      "email": "",
-      "office": "",
-      "linkedCourses": [],
-      "reviewMetrics": [
-        "Clarity",
-        "Support",
-        "Engagement"
-      ],
-      "tags": [
+        "comp",
         "school-of-computing",
         "college-of-systems-and-society",
         "research-portal"
-      ]
+      ],
+      "summary": ""
     },
     {
       "id": "anu-portal-stephen-howes",
@@ -73497,38 +69547,18 @@ window.ANREVIEW_DATA = {
       "tags": [
         "law",
         "administrative law constitutiona",
-        "law and bioethics"
-      ],
-      "linkedCourses": [],
-      "reviewMetrics": [
-        "Clarity",
-        "Support",
-        "Engagement"
-      ]
-    },
-    {
-      "id": "anu-portal-stephen-thomson",
-      "type": "academic",
-      "name": "Stephen Thomson",
-      "position": "Academic",
-      "focus": "ANU Research Portal+ profile",
-      "school": "ANU College of Law, Governance and Policy",
-      "schoolCode": "LGP",
-      "college": "ANU College of Law, Governance and Policy",
-      "profileUrl": "https://researchportalplus.anu.edu.au/en/persons/stephen-thomson/",
-      "email": "",
-      "office": "",
-      "linkedCourses": [],
-      "reviewMetrics": [
-        "Clarity",
-        "Support",
-        "Engagement"
-      ],
-      "tags": [
+        "law and bioethics",
         "anu-college-of-law-governance-and-policy",
         "college-of-law-governance-and-policy",
         "research-portal"
-      ]
+      ],
+      "linkedCourses": [],
+      "reviewMetrics": [
+        "Clarity",
+        "Support",
+        "Engagement"
+      ],
+      "summary": ""
     },
     {
       "id": "phys-stephen-tims",
@@ -73595,32 +69625,12 @@ window.ANREVIEW_DATA = {
         "Engagement"
       ],
       "tags": [
-        "comp"
-      ]
-    },
-    {
-      "id": "anu-portal-steve-blackburn",
-      "type": "academic",
-      "name": "Steve Blackburn",
-      "position": "Academic",
-      "focus": "ANU Research Portal+ profile",
-      "school": "School of Computing",
-      "schoolCode": "COMP",
-      "college": "ANU College of Systems and Society",
-      "profileUrl": "https://researchportalplus.anu.edu.au/en/persons/steve-blackburn/",
-      "email": "",
-      "office": "",
-      "linkedCourses": [],
-      "reviewMetrics": [
-        "Clarity",
-        "Support",
-        "Engagement"
-      ],
-      "tags": [
+        "comp",
         "school-of-computing",
         "college-of-systems-and-society",
         "research-portal"
-      ]
+      ],
+      "summary": ""
     },
     {
       "id": "anu-portal-steve-lee",
@@ -73652,7 +69662,7 @@ window.ANREVIEW_DATA = {
       "name": "Steve Madden",
       "position": "Academic",
       "focus": "ANU Research Portal+ profile",
-      "school": "Department of Quantum Science &amp; Technology",
+      "school": "Department of Quantum Science & Technology",
       "schoolCode": "DQSAT",
       "college": "ANU College of Arts and Social Sciences",
       "profileUrl": "https://researchportalplus.anu.edu.au/en/persons/steve-madden/",
@@ -73676,7 +69686,7 @@ window.ANREVIEW_DATA = {
       "name": "Steve Sault",
       "position": "Academic",
       "focus": "ANU Research Portal+ profile",
-      "school": "Research School of Finance, Actuarial Studies &amp; Statistics",
+      "school": "Research School of Finance, Actuarial Studies & Statistics",
       "schoolCode": "FASAS",
       "college": "ANU College of Systems and Society",
       "profileUrl": "https://researchportalplus.anu.edu.au/en/persons/steve-sault/",
@@ -73700,7 +69710,7 @@ window.ANREVIEW_DATA = {
       "name": "Steve Tims",
       "position": "Academic",
       "focus": "ANU Research Portal+ profile",
-      "school": "Department of Nuclear Physics &amp; Accelerator Applications",
+      "school": "Department of Nuclear Physics & Accelerator Applications",
       "schoolCode": "DNPAAA",
       "college": "ANU College of Science and Medicine",
       "profileUrl": "https://researchportalplus.anu.edu.au/en/persons/steve-tims/",
@@ -73747,7 +69757,7 @@ window.ANREVIEW_DATA = {
       "name": "Steven Crimp",
       "position": "Academic",
       "focus": "ANU Research Portal+ profile",
-      "school": "Institute for Climate, Energy &amp; Disaster Solutions",
+      "school": "Institute for Climate, Energy & Disaster Solutions",
       "schoolCode": "ICEADS",
       "college": "ANU College of Arts and Social Sciences",
       "profileUrl": "https://researchportalplus.anu.edu.au/en/persons/steven-crimp/",
@@ -73771,7 +69781,7 @@ window.ANREVIEW_DATA = {
       "name": "Steven Lade",
       "position": "Academic",
       "focus": "ANU Research Portal+ profile",
-      "school": "Fenner School of Environment &amp; Society",
+      "school": "Fenner School of Environment & Society",
       "schoolCode": "FEAS",
       "college": "ANU College of Systems and Society",
       "profileUrl": "https://researchportalplus.anu.edu.au/en/persons/steven-lade/",
@@ -73795,7 +69805,7 @@ window.ANREVIEW_DATA = {
       "name": "Steven Roberts",
       "position": "Academic",
       "focus": "ANU Research Portal+ profile",
-      "school": "ANU College of Business &amp; Economics",
+      "school": "ANU College of Business & Economics",
       "schoolCode": "BAE",
       "college": "ANU College of Business and Economics",
       "profileUrl": "https://researchportalplus.anu.edu.au/en/persons/steven-roberts/",
@@ -73843,7 +69853,7 @@ window.ANREVIEW_DATA = {
       "name": "Stevie Skitmore",
       "position": "Academic",
       "focus": "ANU Research Portal+ profile",
-      "school": "School of Archaeology &amp; Anthropology",
+      "school": "School of Archaeology & Anthropology",
       "schoolCode": "AAA",
       "college": "ANU College of Arts and Social Sciences",
       "profileUrl": "https://researchportalplus.anu.edu.au/en/persons/stevie-skitmore/",
@@ -74022,32 +70032,12 @@ window.ANREVIEW_DATA = {
         "Engagement"
       ],
       "tags": [
-        "physics"
-      ]
-    },
-    {
-      "id": "anu-portal-stuart-szigeti",
-      "type": "academic",
-      "name": "Stuart Szigeti",
-      "position": "Academic",
-      "focus": "ANU Research Portal+ profile",
-      "school": "Department of Quantum Science &amp; Technology",
-      "schoolCode": "DQSAT",
-      "college": "ANU College of Arts and Social Sciences",
-      "profileUrl": "https://researchportalplus.anu.edu.au/en/persons/stuart-szigeti/",
-      "email": "",
-      "office": "",
-      "linkedCourses": [],
-      "reviewMetrics": [
-        "Clarity",
-        "Support",
-        "Engagement"
-      ],
-      "tags": [
+        "physics",
         "department-of-quantum-science-amp-technology",
         "college-of-arts-and-social-sciences",
         "research-portal"
-      ]
+      ],
+      "summary": ""
     },
     {
       "id": "anu-portal-stuart-wyithe",
@@ -74079,7 +70069,7 @@ window.ANREVIEW_DATA = {
       "name": "Sue McIntyre",
       "position": "Academic",
       "focus": "ANU Research Portal+ profile",
-      "school": "Fenner School of Environment &amp; Society",
+      "school": "Fenner School of Environment & Society",
       "schoolCode": "FEAS",
       "college": "ANU College of Systems and Society",
       "profileUrl": "https://researchportalplus.anu.edu.au/en/persons/sue-mcintyre/",
@@ -74173,7 +70163,7 @@ window.ANREVIEW_DATA = {
       "name": "Sulamith Graefenstein",
       "position": "Academic",
       "focus": "ANU Research Portal+ profile",
-      "school": "School of Literature, Languages &amp; Linguistics",
+      "school": "School of Literature, Languages & Linguistics",
       "schoolCode": "LLAL",
       "college": "ANU College of Arts and Social Sciences",
       "profileUrl": "https://researchportalplus.anu.edu.au/en/persons/sulamith-graefenstein/",
@@ -74253,38 +70243,18 @@ window.ANREVIEW_DATA = {
       "profileUrl": "https://rsfas.anu.edu.au/people/sumonkanti-das",
       "tags": [
         "rsfas",
-        "statistics"
-      ],
-      "linkedCourses": [],
-      "reviewMetrics": [
-        "Clarity",
-        "Support",
-        "Engagement"
-      ]
-    },
-    {
-      "id": "anu-portal-sumonkanti-das",
-      "type": "academic",
-      "name": "Sumonkanti Das",
-      "position": "Academic",
-      "focus": "ANU Research Portal+ profile",
-      "school": "Centre of Epidemiology for Policy and Practice",
-      "schoolCode": "EPP",
-      "college": "ANU College of Law, Governance and Policy",
-      "profileUrl": "https://researchportalplus.anu.edu.au/en/persons/sumonkanti-das/",
-      "email": "",
-      "office": "",
-      "linkedCourses": [],
-      "reviewMetrics": [
-        "Clarity",
-        "Support",
-        "Engagement"
-      ],
-      "tags": [
+        "statistics",
         "centre-of-epidemiology-for-policy-and-practice",
         "college-of-law-governance-and-policy",
         "research-portal"
-      ]
+      ],
+      "linkedCourses": [],
+      "reviewMetrics": [
+        "Clarity",
+        "Support",
+        "Engagement"
+      ],
+      "summary": ""
     },
     {
       "id": "cyb-sungyeon-hong",
@@ -74305,32 +70275,12 @@ window.ANREVIEW_DATA = {
         "Engagement"
       ],
       "tags": [
-        "cyb"
-      ]
-    },
-    {
-      "id": "anu-portal-sungyeon-hong",
-      "type": "academic",
-      "name": "Sungyeon Hong",
-      "position": "Academic",
-      "focus": "ANU Research Portal+ profile",
-      "school": "Research School of Chemistry",
-      "schoolCode": "CHEM",
-      "college": "ANU College of Science and Medicine",
-      "profileUrl": "https://researchportalplus.anu.edu.au/en/persons/sungyeon-hong/",
-      "email": "",
-      "office": "",
-      "linkedCourses": [],
-      "reviewMetrics": [
-        "Clarity",
-        "Support",
-        "Engagement"
-      ],
-      "tags": [
+        "cyb",
         "research-school-of-chemistry",
         "college-of-science-and-medicine",
         "research-portal"
-      ]
+      ],
+      "summary": ""
     },
     {
       "id": "susan-bartie",
@@ -74347,38 +70297,18 @@ window.ANREVIEW_DATA = {
       "tags": [
         "law",
         "comparative law environment",
-        "climate & health environmental l"
-      ],
-      "linkedCourses": [],
-      "reviewMetrics": [
-        "Clarity",
-        "Support",
-        "Engagement"
-      ]
-    },
-    {
-      "id": "anu-portal-susan-bartie",
-      "type": "academic",
-      "name": "Susan Bartie",
-      "position": "Academic",
-      "focus": "ANU Research Portal+ profile",
-      "school": "ANU College of Law, Governance and Policy",
-      "schoolCode": "LGP",
-      "college": "ANU College of Law, Governance and Policy",
-      "profileUrl": "https://researchportalplus.anu.edu.au/en/persons/susan-bartie/",
-      "email": "",
-      "office": "",
-      "linkedCourses": [],
-      "reviewMetrics": [
-        "Clarity",
-        "Support",
-        "Engagement"
-      ],
-      "tags": [
+        "climate & health environmental l",
         "anu-college-of-law-governance-and-policy",
         "college-of-law-governance-and-policy",
         "research-portal"
-      ]
+      ],
+      "linkedCourses": [],
+      "reviewMetrics": [
+        "Clarity",
+        "Support",
+        "Engagement"
+      ],
+      "summary": ""
     },
     {
       "id": "comp-susan-hansen",
@@ -74399,32 +70329,12 @@ window.ANREVIEW_DATA = {
         "Engagement"
       ],
       "tags": [
-        "comp"
-      ]
-    },
-    {
-      "id": "anu-portal-susan-hansen",
-      "type": "academic",
-      "name": "Susan Hansen",
-      "position": "Academic",
-      "focus": "ANU Research Portal+ profile",
-      "school": "School of Computing",
-      "schoolCode": "COMP",
-      "college": "ANU College of Systems and Society",
-      "profileUrl": "https://researchportalplus.anu.edu.au/en/persons/susan-hansen/",
-      "email": "",
-      "office": "",
-      "linkedCourses": [],
-      "reviewMetrics": [
-        "Clarity",
-        "Support",
-        "Engagement"
-      ],
-      "tags": [
+        "comp",
         "school-of-computing",
         "college-of-systems-and-society",
         "research-portal"
-      ]
+      ],
+      "summary": ""
     },
     {
       "id": "anu-portal-susan-howitt",
@@ -74456,7 +70366,7 @@ window.ANREVIEW_DATA = {
       "name": "Susan O'Connor",
       "position": "Academic",
       "focus": "ANU Research Portal+ profile",
-      "school": "School of Culture, History &amp; Language",
+      "school": "School of Culture, History & Language",
       "schoolCode": "CHAL",
       "college": "ANU College of Arts and Social Sciences",
       "profileUrl": "https://researchportalplus.anu.edu.au/en/persons/susan-oconnor/",
@@ -74504,7 +70414,7 @@ window.ANREVIEW_DATA = {
       "name": "Susan Sell",
       "position": "Academic",
       "focus": "ANU Research Portal+ profile",
-      "school": "School of Regulation &amp; Global Governance",
+      "school": "School of Regulation & Global Governance",
       "schoolCode": "RAGG",
       "college": "ANU College of Law, Governance and Policy",
       "profileUrl": "https://researchportalplus.anu.edu.au/en/persons/susan-sell/",
@@ -74576,7 +70486,7 @@ window.ANREVIEW_DATA = {
       "name": "Susanna Price",
       "position": "Academic",
       "focus": "ANU Research Portal+ profile",
-      "school": "School of Culture, History &amp; Language",
+      "school": "School of Culture, History & Language",
       "schoolCode": "CHAL",
       "college": "ANU College of Arts and Social Sciences",
       "profileUrl": "https://researchportalplus.anu.edu.au/en/persons/susanna-price/",
@@ -74672,7 +70582,7 @@ window.ANREVIEW_DATA = {
       "name": "Suzanne Bond",
       "position": "Academic",
       "focus": "ANU Research Portal+ profile",
-      "school": "Fenner School of Environment &amp; Society",
+      "school": "Fenner School of Environment & Society",
       "schoolCode": "FEAS",
       "college": "ANU College of Systems and Society",
       "profileUrl": "https://researchportalplus.anu.edu.au/en/persons/suzanne-bond/",
@@ -74744,7 +70654,7 @@ window.ANREVIEW_DATA = {
       "name": "Sven Buder",
       "position": "Academic",
       "focus": "ANU Research Portal+ profile",
-      "school": "Research School of Astronomy &amp; Astrophysics",
+      "school": "Research School of Astronomy & Astrophysics",
       "schoolCode": "AAA",
       "college": "ANU College of Science and Medicine",
       "profileUrl": "https://researchportalplus.anu.edu.au/en/persons/sven-buder/",
@@ -74838,7 +70748,7 @@ window.ANREVIEW_DATA = {
       "name": "Takafumi Tsukui",
       "position": "Academic",
       "focus": "ANU Research Portal+ profile",
-      "school": "Research School of Astronomy &amp; Astrophysics",
+      "school": "Research School of Astronomy & Astrophysics",
       "schoolCode": "AAA",
       "college": "ANU College of Science and Medicine",
       "profileUrl": "https://researchportalplus.anu.edu.au/en/persons/takafumi-tsukui/",
@@ -74862,7 +70772,7 @@ window.ANREVIEW_DATA = {
       "name": "Takeshi Yamada",
       "position": "Academic",
       "focus": "ANU Research Portal+ profile",
-      "school": "Research School of Finance, Actuarial Studies &amp; Statistics",
+      "school": "Research School of Finance, Actuarial Studies & Statistics",
       "schoolCode": "FASAS",
       "college": "ANU College of Systems and Society",
       "profileUrl": "https://researchportalplus.anu.edu.au/en/persons/takeshi-yamada/",
@@ -74886,7 +70796,7 @@ window.ANREVIEW_DATA = {
       "name": "Takuya Kojima",
       "position": "Academic",
       "focus": "ANU Research Portal+ profile",
-      "school": "School of Culture, History &amp; Language",
+      "school": "School of Culture, History & Language",
       "schoolCode": "CHAL",
       "college": "ANU College of Arts and Social Sciences",
       "profileUrl": "https://researchportalplus.anu.edu.au/en/persons/takuya-kojima/",
@@ -74934,7 +70844,7 @@ window.ANREVIEW_DATA = {
       "name": "Tamara Jacka",
       "position": "Academic",
       "focus": "ANU Research Portal+ profile",
-      "school": "Department of Political &amp; Social Change",
+      "school": "Department of Political & Social Change",
       "schoolCode": "DPASC",
       "college": "ANU College of Arts and Social Sciences",
       "profileUrl": "https://researchportalplus.anu.edu.au/en/persons/tamara-jacka/",
@@ -75054,7 +70964,7 @@ window.ANREVIEW_DATA = {
       "name": "Tanya Jakimow",
       "position": "Academic",
       "focus": "ANU Research Portal+ profile",
-      "school": "School of Culture, History &amp; Language",
+      "school": "School of Culture, History & Language",
       "schoolCode": "CHAL",
       "college": "ANU College of Arts and Social Sciences",
       "profileUrl": "https://researchportalplus.anu.edu.au/en/persons/tanya-jakimow/",
@@ -75078,7 +70988,7 @@ window.ANREVIEW_DATA = {
       "name": "Tao Zou",
       "position": "Academic",
       "focus": "ANU Research Portal+ profile",
-      "school": "Research School of Finance, Actuarial Studies &amp; Statistics",
+      "school": "Research School of Finance, Actuarial Studies & Statistics",
       "schoolCode": "FASAS",
       "college": "ANU College of Systems and Society",
       "profileUrl": "https://researchportalplus.anu.edu.au/en/persons/tao-zou/",
@@ -75318,7 +71228,7 @@ window.ANREVIEW_DATA = {
       "name": "Terence Halliday",
       "position": "Academic",
       "focus": "ANU Research Portal+ profile",
-      "school": "School of Regulation &amp; Global Governance",
+      "school": "School of Regulation & Global Governance",
       "schoolCode": "RAGG",
       "college": "ANU College of Law, Governance and Policy",
       "profileUrl": "https://researchportalplus.anu.edu.au/en/persons/terence-halliday/",
@@ -75451,32 +71361,12 @@ window.ANREVIEW_DATA = {
         "Engagement"
       ],
       "tags": [
-        "physics"
-      ]
-    },
-    {
-      "id": "anu-portal-terry-mcrae",
-      "type": "academic",
-      "name": "Terry McRae",
-      "position": "Academic",
-      "focus": "ANU Research Portal+ profile",
-      "school": "Centre for Gravitational Astrophysics",
-      "schoolCode": "GA",
-      "college": "ANU College of Science and Medicine",
-      "profileUrl": "https://researchportalplus.anu.edu.au/en/persons/terry-mcrae/",
-      "email": "",
-      "office": "",
-      "linkedCourses": [],
-      "reviewMetrics": [
-        "Clarity",
-        "Support",
-        "Engagement"
-      ],
-      "tags": [
+        "physics",
         "centre-for-gravitational-astrophysics",
         "college-of-science-and-medicine",
         "research-portal"
-      ]
+      ],
+      "summary": ""
     },
     {
       "id": "anu-portal-tessa-morris-suzuki",
@@ -75484,7 +71374,7 @@ window.ANREVIEW_DATA = {
       "name": "Tessa Morris-Suzuki",
       "position": "Academic",
       "focus": "ANU Research Portal+ profile",
-      "school": "School of Culture, History &amp; Language",
+      "school": "School of Culture, History & Language",
       "schoolCode": "CHAL",
       "college": "ANU College of Arts and Social Sciences",
       "profileUrl": "https://researchportalplus.anu.edu.au/en/persons/tessa-morris-suzuki/",
@@ -75543,32 +71433,12 @@ window.ANREVIEW_DATA = {
         "Engagement"
       ],
       "tags": [
-        "comp"
-      ]
-    },
-    {
-      "id": "anu-portal-thang-bui",
-      "type": "academic",
-      "name": "Thang Bui",
-      "position": "Academic",
-      "focus": "ANU Research Portal+ profile",
-      "school": "School of Computing",
-      "schoolCode": "COMP",
-      "college": "ANU College of Systems and Society",
-      "profileUrl": "https://researchportalplus.anu.edu.au/en/persons/thang-bui/",
-      "email": "",
-      "office": "",
-      "linkedCourses": [],
-      "reviewMetrics": [
-        "Clarity",
-        "Support",
-        "Engagement"
-      ],
-      "tags": [
+        "comp",
         "school-of-computing",
         "college-of-systems-and-society",
         "research-portal"
-      ]
+      ],
+      "summary": ""
     },
     {
       "id": "anu-portal-thang-do",
@@ -75624,7 +71494,7 @@ window.ANREVIEW_DATA = {
       "name": "Theodore Ell",
       "position": "Academic",
       "focus": "ANU Research Portal+ profile",
-      "school": "School of Literature, Languages &amp; Linguistics",
+      "school": "School of Literature, Languages & Linguistics",
       "schoolCode": "LLAL",
       "college": "ANU College of Arts and Social Sciences",
       "profileUrl": "https://researchportalplus.anu.edu.au/en/persons/theodore-ell/",
@@ -75696,7 +71566,7 @@ window.ANREVIEW_DATA = {
       "name": "Thi Minh Phuong Nguyen",
       "position": "Academic",
       "focus": "ANU Research Portal+ profile",
-      "school": "Fenner School of Environment &amp; Society",
+      "school": "Fenner School of Environment & Society",
       "schoolCode": "FEAS",
       "college": "ANU College of Systems and Society",
       "profileUrl": "https://researchportalplus.anu.edu.au/en/persons/thi-minh-phuong-nguyen/",
@@ -75781,32 +71651,12 @@ window.ANREVIEW_DATA = {
         "Engagement"
       ],
       "tags": [
-        "cyb"
-      ]
-    },
-    {
-      "id": "anu-portal-thomas-biedermann",
-      "type": "academic",
-      "name": "Thomas Biedermann",
-      "position": "Academic",
-      "focus": "ANU Research Portal+ profile",
-      "school": "School of Cybernetics",
-      "schoolCode": "CYB",
-      "college": "ANU College of Systems and Society",
-      "profileUrl": "https://researchportalplus.anu.edu.au/en/persons/thomas-biedermann/",
-      "email": "",
-      "office": "",
-      "linkedCourses": [],
-      "reviewMetrics": [
-        "Clarity",
-        "Support",
-        "Engagement"
-      ],
-      "tags": [
+        "cyb",
         "school-of-cybernetics",
         "college-of-systems-and-society",
         "research-portal"
-      ]
+      ],
+      "summary": ""
     },
     {
       "id": "anu-portal-thomas-duvernay",
@@ -75851,32 +71701,12 @@ window.ANREVIEW_DATA = {
         "Engagement"
       ],
       "tags": [
-        "comp"
-      ]
-    },
-    {
-      "id": "anu-portal-thomas-haines",
-      "type": "academic",
-      "name": "Thomas Haines",
-      "position": "Academic",
-      "focus": "ANU Research Portal+ profile",
-      "school": "School of Computing",
-      "schoolCode": "COMP",
-      "college": "ANU College of Systems and Society",
-      "profileUrl": "https://researchportalplus.anu.edu.au/en/persons/thomas-haines/",
-      "email": "",
-      "office": "",
-      "linkedCourses": [],
-      "reviewMetrics": [
-        "Clarity",
-        "Support",
-        "Engagement"
-      ],
-      "tags": [
+        "comp",
         "school-of-computing",
         "college-of-systems-and-society",
         "research-portal"
-      ]
+      ],
+      "summary": ""
     },
     {
       "id": "anu-portal-thomas-huber",
@@ -75932,7 +71762,7 @@ window.ANREVIEW_DATA = {
       "name": "Thomas Nordlander",
       "position": "Academic",
       "focus": "ANU Research Portal+ profile",
-      "school": "Research School of Astronomy &amp; Astrophysics",
+      "school": "Research School of Astronomy & Astrophysics",
       "schoolCode": "AAA",
       "college": "ANU College of Science and Medicine",
       "profileUrl": "https://researchportalplus.anu.edu.au/en/persons/thomas-nordlander/",
@@ -75956,7 +71786,7 @@ window.ANREVIEW_DATA = {
       "name": "Thomas Powell-Davies",
       "position": "Academic",
       "focus": "ANU Research Portal+ profile",
-      "school": "School of Literature, Languages &amp; Linguistics",
+      "school": "School of Literature, Languages & Linguistics",
       "schoolCode": "LLAL",
       "college": "ANU College of Arts and Social Sciences",
       "profileUrl": "https://researchportalplus.anu.edu.au/en/persons/thomas-powell-davies/",
@@ -76041,32 +71871,12 @@ window.ANREVIEW_DATA = {
         "Engagement"
       ],
       "tags": [
-        "comp"
-      ]
-    },
-    {
-      "id": "anu-portal-thomas-wong",
-      "type": "academic",
-      "name": "Thomas Wong",
-      "position": "Academic",
-      "focus": "ANU Research Portal+ profile",
-      "school": "School of Computing",
-      "schoolCode": "COMP",
-      "college": "ANU College of Systems and Society",
-      "profileUrl": "https://researchportalplus.anu.edu.au/en/persons/thomas-wong/",
-      "email": "",
-      "office": "",
-      "linkedCourses": [],
-      "reviewMetrics": [
-        "Clarity",
-        "Support",
-        "Engagement"
-      ],
-      "tags": [
+        "comp",
         "school-of-computing",
         "college-of-systems-and-society",
         "research-portal"
-      ]
+      ],
+      "summary": ""
     },
     {
       "id": "anu-portal-thong-tran",
@@ -76111,32 +71921,12 @@ window.ANREVIEW_DATA = {
         "Engagement"
       ],
       "tags": [
-        "comp"
-      ]
-    },
-    {
-      "id": "anu-portal-thushara-abhayapala",
-      "type": "academic",
-      "name": "Thushara Abhayapala",
-      "position": "Academic",
-      "focus": "ANU Research Portal+ profile",
-      "school": "School of Engineering",
-      "schoolCode": "ENGN",
-      "college": "ANU College of Systems and Society",
-      "profileUrl": "https://researchportalplus.anu.edu.au/en/persons/thushara-abhayapala/",
-      "email": "",
-      "office": "",
-      "linkedCourses": [],
-      "reviewMetrics": [
-        "Clarity",
-        "Support",
-        "Engagement"
-      ],
-      "tags": [
+        "comp",
         "school-of-engineering",
         "college-of-systems-and-society",
         "research-portal"
-      ]
+      ],
+      "summary": ""
     },
     {
       "id": "anu-portal-tian-yao-zhang",
@@ -76144,7 +71934,7 @@ window.ANREVIEW_DATA = {
       "name": "Tian Yao Zhang",
       "position": "Academic",
       "focus": "ANU Research Portal+ profile",
-      "school": "Research School of Finance, Actuarial Studies &amp; Statistics",
+      "school": "Research School of Finance, Actuarial Studies & Statistics",
       "schoolCode": "FASAS",
       "college": "ANU College of Systems and Society",
       "profileUrl": "https://researchportalplus.anu.edu.au/en/persons/tian-yao-zhang/",
@@ -76190,7 +71980,7 @@ window.ANREVIEW_DATA = {
       "name": "Tim Baynes",
       "position": "Academic",
       "focus": "ANU Research Portal+ profile",
-      "school": "Fenner School of Environment &amp; Society",
+      "school": "Fenner School of Environment & Society",
       "schoolCode": "FEAS",
       "college": "ANU College of Systems and Society",
       "profileUrl": "https://researchportalplus.anu.edu.au/en/persons/tim-baynes/",
@@ -76237,7 +72027,7 @@ window.ANREVIEW_DATA = {
       "name": "Tim Denham",
       "position": "Academic",
       "focus": "ANU Research Portal+ profile",
-      "school": "School of Archaeology &amp; Anthropology",
+      "school": "School of Archaeology & Anthropology",
       "schoolCode": "AAA",
       "college": "ANU College of Arts and Social Sciences",
       "profileUrl": "https://researchportalplus.anu.edu.au/en/persons/tim-denham/",
@@ -76333,7 +72123,7 @@ window.ANREVIEW_DATA = {
       "name": "Timothy Higgins",
       "position": "Academic",
       "focus": "ANU Research Portal+ profile",
-      "school": "Research School of Finance, Actuarial Studies &amp; Statistics",
+      "school": "Research School of Finance, Actuarial Studies & Statistics",
       "schoolCode": "FASAS",
       "college": "ANU College of Systems and Society",
       "profileUrl": "https://researchportalplus.anu.edu.au/en/persons/timothy-higgins/",
@@ -76394,32 +72184,12 @@ window.ANREVIEW_DATA = {
         "Engagement"
       ],
       "tags": [
-        "comp"
-      ]
-    },
-    {
-      "id": "anu-portal-timothy-molloy",
-      "type": "academic",
-      "name": "Timothy Molloy",
-      "position": "Academic",
-      "focus": "ANU Research Portal+ profile",
-      "school": "School of Engineering",
-      "schoolCode": "ENGN",
-      "college": "ANU College of Systems and Society",
-      "profileUrl": "https://researchportalplus.anu.edu.au/en/persons/timothy-molloy/",
-      "email": "",
-      "office": "",
-      "linkedCourses": [],
-      "reviewMetrics": [
-        "Clarity",
-        "Support",
-        "Engagement"
-      ],
-      "tags": [
+        "comp",
         "school-of-engineering",
         "college-of-systems-and-society",
         "research-portal"
-      ]
+      ],
+      "summary": ""
     },
     {
       "id": "anu-portal-timothy-weber",
@@ -76475,7 +72245,7 @@ window.ANREVIEW_DATA = {
       "name": "Tingbao Xu",
       "position": "Academic",
       "focus": "ANU Research Portal+ profile",
-      "school": "Fenner School of Environment &amp; Society",
+      "school": "Fenner School of Environment & Society",
       "schoolCode": "FEAS",
       "college": "ANU College of Systems and Society",
       "profileUrl": "https://researchportalplus.anu.edu.au/en/persons/tingbao-xu/",
@@ -76547,7 +72317,7 @@ window.ANREVIEW_DATA = {
       "name": "Tom Cliff",
       "position": "Academic",
       "focus": "ANU Research Portal+ profile",
-      "school": "School of Culture, History &amp; Language",
+      "school": "School of Culture, History & Language",
       "schoolCode": "CHAL",
       "college": "ANU College of Arts and Social Sciences",
       "profileUrl": "https://researchportalplus.anu.edu.au/en/persons/tom-cliff/",
@@ -76687,7 +72457,7 @@ window.ANREVIEW_DATA = {
       "name": "Tomasz Rozanski",
       "position": "Academic",
       "focus": "ANU Research Portal+ profile",
-      "school": "Research School of Astronomy &amp; Astrophysics",
+      "school": "Research School of Astronomy & Astrophysics",
       "schoolCode": "AAA",
       "college": "ANU College of Science and Medicine",
       "profileUrl": "https://researchportalplus.anu.edu.au/en/persons/tomasz-rozanski/",
@@ -76711,7 +72481,7 @@ window.ANREVIEW_DATA = {
       "name": "Tomoko Akami",
       "position": "Academic",
       "focus": "ANU Research Portal+ profile",
-      "school": "School of Culture, History &amp; Language",
+      "school": "School of Culture, History & Language",
       "schoolCode": "CHAL",
       "college": "ANU College of Arts and Social Sciences",
       "profileUrl": "https://researchportalplus.anu.edu.au/en/persons/tomoko-akami/",
@@ -76831,7 +72601,7 @@ window.ANREVIEW_DATA = {
       "name": "Tony Bartlett",
       "position": "Academic",
       "focus": "ANU Research Portal+ profile",
-      "school": "Fenner School of Environment &amp; Society",
+      "school": "Fenner School of Environment & Society",
       "schoolCode": "FEAS",
       "college": "ANU College of Systems and Society",
       "profileUrl": "https://researchportalplus.anu.edu.au/en/persons/tony-bartlett/",
@@ -76855,7 +72625,7 @@ window.ANREVIEW_DATA = {
       "name": "Tony Boston",
       "position": "Academic",
       "focus": "ANU Research Portal+ profile",
-      "school": "Fenner School of Environment &amp; Society",
+      "school": "Fenner School of Environment & Society",
       "schoolCode": "FEAS",
       "college": "ANU College of Systems and Society",
       "profileUrl": "https://researchportalplus.anu.edu.au/en/persons/tony-boston/",
@@ -76911,38 +72681,18 @@ window.ANREVIEW_DATA = {
       "profileUrl": "https://law.anu.edu.au/about/our-people/tony-foley",
       "tags": [
         "law",
-        "the legal profession"
-      ],
-      "linkedCourses": [],
-      "reviewMetrics": [
-        "Clarity",
-        "Support",
-        "Engagement"
-      ]
-    },
-    {
-      "id": "anu-portal-tony-foley",
-      "type": "academic",
-      "name": "Tony Foley",
-      "position": "Academic",
-      "focus": "ANU Research Portal+ profile",
-      "school": "ANU College of Law, Governance and Policy",
-      "schoolCode": "LGP",
-      "college": "ANU College of Law, Governance and Policy",
-      "profileUrl": "https://researchportalplus.anu.edu.au/en/persons/tony-foley/",
-      "email": "",
-      "office": "",
-      "linkedCourses": [],
-      "reviewMetrics": [
-        "Clarity",
-        "Support",
-        "Engagement"
-      ],
-      "tags": [
+        "the legal profession",
         "anu-college-of-law-governance-and-policy",
         "college-of-law-governance-and-policy",
         "research-portal"
-      ]
+      ],
+      "linkedCourses": [],
+      "reviewMetrics": [
+        "Clarity",
+        "Support",
+        "Engagement"
+      ],
+      "summary": ""
     },
     {
       "id": "anu-portal-tony-stewart",
@@ -76998,7 +72748,7 @@ window.ANREVIEW_DATA = {
       "name": "Tony Webster",
       "position": "Academic",
       "focus": "ANU Research Portal+ profile",
-      "school": "Institute for Climate, Energy &amp; Disaster Solutions",
+      "school": "Institute for Climate, Energy & Disaster Solutions",
       "schoolCode": "ICEADS",
       "college": "ANU College of Arts and Social Sciences",
       "profileUrl": "https://researchportalplus.anu.edu.au/en/persons/tony-webster/",
@@ -77022,7 +72772,7 @@ window.ANREVIEW_DATA = {
       "name": "Toshiyuki Nakamura",
       "position": "Academic",
       "focus": "ANU Research Portal+ profile",
-      "school": "School of Culture, History &amp; Language",
+      "school": "School of Culture, History & Language",
       "schoolCode": "CHAL",
       "college": "ANU College of Arts and Social Sciences",
       "profileUrl": "https://researchportalplus.anu.edu.au/en/persons/toshiyuki-nakamura/",
@@ -77046,7 +72796,7 @@ window.ANREVIEW_DATA = {
       "name": "Tracey Pilgrim",
       "position": "Academic",
       "focus": "ANU Research Portal+ profile",
-      "school": "ANU College of Asia &amp; the Pacific",
+      "school": "ANU College of Asia & the Pacific",
       "schoolCode": "AAP",
       "college": "ANU College of Asia and the Pacific",
       "profileUrl": "https://researchportalplus.anu.edu.au/en/persons/tracey-pilgrim/",
@@ -77142,7 +72892,7 @@ window.ANREVIEW_DATA = {
       "name": "Trevor Mendel",
       "position": "Academic",
       "focus": "ANU Research Portal+ profile",
-      "school": "Research School of Astronomy &amp; Astrophysics",
+      "school": "Research School of Astronomy & Astrophysics",
       "schoolCode": "AAA",
       "college": "ANU College of Science and Medicine",
       "profileUrl": "https://researchportalplus.anu.edu.au/en/persons/trevor-mendel/",
@@ -77251,32 +73001,12 @@ window.ANREVIEW_DATA = {
         "Engagement"
       ],
       "tags": [
-        "physics"
-      ]
-    },
-    {
-      "id": "anu-portal-tuomas-haggren",
-      "type": "academic",
-      "name": "Tuomas Haggren",
-      "position": "Academic",
-      "focus": "ANU Research Portal+ profile",
-      "school": "ARC Centre of Excellence for Transformative Meta-Optical Systems",
-      "schoolCode": "AETMOS",
-      "college": "ANU College of Science and Medicine",
-      "profileUrl": "https://researchportalplus.anu.edu.au/en/persons/tuomas-haggren/",
-      "email": "",
-      "office": "",
-      "linkedCourses": [],
-      "reviewMetrics": [
-        "Clarity",
-        "Support",
-        "Engagement"
-      ],
-      "tags": [
+        "physics",
         "arc-centre-of-excellence-for-transformative-meta-optical-systems",
         "college-of-science-and-medicine",
         "research-portal"
-      ]
+      ],
+      "summary": ""
     },
     {
       "id": "anu-portal-tyne-daile-sumner",
@@ -77284,7 +73014,7 @@ window.ANREVIEW_DATA = {
       "name": "Tyne Daile Sumner",
       "position": "Academic",
       "focus": "ANU Research Portal+ profile",
-      "school": "ANU College of Arts &amp; Social Sciences",
+      "school": "ANU College of Arts & Social Sciences",
       "schoolCode": "AASS",
       "college": "ANU College of Arts and Social Sciences",
       "profileUrl": "https://researchportalplus.anu.edu.au/en/persons/tyne-daile-sumner/",
@@ -77426,7 +73156,7 @@ window.ANREVIEW_DATA = {
       "name": "Una McIlvenna",
       "position": "Academic",
       "focus": "ANU Research Portal+ profile",
-      "school": "School of Literature, Languages &amp; Linguistics",
+      "school": "School of Literature, Languages & Linguistics",
       "schoolCode": "LLAL",
       "college": "ANU College of Arts and Social Sciences",
       "profileUrl": "https://researchportalplus.anu.edu.au/en/persons/una-mcilvenna/",
@@ -77474,7 +73204,7 @@ window.ANREVIEW_DATA = {
       "name": "Valerie Braithwaite",
       "position": "Academic",
       "focus": "ANU Research Portal+ profile",
-      "school": "School of Regulation &amp; Global Governance",
+      "school": "School of Regulation & Global Governance",
       "schoolCode": "RAGG",
       "college": "ANU College of Law, Governance and Policy",
       "profileUrl": "https://researchportalplus.anu.edu.au/en/persons/valerie-braithwaite/",
@@ -77546,7 +73276,7 @@ window.ANREVIEW_DATA = {
       "name": "Van Nguyen",
       "position": "Academic",
       "focus": "ANU Research Portal+ profile",
-      "school": "Fenner School of Environment &amp; Society",
+      "school": "Fenner School of Environment & Society",
       "schoolCode": "FEAS",
       "college": "ANU College of Systems and Society",
       "profileUrl": "https://researchportalplus.anu.edu.au/en/persons/van-nguyen/",
@@ -77607,32 +73337,12 @@ window.ANREVIEW_DATA = {
         "Engagement"
       ],
       "tags": [
-        "physics"
-      ]
-    },
-    {
-      "id": "anu-portal-vanessa-robins",
-      "type": "academic",
-      "name": "Vanessa Robins",
-      "position": "Academic",
-      "focus": "ANU Research Portal+ profile",
-      "school": "Department of Materials Physics",
-      "schoolCode": "DMP",
-      "college": "ANU College of Science and Medicine",
-      "profileUrl": "https://researchportalplus.anu.edu.au/en/persons/vanessa-robins/",
-      "email": "",
-      "office": "",
-      "linkedCourses": [],
-      "reviewMetrics": [
-        "Clarity",
-        "Support",
-        "Engagement"
-      ],
-      "tags": [
+        "physics",
         "department-of-materials-physics",
         "college-of-science-and-medicine",
         "research-portal"
-      ]
+      ],
+      "summary": ""
     },
     {
       "id": "anu-portal-veblen-zhang",
@@ -77640,7 +73350,7 @@ window.ANREVIEW_DATA = {
       "name": "Veblen Zhang",
       "position": "Academic",
       "focus": "ANU Research Portal+ profile",
-      "school": "Fenner School of Environment &amp; Society",
+      "school": "Fenner School of Environment & Society",
       "schoolCode": "FEAS",
       "college": "ANU College of Science and Medicine",
       "profileUrl": "https://researchportalplus.anu.edu.au/en/persons/veblen-zhang/",
@@ -77688,7 +73398,7 @@ window.ANREVIEW_DATA = {
       "name": "Veronica Taylor",
       "position": "Academic",
       "focus": "ANU Research Portal+ profile",
-      "school": "School of Regulation &amp; Global Governance",
+      "school": "School of Regulation & Global Governance",
       "schoolCode": "RAGG",
       "college": "ANU College of Law, Governance and Policy",
       "profileUrl": "https://researchportalplus.anu.edu.au/en/persons/veronica-taylor/",
@@ -77944,7 +73654,7 @@ window.ANREVIEW_DATA = {
       "name": "Virginia Hooker",
       "position": "Academic",
       "focus": "ANU Research Portal+ profile",
-      "school": "Department of Political &amp; Social Change",
+      "school": "Department of Political & Social Change",
       "schoolCode": "DPASC",
       "college": "ANU College of Arts and Social Sciences",
       "profileUrl": "https://researchportalplus.anu.edu.au/en/persons/virginia-hooker/",
@@ -77968,7 +73678,7 @@ window.ANREVIEW_DATA = {
       "name": "Virginia Marshall",
       "position": "Academic",
       "focus": "ANU Research Portal+ profile",
-      "school": "School of Regulation &amp; Global Governance",
+      "school": "School of Regulation & Global Governance",
       "schoolCode": "RAGG",
       "college": "ANU College of Law, Governance and Policy",
       "profileUrl": "https://researchportalplus.anu.edu.au/en/persons/virginia-marshall/",
@@ -77992,7 +73702,7 @@ window.ANREVIEW_DATA = {
       "name": "Vivian Gerrand",
       "position": "Academic",
       "focus": "ANU Research Portal+ profile",
-      "school": "School of Literature, Languages &amp; Linguistics",
+      "school": "School of Literature, Languages & Linguistics",
       "schoolCode": "LLAL",
       "college": "ANU College of Arts and Social Sciences",
       "profileUrl": "https://researchportalplus.anu.edu.au/en/persons/vivian-gerrand/",
@@ -78049,38 +73759,18 @@ window.ANREVIEW_DATA = {
       "tags": [
         "law",
         "environment",
-        "climate & health government lawy"
-      ],
-      "linkedCourses": [],
-      "reviewMetrics": [
-        "Clarity",
-        "Support",
-        "Engagement"
-      ]
-    },
-    {
-      "id": "anu-portal-vivien-holmes",
-      "type": "academic",
-      "name": "Vivien Holmes",
-      "position": "Academic",
-      "focus": "ANU Research Portal+ profile",
-      "school": "ANU College of Law, Governance and Policy",
-      "schoolCode": "LGP",
-      "college": "ANU College of Law, Governance and Policy",
-      "profileUrl": "https://researchportalplus.anu.edu.au/en/persons/vivien-holmes/",
-      "email": "",
-      "office": "",
-      "linkedCourses": [],
-      "reviewMetrics": [
-        "Clarity",
-        "Support",
-        "Engagement"
-      ],
-      "tags": [
+        "climate & health government lawy",
         "anu-college-of-law-governance-and-policy",
         "college-of-law-governance-and-policy",
         "research-portal"
-      ]
+      ],
+      "linkedCourses": [],
+      "reviewMetrics": [
+        "Clarity",
+        "Support",
+        "Engagement"
+      ],
+      "summary": ""
     },
     {
       "id": "phys-vladimir-bazhanov",
@@ -78123,32 +73813,12 @@ window.ANREVIEW_DATA = {
         "Engagement"
       ],
       "tags": [
-        "physics"
-      ]
-    },
-    {
-      "id": "anu-portal-vladimir-mangazeev",
-      "type": "academic",
-      "name": "Vladimir Mangazeev",
-      "position": "Academic",
-      "focus": "ANU Research Portal+ profile",
-      "school": "Department of Fundamental &amp; Theoretical Physics",
-      "schoolCode": "DFATP",
-      "college": "ANU College of Science and Medicine",
-      "profileUrl": "https://researchportalplus.anu.edu.au/en/persons/vladimir-mangazeev/",
-      "email": "",
-      "office": "",
-      "linkedCourses": [],
-      "reviewMetrics": [
-        "Clarity",
-        "Support",
-        "Engagement"
-      ],
-      "tags": [
+        "physics",
         "department-of-fundamental-amp-theoretical-physics",
         "college-of-science-and-medicine",
         "research-portal"
-      ]
+      ],
+      "summary": ""
     },
     {
       "id": "phys-vladlen-shvedov",
@@ -78169,32 +73839,12 @@ window.ANREVIEW_DATA = {
         "Engagement"
       ],
       "tags": [
-        "physics"
-      ]
-    },
-    {
-      "id": "anu-portal-vladlen-shvedov",
-      "type": "academic",
-      "name": "Vladlen Shvedov",
-      "position": "Academic",
-      "focus": "ANU Research Portal+ profile",
-      "school": "ARC Centre of Excellence for Transformative Meta-Optical Systems",
-      "schoolCode": "AETMOS",
-      "college": "ANU College of Science and Medicine",
-      "profileUrl": "https://researchportalplus.anu.edu.au/en/persons/vladlen-shvedov/",
-      "email": "",
-      "office": "",
-      "linkedCourses": [],
-      "reviewMetrics": [
-        "Clarity",
-        "Support",
-        "Engagement"
-      ],
-      "tags": [
+        "physics",
         "arc-centre-of-excellence-for-transformative-meta-optical-systems",
         "college-of-science-and-medicine",
         "research-portal"
-      ]
+      ],
+      "summary": ""
     },
     {
       "id": "anu-portal-voon-hui-lai",
@@ -78250,7 +73900,7 @@ window.ANREVIEW_DATA = {
       "name": "Wai Hong Tham",
       "position": "Academic",
       "focus": "ANU Research Portal+ profile",
-      "school": "Division of Biomedical Science &amp; Biochemistry",
+      "school": "Division of Biomedical Science & Biochemistry",
       "schoolCode": "DBSAB",
       "college": "ANU College of Science and Medicine",
       "profileUrl": "https://researchportalplus.anu.edu.au/en/persons/wai-hong-tham/",
@@ -78274,7 +73924,7 @@ window.ANREVIEW_DATA = {
       "name": "Wai-Man Liu",
       "position": "Academic",
       "focus": "ANU Research Portal+ profile",
-      "school": "Research School of Finance, Actuarial Studies &amp; Statistics",
+      "school": "Research School of Finance, Actuarial Studies & Statistics",
       "schoolCode": "FASAS",
       "college": "ANU College of Systems and Society",
       "profileUrl": "https://researchportalplus.anu.edu.au/en/persons/wai-man-liu/",
@@ -78298,7 +73948,7 @@ window.ANREVIEW_DATA = {
       "name": "Walter Johnson",
       "position": "Academic",
       "focus": "ANU Research Portal+ profile",
-      "school": "School of Regulation &amp; Global Governance",
+      "school": "School of Regulation & Global Governance",
       "schoolCode": "RAGG",
       "college": "ANU College of Law, Governance and Policy",
       "profileUrl": "https://researchportalplus.anu.edu.au/en/persons/walter-johnson/",
@@ -78330,38 +73980,18 @@ window.ANREVIEW_DATA = {
       "profileUrl": "https://law.anu.edu.au/about/our-people/wanshu-cong",
       "tags": [
         "law",
-        "critical legal scholarship inter"
-      ],
-      "linkedCourses": [],
-      "reviewMetrics": [
-        "Clarity",
-        "Support",
-        "Engagement"
-      ]
-    },
-    {
-      "id": "anu-portal-wanshu-cong",
-      "type": "academic",
-      "name": "Wanshu Cong",
-      "position": "Academic",
-      "focus": "ANU Research Portal+ profile",
-      "school": "ANU College of Law, Governance and Policy",
-      "schoolCode": "LGP",
-      "college": "ANU College of Law, Governance and Policy",
-      "profileUrl": "https://researchportalplus.anu.edu.au/en/persons/wanshu-cong/",
-      "email": "",
-      "office": "",
-      "linkedCourses": [],
-      "reviewMetrics": [
-        "Clarity",
-        "Support",
-        "Engagement"
-      ],
-      "tags": [
+        "critical legal scholarship inter",
         "anu-college-of-law-governance-and-policy",
         "college-of-law-governance-and-policy",
         "research-portal"
-      ]
+      ],
+      "linkedCourses": [],
+      "reviewMetrics": [
+        "Clarity",
+        "Support",
+        "Engagement"
+      ],
+      "summary": ""
     },
     {
       "id": "anu-portal-warwick-mckibbin",
@@ -78402,38 +74032,18 @@ window.ANREVIEW_DATA = {
       "tags": [
         "law",
         "gender",
-        "sexuality & the law internationa"
-      ],
-      "linkedCourses": [],
-      "reviewMetrics": [
-        "Clarity",
-        "Support",
-        "Engagement"
-      ]
-    },
-    {
-      "id": "anu-portal-wayne-morgan",
-      "type": "academic",
-      "name": "Wayne Morgan",
-      "position": "Academic",
-      "focus": "ANU Research Portal+ profile",
-      "school": "ANU College of Law, Governance and Policy",
-      "schoolCode": "LGP",
-      "college": "ANU College of Law, Governance and Policy",
-      "profileUrl": "https://researchportalplus.anu.edu.au/en/persons/wayne-morgan/",
-      "email": "",
-      "office": "",
-      "linkedCourses": [],
-      "reviewMetrics": [
-        "Clarity",
-        "Support",
-        "Engagement"
-      ],
-      "tags": [
+        "sexuality & the law internationa",
         "anu-college-of-law-governance-and-policy",
         "college-of-law-governance-and-policy",
         "research-portal"
-      ]
+      ],
+      "linkedCourses": [],
+      "reviewMetrics": [
+        "Clarity",
+        "Support",
+        "Engagement"
+      ],
+      "summary": ""
     },
     {
       "id": "phys-wei-wen-wong",
@@ -78454,32 +74064,12 @@ window.ANREVIEW_DATA = {
         "Engagement"
       ],
       "tags": [
-        "physics"
-      ]
-    },
-    {
-      "id": "anu-portal-wei-wen-wong",
-      "type": "academic",
-      "name": "Wei Wen Wong",
-      "position": "Academic",
-      "focus": "ANU Research Portal+ profile",
-      "school": "ARC Centre of Excellence for Transformative Meta-Optical Systems",
-      "schoolCode": "AETMOS",
-      "college": "ANU College of Science and Medicine",
-      "profileUrl": "https://researchportalplus.anu.edu.au/en/persons/wei-wen-wong/",
-      "email": "",
-      "office": "",
-      "linkedCourses": [],
-      "reviewMetrics": [
-        "Clarity",
-        "Support",
-        "Engagement"
-      ],
-      "tags": [
+        "physics",
         "arc-centre-of-excellence-for-transformative-meta-optical-systems",
         "college-of-science-and-medicine",
         "research-portal"
-      ]
+      ],
+      "summary": ""
     },
     {
       "id": "anu-portal-wei-zeng",
@@ -78583,7 +74173,7 @@ window.ANREVIEW_DATA = {
       "name": "Wendy Merritt",
       "position": "Academic",
       "focus": "ANU Research Portal+ profile",
-      "school": "Fenner School of Environment &amp; Society",
+      "school": "Fenner School of Environment & Society",
       "schoolCode": "FEAS",
       "college": "ANU College of Systems and Society",
       "profileUrl": "https://researchportalplus.anu.edu.au/en/persons/wendy-merritt/",
@@ -78737,32 +74327,12 @@ window.ANREVIEW_DATA = {
         "Engagement"
       ],
       "tags": [
-        "physics"
-      ]
-    },
-    {
-      "id": "anu-portal-wilfred-fullagar",
-      "type": "academic",
-      "name": "Wilfred Fullagar",
-      "position": "Academic",
-      "focus": "ANU Research Portal+ profile",
-      "school": "Department of Materials Physics",
-      "schoolCode": "DMP",
-      "college": "ANU College of Science and Medicine",
-      "profileUrl": "https://researchportalplus.anu.edu.au/en/persons/wilfred-fullagar/",
-      "email": "",
-      "office": "",
-      "linkedCourses": [],
-      "reviewMetrics": [
-        "Clarity",
-        "Support",
-        "Engagement"
-      ],
-      "tags": [
+        "physics",
         "department-of-materials-physics",
         "college-of-science-and-medicine",
         "research-portal"
-      ]
+      ],
+      "summary": ""
     },
     {
       "id": "anu-portal-wilfred-l-f-armarego",
@@ -78802,38 +74372,18 @@ window.ANREVIEW_DATA = {
       "profileUrl": "https://law.anu.edu.au/about/our-people/will-bateman",
       "tags": [
         "law",
-        "administrative law comparative p"
-      ],
-      "linkedCourses": [],
-      "reviewMetrics": [
-        "Clarity",
-        "Support",
-        "Engagement"
-      ]
-    },
-    {
-      "id": "anu-portal-will-bateman",
-      "type": "academic",
-      "name": "Will Bateman",
-      "position": "Academic",
-      "focus": "ANU Research Portal+ profile",
-      "school": "ANU College of Law, Governance and Policy",
-      "schoolCode": "LGP",
-      "college": "ANU College of Law, Governance and Policy",
-      "profileUrl": "https://researchportalplus.anu.edu.au/en/persons/will-bateman/",
-      "email": "",
-      "office": "",
-      "linkedCourses": [],
-      "reviewMetrics": [
-        "Clarity",
-        "Support",
-        "Engagement"
-      ],
-      "tags": [
+        "administrative law comparative p",
         "anu-college-of-law-governance-and-policy",
         "college-of-law-governance-and-policy",
         "research-portal"
-      ]
+      ],
+      "linkedCourses": [],
+      "reviewMetrics": [
+        "Clarity",
+        "Support",
+        "Engagement"
+      ],
+      "summary": ""
     },
     {
       "id": "anu-portal-will-christie",
@@ -78841,7 +74391,7 @@ window.ANREVIEW_DATA = {
       "name": "Will Christie",
       "position": "Academic",
       "focus": "ANU Research Portal+ profile",
-      "school": "School of Literature, Languages &amp; Linguistics",
+      "school": "School of Literature, Languages & Linguistics",
       "schoolCode": "LLAL",
       "college": "ANU College of Arts and Social Sciences",
       "profileUrl": "https://researchportalplus.anu.edu.au/en/persons/will-christie/",
@@ -78969,38 +74519,18 @@ window.ANREVIEW_DATA = {
       "profileUrl": "https://rsfas.anu.edu.au/people/william-lim",
       "tags": [
         "rsfas",
-        "actuarial studies"
-      ],
-      "linkedCourses": [],
-      "reviewMetrics": [
-        "Clarity",
-        "Support",
-        "Engagement"
-      ]
-    },
-    {
-      "id": "anu-portal-william-lim",
-      "type": "academic",
-      "name": "William Lim",
-      "position": "Academic",
-      "focus": "ANU Research Portal+ profile",
-      "school": "Research School of Finance, Actuarial Studies &amp; Statistics",
-      "schoolCode": "FASAS",
-      "college": "ANU College of Systems and Society",
-      "profileUrl": "https://researchportalplus.anu.edu.au/en/persons/william-lim/",
-      "email": "",
-      "office": "",
-      "linkedCourses": [],
-      "reviewMetrics": [
-        "Clarity",
-        "Support",
-        "Engagement"
-      ],
-      "tags": [
+        "actuarial studies",
         "research-school-of-finance-actuarial-studies-amp-statistics",
         "college-of-systems-and-society",
         "research-portal"
-      ]
+      ],
+      "linkedCourses": [],
+      "reviewMetrics": [
+        "Clarity",
+        "Support",
+        "Engagement"
+      ],
+      "summary": ""
     },
     {
       "id": "anu-portal-william-maley",
@@ -79176,7 +74706,7 @@ window.ANREVIEW_DATA = {
       "name": "Wolfgang Barth",
       "position": "Academic",
       "focus": "ANU Research Portal+ profile",
-      "school": "ANU College of Arts &amp; Social Sciences",
+      "school": "ANU College of Arts & Social Sciences",
       "schoolCode": "AASS",
       "college": "ANU College of Arts and Social Sciences",
       "profileUrl": "https://researchportalplus.anu.edu.au/en/persons/wolfgang-barth/",
@@ -79388,7 +74918,7 @@ window.ANREVIEW_DATA = {
       "name": "Xianming Zhou",
       "position": "Academic",
       "focus": "ANU Research Portal+ profile",
-      "school": "Research School of Finance, Actuarial Studies &amp; Statistics",
+      "school": "Research School of Finance, Actuarial Studies & Statistics",
       "schoolCode": "FASAS",
       "college": "ANU College of Systems and Society",
       "profileUrl": "https://researchportalplus.anu.edu.au/en/persons/xianming-zhou/",
@@ -79497,32 +75027,12 @@ window.ANREVIEW_DATA = {
         "Engagement"
       ],
       "tags": [
-        "comp"
-      ]
-    },
-    {
-      "id": "anu-portal-xiaoyu-sun",
-      "type": "academic",
-      "name": "Xiaoyu Sun",
-      "position": "Academic",
-      "focus": "ANU Research Portal+ profile",
-      "school": "School of Computing",
-      "schoolCode": "COMP",
-      "college": "ANU College of Systems and Society",
-      "profileUrl": "https://researchportalplus.anu.edu.au/en/persons/xiaoyu-sun/",
-      "email": "",
-      "office": "",
-      "linkedCourses": [],
-      "reviewMetrics": [
-        "Clarity",
-        "Support",
-        "Engagement"
-      ],
-      "tags": [
+        "comp",
         "school-of-computing",
         "college-of-systems-and-society",
         "research-portal"
-      ]
+      ],
+      "summary": ""
     },
     {
       "id": "phys-xilin-lu",
@@ -79576,7 +75086,7 @@ window.ANREVIEW_DATA = {
       "name": "Xin Liu",
       "position": "Academic",
       "focus": "ANU Research Portal+ profile",
-      "school": "Research School of Finance, Actuarial Studies &amp; Statistics",
+      "school": "Research School of Finance, Actuarial Studies & Statistics",
       "schoolCode": "FASAS",
       "college": "ANU College of Systems and Society",
       "profileUrl": "https://researchportalplus.anu.edu.au/en/persons/xin-liu/",
@@ -79659,32 +75169,12 @@ window.ANREVIEW_DATA = {
         "Engagement"
       ],
       "tags": [
-        "physics"
-      ]
-    },
-    {
-      "id": "anu-portal-xingshuo-huang",
-      "type": "academic",
-      "name": "Xingshuo Huang",
-      "position": "Academic",
-      "focus": "ANU Research Portal+ profile",
-      "school": "Department of Materials Physics",
-      "schoolCode": "DMP",
-      "college": "ANU College of Science and Medicine",
-      "profileUrl": "https://researchportalplus.anu.edu.au/en/persons/xingshuo-huang/",
-      "email": "",
-      "office": "",
-      "linkedCourses": [],
-      "reviewMetrics": [
-        "Clarity",
-        "Support",
-        "Engagement"
-      ],
-      "tags": [
+        "physics",
         "department-of-materials-physics",
         "college-of-science-and-medicine",
         "research-portal"
-      ]
+      ],
+      "summary": ""
     },
     {
       "id": "anu-portal-xingyu-hu",
@@ -79788,7 +75278,7 @@ window.ANREVIEW_DATA = {
       "name": "Xuan Liang",
       "position": "Academic",
       "focus": "ANU Research Portal+ profile",
-      "school": "Research School of Finance, Actuarial Studies &amp; Statistics",
+      "school": "Research School of Finance, Actuarial Studies & Statistics",
       "schoolCode": "FASAS",
       "college": "ANU College of Systems and Society",
       "profileUrl": "https://researchportalplus.anu.edu.au/en/persons/xuan-liang/",
@@ -79897,32 +75387,12 @@ window.ANREVIEW_DATA = {
         "Engagement"
       ],
       "tags": [
-        "physics"
-      ]
-    },
-    {
-      "id": "anu-portal-ya-zhang",
-      "type": "academic",
-      "name": "Ya Zhang",
-      "position": "Academic",
-      "focus": "ANU Research Portal+ profile",
-      "school": "Centre for Gravitational Astrophysics",
-      "schoolCode": "GA",
-      "college": "ANU College of Science and Medicine",
-      "profileUrl": "https://researchportalplus.anu.edu.au/en/persons/ya-zhang/",
-      "email": "",
-      "office": "",
-      "linkedCourses": [],
-      "reviewMetrics": [
-        "Clarity",
-        "Support",
-        "Engagement"
-      ],
-      "tags": [
+        "physics",
         "centre-for-gravitational-astrophysics",
         "college-of-science-and-medicine",
         "research-portal"
-      ]
+      ],
+      "summary": ""
     },
     {
       "id": "anu-portal-yan-liu",
@@ -79990,32 +75460,12 @@ window.ANREVIEW_DATA = {
         "Engagement"
       ],
       "tags": [
-        "physics"
-      ]
-    },
-    {
-      "id": "anu-portal-yana-izdebskaya",
-      "type": "academic",
-      "name": "Yana Izdebskaya",
-      "position": "Academic",
-      "focus": "ANU Research Portal+ profile",
-      "school": "Department of Fundamental &amp; Theoretical Physics",
-      "schoolCode": "DFATP",
-      "college": "ANU College of Science and Medicine",
-      "profileUrl": "https://researchportalplus.anu.edu.au/en/persons/yana-izdebskaya/",
-      "email": "",
-      "office": "",
-      "linkedCourses": [],
-      "reviewMetrics": [
-        "Clarity",
-        "Support",
-        "Engagement"
-      ],
-      "tags": [
+        "physics",
         "department-of-fundamental-amp-theoretical-physics",
         "college-of-science-and-medicine",
         "research-portal"
-      ]
+      ],
+      "summary": ""
     },
     {
       "id": "anu-portal-yangyang-guo",
@@ -80023,7 +75473,7 @@ window.ANREVIEW_DATA = {
       "name": "Yangyang Guo",
       "position": "Academic",
       "focus": "ANU Research Portal+ profile",
-      "school": "Fenner School of Environment &amp; Society",
+      "school": "Fenner School of Environment & Society",
       "schoolCode": "FEAS",
       "college": "ANU College of Systems and Society",
       "profileUrl": "https://researchportalplus.anu.edu.au/en/persons/yangyang-guo/",
@@ -80071,7 +75521,7 @@ window.ANREVIEW_DATA = {
       "name": "Yanrong Yang",
       "position": "Academic",
       "focus": "ANU Research Portal+ profile",
-      "school": "Research School of Finance, Actuarial Studies &amp; Statistics",
+      "school": "Research School of Finance, Actuarial Studies & Statistics",
       "schoolCode": "FASAS",
       "college": "ANU College of Systems and Society",
       "profileUrl": "https://researchportalplus.anu.edu.au/en/persons/yanrong-yang/",
@@ -80095,7 +75545,7 @@ window.ANREVIEW_DATA = {
       "name": "Yanyin Zhang",
       "position": "Academic",
       "focus": "ANU Research Portal+ profile",
-      "school": "School of Culture, History &amp; Language",
+      "school": "School of Culture, History & Language",
       "schoolCode": "CHAL",
       "college": "ANU College of Arts and Social Sciences",
       "profileUrl": "https://researchportalplus.anu.edu.au/en/persons/yanyin-zhang/",
@@ -80214,7 +75664,7 @@ window.ANREVIEW_DATA = {
       "name": "Yen Le",
       "position": "Academic",
       "focus": "ANU Research Portal+ profile",
-      "school": "School of Culture, History &amp; Language",
+      "school": "School of Culture, History & Language",
       "schoolCode": "CHAL",
       "college": "ANU College of Arts and Social Sciences",
       "profileUrl": "https://researchportalplus.anu.edu.au/en/persons/yen-le/",
@@ -80261,7 +75711,7 @@ window.ANREVIEW_DATA = {
       "name": "Yichao Zhu",
       "position": "Academic",
       "focus": "ANU Research Portal+ profile",
-      "school": "Research School of Finance, Actuarial Studies &amp; Statistics",
+      "school": "Research School of Finance, Actuarial Studies & Statistics",
       "schoolCode": "FASAS",
       "college": "ANU College of Systems and Society",
       "profileUrl": "https://researchportalplus.anu.edu.au/en/persons/yichao-zhu/",
@@ -80309,7 +75759,7 @@ window.ANREVIEW_DATA = {
       "name": "Yik Ki Ma",
       "position": "Academic",
       "focus": "ANU Research Portal+ profile",
-      "school": "Research School of Astronomy &amp; Astrophysics",
+      "school": "Research School of Astronomy & Astrophysics",
       "schoolCode": "AAA",
       "college": "ANU College of Science and Medicine",
       "profileUrl": "https://researchportalplus.anu.edu.au/en/persons/yik-ki-ma/",
@@ -80333,7 +75783,7 @@ window.ANREVIEW_DATA = {
       "name": "Yile Zhong",
       "position": "Academic",
       "focus": "ANU Research Portal+ profile",
-      "school": "Department of Quantum Science &amp; Technology",
+      "school": "Department of Quantum Science & Technology",
       "schoolCode": "DQSAT",
       "college": "ANU College of Arts and Social Sciences",
       "profileUrl": "https://researchportalplus.anu.edu.au/en/persons/yile-zhong/",
@@ -80405,7 +75855,7 @@ window.ANREVIEW_DATA = {
       "name": "Yiwen Chen",
       "position": "Academic",
       "focus": "ANU Research Portal+ profile",
-      "school": "Fenner School of Environment &amp; Society",
+      "school": "Fenner School of Environment & Society",
       "schoolCode": "FEAS",
       "college": "ANU College of Systems and Society",
       "profileUrl": "https://researchportalplus.anu.edu.au/en/persons/yiwen-chen/",
@@ -80521,7 +75971,7 @@ window.ANREVIEW_DATA = {
       "name": "Yon Paik",
       "position": "Academic",
       "focus": "ANU Research Portal+ profile",
-      "school": "School of Culture, History &amp; Language",
+      "school": "School of Culture, History & Language",
       "schoolCode": "CHAL",
       "college": "ANU College of Arts and Social Sciences",
       "profileUrl": "https://researchportalplus.anu.edu.au/en/persons/yon-paik/",
@@ -80613,7 +76063,7 @@ window.ANREVIEW_DATA = {
       "name": "Yoona Choi",
       "position": "Academic",
       "focus": "ANU Research Portal+ profile",
-      "school": "School of Culture, History &amp; Language",
+      "school": "School of Culture, History & Language",
       "schoolCode": "CHAL",
       "college": "ANU College of Arts and Social Sciences",
       "profileUrl": "https://researchportalplus.anu.edu.au/en/persons/yoona-choi/",
@@ -80685,7 +76135,7 @@ window.ANREVIEW_DATA = {
       "name": "Yuan Gao",
       "position": "Academic",
       "focus": "ANU Research Portal+ profile",
-      "school": "Research School of Finance, Actuarial Studies &amp; Statistics",
+      "school": "Research School of Finance, Actuarial Studies & Statistics",
       "schoolCode": "FASAS",
       "college": "ANU College of Systems and Society",
       "profileUrl": "https://researchportalplus.anu.edu.au/en/persons/yuan-gao/",
@@ -80709,7 +76159,7 @@ window.ANREVIEW_DATA = {
       "name": "Yuan Peng",
       "position": "Academic",
       "focus": "ANU Research Portal+ profile",
-      "school": "Fenner School of Environment &amp; Society",
+      "school": "Fenner School of Environment & Society",
       "schoolCode": "FEAS",
       "college": "ANU College of Systems and Society",
       "profileUrl": "https://researchportalplus.anu.edu.au/en/persons/yuan-peng/",
@@ -80794,32 +76244,12 @@ window.ANREVIEW_DATA = {
         "Engagement"
       ],
       "tags": [
-        "comp"
-      ]
-    },
-    {
-      "id": "anu-portal-yue-liu",
-      "type": "academic",
-      "name": "Yue Liu",
-      "position": "Academic",
-      "focus": "ANU Research Portal+ profile",
-      "school": "School of Computing",
-      "schoolCode": "COMP",
-      "college": "ANU College of Systems and Society",
-      "profileUrl": "https://researchportalplus.anu.edu.au/en/persons/yue-liu/",
-      "email": "",
-      "office": "",
-      "linkedCourses": [],
-      "reviewMetrics": [
-        "Clarity",
-        "Support",
-        "Engagement"
-      ],
-      "tags": [
+        "comp",
         "school-of-computing",
         "college-of-systems-and-society",
         "research-portal"
-      ]
+      ],
+      "summary": ""
     },
     {
       "id": "anu-portal-yuen-man-pun",
@@ -80912,32 +76342,12 @@ window.ANREVIEW_DATA = {
         "Engagement"
       ],
       "tags": [
-        "physics"
-      ]
-    },
-    {
-      "id": "anu-portal-yulai-zhang",
-      "type": "academic",
-      "name": "Yulai Zhang",
-      "position": "Academic",
-      "focus": "ANU Research Portal+ profile",
-      "school": "Department of Materials Physics",
-      "schoolCode": "DMP",
-      "college": "ANU College of Science and Medicine",
-      "profileUrl": "https://researchportalplus.anu.edu.au/en/persons/yulai-zhang/",
-      "email": "",
-      "office": "",
-      "linkedCourses": [],
-      "reviewMetrics": [
-        "Clarity",
-        "Support",
-        "Engagement"
-      ],
-      "tags": [
+        "physics",
         "department-of-materials-physics",
         "college-of-science-and-medicine",
         "research-portal"
-      ]
+      ],
+      "summary": ""
     },
     {
       "id": "comp-yun-kuen-marco-cheung",
@@ -81050,32 +76460,12 @@ window.ANREVIEW_DATA = {
         "Engagement"
       ],
       "tags": [
-        "physics"
-      ]
-    },
-    {
-      "id": "anu-portal-yuri-kivshar",
-      "type": "academic",
-      "name": "Yuri Kivshar",
-      "position": "Academic",
-      "focus": "ANU Research Portal+ profile",
-      "school": "Department of Fundamental &amp; Theoretical Physics",
-      "schoolCode": "DFATP",
-      "college": "ANU College of Science and Medicine",
-      "profileUrl": "https://researchportalplus.anu.edu.au/en/persons/yuri-kivshar/",
-      "email": "",
-      "office": "",
-      "linkedCourses": [],
-      "reviewMetrics": [
-        "Clarity",
-        "Support",
-        "Engagement"
-      ],
-      "tags": [
+        "physics",
         "department-of-fundamental-amp-theoretical-physics",
         "college-of-science-and-medicine",
         "research-portal"
-      ]
+      ],
+      "summary": ""
     },
     {
       "id": "anu-portal-yuri-takahashi",
@@ -81083,7 +76473,7 @@ window.ANREVIEW_DATA = {
       "name": "Yuri Takahashi",
       "position": "Academic",
       "focus": "ANU Research Portal+ profile",
-      "school": "School of Culture, History &amp; Language",
+      "school": "School of Culture, History & Language",
       "schoolCode": "CHAL",
       "college": "ANU College of Arts and Social Sciences",
       "profileUrl": "https://researchportalplus.anu.edu.au/en/persons/yuri-takahashi/",
@@ -81107,7 +76497,7 @@ window.ANREVIEW_DATA = {
       "name": "Yustinus Ghanggo Ate",
       "position": "Academic",
       "focus": "ANU Research Portal+ profile",
-      "school": "School of Culture, History &amp; Language",
+      "school": "School of Culture, History & Language",
       "schoolCode": "CHAL",
       "college": "ANU College of Asia and the Pacific",
       "profileUrl": "https://researchportalplus.anu.edu.au/en/persons/yustinus-ghanggo-ate/",
@@ -81153,7 +76543,7 @@ window.ANREVIEW_DATA = {
       "name": "Yuxiang Qin",
       "position": "Academic",
       "focus": "ANU Research Portal+ profile",
-      "school": "Research School of Astronomy &amp; Astrophysics",
+      "school": "Research School of Astronomy & Astrophysics",
       "schoolCode": "AAA",
       "college": "ANU College of Science and Medicine",
       "profileUrl": "https://researchportalplus.anu.edu.au/en/persons/yuxiang-qin/",
@@ -81225,7 +76615,7 @@ window.ANREVIEW_DATA = {
       "name": "Zahid Mumtaz",
       "position": "Academic",
       "focus": "ANU Research Portal+ profile",
-      "school": "Policy &amp; Governance Program",
+      "school": "Policy & Governance Program",
       "schoolCode": "PAGP",
       "college": "ANU College of Law, Governance and Policy",
       "profileUrl": "https://researchportalplus.anu.edu.au/en/persons/zahid-mumtaz/",
@@ -81249,7 +76639,7 @@ window.ANREVIEW_DATA = {
       "name": "Zahra Taheri",
       "position": "Academic",
       "focus": "ANU Research Portal+ profile",
-      "school": "Centre for Arab &amp; Islamic Studies",
+      "school": "Centre for Arab & Islamic Studies",
       "schoolCode": "AAIS",
       "college": "ANU College of Arts and Social Sciences",
       "profileUrl": "https://researchportalplus.anu.edu.au/en/persons/zahra-taheri/",
@@ -81286,32 +76676,12 @@ window.ANREVIEW_DATA = {
         "Engagement"
       ],
       "tags": [
-        "physics"
-      ]
-    },
-    {
-      "id": "anu-portal-zain-mehdi",
-      "type": "academic",
-      "name": "Zain Mehdi",
-      "position": "Academic",
-      "focus": "ANU Research Portal+ profile",
-      "school": "Department of Fundamental &amp; Theoretical Physics",
-      "schoolCode": "DFATP",
-      "college": "ANU College of Science and Medicine",
-      "profileUrl": "https://researchportalplus.anu.edu.au/en/persons/zain-mehdi/",
-      "email": "",
-      "office": "",
-      "linkedCourses": [],
-      "reviewMetrics": [
-        "Clarity",
-        "Support",
-        "Engagement"
-      ],
-      "tags": [
+        "physics",
         "department-of-fundamental-amp-theoretical-physics",
         "college-of-science-and-medicine",
         "research-portal"
-      ]
+      ],
+      "summary": ""
     },
     {
       "id": "anu-portal-zaka-yuen",
@@ -81319,7 +76689,7 @@ window.ANREVIEW_DATA = {
       "name": "Zaka Yuen",
       "position": "Academic",
       "focus": "ANU Research Portal+ profile",
-      "school": "Biology Teaching &amp; Learning Centre",
+      "school": "Biology Teaching & Learning Centre",
       "schoolCode": "BTAL",
       "college": "ANU College of Science and Medicine",
       "profileUrl": "https://researchportalplus.anu.edu.au/en/persons/zaka-yuen/",
@@ -81562,38 +76932,18 @@ window.ANREVIEW_DATA = {
       "profileUrl": "https://rsfas.anu.edu.au/people/zhi-yang-tho",
       "tags": [
         "rsfas",
-        "statistics"
-      ],
-      "linkedCourses": [],
-      "reviewMetrics": [
-        "Clarity",
-        "Support",
-        "Engagement"
-      ]
-    },
-    {
-      "id": "anu-portal-zhi-yang-tho",
-      "type": "academic",
-      "name": "Zhi Yang Tho",
-      "position": "Academic",
-      "focus": "ANU Research Portal+ profile",
-      "school": "Research School of Finance, Actuarial Studies &amp; Statistics",
-      "schoolCode": "FASAS",
-      "college": "ANU College of Systems and Society",
-      "profileUrl": "https://researchportalplus.anu.edu.au/en/persons/zhi-yang-tho/",
-      "email": "",
-      "office": "",
-      "linkedCourses": [],
-      "reviewMetrics": [
-        "Clarity",
-        "Support",
-        "Engagement"
-      ],
-      "tags": [
+        "statistics",
         "research-school-of-finance-actuarial-studies-amp-statistics",
         "college-of-systems-and-society",
         "research-portal"
-      ]
+      ],
+      "linkedCourses": [],
+      "reviewMetrics": [
+        "Clarity",
+        "Support",
+        "Engagement"
+      ],
+      "summary": ""
     },
     {
       "id": "anu-portal-zhi-ping-feng",
@@ -81673,7 +77023,7 @@ window.ANREVIEW_DATA = {
       "name": "Zhihe Zhang",
       "position": "Academic",
       "focus": "ANU Research Portal+ profile",
-      "school": "ANU College of Arts &amp; Social Sciences",
+      "school": "ANU College of Arts & Social Sciences",
       "schoolCode": "AASS",
       "college": "ANU College of Arts and Social Sciences",
       "profileUrl": "https://researchportalplus.anu.edu.au/en/persons/zhihe-zhang/",
@@ -81876,32 +77226,12 @@ window.ANREVIEW_DATA = {
         "Engagement"
       ],
       "tags": [
-        "physics"
-      ]
-    },
-    {
-      "id": "anu-portal-zuzana-slavkovska",
-      "type": "academic",
-      "name": "Zuzana Slavkovska",
-      "position": "Academic",
-      "focus": "ANU Research Portal+ profile",
-      "school": "Department of Nuclear Physics &amp; Accelerator Applications",
-      "schoolCode": "DNPAAA",
-      "college": "ANU College of Science and Medicine",
-      "profileUrl": "https://researchportalplus.anu.edu.au/en/persons/zuzana-slavkovska/",
-      "email": "",
-      "office": "",
-      "linkedCourses": [],
-      "reviewMetrics": [
-        "Clarity",
-        "Support",
-        "Engagement"
-      ],
-      "tags": [
+        "physics",
         "department-of-nuclear-physics-amp-accelerator-applications",
         "college-of-science-and-medicine",
         "research-portal"
-      ]
+      ],
+      "summary": ""
     }
   ],
   "courses": [

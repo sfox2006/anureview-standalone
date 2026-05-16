@@ -405,11 +405,33 @@ function companionItemsFor(item) {
   if (!item) {
     return [];
   }
-  return item.type === "course" ? dataset.academics : dataset.courses;
+  return item.type === "course" ? dedupeItemsByDisplayIdentity(dataset.academics) : dataset.courses;
 }
 
 function itemDisplayName(item) {
   return item.type === "course" ? `${item.code} - ${item.name}` : item.name;
+}
+
+function itemIdentityKey(item) {
+  if (!item) {
+    return "";
+  }
+  if (item.type === "academic") {
+    return `academic:${normalizeSearch(item.name)}`;
+  }
+  return `course:${item.code || item.id}`;
+}
+
+function dedupeItemsByDisplayIdentity(items) {
+  const seen = new Set();
+  return items.filter((item) => {
+    const key = itemIdentityKey(item);
+    if (!key || seen.has(key)) {
+      return false;
+    }
+    seen.add(key);
+    return true;
+  });
 }
 
 function randomReviewerName() {
@@ -462,7 +484,7 @@ function metricLabelsForReviewElements(item, labels) {
 }
 
 function allItems() {
-  return [...dataset.courses, ...dataset.academics];
+  return [...dataset.courses, ...dedupeItemsByDisplayIdentity(dataset.academics)];
 }
 
 function getCollegeForItem(item) {
@@ -781,7 +803,7 @@ function academicOptionsForCourse(item, searchValue = "") {
   if (!search) {
     return [];
   }
-  return dataset.academics
+  return dedupeItemsByDisplayIdentity(dataset.academics)
     .map((academic) => {
       const haystack = `${academic.name} ${academic.position} ${academic.school} ${academic.college || ""} ${academic.focus || ""}`.toLowerCase();
       const startsWith = haystack.startsWith(search);

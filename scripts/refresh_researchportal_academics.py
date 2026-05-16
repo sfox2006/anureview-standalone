@@ -144,6 +144,12 @@ def slugify(text: str) -> str:
     return text or "academic"
 
 
+def normalize_person_name(text: str) -> str:
+    text = unicodedata.normalize("NFKD", text or "").encode("ascii", "ignore").decode("ascii")
+    text = re.sub(r"[^a-zA-Z0-9 ]+", " ", text.lower())
+    return re.sub(r"\s+", " ", text).strip()
+
+
 def school_code_for(name: str) -> str:
     tokens = re.findall(r"[A-Za-z0-9]+", name)
     if not tokens:
@@ -345,6 +351,11 @@ def refresh_academics() -> tuple[int, int]:
     school_to_college, school_to_code, url_to_academic = build_existing_maps(payload)
     sitemap_urls = [ensure_trailing_slash(url) for url in fetch_sitemap_urls()]
     existing_urls = {normalize_url(url) for url in url_to_academic}
+    existing_names = {
+        normalize_person_name(academic.get("name") or "")
+        for academic in payload.get("academics", [])
+        if normalize_person_name(academic.get("name") or "")
+    }
     missing_urls = [url for url in sitemap_urls if normalize_url(url) not in existing_urls]
 
     new_academics: list[dict[str, Any]] = []
@@ -355,8 +366,10 @@ def refresh_academics() -> tuple[int, int]:
         }
         for index, future in enumerate(as_completed(futures), start=1):
             profile = future.result()
-            if profile:
+            profile_name = normalize_person_name((profile or {}).get("name") or "")
+            if profile and profile_name and profile_name not in existing_names:
                 new_academics.append(profile)
+                existing_names.add(profile_name)
             if index % 250 == 0:
                 print(f"Processed {index} / {len(missing_urls)} Research Portal profiles...")
                 time.sleep(0.2)
@@ -365,9 +378,9 @@ def refresh_academics() -> tuple[int, int]:
     deduped: list[dict[str, Any]] = []
     seen_keys: set[str] = set()
     for academic in merged:
-        key = normalize_url(academic.get("profileUrl") or "")
+        key = normalize_person_name(academic.get("name") or "")
         if not key:
-            key = slugify(academic.get("name") or "")
+            key = normalize_url(academic.get("profileUrl") or "") or slugify(academic.get("name") or "")
         if key in seen_keys:
             continue
         seen_keys.add(key)
