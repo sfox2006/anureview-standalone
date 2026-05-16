@@ -378,6 +378,7 @@ def review_to_supabase_row(review: dict) -> dict:
         "taken_year": review.get("takenYear", ""),
         "academic_id": review.get("academicId", ""),
         "academic_name": review.get("academicName", ""),
+        "course_contexts": review.get("courseContexts", []),
         "upvotes": review.get("upvotes", 0),
         "downvotes": review.get("downvotes", 0),
         "tags": review["tags"],
@@ -406,6 +407,7 @@ def review_from_supabase_row(row: dict) -> dict:
         "takenYear": row.get("taken_year", "") or "",
         "academicId": row.get("academic_id", "") or "",
         "academicName": row.get("academic_name", "") or "",
+        "courseContexts": row.get("course_contexts", []) or [],
         "upvotes": row.get("upvotes", 0) or 0,
         "downvotes": row.get("downvotes", 0) or 0,
         "tags": row.get("tags", []) or [],
@@ -512,6 +514,39 @@ def clear_all_reports() -> None:
 def find_review(review_id: str) -> dict | None:
     reviews = load_anreview_reviews()
     return next((review for review in reviews if review.get("id") == review_id), None)
+
+
+def sanitize_course_contexts(raw_contexts: object, item_type: str) -> list[dict]:
+    if item_type != "academic" or not isinstance(raw_contexts, list):
+        return []
+    contexts: list[dict] = []
+    seen: set[tuple[str, str, str]] = set()
+    for raw in raw_contexts[:8]:
+        if not isinstance(raw, dict):
+            continue
+        course_id = sanitize_text(str(raw.get("id", "")), 80)
+        code = sanitize_text(str(raw.get("code", "")), 20)
+        name = sanitize_text(str(raw.get("name", "")), 140)
+        semester = sanitize_text(str(raw.get("semester", "")), 20)
+        year = sanitize_text(str(raw.get("year", "")), 4)
+        if semester and semester not in {"Summer", "Winter", "Semester 1", "Semester 2"}:
+            semester = ""
+        if year and (not year.isdigit() or not (2015 <= int(year) <= 2100)):
+            year = ""
+        if not course_id and not code and not name:
+            continue
+        key = (course_id or code or name.lower(), semester, year)
+        if key in seen:
+            continue
+        seen.add(key)
+        contexts.append({
+            "id": course_id,
+            "code": code,
+            "name": name,
+            "semester": semester,
+            "year": year,
+        })
+    return contexts
 
 
 def save_review_vote(review_id: str, direction: str, auth_user: dict | None = None) -> dict:
@@ -642,6 +677,7 @@ def build_review_record(payload: dict, auth_user: dict | None = None, profile: d
 
     academic_id = sanitize_text(str(payload.get("academicId", "")), 80) if item_type == "course" else ""
     academic_name = sanitize_text(str(payload.get("academicName", "")), 120) if item_type == "course" else ""
+    course_contexts = sanitize_course_contexts(payload.get("courseContexts", []), item_type)
 
     ratings = {}
     for field in ("overall", "metricA", "metricB", "metricC"):
@@ -670,6 +706,7 @@ def build_review_record(payload: dict, auth_user: dict | None = None, profile: d
         "takenYear": taken_year,
         "academicId": academic_id,
         "academicName": academic_name,
+        "courseContexts": course_contexts,
         "upvotes": 0,
         "downvotes": 0,
         "tags": tags,

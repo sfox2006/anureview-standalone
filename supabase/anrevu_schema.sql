@@ -20,6 +20,7 @@ create table if not exists public.anreview_reviews (
   taken_year text not null default '',
   academic_id text not null default '',
   academic_name text not null default '',
+  course_contexts jsonb not null default '[]'::jsonb,
   upvotes integer not null default 0,
   downvotes integer not null default 0,
   tags jsonb not null default '[]'::jsonb,
@@ -33,6 +34,7 @@ alter table public.anreview_reviews add column if not exists semester text not n
 alter table public.anreview_reviews add column if not exists taken_year text not null default '';
 alter table public.anreview_reviews add column if not exists academic_id text not null default '';
 alter table public.anreview_reviews add column if not exists academic_name text not null default '';
+alter table public.anreview_reviews add column if not exists course_contexts jsonb not null default '[]'::jsonb;
 alter table public.anreview_reviews add column if not exists user_id uuid;
 alter table public.anreview_reviews add column if not exists user_email text not null default '';
 alter table public.anreview_reviews add column if not exists display_name text not null default '';

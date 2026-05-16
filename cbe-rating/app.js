@@ -13,6 +13,8 @@ const state = {
   reviewSemester: "all",
   reviewYear: "all",
   sharedReviews: [],
+  reviewCourseContexts: [],
+  linkedReviewCourseContexts: [],
   reportCount: 0,
   syncState: "Connecting to local ANReview server...",
   authMode: "signin",
@@ -130,6 +132,13 @@ const elements = {
   reviewAcademicSearch: document.getElementById("review-academic-search"),
   reviewAcademic: document.getElementById("review-academic"),
   reviewAcademicOther: document.getElementById("review-academic-other"),
+  reviewCourseContextField: document.getElementById("review-course-context-field"),
+  reviewCourseContextSearch: document.getElementById("review-course-context-search"),
+  reviewCourseContextCourse: document.getElementById("review-course-context-course"),
+  reviewCourseContextSemester: document.getElementById("review-course-context-semester"),
+  reviewCourseContextYear: document.getElementById("review-course-context-year"),
+  reviewCourseContextAdd: document.getElementById("review-course-context-add"),
+  reviewCourseContextList: document.getElementById("review-course-context-list"),
   reviewMetricALabel: document.getElementById("review-metric-a-label"),
   reviewMetricA: document.getElementById("review-metric-a"),
   reviewMetricBLabel: document.getElementById("review-metric-b-label"),
@@ -158,6 +167,13 @@ const elements = {
   linkedReviewAcademicSearch: document.getElementById("linked-review-academic-search"),
   linkedReviewAcademic: document.getElementById("linked-review-academic"),
   linkedReviewAcademicOther: document.getElementById("linked-review-academic-other"),
+  linkedReviewCourseContextField: document.getElementById("linked-review-course-context-field"),
+  linkedReviewCourseContextSearch: document.getElementById("linked-review-course-context-search"),
+  linkedReviewCourseContextCourse: document.getElementById("linked-review-course-context-course"),
+  linkedReviewCourseContextSemester: document.getElementById("linked-review-course-context-semester"),
+  linkedReviewCourseContextYear: document.getElementById("linked-review-course-context-year"),
+  linkedReviewCourseContextAdd: document.getElementById("linked-review-course-context-add"),
+  linkedReviewCourseContextList: document.getElementById("linked-review-course-context-list"),
   linkedReviewMetricALabel: document.getElementById("linked-review-metric-a-label"),
   linkedReviewMetricA: document.getElementById("linked-review-metric-a"),
   linkedReviewMetricBLabel: document.getElementById("linked-review-metric-b-label"),
@@ -572,6 +588,16 @@ function reviewAcademicLabel(review) {
   return review.academicName || "";
 }
 
+function reviewCourseContextLabels(review) {
+  return (review.courseContexts || [])
+    .map((context) => {
+      const courseLabel = context.code ? `${context.code}${context.name ? ` - ${context.name}` : ""}` : context.name;
+      const when = [context.semester, context.year].filter(Boolean).join(" ");
+      return courseLabel ? `${courseLabel}${when ? ` (${when})` : ""}` : "";
+    })
+    .filter(Boolean);
+}
+
 function average(values) {
   if (!values.length) {
     return 0;
@@ -827,6 +853,9 @@ function setCourseReviewFields(item, config) {
   const isCourse = item?.type === "course";
   config.yearField.classList.toggle("is-hidden", !isCourse);
   config.academicField.classList.toggle("is-hidden", !isCourse);
+  if (config.courseContextField) {
+    config.courseContextField.classList.toggle("is-hidden", item?.type !== "academic");
+  }
   setSemesterVisibility(config.semesterField, config.semesterSelect, item);
   if (!isCourse) {
     if (config.academicSearch) {
@@ -845,6 +874,131 @@ function setCourseReviewFields(item, config) {
   if (config.academicOther) {
     syncOtherAcademicInput(config.academicSelect, config.academicOther);
   }
+}
+
+function courseContextConfigs() {
+  return {
+    main: {
+      contextsKey: "reviewCourseContexts",
+      field: elements.reviewCourseContextField,
+      search: elements.reviewCourseContextSearch,
+      course: elements.reviewCourseContextCourse,
+      semester: elements.reviewCourseContextSemester,
+      year: elements.reviewCourseContextYear,
+      add: elements.reviewCourseContextAdd,
+      list: elements.reviewCourseContextList
+    },
+    linked: {
+      contextsKey: "linkedReviewCourseContexts",
+      field: elements.linkedReviewCourseContextField,
+      search: elements.linkedReviewCourseContextSearch,
+      course: elements.linkedReviewCourseContextCourse,
+      semester: elements.linkedReviewCourseContextSemester,
+      year: elements.linkedReviewCourseContextYear,
+      add: elements.linkedReviewCourseContextAdd,
+      list: elements.linkedReviewCourseContextList
+    }
+  };
+}
+
+function filteredCourseContextCandidates(searchInput) {
+  const query = normalizeSearch(searchInput.value.trim());
+  if (!query) {
+    return [];
+  }
+  return dataset.courses
+    .map((course) => {
+      const haystack = normalizeSearch(`${course.code} ${course.name} ${course.school}`);
+      return {
+        course,
+        starts: haystack.startsWith(query) || normalizeSearch(course.code).startsWith(query),
+        includes: haystack.includes(query)
+      };
+    })
+    .filter((entry) => entry.starts || entry.includes)
+    .sort((left, right) => {
+      if (left.starts !== right.starts) {
+        return left.starts ? -1 : 1;
+      }
+      return itemDisplayName(left.course).localeCompare(itemDisplayName(right.course));
+    })
+    .slice(0, 25)
+    .map((entry) => entry.course);
+}
+
+function populateCourseContextSelect(config) {
+  const previous = config.course.value;
+  const candidates = filteredCourseContextCandidates(config.search);
+  config.course.innerHTML = "";
+  if (!candidates.length) {
+    const option = document.createElement("option");
+    option.value = "";
+    option.textContent = config.search.value.trim() ? "No matches found" : "Start typing to search";
+    config.course.appendChild(option);
+    config.course.value = "";
+    return;
+  }
+  candidates.forEach((course) => {
+    const option = document.createElement("option");
+    option.value = course.id;
+    option.textContent = itemDisplayName(course);
+    config.course.appendChild(option);
+  });
+  config.course.value = candidates.some((course) => course.id === previous) ? previous : candidates[0].id;
+}
+
+function renderCourseContextList(config) {
+  config.list.innerHTML = "";
+  state[config.contextsKey].forEach((context, index) => {
+    const chip = document.createElement("span");
+    chip.className = "course-context-chip";
+    const when = [context.semester, context.year].filter(Boolean).join(" ");
+    chip.append(document.createTextNode(`${context.code} - ${context.name}${when ? ` (${when})` : ""}`));
+    const remove = document.createElement("button");
+    remove.type = "button";
+    remove.className = "course-context-remove";
+    remove.setAttribute("aria-label", `Remove ${context.code}`);
+    remove.textContent = "x";
+    remove.addEventListener("click", () => {
+      state[config.contextsKey].splice(index, 1);
+      renderCourseContextList(config);
+    });
+    chip.appendChild(remove);
+    config.list.appendChild(chip);
+  });
+}
+
+function addCourseContext(config) {
+  const course = getItemById(config.course.value);
+  if (!course || course.type !== "course") {
+    updateFeedback("Search for and choose a course before adding it.", true);
+    return;
+  }
+  if (state[config.contextsKey].some((context) => context.id === course.id && context.semester === config.semester.value && context.year === config.year.value)) {
+    updateFeedback("That course and time is already added.", true);
+    return;
+  }
+  state[config.contextsKey].push({
+    id: course.id,
+    code: course.code,
+    name: course.name,
+    semester: config.semester.value,
+    year: config.year.value
+  });
+  config.search.value = "";
+  config.course.innerHTML = "<option value=\"\">Start typing to search</option>";
+  config.semester.value = "";
+  config.year.value = "";
+  renderCourseContextList(config);
+}
+
+function resetCourseContexts(config) {
+  state[config.contextsKey] = [];
+  config.search.value = "";
+  config.course.innerHTML = "<option value=\"\">Start typing to search</option>";
+  config.semester.value = "";
+  config.year.value = "";
+  renderCourseContextList(config);
 }
 
 function updateComputedOverall(output, metricASelect, metricBSelect, metricCSelect) {
@@ -1256,7 +1410,8 @@ function setMetricCopy(item) {
     academicField: elements.reviewAcademicField,
     academicSearch: elements.reviewAcademicSearch,
     academicSelect: elements.reviewAcademic,
-    academicOther: elements.reviewAcademicOther
+    academicOther: elements.reviewAcademicOther,
+    courseContextField: elements.reviewCourseContextField
   });
   updateComputedOverall(
     elements.reviewOverall,
@@ -1283,6 +1438,7 @@ function resetLinkedReviewPanel() {
   elements.linkedReviewSemesterField.classList.add("is-hidden");
   elements.linkedReviewYearField.classList.add("is-hidden");
   elements.linkedReviewAcademicField.classList.add("is-hidden");
+  resetCourseContexts(courseContextConfigs().linked);
   updateComputedOverall(
     elements.linkedReviewOverall,
     elements.linkedReviewMetricA,
@@ -1365,7 +1521,8 @@ function syncLinkedReviewPanel() {
   if (!activeTarget) {
     elements.linkedReviewTitle.textContent = item.type === "course" ? "Additional academic review" : "Additional course review";
     elements.linkedReviewSubtitle.textContent = "No matching result yet. Keep typing to find the right item.";
-    setCourseReviewFields(null, {
+    const expectedTarget = { type: item.type === "course" ? "academic" : "course" };
+    setCourseReviewFields(expectedTarget, {
       semesterField: elements.linkedReviewSemesterField,
       semesterSelect: elements.linkedReviewSemester,
       yearField: elements.linkedReviewYearField,
@@ -1373,7 +1530,13 @@ function syncLinkedReviewPanel() {
       academicField: elements.linkedReviewAcademicField,
       academicSearch: elements.linkedReviewAcademicSearch,
       academicSelect: elements.linkedReviewAcademic,
-      academicOther: elements.linkedReviewAcademicOther
+      academicOther: elements.linkedReviewAcademicOther,
+      courseContextField: elements.linkedReviewCourseContextField
+    });
+    metricLabelsForReviewElements(expectedTarget, {
+      metricALabel: elements.linkedReviewMetricALabel,
+      metricBLabel: elements.linkedReviewMetricBLabel,
+      metricCLabel: elements.linkedReviewMetricCLabel
     });
     return;
   }
@@ -1393,7 +1556,8 @@ function syncLinkedReviewPanel() {
     academicField: elements.linkedReviewAcademicField,
     academicSearch: elements.linkedReviewAcademicSearch,
     academicSelect: elements.linkedReviewAcademic,
-    academicOther: elements.linkedReviewAcademicOther
+    academicOther: elements.linkedReviewAcademicOther,
+    courseContextField: elements.linkedReviewCourseContextField
   });
   updateComputedOverall(
     elements.linkedReviewOverall,
@@ -1758,6 +1922,9 @@ function renderReviews(item) {
     if (reviewAcademicLabel(review)) {
       meta.append(createChip(`Academic: ${reviewAcademicLabel(review)}`, "tag-chip"));
     }
+    reviewCourseContextLabels(review).forEach((label) => {
+      meta.append(createChip(`Course: ${label}`, "tag-chip"));
+    });
 
     const metricRow = document.createElement("div");
     metricRow.className = "result-tags";
@@ -2305,6 +2472,7 @@ function exitEditMode() {
   if (elements.reviewAnonymous) {
     elements.reviewAnonymous.checked = false;
   }
+  resetCourseContexts(courseContextConfigs().main);
   [
     elements.reviewMetricA,
     elements.reviewMetricB,
@@ -2343,6 +2511,8 @@ function enterEditMode(review) {
   if (elements.reviewAnonymous) {
     elements.reviewAnonymous.checked = Boolean(review.isGuest && review.userId);
   }
+  state.reviewCourseContexts = Array.isArray(review.courseContexts) ? [...review.courseContexts] : [];
+  renderCourseContextList(courseContextConfigs().main);
   elements.reviewAuthor.value = review.author || currentAuthorLabel();
   elements.reviewMetricA.value = String(Math.round(Number(review.metricA || 8)));
   elements.reviewMetricB.value = String(Math.round(Number(review.metricB || 8)));
@@ -2510,6 +2680,7 @@ async function handleReviewSubmit(event) {
       takenYear,
       academicId: selectedAcademic?.id || "",
       academicName: selectedAcademicName,
+      courseContexts: item.type === "academic" ? state.reviewCourseContexts : [],
       postAnonymously,
       tags: [],
       comment
@@ -2535,6 +2706,7 @@ async function handleReviewSubmit(event) {
         takenYear: linkedTakenYear,
         academicId: linkedSelectedAcademic?.id || "",
         academicName: linkedSelectedAcademicName,
+        courseContexts: linkedTarget.type === "academic" ? state.linkedReviewCourseContexts : [],
         postAnonymously,
         tags: [],
         comment: linkedComment
@@ -3099,6 +3271,10 @@ function bindFilters() {
     populateAcademicSelect(elements.linkedReviewAcademic, elements.linkedReviewAcademicSearch, linkedTarget, elements.linkedReviewAcademic.value);
     syncOtherAcademicInput(elements.linkedReviewAcademic, elements.linkedReviewAcademicOther);
   });
+  Object.values(courseContextConfigs()).forEach((config) => {
+    config.search.addEventListener("input", () => populateCourseContextSelect(config));
+    config.add.addEventListener("click", () => addCourseContext(config));
+  });
   [
     [elements.reviewMetricA, elements.reviewMetricB, elements.reviewMetricC, elements.reviewOverall],
     [elements.linkedReviewMetricA, elements.linkedReviewMetricB, elements.linkedReviewMetricC, elements.linkedReviewOverall]
@@ -3134,6 +3310,8 @@ function initSelects() {
     elements.linkedReviewMetricB,
     elements.linkedReviewMetricC
   ].forEach(buildRatingOptions);
+  populateYearSelect(elements.reviewCourseContextYear);
+  populateYearSelect(elements.linkedReviewCourseContextYear);
   updateComputedOverall(
     elements.reviewOverall,
     elements.reviewMetricA,

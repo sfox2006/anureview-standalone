@@ -1714,6 +1714,54 @@ select.field, .field select {
 .review-ratings-grid .field:has(#linked-review-overall) {
   display: none;
 }
+
+.course-context-field {
+  display: grid;
+  gap: 12px;
+  padding: 16px;
+  border: 1px solid var(--line);
+  border-radius: var(--radius-md);
+  background: color-mix(in srgb, var(--accent) 4%, var(--surface));
+}
+
+.course-context-grid {
+  display: grid;
+  grid-template-columns: minmax(160px, 1.2fr) minmax(170px, 1.3fr) minmax(120px, 0.75fr) minmax(110px, 0.7fr) auto;
+  gap: 10px;
+  align-items: end;
+}
+
+.course-context-list {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 8px;
+}
+
+.course-context-chip {
+  display: inline-flex;
+  align-items: center;
+  gap: 8px;
+  padding: 8px 10px;
+  border-radius: 999px;
+  background: var(--surface);
+  border: 1px solid var(--line);
+  color: var(--ink);
+  font-size: 0.8rem;
+  font-weight: 700;
+}
+
+.course-context-remove {
+  border: 0;
+  border-radius: 999px;
+  background: color-mix(in srgb, var(--accent) 12%, transparent);
+  color: var(--ink);
+  cursor: pointer;
+  font: inherit;
+  font-weight: 800;
+  line-height: 1;
+  padding: 3px 7px;
+}
+
 .review-form input[readonly] {
   background: color-mix(in srgb, var(--accent) 8%, var(--bg-subtle));
   color: var(--accent-text);
@@ -1984,6 +2032,7 @@ select.field, .field select {
   .about-section      { grid-template-columns: 1fr; }
   .detail-metrics     { grid-template-columns: repeat(2, 1fr); }
   .review-ratings-grid{ grid-template-columns: repeat(2, 1fr); }
+  .course-context-grid{ grid-template-columns: 1fr 1fr; }
   .review-toolbar     { grid-template-columns: repeat(2, minmax(0, 1fr)); }
 }
 
@@ -2025,6 +2074,7 @@ select.field, .field select {
   .theme-toggle { padding: 0 10px; font-size: 0.78rem; }
   .stat-strip { grid-template-columns: 1fr 1fr; }
   .review-ratings-grid { grid-template-columns: 1fr; }
+  .course-context-grid { grid-template-columns: 1fr; }
   .review-toolbar { grid-template-columns: 1fr; }
   .sources-section { padding: 24px 20px; }
   .hero { padding: 28px 20px; }

@@ -144,7 +144,7 @@ def create_export_bundle() -> tuple[Path, Path]:
         [
             "id", "item_id", "item_type", "author", "created_at", "overall",
             "metric_a", "metric_b", "metric_c", "semester", "taken_year",
-            "academic_id", "academic_name", "upvotes", "downvotes", "comment",
+            "academic_id", "academic_name", "course_contexts", "upvotes", "downvotes", "comment",
         ],
     )
     write_csv(

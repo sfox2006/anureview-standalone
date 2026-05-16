@@ -425,6 +425,40 @@
                           <input id="review-academic-other" class="is-hidden" type="text" maxlength="120" placeholder="Choose Other, then write the academic name here">
                         </label>
 
+                        <div id="review-course-context-field" class="course-context-field is-hidden">
+                          <span class="field-label">Courses you had this academic for <span class="field-optional">(optional, add multiple)</span></span>
+                          <div class="course-context-grid">
+                            <label class="field">
+                              <span class="field-label">Search course</span>
+                              <input id="review-course-context-search" type="text" maxlength="80" placeholder="Search course code or title">
+                            </label>
+                            <label class="field">
+                              <span class="field-label">Course</span>
+                              <select id="review-course-context-course">
+                                <option value="">Start typing to search</option>
+                              </select>
+                            </label>
+                            <label class="field">
+                              <span class="field-label">Semester <span class="field-optional">(optional)</span></span>
+                              <select id="review-course-context-semester">
+                                <option value="">Not specified</option>
+                                <option value="Summer">Summer</option>
+                                <option value="Winter">Winter</option>
+                                <option value="Semester 1">Semester 1</option>
+                                <option value="Semester 2">Semester 2</option>
+                              </select>
+                            </label>
+                            <label class="field">
+                              <span class="field-label">Year <span class="field-optional">(optional)</span></span>
+                              <select id="review-course-context-year">
+                                <option value="">Not specified</option>
+                              </select>
+                            </label>
+                            <button id="review-course-context-add" class="btn-secondary" type="button">Add course</button>
+                          </div>
+                          <div id="review-course-context-list" class="course-context-list"></div>
+                        </div>
+
                         <label class="field">
                           <span class="field-label">Comment</span>
                           <textarea id="review-comment" rows="5" maxlength="600" placeholder="Be specific and fair. No racism or swear words."></textarea>
@@ -489,6 +523,40 @@
                           </select>
                           <input id="linked-review-academic-other" class="is-hidden" type="text" maxlength="120" placeholder="Choose Other, then write the academic name here">
                         </label>
+
+                        <div id="linked-review-course-context-field" class="course-context-field is-hidden">
+                          <span class="field-label">Courses you had this academic for <span class="field-optional">(optional, add multiple)</span></span>
+                          <div class="course-context-grid">
+                            <label class="field">
+                              <span class="field-label">Search course</span>
+                              <input id="linked-review-course-context-search" type="text" maxlength="80" placeholder="Search course code or title">
+                            </label>
+                            <label class="field">
+                              <span class="field-label">Course</span>
+                              <select id="linked-review-course-context-course">
+                                <option value="">Start typing to search</option>
+                              </select>
+                            </label>
+                            <label class="field">
+                              <span class="field-label">Semester <span class="field-optional">(optional)</span></span>
+                              <select id="linked-review-course-context-semester">
+                                <option value="">Not specified</option>
+                                <option value="Summer">Summer</option>
+                                <option value="Winter">Winter</option>
+                                <option value="Semester 1">Semester 1</option>
+                                <option value="Semester 2">Semester 2</option>
+                              </select>
+                            </label>
+                            <label class="field">
+                              <span class="field-label">Year <span class="field-optional">(optional)</span></span>
+                              <select id="linked-review-course-context-year">
+                                <option value="">Not specified</option>
+                              </select>
+                            </label>
+                            <button id="linked-review-course-context-add" class="btn-secondary" type="button">Add course</button>
+                          </div>
+                          <div id="linked-review-course-context-list" class="course-context-list"></div>
+                        </div>
 
                         <label class="field">
                           <span class="field-label">Comment</span>
