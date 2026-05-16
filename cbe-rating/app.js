@@ -82,6 +82,7 @@ const elements = {
   capTab: document.getElementById("cap-tab"),
   csmTab: document.getElementById("csm-tab"),
   cssTab: document.getElementById("css-tab"),
+  allTypesTab: document.getElementById("all-types-tab"),
   coursesTab: document.getElementById("courses-tab"),
   professorsTab: document.getElementById("professors-tab"),
   searchForm: document.getElementById("directory-search-form"),
@@ -1341,6 +1342,7 @@ function syncCollegeTabs() {
 }
 
 function syncTypeTabs() {
+  elements.allTypesTab.classList.toggle("is-active", !state.type);
   elements.coursesTab.classList.toggle("is-active", state.type === "course");
   elements.professorsTab.classList.toggle("is-active", state.type === "academic");
 }
@@ -3173,7 +3175,7 @@ function bindFilters() {
     renderDetail();
   });
 
-  [elements.coursesTab, elements.professorsTab].forEach((button) => {
+  [elements.allTypesTab, elements.coursesTab, elements.professorsTab].forEach((button) => {
     button.addEventListener("click", () => {
       state.type = button.dataset.type;
       syncTypeTabs();
@@ -3352,7 +3354,6 @@ async function init() {
   enhanceStaticMarkup();
   initSelects();
   syncCollegeTabs();
-  state.type = "course";
   syncTypeTabs();
   updateDirectorySortOptions();
   renderSources();
