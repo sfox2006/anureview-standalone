@@ -420,6 +420,8 @@ def report_to_supabase_row(report: dict) -> dict:
         "id": report["id"],
         "review_id": report["reviewId"],
         "item_id": report["itemId"],
+        "issue": report.get("issue", ""),
+        "explanation": report.get("explanation", ""),
         "reason": report["reason"],
         "created_at": report["createdAt"],
         "status": report["status"],
@@ -431,6 +433,8 @@ def report_from_supabase_row(row: dict) -> dict:
         "id": row.get("id", ""),
         "reviewId": row.get("review_id", ""),
         "itemId": row.get("item_id", ""),
+        "issue": row.get("issue", "") or "",
+        "explanation": row.get("explanation", "") or "",
         "reason": row.get("reason", ""),
         "createdAt": row.get("created_at", ""),
         "status": row.get("status", "open"),
@@ -753,12 +757,29 @@ def build_report_record(payload: dict) -> dict:
     if not review_id or not item_id:
         raise ValueError("Report must include reviewId and itemId.")
 
-    reason = sanitize_text(str(payload.get("reason", "Needs moderator review")), 180)
+    allowed_issues = {
+        "Abuse or harassment",
+        "Racism or discrimination",
+        "Swear words or explicit language",
+        "False or misleading claim",
+        "Personal information",
+        "Spam or irrelevant content",
+        "Other",
+    }
+    issue = sanitize_text(str(payload.get("issue", "")), 80)
+    explanation = sanitize_text(str(payload.get("explanation", "")), 600)
+    if issue not in allowed_issues:
+        raise ValueError("Choose the issue this review falls under.")
+    if not explanation:
+        raise ValueError("Write a short explanation for the report.")
+    reason = f"{issue}: {explanation}"
     return {
         "id": f"report-{datetime.now().strftime('%Y%m%d%H%M%S%f')}",
         "reviewId": review_id,
         "itemId": item_id,
-        "reason": reason or "Needs moderator review",
+        "issue": issue,
+        "explanation": explanation,
+        "reason": reason,
         "createdAt": datetime.now().isoformat(timespec="seconds"),
         "status": "open",
     }

@@ -150,7 +150,7 @@ def create_export_bundle() -> tuple[Path, Path]:
     write_csv(
         run_dir / "reports.csv",
         reports,
-        ["id", "review_id", "item_id", "reason", "created_at", "status"],
+        ["id", "review_id", "item_id", "issue", "explanation", "reason", "created_at", "status"],
     )
 
     latest_dir.mkdir(parents=True, exist_ok=True)

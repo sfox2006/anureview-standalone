@@ -23,7 +23,8 @@ const state = {
   welcomeDismissed: false,
   accountEditing: false,
   pendingVoteIds: new Set(),
-  localReviewVotes: {}
+  localReviewVotes: {},
+  pendingReport: null
 };
 
 const analytics = {
@@ -236,6 +237,14 @@ const elements = {
   authResetPassword: document.getElementById("auth-reset-password"),
   authFeedback: document.getElementById("auth-feedback"),
   authSubmit: document.getElementById("auth-submit"),
+  reportModal: document.getElementById("report-modal"),
+  reportBackdrop: document.getElementById("report-backdrop"),
+  reportClose: document.getElementById("report-close"),
+  reportForm: document.getElementById("report-form"),
+  reportIssue: document.getElementById("report-issue"),
+  reportExplanation: document.getElementById("report-explanation"),
+  reportFeedback: document.getElementById("report-feedback"),
+  reportSubmit: document.getElementById("report-submit"),
   welcomeModal: document.getElementById("welcome-modal"),
   welcomeBackdrop: document.getElementById("welcome-backdrop"),
   welcomeClose: document.getElementById("welcome-close"),
@@ -413,12 +422,18 @@ function itemDisplayName(item) {
   return item.type === "course" ? `${item.code} - ${item.name}` : item.name;
 }
 
+function academicIdentityName(name) {
+  return normalizeSearch(name)
+    .replace(/^(professor|prof|associate professor|a prof|aspr|dr|doctor|mr|mrs|ms|miss|mx) /, "")
+    .trim();
+}
+
 function itemIdentityKey(item) {
   if (!item) {
     return "";
   }
   if (item.type === "academic") {
-    return `academic:${normalizeSearch(item.name)}`;
+    return `academic:${academicIdentityName(item.name)}`;
   }
   return `course:${item.code || item.id}`;
 }
@@ -1651,7 +1666,20 @@ function renderFacts(item) {
 }
 
 async function reportReview(review, triggerButton) {
-  triggerButton.disabled = true;
+  const issue = elements.reportIssue.value.trim();
+  const explanation = elements.reportExplanation.value.trim();
+  if (!issue) {
+    updateReportFeedback("Please select the issue this review falls under.", true);
+    elements.reportIssue.focus();
+    return;
+  }
+  if (!explanation) {
+    updateReportFeedback("Please write a short explanation for the report.", true);
+    elements.reportExplanation.focus();
+    return;
+  }
+  elements.reportSubmit.disabled = true;
+  updateReportFeedback("");
   try {
     const response = await fetch("/api/anreview/reports", {
       method: "POST",
@@ -1659,7 +1687,8 @@ async function reportReview(review, triggerButton) {
       body: JSON.stringify({
         reviewId: review.id,
         itemId: review.itemId,
-        reason: "User flagged review for moderator review"
+        issue,
+        explanation
       })
     });
 
@@ -1672,9 +1701,42 @@ async function reportReview(review, triggerButton) {
     elements.moderationCount.textContent = String(state.reportCount);
     updateFeedback("Report submitted successfully. This review is now flagged for moderator review.");
     triggerButton.textContent = "Reported";
+    triggerButton.disabled = true;
+    closeReportModal();
   } catch (error) {
-    updateFeedback(error.message || "Unable to report review right now.", true);
-    triggerButton.disabled = false;
+    updateReportFeedback(error.message || "Unable to report review right now.", true);
+  } finally {
+    elements.reportSubmit.disabled = false;
+  }
+}
+
+function updateReportFeedback(message, isError = false) {
+  elements.reportFeedback.textContent = message;
+  elements.reportFeedback.classList.toggle("is-hidden", !message);
+  elements.reportFeedback.classList.toggle("is-error", Boolean(message && isError));
+  elements.reportFeedback.classList.toggle("is-success", Boolean(message && !isError));
+}
+
+function openReportModal(review, triggerButton) {
+  state.pendingReport = { review, triggerButton };
+  elements.reportIssue.value = "";
+  elements.reportExplanation.value = "";
+  updateReportFeedback("");
+  elements.reportModal.classList.remove("is-hidden");
+  elements.reportModal.setAttribute("aria-hidden", "false");
+  document.body.classList.add("modal-open");
+  elements.reportIssue.focus();
+}
+
+function closeReportModal() {
+  elements.reportModal.classList.add("is-hidden");
+  elements.reportModal.setAttribute("aria-hidden", "true");
+  state.pendingReport = null;
+  if (
+    (!elements.authModal || elements.authModal.classList.contains("is-hidden")) &&
+    (!elements.welcomeModal || elements.welcomeModal.classList.contains("is-hidden"))
+  ) {
+    document.body.classList.remove("modal-open");
   }
 }
 
@@ -2004,7 +2066,7 @@ function renderReviews(item) {
     reportButton.className = "report-button";
     reportButton.textContent = "Report";
     reportButton.addEventListener("click", () => {
-      reportReview(review, reportButton);
+      openReportModal(review, reportButton);
     });
 
     if (reviewBelongsToCurrentUser(review)) {
@@ -3107,6 +3169,16 @@ function bindFilters() {
   elements.reviewSignout.addEventListener("click", handleSignOut);
   elements.authClose.addEventListener("click", closeAuthModal);
   elements.authModalBackdrop.addEventListener("click", closeAuthModal);
+  elements.reportClose.addEventListener("click", closeReportModal);
+  elements.reportBackdrop.addEventListener("click", closeReportModal);
+  elements.reportForm.addEventListener("submit", (event) => {
+    event.preventDefault();
+    if (!state.pendingReport) {
+      closeReportModal();
+      return;
+    }
+    reportReview(state.pendingReport.review, state.pendingReport.triggerButton);
+  });
   elements.authModeSignIn.addEventListener("click", () => {
     authState.pendingVerification = null;
     authState.pendingPasswordChange = null;

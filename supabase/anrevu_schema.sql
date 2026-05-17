@@ -75,10 +75,15 @@ create table if not exists public.anreview_reports (
   id text primary key,
   review_id text not null,
   item_id text not null,
+  issue text not null default '',
+  explanation text not null default '',
   reason text not null,
   created_at timestamptz not null,
   status text not null default 'open'
 );
+
+alter table public.anreview_reports add column if not exists issue text not null default '';
+alter table public.anreview_reports add column if not exists explanation text not null default '';
 
 create index if not exists anreview_reports_status_idx
   on public.anreview_reports (status, created_at desc);

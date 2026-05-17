@@ -718,6 +718,41 @@
       </div>
     </div>
 
+    <div id="report-modal" class="auth-modal is-hidden" aria-hidden="true">
+      <div id="report-backdrop" class="auth-modal-backdrop"></div>
+      <div class="auth-modal-dialog report-modal-dialog" role="dialog" aria-modal="true" aria-labelledby="report-modal-title">
+        <div class="auth-modal-head">
+          <div>
+            <p class="eyebrow">Report review</p>
+            <h3 id="report-modal-title">Tell us what is wrong</h3>
+          </div>
+          <button id="report-close" class="auth-close" type="button" aria-label="Close report dialog">×</button>
+        </div>
+        <p class="auth-modal-copy">Choose the issue that best fits, then briefly explain why the review falls under it. This helps moderation decisions stay fair and consistent.</p>
+        <form id="report-form" class="auth-form">
+          <label class="field">
+            <span class="field-label">Issue</span>
+            <select id="report-issue" required>
+              <option value="">Select an issue</option>
+              <option value="Abuse or harassment">Abuse or harassment</option>
+              <option value="Racism or discrimination">Racism or discrimination</option>
+              <option value="Swear words or explicit language">Swear words or explicit language</option>
+              <option value="False or misleading claim">False or misleading claim</option>
+              <option value="Personal information">Personal information</option>
+              <option value="Spam or irrelevant content">Spam or irrelevant content</option>
+              <option value="Other">Other</option>
+            </select>
+          </label>
+          <label class="field">
+            <span class="field-label">Why does it fall under this issue?</span>
+            <textarea id="report-explanation" rows="5" maxlength="600" required placeholder="Briefly explain what should be reviewed."></textarea>
+          </label>
+          <p id="report-feedback" class="form-feedback is-hidden" aria-live="polite" role="alert"></p>
+          <button id="report-submit" class="btn-primary btn-submit" type="submit">Submit report</button>
+        </form>
+      </div>
+    </div>
+
     <div id="welcome-modal" class="auth-modal is-hidden" aria-hidden="true">
       <div id="welcome-backdrop" class="auth-modal-backdrop"></div>
       <div class="auth-modal-dialog welcome-dialog" role="dialog" aria-modal="true" aria-labelledby="welcome-title">

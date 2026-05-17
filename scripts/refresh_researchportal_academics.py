@@ -147,7 +147,9 @@ def slugify(text: str) -> str:
 def normalize_person_name(text: str) -> str:
     text = unicodedata.normalize("NFKD", text or "").encode("ascii", "ignore").decode("ascii")
     text = re.sub(r"[^a-zA-Z0-9 ]+", " ", text.lower())
-    return re.sub(r"\s+", " ", text).strip()
+    text = re.sub(r"\s+", " ", text).strip()
+    text = re.sub(r"^(professor|prof|associate professor|a prof|aspr|dr|doctor|mr|mrs|ms|miss|mx)\s+", "", text)
+    return text.strip()
 
 
 def school_code_for(name: str) -> str:
