@@ -5,7 +5,7 @@ const state = {
   view: "browse",
   college: "all",
   search: "",
-  type: "all",
+  type: "",
   school: "all",
   level: "all",
   sort: "reviews",
@@ -3353,6 +3353,9 @@ function initSelects() {
 async function init() {
   enhanceStaticMarkup();
   initSelects();
+  state.type = "";
+  state.search = "";
+  elements.searchInput.value = "";
   syncCollegeTabs();
   syncTypeTabs();
   updateDirectorySortOptions();
