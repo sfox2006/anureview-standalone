@@ -43,6 +43,10 @@ const authState = {
 };
 
 const GUEST_REVIEWER_STORAGE_KEY = "anrevu-guest-reviewer-name";
+const MAX_REVIEW_MEDIA_FILES = 3;
+const MAX_REVIEW_IMAGE_BYTES = 5 * 1024 * 1024;
+const MAX_REVIEW_VIDEO_BYTES = 15 * 1024 * 1024;
+const MAX_REVIEW_VIDEO_SECONDS = 5;
 
 const pseudonymAdjectives = [
   "brave",
@@ -148,6 +152,7 @@ const elements = {
   reviewMetricCLabel: document.getElementById("review-metric-c-label"),
   reviewMetricC: document.getElementById("review-metric-c"),
   reviewComment: document.getElementById("review-comment"),
+  reviewMedia: document.getElementById("review-media"),
   linkedReviewToggleWrap: document.getElementById("linked-review-toggle-wrap"),
   linkedReviewEnabled: document.getElementById("linked-review-enabled"),
   linkedReviewToggleCopy: document.getElementById("linked-review-toggle-copy"),
@@ -183,6 +188,7 @@ const elements = {
   linkedReviewMetricCLabel: document.getElementById("linked-review-metric-c-label"),
   linkedReviewMetricC: document.getElementById("linked-review-metric-c"),
   linkedReviewComment: document.getElementById("linked-review-comment"),
+  linkedReviewMedia: document.getElementById("linked-review-media"),
   reviewFeedback: document.getElementById("review-feedback"),
   reviewSubmit: document.getElementById("review-submit"),
   reviewCancelEdit: document.getElementById("review-cancel-edit"),
@@ -634,6 +640,33 @@ function reviewCourseContextLabels(review) {
       return courseLabel ? `${courseLabel}${when ? ` (${when})` : ""}` : "";
     })
     .filter(Boolean);
+}
+
+function renderReviewMedia(review) {
+  const mediaItems = Array.isArray(review.media) ? review.media : [];
+  if (!mediaItems.length) {
+    return null;
+  }
+  const gallery = document.createElement("div");
+  gallery.className = "review-media-gallery";
+  mediaItems.forEach((media) => {
+    if (media.type === "video") {
+      const video = document.createElement("video");
+      video.controls = true;
+      video.preload = "metadata";
+      video.src = media.url;
+      video.className = "review-media-item";
+      gallery.appendChild(video);
+      return;
+    }
+    const image = document.createElement("img");
+    image.src = media.url;
+    image.alt = media.name || "Review attachment";
+    image.loading = "lazy";
+    image.className = "review-media-item";
+    gallery.appendChild(image);
+  });
+  return gallery;
 }
 
 function average(values) {
@@ -2082,7 +2115,12 @@ function renderReviews(item) {
 
     actionBar.appendChild(reportButton);
     footer.append(voteBar, actionBar);
-    card.append(authorRow, meta, metricRow, quote, footer);
+    const mediaGallery = renderReviewMedia(review);
+    if (mediaGallery) {
+      card.append(authorRow, meta, metricRow, quote, mediaGallery, footer);
+    } else {
+      card.append(authorRow, meta, metricRow, quote, footer);
+    }
     elements.reviewList.appendChild(card);
   });
 }
@@ -2159,6 +2197,82 @@ function authHeaders() {
     };
   }
   return { "Content-Type": "application/json" };
+}
+
+function authUploadHeaders() {
+  return authState.session?.access_token
+    ? { Authorization: `Bearer ${authState.session.access_token}` }
+    : {};
+}
+
+function selectedMediaFiles(input) {
+  return [...(input?.files || [])];
+}
+
+function videoDuration(file) {
+  return new Promise((resolve, reject) => {
+    const video = document.createElement("video");
+    const objectUrl = URL.createObjectURL(file);
+    video.preload = "metadata";
+    video.onloadedmetadata = () => {
+      URL.revokeObjectURL(objectUrl);
+      resolve(Number(video.duration || 0));
+    };
+    video.onerror = () => {
+      URL.revokeObjectURL(objectUrl);
+      reject(new Error(`Unable to read the video length for ${file.name}.`));
+    };
+    video.src = objectUrl;
+  });
+}
+
+async function validateMediaFiles(input) {
+  const files = selectedMediaFiles(input);
+  if (!files.length) {
+    return [];
+  }
+  if (files.length > MAX_REVIEW_MEDIA_FILES) {
+    throw new Error(`Upload up to ${MAX_REVIEW_MEDIA_FILES} files per review.`);
+  }
+  for (const file of files) {
+    const isImage = file.type.startsWith("image/");
+    const isVideo = file.type.startsWith("video/");
+    if (!isImage && !isVideo) {
+      throw new Error("Only photos and short videos can be uploaded.");
+    }
+    if (isImage && file.size > MAX_REVIEW_IMAGE_BYTES) {
+      throw new Error("Each photo must be 5 MB or smaller.");
+    }
+    if (isVideo) {
+      if (file.size > MAX_REVIEW_VIDEO_BYTES) {
+        throw new Error("Each video must be 15 MB or smaller.");
+      }
+      const duration = await videoDuration(file);
+      if (duration > MAX_REVIEW_VIDEO_SECONDS + 0.25) {
+        throw new Error("Videos must be no longer than 5 seconds.");
+      }
+    }
+  }
+  return files;
+}
+
+async function uploadMediaFiles(input) {
+  const files = await validateMediaFiles(input);
+  if (!files.length) {
+    return [];
+  }
+  const formData = new FormData();
+  files.forEach((file) => formData.append("files", file));
+  const response = await fetch("/api/anreview/media", {
+    method: "POST",
+    headers: authUploadHeaders(),
+    body: formData
+  });
+  const payload = await response.json().catch(() => ({}));
+  if (!response.ok || !payload.ok) {
+    throw new Error(payload.error || "Unable to upload media.");
+  }
+  return payload.media || [];
 }
 
 function isLoggedIn() {
@@ -2751,6 +2865,13 @@ async function handleReviewSubmit(event) {
   try {
     const wasEditing = Boolean(state.editingReviewId);
     const savedReviews = [];
+    const hasMainMedia = selectedMediaFiles(elements.reviewMedia).length > 0;
+    const hasLinkedMedia = saveLinkedReview && selectedMediaFiles(elements.linkedReviewMedia).length > 0;
+    if (hasMainMedia || hasLinkedMedia) {
+      updateFeedback("Uploading media attachments...");
+    }
+    const mainMedia = hasMainMedia ? await uploadMediaFiles(elements.reviewMedia) : [];
+    const linkedMedia = hasLinkedMedia ? await uploadMediaFiles(elements.linkedReviewMedia) : [];
     const mainMetricA = Number(elements.reviewMetricA.value);
     const mainMetricB = Number(elements.reviewMetricB.value);
     const mainMetricC = Number(elements.reviewMetricC.value);
@@ -2767,6 +2888,7 @@ async function handleReviewSubmit(event) {
       academicId: selectedAcademic?.id || "",
       academicName: selectedAcademicName,
       courseContexts: item.type === "academic" ? state.reviewCourseContexts : [],
+      media: mainMedia,
       postAnonymously,
       tags: [],
       comment
@@ -2793,6 +2915,7 @@ async function handleReviewSubmit(event) {
         academicId: linkedSelectedAcademic?.id || "",
         academicName: linkedSelectedAcademicName,
         courseContexts: linkedTarget.type === "academic" ? state.linkedReviewCourseContexts : [],
+        media: linkedMedia,
         postAnonymously,
         tags: [],
         comment: linkedComment
@@ -3235,6 +3358,16 @@ function bindFilters() {
     updateFeedback("Edit cancelled.");
   });
   elements.reviewAnonymous.addEventListener("change", syncReviewIdentity);
+  [elements.reviewMedia, elements.linkedReviewMedia].forEach((input) => {
+    input.addEventListener("change", async () => {
+      try {
+        await validateMediaFiles(input);
+      } catch (error) {
+        input.value = "";
+        updateFeedback(error.message || "That media file cannot be uploaded.", true);
+      }
+    });
+  });
   elements.searchForm.addEventListener("submit", (event) => {
     event.preventDefault();
     runDirectorySearch();

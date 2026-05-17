@@ -1,5 +1,18 @@
 create extension if not exists pgcrypto;
 
+insert into storage.buckets (id, name, public, file_size_limit, allowed_mime_types)
+values (
+  'anrevu-review-media',
+  'anrevu-review-media',
+  true,
+  15728640,
+  array['image/jpeg', 'image/png', 'image/webp', 'image/gif', 'video/mp4', 'video/webm', 'video/quicktime']
+)
+on conflict (id) do update
+set public = true,
+    file_size_limit = excluded.file_size_limit,
+    allowed_mime_types = excluded.allowed_mime_types;
+
 create table if not exists public.anreview_reviews (
   id text primary key,
   item_id text not null,
@@ -24,6 +37,7 @@ create table if not exists public.anreview_reviews (
   upvotes integer not null default 0,
   downvotes integer not null default 0,
   tags jsonb not null default '[]'::jsonb,
+  media jsonb not null default '[]'::jsonb,
   comment text not null,
   inserted_at timestamptz not null default timezone('utc', now())
 );
@@ -35,6 +49,7 @@ alter table public.anreview_reviews add column if not exists taken_year text not
 alter table public.anreview_reviews add column if not exists academic_id text not null default '';
 alter table public.anreview_reviews add column if not exists academic_name text not null default '';
 alter table public.anreview_reviews add column if not exists course_contexts jsonb not null default '[]'::jsonb;
+alter table public.anreview_reviews add column if not exists media jsonb not null default '[]'::jsonb;
 alter table public.anreview_reviews add column if not exists user_id uuid;
 alter table public.anreview_reviews add column if not exists user_email text not null default '';
 alter table public.anreview_reviews add column if not exists display_name text not null default '';

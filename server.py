@@ -2,9 +2,11 @@ from __future__ import annotations
 
 import json
 import hashlib
+import cgi
 import os
 import re
 import tempfile
+import uuid
 from datetime import datetime
 from html import unescape
 from http.server import SimpleHTTPRequestHandler, ThreadingHTTPServer
@@ -78,6 +80,20 @@ SUPABASE_REPORTS_TABLE = os.environ.get("SUPABASE_REPORTS_TABLE", "anreview_repo
 SUPABASE_PROFILES_TABLE = os.environ.get("SUPABASE_PROFILES_TABLE", "anreview_profiles")
 SUPABASE_REVIEW_VOTES_TABLE = os.environ.get("SUPABASE_REVIEW_VOTES_TABLE", "anreview_review_votes")
 GA_MEASUREMENT_ID = os.environ.get("GA_MEASUREMENT_ID", "").strip()
+SUPABASE_MEDIA_BUCKET = os.environ.get("SUPABASE_MEDIA_BUCKET", "anrevu-review-media").strip()
+MAX_MEDIA_FILES = 3
+MAX_IMAGE_BYTES = 5 * 1024 * 1024
+MAX_VIDEO_BYTES = 15 * 1024 * 1024
+MAX_TOTAL_MEDIA_BYTES = 25 * 1024 * 1024
+ALLOWED_MEDIA_TYPES = {
+    "image/jpeg": "jpg",
+    "image/png": "png",
+    "image/webp": "webp",
+    "image/gif": "gif",
+    "video/mp4": "mp4",
+    "video/webm": "webm",
+    "video/quicktime": "mov",
+}
 
 
 def read_json_file(path: Path, default: list[dict]) -> list[dict]:
@@ -191,6 +207,34 @@ def call_supabase(path: str, method: str = "GET", payload: dict | list | None = 
         raise RuntimeError(f"Supabase request failed: {error.code} {detail or error.reason}") from error
     except URLError as error:
         raise RuntimeError(f"Supabase request failed: {error.reason}") from error
+
+
+def upload_supabase_storage_object(object_path: str, content_type: str, data: bytes) -> str:
+    if not supabase_enabled():
+        raise ValueError("Media uploads require Supabase storage to be configured.")
+    if not SUPABASE_MEDIA_BUCKET:
+        raise ValueError("Media uploads require a Supabase storage bucket.")
+    headers = {
+        "apikey": SUPABASE_SERVICE_ROLE_KEY,
+        "Authorization": f"Bearer {SUPABASE_SERVICE_ROLE_KEY}",
+        "Content-Type": content_type,
+        "x-upsert": "false",
+    }
+    request = Request(
+        f"{SUPABASE_URL}/storage/v1/object/{SUPABASE_MEDIA_BUCKET}/{quote(object_path, safe='/')}",
+        method="POST",
+        headers=headers,
+        data=data,
+    )
+    try:
+        with urlopen(request, timeout=30):
+            pass
+    except HTTPError as error:
+        detail = error.read().decode("utf-8", errors="ignore")
+        raise RuntimeError(f"Supabase media upload failed: {error.code} {detail or error.reason}") from error
+    except URLError as error:
+        raise RuntimeError(f"Supabase media upload failed: {error.reason}") from error
+    return f"{SUPABASE_URL}/storage/v1/object/public/{SUPABASE_MEDIA_BUCKET}/{quote(object_path, safe='/')}"
 
 
 def call_supabase_auth(path: str, access_token: str) -> dict:
@@ -382,6 +426,7 @@ def review_to_supabase_row(review: dict) -> dict:
         "upvotes": review.get("upvotes", 0),
         "downvotes": review.get("downvotes", 0),
         "tags": review["tags"],
+        "media": review.get("media", []),
         "comment": review["comment"],
     }
 
@@ -411,6 +456,7 @@ def review_from_supabase_row(row: dict) -> dict:
         "upvotes": row.get("upvotes", 0) or 0,
         "downvotes": row.get("downvotes", 0) or 0,
         "tags": row.get("tags", []) or [],
+        "media": row.get("media", []) or [],
         "comment": row.get("comment", ""),
     }
 
@@ -553,6 +599,93 @@ def sanitize_course_contexts(raw_contexts: object, item_type: str) -> list[dict]
     return contexts
 
 
+def sanitize_review_media(raw_media: object) -> list[dict]:
+    if not isinstance(raw_media, list):
+        return []
+    media: list[dict] = []
+    for raw in raw_media[:MAX_MEDIA_FILES]:
+        if not isinstance(raw, dict):
+            continue
+        media_type = sanitize_text(str(raw.get("type", "")), 10)
+        content_type = sanitize_text(str(raw.get("contentType", "")), 80)
+        url = str(raw.get("url", "")).strip()
+        path = sanitize_text(str(raw.get("path", "")), 240)
+        name = sanitize_text(str(raw.get("name", "")), 120)
+        size = int(raw.get("size", 0) or 0)
+        if media_type not in {"image", "video"}:
+            continue
+        if content_type not in ALLOWED_MEDIA_TYPES:
+            continue
+        if not url.startswith(f"{SUPABASE_URL}/storage/v1/object/public/{SUPABASE_MEDIA_BUCKET}/"):
+            continue
+        media.append({
+            "type": media_type,
+            "url": url,
+            "path": path,
+            "name": name,
+            "contentType": content_type,
+            "size": size,
+        })
+    return media
+
+
+def upload_review_media(handler: SimpleHTTPRequestHandler) -> list[dict]:
+    content_length = int(handler.headers.get("Content-Length", "0"))
+    if content_length <= 0:
+        raise ValueError("Choose a photo or video to upload.")
+    if content_length > MAX_TOTAL_MEDIA_BYTES:
+        raise ValueError("Media uploads are too large. Upload up to 25 MB total.")
+    content_type = handler.headers.get("Content-Type", "")
+    if "multipart/form-data" not in content_type:
+        raise ValueError("Media upload must use multipart form data.")
+
+    form = cgi.FieldStorage(
+        fp=handler.rfile,
+        headers=handler.headers,
+        environ={
+            "REQUEST_METHOD": "POST",
+            "CONTENT_TYPE": content_type,
+            "CONTENT_LENGTH": str(content_length),
+        },
+    )
+    fields = form["files"] if "files" in form else []
+    if not isinstance(fields, list):
+        fields = [fields]
+    fields = [field for field in fields if getattr(field, "filename", "")]
+    if not fields:
+        raise ValueError("Choose a photo or video to upload.")
+    if len(fields) > MAX_MEDIA_FILES:
+        raise ValueError(f"Upload up to {MAX_MEDIA_FILES} files per review.")
+
+    uploaded: list[dict] = []
+    total_bytes = 0
+    for field in fields:
+        file_data = field.file.read()
+        total_bytes += len(file_data)
+        if total_bytes > MAX_TOTAL_MEDIA_BYTES:
+            raise ValueError("Media uploads are too large. Upload up to 25 MB total.")
+        content_type = (field.type or "").split(";")[0].strip().lower()
+        if content_type not in ALLOWED_MEDIA_TYPES:
+            raise ValueError("Only image files and MP4/WebM/MOV videos can be uploaded.")
+        media_type = "video" if content_type.startswith("video/") else "image"
+        max_bytes = MAX_VIDEO_BYTES if media_type == "video" else MAX_IMAGE_BYTES
+        if len(file_data) > max_bytes:
+            limit_mb = max_bytes // (1024 * 1024)
+            raise ValueError(f"{media_type.capitalize()} files must be {limit_mb} MB or smaller.")
+        extension = ALLOWED_MEDIA_TYPES[content_type]
+        object_path = f"reviews/{datetime.now().strftime('%Y/%m/%d')}/{uuid.uuid4().hex}.{extension}"
+        public_url = upload_supabase_storage_object(object_path, content_type, file_data)
+        uploaded.append({
+            "type": media_type,
+            "url": public_url,
+            "path": object_path,
+            "name": sanitize_text(str(field.filename), 120),
+            "contentType": content_type,
+            "size": len(file_data),
+        })
+    return uploaded
+
+
 def save_review_vote(review_id: str, direction: str, auth_user: dict | None = None) -> dict:
     if direction not in {"up", "down"}:
         raise ValueError("Vote direction must be 'up' or 'down'.")
@@ -682,6 +815,7 @@ def build_review_record(payload: dict, auth_user: dict | None = None, profile: d
     academic_id = sanitize_text(str(payload.get("academicId", "")), 80) if item_type == "course" else ""
     academic_name = sanitize_text(str(payload.get("academicName", "")), 120) if item_type == "course" else ""
     course_contexts = sanitize_course_contexts(payload.get("courseContexts", []), item_type)
+    media = sanitize_review_media(payload.get("media", []))
 
     ratings = {}
     for field in ("overall", "metricA", "metricB", "metricC"):
@@ -711,6 +845,7 @@ def build_review_record(payload: dict, auth_user: dict | None = None, profile: d
         "academicId": academic_id,
         "academicName": academic_name,
         "courseContexts": course_contexts,
+        "media": media,
         "upvotes": 0,
         "downvotes": 0,
         "tags": tags,
@@ -726,6 +861,8 @@ def update_review_record(existing_review: dict, payload: dict, auth_user: dict, 
     updated["createdAt"] = existing_review.get("createdAt", updated["createdAt"])
     updated["upvotes"] = int(existing_review.get("upvotes", 0))
     updated["downvotes"] = int(existing_review.get("downvotes", 0))
+    if not updated.get("media") and existing_review.get("media"):
+        updated["media"] = existing_review.get("media", [])
     return updated
 
 
@@ -954,6 +1091,11 @@ class AppHandler(SimpleHTTPRequestHandler):
     def do_POST(self) -> None:
         parsed = urlparse(self.path)
         try:
+            if parsed.path == "/api/anreview/media":
+                media = upload_review_media(self)
+                send_json(self, {"ok": True, "media": media}, status=201)
+                return
+
             payload = read_request_json(self)
             if parsed.path == "/api/anreview/admin/clear":
                 provided_secret = self.headers.get("X-ANREVIEW-ADMIN", "")
